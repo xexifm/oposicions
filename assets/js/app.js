@@ -66,6 +66,24 @@ window.addEventListener('hashchange', render);
 window.addEventListener('DOMContentLoaded', render);
 render();
 
+/* ---------- estat de connexió: offline + actualització en reconnectar ---------- */
+function toast(msg, ms=3200){
+  let t = byId('toast');
+  if(!t){ t=document.createElement('div'); t.id='toast'; t.className='toast'; document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toast._t); toast._t = setTimeout(()=>t.classList.remove('show'), ms);
+}
+window.addEventListener('offline', ()=> toast('Sense connexió — pots seguir estudiant; el progrés es desa al dispositiu.'));
+window.addEventListener('online', async ()=>{
+  // El progrés (localStorage) es manté sempre; en reconnectar refresquem el contingut.
+  try{
+    DATA.temari = null;
+    await loadData();
+    await render();
+    toast('Tornes a estar en línia — contingut actualitzat ✓');
+  }catch(e){ /* si falla, es manté el que hi ha en memòria */ }
+});
+
 /* ===========================================================================
    VISTA: INICI
    =========================================================================== */
