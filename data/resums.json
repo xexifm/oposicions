@@ -491,95 +491,137 @@
       "key": "Pressupost: el forma el president, l'aprova inicialment el Ple, exposició 15 dies, aprovació definitiva i publicació resumida al BOP. Estructura orgànica/programes/econòmica (capítols 1-9). Pròrroga si no s'aprova; impugnació directa al contenciós."
     },
     "14": {
-      "intro": "Les ordenances i reglaments locals són l'expressió de la potestat normativa de les entitats locals (art. 4 LRBRL). Cal distingir-ne les classes i el procediment d'aprovació.",
+      "intro": "Les ordenances i els reglaments són l'expressió de la potestat normativa de les entitats locals (arts. 4 i 84 LRBRL), manifestació de la seva autonomia. A través seu el municipi regula matèries de la seva competència amb subjecció a la llei i a la jerarquia normativa. El procediment d'aprovació es regula a l'art. 49 LRBRL i, a Catalunya, al DL 2/2003.",
       "sections": [
         {
           "h": "Classes de normes locals",
           "scheme": {
             "cap": "Normes locals",
-            "body": "REGLAMENT ORGÀNIC → autoorganització de l'ens\nORDENANCES → regulen activitats i relacions amb la ciutadania\n  • ordenances fiscals (tributs i preus públics)\n  • ordenances de policia/convivència, urbanístiques…\nBANS → de l'Alcalde, recordatoris o mesures puntuals"
+            "body": "REGLAMENT ORGÀNIC → autoorganització de l'ens (òrgans,\n  funcionament); s'aprova per majoria absoluta del Ple\nORDENANCES →\n  • FISCALS → regulen els tributs propis (procediment\n    específic dels arts. 15-19 TRLHL)\n  • de policia, convivència, urbanístiques, de serveis...\nREGLAMENTS de serveis o d'activitats\nBANS → de l'Alcalde; recordatoris o mesures puntuals en\n  l'àmbit de les seves competències (no innoven l'ordenament)"
           }
         },
         {
-          "h": "Procediment (art. 49 LRBRL)",
+          "h": "Procediment d'aprovació (art. 49 LRBRL)",
           "scheme": {
-            "cap": "Aprovació d'ordenances",
-            "body": "1) APROVACIÓ INICIAL pel Ple\n2) INFORMACIÓ pública i audiència ≥ 30 dies (al·legacions)\n3) Resolució de reclamacions + APROVACIÓ DEFINITIVA\n   (sense reclamacions → l'acord inicial esdevé definitiu)\n4) PUBLICACIÓ ÍNTEGRA al BOP\n5) Entrada en vigor: transcorregut el termini de l'art. 65.2\n   (15 dies hàbils des de la comunicació a Estat/CA)"
+            "cap": "Aprovació d'ordenances/reglaments",
+            "body": "1) APROVACIÓ INICIAL pel Ple\n2) INFORMACIÓ pública i audiència als interessats: mínim\n   30 dies per a la presentació de reclamacions i suggeriments\n3) Resolució de totes les reclamacions + APROVACIÓ DEFINITIVA\n   (si NO se'n presenten, l'acord inicial esdevé DEFINITIU\n    automàticament)\n4) PUBLICACIÓ ÍNTEGRA del text al BOP\n5) Entrada en vigor un cop transcorregut el termini de\n   l'art. 65.2 LRBRL (15 dies hàbils des de la comunicació\n   a l'Administració de l'Estat i de la CA)"
           }
         },
         {
-          "key": "Sense reclamacions durant la informació pública, l'acord inicial esdevé definitiu automàticament."
+          "h": "Especialitats i tramitació prèvia",
+          "p": "Abans de l'aprovació inicial, la potestat normativa exigeix els tràmits de participació de la Llei 39/2015: consulta pública prèvia (art. 133) i, segons el cas, memòria i informes. Les ordenances fiscals segueixen el procediment propi del TRLHL (aprovació provisional, exposició 30 dies amb anunci al BOP i, si escau, en un diari, i aprovació definitiva)."
+        },
+        {
+          "h": "Límits",
+          "p": "Les ordenances no poden contenir preceptes oposats a les lleis (principi de jerarquia i de reserva de llei en matèria sancionadora i tributària). La potestat sancionadora local s'exerceix dins els límits que fixa la LRBRL (arts. 139-141) quan no hi ha llei sectorial específica."
+        },
+        {
+          "key": "Sense reclamacions durant la informació pública, l'acord d'aprovació inicial esdevé definitiu sense necessitat de nou acord. Cal publicació íntegra al BOP per a l'entrada en vigor."
         }
       ],
-      "key": "Reglament orgànic, ordenances (fiscals i altres) i bans. Procediment art. 49: aprovació inicial → 30 dies → definitiva → publicació íntegra BOP."
+      "key": "Normes locals: reglament orgànic, ordenances (fiscals i altres) i bans. Procediment (art. 49): aprovació inicial → 30 dies d'informació pública → aprovació definitiva → publicació íntegra al BOP → vigència (art. 65.2)."
     },
     "15": {
-      "intro": "La contractació administrativa permet a l'Administració obtenir obres, serveis i subministraments. La regula la Llei 9/2017 (LCSP), de transposició de les directives europees.",
+      "intro": "La contractació administrativa és l'activitat per la qual el sector públic obté de tercers obres, subministraments i serveis o gestiona serveis i obres. La regula la Llei 9/2017, de contractes del sector públic (LCSP), que transposa les directives europees 2014/23/UE i 2014/24/UE. La incidència del dret de la UE és intensa: imposa principis i llindars de regulació harmonitzada.",
       "sections": [
         {
-          "h": "Principis i àmbit",
-          "list": [
-            "Principis (art. 1): llibertat d'accés, publicitat i transparència, no-discriminació i igualtat, i ús eficient dels fons (millor relació qualitat-preu).",
-            "Àmbit subjectiu: sector públic (administracions, organismes, poders adjudicadors i entitats del sector públic).",
-            "Incidència del dret de la UE: llindars de regulació harmonitzada (contractes SARA)."
-          ]
+          "h": "Principis bàsics",
+          "scheme": {
+            "cap": "Principis (art. 1 LCSP)",
+            "body": "LLIBERTAT D'ACCÉS a les licitacions\nPUBLICITAT i TRANSPARÈNCIA dels procediments\nNO-DISCRIMINACIÓ i IGUALTAT de tracte\nINTEGRITAT\nús EFICIENT dels fons (millor relació qualitat-preu)\n+ salvaguarda de la lliure competència\n+ contractació estratègica (criteris socials i ambientals)"
+          }
         },
         {
-          "h": "Tipus de contractes",
+          "h": "Àmbit subjectiu",
+          "scheme": {
+            "cap": "Sector públic (art. 3)",
+            "body": "ADMINISTRACIONS PÚBLIQUES (subjecció plena)\nPODERS ADJUDICADORS que NO són AP (instruccions internes\n  + part de la LCSP)\nRESTA d'ENTITATS del sector públic\n→ a efectes de fons europeus i directives, el concepte clau\n  és el de 'poder adjudicador'"
+          }
+        },
+        {
+          "h": "Classificació dels contractes i règim jurídic",
           "scheme": {
             "cap": "Contractes típics",
-            "body": "OBRES → construcció o reforma d'un bé immoble\nCONCESSIÓ D'OBRES → obra + explotació amb risc operacional\nSUBMINISTRAMENT → adquisició de productes/béns mobles\nSERVEIS → prestacions de fer\nCONCESSIÓ DE SERVEIS → gestió d'un servei amb risc operacional\n(+ contractes mixtos i contractes privats)"
-          }
-        }
-      ],
-      "key": "LCSP = Llei 9/2017. Principis: accés, publicitat, igualtat, eficiència. Tipus: obres, concessió d'obres, subministrament, serveis, concessió de serveis."
-    },
-    "16": {
-      "intro": "La protecció de dades personals es regeix pel Reglament (UE) 2016/679 (RGPD) i la Llei orgànica 3/2018 (LOPDGDD). Garanteix el dret fonamental a la protecció de dades (art. 18.4 CE).",
-      "sections": [
-        {
-          "h": "Principis del tractament (art. 5 RGPD)",
-          "scheme": {
-            "cap": "Principis",
-            "body": "LICITUD, LLEIALTAT i TRANSPARÈNCIA\nLIMITACIÓ de la FINALITAT\nMINIMITZACIÓ de dades\nEXACTITUD\nLIMITACIÓ del termini de CONSERVACIÓ\nINTEGRITAT i CONFIDENCIALITAT (seguretat)\n+ RESPONSABILITAT PROACTIVA (accountability)"
+            "body": "OBRES → construcció/rehabilitació d'un immoble\nCONCESSIÓ D'OBRES → obra + explotació amb RISC operacional\nSUBMINISTRAMENT → béns mobles\nSERVEIS → prestacions de fer\nCONCESSIÓ DE SERVEIS → gestió de servei amb RISC operacional\n+ contractes MIXTOS; contractes administratius vs privats"
           }
         },
         {
-          "h": "Bases de licitud i categories especials",
-          "list": [
-            "Bases (art. 6): consentiment, contracte, obligació legal, interès vital, missió d'interès públic, interès legítim.",
-            "Categories especials (art. 9): origen ètnic, opinions, salut, dades genètiques/biomètriques… prohibició general de tractar-les.",
-            "Al sector públic, la base sol ser obligació legal o missió d'interès públic."
-          ]
+          "h": "Contractes SARA",
+          "p": "Els contractes subjectes a regulació harmonitzada (SARA) són els que, pel seu tipus i valor estimat, superen els llindars de les directives; tenen exigències reforçades (publicitat al DOUE, recurs especial en matèria de contractació). El valor estimat (art. 101) es calcula sense IVA i inclou pròrrogues i modificacions previstes; determina el procediment i la publicitat."
+        },
+        {
+          "key": "LCSP = Llei 9/2017 (transposició UE). Principis: accés, publicitat, igualtat, integritat, eficiència. Tipus: obres, concessió d'obres, subministrament, serveis, concessió de serveis. SARA segons llindars."
+        }
+      ],
+      "key": "Contractació: LCSP 9/2017. Principis art. 1 (accés, publicitat, igualtat, eficiència). Àmbit: AP, poders adjudicadors i sector públic. Contractes: obres, concessió d'obres, subministrament, serveis, concessió de serveis. SARA (DOUE)."
+    },
+    "16": {
+      "intro": "La protecció de les dades personals és un dret fonamental (art. 18.4 CE) regulat pel Reglament (UE) 2016/679 (RGPD), d'aplicació directa, i per la Llei orgànica 3/2018, de protecció de dades personals i garantia dels drets digitals (LOPDGDD). Tota administració és responsable dels tractaments que duu a terme.",
+      "sections": [
+        {
+          "h": "Principis del tractament",
+          "scheme": {
+            "cap": "Principis (art. 5 RGPD)",
+            "body": "LICITUD, LLEIALTAT i TRANSPARÈNCIA\nLIMITACIÓ de la FINALITAT (fins determinats i legítims)\nMINIMITZACIÓ de dades (les adequades i necessàries)\nEXACTITUD (dades actualitzades)\nLIMITACIÓ del termini de CONSERVACIÓ\nINTEGRITAT i CONFIDENCIALITAT (seguretat)\n+ RESPONSABILITAT PROACTIVA (accountability): el responsable\n  ha de poder DEMOSTRAR el compliment"
+          }
+        },
+        {
+          "h": "Bases de licitud i dades especials",
+          "p": "Tot tractament necessita una base jurídica (art. 6): consentiment, execució d'un contracte, compliment d'una obligació legal, interès vital, missió d'interès públic o exercici de poders públics, o interès legítim. Al sector públic, la base sol ser l'obligació legal o la missió d'interès públic (no l'interès legítim). Les categories especials de dades (art. 9: origen ètnic, opinions polítiques, conviccions, afiliació sindical, dades genètiques, biomètriques, de salut, vida o orientació sexual) tenen prohibició general de tractament, llevat d'excepcions taxades."
         },
         {
           "h": "Drets de les persones",
           "scheme": {
-            "cap": "Drets (arts. 15-22)",
-            "body": "ACCÉS · RECTIFICACIÓ · SUPRESSIÓ (dret a l'oblit)\nOPOSICIÓ · LIMITACIÓ del tractament · PORTABILITAT\n+ no ser objecte de decisions automatitzades\nDPD obligatori al sector públic · AEPD com a autoritat"
+            "cap": "Drets (arts. 15-22 RGPD)",
+            "body": "ACCÉS · RECTIFICACIÓ · SUPRESSIÓ (dret a l'oblit, art. 17)\nLIMITACIÓ del tractament · OPOSICIÓ · PORTABILITAT\n+ no ser objecte de decisions individuals automatitzades\nS'exerceixen davant el responsable, que ha de respondre\n  (en general, en 1 mes)"
           }
         },
         {
-          "key": "Drets ARSOPOL. El Delegat de Protecció de Dades (DPD) és obligatori a les administracions públiques."
+          "h": "Obligacions i garanties",
+          "list": [
+            "Designació obligatòria de Delegat de Protecció de Dades (DPD) al sector públic (art. 37).",
+            "Registre d'activitats de tractament (art. 30).",
+            "Mesures de seguretat tècniques i organitzatives; protecció des del disseny i per defecte.",
+            "Avaluació d'impacte (AIPD, art. 35) quan el tractament comporti alt risc.",
+            "Notificació de violacions de seguretat a l'autoritat (AEPD/APDCAT) sense dilació indeguda, en 72 h (art. 33)."
+          ]
+        },
+        {
+          "key": "Categories especials (art. 9), com la salut, tenen protecció reforçada: publicar-les sense empara és il·lícit. El DPD és obligatori a les administracions públiques."
         }
       ],
-      "key": "RGPD + LO 3/2018. Principis art. 5, bases art. 6, categories especials art. 9, drets ARSOPOL, DPD obligatori al sector públic."
+      "key": "RGPD + LO 3/2018. Principis art. 5 (+accountability). Bases art. 6; categories especials art. 9 (salut...). Drets ARSOPOL (15-22). DPD obligatori al sector públic; bretxes en 72 h; AIPD si alt risc."
     },
     "30": {
-      "intro": "El contracte menor és una via simplificada de contractació per a imports baixos. Es regula a l'art. 118 LCSP.",
+      "intro": "La contractació menor és un procediment simplificat d'adjudicació directa per a contractes de poca quantia. Es regula a l'art. 118 LCSP i és molt freqüent en la gestió municipal ordinària.",
       "sections": [
         {
-          "h": "Llindars i requisits",
+          "h": "Llindars",
           "scheme": {
-            "cap": "Contracte menor (art. 118 LCSP)",
-            "body": "LLINDARS (IVA exclòs)\n  • OBRES: < 40.000 €\n  • SERVEIS i SUBMINISTRAMENTS: < 15.000 €\nREQUISITS\n  • informe de l'òrgan de contractació (necessitat)\n  • aprovació de la despesa\n  • incorporació de la factura\n  • en obres: pressupost (+ projecte/supervisió si escau)\nLÍMIT TEMPORAL: durada ≤ 1 any, no prorrogable\nPROHIBIT: fraccionar l'objecte per eludir els llindars"
+            "cap": "Contracte menor (art. 118)",
+            "body": "LLINDARS (IVA EXCLÒS):\n  • OBRES → import < 40.000 €\n  • SERVEIS i SUBMINISTRAMENTS → import < 15.000 €\nDURADA → ≤ 1 any i NO prorrogable (art. 29.8)"
           }
         },
         {
-          "key": "No es pot alterar l'objecte del contracte per evitar les regles generals (art. 118.2 i 99.2 LCSP)."
+          "h": "Tramitació i requisits",
+          "scheme": {
+            "cap": "Expedient del menor",
+            "body": "INFORME de l'òrgan de contractació motivant la NECESSITAT\n  i que NO s'altera l'objecte per eludir les regles generals\nAPROVACIÓ de la DESPESA\nINCORPORACIÓ de la FACTURA\nEn OBRES → a més, pressupost (i projecte/informe de\n  supervisió quan siguin necessaris segons normativa)\nFISCALITZACIÓ prèvia de la despesa per la Intervenció\nPUBLICITAT trimestral al perfil del contractant"
+          }
+        },
+        {
+          "h": "Prohibició de fraccionament",
+          "p": "No es pot fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir així els requisits de publicitat o els relatius al procediment d'adjudicació (arts. 118.2 i 99.2). El fraccionament fraudulent és una infracció de la legalitat contractual."
+        },
+        {
+          "h": "Límits subjectius",
+          "p": "La normativa i les instruccions internes solen establir cauteles addicionals (p. ex. límits a la concurrència de diversos menors amb el mateix adjudicatari) per evitar abusos. El menor no requereix mesa de contractació ni formalització en document administratiu separat (la factura fa de document)."
+        },
+        {
+          "key": "Llindars: obres <40.000 €, serveis i subministraments <15.000 € (IVA exclòs). Durada ≤1 any no prorrogable. Informe de necessitat + aprovació de despesa + factura. Prohibit fraccionar."
         }
       ],
-      "key": "Menor: obres < 40.000 €, serveis/subministr. < 15.000 € (IVA exclòs). Informe + despesa + factura. Sense fraccionament."
+      "key": "Menor (118): obres <40.000 €, serveis/subministr. <15.000 € (IVA exclòs); durada ≤1 any no prorrogable. Informe de necessitat + despesa + factura (+pressupost en obres). Prohibit fraccionar per eludir llindars."
     },
     "36": {
       "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats pels danys causats pel funcionament dels serveis públics. Es regula als arts. 32-37 de la Llei 40/2015 i 67, 81, 91-92 de la Llei 39/2015.",
@@ -701,346 +743,421 @@
       "key": "CAE = art. 24 LPRL + RD 171/2004. Cooperació i informació entre empreses concurrents; deure de vigilància de l'empresari principal."
     },
     "17": {
-      "intro": "La funció pública local i la seva organització: l'accés, la selecció, la provisió de llocs i les classes de personal. Marc: TREBEP (RDL 5/2015) i DL 2/2003 a Catalunya.",
+      "intro": "La funció pública local s'organitza al voltant de l'accés, la selecció, la provisió de llocs i les classes de personal. El marc bàsic és el text refós de l'Estatut bàsic de l'empleat públic (RDL 5/2015, TREBEP), desplegat per la legislació autonòmica (DL 2/2003 i normativa de funció pública de Catalunya).",
       "sections": [
         {
           "h": "Classes de personal (art. 8 TREBEP)",
           "scheme": {
-            "cap": "Personal al servei de l'AP",
-            "body": "FUNCIONARI DE CARRERA → relació estatutària permanent\nFUNCIONARI INTERÍ → per necessitat i urgència justificades\nPERSONAL LABORAL → fix, indefinit o temporal (contracte)\nPERSONAL EVENTUAL → confiança/assessorament; cessament lliure"
+            "cap": "Empleats públics",
+            "body": "FUNCIONARI DE CARRERA → relació estatutària permanent;\n  funcions que impliquen exercici d'autoritat o salvaguarda\n  d'interessos generals es reserven a funcionaris\nFUNCIONARI INTERÍ → temporal, per necessitat i urgència\n  justificades (vacant, substitució, programa temporal,\n  excés de tasques)\nPERSONAL LABORAL → fix, indefinit o temporal (dret laboral\n  + conveni)\nPERSONAL EVENTUAL → confiança o assessorament especial;\n  nomenament i cessament lliures"
           }
         },
         {
-          "h": "Accés i OPO",
-          "list": [
-            "Principis d'accés (art. 55): igualtat, mèrit, capacitat i publicitat.",
-            "Sistemes selectius (art. 61): oposició, concurs-oposició i, excepcionalment, concurs.",
-            "Oferta pública d'ocupació (art. 70): articula les necessitats de personal amb dotació; s'aprova i publica anualment."
-          ]
+          "h": "Oferta pública d'ocupació i selecció",
+          "p": "Les necessitats de recursos humans amb dotació pressupostària que s'hagin de proveir amb nou personal s'articulen a través de l'oferta pública d'ocupació (OPO), que s'aprova i publica anualment (art. 70) i s'ha d'executar dins el termini legal. L'accés es regeix pels principis d'igualtat, mèrit, capacitat i publicitat (art. 55), a més d'altres com la transparència, la imparcialitat dels òrgans de selecció i l'agilitat."
         },
         {
-          "h": "Adquisició/pèrdua de la condició",
-          "list": [
-            "Adquisició (art. 62): superar el procés, nomenament, jurament/promesa i presa de possessió.",
-            "Pèrdua (art. 63): renúncia, pèrdua de nacionalitat, jubilació, sanció de separació, pena d'inhabilitació."
-          ]
+          "h": "Sistemes selectius",
+          "scheme": {
+            "cap": "Sistemes (art. 61)",
+            "body": "OPOSICIÓ → proves selectives\nCONCURS-OPOSICIÓ → proves + valoració de mèrits\nCONCURS (només mèrits) → caràcter EXCEPCIONAL\nÒrgans de selecció: col·legiats, professionals, amb paritat\n  i sense personal d'elecció o de designació política"
+          }
+        },
+        {
+          "h": "Adquisició i pèrdua de la condició de funcionari",
+          "p": "L'adquisició (art. 62) exigeix: superar el procés selectiu, nomenament per l'òrgan competent, jurament o promesa, i presa de possessió dins el termini. La pèrdua (art. 63) es produeix per renúncia, pèrdua de la nacionalitat, jubilació, sanció disciplinària de separació del servei, o pena principal o accessòria d'inhabilitació absoluta o especial."
+        },
+        {
+          "key": "Classes: carrera, interí, laboral, eventual. Funcions d'autoritat → reservades a funcionaris. OPO anual. Accés: igualtat, mèrit, capacitat, publicitat. Sistemes: oposició, concurs-oposició i concurs (excepcional)."
         }
       ],
-      "key": "Classes: carrera, interí, laboral, eventual. Accés per igualtat/mèrit/capacitat/publicitat. OPO anual."
+      "key": "Funció pública (TREBEP). Personal: carrera, interí, laboral, eventual. OPO anual (art. 70). Accés: igualtat/mèrit/capacitat/publicitat (55). Sistemes: oposició, concurs-oposició, concurs (excepcional). Adquisició art. 62 / pèrdua art. 63."
     },
     "18": {
-      "intro": "Drets i deures del personal, sistema retributiu i situacions administratives (TREBEP).",
+      "intro": "Els drets i deures del personal, el sistema retributiu i les situacions administratives completen el règim estatutari de l'empleat públic, regulat al TREBEP.",
       "sections": [
         {
-          "h": "Drets i deures",
+          "h": "Drets",
           "list": [
-            "Drets individuals (art. 14): inamovibilitat del funcionari de carrera, carrera, retribucions, vacances, formació…",
-            "Drets col·lectius (art. 15): llibertat sindical, negociació col·lectiva, vaga amb serveis essencials.",
-            "Deures i codi de conducta (arts. 52-54): servir l'interès general, objectivitat, integritat, confidencialitat."
+            "Drets individuals (art. 14): inamovibilitat (funcionari de carrera), exercici de les funcions, progressió en la carrera, retribucions, vacances, permisos i llicències, formació, no-discriminació, jubilació, etc.",
+            "Drets individuals exercits col·lectivament (art. 15): llibertat sindical, negociació col·lectiva, participació, reunió, i vaga garantint el manteniment dels serveis essencials."
           ]
         },
         {
-          "h": "Retribucions (art. 22-24)",
+          "h": "Deures i codi de conducta",
+          "p": "Els empleats públics han de servir amb objectivitat els interessos generals i actuar d'acord amb els principis ètics (objectivitat, integritat, neutralitat, responsabilitat, imparcialitat, confidencialitat, dedicació al servei, transparència, exemplaritat) i de conducta (arts. 52-54). El seu incompliment pot tenir conseqüències disciplinàries."
+        },
+        {
+          "h": "Sistema retributiu",
           "scheme": {
-            "cap": "Estructura retributiva",
-            "body": "BÀSIQUES → sou + triennis (+ pagues extraordinàries)\nCOMPLEMENTÀRIES →\n   • complement de destinació (nivell del lloc)\n   • complement específic (condicions del lloc)\n   • productivitat / gratificacions serveis extraordinaris"
+            "cap": "Retribucions (arts. 22-24)",
+            "body": "BÀSIQUES → SOU (segons grup de classificació) + TRIENNIS\n  (+ pagues extraordinàries: dues a l'any)\nCOMPLEMENTÀRIES →\n  • complement de DESTINACIÓ (nivell del lloc, 1-30)\n  • complement ESPECÍFIC (condicions particulars del lloc:\n    dificultat, dedicació, responsabilitat, perillositat...)\n  • PRODUCTIVITAT (rendiment)\n  • GRATIFICACIONS per serveis extraordinaris\nGrups de classificació (art. 76): A1, A2, B, C1, C2"
           }
         },
         {
           "h": "Situacions administratives (art. 85)",
-          "list": [
-            "Servei actiu; serveis especials; servei en altres administracions; excedència (voluntària, per cura, forçosa…); suspensió de funcions."
-          ]
-        }
-      ],
-      "key": "Retribucions: bàsiques (sou+triennis) i complementàries (destinació+específic+productivitat). Situacions: actiu, serveis especials, excedència, suspensió."
-    },
-    "19": {
-      "intro": "Els convenis interadministratius en l'àmbit local: instruments de col·laboració entre administracions (arts. 47-53 Llei 40/2015).",
-      "sections": [
-        {
-          "h": "Concepte i límits",
-          "list": [
-            "Acords amb efectes jurídics entre administracions o amb subjectes de dret privat per a una finalitat comuna.",
-            "No poden tenir per objecte prestacions pròpies dels contractes (no són via per eludir la LCSP).",
-            "Tipus: interadministratius, intradministratius, amb particulars i no constitutius de tractat."
-          ]
+          "scheme": {
+            "cap": "Situacions",
+            "body": "SERVEI ACTIU\nSERVEIS ESPECIALS (càrrecs, missions...)\nSERVEI EN ALTRES ADMINISTRACIONS\nEXCEDÈNCIA → voluntària (per interès particular, agrupació\n  familiar), per cura de fills o familiars, forçosa, per\n  raó de violència de gènere\nSUSPENSIÓ DE FUNCIONS (provisional o ferma)"
+          }
         },
         {
-          "h": "Requisits i durada",
-          "scheme": {
-            "cap": "Règim del conveni",
-            "body": "CONTINGUT mínim: subjectes, competència, objecte, obligacions\n   econòmiques, mecanismes de seguiment, durada, extinció\nDURADA → màxim 4 anys, prorrogable fins a 4 més\nCONTROL → tramesa a la Sindicatura/Tribunal de Comptes si\n   supera certs imports\nEFICÀCIA → formalització + consignació pressupostària"
-          }
+          "key": "Retribucions bàsiques (sou + triennis) i complementàries (destinació + específic + productivitat + gratificacions). Carrera (art. 16): horitzontal i vertical. Vacances: 22 dies hàbils."
         }
       ],
-      "key": "Convenis (Llei 40/2015): finalitat comuna, no substitueixen contractes, durada màx. 4+4 anys, control de la Sindicatura."
+      "key": "Drets (14-15) i deures/codi de conducta (52-54). Retribucions: bàsiques (sou+triennis) i complementàries (destinació, específic, productivitat, gratificacions); grups A1-C2. Situacions (85): actiu, serveis especials, excedència, suspensió."
     },
-    "20": {
-      "intro": "Els contractes del sector públic: principis generals, contractes exclosos i procediments d'adjudicació (LCSP, Llei 9/2017).",
+    "19": {
+      "intro": "Els convenis interadministratius són instruments de col·laboració voluntària entre administracions (o amb subjectes de dret privat) per a una finalitat comuna. Es regulen als arts. 47-53 de la Llei 40/2015 i, en l'àmbit local, també en la legislació de règim local.",
       "sections": [
         {
-          "h": "Principis i exclusions",
-          "list": [
-            "Principis (art. 1): llibertat d'accés, publicitat i transparència, no-discriminació, integritat i eficiència.",
-            "Contractes exclosos (arts. 4-11): relacions de personal, alguns convenis, certs contractes entre entitats del sector públic (mitjans propis), etc."
-          ]
+          "h": "Concepte i tipus",
+          "scheme": {
+            "cap": "Convenis (Llei 40/2015)",
+            "body": "INTERADMINISTRATIUS → entre administracions\nINTRADMINISTRATIUS / amb organismes propis\nAmb PARTICULARS (persones de dret privat)\nNO constitutius de tractat internacional\n→ produeixen efectes jurídics i obliguen les parts"
+          }
+        },
+        {
+          "h": "Límit essencial",
+          "p": "Els convenis NO poden tenir per objecte prestacions pròpies dels contractes (art. 47.1): en aquest cas, la seva naturalesa i règim jurídic s'ajusten a la LCSP. Aquesta regla evita que el conveni s'utilitzi per eludir les regles de la contractació pública."
+        },
+        {
+          "h": "Contingut, durada i eficàcia",
+          "scheme": {
+            "cap": "Règim del conveni",
+            "body": "CONTINGUT mínim (art. 49): subjectes i capacitat,\n  competència, objecte i actuacions, obligacions econòmiques,\n  mecanismes de SEGUIMENT i control, règim de modificació,\n  durada i causes d'extinció\nDURADA → màxim 4 anys, prorrogable fins a 4 anys més\nEFICÀCIA → des de la signatura (o inscripció/publicitat\n  segons el cas); si comporta compromisos econòmics, cal\n  consignació pressupostària\nCONTROL → tramesa al Tribunal/Sindicatura de Comptes si\n  superen determinats imports"
+          }
+        },
+        {
+          "h": "Extinció",
+          "p": "Els convenis s'extingeixen pel compliment, o per resolució (transcurs del termini sense pròrroga, acord unànime, incompliment, decisió judicial, o altres causes previstes). L'incompliment pot generar la indemnització pactada."
+        },
+        {
+          "key": "Els convenis no substitueixen els contractes. Durada màxima 4 + 4 anys. Han de preveure mecanismes de seguiment i control i, si tenen contingut econòmic, consignació i remissió a la Sindicatura de Comptes."
+        }
+      ],
+      "key": "Convenis (47-53 Llei 40/2015): col·laboració per a fi comú; no poden tenir objecte propi de contractes. Contingut mínim (seguiment, modificació, extinció). Durada 4+4 anys. Control de la Sindicatura si superen imports."
+    },
+    "20": {
+      "intro": "Els contractes del sector públic es regeixen pels principis generals de la LCSP, que estableix també els contractes exclosos del seu àmbit i els procediments d'adjudicació. La preparació i l'adjudicació han de garantir publicitat, transparència i concurrència.",
+      "sections": [
+        {
+          "h": "Contractes exclosos",
+          "p": "Queden fora de la LCSP (arts. 4-11), entre d'altres: les relacions de servei dels funcionaris i els contractes laborals; determinats convenis; els encàrrecs a mitjans propis personificats (in house) que compleixin els requisits; certs contractes entre entitats del sector públic; i alguns contractes del sector de la defensa, financers o d'arbitratge."
+        },
+        {
+          "h": "Preparació del contracte",
+          "scheme": {
+            "cap": "Expedient de contractació (art. 116)",
+            "body": "JUSTIFICACIÓ de la necessitat i de l'objecte\nPLECS → de clàusules administratives particulars (PCAP) i\n  de prescripcions tècniques (PPT)\nVALOR ESTIMAT i pressupost base de licitació\nAPROVACIÓ de la despesa + FISCALITZACIÓ prèvia\nPublicitat a la PLATAFORMA de Contractació (perfil del\n  contractant) i, si SARA, al DOUE"
+          }
         },
         {
           "h": "Procediments d'adjudicació",
           "scheme": {
-            "cap": "Procediments (LCSP)",
-            "body": "OBERT → qualsevol interessat (i obert simplificat/sumari)\nRESTRINGIT → selecció prèvia de candidats\nNEGOCIAT → amb/sense publicitat (supòsits taxats)\nDIÀLEG COMPETITIU → solucions complexes\nASSOCIACIÓ PER A LA INNOVACIÓ\n+ CONTRACTE MENOR (per import)"
+            "cap": "Procediments",
+            "body": "OBERT → qualsevol empresari pot presentar oferta\n  (+ OBERT SIMPLIFICAT i sumari, per agilitar)\nRESTRINGIT → selecció prèvia de candidats per solvència\nNEGOCIAT → amb o SENSE publicitat (supòsits taxats:\n  exclusivitat, urgència imperiosa, licitacions desertes...)\nDIÀLEG COMPETITIU → solucions complexes a definir amb els\n  licitadors\nASSOCIACIÓ PER A LA INNOVACIÓ → desenvolupar productes nous\nCONTRACTE MENOR → adjudicació directa per import"
           }
         },
         {
-          "h": "Preparació",
-          "list": [
-            "Expedient: justificació de la necessitat, plecs (PCAP i PPT), aprovació de la despesa i fiscalització.",
-            "Publicitat al perfil del contractant i, si SARA, al DOUE."
-          ]
+          "h": "Òrgans i mesa",
+          "p": "L'òrgan de contractació (a l'àmbit local, l'Alcalde o el Ple segons quantia i durada) adjudica el contracte. La mesa de contractació (art. 326) és l'òrgan d'assistència tècnica que qualifica la documentació, valora les ofertes i formula la proposta d'adjudicació; és obligatòria en els procediments oberts, restringits i negociats amb publicitat (no en el menor)."
+        },
+        {
+          "key": "L'expedient s'inicia justificant la necessitat i amb els plecs, la despesa aprovada i la fiscalització. Procediments: obert (i simplificat), restringit, negociat (amb/sense publicitat), diàleg competitiu, associació per a la innovació i menor."
         }
       ],
-      "key": "Principis: accés, publicitat, igualtat, eficiència. Procediments: obert (i simplificat), restringit, negociat, diàleg competitiu, menor."
+      "key": "Contractes: exclosos (in house, relacions de personal...). Expedient (art. 116): necessitat + plecs (PCAP/PPT) + despesa + fiscalització. Procediments: obert/simplificat, restringit, negociat, diàleg competitiu, associació innovació, menor. Mesa de contractació."
     },
     "21": {
-      "intro": "Criteris de valoració de les ofertes, ofertes anormalment baixes i adjudicació (LCSP).",
+      "intro": "L'adjudicació del contracte es decideix conforme als criteris de valoració fixats al plec, amb un tractament específic per a les ofertes anormalment baixes. L'objectiu és seleccionar l'oferta amb la millor relació qualitat-preu.",
       "sections": [
         {
-          "h": "Criteris d'adjudicació (art. 145)",
-          "list": [
-            "Han de ser objectius, vinculats a l'objecte i fixats al plec.",
-            "Millor relació qualitat-preu: poden ser econòmics i qualitatius (judici de valor i fórmules).",
-            "Possibles criteris socials i ambientals."
-          ]
-        },
-        {
-          "h": "Ofertes anormalment baixes (art. 149)",
+          "h": "Criteris d'adjudicació",
           "scheme": {
-            "cap": "Oferta presumptament anormal",
-            "body": "1) Es detecta segons els paràmetres del plec\n2) REQUERIMENT de justificació al licitador (audiència)\n3) Valoració amb assessorament tècnic\n4) Si no es justifica la viabilitat → EXCLUSIÓ motivada\n(no es pot rebutjar automàticament)"
+            "cap": "Criteris (art. 145)",
+            "body": "OBJECTIUS, vinculats a l'objecte del contracte i fixats al\n  plec; possible PLURALITAT de criteris\nMILLOR RELACIÓ QUALITAT-PREU → criteris econòmics i\n  qualitatius (judici de valor i/o fórmules)\nCriteris SOCIALS i AMBIENTALS admesos\nQuan s'usen criteris de judici de valor + fórmules, la\n  valoració del judici de valor es fa ABANS de conèixer el\n  preu i, si superen el 50%, intervé un comitè d'experts"
           }
         },
         {
-          "h": "Adjudicació",
-          "list": [
-            "Classificació de les ofertes per ordre decreixent.",
-            "Requeriment de documentació al millor classificat.",
-            "Adjudicació motivada i notificada; formalització del contracte."
-          ]
+          "h": "Solvència i classificació",
+          "p": "Els licitadors han d'acreditar aptitud: capacitat d'obrar, no estar incursos en prohibicions de contractar (art. 71) i solvència econòmica/financera i tècnica/professional (arts. 86-88). En determinats contractes d'obres és exigible la classificació empresarial, que acredita la solvència."
+        },
+        {
+          "h": "Ofertes anormalment baixes",
+          "scheme": {
+            "cap": "Oferta anormal (art. 149)",
+            "body": "1) DETECCIÓ segons els paràmetres objectius del plec\n2) REQUERIMENT al licitador perquè JUSTIFIQUI i desglossi\n   la viabilitat (audiència)\n3) VALORACIÓ amb assessorament tècnic\n4) Si NO es justifica → EXCLUSIÓ motivada\n→ MAI exclusió automàtica per ser la més barata"
+          }
+        },
+        {
+          "h": "Classificació i adjudicació",
+          "p": "Les ofertes admeses es classifiquen per ordre decreixent segons els criteris. Es requereix al millor classificat la documentació (capacitat, solvència, garantia definitiva). L'adjudicació és motivada i es notifica als licitadors (amb les raons de l'exclusió o no selecció) i es publica al perfil. En cas d'empat s'apliquen criteris de desempat (socials abans del sorteig, art. 147)."
+        },
+        {
+          "key": "Adjudicació a la millor relació qualitat-preu amb criteris objectius i vinculats. Oferta anormal: audiència i justificació abans d'excloure. Solvència obligatòria; classificació en certes obres."
         }
       ],
-      "key": "Criteris objectius i vinculats (qualitat-preu). Oferta anormal: audiència i justificació abans d'excloure. Adjudicació motivada."
+      "key": "Criteris (art. 145): objectius, vinculats, qualitat-preu. Solvència (86-88) i prohibicions (71). Oferta anormal (149): audiència i justificació abans d'excloure. Classificació d'ofertes i adjudicació motivada; desempat (147)."
     },
     "22": {
-      "intro": "Execució dels contractes, demora, condicions especials i prerrogatives de l'Administració (LCSP).",
+      "intro": "L'execució dels contractes es desenvolupa a risc i ventura del contractista, sota la direcció, inspecció i control de l'Administració, que disposa de prerrogatives especials. La demora i l'incompliment de condicions tenen conseqüències taxades (LCSP).",
       "sections": [
         {
-          "h": "Execució i demora",
-          "list": [
-            "Execució a risc i ventura del contractista, sota la direcció i el control de l'Administració.",
-            "Responsable del contracte (art. 62) per supervisar-ne l'execució.",
-            "Demora: penalitats per dia (art. 193) o resolució del contracte."
-          ]
+          "h": "Execució i responsable del contracte",
+          "p": "El contracte s'executa amb subjecció a les seves clàusules i als plecs, i a risc i ventura del contractista (art. 197). L'òrgan de contractació designa un responsable del contracte (art. 62) per supervisar-ne l'execució, adoptar decisions i dictar instruccions per assegurar la correcta realització."
         },
         {
-          "h": "Prerrogatives (art. 190)",
+          "h": "Demora i penalitats",
           "scheme": {
-            "cap": "Prerrogatives de l'Administració",
-            "body": "INTERPRETAR el contracte i resoldre dubtes\nMODIFICAR-lo per interès públic (ius variandi)\nSUSPENDRE'N l'execució\nDeclarar-ne la RESOLUCIÓ i els efectes\n→ exercici MOTIVAT i amb audiència; immediatament executiu"
+            "cap": "Compliment de terminis (art. 193)",
+            "body": "DEMORA en l'execució (per causa del contractista) →\n  l'Administració pot optar entre la RESOLUCIÓ o imposar\n  PENALITATS (per regla, 0,60 € per 1.000 € del preu/dia,\n  o les previstes al plec)\nSi les penalitats arriben al múltiple establert del preu →\n  pot acordar-se la resolució\nPRÒRROGA del termini si la demora no és imputable al\n  contractista"
           }
         },
         {
-          "h": "Condicions especials",
-          "list": [
-            "Condicions especials d'execució (art. 202): de tipus social, ètic, ambiental o d'innovació; el seu incompliment pot penalitzar-se o ser causa de resolució."
-          ]
+          "h": "Condicions especials d'execució",
+          "p": "El plec ha d'establir almenys una condició especial d'execució de tipus social, ètic, mediambiental o d'innovació (art. 202). El seu incompliment pot comportar penalitats, ser causa de resolució o constituir infracció greu si se li ha donat caràcter d'obligació essencial."
+        },
+        {
+          "h": "Prerrogatives de l'Administració",
+          "scheme": {
+            "cap": "Prerrogatives (art. 190)",
+            "body": "INTERPRETAR el contracte i resoldre els dubtes que\n  ofereixi el seu compliment\nMODIFICAR-lo per raons d'interès públic (ius variandi)\nSUSPENDRE'N l'execució (indemnitzant danys)\nacordar-ne la RESOLUCIÓ i determinar-ne els efectes\n→ s'exerceixen amb expedient i AUDIÈNCIA del contractista;\n  els acords són immediatament executius\n→ en contractes SARA, dictamen del Consell d'Estat/consultiu\n  en certs casos (oposició del contractista, nul·litat...)"
+          }
+        },
+        {
+          "key": "Risc i ventura + direcció administrativa. Prerrogatives: interpretar, modificar (ius variandi), suspendre i resoldre, amb audiència. Demora: penalitats o resolució."
         }
       ],
-      "key": "Risc i ventura + direcció administrativa. Prerrogatives: interpretar, modificar (ius variandi), suspendre, resoldre. Demora → penalitats."
+      "key": "Execució a risc i ventura sota control de l'AP; responsable del contracte (62). Demora (193): penalitats o resolució. Condicions especials (202). Prerrogatives (190): interpretar, modificar, suspendre, resoldre (amb audiència)."
     },
     "23": {
-      "intro": "La cessió dels contractes i la subcontractació; pagaments a subcontractistes (LCSP).",
+      "intro": "La cessió del contracte i la subcontractació són mecanismes que afecten l'execució per part de tercers. La LCSP els admet amb límits, mantenint la responsabilitat del contractista i protegint els subcontractistes.",
       "sections": [
         {
           "h": "Cessió del contracte (art. 214)",
-          "list": [
-            "Transmissió a un tercer dels drets i obligacions; requereix autorització prèvia de l'òrgan de contractació.",
-            "El cessionari ha de tenir capacitat i solvència i no estar incurs en prohibicions."
-          ]
+          "p": "És la transmissió a un tercer (cessionari) dels drets i obligacions del contracte. Requereix: que les qualitats tècniques o personals del cedent no hagin estat raó determinant de l'adjudicació; autorització prèvia i expressa de l'òrgan de contractació; que el cedent hagi executat almenys un 20% (o explotat un cinquè del termini en concessions); que el cessionari tingui capacitat i solvència i no estigui incurs en prohibicions; i la formalització en escriptura pública."
         },
         {
           "h": "Subcontractació (art. 215)",
           "scheme": {
             "cap": "Subcontractació",
-            "body": "ADMESA dins dels límits del plec\nCOMUNICACIÓ prèvia per escrit a l'Administració\nEl CONTRACTISTA PRINCIPAL en respon davant l'Administració\nPAGAMENT a subcontractistes: comprovable per l'Administració\n   (art. 217) per garantir-lo"
+            "body": "ADMESA → el contractista pot concertar amb tercers la\n  realització parcial, dins dels límits del plec\nCOMUNICACIÓ prèvia i per escrit a l'Administració\n  (subcontractistes, parts, imports)\nRESPONSABILITAT → el contractista PRINCIPAL respon\n  íntegrament davant l'Administració de l'execució, també de\n  la part subcontractada\nLímits possibles al % subcontractable per a parts crítiques"
           }
+        },
+        {
+          "h": "Pagaments als subcontractistes",
+          "p": "La LCSP estableix garanties per al cobrament dels subcontractistes i proveïdors: l'Administració pot comprovar el compliment dels terminis de pagament del contractista principal als subcontractistes (art. 217), i el plec pot preveure pagaments directes en determinats supòsits. L'incompliment dels terminis pot ser causa d'imposició de penalitats."
+        },
+        {
+          "key": "Cessió: autorització prèvia + solvència del cessionari + execució mínima del 20%. Subcontractació: comunicació i límits del plec; el contractista principal respon de tot davant l'Administració."
         }
       ],
-      "key": "Cessió: amb autorització i solvència del cessionari. Subcontractació: amb comunicació i límits; el principal respon de tot."
+      "key": "Cessió (214): autorització prèvia, solvència del cessionari, ≥20% executat, escriptura. Subcontractació (215): comunicació prèvia i límits; el principal respon de tot. Pagament als subcontractistes comprovable (217)."
     },
     "24": {
-      "intro": "Compliment, recepció, resolució i modificació dels contractes (LCSP).",
+      "intro": "El compliment i la recepció, la resolució i la modificació són els moments clau de l'extinció i la vida del contracte. La LCSP regula amb detall el règim de les modificacions per protegir la concurrència.",
       "sections": [
         {
           "h": "Compliment i recepció",
-          "list": [
-            "El contracte s'entén complert quan el contractista ha realitzat la prestació segons el contracte.",
-            "Acte formal de recepció o conformitat → inici del termini de garantia.",
-            "Liquidació del contracte."
-          ]
+          "p": "El contracte s'entén complert quan el contractista ha realitzat, d'acord amb els seus termes i a satisfacció de l'Administració, la totalitat de la prestació (art. 210). El compliment es constata mitjançant un acte formal i positiu de recepció o conformitat, dins el mes següent (o el que fixi el plec). A partir de la recepció comença a comptar el termini de garantia. Després es practica la liquidació."
         },
         {
-          "h": "Modificació",
+          "h": "Modificació dels contractes",
           "scheme": {
-            "cap": "Modificació de contractes",
-            "body": "PREVISTA al plec (art. 204) → fins al 20%, clara i inequívoca\nNO PREVISTA (art. 205) → causes taxades, límit 50% del preu\n   (errors, circumstàncies imprevisibles, prestacions addicionals)\n→ obligatòria per al contractista dins límits; audiència"
+            "cap": "Modificacions (arts. 203-207)",
+            "body": "PREVISTES al plec (art. 204) → admeses si el plec ho va\n  establir de manera clara, precisa i inequívoca (condicions,\n  abast i límits); fins al 20% del preu inicial\nNO PREVISTES (art. 205) → només per CAUSES TAXADES:\n  • prestacions addicionals necessàries no separables\n  • circumstàncies sobrevingudes IMPREVISIBLES per a una\n    Administració diligent\n  • esmena d'errors o omissions del projecte\n  → límit: no superar el 50% del preu inicial ni alterar la\n    naturalesa global del contracte\nObligatòries per al contractista dins límits; audiència"
           }
         },
         {
-          "h": "Resolució (arts. 211-213)",
-          "list": [
-            "Causes: mort/extinció, insolvència, mutu acord, demora, incompliment, impossibilitat d'executar…",
-            "Efectes: si és per culpa del contractista, confiscació de garantia i indemnització."
-          ]
+          "h": "Resolució del contracte",
+          "scheme": {
+            "cap": "Resolució (arts. 211-213)",
+            "body": "CAUSES → mort/extinció de la personalitat; insolvència;\n  mutu acord; demora i incompliment d'obligacions essencials;\n  impossibilitat d'executar per modificacions; impagament...\nEFECTES →\n  • si és per CULPA DEL CONTRACTISTA → confiscació de la\n    garantia + indemnització de danys a l'Administració\n  • si és per culpa de l'Administració → indemnització al\n    contractista"
+          }
+        },
+        {
+          "key": "La recepció obre el termini de garantia. Modificació prevista (20%) o no prevista (50%, causes taxades). La resolució per culpa del contractista comporta pèrdua de garantia i indemnització."
         }
       ],
-      "key": "Recepció → garantia. Modificació prevista (20%) / no prevista (50%, causes taxades). Resolució amb efectes segons culpa."
+      "key": "Compliment → recepció formal → garantia → liquidació. Modificació: prevista (204, ≤20%) / no prevista (205, ≤50%, causes taxades). Resolució (211-213): efectes segons la culpa (garantia + indemnització)."
     },
     "25": {
-      "intro": "El contracte d'obres: concepte, actuacions preparatòries, execució, modificació, compliment i resolució (LCSP).",
+      "intro": "El contracte d'obres té per objecte la construcció o la rehabilitació d'un bé immoble (o treballs que modifiquin el terreny). Les seves especialitats es projecten sobre les actuacions preparatòries (projecte), l'execució, la modificació i el compliment (LCSP).",
       "sections": [
         {
-          "h": "Concepte i preparació",
-          "list": [
-            "Obres: construcció o rehabilitació d'un bé immoble, o realització de treballs que modifiquin el terreny/subsol.",
-            "Cal projecte (memòria, plànols, PPT i pressupost), supervisió, aprovació i replanteig previ."
-          ]
-        },
-        {
-          "h": "Execució i recepció",
+          "h": "Concepte i actuacions preparatòries",
           "scheme": {
-            "cap": "Cicle del contracte d'obres",
-            "body": "PROJECTE → supervisió → aprovació → REPLANTEIG\nLICITACIÓ i adjudicació\nACTA DE COMPROVACIÓ DEL REPLANTEIG → inici\nEXECUCIÓ (certificacions mensuals, direcció facultativa)\nRECEPCIÓ → termini de GARANTIA → liquidació"
+            "cap": "Preparació del contracte d'obres",
+            "body": "PROJECTE → memòria, plànols, plec de prescripcions\n  tècniques, pressupost (amidaments i preus), estudi de\n  seguretat i salut, programa de treball\nSUPERVISIÓ → preceptiva en obres de pressupost elevat o que\n  afectin l'estabilitat/seguretat (art. 235)\nAPROVACIÓ del projecte per l'òrgan competent\nREPLANTEIG previ → comprova la realitat geomètrica i la\n  disponibilitat dels terrenys"
           }
-        },
-        {
-          "h": "Modificació i resolució",
-          "list": [
-            "Modificacions segons règim general (previstes/no previstes); projecte modificat.",
-            "Resolució per les causes de la LCSP, amb liquidació de l'obra executada."
-          ]
-        }
-      ],
-      "key": "Obres: projecte+supervisió+replanteig → execució amb direcció facultativa i certificacions → recepció i garantia."
-    },
-    "26": {
-      "intro": "El contracte de concessió d'obres: el concessionari construeix i explota una obra assumint-ne el risc operacional (LCSP).",
-      "sections": [
-        {
-          "h": "Concepte",
-          "list": [
-            "L'Administració encarrega construir i explotar (o només explotar) una obra; la contraprestació consisteix en el dret a explotar-la (o aquest dret més un preu).",
-            "Element clau: transferència del RISC OPERACIONAL (de demanda o disponibilitat) al concessionari."
-          ]
-        },
-        {
-          "h": "Règim",
-          "scheme": {
-            "cap": "Concessió d'obres",
-            "body": "PREPARACIÓ → estudi de viabilitat + projecte\nCONSTRUCCIÓ → a càrrec del concessionari\nEXPLOTACIÓ → durada màx. 40 anys (segons amortització)\nEQUILIBRI ECONÒMIC → es restableix en supòsits taxats\n   (modificacions, factum principis, riscos imprevisibles)\nEXTINCIÓ → compliment termini, rescat, resolució, caducitat"
-          }
-        },
-        {
-          "key": "El concessionari assumeix el risc; reversió de l'obra a l'Administració en extingir-se la concessió."
-        }
-      ],
-      "key": "Construcció + explotació amb risc operacional. Durada fins a 40 anys. Equilibri econòmic en casos taxats."
-    },
-    "27": {
-      "intro": "El contracte de subministrament: adquisició de productes o béns mobles (LCSP).",
-      "sections": [
-        {
-          "h": "Concepte i modalitats",
-          "list": [
-            "Objecte: compra, arrendament (amb/sense opció de compra) o adquisició a terminis de béns mobles.",
-            "Modalitats: entrega successiva per preu unitari, arrendament, adquisició de sistemes…",
-            "No són subministrament els programes a mida (poden ser serveis)."
-          ]
         },
         {
           "h": "Execució",
           "scheme": {
-            "cap": "Subministrament",
-            "body": "ADJUDICACIÓ → procediments generals\nLLIURAMENT i recepció de conformitat\nTERMINI DE GARANTIA → vicis o defectes\nPagament del preu (unitari o global)\nRESOLUCIÓ → per les causes generals"
+            "cap": "Execució de l'obra",
+            "body": "ACTA DE COMPROVACIÓ DEL REPLANTEIG → habilita l'inici\n  (en el termini fixat des de la formalització)\nDIRECCIÓ FACULTATIVA dirigeix tècnicament l'obra\nCERTIFICACIONS mensuals → mesura l'obra executada i\n  documenten l'abonament a compte\nMODIFICATS i, si cal, obres complementàries"
           }
+        },
+        {
+          "h": "Compliment, recepció i resolució",
+          "p": "Acabada l'obra, es procedeix a la recepció (acte formal); a partir d'aquí corre el termini de garantia, durant el qual el contractista respon dels defectes. Després es fa la liquidació de l'obra. La resolució segueix les causes generals i les específiques del contracte d'obres (p. ex. demora en la comprovació del replanteig, suspensió per termini superior al previst)."
+        },
+        {
+          "h": "Responsabilitat per vicis",
+          "p": "Amb independència del termini de garantia contractual, si l'obra s'arruïna amb posterioritat per vicis ocults deguts a l'incompliment del contracte, el contractista respon dels danys durant el termini de quinze anys des de la recepció (responsabilitat per ruïna)."
+        },
+        {
+          "key": "Projecte → supervisió → aprovació → replanteig → acta de comprovació → execució amb direcció facultativa i certificacions → recepció i garantia → liquidació."
         }
       ],
-      "key": "Adquisició/arrendament de béns mobles. Lliurament + recepció + garantia."
+      "key": "Obres: projecte (memòria/plànols/PPT/pressupost) + supervisió (235) + aprovació + replanteig → acta de comprovació → execució (direcció facultativa, certificacions) → recepció + garantia → liquidació. Responsabilitat per ruïna (15 anys)."
+    },
+    "26": {
+      "intro": "El contracte de concessió d'obres és aquell en què la contraprestació al concessionari consisteix en el dret a explotar l'obra que construeix (o només a explotar-la), assumint-ne el risc operacional. És la fórmula típica de col·laboració publicoprivada en infraestructures (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte i element diferenciador",
+          "p": "El concessionari construeix i/o explota l'obra i es retribueix amb la seva explotació (eventualment més un preu). L'element clau que el distingeix del contracte d'obres és la transferència al concessionari del risc operacional (de demanda, de disponibilitat o tots dos): no té garantit recuperar la inversió en condicions normals de funcionament (art. 14)."
+        },
+        {
+          "h": "Actuacions preparatòries i construcció",
+          "scheme": {
+            "cap": "Concessió d'obres",
+            "body": "ESTUDI DE VIABILITAT (econòmica, tècnica, ambiental) →\n  previ i determinant\nPROJECTE i, si escau, avantprojecte\nCONSTRUCCIÓ a càrrec i risc del concessionari\nDURADA → màxima (art. 29): fins a 40 anys (obres), segons\n  el període de recuperació de la inversió"
+          }
+        },
+        {
+          "h": "Drets, obligacions i equilibri econòmic",
+          "scheme": {
+            "cap": "Règim de la concessió",
+            "body": "DRETS del concessionari → explotar i percebre tarifes/\n  retribució; mantenir l'equilibri econòmic\nPRERROGATIVES de l'AP → ordenar, controlar, modificar,\n  rescatar, segrestar\nEQUILIBRI ECONÒMIC → es restableix en supòsits taxats:\n  modificacions imposades, FACTUM PRINCIPIS (actuacions\n  generals de l'AP que l'afecten) i RISCOS imprevisibles\n  (art. 270)"
+          }
+        },
+        {
+          "h": "Extinció i reversió",
+          "p": "La concessió s'extingeix per compliment del termini, rescat (l'AP recupera la gestió abans del termini), caducitat (incompliment del concessionari), resolució per altres causes, o supressió/impossibilitat de l'explotació. En extingir-se, l'obra reverteix a l'Administració en l'estat pactat."
+        },
+        {
+          "key": "Risc operacional al concessionari; estudi de viabilitat previ; durada fins a 40 anys; equilibri econòmic en casos taxats; reversió de l'obra en extingir-se."
+        }
+      ],
+      "key": "Concessió d'obres: construcció + explotació amb RISC operacional. Estudi de viabilitat previ. Durada fins a 40 anys. Equilibri econòmic (modificacions, factum principis, riscos imprevisibles). Extinció: termini, rescat, caducitat; reversió."
+    },
+    "27": {
+      "intro": "El contracte de subministrament té per objecte l'adquisició, l'arrendament (amb o sense opció de compra) o l'adquisició a terminis de productes o béns mobles (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte i supòsits",
+          "scheme": {
+            "cap": "Subministrament (art. 16)",
+            "body": "COMPRA, ARRENDAMENT o LÍSING de béns mobles\nSupòsits típics:\n  • lliurament successiu i per preu unitari (sense fixar\n    quantia total: per necessitats)\n  • adquisició/arrendament d'equips i sistemes\n  • fabricació de béns segons característiques de l'AP\nNO és subministrament: l'adquisició de programes a mida\n  (pot ser contracte de serveis)"
+          }
+        },
+        {
+          "h": "Procediments i durada",
+          "p": "S'adjudica pels procediments generals (obert, restringit, negociat...). La durada s'ajusta a la prestació, amb límits i possibilitat de pròrrogues previstes al plec (art. 29). En els de lliurament successiu per preu unitari, es pot no fixar la quantia total, atenent les necessitats."
+        },
+        {
+          "h": "Execució i recepció",
+          "p": "El contractista lliura els béns en el temps i lloc fixats, amb les característiques requerides. La recepció (acte de conformitat) inicia el termini de garantia, durant el qual respon dels vicis o defectes. L'Administració pot exercir les seves prerrogatives (modificació, suspensió, resolució)."
+        },
+        {
+          "h": "Arrendament i altres",
+          "p": "En l'arrendament, l'objecte és la cessió de l'ús del bé per un temps i preu; pot incloure manteniment. La resolució i la modificació segueixen les regles generals, amb les especialitats del tipus."
+        },
+        {
+          "key": "Subministrament = béns mobles (compra/arrendament/lísing). Lliurament successiu per preu unitari possible. Recepció → garantia. Programes a mida solen ser serveis."
+        }
+      ],
+      "key": "Subministrament (16): adquisició/arrendament/lísing de béns mobles; lliurament successiu per preu unitari. Procediments generals; durada amb pròrrogues (29). Recepció → garantia. Software a mida = serveis."
     },
     "28": {
-      "intro": "El contracte de serveis: prestacions de fer; especialitat de l'elaboració de projectes d'obres (LCSP).",
+      "intro": "El contracte de serveis té per objecte prestacions de fer consistents en activitats diferents de les obres o els subministraments. Inclou l'especialitat de l'elaboració de projectes d'obres (LCSP).",
       "sections": [
         {
           "h": "Concepte i límits",
-          "list": [
-            "Objecte: prestacions de fer consistents en activitats diferents d'obres o subministraments.",
-            "No pot tenir per objecte funcions que impliquin exercici d'autoritat pública.",
-            "Cal vetllar per no encobrir cessió il·legal de treballadors."
-          ]
+          "scheme": {
+            "cap": "Serveis (art. 17)",
+            "body": "OBJECTE → prestacions de FER (intel·lectuals o materials)\nLÍMIT → no poden tenir per objecte funcions que impliquin\n  EXERCICI D'AUTORITAT inherent als poders públics\nPRECAUCIÓ → evitar que encobreixin una cessió il·legal de\n  treballadors (no donar ordres laborals directes al\n  personal de l'empresa)"
+          }
         },
         {
-          "h": "Durada i extinció",
-          "scheme": {
-            "cap": "Contracte de serveis",
-            "body": "DURADA → segons la prestació, amb límits i pròringues taxades\nEXECUCIÓ → a risc i ventura, sota direcció administrativa\nEXTINCIÓ → compliment, resolució, desistiment (indemnitza)\nESPECIALITAT → elaboració de projectes d'obres\n   (responsabilitat per defectes del projecte)"
-          }
+          "h": "Durada i pròrrogues",
+          "p": "La durada s'estableix atenent la naturalesa de les prestacions, amb límits legals (en general 5 anys, pròrrogues incloses) i possibilitat de pròrrogues previstes al plec, que són obligatòries per a l'empresari si el preavís és suficient (art. 29). En contractes de prestacions successives es pot preveure la continuïtat per garantir el servei mentre s'adjudica el següent."
+        },
+        {
+          "h": "Execució, modificació i extinció",
+          "p": "S'executen a risc i ventura sota la direcció de l'Administració. La resolució per desistiment o suspensió de l'Administració genera dret a indemnització del contractista (art. 313). Si el contracte resulta deficitari per causes alienes, es poden aplicar, si escau, mecanismes d'equilibri segons el tipus."
+        },
+        {
+          "h": "Especialitat: projectes d'obres",
+          "p": "L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 308 i concordants). El contractista respon dels danys derivats de defectes, insuficiències tècniques, errors materials, omissions o infraccions del projecte; pot exigir-se-li una indemnització proporcional als danys i a la importància de l'error en relació amb el pressupost de l'obra."
+        },
+        {
+          "key": "Serveis = prestacions de fer; no funcions d'autoritat; evitar cessió il·legal de treballadors. Durada limitada amb pròrrogues. Projectes d'obres: especialitat amb responsabilitat per defectes."
         }
       ],
-      "key": "Serveis = prestacions de fer (no autoritat pública). Projectes d'obres: especialitat amb responsabilitat per defectes."
+      "key": "Serveis (17): prestacions de fer; no exercici d'autoritat; evitar cessió il·legal. Durada amb pròrrogues (29); desistiment de l'AP indemnitza (313). Projectes d'obres: especialitat amb responsabilitat per defectes (308)."
     },
     "29": {
-      "intro": "El contracte de concessió de serveis: gestió indirecta d'un servei amb transferència del risc al concessionari (LCSP).",
+      "intro": "El contracte de concessió de serveis encarrega a un tercer la gestió d'un servei de titularitat pública assumint el risc operacional. És una de les formes de gestió indirecta dels serveis públics (LCSP).",
       "sections": [
         {
           "h": "Concepte",
-          "list": [
-            "L'Administració encomana la gestió d'un servei de la seva titularitat; el concessionari assumeix el risc operacional.",
-            "Es diferencia del contracte de serveis ordinari precisament per la transferència del risc."
-          ]
+          "p": "L'Administració encomana a un concessionari l'organització i la prestació d'un servei de la seva titularitat o competència. Es diferencia del contracte de serveis ordinari perquè el concessionari assumeix el risc operacional de l'explotació (art. 15). L'Administració conserva la titularitat i les potestats."
         },
         {
-          "h": "Règim",
+          "h": "Actuacions preparatòries i adjudicació",
           "scheme": {
-            "cap": "Concessió de serveis",
-            "body": "PREPARACIÓ → estudi de viabilitat i règim del servei\nADJUDICACIÓ → procediments generals\nEXECUCIÓ → l'Administració manté potestats d'ordenació i control\nDURADA → limitada segons l'amortització\nEXTINCIÓ → termini, rescat, resolució, caducitat, supressió"
+            "cap": "Preparació (art. 285 i ss.)",
+            "body": "ESTUDI DE VIABILITAT (en serveis que comportin obres o\n  inversions rellevants)\nREGLAMENT del servei i plec amb el règim de prestació\nADJUDICACIÓ pels procediments generals\nDURADA limitada segons la inversió (art. 29)"
           }
+        },
+        {
+          "h": "Execució i relacions amb els usuaris",
+          "p": "El concessionari ha de prestar el servei amb continuïtat i regularitat, en les condicions i tarifes aprovades, i admetre l'ús a qualsevol persona que compleixi els requisits. L'Administració manté potestats d'ordenació, control, inspecció i modificació del servei (ius variandi), i el dret a restablir l'equilibri econòmic en supòsits taxats."
+        },
+        {
+          "h": "Extinció",
+          "scheme": {
+            "cap": "Extinció de la concessió",
+            "body": "COMPLIMENT del termini → reversió del servei i, si escau,\n  dels béns afectes\nRESCAT → l'AP assumeix la gestió directa abans del termini\nCADUCITAT → per incompliment greu del concessionari\nRESOLUCIÓ per altres causes; SUPRESSIÓ del servei\n  → amb indemnització quan correspongui"
+          }
+        },
+        {
+          "key": "Gestió indirecta amb risc per al concessionari; l'AP conserva titularitat i control; tarifes i continuïtat garantides; extinció per termini, rescat, caducitat o resolució."
         }
       ],
-      "key": "Gestió indirecta d'un servei amb risc per al concessionari; l'Administració conserva la titularitat i el control."
+      "key": "Concessió de serveis (15): gestió indirecta amb risc operacional; titularitat i control de l'AP. Estudi de viabilitat; tarifes i continuïtat; ius variandi i equilibri econòmic. Extinció: termini, rescat, caducitat, resolució."
     },
     "31": {
-      "intro": "Les llicències i autoritzacions administratives; la comunicació prèvia i la declaració responsable (Llei 39/2015, art. 69).",
+      "intro": "Les llicències i autoritzacions administratives són tècniques d'intervenció de control previ de l'activitat dels particulars. La declaració responsable i la comunicació prèvia (art. 69 de la Llei 39/2015) són tècniques de control posterior que han simplificat molts procediments.",
       "sections": [
         {
-          "h": "Tipus d'intervenció",
+          "h": "Autoritzacions i llicències",
+          "p": "L'autorització (o llicència) és un acte de control previ que remou un límit o obstacle a l'exercici d'un dret o activitat preexistent del particular, un cop comprovat que es compleixen els requisits. És, en general, un acte reglat. La Directiva de serveis i la legislació de transposició han reduït els supòsits d'autorització en favor de tècniques menys restrictives, exigint que estiguin justificades per raons imperioses d'interès general i siguin proporcionades."
+        },
+        {
+          "h": "Declaració responsable i comunicació prèvia",
           "scheme": {
-            "cap": "Tècniques d'intervenció",
-            "body": "AUTORITZACIÓ/LLICÈNCIA → control PREVI (acte administratiu)\n   remou un límit a l'exercici d'un dret preexistent\nDECLARACIÓ RESPONSABLE → el particular declara que compleix\nCOMUNICACIÓ PRÈVIA → posa en coneixement dades per iniciar\n→ totes dues permeten iniciar des de la presentació\n   amb CONTROL POSTERIOR"
+            "cap": "Control posterior (art. 69)",
+            "body": "DECLARACIÓ RESPONSABLE → document en què l'interessat\n  manifesta, sota la seva responsabilitat, que compleix els\n  requisits, que disposa de la documentació que ho acredita\n  i que es compromet a mantenir-ho\nCOMUNICACIÓ → posa en coneixement de l'AP les dades per a\n  l'exercici d'un dret o l'inici d'una activitat\n→ TOTES DUES permeten iniciar des de la PRESENTACIÓ\n  (o la data que indiquin), amb CONTROL a posteriori"
           }
         },
         {
-          "h": "Efectes i control",
-          "list": [
-            "Declaració/comunicació: habiliten l'activitat des de la presentació, sotmeses a comprovació.",
-            "La inexactitud, falsedat o omissió essencial → impossibilitat de continuar des que es coneix (art. 69.4), amb responsabilitats."
-          ]
+          "h": "Efectes de la inexactitud o falsedat",
+          "p": "La inexactitud, falsedat o omissió, de caràcter essencial, en qualsevol dada o document que s'incorpori a una declaració responsable o comunicació, o la no-presentació de la documentació requerida, determina la impossibilitat de continuar amb l'exercici del dret o activitat des del moment en què se'n tingui constància, sens perjudici de les responsabilitats penals, civils o administratives (art. 69.4). Pot comportar, a més, l'obligació de restituir la situació jurídica al moment previ."
         },
         {
-          "key": "Cap autorització dóna drets contraris a l'ordenament; la inexactitud essencial impedeix continuar l'activitat."
+          "h": "Aplicació urbanística i d'activitats",
+          "p": "En l'àmbit local, la comunicació prèvia s'aplica a obres i actuacions de menor entitat (art. 187 bis TRLUC) i a activitats de baixa incidència ambiental (Llei 20/2009); la llicència es reserva a les actuacions de més entitat o risc."
+        },
+        {
+          "key": "Cap autorització o silenci atorga facultats contràries a l'ordenament. La declaració responsable i la comunicació permeten iniciar des de la presentació, amb control posterior; la inexactitud essencial impedeix continuar."
         }
       ],
-      "key": "Llicència = control previ; declaració responsable/comunicació prèvia = inici immediat + control posterior (art. 69)."
+      "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. Inexactitud essencial → impossibilitat de continuar (69.4)."
     },
     "32": {
       "intro": "La gestió indirecta dels serveis públics: la concessió. Concepte, potestats, drets i extinció.",
