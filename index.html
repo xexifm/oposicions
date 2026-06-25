@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Simulador oposició · Tècnic/a superior · Montornès del Vallès</title>
+<meta name="description" content="Simulador d'examen per a l'oposició de tècnic/a superior en arquitectura/enginyeria de l'Ajuntament de Montornès del Vallès. Test, casos pràctics i resums dels 90 temes.">
+<meta name="theme-color" content="#9e1632">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="assets/icons/favicon.png">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Oposició Montornès">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/">
+      <span class="crest">M</span>
+      <span>
+        <b>Oposició Montornès</b>
+        <small>Tècnic/a superior · arquitectura/enginyeria</small>
+      </span>
+    </a>
+    <span class="spacer"></span>
+    <nav class="nav" id="topnav">
+      <a href="#/" data-route="home">Inici</a>
+      <a href="#/estudi" data-route="estudi">Estudi</a>
+      <a href="#/examen" data-route="examen">Examen</a>
+      <a href="#/casos" data-route="casos">Casos</a>
+      <a href="#/historial" data-route="historial">Historial</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="view" aria-live="polite">
+  <p class="muted">Carregant…</p>
+</main>
+
+<nav class="tabbar" aria-label="Navegació principal">
+  <div class="tabbar-inner">
+    <a href="#/" data-route="home"><span class="ic">🏠</span>Inici</a>
+    <a href="#/estudi" data-route="estudi"><span class="ic">📚</span>Estudi</a>
+    <a href="#/examen" data-route="examen"><span class="ic">📝</span>Examen</a>
+    <a href="#/casos" data-route="casos"><span class="ic">⚖️</span>Casos</a>
+    <a href="#/historial" data-route="historial"><span class="ic">🕓</span>Historial</a>
+  </div>
+</nav>
+
+<script type="module" src="assets/js/app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(()=>{});
+    });
+  }
+</script>
+</body>
+</html>

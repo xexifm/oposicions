@@ -1,0 +1,979 @@
+{
+  "norms": {
+    "CE1978": {
+      "name": "Constitució espanyola de 1978",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    "EAC2006": {
+      "name": "Estatut d'autonomia de Catalunya (LO 6/2006)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/lo/2006/07/19/6"
+    },
+    "LRBRL": {
+      "name": "Llei 7/1985 reguladora de les bases del règim local",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    "TRRL": {
+      "name": "RDL 781/1986 (TR disposicions règim local)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-9865"
+    },
+    "DL2_2003": {
+      "name": "DL 2/2003 (TR Llei municipal i de règim local de Catalunya)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/dlegis/2003/04/28/2"
+    },
+    "L39_2015": {
+      "name": "Llei 39/2015 del procediment administratiu comú",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    "L40_2015": {
+      "name": "Llei 40/2015 de règim jurídic del sector públic",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    "TRLHL": {
+      "name": "RDL 2/2004 (TR Llei reguladora de les hisendes locals)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    "RD500_1990": {
+      "name": "RD 500/1990 (pressupostos ens locals)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-9664"
+    },
+    "LCSP": {
+      "name": "Llei 9/2017 de contractes del sector públic",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    "LOPDGDD": {
+      "name": "LO 3/2018 de protecció de dades i garantia drets digitals",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    "RGPD": {
+      "name": "Reglament (UE) 2016/679 (RGPD)",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679"
+    },
+    "TREBEP": {
+      "name": "RDL 5/2015 (TR Estatut bàsic de l'empleat públic)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    "L38_2003": {
+      "name": "Llei 38/2003 general de subvencions",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977"
+    },
+    "L33_2003": {
+      "name": "Llei 33/2003 del patrimoni de les administracions públiques",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20254"
+    },
+    "D336_1988": {
+      "name": "Decret 336/1988 (Reglament patrimoni ens locals de Catalunya)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1988/10/17/336"
+    },
+    "TRLSRU": {
+      "name": "RDL 7/2015 (TR Llei de sòl i rehabilitació urbana)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11723"
+    },
+    "TRLUC": {
+      "name": "DL 1/2010 (TR Llei d'urbanisme de Catalunya)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/dlegis/2010/08/03/1"
+    },
+    "RLUC": {
+      "name": "Decret 305/2006 (Reglament Llei d'urbanisme)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2006/07/18/305"
+    },
+    "L11_2025": {
+      "name": "Llei 11/2025 i DL 2/2025 (reforma urbanisme, vigent 31-12-2025)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/l/2025"
+    },
+    "LOE": {
+      "name": "Llei 38/1999 d'ordenació de l'edificació",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1999-21567"
+    },
+    "CTE": {
+      "name": "RD 314/2006 (Codi tècnic de l'edificació)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-5515"
+    },
+    "L18_2007": {
+      "name": "Llei 18/2007 del dret a l'habitatge (Catalunya)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/l/2007/12/28/18"
+    },
+    "L20_2009": {
+      "name": "Llei 20/2009 de prevenció i control ambiental de les activitats",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/l/2009/12/04/20"
+    },
+    "L11_2009": {
+      "name": "Llei 11/2009 d'espectacles públics i activitats recreatives",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/l/2009/07/06/11"
+    },
+    "L19_2014": {
+      "name": "Llei 19/2014 de transparència, accés a la informació i bon govern",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/l/2014/12/29/19"
+    },
+    "L31_1995": {
+      "name": "Llei 31/1995 de prevenció de riscos laborals",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    "RD171_2004": {
+      "name": "RD 171/2004 (coordinació d'activitats empresarials)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-1848"
+    },
+    "LEF": {
+      "name": "Llei de 16-12-1954 d'expropiació forçosa",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1954-15431"
+    },
+    "ROAS": {
+      "name": "Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)",
+      "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1995/06/13/179"
+    },
+    "MONT": {
+      "name": "Ajuntament de Montornès del Vallès",
+      "url": "https://www.montornes.cat"
+    }
+  },
+  "blocks": {
+    "1": "Constitució i organització territorial",
+    "2": "Acte i procediment administratiu",
+    "3": "Pressupost i hisendes locals",
+    "4": "Ordenances i reglaments locals",
+    "5": "Contractació del sector públic",
+    "6": "Protecció de dades",
+    "7": "Funció pública i personal",
+    "8": "Serveis públics, consorcis i subvencions",
+    "9": "Responsabilitat patrimonial",
+    "10": "Béns de les entitats locals",
+    "11": "Urbanisme: règim del sòl i planejament",
+    "12": "Disciplina urbanística i sancions",
+    "13": "Activitats i intervenció ambiental",
+    "14": "Projectes, obres i edificació",
+    "15": "Habitatge i medi ambient",
+    "16": "Administració electrònica i transparència",
+    "17": "Direcció, lideratge i habilitats directives",
+    "18": "Seguretat i salut laboral"
+  },
+  "temari": [
+    {
+      "num": 1,
+      "title": "La Constitució espanyola de 1978: estructura, contingut i principis. El títol preliminar: principis generals. Els drets fonamentals i les llibertats públiques",
+      "block": 1,
+      "blockName": "Constitució i organització territorial",
+      "sources": [
+        "CE1978"
+      ]
+    },
+    {
+      "num": 2,
+      "title": "L’Estatut d’autonomia de Catalunya. Estructura i contingut essencial",
+      "block": 1,
+      "blockName": "Constitució i organització territorial",
+      "sources": [
+        "EAC2006"
+      ]
+    },
+    {
+      "num": 3,
+      "title": "L'organització territorial de l'Estat: l'Administració local. Ens que l'integren",
+      "block": 1,
+      "blockName": "Constitució i organització territorial",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "num": 4,
+      "title": "El municipi. Els òrgans de representació política i la seva designació. Òrgans necessaris i òrgans complementaris. El règim de sessions i acords dels òrgans de govern local. Els òrgans de govern de l’Ajuntament de Montornès del Vallès i altres òrgans complementaris. L’Organigrama polític i per Àrees funcionals vigent",
+      "block": 1,
+      "blockName": "Constitució i organització territorial",
+      "sources": [
+        "LRBRL",
+        "DL2_2003",
+        "MONT"
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Organització i competències municipals: sistema de determinació. Competències pròpies, compartides i delegades",
+      "block": 1,
+      "blockName": "Constitució i organització territorial",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "num": 6,
+      "title": "L'acte administratiu: concepte i classes. Elements de l'acte administratiu. La motivació i la forma. El silenci administratiu",
+      "block": 2,
+      "blockName": "Acte i procediment administratiu",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "num": 7,
+      "title": "L’acte administratiu: l'eficàcia de l'acte administratiu: principis generals. Executivitat de l'acte administratiu. La notificació i la publicació. Invalidesa dels actes: nul·litat de ple dret, anul·labilitat. Convalidació",
+      "block": 2,
+      "blockName": "Acte i procediment administratiu",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "num": 8,
+      "title": "El procediment administratiu: concepte, principis i importància. El procediment administratiu comú: regulació",
+      "block": 2,
+      "blockName": "Acte i procediment administratiu",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "num": 9,
+      "title": "El procediment administratiu: l'estructura del procediment administratiu: iniciació, ordenació, instrucció i finalització",
+      "block": 2,
+      "blockName": "Acte i procediment administratiu",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "num": 10,
+      "title": "El procediment administratiu: Els terminis administratius: regulació i jurisprudència. L'elaboració de les disposicions administratives de caràcter general",
+      "block": 2,
+      "blockName": "Acte i procediment administratiu",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "num": 11,
+      "title": "El procediment administratiu: els recursos administratius",
+      "block": 2,
+      "blockName": "Acte i procediment administratiu",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "num": 12,
+      "title": "La planificació de la gestió pública. El pressupost com a instrument de planificació, d'administració i de gestió i com a mecanisme general de coordinació",
+      "block": 3,
+      "blockName": "Pressupost i hisendes locals",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Finalitats del pressupost Procediment d’elaboració, estructura, l’estat de despeses i d’ingressos",
+      "block": 3,
+      "blockName": "Pressupost i hisendes locals",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Ordenances i reglaments de les entitats locals. Classes de normes locals. Procediment d'elaboració i aprovació",
+      "block": 4,
+      "blockName": "Ordenances i reglaments locals",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "num": 15,
+      "title": "La contractació administrativa: concepte i fonts. Incidència del dret comunitari europeu. Principis bàsics de la Llei de contractes de les administracions públiques. Àmbit d'aplicació subjectiva. Classificació dels contractes i règim jurídic",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 16,
+      "title": "La Llei Orgànica 3/2018, de 5 de desembre ,de Protecció de Dades: Disposicions generals; principis de la protecció de dades; drets de les persones i garantia dels drets digitals",
+      "block": 6,
+      "blockName": "Protecció de dades",
+      "sources": [
+        "LOPDGDD",
+        "RGPD"
+      ]
+    },
+    {
+      "num": 17,
+      "title": "La funció pública local i la seva organització: Oferta Pública d’Ocupació. Selecció i provisió de llocs. Adquisició i pèrdua de la condició de funcionari. Les classes de personal al servei de l’administració pública local",
+      "block": 7,
+      "blockName": "Funció pública i personal",
+      "sources": [
+        "TREBEP",
+        "DL2_2003"
+      ]
+    },
+    {
+      "num": 18,
+      "title": "La funció pública local i la seva organització. Drets i deures del personal al servei de l'Administració pública. El sistema retributiu. Situacions administratives",
+      "block": 7,
+      "blockName": "Funció pública i personal",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "num": 19,
+      "title": "Els convenis interadministratius en l’àmbit local. Marc jurídic i procediment d’aprovació",
+      "block": 8,
+      "blockName": "Serveis públics, consorcis i subvencions",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "num": 20,
+      "title": "Els contractes del Sector públic: Principis generals de la contractació del sector públic. Contractes exclosos. Procediment de contractació",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 21,
+      "title": "Els contractes del Sector Públic: Criteris de valoració de les ofertes. Ofertes anormalment baixes. Classificació d’ofertes i adjudicació del contracte",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 22,
+      "title": "Els contractes del Sector Públic: Execució dels contractes. Demora en l’execució. Condicions especials d’execució. Prerrogatives de l’Administració Pública en els contractes administratius",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 23,
+      "title": "Els contractes del Sector Públic: La cessió dels contractes i la subcontractació. Pagaments a subcontractistes",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 24,
+      "title": "Els contractes del Sector Públic: Compliment dels contractes i recepció Resolució dels contractes. La modificació dels contractes",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 25,
+      "title": "Els contractes del Sector Públic: El contracte d’obres. Concepte i objecte. Actuacions preparatòries. Execució del contracte. Modificació del contracte d’obres. Compliment i resolució",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 26,
+      "title": "Els contractes del Sector Públic: El contracte de concessió d’obres. Concepte i objecte. Actuacions preparatòries. Construcció de les obres objecte de concessió. Drets i obligacions del concessionari i prerrogatives de l’Administració concedent. Extinció de les concessions",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 27,
+      "title": "Els contractes del Sector Públic: El contracte de subministrament. Concepte. Procediments d’adjudicació. Durada del contracte. Arrendament. Execució i resolució del contracte de subministrament",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 28,
+      "title": "Els contractes del Sector Públic: El contracte de serveis. Procediments d’adjudicació. Durada. Extinció, modificació i resolució. Especialitats del contracte d’elaboració de projectes d’obres",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 29,
+      "title": "Els contractes del Sector Públic: El contracte de concessió de serveis. Concepte. Actuacions preparatòries. Els procediments d’adjudicació. Durada. Execució, modificació i resolució",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 30,
+      "title": "La contractació menor. Quanties i procediment",
+      "block": 5,
+      "blockName": "Contractació del sector públic",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "num": 31,
+      "title": "Les llicències i autoritzacions administratives: classes. La comunicació prèvia i la declaració responsable",
+      "block": 14,
+      "blockName": "Projectes, obres i edificació",
+      "sources": [
+        "L39_2015",
+        "TRLUC",
+        "ROAS"
+      ]
+    },
+    {
+      "num": 32,
+      "title": "La gestió indirecta: la concessió dels serveis públics. Concepte i naturalesa. Elements. Potestats de l’Administració pública. Drets i obligacions del concessionari. Relacions del concessionari amb les persones usuàries. Extinció de la concessió",
+      "block": 8,
+      "blockName": "Serveis públics, consorcis i subvencions",
+      "sources": [
+        "LRBRL",
+        "ROAS"
+      ]
+    },
+    {
+      "num": 33,
+      "title": "La gestió indirecta: Altra formes de gestió indirecta dels serveis públics. Gestió interessada. Societats mercantils i cooperatives amb capital mixt",
+      "block": 8,
+      "blockName": "Serveis públics, consorcis i subvencions",
+      "sources": [
+        "LRBRL",
+        "ROAS"
+      ]
+    },
+    {
+      "num": 34,
+      "title": "Els Consorcis: marc legal i àmbit d’actuació. Funcionament i règim jurídic",
+      "block": 8,
+      "blockName": "Serveis públics, consorcis i subvencions",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "num": 35,
+      "title": "Les subvencions de les administracions públiques: El pla estratègic de subvencions. Procediments de concessió i gestió de les subvencions. Normativa d’aplicació. Reintegrament de subvencions. Las subvencions nominatives. Els convenis",
+      "block": 8,
+      "blockName": "Serveis públics, consorcis i subvencions",
+      "sources": [
+        "L38_2003"
+      ]
+    },
+    {
+      "num": 36,
+      "title": "La responsabilitat patrimonial de l’Administració Pública: Concepte i característiques. Danys indemnitzables. L’acció i el procediment administratiu en matèria de responsabilitat patrimonial",
+      "block": 9,
+      "blockName": "Responsabilitat patrimonial",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "num": 37,
+      "title": "La responsabilitat patrimonial: responsabilitat de les autoritats i del personal al servei de les administracions públiques",
+      "block": 9,
+      "blockName": "Responsabilitat patrimonial",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "num": 38,
+      "title": "Els béns de les entitats locals: Concepte. Naturalesa i elements. Alteració de la qualificació jurídica dels béns. Tràfic jurídic dels béns. Utilització i aprofitament dels béns",
+      "block": 10,
+      "blockName": "Béns de les entitats locals",
+      "sources": [
+        "L33_2003",
+        "D336_1988"
+      ]
+    },
+    {
+      "num": 39,
+      "title": "Els béns de les entitats locals: Béns de domini públic. Béns patrimonials. Prerrogatives i potestats de les entitats locals en relació als seus béns. Els béns comunals. L’inventari. Conservació, protecció i defensa dels béns. L’inventari",
+      "block": 10,
+      "blockName": "Béns de les entitats locals",
+      "sources": [
+        "L33_2003",
+        "D336_1988"
+      ]
+    },
+    {
+      "num": 40,
+      "title": "El pressupost general de les entitats locals: Estructura pressupostària. Elaboració i aprovació. Les bases d’execució del pressupost. La pròrroga del pressupost. L’execució i la liquidació del pressupost",
+      "block": 3,
+      "blockName": "Pressupost i hisendes locals",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "num": 41,
+      "title": "Els crèdits del pressupost de despeses: delimitació, situació i nivells de vinculació jurídica",
+      "block": 3,
+      "blockName": "Pressupost i hisendes locals",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "num": 42,
+      "title": "L’execució del pressupost de despeses i d’ingressos: les seves fases. Els pagaments a justificar. Les bestretes de caixa. Les despeses de caràcter plurianual. La tramitació anticipada de despeses. Els projectes de despeses. Les despeses amb finançament afectat",
+      "block": 3,
+      "blockName": "Pressupost i hisendes locals",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "num": 43,
+      "title": "Hisendes locals: Els recursos de les hisendes local segons la Llei reguladora de les Hisendes Locals. Els ingressos de dret privat. Les subvencions i altres ingressos de dret públic",
+      "block": 3,
+      "blockName": "Pressupost i hisendes locals",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "num": 44,
+      "title": "Règim urbanístic i classificació del sòl: Classificació del sòl. Concepte de sòl urbà. Serveis urbanístics bàsics. Concepte de nucli de població. Concepte de solar. Concepte de sòl urbà consolidat i no consolidat. Concepte de sòl urbà no urbanitzable",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC",
+        "TRLSRU",
+        "L11_2025"
+      ]
+    },
+    {
+      "num": 45,
+      "title": "Situacions bàsiques del sòl: Supòsits de situació bàsica del sòl rural. Supòsits de situació bàsica del sol urbanitzat",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLSRU",
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 46,
+      "title": "Reserves per a sistemes urbanístics generals i locals: Sistemes urbanístics generals i locals. Compatibilitat i qualificacions d’aprofitaments privats",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 47,
+      "title": "L’aprofitament urbanístic. Concepte i la seva ponderació",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 48,
+      "title": "Drets i deures de les persones propietàries: Règim urbanístic del subsol. Limitacions del dret d’aprofitament urbanístic. Deure de cessió en els diferents tipus de sòl",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC",
+        "TRLSRU"
+      ]
+    },
+    {
+      "num": 49,
+      "title": "Règim d’ús provisional del sòl: Usos i obres de caràcter provisional. Procediment per l’autorització",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 50,
+      "title": "Figures del planejament urbanístic: Plans directors urbanístics",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 51,
+      "title": "Figures del planejament urbanístic: Plans d’Ordenació urbanística municipal. Documentació. Programa d’actuació urbanística municipal. Normes de planejament urbanístic. Supòsit de suspensió d’un pla d’ordenació urbanístic municipal. Formulació del planejament urbanístic municipal",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 52,
+      "title": "El planejament de desenvolupament. Plans parcials i plans Especials. Elaboració, aprovació, modificació i revisió dels plans. Documentació que han de contenir",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 53,
+      "title": "Iniciativa i col·laboració dels particulars en el planejament urbanístic: Iniciativa privada en la formulación de plans urbanístics. Especialitats",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 54,
+      "title": "Efectes de l’aprovació de les figures del planejament urbanístic: Publicitat i obligacions dels convenis urbanístics. Certificats de règim urbanístic. Executivitat i obligatorietat del planejament urbanístic",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 55,
+      "title": "Gestió urbanística. Els diversos sistemes d’actuació. Elecció del sistema. El principi d’equidistribució i les seves tècniques: àrees de repartiment i unitat d’execució. Aprofitament mig i tipus, concepte i la seva funció. El programa d’actuació. El projecte d’urbanització",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 56,
+      "title": "Intervenció administrativa en l’edificació o ús del sòl: La llicència urbanística: Actes subjectes, naturalesa i règim jurídic. Les obres d’execució. Deures de conservació i règim de la declaració de ruïna",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC",
+        "RLUC"
+      ]
+    },
+    {
+      "num": 57,
+      "title": "Parcel·lacions urbanístiques: Concepte. Llicència de parcel·lació. Presumpció de parcel·lació urbanística. Indivisibilitat de parcel·les i finques",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 58,
+      "title": "La protecció de la legalitat urbanística: Competències municipals i autonòmiques. La inspecció urbanística. Els procediments de protecció de la legalitat urbanística. Obres sense llicència o contràries a les seves condicions",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC",
+        "L11_2025"
+      ]
+    },
+    {
+      "num": 59,
+      "title": "La intervenció i el control administratiu de les activitats amb incidència ambiental: La intervenció administrativa prèvia: Tipus, procediment i règim jurídic. L’autorització ambiental. Declaració d’impacte ambiental amb autorització substantiva. La llicència ambiental. La comunicació ambiental. Informe urbanístic",
+      "block": 13,
+      "blockName": "Activitats i intervenció ambiental",
+      "sources": [
+        "L20_2009"
+      ]
+    },
+    {
+      "num": 60,
+      "title": "Espectables públics i activitats recreatives: Llicència d’establiments oberts al públic. Comunicació prèvia d’espectables públics i activitats recreatives. Activitats innòcues. Comunicació prèvia d’activitats innòcues. Declaració responsable d’activitats innòcues",
+      "block": 13,
+      "blockName": "Activitats i intervenció ambiental",
+      "sources": [
+        "L11_2009"
+      ]
+    },
+    {
+      "num": 61,
+      "title": "Projectes d’obres locals: Elaboració de Projectes d’obres locals: redacció per part dels Serveis tècnics municipals o per part d’equips externs. Treballs previs i treballs complementaris. Contingut del Projecte. La Memòria valorada. Tramitació d’aprovació",
+      "block": 14,
+      "blockName": "Projectes, obres i edificació",
+      "sources": [
+        "LCSP",
+        "ROAS"
+      ]
+    },
+    {
+      "num": 62,
+      "title": "Edificació: Requisits bàsics de les edificacions: funcionalitat, seguretat i habitabilitat. El Codi Tècnic de l’Edificació. Ecoeficiència en els edificis",
+      "block": 14,
+      "blockName": "Projectes, obres i edificació",
+      "sources": [
+        "LOE",
+        "CTE"
+      ]
+    },
+    {
+      "num": 63,
+      "title": "Execució d’Obres locals: execució mitjançant contracte o mitjançant mitjans propis municipals. La classificació del contractista. El Director de l’obra, el director d’execució i el Coordinador de seguretat i salut. El control de qualitat. Les certificacions d’obra. La recepció de l’obra",
+      "block": 14,
+      "blockName": "Projectes, obres i edificació",
+      "sources": [
+        "LCSP",
+        "ROAS"
+      ]
+    },
+    {
+      "num": 64,
+      "title": "Organització i coordinació de la realització d’obres municipals: planificació de tasques, accions i projectes, a desenvolupar personalment o per part dels Serveis tècnics municipals",
+      "block": 14,
+      "blockName": "Projectes, obres i edificació",
+      "sources": [
+        "ROAS"
+      ]
+    },
+    {
+      "num": 65,
+      "title": "Patrimonis públics del sòl i habitatge: Concepte i finalitats. Patrimoni separat",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC",
+        "L18_2007"
+      ]
+    },
+    {
+      "num": 66,
+      "title": "Urbanitzacions amb dèficits urbanístics: concepte i règim jurídic aplicable",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 67,
+      "title": "L’expropiació forçosa: Subjectes, objecte i causa. El procediment general. Garanties jurisdiccionals. La reversió. Tramitació d’urgència. Procediments especials",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "LEF",
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 68,
+      "title": "Valoracions: valoració del sòl, de les construccions, instal·lacions i edificacions i dels drets constituïts en relació a ells",
+      "block": 11,
+      "blockName": "Urbanisme: règim del sòl i planejament",
+      "sources": [
+        "TRLSRU",
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 69,
+      "title": "La potestat sancionadora: concepte i significat. Principis de l’exercici de la potestat sancionadors. Mesures sancionadores administratives. Especial referència a la potestat sancionadora local",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "L39_2015",
+        "L40_2015"
+      ]
+    },
+    {
+      "num": 70,
+      "title": "Infraccions urbanísitiques: Classificació. Actuacions que vulneren el ordenament jurídic. Persones responsables als efectes del règim sancionador",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 71,
+      "title": "Sancions: Quantia de les sancions. Graduació",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 72,
+      "title": "Ordres d’execució: Deure de conservació i rehabilitació. Ordres d’execució i inspeccions",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 73,
+      "title": "Prescripció: Prescripció de l’acció de restauración i de l’ordre de restauración",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 74,
+      "title": "Revisió de llicències i d’ordres d’execució: Supòsits. Efectes de la incoació d’expedients de revisió de llicènies en la primera ocupación dels edificis i construccions",
+      "block": 12,
+      "blockName": "Disciplina urbanística i sancions",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "num": 75,
+      "title": "La Llei de l’habitatge de Catalunya. Les competències en matèria d’habitatge a Catalunya. La planificació territorial i la programació en matèria d’habitatge. L’habitatge en el planejament urbanístic. La qualitat del parc immobiliari d’habitatges. La protecció dels consumidors i usuaris d’habitatges en el mercat immobiliari. El règim de control i el procediment sancionador",
+      "block": 15,
+      "blockName": "Habitatge i medi ambient",
+      "sources": [
+        "L18_2007"
+      ]
+    },
+    {
+      "num": 76,
+      "title": "Les polítiques sobre el medi ambient a Catalunya. Previsions de l’Estatut d’autonomia i normativa aplicable. La regulació específica de les activitats amb impacte ambiental a Catalunya",
+      "block": 15,
+      "blockName": "Habitatge i medi ambient",
+      "sources": [
+        "L20_2009",
+        "EAC2006"
+      ]
+    },
+    {
+      "num": 77,
+      "title": "L’administració electrònica: drets i deures dels ciutadans. La signatura electrònica. Subjectes obligats a relacionar-se electrònicament amb l’administració",
+      "block": 16,
+      "blockName": "Administració electrònica i transparència",
+      "sources": [
+        "L39_2015",
+        "L40_2015"
+      ]
+    },
+    {
+      "num": 78,
+      "title": "Millora de qualitat: Millora continua de processos administratius. Qualitat del servei públic i atenció a la ciutadania",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 79,
+      "title": "Avaluació de l’assoliment d’objectius: seguiment dels resultats propis i de l’Àrea del Territori i Sostenibilitat. Fases de treball. Qualitat dels resultats i reconducció de desviacions",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 80,
+      "title": "Eines del comandament: Gestió de l’estrès. Organització del treball",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 81,
+      "title": "Lideratge d’equips: Técniques de motivació, delegació de tasques i gestió o resolució de conflictes. Habilitats de comunicació: Comunicació assertiva. Recursos i tècniques de comunicació",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 82,
+      "title": "Transparència en la gestió pública. Bon Govern. Dret d’accés a la informació pública",
+      "block": 16,
+      "blockName": "Administració electrònica i transparència",
+      "sources": [
+        "L19_2014"
+      ]
+    },
+    {
+      "num": 83,
+      "title": "Gestió per Objectius: Planificació estratègica i operativa, fixació d’indicadors i avaluació del desenvolupament",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 84,
+      "title": "Presa de decisions: Anàlisi de problemes complexos i gestió del canvi en entorns públics",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 85,
+      "title": "Ètica Pública i Valors: El codi ètic. Aplicació de principis de integritat i servei a la ciutadania en la direcció diària",
+      "block": 17,
+      "blockName": "Direcció, lideratge i habilitats directives",
+      "sources": []
+    },
+    {
+      "num": 86,
+      "title": "El personal al servei de les administracions públiques: personal funcionari, personal laboral, personal directiu professional, personal eventual. Règim d’incompatibilitats",
+      "block": 7,
+      "blockName": "Funció pública i personal",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "num": 87,
+      "title": "Atenció al personal: Gestió de conflictes. Planificació de tasques. Bon clima laboral. Resolució d’incidències i conflictes",
+      "block": 7,
+      "blockName": "Funció pública i personal",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "num": 88,
+      "title": "Règim disciplinari del personal: Aplicació. Procediment. Tipus de sancions",
+      "block": 7,
+      "blockName": "Funció pública i personal",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "num": 89,
+      "title": "Seguretat i salut en el treball: Conceptes bàsics de seguretat i salut en el treball i prevenció de riscos laborals. Equips de protecció individual. Equips de protecció col·lectiva. Riscos específics del lloc de treball",
+      "block": 18,
+      "blockName": "Seguretat i salut laboral",
+      "sources": [
+        "L31_1995"
+      ]
+    },
+    {
+      "num": 90,
+      "title": "Seguretat i salut en el treball. La Coordinació d’Activitats Empresarials",
+      "block": 18,
+      "blockName": "Seguretat i salut laboral",
+      "sources": [
+        "L31_1995",
+        "RD171_2004"
+      ]
+    }
+  ]
+}
