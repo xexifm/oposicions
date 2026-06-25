@@ -13,9 +13,9 @@ Funciona al **PC i al mòbil**, es pot instal·lar com a **app (PWA)** i estudia
 
 | Secció | Descripció |
 |---|---|
-| **📚 Estudi** | Resums dels **90 temes** de l'Annex I amb esquemes i fonts oficials, organitzats en blocs. |
-| **📝 Examen** | Prova tipus test amb **correcció automàtica** i puntuació segons la Base 7.7. |
-| **⚖️ Casos** | Casos teòrico-pràctics amb **correcció per criteris** (offline) i opció de **correcció amb Claude**. |
+| **📚 Estudi** | Resums detallats dels **90 temes** de l'Annex I amb esquemes i fonts oficials, organitzats en blocs. |
+| **📝 Examen** | **502 preguntes** tipus test amb **correcció automàtica** i puntuació segons la Base 7.7. |
+| **⚖️ Casos** | **25 casos** teòrico-pràctics amb **correcció per criteris** (offline) i opció de **correcció amb Claude**. |
 | **🕓 Historial** | Exàmens desats, notes i progrés d'estudi (tot al navegador). |
 | **🔗 Fonts** | Tota la normativa del temari amb enllaços als textos consolidats (BOE / Portal Jurídic). |
 
@@ -81,8 +81,8 @@ Tot el contingut viu a fitxers JSON dins de [`/data`](./data):
 ```
 Les `keywords` són grups de sinònims: el criteri es considera cobert si la resposta menciona prou grups.
 
-> **Objectiu:** 1000 preguntes i 50 casos. Aquest repositori s'omple **per fases**; el lot actual cobreix
-> tots els blocs perquè l'app sigui plenament funcional des del primer dia.
+> **Estat actual:** 502 preguntes test, 25 casos pràctics i els 90 resums complets. **Objectiu final:**
+> 1000 preguntes i 50 casos; el banc s'amplia **per fases** mantenint la cobertura de tots els 90 temes.
 
 ---
 

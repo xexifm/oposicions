@@ -2,188 +2,2127 @@
   "_meta": {
     "info": "Casos teòrico-pràctics (Prova 2, Base 7.7.b). Cada cas porta una rúbrica de criteris amb pesos i paraules clau per a la correcció automàtica, més una resposta model. Material d'estudi generat amb IA: contrasta amb la normativa vigent.",
     "objectiu_total": 50,
-    "fase": "Lot 1"
+    "fase": "Lot 1-2 · 25/50"
   },
   "cases": [
     {
       "id": "c01-silenci-llicencia",
-      "theme": 56, "block": 12, "maxPoints": 45,
+      "theme": 56,
+      "block": 12,
+      "maxPoints": 45,
       "title": "Llicència d'obres i silenci administratiu",
       "context": "Una persona sol·licita llicència d'obres majors per construir un habitatge unifamiliar. Transcorren més de tres mesos sense que l'Ajuntament dicti i notifiqui cap resolució. El projecte presentat és, però, disconforme amb el planejament urbanístic vigent (excedeix l'edificabilitat permesa).",
       "prompt": "Determineu: a) el sentit del silenci administratiu en les llicències urbanístiques; b) si en aquest cas s'adquireix la llicència per silenci; c) quines actuacions pot fer l'Ajuntament.",
       "criteria": [
-        { "id": "c1", "label": "Identifica que en les llicències urbanístiques el silenci és, amb caràcter general, positiu (estimatori)", "weight": 9, "keywords": [["silenci positiu","silenci estimatori","positiu"],["llicencia","autoritzacio"]] },
-        { "id": "c2", "label": "Aplica l'excepció: no s'adquireixen per silenci facultats contràries a la legislació o al planejament urbanístic (art. 11.3 TRLS / TRLUC)", "weight": 14, "keywords": [["contraries","disconforme","contrari","vulnera"],["planejament","ordenacio","legalitat"],["no s'adquireix","no es pot adquirir","mai"]] },
-        { "id": "c3", "label": "Conclou que en aquest cas NO s'adquireix la llicència per silenci perquè el projecte és disconforme amb el planejament", "weight": 12, "keywords": [["no s'adquireix","no obte","no es pot","nul"],["excedeix","disconforme","edificabilitat"]] },
-        { "id": "c4", "label": "Indica actuacions municipals: dictar resolució expressa denegatòria i, si s'ha executat obra, protecció de la legalitat urbanística", "weight": 10, "keywords": [["resolucio expressa","denegar","denegatoria","resoldre"],["legalitat urbanistica","restauracio","ordre","disciplina"]] }
+        {
+          "id": "c1",
+          "label": "Identifica que en les llicències urbanístiques el silenci és, amb caràcter general, positiu (estimatori)",
+          "weight": 9,
+          "keywords": [
+            [
+              "silenci positiu",
+              "silenci estimatori",
+              "positiu"
+            ],
+            [
+              "llicencia",
+              "autoritzacio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Aplica l'excepció: no s'adquireixen per silenci facultats contràries a la legislació o al planejament urbanístic (art. 11.3 TRLS / TRLUC)",
+          "weight": 14,
+          "keywords": [
+            [
+              "contraries",
+              "disconforme",
+              "contrari",
+              "vulnera"
+            ],
+            [
+              "planejament",
+              "ordenacio",
+              "legalitat"
+            ],
+            [
+              "no s'adquireix",
+              "no es pot adquirir",
+              "mai"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que en aquest cas NO s'adquireix la llicència per silenci perquè el projecte és disconforme amb el planejament",
+          "weight": 12,
+          "keywords": [
+            [
+              "no s'adquireix",
+              "no obte",
+              "no es pot",
+              "nul"
+            ],
+            [
+              "excedeix",
+              "disconforme",
+              "edificabilitat"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Indica actuacions municipals: dictar resolució expressa denegatòria i, si s'ha executat obra, protecció de la legalitat urbanística",
+          "weight": 10,
+          "keywords": [
+            [
+              "resolucio expressa",
+              "denegar",
+              "denegatoria",
+              "resoldre"
+            ],
+            [
+              "legalitat urbanistica",
+              "restauracio",
+              "ordre",
+              "disciplina"
+            ]
+          ]
+        }
       ],
       "model": "a) En matèria de llicències urbanístiques el silenci administratiu té, amb caràcter general, sentit POSITIU (estimatori): transcorregut el termini màxim per resoldre sense notificació, la sol·licitud s'entén estimada (art. 24 Llei 39/2015, en relació amb la normativa urbanística).\nb) Ara bé, opera el límit de l'art. 11.3 del TRLS estatal (RDL 7/2015) i de la normativa urbanística catalana: EN CAP CAS no es poden adquirir per silenci facultats o drets contraris a l'ordenament jurídic urbanístic ni al planejament. Com que el projecte excedeix l'edificabilitat permesa, és disconforme amb el planejament i, per tant, NO s'adquireix la llicència per silenci, encara que hagi passat el termini.\nc) L'Ajuntament ha de dictar resolució expressa (que serà denegatòria per la disconformitat). Si l'interessat ha començat les obres emparant-se en un suposat silenci, l'Administració ha d'incoar el procediment de protecció de la legalitat urbanística (ordre de paralització i, si escau, de restauració de la realitat física alterada).",
-      "sources": ["TRLUC", "TRLSRU", "L39_2015"]
+      "sources": [
+        "TRLUC",
+        "TRLSRU",
+        "L39_2015"
+      ]
     },
     {
       "id": "c02-contracte-menor",
-      "theme": 30, "block": 5, "maxPoints": 45,
+      "theme": 30,
+      "block": 5,
+      "maxPoints": 45,
       "title": "Tipus de contracte i contractació menor",
       "context": "L'Ajuntament vol encarregar: (1) la redacció d'un projecte tècnic per import de 38.000 € (IVA exclòs) i (2) l'execució d'unes obres de millora de voreres per 35.000 € (IVA exclòs). Es planteja tramitar-ho com a contractes menors.",
       "prompt": "Qualifiqueu cada prestació (tipus de contracte), indiqueu si poden ser contractes menors segons els llindars de la LCSP i quins requisits cal complir.",
       "criteria": [
-        { "id": "c1", "label": "Qualifica la redacció del projecte com a contracte de SERVEIS i les voreres com a contracte d'OBRES", "weight": 10, "keywords": [["serveis","servei"],["obres","obra"]] },
-        { "id": "c2", "label": "Aplica els llindars del contracte menor: < 15.000 € en serveis/subministraments i < 40.000 € en obres (IVA exclòs)", "weight": 14, "keywords": [["15.000","15000"],["40.000","40000"],["iva excl","sense iva"]] },
-        { "id": "c3", "label": "Conclou: el projecte (38.000 €) NO pot ser menor (supera 15.000); les obres (35.000 €) SÍ poden ser menors (< 40.000)", "weight": 12, "keywords": [["no pot","supera","excedeix"],["si pot","pot ser menor","es menor"]] },
-        { "id": "c4", "label": "Requisits del menor: informe de necessitat/justificació, aprovació de la despesa, factura; i prohibició de fraccionar l'objecte per eludir llindars", "weight": 9, "keywords": [["informe","justificacio","motivacio"],["no fraccionar","fraccionament","eludir"],["factura","aprovacio despesa"]] }
+        {
+          "id": "c1",
+          "label": "Qualifica la redacció del projecte com a contracte de SERVEIS i les voreres com a contracte d'OBRES",
+          "weight": 10,
+          "keywords": [
+            [
+              "serveis",
+              "servei"
+            ],
+            [
+              "obres",
+              "obra"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Aplica els llindars del contracte menor: < 15.000 € en serveis/subministraments i < 40.000 € en obres (IVA exclòs)",
+          "weight": 14,
+          "keywords": [
+            [
+              "15.000",
+              "15000"
+            ],
+            [
+              "40.000",
+              "40000"
+            ],
+            [
+              "iva excl",
+              "sense iva"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou: el projecte (38.000 €) NO pot ser menor (supera 15.000); les obres (35.000 €) SÍ poden ser menors (< 40.000)",
+          "weight": 12,
+          "keywords": [
+            [
+              "no pot",
+              "supera",
+              "excedeix"
+            ],
+            [
+              "si pot",
+              "pot ser menor",
+              "es menor"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Requisits del menor: informe de necessitat/justificació, aprovació de la despesa, factura; i prohibició de fraccionar l'objecte per eludir llindars",
+          "weight": 9,
+          "keywords": [
+            [
+              "informe",
+              "justificacio",
+              "motivacio"
+            ],
+            [
+              "no fraccionar",
+              "fraccionament",
+              "eludir"
+            ],
+            [
+              "factura",
+              "aprovacio despesa"
+            ]
+          ]
+        }
       ],
       "model": "Tipologia: la redacció del projecte és un contracte de SERVEIS; l'execució de les voreres és un contracte d'OBRES (art. 13 i 17 LCSP).\nLlindars del contracte menor (art. 118 LCSP): són menors els d'import inferior a 40.000 € en obres i inferior a 15.000 € en subministraments i serveis (IVA exclòs).\nConclusió: (1) la redacció del projecte (38.000 €) NO pot tramitar-se com a contracte menor, perquè supera el llindar de 15.000 € dels serveis; caldrà un procediment ordinari (p. ex. obert simplificat). (2) Les obres de voreres (35.000 €) SÍ poden ser contracte menor, perquè no arriben als 40.000 €.\nRequisits del menor: informe de l'òrgan de contractació motivant la necessitat i que no s'altera l'objecte per evitar les regles de contractació, aprovació de la despesa i incorporació de la factura; en obres, a més, pressupost (i projecte/informe de supervisió si escau). Està prohibit el fraccionament de l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir els requisits.",
-      "sources": ["LCSP"]
+      "sources": [
+        "LCSP"
+      ]
     },
     {
       "id": "c03-esmena-termini",
-      "theme": 9, "block": 2, "maxPoints": 45,
+      "theme": 9,
+      "block": 2,
+      "maxPoints": 45,
       "title": "Sol·licitud incompleta i còmput de terminis",
       "context": "Una persona presenta una sol·licitud a la qual falta un document preceptiu. L'Administració vol requerir-la perquè esmeni el defecte. El darrer dia del termini d'esmena coincideix amb una festa local al municipi.",
       "prompt": "Indiqueu: a) com s'ha d'actuar davant la sol·licitud incompleta i el termini d'esmena; b) les conseqüències de no esmenar; c) el còmput del termini quan el darrer dia és inhàbil.",
       "criteria": [
-        { "id": "c1", "label": "Requeriment d'esmena de l'art. 68 Llei 39/2015, amb termini de 10 dies", "weight": 10, "keywords": [["esmena","esmenar","subsanacio"],["10 dies","deu dies"],["68"]] },
-        { "id": "c2", "label": "Conseqüència de no esmenar: es té per desistit de la sol·licitud, amb resolució expressa", "weight": 11, "keywords": [["desistit","desistiment","te per desistit"],["resolucio expressa","arxiu"]] },
-        { "id": "c3", "label": "Còmput: si el darrer dia és inhàbil, el termini es trasllada al primer dia hàbil següent (art. 30.5)", "weight": 12, "keywords": [["inhabil","festiu","festa local"],["primer dia habil","habil seguent","es trasllada","prorroga"]] },
-        { "id": "c4", "label": "Els festius locals són inhàbils als efectes de còmput; terminis en dies hàbils exclouen dissabtes, diumenges i festius", "weight": 7, "keywords": [["dies habils","habils"],["dissabtes","diumenges","festius"]] }
+        {
+          "id": "c1",
+          "label": "Requeriment d'esmena de l'art. 68 Llei 39/2015, amb termini de 10 dies",
+          "weight": 10,
+          "keywords": [
+            [
+              "esmena",
+              "esmenar",
+              "subsanacio"
+            ],
+            [
+              "10 dies",
+              "deu dies"
+            ],
+            [
+              "68"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conseqüència de no esmenar: es té per desistit de la sol·licitud, amb resolució expressa",
+          "weight": 11,
+          "keywords": [
+            [
+              "desistit",
+              "desistiment",
+              "te per desistit"
+            ],
+            [
+              "resolucio expressa",
+              "arxiu"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Còmput: si el darrer dia és inhàbil, el termini es trasllada al primer dia hàbil següent (art. 30.5)",
+          "weight": 12,
+          "keywords": [
+            [
+              "inhabil",
+              "festiu",
+              "festa local"
+            ],
+            [
+              "primer dia habil",
+              "habil seguent",
+              "es trasllada",
+              "prorroga"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Els festius locals són inhàbils als efectes de còmput; terminis en dies hàbils exclouen dissabtes, diumenges i festius",
+          "weight": 7,
+          "keywords": [
+            [
+              "dies habils",
+              "habils"
+            ],
+            [
+              "dissabtes",
+              "diumenges",
+              "festius"
+            ]
+          ]
+        }
       ],
       "model": "a) Davant d'una sol·licitud que no reuneix els requisits o a la qual falta documentació, l'òrgan ha de requerir l'interessat perquè, en el termini de 10 dies, esmeni la falta o aporti els documents preceptius (art. 68.1 Llei 39/2015), amb indicació que si no ho fa se'l tindrà per desistit.\nb) Si no esmena dins de termini, es dicta resolució que el té per desistit de la seva petició i s'arxiva (arts. 68.1 i 21 Llei 39/2015).\nc) Còmput: els terminis assenyalats en dies hàbils exclouen dissabtes, diumenges i festius (art. 30.2). Si el darrer dia del termini és inhàbil —com una festa local—, s'entén prorrogat al primer dia hàbil següent (art. 30.5). Per tant, l'interessat encara pot esmenar el primer dia hàbil posterior a la festa local.",
-      "sources": ["L39_2015"]
+      "sources": [
+        "L39_2015"
+      ]
     },
     {
       "id": "c04-resp-patrimonial",
-      "theme": 36, "block": 9, "maxPoints": 45,
+      "theme": 36,
+      "block": 9,
+      "maxPoints": 45,
       "title": "Responsabilitat patrimonial per caiguda a la via pública",
       "context": "Una persona pateix una caiguda en ensopegar amb un sot no senyalitzat en una vorera de titularitat municipal i es lesiona. Presenta reclamació de responsabilitat patrimonial 14 mesos després del dia de la caiguda.",
       "prompt": "Analitzeu: a) els requisits de la responsabilitat patrimonial de l'Administració; b) el termini de prescripció i si la reclamació és extemporània; c) el nexe causal i possibles causes d'exoneració.",
       "criteria": [
-        { "id": "c1", "label": "Requisits: lesió antijurídica i avaluable, imputable a l'Administració, per funcionament normal o anormal d'un servei públic, i que el particular no tingui el deure jurídic de suportar", "weight": 13, "keywords": [["antijuridic","no tingui el deure de suportar","deure de suportar"],["funcionament","servei public"],["lesio","dany efectiu","avaluable"]] },
-        { "id": "c2", "label": "Termini de prescripció: 1 any des del fet o des de la curació/determinació de les seqüeles", "weight": 12, "keywords": [["un any","1 any"],["des del fet","curacio","sequeles","estabilitzacio"]] },
-        { "id": "c3", "label": "Conclou sobre l'extemporaneïtat: 14 mesos supera l'any tret que les seqüeles s'estabilitzessin més tard", "weight": 10, "keywords": [["extemporani","prescrit","fora de termini"],["sequeles","tret que","llevat","si les lesions"]] },
-        { "id": "c4", "label": "Nexe causal i exoneració: força major (no el cas fortuït) i possible culpa de la víctima que trenca o modula el nexe", "weight": 8, "keywords": [["nexe causal","relacio de causalitat","causalitat"],["forca major"],["culpa de la victima","concurrencia","distraccio"]] }
+        {
+          "id": "c1",
+          "label": "Requisits: lesió antijurídica i avaluable, imputable a l'Administració, per funcionament normal o anormal d'un servei públic, i que el particular no tingui el deure jurídic de suportar",
+          "weight": 13,
+          "keywords": [
+            [
+              "antijuridic",
+              "no tingui el deure de suportar",
+              "deure de suportar"
+            ],
+            [
+              "funcionament",
+              "servei public"
+            ],
+            [
+              "lesio",
+              "dany efectiu",
+              "avaluable"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Termini de prescripció: 1 any des del fet o des de la curació/determinació de les seqüeles",
+          "weight": 12,
+          "keywords": [
+            [
+              "un any",
+              "1 any"
+            ],
+            [
+              "des del fet",
+              "curacio",
+              "sequeles",
+              "estabilitzacio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou sobre l'extemporaneïtat: 14 mesos supera l'any tret que les seqüeles s'estabilitzessin més tard",
+          "weight": 10,
+          "keywords": [
+            [
+              "extemporani",
+              "prescrit",
+              "fora de termini"
+            ],
+            [
+              "sequeles",
+              "tret que",
+              "llevat",
+              "si les lesions"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Nexe causal i exoneració: força major (no el cas fortuït) i possible culpa de la víctima que trenca o modula el nexe",
+          "weight": 8,
+          "keywords": [
+            [
+              "nexe causal",
+              "relacio de causalitat",
+              "causalitat"
+            ],
+            [
+              "forca major"
+            ],
+            [
+              "culpa de la victima",
+              "concurrencia",
+              "distraccio"
+            ]
+          ]
+        }
       ],
       "model": "a) La responsabilitat patrimonial (arts. 32 i ss. Llei 40/2015) exigeix: una lesió real, efectiva, avaluable econòmicament i individualitzada; que sigui antijurídica (que el particular no tingui el deure jurídic de suportar-la); imputable a l'Administració pel funcionament normal o anormal d'un servei públic; i un nexe causal entre l'actuació administrativa (vorera mal conservada/sense senyalitzar) i el dany. La responsabilitat és objectiva.\nb) El dret a reclamar prescriu a l'any (art. 67 Llei 39/2015), computat des del fet o, en danys físics, des de la curació o la determinació de l'abast de les seqüeles.\nc) Han passat 14 mesos: en principi la reclamació seria extemporània (prescrita), llevat que l'interessat acrediti que les seqüeles es van estabilitzar dins de l'any anterior a la reclamació (en aquest cas el termini compta des d'aleshores).\nd) Cal provar el nexe causal. L'Administració queda exonerada en casos de força major (no el cas fortuït). La culpa o distracció de la víctima pot trencar o modular el nexe i reduir la indemnització (concurrència de causes).",
-      "sources": ["L40_2015", "L39_2015"]
+      "sources": [
+        "L40_2015",
+        "L39_2015"
+      ]
     },
     {
       "id": "c05-nullitat-anullabilitat",
-      "theme": 7, "block": 2, "maxPoints": 45,
+      "theme": 7,
+      "block": 2,
+      "maxPoints": 45,
       "title": "Nul·litat de ple dret i anul·labilitat",
       "context": "Un ajuntament dicta una resolució prescindint totalment del procediment legalment establert i, a més, l'òrgan que la dicta és manifestament incompetent per raó de la matèria. En un altre expedient, un acte té un defecte de forma que no impedeix assolir-ne la finalitat ni genera indefensió.",
       "prompt": "Distingiu nul·litat de ple dret i anul·labilitat, qualifiqueu cada supòsit i expliqueu-ne els efectes i la possibilitat de convalidació.",
       "criteria": [
-        { "id": "c1", "label": "Defineix la nul·litat de ple dret i n'enumera supòsits (art. 47): incompetència manifesta per matèria/territori, prescindir totalment del procediment, etc.", "weight": 13, "keywords": [["nullitat de ple dret","nul de ple dret","47"],["incompetencia manifesta","prescindir totalment del procediment"]] },
-        { "id": "c2", "label": "Defineix l'anul·labilitat (art. 48): qualsevol infracció de l'ordenament; els defectes de forma només invaliden si impedeixen la finalitat o causen indefensió", "weight": 12, "keywords": [["anullabilitat","anullable","48"],["defecte de forma","indefensio","finalitat"]] },
-        { "id": "c3", "label": "Qualifica: el primer supòsit és nul de ple dret; el segon és una mera irregularitat no invalidant", "weight": 11, "keywords": [["nul de ple dret","nullitat"],["irregularitat no invalidant","no invalida","valid"]] },
-        { "id": "c4", "label": "Efectes: la nul·litat és ex tunc, no convalidable i imprescriptible; l'anul·labilitat és convalidable", "weight": 7, "keywords": [["ex tunc","des de l'origen","no convalidable","imprescriptible"],["convalidar","convalidacio","esmenar"]] }
+        {
+          "id": "c1",
+          "label": "Defineix la nul·litat de ple dret i n'enumera supòsits (art. 47): incompetència manifesta per matèria/territori, prescindir totalment del procediment, etc.",
+          "weight": 13,
+          "keywords": [
+            [
+              "nullitat de ple dret",
+              "nul de ple dret",
+              "47"
+            ],
+            [
+              "incompetencia manifesta",
+              "prescindir totalment del procediment"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Defineix l'anul·labilitat (art. 48): qualsevol infracció de l'ordenament; els defectes de forma només invaliden si impedeixen la finalitat o causen indefensió",
+          "weight": 12,
+          "keywords": [
+            [
+              "anullabilitat",
+              "anullable",
+              "48"
+            ],
+            [
+              "defecte de forma",
+              "indefensio",
+              "finalitat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Qualifica: el primer supòsit és nul de ple dret; el segon és una mera irregularitat no invalidant",
+          "weight": 11,
+          "keywords": [
+            [
+              "nul de ple dret",
+              "nullitat"
+            ],
+            [
+              "irregularitat no invalidant",
+              "no invalida",
+              "valid"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Efectes: la nul·litat és ex tunc, no convalidable i imprescriptible; l'anul·labilitat és convalidable",
+          "weight": 7,
+          "keywords": [
+            [
+              "ex tunc",
+              "des de l'origen",
+              "no convalidable",
+              "imprescriptible"
+            ],
+            [
+              "convalidar",
+              "convalidacio",
+              "esmenar"
+            ]
+          ]
+        }
       ],
       "model": "Nul·litat de ple dret (art. 47 Llei 39/2015): és la invalidesa més greu; opera per als supòsits taxats, com ara els actes dictats per òrgan manifestament incompetent per raó de la matèria o del territori, els dictats prescindint total i absolutament del procediment, els de contingut impossible, els constitutius d'infracció penal, els que lesionen drets susceptibles d'emparament, etc. Efectes ex tunc (des de l'origen), no és convalidable i pot declarar-se en qualsevol moment (revisió d'ofici, art. 106).\nAnul·labilitat (art. 48): qualsevol infracció de l'ordenament jurídic, inclosa la desviació de poder. Els defectes de forma només determinen anul·labilitat si l'acte no assoleix la seva finalitat o genera indefensió; en cas contrari són meres irregularitats no invalidants. És convalidable (art. 52).\nQualificació: el primer cas (incompetència manifesta per matèria + prescindir totalment del procediment) és NUL DE PLE DRET. El segon (defecte de forma que no impedeix la finalitat ni causa indefensió) és una irregularitat NO invalidant; l'acte és vàlid.",
-      "sources": ["L39_2015"]
+      "sources": [
+        "L39_2015"
+      ]
     },
     {
       "id": "c06-modificacio-contracte",
-      "theme": 24, "block": 5, "maxPoints": 45,
+      "theme": 24,
+      "block": 5,
+      "maxPoints": 45,
       "title": "Modificació d'un contracte d'obres",
       "context": "Durant l'execució d'un contracte d'obres apareixen necessitats noves no previstes als plecs que obliguen a incrementar les unitats d'obra en un 18% del preu inicial. Als plecs no es va preveure cap clàusula de modificació.",
       "prompt": "Expliqueu el règim de la modificació dels contractes (modificacions previstes i no previstes), si aquesta modificació és possible i amb quins límits i conseqüències.",
       "criteria": [
-        { "id": "c1", "label": "Distingeix modificacions previstes als plecs (art. 204) i no previstes (art. 205)", "weight": 11, "keywords": [["previstes","previstes als plecs","204"],["no previstes","imprevistes","205"]] },
-        { "id": "c2", "label": "Modificacions no previstes: només per causes taxades (errors, circumstàncies imprevisibles, etc.) i límit del 50% del preu inicial", "weight": 13, "keywords": [["imprevisibles","circumstancies sobrevingudes","causes taxades"],["50%","cinquanta per cent"]] },
-        { "id": "c3", "label": "Conclou que el 18% és possible si concorre causa de l'art. 205 i amb expedient i audiència del contractista", "weight": 10, "keywords": [["es possible","procedent","admissible"],["audiencia del contractista","expedient","tramit"]] },
-        { "id": "c4", "label": "Caràcter obligatori per al contractista dins de límits i ius variandi de l'Administració", "weight": 8, "keywords": [["obligatori","obligatories per al contractista"],["ius variandi","prerrogativa","modificar"]] }
+        {
+          "id": "c1",
+          "label": "Distingeix modificacions previstes als plecs (art. 204) i no previstes (art. 205)",
+          "weight": 11,
+          "keywords": [
+            [
+              "previstes",
+              "previstes als plecs",
+              "204"
+            ],
+            [
+              "no previstes",
+              "imprevistes",
+              "205"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Modificacions no previstes: només per causes taxades (errors, circumstàncies imprevisibles, etc.) i límit del 50% del preu inicial",
+          "weight": 13,
+          "keywords": [
+            [
+              "imprevisibles",
+              "circumstancies sobrevingudes",
+              "causes taxades"
+            ],
+            [
+              "50%",
+              "cinquanta per cent"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que el 18% és possible si concorre causa de l'art. 205 i amb expedient i audiència del contractista",
+          "weight": 10,
+          "keywords": [
+            [
+              "es possible",
+              "procedent",
+              "admissible"
+            ],
+            [
+              "audiencia del contractista",
+              "expedient",
+              "tramit"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Caràcter obligatori per al contractista dins de límits i ius variandi de l'Administració",
+          "weight": 8,
+          "keywords": [
+            [
+              "obligatori",
+              "obligatories per al contractista"
+            ],
+            [
+              "ius variandi",
+              "prerrogativa",
+              "modificar"
+            ]
+          ]
+        }
       ],
       "model": "El règim de modificació (arts. 203-207 LCSP) distingeix dues vies. (1) Modificacions PREVISTES als plecs (art. 204): admissibles si el plec va detallar de forma clara, precisa i inequívoca les condicions, l'abast i els límits, sense superar el 20% del preu inicial. (2) Modificacions NO PREVISTES (art. 205): només procedeixen per causes taxades —obres/serveis addicionals necessaris no susceptibles de separació, circumstàncies sobrevingudes imprevisibles per a una Administració diligent, o esmena d'errors o omissions del projecte—, i amb el límit que, individualment o conjuntament, no superin el 50% del preu inicial del contracte.\nEn el cas plantejat no hi havia clàusula de modificació, de manera que cal acudir a l'art. 205: la modificació del 18% és possible si concorre alguna d'aquestes causes (típicament circumstàncies imprevisibles o errors del projecte) i no se supera el 50%. Cal tramitar l'expedient amb audiència del contractista i, si correspon, informe i fiscalització.\nLes modificacions acordades dins dels límits legals són obligatòries per al contractista (prerrogativa de modificació o ius variandi de l'Administració, art. 190), amb dret a l'equilibri econòmic.",
-      "sources": ["LCSP"]
+      "sources": [
+        "LCSP"
+      ]
     },
     {
       "id": "c07-classificacio-sol",
-      "theme": 44, "block": 11, "maxPoints": 45,
+      "theme": 44,
+      "block": 11,
+      "maxPoints": 45,
       "title": "Classificació del sòl i concepte de solar",
       "context": "Un propietari té una finca en una zona que disposa de xarxa viària pavimentada, subministrament d'aigua, evacuació d'aigües i energia elèctrica, i està integrada a la trama urbana. Demana saber si pot edificar-hi directament.",
       "prompt": "Expliqueu la classificació del sòl segons el TRLUC, el concepte de sòl urbà i de solar, i si la finca és apta per edificar.",
       "criteria": [
-        { "id": "c1", "label": "Classes de sòl: urbà, urbanitzable i no urbanitzable", "weight": 11, "keywords": [["sol urba","urba"],["urbanitzable"],["no urbanitzable"]] },
-        { "id": "c2", "label": "Concepte de sòl urbà: comptar amb serveis urbanístics bàsics o estar integrat en la trama urbana consolidada", "weight": 12, "keywords": [["serveis urbanistics basics","serveis basics"],["trama urbana","consolidat","integrat"]] },
-        { "id": "c3", "label": "Concepte de solar: sòl urbà apte per edificar per reunir tots els serveis i tenir les obres d'urbanització necessàries / vialitat", "weight": 12, "keywords": [["solar"],["apte per edificar","reuneix els serveis","vialitat","urbanitzacio"]] },
-        { "id": "c4", "label": "Conclou que la finca és sòl urbà i, en reunir els serveis, té condició de solar i pot edificar-se (amb llicència)", "weight": 7, "keywords": [["es solar","condicio de solar","pot edificar"],["llicencia"]] }
+        {
+          "id": "c1",
+          "label": "Classes de sòl: urbà, urbanitzable i no urbanitzable",
+          "weight": 11,
+          "keywords": [
+            [
+              "sol urba",
+              "urba"
+            ],
+            [
+              "urbanitzable"
+            ],
+            [
+              "no urbanitzable"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Concepte de sòl urbà: comptar amb serveis urbanístics bàsics o estar integrat en la trama urbana consolidada",
+          "weight": 12,
+          "keywords": [
+            [
+              "serveis urbanistics basics",
+              "serveis basics"
+            ],
+            [
+              "trama urbana",
+              "consolidat",
+              "integrat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Concepte de solar: sòl urbà apte per edificar per reunir tots els serveis i tenir les obres d'urbanització necessàries / vialitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "solar"
+            ],
+            [
+              "apte per edificar",
+              "reuneix els serveis",
+              "vialitat",
+              "urbanitzacio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que la finca és sòl urbà i, en reunir els serveis, té condició de solar i pot edificar-se (amb llicència)",
+          "weight": 7,
+          "keywords": [
+            [
+              "es solar",
+              "condicio de solar",
+              "pot edificar"
+            ],
+            [
+              "llicencia"
+            ]
+          ]
+        }
       ],
       "model": "El TRLUC (DL 1/2010) classifica el sòl en tres classes: sòl urbà, sòl urbanitzable i sòl no urbanitzable.\nÉs sòl urbà el que compta amb els serveis urbanístics bàsics (xarxa viària amb un nivell de consolidació suficient, xarxes d'abastament d'aigua i de sanejament, i subministrament d'energia elèctrica) o el que està comprès en àrees consolidades per l'edificació integrades a la trama urbana. Dins seu es distingeix sòl urbà consolidat i no consolidat.\nÉs SOLAR el sòl urbà que reuneix les condicions per ser edificat: que disposi dels serveis (accés rodat, aigua, sanejament i electricitat amb les característiques adequades) i que tingui assenyalades alineacions i rasants, amb la urbanització bàsica executada o garantida.\nConclusió: la finca, amb vialitat pavimentada, aigua, sanejament i electricitat i integrada a la trama urbana, és sòl urbà i té la condició de solar; per tant és apta per edificar, amb la corresponent llicència urbanística i de conformitat amb el planejament.",
-      "sources": ["TRLUC", "TRLSRU"]
+      "sources": [
+        "TRLUC",
+        "TRLSRU"
+      ]
     },
     {
       "id": "c08-disciplina-restauracio",
-      "theme": 73, "block": 12, "maxPoints": 45,
+      "theme": 73,
+      "block": 12,
+      "maxPoints": 45,
       "title": "Obres sense llicència i restauració de la legalitat",
       "context": "Els serveis tècnics municipals detecten una construcció executada sense llicència en sòl urbà. Han transcorregut quatre anys des de l'acabament total de les obres. Les obres són legalitzables segons el planejament.",
       "prompt": "Expliqueu el procediment de protecció de la legalitat urbanística, el termini de prescripció de l'acció de restauració i les conseqüències segons si les obres són o no legalitzables.",
       "criteria": [
-        { "id": "c1", "label": "Procediment: ordre de paralització/suspensió i requeriment de legalització o restauració", "weight": 11, "keywords": [["paralitzacio","suspensio","aturada"],["legalitzacio","requeriment","restauracio"]] },
-        { "id": "c2", "label": "Termini per restaurar la legalitat: 6 anys des de l'acabament total de les obres (no és aplicable a sòl no urbanitzable de protecció especial)", "weight": 13, "keywords": [["sis anys","6 anys"],["acabament","finalitzacio de les obres"]] },
-        { "id": "c3", "label": "Conclou que amb 4 anys l'acció no ha prescrit (dins dels 6 anys)", "weight": 9, "keywords": [["no ha prescrit","encara es pot","dins del termini","viable"]] },
-        { "id": "c4", "label": "Si són legalitzables: requeriment per sol·licitar llicència; si no, enderroc/restauració de la realitat física", "weight": 9, "keywords": [["legalitzable","sollicitar llicencia"],["enderroc","restauracio","reposicio"]] }
+        {
+          "id": "c1",
+          "label": "Procediment: ordre de paralització/suspensió i requeriment de legalització o restauració",
+          "weight": 11,
+          "keywords": [
+            [
+              "paralitzacio",
+              "suspensio",
+              "aturada"
+            ],
+            [
+              "legalitzacio",
+              "requeriment",
+              "restauracio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Termini per restaurar la legalitat: 6 anys des de l'acabament total de les obres (no és aplicable a sòl no urbanitzable de protecció especial)",
+          "weight": 13,
+          "keywords": [
+            [
+              "sis anys",
+              "6 anys"
+            ],
+            [
+              "acabament",
+              "finalitzacio de les obres"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que amb 4 anys l'acció no ha prescrit (dins dels 6 anys)",
+          "weight": 9,
+          "keywords": [
+            [
+              "no ha prescrit",
+              "encara es pot",
+              "dins del termini",
+              "viable"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Si són legalitzables: requeriment per sol·licitar llicència; si no, enderroc/restauració de la realitat física",
+          "weight": 9,
+          "keywords": [
+            [
+              "legalitzable",
+              "sollicitar llicencia"
+            ],
+            [
+              "enderroc",
+              "restauracio",
+              "reposicio"
+            ]
+          ]
+        }
       ],
       "model": "Davant d'obres sense llicència, l'Ajuntament ha d'incoar el procediment de protecció de la legalitat urbanística (TRLUC). Si les obres estan en curs, s'ordena la paralització immediata; tant si han acabat com si no, s'obre expedient per restablir la legalitat.\nL'acció de restauració de la realitat física alterada i de l'ordre jurídic vulnerat prescriu, amb caràcter general, als SIS anys des de l'acabament total de les obres (en sòl no urbanitzable d'especial protecció no hi ha prescripció). Com que han transcorregut 4 anys, l'acció NO ha prescrit i l'Administració pot actuar.\nConseqüències segons legalitzabilitat: si les obres són legalitzables (conformes amb el planejament), es requereix la persona perquè sol·liciti la llicència corresponent i les legalitzi; si no ho són, s'ordena la restauració (enderroc o reposició al seu estat anterior). Tot això és independent de la incoació del corresponent expedient sancionador per la infracció urbanística comesa.",
-      "sources": ["TRLUC", "L11_2025"]
+      "sources": [
+        "TRLUC",
+        "L11_2025"
+      ]
     },
     {
       "id": "c09-recursos",
-      "theme": 11, "block": 2, "maxPoints": 45,
+      "theme": 11,
+      "block": 2,
+      "maxPoints": 45,
       "title": "Recursos administratius contra un acte municipal",
       "context": "Un interessat rep la notificació d'una resolució dictada per l'Alcalde que posa fi a la via administrativa i amb què no està d'acord. Vol impugnar-la i pregunta quins recursos té i en quins terminis.",
       "prompt": "Indiqueu quins recursos administratius pot interposar, davant de quin òrgan, els terminis i si l'opció per la via administrativa exclou o no la judicial.",
       "criteria": [
-        { "id": "c1", "label": "Recurs potestatiu de reposició davant el mateix òrgan (1 mes si l'acte és exprés), per actes que exhaureixen la via administrativa", "weight": 12, "keywords": [["reposicio","potestatiu"],["mateix organ","un mes","1 mes"]] },
-        { "id": "c2", "label": "Recurs d'alçada davant el superior jeràrquic per actes que no exhaureixen la via (1 mes); aquí no procedeix perquè l'acte ja la exhaureix", "weight": 11, "keywords": [["alcada"],["superior jerarquic"],["no exhaureix","no posa fi"]] },
-        { "id": "c3", "label": "Alternativa directa: recurs contenciós administratiu (2 mesos si exprés), sense necessitat de reposició", "weight": 11, "keywords": [["contencios","contenciosa","via judicial","jurisdiccional"],["dos mesos","2 mesos"]] },
-        { "id": "c4", "label": "No es pot interposar contenciós mentre estigui pendent el recurs potestatiu de reposició; recurs extraordinari de revisió per causes taxades", "weight": 8, "keywords": [["no es pot","pendent","fins que es resolgui"],["revisio","extraordinari"]] }
+        {
+          "id": "c1",
+          "label": "Recurs potestatiu de reposició davant el mateix òrgan (1 mes si l'acte és exprés), per actes que exhaureixen la via administrativa",
+          "weight": 12,
+          "keywords": [
+            [
+              "reposicio",
+              "potestatiu"
+            ],
+            [
+              "mateix organ",
+              "un mes",
+              "1 mes"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Recurs d'alçada davant el superior jeràrquic per actes que no exhaureixen la via (1 mes); aquí no procedeix perquè l'acte ja la exhaureix",
+          "weight": 11,
+          "keywords": [
+            [
+              "alcada"
+            ],
+            [
+              "superior jerarquic"
+            ],
+            [
+              "no exhaureix",
+              "no posa fi"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Alternativa directa: recurs contenciós administratiu (2 mesos si exprés), sense necessitat de reposició",
+          "weight": 11,
+          "keywords": [
+            [
+              "contencios",
+              "contenciosa",
+              "via judicial",
+              "jurisdiccional"
+            ],
+            [
+              "dos mesos",
+              "2 mesos"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "No es pot interposar contenciós mentre estigui pendent el recurs potestatiu de reposició; recurs extraordinari de revisió per causes taxades",
+          "weight": 8,
+          "keywords": [
+            [
+              "no es pot",
+              "pendent",
+              "fins que es resolgui"
+            ],
+            [
+              "revisio",
+              "extraordinari"
+            ]
+          ]
+        }
       ],
       "model": "La resolució de l'Alcalde posa fi a la via administrativa (art. 52 LRBRL). Davant d'un acte que exhaureix la via:\n- Pot interposar-se, amb caràcter POTESTATIU, recurs de reposició davant el mateix òrgan que el va dictar (art. 123-124 Llei 39/2015), en el termini d'1 mes si l'acte és exprés (si és presumpte, segons regla aplicable). És potestatiu: l'interessat pot interposar-lo o anar directament a la via judicial.\n- No procedeix recurs d'alçada, perquè aquest només s'interposa contra actes que NO posen fi a la via administrativa, davant l'òrgan superior jeràrquic, en el termini d'1 mes.\n- Pot acudir directament a la jurisdicció contenciosa administrativa (recurs contenciós), en el termini de 2 mesos des de la notificació si l'acte és exprés.\nSi opta per la reposició, no podrà interposar el contenciós fins que aquell s'hagi resolt expressament o per silenci (desestimatori). Resta, finalment, el recurs extraordinari de revisió (art. 125) per a causes taxades (error de fet, documents nous, etc.).",
-      "sources": ["L39_2015", "LRBRL"]
+      "sources": [
+        "L39_2015",
+        "LRBRL"
+      ]
     },
     {
       "id": "c10-proteccio-dades",
-      "theme": 16, "block": 6, "maxPoints": 45,
+      "theme": 16,
+      "block": 6,
+      "maxPoints": 45,
       "title": "Tractament de dades personals per l'Ajuntament",
       "context": "Una àrea municipal vol publicar al web el llistat nominatiu de persones beneficiàries d'un ajut social, amb el seu DNI i dades de salut. Un veí, a més, sol·licita que se suprimeixin les seves dades d'un altre fitxer municipal.",
       "prompt": "Analitzeu la licitud del tractament i la publicació proposada, la naturalesa de les dades i el dret exercit pel veí d'acord amb el RGPD i la LOPDGDD.",
       "criteria": [
-        { "id": "c1", "label": "Principis del tractament: licitud, minimització de dades, finalitat i seguretat; base jurídica del tractament", "weight": 12, "keywords": [["licitud","base juridica","base de legitimacio"],["minimitzacio","finalitat","proporcionalitat"]] },
-        { "id": "c2", "label": "Les dades de salut són categories especials (art. 9 RGPD), amb protecció reforçada; publicar DNI i salut és desproporcionat/il·lícit", "weight": 13, "keywords": [["categories especials","dades sensibles","salut","article 9"],["desproporcionat","illicit","no es pot publicar","prohibit"]] },
-        { "id": "c3", "label": "El dret exercit pel veí és el de supressió ('dret a l'oblit'), art. 17 RGPD, amb límits per obligacions legals", "weight": 11, "keywords": [["supressio","dret a l'oblit","cancellacio"],["17"]] },
-        { "id": "c4", "label": "Garanties: informació, possible avaluació d'impacte, i que l'Ajuntament és responsable del tractament amb DPD", "weight": 7, "keywords": [["responsable del tractament","delegat de proteccio","dpd"],["avaluacio d'impacte","informacio"]] }
+        {
+          "id": "c1",
+          "label": "Principis del tractament: licitud, minimització de dades, finalitat i seguretat; base jurídica del tractament",
+          "weight": 12,
+          "keywords": [
+            [
+              "licitud",
+              "base juridica",
+              "base de legitimacio"
+            ],
+            [
+              "minimitzacio",
+              "finalitat",
+              "proporcionalitat"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Les dades de salut són categories especials (art. 9 RGPD), amb protecció reforçada; publicar DNI i salut és desproporcionat/il·lícit",
+          "weight": 13,
+          "keywords": [
+            [
+              "categories especials",
+              "dades sensibles",
+              "salut",
+              "article 9"
+            ],
+            [
+              "desproporcionat",
+              "illicit",
+              "no es pot publicar",
+              "prohibit"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "El dret exercit pel veí és el de supressió ('dret a l'oblit'), art. 17 RGPD, amb límits per obligacions legals",
+          "weight": 11,
+          "keywords": [
+            [
+              "supressio",
+              "dret a l'oblit",
+              "cancellacio"
+            ],
+            [
+              "17"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Garanties: informació, possible avaluació d'impacte, i que l'Ajuntament és responsable del tractament amb DPD",
+          "weight": 7,
+          "keywords": [
+            [
+              "responsable del tractament",
+              "delegat de proteccio",
+              "dpd"
+            ],
+            [
+              "avaluacio d'impacte",
+              "informacio"
+            ]
+          ]
+        }
       ],
       "model": "Tot tractament de dades ha de respectar els principis de l'art. 5 RGPD: licitud, lleialtat i transparència; limitació de la finalitat; minimització de dades; exactitud; limitació del termini de conservació; i integritat i confidencialitat. L'Ajuntament, com a responsable del tractament, necessita una base jurídica (art. 6 RGPD; típicament compliment d'una obligació legal o missió d'interès públic).\nLes dades de salut són CATEGORIES ESPECIALS de dades (art. 9 RGPD), amb prohibició general de tractament excepte excepcions taxades. Publicar al web un llistat nominatiu amb DNI i dades de salut de persones beneficiàries d'un ajut és desproporcionat i contrari als principis de minimització i seguretat: seria un tractament IL·LÍCIT. La publicitat dels ajuts s'ha de fer amb les garanties i limitacions previstes (p. ex. dades estrictament necessàries i mai categories especials).\nEl veí exerceix el dret de SUPRESSIÓ o 'dret a l'oblit' (art. 17 RGPD i LOPDGDD). L'Ajuntament l'ha d'atendre, llevat que el tractament sigui necessari per al compliment d'una obligació legal o per a l'exercici de poders públics (límits del propi art. 17).\nGaranties addicionals: deure d'informació, designació de Delegat de Protecció de Dades (obligatori al sector públic) i, si el tractament comporta alt risc, avaluació d'impacte (art. 35).",
-      "sources": ["RGPD", "LOPDGDD"]
+      "sources": [
+        "RGPD",
+        "LOPDGDD"
+      ]
     },
     {
       "id": "c11-subvencions",
-      "theme": 35, "block": 8, "maxPoints": 45,
+      "theme": 35,
+      "block": 8,
+      "maxPoints": 45,
       "title": "Subvenció i reintegrament",
       "context": "Una entitat rep una subvenció municipal per a un projecte cultural. En la justificació, no acredita part de la despesa i, a més, ha destinat una part dels fons a una finalitat diferent de la subvencionada.",
       "prompt": "Expliqueu els principis de la gestió de subvencions, les obligacions del beneficiari i si escau el reintegrament i en quina mesura.",
       "criteria": [
-        { "id": "c1", "label": "Principis: publicitat, transparència, concurrència, objectivitat, igualtat i no discriminació; eficàcia i eficiència", "weight": 10, "keywords": [["publicitat","transparencia","concurrencia"],["objectivitat","igualtat","no discriminacio"]] },
-        { "id": "c2", "label": "Obligacions del beneficiari: complir la finalitat, justificar despeses i sotmetre's al control", "weight": 11, "keywords": [["finalitat","destinar","complir l'objectiu"],["justificar","justificacio","acreditar la despesa"]] },
-        { "id": "c3", "label": "Causes de reintegrament: incompliment de la finalitat i falta de justificació (art. 37 Llei 38/2003), amb interessos de demora", "weight": 13, "keywords": [["reintegrament","reintegrar","retornar"],["incompliment","falta de justificacio"],["interessos de demora","interessos"]] },
-        { "id": "c4", "label": "Proporcionalitat / reintegrament parcial i possible règim sancionador independent", "weight": 7, "keywords": [["proporcionalitat","parcial","proporcio"],["sancionador","infraccio"]] }
+        {
+          "id": "c1",
+          "label": "Principis: publicitat, transparència, concurrència, objectivitat, igualtat i no discriminació; eficàcia i eficiència",
+          "weight": 10,
+          "keywords": [
+            [
+              "publicitat",
+              "transparencia",
+              "concurrencia"
+            ],
+            [
+              "objectivitat",
+              "igualtat",
+              "no discriminacio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Obligacions del beneficiari: complir la finalitat, justificar despeses i sotmetre's al control",
+          "weight": 11,
+          "keywords": [
+            [
+              "finalitat",
+              "destinar",
+              "complir l'objectiu"
+            ],
+            [
+              "justificar",
+              "justificacio",
+              "acreditar la despesa"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Causes de reintegrament: incompliment de la finalitat i falta de justificació (art. 37 Llei 38/2003), amb interessos de demora",
+          "weight": 13,
+          "keywords": [
+            [
+              "reintegrament",
+              "reintegrar",
+              "retornar"
+            ],
+            [
+              "incompliment",
+              "falta de justificacio"
+            ],
+            [
+              "interessos de demora",
+              "interessos"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Proporcionalitat / reintegrament parcial i possible règim sancionador independent",
+          "weight": 7,
+          "keywords": [
+            [
+              "proporcionalitat",
+              "parcial",
+              "proporcio"
+            ],
+            [
+              "sancionador",
+              "infraccio"
+            ]
+          ]
+        }
       ],
       "model": "La gestió de subvencions (Llei 38/2003, general de subvencions, i normativa local) es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat i no discriminació, eficàcia en el compliment dels objectius i eficiència en l'assignació de recursos.\nEl beneficiari està obligat, entre altres, a: complir l'objectiu i destinar la subvenció a la finalitat concreta per a la qual es va concedir; justificar el compliment dels requisits i la realització de l'activitat; i sotmetre's a les actuacions de comprovació i control.\nProcedeix el REINTEGRAMENT (art. 37 Llei 38/2003), amb l'exigència de l'interès de demora, en casos com l'incompliment total o parcial de l'objectiu o finalitat i la falta de justificació o justificació insuficient. En el cas plantejat concorren totes dues causes: la part no justificada i la part destinada a finalitat diferent s'han de reintegrar. El reintegrament pot ser PARCIAL, atenent el principi de proporcionalitat (en funció del grau d'incompliment). Tot això és independent del possible règim sancionador en matèria de subvencions, que es tramita per separat.",
-      "sources": ["L38_2003"]
+      "sources": [
+        "L38_2003"
+      ]
     },
     {
       "id": "c12-activitat-ambiental",
-      "theme": 59, "block": 13, "maxPoints": 45,
+      "theme": 59,
+      "block": 13,
+      "maxPoints": 45,
       "title": "Intervenció administrativa en una activitat",
       "context": "Una persona vol obrir un taller amb incidència ambiental moderada. Pregunta quin règim d'intervenció li correspon i si pot començar amb una comunicació prèvia o necessita autorització/llicència ambiental.",
       "prompt": "Expliqueu els règims d'intervenció administrativa de les activitats segons la seva incidència ambiental i diferencieu autorització, llicència, declaració responsable i comunicació prèvia.",
       "criteria": [
-        { "id": "c1", "label": "Règim segons incidència ambiental: autorització ambiental (alta), llicència ambiental (mitjana) i règim de comunicació (baixa)", "weight": 13, "keywords": [["autoritzacio ambiental"],["llicencia ambiental"],["comunicacio","regim de comunicacio","incidencia ambiental"]] },
-        { "id": "c2", "label": "Defineix declaració responsable i comunicació prèvia (art. 69 Llei 39/2015): permeten iniciar l'activitat des de la presentació, sotmeses a control posterior", "weight": 12, "keywords": [["declaracio responsable","comunicacio previa"],["iniciar","des de la presentacio","control posterior","a posteriori"]] },
-        { "id": "c3", "label": "Conclou: incidència moderada/mitjana → típicament llicència ambiental (control previ), no n'hi ha prou amb comunicació", "weight": 10, "keywords": [["llicencia ambiental","control previ"],["no n'hi ha prou","previa a l'inici","necessita"]] },
-        { "id": "c4", "label": "Inexactitud o falsedat en la declaració/comunicació determina la impossibilitat de continuar, sens perjudici de responsabilitats", "weight": 6, "keywords": [["inexactitud","falsedat","omissio"],["impossibilitat de continuar","cessament","responsabilitats"]] }
+        {
+          "id": "c1",
+          "label": "Règim segons incidència ambiental: autorització ambiental (alta), llicència ambiental (mitjana) i règim de comunicació (baixa)",
+          "weight": 13,
+          "keywords": [
+            [
+              "autoritzacio ambiental"
+            ],
+            [
+              "llicencia ambiental"
+            ],
+            [
+              "comunicacio",
+              "regim de comunicacio",
+              "incidencia ambiental"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Defineix declaració responsable i comunicació prèvia (art. 69 Llei 39/2015): permeten iniciar l'activitat des de la presentació, sotmeses a control posterior",
+          "weight": 12,
+          "keywords": [
+            [
+              "declaracio responsable",
+              "comunicacio previa"
+            ],
+            [
+              "iniciar",
+              "des de la presentacio",
+              "control posterior",
+              "a posteriori"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou: incidència moderada/mitjana → típicament llicència ambiental (control previ), no n'hi ha prou amb comunicació",
+          "weight": 10,
+          "keywords": [
+            [
+              "llicencia ambiental",
+              "control previ"
+            ],
+            [
+              "no n'hi ha prou",
+              "previa a l'inici",
+              "necessita"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Inexactitud o falsedat en la declaració/comunicació determina la impossibilitat de continuar, sens perjudici de responsabilitats",
+          "weight": 6,
+          "keywords": [
+            [
+              "inexactitud",
+              "falsedat",
+              "omissio"
+            ],
+            [
+              "impossibilitat de continuar",
+              "cessament",
+              "responsabilitats"
+            ]
+          ]
+        }
       ],
       "model": "La intervenció administrativa de les activitats es gradua segons la seva incidència ambiental (Llei 20/2009, de prevenció i control ambiental de les activitats, i normativa concordant): activitats d'alta incidència → autorització ambiental; de mitjana incidència → llicència ambiental (control previ municipal); de baixa incidència → règim de comunicació.\nInstruments de l'art. 69 Llei 39/2015: la declaració responsable és el document en què l'interessat manifesta, sota la seva responsabilitat, que compleix els requisits; la comunicació prèvia posa en coneixement de l'Administració les dades per iniciar una activitat. Tots dos permeten iniciar l'activitat des de la presentació (o la data que indiquin), i se sotmeten a control a posteriori, no a una autorització prèvia.\nEn el cas d'un taller amb incidència ambiental MODERADA, el règim típic és el de LLICÈNCIA AMBIENTAL: cal obtenir el control/llicència municipal prèvia abans d'iniciar l'activitat, de manera que NO n'hi ha prou amb una simple comunicació prèvia (aquesta es reserva a activitats de baixa incidència).\nLa inexactitud, falsedat o omissió en una declaració responsable o comunicació, o la no presentació, determina la impossibilitat de continuar amb l'activitat des que se'n tingui constància, sens perjudici de les responsabilitats que se'n derivin.",
-      "sources": ["L20_2009", "L39_2015"]
+      "sources": [
+        "L20_2009",
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c13-abstencio",
+      "theme": 8,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Abstenció i recusació en un procediment de contractació",
+      "context": "En la mesa de contractació d'un concurs, un dels vocals té un familiar de segon grau que és administrador d'una de les empreses licitadores. El vocal no ho comunica i participa en la valoració. Una altra empresa licitadora ho descobreix.",
+      "prompt": "Determineu: a) si concorre causa d'abstenció; b) què havia d'haver fet el vocal; c) què pot fer l'empresa que ho ha detectat i quins efectes té sobre l'acte.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica la causa d'abstenció per parentiu/interès personal (art. 23 Llei 40/2015)",
+          "weight": 12,
+          "keywords": [
+            [
+              "abstencio",
+              "abstenir"
+            ],
+            [
+              "parentiu",
+              "familiar",
+              "interes personal"
+            ],
+            [
+              "23"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "El vocal havia de comunicar-ho i abstenir-se d'intervenir",
+          "weight": 11,
+          "keywords": [
+            [
+              "comunicar",
+              "posar en coneixement"
+            ],
+            [
+              "abstenir",
+              "no intervenir",
+              "apartar-se"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'empresa pot promoure la recusació (art. 24 Llei 40/2015)",
+          "weight": 11,
+          "keywords": [
+            [
+              "recusacio",
+              "recusar"
+            ],
+            [
+              "24"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Efectes: la no-abstenció no implica necessàriament la invalidesa, però sí si ha estat determinant; possible responsabilitat",
+          "weight": 11,
+          "keywords": [
+            [
+              "no implica",
+              "no determina sempre",
+              "nomes si determinant",
+              "podria invalidar"
+            ],
+            [
+              "responsabilitat",
+              "determinant"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "a) Concorre causa d'abstenció: l'art. 23 de la Llei 40/2015 obliga a abstenir-se a qui tingui parentiu dins del quart grau o interès personal en l'assumpte; un familiar de segon grau administrador d'una licitadora és causa clara.\nb) El vocal havia de comunicar la circumstància al seu superior i abstenir-se d'intervenir en la valoració.\nc) L'empresa que ho ha detectat pot promoure la recusació (art. 24 Llei 40/2015), per escrit i en qualsevol moment, expressant la causa. L'òrgan ha de resoldre.\nEfectes: l'actuació d'una autoritat en qui concorre causa d'abstenció no implica, necessàriament, la invalidesa dels actes (art. 23.4), però sí que poden ser anul·lables si la seva intervenció ha estat determinant del resultat. A més, pot generar responsabilitat de qui no es va abstenir.",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c14-credit-extraordinari",
+      "theme": 41,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Despesa urgent sense crèdit pressupostari",
+      "context": "A mitjan exercici, l'Ajuntament ha de fer front a una reparació urgent i inajornable d'un equipament per a la qual no existeix crèdit al pressupost vigent. Es disposa de romanent líquid de tresoreria per a despeses generals.",
+      "prompt": "Indiqueu quin tipus de modificació de crèdit és procedent, com es finança, el procediment d'aprovació i la seva entrada en vigor.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica que cal un CRÈDIT EXTRAORDINARI (despesa específica sense crèdit) — o suplement si n'hi hagués d'insuficient",
+          "weight": 13,
+          "keywords": [
+            [
+              "credit extraordinari",
+              "extraordinari"
+            ],
+            [
+              "no existeix credit",
+              "sense credit",
+              "especific"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Finançament: amb romanent líquid de tresoreria, nous/majors ingressos o baixes de crèdits",
+          "weight": 11,
+          "keywords": [
+            [
+              "romanent",
+              "romanent de tresoreria"
+            ],
+            [
+              "baixes",
+              "nous ingressos",
+              "majors ingressos"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Aprovació pel Ple amb el mateix procediment que el pressupost (exposició 15 dies, reclamacions)",
+          "weight": 13,
+          "keywords": [
+            [
+              "ple"
+            ],
+            [
+              "exposicio",
+              "15 dies",
+              "quinze dies",
+              "informacio publica"
+            ],
+            [
+              "mateix procediment",
+              "com el pressupost"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Executivitat: després de la publicació; recurs contenciós; informe d'Intervenció",
+          "weight": 8,
+          "keywords": [
+            [
+              "publicacio",
+              "bop",
+              "entra en vigor"
+            ],
+            [
+              "intervencio",
+              "informe",
+              "contencios"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Com que es tracta d'una despesa específica i determinada per a la qual NO existeix crèdit, la modificació procedent és un CRÈDIT EXTRAORDINARI (art. 177 TRLHL). Si existís crèdit però insuficient, seria un suplement de crèdit.\nFinançament (art. 177.4 TRLHL): amb romanent líquid de tresoreria, amb nous o majors ingressos recaptats sobre els previstos, o amb baixes de crèdits d'altres partides no compromeses. En el cas, es pot finançar amb el romanent líquid de tresoreria per a despeses generals.\nProcediment: l'aprova el Ple, amb subjecció als mateixos tràmits que el pressupost (informe d'Intervenció, aprovació inicial, exposició pública de 15 dies per a reclamacions i aprovació definitiva). Si no hi ha reclamacions, l'acord inicial esdevé definitiu.\nEntrada en vigor: un cop publicat el resum al BOP; contra l'aprovació definitiva només es pot interposar recurs contenciós administratiu.",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c15-criteris-adjudicacio",
+      "theme": 21,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Criteris d'adjudicació i oferta anormalment baixa",
+      "context": "En un contracte de serveis, el plec preveu adjudicar per preu (60%) i qualitat tècnica (40%). L'oferta més barata se situa molt per sota de la mitjana i del pressupost de licitació, i incorre en presumpció d'anormalitat segons el plec.",
+      "prompt": "Expliqueu com s'han de configurar els criteris d'adjudicació i com s'ha d'actuar davant l'oferta presumptament anormal.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Els criteris han de ser objectius, vinculats a l'objecte i fixats al plec; admissible la pluralitat preu+qualitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "objectius",
+              "vinculats a l'objecte"
+            ],
+            [
+              "plec"
+            ],
+            [
+              "qualitat-preu",
+              "pluralitat",
+              "preu i qualitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Davant l'oferta anormal: requeriment de justificació i audiència al licitador (art. 149)",
+          "weight": 14,
+          "keywords": [
+            [
+              "audiencia",
+              "requeriment",
+              "justificar",
+              "justificacio"
+            ],
+            [
+              "anormal",
+              "anormalment baixa",
+              "desproporcionada"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Valoració de la justificació amb assessorament tècnic; rebuig motivat si no es justifica la viabilitat",
+          "weight": 11,
+          "keywords": [
+            [
+              "rebutjar",
+              "exclusio",
+              "exclou",
+              "no justifica"
+            ],
+            [
+              "motivat",
+              "informe tecnic",
+              "assessorament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "No es pot excloure automàticament una oferta per baixa sense el tràmit contradictori",
+          "weight": 8,
+          "keywords": [
+            [
+              "no automatic",
+              "no es pot excloure directament",
+              "sense tramit",
+              "contradictori"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Els criteris d'adjudicació (art. 145 LCSP) han de ser objectius, estar vinculats a l'objecte del contracte i constar al plec; és admissible la pluralitat de criteris (preu i qualitat), que és el cas. Quan s'utilitzen criteris de judici de valor i fórmules, cal ponderar-los i, si escau, separar-ne l'avaluació.\nDavant una oferta presumptament anormal o desproporcionada (art. 149 LCSP), NO es pot rebutjar automàticament: cal requerir el licitador perquè justifiqui i desglossi la viabilitat de la seva oferta (costos, solució tècnica, condicions excepcionals…), amb audiència. La mesa/òrgan valora la justificació amb l'assessorament tècnic corresponent. Només si es conclou motivadament que l'oferta no pot ser complerta per ser anormalment baixa, s'exclou. Aquesta tramitació contradictòria és garantia del licitador.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c16-funcio-publica-interi",
+      "theme": 17,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Nomenament d'un funcionari interí i procés selectiu",
+      "context": "Per cobrir una vacant urgent, l'Ajuntament vol nomenar un funcionari interí. Posteriorment, la plaça s'ha d'incloure en una oferta pública d'ocupació per cobrir-la de manera definitiva.",
+      "prompt": "Expliqueu els requisits i límits del nomenament d'interí, els principis del procés selectiu i el sistema de selecció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Interí: per raons de necessitat i urgència justificades, en places de funcionari de carrera (art. 10 TREBEP)",
+          "weight": 12,
+          "keywords": [
+            [
+              "necessitat",
+              "urgencia"
+            ],
+            [
+              "justificad",
+              "motivad"
+            ],
+            [
+              "interi",
+              "10"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Selecció amb respecte de la igualtat, mèrit, capacitat i publicitat (art. 55 TREBEP)",
+          "weight": 13,
+          "keywords": [
+            [
+              "igualtat",
+              "merit",
+              "capacitat"
+            ],
+            [
+              "publicitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Sistemes selectius: oposició, concurs-oposició o, excepcionalment, concurs (art. 61 TREBEP)",
+          "weight": 11,
+          "keywords": [
+            [
+              "oposicio",
+              "concurs-oposicio",
+              "concurs oposicio"
+            ],
+            [
+              "sistema selectiu",
+              "concurs"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La plaça s'inclou a l'OPO i s'ha de cobrir; el cessament de l'interí en proveir-se definitivament",
+          "weight": 9,
+          "keywords": [
+            [
+              "oferta publica",
+              "opo",
+              "oferta d'ocupacio"
+            ],
+            [
+              "cessament",
+              "cessa",
+              "cobrir definitivament"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El nomenament de funcionari interí (art. 10 TREBEP) només és possible per raons expressament justificades de necessitat i urgència, per a l'exercici de funcions pròpies de funcionaris de carrera, en els supòsits taxats (existència de places vacants, substitució transitòria, programes temporals o excés/acumulació de tasques). Cal justificar-ho.\nLa selecció (també de l'interí) ha de respectar els principis constitucionals i del TREBEP: igualtat, mèrit, capacitat i publicitat (art. 55), a més d'agilitat i transparència. \nEls sistemes selectius (art. 61) són l'oposició i el concurs-oposició com a ordinaris, i el concurs amb caràcter excepcional. \nLa plaça s'ha d'incloure a l'oferta pública d'ocupació (art. 70 TREBEP) i convocar-se per cobrir-la de manera definitiva; quan es proveeixi pel procediment ordinari, l'interí cessa. Les places ocupades per interins s'han d'incloure a l'OPO per evitar-ne la perpetuació.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c17-disciplinari",
+      "theme": 88,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Règim disciplinari d'un funcionari",
+      "context": "Un funcionari acumula absències injustificades i ha comès una desobediència oberta a les instruccions del seu superior. L'Ajuntament es planteja sancionar-lo i dubta sobre el procediment i la possible sanció.",
+      "prompt": "Classifiqueu les possibles faltes, indiqueu les garanties del procediment disciplinari i les sancions aplicables, i la prescripció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Classificació de faltes en molt greus, greus i lleus (art. 95 TREBEP)",
+          "weight": 11,
+          "keywords": [
+            [
+              "molt greus",
+              "greus",
+              "lleus"
+            ],
+            [
+              "95",
+              "classificacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Procediment disciplinari amb garanties: instrucció separada, audiència, presumpció d'innocència",
+          "weight": 13,
+          "keywords": [
+            [
+              "procediment",
+              "expedient"
+            ],
+            [
+              "audiencia",
+              "presumpcio d'innocencia",
+              "instructor",
+              "garanties"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Sancions proporcionades (des d'advertiment fins a separació del servei segons gravetat)",
+          "weight": 12,
+          "keywords": [
+            [
+              "sancio",
+              "sancions"
+            ],
+            [
+              "separacio del servei",
+              "suspensio",
+              "proporciona"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Prescripció de faltes (3 anys molt greus, 2 greus, 6 mesos lleus) i de sancions",
+          "weight": 9,
+          "keywords": [
+            [
+              "prescripcio",
+              "prescriuen"
+            ],
+            [
+              "3 anys",
+              "tres anys",
+              "6 mesos"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les faltes es classifiquen en molt greus, greus i lleus (art. 95 TREBEP). L'abandonament del servei o la desobediència oberta poden ser molt greus o greus segons la intensitat; les absències injustificades, segons la reiteració, poden ser greus o lleus.\nEl procediment disciplinari per faltes greus i molt greus exigeix expedient amb totes les garanties: separació entre instructor i òrgan que resol, dret d'audiència i de defensa, prova, presumpció d'innocència i resolució motivada (arts. 94 i 98 TREBEP; principis dels arts. 53 i ss. Llei 40/2015).\nLes sancions (art. 96) van des de l'advertiment o suspensió de funcions fins al trasllat forçós o la separació del servei (aquesta, reservada a faltes molt greus), sempre amb proporcionalitat.\nPrescripció (art. 97): les infraccions molt greus prescriuen als 3 anys; les greus, als 2 anys; les lleus, als 6 mesos. Les sancions també prescriuen en terminis anàlegs.",
+      "sources": [
+        "TREBEP",
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c18-domini-public",
+      "theme": 38,
+      "block": 10,
+      "maxPoints": 45,
+      "title": "Ús privatiu del domini públic",
+      "context": "Una empresa vol instal·lar una terrassa amb tancaments fixos i una estructura permanent en una part de la via pública (domini públic municipal) durant cinc anys.",
+      "prompt": "Determineu quin títol habilitant necessita, la diferència amb l'ús comú i la situació jurídica de l'ocupant.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix ús comú general (lliure) de l'ús privatiu (ocupació excloent)",
+          "weight": 12,
+          "keywords": [
+            [
+              "us comu",
+              "comu general"
+            ],
+            [
+              "us privatiu",
+              "privatiu",
+              "ocupacio excloent"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'ús privatiu amb obres/instal·lacions fixes requereix CONCESSIÓ administrativa",
+          "weight": 13,
+          "keywords": [
+            [
+              "concessio",
+              "concessio administrativa"
+            ],
+            [
+              "instal·lacions fixes",
+              "obres",
+              "permanent"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Caràcter demanial: inalienable, imprescriptible i inembargable; ocupació a precari/temporal",
+          "weight": 11,
+          "keywords": [
+            [
+              "inalienable",
+              "imprescriptible",
+              "inembargable",
+              "demanial"
+            ],
+            [
+              "temporal",
+              "termini",
+              "precari"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Possible taxa per l'aprofitament especial del domini públic",
+          "weight": 9,
+          "keywords": [
+            [
+              "taxa",
+              "aprofitament especial"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Cal distingir l'ús comú general (el que correspon a tothom per igual, com circular o passejar, que és lliure) de l'ús privatiu, que comporta l'ocupació d'una porció de domini públic limitant o excloent l'ús dels altres.\nQuan l'ús privatiu es fa amb instal·lacions fixes o obres de caràcter permanent (com tancaments fixos i una estructura estable durant cinc anys), el títol habilitant necessari és una CONCESSIÓ administrativa (art. 86 Llei 33/2003 i normativa local); si no hi hagués obres permanents, n'hi hauria prou amb una autorització.\nL'ocupant és titular d'un dret a precari sobre un bé demanial, que és inalienable, imprescriptible i inembargable; la concessió té termini màxim, és revocable per raons d'interès públic (amb indemnització si escau) i no genera dret de propietat. A més, l'aprofitament especial del domini públic local merita la taxa corresponent (TRLHL).",
+      "sources": [
+        "L33_2003",
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c19-expropiacio",
+      "theme": 67,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Expropiació forçosa i just preu",
+      "context": "L'Ajuntament necessita uns terrenys privats per executar un sistema viari previst al planejament. El propietari discrepa de la valoració que se li ofereix i no hi ha acord.",
+      "prompt": "Exposeu les fases del procediment expropiatori, com es fixa el just preu en cas de desacord, i les garanties del propietari (reversió i premi d'afecció).",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Fases: declaració d'utilitat pública/interès social, necessitat d'ocupació, just preu i pagament i ocupació",
+          "weight": 13,
+          "keywords": [
+            [
+              "utilitat publica",
+              "interes social"
+            ],
+            [
+              "necessitat d'ocupacio"
+            ],
+            [
+              "just preu"
+            ],
+            [
+              "pagament",
+              "ocupacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'aprovació del planejament implica la declaració d'utilitat pública i la necessitat d'ocupació",
+          "weight": 11,
+          "keywords": [
+            [
+              "planejament",
+              "aprovacio del pla"
+            ],
+            [
+              "implica",
+              "comporta",
+              "declaracio d'utilitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Sense acord, el just preu el fixa el Jurat d'Expropiació en peça separada",
+          "weight": 12,
+          "keywords": [
+            [
+              "jurat d'expropiacio",
+              "jurat"
+            ],
+            [
+              "peca separada",
+              "sense acord",
+              "desacord"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Garanties: premi d'afecció del 5% i dret de reversió si no s'executa l'obra",
+          "weight": 9,
+          "keywords": [
+            [
+              "premi d'afeccio",
+              "5%",
+              "afeccio"
+            ],
+            [
+              "reversio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El procediment expropiatori general (LEF) comprèn: 1) la declaració d'utilitat pública o interès social; 2) la declaració de necessitat d'ocupació dels béns concrets; 3) la determinació del just preu; i 4) el pagament i l'ocupació. En matèria urbanística, l'aprovació del planejament que prevegi el sistema viari comporta la declaració d'utilitat pública i la necessitat d'ocupació dels terrenys afectats (TRLUC).\nDavant del desacord en la valoració, cada part formula el seu full d'apreuament; si no hi ha acord, el just preu el fixa el Jurat d'Expropiació (òrgan col·legiat) en peça separada, decisió que exhaureix la via administrativa i és recurrible davant el contenciós.\nGaranties del propietari: el just preu inclou un premi d'afecció del 5% sobre el valor del bé (art. 47 LEF) i merita interessos per demora; a més, si l'obra que va motivar l'expropiació no s'executa o desapareix la causa, opera el dret de reversió per recuperar el bé.",
+      "sources": [
+        "LEF",
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c20-reparcellacio",
+      "theme": 55,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Elecció del sistema d'actuació urbanística",
+      "context": "Un sector de sòl urbà no consolidat s'ha de desenvolupar. Els propietaris, majoritàriament, volen impulsar ells mateixos la urbanització i la distribució de beneficis i càrregues.",
+      "prompt": "Expliqueu els sistemes d'actuació urbanística, el principi d'equidistribució i quin sistema s'adequa al cas.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Sistemes: reparcel·lació (modalitats compensació, cooperació…) i expropiació",
+          "weight": 12,
+          "keywords": [
+            [
+              "reparcellacio",
+              "reparcel·lacio"
+            ],
+            [
+              "expropiacio"
+            ],
+            [
+              "compensacio",
+              "cooperacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Principi d'equidistribució: repartiment just de beneficis i càrregues entre propietaris",
+          "weight": 13,
+          "keywords": [
+            [
+              "equidistribucio",
+              "beneficis i carregues",
+              "just repartiment"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Modalitat de compensació: els propietaris executen la urbanització i es reparteixen",
+          "weight": 11,
+          "keywords": [
+            [
+              "compensacio"
+            ],
+            [
+              "propietaris executen",
+              "iniciativa privada",
+              "ells mateixos"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Deures: cessions de sòl (sistemes i aprofitament) i costejar la urbanització",
+          "weight": 9,
+          "keywords": [
+            [
+              "cessio",
+              "cessions"
+            ],
+            [
+              "urbanitzacio",
+              "costejar",
+              "sufragar"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'execució del planejament es fa per sistemes d'actuació urbanística (TRLUC): el de REPARCEL·LACIÓ (amb modalitats de compensació bàsica, compensació per concertació, cooperació, etc.) i el d'EXPROPIACIÓ. L'elecció del sistema correspon a l'Administració, atenent les circumstàncies.\nTot sistema s'inspira en el principi d'EQUIDISTRIBUCIÓ: el repartiment equitatiu dels beneficis (aprofitament) i les càrregues (cessions i costos d'urbanització) entre les persones propietàries de l'àmbit.\nCom que els propietaris volen impulsar ells mateixos la transformació, el sistema adequat és la reparcel·lació en la modalitat de COMPENSACIÓ: els propietaris s'agrupen, aporten els terrenys, executen al seu càrrec les obres d'urbanització i es distribueixen les finques resultants segons l'aprofitament. En tot cas, han de complir els deures de cessió de sòl per a sistemes i de l'aprofitament que correspongui a l'Administració, i costejar la urbanització.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c21-poum",
+      "theme": 51,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Tramitació d'un POUM",
+      "context": "L'Ajuntament vol aprovar un nou Pla d'ordenació urbanística municipal (POUM). Es pregunta sobre la documentació, el procediment d'aprovació i qui té la competència per a l'aprovació definitiva.",
+      "prompt": "Descriviu el contingut documental bàsic del POUM, les fases d'aprovació (inicial, provisional i definitiva) i l'òrgan competent per a l'aprovació definitiva.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Documentació: memòria (i memòria social), normes urbanístiques, plànols, agenda/avaluació econòmica, informe de sostenibilitat ambiental",
+          "weight": 12,
+          "keywords": [
+            [
+              "memoria",
+              "memoria social"
+            ],
+            [
+              "normes urbanistiques",
+              "planols"
+            ],
+            [
+              "avaluacio economica",
+              "sostenibilitat ambiental"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Aprovació INICIAL i informació pública (amb informes sectorials)",
+          "weight": 12,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "inicial"
+            ],
+            [
+              "informacio publica",
+              "exposicio",
+              "informes sectorials"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Aprovació PROVISIONAL pel Ple municipal",
+          "weight": 10,
+          "keywords": [
+            [
+              "aprovacio provisional",
+              "provisional"
+            ],
+            [
+              "ple"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Aprovació DEFINITIVA per la Comissió Territorial d'Urbanisme / conseller (Generalitat)",
+          "weight": 11,
+          "keywords": [
+            [
+              "aprovacio definitiva",
+              "definitiva"
+            ],
+            [
+              "comissio territorial",
+              "ctu",
+              "generalitat",
+              "conseller"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El POUM (arts. 57-59 TRLUC) ha de contenir, com a documentació bàsica: la memòria (amb la memòria social que justifica les determinacions d'habitatge), les normes urbanístiques, els plànols d'informació i d'ordenació, el catàleg de béns protegits si escau, l'agenda i l'avaluació econòmica i financera, i la documentació ambiental (informe/avaluació ambiental estratègica).\nProcediment (arts. 79-80 TRLUC): 1) aprovació INICIAL per l'Ajuntament i informació pública (mínim un mes/45 dies segons el cas), amb sol·licitud d'informes als organismes afectats; 2) resolució d'al·legacions i aprovació PROVISIONAL pel Ple; 3) tramesa a l'administració urbanística de la Generalitat per a l'aprovació DEFINITIVA.\nLa competència per a l'aprovació definitiva correspon, amb caràcter general, a la Comissió Territorial d'Urbanisme (o al conseller, segons la població del municipi), no a l'Ajuntament. La publicació de l'acord i de les normes urbanístiques al diari oficial determina l'executivitat del pla.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c22-transparencia",
+      "theme": 82,
+      "block": 16,
+      "maxPoints": 45,
+      "title": "Sol·licitud de dret d'accés a la informació pública",
+      "context": "Una persona sol·licita a l'Ajuntament còpia de tots els contractes adjudicats el darrer any, amb els imports i els adjudicataris. Una part de la documentació conté dades personals d'alguns empleats.",
+      "prompt": "Analitzeu el dret d'accés, els seus límits, com s'ha de resoldre la sol·licitud i el règim del silenci.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El dret d'accés correspon a qualsevol persona, sense necessitat de motivar la sol·licitud",
+          "weight": 11,
+          "keywords": [
+            [
+              "qualsevol persona",
+              "tothom"
+            ],
+            [
+              "sense motivar",
+              "no cal motivar",
+              "sense justificar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Límits taxats i ponderació (protecció de dades personals, entre d'altres)",
+          "weight": 13,
+          "keywords": [
+            [
+              "limits"
+            ],
+            [
+              "proteccio de dades",
+              "dades personals"
+            ],
+            [
+              "ponderacio",
+              "ponderar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Solució: accés (la informació de contractes és publicitat activa), amb anonimització de les dades personals no necessàries",
+          "weight": 12,
+          "keywords": [
+            [
+              "acces",
+              "facilitar",
+              "lliurar"
+            ],
+            [
+              "anonimitzar",
+              "dissociar",
+              "ometre dades",
+              "esborrar dades"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Silenci negatiu i possibilitat de reclamació davant la GAIP",
+          "weight": 9,
+          "keywords": [
+            [
+              "silenci negatiu",
+              "desestimatori"
+            ],
+            [
+              "gaip",
+              "reclamacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El dret d'accés a la informació pública (Llei 19/2014) el té qualsevol persona, sense necessitat de motivar la sol·licitud i sense que l'interès personal en sigui condició. La informació sobre contractes (objecte, import i adjudicatari) és, a més, objecte de publicitat activa.\nL'accés només es pot limitar pels límits taxats (seguretat, investigació, secrets, etc.) i, especialment, per la protecció de dades personals, que exigeix una ponderació entre l'interès públic en la divulgació i els drets dels afectats. \nSolució: s'ha de facilitar l'accés als contractes, imports i adjudicataris (informació de rellevància pública). Pel que fa a les dades personals d'empleats que no siguin necessàries (p. ex. dades de contacte particulars), s'han d'anonimitzar o ometre; les dades merament identificatives lligades a l'exercici del càrrec solen prevaler a favor de la transparència.\nLa sol·licitud s'ha de resoldre en el termini d'un mes; el silenci té caràcter desestimatori (negatiu), i contra la denegació es pot reclamar davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP).",
+      "sources": [
+        "L19_2014",
+        "LOPDGDD"
+      ]
+    },
+    {
+      "id": "c23-coordinacio-prl",
+      "theme": 90,
+      "block": 18,
+      "maxPoints": 45,
+      "title": "Coordinació d'activitats empresarials en obra municipal",
+      "context": "En una obra municipal hi concorren l'empresa contractista, dues subcontractistes i un treballador autònom. L'Ajuntament és el promotor i titular del centre de treball.",
+      "prompt": "Expliqueu els deures de coordinació d'activitats empresarials, el paper de cada subjecte i els mitjans de coordinació adequats.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Deure de cooperació i d'informació recíproca entre totes les empreses concurrents (inclòs l'autònom)",
+          "weight": 13,
+          "keywords": [
+            [
+              "cooperacio",
+              "cooperar"
+            ],
+            [
+              "informacio reciproca",
+              "informar-se",
+              "intercanvi"
+            ],
+            [
+              "autonom",
+              "concurrents"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'empresari titular del centre informa i dóna instruccions",
+          "weight": 11,
+          "keywords": [
+            [
+              "titular del centre",
+              "titular"
+            ],
+            [
+              "informa",
+              "instruccions"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'empresari principal té el deure de vigilància del compliment",
+          "weight": 12,
+          "keywords": [
+            [
+              "principal"
+            ],
+            [
+              "vigilancia",
+              "vigilar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Mitjans de coordinació i, en obra de construcció, coordinador de seguretat i salut + pla",
+          "weight": 9,
+          "keywords": [
+            [
+              "mitjans de coordinacio",
+              "reunions",
+              "recursos preventius"
+            ],
+            [
+              "coordinador de seguretat",
+              "pla de seguretat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Quan en un mateix centre concorren treballadors de diverses empreses (i autònoms), s'apliquen els deures de coordinació d'activitats empresarials (art. 24 LPRL i RD 171/2004).\nDeure general: totes les empreses concurrents —i el treballador autònom— han de cooperar i informar-se recíprocament sobre els riscos de les seves activitats que puguin afectar els altres, i tenir-ho en compte en l'avaluació i la planificació.\nPapers: l'empresari TITULAR del centre de treball (aquí l'Ajuntament-promotor) ha d'informar i donar instruccions a les empreses concurrents sobre els riscos del centre i les mesures d'emergència. L'empresari PRINCIPAL (qui contracta obres o serveis de la pròpia activitat) té, a més, el deure de vigilar el compliment de la normativa preventiva pels contractistes i subcontractistes.\nMitjans de coordinació: intercanvi d'informació, reunions, instruccions, mesures específiques i, quan els riscos ho exigeixin, la presència de recursos preventius. En les obres de construcció, a més, cal designar un coordinador de seguretat i salut i disposar del pla de seguretat i salut (RD 1627/1997).",
+      "sources": [
+        "L31_1995",
+        "RD171_2004"
+      ]
+    },
+    {
+      "id": "c24-subvencio-concurrencia",
+      "theme": 35,
+      "block": 8,
+      "maxPoints": 45,
+      "title": "Concessió de subvencions en concurrència competitiva",
+      "context": "L'Ajuntament vol atorgar subvencions a entitats culturals. Disposa d'un crèdit limitat i hi ha més sol·licituds que recursos. Una entitat demana que se li concedeixi directament per la seva trajectòria.",
+      "prompt": "Expliqueu el procediment de concessió ordinari, els principis aplicables i si és admissible la concessió directa sol·licitada.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Procediment ordinari: concurrència competitiva, amb comparació de sol·licituds segons criteris de la convocatòria",
+          "weight": 13,
+          "keywords": [
+            [
+              "concurrencia competitiva"
+            ],
+            [
+              "comparacio",
+              "comparar",
+              "criteris",
+              "convocatoria",
+              "bases"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Principis: publicitat, transparència, objectivitat, igualtat i no discriminació",
+          "weight": 12,
+          "keywords": [
+            [
+              "publicitat",
+              "transparencia"
+            ],
+            [
+              "objectivitat",
+              "igualtat",
+              "no discriminacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Necessitat de bases reguladores, convocatòria i pla estratègic de subvencions previ",
+          "weight": 11,
+          "keywords": [
+            [
+              "bases reguladores",
+              "convocatoria"
+            ],
+            [
+              "pla estrategic",
+              "estrategic de subvencions"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La concessió directa només en supòsits taxats (nominatives, per llei, interès públic/social acreditat): no per simple trajectòria",
+          "weight": 9,
+          "keywords": [
+            [
+              "concessio directa",
+              "directa"
+            ],
+            [
+              "taxats",
+              "nominativa",
+              "no procede",
+              "no es pot"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El procediment ordinari de concessió de subvencions és la CONCURRÈNCIA COMPETITIVA (art. 22 Llei 38/2003): es comparen les sol·licituds presentades per establir-ne una prelació segons els criteris de valoració fixats prèviament a les bases i la convocatòria, i s'adjudiquen amb el límit del crèdit disponible.\nPrincipis aplicables (art. 8): publicitat, transparència, concurrència, objectivitat, igualtat i no discriminació, i eficàcia i eficiència. Cal aprovar prèviament un pla estratègic de subvencions i les bases reguladores, i fer pública la convocatòria.\nLa concessió DIRECTA només és admissible en els supòsits taxats de l'art. 22.2: subvencions previstes nominativament als pressupostos, les imposades per una norma de rang legal, i, amb caràcter excepcional, aquelles en què s'acreditin raons d'interès públic, social, econòmic o humanitari que en dificultin la convocatòria pública. La simple trajectòria d'una entitat no és causa habilitant de concessió directa: la sol·licitud s'ha de tramitar per concurrència competitiva.",
+      "sources": [
+        "L38_2003"
+      ]
+    },
+    {
+      "id": "c25-activitat-comunicacio",
+      "theme": 31,
+      "block": 14,
+      "maxPoints": 45,
+      "title": "Comunicació prèvia i declaració responsable d'una activitat",
+      "context": "Una persona presenta una comunicació prèvia per obrir un petit comerç. Setmanes després, una inspecció detecta que la documentació tècnica que va declarar tenir és inexacta i que l'activitat no compleix una condició de seguretat.",
+      "prompt": "Expliqueu la naturalesa de la comunicació prèvia/declaració responsable, els efectes de l'inici de l'activitat i les conseqüències de la inexactitud detectada.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Naturalesa: documents de l'interessat que permeten iniciar l'activitat des de la presentació",
+          "weight": 12,
+          "keywords": [
+            [
+              "comunicacio previa",
+              "declaracio responsable"
+            ],
+            [
+              "iniciar",
+              "des de la presentacio",
+              "sense autoritzacio previa"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Control a posteriori per l'Administració (no hi ha acte d'autorització previ)",
+          "weight": 11,
+          "keywords": [
+            [
+              "control posterior",
+              "a posteriori",
+              "comprovacio",
+              "inspeccio"
+            ],
+            [
+              "no autoritzacio",
+              "sense acte previ"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La inexactitud, falsedat o omissió essencial determina la impossibilitat de continuar l'activitat des que es coneix (art. 69.4)",
+          "weight": 14,
+          "keywords": [
+            [
+              "inexactitud",
+              "falsedat",
+              "omissio"
+            ],
+            [
+              "impossibilitat de continuar",
+              "cessament",
+              "cessar"
+            ],
+            [
+              "69"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Possible exigència de responsabilitats i, si escau, restitució o reposició",
+          "weight": 8,
+          "keywords": [
+            [
+              "responsabilitats",
+              "sancio"
+            ],
+            [
+              "restitucio",
+              "reposicio",
+              "retornar la situacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La comunicació prèvia i la declaració responsable (art. 69 Llei 39/2015) són documents de l'interessat —no actes administratius— mitjançant els quals manifesta, sota la seva responsabilitat, que compleix els requisits exigits i posa en coneixement de l'Administració les dades per iniciar l'activitat. Permeten iniciar l'exercici del dret o activitat des del dia de la presentació.\nNo hi ha, per tant, una autorització prèvia: l'Administració exerceix un control a posteriori, comprovant la veracitat i el compliment (potestats d'inspecció).\nLa inexactitud, falsedat o omissió de caràcter essencial en les dades declarades, o la no-presentació de la documentació exigida, determina la impossibilitat de continuar amb l'exercici de l'activitat des del moment en què se'n tingui constància (art. 69.4), sens perjudici de les responsabilitats penals, civils o administratives que escaiguin. En el cas, en ser inexacta la documentació tècnica i incomplir-se una condició de seguretat, l'Ajuntament pot ordenar el cessament de l'activitat i, si escau, la reposició de la situació jurídica i l'exigència de responsabilitats.",
+      "sources": [
+        "L39_2015"
+      ]
     }
   ]
 }

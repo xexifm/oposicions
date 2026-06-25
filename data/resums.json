@@ -1,285 +1,1981 @@
 {
   "_meta": {
     "info": "Resums d'estudi dels 90 temes amb esquemes. Material no oficial generat amb IA; contrasta sempre amb la normativa consolidada. S'afegeixen per fases.",
-    "fase": "Lot 1"
+    "fase": "Complet · 90/90"
   },
   "resums": {
     "1": {
       "intro": "La Constitució espanyola de 1978 (CE) és la norma suprema de l'ordenament. Ratificada en referèndum el 6-12-1978 i sancionada el 27-12-1978. Consta d'un títol preliminar i 10 títols (169 articles), més disposicions addicionals, transitòries, derogatòria i final.",
       "sections": [
-        { "h": "Estructura", "scheme": { "cap": "Parts de la CE", "body": "PREÀMBUL\nTÍTOL PRELIMINAR (arts. 1-9) → principis i valors\nTÍTOL I  Drets i deures fonamentals (10-55)\nTÍTOL II Corona (56-65)\nTÍTOL III Corts Generals (66-96)\nTÍTOL IV Govern i Administració (97-107)\nTÍTOL V  Relacions Govern–Corts (108-116)\nTÍTOL VI Poder judicial (117-127)\nTÍTOL VII Economia i Hisenda (128-136)\nTÍTOL VIII Organització territorial (137-158)\nTÍTOL IX Tribunal Constitucional (159-165)\nTÍTOL X  Reforma constitucional (166-169)" } },
-        { "h": "Títol preliminar: principis", "list": [
-          "Art. 1.1: Estat social i democràtic de dret. Valors superiors: llibertat, justícia, igualtat i pluralisme polític.",
-          "Art. 1.2: la sobirania nacional resideix en el poble espanyol.",
-          "Art. 1.3: la forma política de l'Estat és la monarquia parlamentària.",
-          "Art. 2: unitat de la nació espanyola i dret a l'autonomia de nacionalitats i regions; solidaritat.",
-          "Art. 9.3: garanties — legalitat, jerarquia normativa, publicitat, irretroactivitat del desfavorable, seguretat jurídica, responsabilitat i interdicció de l'arbitrarietat dels poders públics."
-        ] },
-        { "h": "Drets fonamentals i nivells de protecció", "p": "El Títol I distingeix graus de protecció segons la ubicació del dret.",
-          "scheme": { "cap": "Nivells de protecció dels drets", "body": "Secció 1a Cap. II (arts. 15-29) + art. 14 i objecció\n   → MÀXIMA protecció: llei orgànica, procediment preferent i\n     sumari, i RECURS D'EMPARA davant el TC\nResta Cap. II (arts. 30-38)\n   → vinculen els poders públics; reserva de llei\nCap. III (arts. 39-52) Principis rectors\n   → informen la legislació; només davant jurisdicció segons\n     les lleis que els desenvolupin" } },
-        { "key": "Drets amb empara: arts. 14 a 29 (+ objecció de consciència art. 30.2). La suspensió de drets es regula a l'art. 55." }
+        {
+          "h": "Estructura",
+          "scheme": {
+            "cap": "Parts de la CE",
+            "body": "PREÀMBUL\nTÍTOL PRELIMINAR (arts. 1-9) → principis i valors\nTÍTOL I  Drets i deures fonamentals (10-55)\nTÍTOL II Corona (56-65)\nTÍTOL III Corts Generals (66-96)\nTÍTOL IV Govern i Administració (97-107)\nTÍTOL V  Relacions Govern–Corts (108-116)\nTÍTOL VI Poder judicial (117-127)\nTÍTOL VII Economia i Hisenda (128-136)\nTÍTOL VIII Organització territorial (137-158)\nTÍTOL IX Tribunal Constitucional (159-165)\nTÍTOL X  Reforma constitucional (166-169)"
+          }
+        },
+        {
+          "h": "Títol preliminar: principis",
+          "list": [
+            "Art. 1.1: Estat social i democràtic de dret. Valors superiors: llibertat, justícia, igualtat i pluralisme polític.",
+            "Art. 1.2: la sobirania nacional resideix en el poble espanyol.",
+            "Art. 1.3: la forma política de l'Estat és la monarquia parlamentària.",
+            "Art. 2: unitat de la nació espanyola i dret a l'autonomia de nacionalitats i regions; solidaritat.",
+            "Art. 9.3: garanties — legalitat, jerarquia normativa, publicitat, irretroactivitat del desfavorable, seguretat jurídica, responsabilitat i interdicció de l'arbitrarietat dels poders públics."
+          ]
+        },
+        {
+          "h": "Drets fonamentals i nivells de protecció",
+          "p": "El Títol I distingeix graus de protecció segons la ubicació del dret.",
+          "scheme": {
+            "cap": "Nivells de protecció dels drets",
+            "body": "Secció 1a Cap. II (arts. 15-29) + art. 14 i objecció\n   → MÀXIMA protecció: llei orgànica, procediment preferent i\n     sumari, i RECURS D'EMPARA davant el TC\nResta Cap. II (arts. 30-38)\n   → vinculen els poders públics; reserva de llei\nCap. III (arts. 39-52) Principis rectors\n   → informen la legislació; només davant jurisdicció segons\n     les lleis que els desenvolupin"
+          }
+        },
+        {
+          "key": "Drets amb empara: arts. 14 a 29 (+ objecció de consciència art. 30.2). La suspensió de drets es regula a l'art. 55."
+        }
       ],
       "key": "Estat social i democràtic de dret (1.1) · sobirania del poble (1.2) · monarquia parlamentària (1.3) · garanties art. 9.3 · empara per als arts. 14-29."
     },
     "2": {
       "intro": "L'Estatut d'autonomia de Catalunya (EAC) vigent és la Llei orgànica 6/2006, de 19 de juliol. És la norma institucional bàsica de la Generalitat i forma part de l'ordenament estatal (bloc de constitucionalitat).",
       "sections": [
-        { "h": "Naturalesa i estructura", "list": [
-          "Norma institucional bàsica de Catalunya (art. 147 CE).",
-          "Estructura: títol preliminar + 7 títols (drets i deures i principis rectors; institucions; poder judicial; competències; relacions institucionals; finançament; reforma).",
-          "La reforma de l'Estatut requereix procediment agreujat i, en general, referèndum."
-        ] },
-        { "h": "Institucions (la Generalitat)", "scheme": { "cap": "La Generalitat", "body": "GENERALITAT = Parlament + Presidència + Govern\n + altres institucions estatutàries\nParlament → potestat legislativa, pressupost, control\nPresident/a → màxima representació; dirigeix el Govern\nGovern → funció executiva i potestat reglamentària\nAltres: Síndic de Greuges, Sindicatura de Comptes,\n        Consell de Garanties Estatutàries" } },
-        { "h": "Competències", "p": "L'EAC tipifica competències exclusives, compartides i executives. En matèries d'interès local destaquen urbanisme, habitatge, ordenació del territori i règim local.",
-          "key": "Distingeix competència exclusiva (tota la funció), compartida (bases estatals + desenvolupament autonòmic) i executiva (només execució)." }
+        {
+          "h": "Naturalesa i estructura",
+          "list": [
+            "Norma institucional bàsica de Catalunya (art. 147 CE).",
+            "Estructura: títol preliminar + 7 títols (drets i deures i principis rectors; institucions; poder judicial; competències; relacions institucionals; finançament; reforma).",
+            "La reforma de l'Estatut requereix procediment agreujat i, en general, referèndum."
+          ]
+        },
+        {
+          "h": "Institucions (la Generalitat)",
+          "scheme": {
+            "cap": "La Generalitat",
+            "body": "GENERALITAT = Parlament + Presidència + Govern\n + altres institucions estatutàries\nParlament → potestat legislativa, pressupost, control\nPresident/a → màxima representació; dirigeix el Govern\nGovern → funció executiva i potestat reglamentària\nAltres: Síndic de Greuges, Sindicatura de Comptes,\n        Consell de Garanties Estatutàries"
+          }
+        },
+        {
+          "h": "Competències",
+          "p": "L'EAC tipifica competències exclusives, compartides i executives. En matèries d'interès local destaquen urbanisme, habitatge, ordenació del territori i règim local.",
+          "key": "Distingeix competència exclusiva (tota la funció), compartida (bases estatals + desenvolupament autonòmic) i executiva (només execució)."
+        }
       ],
       "key": "EAC = LO 6/2006. Generalitat: Parlament, President i Govern. Competències exclusives/compartides/executives."
     },
     "3": {
       "intro": "L'organització territorial de l'Estat (Títol VIII CE) es basa en municipis, províncies i comunitats autònomes, que gaudeixen d'autonomia per a la gestió dels seus interessos (art. 137 CE). L'Administració local s'integra per diverses entitats.",
       "sections": [
-        { "h": "Entitats locals (art. 3 LRBRL)", "scheme": { "cap": "Ens locals", "body": "TERRITORIALS\n  • Municipi\n  • Província\n  • Illa (Balears/Canàries)\nALTRES ENTITATS\n  • Comarca\n  • Àrea metropolitana\n  • Mancomunitat de municipis\n  • Entitat d'àmbit inferior al municipi (EATIM)\n  A Catalunya: vegueria, comarca, municipi" } },
-        { "h": "Principis", "list": [
-          "Autonomia local: dret i capacitat efectiva d'ordenar i gestionar part dels assumptes públics (Carta Europea d'Autonomia Local).",
-          "Suficiència financera per a l'exercici de les competències.",
-          "La província és una agrupació de municipis amb personalitat pròpia (art. 141 CE)."
-        ] }
+        {
+          "h": "Entitats locals (art. 3 LRBRL)",
+          "scheme": {
+            "cap": "Ens locals",
+            "body": "TERRITORIALS\n  • Municipi\n  • Província\n  • Illa (Balears/Canàries)\nALTRES ENTITATS\n  • Comarca\n  • Àrea metropolitana\n  • Mancomunitat de municipis\n  • Entitat d'àmbit inferior al municipi (EATIM)\n  A Catalunya: vegueria, comarca, municipi"
+          }
+        },
+        {
+          "h": "Principis",
+          "list": [
+            "Autonomia local: dret i capacitat efectiva d'ordenar i gestionar part dels assumptes públics (Carta Europea d'Autonomia Local).",
+            "Suficiència financera per a l'exercici de les competències.",
+            "La província és una agrupació de municipis amb personalitat pròpia (art. 141 CE)."
+          ]
+        }
       ],
       "key": "Ens territorials: municipi, província, illa. A Catalunya també vegueria i comarca. Autonomia + suficiència financera."
     },
     "4": {
       "intro": "El municipi és l'entitat local bàsica. Els seus òrgans de govern i la seva designació es regulen a la LRBRL i, a Catalunya, al DL 2/2003. Es distingeixen òrgans necessaris i complementaris.",
       "sections": [
-        { "h": "Òrgans", "scheme": { "cap": "Òrgans municipals (règim comú)", "body": "NECESSARIS\n  • Alcalde/essa (elegit pels regidors o cap de llista)\n  • Tinents d'alcalde (nomenats per l'Alcalde)\n  • Ple (tots els regidors, elegits per sufragi)\n  • Junta de Govern Local (>5.000 hab. o si ho acorda el Ple)\nCOMPLEMENTARIS\n  • Comissions informatives\n  • Comissió Especial de Comptes (obligatòria)\n  • Juntes de districte, consells sectorials…" } },
-        { "h": "Competències del Ple i de l'Alcalde", "list": [
-          "Ple: aprovació de pressupostos, ordenances, planejament general, formes de gestió de serveis, plantilla… (art. 22 LRBRL).",
-          "Alcalde: direcció del govern i administració, prefectura del personal, contractació i llicències segons quantia… (art. 21 LRBRL).",
-          "La Comissió Especial de Comptes informa els comptes anuals abans de l'aprovació pel Ple."
-        ] },
-        { "key": "Òrgans necessaris: Alcalde, tinents d'alcalde i Ple. La Junta de Govern Local és obligatòria a municipis de més de 5.000 habitants." }
+        {
+          "h": "Òrgans",
+          "scheme": {
+            "cap": "Òrgans municipals (règim comú)",
+            "body": "NECESSARIS\n  • Alcalde/essa (elegit pels regidors o cap de llista)\n  • Tinents d'alcalde (nomenats per l'Alcalde)\n  • Ple (tots els regidors, elegits per sufragi)\n  • Junta de Govern Local (>5.000 hab. o si ho acorda el Ple)\nCOMPLEMENTARIS\n  • Comissions informatives\n  • Comissió Especial de Comptes (obligatòria)\n  • Juntes de districte, consells sectorials…"
+          }
+        },
+        {
+          "h": "Competències del Ple i de l'Alcalde",
+          "list": [
+            "Ple: aprovació de pressupostos, ordenances, planejament general, formes de gestió de serveis, plantilla… (art. 22 LRBRL).",
+            "Alcalde: direcció del govern i administració, prefectura del personal, contractació i llicències segons quantia… (art. 21 LRBRL).",
+            "La Comissió Especial de Comptes informa els comptes anuals abans de l'aprovació pel Ple."
+          ]
+        },
+        {
+          "key": "Òrgans necessaris: Alcalde, tinents d'alcalde i Ple. La Junta de Govern Local és obligatòria a municipis de més de 5.000 habitants."
+        }
       ],
       "key": "Necessaris: Alcalde, tinents d'alcalde, Ple (+ JGL si >5.000 hab.). Pressupost i ordenances = Ple."
     },
     "5": {
       "intro": "Les competències municipals determinen què pot fer el municipi. La LRBRL (reformada per la LRSAL) distingeix competències pròpies, delegades i altres activitats.",
       "sections": [
-        { "h": "Tipus de competències", "scheme": { "cap": "Competències municipals", "body": "PRÒPIES (art. 25 LRBRL)\n  Atribuïdes per llei; s'exerceixen en règim d'autonomia\n  Ex.: urbanisme, via pública, residus, aigua, mobilitat…\nDELEGADES (art. 27)\n  Per l'Estat o la CA; amb dotació econòmica i control\nALTRES (art. 7.4)\n  Competències diferents de pròpies/delegades: només si no\n  hi ha duplicitat i hi ha sostenibilitat financera (informes)" } },
-        { "h": "Serveis obligatoris (art. 26)", "list": [
-          "Tots els municipis: enllumenat, cementiri, recollida de residus, neteja viària, aigua potable, clavegueram, accés als nuclis, pavimentació.",
-          "≥5.000 hab.: + parc públic, biblioteca, mercat, tractament de residus.",
-          "≥20.000 hab.: + protecció civil, serveis socials, prevenció i extinció d'incendis, instal·lacions esportives.",
-          "≥50.000 hab.: + transport col·lectiu urbà i medi ambient urbà."
-        ] }
+        {
+          "h": "Tipus de competències",
+          "scheme": {
+            "cap": "Competències municipals",
+            "body": "PRÒPIES (art. 25 LRBRL)\n  Atribuïdes per llei; s'exerceixen en règim d'autonomia\n  Ex.: urbanisme, via pública, residus, aigua, mobilitat…\nDELEGADES (art. 27)\n  Per l'Estat o la CA; amb dotació econòmica i control\nALTRES (art. 7.4)\n  Competències diferents de pròpies/delegades: només si no\n  hi ha duplicitat i hi ha sostenibilitat financera (informes)"
+          }
+        },
+        {
+          "h": "Serveis obligatoris (art. 26)",
+          "list": [
+            "Tots els municipis: enllumenat, cementiri, recollida de residus, neteja viària, aigua potable, clavegueram, accés als nuclis, pavimentació.",
+            "≥5.000 hab.: + parc públic, biblioteca, mercat, tractament de residus.",
+            "≥20.000 hab.: + protecció civil, serveis socials, prevenció i extinció d'incendis, instal·lacions esportives.",
+            "≥50.000 hab.: + transport col·lectiu urbà i medi ambient urbà."
+          ]
+        }
       ],
       "key": "Competències pròpies (llei), delegades (amb finançament i control) i altres (art. 7.4, amb informes). Serveis mínims segons població (art. 26)."
     },
     "6": {
       "intro": "L'acte administratiu és la declaració de voluntat, judici, coneixement o desig d'una Administració en exercici d'una potestat administrativa. Es regula a la Llei 39/2015.",
       "sections": [
-        { "h": "Elements de l'acte", "scheme": { "cap": "Elements", "body": "SUBJECTIU  → òrgan competent, vàlidament investit\nOBJECTIU   → contingut lícit, possible i determinat;\n             causa (fi) adequat a l'ordenament\nFORMAL     → procediment degut + forma (escrita, en general)\nMOTIVACIÓ  → exigida en els actes de l'art. 35\n             (limitatius de drets, discrecionals, sancionadors…)" } },
-        { "h": "El silenci administratiu", "p": "Quan l'Administració no resol dins de termini, la llei atribueix un sentit a la inactivitat.",
-          "scheme": { "cap": "Silenci (procediments a instància de part)", "body": "REGLA GENERAL → POSITIU (estimatori)\nEXCEPCIONS (negatiu) p. ex.:\n  • dret de petició\n  • actes que transfereixin facultats sobre domini públic\n  • impugnació d'actes (recursos) — amb matís de doble silenci\n  • procediments de responsabilitat patrimonial\n  • medi ambient\nLímit: el silenci no atorga facultats contràries a l'ordenament" } },
-        { "key": "El silenci positiu produeix un acte veritable (acte presumpte); el negatiu és una mera ficció per permetre el recurs." }
+        {
+          "h": "Elements de l'acte",
+          "scheme": {
+            "cap": "Elements",
+            "body": "SUBJECTIU  → òrgan competent, vàlidament investit\nOBJECTIU   → contingut lícit, possible i determinat;\n             causa (fi) adequat a l'ordenament\nFORMAL     → procediment degut + forma (escrita, en general)\nMOTIVACIÓ  → exigida en els actes de l'art. 35\n             (limitatius de drets, discrecionals, sancionadors…)"
+          }
+        },
+        {
+          "h": "El silenci administratiu",
+          "p": "Quan l'Administració no resol dins de termini, la llei atribueix un sentit a la inactivitat.",
+          "scheme": {
+            "cap": "Silenci (procediments a instància de part)",
+            "body": "REGLA GENERAL → POSITIU (estimatori)\nEXCEPCIONS (negatiu) p. ex.:\n  • dret de petició\n  • actes que transfereixin facultats sobre domini públic\n  • impugnació d'actes (recursos) — amb matís de doble silenci\n  • procediments de responsabilitat patrimonial\n  • medi ambient\nLímit: el silenci no atorga facultats contràries a l'ordenament"
+          }
+        },
+        {
+          "key": "El silenci positiu produeix un acte veritable (acte presumpte); el negatiu és una mera ficció per permetre el recurs."
+        }
       ],
       "key": "Elements: competència, contingut/causa, procediment i forma, motivació. Silenci a instància de part: regla general positiu, amb excepcions taxades."
     },
     "7": {
       "intro": "L'eficàcia, l'executivitat i la invalidesa de l'acte administratiu es regulen a la Llei 39/2015 (arts. 37-52).",
       "sections": [
-        { "h": "Eficàcia i executivitat", "list": [
-          "Els actes es presumeixen vàlids i produeixen efectes des que es dicten (art. 39), llevat de demora d'eficàcia (notificació, publicació, condició o aprovació superior).",
-          "Executivitat: els actes són immediatament executius (art. 38), amb excepcions (suspensió, resolucions de recursos pendents…).",
-          "Notificació: en 10 dies des de l'acte; ha de contenir el text íntegre, si exhaureix la via, recursos, òrgan i termini (art. 40).",
-          "Publicació: substitueix la notificació en els casos legals (destinataris indeterminats, etc.)."
-        ] },
-        { "h": "Invalidesa", "scheme": { "cap": "Nul·litat vs anul·labilitat", "body": "NUL·LITAT DE PLE DRET (art. 47) — supòsits taxats\n  • lesió de drets fonamentals susceptibles d'empara\n  • òrgan manifestament incompetent (matèria/territori)\n  • contingut impossible\n  • infracció penal o conseqüència d'aquesta\n  • prescindir TOTALMENT del procediment\n  • actes contra l'ordenament que adquireixin facultats\n    sense requisits essencials\n  → efectes EX TUNC · no convalidable · imprescriptible\nANUL·LABILITAT (art. 48) — regla general\n  • qualsevol infracció de l'ordenament (inclosa desviació\n    de poder)\n  • defecte de forma: només si impedeix la finalitat o\n    causa indefensió\n  • fora de termini: només si ho imposa la naturalesa\n  → convalidable (art. 52)" } },
-        { "key": "La nul·litat es declara per revisió d'ofici (art. 106), sense termini; l'anul·labilitat, via recursos o declaració de lesivitat + contenciós." }
+        {
+          "h": "Eficàcia i executivitat",
+          "list": [
+            "Els actes es presumeixen vàlids i produeixen efectes des que es dicten (art. 39), llevat de demora d'eficàcia (notificació, publicació, condició o aprovació superior).",
+            "Executivitat: els actes són immediatament executius (art. 38), amb excepcions (suspensió, resolucions de recursos pendents…).",
+            "Notificació: en 10 dies des de l'acte; ha de contenir el text íntegre, si exhaureix la via, recursos, òrgan i termini (art. 40).",
+            "Publicació: substitueix la notificació en els casos legals (destinataris indeterminats, etc.)."
+          ]
+        },
+        {
+          "h": "Invalidesa",
+          "scheme": {
+            "cap": "Nul·litat vs anul·labilitat",
+            "body": "NUL·LITAT DE PLE DRET (art. 47) — supòsits taxats\n  • lesió de drets fonamentals susceptibles d'empara\n  • òrgan manifestament incompetent (matèria/territori)\n  • contingut impossible\n  • infracció penal o conseqüència d'aquesta\n  • prescindir TOTALMENT del procediment\n  • actes contra l'ordenament que adquireixin facultats\n    sense requisits essencials\n  → efectes EX TUNC · no convalidable · imprescriptible\nANUL·LABILITAT (art. 48) — regla general\n  • qualsevol infracció de l'ordenament (inclosa desviació\n    de poder)\n  • defecte de forma: només si impedeix la finalitat o\n    causa indefensió\n  • fora de termini: només si ho imposa la naturalesa\n  → convalidable (art. 52)"
+          }
+        },
+        {
+          "key": "La nul·litat es declara per revisió d'ofici (art. 106), sense termini; l'anul·labilitat, via recursos o declaració de lesivitat + contenciós."
+        }
       ],
       "key": "Actes vàlids i executius des que es dicten. Nul·litat (art. 47, taxada, ex tunc) vs anul·labilitat (art. 48, regla general, convalidable)."
     },
     "8": {
       "intro": "El procediment administratiu és el conjunt ordenat de tràmits per a la formació de la voluntat administrativa. La Llei 39/2015 regula el procediment administratiu comú.",
       "sections": [
-        { "h": "Principis", "list": [
-          "Caràcter contradictori, oficialitat (impuls d'ofici), economia, celeritat i eficàcia.",
-          "Dret a una bona administració: ser tractat amb imparcialitat, resolució en termini, accés a l'expedient.",
-          "Garanties: audiència, motivació, dret a no aportar documents en poder de l'Administració."
-        ] },
-        { "h": "Bona regulació (art. 129)", "scheme": { "cap": "Principis de bona regulació", "body": "NECESSITAT i EFICÀCIA → interès general identificat\nPROPORCIONALITAT → mínima restricció imprescindible\nSEGURETAT JURÍDICA → coherència amb l'ordenament\nTRANSPARÈNCIA → participació i objectius clars\nEFICIÈNCIA → evitar càrregues innecessàries" } },
-        { "key": "El procediment és garantia per a l'interessat i per a l'encert de la decisió administrativa." }
+        {
+          "h": "Principis",
+          "list": [
+            "Caràcter contradictori, oficialitat (impuls d'ofici), economia, celeritat i eficàcia.",
+            "Dret a una bona administració: ser tractat amb imparcialitat, resolució en termini, accés a l'expedient.",
+            "Garanties: audiència, motivació, dret a no aportar documents en poder de l'Administració."
+          ]
+        },
+        {
+          "h": "Bona regulació (art. 129)",
+          "scheme": {
+            "cap": "Principis de bona regulació",
+            "body": "NECESSITAT i EFICÀCIA → interès general identificat\nPROPORCIONALITAT → mínima restricció imprescindible\nSEGURETAT JURÍDICA → coherència amb l'ordenament\nTRANSPARÈNCIA → participació i objectius clars\nEFICIÈNCIA → evitar càrregues innecessàries"
+          }
+        },
+        {
+          "key": "El procediment és garantia per a l'interessat i per a l'encert de la decisió administrativa."
+        }
       ],
       "key": "Procediment comú = Llei 39/2015. Impuls d'ofici, contradicció, bona administració i principis de bona regulació (art. 129)."
     },
     "9": {
       "intro": "El procediment administratiu s'estructura en quatre fases: iniciació, ordenació, instrucció i finalització (Títol IV Llei 39/2015).",
       "sections": [
-        { "h": "Fases", "scheme": { "cap": "Estructura del procediment", "body": "1) INICIACIÓ\n   • d'ofici (acord, ordre superior, petició raonada, denúncia)\n   • a sol·licitud de l'interessat (esmena en 10 dies, art. 68)\n2) ORDENACIÓ\n   • impuls d'ofici, expedient electrònic, terminis\n3) INSTRUCCIÓ\n   • al·legacions, prova, informes, audiència, informació pública\n4) FINALITZACIÓ\n   • resolució (motivada, congruent)\n   • desistiment / renúncia / caducitat / impossibilitat material\n   • terminació convencional (pactes, art. 86)" } },
-        { "h": "Termini per resoldre", "list": [
-          "Màxim el fixat per la norma; si no, 3 mesos (art. 21).",
-          "Es compta des de l'acord d'incoació (d'ofici) o l'entrada al registre de l'òrgan competent (a instància de part).",
-          "Possibilitat d'ampliació i de suspensió en casos taxats (art. 22-23)."
-        ] },
-        { "key": "Sol·licitud incompleta → requeriment d'esmena de 10 dies; si no s'esmena, es té per desistit." }
+        {
+          "h": "Fases",
+          "scheme": {
+            "cap": "Estructura del procediment",
+            "body": "1) INICIACIÓ\n   • d'ofici (acord, ordre superior, petició raonada, denúncia)\n   • a sol·licitud de l'interessat (esmena en 10 dies, art. 68)\n2) ORDENACIÓ\n   • impuls d'ofici, expedient electrònic, terminis\n3) INSTRUCCIÓ\n   • al·legacions, prova, informes, audiència, informació pública\n4) FINALITZACIÓ\n   • resolució (motivada, congruent)\n   • desistiment / renúncia / caducitat / impossibilitat material\n   • terminació convencional (pactes, art. 86)"
+          }
+        },
+        {
+          "h": "Termini per resoldre",
+          "list": [
+            "Màxim el fixat per la norma; si no, 3 mesos (art. 21).",
+            "Es compta des de l'acord d'incoació (d'ofici) o l'entrada al registre de l'òrgan competent (a instància de part).",
+            "Possibilitat d'ampliació i de suspensió en casos taxats (art. 22-23)."
+          ]
+        },
+        {
+          "key": "Sol·licitud incompleta → requeriment d'esmena de 10 dies; si no s'esmena, es té per desistit."
+        }
       ],
       "key": "Iniciació · ordenació · instrucció · finalització. Termini supletori 3 mesos. Esmena art. 68 (10 dies)."
     },
     "10": {
       "intro": "Els terminis administratius i l'elaboració de disposicions de caràcter general són claus pràctiques de la Llei 39/2015.",
       "sections": [
-        { "h": "Còmput de terminis", "scheme": { "cap": "Regles de terminis (arts. 29-30)", "body": "DIES → s'entenen HÀBILS (exclou dissabtes, diumenges i festius)\n   • compten des de l'endemà de la notificació/publicació\nMESOS/ANYS → de data a data\n   • si no hi ha dia equivalent, l'últim dia del mes\nÚLTIM DIA INHÀBIL → es trasllada al primer dia hàbil següent\nHORES → hàbils, dins d'un dia hàbil; de moment a moment" } },
-        { "h": "Disposicions de caràcter general (reglaments)", "list": [
-          "Iniciativa i consulta pública prèvia (participació).",
-          "Memòria de l'anàlisi d'impacte normatiu; informes preceptius.",
-          "Audiència i informació pública; publicació al diari oficial per a l'entrada en vigor.",
-          "Principis de bona regulació (art. 129) i planificació normativa (art. 132)."
-        ] }
+        {
+          "h": "Còmput de terminis",
+          "scheme": {
+            "cap": "Regles de terminis (arts. 29-30)",
+            "body": "DIES → s'entenen HÀBILS (exclou dissabtes, diumenges i festius)\n   • compten des de l'endemà de la notificació/publicació\nMESOS/ANYS → de data a data\n   • si no hi ha dia equivalent, l'últim dia del mes\nÚLTIM DIA INHÀBIL → es trasllada al primer dia hàbil següent\nHORES → hàbils, dins d'un dia hàbil; de moment a moment"
+          }
+        },
+        {
+          "h": "Disposicions de caràcter general (reglaments)",
+          "list": [
+            "Iniciativa i consulta pública prèvia (participació).",
+            "Memòria de l'anàlisi d'impacte normatiu; informes preceptius.",
+            "Audiència i informació pública; publicació al diari oficial per a l'entrada en vigor.",
+            "Principis de bona regulació (art. 129) i planificació normativa (art. 132)."
+          ]
+        }
       ],
       "key": "Dies = hàbils; mesos/anys = de data a data; últim dia inhàbil → dia hàbil següent. Reglaments: consulta + MAIN + informació pública + publicació."
     },
     "11": {
       "intro": "Els recursos administratius permeten impugnar actes davant la pròpia Administració abans (o en lloc) d'acudir a la jurisdicció contenciosa. Es regulen als arts. 112-126 de la Llei 39/2015.",
       "sections": [
-        { "h": "Tipus de recursos", "scheme": { "cap": "Recursos administratius", "body": "ALÇADA (arts. 121-122)\n  • contra actes que NO exhaureixen la via administrativa\n  • davant l'òrgan SUPERIOR jeràrquic\n  • termini: 1 mes (exprés) · resol en 3 mesos (silenci negatiu)\nREPOSICIÓ (arts. 123-124) — POTESTATIU\n  • contra actes que SÍ exhaureixen la via\n  • davant el MATEIX òrgan\n  • termini: 1 mes (exprés) · resol en 1 mes\nEXTRAORDINARI DE REVISIÓ (art. 125)\n  • contra actes FERMS, per causes taxades\n    (error de fet, documents nous, prevaricació, suborn…)" } },
-        { "h": "Regles comunes", "list": [
-          "Si s'interposa reposició, no es pot anar al contenciós fins que es resolgui (exprés o per silenci).",
-          "La interposició no suspèn l'execució, llevat que es demani i concorrin els supòsits de l'art. 117.",
-          "Posen fi a la via administrativa, entre altres, les resolucions dels recursos d'alçada i els actes de l'Alcalde (art. 52 LRBRL)."
-        ] }
+        {
+          "h": "Tipus de recursos",
+          "scheme": {
+            "cap": "Recursos administratius",
+            "body": "ALÇADA (arts. 121-122)\n  • contra actes que NO exhaureixen la via administrativa\n  • davant l'òrgan SUPERIOR jeràrquic\n  • termini: 1 mes (exprés) · resol en 3 mesos (silenci negatiu)\nREPOSICIÓ (arts. 123-124) — POTESTATIU\n  • contra actes que SÍ exhaureixen la via\n  • davant el MATEIX òrgan\n  • termini: 1 mes (exprés) · resol en 1 mes\nEXTRAORDINARI DE REVISIÓ (art. 125)\n  • contra actes FERMS, per causes taxades\n    (error de fet, documents nous, prevaricació, suborn…)"
+          }
+        },
+        {
+          "h": "Regles comunes",
+          "list": [
+            "Si s'interposa reposició, no es pot anar al contenciós fins que es resolgui (exprés o per silenci).",
+            "La interposició no suspèn l'execució, llevat que es demani i concorrin els supòsits de l'art. 117.",
+            "Posen fi a la via administrativa, entre altres, les resolucions dels recursos d'alçada i els actes de l'Alcalde (art. 52 LRBRL)."
+          ]
+        }
       ],
       "key": "Alçada (no exhaureix via, superior, 1 mes) · reposició (exhaureix via, mateix òrgan, potestatiu, 1 mes) · revisió (ferms, causes taxades)."
     },
     "12": {
       "intro": "El pressupost és l'instrument bàsic de planificació, administració i gestió econòmica de l'entitat local. Es regula al TRLHL (RDL 2/2004) i al RD 500/1990.",
       "sections": [
-        { "h": "Concepte i principis", "scheme": { "cap": "Principis pressupostaris", "body": "ANUALITAT → coincideix amb l'any natural\nUNITAT i UNIVERSALITAT → un sol pressupost, tots els ingressos\n   i despeses\nESPECIALITAT → qualitativa, quantitativa i temporal\nNO-AFECTACIÓ → els ingressos no es destinen a despeses\n   concretes (excepte els afectats)\nEQUILIBRI / ESTABILITAT PRESSUPOSTÀRIA\nPUBLICITAT i TRANSPARÈNCIA" } },
-        { "h": "Contingut del pressupost general", "list": [
-          "Pressupost de la pròpia entitat + organismes autònoms + estats de previsió de societats mercantils municipals.",
-          "Bases d'execució: adapten les normes generals a l'organització de l'entitat.",
-          "Annexos: pla d'inversions, estat del deute, etc."
-        ] }
+        {
+          "h": "Concepte i principis",
+          "scheme": {
+            "cap": "Principis pressupostaris",
+            "body": "ANUALITAT → coincideix amb l'any natural\nUNITAT i UNIVERSALITAT → un sol pressupost, tots els ingressos\n   i despeses\nESPECIALITAT → qualitativa, quantitativa i temporal\nNO-AFECTACIÓ → els ingressos no es destinen a despeses\n   concretes (excepte els afectats)\nEQUILIBRI / ESTABILITAT PRESSUPOSTÀRIA\nPUBLICITAT i TRANSPARÈNCIA"
+          }
+        },
+        {
+          "h": "Contingut del pressupost general",
+          "list": [
+            "Pressupost de la pròpia entitat + organismes autònoms + estats de previsió de societats mercantils municipals.",
+            "Bases d'execució: adapten les normes generals a l'organització de l'entitat.",
+            "Annexos: pla d'inversions, estat del deute, etc."
+          ]
+        }
       ],
       "key": "Pressupost = planificació econòmica anual. Principis: anualitat, unitat, especialitat, no-afectació, estabilitat, publicitat."
     },
     "13": {
       "intro": "El pressupost serveix per planificar, autoritzar la despesa màxima i preveure els ingressos. El procediment d'elaboració i aprovació segueix el TRLHL.",
       "sections": [
-        { "h": "Tramitació", "scheme": { "cap": "Elaboració i aprovació (arts. 168-169 TRLHL)", "body": "1) El president (Alcalde) FORMA el pressupost\n   + informe d'Intervenció + documentació\n2) APROVACIÓ INICIAL pel Ple\n3) EXPOSICIÓ pública 15 dies (al·legacions)\n4) Resolució de reclamacions + APROVACIÓ DEFINITIVA\n   (si no n'hi ha, l'inicial esdevé definitiva)\n5) PUBLICACIÓ resumida al BOP\n6) Entrada en vigor (1 de gener o publicació)\n   ↳ si a 1/1 no està aprovat → PRÒRROGA de l'anterior" } },
-        { "h": "Estructura", "list": [
-          "Estat de despeses: per classificació orgànica, per programes i econòmica (capítols 1-9).",
-          "Estat d'ingressos: classificació orgànica i econòmica (capítols 1-9).",
-          "Capítols 1-7 operacions no financeres; 8-9 operacions financeres."
-        ] }
+        {
+          "h": "Tramitació",
+          "scheme": {
+            "cap": "Elaboració i aprovació (arts. 168-169 TRLHL)",
+            "body": "1) El president (Alcalde) FORMA el pressupost\n   + informe d'Intervenció + documentació\n2) APROVACIÓ INICIAL pel Ple\n3) EXPOSICIÓ pública 15 dies (al·legacions)\n4) Resolució de reclamacions + APROVACIÓ DEFINITIVA\n   (si no n'hi ha, l'inicial esdevé definitiva)\n5) PUBLICACIÓ resumida al BOP\n6) Entrada en vigor (1 de gener o publicació)\n   ↳ si a 1/1 no està aprovat → PRÒRROGA de l'anterior"
+          }
+        },
+        {
+          "h": "Estructura",
+          "list": [
+            "Estat de despeses: per classificació orgànica, per programes i econòmica (capítols 1-9).",
+            "Estat d'ingressos: classificació orgànica i econòmica (capítols 1-9).",
+            "Capítols 1-7 operacions no financeres; 8-9 operacions financeres."
+          ]
+        }
       ],
       "key": "Forma l'Alcalde → aprovació inicial Ple → 15 dies exposició → aprovació definitiva → BOP. Pròrroga si no s'aprova a temps."
     },
     "14": {
       "intro": "Les ordenances i reglaments locals són l'expressió de la potestat normativa de les entitats locals (art. 4 LRBRL). Cal distingir-ne les classes i el procediment d'aprovació.",
       "sections": [
-        { "h": "Classes de normes locals", "scheme": { "cap": "Normes locals", "body": "REGLAMENT ORGÀNIC → autoorganització de l'ens\nORDENANCES → regulen activitats i relacions amb la ciutadania\n  • ordenances fiscals (tributs i preus públics)\n  • ordenances de policia/convivència, urbanístiques…\nBANS → de l'Alcalde, recordatoris o mesures puntuals" } },
-        { "h": "Procediment (art. 49 LRBRL)", "scheme": { "cap": "Aprovació d'ordenances", "body": "1) APROVACIÓ INICIAL pel Ple\n2) INFORMACIÓ pública i audiència ≥ 30 dies (al·legacions)\n3) Resolució de reclamacions + APROVACIÓ DEFINITIVA\n   (sense reclamacions → l'acord inicial esdevé definitiu)\n4) PUBLICACIÓ ÍNTEGRA al BOP\n5) Entrada en vigor: transcorregut el termini de l'art. 65.2\n   (15 dies hàbils des de la comunicació a Estat/CA)" } },
-        { "key": "Sense reclamacions durant la informació pública, l'acord inicial esdevé definitiu automàticament." }
+        {
+          "h": "Classes de normes locals",
+          "scheme": {
+            "cap": "Normes locals",
+            "body": "REGLAMENT ORGÀNIC → autoorganització de l'ens\nORDENANCES → regulen activitats i relacions amb la ciutadania\n  • ordenances fiscals (tributs i preus públics)\n  • ordenances de policia/convivència, urbanístiques…\nBANS → de l'Alcalde, recordatoris o mesures puntuals"
+          }
+        },
+        {
+          "h": "Procediment (art. 49 LRBRL)",
+          "scheme": {
+            "cap": "Aprovació d'ordenances",
+            "body": "1) APROVACIÓ INICIAL pel Ple\n2) INFORMACIÓ pública i audiència ≥ 30 dies (al·legacions)\n3) Resolució de reclamacions + APROVACIÓ DEFINITIVA\n   (sense reclamacions → l'acord inicial esdevé definitiu)\n4) PUBLICACIÓ ÍNTEGRA al BOP\n5) Entrada en vigor: transcorregut el termini de l'art. 65.2\n   (15 dies hàbils des de la comunicació a Estat/CA)"
+          }
+        },
+        {
+          "key": "Sense reclamacions durant la informació pública, l'acord inicial esdevé definitiu automàticament."
+        }
       ],
       "key": "Reglament orgànic, ordenances (fiscals i altres) i bans. Procediment art. 49: aprovació inicial → 30 dies → definitiva → publicació íntegra BOP."
     },
     "15": {
       "intro": "La contractació administrativa permet a l'Administració obtenir obres, serveis i subministraments. La regula la Llei 9/2017 (LCSP), de transposició de les directives europees.",
       "sections": [
-        { "h": "Principis i àmbit", "list": [
-          "Principis (art. 1): llibertat d'accés, publicitat i transparència, no-discriminació i igualtat, i ús eficient dels fons (millor relació qualitat-preu).",
-          "Àmbit subjectiu: sector públic (administracions, organismes, poders adjudicadors i entitats del sector públic).",
-          "Incidència del dret de la UE: llindars de regulació harmonitzada (contractes SARA)."
-        ] },
-        { "h": "Tipus de contractes", "scheme": { "cap": "Contractes típics", "body": "OBRES → construcció o reforma d'un bé immoble\nCONCESSIÓ D'OBRES → obra + explotació amb risc operacional\nSUBMINISTRAMENT → adquisició de productes/béns mobles\nSERVEIS → prestacions de fer\nCONCESSIÓ DE SERVEIS → gestió d'un servei amb risc operacional\n(+ contractes mixtos i contractes privats)" } }
+        {
+          "h": "Principis i àmbit",
+          "list": [
+            "Principis (art. 1): llibertat d'accés, publicitat i transparència, no-discriminació i igualtat, i ús eficient dels fons (millor relació qualitat-preu).",
+            "Àmbit subjectiu: sector públic (administracions, organismes, poders adjudicadors i entitats del sector públic).",
+            "Incidència del dret de la UE: llindars de regulació harmonitzada (contractes SARA)."
+          ]
+        },
+        {
+          "h": "Tipus de contractes",
+          "scheme": {
+            "cap": "Contractes típics",
+            "body": "OBRES → construcció o reforma d'un bé immoble\nCONCESSIÓ D'OBRES → obra + explotació amb risc operacional\nSUBMINISTRAMENT → adquisició de productes/béns mobles\nSERVEIS → prestacions de fer\nCONCESSIÓ DE SERVEIS → gestió d'un servei amb risc operacional\n(+ contractes mixtos i contractes privats)"
+          }
+        }
       ],
       "key": "LCSP = Llei 9/2017. Principis: accés, publicitat, igualtat, eficiència. Tipus: obres, concessió d'obres, subministrament, serveis, concessió de serveis."
     },
     "16": {
       "intro": "La protecció de dades personals es regeix pel Reglament (UE) 2016/679 (RGPD) i la Llei orgànica 3/2018 (LOPDGDD). Garanteix el dret fonamental a la protecció de dades (art. 18.4 CE).",
       "sections": [
-        { "h": "Principis del tractament (art. 5 RGPD)", "scheme": { "cap": "Principis", "body": "LICITUD, LLEIALTAT i TRANSPARÈNCIA\nLIMITACIÓ de la FINALITAT\nMINIMITZACIÓ de dades\nEXACTITUD\nLIMITACIÓ del termini de CONSERVACIÓ\nINTEGRITAT i CONFIDENCIALITAT (seguretat)\n+ RESPONSABILITAT PROACTIVA (accountability)" } },
-        { "h": "Bases de licitud i categories especials", "list": [
-          "Bases (art. 6): consentiment, contracte, obligació legal, interès vital, missió d'interès públic, interès legítim.",
-          "Categories especials (art. 9): origen ètnic, opinions, salut, dades genètiques/biomètriques… prohibició general de tractar-les.",
-          "Al sector públic, la base sol ser obligació legal o missió d'interès públic."
-        ] },
-        { "h": "Drets de les persones", "scheme": { "cap": "Drets (arts. 15-22)", "body": "ACCÉS · RECTIFICACIÓ · SUPRESSIÓ (dret a l'oblit)\nOPOSICIÓ · LIMITACIÓ del tractament · PORTABILITAT\n+ no ser objecte de decisions automatitzades\nDPD obligatori al sector públic · AEPD com a autoritat" } },
-        { "key": "Drets ARSOPOL. El Delegat de Protecció de Dades (DPD) és obligatori a les administracions públiques." }
+        {
+          "h": "Principis del tractament (art. 5 RGPD)",
+          "scheme": {
+            "cap": "Principis",
+            "body": "LICITUD, LLEIALTAT i TRANSPARÈNCIA\nLIMITACIÓ de la FINALITAT\nMINIMITZACIÓ de dades\nEXACTITUD\nLIMITACIÓ del termini de CONSERVACIÓ\nINTEGRITAT i CONFIDENCIALITAT (seguretat)\n+ RESPONSABILITAT PROACTIVA (accountability)"
+          }
+        },
+        {
+          "h": "Bases de licitud i categories especials",
+          "list": [
+            "Bases (art. 6): consentiment, contracte, obligació legal, interès vital, missió d'interès públic, interès legítim.",
+            "Categories especials (art. 9): origen ètnic, opinions, salut, dades genètiques/biomètriques… prohibició general de tractar-les.",
+            "Al sector públic, la base sol ser obligació legal o missió d'interès públic."
+          ]
+        },
+        {
+          "h": "Drets de les persones",
+          "scheme": {
+            "cap": "Drets (arts. 15-22)",
+            "body": "ACCÉS · RECTIFICACIÓ · SUPRESSIÓ (dret a l'oblit)\nOPOSICIÓ · LIMITACIÓ del tractament · PORTABILITAT\n+ no ser objecte de decisions automatitzades\nDPD obligatori al sector públic · AEPD com a autoritat"
+          }
+        },
+        {
+          "key": "Drets ARSOPOL. El Delegat de Protecció de Dades (DPD) és obligatori a les administracions públiques."
+        }
       ],
       "key": "RGPD + LO 3/2018. Principis art. 5, bases art. 6, categories especials art. 9, drets ARSOPOL, DPD obligatori al sector públic."
     },
     "30": {
       "intro": "El contracte menor és una via simplificada de contractació per a imports baixos. Es regula a l'art. 118 LCSP.",
       "sections": [
-        { "h": "Llindars i requisits", "scheme": { "cap": "Contracte menor (art. 118 LCSP)", "body": "LLINDARS (IVA exclòs)\n  • OBRES: < 40.000 €\n  • SERVEIS i SUBMINISTRAMENTS: < 15.000 €\nREQUISITS\n  • informe de l'òrgan de contractació (necessitat)\n  • aprovació de la despesa\n  • incorporació de la factura\n  • en obres: pressupost (+ projecte/supervisió si escau)\nLÍMIT TEMPORAL: durada ≤ 1 any, no prorrogable\nPROHIBIT: fraccionar l'objecte per eludir els llindars" } },
-        { "key": "No es pot alterar l'objecte del contracte per evitar les regles generals (art. 118.2 i 99.2 LCSP)." }
+        {
+          "h": "Llindars i requisits",
+          "scheme": {
+            "cap": "Contracte menor (art. 118 LCSP)",
+            "body": "LLINDARS (IVA exclòs)\n  • OBRES: < 40.000 €\n  • SERVEIS i SUBMINISTRAMENTS: < 15.000 €\nREQUISITS\n  • informe de l'òrgan de contractació (necessitat)\n  • aprovació de la despesa\n  • incorporació de la factura\n  • en obres: pressupost (+ projecte/supervisió si escau)\nLÍMIT TEMPORAL: durada ≤ 1 any, no prorrogable\nPROHIBIT: fraccionar l'objecte per eludir els llindars"
+          }
+        },
+        {
+          "key": "No es pot alterar l'objecte del contracte per evitar les regles generals (art. 118.2 i 99.2 LCSP)."
+        }
       ],
       "key": "Menor: obres < 40.000 €, serveis/subministr. < 15.000 € (IVA exclòs). Informe + despesa + factura. Sense fraccionament."
     },
     "36": {
       "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats pels danys causats pel funcionament dels serveis públics. Es regula als arts. 32-37 de la Llei 40/2015 i 67, 81, 91-92 de la Llei 39/2015.",
       "sections": [
-        { "h": "Requisits", "scheme": { "cap": "Requisits de la responsabilitat (art. 32)", "body": "1) LESIÓ real, efectiva, avaluable i individualitzada\n2) ANTIJURIDICITAT → el particular NO té el deure\n   jurídic de suportar el dany\n3) IMPUTACIÓ a l'Administració per funcionament\n   NORMAL o ANORMAL d'un servei públic\n4) NEXE CAUSAL entre actuació i dany\n5) Absència de FORÇA MAJOR (sí indemnitza el cas fortuït)\n→ responsabilitat OBJECTIVA i DIRECTA" } },
-        { "h": "Procediment i prescripció", "list": [
-          "Prescripció: 1 any des del fet o, en danys físics/psíquics, des de la curació o determinació de les seqüeles (art. 67).",
-          "Procediment: iniciació (d'ofici o a instància de part), instrucció amb informes i dictamen (Consell Consultiu si la quantia ho exigeix), i resolució.",
-          "Indemnització: reparació integral; es pot actualitzar i abonar en espècie o metàl·lic."
-        ] },
-        { "key": "Pot concórrer la culpa de la víctima (modula o trenca el nexe causal). La força major exonera; el cas fortuït no." }
+        {
+          "h": "Requisits",
+          "scheme": {
+            "cap": "Requisits de la responsabilitat (art. 32)",
+            "body": "1) LESIÓ real, efectiva, avaluable i individualitzada\n2) ANTIJURIDICITAT → el particular NO té el deure\n   jurídic de suportar el dany\n3) IMPUTACIÓ a l'Administració per funcionament\n   NORMAL o ANORMAL d'un servei públic\n4) NEXE CAUSAL entre actuació i dany\n5) Absència de FORÇA MAJOR (sí indemnitza el cas fortuït)\n→ responsabilitat OBJECTIVA i DIRECTA"
+          }
+        },
+        {
+          "h": "Procediment i prescripció",
+          "list": [
+            "Prescripció: 1 any des del fet o, en danys físics/psíquics, des de la curació o determinació de les seqüeles (art. 67).",
+            "Procediment: iniciació (d'ofici o a instància de part), instrucció amb informes i dictamen (Consell Consultiu si la quantia ho exigeix), i resolució.",
+            "Indemnització: reparació integral; es pot actualitzar i abonar en espècie o metàl·lic."
+          ]
+        },
+        {
+          "key": "Pot concórrer la culpa de la víctima (modula o trenca el nexe causal). La força major exonera; el cas fortuït no."
+        }
       ],
       "key": "Lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescriu a l'any (seqüeles: des de l'estabilització)."
     },
     "44": {
       "intro": "El règim urbanístic del sòl determina drets i deures segons la classificació. A Catalunya el regula el TRLUC (DL 1/2010) i, supletòriament, la legislació estatal (TRLS RDL 7/2015). Atenció: reforma per Llei 11/2025 i DL 2/2025 (vigent des de 31-12-2025).",
       "sections": [
-        { "h": "Classes de sòl (TRLUC)", "scheme": { "cap": "Classificació del sòl", "body": "SÒL URBÀ\n  • consolidat / no consolidat\n  • té serveis urbanístics bàsics o trama urbana\nSÒL URBANITZABLE\n  • transformable mitjançant planejament derivat\nSÒL NO URBANITZABLE\n  • preservat de la transformació (rústic, protegit…)\n\nSituacions bàsiques (TRLS estatal): RURAL / URBANITZAT" } },
-        { "h": "Conceptes clau", "list": [
-          "Serveis urbanístics bàsics: xarxa viària, abastament d'aigua, sanejament i subministrament elèctric.",
-          "Solar: sòl urbà apte per edificar (té serveis + alineacions/rasants + urbanització bàsica).",
-          "Nucli de població: agrupació d'edificacions que genera necessitats de serveis i pot constituir risc en sòl no urbanitzable."
-        ] },
-        { "key": "Sòl urbà CONSOLIDAT: gairebé sense deures de cessió (només completar urbanització). NO CONSOLIDAT: deures de cessió i urbanització via gestió." }
+        {
+          "h": "Classes de sòl (TRLUC)",
+          "scheme": {
+            "cap": "Classificació del sòl",
+            "body": "SÒL URBÀ\n  • consolidat / no consolidat\n  • té serveis urbanístics bàsics o trama urbana\nSÒL URBANITZABLE\n  • transformable mitjançant planejament derivat\nSÒL NO URBANITZABLE\n  • preservat de la transformació (rústic, protegit…)\n\nSituacions bàsiques (TRLS estatal): RURAL / URBANITZAT"
+          }
+        },
+        {
+          "h": "Conceptes clau",
+          "list": [
+            "Serveis urbanístics bàsics: xarxa viària, abastament d'aigua, sanejament i subministrament elèctric.",
+            "Solar: sòl urbà apte per edificar (té serveis + alineacions/rasants + urbanització bàsica).",
+            "Nucli de població: agrupació d'edificacions que genera necessitats de serveis i pot constituir risc en sòl no urbanitzable."
+          ]
+        },
+        {
+          "key": "Sòl urbà CONSOLIDAT: gairebé sense deures de cessió (només completar urbanització). NO CONSOLIDAT: deures de cessió i urbanització via gestió."
+        }
       ],
       "key": "Urbà (consolidat/no consolidat) · urbanitzable · no urbanitzable. Solar = sòl urbà apte per edificar. ⚠️ Reforma 2025 del TRLUC."
     },
     "56": {
       "intro": "La llicència urbanística és l'acte de control previ amb què el municipi verifica que una actuació s'ajusta a la legalitat urbanística. Es regula als arts. 187 i ss. del TRLUC.",
       "sections": [
-        { "h": "Naturalesa i actes subjectes", "list": [
-          "És un acte REGLAT: s'atorga o denega segons la conformitat amb el planejament i la normativa (no hi ha discrecionalitat).",
-          "Actes subjectes (art. 187): obres majors, parcel·lacions, primera ocupació, usos del sòl, moviments de terres, tales, etc.",
-          "Comunicació prèvia (art. 187 bis): actuacions de menor entitat que no requereixen projecte tècnic complex."
-        ] },
-        { "h": "Silenci en llicències", "scheme": { "cap": "Silenci urbanístic", "body": "REGLA: el silenci en llicències és POSITIU\nPERÒ (art. 11.3 TRLS):\n  EN CAP CAS s'adquireixen per silenci facultats o drets\n  CONTRARIS a l'ordenament urbanístic o al planejament\n→ si el projecte és il·legal, NO s'obté llicència encara que\n  passi el termini; cal resolució expressa i, si s'ha\n  construït, protecció de la legalitat" } },
-        { "key": "Procediment: sol·licitud + projecte → informes tècnic i jurídic → resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici de tercers." }
+        {
+          "h": "Naturalesa i actes subjectes",
+          "list": [
+            "És un acte REGLAT: s'atorga o denega segons la conformitat amb el planejament i la normativa (no hi ha discrecionalitat).",
+            "Actes subjectes (art. 187): obres majors, parcel·lacions, primera ocupació, usos del sòl, moviments de terres, tales, etc.",
+            "Comunicació prèvia (art. 187 bis): actuacions de menor entitat que no requereixen projecte tècnic complex."
+          ]
+        },
+        {
+          "h": "Silenci en llicències",
+          "scheme": {
+            "cap": "Silenci urbanístic",
+            "body": "REGLA: el silenci en llicències és POSITIU\nPERÒ (art. 11.3 TRLS):\n  EN CAP CAS s'adquireixen per silenci facultats o drets\n  CONTRARIS a l'ordenament urbanístic o al planejament\n→ si el projecte és il·legal, NO s'obté llicència encara que\n  passi el termini; cal resolució expressa i, si s'ha\n  construït, protecció de la legalitat"
+          }
+        },
+        {
+          "key": "Procediment: sol·licitud + projecte → informes tècnic i jurídic → resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici de tercers."
+        }
       ],
       "key": "Llicència = acte reglat de control previ. Silenci positiu, però mai per a actuacions contràries al planejament (art. 11.3 TRLS)."
     },
     "89": {
       "intro": "La Llei 31/1995, de prevenció de riscos laborals (LPRL), estableix el marc de protecció de la seguretat i salut dels treballadors, també a les administracions públiques.",
       "sections": [
-        { "h": "Principis de l'acció preventiva (art. 15)", "scheme": { "cap": "Principis preventius", "body": "1) EVITAR els riscos\n2) AVALUAR els que no es puguin evitar\n3) COMBATRE'LS en ORIGEN\n4) ADAPTAR el treball a la persona\n5) Tenir en compte l'evolució de la TÈCNICA\n6) Substituir el perillós pel que comporti poc o cap perill\n7) PLANIFICAR la prevenció\n8) Prioritzar la protecció COL·LECTIVA sobre la individual\n9) Donar les degudes INSTRUCCIONS als treballadors" } },
-        { "h": "Obligacions i organització", "list": [
-          "L'empresari (l'Administració) ha de garantir la seguretat i salut en tots els aspectes de la feina.",
-          "Avaluació de riscos i planificació de l'activitat preventiva.",
-          "Informació, consulta, participació i formació dels treballadors.",
-          "Vigilància de la salut; equips de protecció individual (EPI) quan calgui.",
-          "Modalitats d'organització preventiva: assumpció pel propi empresari, treballadors designats, servei de prevenció propi o aliè."
-        ] },
-        { "key": "La prevenció s'integra en tots els nivells de l'organització; els drets dels treballadors (informació, formació, vigilància de la salut) són correlatius a obligacions de l'empresari." }
+        {
+          "h": "Principis de l'acció preventiva (art. 15)",
+          "scheme": {
+            "cap": "Principis preventius",
+            "body": "1) EVITAR els riscos\n2) AVALUAR els que no es puguin evitar\n3) COMBATRE'LS en ORIGEN\n4) ADAPTAR el treball a la persona\n5) Tenir en compte l'evolució de la TÈCNICA\n6) Substituir el perillós pel que comporti poc o cap perill\n7) PLANIFICAR la prevenció\n8) Prioritzar la protecció COL·LECTIVA sobre la individual\n9) Donar les degudes INSTRUCCIONS als treballadors"
+          }
+        },
+        {
+          "h": "Obligacions i organització",
+          "list": [
+            "L'empresari (l'Administració) ha de garantir la seguretat i salut en tots els aspectes de la feina.",
+            "Avaluació de riscos i planificació de l'activitat preventiva.",
+            "Informació, consulta, participació i formació dels treballadors.",
+            "Vigilància de la salut; equips de protecció individual (EPI) quan calgui.",
+            "Modalitats d'organització preventiva: assumpció pel propi empresari, treballadors designats, servei de prevenció propi o aliè."
+          ]
+        },
+        {
+          "key": "La prevenció s'integra en tots els nivells de l'organització; els drets dels treballadors (informació, formació, vigilància de la salut) són correlatius a obligacions de l'empresari."
+        }
       ],
       "key": "LPRL 31/1995. Principis art. 15 (evitar, avaluar, combatre en origen, protecció col·lectiva > individual). Avaluació + planificació + formació + vigilància de la salut."
     },
     "90": {
       "intro": "La coordinació d'activitats empresarials (CAE) s'aplica quan en un mateix centre de treball concorren treballadors de diverses empreses. Es regula a l'art. 24 de la Llei 31/1995 i al RD 171/2004.",
       "sections": [
-        { "h": "Objectius i mitjans", "list": [
-          "Garantir l'aplicació coherent de la normativa preventiva quan concorren diverses empreses.",
-          "Mitjans de coordinació: intercanvi d'informació i instruccions, reunions, mesures específiques, presència de recursos preventius, designació de persona/es encarregades de la coordinació.",
-          "El titular del centre informa i dona instruccions a les empreses concurrents; l'empresari principal vigila el compliment."
-        ] },
-        { "h": "Subjectes", "scheme": { "cap": "Rols en la CAE (RD 171/2004)", "body": "EMPRESARI TITULAR del centre → informa i instrueix\nEMPRESARI PRINCIPAL (contracta la pròpia activitat)\n   → deure de vigilància del compliment\nEMPRESES CONCURRENTS → cooperen i s'informen mútuament\nMITJÀ preferent quan hi ha risc greu → presència de\n   RECURSOS PREVENTIUS" } }
+        {
+          "h": "Objectius i mitjans",
+          "list": [
+            "Garantir l'aplicació coherent de la normativa preventiva quan concorren diverses empreses.",
+            "Mitjans de coordinació: intercanvi d'informació i instruccions, reunions, mesures específiques, presència de recursos preventius, designació de persona/es encarregades de la coordinació.",
+            "El titular del centre informa i dona instruccions a les empreses concurrents; l'empresari principal vigila el compliment."
+          ]
+        },
+        {
+          "h": "Subjectes",
+          "scheme": {
+            "cap": "Rols en la CAE (RD 171/2004)",
+            "body": "EMPRESARI TITULAR del centre → informa i instrueix\nEMPRESARI PRINCIPAL (contracta la pròpia activitat)\n   → deure de vigilància del compliment\nEMPRESES CONCURRENTS → cooperen i s'informen mútuament\nMITJÀ preferent quan hi ha risc greu → presència de\n   RECURSOS PREVENTIUS"
+          }
+        }
       ],
       "key": "CAE = art. 24 LPRL + RD 171/2004. Cooperació i informació entre empreses concurrents; deure de vigilància de l'empresari principal."
+    },
+    "17": {
+      "intro": "La funció pública local i la seva organització: l'accés, la selecció, la provisió de llocs i les classes de personal. Marc: TREBEP (RDL 5/2015) i DL 2/2003 a Catalunya.",
+      "sections": [
+        {
+          "h": "Classes de personal (art. 8 TREBEP)",
+          "scheme": {
+            "cap": "Personal al servei de l'AP",
+            "body": "FUNCIONARI DE CARRERA → relació estatutària permanent\nFUNCIONARI INTERÍ → per necessitat i urgència justificades\nPERSONAL LABORAL → fix, indefinit o temporal (contracte)\nPERSONAL EVENTUAL → confiança/assessorament; cessament lliure"
+          }
+        },
+        {
+          "h": "Accés i OPO",
+          "list": [
+            "Principis d'accés (art. 55): igualtat, mèrit, capacitat i publicitat.",
+            "Sistemes selectius (art. 61): oposició, concurs-oposició i, excepcionalment, concurs.",
+            "Oferta pública d'ocupació (art. 70): articula les necessitats de personal amb dotació; s'aprova i publica anualment."
+          ]
+        },
+        {
+          "h": "Adquisició/pèrdua de la condició",
+          "list": [
+            "Adquisició (art. 62): superar el procés, nomenament, jurament/promesa i presa de possessió.",
+            "Pèrdua (art. 63): renúncia, pèrdua de nacionalitat, jubilació, sanció de separació, pena d'inhabilitació."
+          ]
+        }
+      ],
+      "key": "Classes: carrera, interí, laboral, eventual. Accés per igualtat/mèrit/capacitat/publicitat. OPO anual."
+    },
+    "18": {
+      "intro": "Drets i deures del personal, sistema retributiu i situacions administratives (TREBEP).",
+      "sections": [
+        {
+          "h": "Drets i deures",
+          "list": [
+            "Drets individuals (art. 14): inamovibilitat del funcionari de carrera, carrera, retribucions, vacances, formació…",
+            "Drets col·lectius (art. 15): llibertat sindical, negociació col·lectiva, vaga amb serveis essencials.",
+            "Deures i codi de conducta (arts. 52-54): servir l'interès general, objectivitat, integritat, confidencialitat."
+          ]
+        },
+        {
+          "h": "Retribucions (art. 22-24)",
+          "scheme": {
+            "cap": "Estructura retributiva",
+            "body": "BÀSIQUES → sou + triennis (+ pagues extraordinàries)\nCOMPLEMENTÀRIES →\n   • complement de destinació (nivell del lloc)\n   • complement específic (condicions del lloc)\n   • productivitat / gratificacions serveis extraordinaris"
+          }
+        },
+        {
+          "h": "Situacions administratives (art. 85)",
+          "list": [
+            "Servei actiu; serveis especials; servei en altres administracions; excedència (voluntària, per cura, forçosa…); suspensió de funcions."
+          ]
+        }
+      ],
+      "key": "Retribucions: bàsiques (sou+triennis) i complementàries (destinació+específic+productivitat). Situacions: actiu, serveis especials, excedència, suspensió."
+    },
+    "19": {
+      "intro": "Els convenis interadministratius en l'àmbit local: instruments de col·laboració entre administracions (arts. 47-53 Llei 40/2015).",
+      "sections": [
+        {
+          "h": "Concepte i límits",
+          "list": [
+            "Acords amb efectes jurídics entre administracions o amb subjectes de dret privat per a una finalitat comuna.",
+            "No poden tenir per objecte prestacions pròpies dels contractes (no són via per eludir la LCSP).",
+            "Tipus: interadministratius, intradministratius, amb particulars i no constitutius de tractat."
+          ]
+        },
+        {
+          "h": "Requisits i durada",
+          "scheme": {
+            "cap": "Règim del conveni",
+            "body": "CONTINGUT mínim: subjectes, competència, objecte, obligacions\n   econòmiques, mecanismes de seguiment, durada, extinció\nDURADA → màxim 4 anys, prorrogable fins a 4 més\nCONTROL → tramesa a la Sindicatura/Tribunal de Comptes si\n   supera certs imports\nEFICÀCIA → formalització + consignació pressupostària"
+          }
+        }
+      ],
+      "key": "Convenis (Llei 40/2015): finalitat comuna, no substitueixen contractes, durada màx. 4+4 anys, control de la Sindicatura."
+    },
+    "20": {
+      "intro": "Els contractes del sector públic: principis generals, contractes exclosos i procediments d'adjudicació (LCSP, Llei 9/2017).",
+      "sections": [
+        {
+          "h": "Principis i exclusions",
+          "list": [
+            "Principis (art. 1): llibertat d'accés, publicitat i transparència, no-discriminació, integritat i eficiència.",
+            "Contractes exclosos (arts. 4-11): relacions de personal, alguns convenis, certs contractes entre entitats del sector públic (mitjans propis), etc."
+          ]
+        },
+        {
+          "h": "Procediments d'adjudicació",
+          "scheme": {
+            "cap": "Procediments (LCSP)",
+            "body": "OBERT → qualsevol interessat (i obert simplificat/sumari)\nRESTRINGIT → selecció prèvia de candidats\nNEGOCIAT → amb/sense publicitat (supòsits taxats)\nDIÀLEG COMPETITIU → solucions complexes\nASSOCIACIÓ PER A LA INNOVACIÓ\n+ CONTRACTE MENOR (per import)"
+          }
+        },
+        {
+          "h": "Preparació",
+          "list": [
+            "Expedient: justificació de la necessitat, plecs (PCAP i PPT), aprovació de la despesa i fiscalització.",
+            "Publicitat al perfil del contractant i, si SARA, al DOUE."
+          ]
+        }
+      ],
+      "key": "Principis: accés, publicitat, igualtat, eficiència. Procediments: obert (i simplificat), restringit, negociat, diàleg competitiu, menor."
+    },
+    "21": {
+      "intro": "Criteris de valoració de les ofertes, ofertes anormalment baixes i adjudicació (LCSP).",
+      "sections": [
+        {
+          "h": "Criteris d'adjudicació (art. 145)",
+          "list": [
+            "Han de ser objectius, vinculats a l'objecte i fixats al plec.",
+            "Millor relació qualitat-preu: poden ser econòmics i qualitatius (judici de valor i fórmules).",
+            "Possibles criteris socials i ambientals."
+          ]
+        },
+        {
+          "h": "Ofertes anormalment baixes (art. 149)",
+          "scheme": {
+            "cap": "Oferta presumptament anormal",
+            "body": "1) Es detecta segons els paràmetres del plec\n2) REQUERIMENT de justificació al licitador (audiència)\n3) Valoració amb assessorament tècnic\n4) Si no es justifica la viabilitat → EXCLUSIÓ motivada\n(no es pot rebutjar automàticament)"
+          }
+        },
+        {
+          "h": "Adjudicació",
+          "list": [
+            "Classificació de les ofertes per ordre decreixent.",
+            "Requeriment de documentació al millor classificat.",
+            "Adjudicació motivada i notificada; formalització del contracte."
+          ]
+        }
+      ],
+      "key": "Criteris objectius i vinculats (qualitat-preu). Oferta anormal: audiència i justificació abans d'excloure. Adjudicació motivada."
+    },
+    "22": {
+      "intro": "Execució dels contractes, demora, condicions especials i prerrogatives de l'Administració (LCSP).",
+      "sections": [
+        {
+          "h": "Execució i demora",
+          "list": [
+            "Execució a risc i ventura del contractista, sota la direcció i el control de l'Administració.",
+            "Responsable del contracte (art. 62) per supervisar-ne l'execució.",
+            "Demora: penalitats per dia (art. 193) o resolució del contracte."
+          ]
+        },
+        {
+          "h": "Prerrogatives (art. 190)",
+          "scheme": {
+            "cap": "Prerrogatives de l'Administració",
+            "body": "INTERPRETAR el contracte i resoldre dubtes\nMODIFICAR-lo per interès públic (ius variandi)\nSUSPENDRE'N l'execució\nDeclarar-ne la RESOLUCIÓ i els efectes\n→ exercici MOTIVAT i amb audiència; immediatament executiu"
+          }
+        },
+        {
+          "h": "Condicions especials",
+          "list": [
+            "Condicions especials d'execució (art. 202): de tipus social, ètic, ambiental o d'innovació; el seu incompliment pot penalitzar-se o ser causa de resolució."
+          ]
+        }
+      ],
+      "key": "Risc i ventura + direcció administrativa. Prerrogatives: interpretar, modificar (ius variandi), suspendre, resoldre. Demora → penalitats."
+    },
+    "23": {
+      "intro": "La cessió dels contractes i la subcontractació; pagaments a subcontractistes (LCSP).",
+      "sections": [
+        {
+          "h": "Cessió del contracte (art. 214)",
+          "list": [
+            "Transmissió a un tercer dels drets i obligacions; requereix autorització prèvia de l'òrgan de contractació.",
+            "El cessionari ha de tenir capacitat i solvència i no estar incurs en prohibicions."
+          ]
+        },
+        {
+          "h": "Subcontractació (art. 215)",
+          "scheme": {
+            "cap": "Subcontractació",
+            "body": "ADMESA dins dels límits del plec\nCOMUNICACIÓ prèvia per escrit a l'Administració\nEl CONTRACTISTA PRINCIPAL en respon davant l'Administració\nPAGAMENT a subcontractistes: comprovable per l'Administració\n   (art. 217) per garantir-lo"
+          }
+        }
+      ],
+      "key": "Cessió: amb autorització i solvència del cessionari. Subcontractació: amb comunicació i límits; el principal respon de tot."
+    },
+    "24": {
+      "intro": "Compliment, recepció, resolució i modificació dels contractes (LCSP).",
+      "sections": [
+        {
+          "h": "Compliment i recepció",
+          "list": [
+            "El contracte s'entén complert quan el contractista ha realitzat la prestació segons el contracte.",
+            "Acte formal de recepció o conformitat → inici del termini de garantia.",
+            "Liquidació del contracte."
+          ]
+        },
+        {
+          "h": "Modificació",
+          "scheme": {
+            "cap": "Modificació de contractes",
+            "body": "PREVISTA al plec (art. 204) → fins al 20%, clara i inequívoca\nNO PREVISTA (art. 205) → causes taxades, límit 50% del preu\n   (errors, circumstàncies imprevisibles, prestacions addicionals)\n→ obligatòria per al contractista dins límits; audiència"
+          }
+        },
+        {
+          "h": "Resolució (arts. 211-213)",
+          "list": [
+            "Causes: mort/extinció, insolvència, mutu acord, demora, incompliment, impossibilitat d'executar…",
+            "Efectes: si és per culpa del contractista, confiscació de garantia i indemnització."
+          ]
+        }
+      ],
+      "key": "Recepció → garantia. Modificació prevista (20%) / no prevista (50%, causes taxades). Resolució amb efectes segons culpa."
+    },
+    "25": {
+      "intro": "El contracte d'obres: concepte, actuacions preparatòries, execució, modificació, compliment i resolució (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte i preparació",
+          "list": [
+            "Obres: construcció o rehabilitació d'un bé immoble, o realització de treballs que modifiquin el terreny/subsol.",
+            "Cal projecte (memòria, plànols, PPT i pressupost), supervisió, aprovació i replanteig previ."
+          ]
+        },
+        {
+          "h": "Execució i recepció",
+          "scheme": {
+            "cap": "Cicle del contracte d'obres",
+            "body": "PROJECTE → supervisió → aprovació → REPLANTEIG\nLICITACIÓ i adjudicació\nACTA DE COMPROVACIÓ DEL REPLANTEIG → inici\nEXECUCIÓ (certificacions mensuals, direcció facultativa)\nRECEPCIÓ → termini de GARANTIA → liquidació"
+          }
+        },
+        {
+          "h": "Modificació i resolució",
+          "list": [
+            "Modificacions segons règim general (previstes/no previstes); projecte modificat.",
+            "Resolució per les causes de la LCSP, amb liquidació de l'obra executada."
+          ]
+        }
+      ],
+      "key": "Obres: projecte+supervisió+replanteig → execució amb direcció facultativa i certificacions → recepció i garantia."
+    },
+    "26": {
+      "intro": "El contracte de concessió d'obres: el concessionari construeix i explota una obra assumint-ne el risc operacional (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte",
+          "list": [
+            "L'Administració encarrega construir i explotar (o només explotar) una obra; la contraprestació consisteix en el dret a explotar-la (o aquest dret més un preu).",
+            "Element clau: transferència del RISC OPERACIONAL (de demanda o disponibilitat) al concessionari."
+          ]
+        },
+        {
+          "h": "Règim",
+          "scheme": {
+            "cap": "Concessió d'obres",
+            "body": "PREPARACIÓ → estudi de viabilitat + projecte\nCONSTRUCCIÓ → a càrrec del concessionari\nEXPLOTACIÓ → durada màx. 40 anys (segons amortització)\nEQUILIBRI ECONÒMIC → es restableix en supòsits taxats\n   (modificacions, factum principis, riscos imprevisibles)\nEXTINCIÓ → compliment termini, rescat, resolució, caducitat"
+          }
+        },
+        {
+          "key": "El concessionari assumeix el risc; reversió de l'obra a l'Administració en extingir-se la concessió."
+        }
+      ],
+      "key": "Construcció + explotació amb risc operacional. Durada fins a 40 anys. Equilibri econòmic en casos taxats."
+    },
+    "27": {
+      "intro": "El contracte de subministrament: adquisició de productes o béns mobles (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte i modalitats",
+          "list": [
+            "Objecte: compra, arrendament (amb/sense opció de compra) o adquisició a terminis de béns mobles.",
+            "Modalitats: entrega successiva per preu unitari, arrendament, adquisició de sistemes…",
+            "No són subministrament els programes a mida (poden ser serveis)."
+          ]
+        },
+        {
+          "h": "Execució",
+          "scheme": {
+            "cap": "Subministrament",
+            "body": "ADJUDICACIÓ → procediments generals\nLLIURAMENT i recepció de conformitat\nTERMINI DE GARANTIA → vicis o defectes\nPagament del preu (unitari o global)\nRESOLUCIÓ → per les causes generals"
+          }
+        }
+      ],
+      "key": "Adquisició/arrendament de béns mobles. Lliurament + recepció + garantia."
+    },
+    "28": {
+      "intro": "El contracte de serveis: prestacions de fer; especialitat de l'elaboració de projectes d'obres (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte i límits",
+          "list": [
+            "Objecte: prestacions de fer consistents en activitats diferents d'obres o subministraments.",
+            "No pot tenir per objecte funcions que impliquin exercici d'autoritat pública.",
+            "Cal vetllar per no encobrir cessió il·legal de treballadors."
+          ]
+        },
+        {
+          "h": "Durada i extinció",
+          "scheme": {
+            "cap": "Contracte de serveis",
+            "body": "DURADA → segons la prestació, amb límits i pròringues taxades\nEXECUCIÓ → a risc i ventura, sota direcció administrativa\nEXTINCIÓ → compliment, resolució, desistiment (indemnitza)\nESPECIALITAT → elaboració de projectes d'obres\n   (responsabilitat per defectes del projecte)"
+          }
+        }
+      ],
+      "key": "Serveis = prestacions de fer (no autoritat pública). Projectes d'obres: especialitat amb responsabilitat per defectes."
+    },
+    "29": {
+      "intro": "El contracte de concessió de serveis: gestió indirecta d'un servei amb transferència del risc al concessionari (LCSP).",
+      "sections": [
+        {
+          "h": "Concepte",
+          "list": [
+            "L'Administració encomana la gestió d'un servei de la seva titularitat; el concessionari assumeix el risc operacional.",
+            "Es diferencia del contracte de serveis ordinari precisament per la transferència del risc."
+          ]
+        },
+        {
+          "h": "Règim",
+          "scheme": {
+            "cap": "Concessió de serveis",
+            "body": "PREPARACIÓ → estudi de viabilitat i règim del servei\nADJUDICACIÓ → procediments generals\nEXECUCIÓ → l'Administració manté potestats d'ordenació i control\nDURADA → limitada segons l'amortització\nEXTINCIÓ → termini, rescat, resolució, caducitat, supressió"
+          }
+        }
+      ],
+      "key": "Gestió indirecta d'un servei amb risc per al concessionari; l'Administració conserva la titularitat i el control."
+    },
+    "31": {
+      "intro": "Les llicències i autoritzacions administratives; la comunicació prèvia i la declaració responsable (Llei 39/2015, art. 69).",
+      "sections": [
+        {
+          "h": "Tipus d'intervenció",
+          "scheme": {
+            "cap": "Tècniques d'intervenció",
+            "body": "AUTORITZACIÓ/LLICÈNCIA → control PREVI (acte administratiu)\n   remou un límit a l'exercici d'un dret preexistent\nDECLARACIÓ RESPONSABLE → el particular declara que compleix\nCOMUNICACIÓ PRÈVIA → posa en coneixement dades per iniciar\n→ totes dues permeten iniciar des de la presentació\n   amb CONTROL POSTERIOR"
+          }
+        },
+        {
+          "h": "Efectes i control",
+          "list": [
+            "Declaració/comunicació: habiliten l'activitat des de la presentació, sotmeses a comprovació.",
+            "La inexactitud, falsedat o omissió essencial → impossibilitat de continuar des que es coneix (art. 69.4), amb responsabilitats."
+          ]
+        },
+        {
+          "key": "Cap autorització dóna drets contraris a l'ordenament; la inexactitud essencial impedeix continuar l'activitat."
+        }
+      ],
+      "key": "Llicència = control previ; declaració responsable/comunicació prèvia = inici immediat + control posterior (art. 69)."
+    },
+    "32": {
+      "intro": "La gestió indirecta dels serveis públics: la concessió. Concepte, potestats, drets i extinció.",
+      "sections": [
+        {
+          "h": "Concepte",
+          "list": [
+            "Forma de gestió indirecta en què un particular presta el servei de titularitat pública, a risc seu.",
+            "L'Administració conserva la titularitat i les potestats d'ordenació i control."
+          ]
+        },
+        {
+          "h": "Relacions i extinció",
+          "scheme": {
+            "cap": "Concessió de serveis públics",
+            "body": "POTESTATS AP → ordenar, controlar, modificar, rescatar\nDRETS concessionari → percebre tarifa, equilibri econòmic\nUSUARIS → dret a la prestació en condicions i tarifes aprovades\nEXTINCIÓ → termini, rescat, caducitat, resolució, supressió"
+          }
+        }
+      ],
+      "key": "Concessió: titularitat pública, gestió privada a risc; AP conserva ordenació/control; extinció per termini, rescat, caducitat…"
+    },
+    "33": {
+      "intro": "Altres formes de gestió indirecta: gestió interessada, societats d'economia mixta i cooperatives.",
+      "sections": [
+        {
+          "h": "Modalitats",
+          "scheme": {
+            "cap": "Formes de gestió de serveis",
+            "body": "DIRECTA → pròpia entitat / OA / EPE / societat 100% pública\nINDIRECTA → concessió, gestió interessada,\n   societat d'economia mixta, concert\nGESTIÓ INTERESSADA → gestor i AP comparteixen resultats\nECONOMIA MIXTA → capital públic i privat"
+          }
+        },
+        {
+          "h": "Elecció",
+          "list": [
+            "L'elecció de la forma de gestió s'ha de motivar atenent eficiència, sostenibilitat i interès públic.",
+            "Els serveis que impliquin exercici d'autoritat es reserven a la gestió directa."
+          ]
+        }
+      ],
+      "key": "Indirecta: concessió, gestió interessada (resultats compartits), economia mixta. Autoritat → només gestió directa."
+    },
+    "34": {
+      "intro": "Els consorcis: entitats públiques de base associativa per a finalitats d'interès comú (arts. 118-127 Llei 40/2015).",
+      "sections": [
+        {
+          "h": "Naturalesa",
+          "list": [
+            "Entitat de dret públic amb personalitat jurídica pròpia, creada per diverses administracions (o amb entitats privades sense ànim de lucre).",
+            "Finalitat d'interès comú; exerceixen activitats de foment, prestació o gestió comuna de serveis."
+          ]
+        },
+        {
+          "h": "Règim",
+          "scheme": {
+            "cap": "Consorcis",
+            "body": "CREACIÓ → conveni + ESTATUTS\nADSCRIPCIÓ → a una AP segons criteris de control/finançament\n   (art. 120) → determina règim pressupostari i de control\nPERSONAL → de les administracions participants\nDISSOLUCIÓ → per acord o per les causes estatutàries"
+          }
+        }
+      ],
+      "key": "Consorci: ens públic associatiu d'interès comú; estatuts + adscripció (art. 120) que fixa el règim pressupostari."
+    },
+    "35": {
+      "intro": "Les subvencions de les administracions públiques (Llei 38/2003): pla estratègic, concessió, gestió i reintegrament.",
+      "sections": [
+        {
+          "h": "Concepte i principis",
+          "list": [
+            "Lliurament de fons sense contraprestació directa, subjecte al compliment d'un objectiu o projecte.",
+            "Principis: publicitat, transparència, concurrència, objectivitat, igualtat, eficàcia i eficiència."
+          ]
+        },
+        {
+          "h": "Procediment",
+          "scheme": {
+            "cap": "Cicle de la subvenció",
+            "body": "PLA ESTRATÈGIC previ → BASES reguladores → CONVOCATÒRIA\nCONCESSIÓ → concurrència competitiva (regla)\n   o directa (nominatives, per llei, interès públic)\nJUSTIFICACIÓ del compliment i la despesa\nREINTEGRAMENT (art. 37) → incompliment, falta de justificació\n   + interès de demora; possible règim sancionador"
+          }
+        },
+        {
+          "key": "La concessió directa només és excepcional i taxada; el reintegrament procedeix per proporcionalitat."
+        }
+      ],
+      "key": "Subvenció = fons sense contraprestació per a un fi. Concurrència competitiva (regla). Reintegrament per incompliment + interessos."
+    },
+    "37": {
+      "intro": "La responsabilitat patrimonial de les autoritats i del personal al servei de les AP (art. 36 Llei 40/2015).",
+      "sections": [
+        {
+          "h": "Esquema",
+          "scheme": {
+            "cap": "Responsabilitat de l'AP i del personal",
+            "body": "DAVANT DEL CIUTADÀ → respon directament l'ADMINISTRACIÓ\n   (no es pot demandar directament l'empleat)\nDESPRÉS → ACCIÓ DE REGRÉS (d'ofici) de l'AP contra el seu\n   personal si hi ha DOL o CULPA/NEGLIGÈNCIA GREUS\nCRITERIS → resultat danyós, grau de culpabilitat,\n   responsabilitat professional i relació amb el dany"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "El particular sempre reclama a l'Administració; aquesta repeteix contra l'empleat només en els casos taxats.",
+            "En via penal, la responsabilitat civil derivada pot exigir-se directament amb l'Administració com a responsable civil subsidiari."
+          ]
+        }
+      ],
+      "key": "El ciutadà reclama a l'AP; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus."
+    },
+    "38": {
+      "intro": "Els béns de les entitats locals: concepte, classificació, alteració de la qualificació i tràfic jurídic (Llei 33/2003; D 336/1988).",
+      "sections": [
+        {
+          "h": "Classificació",
+          "scheme": {
+            "cap": "Béns de les EELL",
+            "body": "DOMINI PÚBLIC (demanials)\n  • ús públic (carrers, places, camins)\n  • servei públic (edificis, escoles)\n  → inalienables, imprescriptibles, inembargables\nPATRIMONIALS (de propis)\n  → règim de dret privat; poden alienar-se amb procediment\nCOMUNALS → aprofitament del comú dels veïns (demanials)"
+          }
+        },
+        {
+          "h": "Alteració i ús",
+          "list": [
+            "Afectació/desafectació: requereix expedient (oportunitat i legalitat), amb informació pública.",
+            "Usos del demani: comú general (lliure), comú especial (autorització) i privatiu (concessió)."
+          ]
+        },
+        {
+          "key": "Mutació demanial: canvi de destí dins del domini públic sense desafectar."
+        }
+      ],
+      "key": "Béns: demanials (ús/servei públic, inalienables) i patrimonials (dret privat). Alteració amb expedient."
+    },
+    "39": {
+      "intro": "Béns de domini públic i patrimonials: prerrogatives i potestats, inventari i defensa (Llei 33/2003).",
+      "sections": [
+        {
+          "h": "Prerrogatives",
+          "scheme": {
+            "cap": "Potestats sobre els béns",
+            "body": "INVESTIGACIÓ → esbrinar la titularitat\nLLINDAMENT (deslinde) → fixar límits\nRECUPERACIÓ D'OFICI → de la possessió (sense límit en demanials)\nDESNONAMENT ADMINISTRATIU → de béns demanials\nINVENTARI → de tots els béns i drets (rectificació anual)"
+          }
+        },
+        {
+          "h": "Inventari i defensa",
+          "list": [
+            "L'inventari comprèn tots els béns i drets, s'aprova pel Ple i es rectifica anualment.",
+            "Deure de conservar, protegir i defensar els béns; els comunals tenen règim especial d'aprofitament."
+          ]
+        }
+      ],
+      "key": "Potestats: investigació, llindament, recuperació d'ofici, desnonament. Inventari anual de tots els béns."
+    },
+    "40": {
+      "intro": "El pressupost general de les entitats locals: estructura, elaboració, bases d'execució, pròrroga, execució i liquidació (TRLHL; RD 500/1990).",
+      "sections": [
+        {
+          "h": "Estructura i pròrroga",
+          "scheme": {
+            "cap": "Pressupost general",
+            "body": "INTEGRA → entitat + organismes autònoms + societats\nESTRUCTURA → orgànica, per programes i econòmica\nBASES D'EXECUCIÓ → adapten les normes a l'organització\nPRÒRROGA → si a 1/1 no s'aprova, regeix el de l'any anterior"
+          }
+        },
+        {
+          "h": "Execució i liquidació",
+          "list": [
+            "Execució del pressupost de despeses: fases A-D-O-P; d'ingressos: previsió, reconeixement, recaptació.",
+            "Liquidació: l'aprova el president i en dóna compte al Ple; determina el romanent de tresoreria i el resultat pressupostari."
+          ]
+        }
+      ],
+      "key": "Pressupost general integra ens i societats; bases d'execució; pròrroga si no s'aprova; liquidació pel president."
+    },
+    "41": {
+      "intro": "Els crèdits del pressupost de despeses: delimitació, situació i nivells de vinculació jurídica (TRLHL).",
+      "sections": [
+        {
+          "h": "Especialitat i vinculació",
+          "scheme": {
+            "cap": "Crèdits de despeses",
+            "body": "ESPECIALITAT → qualitativa (finalitat), quantitativa (import),\n   temporal (exercici)\nVINCULACIÓ JURÍDICA → nivell al qual opera la limitació\n   (com més ampli, més flexibilitat de gestió)\nMODIFICACIONS → si cal alterar la consignació"
+          }
+        },
+        {
+          "h": "Modificacions de crèdit",
+          "list": [
+            "Crèdit extraordinari i suplement de crèdit (despesa sense crèdit o insuficient).",
+            "Ampliacions, transferències, generació, incorporació de romanents i baixes per anul·lació."
+          ]
+        },
+        {
+          "key": "La vinculació jurídica determina fins a quin nivell de detall és vinculant el crèdit."
+        }
+      ],
+      "key": "Crèdits: especialitat (qualitativa/quantitativa/temporal) i vinculació jurídica. Modificacions diverses."
+    },
+    "42": {
+      "intro": "L'execució del pressupost de despeses i d'ingressos: fases, pagaments a justificar, bestretes, despeses plurianuals i amb finançament afectat (TRLHL).",
+      "sections": [
+        {
+          "h": "Fases de la despesa",
+          "scheme": {
+            "cap": "Execució de la despesa",
+            "body": "A → AUTORITZACIÓ (reserva de crèdit)\nD → DISPOSICIÓ/compromís (acte ferm amb tercer)\nO → reconeixement de l'OBLIGACIÓ (deute exigible)\nP → ordenació del PAGAMENT\n(ADO/ADOP poden acumular-se)"
+          }
+        },
+        {
+          "h": "Figures especials",
+          "list": [
+            "Pagaments a justificar: quan no es pot aportar documentació prèvia.",
+            "Bestretes de caixa fixa: despeses periòdiques de petita quantia.",
+            "Despeses plurianuals i de tramitació anticipada; despeses amb finançament afectat."
+          ]
+        }
+      ],
+      "key": "Despesa: A-D-O-P. Pagaments a justificar i bestretes de caixa per a despeses menors o sense doc. prèvia."
+    },
+    "43": {
+      "intro": "Hisendes locals: recursos segons el TRLHL; ingressos de dret privat, subvencions i altres ingressos de dret públic.",
+      "sections": [
+        {
+          "h": "Recursos (art. 2 TRLHL)",
+          "scheme": {
+            "cap": "Recursos de les hisendes locals",
+            "body": "TRIBUTS PROPIS\n  • TAXES (serveis/activitats que afecten l'obligat)\n  • CONTRIBUCIONS ESPECIALS (benefici per obres/serveis)\n  • IMPOSTOS: IBI, IAE, IVTM (obligatoris);\n    ICIO, plusvàlua IIVTNU (potestatius)\nTRANSFERÈNCIES (participació en tributs de l'Estat/CA)\nINGRESSOS DE DRET PRIVAT (patrimoni)\nSUBVENCIONS · PREUS PÚBLICS · OPERACIONS DE CRÈDIT"
+          }
+        },
+        {
+          "h": "Taxes vs preus públics",
+          "list": [
+            "Taxa: servei de recepció obligatòria o de monopoli públic.",
+            "Preu públic: servei de recepció voluntària també prestat pel sector privat."
+          ]
+        }
+      ],
+      "key": "Recursos: tributs propis (taxes, contrib. especials, impostos), transferències, ingressos privats, preus públics, crèdit."
+    },
+    "45": {
+      "intro": "Situacions bàsiques del sòl (TRLS estatal, RDL 7/2015): sòl rural i sòl urbanitzat.",
+      "sections": [
+        {
+          "h": "Les dues situacions",
+          "scheme": {
+            "cap": "Situacions bàsiques del sòl",
+            "body": "RURAL\n  • preservat de la transformació urbanística\n  • el que encara no s'ha urbanitzat (en transformació)\n  → valoració per capitalització de rendes\nURBANITZAT\n  • integrat de forma legal i efectiva a la malla urbana\n  → valoració per l'edificabilitat i ús (repercussió)"
+          }
+        },
+        {
+          "h": "Relació amb la classificació",
+          "list": [
+            "La situació bàsica (estatal, a efectes de valoració) no coincideix necessàriament amb la classe de sòl (autonòmica).",
+            "En sòl rural no es computen expectatives urbanístiques."
+          ]
+        }
+      ],
+      "key": "Estatal: rural (capitalització de rendes) i urbanitzat (edificabilitat/repercussió). Sense expectatives en rural."
+    },
+    "46": {
+      "intro": "Reserves per a sistemes urbanístics generals i locals; compatibilitat amb qualificacions d'aprofitament privat (TRLUC).",
+      "sections": [
+        {
+          "h": "Sistemes",
+          "scheme": {
+            "cap": "Sistemes urbanístics",
+            "body": "GENERALS → estructuren el territori (abast municipal)\n   • vialitat, espais lliures, equipaments, serveis tècnics\nLOCALS → serveixen un sector/àmbit concret\nReserves mínimes (estàndards) per a espais lliures,\n   equipaments i habitatge protegit"
+          }
+        },
+        {
+          "h": "Obtenció i qualificació",
+          "list": [
+            "Els sistemes s'obtenen per cessió (en actuacions), expropiació o ocupació directa.",
+            "La qualificació assigna usos i intensitats; els sistemes són sòl d'ús públic."
+          ]
+        }
+      ],
+      "key": "Sistemes generals (estructuren el municipi) i locals (un sector). Estàndards mínims. Obtenció per cessió/expropiació."
+    },
+    "47": {
+      "intro": "L'aprofitament urbanístic: concepte i ponderació (TRLUC).",
+      "sections": [
+        {
+          "h": "Concepte",
+          "list": [
+            "Mesura de les facultats d'ús i edificació que el planejament atribueix al sòl (edificabilitat × usos).",
+            "L'aprofitament que excedeix el susceptible d'apropiació pel privat correspon a l'Administració (deure de cessió)."
+          ]
+        },
+        {
+          "h": "Ponderació i equidistribució",
+          "scheme": {
+            "cap": "Aprofitament",
+            "body": "PONDERACIÓ → coeficients que homogeneïtzen usos i situacions\nAPROFITAMENT MITJÀ → instrument d'equidistribució en sectors\nCESSIÓ → % de l'aprofitament a l'Administració (urbanitzable)\n→ repartiment just de beneficis i càrregues"
+          }
+        }
+      ],
+      "key": "Aprofitament = edificabilitat ponderada per usos. Aprofitament mitjà per equidistribuir; cessió a l'Administració."
+    },
+    "48": {
+      "intro": "Drets i deures de les persones propietàries; règim del subsol i deure de cessió (TRLUC).",
+      "sections": [
+        {
+          "h": "Drets i deures",
+          "scheme": {
+            "cap": "Estatut del propietari",
+            "body": "DRETS → ús, gaudi i disposició dins del planejament;\n   aprofitament susceptible d'apropiació\nDEURES →\n   • cessió de sòl per a sistemes i d'aprofitament\n   • costejar i, si escau, executar la urbanització\n   • conservació de les construccions\n   • edificar els solars dins de termini"
+          }
+        },
+        {
+          "h": "Subsol",
+          "list": [
+            "El dret sobre el subsol es limita al que requereixin els usos urbanístics autoritzats en superfície.",
+            "L'incompliment dels deures pot derivar en execució forçosa o substitució."
+          ]
+        }
+      ],
+      "key": "Propietari: dret a l'aprofitament + deures de cessió, urbanització, conservació i edificació. Subsol limitat als usos."
+    },
+    "49": {
+      "intro": "Règim d'ús provisional del sòl: usos i obres de caràcter provisional i el seu procediment d'autorització (TRLUC).",
+      "sections": [
+        {
+          "h": "Caracterització",
+          "scheme": {
+            "cap": "Usos provisionals",
+            "body": "NATURALESA → precaris i temporals\nNO poden → dificultar l'execució del planejament\nCESSAMENT → quan ho ordeni l'Administració, SENSE indemnització\nFORMALITAT → llicència + acceptació de condicions\n   + INSCRIPCIÓ al Registre de la Propietat"
+          }
+        },
+        {
+          "h": "Procediment",
+          "list": [
+            "Es tramiten amb informació pública i les garanties que estableix el TRLUC.",
+            "Compromís exprés d'enderroc/cessament i renúncia a la indemnització."
+          ]
+        }
+      ],
+      "key": "Usos provisionals: precaris, no dificulten el pla, cessen sense indemnització, amb inscripció registral."
+    },
+    "50": {
+      "intro": "Figures del planejament urbanístic: els plans directors urbanístics (PDU) (TRLUC).",
+      "sections": [
+        {
+          "h": "Plans directors",
+          "scheme": {
+            "cap": "Planejament: jerarquia",
+            "body": "PLANS TERRITORIALS (ordenació del territori)\nPLANS DIRECTORS URBANÍSTICS (supramunicipals)\n   • directrius de coordinació, sòl no urbanitzable,\n     infraestructures, sostenibilitat\nPLANEJAMENT GENERAL (POUM)\nPLANEJAMENT DERIVAT (plans parcials i especials)"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Els PDU els aprova la Generalitat i prevalen sobre el planejament municipal en el seu àmbit.",
+            "Permeten ordenar àmbits supramunicipals i establir reserves de sòl."
+          ]
+        }
+      ],
+      "key": "PDU: instrument supramunicipal de la Generalitat, per damunt del POUM; coordina i ordena àmbits territorials."
+    },
+    "51": {
+      "intro": "El planejament general: els plans d'ordenació urbanística municipal (POUM). Documentació i programa d'actuació (TRLUC).",
+      "sections": [
+        {
+          "h": "Documentació",
+          "scheme": {
+            "cap": "Documents del POUM",
+            "body": "MEMÒRIA (i MEMÒRIA SOCIAL → habitatge)\nNORMES URBANÍSTIQUES\nPLÀNOLS (informació i ordenació)\nCATÀLEG de béns protegits\nAGENDA i AVALUACIÓ econòmica i financera\nDOCUMENTACIÓ AMBIENTAL (avaluació ambiental estratègica)"
+          }
+        },
+        {
+          "h": "Aprovació",
+          "list": [
+            "Inicial (Ajuntament) + informació pública i informes → provisional (Ple) → definitiva (Generalitat: CTU o conseller).",
+            "El programa d'actuació concreta la gestió i la programació temporal."
+          ]
+        },
+        {
+          "key": "L'aprovació definitiva del POUM correspon a la Generalitat, no al municipi."
+        }
+      ],
+      "key": "POUM: memòria (social), normes, plànols, avaluació econòmica i ambiental. Aprovació definitiva: Generalitat."
+    },
+    "52": {
+      "intro": "El planejament de desenvolupament: plans parcials i plans especials. Elaboració, aprovació i revisió (TRLUC).",
+      "sections": [
+        {
+          "h": "Tipus",
+          "scheme": {
+            "cap": "Planejament derivat",
+            "body": "PLA PARCIAL → ordena el sòl urbanitzable (transformació)\n   • parcial de delimitació (urbanitzable no delimitat)\nPLA ESPECIAL → finalitats concretes (patrimoni,\n   infraestructures, millora urbana…)\nPLA DE MILLORA URBANA → en sòl urbà"
+          }
+        },
+        {
+          "h": "Tramitació",
+          "list": [
+            "Aprovació inicial i provisional municipal + aprovació definitiva (segons el cas, municipal o de la Generalitat).",
+            "Revisió/modificació amb el mateix procediment que l'aprovació."
+          ]
+        }
+      ],
+      "key": "Plans parcials (urbanitzable) i especials (finalitats concretes) desenvolupen el POUM amb tramitació pròpia."
+    },
+    "53": {
+      "intro": "Iniciativa i col·laboració dels particulars en el planejament urbanístic (TRLUC).",
+      "sections": [
+        {
+          "h": "Iniciativa privada",
+          "scheme": {
+            "cap": "Iniciativa particular",
+            "body": "FORMULACIÓ → els particulars poden redactar plans derivats\nPRESENTACIÓ → a l'Ajuntament, que tramita\nPOTESTAT → de planejament és pública i indisponible\nL'AP pot acceptar, modificar o denegar la proposta"
+          }
+        },
+        {
+          "h": "Límits",
+          "list": [
+            "La col·laboració privada no vincula l'Administració, que conserva l'ius variandi.",
+            "Es garanteix la participació ciutadana i la informació pública."
+          ]
+        }
+      ],
+      "key": "Els particulars poden formular planejament derivat; la potestat de planejament és pública i indisponible."
+    },
+    "54": {
+      "intro": "Efectes de l'aprovació de les figures de planejament: publicitat, convenis urbanístics i obligatorietat (TRLUC).",
+      "sections": [
+        {
+          "h": "Efectes",
+          "scheme": {
+            "cap": "Efectes de l'aprovació",
+            "body": "EXECUTIVITAT → des de la publicació de les normes al diari oficial\nOBLIGATORIETAT → vincula administracions i particulars\nPUBLICITAT → consulta i certificats de règim urbanístic\nLEGITIMACIÓ → d'expropiacions i d'usos previstos"
+          }
+        },
+        {
+          "h": "Convenis urbanístics",
+          "list": [
+            "Subjectes a publicitat i transparència; no poden vulnerar el planejament al marge del procediment.",
+            "Cessions i compromisos s'incorporen amb les garanties legals."
+          ]
+        }
+      ],
+      "key": "L'aprovació (publicada) fa executiu i obligatori el pla. Convenis urbanístics: públics i sense vulnerar el planejament."
+    },
+    "55": {
+      "intro": "Gestió urbanística: sistemes d'actuació, elecció del sistema i principi d'equidistribució (TRLUC).",
+      "sections": [
+        {
+          "h": "Sistemes",
+          "scheme": {
+            "cap": "Sistemes d'actuació",
+            "body": "REPARCEL·LACIÓ\n   • compensació bàsica (propietaris executen)\n   • compensació per concertació\n   • cooperació (AP executa a càrrec dels propietaris)\n   • per sectors/subsectors\nEXPROPIACIÓ (AP adquireix per executar)"
+          }
+        },
+        {
+          "h": "Equidistribució",
+          "list": [
+            "Repartiment just de beneficis (aprofitament) i càrregues (cessions i costos d'urbanització).",
+            "La reparcel·lació regularitza finques i adjudica les resultants segons l'aprofitament."
+          ]
+        },
+        {
+          "key": "L'elecció del sistema correspon a l'Administració segons les circumstàncies."
+        }
+      ],
+      "key": "Sistemes: reparcel·lació (compensació/cooperació) i expropiació. Principi d'equidistribució de beneficis i càrregues."
+    },
+    "57": {
+      "intro": "Parcel·lacions urbanístiques: concepte, llicència, presumpció i indivisibilitat (TRLUC).",
+      "sections": [
+        {
+          "h": "Règim",
+          "scheme": {
+            "cap": "Parcel·lacions",
+            "body": "LLICÈNCIA de parcel·lació → control de la divisió\nPRESUMPCIÓ de parcel·lació urbanística → davant divisions\n   o serveis que pressuposin transformació urbana\nEN SÒL NO URBANITZABLE → PROHIBIDA la parcel·lació urbanística\nINDIVISIBILITAT → unitats mínimes de conreu/finca"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Les segregacions han de respectar la parcel·la mínima del planejament.",
+            "Els notaris/registradors exigeixen la llicència o declaració d'innecessarietat."
+          ]
+        }
+      ],
+      "key": "Parcel·lació amb llicència; prohibida en sòl no urbanitzable; presumpció davant divisions amb aparença urbana."
+    },
+    "58": {
+      "intro": "La protecció de la legalitat urbanística: competències, inspecció i procediments (TRLUC).",
+      "sections": [
+        {
+          "h": "Components",
+          "scheme": {
+            "cap": "Disciplina urbanística",
+            "body": "INSPECCIÓ → comprovació, accés i requeriment d'informació\nPROTECCIÓ DE LA LEGALITAT →\n   • suspensió d'obres en curs (cautelar)\n   • requeriment de legalització o restauració\nSANCIÓ → procediment sancionador (independent)\nPRESCRIPCIÓ restauració → 6 anys (imprescriptible en SNU protegit)"
+          }
+        },
+        {
+          "h": "Competències",
+          "list": [
+            "Corresponen als ajuntaments i, subsidiàriament o concurrent, a la Generalitat.",
+            "Restauració i sanció són compatibles i independents."
+          ]
+        },
+        {
+          "key": "Disciplina = inspecció + restauració de la legalitat + sanció (independents)."
+        }
+      ],
+      "key": "Protecció de la legalitat: inspecció, suspensió, legalització/restauració (6 anys) i sanció, tot compatible."
+    },
+    "59": {
+      "intro": "Intervenció i control administratiu de les activitats amb incidència ambiental (Llei 20/2009, PCAA).",
+      "sections": [
+        {
+          "h": "Règims segons incidència",
+          "scheme": {
+            "cap": "Règims d'intervenció ambiental",
+            "body": "ALTA incidència (annex I) → AUTORITZACIÓ ambiental\nMITJANA (annex II) → LLICÈNCIA ambiental (municipal)\nBAIXA (annex III) → règim de COMUNICACIÓ\n→ control previ (autorització/llicència) vs posterior"
+          }
+        },
+        {
+          "h": "Procediment",
+          "list": [
+            "Inclou avaluació ambiental quan escau, informes sectorials i, si cal, informació pública.",
+            "Controls periòdics per verificar el manteniment de les condicions."
+          ]
+        }
+      ],
+      "key": "Llei 20/2009: autorització (alta), llicència (mitjana) i comunicació (baixa) segons la incidència ambiental."
+    },
+    "60": {
+      "intro": "Espectacles públics i activitats recreatives: llicència d'establiments oberts al públic i comunicació prèvia (Llei 11/2009).",
+      "sections": [
+        {
+          "h": "Intervenció",
+          "scheme": {
+            "cap": "Espectacles i activitats recreatives",
+            "body": "SEGONS aforament, risc i tipus d'establiment →\n   • LLICÈNCIA municipal (control previ)\n   • COMUNICACIÓ prèvia (activitats de menor risc)\nCONDICIONS → seguretat, aforament, horaris, accessibilitat\nCONTROL → inspecció i, si escau, sanció"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Es coordina amb la normativa ambiental i d'incendis.",
+            "Els espectacles extraordinaris tenen règim específic."
+          ]
+        }
+      ],
+      "key": "Llei 11/2009: llicència o comunicació segons risc/aforament; condicions de seguretat i control."
+    },
+    "61": {
+      "intro": "Projectes d'obres locals: elaboració pels serveis tècnics municipals o per tècnics externs (ROAS; LCSP).",
+      "sections": [
+        {
+          "h": "Contingut del projecte",
+          "scheme": {
+            "cap": "Projecte d'obres",
+            "body": "MEMÒRIA (justificació de la solució)\nPLÀNOLS\nPLEC de prescripcions tècniques\nPRESSUPOST (amидiments i preus)\n+ estudi de seguretat i salut, programa de treball"
+          }
+        },
+        {
+          "h": "Tramitació",
+          "list": [
+            "Redacció pels serveis tècnics o per tècnics competents contractats.",
+            "Supervisió (preceptiva segons import o afectació a estabilitat/seguretat), aprovació i replanteig."
+          ]
+        }
+      ],
+      "key": "Projecte = memòria + plànols + plec + pressupost (+ESS). Redacció municipal o externa; supervisió i aprovació."
+    },
+    "62": {
+      "intro": "Edificació: requisits bàsics (funcionalitat, seguretat i habitabilitat); LOE i Codi Tècnic de l'Edificació (CTE).",
+      "sections": [
+        {
+          "h": "Requisits LOE",
+          "scheme": {
+            "cap": "Requisits bàsics (art. 3 LOE)",
+            "body": "FUNCIONALITAT → utilització, accessibilitat, serveis\nSEGURETAT → estructural, en cas d'incendi, d'utilització\nHABITABILITAT → salubritat, protecció contra el soroll,\n   estalvi d'energia\n→ desenvolupats pel CTE (documents bàsics DB)"
+          }
+        },
+        {
+          "h": "Agents i garanties",
+          "list": [
+            "Agents (LOE): promotor, projectista, constructor, direccions facultatives, entitats de control.",
+            "Garanties per danys: 1 any (acabats), 3 anys (habitabilitat), 10 anys (estructura)."
+          ]
+        },
+        {
+          "key": "El CTE (RD 314/2006) concreta les exigències bàsiques de la LOE."
+        }
+      ],
+      "key": "LOE: funcionalitat, seguretat, habitabilitat → CTE. Garanties d'1, 3 i 10 anys segons l'element."
+    },
+    "63": {
+      "intro": "Execució d'obres locals: per contracte o per mitjans propis; classificació del contractista (ROAS; LCSP).",
+      "sections": [
+        {
+          "h": "Modalitats",
+          "scheme": {
+            "cap": "Execució d'obres locals",
+            "body": "PER CONTRACTE → licitació LCSP (regla general)\nPER MITJANS PROPIS (administració) → supòsits taxats\n   (art. 30 LCSP: mitjans propis, urgència…)\nCLASSIFICACIÓ del contractista → exigible en certs\n   contractes d'obres (acredita solvència)"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "L'execució per administració requereix disposar de mitjans personals i materials propis.",
+            "Direcció facultativa i certificacions d'obra durant l'execució."
+          ]
+        }
+      ],
+      "key": "Obres: per contracte (regla) o per mitjans propis (taxat). Classificació del contractista en certs casos."
+    },
+    "64": {
+      "intro": "Organització i coordinació de la realització d'obres municipals: planificació de tasques, accions i projectes.",
+      "sections": [
+        {
+          "h": "Planificació",
+          "scheme": {
+            "cap": "Gestió d'obres municipals",
+            "body": "PLANIFICAR → objectius, tasques, terminis, recursos\nORGANITZAR → assignació i coordinació d'equips\nEXECUTAR → direcció i seguiment (certificacions)\nCONTROLAR → qualitat, cost i termini; correccions\n+ COORDINACIÓ de seguretat i salut (si diverses empreses)"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Coordinació amb serveis afectats (companyies, mobilitat, veïnat).",
+            "Documentació i control econòmic de l'obra."
+          ]
+        }
+      ],
+      "key": "Gestió d'obres: planificar–organitzar–executar–controlar; coordinació de seguretat i salut i de serveis afectats."
+    },
+    "65": {
+      "intro": "Patrimonis públics de sòl i habitatge: concepte, finalitats i patrimoni separat (TRLUC; Llei 18/2007).",
+      "sections": [
+        {
+          "h": "Caracterització",
+          "scheme": {
+            "cap": "Patrimoni públic de sòl",
+            "body": "NATURALESA → patrimoni SEPARAT (afectat)\nFINALITATS → regular el mercat de sòl, fer efectiu el dret\n   a l'habitatge, executar el planejament\nINTEGRACIÓ → sòl obtingut per cessió, expropiació, compra\nDESTÍ → els ingressos s'afecten a finalitats urbanístiques\n   i d'habitatge"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "El sòl de cessió d'aprofitament s'incorpora al patrimoni públic de sòl.",
+            "Comptabilitat i gestió diferenciades."
+          ]
+        }
+      ],
+      "key": "Patrimoni públic de sòl: patrimoni separat afectat a regular el mercat de sòl i l'habitatge."
+    },
+    "66": {
+      "intro": "Urbanitzacions amb dèficits urbanístics: concepte i règim jurídic aplicable (TRLUC i normativa específica).",
+      "sections": [
+        {
+          "h": "Problemàtica",
+          "scheme": {
+            "cap": "Urbanitzacions amb dèficits",
+            "body": "CONCEPTE → àmbits amb serveis urbanístics incomplets\n   o sense cessions, sovint d'origen irregular\nOBJECTIU → completar la urbanització i integrar-les\nINSTRUMENTS → planejament + gestió (reparcel·lació)\nFINANÇAMENT → repartiment de càrregues entre propietaris"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Es prioritza la seguretat i la dotació de serveis bàsics.",
+            "Possibles convenis i programes de regularització."
+          ]
+        }
+      ],
+      "key": "Urbanitzacions amb dèficits: completar serveis i cessions via planejament i gestió, amb càrregues als propietaris."
+    },
+    "67": {
+      "intro": "L'expropiació forçosa: subjectes, objecte, causa, procediment, garanties i reversió (LEF; TRLUC).",
+      "sections": [
+        {
+          "h": "Procediment general",
+          "scheme": {
+            "cap": "Fases de l'expropiació (LEF)",
+            "body": "1) DECLARACIÓ d'utilitat pública o interès social\n2) NECESSITAT D'OCUPACIÓ dels béns concrets\n3) JUST PREU (acord o JURAT D'EXPROPIACIÓ, peça separada)\n4) PAGAMENT i OCUPACIÓ\n(urgència, art. 52: ocupació prèvia a la fixació)"
+          }
+        },
+        {
+          "h": "Garanties",
+          "list": [
+            "Premi d'afecció del 5% i interessos de demora.",
+            "Reversió: recuperar el bé si no s'executa l'obra o desapareix la causa.",
+            "En urbanisme, l'aprovació del pla implica utilitat pública i necessitat d'ocupació."
+          ]
+        },
+        {
+          "key": "Subjectes: expropiant, beneficiari i expropiat."
+        }
+      ],
+      "key": "Expropiació: utilitat pública → necessitat d'ocupació → just preu (Jurat) → pagament. Premi 5% i reversió."
+    },
+    "68": {
+      "intro": "Valoracions: del sòl, construccions i drets, en relació amb la situació bàsica del sòl (TRLS, RDL 7/2015).",
+      "sections": [
+        {
+          "h": "Criteris",
+          "scheme": {
+            "cap": "Valoració del sòl",
+            "body": "SÒL RURAL → capitalització de la renda (real o potencial)\n   sense expectatives urbanístiques\nSÒL URBANITZAT → edificabilitat i ús × valor de repercussió\n   • si edificat: el major entre sòl i taxació conjunta\nINDEMNITZACIONS → drets extingits, trasllats, etc."
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Les valoracions es regeixen per la legislació estatal (competència exclusiva).",
+            "S'apliquen a expropiacions, reparcel·lacions i responsabilitat."
+          ]
+        }
+      ],
+      "key": "Sòl rural: capitalització de rendes; urbanitzat: edificabilitat × repercussió. Sense expectatives en rural."
+    },
+    "69": {
+      "intro": "La potestat sancionadora: concepte, principis i mesures (arts. 25-31 i 53-90 Llei 40/2015 i 39/2015).",
+      "sections": [
+        {
+          "h": "Principis (Llei 40/2015)",
+          "scheme": {
+            "cap": "Principis de la potestat sancionadora",
+            "body": "LEGALITAT → reserva de llei\nTIPICITAT → infraccions i sancions predeterminades\nIRRETROACTIVITAT → llevat de la norma favorable\nRESPONSABILITAT → dol o culpa\nPROPORCIONALITAT → adequació sanció-infracció\nNON BIS IN IDEM → no doble sanció pels mateixos fets\nPRESUMPCIÓ D'INNOCÈNCIA"
+          }
+        },
+        {
+          "h": "Procediment",
+          "list": [
+            "Separació entre instrucció i resolució; drets de defensa i audiència.",
+            "Caducitat si se supera el termini màxim; prescripció d'infraccions i sancions."
+          ]
+        },
+        {
+          "key": "La càrrega de la prova correspon a l'Administració (presumpció d'innocència)."
+        }
+      ],
+      "key": "Sancionadora: legalitat, tipicitat, irretroactivitat (excepte favorable), proporcionalitat, non bis in idem, presumpció d'innocència."
+    },
+    "70": {
+      "intro": "Infraccions urbanístiques: classificació, actuacions que vulneren l'ordenament i persones responsables (TRLUC).",
+      "sections": [
+        {
+          "h": "Classificació",
+          "scheme": {
+            "cap": "Infraccions urbanístiques",
+            "body": "MOLT GREUS → afecten sòl no urbanitzable protegit,\n   impedeixen l'execució del planejament\nGREUS → vulneracions rellevants de l'ordenació\nLLEUS → la resta (sovint legalitzables)\nRESPONSABLES → promotor, constructor, tècnic director,\n   i propietaris segons el cas"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "La qualificació depèn de l'afectació a l'ordenació i del tipus de sòl.",
+            "Compatible amb la restauració de la legalitat."
+          ]
+        }
+      ],
+      "key": "Infraccions: molt greus/greus/lleus segons afectació i tipus de sòl. Responen promotor, constructor i tècnic."
+    },
+    "71": {
+      "intro": "Sancions urbanístiques: quantia i graduació (TRLUC).",
+      "sections": [
+        {
+          "h": "Graduació",
+          "scheme": {
+            "cap": "Sancions urbanístiques",
+            "body": "QUANTIA → percentatge del valor de l'obra/actuació o\n   imports segons gravetat\nGRADUACIÓ (proporcionalitat) →\n   • gravetat del fet i del dany\n   • benefici obtingut\n   • reincidència\n   • grau de culpabilitat\nCOMPATIBLE amb la restauració de la legalitat"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "La sanció no pot suposar un benefici per a l'infractor.",
+            "Possibilitat de reducció per legalització o restauració voluntària."
+          ]
+        }
+      ],
+      "key": "Sancions: quantia segons gravetat; graduació per dany, benefici, reincidència i culpabilitat. Compatibles amb restauració."
+    },
+    "72": {
+      "intro": "Ordres d'execució: deure de conservació i rehabilitació; inspeccions (TRLUC).",
+      "sections": [
+        {
+          "h": "Deure de conservació",
+          "scheme": {
+            "cap": "Ordres d'execució",
+            "body": "DEURE → mantenir els immobles en condicions de\n   SEGURETAT, SALUBRITAT i ORNAMENT públic\nORDRE D'EXECUCIÓ → imposa obres de conservació/rehabilitació\nINCOMPLIMENT → execució subsidiària a càrrec de l'obligat\n   o multes coercitives\nINSPECCIÓ tècnica d'edificis (ITE) quan escau"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "El límit del deure de conservació marca la frontera amb la declaració de ruïna.",
+            "Possible declaració de ruïna si les obres superen aquest límit."
+          ]
+        }
+      ],
+      "key": "Conservació: seguretat, salubritat, ornament. Ordres d'execució; incompliment → execució subsidiària o multes coercitives."
+    },
+    "73": {
+      "intro": "Prescripció: de l'acció de restauració i de l'ordre de restauració urbanística (TRLUC).",
+      "sections": [
+        {
+          "h": "Terminis",
+          "scheme": {
+            "cap": "Prescripció en disciplina urbanística",
+            "body": "ACCIÓ DE RESTAURACIÓ → 6 anys des de l'acabament total\n   de les obres\nSÒL NO URBANITZABLE protegit → IMPRESCRIPTIBLE\nSANCIÓ → segons gravetat de la infracció\nCòmput → des de l'acabament/comissió"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Transcorregut el termini, les obres queden en situació de fora d'ordenació o volum disconforme.",
+            "La prescripció no legalitza, només impedeix la restauració."
+          ]
+        }
+      ],
+      "key": "Restauració: 6 anys des de l'acabament (imprescriptible en SNU protegit). La prescripció no legalitza."
+    },
+    "74": {
+      "intro": "Revisió de llicències i d'ordres d'execució: supòsits i efectes (TRLUC; Llei 39/2015).",
+      "sections": [
+        {
+          "h": "Vies de revisió",
+          "scheme": {
+            "cap": "Revisió de llicències il·legals",
+            "body": "NUL·LES → revisió d'ofici (art. 106 Llei 39/2015)\n   sense termini + dictamen del Consell consultiu\nANUL·LABLES favorables → declaració de LESIVITAT\n   (4 anys) + impugnació contenciosa (art. 107)\nMESURES CAUTELARS → suspensió dels efectes\nREVOCACIÓ → per oportunitat (pot indemnitzar)"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "No es poden revocar lliurement les llicències vàlides sense indemnitzar.",
+            "La incoació pot suspendre cautelarment els efectes."
+          ]
+        }
+      ],
+      "key": "Llicència nul·la → revisió d'ofici; anul·lable favorable → lesivitat + contenciós. Revocació per oportunitat pot indemnitzar."
+    },
+    "75": {
+      "intro": "La Llei del dret a l'habitatge de Catalunya (Llei 18/2007): competències, planificació i mesures.",
+      "sections": [
+        {
+          "h": "Eixos",
+          "scheme": {
+            "cap": "Política d'habitatge (Llei 18/2007)",
+            "body": "DRET a un habitatge digne i adequat\nHABITATGE PROTEGIT → reserves de sòl i preus limitats\nDESOCUPACIÓ → mesures contra la desocupació injustificada\nCÈDULA D'HABITABILITAT → condicions mínimes\nREGISTRE de sol·licitants d'habitatge protegit"
+          }
+        },
+        {
+          "h": "Competències",
+          "list": [
+            "L'habitatge és competència de la Generalitat; els municipis hi participen via planejament i polítiques locals.",
+            "Coordinació amb el planejament urbanístic (reserves d'habitatge protegit)."
+          ]
+        }
+      ],
+      "key": "Llei 18/2007: dret a l'habitatge, habitatge protegit, cèdula d'habitabilitat i mesures contra la desocupació."
+    },
+    "76": {
+      "intro": "Polítiques sobre el medi ambient a Catalunya: Estatut, normativa i avaluació ambiental.",
+      "sections": [
+        {
+          "h": "Marc",
+          "scheme": {
+            "cap": "Medi ambient a Catalunya",
+            "body": "COMPETÈNCIA → compartida (bases estatals + desenvolupament\n   i gestió autonòmics; art. 144 EAC)\nAVALUACIÓ AMBIENTAL →\n   • ESTRATÈGICA → plans i programes\n   • d'IMPACTE (AIA) → projectes (conclou amb DIA)\nINTERVENCIÓ d'activitats → Llei 20/2009 (PCAA)"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Principis: precaució, prevenció, qui contamina paga, sostenibilitat.",
+            "Coordinació amb urbanisme i activitats."
+          ]
+        }
+      ],
+      "key": "Medi ambient: competència compartida; avaluació estratègica (plans) i d'impacte (projectes, DIA); Llei 20/2009."
+    },
+    "77": {
+      "intro": "L'administració electrònica: drets i deures, signatura electrònica i subjectes obligats (Llei 39/2015 i 40/2015).",
+      "sections": [
+        {
+          "h": "Relació electrònica",
+          "scheme": {
+            "cap": "Administració electrònica",
+            "body": "OBLIGATS a relacionar-s'hi electrònicament (art. 14.2):\n   persones jurídiques, entitats sense personalitat,\n   professionals col·legiats, empleats públics…\nPERSONES FÍSIQUES → poden triar el canal\nIDENTIFICACIÓ i SIGNATURA → sistemes admesos (certificat,\n   Cl@ve…); la qualificada equival a la manuscrita"
+          }
+        },
+        {
+          "h": "Eines",
+          "list": [
+            "Seu electrònica, registre electrònic general, arxiu electrònic únic, notificacions electròniques.",
+            "Dret a no aportar documents en poder de l'Administració (interoperabilitat)."
+          ]
+        }
+      ],
+      "key": "Obligats a l'electrònic: persones jurídiques i col·lectius (art. 14.2). Signatura qualificada = manuscrita."
+    },
+    "78": {
+      "intro": "Millora de la qualitat: millora contínua dels processos i atenció a la ciutadania.",
+      "sections": [
+        {
+          "h": "Qualitat",
+          "scheme": {
+            "cap": "Millora contínua",
+            "body": "CICLE PDCA → Planificar–Fer–Verificar–Actuar\nINSTRUMENTS → cartes de serveis, enquestes de satisfacció,\n   indicadors, queixes i suggeriments\nSIMPLIFICACIÓ administrativa i reducció de càrregues\nORIENTACIÓ a la ciutadania (servei públic)"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "La qualitat es mesura amb indicadors (temps, satisfacció, resolució).",
+            "Vinculat al bon govern i la transparència (Llei 19/2014)."
+          ]
+        }
+      ],
+      "key": "Qualitat: cicle PDCA, cartes de serveis, indicadors i simplificació, amb orientació a la ciutadania."
+    },
+    "79": {
+      "intro": "Avaluació de l'assoliment d'objectius: seguiment dels resultats propis i de l'Àrea del Territori; fases.",
+      "sections": [
+        {
+          "h": "Cicle d'avaluació",
+          "scheme": {
+            "cap": "Avaluació de resultats",
+            "body": "1) PLANIFICAR → objectius i indicadors (SMART)\n2) EXECUTAR → desplegament d'accions\n3) SEGUIR/MESURAR → recollida de dades, quadre de comandament\n4) REVISAR → anàlisi de desviacions i millora\nRETIMENT DE COMPTES → transparència dels resultats"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Els indicadors han de ser mesurables, rellevants i vinculats a objectius.",
+            "Permet corregir desviacions i orientar la presa de decisions."
+          ]
+        }
+      ],
+      "key": "Avaluació: planificar–executar–seguir–revisar amb indicadors; quadre de comandament i retiment de comptes."
+    },
+    "80": {
+      "intro": "Eines del comandament: gestió de l'estrès i organització del treball.",
+      "sections": [
+        {
+          "h": "Gestió personal",
+          "scheme": {
+            "cap": "Eines de comandament",
+            "body": "ORGANITZACIÓ DEL TREBALL → priorització (urgent/important),\n   planificació, agrupació de tasques, delegació\nGESTIÓ DE L'ESTRÈS → identificar fonts, hàbits saludables,\n   suport, gestió del temps\nREUNIONS eficaces i comunicació clara"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "La matriu d'Eisenhower distingeix urgent i important.",
+            "La delegació allibera temps i desenvolupa l'equip."
+          ]
+        }
+      ],
+      "key": "Comandament: organització i priorització del treball + gestió de l'estrès i del temps."
+    },
+    "81": {
+      "intro": "Lideratge d'equips: motivació, delegació, gestió de conflictes i habilitats de comunicació.",
+      "sections": [
+        {
+          "h": "Claus del lideratge",
+          "scheme": {
+            "cap": "Lideratge d'equips",
+            "body": "MOTIVACIÓ → reconeixement, participació, objectius clars\nDELEGACIÓ → objectius + autonomia + seguiment\nCONFLICTES → comunicació, negociació, mediació\nCOMUNICACIÓ → escolta activa, assertivitat, feedback"
+          }
+        },
+        {
+          "h": "Estils",
+          "list": [
+            "Estils de lideratge (directiu, participatiu, delegatiu) segons la maduresa de l'equip.",
+            "El lideratge situacional adapta l'estil a la persona i la tasca."
+          ]
+        }
+      ],
+      "key": "Lideratge: motivar, delegar (autonomia+seguiment), gestionar conflictes i comunicar (escolta activa, assertivitat)."
+    },
+    "82": {
+      "intro": "Transparència en la gestió pública, bon govern i dret d'accés a la informació (Llei 19/2014).",
+      "sections": [
+        {
+          "h": "Tres eixos",
+          "scheme": {
+            "cap": "Llei 19/2014",
+            "body": "TRANSPARÈNCIA → publicitat ACTIVA (d'ofici) al portal\nDRET D'ACCÉS → de qualsevol persona, sense motivar\n   • límits taxats + ponderació (dades personals)\n   • silenci NEGATIU; reclamació davant la GAIP\nBON GOVERN → principis ètics i de conducta dels alts càrrecs"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "La publicitat activa inclou informació institucional, organitzativa, econòmica, contractes i subvencions.",
+            "Règim sancionador per incompliment."
+          ]
+        }
+      ],
+      "key": "Llei 19/2014: publicitat activa + dret d'accés (silenci negatiu, GAIP) + bon govern."
+    },
+    "83": {
+      "intro": "Gestió per objectius: planificació estratègica i operativa, indicadors i avaluació.",
+      "sections": [
+        {
+          "h": "Nivells de planificació",
+          "scheme": {
+            "cap": "Gestió per objectius (DPO)",
+            "body": "ESTRATÈGICA → missió, visió, objectius a llarg termini\nOPERATIVA → accions, recursos i terminis a curt\nINDICADORS → mesura de l'assoliment (SMART)\nAVALUACIÓ → seguiment i correcció"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Alineació entre objectius estratègics i operatius.",
+            "Els objectius han de ser específics, mesurables, assolibles, rellevants i temporals."
+          ]
+        }
+      ],
+      "key": "DPO: planificació estratègica (llarg) i operativa (curt), amb indicadors SMART i avaluació."
+    },
+    "84": {
+      "intro": "Presa de decisions: anàlisi de problemes complexos i gestió del canvi en entorns públics.",
+      "sections": [
+        {
+          "h": "Procés decisori",
+          "scheme": {
+            "cap": "Presa de decisions",
+            "body": "1) DEFINIR el problema (causes arrel)\n2) GENERAR alternatives\n3) AVALUAR conseqüències i riscos\n4) DECIDIR i implementar\n5) FER SEGUIMENT i ajustar\nGESTIÓ DEL CANVI → comunicar, implicar, acompanyar"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Eines: anàlisi DAFO, arbre de problemes, anàlisi cost-benefici.",
+            "Gestionar les resistències al canvi amb participació i comunicació."
+          ]
+        }
+      ],
+      "key": "Decidir: definir problema → alternatives → avaluar → decidir → seguiment. Gestió del canvi amb participació."
+    },
+    "85": {
+      "intro": "Ètica pública i valors: el codi ètic i l'aplicació de la integritat i el servei a la ciutadania.",
+      "sections": [
+        {
+          "h": "Principis ètics",
+          "scheme": {
+            "cap": "Ètica pública",
+            "body": "INTEGRITAT i HONESTEDAT\nOBJECTIVITAT i IMPARCIALITAT\nTRANSPARÈNCIA i retiment de comptes\nEXEMPLARITAT (coherència valors-conducta)\nSERVEI a l'interès general i a la ciutadania"
+          }
+        },
+        {
+          "h": "Marc",
+          "list": [
+            "Codis de conducta dels alts càrrecs i empleats públics (Llei 19/2014; TREBEP).",
+            "Prevenció de conflictes d'interès i de la corrupció."
+          ]
+        }
+      ],
+      "key": "Ètica pública: integritat, objectivitat, transparència, exemplaritat i servei a l'interès general."
+    },
+    "86": {
+      "intro": "El personal al servei de les AP: funcionari, laboral, directiu professional, eventual (TREBEP).",
+      "sections": [
+        {
+          "h": "Classes",
+          "scheme": {
+            "cap": "Classes de personal",
+            "body": "FUNCIONARI DE CARRERA → relació estatutària permanent\nFUNCIONARI INTERÍ → temporal, per necessitat/urgència\nPERSONAL LABORAL → fix/indefinit/temporal (dret laboral)\nPERSONAL EVENTUAL → confiança; cessament lliure\nPERSONAL DIRECTIU PROFESSIONAL → funcions directives,\n   amb avaluació i responsabilitat"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Les funcions que impliquin exercici d'autoritat es reserven a funcionaris.",
+            "El directiu es designa per mèrit, capacitat i idoneïtat, amb publicitat."
+          ]
+        }
+      ],
+      "key": "Personal: carrera, interí, laboral, eventual i directiu professional (mèrit/capacitat/idoneïtat)."
+    },
+    "87": {
+      "intro": "Atenció al personal: gestió de conflictes, planificació de tasques, bon clima i resolució d'incidències.",
+      "sections": [
+        {
+          "h": "Gestió de persones",
+          "scheme": {
+            "cap": "Atenció al personal",
+            "body": "PLANIFICACIÓ de tasques → càrrega equitativa i eficient\nCLIMA LABORAL → motivació, comunicació, reconeixement\nCONFLICTES → prevenció + comunicació/mediació\nINCIDÈNCIES → resolució àgil i seguiment"
+          }
+        },
+        {
+          "h": "Notes",
+          "list": [
+            "Un bon clima redueix l'absentisme i millora el rendiment.",
+            "Atenció a la conciliació i la prevenció de riscos psicosocials."
+          ]
+        }
+      ],
+      "key": "Atenció al personal: planificar tasques, cuidar el clima, prevenir/resoldre conflictes i incidències."
+    },
+    "88": {
+      "intro": "Règim disciplinari del personal: aplicació, procediment i tipus de sancions (TREBEP).",
+      "sections": [
+        {
+          "h": "Faltes i sancions",
+          "scheme": {
+            "cap": "Règim disciplinari",
+            "body": "FALTES → molt greus / greus / lleus (art. 95)\nSANCIONS (art. 96) → advertiment, suspensió de funcions,\n   demèrit, trasllat forçós, SEPARACIÓ DEL SERVEI\n   (només molt greus)\nPRESCRIPCIÓ → 3 anys (MG) / 2 (G) / 6 mesos (L)"
+          }
+        },
+        {
+          "h": "Procediment",
+          "list": [
+            "Per faltes greus i molt greus: expedient amb garanties (instrucció separada, audiència, prova).",
+            "Principis: legalitat, tipicitat, proporcionalitat, presumpció d'innocència."
+          ]
+        },
+        {
+          "key": "La separació del servei només procedeix per faltes molt greus."
+        }
+      ],
+      "key": "Disciplinari: faltes MG/G/L; sancions fins a separació (només MG); prescripció 3/2/0,5 anys; expedient amb garanties."
     }
   }
 }
