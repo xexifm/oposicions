@@ -624,52 +624,66 @@
       "key": "Menor (118): obres <40.000 €, serveis/subministr. <15.000 € (IVA exclòs); durada ≤1 any no prorrogable. Informe de necessitat + despesa + factura (+pressupost en obres). Prohibit fraccionar per eludir llindars."
     },
     "36": {
-      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats pels danys causats pel funcionament dels serveis públics. Es regula als arts. 32-37 de la Llei 40/2015 i 67, 81, 91-92 de la Llei 39/2015.",
+      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32-37 de la Llei 40/2015 i 65, 67, 81, 91-92, 96 de la Llei 39/2015.",
       "sections": [
         {
           "h": "Requisits",
           "scheme": {
-            "cap": "Requisits de la responsabilitat (art. 32)",
-            "body": "1) LESIÓ real, efectiva, avaluable i individualitzada\n2) ANTIJURIDICITAT → el particular NO té el deure\n   jurídic de suportar el dany\n3) IMPUTACIÓ a l'Administració per funcionament\n   NORMAL o ANORMAL d'un servei públic\n4) NEXE CAUSAL entre actuació i dany\n5) Absència de FORÇA MAJOR (sí indemnitza el cas fortuït)\n→ responsabilitat OBJECTIVA i DIRECTA"
+            "cap": "Requisits (art. 32 Llei 40/2015)",
+            "body": "1) LESIÓ real, efectiva, avaluable econòmicament i\n   INDIVIDUALITZADA en una persona o grup\n2) ANTIJURIDICITAT → el particular NO té el deure jurídic\n   de suportar el dany\n3) IMPUTACIÓ a l'Administració pel funcionament NORMAL o\n   ANORMAL d'un servei públic\n4) NEXE CAUSAL entre l'actuació i el dany\n5) Absència de FORÇA MAJOR (el cas fortuït SÍ indemnitza)\n→ responsabilitat OBJECTIVA i DIRECTA"
           }
+        },
+        {
+          "h": "Danys indemnitzables i quantia",
+          "p": "El dany ha de ser efectiu, avaluable i individualitzat; no s'indemnitzen danys que el particular tingui el deure de suportar (p. ex. càrregues generals). La indemnització (art. 34) es calcula segons els criteris de valoració del dret aplicable (expropiació, fiscal, etc.), referida al dia en què la lesió es va produir efectivament, i s'actualitza a la data de la resolució; es pot abonar en metàl·lic o en espècie."
+        },
+        {
+          "h": "Nexe causal i causes d'exoneració",
+          "p": "Cal acreditar el nexe causal. L'Administració queda exonerada en casos de força major (esdeveniment imprevisible o inevitable, extern al servei) —no així el cas fortuït—. La culpa exclusiva de la víctima o la intervenció d'un tercer poden trencar el nexe causal; la concurrència de causes modula (redueix) la indemnització."
         },
         {
           "h": "Procediment i prescripció",
-          "list": [
-            "Prescripció: 1 any des del fet o, en danys físics/psíquics, des de la curació o determinació de les seqüeles (art. 67).",
-            "Procediment: iniciació (d'ofici o a instància de part), instrucció amb informes i dictamen (Consell Consultiu si la quantia ho exigeix), i resolució.",
-            "Indemnització: reparació integral; es pot actualitzar i abonar en espècie o metàl·lic."
-          ]
-        },
-        {
-          "key": "Pot concórrer la culpa de la víctima (modula o trenca el nexe causal). La força major exonera; el cas fortuït no."
-        }
-      ],
-      "key": "Lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescriu a l'any (seqüeles: des de l'estabilització)."
-    },
-    "44": {
-      "intro": "El règim urbanístic del sòl determina drets i deures segons la classificació. A Catalunya el regula el TRLUC (DL 1/2010) i, supletòriament, la legislació estatal (TRLS RDL 7/2015). Atenció: reforma per Llei 11/2025 i DL 2/2025 (vigent des de 31-12-2025).",
-      "sections": [
-        {
-          "h": "Classes de sòl (TRLUC)",
           "scheme": {
-            "cap": "Classificació del sòl",
-            "body": "SÒL URBÀ\n  • consolidat / no consolidat\n  • té serveis urbanístics bàsics o trama urbana\nSÒL URBANITZABLE\n  • transformable mitjançant planejament derivat\nSÒL NO URBANITZABLE\n  • preservat de la transformació (rústic, protegit…)\n\nSituacions bàsiques (TRLS estatal): RURAL / URBANITZAT"
+            "cap": "Procediment (Llei 39/2015)",
+            "body": "INICIACIÓ → d'ofici o a sol·licitud de l'interessat\nINSTRUCCIÓ → al·legacions, proves, informes; DICTAMEN del\n  Consell consultiu (Comissió Jurídica Assessora) quan la\n  quantia ho exigeixi\nRESOLUCIÓ en 6 mesos (silenci NEGATIU)\nPRESCRIPCIÓ → 1 ANY des del fet o, en danys físics/psíquics,\n  des de la curació o la determinació de les seqüeles"
           }
         },
         {
-          "h": "Conceptes clau",
-          "list": [
-            "Serveis urbanístics bàsics: xarxa viària, abastament d'aigua, sanejament i subministrament elèctric.",
-            "Solar: sòl urbà apte per edificar (té serveis + alineacions/rasants + urbanització bàsica).",
-            "Nucli de població: agrupació d'edificacions que genera necessitats de serveis i pot constituir risc en sòl no urbanitzable."
-          ]
-        },
-        {
-          "key": "Sòl urbà CONSOLIDAT: gairebé sense deures de cessió (només completar urbanització). NO CONSOLIDAT: deures de cessió i urbanització via gestió."
+          "key": "Lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescriu a l'any (seqüeles: des de l'estabilització). Resolució en 6 mesos, silenci negatiu."
         }
       ],
-      "key": "Urbà (consolidat/no consolidat) · urbanitzable · no urbanitzable. Solar = sòl urbà apte per edificar. ⚠️ Reforma 2025 del TRLUC."
+      "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescripció 1 any (seqüeles des de l'estabilització). Resolució 6 mesos, silenci negatiu."
+    },
+    "44": {
+      "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc. ATENCIÓ: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31-12-2025.",
+      "sections": [
+        {
+          "h": "Classificació del sòl",
+          "scheme": {
+            "cap": "Classes de sòl (TRLUC)",
+            "body": "SÒL URBÀ → té els serveis urbanístics bàsics o està\n  comprès en àrees consolidades per l'edificació; es divideix\n  en CONSOLIDAT i NO CONSOLIDAT\nSÒL URBANITZABLE → transformable mitjançant la urbanització,\n  via planejament derivat (delimitat o no delimitat)\nSÒL NO URBANITZABLE → preservat de la transformació\n  (rústic, agrícola, forestal, d'especial protecció...)"
+          }
+        },
+        {
+          "h": "Serveis urbanístics i concepte de solar",
+          "scheme": {
+            "cap": "Conceptes clau",
+            "body": "SERVEIS URBANÍSTICS BÀSICS → xarxa viària amb nivell de\n  consolidació suficient, xarxa d'abastament d'aigua, xarxa\n  de sanejament i subministrament d'energia elèctrica\nSOLAR → sòl urbà APTE per ser edificat: disposa dels serveis,\n  té assenyalades alineacions i rasants i la urbanització\n  bàsica executada o garantida\nNUCLI DE POBLACIÓ → agrupació d'edificacions; en sòl no\n  urbanitzable, se n'evita la formació no planificada"
+          }
+        },
+        {
+          "h": "Sòl urbà consolidat i no consolidat",
+          "p": "El sòl urbà CONSOLIDAT ja té la condició de solar o només requereix completar la urbanització; els seus propietaris tenen deures mínims (acabar la urbanització, edificar). El sòl urbà NO CONSOLIDAT requereix actuacions de transformació o reforma interior i comporta deures de cessió (sòl per a sistemes i aprofitament) i d'urbanització, articulats mitjançant la gestió urbanística."
+        },
+        {
+          "h": "Situacions bàsiques (estatal)",
+          "p": "El TRLS estatal, a efectes de valoració i de drets bàsics, distingeix dues situacions: sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica."
+        },
+        {
+          "key": "Sòl urbà (consolidat/no consolidat) · urbanitzable · no urbanitzable. Solar = sòl urbà amb serveis i urbanització apte per edificar. ⚠️ Reforma 2025 del TRLUC (Llei 11/2025 i DL 2/2025)."
+        }
+      ],
+      "key": "Classificació (TRLUC): urbà (consolidat/no consolidat), urbanitzable, no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament, electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025."
     },
     "56": {
       "intro": "La llicència urbanística és l'acte de control previ amb què el municipi verifica que una actuació s'ajusta a la legalitat urbanística. Es regula als arts. 187 i ss. del TRLUC.",
@@ -1160,150 +1174,193 @@
       "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. Inexactitud essencial → impossibilitat de continuar (69.4)."
     },
     "32": {
-      "intro": "La gestió indirecta dels serveis públics: la concessió. Concepte, potestats, drets i extinció.",
+      "intro": "La gestió indirecta dels serveis públics mitjançant concessió permet que un particular presti, a risc seu, un servei de titularitat pública. Es regula a la legislació de règim local (arts. 85 i ss. LRBRL), al ROAS (D 179/1995) i, pel que fa al contracte, a la LCSP (concessió de serveis).",
       "sections": [
         {
-          "h": "Concepte",
-          "list": [
-            "Forma de gestió indirecta en què un particular presta el servei de titularitat pública, a risc seu.",
-            "L'Administració conserva la titularitat i les potestats d'ordenació i control."
-          ]
+          "h": "Concepte i naturalesa",
+          "p": "La concessió de serveis públics és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació a un concessionari que la realitza al seu risc i ventura, retribuint-se amb les tarifes dels usuaris i/o un preu. No es poden gestionar de manera indirecta els serveis que impliquin exercici d'autoritat."
         },
         {
-          "h": "Relacions i extinció",
+          "h": "Elements i potestats",
           "scheme": {
-            "cap": "Concessió de serveis públics",
-            "body": "POTESTATS AP → ordenar, controlar, modificar, rescatar\nDRETS concessionari → percebre tarifa, equilibri econòmic\nUSUARIS → dret a la prestació en condicions i tarifes aprovades\nEXTINCIÓ → termini, rescat, caducitat, resolució, supressió"
+            "cap": "Concessió de servei públic",
+            "body": "ELEMENTS → subjecte (concessionari), objecte (el servei),\n  i la relació triangular AP–concessionari–usuaris\nPOTESTATS DE L'AP → ordenar i modificar el servei,\n  fiscalitzar-lo, imposar sancions contractuals, rescatar,\n  segrestar (intervenir temporalment), i extingir\nDRETS del concessionari → percebre la retribució i mantenir\n  l'equilibri econòmic"
           }
+        },
+        {
+          "h": "Relacions amb les persones usuàries",
+          "p": "El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, admetre-hi qualsevol usuari que compleixi els requisits reglamentaris i aplicar les tarifes aprovades. Els usuaris tenen dret a la prestació en aquestes condicions i a reclamar; l'Administració garanteix el servei (responsabilitat última)."
+        },
+        {
+          "h": "Extinció",
+          "p": "S'extingeix per: compliment del termini (amb reversió del servei i, si escau, dels béns afectes a l'Administració en bon estat); rescat; caducitat per incompliment del concessionari; resolució per altres causes; o supressió del servei. L'extinció anticipada por generar indemnització."
+        },
+        {
+          "key": "Concessió: titularitat pública + gestió privada a risc. L'AP conserva potestats d'ordenació, control, modificació i rescat. Extinció amb reversió."
         }
       ],
-      "key": "Concessió: titularitat pública, gestió privada a risc; AP conserva ordenació/control; extinció per termini, rescat, caducitat…"
+      "key": "Concessió de servei públic (gestió indirecta): titularitat pública, gestió a risc del concessionari. Potestats de l'AP (ordenar, modificar, rescatar, segrestar). Usuaris: prestació en condicions i tarifes. Extinció amb reversió."
     },
     "33": {
-      "intro": "Altres formes de gestió indirecta: gestió interessada, societats d'economia mixta i cooperatives.",
+      "intro": "A més de la concessió, hi ha altres formes de gestió, directa i indirecta, dels serveis públics. La LRBRL (art. 85) i el ROAS regulen les modalitats i l'elecció ha de respondre a criteris d'eficiència i sostenibilitat.",
       "sections": [
         {
-          "h": "Modalitats",
+          "h": "Formes de gestió",
           "scheme": {
-            "cap": "Formes de gestió de serveis",
-            "body": "DIRECTA → pròpia entitat / OA / EPE / societat 100% pública\nINDIRECTA → concessió, gestió interessada,\n   societat d'economia mixta, concert\nGESTIÓ INTERESSADA → gestor i AP comparteixen resultats\nECONOMIA MIXTA → capital públic i privat"
+            "cap": "Gestió de serveis públics (art. 85 LRBRL)",
+            "body": "DIRECTA →\n  • per la pròpia entitat local (sense òrgan diferenciat)\n  • organisme autònom local\n  • entitat pública empresarial local\n  • societat mercantil local de capital ÍNTEGRAMENT públic\nINDIRECTA → mitjançant contracte (concessió de serveis i\n  altres modalitats), gestió interessada, societat\n  d'economia mixta"
           }
         },
         {
-          "h": "Elecció",
+          "h": "Gestió interessada i economia mixta",
           "list": [
-            "L'elecció de la forma de gestió s'ha de motivar atenent eficiència, sostenibilitat i interès públic.",
-            "Els serveis que impliquin exercici d'autoritat es reserven a la gestió directa."
+            "Gestió interessada: l'empresari i l'Administració participen en els resultats de l'explotació segons una proporció prèviament fixada.",
+            "Societat d'economia mixta: societat mercantil amb capital públic i privat que gestiona el servei.",
+            "Cooperatives o altres entitats amb capital mixt segons la legislació."
           ]
+        },
+        {
+          "h": "Elecció de la forma de gestió",
+          "p": "L'elecció ha de motivar-se atenent l'eficiència i la sostenibilitat (per a la gestió directa mitjançant entitat pública empresarial o societat, cal acreditar-ne la sostenibilitat i eficiència amb una memòria i informes, art. 85.2 LRBRL). Els serveis que comportin exercici d'autoritat es reserven a la gestió per la pròpia entitat o organisme autònom."
+        },
+        {
+          "key": "Gestió directa: pròpia entitat, OA, EPE o societat 100% pública. Indirecta: concessió, gestió interessada, economia mixta. L'autoritat → gestió directa per entitat/OA. Elecció motivada (eficiència/sostenibilitat)."
         }
       ],
-      "key": "Indirecta: concessió, gestió interessada (resultats compartits), economia mixta. Autoritat → només gestió directa."
+      "key": "Gestió de serveis (85 LRBRL): directa (pròpia entitat/OA/EPE/societat 100% pública) o indirecta (concessió, gestió interessada, economia mixta). Autoritat → directa. Elecció motivada per eficiència i sostenibilitat."
     },
     "34": {
-      "intro": "Els consorcis: entitats públiques de base associativa per a finalitats d'interès comú (arts. 118-127 Llei 40/2015).",
+      "intro": "Els consorcis són entitats de dret públic, de base associativa, creades per diverses administracions (o amb entitats privades sense ànim de lucre) per a finalitats d'interès comú. Es regulen als arts. 118-127 de la Llei 40/2015.",
       "sections": [
         {
           "h": "Naturalesa",
-          "list": [
-            "Entitat de dret públic amb personalitat jurídica pròpia, creada per diverses administracions (o amb entitats privades sense ànim de lucre).",
-            "Finalitat d'interès comú; exerceixen activitats de foment, prestació o gestió comuna de serveis."
-          ]
+          "p": "El consorci té personalitat jurídica pròpia i diferenciada; pot dur a terme activitats de foment, prestació o gestió comuna de serveis i altres d'interès comú per a les administracions o entitats consorciades. El seu personal pot procedir de les administracions participants i es regeix per la normativa de l'administració d'adscripció."
         },
         {
-          "h": "Règim",
+          "h": "Creació, estatuts i adscripció",
           "scheme": {
-            "cap": "Consorcis",
-            "body": "CREACIÓ → conveni + ESTATUTS\nADSCRIPCIÓ → a una AP segons criteris de control/finançament\n   (art. 120) → determina règim pressupostari i de control\nPERSONAL → de les administracions participants\nDISSOLUCIÓ → per acord o per les causes estatutàries"
+            "cap": "Règim del consorci",
+            "body": "CREACIÓ → conveni de creació + ESTATUTS (organització,\n  funcionament, fins)\nADSCRIPCIÓ (art. 120) → a una de les administracions\n  participants segons criteris ordenats (control efectiu,\n  finançament majoritari, nombre de vots...)\n→ l'adscripció determina el RÈGIM pressupostari, comptable,\n  de control i de personal aplicable"
           }
+        },
+        {
+          "h": "Funcionament i dissolució",
+          "p": "Els òrgans i el funcionament es fixen als estatuts; el règim jurídic és el de l'administració d'adscripció en pressupost, comptabilitat i control. El consorci es dissol per acord o per les causes estatutàries; la dissolució determina com es liquiden els seus actius i passius i el destí del patrimoni."
+        },
+        {
+          "key": "Consorci: ens públic associatiu d'interès comú. Creació amb conveni + estatuts. L'adscripció (art. 120) a una administració fixa el seu règim pressupostari i de control."
         }
       ],
-      "key": "Consorci: ens públic associatiu d'interès comú; estatuts + adscripció (art. 120) que fixa el règim pressupostari."
+      "key": "Consorcis (118-127 Llei 40/2015): ens públics associatius d'interès comú, amb personalitat pròpia. Creació: conveni + estatuts. Adscripció (120) a una AP → règim pressupostari/comptable/personal."
     },
     "35": {
-      "intro": "Les subvencions de les administracions públiques (Llei 38/2003): pla estratègic, concessió, gestió i reintegrament.",
+      "intro": "Les subvencions són disposicions dineràries a favor de persones o entitats per a una finalitat pública, sense contraprestació directa. La Llei 38/2003, general de subvencions (LGS), i el seu reglament n'estableixen el règim; els ens locals també tenen normativa pròpia (ordenances de subvencions).",
       "sections": [
         {
           "h": "Concepte i principis",
-          "list": [
-            "Lliurament de fons sense contraprestació directa, subjecte al compliment d'un objectiu o projecte.",
-            "Principis: publicitat, transparència, concurrència, objectivitat, igualtat, eficàcia i eficiència."
-          ]
-        },
-        {
-          "h": "Procediment",
           "scheme": {
-            "cap": "Cicle de la subvenció",
-            "body": "PLA ESTRATÈGIC previ → BASES reguladores → CONVOCATÒRIA\nCONCESSIÓ → concurrència competitiva (regla)\n   o directa (nominatives, per llei, interès públic)\nJUSTIFICACIÓ del compliment i la despesa\nREINTEGRAMENT (art. 37) → incompliment, falta de justificació\n   + interès de demora; possible règim sancionador"
+            "cap": "Subvenció (LGS)",
+            "body": "REQUISITS → lliurament sense contraprestació directa,\n  subjecte al compliment d'un objectiu/projecte, i que el\n  projecte tingui per objecte el foment d'una activitat\n  d'utilitat pública o interès social\nPRINCIPIS → publicitat, transparència, concurrència,\n  objectivitat, igualtat i no discriminació; eficàcia i\n  eficiència"
           }
         },
         {
-          "key": "La concessió directa només és excepcional i taxada; el reintegrament procedeix per proporcionalitat."
+          "h": "Pla estratègic i procediment de concessió",
+          "scheme": {
+            "cap": "Concessió de subvencions",
+            "body": "PLA ESTRATÈGIC de subvencions (previ, art. 8)\nBASES reguladores + CONVOCATÒRIA\nProcediment ORDINARI → CONCURRÈNCIA COMPETITIVA (comparació\n  de sol·licituds segons criteris i prelació)\nConcessió DIRECTA (art. 22.2) → només en supòsits taxats:\n  • subvencions NOMINATIVES als pressupostos\n  • imposades per una norma de rang legal\n  • excepcionals per interès públic, social, econòmic o\n    humanitari acreditat"
+          }
+        },
+        {
+          "h": "Obligacions del beneficiari i justificació",
+          "p": "El beneficiari ha de complir l'objectiu i destinar la subvenció a la finalitat concreta, justificar el compliment dels requisits i la realització de l'activitat i la despesa, sotmetre's a les actuacions de comprovació i control, comunicar altres ajuts i, si escau, acreditar estar al corrent d'obligacions tributàries i amb la Seguretat Social."
+        },
+        {
+          "h": "Reintegrament i règim sancionador",
+          "scheme": {
+            "cap": "Reintegrament (art. 37)",
+            "body": "CAUSES → incompliment de l'objectiu/finalitat, falta o\n  insuficiència de justificació, obtenció sense complir\n  condicions, resistència al control...\nEFECTE → reintegrament de la quantia + INTERÈS DE DEMORA\n  des del pagament\nPROPORCIONALITAT → reintegrament PARCIAL segons el grau\n  d'incompliment\n+ règim SANCIONADOR independent (infraccions i sancions)"
+          }
+        },
+        {
+          "key": "Concurrència competitiva (regla); concessió directa només taxada. Reintegrament per incompliment o falta de justificació, amb interès de demora i proporcionalitat."
         }
       ],
-      "key": "Subvenció = fons sense contraprestació per a un fi. Concurrència competitiva (regla). Reintegrament per incompliment + interessos."
+      "key": "Subvencions (LGS 38/2003): fons sense contraprestació per a un fi. Principis: publicitat/concurrència/objectivitat. Pla estratègic + bases + convocatòria; concurrència competitiva (regla), directa (taxada). Reintegrament (37) + interès de demora."
     },
     "37": {
-      "intro": "La responsabilitat patrimonial de les autoritats i del personal al servei de les AP (art. 36 Llei 40/2015).",
+      "intro": "La responsabilitat de les autoritats i del personal al servei de les administracions completa el règim de responsabilitat patrimonial: regula com l'Administració exigeix responsabilitats al seu personal i la responsabilitat en supòsits especials (art. 36 Llei 40/2015).",
       "sections": [
         {
-          "h": "Esquema",
+          "h": "Responsabilitat davant els particulars",
+          "p": "Els particulars exigeixen la responsabilitat directament a l'Administració (no poden demandar directament l'autoritat o el personal). L'Administració respon, doncs, davant el tercer perjudicat; un cop indemnitza, pot exercir l'acció de regrés."
+        },
+        {
+          "h": "Acció de regrés",
           "scheme": {
-            "cap": "Responsabilitat de l'AP i del personal",
-            "body": "DAVANT DEL CIUTADÀ → respon directament l'ADMINISTRACIÓ\n   (no es pot demandar directament l'empleat)\nDESPRÉS → ACCIÓ DE REGRÉS (d'ofici) de l'AP contra el seu\n   personal si hi ha DOL o CULPA/NEGLIGÈNCIA GREUS\nCRITERIS → resultat danyós, grau de culpabilitat,\n   responsabilitat professional i relació amb el dany"
+            "cap": "Regrés contra el personal (art. 36)",
+            "body": "D'OFICI i OBLIGATORI → l'AP exigeix d'ofici al seu personal\n  la responsabilitat quan hagi indemnitzat i hi hagi hagut\n  DOL o CULPA o NEGLIGÈNCIA GREUS\nCRITERIS de ponderació → resultat danyós, grau de\n  culpabilitat, responsabilitat professional i relació amb\n  la producció del dany\nPROCEDIMENT amb audiència; possibilitat de fraccionar"
           }
         },
         {
-          "h": "Notes",
-          "list": [
-            "El particular sempre reclama a l'Administració; aquesta repeteix contra l'empleat només en els casos taxats.",
-            "En via penal, la responsabilitat civil derivada pot exigir-se directament amb l'Administració com a responsable civil subsidiari."
-          ]
+          "h": "Responsabilitat penal i altres",
+          "p": "Si el dany deriva d'un delicte, l'exigència de responsabilitat civil es pot fer en el procés penal, amb l'Administració com a responsable civil subsidiària. La responsabilitat disciplinària del personal és independent de la patrimonial. També existeix responsabilitat de l'Estat legislador (per lleis inconstitucionals o contràries al dret de la UE, amb requisits, art. 32.3-32.6) i per error judicial."
+        },
+        {
+          "key": "El ciutadà reclama a l'Administració; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus. La responsabilitat penal i la disciplinària són independents."
         }
       ],
-      "key": "El ciutadà reclama a l'AP; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus."
+      "key": "Responsabilitat del personal (36): el ciutadà reclama a l'AP; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus. AP = responsable civil subsidiari en via penal. Responsabilitat de l'Estat legislador (32.3-6)."
     },
     "38": {
-      "intro": "Els béns de les entitats locals: concepte, classificació, alteració de la qualificació i tràfic jurídic (Llei 33/2003; D 336/1988).",
+      "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988 (Reglament del patrimoni dels ens locals).",
       "sections": [
         {
-          "h": "Classificació",
+          "h": "Classificació dels béns",
           "scheme": {
             "cap": "Béns de les EELL",
-            "body": "DOMINI PÚBLIC (demanials)\n  • ús públic (carrers, places, camins)\n  • servei públic (edificis, escoles)\n  → inalienables, imprescriptibles, inembargables\nPATRIMONIALS (de propis)\n  → règim de dret privat; poden alienar-se amb procediment\nCOMUNALS → aprofitament del comú dels veïns (demanials)"
+            "body": "DOMINI PÚBLIC (DEMANIALS)\n  • d'ÚS PÚBLIC: carrers, places, parcs, camins, ponts...\n  • de SERVEI PÚBLIC: edificis i instal·lacions afectes a\n    serveis (escoles, mercats, cementiris...)\n  → INALIENABLES, IMPRESCRIPTIBLES i INEMBARGABLES\nPATRIMONIALS (DE PROPIS) → no afectes a ús o servei públic;\n  règim de dret privat; produeixen rendes\nCOMUNALS → demanials; aprofitament del COMÚ dels veïns"
           }
         },
         {
-          "h": "Alteració i ús",
-          "list": [
-            "Afectació/desafectació: requereix expedient (oportunitat i legalitat), amb informació pública.",
-            "Usos del demani: comú general (lliure), comú especial (autorització) i privatiu (concessió)."
-          ]
+          "h": "Alteració de la qualificació jurídica",
+          "p": "L'afectació vincula un bé a un ús o servei públic; la desafectació el converteix en patrimonial; la mutació demanial canvia la destinació dins el domini públic. L'alteració de la qualificació jurídica exigeix, en general, expedient que n'acrediti l'oportunitat i la legalitat, amb informació pública (excepte supòsits d'alteració automàtica, p. ex. per aprovació de planejament o projectes d'obres)."
         },
         {
-          "key": "Mutació demanial: canvi de destí dins del domini públic sense desafectar."
+          "h": "Tràfic jurídic i utilització",
+          "scheme": {
+            "cap": "Usos del domini públic",
+            "body": "ÚS COMÚ GENERAL → de tothom, per igual; LLIURE\nÚS COMÚ ESPECIAL → intensitat especial (taules, parades);\n  AUTORITZACIÓ\nÚS PRIVATIU → ocupació excloent amb instal·lacions fixes;\n  CONCESSIÓ administrativa\nEls béns patrimonials es regeixen pel dret privat i poden\n  alienar-se mitjançant el procediment legal (subhasta,\n  concurs o, excepcionalment, directa)"
+          }
+        },
+        {
+          "key": "Demanials: inalienables, imprescriptibles, inembargables. Patrimonials: dret privat, rendes. Alteració de la qualificació amb expedient. Usos: comú general (lliure), especial (autorització), privatiu (concessió)."
         }
       ],
-      "key": "Béns: demanials (ús/servei públic, inalienables) i patrimonials (dret privat). Alteració amb expedient."
+      "key": "Béns: demanials (ús/servei públic; inalienables, imprescriptibles, inembargables), patrimonials (dret privat) i comunals (aprofitament veïnal). Alteració amb expedient. Usos: comú general/especial/privatiu (concessió)."
     },
     "39": {
-      "intro": "Béns de domini públic i patrimonials: prerrogatives i potestats, inventari i defensa (Llei 33/2003).",
+      "intro": "Els béns de domini públic i els patrimonials disposen de prerrogatives i potestats per a la seva protecció i defensa, i les entitats locals han de formar i mantenir un inventari (Llei 33/2003; D 336/1988).",
       "sections": [
         {
-          "h": "Prerrogatives",
+          "h": "Prerrogatives i potestats",
           "scheme": {
             "cap": "Potestats sobre els béns",
-            "body": "INVESTIGACIÓ → esbrinar la titularitat\nLLINDAMENT (deslinde) → fixar límits\nRECUPERACIÓ D'OFICI → de la possessió (sense límit en demanials)\nDESNONAMENT ADMINISTRATIU → de béns demanials\nINVENTARI → de tots els béns i drets (rectificació anual)"
+            "body": "INVESTIGACIÓ → esbrinar la titularitat dels béns que es\n  presumeixin de l'entitat\nLLINDAMENT (deslinde) → delimitar els límits amb altres\n  finques\nRECUPERACIÓ D'OFICI de la possessió → en demanials, en\n  qualsevol moment; en patrimonials, dins l'any de la usurpa.\nDESNONAMENT ADMINISTRATIU → recuperar la possessió de béns\n  demanials ocupats sense títol\nFACULTAT de no prescripció dels demanials"
           }
         },
         {
-          "h": "Inventari i defensa",
-          "list": [
-            "L'inventari comprèn tots els béns i drets, s'aprova pel Ple i es rectifica anualment.",
-            "Deure de conservar, protegir i defensar els béns; els comunals tenen règim especial d'aprofitament."
-          ]
+          "h": "Béns de domini públic i patrimonials",
+          "p": "Els béns de domini públic estan subjectes als principis d'inalienabilitat, imprescriptibilitat i inembargabilitat (art. 132 CE). Els patrimonials es regeixen pel dret privat però amb especialitats administratives (procediment d'alienació, destinació dels rendiments). Els béns comunals tenen un règim especial d'aprofitament pels veïns."
+        },
+        {
+          "h": "Inventari, conservació i defensa",
+          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, sigui quina sigui la seva naturalesa, que s'aprova pel Ple i es rectifica anualment (i es comprova en renovar-se la corporació). L'inventari no és títol de propietat, però facilita la defensa. Existeix el deure de conservar, protegir i defensar els béns; la utilització i l'aprofitament s'ajusten a la seva qualificació."
+        },
+        {
+          "key": "Potestats: investigació, llindament, recuperació d'ofici, desnonament administratiu. Demanials no prescriuen. Inventari de tots els béns, aprovat pel Ple i rectificat anualment."
         }
       ],
-      "key": "Potestats: investigació, llindament, recuperació d'ofici, desnonament. Inventari anual de tots els béns."
+      "key": "Béns: prerrogatives (investigació, llindament, recuperació d'ofici, desnonament). Demanials inalienables/imprescriptibles/inembargables (132 CE). Inventari de tots els béns, aprovat pel Ple, rectificació anual."
     },
     "40": {
       "intro": "El pressupost general de les entitats locals desplega la seva eficàcia mitjançant l'execució i finalitza amb la liquidació. El RD 500/1990 desenvolupa el TRLHL en matèria pressupostària.",
@@ -1416,64 +1473,79 @@
       "key": "Recursos (art. 2 TRLHL): tributs propis (taxes, contribucions especials, impostos —IBI/IAE/IVTM obligatoris; ICIO/plusvàlua potestatius—), transferències, ingressos de dret privat, subvencions, preus públics, crèdit."
     },
     "45": {
-      "intro": "Situacions bàsiques del sòl (TRLS estatal, RDL 7/2015): sòl rural i sòl urbanitzat.",
+      "intro": "Les situacions bàsiques del sòl són la categorització que fa la legislació estatal (TRLS, RDL 7/2015) a efectes de drets i deures bàsics i, sobretot, de valoració: sòl rural i sòl urbanitzat.",
       "sections": [
         {
-          "h": "Les dues situacions",
+          "h": "Sòl rural",
           "scheme": {
-            "cap": "Situacions bàsiques del sòl",
-            "body": "RURAL\n  • preservat de la transformació urbanística\n  • el que encara no s'ha urbanitzat (en transformació)\n  → valoració per capitalització de rendes\nURBANITZAT\n  • integrat de forma legal i efectiva a la malla urbana\n  → valoració per l'edificabilitat i ús (repercussió)"
+            "cap": "Situació de sòl RURAL",
+            "body": "COMPRÈN →\n  • el sòl preservat de la transformació urbanística (per\n    ordenació o per valors a protegir)\n  • el sòl per al qual els instruments d'ordenació prevegin\n    la transformació, MENTRE no s'hagi acabat la urbanització\nVALORACIÓ → per CAPITALITZACIÓ de la renda (real o potencial)\n  de l'explotació, SENSE expectatives urbanístiques"
           }
         },
         {
-          "h": "Relació amb la classificació",
-          "list": [
-            "La situació bàsica (estatal, a efectes de valoració) no coincideix necessàriament amb la classe de sòl (autonòmica).",
-            "En sòl rural no es computen expectatives urbanístiques."
-          ]
+          "h": "Sòl urbanitzat",
+          "scheme": {
+            "cap": "Situació de sòl URBANITZAT",
+            "body": "COMPRÈN → el sòl integrat de manera LEGAL i EFECTIVA a la\n  xarxa de dotacions i serveis propis dels nuclis de població\nVALORACIÓ → per l'edificabilitat i l'ús atribuïts, aplicant\n  el VALOR DE REPERCUSSIÓ del sòl; si està edificat, el major\n  entre aquest i el de taxació conjunta"
+          }
+        },
+        {
+          "h": "Efectes de la situació bàsica",
+          "p": "La situació bàsica determina el contingut del dret de propietat (facultats i deures) i el criteri de valoració en expropiacions, reparcel·lacions i responsabilitat. És independent de la classificació urbanística: un sòl classificat com a urbanitzable però encara no urbanitzat es valora com a rural (sense computar expectatives)."
+        },
+        {
+          "key": "Dues situacions: rural (capitalització de rendes, sense expectatives) i urbanitzat (edificabilitat × valor de repercussió). Determinen drets bàsics i valoració, amb independència de la classe de sòl."
         }
       ],
-      "key": "Estatal: rural (capitalització de rendes) i urbanitzat (edificabilitat/repercussió). Sense expectatives en rural."
+      "key": "Situacions bàsiques (TRLS estatal): RURAL (capitalització de rendes, sense expectatives) i URBANITZAT (integrat a la malla; edificabilitat × repercussió). Determinen valoració i drets bàsics, independents de la classificació."
     },
     "46": {
-      "intro": "Reserves per a sistemes urbanístics generals i locals; compatibilitat amb qualificacions d'aprofitament privat (TRLUC).",
+      "intro": "Les reserves per a sistemes urbanístics generals i locals garanteixen el sòl per a les dotacions col·lectives (vialitat, espais lliures, equipaments) i la seva compatibilitat amb les qualificacions d'aprofitament privat (TRLUC).",
       "sections": [
         {
-          "h": "Sistemes",
+          "h": "Sistemes generals i locals",
           "scheme": {
             "cap": "Sistemes urbanístics",
-            "body": "GENERALS → estructuren el territori (abast municipal)\n   • vialitat, espais lliures, equipaments, serveis tècnics\nLOCALS → serveixen un sector/àmbit concret\nReserves mínimes (estàndards) per a espais lliures,\n   equipaments i habitatge protegit"
+            "body": "GENERALS → estructuren el territori i el desenvolupament\n  urbà del municipi (xarxa viària bàsica, grans espais\n  lliures, equipaments d'abast general, serveis tècnics)\nLOCALS → donen servei a un sector o àmbit d'actuació concret\n  (vialitat, zones verdes i equipaments de barri)\nEls dos s'afecten a USOS PÚBLICS"
           }
+        },
+        {
+          "h": "Estàndards i reserves mínimes",
+          "p": "El planejament ha de preveure reserves mínimes de sòl (estàndards) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o als habitatges previstos. Aquestes reserves asseguren la qualitat urbana i l'equilibri entre l'aprofitament privat i les dotacions."
         },
         {
           "h": "Obtenció i qualificació",
-          "list": [
-            "Els sistemes s'obtenen per cessió (en actuacions), expropiació o ocupació directa.",
-            "La qualificació assigna usos i intensitats; els sistemes són sòl d'ús públic."
-          ]
+          "p": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions de transformació (reparcel·lació), per expropiació o per ocupació directa. La qualificació urbanística assigna a cada sòl un ús i una intensitat (zones d'aprofitament privat) o el destina a sistema (ús públic); la classificació, en canvi, fixa la classe de sòl."
+        },
+        {
+          "key": "Sistemes generals (estructuren el municipi) i locals (un sector). Estàndards mínims d'espais lliures i equipaments. S'obtenen per cessió, expropiació o ocupació directa."
         }
       ],
-      "key": "Sistemes generals (estructuren el municipi) i locals (un sector). Estàndards mínims. Obtenció per cessió/expropiació."
+      "key": "Sistemes urbanístics: generals (estructuren el municipi) i locals (un sector); ús públic. Estàndards/reserves mínimes (zones verdes, equipaments, habitatge protegit). Obtenció: cessió, expropiació, ocupació directa."
     },
     "47": {
-      "intro": "L'aprofitament urbanístic: concepte i ponderació (TRLUC).",
+      "intro": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl. La seva ponderació permet l'equidistribució de beneficis i càrregues (TRLUC).",
       "sections": [
         {
           "h": "Concepte",
-          "list": [
-            "Mesura de les facultats d'ús i edificació que el planejament atribueix al sòl (edificabilitat × usos).",
-            "L'aprofitament que excedeix el susceptible d'apropiació pel privat correspon a l'Administració (deure de cessió)."
-          ]
+          "p": "L'aprofitament urbanístic és el resultat de ponderar l'edificabilitat (sostre edificable) atribuïda pel planejament pels usos i les tipologies previstes. Determina el contingut econòmic del dret de propietat del sòl. L'aprofitament que excedeix el susceptible d'apropiació privada correspon a l'Administració (deure de cessió de sòl amb aprofitament)."
         },
         {
-          "h": "Ponderació i equidistribució",
+          "h": "Ponderació",
           "scheme": {
-            "cap": "Aprofitament",
-            "body": "PONDERACIÓ → coeficients que homogeneïtzen usos i situacions\nAPROFITAMENT MITJÀ → instrument d'equidistribució en sectors\nCESSIÓ → % de l'aprofitament a l'Administració (urbanitzable)\n→ repartiment just de beneficis i càrregues"
+            "cap": "Ponderació de l'aprofitament",
+            "body": "COEFICIENTS → homogeneïtzen els diferents usos i tipologies\n  i les seves localitzacions (p. ex. residencial vs\n  industrial; zones de més o menys valor)\nAPROFITAMENT URBANÍSTIC → edificabilitat × coeficients d'ús\nServeix per comparar i repartir de manera justa entre\n  propietaris amb situacions diferents"
           }
+        },
+        {
+          "h": "Aprofitament mitjà i equidistribució",
+          "p": "En els sectors de planejament derivat (i en polígons d'actuació), es defineix un aprofitament mitjà (o urbanístic de referència) que permet distribuir equitativament beneficis i càrregues entre tots els propietaris del sector, amb independència de la qualificació concreta de cada finca. El propietari té dret a l'aprofitament susceptible d'apropiació (un percentatge del mitjà) i ha de cedir la resta a l'Administració."
+        },
+        {
+          "key": "Aprofitament = edificabilitat ponderada per usos. L'aprofitament mitjà permet l'equidistribució; el propietari s'apropia d'un percentatge i cedeix l'excés a l'Administració."
         }
       ],
-      "key": "Aprofitament = edificabilitat ponderada per usos. Aprofitament mitjà per equidistribuir; cessió a l'Administració."
+      "key": "Aprofitament urbanístic: edificabilitat ponderada per coeficients d'ús. Aprofitament mitjà → equidistribució de beneficis i càrregues. El privat s'apropia d'un % i cedeix l'excés a l'AP."
     },
     "48": {
       "intro": "Drets i deures de les persones propietàries; règim del subsol i deure de cessió (TRLUC).",
