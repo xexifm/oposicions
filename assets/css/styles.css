@@ -170,8 +170,18 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
 .sticky-bar{position:sticky;bottom:0;background:linear-gradient(transparent,var(--paper) 30%);
   padding-top:14px;margin-top:8px}
 
-/* timer */
-.timer{font-variant-numeric:tabular-nums;font-weight:700;font-family:var(--serif)}
+/* barra d'examen fixa (sticky) amb cronòmetre i pausa */
+.exambar{position:sticky;top:56px;z-index:30;background:rgba(243,239,230,.97);backdrop-filter:blur(8px);
+  border:1px solid var(--line);border-radius:12px;padding:9px 12px;margin:0 0 14px;box-shadow:var(--shadow-sm)}
+.exambar-row{display:flex;align-items:center;gap:10px}
+.timer{font-variant-numeric:tabular-nums;font-weight:700;font-family:var(--serif);font-size:1.15rem;
+  background:var(--paper-2);border:1px solid var(--line);border-radius:8px;padding:3px 10px;min-width:78px;text-align:center}
+.timer.danger{color:#fff;background:var(--red);border-color:var(--red)}
+.timer.paused{opacity:.55;text-decoration:line-through}
+.timerbtn{padding:7px 12px;font-size:.9rem;white-space:nowrap}
+.resumlink{text-decoration:none;background:var(--crimson);color:#fff;border-color:var(--crimson)}
+.resumlink:hover{background:var(--crimson-deep)}
+@media(max-width:720px){.exambar{top:62px}}
 
 /* ---- Rubric / cases ---- */
 .crit{display:flex;gap:11px;align-items:flex-start;padding:11px 13px;border:1px solid var(--line);
@@ -214,12 +224,11 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
 .summary p{margin:.5em 0}
 .summary .keyfact{background:var(--amber-bg);border-left:4px solid var(--amber);padding:10px 14px;
   border-radius:0 8px 8px 0;margin:12px 0}
-.scheme{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0;
-  overflow-x:auto}
-.scheme pre{margin:0;font-family:'Public Sans',ui-monospace,monospace;font-size:.86rem;line-height:1.45;
-  color:var(--ink);white-space:pre}
-.scheme .cap{font-size:.78rem;color:var(--ink-faint);font-weight:700;text-transform:uppercase;
+.scheme{background:#fbfaf7;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0}
+.scheme .cap{font-size:.78rem;color:var(--crimson);font-weight:700;text-transform:uppercase;
   letter-spacing:.05em;margin-bottom:8px}
+.scheme .sline{font-size:.92rem;line-height:1.5;color:var(--ink);overflow-wrap:break-word;word-break:break-word}
+.scheme .sgap{height:.5em}
 .srclist{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 .srcchip{display:inline-flex;align-items:center;gap:5px;text-decoration:none;font-weight:600;font-size:.82rem;
   background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--crimson)}

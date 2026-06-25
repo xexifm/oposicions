@@ -1,7 +1,7 @@
 /* Service worker — offline-first per estudiar sense connexió.
    Precarrega tot el contingut (resums i tests) i, quan hi ha xarxa,
    actualitza les dades. El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v3';
+const CACHE = 'montornes-oposicio-v4';
 const ASSETS = [
   './',
   './index.html',

@@ -241,10 +241,24 @@ function renderResum(r){
     if (s.p) html += `<p>${esc(s.p)}</p>`;
     if (s.list) html += `<ul>${s.list.map(li=>`<li>${esc(li)}</li>`).join('')}</ul>`;
     if (s.key) html += `<div class="keyfact">💡 ${esc(s.key)}</div>`;
-    if (s.scheme) html += `<div class="scheme"><div class="cap">${esc(s.scheme.cap||'Esquema')}</div><pre>${esc(s.scheme.body)}</pre></div>`;
+    if (s.scheme) html += renderScheme(s.scheme);
   });
   if (r.key) html += `<div class="keyfact">💡 <b>Clau:</b> ${esc(r.key)}</div>`;
   return html;
+}
+
+/* Renderitza un "esquema" com a text normal que s'ajusta a la pantalla
+   (sense desplaçament horitzontal): cada línia és una fila indentada que ajusta. */
+function renderScheme(sc){
+  const lines = String(sc.body||'').split('\n');
+  let rows = '';
+  for (const ln of lines){
+    if (!ln.trim()){ rows += '<div class="sgap"></div>'; continue; }
+    const indent = ln.length - ln.replace(/^\s+/,'').length;
+    const lvl = Math.min(Math.floor(indent/2), 6);
+    rows += `<div class="sline" style="padding-left:${lvl*0.8}em">${esc(ln.trim())}</div>`;
+  }
+  return `<div class="scheme"><div class="cap">${esc(sc.cap||'Esquema')}</div>${rows}</div>`;
 }
 
 /* ===========================================================================
@@ -337,22 +351,33 @@ function startExam(cfg){
   examRunning();
 }
 
+function themeLabel(n){
+  const t = DATA.temari.temari.find(x=>x.num===Number(n));
+  if(!t) return `<span class="pill">Tema ${n||'—'}</span>`;
+  const short = t.title.length>64 ? t.title.slice(0,64).trim()+'…' : t.title;
+  return `<span class="pill">Tema ${n}: ${esc(short)}</span>`
+    + `<a class="pill resumlink" href="#/tema/${n}" target="_blank" rel="noopener" title="Consulta el resum d'aquest tema">📖 resum</a>`;
+}
+
 function examRunning(){
   const { qs, cs } = examState;
   const caseMax = cs.length ? +(45/cs.length).toFixed(2) : 0;
-  let html = `<div class="between">
-      <h1 style="margin:0">Examen en curs</h1>
-      ${examState.deadline?'<span class="timer pill amber" id="timer">--:--</span>':''}
-    </div>
-    <div class="progress"><i id="prog" style="width:0%"></i></div>
-    <p class="muted" id="progtext" style="font-size:.85rem"></p>`;
+  let html = `<h1 style="margin:0 0 6px">Examen en curs</h1>
+    <div class="exambar" id="exambar">
+      <div class="exambar-row">
+        <div class="progress" style="flex:1;margin:0"><i id="prog" style="width:0%"></i></div>
+        ${examState.deadline?`<span class="timer" id="timer">--:--</span>
+          <button class="btn ghost timerbtn" id="pauseBtn" type="button" title="Atura/Reprèn el cronòmetre">⏸ Pausa</button>`:''}
+      </div>
+      <p class="muted" id="progtext" style="font-size:.8rem;margin:6px 0 0"></p>
+    </div>`;
 
   if (qs.length){
     html += `<h2 style="margin-top:18px">Prova 1 · Tipus test <span class="pill">${qs.length} preguntes · 25 punts</span></h2>`;
     qs.forEach((q,i)=>{
       html += `<div class="card" data-q="${i}">
         <div class="qmeta"><span class="qnum">Pregunta ${i+1}</span>
-          <span class="pill">Tema ${q.theme||'—'}</span></div>
+          ${themeLabel(q.theme)}</div>
         <p style="font-weight:500;font-size:1.05rem">${esc(q.q)}</p>
         <div class="opts">${q.options.map((o,oi)=>`
           <button class="opt" data-q="${i}" data-o="${oi}">
@@ -364,7 +389,7 @@ function examRunning(){
     html += `<h2 style="margin-top:22px">Prova 2 · Teòric-pràctica <span class="pill">${cs.length} cas(os) · 45 punts</span></h2>`;
     cs.forEach((c,i)=>{
       html += `<div class="card">
-        <div class="qmeta"><span class="qnum">Cas ${i+1}</span><span class="pill">Tema ${c.theme}</span>
+        <div class="qmeta"><span class="qnum">Cas ${i+1}</span>${themeLabel(c.theme)}
           <span class="pill amber">fins a ${fmt(caseMax)} punts</span></div>
         <h3>${esc(c.title)}</h3>
         <p><b>Context.</b> ${esc(c.context)}</p>
@@ -394,6 +419,9 @@ function examRunning(){
     if (unanswered>0 && !confirm(`Tens ${unanswered} pregunta(es) test sense contestar (no resten punts). Vols corregir igualment?`)) return;
     finishExam();
   });
+  const pauseBtn = byId('pauseBtn');
+  if (pauseBtn) pauseBtn.addEventListener('click', togglePause);
+  examState.paused = false; examState.remaining = 0;
   updateProgress();
   startTimer();
 }
@@ -408,17 +436,33 @@ function updateProgress(){
 let timerInt=null;
 function startTimer(){
   clearInterval(timerInt);
-  if (!examState.deadline) return;
+  if (!examState.deadline || examState.paused) return;
   const tick = ()=>{
-    const left = examState.deadline - Date.now();
     const el = byId('timer'); if(!el){ clearInterval(timerInt); return; }
+    const left = examState.deadline - Date.now();
     if (left<=0){ clearInterval(timerInt); el.textContent='00:00'; if(!examState.submitted) finishExam(); return; }
     const m = Math.floor(left/60000), s = Math.floor((left%60000)/1000);
     el.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-    el.classList.toggle('amber', left>300000);
-    el.style.color = left<=300000 ? 'var(--red)' : '';
+    el.classList.toggle('danger', left<=300000); // vermell als últims 5 min
   };
   tick(); timerInt=setInterval(tick,1000);
+}
+function togglePause(){
+  if (!examState.deadline) return;
+  const btn = byId('pauseBtn'), el = byId('timer');
+  if (examState.paused){            // reprèn
+    examState.deadline = Date.now() + (examState.remaining||0);
+    examState.paused = false;
+    if (btn) btn.textContent = '⏸ Pausa';
+    if (el) el.classList.remove('paused');
+    startTimer();
+  } else {                          // atura
+    examState.remaining = examState.deadline - Date.now();
+    examState.paused = true;
+    clearInterval(timerInt);
+    if (btn) btn.textContent = '▶ Reprèn';
+    if (el) el.classList.add('paused');
+  }
 }
 
 /* ===========================================================================
@@ -552,7 +596,7 @@ function renderReviewA(){
     const status = a===null?'<span class="pill">En blanc</span>'
       : a===q.correct?'<span class="pill green">Correcta</span>':'<span class="pill" style="background:var(--red-bg);color:var(--red);border-color:#e6c2bd">Incorrecta</span>';
     return `<div class="card">
-      <div class="qmeta"><span class="qnum">Pregunta ${i+1}</span> ${status} <span class="pill">Tema ${q.theme||'—'}</span></div>
+      <div class="qmeta"><span class="qnum">Pregunta ${i+1}</span> ${status} ${themeLabel(q.theme)}</div>
       <p style="font-weight:500">${esc(q.q)}</p>${opts}
       ${q.explain?`<div class="explain">${esc(q.explain)}
         ${src?`<br><a class="src" href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.name)}${q.article?', '+esc(q.article):''} ↗</a>`:''}</div>`:''}
