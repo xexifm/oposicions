@@ -6,126 +6,6 @@
   },
   "questions": [
     {
-      "theme": 1,
-      "block": 1,
-      "q": "La Constitució espanyola de 1978 es va aprovar definitivament:",
-      "options": [
-        "Per referèndum del poble espanyol el 6 de desembre de 1978",
-        "Únicament per les Corts Generals",
-        "Per decret del Govern",
-        "Pel Rei en exercici de la seva prerrogativa"
-      ],
-      "correct": 0,
-      "explain": "La CE va ser ratificada en referèndum el 6-12-1978 i sancionada pel Rei el 27-12-1978.",
-      "source": "CE1978",
-      "article": "CE 1978"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Quin títol de la Constitució conté els drets fonamentals i les llibertats públiques amb major protecció (recurs d'empara)?",
-      "options": [
-        "Títol preliminar",
-        "Secció 1a del Capítol II del Títol I",
-        "Títol VIII",
-        "Títol X"
-      ],
-      "correct": 1,
-      "explain": "Els drets de la Secció 1a, Cap. II, Títol I (arts. 15-29) gaudeixen de la màxima protecció, inclòs el recurs d'empara.",
-      "source": "CE1978",
-      "article": "arts. 15-29 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Segons l'article 1.1 CE, Espanya es constitueix en un:",
-      "options": [
-        "Estat social i democràtic de dret",
-        "Estat confederal",
-        "Estat unitari centralitzat",
-        "Estat federal"
-      ],
-      "correct": 0,
-      "explain": "L'art. 1.1 CE proclama l'Estat social i democràtic de dret, que propugna com a valors superiors la llibertat, la justícia, la igualtat i el pluralisme polític.",
-      "source": "CE1978",
-      "article": "art. 1.1 CE"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "L'Estatut d'autonomia de Catalunya vigent és:",
-      "options": [
-        "La Llei orgànica 6/2006, de 19 de juliol",
-        "La Llei 4/1979",
-        "El Decret 1/2010",
-        "La Llei orgànica 4/2000"
-      ],
-      "correct": 0,
-      "explain": "L'EAC vigent és la LO 6/2006, de 19 de juliol, de reforma de l'Estatut d'autonomia de Catalunya.",
-      "source": "EAC2006",
-      "article": "LO 6/2006"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "Quins ens integren l'Administració local segons la legislació bàsica de règim local?",
-      "options": [
-        "Només els municipis",
-        "El municipi, la província i l'illa, i altres entitats que la llei reconegui",
-        "Únicament les comunitats autònomes",
-        "El municipi i l'Estat"
-      ],
-      "correct": 1,
-      "explain": "L'art. 3 LRBRL reconeix com a entitats locals territorials el municipi, la província i l'illa, i com a entitats les comarques, àrees metropolitanes, mancomunitats i entitats d'àmbit inferior al municipi.",
-      "source": "LRBRL",
-      "article": "art. 3 LRBRL"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "En els municipis de règim comú, són òrgans necessaris:",
-      "options": [
-        "L'Alcalde, els tinents d'alcalde i el Ple",
-        "Només l'Alcalde",
-        "La Junta de Govern Local en tots els casos",
-        "El Consell d'Empadronament"
-      ],
-      "correct": 0,
-      "explain": "Són òrgans necessaris l'Alcalde, els tinents d'alcalde i el Ple; la Junta de Govern Local existeix als municipis de més de 5.000 habitants o quan ho acordi el Ple.",
-      "source": "LRBRL",
-      "article": "art. 20 LRBRL"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "L'aprovació dels pressupostos municipals correspon a:",
-      "options": [
-        "L'Alcalde",
-        "El Ple",
-        "La Junta de Govern Local",
-        "La Comissió Especial de Comptes"
-      ],
-      "correct": 1,
-      "explain": "L'aprovació del pressupost és una competència indelegable del Ple (art. 22 LRBRL).",
-      "source": "LRBRL",
-      "article": "art. 22.2.e LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Les competències municipals poden ser:",
-      "options": [
-        "Pròpies, delegades i, a més, l'exercici d'activitats complementàries",
-        "Només pròpies",
-        "Només delegades per l'Estat",
-        "Exclusivament les que decideixi l'Alcalde"
-      ],
-      "correct": 0,
-      "explain": "Els municipis exerceixen competències pròpies i atribuïdes per delegació (arts. 7, 25 i 27 LRBRL).",
-      "source": "LRBRL",
-      "article": "arts. 7, 25 LRBRL"
-    },
-    {
       "theme": 10,
       "block": 2,
       "q": "Quan un termini està fixat en dies i no s'indica res més, s'entén que es tracta de dies:",
@@ -1281,21 +1161,6 @@
       "article": "codi de conducta, Llei 19/2014"
     },
     {
-      "theme": 3,
-      "block": 1,
-      "q": "La província, com a entitat local, es defineix com:",
-      "options": [
-        "Una agrupació de municipis amb personalitat jurídica pròpia",
-        "Una part de l'Estat sense autonomia",
-        "Una empresa pública",
-        "Un departament autonòmic"
-      ],
-      "correct": 0,
-      "explain": "La província és una entitat local determinada per l'agrupació de municipis, amb personalitat jurídica pròpia i autonomia per gestionar els seus interessos (art. 141 CE; LRBRL).",
-      "source": "LRBRL",
-      "article": "art. 31 LRBRL"
-    },
-    {
       "theme": 23,
       "block": 5,
       "q": "La subcontractació en els contractes del sector públic:",
@@ -1401,21 +1266,6 @@
       "article": "legislació de règim local i LCSP"
     },
     {
-      "theme": 2,
-      "block": 1,
-      "q": "Entre les competències de la Generalitat reconegudes a l'Estatut hi ha:",
-      "options": [
-        "La defensa nacional",
-        "Competències en urbanisme, habitatge i règim local, entre altres",
-        "La política monetària",
-        "Les relacions internacionals com a Estat"
-      ],
-      "correct": 1,
-      "explain": "L'EAC atribueix a la Generalitat competències en matèries com urbanisme, habitatge, ordenació del territori i règim local (dins el marc constitucional).",
-      "source": "EAC2006",
-      "article": "LO 6/2006"
-    },
-    {
       "theme": 46,
       "block": 11,
       "q": "Els sistemes urbanístics generals comprenen, entre d'altres:",
@@ -1491,21 +1341,6 @@
       "article": "art. 145 LCSP"
     },
     {
-      "theme": 5,
-      "block": 1,
-      "q": "Una competència delegada al municipi:",
-      "options": [
-        "S'exerceix amb total independència de l'administració delegant",
-        "S'exerceix en els termes de la delegació, que pot preveure tècniques de direcció i control",
-        "No existeix",
-        "És irrevocable"
-      ],
-      "correct": 1,
-      "explain": "Art. 27 LRBRL: la delegació es fa amb la corresponent dotació i pot preveure tècniques de direcció i control d'oportunitat i eficiència per l'administració delegant.",
-      "source": "LRBRL",
-      "article": "art. 27 LRBRL"
-    },
-    {
       "theme": 45,
       "block": 11,
       "q": "Les situacions bàsiques del sòl, segons la legislació estatal, són:",
@@ -1536,21 +1371,6 @@
       "article": "art. 169.6 TRLHL"
     },
     {
-      "theme": 1,
-      "block": 1,
-      "q": "La reforma de la Constitució per la via agreujada (Títol X) pot exigir:",
-      "options": [
-        "Només una llei ordinària",
-        "Majories qualificades, dissolució de les Corts i referèndum",
-        "La decisió del Govern",
-        "Un decret llei"
-      ],
-      "correct": 1,
-      "explain": "La reforma agreujada (art. 168 CE) exigeix majoria de 2/3, dissolució de les Corts, ratificació per les noves cambres i referèndum.",
-      "source": "CE1978",
-      "article": "art. 168 CE"
-    },
-    {
       "theme": 56,
       "block": 12,
       "q": "Estan subjectes a llicència urbanística, amb caràcter general:",
@@ -1579,126 +1399,6 @@
       "explain": "Art. 32.1 Llei 40/2015: els particulars no tenen dret a indemnització en els casos de força major (que sí exonera, a diferència del cas fortuït).",
       "source": "L40_2015",
       "article": "art. 32.1 Llei 40/2015"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "El dret a la tutela judicial efectiva (art. 24 CE) està:",
-      "options": [
-        "Al Capítol III com a principi rector",
-        "A la Secció 1a del Capítol II, amb protecció d'empara",
-        "Al Títol preliminar",
-        "Fora del Títol I"
-      ],
-      "correct": 1,
-      "explain": "L'art. 24 CE és a la Secció 1a del Cap. II del Títol I, amb la màxima protecció (empara).",
-      "source": "CE1978",
-      "article": "art. 24 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Qui és el cap de l'Estat segons la CE?",
-      "options": [
-        "El President del Govern",
-        "El Rei",
-        "El President del Congrés",
-        "El President del TC"
-      ],
-      "correct": 1,
-      "explain": "L'art. 56 CE configura el Rei com a cap de l'Estat, símbol de la seva unitat i permanència.",
-      "source": "CE1978",
-      "article": "art. 56 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "La sobirania nacional resideix, segons l'art. 1.2 CE, en:",
-      "options": [
-        "El Rei",
-        "El poble espanyol",
-        "Les Corts",
-        "El Govern"
-      ],
-      "correct": 1,
-      "explain": "La sobirania nacional resideix en el poble espanyol, del qual emanen els poders de l'Estat.",
-      "source": "CE1978",
-      "article": "art. 1.2 CE"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "La reforma de l'Estatut d'autonomia de Catalunya s'aprova, en general:",
-      "options": [
-        "Per decret del Govern",
-        "Pel Parlament i, si escau, referèndum, amb intervenció de les Corts Generals",
-        "Només per les Corts",
-        "Per l'Alcalde"
-      ],
-      "correct": 1,
-      "explain": "La reforma de l'EAC segueix un procediment agreujat amb intervenció del Parlament, les Corts Generals i referèndum.",
-      "source": "EAC2006",
-      "article": "LO 6/2006"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "La Carta Europea d'Autonomia Local garanteix:",
-      "options": [
-        "La supressió dels municipis",
-        "El dret de les entitats locals a ordenar i gestionar part dels assumptes públics",
-        "La dependència total de l'Estat",
-        "Un únic nivell d'administració"
-      ],
-      "correct": 1,
-      "explain": "La CEAL (1985) reconeix l'autonomia local com a dret i capacitat efectiva de gestió pròpia.",
-      "source": "LRBRL",
-      "article": "CEAL / art. 137 CE"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "La moció de censura a l'Alcalde:",
-      "options": [
-        "No existeix",
-        "És constructiva i ha d'incloure un candidat alternatiu",
-        "La decideix la Generalitat",
-        "Requereix referèndum"
-      ],
-      "correct": 1,
-      "explain": "La moció de censura municipal és constructiva: ha de proposar un candidat a alcalde (LOREG).",
-      "source": "LRBRL",
-      "article": "LOREG art. 197"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "La Junta de Govern Local:",
-      "options": [
-        "És sempre obligatòria",
-        "Existeix als municipis de més de 5.000 habitants o si ho acorda el Ple",
-        "La presideix el secretari",
-        "Aprova el pressupost"
-      ],
-      "correct": 1,
-      "explain": "La JGL és obligatòria a municipis >5.000 hab. o quan ho acordi el Ple; la presideix l'Alcalde.",
-      "source": "LRBRL",
-      "article": "art. 20 LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "La clàusula de competència general dels municipis:",
-      "options": [
-        "No existeix a la LRBRL",
-        "Permet promoure activitats i prestar serveis per satisfer necessitats de la comunitat veïnal",
-        "Habilita qualsevol despesa sense límit",
-        "Substitueix les competències pròpies"
-      ],
-      "correct": 1,
-      "explain": "L'art. 25.1 LRBRL permet al municipi promoure activitats i serveis en l'àmbit de les seves competències.",
-      "source": "LRBRL",
-      "article": "art. 25.1 LRBRL"
     },
     {
       "theme": 10,
@@ -3501,21 +3201,6 @@
       "article": "art. 10 RD 171/2004"
     },
     {
-      "theme": 1,
-      "block": 1,
-      "q": "El Tribunal Constitucional és:",
-      "options": [
-        "Un òrgan del poder judicial ordinari",
-        "L'intèrpret suprem de la Constitució",
-        "Una comissió del Congrés",
-        "Un òrgan municipal"
-      ],
-      "correct": 1,
-      "explain": "El TC (Títol IX CE) és l'intèrpret suprem de la Constitució, independent dels altres òrgans.",
-      "source": "CE1978",
-      "article": "art. 159-165 CE"
-    },
-    {
       "theme": 12,
       "block": 3,
       "q": "El principi de sostenibilitat financera exigeix:",
@@ -3529,36 +3214,6 @@
       "explain": "La sostenibilitat financera (LO 2/2012) limita el deute i el dèficit de les administracions.",
       "source": "TRLHL",
       "article": "LO 2/2012"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "Les comarques, a Catalunya, són:",
-      "options": [
-        "Estats",
-        "Ens locals supramunicipals de cooperació i prestació de serveis",
-        "Empreses privades",
-        "Òrgans estatals"
-      ],
-      "correct": 1,
-      "explain": "Les comarques són ens locals supramunicipals que cooperen i presten serveis als municipis.",
-      "source": "DL2_2003",
-      "article": "DL 2/2003"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "El Consell de Garanties Estatutàries:",
-      "options": [
-        "Jutja delictes",
-        "Dictamina sobre l'adequació de projectes normatius a l'Estatut i la CE",
-        "Aprova lleis",
-        "Recapta tributs"
-      ],
-      "correct": 1,
-      "explain": "El CGE dictamina sobre l'adequació a l'Estatut i la Constitució de projectes i proposicions normatives.",
-      "source": "EAC2006",
-      "article": "art. 76 EAC"
     },
     {
       "theme": 44,
@@ -3621,21 +3276,6 @@
       "article": "art. 167 TRLHL"
     },
     {
-      "theme": 5,
-      "block": 1,
-      "q": "L'exercici de competències diferents de les pròpies i delegades (art. 7.4) exigeix:",
-      "options": [
-        "Res",
-        "Informes de no-duplicitat i de sostenibilitat financera",
-        "Autorització del veïnat",
-        "Un referèndum"
-      ],
-      "correct": 1,
-      "explain": "L'art. 7.4 LRBRL condiciona aquestes competències a informes de no-duplicitat i sostenibilitat financera.",
-      "source": "LRBRL",
-      "article": "art. 7.4 LRBRL"
-    },
-    {
       "theme": 11,
       "block": 2,
       "q": "El termini per resoldre i notificar el recurs d'alçada és de:",
@@ -3649,96 +3289,6 @@
       "explain": "Art. 122 Llei 39/2015: el termini per resoldre l'alçada és de 3 mesos; el silenci és desestimatori.",
       "source": "L39_2015",
       "article": "art. 122 Llei 39/2015"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Els valors superiors de l'ordenament jurídic (art. 1.1 CE) són:",
-      "options": [
-        "Llibertat, justícia, igualtat i pluralisme polític",
-        "Ordre, seguretat i autoritat",
-        "Riquesa i propietat",
-        "Tradició i religió"
-      ],
-      "correct": 0,
-      "explain": "L'art. 1.1 CE proclama com a valors superiors la llibertat, la justícia, la igualtat i el pluralisme polític.",
-      "source": "CE1978",
-      "article": "art. 1.1 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "El dret a l'educació (art. 27 CE):",
-      "options": [
-        "No té protecció especial",
-        "Gaudeix de recurs d'empara",
-        "És un principi rector",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "L'art. 27 CE és a la Secció 1a del Cap. II, amb protecció d'empara.",
-      "source": "CE1978",
-      "article": "art. 27 CE"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "Les competències exclusives de la Generalitat impliquen:",
-      "options": [
-        "Només execució",
-        "La potestat legislativa, reglamentària i executiva íntegra en la matèria",
-        "Compartir bases amb l'Estat",
-        "Cap potestat"
-      ],
-      "correct": 1,
-      "explain": "En les competències exclusives la Generalitat exerceix de forma íntegra la potestat normativa i executiva.",
-      "source": "EAC2006",
-      "article": "art. 110 EAC"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "La vegueria, segons l'Estatut, és:",
-      "options": [
-        "Un municipi",
-        "L'àmbit territorial específic per a l'exercici del govern intermunicipal de cooperació local",
-        "Una empresa",
-        "Un tribut"
-      ],
-      "correct": 1,
-      "explain": "La vegueria és l'àmbit territorial de cooperació local que l'EAC preveu (art. 90-91).",
-      "source": "EAC2006",
-      "article": "art. 90 EAC"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "El secretari de l'Ajuntament té atribuïdes funcions de:",
-      "options": [
-        "Direcció política",
-        "Fe pública i assessorament legal preceptiu",
-        "Recaptació",
-        "Comandament policial"
-      ],
-      "correct": 1,
-      "explain": "El secretari exerceix la fe pública i l'assessorament legal preceptiu (funcions reservades).",
-      "source": "LRBRL",
-      "article": "art. 92 bis LRBRL"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "L'interventor municipal exerceix:",
-      "options": [
-        "La defensa jurídica",
-        "El control i la fiscalització interna de la gestió econòmica",
-        "La fe pública",
-        "La direcció de personal"
-      ],
-      "correct": 1,
-      "explain": "La intervenció exerceix el control intern i la fiscalització de la gestió econòmico-financera (funció reservada).",
-      "source": "LRBRL",
-      "article": "art. 92 bis LRBRL"
     },
     {
       "theme": 10,
@@ -5136,36 +4686,6 @@
       "article": "art. 4 RD 171/2004"
     },
     {
-      "theme": 3,
-      "block": 1,
-      "q": "L'àrea metropolitana és:",
-      "options": [
-        "Un municipi gran",
-        "Un ens local integrat per municipis de grans aglomeracions urbanes",
-        "Una empresa",
-        "Un departament"
-      ],
-      "correct": 1,
-      "explain": "Les àrees metropolitanes són entitats locals integrades pels municipis de grans aglomeracions urbanes (art. 43 LRBRL).",
-      "source": "LRBRL",
-      "article": "art. 43 LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "La delegació de competències de l'Estat o la CA al municipi:",
-      "options": [
-        "No requereix acceptació",
-        "Requereix l'acceptació del municipi i dotació econòmica",
-        "És imposada sense fons",
-        "No té control"
-      ],
-      "correct": 1,
-      "explain": "Art. 27 LRBRL: la delegació exigeix acceptació municipal i la corresponent dotació econòmica.",
-      "source": "LRBRL",
-      "article": "art. 27 LRBRL"
-    },
-    {
       "theme": 13,
       "block": 3,
       "q": "L'informe de l'interventor sobre el projecte de pressupost:",
@@ -5286,36 +4806,6 @@
       "article": "art. 38 Llei 40/2015"
     },
     {
-      "theme": 2,
-      "block": 1,
-      "q": "El Síndic de Greuges de Catalunya:",
-      "options": [
-        "Jutja causes penals",
-        "Defensa els drets de les persones davant les administracions catalanes",
-        "Aprova el pressupost",
-        "Recapta tributs"
-      ],
-      "correct": 1,
-      "explain": "El Síndic de Greuges supervisa l'actuació de les administracions catalanes en defensa dels drets de les persones.",
-      "source": "EAC2006",
-      "article": "art. 78 EAC"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "El Govern, segons la CE, dirigeix:",
-      "options": [
-        "El poder judicial",
-        "La política interior i exterior, l'Administració civil i militar i la defensa",
-        "Les Corts",
-        "El TC"
-      ],
-      "correct": 1,
-      "explain": "Art. 97 CE: el Govern dirigeix la política interior i exterior, l'Administració i la defensa de l'Estat.",
-      "source": "CE1978",
-      "article": "art. 97 CE"
-    },
-    {
       "theme": 43,
       "block": 3,
       "q": "Els preus públics es diferencien de les taxes en què:",
@@ -5404,96 +4894,6 @@
       "explain": "L'incompliment del deure d'edificar pot derivar en l'execució forçosa o en el règim de venda/substitució.",
       "source": "TRLUC",
       "article": "art. 177 TRLUC"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "La forma política de l'Estat espanyol és:",
-      "options": [
-        "República federal",
-        "Monarquia parlamentària",
-        "Monarquia absoluta",
-        "Estat confederal"
-      ],
-      "correct": 1,
-      "explain": "Art. 1.3 CE: la forma política de l'Estat és la monarquia parlamentària.",
-      "source": "CE1978",
-      "article": "art. 1.3 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "La igualtat davant la llei es proclama a l'article:",
-      "options": [
-        "9 CE",
-        "14 CE",
-        "20 CE",
-        "33 CE"
-      ],
-      "correct": 1,
-      "explain": "L'art. 14 CE estableix la igualtat dels espanyols davant la llei sense discriminació.",
-      "source": "CE1978",
-      "article": "art. 14 CE"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "L'EAC s'integra dins del bloc de:",
-      "options": [
-        "La legalitat ordinària",
-        "La constitucionalitat",
-        "El dret privat",
-        "El dret penal"
-      ],
-      "correct": 1,
-      "explain": "L'Estatut, com a norma institucional bàsica, forma part del bloc de constitucionalitat.",
-      "source": "EAC2006",
-      "article": "LO 6/2006"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "L'autonomia local té garantia:",
-      "options": [
-        "Legal ordinària revisable",
-        "Constitucional (garantia institucional)",
-        "Nul·la",
-        "Només estatutària"
-      ],
-      "correct": 1,
-      "explain": "L'autonomia local gaudeix de garantia institucional constitucional (arts. 137, 140 i 141 CE).",
-      "source": "CE1978",
-      "article": "arts. 137-141 CE"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "El nombre de regidors d'un municipi depèn de:",
-      "options": [
-        "La superfície",
-        "El nombre de residents (escala de la LOREG)",
-        "El pressupost",
-        "El nombre de carrers"
-      ],
-      "correct": 1,
-      "explain": "La LOREG fixa el nombre de regidors en funció de la població de dret del municipi.",
-      "source": "LRBRL",
-      "article": "LOREG art. 179"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Els serveis mínims d'un municipi de més de 20.000 habitants inclouen:",
-      "options": [
-        "Transport urbà",
-        "Protecció civil, serveis socials i prevenció d'incendis",
-        "Aeroport",
-        "Universitat"
-      ],
-      "correct": 1,
-      "explain": "Art. 26 LRBRL: a partir de 20.000 hab. cal protecció civil, serveis socials, prevenció i extinció d'incendis i instal·lacions esportives.",
-      "source": "LRBRL",
-      "article": "art. 26 LRBRL"
     },
     {
       "theme": 10,
@@ -6081,36 +5481,6 @@
       "article": "qualitat"
     },
     {
-      "theme": 2,
-      "block": 1,
-      "q": "La Sindicatura de Comptes de Catalunya:",
-      "options": [
-        "Aprova lleis",
-        "Fiscalitza la gestió econòmica del sector públic català",
-        "Jutja delictes",
-        "Recapta tributs"
-      ],
-      "correct": 1,
-      "explain": "La Sindicatura de Comptes fiscalitza els comptes i la gestió econòmica del sector públic de Catalunya.",
-      "source": "EAC2006",
-      "article": "art. 80 EAC"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "El cartipàs municipal:",
-      "options": [
-        "És un tribut",
-        "És l'organització política i de delegacions després de la constitució del consistori",
-        "Un plànol",
-        "Un contracte"
-      ],
-      "correct": 1,
-      "explain": "El cartipàs estableix l'organització, les delegacions i el funcionament dels òrgans després de les eleccions.",
-      "source": "LRBRL",
-      "article": "arts. 20-23 LRBRL"
-    },
-    {
       "theme": 48,
       "block": 11,
       "q": "El deure de cessió en sòl urbà no consolidat:",
@@ -6274,66 +5644,6 @@
       "explain": "La LEF preveu un premi d'afecció del 5% sobre el valor del bé expropiat.",
       "source": "LEF",
       "article": "art. 47 LEF"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "La defensa de l'Estat i les Forces Armades es regulen al:",
-      "options": [
-        "Títol I",
-        "Títol preliminar (art. 8)",
-        "Títol X",
-        "Títol VI"
-      ],
-      "correct": 1,
-      "explain": "L'art. 8 CE, al títol preliminar, regula les Forces Armades.",
-      "source": "CE1978",
-      "article": "art. 8 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "El dret de petició (art. 29 CE):",
-      "options": [
-        "No té protecció",
-        "Gaudeix d'empara però el seu silenci administratiu és negatiu",
-        "És un principi rector",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "L'art. 29 CE té protecció d'empara; el dret de petició és una de les excepcions de silenci negatiu.",
-      "source": "CE1978",
-      "article": "art. 29 CE"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "La cooperació de la província amb els municipis es manifesta en:",
-      "options": [
-        "Substituir-los",
-        "Assistència i cooperació jurídica, econòmica i tècnica als municipis",
-        "Eliminar serveis",
-        "Recaptar per ells sempre"
-      ],
-      "correct": 1,
-      "explain": "Art. 36 LRBRL: la província assisteix i coopera tècnicament, econòmicament i jurídicament amb els municipis.",
-      "source": "LRBRL",
-      "article": "art. 36 LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Les competències pròpies s'exerceixen:",
-      "options": [
-        "Sota direcció estatal",
-        "En règim d'autonomia i responsabilitat",
-        "Sense pressupost",
-        "Per delegació"
-      ],
-      "correct": 1,
-      "explain": "Art. 7.2 LRBRL: les competències pròpies s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat.",
-      "source": "LRBRL",
-      "article": "art. 7.2 LRBRL"
     },
     {
       "theme": 10,
@@ -6679,36 +5989,6 @@
       "explain": "L'avaluació ordinària conclou amb la declaració d'impacte ambiental (DIA), preceptiva i determinant.",
       "source": "L20_2009",
       "article": "normativa d'avaluació ambiental"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "La distribució de competències Estat-Generalitat es fa segons:",
-      "options": [
-        "La voluntat de l'Alcalde",
-        "La Constitució i l'Estatut (bloc de constitucionalitat)",
-        "La LCSP",
-        "Un conveni privat"
-      ],
-      "correct": 1,
-      "explain": "El repartiment competencial es determina per la CE i l'EAC, interpretats pel TC.",
-      "source": "EAC2006",
-      "article": "CE i EAC"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "Les comissions informatives:",
-      "options": [
-        "Resolen expedients",
-        "Estudien i dictaminen els assumptes que van al Ple",
-        "Aproven el pressupost",
-        "Recapten tributs"
-      ],
-      "correct": 1,
-      "explain": "Les comissions informatives estudien, informen i dictaminen prèviament els assumptes del Ple.",
-      "source": "LRBRL",
-      "article": "art. 20 LRBRL"
     },
     {
       "theme": 46,
@@ -7219,6 +6499,171 @@
       "explain": "Es pregunta el termini supletori per resoldre. Correcta (b): quan les normes reguladores no fixin el termini màxim, serà de tres mesos (art. 21.3). Per què no: (a), (c) i (d) no són el termini supletori (alguns procediments, com la responsabilitat patrimonial, tenen 6 mesos per norma pròpia, però la regla general són 3 mesos). Base: art. 21 Llei 39/2015.",
       "source": "L39_2015",
       "article": "art. 21 Llei 39/2015"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Segons l'article 1.1 de la Constitució, com es constitueix Espanya?",
+      "options": [
+        "En una monarquia parlamentària de caràcter representatiu",
+        "En un Estat social i democràtic de dret",
+        "En un Estat federal i descentralitzat políticament",
+        "En una república parlamentària amb autonomies"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la definició bàsica de l'Estat. Correcta (b): l'art. 1.1 proclama que Espanya es constitueix en un Estat social i democràtic de dret, que propugna com a valors superiors la llibertat, la justícia, la igualtat i el pluralisme polític. Per què no: (a) la monarquia parlamentària és la FORMA POLÍTICA (art. 1.3), no la definició de l'Estat; (c) i (d) Espanya no és un Estat federal ni una república. Base: art. 1 CE.",
+      "source": "CE1978",
+      "article": "art. 1 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "En quina part de la Constitució se situen els drets que gaudeixen de recurs d'empara davant el Tribunal Constitucional?",
+      "options": [
+        "Al Capítol III del Títol I, entre els principis rectors de la política social i econòmica",
+        "A la Secció 1a del Capítol II del Títol I (arts. 15-29) i l'art. 14",
+        "Al Títol preliminar, entre els principis generals",
+        "A qualsevol article del Títol I sense distinció"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el nivell de protecció dels drets. Correcta (b): tenen la màxima protecció (llei orgànica, procediment preferent i sumari i recurs d'empara) l'art. 14 i els de la Secció 1a del Cap. II (arts. 15-29), més l'objecció de consciència (30.2). Per què no: (a) els principis rectors del Cap. III NO tenen empara; (c) el títol preliminar conté principis, no drets emparables; (d) no tots els drets del Títol I tenen empara. Base: arts. 53 i 161 CE.",
+      "source": "CE1978",
+      "article": "arts. 14-29 i 53 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "La reforma de la Constitució que afecta el Títol preliminar o la regulació de la Corona exigeix, entre altres requisits:",
+      "options": [
+        "Una majoria simple del Congrés i el Senat",
+        "Una majoria de tres cinquens de cada cambra i la posterior ratificació en referèndum",
+        "L'aprovació per dos terços de cada cambra, dissolució de les Corts i referèndum",
+        "Un decret llei ratificat posteriorment per les Corts"
+      ],
+      "correct": 2,
+      "explain": "Es pregunta el procediment de reforma agreujat. Correcta (c): l'art. 168 exigeix, per al títol preliminar, la Secció 1a del Cap. II o la Corona, l'aprovació per 2/3 de cada cambra, la dissolució immediata de les Corts, la ratificació per les noves cambres i un referèndum obligatori. Per què no: (a) i (b) corresponen a la reforma ordinària (art. 167); (d) un decret llei no pot reformar la Constitució. Base: art. 168 CE.",
+      "source": "CE1978",
+      "article": "art. 168 CE"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "Quina norma és l'Estatut d'autonomia de Catalunya actualment vigent?",
+      "options": [
+        "La Llei orgànica 4/1979, de 18 de desembre",
+        "La Llei orgànica 6/2006, de 19 de juliol",
+        "Una llei ordinària aprovada pel Parlament de Catalunya",
+        "El Decret legislatiu 2/2003, de règim local"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la identificació de l'Estatut vigent. Correcta (b): l'EAC vigent és la LO 6/2006, de 19 de juliol, que va reformar el de 1979. Per què no: (a) la LO 4/1979 és l'Estatut anterior, ja substituït; (c) l'Estatut és una llei orgànica, no ordinària, i requereix l'aprovació de les Corts Generals; (d) el DL 2/2003 és el text refós de la Llei municipal i de règim local, no l'Estatut. Base: LO 6/2006.",
+      "source": "EAC2006",
+      "article": "LO 6/2006"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "Quin tipus de competència permet a la Generalitat exercir la potestat legislativa, la reglamentària i la funció executiva de manera íntegra sobre una matèria?",
+      "options": [
+        "La competència compartida amb l'Estat",
+        "La competència executiva",
+        "La competència exclusiva",
+        "La competència concurrent amb els ens locals"
+      ],
+      "correct": 2,
+      "explain": "Es pregunta la tipologia competencial de l'Estatut. Correcta (c): en les competències exclusives correspon a la Generalitat de manera íntegra la potestat legislativa, la reglamentària i la funció executiva, amb dret propi preferent (art. 110 EAC). Per què no: (a) en la compartida l'Estat fixa les bases i la Generalitat el desenvolupament (art. 111); (b) en l'executiva la Generalitat només executa (art. 112); (d) la 'concurrent amb ens locals' no és una categoria de l'EAC. Base: arts. 110-112 EAC.",
+      "source": "EAC2006",
+      "article": "arts. 110-112 EAC"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "Quines són les entitats locals de caràcter territorial segons la legislació bàsica de règim local?",
+      "options": [
+        "Únicament el municipi",
+        "Les comarques, les mancomunitats i els consorcis",
+        "El municipi, la província i l'illa",
+        "Les àrees metropolitanes i les vegueries"
+      ],
+      "correct": 2,
+      "explain": "Es pregunta quines entitats locals són territorials. Correcta (c): l'art. 3.1 LRBRL atribueix caràcter territorial (i autonomia plena) al municipi, la província i l'illa. Per què no: (a) no és només el municipi; (b) comarques, mancomunitats i consorcis són altres entitats, no territorials; (d) les àrees metropolitanes i vegueries no tenen, en aquest precepte, la condició d'entitats territorials bàsiques. Base: art. 3 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 3 LRBRL"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "Com defineix la Constitució la província?",
+      "options": [
+        "Com una simple divisió administrativa de l'Estat, sense personalitat jurídica ni autonomia pròpia",
+        "Com una entitat local amb personalitat jurídica pròpia, formada per l'agrupació de municipis",
+        "Com un òrgan perifèric de l'Administració de l'Estat",
+        "Com una entitat dependent de la comunitat autònoma"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la naturalesa de la província. Correcta (b): la província és una entitat local amb personalitat jurídica pròpia, determinada per l'agrupació de municipis, i divisió territorial per al compliment de les activitats de l'Estat (art. 141 CE); té autonomia per gestionar els seus interessos. Per què no: (a) sí que té autonomia; (c) i (d) no és un mer òrgan estatal ni depèn de la CA. Base: art. 141 CE i LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 141 CE; art. 31 LRBRL"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "En els municipis de règim comú, quins són òrgans de govern necessaris?",
+      "options": [
+        "L'Alcalde, els tinents d'alcalde i el Ple",
+        "Únicament l'Alcalde i el Ple municipal",
+        "La Junta de Govern Local en tots els municipis",
+        "Les comissions informatives i la Comissió de Comptes"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta quins òrgans existeixen sempre. Correcta (a): són òrgans necessaris l'Alcalde, els tinents d'alcalde i el Ple (art. 20 LRBRL). Per què no: (b) també hi ha els tinents d'alcalde; (c) la Junta de Govern Local només és obligatòria a municipis de més de 5.000 habitants o quan ho acordi el Ple; (d) les comissions informatives són complementàries (tot i que la Comissió Especial de Comptes és obligatòria). Base: art. 20 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 20 LRBRL"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "A quin òrgan municipal correspon l'aprovació del pressupost i de les ordenances?",
+      "options": [
+        "A l'Alcalde, mitjançant decret",
+        "A la Junta de Govern Local",
+        "Al Ple de la corporació",
+        "A la Comissió Especial de Comptes"
+      ],
+      "correct": 2,
+      "explain": "Es pregunta la competència sobre pressupost i ordenances. Correcta (c): l'aprovació del pressupost i de les ordenances (i del planejament general) és competència indelegable del Ple (art. 22 LRBRL). Per què no: (a) l'Alcalde dirigeix el govern però no aprova el pressupost; (b) la Junta de Govern Local exerceix competències delegades, no aquesta; (d) la Comissió de Comptes només informa els comptes. Base: art. 22 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 22 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "Com s'exerceixen les competències pròpies del municipi?",
+      "options": [
+        "Sota la direcció i el control de l'Estat o la comunitat autònoma",
+        "En règim d'autonomia i sota la pròpia responsabilitat",
+        "Prèvia autorització de la comunitat autònoma en cada cas",
+        "Únicament si ho permet la diputació provincial"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el règim d'exercici de les competències pròpies. Correcta (b): les competències pròpies s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat (art. 7.2 LRBRL). Per què no: (a) la direcció i el control de l'administració delegant és propi de les competències DELEGADES (art. 27), no de les pròpies; (c) i (d) no requereixen autorització prèvia de la CA ni de la diputació. Base: arts. 7 i 25 LRBRL.",
+      "source": "LRBRL",
+      "article": "arts. 7 i 25 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "Per exercir competències diferents de les pròpies i de les delegades, l'article 7.4 de la LRBRL exigeix:",
+      "options": [
+        "Una simple comunicació prèvia adreçada a la comunitat autònoma corresponent",
+        "Informes previs de no-duplicitat i de sostenibilitat financera",
+        "L'acord favorable de la majoria del veïnat afectat",
+        "La inclusió expressa de la competència a l'Estatut"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el requisit de les competències 'impròpies'. Correcta (b): l'art. 7.4 LRBRL només permet exercir competències diferents de les pròpies i delegades si no hi ha duplicitat amb una altra administració i no es posa en risc la sostenibilitat financera, fet que cal acreditar amb informes previs i vinculants. Per què no: (a) no n'hi ha prou amb una comunicació; (c) no es requereix cap consulta veïnal; (d) no cal previsió estatutària expressa. Base: art. 7.4 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 7.4 LRBRL"
     }
   ]
 }
