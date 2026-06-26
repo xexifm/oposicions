@@ -320,63 +320,56 @@
       "key": "Recursos: alçada (actes que NO exhaureixen la via → superior jeràrquic, 1 mes; resol en 3 mesos, silenci negatiu); reposició (actes que exhaureixen la via → mateix òrgan, POTESTATIVA, 1 mes); extraordinari de revisió (actes ferms, causes taxades, art. 125). Fi de via: alçada i actes de l'Alcalde/Ple/JGL (52 LRBRL). Contenciós: 2 mesos."
     },
     "12": {
-      "intro": "La planificació de la gestió pública té en el pressupost el seu instrument central de planificació, administració i gestió econòmica, i alhora un mecanisme de coordinació. El règim pressupostari de les entitats locals es regula al text refós de la Llei reguladora de les hisendes locals (RDL 2/2004, TRLHL) i al RD 500/1990, dins el marc de la Llei orgànica 2/2012, d'estabilitat pressupostària i sostenibilitat financera.",
+      "intro": "La planificació de la gestió pública té en el pressupost el seu instrument fonamental de planificació, administració i gestió econòmica, i alhora un mecanisme general de coordinació. El règim pressupostari de les entitats locals es regula al text refós de la Llei reguladora de les hisendes locals (RDL 2/2004, TRLHL) i al RD 500/1990, dins el marc de la Llei orgànica 2/2012, d'estabilitat pressupostària i sostenibilitat financera.",
       "sections": [
         {
-          "h": "Concepte",
-          "p": "El pressupost general és l'expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat i els seus organismes (els crèdits tenen caràcter limitatiu), i dels drets que es preveuen liquidar durant l'exercici (art. 162 TRLHL). Constitueix, per tant, un acte d'autorització i de límit de la despesa pública i una previsió dels ingressos."
+          "h": "Concepte i naturalesa",
+          "p": "El pressupost general és l'expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat i els seus organismes, i dels drets que es preveuen liquidar durant l'exercici (art. 162 TRLHL). Té una doble naturalesa: respecte de les despeses, els crèdits tenen caràcter limitatiu (autoritzen un màxim de despesa, no obliguen a gastar); respecte dels ingressos, constitueixen una mera previsió. És, per tant, un acte d'autorització i de límit de la despesa pública."
         },
         {
           "h": "Principis pressupostaris",
-          "scheme": {
-            "cap": "Principis",
-            "body": "ANUALITAT → coincideix amb l'any natural\nUNITAT i UNIVERSALITAT → un sol pressupost que recull TOTS\n  els ingressos i despeses\nESPECIALITAT → qualitativa (finalitat), quantitativa\n  (import) i temporal (exercici)\nNO-AFECTACIÓ → els ingressos financen el conjunt de les\n  despeses (excepte els afectats)\nUNITAT DE CAIXA → centralització de tots els fons\nESTABILITAT i SOSTENIBILITAT → equilibri/superàvit i límits\n  de deute (LO 2/2012)\nPUBLICITAT i TRANSPARÈNCIA"
-          }
+          "list": [
+            "Anualitat: l'exercici coincideix amb l'any natural.",
+            "Unitat i universalitat: un sol pressupost que reculli la totalitat dels ingressos i despeses.",
+            "Especialitat: els crèdits es destinen a la finalitat per a la qual s'autoritzen (qualitativa), sense superar-ne l'import (quantitativa) ni el temps (temporal).",
+            "No-afectació: els recursos es destinen a finançar el conjunt de les obligacions, llevat dels ingressos específicament afectats.",
+            "Unitat de caixa: centralització de tots els fons i valors en la tresoreria.",
+            "Estabilitat pressupostària i sostenibilitat financera (LO 2/2012).",
+            "Publicitat i transparència."
+          ]
         },
         {
-          "h": "Estabilitat pressupostària i regla de despesa",
-          "p": "La LO 2/2012 imposa l'estabilitat pressupostària (situació d'equilibri o superàvit estructural), la sostenibilitat financera (capacitat de finançar compromisos dins els límits de dèficit i deute) i la regla de despesa (la despesa computable no pot créixer per sobre de la taxa de referència del PIB). L'incompliment pot obligar a aprovar un pla economicofinancer."
+          "h": "Estabilitat, sostenibilitat i regla de despesa",
+          "p": "La LO 2/2012 imposa l'estabilitat pressupostària (situació d'equilibri o de superàvit estructural), la sostenibilitat financera (capacitat de finançar els compromisos presents i futurs dins els límits de dèficit i deute) i la regla de despesa (la despesa computable no pot créixer per sobre de la taxa de referència de creixement del PIB). L'incompliment d'aquests objectius obliga a formular un pla economicofinancer que permeti recuperar-los."
         },
         {
           "h": "Contingut del pressupost general",
-          "p": "Integra el pressupost de la pròpia entitat, els dels organismes autònoms i els estats de previsió de despeses i ingressos de les societats mercantils de capital íntegrament local. S'hi adjunten les bases d'execució (adapten les disposicions generals a l'organització de l'entitat) i annexos (pla d'inversions i finançament, estat del deute, etc.)."
-        },
-        {
-          "key": "El pressupost com a instrument de planificació expressa el límit màxim de despeses (crèdits) i la previsió d'ingressos; coordina l'activitat econòmica de tot el sector públic local."
+          "p": "El pressupost general integra el pressupost de la pròpia entitat, els dels organismes autònoms dependents i els estats de previsió de despeses i ingressos de les societats mercantils de capital íntegrament local. S'hi adjunten les bases d'execució, que adapten les disposicions generals en matèria pressupostària a l'organització de l'entitat, i annexos com el pla d'inversions i el seu finançament, l'estat del deute i els annexos de personal i de beneficis fiscals."
         }
       ],
-      "key": "Pressupost (TRLHL): planificació i límit de despesa anual. Principis: anualitat, unitat/universalitat, especialitat, no-afectació, unitat de caixa, estabilitat (LO 2/2012). Integra entitat + OOAA + societats."
+      "key": "Pressupost (TRLHL i RD 500/1990): instrument de planificació econòmica; crèdits limitatius (despeses) i previsió (ingressos). Principis: anualitat, unitat/universalitat, especialitat, no-afectació, unitat de caixa, estabilitat (LO 2/2012), publicitat. Integra entitat + organismes autònoms + societats."
     },
     "13": {
-      "intro": "Les finalitats del pressupost (planificar, autoritzar la despesa màxima, preveure ingressos i permetre el control) es concreten en un procediment reglat d'elaboració i aprovació i en una estructura normalitzada, recollits al TRLHL.",
+      "intro": "Les finalitats del pressupost (planificar l'activitat, autoritzar la despesa màxima, preveure els ingressos i permetre el control) es concreten en un procediment reglat d'elaboració i aprovació i en una estructura normalitzada, regulats al TRLHL.",
       "sections": [
         {
           "h": "Procediment d'elaboració i aprovació",
-          "scheme": {
-            "cap": "Tramitació (arts. 168-169 TRLHL)",
-            "body": "1) El PRESIDENT (Alcalde) FORMA el pressupost + informe\n   econòmicofinancer + informe d'Intervenció + annexos i\n   liquidació de l'exercici anterior i avanç de la corrent\n2) APROVACIÓ INICIAL pel PLE\n3) EXPOSICIÓ pública 15 dies hàbils (reclamacions)\n4) Resolució de reclamacions + APROVACIÓ DEFINITIVA\n   (si no n'hi ha, l'inicial esdevé definitiva)\n5) PUBLICACIÓ resumida per capítols al BOP\n6) Entrada en vigor (1 de gener o publicació)\n   ↳ si a 1/1 no està aprovat → PRÒRROGA de l'anterior"
-          }
+          "p": "El president de l'entitat (l'Alcalde) forma el pressupost general i l'eleva al Ple, acompanyat de l'informe econòmicofinancer, de l'informe de la Intervenció, de la liquidació de l'exercici anterior i l'avanç de la del corrent, i de la documentació annexa (art. 168). El Ple l'aprova inicialment; s'exposa al públic durant quinze dies hàbils, mitjançant anunci al BOP, perquè s'hi presentin reclamacions; resoltes aquestes, s'aprova definitivament (si no se'n presenta cap, l'acord inicial esdevé definitiu automàticament). Finalment es publica resumit per capítols al BOP i s'hi tramet còpia a l'Administració de l'Estat i a la comunitat autònoma."
         },
         {
           "h": "Estructura del pressupost",
-          "scheme": {
-            "cap": "Classificacions",
-            "body": "ORGÀNICA → per àrees/òrgans de despesa (qui gasta)\nPER PROGRAMES → per objectius i activitats (per a què)\nECONÒMICA → per naturalesa, en CAPÍTOLS\n  Despeses: 1 personal · 2 béns corrents i serveis ·\n    3 financers · 4 transferències corrents · 5 fons de\n    contingència · 6 inversions reals · 7 transferències de\n    capital · 8 actius financers · 9 passius financers\n  (1-7 no financers; 8-9 financers)\nIngressos: capítols 1-9 (1-3 directes/indirectes i taxes;\n  4-5 transferències i patrimonials; 6-9 capital i financers)"
-          }
+          "p": "Els estats de despeses i d'ingressos s'estructuren segons tres classificacions: l'orgànica (per àrees o òrgans de despesa), la per programes (per objectius i activitats) i l'econòmica (per la naturalesa econòmica, agrupada en capítols). En les despeses, els capítols 1 a 7 són operacions no financeres (1 personal, 2 béns corrents i serveis, 3 despeses financeres, 4 transferències corrents, 5 fons de contingència, 6 inversions reals, 7 transferències de capital) i els capítols 8 i 9, operacions financeres. En els ingressos, els capítols 1 a 5 són operacions corrents i 6 a 9, de capital i financeres."
         },
         {
-          "h": "Recursos i impugnació",
-          "p": "Contra l'aprovació definitiva del pressupost només es pot interposar recurs contenciós administratiu directament (no recurs administratiu previ), en el termini de 2 mesos des de la publicació (art. 171 TRLHL). La interposició no suspèn per si sola l'aplicació del pressupost."
+          "h": "Aprovació i impugnació",
+          "p": "El pressupost s'aprova, en general, per majoria simple del Ple. Contra l'aprovació definitiva només es pot interposar directament recurs contenciós administratiu (no recurs administratiu previ), en el termini de dos mesos des de la publicació (art. 171). La interposició del recurs no suspèn, per si sola, l'aplicació del pressupost."
         },
         {
-          "h": "La pròrroga pressupostària",
-          "p": "Si a l'inici de l'exercici no està aprovat el pressupost, es prorroga automàticament el de l'any anterior amb els seus crèdits inicials, fins a l'aprovació del nou (art. 169.6 TRLHL). De la pròrroga s'exclouen els crèdits per a serveis o programes que finalitzaven l'exercici anterior."
-        },
-        {
-          "key": "Forma l'Alcalde → aprovació inicial Ple → 15 dies d'exposició → aprovació definitiva → publicació resumida al BOP. Estructura per classificació orgànica, per programes i econòmica (capítols)."
+          "h": "La pròrroga del pressupost",
+          "p": "Si a l'inici de l'exercici econòmic no està aprovat el pressupost, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials, fins a l'entrada en vigor del nou (art. 169.6). De la pròrroga s'exclouen els crèdits destinats a serveis o programes que havien de finalitzar en l'exercici anterior. La pròrroga garanteix la continuïtat de la gestió econòmica mentre no s'aprova el nou pressupost."
         }
       ],
-      "key": "Pressupost: el forma el president, l'aprova inicialment el Ple, exposició 15 dies, aprovació definitiva i publicació resumida al BOP. Estructura orgànica/programes/econòmica (capítols 1-9). Pròrroga si no s'aprova; impugnació directa al contenciós."
+      "key": "El pressupost el forma l'Alcalde i l'aprova inicialment el Ple; exposició pública 15 dies; aprovació definitiva i publicació resumida al BOP. Estructura: orgànica, per programes i econòmica (capítols 1-9). Impugnació directa al contenciós (art. 171). Pròrroga automàtica si no s'aprova (169.6)."
     },
     "14": {
       "intro": "Les ordenances i els reglaments són l'expressió de la potestat normativa de les entitats locals (arts. 4 i 84 LRBRL), manifestació de la seva autonomia. A través seu el municipi regula matèries de la seva competència amb subjecció a la llei i a la jerarquia normativa. El procediment d'aprovació es regula a l'art. 49 LRBRL i, a Catalunya, al DL 2/2003.",
@@ -1251,114 +1244,109 @@
       "key": "Béns: prerrogatives (investigació, llindament, recuperació d'ofici, desnonament). Demanials inalienables/imprescriptibles/inembargables (132 CE). Inventari de tots els béns, aprovat pel Ple, rectificació anual."
     },
     "40": {
-      "intro": "El pressupost general de les entitats locals desplega la seva eficàcia mitjançant l'execució i finalitza amb la liquidació. El RD 500/1990 desenvolupa el TRLHL en matèria pressupostària.",
+      "intro": "El pressupost general desplega la seva eficàcia mitjançant l'execució i finalitza amb la liquidació. El RD 500/1990 desenvolupa el TRLHL en aquesta matèria, completat per les bases d'execució que aprova cada entitat amb el pressupost.",
       "sections": [
         {
-          "h": "Bases d'execució",
-          "p": "Les bases d'execució contenen l'adaptació de les disposicions generals en matèria pressupostària a l'organització i circumstàncies de l'entitat: nivells de vinculació jurídica dels crèdits, règim de les modificacions, supòsits de pagaments a justificar i bestretes de caixa fixa, normes de gestió, etc. S'aproven amb el pressupost."
+          "h": "Les bases d'execució",
+          "p": "Contenen l'adaptació de les disposicions generals en matèria pressupostària a l'organització i circumstàncies de la pròpia entitat: els nivells de vinculació jurídica dels crèdits, el règim de les modificacions de crèdit i els òrgans competents per aprovar-les, els supòsits de pagaments a justificar i de bestretes de caixa fixa, les normes sobre tramitació de despeses i el reconeixement d'obligacions, etc. S'aproven juntament amb el pressupost i en tenen la mateixa vigència."
         },
         {
           "h": "Execució del pressupost",
-          "p": "L'execució del pressupost de despeses recorre les fases A-D-O-P (autorització, disposició, reconeixement de l'obligació i ordenació del pagament). L'execució del pressupost d'ingressos comprèn el reconeixement del dret, la liquidació, i la recaptació (voluntària i executiva). Tota despesa requereix l'existència de crèdit adequat i suficient i la fiscalització prèvia de la Intervenció."
+          "p": "L'execució del pressupost de despeses recorre quatre fases: autorització (A), disposició o compromís (D), reconeixement de l'obligació (O) i ordenació del pagament (P). L'execució del pressupost d'ingressos comprèn el reconeixement i la liquidació dels drets i la seva recaptació en període voluntari i, si escau, executiu. Tota despesa requereix l'existència de crèdit adequat i suficient i la prèvia fiscalització per la Intervenció (control intern)."
         },
         {
-          "h": "Liquidació i magnituds de tancament",
-          "scheme": {
-            "cap": "Liquidació del pressupost",
-            "body": "APROVA → el PRESIDENT, prèvia informe d'Intervenció, i en\n  dona compte al Ple (abans de l'1 de març següent)\nDETERMINA →\n  • drets pendents de cobrament i obligacions pendents de pag.\n  • RESULTAT PRESSUPOSTARI (drets − obligacions reconeguts)\n  • ROMANENTS de crèdit\n  • ROMANENT DE TRESORERIA (recursos líquids o dèficit)\nEl romanent de tresoreria per a despeses generals pot\n  finançar modificacions de crèdit"
-          }
+          "h": "La liquidació del pressupost",
+          "p": "La liquidació posa fi a l'execució de cada exercici. L'aprova el president de l'entitat, prèvia informe de la Intervenció, i en dona compte al Ple en la primera sessió que se celebri; s'ha d'aprovar abans del dia 1 de març de l'exercici següent. La liquidació posa de manifest, respecte del pressupost de despeses i per a cada partida, els crèdits inicials, les modificacions, els crèdits definitius i les despeses compromeses i reconegudes; i respecte dels ingressos, les previsions i els drets reconeguts i recaptats."
         },
         {
-          "h": "Estabilitat en el tancament",
-          "p": "En liquidar, es calculen la capacitat o necessitat de finançament (estabilitat), el compliment de la regla de despesa i el deute viu. Un romanent de tresoreria negatiu obliga a adoptar mesures (reduir despeses, concertar operacions o aprovar el pressupost amb superàvit)."
-        },
-        {
-          "key": "El pressupost general integra entitat, organismes i societats; les bases d'execució n'adapten les regles. Liquidació pel president → resultat pressupostari, romanents i romanent de tresoreria."
+          "h": "Magnituds de tancament",
+          "p": "De la liquidació es deriven magnituds clau: els drets pendents de cobrament i les obligacions pendents de pagament; el resultat pressupostari (diferència entre drets reconeguts nets i obligacions reconegudes netes, amb ajustaments); els romanents de crèdit; i el romanent de tresoreria, que mesura els recursos líquids disponibles (o el dèficit) al tancament i, en la seva part per a despeses generals, pot finançar modificacions de crèdit. Un romanent de tresoreria negatiu obliga a adoptar mesures de sanejament."
         }
       ],
-      "key": "Execució: despeses A-D-O-P; ingressos reconeixement-liquidació-recaptació; crèdit previ + fiscalització. Liquidació: l'aprova el president (compte al Ple) → resultat pressupostari, romanents i romanent de tresoreria."
+      "key": "Bases d'execució: adapten les regles pressupostàries a l'entitat. Execució de despeses A-D-O-P; ingressos: reconeixement-liquidació-recaptació; crèdit previ + fiscalització. Liquidació: l'aprova el president (compte al Ple, abans de l'1 de març) → resultat pressupostari, romanents i romanent de tresoreria."
     },
     "41": {
-      "intro": "Els crèdits del pressupost de despeses són les autoritzacions màximes de despesa. La seva delimitació, situació i nivells de vinculació jurídica determinen el marge de gestió, i les modificacions de crèdit permeten ajustar-los durant l'exercici (TRLHL i RD 500/1990).",
+      "intro": "Els crèdits del pressupost de despeses són les autoritzacions màximes de despesa per a finalitats determinades. La seva delimitació, situació i nivells de vinculació jurídica defineixen el marge de gestió, i les modificacions de crèdit permeten ajustar-los durant l'exercici (TRLHL i RD 500/1990).",
       "sections": [
         {
           "h": "Especialitat dels crèdits",
-          "scheme": {
-            "cap": "Principi d'especialitat",
-            "body": "QUALITATIVA → el crèdit es destina a la finalitat\n  específica per a la qual s'ha autoritzat\nQUANTITATIVA → no es pot superar l'import autoritzat\n  (caràcter limitatiu)\nTEMPORAL → s'ha d'aplicar dins de l'exercici\nVINCULACIÓ JURÍDICA → nivell (àrea/capítol/article/concepte)\n  fins al qual el crèdit és vinculant; com més ampli, més\n  flexibilitat de gestió"
-          }
+          "p": "Els crèdits estan sotmesos al principi d'especialitat en tres vessants: qualitativa (s'apliquen exclusivament a la finalitat específica per a la qual s'han autoritzat), quantitativa (no es pot adquirir cap compromís de despesa per quantia superior a l'import dels crèdits) i temporal (s'apliquen a les obligacions reconegudes durant l'exercici). Aquest caràcter limitatiu i vinculant és essencial per al control de la despesa pública."
+        },
+        {
+          "h": "Nivells de vinculació jurídica",
+          "p": "La vinculació jurídica és el nivell (per exemple, àrea de despesa, capítol, article o concepte) fins al qual la limitació quantitativa del crèdit és exigible. Com més ampli és el nivell de vinculació, més flexibilitat té el gestor per executar la despesa sense necessitat de tramitar modificacions. Les bases d'execució fixen aquests nivells per a cada entitat."
         },
         {
           "h": "Modificacions de crèdit",
-          "scheme": {
-            "cap": "Tipus de modificacions",
-            "body": "CRÈDIT EXTRAORDINARI → despesa específica SENSE crèdit\nSUPLEMENT DE CRÈDIT → crèdit existent INSUFICIENT\n  (tots dos: financen amb romanent, nous/majors ingressos\n   o baixes; els aprova el PLE amb el procediment del\n   pressupost)\nAMPLIACIÓ de crèdit → per a partides ampliables\nTRANSFERÈNCIA → entre partides (amb límits)\nGENERACIÓ → per nous ingressos afectats\nINCORPORACIÓ de romanents de crèdit\nBAIXA per anul·lació"
-          }
+          "list": [
+            "Crèdit extraordinari: per atendre una despesa específica i determinada per a la qual no existeix crèdit.",
+            "Suplement de crèdit: quan el crèdit existent és insuficient. Tots dos els aprova el Ple, amb el mateix procediment que el pressupost (exposició 15 dies i possibles reclamacions), i es financen amb romanent líquid de tresoreria, amb nous o majors ingressos, o amb baixes de crèdits no compromesos.",
+            "Ampliació de crèdit: per a partides declarades ampliables, en funció d'ingressos afectats.",
+            "Transferència de crèdit: trasllat d'import entre partides, amb limitacions.",
+            "Generació de crèdit: increment per ingressos no previstos o superiors als previstos.",
+            "Incorporació de romanents de crèdit i baixa per anul·lació."
+          ]
         },
         {
           "h": "Competència per aprovar-les",
-          "p": "Crèdits extraordinaris, suplements i transferències entre àrees de despesa diferents corresponen al Ple (amb el procediment del pressupost: exposició 15 dies i possibilitat de reclamacions). La resta (generacions, ampliacions, incorporacions, transferències dins la mateixa àrea) solen correspondre al president segons les bases d'execució."
-        },
-        {
-          "key": "Especialitat qualitativa, quantitativa i temporal. La vinculació jurídica fixa el nivell de control. Crèdit extraordinari (sense crèdit) i suplement (insuficient): els aprova el Ple."
+          "p": "Corresponen al Ple els crèdits extraordinaris, els suplements de crèdit i les transferències entre àrees de despesa diferents (amb les excepcions legals). La resta de modificacions (generacions, ampliacions, incorporacions, transferències dins la mateixa àrea) solen correspondre al president, segons el que estableixin les bases d'execució."
         }
       ],
-      "key": "Crèdits: especialitat (qualitativa/quantitativa/temporal) i vinculació jurídica. Modificacions: crèdit extraordinari, suplement (Ple, amb romanent/ingressos/baixes), ampliació, transferència, generació, incorporació, baixa."
+      "key": "Crèdits: especialitat qualitativa, quantitativa i temporal; vinculació jurídica (nivell de control). Modificacions: crèdit extraordinari (sense crèdit) i suplement (insuficient), aprovats pel Ple amb procediment del pressupost; ampliació, transferència, generació, incorporació de romanents i baixa."
     },
     "42": {
-      "intro": "L'execució del pressupost de despeses i d'ingressos es desenvolupa per fases reglades i compta amb figures especials (pagaments a justificar, bestretes de caixa fixa, despeses plurianuals, tramitació anticipada i despeses amb finançament afectat) recollides al TRLHL i al RD 500/1990.",
+      "intro": "L'execució del pressupost de despeses i d'ingressos es desenvolupa per fases reglades i compta amb figures especials per a despeses singulars (pagaments a justificar, bestretes de caixa fixa, despeses plurianuals, tramitació anticipada i despeses amb finançament afectat), recollides al TRLHL i al RD 500/1990.",
       "sections": [
         {
           "h": "Fases del pressupost de despeses",
-          "scheme": {
-            "cap": "Execució de la despesa",
-            "body": "A → AUTORITZACIÓ: acte que aprova la realització d'una\n  despesa per una quantia certa (reserva de crèdit)\nD → DISPOSICIÓ o compromís: acord ferm amb un tercer\nO → reconeixement de l'OBLIGACIÓ: deute exigible (després\n  de la prestació i la seva acreditació)\nP → ordenació del PAGAMENT\nEs poden acumular en un sol acte (ADO, ADOP)"
-          }
+          "p": "L'execució de la despesa passa per: l'autorització (A), acte pel qual s'aprova la realització d'una despesa per una quantia certa o aproximada, reservant el crèdit; la disposició o compromís (D), acte pel qual s'acorda la realització de la despesa amb un tercer determinat i per un import exactament determinat; el reconeixement de l'obligació (O), acte que declara l'existència d'un crèdit exigible contra l'entitat, després de l'acreditació de la prestació; i l'ordenació del pagament (P). Diverses fases es poden acumular en un sol acte administratiu (ADO, ADOP)."
         },
         {
           "h": "Execució del pressupost d'ingressos",
-          "p": "Comprèn el reconeixement i la liquidació de drets (naixement del dret a cobrar), i la recaptació en període voluntari i, si escau, executiu (amb recàrrecs i procediment de constrenyiment). El control de la tresoreria respecta el principi d'unitat de caixa."
+          "p": "Comprèn el reconeixement i la liquidació de drets (que determinen el naixement del dret a cobrar) i la recaptació, en període voluntari i, si no es paga, en període executiu, amb els recàrrecs corresponents i el procediment de constrenyiment. La gestió de la tresoreria respecta el principi d'unitat de caixa i atén el pagament de les obligacions segons el pla de disposició de fons."
         },
         {
           "h": "Figures especials de gestió",
-          "scheme": {
-            "cap": "Despeses singulars",
-            "body": "PAGAMENTS A JUSTIFICAR → quan no es pot aportar la\n  documentació prèvia al pagament; cal justificar després\nBESTRETES DE CAIXA FIXA → provisions per a despeses\n  periòdiques o repetitives de petita quantia\nDESPESES PLURIANUALS → comprometen exercicis futurs amb\n  límits per anualitats i nombre d'exercicis (art. 174)\nTRAMITACIÓ ANTICIPADA → iniciar l'expedient abans de l'inici\n  de l'exercici\nFINANÇAMENT AFECTAT → despeses lligades a ingressos\n  específics"
-          }
+          "list": [
+            "Pagaments a justificar: s'expedeixen quan els documents justificatius no es poden aportar abans de formular la proposta de pagament; els perceptors han de justificar-ne l'aplicació en un termini.",
+            "Bestretes de caixa fixa: provisions de fons a habilitats de caixa per atendre despeses periòdiques o repetitives de petita quantia.",
+            "Despeses de caràcter plurianual: comprometen crèdits d'exercicis futurs, amb límits per anualitats i per nombre d'exercicis (art. 174).",
+            "Tramitació anticipada: permet iniciar l'expedient de despesa en l'exercici anterior a aquell en què s'executarà.",
+            "Despeses amb finançament afectat: lligades a ingressos específics que les financen."
+          ]
         },
         {
-          "key": "Les despeses plurianuals i la tramitació anticipada permeten gestionar inversions que superen l'exercici, sempre dins dels límits legals."
+          "h": "Control",
+          "p": "Tota l'execució se sotmet al control intern de la Intervenció (funció interventora i control financer) i, posteriorment, al control extern del Tribunal de Comptes i de la Sindicatura de Comptes de Catalunya."
         }
       ],
-      "key": "Despesa: A-D-O-P (acumulables en ADO/ADOP). Ingressos: reconeixement-liquidació-recaptació (voluntària/executiva). Figures: pagaments a justificar, bestretes de caixa fixa, plurianuals, tramitació anticipada, finançament afectat."
+      "key": "Despesa: fases A-D-O-P (acumulables en ADO/ADOP). Ingressos: reconeixement-liquidació-recaptació (voluntària/executiva), amb unitat de caixa. Figures especials: pagaments a justificar, bestretes de caixa fixa, despeses plurianuals (174), tramitació anticipada i finançament afectat. Control de la Intervenció."
     },
     "43": {
-      "intro": "Les hisendes locals disposen d'un conjunt de recursos per finançar les seves competències, enumerats a l'art. 2 del TRLHL. Inclouen tributs propis, transferències, ingressos patrimonials i de dret privat, subvencions, preus públics i operacions de crèdit.",
+      "intro": "Les hisendes locals disposen d'un conjunt de recursos per finançar les seves competències, enumerats a l'art. 2 del TRLHL. La distinció entre les diferents figures (especialment taxes, contribucions especials i preus públics) és recurrent als exàmens.",
       "sections": [
         {
           "h": "Recursos de les hisendes locals",
-          "scheme": {
-            "cap": "Recursos (art. 2 TRLHL)",
-            "body": "TRIBUTS PROPIS\n  • TAXES → serveis o activitats que afecten/beneficien\n    l'obligat (recepció obligatòria o monopoli)\n  • CONTRIBUCIONS ESPECIALS → benefici o augment de valor\n    per obres públiques o establiment/ampliació de serveis\n  • IMPOSTOS: IBI, IAE, IVTM (OBLIGATORIS);\n    ICIO i IIVTNU/plusvàlua (POTESTATIUS)\nPARTICIPACIÓ en tributs de l'Estat i de la CA\nINGRESSOS DE DRET PRIVAT (rendiments del patrimoni)\nSUBVENCIONS · PREUS PÚBLICS · PRODUCTE D'OPERACIONS DE\n  CRÈDIT · MULTES i SANCIONS · ALTRES de dret públic"
-          }
+          "p": "Segons l'art. 2 del TRLHL, els recursos són: els ingressos de dret privat; els tributs propis (taxes, contribucions especials i impostos) i els recàrrecs sobre tributs d'altres administracions; les participacions en els tributs de l'Estat i de les comunitats autònomes; les subvencions; els preus públics; el producte de les operacions de crèdit; el producte de les multes i sancions; i la resta de prestacions de dret públic."
+        },
+        {
+          "h": "Els impostos locals",
+          "p": "Hi ha impostos d'exacció obligatòria, que tots els ajuntaments han d'exigir: l'impost sobre béns immobles (IBI), l'impost sobre activitats econòmiques (IAE) i l'impost sobre vehicles de tracció mecànica (IVTM). I impostos potestatius, que cada ajuntament pot establir o no mitjançant la corresponent ordenança fiscal: l'impost sobre construccions, instal·lacions i obres (ICIO) i l'impost sobre l'increment de valor dels terrenys de naturalesa urbana (IIVTNU, la plusvàlua municipal)."
         },
         {
           "h": "Taxes, contribucions especials i preus públics",
           "list": [
-            "Taxa: per la prestació d'un servei o realització d'una activitat de competència local que es refereixi, afecti o beneficiï l'obligat, quan sigui de recepció obligatòria o no el presti el sector privat (art. 20 TRLHL).",
-            "Contribució especial: pel benefici especial o augment de valor dels béns derivat d'obres públiques o de l'establiment/ampliació de serveis (arts. 28-37).",
-            "Preu públic: per serveis de recepció voluntària que també presta el sector privat (arts. 41-47); no és un tribut."
+            "Taxa: tribut que es paga per la utilització privativa o l'aprofitament especial del domini públic local, o per la prestació de serveis o la realització d'activitats de competència local que es refereixin, afectin o beneficiïn de manera particular l'obligat, quan siguin de recepció obligatòria o no els presti el sector privat (art. 20).",
+            "Contribució especial: tribut el fet imposable del qual és l'obtenció per l'obligat d'un benefici o d'un augment de valor dels seus béns com a conseqüència de la realització d'obres públiques o de l'establiment o ampliació de serveis públics (arts. 28-37).",
+            "Preu públic: contraprestació pecuniària per serveis o activitats de competència local quan, prestant-se també pel sector privat, són de sol·licitud o recepció voluntària (arts. 41-47). No és un tribut."
           ]
         },
         {
-          "h": "Ingressos de dret privat i altres de dret públic",
-          "p": "Els ingressos de dret privat provenen del rendiment i l'alienació del patrimoni (lloguers, vendes de béns patrimonials, herències, etc.) i es regeixen pel dret civil. Altres ingressos de dret públic inclouen les subvencions (finalistes o incondicionades) i la resta de recursos de dret públic, exigibles, si escau, per la via de constrenyiment."
-        },
-        {
-          "key": "Distinció clau: taxa (servei obligatori/monopoli) vs preu públic (servei voluntari també privat). Impostos obligatoris (IBI, IAE, IVTM) i potestatius (ICIO, plusvàlua)."
+          "h": "Ingressos de dret privat",
+          "p": "Provenen del rendiment o producte de qualsevol naturalesa derivat del patrimoni de l'entitat (lloguers, alienació de béns patrimonials, herències, llegats i donacions), i es regeixen per les normes de dret privat. No tenen aquesta consideració els béns de domini públic mentre conservin aquesta qualificació."
         }
       ],
-      "key": "Recursos (art. 2 TRLHL): tributs propis (taxes, contribucions especials, impostos —IBI/IAE/IVTM obligatoris; ICIO/plusvàlua potestatius—), transferències, ingressos de dret privat, subvencions, preus públics, crèdit."
+      "key": "Recursos (art. 2 TRLHL): tributs propis (taxes, contribucions especials i impostos), participacions, ingressos de dret privat, subvencions, preus públics i crèdit. Impostos obligatoris: IBI, IAE, IVTM; potestatius: ICIO i plusvàlua. Taxa (servei obligatori/monopoli) vs preu públic (servei voluntari també privat)."
     },
     "45": {
       "intro": "Les situacions bàsiques del sòl són la categorització que fa la legislació estatal (TRLS, RDL 7/2015) a efectes de drets i deures bàsics i, sobretot, de valoració: sòl rural i sòl urbanitzat.",
