@@ -6,111 +6,6 @@
   },
   "questions": [
     {
-      "theme": 16,
-      "block": 6,
-      "q": "Les dades de salut, segons el RGPD, són:",
-      "options": [
-        "Dades d'accés lliure",
-        "Categories especials de dades, amb protecció reforçada",
-        "Dades públiques per defecte",
-        "Dades irrellevants"
-      ],
-      "correct": 1,
-      "explain": "L'art. 9 RGPD considera les dades de salut categories especials, amb prohibició general de tractament excepte excepcions taxades.",
-      "source": "RGPD",
-      "article": "art. 9 RGPD"
-    },
-    {
-      "theme": 16,
-      "block": 6,
-      "q": "El dret a obtenir la supressió de dades personals ('dret a l'oblit') es regula a:",
-      "options": [
-        "Article 15 RGPD",
-        "Article 17 RGPD",
-        "Article 6 LRBRL",
-        "Article 24 Llei 39/2015"
-      ],
-      "correct": 1,
-      "explain": "L'art. 17 RGPD regula el dret de supressió o 'dret a l'oblit'.",
-      "source": "RGPD",
-      "article": "art. 17 RGPD"
-    },
-    {
-      "theme": 16,
-      "block": 6,
-      "q": "Al sector públic, la designació d'un Delegat de Protecció de Dades (DPD) és:",
-      "options": [
-        "Voluntària",
-        "Obligatòria",
-        "Prohibida",
-        "Només per a l'Estat"
-      ],
-      "correct": 1,
-      "explain": "Art. 37 RGPD: la designació de DPD és obligatòria quan el tractament el dugui a terme una autoritat o organisme públic.",
-      "source": "RGPD",
-      "article": "art. 37 RGPD"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "L'oferta pública d'ocupació s'ha d'aprovar i publicar:",
-      "options": [
-        "Cada cinc anys",
-        "Anualment i publicar-se al diari oficial corresponent",
-        "Només quan ho decideixi l'Alcalde",
-        "No cal publicar-la"
-      ],
-      "correct": 1,
-      "explain": "Art. 70 TREBEP: les necessitats de personal amb dotació pressupostària que s'hagin de proveir s'articulen via OPO, que s'aprova i publica anualment.",
-      "source": "TREBEP",
-      "article": "art. 70 TREBEP"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "La condició de funcionari de carrera s'adquireix per:",
-      "options": [
-        "Simple nomenament verbal",
-        "El nomenament i la presa de possessió, prèvia superació del procés selectiu i jurament/promesa",
-        "Antiguitat de 10 anys",
-        "Decisió del cap de l'àrea"
-      ],
-      "correct": 1,
-      "explain": "Art. 62 TREBEP: l'adquisició requereix superar el procés selectiu, nomenament, jurament o promesa i presa de possessió.",
-      "source": "TREBEP",
-      "article": "art. 62 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "Les retribucions bàsiques dels funcionaris comprenen:",
-      "options": [
-        "El sou i els triennis (i pagues extres)",
-        "El complement de destinació",
-        "El complement específic",
-        "Les gratificacions per serveis extraordinaris"
-      ],
-      "correct": 0,
-      "explain": "Art. 23 TREBEP: les retribucions bàsiques són el sou i els triennis; el complement de destinació i l'específic són retribucions complementàries.",
-      "source": "TREBEP",
-      "article": "art. 23 TREBEP"
-    },
-    {
-      "theme": 19,
-      "block": 8,
-      "q": "Els convenis interadministratius es regulen principalment a:",
-      "options": [
-        "La Llei 39/2015",
-        "La Llei 40/2015 (règim jurídic del sector públic)",
-        "La LCSP",
-        "El TRLHL"
-      ],
-      "correct": 1,
-      "explain": "Els convenis es regulen al Capítol VI del Títol Preliminar de la Llei 40/2015 (arts. 47 i ss.).",
-      "source": "L40_2015",
-      "article": "arts. 47-53 Llei 40/2015"
-    },
-    {
       "theme": 34,
       "block": 8,
       "q": "Un consorci és:",
@@ -621,21 +516,6 @@
       "article": "codi de conducta, Llei 19/2014"
     },
     {
-      "theme": 18,
-      "block": 7,
-      "q": "Una situació administrativa del funcionari és:",
-      "options": [
-        "L'acomiadament objectiu",
-        "El servei actiu, els serveis especials, l'excedència, etc.",
-        "La jubilació anticipada com a única opció",
-        "La baixa per malaltia exclusivament"
-      ],
-      "correct": 1,
-      "explain": "Art. 85 TREBEP: situacions com servei actiu, serveis especials, servei en altres administracions, excedència i suspensió de funcions.",
-      "source": "TREBEP",
-      "article": "art. 85 TREBEP"
-    },
-    {
       "theme": 32,
       "block": 8,
       "q": "En la concessió de serveis, la relació amb les persones usuàries:",
@@ -771,96 +651,6 @@
       "article": "arts. 28-37 TRLHL"
     },
     {
-      "theme": 16,
-      "block": 6,
-      "q": "El responsable del tractament és:",
-      "options": [
-        "Sempre l'encarregat",
-        "Qui determina les finalitats i els mitjans del tractament",
-        "L'interessat",
-        "L'AEPD"
-      ],
-      "correct": 1,
-      "explain": "Art. 4 RGPD: el responsable determina les finalitats i els mitjans del tractament.",
-      "source": "RGPD",
-      "article": "art. 4 RGPD"
-    },
-    {
-      "theme": 16,
-      "block": 6,
-      "q": "L'avaluació d'impacte relativa a la protecció de dades (AIPD) és exigible quan:",
-      "options": [
-        "Mai",
-        "El tractament pot comportar un alt risc per als drets i llibertats",
-        "Hi ha menys de 10 registres",
-        "Ho diu l'interessat"
-      ],
-      "correct": 1,
-      "explain": "Art. 35 RGPD: cal una AIPD quan un tipus de tractament comporti probablement un alt risc.",
-      "source": "RGPD",
-      "article": "art. 35 RGPD"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "El personal eventual:",
-      "options": [
-        "És funcionari de carrera",
-        "Exerceix funcions de confiança o assessorament especial, de lliure nomenament i cessament",
-        "Té estabilitat",
-        "Substitueix els interins"
-      ],
-      "correct": 1,
-      "explain": "Art. 12 TREBEP: el personal eventual fa funcions de confiança o assessorament especial; nomenament i cessament lliures.",
-      "source": "TREBEP",
-      "article": "art. 12 TREBEP"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "Els grups de classificació professional dels funcionaris s'estableixen segons:",
-      "options": [
-        "L'edat",
-        "La titulació exigida per a l'accés (A1, A2, B, C1, C2)",
-        "L'antiguitat",
-        "El sou"
-      ],
-      "correct": 1,
-      "explain": "Art. 76 TREBEP: la classificació en grups (A1, A2, B, C1, C2) es fa segons la titulació exigida.",
-      "source": "TREBEP",
-      "article": "art. 76 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "El complement de destinació retribueix:",
-      "options": [
-        "Els triennis",
-        "El nivell del lloc de treball",
-        "Les hores extres",
-        "L'antiguitat"
-      ],
-      "correct": 1,
-      "explain": "El complement de destinació correspon al nivell del lloc que s'ocupa (art. 24 TREBEP).",
-      "source": "TREBEP",
-      "article": "art. 24 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "Els funcionaris tenen dret a la carrera professional, que pot ser:",
-      "options": [
-        "Inexistent",
-        "Horitzontal i/o vertical",
-        "Només vertical sempre",
-        "Decidida per l'Alcalde"
-      ],
-      "correct": 1,
-      "explain": "Art. 16 TREBEP: la carrera pot ser horitzontal, vertical, promoció interna vertical i horitzontal.",
-      "source": "TREBEP",
-      "article": "art. 16 TREBEP"
-    },
-    {
       "theme": 86,
       "block": 7,
       "q": "El personal laboral es regeix per:",
@@ -904,21 +694,6 @@
       "explain": "Art. 97 TREBEP: les infraccions molt greus prescriuen als 3 anys; les greus, als 2; les lleus, als 6 mesos.",
       "source": "TREBEP",
       "article": "art. 97 TREBEP"
-    },
-    {
-      "theme": 19,
-      "block": 8,
-      "q": "Els convenis no poden tenir per objecte:",
-      "options": [
-        "Cap cosa",
-        "Prestacions pròpies dels contractes (no poden ser un frau a la LCSP)",
-        "Col·laboració interadministrativa",
-        "Objectius comuns"
-      ],
-      "correct": 1,
-      "explain": "Art. 47.1 Llei 40/2015: els convenis no poden tenir per objecte prestacions pròpies dels contractes.",
-      "source": "L40_2015",
-      "article": "art. 47 Llei 40/2015"
     },
     {
       "theme": 32,
@@ -1279,36 +1054,6 @@
       "explain": "La presència de recursos preventius és preceptiva en treballs amb riscos especials o concurrència (RD 171/2004; art. 32 bis LPRL).",
       "source": "RD171_2004",
       "article": "art. 32 bis LPRL"
-    },
-    {
-      "theme": 19,
-      "block": 8,
-      "q": "Els convenis interadministratius tenen una durada:",
-      "options": [
-        "Indefinida sempre",
-        "Màxima de 4 anys, prorrogables fins a 4 més",
-        "De 10 anys",
-        "Sense límit"
-      ],
-      "correct": 1,
-      "explain": "Art. 49 Llei 40/2015: durada màxima de 4 anys, amb pròrroga de fins a 4 anys addicionals.",
-      "source": "L40_2015",
-      "article": "art. 49 Llei 40/2015"
-    },
-    {
-      "theme": 19,
-      "block": 8,
-      "q": "L'eficàcia d'un conveni que comporta compromisos econòmics:",
-      "options": [
-        "És immediata",
-        "Requereix la seva formalització i, si escau, els tràmits pressupostaris",
-        "No té efectes",
-        "Depèn d'un particular"
-      ],
-      "correct": 1,
-      "explain": "Els convenis amb compromisos financers requereixen consignació pressupostària i formalització.",
-      "source": "L40_2015",
-      "article": "art. 48 Llei 40/2015"
     },
     {
       "theme": 31,
@@ -1776,66 +1521,6 @@
       "article": "art. 20 TRLHL"
     },
     {
-      "theme": 16,
-      "block": 6,
-      "q": "L'encarregat del tractament:",
-      "options": [
-        "Decideix les finalitats",
-        "Tracta dades per compte del responsable, segons contracte",
-        "És sempre l'AEPD",
-        "No té obligacions"
-      ],
-      "correct": 1,
-      "explain": "L'encarregat tracta les dades per compte del responsable, regulat per un contracte (art. 28 RGPD).",
-      "source": "RGPD",
-      "article": "art. 28 RGPD"
-    },
-    {
-      "theme": 16,
-      "block": 6,
-      "q": "Una violació de seguretat de les dades s'ha de notificar a l'autoritat:",
-      "options": [
-        "Mai",
-        "Sense dilació indeguda i, si és possible, en 72 hores",
-        "En 6 mesos",
-        "Només si ho vol l'interessat"
-      ],
-      "correct": 1,
-      "explain": "Art. 33 RGPD: les bretxes de seguretat es notifiquen a l'autoritat de control en un termini màxim de 72 hores.",
-      "source": "RGPD",
-      "article": "art. 33 RGPD"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "El funcionari interí es nomena:",
-      "options": [
-        "De manera permanent",
-        "Per raons expressament justificades de necessitat i urgència, per a funcions de funcionari de carrera",
-        "Sense límit temporal mai",
-        "Per l'Estat sempre"
-      ],
-      "correct": 1,
-      "explain": "Art. 10 TREBEP: els interins ocupen places de funcionari de carrera per necessitat i urgència justificades.",
-      "source": "TREBEP",
-      "article": "art. 10 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "Les vacances anuals retribuïdes dels funcionaris són, com a mínim:",
-      "options": [
-        "10 dies",
-        "22 dies hàbils (o proporcional)",
-        "2 mesos",
-        "Cap"
-      ],
-      "correct": 1,
-      "explain": "Art. 50 TREBEP: els funcionaris tenen dret a vacances de 22 dies hàbils anuals (o la part proporcional).",
-      "source": "TREBEP",
-      "article": "art. 50 TREBEP"
-    },
-    {
       "theme": 86,
       "block": 7,
       "q": "El personal funcionari de carrera es vincula a l'Administració per:",
@@ -2271,66 +1956,6 @@
       "article": "art. 169.6 TRLHL"
     },
     {
-      "theme": 17,
-      "block": 7,
-      "q": "El concurs-oposició com a sistema selectiu:",
-      "options": [
-        "Només valora mèrits",
-        "Combina proves selectives (oposició) i valoració de mèrits (concurs)",
-        "Només fa proves",
-        "És un sorteig"
-      ],
-      "correct": 1,
-      "explain": "El concurs-oposició combina la fase d'oposició (proves) amb la de concurs (mèrits).",
-      "source": "TREBEP",
-      "article": "art. 61 TREBEP"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "Els principis rectors de l'accés a l'ocupació pública són:",
-      "options": [
-        "Amistat i confiança",
-        "Igualtat, mèrit, capacitat i publicitat",
-        "Antiguitat exclusiva",
-        "Atzar"
-      ],
-      "correct": 1,
-      "explain": "Art. 55 TREBEP: l'accés es regeix per igualtat, mèrit, capacitat i publicitat (entre d'altres).",
-      "source": "TREBEP",
-      "article": "art. 55 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "La jubilació dels funcionaris pot ser:",
-      "options": [
-        "Només forçosa",
-        "Voluntària, forçosa, per incapacitat permanent o parcial",
-        "Inexistent",
-        "Decidida per l'Alcalde"
-      ],
-      "correct": 1,
-      "explain": "Art. 67 TREBEP: la jubilació pot ser voluntària, forçosa per edat, per incapacitat o parcial.",
-      "source": "TREBEP",
-      "article": "art. 67 TREBEP"
-    },
-    {
-      "theme": 16,
-      "block": 6,
-      "q": "El consentiment com a base del tractament ha de ser:",
-      "options": [
-        "Tàcit",
-        "Lliure, específic, informat i inequívoc",
-        "Forçat",
-        "Indefinit"
-      ],
-      "correct": 1,
-      "explain": "Art. 4 i 7 RGPD: el consentiment ha de ser lliure, específic, informat i inequívoc.",
-      "source": "RGPD",
-      "article": "art. 7 RGPD"
-    },
-    {
       "theme": 36,
       "block": 9,
       "q": "El procediment de responsabilitat patrimonial pot iniciar-se:",
@@ -2509,51 +2134,6 @@
       "explain": "El pressupost s'aprova sense dèficit inicial: els estats de despeses i ingressos s'han d'anivellar.",
       "source": "TRLHL",
       "article": "art. 165 TRLHL"
-    },
-    {
-      "theme": 16,
-      "block": 6,
-      "q": "El principi de responsabilitat proactiva (accountability) exigeix:",
-      "options": [
-        "No fer res",
-        "Que el responsable pugui demostrar el compliment dels principis",
-        "Delegar tot",
-        "Ocultar dades"
-      ],
-      "correct": 1,
-      "explain": "L'accountability (art. 5.2 RGPD) obliga el responsable a poder demostrar el compliment.",
-      "source": "RGPD",
-      "article": "art. 5.2 RGPD"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "La provisió de llocs de treball es fa, ordinàriament, per:",
-      "options": [
-        "Lliure designació sempre",
-        "Concurs (i lliure designació en llocs determinats)",
-        "Sorteig",
-        "Antiguitat"
-      ],
-      "correct": 1,
-      "explain": "Art. 78-80 TREBEP: la provisió ordinària és el concurs; la lliure designació es reserva a llocs determinats.",
-      "source": "TREBEP",
-      "article": "arts. 78-80 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "El dret de vaga dels funcionaris:",
-      "options": [
-        "No existeix",
-        "Existeix, garantint el manteniment dels serveis essencials",
-        "És il·limitat",
-        "El decideix l'Alcalde"
-      ],
-      "correct": 1,
-      "explain": "Els funcionaris tenen dret de vaga amb garantia dels serveis essencials de la comunitat (art. 15 TREBEP).",
-      "source": "TREBEP",
-      "article": "art. 15 TREBEP"
     },
     {
       "theme": 86,
@@ -2856,51 +2436,6 @@
       "article": "Llei 19/2014"
     },
     {
-      "theme": 16,
-      "block": 6,
-      "q": "El registre d'activitats de tractament:",
-      "options": [
-        "No cal",
-        "És obligatori per al responsable i l'encarregat",
-        "És secret",
-        "El porta l'interessat"
-      ],
-      "correct": 1,
-      "explain": "Art. 30 RGPD: responsable i encarregat han de mantenir un registre de les activitats de tractament.",
-      "source": "RGPD",
-      "article": "art. 30 RGPD"
-    },
-    {
-      "theme": 17,
-      "block": 7,
-      "q": "La pèrdua de la condició de funcionari es produeix per:",
-      "options": [
-        "Vacances",
-        "Renúncia, pèrdua de nacionalitat, sanció de separació, jubilació o pena d'inhabilitació",
-        "Trasllat",
-        "Excedència"
-      ],
-      "correct": 1,
-      "explain": "Art. 63 TREBEP: causes de pèrdua com renúncia, separació, jubilació, inhabilitació o pèrdua de nacionalitat.",
-      "source": "TREBEP",
-      "article": "art. 63 TREBEP"
-    },
-    {
-      "theme": 18,
-      "block": 7,
-      "q": "Les retribucions complementàries inclouen:",
-      "options": [
-        "El sou base",
-        "El complement de destinació i l'específic",
-        "Els triennis",
-        "Les pagues extres"
-      ],
-      "correct": 1,
-      "explain": "Art. 24 TREBEP: les complementàries són, entre altres, el complement de destinació i l'específic.",
-      "source": "TREBEP",
-      "article": "art. 24 TREBEP"
-    },
-    {
       "theme": 36,
       "block": 9,
       "q": "El nexe causal pot quedar interromput per:",
@@ -3049,21 +2584,6 @@
       "explain": "L'ètica pública guia la conducta diària dels directius i empleats al servei de l'interès general.",
       "source": "L19_2014",
       "article": "ètica pública"
-    },
-    {
-      "theme": 19,
-      "block": 8,
-      "q": "El conveni s'ha de remetre, per al seu control, a:",
-      "options": [
-        "Ningú",
-        "El Tribunal/Sindicatura de Comptes quan superi determinats imports",
-        "Un particular",
-        "El contractista"
-      ],
-      "correct": 1,
-      "explain": "Els convenis amb compromisos econòmics superiors a un llindar es remeten a la Sindicatura/Tribunal de Comptes.",
-      "source": "L40_2015",
-      "article": "art. 53 Llei 40/2015"
     },
     {
       "theme": 62,
@@ -4684,6 +4204,156 @@
       "explain": "Es pregunta l'efecte de l'absència de reclamacions. Correcta (b): si no es presenta cap reclamació ni suggeriment, s'entén definitivament adoptat l'acord fins llavors provisional, sense necessitat d'un nou acord exprés (art. 49 LRBRL). Per què no: (a) no cal repetir el procediment; (c) l'ordenança no decau; (d) la competència no passa a la diputació. Base: art. 49 LRBRL.",
       "source": "LRBRL",
       "article": "art. 49 LRBRL"
+    },
+    {
+      "theme": 16,
+      "block": 6,
+      "q": "Les dades personals relatives a la salut d'una persona, segons el RGPD, són:",
+      "options": [
+        "Dades d'accés lliure que es poden publicar si hi ha interès informatiu",
+        "Categories especials de dades, amb una protecció reforçada",
+        "Dades merament identificatives que no necessiten cap protecció particular",
+        "Dades que es poden tractar sempre que ho autoritzi l'òrgan competent"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la naturalesa de les dades de salut. Correcta (b): les dades de salut són categories especials de dades (art. 9 RGPD), amb prohibició general de tractament excepte excepcions taxades. Per què no: (a) no són d'accés lliure; (c) no són merament identificatives; (d) no n'hi ha prou amb una autorització de l'òrgan: cal una base habilitant de l'art. 9. Base: art. 9 RGPD.",
+      "source": "RGPD",
+      "article": "art. 9 RGPD"
+    },
+    {
+      "theme": 16,
+      "block": 6,
+      "q": "El dret d'una persona a obtenir la supressió de les seves dades personals es coneix com:",
+      "options": [
+        "Dret de portabilitat de les dades a un altre responsable del tractament",
+        "Dret de supressió o 'dret a l'oblit'",
+        "Dret d'accés a la informació sobre les dades tractades",
+        "Dret d'oposició al tractament per motius personals legítims"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el dret de supressió. Correcta (b): el dret a obtenir la supressió de les dades és el dret de supressió o 'dret a l'oblit' (art. 17 RGPD). Per què no: (a) la portabilitat és el dret a rebre i transmetre les dades; (c) l'accés és el dret a saber quines dades es tracten; (d) l'oposició és el dret a oposar-se al tractament. Base: art. 17 RGPD.",
+      "source": "RGPD",
+      "article": "art. 17 RGPD"
+    },
+    {
+      "theme": 16,
+      "block": 6,
+      "q": "En el sector públic, la designació d'un Delegat de Protecció de Dades (DPD) és:",
+      "options": [
+        "Voluntària, i depèn de la mida i el pressupost de cada administració",
+        "Obligatòria",
+        "Obligatòria només per a les administracions de més de 50.000 habitants",
+        "Una facultat que correspon exclusivament a l'Agència de Protecció de Dades"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'obligatorietat del DPD. Correcta (b): la designació d'un Delegat de Protecció de Dades és obligatòria quan el tractament el du a terme una autoritat o organisme públic (art. 37 RGPD). Per què no: (a) no és voluntària al sector públic; (c) no depèn d'un llindar de població; (d) no és una facultat de l'autoritat de control. Base: art. 37 RGPD.",
+      "source": "RGPD",
+      "article": "art. 37 RGPD"
+    },
+    {
+      "theme": 17,
+      "block": 7,
+      "q": "Quins són els principis rectors de l'accés a l'ocupació pública?",
+      "options": [
+        "L'antiguitat, la fidelitat a la corporació i la disponibilitat horària",
+        "La igualtat, el mèrit, la capacitat i la publicitat",
+        "La lliure designació per part de l'òrgan de govern competent en cada cas",
+        "La residència al municipi i el coneixement de la realitat local del territori"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els principis d'accés. Correcta (b): l'accés a l'ocupació pública es regeix pels principis constitucionals d'igualtat, mèrit i capacitat, juntament amb la publicitat de les convocatòries (art. 55 TREBEP). Per què no: (a), (c) i (d) no són principis d'accés (l'antiguitat, la residència o la lliure designació vulnerarien la igualtat). Base: art. 55 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 55 TREBEP"
+    },
+    {
+      "theme": 17,
+      "block": 7,
+      "q": "Quan es pot nomenar personal funcionari interí?",
+      "options": [
+        "Sempre que l'òrgan competent ho consideri oportú per a una millor gestió",
+        "Per raons expressament justificades de necessitat i urgència, per a funcions de funcionari",
+        "De manera permanent, com a via alternativa estable al funcionari de carrera",
+        "Únicament per cobrir llocs de personal directiu i d'assessorament especial"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta quan es nomena un interí. Correcta (b): el nomenament d'interins només és possible per raons expressament justificades de necessitat i urgència, per exercir funcions pròpies de funcionari de carrera en els supòsits taxats (vacant, substitució, programa temporal, excés de tasques) (art. 10 TREBEP). Per què no: (a) no depèn de la simple oportunitat; (c) és temporal, no permanent; (d) no es limita a llocs directius (això seria personal eventual). Base: art. 10 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 10 TREBEP"
+    },
+    {
+      "theme": 17,
+      "block": 7,
+      "q": "Quins són els sistemes selectius d'accés a la funció pública?",
+      "options": [
+        "L'entrevista personal i la valoració curricular de la trajectòria professional",
+        "L'oposició, el concurs-oposició i, amb caràcter excepcional, el concurs",
+        "El sorteig públic entre les persones inscrites a la borsa de treball municipal",
+        "La promoció interna automàtica per antiguitat dins de la mateixa corporació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els sistemes selectius. Correcta (b): els sistemes selectius són l'oposició i el concurs-oposició, com a ordinaris, i el concurs (només mèrits) amb caràcter excepcional (art. 61 TREBEP). Per què no: (a) l'entrevista és, si escau, una prova dins d'un sistema, no un sistema; (c) el sorteig no és un sistema selectiu; (d) la promoció no és automàtica per antiguitat. Base: art. 61 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 61 TREBEP"
+    },
+    {
+      "theme": 18,
+      "block": 7,
+      "q": "Quines són les retribucions bàsiques dels funcionaris?",
+      "options": [
+        "El complement de destinació i el complement específic del lloc de treball",
+        "El sou i els triennis (a més de les pagues extraordinàries)",
+        "El complement de productivitat i les gratificacions per serveis extraordinaris",
+        "Les indemnitzacions per raó del servei i les dietes per desplaçament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta les retribucions bàsiques. Correcta (b): les retribucions bàsiques són el sou (assignat al grup de classificació) i els triennis, més les pagues extraordinàries (art. 23 TREBEP). Per què no: (a) i (c) el complement de destinació, l'específic, la productivitat i les gratificacions són retribucions complementàries; (d) les indemnitzacions per raó del servei no són retribucions. Base: art. 23 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 23 TREBEP"
+    },
+    {
+      "theme": 18,
+      "block": 7,
+      "q": "El complement de destinació retribueix:",
+      "options": [
+        "L'antiguitat de la persona funcionària al servei de l'Administració pública",
+        "El nivell del lloc de treball que s'ocupa",
+        "Les condicions particulars del lloc, com la dificultat tècnica o la dedicació",
+        "El rendiment o l'interès amb què la persona desenvolupa la seva feina"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta què retribueix el complement de destinació. Correcta (b): el complement de destinació correspon al nivell del lloc de treball que s'ocupa (escala 1-30) (art. 24 TREBEP). Per què no: (a) l'antiguitat es retribueix amb els triennis; (c) les condicions particulars del lloc són el complement específic; (d) el rendiment és el complement de productivitat. Base: art. 24 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 24 TREBEP"
+    },
+    {
+      "theme": 19,
+      "block": 8,
+      "q": "Quina és la durada màxima d'un conveni interadministratiu segons la Llei 40/2015?",
+      "options": [
+        "Una durada indefinida mentre les parts no l'denunciïn de manera expressa",
+        "Quatre anys, prorrogables fins a quatre anys més",
+        "Deu anys com a màxim, sense possibilitat de cap pròrroga posterior",
+        "La durada que lliurement acordin les parts signants, sense límit legal"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la durada dels convenis. Correcta (b): els convenis tenen una durada màxima de quatre anys, prorrogables fins a quatre anys més (art. 49 Llei 40/2015). Per què no: (a) no poden ser indefinits; (c) i (d) no s'ajusten al límit legal de 4+4 anys. Base: art. 49 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 49 Llei 40/2015"
+    },
+    {
+      "theme": 19,
+      "block": 8,
+      "q": "Els convenis interadministratius NO poden tenir per objecte:",
+      "options": [
+        "La col·laboració entre administracions per a una finalitat comuna d'interès públic",
+        "Prestacions pròpies dels contractes del sector públic",
+        "La fixació de mecanismes de seguiment i control de les actuacions previstes",
+        "La concreció de les obligacions i els compromisos econòmics de les parts"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el límit dels convenis. Correcta (b): els convenis no poden tenir per objecte prestacions pròpies dels contractes; en aquest cas, la seva naturalesa i règim s'ajusten a la legislació de contractes (art. 47.1 Llei 40/2015), per evitar eludir la LCSP. Per què no: (a), (c) i (d) són continguts propis i admissibles d'un conveni. Base: art. 47 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 47 Llei 40/2015"
     }
   ]
 }
