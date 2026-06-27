@@ -451,121 +451,98 @@
       "key": "RGPD + LO 3/2018. Principis (art. 5) i responsabilitat proactiva. Bases (art. 6); categories especials (art. 9, com la salut) amb protecció reforçada. Drets ARSOPOL (15-22). DPD obligatori al sector públic; registre d'activitats; AIPD si alt risc; bretxes notificades en 72 h."
     },
     "30": {
-      "intro": "La contractació menor és un procediment simplificat d'adjudicació directa per a contractes de poca quantia. Es regula a l'art. 118 LCSP i és molt freqüent en la gestió municipal ordinària.",
+      "intro": "La contractació menor és un procediment simplificat d'adjudicació directa per a contractes de poca quantia, molt freqüent en la gestió municipal ordinària. Es regula a l'art. 118 LCSP.",
       "sections": [
         {
-          "h": "Llindars",
-          "scheme": {
-            "cap": "Contracte menor (art. 118)",
-            "body": "LLINDARS (IVA EXCLÒS):\n  • OBRES → import < 40.000 €\n  • SERVEIS i SUBMINISTRAMENTS → import < 15.000 €\nDURADA → ≤ 1 any i NO prorrogable (art. 29.8)"
-          }
+          "h": "Llindars i durada",
+          "p": "Es consideren contractes menors els d'import inferior a 40.000 euros, quan es tracti de contractes d'obres, o a 15.000 euros, quan es tracti de contractes de subministrament o de serveis (sempre IVA exclòs). El contracte menor no pot tenir una durada superior a un any ni ser objecte de pròrroga (art. 29.8)."
         },
         {
           "h": "Tramitació i requisits",
-          "scheme": {
-            "cap": "Expedient del menor",
-            "body": "INFORME de l'òrgan de contractació motivant la NECESSITAT\n  i que NO s'altera l'objecte per eludir les regles generals\nAPROVACIÓ de la DESPESA\nINCORPORACIÓ de la FACTURA\nEn OBRES → a més, pressupost (i projecte/informe de\n  supervisió quan siguin necessaris segons normativa)\nFISCALITZACIÓ prèvia de la despesa per la Intervenció\nPUBLICITAT trimestral al perfil del contractant"
-          }
-        },
-        {
-          "h": "Prohibició de fraccionament",
-          "p": "No es pot fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir així els requisits de publicitat o els relatius al procediment d'adjudicació (arts. 118.2 i 99.2). El fraccionament fraudulent és una infracció de la legalitat contractual."
-        },
-        {
-          "h": "Límits subjectius",
-          "p": "La normativa i les instruccions internes solen establir cauteles addicionals (p. ex. límits a la concurrència de diversos menors amb el mateix adjudicatari) per evitar abusos. El menor no requereix mesa de contractació ni formalització en document administratiu separat (la factura fa de document)."
-        },
-        {
-          "key": "Llindars: obres <40.000 €, serveis i subministraments <15.000 € (IVA exclòs). Durada ≤1 any no prorrogable. Informe de necessitat + aprovació de despesa + factura. Prohibit fraccionar."
-        }
-      ],
-      "key": "Menor (118): obres <40.000 €, serveis/subministr. <15.000 € (IVA exclòs); durada ≤1 any no prorrogable. Informe de necessitat + despesa + factura (+pressupost en obres). Prohibit fraccionar per eludir llindars."
-    },
-    "36": {
-      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32-37 de la Llei 40/2015 i 65, 67, 81, 91-92, 96 de la Llei 39/2015.",
-      "sections": [
-        {
-          "h": "Requisits",
-          "scheme": {
-            "cap": "Requisits (art. 32 Llei 40/2015)",
-            "body": "1) LESIÓ real, efectiva, avaluable econòmicament i\n   INDIVIDUALITZADA en una persona o grup\n2) ANTIJURIDICITAT → el particular NO té el deure jurídic\n   de suportar el dany\n3) IMPUTACIÓ a l'Administració pel funcionament NORMAL o\n   ANORMAL d'un servei públic\n4) NEXE CAUSAL entre l'actuació i el dany\n5) Absència de FORÇA MAJOR (el cas fortuït SÍ indemnitza)\n→ responsabilitat OBJECTIVA i DIRECTA"
-          }
-        },
-        {
-          "h": "Danys indemnitzables i quantia",
-          "p": "El dany ha de ser efectiu, avaluable i individualitzat; no s'indemnitzen danys que el particular tingui el deure de suportar (p. ex. càrregues generals). La indemnització (art. 34) es calcula segons els criteris de valoració del dret aplicable (expropiació, fiscal, etc.), referida al dia en què la lesió es va produir efectivament, i s'actualitza a la data de la resolució; es pot abonar en metàl·lic o en espècie."
-        },
-        {
-          "h": "Nexe causal i causes d'exoneració",
-          "p": "Cal acreditar el nexe causal. L'Administració queda exonerada en casos de força major (esdeveniment imprevisible o inevitable, extern al servei) —no així el cas fortuït—. La culpa exclusiva de la víctima o la intervenció d'un tercer poden trencar el nexe causal; la concurrència de causes modula (redueix) la indemnització."
-        },
-        {
-          "h": "Procediment i prescripció",
-          "scheme": {
-            "cap": "Procediment (Llei 39/2015)",
-            "body": "INICIACIÓ → d'ofici o a sol·licitud de l'interessat\nINSTRUCCIÓ → al·legacions, proves, informes; DICTAMEN del\n  Consell consultiu (Comissió Jurídica Assessora) quan la\n  quantia ho exigeixi\nRESOLUCIÓ en 6 mesos (silenci NEGATIU)\nPRESCRIPCIÓ → 1 ANY des del fet o, en danys físics/psíquics,\n  des de la curació o la determinació de les seqüeles"
-          }
-        },
-        {
-          "key": "Lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescriu a l'any (seqüeles: des de l'estabilització). Resolució en 6 mesos, silenci negatiu."
-        }
-      ],
-      "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescripció 1 any (seqüeles des de l'estabilització). Resolució 6 mesos, silenci negatiu."
-    },
-    "44": {
-      "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc. ATENCIÓ: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31-12-2025.",
-      "sections": [
-        {
-          "h": "Classificació del sòl",
-          "scheme": {
-            "cap": "Classes de sòl (TRLUC)",
-            "body": "SÒL URBÀ → té els serveis urbanístics bàsics o està\n  comprès en àrees consolidades per l'edificació; es divideix\n  en CONSOLIDAT i NO CONSOLIDAT\nSÒL URBANITZABLE → transformable mitjançant la urbanització,\n  via planejament derivat (delimitat o no delimitat)\nSÒL NO URBANITZABLE → preservat de la transformació\n  (rústic, agrícola, forestal, d'especial protecció...)"
-          }
-        },
-        {
-          "h": "Serveis urbanístics i concepte de solar",
-          "scheme": {
-            "cap": "Conceptes clau",
-            "body": "SERVEIS URBANÍSTICS BÀSICS → xarxa viària amb nivell de\n  consolidació suficient, xarxa d'abastament d'aigua, xarxa\n  de sanejament i subministrament d'energia elèctrica\nSOLAR → sòl urbà APTE per ser edificat: disposa dels serveis,\n  té assenyalades alineacions i rasants i la urbanització\n  bàsica executada o garantida\nNUCLI DE POBLACIÓ → agrupació d'edificacions; en sòl no\n  urbanitzable, se n'evita la formació no planificada"
-          }
-        },
-        {
-          "h": "Sòl urbà consolidat i no consolidat",
-          "p": "El sòl urbà CONSOLIDAT ja té la condició de solar o només requereix completar la urbanització; els seus propietaris tenen deures mínims (acabar la urbanització, edificar). El sòl urbà NO CONSOLIDAT requereix actuacions de transformació o reforma interior i comporta deures de cessió (sòl per a sistemes i aprofitament) i d'urbanització, articulats mitjançant la gestió urbanística."
-        },
-        {
-          "h": "Situacions bàsiques (estatal)",
-          "p": "El TRLS estatal, a efectes de valoració i de drets bàsics, distingeix dues situacions: sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica."
-        },
-        {
-          "key": "Sòl urbà (consolidat/no consolidat) · urbanitzable · no urbanitzable. Solar = sòl urbà amb serveis i urbanització apte per edificar. ⚠️ Reforma 2025 del TRLUC (Llei 11/2025 i DL 2/2025)."
-        }
-      ],
-      "key": "Classificació (TRLUC): urbà (consolidat/no consolidat), urbanitzable, no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament, electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025."
-    },
-    "56": {
-      "intro": "La llicència urbanística és l'acte de control previ amb què el municipi verifica que una actuació s'ajusta a la legalitat urbanística. Es regula als arts. 187 i ss. del TRLUC.",
-      "sections": [
-        {
-          "h": "Naturalesa i actes subjectes",
           "list": [
-            "És un acte REGLAT: s'atorga o denega segons la conformitat amb el planejament i la normativa (no hi ha discrecionalitat).",
-            "Actes subjectes (art. 187): obres majors, parcel·lacions, primera ocupació, usos del sòl, moviments de terres, tales, etc.",
-            "Comunicació prèvia (art. 187 bis): actuacions de menor entitat que no requereixen projecte tècnic complex."
+            "Informe de l'òrgan de contractació que motivi la necessitat del contracte i que justifiqui que no s'està alterant l'objecte del contracte per evitar les regles generals de contractació (aquest informe no és necessari en els contractes menors de valor estimat igual o inferior a 5.000 euros).",
+            "Aprovació de la despesa.",
+            "Incorporació de la factura corresponent.",
+            "En el contracte menor d'obres, a més, el pressupost de les obres (i, quan siguin necessàries d'acord amb la normativa, el projecte i l'informe de supervisió).",
+            "Fiscalització prèvia de la despesa per la Intervenció i publicitat trimestral al perfil de contractant."
           ]
         },
         {
-          "h": "Silenci en llicències",
-          "scheme": {
-            "cap": "Silenci urbanístic",
-            "body": "REGLA: el silenci en llicències és POSITIU\nPERÒ (art. 11.3 TRLS):\n  EN CAP CAS s'adquireixen per silenci facultats o drets\n  CONTRARIS a l'ordenament urbanístic o al planejament\n→ si el projecte és il·legal, NO s'obté llicència encara que\n  passi el termini; cal resolució expressa i, si s'ha\n  construït, protecció de la legalitat"
-          }
+          "h": "Prohibició de fraccionament",
+          "p": "No es pot fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir així els requisits de publicitat o els relatius al procediment d'adjudicació que correspondria (arts. 118.2 i 99.2). El fraccionament fraudulent és contrari a la legalitat contractual."
         },
         {
-          "key": "Procediment: sol·licitud + projecte → informes tècnic i jurídic → resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici de tercers."
+          "h": "Característiques i límits",
+          "p": "El contracte menor no exigeix la constitució de mesa de contractació ni la formalització en un document administratiu separat (la factura fa aquesta funció). Les instruccions internes i les juntes consultives recomanen cauteles addicionals, com limitar la concentració de diversos contractes menors en un mateix adjudicatari, per evitar abusos."
         }
       ],
-      "key": "Llicència = acte reglat de control previ. Silenci positiu, però mai per a actuacions contràries al planejament (art. 11.3 TRLS)."
+      "key": "Menor (118): obres < 40.000 € i serveis/subministraments < 15.000 € (IVA exclòs); durada ≤ 1 any, no prorrogable (29.8). Informe de necessitat (excepte ≤ 5.000 €) + aprovació de la despesa + factura (+ pressupost en obres). Prohibit fraccionar per eludir els llindars."
+    },
+    "36": {
+      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32 a 37 de la Llei 40/2015 i en aspectes procedimentals a la Llei 39/2015.",
+      "sections": [
+        {
+          "h": "Requisits",
+          "p": "Perquè neixi la responsabilitat cal (art. 32): una lesió real, efectiva, avaluable econòmicament i individualitzada en relació amb una persona o grup; que la lesió sigui antijurídica, és a dir, que el particular no tingui el deure jurídic de suportar el dany d'acord amb la llei; que sigui imputable a l'Administració pel funcionament normal o anormal d'un servei públic; i un nexe causal entre l'actuació administrativa i el dany. Es tracta d'una responsabilitat objectiva (no exigeix culpa) i directa (respon l'Administració, no el funcionari)."
+        },
+        {
+          "h": "Danys indemnitzables i quantia",
+          "p": "El dany ha de ser efectiu, avaluable i individualitzat; no s'indemnitzen els danys que el particular tingui el deure jurídic de suportar (per exemple, les càrregues generals). La indemnització (art. 34) es calcula amb referència al dia en què la lesió es va produir efectivament, d'acord amb els criteris de valoració del dret aplicable, i s'actualitza a la data en què es posa fi al procediment de responsabilitat; es pot satisfer en metàl·lic o en espècie."
+        },
+        {
+          "h": "Força major, nexe causal i exoneració",
+          "p": "L'Administració queda exonerada en els casos de força major (esdeveniment imprevisible o, si és previsible, inevitable, i aliè al servei); en canvi, el cas fortuït no exonera. La culpa exclusiva de la víctima o la intervenció determinant d'un tercer poden trencar el nexe causal; la concurrència de diverses causes modula (redueix) la indemnització."
+        },
+        {
+          "h": "Procediment i prescripció",
+          "p": "El procediment es pot iniciar d'ofici o a sol·licitud de l'interessat; en la instrucció es practiquen al·legacions, proves i informes, i és preceptiu el dictamen del Consell consultiu (a Catalunya, la Comissió Jurídica Assessora) quan la quantia reclamada ho exigeixi. El termini per resoldre és de sis mesos, transcorregut el qual el silenci és desestimatori. El dret a reclamar prescriu a l'any de produït el fet o l'acte que motivi la indemnització o de manifestar-se'n l'efecte lesiu; en cas de danys físics o psíquics, el termini comença des de la curació o la determinació de l'abast de les seqüeles."
+        }
+      ],
+      "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal o anormal) + nexe causal − força major (el cas fortuït no exonera). Resolució en 6 mesos (silenci negatiu). Prescripció: 1 any (en danys físics, des de l'estabilització de les seqüeles)."
+    },
+    "44": {
+      "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc bàsic. IMPORTANT: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31 de desembre de 2025; cal contrastar sempre amb el text consolidat.",
+      "sections": [
+        {
+          "h": "Classificació del sòl",
+          "p": "El TRLUC classifica tot el sòl del municipi en tres classes. El sòl urbà és el que disposa dels serveis urbanístics bàsics o està comprès en àrees consolidades per l'edificació integrades a la trama urbana; es divideix en consolidat i no consolidat. El sòl urbanitzable és el que el planejament destina a ser transformat mitjançant la urbanització, a través del planejament derivat (pot ser delimitat o no delimitat). El sòl no urbanitzable és el que el planejament preserva del procés de transformació urbanística (sòl rústic, agrícola, forestal, d'especial protecció per valors o per riscos)."
+        },
+        {
+          "h": "Serveis urbanístics bàsics i concepte de solar",
+          "p": "Es consideren serveis urbanístics bàsics: la xarxa viària amb un nivell de consolidació suficient per permetre la connectivitat; les xarxes d'abastament d'aigua i de sanejament; i el subministrament d'energia elèctrica. Té la condició de solar el sòl urbà que és apte per a l'edificació perquè disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida. El nucli de població és l'agrupació d'edificacions que pot generar necessitats de serveis; en sòl no urbanitzable, se n'evita la formació no planificada."
+        },
+        {
+          "h": "Sòl urbà consolidat i no consolidat",
+          "p": "El sòl urbà consolidat ja té la condició de solar o només requereix, per assolir-la, completar o acabar la urbanització; els seus propietaris tenen deures mínims. El sòl urbà no consolidat és el que requereix actuacions de transformació o de reforma interior i, per tant, comporta deures de cessió (de sòl per a sistemes i de l'aprofitament que correspon a l'Administració) i d'urbanització, que s'articulen mitjançant la gestió urbanística."
+        },
+        {
+          "h": "Situacions bàsiques del sòl (legislació estatal)",
+          "p": "A efectes de valoració i de drets bàsics, el TRLS estatal distingeix dues situacions: el sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i el sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica: un sòl classificat com a urbanitzable però no urbanitzat es valora com a rural."
+        }
+      ],
+      "key": "Classificació (TRLUC): sòl urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament i electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025 (Llei 11/2025 i DL 2/2025)."
+    },
+    "56": {
+      "intro": "La intervenció administrativa en l'edificació i l'ús del sòl es canalitza, principalment, a través de la llicència urbanística, acte de control previ de la conformitat de l'actuació amb la legalitat urbanística (TRLUC, arts. 187 i següents).",
+      "sections": [
+        {
+          "h": "Naturalesa i actes subjectes",
+          "p": "La llicència urbanística és un acte reglat: s'atorga o es denega segons la conformitat de l'actuació projectada amb el planejament i la normativa, sense marge de discrecionalitat. Estan subjectes a llicència, entre altres (art. 187): les obres de nova construcció i les de gran rehabilitació; les parcel·lacions urbanístiques; la primera ocupació o utilització dels edificis; els usos i les obres provisionals; els moviments de terres i les tales; i la instal·lació de cases prefabricades. Les actuacions de menor entitat se subjecten al règim de comunicació prèvia (art. 187 bis)."
+        },
+        {
+          "h": "Procediment i contingut",
+          "p": "El procediment s'inicia amb la sol·licitud, acompanyada del projecte tècnic quan escaigui; segueixen els informes tècnic i jurídic dels serveis municipals; i finalitza amb la resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici del de tercers. Estan subjectes, si escau, a la liquidació de les taxes i de l'impost sobre construccions, instal·lacions i obres (ICIO)."
+        },
+        {
+          "h": "El silenci en les llicències",
+          "p": "En matèria de llicències urbanístiques, el silenci administratiu té, amb caràcter general, sentit positiu, però amb un límit infranquejable: en cap cas no es poden adquirir per silenci facultats o drets que contravinguin l'ordenació urbanística (art. 11.3 del TRLS estatal). Per tant, una actuació disconforme amb el planejament no s'entén autoritzada per silenci, encara que hagi transcorregut el termini; cal una resolució expressa i, si s'ha executat l'obra, l'inici de la protecció de la legalitat."
+        },
+        {
+          "h": "Caducitat",
+          "p": "Les llicències tenen fixats terminis per iniciar i per acabar les obres. L'incompliment d'aquests terminis en determina la caducitat, prèvia declaració expressa, de manera que les obres no es poden continuar sense obtenir una nova llicència."
+        }
+      ],
+      "key": "Llicència urbanística (187 TRLUC): acte reglat de control previ; actes subjectes (obres majors, parcel·lacions, primera ocupació...) i comunicació prèvia per als menors (187 bis). S'atorga salvant el dret de propietat i de tercers. Silenci positiu però mai per a actuacions contràries al planejament (11.3 TRLS). Caducitat per incompliment de terminis."
     },
     "89": {
       "intro": "La Llei 31/1995, de prevenció de riscos laborals (LPRL), estableix el marc de protecció de la seguretat i salut dels treballadors, també a les administracions públiques.",
@@ -817,339 +794,275 @@
       "key": "Obres: projecte (memòria, plànols, PPT, pressupost, ESS) + supervisió (235) + aprovació + replanteig → acta de comprovació (237) → execució amb direcció facultativa i certificacions → recepció + garantia → liquidació. Responsabilitat per ruïna: 15 anys des de la recepció."
     },
     "26": {
-      "intro": "El contracte de concessió d'obres és aquell en què la contraprestació al concessionari consisteix en el dret a explotar l'obra que construeix (o només a explotar-la), assumint-ne el risc operacional. És la fórmula típica de col·laboració publicoprivada en infraestructures (LCSP).",
+      "intro": "El contracte de concessió d'obres és aquell en què la contraprestació a favor del concessionari consisteix en el dret a explotar l'obra que construeix (o només a explotar-la), o en aquest dret acompanyat d'un preu, assumint el concessionari el risc operacional de l'explotació. És la fórmula típica de col·laboració publicoprivada en infraestructures (LCSP).",
       "sections": [
         {
           "h": "Concepte i element diferenciador",
-          "p": "El concessionari construeix i/o explota l'obra i es retribueix amb la seva explotació (eventualment més un preu). L'element clau que el distingeix del contracte d'obres és la transferència al concessionari del risc operacional (de demanda, de disponibilitat o tots dos): no té garantit recuperar la inversió en condicions normals de funcionament (art. 14)."
+          "p": "El concessionari construeix i/o explota l'obra i es retribueix amb la seva explotació. L'element que el distingeix del contracte d'obres és la transferència al concessionari del risc operacional (de demanda, de disponibilitat o tots dos): en condicions normals de funcionament, el concessionari no té garantida la recuperació de les inversions ni dels costos (art. 14). Si no hi ha transferència real de risc, no és una concessió sinó un contracte d'obres."
         },
         {
           "h": "Actuacions preparatòries i construcció",
-          "scheme": {
-            "cap": "Concessió d'obres",
-            "body": "ESTUDI DE VIABILITAT (econòmica, tècnica, ambiental) →\n  previ i determinant\nPROJECTE i, si escau, avantprojecte\nCONSTRUCCIÓ a càrrec i risc del concessionari\nDURADA → màxima (art. 29): fins a 40 anys (obres), segons\n  el període de recuperació de la inversió"
-          }
+          "p": "La concessió requereix un estudi de viabilitat previ (econòmica, tècnica i, si escau, ambiental), que és determinant, i el projecte corresponent. La construcció es fa a càrrec i risc del concessionari, sota el control de l'Administració. La durada és limitada en funció del període de recuperació de les inversions: l'art. 29 fixa, per a les concessions d'obres, un límit màxim de quaranta anys."
         },
         {
-          "h": "Drets, obligacions i equilibri econòmic",
-          "scheme": {
-            "cap": "Règim de la concessió",
-            "body": "DRETS del concessionari → explotar i percebre tarifes/\n  retribució; mantenir l'equilibri econòmic\nPRERROGATIVES de l'AP → ordenar, controlar, modificar,\n  rescatar, segrestar\nEQUILIBRI ECONÒMIC → es restableix en supòsits taxats:\n  modificacions imposades, FACTUM PRINCIPIS (actuacions\n  generals de l'AP que l'afecten) i RISCOS imprevisibles\n  (art. 270)"
-          }
+          "h": "Drets, prerrogatives i equilibri econòmic",
+          "p": "El concessionari té dret a explotar l'obra i a percebre la retribució (tarifes dels usuaris o pagaments de l'Administració), i a mantenir l'equilibri econòmic de la concessió. L'Administració conserva prerrogatives d'ordenació, control, modificació, rescat i segrest. L'equilibri econòmic-financer es restableix, en benefici de la part que correspongui, en supòsits taxats (art. 270): quan l'Administració modifica la concessió per raons d'interès públic; per actuacions de l'Administració que, sense modificar directament la concessió, n'afecten l'economia (factum principis); i per causes de força major o riscos imprevisibles."
         },
         {
           "h": "Extinció i reversió",
-          "p": "La concessió s'extingeix per compliment del termini, rescat (l'AP recupera la gestió abans del termini), caducitat (incompliment del concessionari), resolució per altres causes, o supressió/impossibilitat de l'explotació. En extingir-se, l'obra reverteix a l'Administració en l'estat pactat."
-        },
-        {
-          "key": "Risc operacional al concessionari; estudi de viabilitat previ; durada fins a 40 anys; equilibri econòmic en casos taxats; reversió de l'obra en extingir-se."
+          "p": "La concessió s'extingeix per compliment del termini, per rescat (l'Administració recupera la gestió abans del termini), per caducitat (incompliment greu del concessionari), per resolució per altres causes o per supressió de l'explotació. En extingir-se, l'obra reverteix a l'Administració en l'estat de conservació i amb les condicions pactades."
         }
       ],
-      "key": "Concessió d'obres: construcció + explotació amb RISC operacional. Estudi de viabilitat previ. Durada fins a 40 anys. Equilibri econòmic (modificacions, factum principis, riscos imprevisibles). Extinció: termini, rescat, caducitat; reversió."
+      "key": "Concessió d'obres: construcció i/o explotació amb transferència del RISC operacional al concessionari. Estudi de viabilitat previ; durada fins a 40 anys (29). Equilibri econòmic (270): modificacions, factum principis i riscos imprevisibles. Extinció: termini, rescat, caducitat, resolució; reversió de l'obra."
     },
     "27": {
-      "intro": "El contracte de subministrament té per objecte l'adquisició, l'arrendament (amb o sense opció de compra) o l'adquisició a terminis de productes o béns mobles (LCSP).",
+      "intro": "El contracte de subministrament té per objecte l'adquisició, l'arrendament (amb opció de compra o sense) o l'adquisició per arrendament financer de productes o béns mobles (LCSP).",
       "sections": [
         {
           "h": "Concepte i supòsits",
-          "scheme": {
-            "cap": "Subministrament (art. 16)",
-            "body": "COMPRA, ARRENDAMENT o LÍSING de béns mobles\nSupòsits típics:\n  • lliurament successiu i per preu unitari (sense fixar\n    quantia total: per necessitats)\n  • adquisició/arrendament d'equips i sistemes\n  • fabricació de béns segons característiques de l'AP\nNO és subministrament: l'adquisició de programes a mida\n  (pot ser contracte de serveis)"
-          }
+          "p": "L'art. 16 considera contractes de subministrament els que tenen per objecte l'adquisició, l'arrendament o l'adquisició de béns mobles. S'hi inclouen, entre altres supòsits: aquells en què l'empresari s'obliga a lliurar una pluralitat de béns de manera successiva i per preu unitari, sense que la quantia total es defineixi amb exactitud en el moment de celebrar el contracte (perquè es vincula a les necessitats de l'Administració); i l'adquisició i l'arrendament d'equips i sistemes per al tractament de la informació. No tenen la consideració de subministrament els contractes que tinguin per objecte programes d'ordinador desenvolupats a mida, que es consideren contractes de serveis."
         },
         {
           "h": "Procediments i durada",
-          "p": "S'adjudica pels procediments generals (obert, restringit, negociat...). La durada s'ajusta a la prestació, amb límits i possibilitat de pròrrogues previstes al plec (art. 29). En els de lliurament successiu per preu unitari, es pot no fixar la quantia total, atenent les necessitats."
+          "p": "El contracte de subministrament s'adjudica pels procediments generals (obert, restringit, negociat, etc.). La durada s'ajusta a la prestació, amb els límits i les pròrrogues que prevegi el plec (art. 29). En els subministraments de lliurament successiu per preu unitari, es pot no fixar la quantia total atenent les necessitats."
         },
         {
-          "h": "Execució i recepció",
-          "p": "El contractista lliura els béns en el temps i lloc fixats, amb les característiques requerides. La recepció (acte de conformitat) inicia el termini de garantia, durant el qual respon dels vicis o defectes. L'Administració pot exercir les seves prerrogatives (modificació, suspensió, resolució)."
+          "h": "Execució, recepció i garantia",
+          "p": "El contractista lliura els béns en el temps i el lloc fixats i amb les característiques tècniques requerides. La recepció, mitjançant un acte formal de conformitat, determina l'inici del termini de garantia, durant el qual el contractista respon dels vicis o defectes dels béns subministrats. L'Administració pot exercir les seves prerrogatives (modificació, suspensió i resolució) amb els efectes generals."
         },
         {
-          "h": "Arrendament i altres",
-          "p": "En l'arrendament, l'objecte és la cessió de l'ús del bé per un temps i preu; pot incloure manteniment. La resolució i la modificació segueixen les regles generals, amb les especialitats del tipus."
-        },
-        {
-          "key": "Subministrament = béns mobles (compra/arrendament/lísing). Lliurament successiu per preu unitari possible. Recepció → garantia. Programes a mida solen ser serveis."
+          "h": "Especialitats de l'arrendament",
+          "p": "En l'arrendament, l'objecte és la cessió de l'ús del bé moble per un temps i un preu determinats, i pot incloure el manteniment. La resolució i la modificació es regeixen per les regles generals amb les especialitats pròpies del tipus."
         }
       ],
-      "key": "Subministrament (16): adquisició/arrendament/lísing de béns mobles; lliurament successiu per preu unitari. Procediments generals; durada amb pròrrogues (29). Recepció → garantia. Software a mida = serveis."
+      "key": "Subministrament (16): adquisició, arrendament o lísing de béns mobles; lliurament successiu per preu unitari possible (segons necessitats). Procediments generals; durada amb pròrrogues (29). Recepció → termini de garantia. Programari a mida = contracte de serveis."
     },
     "28": {
-      "intro": "El contracte de serveis té per objecte prestacions de fer consistents en activitats diferents de les obres o els subministraments. Inclou l'especialitat de l'elaboració de projectes d'obres (LCSP).",
+      "intro": "El contracte de serveis té per objecte prestacions de fer consistents en el desenvolupament d'una activitat o dirigides a l'obtenció d'un resultat diferent d'una obra o un subministrament. Inclou l'especialitat de l'elaboració de projectes d'obres (LCSP).",
       "sections": [
         {
           "h": "Concepte i límits",
-          "scheme": {
-            "cap": "Serveis (art. 17)",
-            "body": "OBJECTE → prestacions de FER (intel·lectuals o materials)\nLÍMIT → no poden tenir per objecte funcions que impliquin\n  EXERCICI D'AUTORITAT inherent als poders públics\nPRECAUCIÓ → evitar que encobreixin una cessió il·legal de\n  treballadors (no donar ordres laborals directes al\n  personal de l'empresa)"
-          }
+          "p": "L'art. 17 defineix els serveis com a prestacions de fer (intel·lectuals o materials). Tenen dos límits importants: no poden tenir per objecte funcions que impliquin l'exercici de l'autoritat inherent als poders públics (que es reserven a personal funcionari); i s'han d'executar de manera que no encobreixin una cessió il·legal de treballadors (l'Administració no pot exercir respecte del personal de l'empresa les facultats pròpies de l'empresari laboral)."
         },
         {
           "h": "Durada i pròrrogues",
-          "p": "La durada s'estableix atenent la naturalesa de les prestacions, amb límits legals (en general 5 anys, pròrrogues incloses) i possibilitat de pròrrogues previstes al plec, que són obligatòries per a l'empresari si el preavís és suficient (art. 29). En contractes de prestacions successives es pot preveure la continuïtat per garantir el servei mentre s'adjudica el següent."
+          "p": "La durada del contracte de serveis s'estableix atenent la naturalesa de les prestacions, amb un límit general de cinc anys (pròrrogues incloses) i la possibilitat de pròrrogues previstes al plec, que són obligatòries per a l'empresari si el preavís és suficient (art. 29). En els contractes de prestacions successives es pot preveure la continuïtat per garantir el servei mentre s'adjudica el següent."
         },
         {
           "h": "Execució, modificació i extinció",
-          "p": "S'executen a risc i ventura sota la direcció de l'Administració. La resolució per desistiment o suspensió de l'Administració genera dret a indemnització del contractista (art. 313). Si el contracte resulta deficitari per causes alienes, es poden aplicar, si escau, mecanismes d'equilibri segons el tipus."
+          "p": "Els serveis s'executen a risc i ventura sota la direcció de l'Administració. La resolució per desistiment o per suspensió definitiva de l'Administració dona dret a la indemnització del contractista (art. 313). La modificació segueix el règim general."
         },
         {
-          "h": "Especialitat: projectes d'obres",
-          "p": "L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 308 i concordants). El contractista respon dels danys derivats de defectes, insuficiències tècniques, errors materials, omissions o infraccions del projecte; pot exigir-se-li una indemnització proporcional als danys i a la importància de l'error en relació amb el pressupost de l'obra."
-        },
-        {
-          "key": "Serveis = prestacions de fer; no funcions d'autoritat; evitar cessió il·legal de treballadors. Durada limitada amb pròrrogues. Projectes d'obres: especialitat amb responsabilitat per defectes."
+          "h": "Especialitat: contractes d'elaboració de projectes d'obres",
+          "p": "L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 308 i concordants). El contractista respon dels danys i perjudicis derivats de defectes, insuficiències tècniques, errors materials, omissions o infraccions de preceptes legals o tècnics del projecte; quan el pressupost d'execució de l'obra es desvia per errors o omissions imputables al projectista, se li pot exigir una indemnització proporcional al percentatge de desviació."
         }
       ],
-      "key": "Serveis (17): prestacions de fer; no exercici d'autoritat; evitar cessió il·legal. Durada amb pròrrogues (29); desistiment de l'AP indemnitza (313). Projectes d'obres: especialitat amb responsabilitat per defectes (308)."
+      "key": "Serveis (17): prestacions de fer; no funcions d'autoritat; cal evitar la cessió il·legal de treballadors. Durada (general 5 anys) amb pròrrogues (29); el desistiment de l'AP indemnitza (313). Projectes d'obres: especialitat amb responsabilitat per defectes (308)."
     },
     "29": {
-      "intro": "El contracte de concessió de serveis encarrega a un tercer la gestió d'un servei de titularitat pública assumint el risc operacional. És una de les formes de gestió indirecta dels serveis públics (LCSP).",
+      "intro": "El contracte de concessió de serveis encarrega a un tercer la gestió d'un servei de titularitat o competència pública, assumint el concessionari el risc operacional. És una de les formes de gestió indirecta dels serveis públics (LCSP).",
       "sections": [
         {
           "h": "Concepte",
-          "p": "L'Administració encomana a un concessionari l'organització i la prestació d'un servei de la seva titularitat o competència. Es diferencia del contracte de serveis ordinari perquè el concessionari assumeix el risc operacional de l'explotació (art. 15). L'Administració conserva la titularitat i les potestats."
+          "p": "Mitjançant la concessió de serveis, l'Administració encomana a un concessionari la gestió d'un servei, la prestació del qual organitza i gestiona el concessionari, que es retribueix amb l'explotació. Es diferencia del contracte de serveis ordinari perquè el concessionari assumeix el risc operacional de l'explotació (art. 15). L'Administració conserva la titularitat del servei i les potestats sobre aquest."
         },
         {
-          "h": "Actuacions preparatòries i adjudicació",
-          "scheme": {
-            "cap": "Preparació (art. 285 i ss.)",
-            "body": "ESTUDI DE VIABILITAT (en serveis que comportin obres o\n  inversions rellevants)\nREGLAMENT del servei i plec amb el règim de prestació\nADJUDICACIÓ pels procediments generals\nDURADA limitada segons la inversió (art. 29)"
-          }
+          "h": "Actuacions preparatòries",
+          "p": "La concessió de serveis que comporti obres o inversions rellevants exigeix un estudi de viabilitat previ. Cal aprovar el règim jurídic bàsic del servei (que en declari la titularitat pública), el plec amb les condicions de prestació i les tarifes, i, si escau, el projecte de les obres. L'adjudicació es fa pels procediments generals i la durada és limitada en funció de l'amortització de les inversions (art. 29)."
         },
         {
           "h": "Execució i relacions amb els usuaris",
-          "p": "El concessionari ha de prestar el servei amb continuïtat i regularitat, en les condicions i tarifes aprovades, i admetre l'ús a qualsevol persona que compleixi els requisits. L'Administració manté potestats d'ordenació, control, inspecció i modificació del servei (ius variandi), i el dret a restablir l'equilibri econòmic en supòsits taxats."
+          "p": "El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, en les condicions i amb les tarifes aprovades, i admetre-hi qualsevol usuari que compleixi els requisits reglamentaris. L'Administració manté potestats d'ordenació, control, inspecció i modificació del servei (ius variandi), i el concessionari té dret a l'equilibri econòmic en els supòsits taxats."
         },
         {
           "h": "Extinció",
-          "scheme": {
-            "cap": "Extinció de la concessió",
-            "body": "COMPLIMENT del termini → reversió del servei i, si escau,\n  dels béns afectes\nRESCAT → l'AP assumeix la gestió directa abans del termini\nCADUCITAT → per incompliment greu del concessionari\nRESOLUCIÓ per altres causes; SUPRESSIÓ del servei\n  → amb indemnització quan correspongui"
-          }
-        },
-        {
-          "key": "Gestió indirecta amb risc per al concessionari; l'AP conserva titularitat i control; tarifes i continuïtat garantides; extinció per termini, rescat, caducitat o resolució."
+          "p": "La concessió de serveis s'extingeix per compliment del termini (amb reversió del servei i, si escau, dels béns afectes), per rescat (assumpció de la gestió directa abans del termini), per caducitat (incompliment greu del concessionari), per resolució per altres causes o per supressió del servei, amb indemnització quan correspongui."
         }
       ],
-      "key": "Concessió de serveis (15): gestió indirecta amb risc operacional; titularitat i control de l'AP. Estudi de viabilitat; tarifes i continuïtat; ius variandi i equilibri econòmic. Extinció: termini, rescat, caducitat, resolució."
+      "key": "Concessió de serveis (15): gestió indirecta amb risc operacional per al concessionari; titularitat i potestats de l'AP. Estudi de viabilitat; tarifes i continuïtat garantides; ius variandi i equilibri econòmic. Extinció: termini, rescat, caducitat, resolució, supressió."
     },
     "31": {
-      "intro": "Les llicències i autoritzacions administratives són tècniques d'intervenció de control previ de l'activitat dels particulars. La declaració responsable i la comunicació prèvia (art. 69 de la Llei 39/2015) són tècniques de control posterior que han simplificat molts procediments.",
+      "intro": "Les llicències i autoritzacions administratives són tècniques d'intervenció de control previ de l'activitat dels particulars. La declaració responsable i la comunicació prèvia (art. 69 de la Llei 39/2015) són tècniques de control posterior que han simplificat molts procediments, en línia amb la Directiva de serveis.",
       "sections": [
         {
           "h": "Autoritzacions i llicències",
-          "p": "L'autorització (o llicència) és un acte de control previ que remou un límit o obstacle a l'exercici d'un dret o activitat preexistent del particular, un cop comprovat que es compleixen els requisits. És, en general, un acte reglat. La Directiva de serveis i la legislació de transposició han reduït els supòsits d'autorització en favor de tècniques menys restrictives, exigint que estiguin justificades per raons imperioses d'interès general i siguin proporcionades."
+          "p": "L'autorització (o llicència) és un acte administratiu de control previ pel qual l'Administració, després de comprovar que es compleixen els requisits legals, remou un límit o obstacle a l'exercici d'un dret o activitat preexistent del particular. És, en general, un acte reglat (s'ha d'atorgar si es compleixen els requisits). La normativa exigeix que els règims d'autorització estiguin justificats per raons imperioses d'interès general, siguin proporcionats i no discriminatoris."
         },
         {
           "h": "Declaració responsable i comunicació prèvia",
-          "scheme": {
-            "cap": "Control posterior (art. 69)",
-            "body": "DECLARACIÓ RESPONSABLE → document en què l'interessat\n  manifesta, sota la seva responsabilitat, que compleix els\n  requisits, que disposa de la documentació que ho acredita\n  i que es compromet a mantenir-ho\nCOMUNICACIÓ → posa en coneixement de l'AP les dades per a\n  l'exercici d'un dret o l'inici d'una activitat\n→ TOTES DUES permeten iniciar des de la PRESENTACIÓ\n  (o la data que indiquin), amb CONTROL a posteriori"
-          }
+          "p": "La declaració responsable és el document subscrit per l'interessat en què manifesta, sota la seva responsabilitat, que compleix els requisits establerts per a l'exercici d'un dret o activitat, que disposa de la documentació que ho acredita i que es compromet a mantenir-ne el compliment. La comunicació prèvia és el document mitjançant el qual l'interessat posa en coneixement de l'Administració les seves dades i la resta de requisits per a l'exercici d'un dret o l'inici d'una activitat. Totes dues permeten iniciar l'exercici del dret o activitat des del dia de la presentació (o la data que indiquin), sens perjudici de les facultats de comprovació, control i inspecció a posteriori."
         },
         {
           "h": "Efectes de la inexactitud o falsedat",
-          "p": "La inexactitud, falsedat o omissió, de caràcter essencial, en qualsevol dada o document que s'incorpori a una declaració responsable o comunicació, o la no-presentació de la documentació requerida, determina la impossibilitat de continuar amb l'exercici del dret o activitat des del moment en què se'n tingui constància, sens perjudici de les responsabilitats penals, civils o administratives (art. 69.4). Pot comportar, a més, l'obligació de restituir la situació jurídica al moment previ."
+          "p": "La inexactitud, la falsedat o l'omissió, de caràcter essencial, en qualsevol dada o document que s'incorpori a una declaració responsable o comunicació, o la no-presentació de la documentació requerida, determina la impossibilitat de continuar amb l'exercici del dret o activitat afectat des del moment en què se'n tingui constància, sens perjudici de les responsabilitats penals, civils o administratives que pertoquin (art. 69.4). Pot comportar també l'obligació de l'interessat de restituir la situació jurídica al moment previ."
         },
         {
-          "h": "Aplicació urbanística i d'activitats",
-          "p": "En l'àmbit local, la comunicació prèvia s'aplica a obres i actuacions de menor entitat (art. 187 bis TRLUC) i a activitats de baixa incidència ambiental (Llei 20/2009); la llicència es reserva a les actuacions de més entitat o risc."
-        },
-        {
-          "key": "Cap autorització o silenci atorga facultats contràries a l'ordenament. La declaració responsable i la comunicació permeten iniciar des de la presentació, amb control posterior; la inexactitud essencial impedeix continuar."
+          "h": "Aplicació en l'àmbit local",
+          "p": "La comunicació prèvia s'aplica a les obres i actuacions de menor entitat (art. 187 bis TRLUC) i a les activitats de baixa incidència ambiental (Llei 20/2009); la llicència es reserva a les actuacions de més entitat o risc. Cap autorització ni el silenci no permeten adquirir facultats contràries a l'ordenament."
         }
       ],
-      "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. Inexactitud essencial → impossibilitat de continuar (69.4)."
+      "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. La inexactitud essencial impedeix continuar l'exercici (69.4). En l'àmbit local: comunicació per a actes menors, llicència per als de més entitat."
     },
     "32": {
-      "intro": "La gestió indirecta dels serveis públics mitjançant concessió permet que un particular presti, a risc seu, un servei de titularitat pública. Es regula a la legislació de règim local (arts. 85 i ss. LRBRL), al ROAS (D 179/1995) i, pel que fa al contracte, a la LCSP (concessió de serveis).",
+      "intro": "La gestió indirecta dels serveis públics mitjançant concessió permet que un particular presti, al seu risc, un servei de titularitat pública. Es regula a la legislació de règim local (arts. 85 i següents de la LRBRL), al Reglament d'obres, activitats i serveis dels ens locals (ROAS, D 179/1995) i, pel que fa al contracte, a la LCSP (concessió de serveis).",
       "sections": [
         {
           "h": "Concepte i naturalesa",
-          "p": "La concessió de serveis públics és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació a un concessionari que la realitza al seu risc i ventura, retribuint-se amb les tarifes dels usuaris i/o un preu. No es poden gestionar de manera indirecta els serveis que impliquin exercici d'autoritat."
+          "p": "La concessió de serveis públics és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació del servei a un concessionari que el gestiona al seu risc i ventura, retribuint-se mitjançant les tarifes dels usuaris o un preu. No es poden gestionar de manera indirecta els serveis que impliquin l'exercici de l'autoritat inherent als poders públics."
         },
         {
-          "h": "Elements i potestats",
-          "scheme": {
-            "cap": "Concessió de servei públic",
-            "body": "ELEMENTS → subjecte (concessionari), objecte (el servei),\n  i la relació triangular AP–concessionari–usuaris\nPOTESTATS DE L'AP → ordenar i modificar el servei,\n  fiscalitzar-lo, imposar sancions contractuals, rescatar,\n  segrestar (intervenir temporalment), i extingir\nDRETS del concessionari → percebre la retribució i mantenir\n  l'equilibri econòmic"
-          }
+          "h": "Potestats de l'Administració",
+          "p": "Encara que la gestió sigui privada, l'Administració conserva potestats sobre el servei: ordenar-lo i modificar-lo per raons d'interès públic (ius variandi), fiscalitzar-ne la prestació, imposar les sancions contractuals previstes, rescatar la concessió (assumir-ne la gestió directa abans del termini), segrestar o intervenir el servei temporalment en cas d'incompliment greu que en posi en perill la prestació, i extingir la concessió."
         },
         {
-          "h": "Relacions amb les persones usuàries",
-          "p": "El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, admetre-hi qualsevol usuari que compleixi els requisits reglamentaris i aplicar les tarifes aprovades. Els usuaris tenen dret a la prestació en aquestes condicions i a reclamar; l'Administració garanteix el servei (responsabilitat última)."
+          "h": "Drets del concessionari i relacions amb els usuaris",
+          "p": "El concessionari té dret a percebre la retribució pactada i a mantenir l'equilibri econòmic de la concessió. Ha de prestar el servei amb continuïtat, regularitat i igualtat, admetre-hi qualsevol usuari que reuneixi els requisits i aplicar les tarifes aprovades. Les persones usuàries tenen dret a rebre la prestació en aquestes condicions i a formular reclamacions; l'Administració respon, en última instància, de la garantia del servei."
         },
         {
           "h": "Extinció",
-          "p": "S'extingeix per: compliment del termini (amb reversió del servei i, si escau, dels béns afectes a l'Administració en bon estat); rescat; caducitat per incompliment del concessionari; resolució per altres causes; o supressió del servei. L'extinció anticipada por generar indemnització."
-        },
-        {
-          "key": "Concessió: titularitat pública + gestió privada a risc. L'AP conserva potestats d'ordenació, control, modificació i rescat. Extinció amb reversió."
+          "p": "La concessió s'extingeix per: compliment del termini (amb la reversió del servei i, si escau, dels béns afectes a l'Administració, que han de revertir en bon estat de conservació); rescat; caducitat per incompliment greu del concessionari; resolució per altres causes previstes; i supressió del servei per raons d'interès públic. L'extinció anticipada pot generar dret a indemnització."
         }
       ],
-      "key": "Concessió de servei públic (gestió indirecta): titularitat pública, gestió a risc del concessionari. Potestats de l'AP (ordenar, modificar, rescatar, segrestar). Usuaris: prestació en condicions i tarifes. Extinció amb reversió."
+      "key": "Concessió de servei públic (gestió indirecta): titularitat pública i gestió privada a risc del concessionari. L'AP conserva potestats (ordenar, modificar, fiscalitzar, rescatar, segrestar). Usuaris: prestació en condicions i tarifes aprovades. Extinció: termini (amb reversió), rescat, caducitat, resolució, supressió."
     },
     "33": {
-      "intro": "A més de la concessió, hi ha altres formes de gestió, directa i indirecta, dels serveis públics. La LRBRL (art. 85) i el ROAS regulen les modalitats i l'elecció ha de respondre a criteris d'eficiència i sostenibilitat.",
+      "intro": "A més de la concessió, hi ha altres formes de gestió, directa i indirecta, dels serveis públics. L'art. 85 de la LRBRL i el ROAS en regulen les modalitats, i l'elecció ha de respondre a criteris d'eficiència i sostenibilitat.",
       "sections": [
         {
-          "h": "Formes de gestió",
-          "scheme": {
-            "cap": "Gestió de serveis públics (art. 85 LRBRL)",
-            "body": "DIRECTA →\n  • per la pròpia entitat local (sense òrgan diferenciat)\n  • organisme autònom local\n  • entitat pública empresarial local\n  • societat mercantil local de capital ÍNTEGRAMENT públic\nINDIRECTA → mitjançant contracte (concessió de serveis i\n  altres modalitats), gestió interessada, societat\n  d'economia mixta"
-          }
-        },
-        {
-          "h": "Gestió interessada i economia mixta",
+          "h": "Gestió directa",
           "list": [
-            "Gestió interessada: l'empresari i l'Administració participen en els resultats de l'explotació segons una proporció prèviament fixada.",
-            "Societat d'economia mixta: societat mercantil amb capital públic i privat que gestiona el servei.",
-            "Cooperatives o altres entitats amb capital mixt segons la legislació."
+            "Per la pròpia entitat local, sense òrgan especial diferenciat.",
+            "Mitjançant un organisme autònom local.",
+            "Mitjançant una entitat pública empresarial local.",
+            "Mitjançant una societat mercantil local de capital social íntegrament públic."
           ]
         },
         {
-          "h": "Elecció de la forma de gestió",
-          "p": "L'elecció ha de motivar-se atenent l'eficiència i la sostenibilitat (per a la gestió directa mitjançant entitat pública empresarial o societat, cal acreditar-ne la sostenibilitat i eficiència amb una memòria i informes, art. 85.2 LRBRL). Els serveis que comportin exercici d'autoritat es reserven a la gestió per la pròpia entitat o organisme autònom."
+          "h": "Gestió indirecta",
+          "p": "S'articula mitjançant les diferents modalitats de contracte previstes a la LCSP, especialment la concessió de serveis, i també a través de la gestió interessada i de la societat d'economia mixta. La gestió interessada és aquella en què l'empresari i l'Administració participen en els resultats de l'explotació del servei segons una proporció prèviament fixada. La societat d'economia mixta és una societat mercantil amb capital parcialment públic i parcialment privat."
         },
         {
-          "key": "Gestió directa: pròpia entitat, OA, EPE o societat 100% pública. Indirecta: concessió, gestió interessada, economia mixta. L'autoritat → gestió directa per entitat/OA. Elecció motivada (eficiència/sostenibilitat)."
+          "h": "Elecció de la forma de gestió",
+          "p": "L'elecció de la forma de gestió s'ha de motivar. Per a la gestió directa mitjançant una entitat pública empresarial o una societat de capital íntegrament públic, l'art. 85.2 LRBRL exigeix acreditar, amb una memòria i els informes preceptius, que aquesta forma és més sostenible i eficient que les altres alternatives. Els serveis que impliquin exercici d'autoritat només es poden prestar per gestió directa de la pròpia entitat o d'un organisme autònom."
+        },
+        {
+          "h": "Reserva de serveis",
+          "p": "Determinades activitats o serveis essencials (com l'abastament d'aigua, la gestió de residus o el transport públic) poden ser reservats a favor de les entitats locals; la seva prestació en règim de monopoli requereix l'aprovació de l'òrgan competent de la comunitat autònoma."
         }
       ],
-      "key": "Gestió de serveis (85 LRBRL): directa (pròpia entitat/OA/EPE/societat 100% pública) o indirecta (concessió, gestió interessada, economia mixta). Autoritat → directa. Elecció motivada per eficiència i sostenibilitat."
+      "key": "Gestió directa: pròpia entitat, organisme autònom, entitat pública empresarial o societat de capital 100% públic. Gestió indirecta: concessió, gestió interessada, economia mixta. Autoritat → només gestió directa (entitat o OA). Elecció motivada (memòria d'eficiència i sostenibilitat, 85.2)."
     },
     "34": {
-      "intro": "Els consorcis són entitats de dret públic, de base associativa, creades per diverses administracions (o amb entitats privades sense ànim de lucre) per a finalitats d'interès comú. Es regulen als arts. 118-127 de la Llei 40/2015.",
+      "intro": "Els consorcis són entitats de dret públic, de base associativa, dotades de personalitat jurídica pròpia, creades per diverses administracions públiques (o per administracions amb entitats privades sense ànim de lucre) per a la consecució de finalitats d'interès comú. Es regulen als arts. 118 a 127 de la Llei 40/2015.",
       "sections": [
         {
-          "h": "Naturalesa",
-          "p": "El consorci té personalitat jurídica pròpia i diferenciada; pot dur a terme activitats de foment, prestació o gestió comuna de serveis i altres d'interès comú per a les administracions o entitats consorciades. El seu personal pot procedir de les administracions participants i es regeix per la normativa de l'administració d'adscripció."
+          "h": "Naturalesa i activitat",
+          "p": "El consorci pot dur a terme activitats de foment, prestacionals o de gestió comuna de serveis públics i altres d'interès comú per a les entitats consorciades. Té personalitat jurídica diferenciada de la de les administracions que l'integren. El seu personal pot procedir de les administracions participants i es regeix per la normativa de l'administració d'adscripció."
         },
         {
-          "h": "Creació, estatuts i adscripció",
-          "scheme": {
-            "cap": "Règim del consorci",
-            "body": "CREACIÓ → conveni de creació + ESTATUTS (organització,\n  funcionament, fins)\nADSCRIPCIÓ (art. 120) → a una de les administracions\n  participants segons criteris ordenats (control efectiu,\n  finançament majoritari, nombre de vots...)\n→ l'adscripció determina el RÈGIM pressupostari, comptable,\n  de control i de personal aplicable"
-          }
+          "h": "Creació i estatuts",
+          "p": "El consorci es crea mitjançant un conveni signat per les administracions o entitats que l'integren, al qual s'incorporen els seus estatuts. Els estatuts determinen l'administració d'adscripció, l'organització (òrgans de govern i d'administració), el règim de funcionament, els fins i les particularitats del règim orgànic, funcional i financer."
+        },
+        {
+          "h": "Adscripció",
+          "p": "Els estatuts han de determinar a quina administració pública queda adscrit el consorci, d'acord amb els criteris ordenats de l'art. 120 (control efectiu de la gestió, finançament majoritari de les activitats, nombre de vots als òrgans de govern, etc.). L'adscripció és cabdal perquè determina el règim pressupostari, comptable, de control econòmic i de personal que se li aplica (el de l'administració d'adscripció)."
         },
         {
           "h": "Funcionament i dissolució",
-          "p": "Els òrgans i el funcionament es fixen als estatuts; el règim jurídic és el de l'administració d'adscripció en pressupost, comptabilitat i control. El consorci es dissol per acord o per les causes estatutàries; la dissolució determina com es liquiden els seus actius i passius i el destí del patrimoni."
-        },
-        {
-          "key": "Consorci: ens públic associatiu d'interès comú. Creació amb conveni + estatuts. L'adscripció (art. 120) a una administració fixa el seu règim pressupostari i de control."
+          "p": "El consorci es regeix pels seus estatuts i per la legislació de règim jurídic del sector públic i de règim local. Es dissol per acord dels membres o per les causes previstes als estatuts; la dissolució determina la forma de liquidació dels actius i passius i el destí del patrimoni resultant, que normalment reverteix a les entitats consorciades en proporció a les seves aportacions."
         }
       ],
-      "key": "Consorcis (118-127 Llei 40/2015): ens públics associatius d'interès comú, amb personalitat pròpia. Creació: conveni + estatuts. Adscripció (120) a una AP → règim pressupostari/comptable/personal."
+      "key": "Consorcis (118-127 Llei 40/2015): entitats públiques associatives d'interès comú amb personalitat pròpia. Creació: conveni + estatuts. L'adscripció a una administració (art. 120, per criteris de control/finançament) determina el règim pressupostari, comptable, de control i de personal."
     },
     "35": {
-      "intro": "Les subvencions són disposicions dineràries a favor de persones o entitats per a una finalitat pública, sense contraprestació directa. La Llei 38/2003, general de subvencions (LGS), i el seu reglament n'estableixen el règim; els ens locals també tenen normativa pròpia (ordenances de subvencions).",
+      "intro": "Les subvencions són disposicions dineràries a favor de persones o entitats públiques o privades per a una finalitat pública o d'interès social, sense contraprestació directa. La Llei 38/2003, general de subvencions (LGS), i el seu reglament n'estableixen el règim, completat per les ordenances locals.",
       "sections": [
         {
           "h": "Concepte i principis",
-          "scheme": {
-            "cap": "Subvenció (LGS)",
-            "body": "REQUISITS → lliurament sense contraprestació directa,\n  subjecte al compliment d'un objectiu/projecte, i que el\n  projecte tingui per objecte el foment d'una activitat\n  d'utilitat pública o interès social\nPRINCIPIS → publicitat, transparència, concurrència,\n  objectivitat, igualtat i no discriminació; eficàcia i\n  eficiència"
-          }
+          "p": "Es considera subvenció tota disposició dinerària feta a favor de persones públiques o privades que compleixi tres requisits: que el lliurament es faci sense contraprestació directa dels beneficiaris; que estigui subjecte al compliment d'un objectiu, l'execució d'un projecte o l'adopció d'un comportament; i que el projecte o l'activitat tingui per objecte el foment d'una activitat d'utilitat pública o interès social. La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat i no-discriminació, eficàcia i eficiència."
         },
         {
           "h": "Pla estratègic i procediment de concessió",
-          "scheme": {
-            "cap": "Concessió de subvencions",
-            "body": "PLA ESTRATÈGIC de subvencions (previ, art. 8)\nBASES reguladores + CONVOCATÒRIA\nProcediment ORDINARI → CONCURRÈNCIA COMPETITIVA (comparació\n  de sol·licituds segons criteris i prelació)\nConcessió DIRECTA (art. 22.2) → només en supòsits taxats:\n  • subvencions NOMINATIVES als pressupostos\n  • imposades per una norma de rang legal\n  • excepcionals per interès públic, social, econòmic o\n    humanitari acreditat"
-          }
+          "p": "Amb caràcter previ a l'atorgament, cal aprovar un pla estratègic de subvencions (art. 8), que concreta els objectius i els efectes que es pretenen, així com les bases reguladores i la convocatòria. El procediment ordinari de concessió és la concurrència competitiva: es comparen les sol·licituds presentades per establir-ne una prelació d'acord amb els criteris de valoració fixats, i s'adjudiquen amb el límit del crèdit disponible. La concessió directa (art. 22.2) només és admissible en supòsits taxats: subvencions previstes nominativament als pressupostos, les imposades per una norma de rang legal i, excepcionalment, aquelles en què s'acreditin raons d'interès públic, social, econòmic o humanitari que dificultin la convocatòria pública."
         },
         {
           "h": "Obligacions del beneficiari i justificació",
-          "p": "El beneficiari ha de complir l'objectiu i destinar la subvenció a la finalitat concreta, justificar el compliment dels requisits i la realització de l'activitat i la despesa, sotmetre's a les actuacions de comprovació i control, comunicar altres ajuts i, si escau, acreditar estar al corrent d'obligacions tributàries i amb la Seguretat Social."
+          "p": "El beneficiari ha de complir l'objectiu i destinar la subvenció a la finalitat concreta per a la qual es va concedir; justificar davant l'òrgan concedent el compliment dels requisits i la realització de l'activitat i de la despesa; sotmetre's a les actuacions de comprovació i control; comunicar l'obtenció d'altres subvencions; i acreditar, si escau, que està al corrent de les obligacions tributàries i amb la Seguretat Social."
         },
         {
           "h": "Reintegrament i règim sancionador",
-          "scheme": {
-            "cap": "Reintegrament (art. 37)",
-            "body": "CAUSES → incompliment de l'objectiu/finalitat, falta o\n  insuficiència de justificació, obtenció sense complir\n  condicions, resistència al control...\nEFECTE → reintegrament de la quantia + INTERÈS DE DEMORA\n  des del pagament\nPROPORCIONALITAT → reintegrament PARCIAL segons el grau\n  d'incompliment\n+ règim SANCIONADOR independent (infraccions i sancions)"
-          }
-        },
-        {
-          "key": "Concurrència competitiva (regla); concessió directa només taxada. Reintegrament per incompliment o falta de justificació, amb interès de demora i proporcionalitat."
+          "p": "Procedeix el reintegrament de les quantitats percebudes i l'exigència de l'interès de demora des del moment del pagament (art. 37) en casos com l'incompliment total o parcial de l'objectiu o de la finalitat, la falta de justificació o la justificació insuficient, l'obtenció de la subvenció sense reunir les condicions, o la resistència a les actuacions de control. El reintegrament pot ser parcial, atenent el principi de proporcionalitat segons el grau d'incompliment. Tot això és independent del règim sancionador en matèria de subvencions, que es tramita per separat."
         }
       ],
-      "key": "Subvencions (LGS 38/2003): fons sense contraprestació per a un fi. Principis: publicitat/concurrència/objectivitat. Pla estratègic + bases + convocatòria; concurrència competitiva (regla), directa (taxada). Reintegrament (37) + interès de demora."
+      "key": "Subvencions (LGS 38/2003): fons sense contraprestació per a un fi d'utilitat pública. Principis: publicitat, concurrència, objectivitat. Pla estratègic (8) + bases + convocatòria; concurrència competitiva (regla), concessió directa (taxada, 22.2). Reintegrament (37) per incompliment o falta de justificació, amb interès de demora i proporcionalitat."
     },
     "37": {
-      "intro": "La responsabilitat de les autoritats i del personal al servei de les administracions completa el règim de responsabilitat patrimonial: regula com l'Administració exigeix responsabilitats al seu personal i la responsabilitat en supòsits especials (art. 36 Llei 40/2015).",
+      "intro": "La responsabilitat de les autoritats i del personal al servei de les administracions completa el règim de la responsabilitat patrimonial: regula com l'Administració exigeix responsabilitats al seu personal i la responsabilitat en supòsits especials (art. 36 de la Llei 40/2015).",
       "sections": [
         {
           "h": "Responsabilitat davant els particulars",
-          "p": "Els particulars exigeixen la responsabilitat directament a l'Administració (no poden demandar directament l'autoritat o el personal). L'Administració respon, doncs, davant el tercer perjudicat; un cop indemnitza, pot exercir l'acció de regrés."
+          "p": "Els particulars exigeixen la responsabilitat directament a l'Administració corresponent; no poden demandar directament l'autoritat o el personal causant del dany. L'Administració, doncs, respon davant el tercer perjudicat de manera directa i, un cop l'ha indemnitzat, pot exercir l'acció de regrés contra el seu personal."
         },
         {
           "h": "Acció de regrés",
-          "scheme": {
-            "cap": "Regrés contra el personal (art. 36)",
-            "body": "D'OFICI i OBLIGATORI → l'AP exigeix d'ofici al seu personal\n  la responsabilitat quan hagi indemnitzat i hi hagi hagut\n  DOL o CULPA o NEGLIGÈNCIA GREUS\nCRITERIS de ponderació → resultat danyós, grau de\n  culpabilitat, responsabilitat professional i relació amb\n  la producció del dany\nPROCEDIMENT amb audiència; possibilitat de fraccionar"
-          }
+          "p": "L'exigència de responsabilitat al personal és d'ofici i obligatòria: l'Administració, després d'haver indemnitzat, ha d'exigir d'ofici al personal al seu servei la responsabilitat en què hagi incorregut per dol, o culpa o negligència greus (art. 36.2). Per ponderar-la es tenen en compte el resultat danyós produït, el grau de culpabilitat, la responsabilitat professional del personal i la seva relació amb la producció del resultat. El procediment es tramita amb audiència de l'interessat."
         },
         {
-          "h": "Responsabilitat penal i altres",
-          "p": "Si el dany deriva d'un delicte, l'exigència de responsabilitat civil es pot fer en el procés penal, amb l'Administració com a responsable civil subsidiària. La responsabilitat disciplinària del personal és independent de la patrimonial. També existeix responsabilitat de l'Estat legislador (per lleis inconstitucionals o contràries al dret de la UE, amb requisits, art. 32.3-32.6) i per error judicial."
-        },
-        {
-          "key": "El ciutadà reclama a l'Administració; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus. La responsabilitat penal i la disciplinària són independents."
+          "h": "Responsabilitat penal i altres supòsits",
+          "p": "Si el dany deriva d'un delicte, la responsabilitat civil es pot exigir en el procés penal, amb l'Administració com a responsable civil subsidiari. La responsabilitat disciplinària del personal és independent de la patrimonial. La Llei 40/2015 regula també la responsabilitat de l'Estat legislador (pels danys derivats de l'aplicació de normes amb rang de llei declarades inconstitucionals o contràries al dret de la UE, amb els requisits dels arts. 32.3 a 32.6) i la responsabilitat de l'Administració de justícia per error judicial o funcionament anormal."
         }
       ],
-      "key": "Responsabilitat del personal (36): el ciutadà reclama a l'AP; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus. AP = responsable civil subsidiari en via penal. Responsabilitat de l'Estat legislador (32.3-6)."
+      "key": "Responsabilitat del personal (art. 36): el ciutadà reclama a l'Administració; aquesta exigeix d'ofici el regrés al personal només per dol o culpa/negligència greus. En via penal, l'AP és responsable civil subsidiari. Responsabilitat de l'Estat legislador (32.3-6) i per error judicial."
     },
     "38": {
-      "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988 (Reglament del patrimoni dels ens locals).",
+      "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988, que aprova el Reglament del patrimoni dels ens locals.",
       "sections": [
         {
           "h": "Classificació dels béns",
-          "scheme": {
-            "cap": "Béns de les EELL",
-            "body": "DOMINI PÚBLIC (DEMANIALS)\n  • d'ÚS PÚBLIC: carrers, places, parcs, camins, ponts...\n  • de SERVEI PÚBLIC: edificis i instal·lacions afectes a\n    serveis (escoles, mercats, cementiris...)\n  → INALIENABLES, IMPRESCRIPTIBLES i INEMBARGABLES\nPATRIMONIALS (DE PROPIS) → no afectes a ús o servei públic;\n  règim de dret privat; produeixen rendes\nCOMUNALS → demanials; aprofitament del COMÚ dels veïns"
-          }
+          "p": "Els béns de les entitats locals es classifiquen en béns de domini públic (demanials) i béns patrimonials (de propis). Els demanials són els destinats a un ús públic (carrers, places, parcs, camins, fonts) o a un servei públic (edificis i instal·lacions afectes a serveis: escoles, mercats, cementiris); estan subjectes als principis d'inalienabilitat, imprescriptibilitat i inembargabilitat (art. 132 CE). Els patrimonials són els que no estan destinats a ús ni a servei públic; es regeixen pel dret privat i poden produir rendes. Els béns comunals són una categoria especial de béns de domini públic l'aprofitament dels quals correspon al comú dels veïns."
         },
         {
           "h": "Alteració de la qualificació jurídica",
-          "p": "L'afectació vincula un bé a un ús o servei públic; la desafectació el converteix en patrimonial; la mutació demanial canvia la destinació dins el domini públic. L'alteració de la qualificació jurídica exigeix, en general, expedient que n'acrediti l'oportunitat i la legalitat, amb informació pública (excepte supòsits d'alteració automàtica, p. ex. per aprovació de planejament o projectes d'obres)."
+          "p": "L'afectació vincula un bé a un ús o servei públic; la desafectació el converteix en patrimonial; la mutació demanial canvia la destinació dins el domini públic. L'alteració de la qualificació jurídica dels béns requereix, amb caràcter general, un expedient que n'acrediti l'oportunitat i la legalitat, amb informació pública. Hi ha supòsits d'alteració automàtica (per exemple, l'aprovació definitiva de plans urbanístics o de projectes d'obres que prevegin l'ús o servei públic)."
         },
         {
-          "h": "Tràfic jurídic i utilització",
-          "scheme": {
-            "cap": "Usos del domini públic",
-            "body": "ÚS COMÚ GENERAL → de tothom, per igual; LLIURE\nÚS COMÚ ESPECIAL → intensitat especial (taules, parades);\n  AUTORITZACIÓ\nÚS PRIVATIU → ocupació excloent amb instal·lacions fixes;\n  CONCESSIÓ administrativa\nEls béns patrimonials es regeixen pel dret privat i poden\n  alienar-se mitjançant el procediment legal (subhasta,\n  concurs o, excepcionalment, directa)"
-          }
+          "h": "Utilització dels béns de domini públic",
+          "list": [
+            "Ús comú general: el que correspon per igual a tots els ciutadans, de manera que l'ús d'uns no impedeix el dels altres (passejar, circular). És lliure.",
+            "Ús comú especial: quan concorren circumstàncies d'intensitat d'ús, perillositat o altres similars (terrasses, parades). Se sotmet a autorització.",
+            "Ús privatiu: el que limita o exclou la utilització per part d'altres (ocupació amb instal·lacions fixes). Requereix concessió administrativa."
+          ]
         },
         {
-          "key": "Demanials: inalienables, imprescriptibles, inembargables. Patrimonials: dret privat, rendes. Alteració de la qualificació amb expedient. Usos: comú general (lliure), especial (autorització), privatiu (concessió)."
+          "h": "Tràfic jurídic dels béns patrimonials",
+          "p": "Els béns patrimonials es regeixen pel dret privat, però la seva adquisició, gravamen i alienació segueixen les especialitats de la legislació administrativa (procediment, valoració prèvia, formes d'adjudicació com la subhasta, el concurs o, excepcionalment, l'adjudicació directa). Els ingressos derivats del patrimoni tenen la consideració d'ingressos de dret privat."
         }
       ],
-      "key": "Béns: demanials (ús/servei públic; inalienables, imprescriptibles, inembargables), patrimonials (dret privat) i comunals (aprofitament veïnal). Alteració amb expedient. Usos: comú general/especial/privatiu (concessió)."
+      "key": "Béns: demanials (ús o servei públic; inalienables, imprescriptibles, inembargables), patrimonials (dret privat) i comunals (aprofitament veïnal). Alteració de la qualificació amb expedient (o automàtica per planejament). Usos del demani: comú general (lliure), comú especial (autorització) i privatiu (concessió)."
     },
     "39": {
-      "intro": "Els béns de domini públic i els patrimonials disposen de prerrogatives i potestats per a la seva protecció i defensa, i les entitats locals han de formar i mantenir un inventari (Llei 33/2003; D 336/1988).",
+      "intro": "Els béns de domini públic i els patrimonials disposen de prerrogatives i potestats per a la seva protecció i defensa, i les entitats locals han de formar i mantenir un inventari de tots els seus béns i drets (Llei 33/2003; D 336/1988).",
       "sections": [
         {
           "h": "Prerrogatives i potestats",
-          "scheme": {
-            "cap": "Potestats sobre els béns",
-            "body": "INVESTIGACIÓ → esbrinar la titularitat dels béns que es\n  presumeixin de l'entitat\nLLINDAMENT (deslinde) → delimitar els límits amb altres\n  finques\nRECUPERACIÓ D'OFICI de la possessió → en demanials, en\n  qualsevol moment; en patrimonials, dins l'any de la usurpa.\nDESNONAMENT ADMINISTRATIU → recuperar la possessió de béns\n  demanials ocupats sense títol\nFACULTAT de no prescripció dels demanials"
-          }
+          "list": [
+            "Potestat d'investigació: per esbrinar la situació dels béns i drets que es presumeixin de la seva titularitat.",
+            "Potestat de llindament (deslinde): per delimitar els béns immobles respecte d'altres finques confrontants.",
+            "Recuperació d'ofici de la possessió: dels béns demanials en qualsevol moment; dels patrimonials, dins el termini d'un any des de la usurpació.",
+            "Desnonament administratiu: per recuperar la possessió de béns de domini públic ocupats sense títol.",
+            "Potestat sancionadora en defensa del patrimoni."
+          ]
         },
         {
-          "h": "Béns de domini públic i patrimonials",
-          "p": "Els béns de domini públic estan subjectes als principis d'inalienabilitat, imprescriptibilitat i inembargabilitat (art. 132 CE). Els patrimonials es regeixen pel dret privat però amb especialitats administratives (procediment d'alienació, destinació dels rendiments). Els béns comunals tenen un règim especial d'aprofitament pels veïns."
+          "h": "Règim dels béns demanials i patrimonials",
+          "p": "Els béns de domini públic estan emparats per la inalienabilitat, la imprescriptibilitat i la inembargabilitat. Els béns patrimonials, tot i regir-se pel dret privat, gaudeixen també d'algunes garanties administratives (per exemple, la inembargabilitat dels béns i drets afectats a un servei públic o l'exigència de procediment per a la seva alienació). Els béns comunals tenen un règim especial d'aprofitament pels veïns, generalment regulat per ordenança."
         },
         {
           "h": "Inventari, conservació i defensa",
-          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, sigui quina sigui la seva naturalesa, que s'aprova pel Ple i es rectifica anualment (i es comprova en renovar-se la corporació). L'inventari no és títol de propietat, però facilita la defensa. Existeix el deure de conservar, protegir i defensar els béns; la utilització i l'aprofitament s'ajusten a la seva qualificació."
-        },
-        {
-          "key": "Potestats: investigació, llindament, recuperació d'ofici, desnonament administratiu. Demanials no prescriuen. Inventari de tots els béns, aprovat pel Ple i rectificat anualment."
+          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, sigui quina sigui la seva naturalesa o forma d'adquisició; l'aprova el Ple, es rectifica anualment i es comprova en renovar-se la corporació. L'inventari no és, per si sol, un títol de propietat, però facilita la gestió i la defensa. Existeix el deure de conservar, protegir i defensar els béns, i d'inscriure els immobles i drets reals al Registre de la Propietat."
         }
       ],
-      "key": "Béns: prerrogatives (investigació, llindament, recuperació d'ofici, desnonament). Demanials inalienables/imprescriptibles/inembargables (132 CE). Inventari de tots els béns, aprovat pel Ple, rectificació anual."
+      "key": "Potestats: investigació, llindament, recuperació d'ofici (demanials sense termini; patrimonials en 1 any) i desnonament administratiu. Demanials: inalienables, imprescriptibles, inembargables. Inventari de tots els béns, aprovat pel Ple, rectificació anual; inscripció al Registre de la Propietat."
     },
     "40": {
       "intro": "El pressupost general desplega la seva eficàcia mitjançant l'execució i finalitza amb la liquidació. El RD 500/1990 desenvolupa el TRLHL en aquesta matèria, completat per les bases d'execució que aprova cada entitat amb el pressupost.",
@@ -1257,315 +1170,251 @@
       "key": "Recursos (art. 2 TRLHL): tributs propis (taxes, contribucions especials i impostos), participacions, ingressos de dret privat, subvencions, preus públics i crèdit. Impostos obligatoris: IBI, IAE, IVTM; potestatius: ICIO i plusvàlua. Taxa (servei obligatori/monopoli) vs preu públic (servei voluntari també privat)."
     },
     "45": {
-      "intro": "Les situacions bàsiques del sòl són la categorització que fa la legislació estatal (TRLS, RDL 7/2015) a efectes de drets i deures bàsics i, sobretot, de valoració: sòl rural i sòl urbanitzat.",
+      "intro": "Les situacions bàsiques del sòl són la categorització que estableix la legislació estatal del sòl (TRLS, RDL 7/2015) a efectes dels drets i deures bàsics i, sobretot, de la valoració: el sòl rural i el sòl urbanitzat.",
       "sections": [
         {
-          "h": "Sòl rural",
-          "scheme": {
-            "cap": "Situació de sòl RURAL",
-            "body": "COMPRÈN →\n  • el sòl preservat de la transformació urbanística (per\n    ordenació o per valors a protegir)\n  • el sòl per al qual els instruments d'ordenació prevegin\n    la transformació, MENTRE no s'hagi acabat la urbanització\nVALORACIÓ → per CAPITALITZACIÓ de la renda (real o potencial)\n  de l'explotació, SENSE expectatives urbanístiques"
-          }
+          "h": "Situació de sòl rural",
+          "p": "Es troba en situació de sòl rural: el sòl preservat per l'ordenació territorial i urbanística de la seva transformació mitjançant la urbanització (perquè s'hi han de protegir valors ambientals, culturals, agrícoles, paisatgístics, etc., o per la subjecció a riscos); i el sòl per al qual els instruments d'ordenació prevegin o permetin el pas a la situació d'urbanitzat, mentre no s'hagi acabat l'actuació d'urbanització. La seva valoració es fa per capitalització de la renda anual, real o potencial, de l'explotació, sense computar expectatives urbanístiques."
         },
         {
-          "h": "Sòl urbanitzat",
-          "scheme": {
-            "cap": "Situació de sòl URBANITZAT",
-            "body": "COMPRÈN → el sòl integrat de manera LEGAL i EFECTIVA a la\n  xarxa de dotacions i serveis propis dels nuclis de població\nVALORACIÓ → per l'edificabilitat i l'ús atribuïts, aplicant\n  el VALOR DE REPERCUSSIÓ del sòl; si està edificat, el major\n  entre aquest i el de taxació conjunta"
-          }
+          "h": "Situació de sòl urbanitzat",
+          "p": "Es troba en situació de sòl urbanitzat el integrat de manera legal i efectiva a la xarxa de dotacions i serveis propis dels nuclis de població. La seva valoració es fa aplicant a l'edificabilitat i a l'ús atribuïts el valor de repercussió del sòl segons l'ús; si el sòl està edificat o en curs d'edificació, el valor és el superior entre el del sòl i el de la taxació conjunta del sòl i l'edificació existent."
         },
         {
           "h": "Efectes de la situació bàsica",
-          "p": "La situació bàsica determina el contingut del dret de propietat (facultats i deures) i el criteri de valoració en expropiacions, reparcel·lacions i responsabilitat. És independent de la classificació urbanística: un sòl classificat com a urbanitzable però encara no urbanitzat es valora com a rural (sense computar expectatives)."
-        },
-        {
-          "key": "Dues situacions: rural (capitalització de rendes, sense expectatives) i urbanitzat (edificabilitat × valor de repercussió). Determinen drets bàsics i valoració, amb independència de la classe de sòl."
+          "p": "La situació bàsica determina el contingut bàsic del dret de propietat (facultats i deures) i el criteri de valoració en expropiacions, reparcel·lacions i supòsits de responsabilitat. És independent de la classificació urbanística autonòmica: el que compta per valorar és la situació real (rural o urbanitzat), no la classe formal de sòl. Les indemnitzacions per l'extinció de drets o per despeses es regeixen també per la legislació estatal de sòl."
         }
       ],
-      "key": "Situacions bàsiques (TRLS estatal): RURAL (capitalització de rendes, sense expectatives) i URBANITZAT (integrat a la malla; edificabilitat × repercussió). Determinen valoració i drets bàsics, independents de la classificació."
+      "key": "Situacions bàsiques (TRLS estatal): RURAL (capitalització de la renda, sense expectatives) i URBANITZAT (integrat a la malla; edificabilitat × valor de repercussió). Determinen la valoració i els drets bàsics, amb independència de la classe de sòl autonòmica."
     },
     "46": {
       "intro": "Les reserves per a sistemes urbanístics generals i locals garanteixen el sòl per a les dotacions col·lectives (vialitat, espais lliures, equipaments) i la seva compatibilitat amb les qualificacions d'aprofitament privat (TRLUC).",
       "sections": [
         {
           "h": "Sistemes generals i locals",
-          "scheme": {
-            "cap": "Sistemes urbanístics",
-            "body": "GENERALS → estructuren el territori i el desenvolupament\n  urbà del municipi (xarxa viària bàsica, grans espais\n  lliures, equipaments d'abast general, serveis tècnics)\nLOCALS → donen servei a un sector o àmbit d'actuació concret\n  (vialitat, zones verdes i equipaments de barri)\nEls dos s'afecten a USOS PÚBLICS"
-          }
+          "p": "Els sistemes urbanístics són els terrenys i les instal·lacions destinats a usos i serveis públics que estructuren el territori. Els sistemes generals són els que estructuren l'organització i el desenvolupament urbà del conjunt del municipi (la xarxa viària bàsica, els grans espais lliures, els equipaments comunitaris d'abast general i els serveis tècnics). Els sistemes locals són els que donen servei a un sector de planejament o a un àmbit d'actuació concret (vialitat, zones verdes i equipaments de barri)."
         },
         {
           "h": "Estàndards i reserves mínimes",
-          "p": "El planejament ha de preveure reserves mínimes de sòl (estàndards) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o als habitatges previstos. Aquestes reserves asseguren la qualitat urbana i l'equilibri entre l'aprofitament privat i les dotacions."
+          "p": "El planejament ha de preveure reserves mínimes de sòl (estàndards urbanístics) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o al nombre d'habitatges previstos. Aquestes reserves asseguren la qualitat urbana i l'equilibri entre l'aprofitament privat i les dotacions col·lectives."
         },
         {
           "h": "Obtenció i qualificació",
-          "p": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions de transformació (reparcel·lació), per expropiació o per ocupació directa. La qualificació urbanística assigna a cada sòl un ús i una intensitat (zones d'aprofitament privat) o el destina a sistema (ús públic); la classificació, en canvi, fixa la classe de sòl."
-        },
-        {
-          "key": "Sistemes generals (estructuren el municipi) i locals (un sector). Estàndards mínims d'espais lliures i equipaments. S'obtenen per cessió, expropiació o ocupació directa."
+          "p": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions de transformació urbanística (a través de la reparcel·lació), per expropiació o per ocupació directa (a canvi de l'adjudicació d'aprofitament en una altra àrea). La qualificació urbanística assigna a cada terreny un ús i una intensitat d'edificació (zones d'aprofitament privat) o el destina a sistema (sòl d'ús públic); la classificació, en canvi, en fixa la classe."
         }
       ],
-      "key": "Sistemes urbanístics: generals (estructuren el municipi) i locals (un sector); ús públic. Estàndards/reserves mínimes (zones verdes, equipaments, habitatge protegit). Obtenció: cessió, expropiació, ocupació directa."
+      "key": "Sistemes urbanístics: generals (estructuren tot el municipi) i locals (un sector o àmbit); ús públic. Estàndards/reserves mínimes (zones verdes, equipaments, habitatge protegit). S'obtenen per cessió, expropiació o ocupació directa. Qualificació (usos/intensitat) vs classificació (classe de sòl)."
     },
     "47": {
-      "intro": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl. La seva ponderació permet l'equidistribució de beneficis i càrregues (TRLUC).",
+      "intro": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl. La seva ponderació permet l'equidistribució de beneficis i càrregues entre les persones propietàries (TRLUC).",
       "sections": [
         {
           "h": "Concepte",
-          "p": "L'aprofitament urbanístic és el resultat de ponderar l'edificabilitat (sostre edificable) atribuïda pel planejament pels usos i les tipologies previstes. Determina el contingut econòmic del dret de propietat del sòl. L'aprofitament que excedeix el susceptible d'apropiació privada correspon a l'Administració (deure de cessió de sòl amb aprofitament)."
+          "p": "L'aprofitament urbanístic és el resultat de ponderar l'edificabilitat (el sostre edificable) atribuïda pel planejament en funció dels usos i les tipologies previstes. Determina el contingut econòmic del dret de propietat del sòl. L'aprofitament que excedeix el susceptible d'apropiació privada correspon a l'Administració, en concepte de participació de la comunitat en les plusvàlues generades pel planejament (deure de cessió de sòl amb aprofitament)."
         },
         {
           "h": "Ponderació",
-          "scheme": {
-            "cap": "Ponderació de l'aprofitament",
-            "body": "COEFICIENTS → homogeneïtzen els diferents usos i tipologies\n  i les seves localitzacions (p. ex. residencial vs\n  industrial; zones de més o menys valor)\nAPROFITAMENT URBANÍSTIC → edificabilitat × coeficients d'ús\nServeix per comparar i repartir de manera justa entre\n  propietaris amb situacions diferents"
-          }
+          "p": "Com que en un mateix àmbit hi pot haver usos i tipologies diferents (residencial, comercial, industrial) amb valors desiguals, l'aprofitament es pondera mitjançant coeficients que homogeneïtzen els usos i les localitzacions. Així es pot comparar i repartir de manera equitativa entre propietaris que es troben en situacions diferents."
         },
         {
           "h": "Aprofitament mitjà i equidistribució",
-          "p": "En els sectors de planejament derivat (i en polígons d'actuació), es defineix un aprofitament mitjà (o urbanístic de referència) que permet distribuir equitativament beneficis i càrregues entre tots els propietaris del sector, amb independència de la qualificació concreta de cada finca. El propietari té dret a l'aprofitament susceptible d'apropiació (un percentatge del mitjà) i ha de cedir la resta a l'Administració."
-        },
-        {
-          "key": "Aprofitament = edificabilitat ponderada per usos. L'aprofitament mitjà permet l'equidistribució; el propietari s'apropia d'un percentatge i cedeix l'excés a l'Administració."
+          "p": "En els sectors de planejament derivat i en els polígons d'actuació es defineix un aprofitament mitjà (o de referència) que permet distribuir equitativament els beneficis i les càrregues entre tots els propietaris de l'àmbit, amb independència de la qualificació concreta de cada finca. El propietari té dret a l'aprofitament susceptible d'apropiació (un percentatge de l'aprofitament mitjà fixat per la llei) i ha de cedir a l'Administració la diferència, juntament amb el sòl per a sistemes i les obres d'urbanització."
         }
       ],
-      "key": "Aprofitament urbanístic: edificabilitat ponderada per coeficients d'ús. Aprofitament mitjà → equidistribució de beneficis i càrregues. El privat s'apropia d'un % i cedeix l'excés a l'AP."
+      "key": "Aprofitament urbanístic: edificabilitat ponderada pels usos (coeficients). L'aprofitament mitjà permet l'equidistribució de beneficis i càrregues en un àmbit. El propietari s'apropia d'un percentatge i cedeix l'excés (i el sòl de sistemes) a l'Administració."
     },
     "48": {
-      "intro": "Els drets i deures de les persones propietàries del sòl configuren l'estatut de la propietat urbana: el dret de propietat s'exerceix dins els límits i amb el compliment dels deures que estableix la legislació urbanística (funció social de la propietat). Es regulen al TRLUC i al TRLS estatal.",
+      "intro": "Els drets i deures de les persones propietàries del sòl configuren l'estatut de la propietat urbana: el dret de propietat s'exerceix dins els límits i amb el compliment dels deures que estableix la legislació urbanística, com a expressió de la funció social de la propietat. Es regulen al TRLUC i al TRLS estatal.",
       "sections": [
         {
-          "h": "Estatut del propietari",
-          "scheme": {
-            "cap": "Drets i deures",
-            "body": "DRETS → usar, gaudir i disposar del sòl conforme a la seva\n  classificació i qualificació; fer seu l'aprofitament\n  susceptible d'apropiació\nDEURES (en sòl objecte de transformació) →\n  • CESSIÓ de sòl per a sistemes i de l'aprofitament que\n    correspon a l'Administració\n  • COSTEJAR i, si escau, EXECUTAR la urbanització\n  • CONSERVAR les construccions (seguretat, salubritat,\n    ornament)\n  • EDIFICAR els solars dins de termini"
-          }
+          "h": "Drets",
+          "p": "Les persones propietàries tenen dret a usar, gaudir i disposar dels terrenys d'acord amb la seva classificació i qualificació urbanístiques, i a fer seu l'aprofitament urbanístic susceptible d'apropiació privada. El contingut d'aquest dret està delimitat per l'ordenació urbanística, sense que la seva concreció pel planejament confereixi dret a indemnització, llevat dels supòsits legalment previstos."
         },
         {
-          "h": "Règim del subsol",
-          "p": "El dret del propietari sobre el subsol s'estén fins on sigui necessari per als usos urbanístics autoritzats en superfície; més enllà, l'aprofitament del subsol pot correspondre a l'Administració, que el pot destinar a usos d'interès públic (aparcaments, infraestructures). El planejament pot qualificar específicament el subsol."
+          "h": "Deures",
+          "p": "En el sòl objecte de transformació, els deures inclouen: la cessió obligatòria i gratuïta a l'Administració del sòl per a sistemes i del sòl amb l'aprofitament que li correspon; costejar i, si escau, executar les obres d'urbanització; conservar les construccions en condicions de seguretat, salubritat i ornament públic; i edificar els solars dins els terminis fixats pel planejament. En el sòl ja consolidat, els deures són els de completar la urbanització i edificar."
         },
         {
-          "h": "Limitacions i incompliment de deures",
-          "p": "Les facultats urbanístiques estan condicionades al compliment dels deures. L'incompliment del deure d'edificar o de conservar pot derivar en mesures com l'edificació o rehabilitació forçoses, la col·locació de la finca en situació d'execució per substitució (venda forçosa) o l'expropiació per incompliment de la funció social."
+          "h": "Règim urbanístic del subsol",
+          "p": "El dret del propietari sobre el subsol s'estén fins on sigui necessari per a l'exercici de les facultats urbanístiques corresponents als usos autoritzats en superfície; més enllà, l'aprofitament del subsol pot correspondre a l'Administració, que el pot destinar a usos d'interès públic (aparcaments, infraestructures, serveis). El planejament pot qualificar específicament el subsol."
         },
         {
-          "key": "El propietari té dret a l'aprofitament susceptible d'apropiació, amb deures de cessió, urbanització, conservació i edificació. El subsol es limita als usos autoritzats en superfície."
+          "h": "Conseqüències de l'incompliment dels deures",
+          "p": "L'incompliment dels deures urbanístics (especialment el d'edificar o el de conservar) pot comportar mesures com l'ordre d'execució, l'execució o la rehabilitació forçoses, la inclusió de la finca en el règim d'edificació o rehabilitació forçoses (amb la possibilitat de venda o substitució forçosa del propietari incomplidor) i, en darrer terme, l'expropiació per incompliment de la funció social de la propietat."
         }
       ],
-      "key": "Estatut del propietari: dret a l'aprofitament + deures (cessió, urbanització, conservació, edificació). Subsol limitat als usos autoritzats. Incompliment → edificació/rehabilitació forçosa, venda forçosa o expropiació."
+      "key": "Estatut del propietari: dret a usar, gaudir i disposar i a fer seu l'aprofitament susceptible d'apropiació; deures de cessió, urbanització, conservació i edificació. El subsol es limita als usos autoritzats en superfície. L'incompliment pot derivar en edificació/rehabilitació forçosa, venda forçosa o expropiació."
     },
     "49": {
-      "intro": "El règim d'ús provisional del sòl permet autoritzar usos i obres de caràcter provisional que no dificultin l'execució del planejament, amb caràcter precari (TRLUC).",
+      "intro": "El règim d'ús provisional del sòl permet autoritzar usos i obres de caràcter provisional que no dificultin l'execució del planejament, amb caràcter estrictament precari (TRLUC).",
       "sections": [
         {
           "h": "Caracterització",
-          "scheme": {
-            "cap": "Usos i obres provisionals",
-            "body": "NATURALESA → PRECARIS i TEMPORALS\nREQUISIT essencial → NO han de dificultar l'execució del\n  planejament ni desincentivar-la\nCESSAMENT → quan ho ordeni l'Administració, SENSE dret a\n  indemnització\nGARANTIES → llicència + acceptació expressa de les condicions\n  (compromís d'enderroc/cessament) + INSCRIPCIÓ al Registre\n  de la Propietat"
-          }
+          "p": "Els usos i les obres de caràcter provisional es caracteritzen per la seva naturalesa precària i temporal. El requisit essencial és que no dificultin l'execució del planejament urbanístic ni en desincentivin l'aplicació; per això s'admeten típicament en sòls amb una transformació prevista però encara no executada. En cessar (quan ho ordeni l'Administració o es compleixi la condició o el termini), no generen dret a cap indemnització."
         },
         {
-          "h": "Procediment d'autorització",
-          "p": "L'autorització d'usos i obres provisionals es tramita amb les garanties que estableix el TRLUC (sovint amb informació pública i informes), i s'hi fa constar el caràcter precari, el termini o condició de cessament i la renúncia a la indemnització. Es poden exigir garanties econòmiques per assegurar l'enderroc o restitució."
+          "h": "Garanties i procediment",
+          "p": "L'autorització d'usos i obres provisionals exigeix: la llicència corresponent; l'acceptació expressa, per part del titular, del caràcter precari i del compromís de cessar en l'ús i de retirar o enderrocar les obres quan l'Administració ho requereixi, sense dret a indemnització; i la inscripció d'aquestes condicions al Registre de la Propietat. Es poden exigir garanties econòmiques per assegurar el compliment del compromís d'enderroc o restitució. El procediment es tramita amb informació pública."
         },
         {
           "h": "Límits materials",
-          "p": "No es poden autoritzar com a provisionals usos prohibits ni obres de difícil o costós enderroc que, de fet, consolidin una situació contrària al planejament. El caràcter provisional ha de ser real i efectiu."
-        },
-        {
-          "key": "Usos provisionals: precaris, no dificulten el pla, cessen sense indemnització, amb llicència, acceptació de condicions i inscripció registral."
+          "p": "No es poden autoritzar com a provisionals usos prohibits pel planejament ni obres de difícil o costós enderroc que, de fet, consolidin una situació contrària a l'ordenació prevista. El caràcter provisional ha de ser real i efectiu; en cas contrari, l'autorització seria fraudulenta."
         }
       ],
-      "key": "Usos i obres provisionals: precaris i temporals; no han de dificultar el planejament; cessen sense indemnització; llicència + acceptació de condicions + inscripció registral."
+      "key": "Usos i obres provisionals: precaris i temporals; no han de dificultar el planejament; cessen sense dret a indemnització; cal llicència + acceptació expressa de les condicions + inscripció al Registre de la Propietat (i possible garantia per a l'enderroc)."
     },
     "50": {
-      "intro": "Les figures del planejament urbanístic s'ordenen jeràrquicament. Els plans directors urbanístics (PDU) són instruments de la Generalitat amb abast supramunicipal que coordinen i orienten el planejament (TRLUC).",
+      "intro": "Les figures del planejament urbanístic s'ordenen jeràrquicament. Els plans directors urbanístics (PDU) són instruments de la Generalitat, d'abast supramunicipal, que coordinen i orienten el planejament (TRLUC).",
       "sections": [
         {
           "h": "Jerarquia del planejament",
-          "scheme": {
-            "cap": "Instruments d'ordenació",
-            "body": "ORDENACIÓ DEL TERRITORI (plans territorials) ↑\nPLANS DIRECTORS URBANÍSTICS (PDU) — supramunicipals\nPLANEJAMENT GENERAL → POUM (i normes de planejament)\nPLANEJAMENT DERIVAT → plans parcials, plans especials,\n  plans de millora urbana\n+ instruments de gestió i d'execució"
-          }
+          "p": "El sistema de planejament s'ordena de més a menys general: els plans territorials (ordenació del territori) i els plans directors urbanístics (abast supramunicipal); el planejament urbanístic general (el POUM i, en certs casos, les normes de planejament); i el planejament urbanístic derivat (plans parcials, plans especials i plans de millora urbana). Cada instrument s'ha d'ajustar als de rang superior."
         },
         {
           "h": "Plans directors urbanístics",
-          "p": "Els PDU poden establir, en àmbits supramunicipals: directrius per coordinar l'ordenació urbanística d'un territori; determinacions sobre el desenvolupament urbanístic sostenible, la mobilitat i el sòl no urbanitzable; mesures de protecció del sòl no urbanitzable i criteris per a estructures urbanes; i la concreció d'infraestructures i reserves de sòl (p. ex. per a activitats econòmiques o habitatge). Els aprova la Generalitat."
+          "p": "Els PDU poden establir, en àmbits supramunicipals: directrius per coordinar l'ordenació urbanística d'un territori d'abast intermunicipal; determinacions sobre el desenvolupament urbanístic sostenible, la mobilitat i les infraestructures; mesures de protecció del sòl no urbanitzable i criteris per a l'estructuració orgànica d'aquest sòl; i la concreció i la localització de reserves de sòl per a infraestructures, equipaments o per a la implantació d'activitats econòmiques o d'habitatge."
         },
         {
-          "h": "Efectes",
-          "p": "Els PDU i els plans territorials prevalen sobre el planejament urbanístic municipal en el seu àmbit: el POUM s'hi ha d'ajustar. Les seves determinacions poden ser d'aplicació directa o orientar el planejament que les ha de desenvolupar."
-        },
-        {
-          "key": "PDU: instrument supramunicipal de la Generalitat, situat per damunt del POUM, que coordina i ordena àmbits territorials i el sòl no urbanitzable."
+          "h": "Aprovació i efectes",
+          "p": "Els PDU els tramita i aprova l'administració urbanística de la Generalitat. Els plans directors i els plans territorials prevalen sobre el planejament urbanístic municipal en el seu àmbit: el POUM i el planejament derivat s'hi han d'ajustar. Les determinacions dels PDU poden ser d'aplicació directa o establir el marc que el planejament municipal ha de desenvolupar."
         }
       ],
-      "key": "Planejament: territorial → PDU (supramunicipal) → POUM (general) → derivat (parcials/especials). Els PDU els aprova la Generalitat i prevalen sobre el POUM; ordenen sòl no urbanitzable i infraestructures."
+      "key": "Planejament: territorial i PDU (supramunicipals, Generalitat) → POUM (general) → derivat (parcials, especials, de millora urbana). Els PDU ordenen àmbits supramunicipals, sòl no urbanitzable i infraestructures, i prevalen sobre el POUM."
     },
     "51": {
-      "intro": "El planejament general municipal s'articula, a Catalunya, mitjançant els plans d'ordenació urbanística municipal (POUM), instrument d'ordenació integral del territori municipal (TRLUC).",
+      "intro": "El planejament urbanístic general municipal s'articula, a Catalunya, mitjançant els plans d'ordenació urbanística municipal (POUM), instrument d'ordenació integral del territori municipal (TRLUC).",
       "sections": [
         {
           "h": "Objecte i contingut documental",
-          "scheme": {
-            "cap": "Documentació del POUM",
-            "body": "MEMÒRIA (descriptiva i justificativa) + MEMÒRIA SOCIAL\n  (necessitats i previsions d'habitatge, especialment\n  protegit)\nNORMES URBANÍSTIQUES (règim del sòl, usos, paràmetres)\nPLÀNOLS d'informació i d'ordenació\nCATÀLEG de béns protegits / patrimoni\nAGENDA i AVALUACIÓ econòmica i financera\nDOCUMENTACIÓ AMBIENTAL (avaluació ambiental estratègica)\nPROGRAMA D'ACTUACIÓ urbanística municipal (gestió i\n  programació temporal)"
-          }
+          "p": "El POUM classifica tot el sòl del municipi, en defineix el règim, estableix l'estructura general del territori (els sistemes generals) i les determinacions per al desenvolupament i la gestió. La seva documentació comprèn: la memòria (descriptiva i justificativa) i la memòria social (que justifica les necessitats i les previsions d'habitatge, especialment de protecció pública); les normes urbanístiques; els plànols d'informació i d'ordenació; el catàleg de béns a protegir; l'agenda i l'avaluació econòmica i financera de les actuacions; i la documentació ambiental (avaluació ambiental estratègica)."
         },
         {
           "h": "Determinacions",
-          "p": "El POUM classifica tot el sòl, en defineix el règim, fixa l'estructura general i orgànica del territori (sistemes generals), estableix les determinacions per al desenvolupament (sectors, polígons, paràmetres d'edificació i usos) i les reserves d'habitatge protegit, i incorpora les mesures de protecció del medi i del patrimoni."
+          "p": "El POUM fixa la classificació i la qualificació del sòl, l'estructura general (sistemes generals de comunicacions, d'espais lliures i d'equipaments), els paràmetres d'edificació i d'ús, els sectors de planejament derivat i els polígons d'actuació, les reserves d'habitatge de protecció pública i les mesures de protecció del medi ambient i del patrimoni. El programa d'actuació urbanística municipal concreta les previsions de desenvolupament i la programació temporal."
         },
         {
-          "h": "Aprovació",
-          "scheme": {
-            "cap": "Tramitació del POUM",
-            "body": "AVANÇ (opcional/recomanable) + participació\nAPROVACIÓ INICIAL (Ajuntament) + INFORMACIÓ pública (mínim\n  un mes / 45 dies) + informes sectorials\nAPROVACIÓ PROVISIONAL (Ple municipal)\nAPROVACIÓ DEFINITIVA → administració urbanística de la\n  GENERALITAT (Comissió Territorial d'Urbanisme o conseller,\n  segons la població)\nPUBLICACIÓ de l'acord i de les normes → executivitat"
-          }
-        },
-        {
-          "key": "El POUM és l'instrument d'ordenació integral; l'aprovació definitiva correspon a la Generalitat, no al municipi. La memòria social justifica les previsions d'habitatge."
+          "h": "Tramitació i aprovació",
+          "p": "La tramitació consta, en síntesi, de: un avanç de pla (recomanable) amb participació; l'aprovació inicial per l'Ajuntament, seguida d'informació pública (com a mínim un mes, sovint 45 dies) i de la sol·licitud d'informes als organismes afectats; l'aprovació provisional pel Ple municipal, un cop resoltes les al·legacions; i l'aprovació definitiva, que correspon a l'administració urbanística de la Generalitat (la Comissió Territorial d'Urbanisme o el conseller, segons la població del municipi). La publicació de l'acord i de les normes urbanístiques al diari oficial determina l'executivitat del pla."
         }
       ],
-      "key": "POUM (planejament general): memòria (+social), normes, plànols, catàleg, avaluació econòmica i ambiental, programa d'actuació. Aprovació: inicial (Ajuntament) → provisional (Ple) → definitiva (Generalitat). Publicació → executivitat."
+      "key": "POUM (planejament general): memòria i memòria social, normes, plànols, catàleg, avaluació econòmica i ambiental, programa d'actuació. Tramitació: aprovació inicial (Ajuntament) + informació pública → provisional (Ple) → definitiva (Generalitat: CTU o conseller). Publicació → executivitat."
     },
     "52": {
-      "intro": "El planejament de desenvolupament (o derivat) concreta i executa les previsions del planejament general. Els plans parcials ordenen el sòl urbanitzable i els plans especials atenen finalitats concretes (TRLUC).",
+      "intro": "El planejament de desenvolupament (o derivat) concreta i executa les previsions del planejament general. Els plans parcials ordenen el sòl urbanitzable, els plans especials atenen finalitats concretes i els plans de millora urbana actuen en sòl urbà (TRLUC).",
       "sections": [
         {
-          "h": "Plans parcials",
-          "scheme": {
-            "cap": "Plans parcials urbanístics",
-            "body": "OBJECTE → ordenar detalladament el SÒL URBANITZABLE per\n  fer-lo apte per a l'edificació (sectors de planejament)\nPLA PARCIAL DE DELIMITACIÓ → en sòl urbanitzable NO\n  delimitat: delimita el sector i n'estableix l'ordenació\nCONTINGUT → ordenació detallada, qualificació, sistemes\n  locals, paràmetres, gestió i avaluació econòmica"
-          }
+          "h": "Plans parcials urbanístics",
+          "p": "Tenen per objecte ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació (estableixen la qualificació detallada, els sistemes locals, els paràmetres d'edificació i ús, i les determinacions de gestió). En el sòl urbanitzable no delimitat, el pla parcial de delimitació delimita el sector i n'estableix l'ordenació."
         },
         {
-          "h": "Plans especials i de millora urbana",
+          "h": "Plans especials i plans de millora urbana",
           "list": [
-            "Plans especials urbanístics: desenvolupen o complementen el planejament per a finalitats concretes (protecció del patrimoni o del paisatge, infraestructures, equipaments, ordenació del subsol, etc.).",
-            "Plans de millora urbana: en sòl urbà, per completar el teixit o dur a terme operacions de reforma, renovació o rehabilitació."
+            "Plans especials urbanístics: desenvolupen o complementen el planejament general per a finalitats concretes, com la protecció del patrimoni o del paisatge, l'ordenació del subsol, la implantació d'infraestructures o equipaments, o el desenvolupament del sistema urbanístic.",
+            "Plans de millora urbana: actuen en sòl urbà per completar el teixit urbà o per dur a terme operacions de reforma interior, renovació, rehabilitació o transformació d'usos."
           ]
         },
         {
-          "h": "Elaboració, aprovació i revisió",
-          "p": "S'aproven inicialment i provisionalment per l'Ajuntament, amb informació pública i informes; l'aprovació definitiva correspon, segons el cas, al mateix municipi (si té planejament general adaptat i el pla deriva d'aquest) o a la Generalitat. La modificació i la revisió segueixen, en general, el mateix procediment que l'aprovació."
-        },
-        {
-          "key": "Plans parcials (sòl urbanitzable) i especials (finalitats concretes) i de millora urbana (sòl urbà) desenvolupen el POUM; tramitació pròpia amb aprovació inicial/provisional/definitiva."
+          "h": "Elaboració, aprovació, modificació i revisió",
+          "p": "Aquests plans s'aproven inicialment i provisionalment per l'Ajuntament, amb informació pública i informes; l'aprovació definitiva correspon al mateix municipi (quan deriva d'un planejament general adaptat i el municipi en té la competència) o a la Generalitat, segons el cas. La modificació i la revisió segueixen, amb caràcter general, el mateix procediment que l'aprovació; la revisió implica l'adopció de nous criteris respecte de l'estructura general."
         }
       ],
-      "key": "Planejament derivat: plans parcials (urbanitzable; de delimitació si no delimitat), plans especials (finalitats concretes) i de millora urbana (sòl urbà). Aprovació inicial/provisional (municipi) i definitiva (municipi o Generalitat)."
+      "key": "Planejament derivat: plans parcials (sòl urbanitzable; de delimitació si no és delimitat), plans especials (finalitats concretes) i plans de millora urbana (sòl urbà). Aprovació inicial i provisional (municipi) i definitiva (municipi o Generalitat). Modificació/revisió pel mateix procediment."
     },
     "53": {
-      "intro": "La iniciativa i la col·laboració dels particulars en el planejament permeten que persones privades formulin figures de planejament derivat, però la potestat de planejament és pública i indisponible (TRLUC).",
+      "intro": "La iniciativa i la col·laboració dels particulars en el planejament urbanístic permeten que persones privades formulin figures de planejament derivat, però la potestat de planejament és pública i indisponible (TRLUC).",
       "sections": [
         {
           "h": "Iniciativa privada",
-          "scheme": {
-            "cap": "Iniciativa particular",
-            "body": "FORMULACIÓ → els particulars poden REDACTAR i PROMOURE\n  plans derivats (parcials, especials, de millora urbana)\nPRESENTACIÓ → a l'Ajuntament, que els TRAMITA segons el\n  procediment d'aprovació\nL'Administració pot ACCEPTAR, MODIFICAR o DENEGAR la\n  proposta de manera motivada"
-          }
+          "p": "Els particulars poden redactar i promoure figures de planejament derivat (plans parcials, plans especials, plans de millora urbana) i presentar-les a l'Ajuntament, que les ha de tramitar d'acord amb el procediment d'aprovació corresponent. L'Administració pot acceptar, modificar o denegar la proposta, sempre de manera motivada. Els particulars també col·laboren en l'execució del planejament, assumint, quan promouen actuacions, els deures de cessió i d'urbanització."
         },
         {
-          "h": "Límits: potestat pública",
-          "p": "La potestat de planejament correspon en exclusiva a les administracions i és indisponible: la iniciativa privada col·labora, però no vincula l'Administració, que conserva l'ius variandi (potestat de modificar el planejament en interès públic). Els convenis urbanístics que acompanyin la iniciativa no poden substituir el procediment ni alterar el règim legal."
+          "h": "Límits: la potestat pública de planejament",
+          "p": "La potestat de planejament correspon en exclusiva a les administracions públiques i és indisponible: la iniciativa privada hi col·labora, però no vincula l'Administració, que conserva l'ius variandi (la potestat de modificar el planejament quan ho exigeixi l'interès públic). Els convenis urbanístics que acompanyin una iniciativa no poden substituir el procediment d'aprovació ni alterar el règim legal del sòl al marge d'aquest."
         },
         {
           "h": "Garanties de participació",
-          "p": "La tramitació garanteix la informació pública i la participació ciutadana; els particulars interessats poden presentar al·legacions. Quan la iniciativa comporta l'execució, els promotors assumeixen els deures de cessió i urbanització."
-        },
-        {
-          "key": "Els particulars poden formular planejament derivat, però la potestat de planejament és pública i indisponible; l'Administració decideix motivadament i conserva l'ius variandi."
+          "p": "La tramitació de qualsevol figura de planejament ha de garantir la informació pública i la participació ciutadana; qualsevol persona pot consultar la documentació i presentar-hi al·legacions i suggeriments durant el període d'exposició, que l'Administració ha de valorar de manera motivada."
         }
       ],
-      "key": "Iniciativa privada: els particulars poden formular planejament derivat (a l'Ajuntament, que tramita). La potestat de planejament és pública i indisponible; l'AP accepta/modifica/denega motivadament i manté l'ius variandi."
+      "key": "Iniciativa privada: els particulars poden formular planejament derivat (a l'Ajuntament, que tramita i resol motivadament). La potestat de planejament és pública i indisponible; l'AP conserva l'ius variandi. Els convenis urbanístics no substitueixen el procediment ni alteren el règim del sòl."
     },
     "54": {
-      "intro": "Efectes de l'aprovació de les figures de planejament: publicitat, convenis urbanístics i obligatorietat (TRLUC).",
+      "intro": "L'aprovació de les figures de planejament urbanístic produeix efectes jurídics importants (publicitat, executivitat i obligatorietat), i els convenis urbanístics s'han de subjectar als principis de publicitat i transparència (TRLUC).",
       "sections": [
         {
-          "h": "Efectes",
-          "scheme": {
-            "cap": "Efectes de l'aprovació",
-            "body": "EXECUTIVITAT → des de la publicació de les normes al diari oficial\nOBLIGATORIETAT → vincula administracions i particulars\nPUBLICITAT → consulta i certificats de règim urbanístic\nLEGITIMACIÓ → d'expropiacions i d'usos previstos"
-          }
+          "h": "Efectes de l'aprovació del planejament",
+          "list": [
+            "Executivitat: el planejament és executiu des de la publicació de l'acord d'aprovació definitiva i de les normes urbanístiques al diari oficial.",
+            "Obligatorietat: les determinacions del planejament obliguen tant els particulars com les administracions públiques.",
+            "Publicitat: qualsevol persona pot consultar el planejament i obtenir certificats de règim urbanístic dels terrenys.",
+            "Legitimació: el planejament legitima les expropiacions necessàries per executar-lo i declara la utilitat pública de les obres i la necessitat d'ocupació dels béns afectats.",
+            "Vinculació dels usos: els terrenys i les construccions queden subjectes als usos i les intensitats previstes; les disconformitats sobrevingudes generen situacions de fora d'ordenació o de volum disconforme."
+          ]
+        },
+        {
+          "h": "Situacions de fora d'ordenació",
+          "p": "Les construccions i els usos que esdevenen disconformes amb el nou planejament queden en situació de fora d'ordenació (si són incompatibles amb el pla, amb fortes limitacions a les obres permeses) o de volum disconforme (quan només són parcialment disconformes, amb un règim menys restrictiu). El planejament o el TRLUC en regulen les obres admissibles."
         },
         {
           "h": "Convenis urbanístics",
-          "list": [
-            "Subjectes a publicitat i transparència; no poden vulnerar el planejament al marge del procediment.",
-            "Cessions i compromisos s'incorporen amb les garanties legals."
-          ]
+          "p": "Els convenis urbanístics (de planejament o de gestió) s'han de subjectar als principis de publicitat i transparència: se'n garanteix la informació pública i la inscripció en un registre de convenis. No poden vulnerar les determinacions del planejament ni substituir els procediments d'aprovació; els compromisos que comportin l'alteració del planejament resten condicionats a la tramitació i aprovació de la figura corresponent."
         }
       ],
-      "key": "L'aprovació (publicada) fa executiu i obligatori el pla. Convenis urbanístics: públics i sense vulnerar el planejament."
+      "key": "L'aprovació definitiva del planejament (publicada) el fa executiu i obligatori per a administracions i particulars; en legitima les expropiacions. Les disconformitats sobrevingudes generen fora d'ordenació o volum disconforme. Convenis urbanístics: públics i transparents, sense vulnerar el planejament."
     },
     "55": {
-      "intro": "Gestió urbanística: sistemes d'actuació, elecció del sistema i principi d'equidistribució (TRLUC).",
+      "intro": "La gestió urbanística és el conjunt de procediments per executar el planejament. S'articula mitjançant els sistemes d'actuació urbanística, l'elecció dels quals correspon a l'Administració, i s'inspira en el principi d'equidistribució (TRLUC).",
       "sections": [
         {
-          "h": "Sistemes",
-          "scheme": {
-            "cap": "Sistemes d'actuació",
-            "body": "REPARCEL·LACIÓ\n   • compensació bàsica (propietaris executen)\n   • compensació per concertació\n   • cooperació (AP executa a càrrec dels propietaris)\n   • per sectors/subsectors\nEXPROPIACIÓ (AP adquireix per executar)"
-          }
+          "h": "Sistemes d'actuació",
+          "p": "L'execució del planejament en àmbits d'actuació (polígons o sectors) es fa pel sistema de reparcel·lació o pel sistema d'expropiació. El sistema de reparcel·lació té diverses modalitats: la compensació bàsica (els propietaris, agrupats en una junta, aporten el sòl, executen la urbanització i es distribueixen les finques resultants); la compensació per concertació; la cooperació (els propietaris aporten el sòl i l'Administració executa les obres a càrrec d'aquells); i d'altres. En el sistema d'expropiació, l'Administració (o el concessionari) adquireix la totalitat dels terrenys de l'àmbit per executar-hi l'actuació."
         },
         {
-          "h": "Equidistribució",
-          "list": [
-            "Repartiment just de beneficis (aprofitament) i càrregues (cessions i costos d'urbanització).",
-            "La reparcel·lació regularitza finques i adjudica les resultants segons l'aprofitament."
-          ]
+          "h": "La reparcel·lació",
+          "p": "La reparcel·lació és l'operació que regularitza la configuració de les finques i n'adjudica de noves als propietaris en proporció als seus drets, alhora que concreta les cessions a l'Administració (sòl per a sistemes i sòl amb aprofitament) i la distribució de les càrregues d'urbanització. El projecte de reparcel·lació es tramita amb informació pública i s'inscriu al Registre de la Propietat."
         },
         {
-          "key": "L'elecció del sistema correspon a l'Administració segons les circumstàncies."
+          "h": "Principi d'equidistribució",
+          "p": "Tots els sistemes s'inspiren en el principi d'equidistribució (o de distribució equitativa de beneficis i càrregues): cap propietari ha d'obtenir un benefici o suportar una càrrega desproporcionada en relació amb els altres, atès l'aprofitament que els correspon. Aquest principi és la garantia de la igualtat entre els propietaris afectats per una actuació urbanística."
         }
       ],
-      "key": "Sistemes: reparcel·lació (compensació/cooperació) i expropiació. Principi d'equidistribució de beneficis i càrregues."
+      "key": "Gestió urbanística: sistemes de reparcel·lació (modalitats de compensació i de cooperació) i d'expropiació; l'elecció és de l'Administració. La reparcel·lació regularitza finques i concreta cessions i càrregues. Tot s'inspira en el principi d'equidistribució de beneficis i càrregues."
     },
     "57": {
-      "intro": "Parcel·lacions urbanístiques: concepte, llicència, presumpció i indivisibilitat (TRLUC).",
+      "intro": "Les parcel·lacions urbanístiques són la divisió simultània o successiva de terrenys en dos o més lots. Estan sotmeses a control per garantir que s'ajustin al planejament i per evitar la formació de nuclis de població al marge de l'ordenació (TRLUC).",
       "sections": [
         {
-          "h": "Règim",
-          "scheme": {
-            "cap": "Parcel·lacions",
-            "body": "LLICÈNCIA de parcel·lació → control de la divisió\nPRESUMPCIÓ de parcel·lació urbanística → davant divisions\n   o serveis que pressuposin transformació urbana\nEN SÒL NO URBANITZABLE → PROHIBIDA la parcel·lació urbanística\nINDIVISIBILITAT → unitats mínimes de conreu/finca"
-          }
+          "h": "Concepte i llicència",
+          "p": "És parcel·lació urbanística tota divisió de terrenys que, per les seves característiques, pugui donar lloc a la implantació d'usos urbans o a la formació de nous nuclis de població. Les parcel·lacions urbanístiques estan subjectes a llicència (o, segons el cas, a declaració d'innecessarietat); les segregacions i divisions han de respectar la parcel·la mínima i les condicions del planejament."
         },
         {
-          "h": "Notes",
-          "list": [
-            "Les segregacions han de respectar la parcel·la mínima del planejament.",
-            "Els notaris/registradors exigeixen la llicència o declaració d'innecessarietat."
-          ]
+          "h": "Presumpció de parcel·lació urbanística",
+          "p": "La llei estableix una presumpció: es considera que hi ha parcel·lació urbanística quan, en sòl no urbanitzable o urbanitzable no delimitat, s'observen indicis materials (com l'obertura de camins, la implantació de serveis o la disposició d'edificacions) que pressuposen l'existència d'una transformació o l'aparició d'un nucli de població. Aquesta presumpció permet a l'Administració actuar davant divisions encobertes."
+        },
+        {
+          "h": "Indivisibilitat i prohibicions",
+          "p": "En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques. Determinades finques són indivisibles (les de dimensió igual o inferior a la parcel·la mínima, o les vinculades a una edificació). Els notaris i registradors exigeixen l'acreditació de la llicència de parcel·lació o de la declaració d'innecessarietat per autoritzar o inscriure actes de divisió o segregació."
         }
       ],
-      "key": "Parcel·lació amb llicència; prohibida en sòl no urbanitzable; presumpció davant divisions amb aparença urbana."
+      "key": "Parcel·lació urbanística: divisió de terrenys subjecta a llicència (o declaració d'innecessarietat). Prohibida en sòl no urbanitzable. Opera una presumpció de parcel·lació davant indicis materials (camins, serveis). Indivisibilitat per sota de la parcel·la mínima; control notarial i registral."
     },
     "58": {
-      "intro": "La protecció de la legalitat urbanística: competències, inspecció i procediments (TRLUC).",
+      "intro": "La protecció de la legalitat urbanística és el conjunt de potestats que permeten a l'Administració restablir l'ordenació vulnerada per actuacions il·legals. Les competències corresponen, en primer terme, als ajuntaments, amb intervenció de la Generalitat en determinats casos (TRLUC).",
       "sections": [
         {
-          "h": "Components",
-          "scheme": {
-            "cap": "Disciplina urbanística",
-            "body": "INSPECCIÓ → comprovació, accés i requeriment d'informació\nPROTECCIÓ DE LA LEGALITAT →\n   • suspensió d'obres en curs (cautelar)\n   • requeriment de legalització o restauració\nSANCIÓ → procediment sancionador (independent)\nPRESCRIPCIÓ restauració → 6 anys (imprescriptible en SNU protegit)"
-          }
+          "h": "Inspecció urbanística",
+          "p": "La inspecció urbanística és l'activitat de comprovació del compliment de la legalitat. El personal inspector té la condició d'agent de l'autoritat i pot accedir als llocs, requerir informació i documentació i aixecar actes que tenen valor probatori. La inspecció és l'instrument que detecta les infraccions i activa els procediments de protecció de la legalitat i sancionador."
         },
         {
-          "h": "Competències",
-          "list": [
-            "Corresponen als ajuntaments i, subsidiàriament o concurrent, a la Generalitat.",
-            "Restauració i sanció són compatibles i independents."
-          ]
+          "h": "Procediment de protecció de la legalitat",
+          "p": "Davant d'obres o usos sense llicència o que no s'hi ajusten, l'Administració incoa el procediment de protecció de la legalitat urbanística: si les obres estan en curs, n'ordena la suspensió immediata (mesura cautelar); tant si han acabat com si no, requereix la legalització (quan són legalitzables) o ordena la restauració de la realitat física alterada i de l'ordre jurídic vulnerat (quan no ho són), mitjançant l'enderroc o la reposició al seu estat anterior."
         },
         {
-          "key": "Disciplina = inspecció + restauració de la legalitat + sanció (independents)."
+          "h": "Relació amb el procediment sancionador",
+          "p": "La restauració de la legalitat i la sanció són actuacions independents i compatibles: la imposició d'una multa per la infracció comesa no eximeix del deure de restaurar la realitat alterada, i a la inversa. L'acció de restauració està sotmesa a un termini de prescripció (sis anys des de l'acabament de les obres, amb caràcter general, i imprescriptible en sòl no urbanitzable d'especial protecció), mentre que la sanció prescriu segons la gravetat de la infracció."
         }
       ],
-      "key": "Protecció de la legalitat: inspecció, suspensió, legalització/restauració (6 anys) i sanció, tot compatible."
+      "key": "Protecció de la legalitat urbanística (ajuntaments + Generalitat): inspecció (agents de l'autoritat) + suspensió cautelar + legalització o restauració de la realitat alterada. És independent i compatible amb el procediment sancionador. Restauració: 6 anys (imprescriptible en SNU protegit)."
     },
     "59": {
       "intro": "Intervenció i control administratiu de les activitats amb incidència ambiental (Llei 20/2009, PCAA).",
