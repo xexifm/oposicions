@@ -501,35 +501,26 @@
       "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal o anormal) + nexe causal − força major (el cas fortuït no exonera). Resolució en 6 mesos (silenci negatiu). Prescripció: 1 any (en danys físics, des de l'estabilització de les seqüeles)."
     },
     "44": {
-      "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc. ATENCIÓ: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31-12-2025.",
+      "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc bàsic. IMPORTANT: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31 de desembre de 2025; cal contrastar sempre amb el text consolidat.",
       "sections": [
         {
           "h": "Classificació del sòl",
-          "scheme": {
-            "cap": "Classes de sòl (TRLUC)",
-            "body": "SÒL URBÀ → té els serveis urbanístics bàsics o està\n  comprès en àrees consolidades per l'edificació; es divideix\n  en CONSOLIDAT i NO CONSOLIDAT\nSÒL URBANITZABLE → transformable mitjançant la urbanització,\n  via planejament derivat (delimitat o no delimitat)\nSÒL NO URBANITZABLE → preservat de la transformació\n  (rústic, agrícola, forestal, d'especial protecció...)"
-          }
+          "p": "El TRLUC classifica tot el sòl del municipi en tres classes. El sòl urbà és el que disposa dels serveis urbanístics bàsics o està comprès en àrees consolidades per l'edificació integrades a la trama urbana; es divideix en consolidat i no consolidat. El sòl urbanitzable és el que el planejament destina a ser transformat mitjançant la urbanització, a través del planejament derivat (pot ser delimitat o no delimitat). El sòl no urbanitzable és el que el planejament preserva del procés de transformació urbanística (sòl rústic, agrícola, forestal, d'especial protecció per valors o per riscos)."
         },
         {
-          "h": "Serveis urbanístics i concepte de solar",
-          "scheme": {
-            "cap": "Conceptes clau",
-            "body": "SERVEIS URBANÍSTICS BÀSICS → xarxa viària amb nivell de\n  consolidació suficient, xarxa d'abastament d'aigua, xarxa\n  de sanejament i subministrament d'energia elèctrica\nSOLAR → sòl urbà APTE per ser edificat: disposa dels serveis,\n  té assenyalades alineacions i rasants i la urbanització\n  bàsica executada o garantida\nNUCLI DE POBLACIÓ → agrupació d'edificacions; en sòl no\n  urbanitzable, se n'evita la formació no planificada"
-          }
+          "h": "Serveis urbanístics bàsics i concepte de solar",
+          "p": "Es consideren serveis urbanístics bàsics: la xarxa viària amb un nivell de consolidació suficient per permetre la connectivitat; les xarxes d'abastament d'aigua i de sanejament; i el subministrament d'energia elèctrica. Té la condició de solar el sòl urbà que és apte per a l'edificació perquè disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida. El nucli de població és l'agrupació d'edificacions que pot generar necessitats de serveis; en sòl no urbanitzable, se n'evita la formació no planificada."
         },
         {
           "h": "Sòl urbà consolidat i no consolidat",
-          "p": "El sòl urbà CONSOLIDAT ja té la condició de solar o només requereix completar la urbanització; els seus propietaris tenen deures mínims (acabar la urbanització, edificar). El sòl urbà NO CONSOLIDAT requereix actuacions de transformació o reforma interior i comporta deures de cessió (sòl per a sistemes i aprofitament) i d'urbanització, articulats mitjançant la gestió urbanística."
+          "p": "El sòl urbà consolidat ja té la condició de solar o només requereix, per assolir-la, completar o acabar la urbanització; els seus propietaris tenen deures mínims. El sòl urbà no consolidat és el que requereix actuacions de transformació o de reforma interior i, per tant, comporta deures de cessió (de sòl per a sistemes i de l'aprofitament que correspon a l'Administració) i d'urbanització, que s'articulen mitjançant la gestió urbanística."
         },
         {
-          "h": "Situacions bàsiques (estatal)",
-          "p": "El TRLS estatal, a efectes de valoració i de drets bàsics, distingeix dues situacions: sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica."
-        },
-        {
-          "key": "Sòl urbà (consolidat/no consolidat) · urbanitzable · no urbanitzable. Solar = sòl urbà amb serveis i urbanització apte per edificar. ⚠️ Reforma 2025 del TRLUC (Llei 11/2025 i DL 2/2025)."
+          "h": "Situacions bàsiques del sòl (legislació estatal)",
+          "p": "A efectes de valoració i de drets bàsics, el TRLS estatal distingeix dues situacions: el sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i el sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica: un sòl classificat com a urbanitzable però no urbanitzat es valora com a rural."
         }
       ],
-      "key": "Classificació (TRLUC): urbà (consolidat/no consolidat), urbanitzable, no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament, electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025."
+      "key": "Classificació (TRLUC): sòl urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament i electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025 (Llei 11/2025 i DL 2/2025)."
     },
     "56": {
       "intro": "La llicència urbanística és l'acte de control previ amb què el municipi verifica que una actuació s'ajusta a la legalitat urbanística. Es regula als arts. 187 i ss. del TRLUC.",
@@ -1026,55 +1017,54 @@
       "key": "Responsabilitat del personal (art. 36): el ciutadà reclama a l'Administració; aquesta exigeix d'ofici el regrés al personal només per dol o culpa/negligència greus. En via penal, l'AP és responsable civil subsidiari. Responsabilitat de l'Estat legislador (32.3-6) i per error judicial."
     },
     "38": {
-      "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988 (Reglament del patrimoni dels ens locals).",
+      "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988, que aprova el Reglament del patrimoni dels ens locals.",
       "sections": [
         {
           "h": "Classificació dels béns",
-          "scheme": {
-            "cap": "Béns de les EELL",
-            "body": "DOMINI PÚBLIC (DEMANIALS)\n  • d'ÚS PÚBLIC: carrers, places, parcs, camins, ponts...\n  • de SERVEI PÚBLIC: edificis i instal·lacions afectes a\n    serveis (escoles, mercats, cementiris...)\n  → INALIENABLES, IMPRESCRIPTIBLES i INEMBARGABLES\nPATRIMONIALS (DE PROPIS) → no afectes a ús o servei públic;\n  règim de dret privat; produeixen rendes\nCOMUNALS → demanials; aprofitament del COMÚ dels veïns"
-          }
+          "p": "Els béns de les entitats locals es classifiquen en béns de domini públic (demanials) i béns patrimonials (de propis). Els demanials són els destinats a un ús públic (carrers, places, parcs, camins, fonts) o a un servei públic (edificis i instal·lacions afectes a serveis: escoles, mercats, cementiris); estan subjectes als principis d'inalienabilitat, imprescriptibilitat i inembargabilitat (art. 132 CE). Els patrimonials són els que no estan destinats a ús ni a servei públic; es regeixen pel dret privat i poden produir rendes. Els béns comunals són una categoria especial de béns de domini públic l'aprofitament dels quals correspon al comú dels veïns."
         },
         {
           "h": "Alteració de la qualificació jurídica",
-          "p": "L'afectació vincula un bé a un ús o servei públic; la desafectació el converteix en patrimonial; la mutació demanial canvia la destinació dins el domini públic. L'alteració de la qualificació jurídica exigeix, en general, expedient que n'acrediti l'oportunitat i la legalitat, amb informació pública (excepte supòsits d'alteració automàtica, p. ex. per aprovació de planejament o projectes d'obres)."
+          "p": "L'afectació vincula un bé a un ús o servei públic; la desafectació el converteix en patrimonial; la mutació demanial canvia la destinació dins el domini públic. L'alteració de la qualificació jurídica dels béns requereix, amb caràcter general, un expedient que n'acrediti l'oportunitat i la legalitat, amb informació pública. Hi ha supòsits d'alteració automàtica (per exemple, l'aprovació definitiva de plans urbanístics o de projectes d'obres que prevegin l'ús o servei públic)."
         },
         {
-          "h": "Tràfic jurídic i utilització",
-          "scheme": {
-            "cap": "Usos del domini públic",
-            "body": "ÚS COMÚ GENERAL → de tothom, per igual; LLIURE\nÚS COMÚ ESPECIAL → intensitat especial (taules, parades);\n  AUTORITZACIÓ\nÚS PRIVATIU → ocupació excloent amb instal·lacions fixes;\n  CONCESSIÓ administrativa\nEls béns patrimonials es regeixen pel dret privat i poden\n  alienar-se mitjançant el procediment legal (subhasta,\n  concurs o, excepcionalment, directa)"
-          }
+          "h": "Utilització dels béns de domini públic",
+          "list": [
+            "Ús comú general: el que correspon per igual a tots els ciutadans, de manera que l'ús d'uns no impedeix el dels altres (passejar, circular). És lliure.",
+            "Ús comú especial: quan concorren circumstàncies d'intensitat d'ús, perillositat o altres similars (terrasses, parades). Se sotmet a autorització.",
+            "Ús privatiu: el que limita o exclou la utilització per part d'altres (ocupació amb instal·lacions fixes). Requereix concessió administrativa."
+          ]
         },
         {
-          "key": "Demanials: inalienables, imprescriptibles, inembargables. Patrimonials: dret privat, rendes. Alteració de la qualificació amb expedient. Usos: comú general (lliure), especial (autorització), privatiu (concessió)."
+          "h": "Tràfic jurídic dels béns patrimonials",
+          "p": "Els béns patrimonials es regeixen pel dret privat, però la seva adquisició, gravamen i alienació segueixen les especialitats de la legislació administrativa (procediment, valoració prèvia, formes d'adjudicació com la subhasta, el concurs o, excepcionalment, l'adjudicació directa). Els ingressos derivats del patrimoni tenen la consideració d'ingressos de dret privat."
         }
       ],
-      "key": "Béns: demanials (ús/servei públic; inalienables, imprescriptibles, inembargables), patrimonials (dret privat) i comunals (aprofitament veïnal). Alteració amb expedient. Usos: comú general/especial/privatiu (concessió)."
+      "key": "Béns: demanials (ús o servei públic; inalienables, imprescriptibles, inembargables), patrimonials (dret privat) i comunals (aprofitament veïnal). Alteració de la qualificació amb expedient (o automàtica per planejament). Usos del demani: comú general (lliure), comú especial (autorització) i privatiu (concessió)."
     },
     "39": {
-      "intro": "Els béns de domini públic i els patrimonials disposen de prerrogatives i potestats per a la seva protecció i defensa, i les entitats locals han de formar i mantenir un inventari (Llei 33/2003; D 336/1988).",
+      "intro": "Els béns de domini públic i els patrimonials disposen de prerrogatives i potestats per a la seva protecció i defensa, i les entitats locals han de formar i mantenir un inventari de tots els seus béns i drets (Llei 33/2003; D 336/1988).",
       "sections": [
         {
           "h": "Prerrogatives i potestats",
-          "scheme": {
-            "cap": "Potestats sobre els béns",
-            "body": "INVESTIGACIÓ → esbrinar la titularitat dels béns que es\n  presumeixin de l'entitat\nLLINDAMENT (deslinde) → delimitar els límits amb altres\n  finques\nRECUPERACIÓ D'OFICI de la possessió → en demanials, en\n  qualsevol moment; en patrimonials, dins l'any de la usurpa.\nDESNONAMENT ADMINISTRATIU → recuperar la possessió de béns\n  demanials ocupats sense títol\nFACULTAT de no prescripció dels demanials"
-          }
+          "list": [
+            "Potestat d'investigació: per esbrinar la situació dels béns i drets que es presumeixin de la seva titularitat.",
+            "Potestat de llindament (deslinde): per delimitar els béns immobles respecte d'altres finques confrontants.",
+            "Recuperació d'ofici de la possessió: dels béns demanials en qualsevol moment; dels patrimonials, dins el termini d'un any des de la usurpació.",
+            "Desnonament administratiu: per recuperar la possessió de béns de domini públic ocupats sense títol.",
+            "Potestat sancionadora en defensa del patrimoni."
+          ]
         },
         {
-          "h": "Béns de domini públic i patrimonials",
-          "p": "Els béns de domini públic estan subjectes als principis d'inalienabilitat, imprescriptibilitat i inembargabilitat (art. 132 CE). Els patrimonials es regeixen pel dret privat però amb especialitats administratives (procediment d'alienació, destinació dels rendiments). Els béns comunals tenen un règim especial d'aprofitament pels veïns."
+          "h": "Règim dels béns demanials i patrimonials",
+          "p": "Els béns de domini públic estan emparats per la inalienabilitat, la imprescriptibilitat i la inembargabilitat. Els béns patrimonials, tot i regir-se pel dret privat, gaudeixen també d'algunes garanties administratives (per exemple, la inembargabilitat dels béns i drets afectats a un servei públic o l'exigència de procediment per a la seva alienació). Els béns comunals tenen un règim especial d'aprofitament pels veïns, generalment regulat per ordenança."
         },
         {
           "h": "Inventari, conservació i defensa",
-          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, sigui quina sigui la seva naturalesa, que s'aprova pel Ple i es rectifica anualment (i es comprova en renovar-se la corporació). L'inventari no és títol de propietat, però facilita la defensa. Existeix el deure de conservar, protegir i defensar els béns; la utilització i l'aprofitament s'ajusten a la seva qualificació."
-        },
-        {
-          "key": "Potestats: investigació, llindament, recuperació d'ofici, desnonament administratiu. Demanials no prescriuen. Inventari de tots els béns, aprovat pel Ple i rectificat anualment."
+          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, sigui quina sigui la seva naturalesa o forma d'adquisició; l'aprova el Ple, es rectifica anualment i es comprova en renovar-se la corporació. L'inventari no és, per si sol, un títol de propietat, però facilita la gestió i la defensa. Existeix el deure de conservar, protegir i defensar els béns, i d'inscriure els immobles i drets reals al Registre de la Propietat."
         }
       ],
-      "key": "Béns: prerrogatives (investigació, llindament, recuperació d'ofici, desnonament). Demanials inalienables/imprescriptibles/inembargables (132 CE). Inventari de tots els béns, aprovat pel Ple, rectificació anual."
+      "key": "Potestats: investigació, llindament, recuperació d'ofici (demanials sense termini; patrimonials en 1 any) i desnonament administratiu. Demanials: inalienables, imprescriptibles, inembargables. Inventari de tots els béns, aprovat pel Ple, rectificació anual; inscripció al Registre de la Propietat."
     },
     "40": {
       "intro": "El pressupost general desplega la seva eficàcia mitjançant l'execució i finalitza amb la liquidació. El RD 500/1990 desenvolupa el TRLHL en aquesta matèria, completat per les bases d'execució que aprova cada entitat amb el pressupost.",
@@ -1182,79 +1172,58 @@
       "key": "Recursos (art. 2 TRLHL): tributs propis (taxes, contribucions especials i impostos), participacions, ingressos de dret privat, subvencions, preus públics i crèdit. Impostos obligatoris: IBI, IAE, IVTM; potestatius: ICIO i plusvàlua. Taxa (servei obligatori/monopoli) vs preu públic (servei voluntari també privat)."
     },
     "45": {
-      "intro": "Les situacions bàsiques del sòl són la categorització que fa la legislació estatal (TRLS, RDL 7/2015) a efectes de drets i deures bàsics i, sobretot, de valoració: sòl rural i sòl urbanitzat.",
+      "intro": "Les situacions bàsiques del sòl són la categorització que estableix la legislació estatal del sòl (TRLS, RDL 7/2015) a efectes dels drets i deures bàsics i, sobretot, de la valoració: el sòl rural i el sòl urbanitzat.",
       "sections": [
         {
-          "h": "Sòl rural",
-          "scheme": {
-            "cap": "Situació de sòl RURAL",
-            "body": "COMPRÈN →\n  • el sòl preservat de la transformació urbanística (per\n    ordenació o per valors a protegir)\n  • el sòl per al qual els instruments d'ordenació prevegin\n    la transformació, MENTRE no s'hagi acabat la urbanització\nVALORACIÓ → per CAPITALITZACIÓ de la renda (real o potencial)\n  de l'explotació, SENSE expectatives urbanístiques"
-          }
+          "h": "Situació de sòl rural",
+          "p": "Es troba en situació de sòl rural: el sòl preservat per l'ordenació territorial i urbanística de la seva transformació mitjançant la urbanització (perquè s'hi han de protegir valors ambientals, culturals, agrícoles, paisatgístics, etc., o per la subjecció a riscos); i el sòl per al qual els instruments d'ordenació prevegin o permetin el pas a la situació d'urbanitzat, mentre no s'hagi acabat l'actuació d'urbanització. La seva valoració es fa per capitalització de la renda anual, real o potencial, de l'explotació, sense computar expectatives urbanístiques."
         },
         {
-          "h": "Sòl urbanitzat",
-          "scheme": {
-            "cap": "Situació de sòl URBANITZAT",
-            "body": "COMPRÈN → el sòl integrat de manera LEGAL i EFECTIVA a la\n  xarxa de dotacions i serveis propis dels nuclis de població\nVALORACIÓ → per l'edificabilitat i l'ús atribuïts, aplicant\n  el VALOR DE REPERCUSSIÓ del sòl; si està edificat, el major\n  entre aquest i el de taxació conjunta"
-          }
+          "h": "Situació de sòl urbanitzat",
+          "p": "Es troba en situació de sòl urbanitzat el integrat de manera legal i efectiva a la xarxa de dotacions i serveis propis dels nuclis de població. La seva valoració es fa aplicant a l'edificabilitat i a l'ús atribuïts el valor de repercussió del sòl segons l'ús; si el sòl està edificat o en curs d'edificació, el valor és el superior entre el del sòl i el de la taxació conjunta del sòl i l'edificació existent."
         },
         {
           "h": "Efectes de la situació bàsica",
-          "p": "La situació bàsica determina el contingut del dret de propietat (facultats i deures) i el criteri de valoració en expropiacions, reparcel·lacions i responsabilitat. És independent de la classificació urbanística: un sòl classificat com a urbanitzable però encara no urbanitzat es valora com a rural (sense computar expectatives)."
-        },
-        {
-          "key": "Dues situacions: rural (capitalització de rendes, sense expectatives) i urbanitzat (edificabilitat × valor de repercussió). Determinen drets bàsics i valoració, amb independència de la classe de sòl."
+          "p": "La situació bàsica determina el contingut bàsic del dret de propietat (facultats i deures) i el criteri de valoració en expropiacions, reparcel·lacions i supòsits de responsabilitat. És independent de la classificació urbanística autonòmica: el que compta per valorar és la situació real (rural o urbanitzat), no la classe formal de sòl. Les indemnitzacions per l'extinció de drets o per despeses es regeixen també per la legislació estatal de sòl."
         }
       ],
-      "key": "Situacions bàsiques (TRLS estatal): RURAL (capitalització de rendes, sense expectatives) i URBANITZAT (integrat a la malla; edificabilitat × repercussió). Determinen valoració i drets bàsics, independents de la classificació."
+      "key": "Situacions bàsiques (TRLS estatal): RURAL (capitalització de la renda, sense expectatives) i URBANITZAT (integrat a la malla; edificabilitat × valor de repercussió). Determinen la valoració i els drets bàsics, amb independència de la classe de sòl autonòmica."
     },
     "46": {
       "intro": "Les reserves per a sistemes urbanístics generals i locals garanteixen el sòl per a les dotacions col·lectives (vialitat, espais lliures, equipaments) i la seva compatibilitat amb les qualificacions d'aprofitament privat (TRLUC).",
       "sections": [
         {
           "h": "Sistemes generals i locals",
-          "scheme": {
-            "cap": "Sistemes urbanístics",
-            "body": "GENERALS → estructuren el territori i el desenvolupament\n  urbà del municipi (xarxa viària bàsica, grans espais\n  lliures, equipaments d'abast general, serveis tècnics)\nLOCALS → donen servei a un sector o àmbit d'actuació concret\n  (vialitat, zones verdes i equipaments de barri)\nEls dos s'afecten a USOS PÚBLICS"
-          }
+          "p": "Els sistemes urbanístics són els terrenys i les instal·lacions destinats a usos i serveis públics que estructuren el territori. Els sistemes generals són els que estructuren l'organització i el desenvolupament urbà del conjunt del municipi (la xarxa viària bàsica, els grans espais lliures, els equipaments comunitaris d'abast general i els serveis tècnics). Els sistemes locals són els que donen servei a un sector de planejament o a un àmbit d'actuació concret (vialitat, zones verdes i equipaments de barri)."
         },
         {
           "h": "Estàndards i reserves mínimes",
-          "p": "El planejament ha de preveure reserves mínimes de sòl (estàndards) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o als habitatges previstos. Aquestes reserves asseguren la qualitat urbana i l'equilibri entre l'aprofitament privat i les dotacions."
+          "p": "El planejament ha de preveure reserves mínimes de sòl (estàndards urbanístics) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o al nombre d'habitatges previstos. Aquestes reserves asseguren la qualitat urbana i l'equilibri entre l'aprofitament privat i les dotacions col·lectives."
         },
         {
           "h": "Obtenció i qualificació",
-          "p": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions de transformació (reparcel·lació), per expropiació o per ocupació directa. La qualificació urbanística assigna a cada sòl un ús i una intensitat (zones d'aprofitament privat) o el destina a sistema (ús públic); la classificació, en canvi, fixa la classe de sòl."
-        },
-        {
-          "key": "Sistemes generals (estructuren el municipi) i locals (un sector). Estàndards mínims d'espais lliures i equipaments. S'obtenen per cessió, expropiació o ocupació directa."
+          "p": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions de transformació urbanística (a través de la reparcel·lació), per expropiació o per ocupació directa (a canvi de l'adjudicació d'aprofitament en una altra àrea). La qualificació urbanística assigna a cada terreny un ús i una intensitat d'edificació (zones d'aprofitament privat) o el destina a sistema (sòl d'ús públic); la classificació, en canvi, en fixa la classe."
         }
       ],
-      "key": "Sistemes urbanístics: generals (estructuren el municipi) i locals (un sector); ús públic. Estàndards/reserves mínimes (zones verdes, equipaments, habitatge protegit). Obtenció: cessió, expropiació, ocupació directa."
+      "key": "Sistemes urbanístics: generals (estructuren tot el municipi) i locals (un sector o àmbit); ús públic. Estàndards/reserves mínimes (zones verdes, equipaments, habitatge protegit). S'obtenen per cessió, expropiació o ocupació directa. Qualificació (usos/intensitat) vs classificació (classe de sòl)."
     },
     "47": {
-      "intro": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl. La seva ponderació permet l'equidistribució de beneficis i càrregues (TRLUC).",
+      "intro": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl. La seva ponderació permet l'equidistribució de beneficis i càrregues entre les persones propietàries (TRLUC).",
       "sections": [
         {
           "h": "Concepte",
-          "p": "L'aprofitament urbanístic és el resultat de ponderar l'edificabilitat (sostre edificable) atribuïda pel planejament pels usos i les tipologies previstes. Determina el contingut econòmic del dret de propietat del sòl. L'aprofitament que excedeix el susceptible d'apropiació privada correspon a l'Administració (deure de cessió de sòl amb aprofitament)."
+          "p": "L'aprofitament urbanístic és el resultat de ponderar l'edificabilitat (el sostre edificable) atribuïda pel planejament en funció dels usos i les tipologies previstes. Determina el contingut econòmic del dret de propietat del sòl. L'aprofitament que excedeix el susceptible d'apropiació privada correspon a l'Administració, en concepte de participació de la comunitat en les plusvàlues generades pel planejament (deure de cessió de sòl amb aprofitament)."
         },
         {
           "h": "Ponderació",
-          "scheme": {
-            "cap": "Ponderació de l'aprofitament",
-            "body": "COEFICIENTS → homogeneïtzen els diferents usos i tipologies\n  i les seves localitzacions (p. ex. residencial vs\n  industrial; zones de més o menys valor)\nAPROFITAMENT URBANÍSTIC → edificabilitat × coeficients d'ús\nServeix per comparar i repartir de manera justa entre\n  propietaris amb situacions diferents"
-          }
+          "p": "Com que en un mateix àmbit hi pot haver usos i tipologies diferents (residencial, comercial, industrial) amb valors desiguals, l'aprofitament es pondera mitjançant coeficients que homogeneïtzen els usos i les localitzacions. Així es pot comparar i repartir de manera equitativa entre propietaris que es troben en situacions diferents."
         },
         {
           "h": "Aprofitament mitjà i equidistribució",
-          "p": "En els sectors de planejament derivat (i en polígons d'actuació), es defineix un aprofitament mitjà (o urbanístic de referència) que permet distribuir equitativament beneficis i càrregues entre tots els propietaris del sector, amb independència de la qualificació concreta de cada finca. El propietari té dret a l'aprofitament susceptible d'apropiació (un percentatge del mitjà) i ha de cedir la resta a l'Administració."
-        },
-        {
-          "key": "Aprofitament = edificabilitat ponderada per usos. L'aprofitament mitjà permet l'equidistribució; el propietari s'apropia d'un percentatge i cedeix l'excés a l'Administració."
+          "p": "En els sectors de planejament derivat i en els polígons d'actuació es defineix un aprofitament mitjà (o de referència) que permet distribuir equitativament els beneficis i les càrregues entre tots els propietaris de l'àmbit, amb independència de la qualificació concreta de cada finca. El propietari té dret a l'aprofitament susceptible d'apropiació (un percentatge de l'aprofitament mitjà fixat per la llei) i ha de cedir a l'Administració la diferència, juntament amb el sòl per a sistemes i les obres d'urbanització."
         }
       ],
-      "key": "Aprofitament urbanístic: edificabilitat ponderada per coeficients d'ús. Aprofitament mitjà → equidistribució de beneficis i càrregues. El privat s'apropia d'un % i cedeix l'excés a l'AP."
+      "key": "Aprofitament urbanístic: edificabilitat ponderada pels usos (coeficients). L'aprofitament mitjà permet l'equidistribució de beneficis i càrregues en un àmbit. El propietari s'apropia d'un percentatge i cedeix l'excés (i el sòl de sistemes) a l'Administració."
     },
     "48": {
       "intro": "Els drets i deures de les persones propietàries del sòl configuren l'estatut de la propietat urbana: el dret de propietat s'exerceix dins els límits i amb el compliment dels deures que estableix la legislació urbanística (funció social de la propietat). Es regulen al TRLUC i al TRLS estatal.",
