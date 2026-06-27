@@ -523,28 +523,26 @@
       "key": "Classificació (TRLUC): sòl urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament i electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025 (Llei 11/2025 i DL 2/2025)."
     },
     "56": {
-      "intro": "La llicència urbanística és l'acte de control previ amb què el municipi verifica que una actuació s'ajusta a la legalitat urbanística. Es regula als arts. 187 i ss. del TRLUC.",
+      "intro": "La intervenció administrativa en l'edificació i l'ús del sòl es canalitza, principalment, a través de la llicència urbanística, acte de control previ de la conformitat de l'actuació amb la legalitat urbanística (TRLUC, arts. 187 i següents).",
       "sections": [
         {
           "h": "Naturalesa i actes subjectes",
-          "list": [
-            "És un acte REGLAT: s'atorga o denega segons la conformitat amb el planejament i la normativa (no hi ha discrecionalitat).",
-            "Actes subjectes (art. 187): obres majors, parcel·lacions, primera ocupació, usos del sòl, moviments de terres, tales, etc.",
-            "Comunicació prèvia (art. 187 bis): actuacions de menor entitat que no requereixen projecte tècnic complex."
-          ]
+          "p": "La llicència urbanística és un acte reglat: s'atorga o es denega segons la conformitat de l'actuació projectada amb el planejament i la normativa, sense marge de discrecionalitat. Estan subjectes a llicència, entre altres (art. 187): les obres de nova construcció i les de gran rehabilitació; les parcel·lacions urbanístiques; la primera ocupació o utilització dels edificis; els usos i les obres provisionals; els moviments de terres i les tales; i la instal·lació de cases prefabricades. Les actuacions de menor entitat se subjecten al règim de comunicació prèvia (art. 187 bis)."
         },
         {
-          "h": "Silenci en llicències",
-          "scheme": {
-            "cap": "Silenci urbanístic",
-            "body": "REGLA: el silenci en llicències és POSITIU\nPERÒ (art. 11.3 TRLS):\n  EN CAP CAS s'adquireixen per silenci facultats o drets\n  CONTRARIS a l'ordenament urbanístic o al planejament\n→ si el projecte és il·legal, NO s'obté llicència encara que\n  passi el termini; cal resolució expressa i, si s'ha\n  construït, protecció de la legalitat"
-          }
+          "h": "Procediment i contingut",
+          "p": "El procediment s'inicia amb la sol·licitud, acompanyada del projecte tècnic quan escaigui; segueixen els informes tècnic i jurídic dels serveis municipals; i finalitza amb la resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici del de tercers. Estan subjectes, si escau, a la liquidació de les taxes i de l'impost sobre construccions, instal·lacions i obres (ICIO)."
         },
         {
-          "key": "Procediment: sol·licitud + projecte → informes tècnic i jurídic → resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici de tercers."
+          "h": "El silenci en les llicències",
+          "p": "En matèria de llicències urbanístiques, el silenci administratiu té, amb caràcter general, sentit positiu, però amb un límit infranquejable: en cap cas no es poden adquirir per silenci facultats o drets que contravinguin l'ordenació urbanística (art. 11.3 del TRLS estatal). Per tant, una actuació disconforme amb el planejament no s'entén autoritzada per silenci, encara que hagi transcorregut el termini; cal una resolució expressa i, si s'ha executat l'obra, l'inici de la protecció de la legalitat."
+        },
+        {
+          "h": "Caducitat",
+          "p": "Les llicències tenen fixats terminis per iniciar i per acabar les obres. L'incompliment d'aquests terminis en determina la caducitat, prèvia declaració expressa, de manera que les obres no es poden continuar sense obtenir una nova llicència."
         }
       ],
-      "key": "Llicència = acte reglat de control previ. Silenci positiu, però mai per a actuacions contràries al planejament (art. 11.3 TRLS)."
+      "key": "Llicència urbanística (187 TRLUC): acte reglat de control previ; actes subjectes (obres majors, parcel·lacions, primera ocupació...) i comunicació prèvia per als menors (187 bis). S'atorga salvant el dret de propietat i de tercers. Silenci positiu però mai per a actuacions contràries al planejament (11.3 TRLS). Caducitat per incompliment de terminis."
     },
     "89": {
       "intro": "La Llei 31/1995, de prevenció de riscos laborals (LPRL), estableix el marc de protecció de la seguretat i salut dels treballadors, també a les administracions públiques.",
@@ -1341,90 +1339,82 @@
       "key": "Iniciativa privada: els particulars poden formular planejament derivat (a l'Ajuntament, que tramita i resol motivadament). La potestat de planejament és pública i indisponible; l'AP conserva l'ius variandi. Els convenis urbanístics no substitueixen el procediment ni alteren el règim del sòl."
     },
     "54": {
-      "intro": "Efectes de l'aprovació de les figures de planejament: publicitat, convenis urbanístics i obligatorietat (TRLUC).",
+      "intro": "L'aprovació de les figures de planejament urbanístic produeix efectes jurídics importants (publicitat, executivitat i obligatorietat), i els convenis urbanístics s'han de subjectar als principis de publicitat i transparència (TRLUC).",
       "sections": [
         {
-          "h": "Efectes",
-          "scheme": {
-            "cap": "Efectes de l'aprovació",
-            "body": "EXECUTIVITAT → des de la publicació de les normes al diari oficial\nOBLIGATORIETAT → vincula administracions i particulars\nPUBLICITAT → consulta i certificats de règim urbanístic\nLEGITIMACIÓ → d'expropiacions i d'usos previstos"
-          }
+          "h": "Efectes de l'aprovació del planejament",
+          "list": [
+            "Executivitat: el planejament és executiu des de la publicació de l'acord d'aprovació definitiva i de les normes urbanístiques al diari oficial.",
+            "Obligatorietat: les determinacions del planejament obliguen tant els particulars com les administracions públiques.",
+            "Publicitat: qualsevol persona pot consultar el planejament i obtenir certificats de règim urbanístic dels terrenys.",
+            "Legitimació: el planejament legitima les expropiacions necessàries per executar-lo i declara la utilitat pública de les obres i la necessitat d'ocupació dels béns afectats.",
+            "Vinculació dels usos: els terrenys i les construccions queden subjectes als usos i les intensitats previstes; les disconformitats sobrevingudes generen situacions de fora d'ordenació o de volum disconforme."
+          ]
+        },
+        {
+          "h": "Situacions de fora d'ordenació",
+          "p": "Les construccions i els usos que esdevenen disconformes amb el nou planejament queden en situació de fora d'ordenació (si són incompatibles amb el pla, amb fortes limitacions a les obres permeses) o de volum disconforme (quan només són parcialment disconformes, amb un règim menys restrictiu). El planejament o el TRLUC en regulen les obres admissibles."
         },
         {
           "h": "Convenis urbanístics",
-          "list": [
-            "Subjectes a publicitat i transparència; no poden vulnerar el planejament al marge del procediment.",
-            "Cessions i compromisos s'incorporen amb les garanties legals."
-          ]
+          "p": "Els convenis urbanístics (de planejament o de gestió) s'han de subjectar als principis de publicitat i transparència: se'n garanteix la informació pública i la inscripció en un registre de convenis. No poden vulnerar les determinacions del planejament ni substituir els procediments d'aprovació; els compromisos que comportin l'alteració del planejament resten condicionats a la tramitació i aprovació de la figura corresponent."
         }
       ],
-      "key": "L'aprovació (publicada) fa executiu i obligatori el pla. Convenis urbanístics: públics i sense vulnerar el planejament."
+      "key": "L'aprovació definitiva del planejament (publicada) el fa executiu i obligatori per a administracions i particulars; en legitima les expropiacions. Les disconformitats sobrevingudes generen fora d'ordenació o volum disconforme. Convenis urbanístics: públics i transparents, sense vulnerar el planejament."
     },
     "55": {
-      "intro": "Gestió urbanística: sistemes d'actuació, elecció del sistema i principi d'equidistribució (TRLUC).",
+      "intro": "La gestió urbanística és el conjunt de procediments per executar el planejament. S'articula mitjançant els sistemes d'actuació urbanística, l'elecció dels quals correspon a l'Administració, i s'inspira en el principi d'equidistribució (TRLUC).",
       "sections": [
         {
-          "h": "Sistemes",
-          "scheme": {
-            "cap": "Sistemes d'actuació",
-            "body": "REPARCEL·LACIÓ\n   • compensació bàsica (propietaris executen)\n   • compensació per concertació\n   • cooperació (AP executa a càrrec dels propietaris)\n   • per sectors/subsectors\nEXPROPIACIÓ (AP adquireix per executar)"
-          }
+          "h": "Sistemes d'actuació",
+          "p": "L'execució del planejament en àmbits d'actuació (polígons o sectors) es fa pel sistema de reparcel·lació o pel sistema d'expropiació. El sistema de reparcel·lació té diverses modalitats: la compensació bàsica (els propietaris, agrupats en una junta, aporten el sòl, executen la urbanització i es distribueixen les finques resultants); la compensació per concertació; la cooperació (els propietaris aporten el sòl i l'Administració executa les obres a càrrec d'aquells); i d'altres. En el sistema d'expropiació, l'Administració (o el concessionari) adquireix la totalitat dels terrenys de l'àmbit per executar-hi l'actuació."
         },
         {
-          "h": "Equidistribució",
-          "list": [
-            "Repartiment just de beneficis (aprofitament) i càrregues (cessions i costos d'urbanització).",
-            "La reparcel·lació regularitza finques i adjudica les resultants segons l'aprofitament."
-          ]
+          "h": "La reparcel·lació",
+          "p": "La reparcel·lació és l'operació que regularitza la configuració de les finques i n'adjudica de noves als propietaris en proporció als seus drets, alhora que concreta les cessions a l'Administració (sòl per a sistemes i sòl amb aprofitament) i la distribució de les càrregues d'urbanització. El projecte de reparcel·lació es tramita amb informació pública i s'inscriu al Registre de la Propietat."
         },
         {
-          "key": "L'elecció del sistema correspon a l'Administració segons les circumstàncies."
+          "h": "Principi d'equidistribució",
+          "p": "Tots els sistemes s'inspiren en el principi d'equidistribució (o de distribució equitativa de beneficis i càrregues): cap propietari ha d'obtenir un benefici o suportar una càrrega desproporcionada en relació amb els altres, atès l'aprofitament que els correspon. Aquest principi és la garantia de la igualtat entre els propietaris afectats per una actuació urbanística."
         }
       ],
-      "key": "Sistemes: reparcel·lació (compensació/cooperació) i expropiació. Principi d'equidistribució de beneficis i càrregues."
+      "key": "Gestió urbanística: sistemes de reparcel·lació (modalitats de compensació i de cooperació) i d'expropiació; l'elecció és de l'Administració. La reparcel·lació regularitza finques i concreta cessions i càrregues. Tot s'inspira en el principi d'equidistribució de beneficis i càrregues."
     },
     "57": {
-      "intro": "Parcel·lacions urbanístiques: concepte, llicència, presumpció i indivisibilitat (TRLUC).",
+      "intro": "Les parcel·lacions urbanístiques són la divisió simultània o successiva de terrenys en dos o més lots. Estan sotmeses a control per garantir que s'ajustin al planejament i per evitar la formació de nuclis de població al marge de l'ordenació (TRLUC).",
       "sections": [
         {
-          "h": "Règim",
-          "scheme": {
-            "cap": "Parcel·lacions",
-            "body": "LLICÈNCIA de parcel·lació → control de la divisió\nPRESUMPCIÓ de parcel·lació urbanística → davant divisions\n   o serveis que pressuposin transformació urbana\nEN SÒL NO URBANITZABLE → PROHIBIDA la parcel·lació urbanística\nINDIVISIBILITAT → unitats mínimes de conreu/finca"
-          }
+          "h": "Concepte i llicència",
+          "p": "És parcel·lació urbanística tota divisió de terrenys que, per les seves característiques, pugui donar lloc a la implantació d'usos urbans o a la formació de nous nuclis de població. Les parcel·lacions urbanístiques estan subjectes a llicència (o, segons el cas, a declaració d'innecessarietat); les segregacions i divisions han de respectar la parcel·la mínima i les condicions del planejament."
         },
         {
-          "h": "Notes",
-          "list": [
-            "Les segregacions han de respectar la parcel·la mínima del planejament.",
-            "Els notaris/registradors exigeixen la llicència o declaració d'innecessarietat."
-          ]
+          "h": "Presumpció de parcel·lació urbanística",
+          "p": "La llei estableix una presumpció: es considera que hi ha parcel·lació urbanística quan, en sòl no urbanitzable o urbanitzable no delimitat, s'observen indicis materials (com l'obertura de camins, la implantació de serveis o la disposició d'edificacions) que pressuposen l'existència d'una transformació o l'aparició d'un nucli de població. Aquesta presumpció permet a l'Administració actuar davant divisions encobertes."
+        },
+        {
+          "h": "Indivisibilitat i prohibicions",
+          "p": "En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques. Determinades finques són indivisibles (les de dimensió igual o inferior a la parcel·la mínima, o les vinculades a una edificació). Els notaris i registradors exigeixen l'acreditació de la llicència de parcel·lació o de la declaració d'innecessarietat per autoritzar o inscriure actes de divisió o segregació."
         }
       ],
-      "key": "Parcel·lació amb llicència; prohibida en sòl no urbanitzable; presumpció davant divisions amb aparença urbana."
+      "key": "Parcel·lació urbanística: divisió de terrenys subjecta a llicència (o declaració d'innecessarietat). Prohibida en sòl no urbanitzable. Opera una presumpció de parcel·lació davant indicis materials (camins, serveis). Indivisibilitat per sota de la parcel·la mínima; control notarial i registral."
     },
     "58": {
-      "intro": "La protecció de la legalitat urbanística: competències, inspecció i procediments (TRLUC).",
+      "intro": "La protecció de la legalitat urbanística és el conjunt de potestats que permeten a l'Administració restablir l'ordenació vulnerada per actuacions il·legals. Les competències corresponen, en primer terme, als ajuntaments, amb intervenció de la Generalitat en determinats casos (TRLUC).",
       "sections": [
         {
-          "h": "Components",
-          "scheme": {
-            "cap": "Disciplina urbanística",
-            "body": "INSPECCIÓ → comprovació, accés i requeriment d'informació\nPROTECCIÓ DE LA LEGALITAT →\n   • suspensió d'obres en curs (cautelar)\n   • requeriment de legalització o restauració\nSANCIÓ → procediment sancionador (independent)\nPRESCRIPCIÓ restauració → 6 anys (imprescriptible en SNU protegit)"
-          }
+          "h": "Inspecció urbanística",
+          "p": "La inspecció urbanística és l'activitat de comprovació del compliment de la legalitat. El personal inspector té la condició d'agent de l'autoritat i pot accedir als llocs, requerir informació i documentació i aixecar actes que tenen valor probatori. La inspecció és l'instrument que detecta les infraccions i activa els procediments de protecció de la legalitat i sancionador."
         },
         {
-          "h": "Competències",
-          "list": [
-            "Corresponen als ajuntaments i, subsidiàriament o concurrent, a la Generalitat.",
-            "Restauració i sanció són compatibles i independents."
-          ]
+          "h": "Procediment de protecció de la legalitat",
+          "p": "Davant d'obres o usos sense llicència o que no s'hi ajusten, l'Administració incoa el procediment de protecció de la legalitat urbanística: si les obres estan en curs, n'ordena la suspensió immediata (mesura cautelar); tant si han acabat com si no, requereix la legalització (quan són legalitzables) o ordena la restauració de la realitat física alterada i de l'ordre jurídic vulnerat (quan no ho són), mitjançant l'enderroc o la reposició al seu estat anterior."
         },
         {
-          "key": "Disciplina = inspecció + restauració de la legalitat + sanció (independents)."
+          "h": "Relació amb el procediment sancionador",
+          "p": "La restauració de la legalitat i la sanció són actuacions independents i compatibles: la imposició d'una multa per la infracció comesa no eximeix del deure de restaurar la realitat alterada, i a la inversa. L'acció de restauració està sotmesa a un termini de prescripció (sis anys des de l'acabament de les obres, amb caràcter general, i imprescriptible en sòl no urbanitzable d'especial protecció), mentre que la sanció prescriu segons la gravetat de la infracció."
         }
       ],
-      "key": "Protecció de la legalitat: inspecció, suspensió, legalització/restauració (6 anys) i sanció, tot compatible."
+      "key": "Protecció de la legalitat urbanística (ajuntaments + Generalitat): inspecció (agents de l'autoritat) + suspensió cautelar + legalització o restauració de la realitat alterada. És independent i compatible amb el procediment sancionador. Restauració: 6 anys (imprescriptible en SNU protegit)."
     },
     "59": {
       "intro": "Intervenció i control administratiu de les activitats amb incidència ambiental (Llei 20/2009, PCAA).",
