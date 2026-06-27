@@ -2854,6 +2854,186 @@
       "explain": "Es pregunta la documentació del menor d'obres. Correcta (b): en el menor d'obres calen l'informe de necessitat (excepte ≤5.000 €), l'aprovació de la despesa, el pressupost de les obres (i projecte/supervisió si escau) i la factura (art. 118). Per què no: (a) no n'hi ha prou amb la factura; (c) i (d) el menor no requereix plecs ni mesa de contractació. Base: art. 118 LCSP.",
       "source": "LCSP",
       "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 44,
+      "block": 11,
+      "q": "El sòl urbà CONSOLIDAT es caracteritza perquè:",
+      "options": [
+        "Necessita una transformació urbanística integral mitjançant un pla de millora urbana",
+        "Ja té la condició de solar o només requereix completar la urbanització",
+        "Comporta sempre deures de cessió del 10% de l'aprofitament a l'Administració",
+        "Està preservat de qualsevol procés d'urbanització i de transformació futura"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el sòl urbà consolidat. Correcta (b): el sòl urbà consolidat ja té la condició de solar o només requereix completar la urbanització, amb deures mínims. Per què no: (a) la transformació integral és pròpia del no consolidat; (c) els deures de cessió són del no consolidat; (d) la preservació és del sòl no urbanitzable. Base: art. 30 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 30 TRLUC"
+    },
+    {
+      "theme": 46,
+      "block": 11,
+      "q": "Quins són els estàndards urbanístics que ha de preveure el planejament?",
+      "options": [
+        "Els percentatges màxims d'edificabilitat lucrativa per a cada parcel·la privada",
+        "Les reserves mínimes de sòl per a espais lliures, equipaments i habitatge protegit",
+        "Els terminis màxims per atorgar les llicències d'obres als promotors privats",
+        "Els coeficients de ponderació dels diferents usos a efectes fiscals"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els estàndards urbanístics. Correcta (b): el planejament ha de preveure reserves mínimes de sòl (estàndards) per a espais lliures, equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat. Per què no: (a) no són percentatges màxims d'edificabilitat privada; (c) no són terminis de llicències; (d) no són coeficients fiscals. Base: art. 65 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 65 TRLUC"
+    },
+    {
+      "theme": 50,
+      "block": 11,
+      "q": "Els plans territorials i els plans directors urbanístics, respecte del planejament municipal:",
+      "options": [
+        "Hi estan subordinats i s'hi han d'ajustar en tot cas",
+        "Hi prevalen en el seu àmbit, de manera que el POUM s'hi ha d'ajustar",
+        "No tenen cap relació jeràrquica amb el planejament urbanístic municipal",
+        "Només s'apliquen als municipis que no disposen de POUM aprovat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la relació jeràrquica del planejament. Correcta (b): els plans territorials i els plans directors urbanístics prevalen sobre el planejament urbanístic municipal en el seu àmbit, i el POUM s'hi ha d'ajustar. Per què no: (a) és a l'inrevés; (c) sí que hi ha jerarquia; (d) s'apliquen amb independència que el municipi tingui POUM. Base: art. 13 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 13 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "En el sòl urbanitzable NO delimitat, quina figura delimita el sector i n'estableix l'ordenació?",
+      "options": [
+        "El pla d'ordenació urbanística municipal (POUM) directament",
+        "El pla parcial de delimitació",
+        "El projecte de reparcel·lació de l'àmbit corresponent",
+        "La llicència urbanística d'obres majors atorgada per l'ajuntament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la figura per al sòl urbanitzable no delimitat. Correcta (b): el pla parcial de delimitació delimita el sector i n'estableix l'ordenació en el sòl urbanitzable no delimitat. Per què no: (a) el POUM no delimita per si sol aquest sector; (c) la reparcel·lació és un instrument de gestió, no d'ordenació; (d) la llicència no ordena el sector. Base: arts. 65-70 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 65 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Una construcció que esdevé disconforme amb un nou planejament queda, en general, en situació de:",
+      "options": [
+        "Plena legalitat, perquè els drets adquirits es respecten en tot cas",
+        "Fora d'ordenació (o de volum disconforme), amb limitacions a les obres permeses",
+        "Ruïna urbanística, amb obligació immediata d'enderrocar-la",
+        "Suspensió de llicències fins a l'aprovació del planejament derivat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la situació de les construccions disconformes. Correcta (b): les construccions que esdevenen disconformes queden en situació de fora d'ordenació (incompatibles, amb fortes limitacions) o de volum disconforme (parcialment disconformes, règim menys restrictiu). Per què no: (a) no es respecten sense límits; (c) no equival a ruïna; (d) no és una suspensió de llicències. Base: art. 108 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 108 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Estan subjectes a llicència urbanística, entre altres actuacions:",
+      "options": [
+        "Únicament les obres de nova construcció d'habitatges unifamiliars",
+        "Les obres majors, les parcel·lacions i la primera ocupació dels edificis",
+        "Exclusivament les actuacions promogudes per administracions públiques",
+        "Només els canvis d'ús que no comportin obres de cap tipus"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els actes subjectes a llicència. Correcta (b): estan subjectes a llicència, entre altres, les obres majors, les parcel·lacions urbanístiques, la primera ocupació o utilització dels edificis, els usos del sòl, els moviments de terres i les tales (art. 187). Per què no: (a) no es limita als unifamiliars; (c) no es limita a les administracions; (d) no es limita als canvis d'ús sense obres. Base: art. 187 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 187 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "L'acció de restauració de la legalitat i el procediment sancionador són:",
+      "options": [
+        "La mateixa cosa amb dos noms diferents segons la gravetat de la infracció",
+        "Actuacions independents i compatibles entre si",
+        "Excloents: si s'ordena la restauració, ja no es pot imposar cap sanció",
+        "Alternatives que tria lliurement la persona presumptament infractora"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la relació restauració/sanció. Correcta (b): són actuacions independents i compatibles; la restauració restableix l'ordenació i la sanció castiga la infracció, i totes dues es poden exigir alhora. Per què no: (a) no són la mateixa cosa; (c) no són excloents; (d) no les tria l'infractor. Base: arts. 199 i 219 TRLUC.",
+      "source": "TRLUC",
+      "article": "arts. 199 i 219 TRLUC"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "En el procediment expropiatori, què comporta l'aprovació d'un instrument de planejament urbanístic?",
+      "options": [
+        "La fixació automàtica i definitiva del just preu dels béns afectats",
+        "La declaració d'utilitat pública i la necessitat d'ocupació dels béns afectats",
+        "La transmissió immediata de la propietat dels béns a l'Administració",
+        "L'obligació del propietari de renunciar a qualsevol indemnització"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'efecte expropiatori del planejament. Correcta (b): l'aprovació dels instruments de planejament que prevegin obres o actuacions comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns i drets afectats. Per què no: (a) el just preu es fixa després; (c) la transmissió requereix el pagament i l'ocupació; (d) no implica renúncia a la indemnització. Base: art. 109 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 109 TRLUC"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Com es valora, segons la legislació estatal, el sòl en situació urbanitzada?",
+      "options": [
+        "Per capitalització de la renda real o potencial de l'explotació agrària",
+        "Aplicant a l'edificabilitat i l'ús atribuïts el valor de repercussió del sòl",
+        "Pel valor cadastral vigent, sense cap mena de correcció ni actualització",
+        "Pel preu lliurement pactat entre l'Administració i la persona propietària"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la valoració del sòl urbanitzat. Correcta (b): el sòl urbanitzat es valora aplicant a l'edificabilitat i l'ús atribuïts el valor de repercussió del sòl (mètode residual); si està edificat, el major entre aquest i la taxació conjunta. Per què no: (a) la capitalització de rendes és per al sòl rural; (c) el valor cadastral no determina la valoració; (d) no és un preu lliurement pactat. Base: art. 37 TRLS.",
+      "source": "TRLSRU",
+      "article": "art. 37 TRLS"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Quan es qualifica, en general, una infracció urbanística com a MOLT GREU?",
+      "options": [
+        "Quan afecta una obra menor legalitzable en sòl urbà consolidat",
+        "Quan afecta sòl no urbanitzable d'especial protecció o impedeix l'execució del planejament",
+        "Quan es comet per primera vegada, sense que hi hagi reincidència",
+        "Quan la persona infractora no compareix al tràmit d'audiència del procediment"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la qualificació de molt greu. Correcta (b): es qualifiquen de molt greus, en general, les infraccions que afecten el sòl no urbanitzable d'especial protecció o que impedeixen o dificulten de manera rellevant l'execució del planejament. Per què no: (a) una obra menor legalitzable sol ser lleu; (c) i (d) no determinen la qualificació de molt greu. Base: art. 214 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 214 TRLUC"
+    },
+    {
+      "theme": 72,
+      "block": 12,
+      "q": "Mitjançant les ordres d'execució, l'Administració imposa als propietaris:",
+      "options": [
+        "El pagament dels tributs locals que graven la propietat de l'immoble",
+        "Les obres necessàries per complir el deure de conservació de l'immoble",
+        "La cessió obligatòria de part de l'immoble per a usos públics",
+        "La contractació d'una assegurança de responsabilitat civil de l'edifici"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'objecte de les ordres d'execució. Correcta (b): mitjançant les ordres d'execució, l'Administració imposa les obres necessàries per garantir el deure de conservació de l'immoble (seguretat, salubritat i ornament). Per què no: (a) no és un instrument tributari; (c) no és una cessió; (d) no imposa la contractació d'assegurances. Base: art. 197 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 197 TRLUC"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "En sòl no urbanitzable d'especial protecció, l'acció de restauració de la legalitat:",
+      "options": [
+        "Prescriu als sis anys, igual que en la resta de classes de sòl",
+        "És imprescriptible",
+        "Prescriu als dos anys per la seva especial sensibilitat ambiental",
+        "No es pot exercir mai, perquè es tracta de sòl protegit"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la prescripció en sòl protegit. Correcta (b): en sòl no urbanitzable d'especial protecció, l'acció de restauració de la legalitat és imprescriptible. Per què no: (a) el termini de sis anys és el general, però no s'aplica aquí; (c) no és de dos anys; (d) sí que es pot exercir (de fet, sense límit temporal). Base: art. 207 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 207 TRLUC"
     }
   ]
 }
