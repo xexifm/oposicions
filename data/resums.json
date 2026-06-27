@@ -451,35 +451,32 @@
       "key": "RGPD + LO 3/2018. Principis (art. 5) i responsabilitat proactiva. Bases (art. 6); categories especials (art. 9, com la salut) amb protecció reforçada. Drets ARSOPOL (15-22). DPD obligatori al sector públic; registre d'activitats; AIPD si alt risc; bretxes notificades en 72 h."
     },
     "30": {
-      "intro": "La contractació menor és un procediment simplificat d'adjudicació directa per a contractes de poca quantia. Es regula a l'art. 118 LCSP i és molt freqüent en la gestió municipal ordinària.",
+      "intro": "La contractació menor és un procediment simplificat d'adjudicació directa per a contractes de poca quantia, molt freqüent en la gestió municipal ordinària. Es regula a l'art. 118 LCSP.",
       "sections": [
         {
-          "h": "Llindars",
-          "scheme": {
-            "cap": "Contracte menor (art. 118)",
-            "body": "LLINDARS (IVA EXCLÒS):\n  • OBRES → import < 40.000 €\n  • SERVEIS i SUBMINISTRAMENTS → import < 15.000 €\nDURADA → ≤ 1 any i NO prorrogable (art. 29.8)"
-          }
+          "h": "Llindars i durada",
+          "p": "Es consideren contractes menors els d'import inferior a 40.000 euros, quan es tracti de contractes d'obres, o a 15.000 euros, quan es tracti de contractes de subministrament o de serveis (sempre IVA exclòs). El contracte menor no pot tenir una durada superior a un any ni ser objecte de pròrroga (art. 29.8)."
         },
         {
           "h": "Tramitació i requisits",
-          "scheme": {
-            "cap": "Expedient del menor",
-            "body": "INFORME de l'òrgan de contractació motivant la NECESSITAT\n  i que NO s'altera l'objecte per eludir les regles generals\nAPROVACIÓ de la DESPESA\nINCORPORACIÓ de la FACTURA\nEn OBRES → a més, pressupost (i projecte/informe de\n  supervisió quan siguin necessaris segons normativa)\nFISCALITZACIÓ prèvia de la despesa per la Intervenció\nPUBLICITAT trimestral al perfil del contractant"
-          }
+          "list": [
+            "Informe de l'òrgan de contractació que motivi la necessitat del contracte i que justifiqui que no s'està alterant l'objecte del contracte per evitar les regles generals de contractació (aquest informe no és necessari en els contractes menors de valor estimat igual o inferior a 5.000 euros).",
+            "Aprovació de la despesa.",
+            "Incorporació de la factura corresponent.",
+            "En el contracte menor d'obres, a més, el pressupost de les obres (i, quan siguin necessàries d'acord amb la normativa, el projecte i l'informe de supervisió).",
+            "Fiscalització prèvia de la despesa per la Intervenció i publicitat trimestral al perfil de contractant."
+          ]
         },
         {
           "h": "Prohibició de fraccionament",
-          "p": "No es pot fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir així els requisits de publicitat o els relatius al procediment d'adjudicació (arts. 118.2 i 99.2). El fraccionament fraudulent és una infracció de la legalitat contractual."
+          "p": "No es pot fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir així els requisits de publicitat o els relatius al procediment d'adjudicació que correspondria (arts. 118.2 i 99.2). El fraccionament fraudulent és contrari a la legalitat contractual."
         },
         {
-          "h": "Límits subjectius",
-          "p": "La normativa i les instruccions internes solen establir cauteles addicionals (p. ex. límits a la concurrència de diversos menors amb el mateix adjudicatari) per evitar abusos. El menor no requereix mesa de contractació ni formalització en document administratiu separat (la factura fa de document)."
-        },
-        {
-          "key": "Llindars: obres <40.000 €, serveis i subministraments <15.000 € (IVA exclòs). Durada ≤1 any no prorrogable. Informe de necessitat + aprovació de despesa + factura. Prohibit fraccionar."
+          "h": "Característiques i límits",
+          "p": "El contracte menor no exigeix la constitució de mesa de contractació ni la formalització en un document administratiu separat (la factura fa aquesta funció). Les instruccions internes i les juntes consultives recomanen cauteles addicionals, com limitar la concentració de diversos contractes menors en un mateix adjudicatari, per evitar abusos."
         }
       ],
-      "key": "Menor (118): obres <40.000 €, serveis/subministr. <15.000 € (IVA exclòs); durada ≤1 any no prorrogable. Informe de necessitat + despesa + factura (+pressupost en obres). Prohibit fraccionar per eludir llindars."
+      "key": "Menor (118): obres < 40.000 € i serveis/subministraments < 15.000 € (IVA exclòs); durada ≤ 1 any, no prorrogable (29.8). Informe de necessitat (excepte ≤ 5.000 €) + aprovació de la despesa + factura (+ pressupost en obres). Prohibit fraccionar per eludir els llindars."
     },
     "36": {
       "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32-37 de la Llei 40/2015 i 65, 67, 81, 91-92, 96 de la Llei 39/2015.",
@@ -817,150 +814,114 @@
       "key": "Obres: projecte (memòria, plànols, PPT, pressupost, ESS) + supervisió (235) + aprovació + replanteig → acta de comprovació (237) → execució amb direcció facultativa i certificacions → recepció + garantia → liquidació. Responsabilitat per ruïna: 15 anys des de la recepció."
     },
     "26": {
-      "intro": "El contracte de concessió d'obres és aquell en què la contraprestació al concessionari consisteix en el dret a explotar l'obra que construeix (o només a explotar-la), assumint-ne el risc operacional. És la fórmula típica de col·laboració publicoprivada en infraestructures (LCSP).",
+      "intro": "El contracte de concessió d'obres és aquell en què la contraprestació a favor del concessionari consisteix en el dret a explotar l'obra que construeix (o només a explotar-la), o en aquest dret acompanyat d'un preu, assumint el concessionari el risc operacional de l'explotació. És la fórmula típica de col·laboració publicoprivada en infraestructures (LCSP).",
       "sections": [
         {
           "h": "Concepte i element diferenciador",
-          "p": "El concessionari construeix i/o explota l'obra i es retribueix amb la seva explotació (eventualment més un preu). L'element clau que el distingeix del contracte d'obres és la transferència al concessionari del risc operacional (de demanda, de disponibilitat o tots dos): no té garantit recuperar la inversió en condicions normals de funcionament (art. 14)."
+          "p": "El concessionari construeix i/o explota l'obra i es retribueix amb la seva explotació. L'element que el distingeix del contracte d'obres és la transferència al concessionari del risc operacional (de demanda, de disponibilitat o tots dos): en condicions normals de funcionament, el concessionari no té garantida la recuperació de les inversions ni dels costos (art. 14). Si no hi ha transferència real de risc, no és una concessió sinó un contracte d'obres."
         },
         {
           "h": "Actuacions preparatòries i construcció",
-          "scheme": {
-            "cap": "Concessió d'obres",
-            "body": "ESTUDI DE VIABILITAT (econòmica, tècnica, ambiental) →\n  previ i determinant\nPROJECTE i, si escau, avantprojecte\nCONSTRUCCIÓ a càrrec i risc del concessionari\nDURADA → màxima (art. 29): fins a 40 anys (obres), segons\n  el període de recuperació de la inversió"
-          }
+          "p": "La concessió requereix un estudi de viabilitat previ (econòmica, tècnica i, si escau, ambiental), que és determinant, i el projecte corresponent. La construcció es fa a càrrec i risc del concessionari, sota el control de l'Administració. La durada és limitada en funció del període de recuperació de les inversions: l'art. 29 fixa, per a les concessions d'obres, un límit màxim de quaranta anys."
         },
         {
-          "h": "Drets, obligacions i equilibri econòmic",
-          "scheme": {
-            "cap": "Règim de la concessió",
-            "body": "DRETS del concessionari → explotar i percebre tarifes/\n  retribució; mantenir l'equilibri econòmic\nPRERROGATIVES de l'AP → ordenar, controlar, modificar,\n  rescatar, segrestar\nEQUILIBRI ECONÒMIC → es restableix en supòsits taxats:\n  modificacions imposades, FACTUM PRINCIPIS (actuacions\n  generals de l'AP que l'afecten) i RISCOS imprevisibles\n  (art. 270)"
-          }
+          "h": "Drets, prerrogatives i equilibri econòmic",
+          "p": "El concessionari té dret a explotar l'obra i a percebre la retribució (tarifes dels usuaris o pagaments de l'Administració), i a mantenir l'equilibri econòmic de la concessió. L'Administració conserva prerrogatives d'ordenació, control, modificació, rescat i segrest. L'equilibri econòmic-financer es restableix, en benefici de la part que correspongui, en supòsits taxats (art. 270): quan l'Administració modifica la concessió per raons d'interès públic; per actuacions de l'Administració que, sense modificar directament la concessió, n'afecten l'economia (factum principis); i per causes de força major o riscos imprevisibles."
         },
         {
           "h": "Extinció i reversió",
-          "p": "La concessió s'extingeix per compliment del termini, rescat (l'AP recupera la gestió abans del termini), caducitat (incompliment del concessionari), resolució per altres causes, o supressió/impossibilitat de l'explotació. En extingir-se, l'obra reverteix a l'Administració en l'estat pactat."
-        },
-        {
-          "key": "Risc operacional al concessionari; estudi de viabilitat previ; durada fins a 40 anys; equilibri econòmic en casos taxats; reversió de l'obra en extingir-se."
+          "p": "La concessió s'extingeix per compliment del termini, per rescat (l'Administració recupera la gestió abans del termini), per caducitat (incompliment greu del concessionari), per resolució per altres causes o per supressió de l'explotació. En extingir-se, l'obra reverteix a l'Administració en l'estat de conservació i amb les condicions pactades."
         }
       ],
-      "key": "Concessió d'obres: construcció + explotació amb RISC operacional. Estudi de viabilitat previ. Durada fins a 40 anys. Equilibri econòmic (modificacions, factum principis, riscos imprevisibles). Extinció: termini, rescat, caducitat; reversió."
+      "key": "Concessió d'obres: construcció i/o explotació amb transferència del RISC operacional al concessionari. Estudi de viabilitat previ; durada fins a 40 anys (29). Equilibri econòmic (270): modificacions, factum principis i riscos imprevisibles. Extinció: termini, rescat, caducitat, resolució; reversió de l'obra."
     },
     "27": {
-      "intro": "El contracte de subministrament té per objecte l'adquisició, l'arrendament (amb o sense opció de compra) o l'adquisició a terminis de productes o béns mobles (LCSP).",
+      "intro": "El contracte de subministrament té per objecte l'adquisició, l'arrendament (amb opció de compra o sense) o l'adquisició per arrendament financer de productes o béns mobles (LCSP).",
       "sections": [
         {
           "h": "Concepte i supòsits",
-          "scheme": {
-            "cap": "Subministrament (art. 16)",
-            "body": "COMPRA, ARRENDAMENT o LÍSING de béns mobles\nSupòsits típics:\n  • lliurament successiu i per preu unitari (sense fixar\n    quantia total: per necessitats)\n  • adquisició/arrendament d'equips i sistemes\n  • fabricació de béns segons característiques de l'AP\nNO és subministrament: l'adquisició de programes a mida\n  (pot ser contracte de serveis)"
-          }
+          "p": "L'art. 16 considera contractes de subministrament els que tenen per objecte l'adquisició, l'arrendament o l'adquisició de béns mobles. S'hi inclouen, entre altres supòsits: aquells en què l'empresari s'obliga a lliurar una pluralitat de béns de manera successiva i per preu unitari, sense que la quantia total es defineixi amb exactitud en el moment de celebrar el contracte (perquè es vincula a les necessitats de l'Administració); i l'adquisició i l'arrendament d'equips i sistemes per al tractament de la informació. No tenen la consideració de subministrament els contractes que tinguin per objecte programes d'ordinador desenvolupats a mida, que es consideren contractes de serveis."
         },
         {
           "h": "Procediments i durada",
-          "p": "S'adjudica pels procediments generals (obert, restringit, negociat...). La durada s'ajusta a la prestació, amb límits i possibilitat de pròrrogues previstes al plec (art. 29). En els de lliurament successiu per preu unitari, es pot no fixar la quantia total, atenent les necessitats."
+          "p": "El contracte de subministrament s'adjudica pels procediments generals (obert, restringit, negociat, etc.). La durada s'ajusta a la prestació, amb els límits i les pròrrogues que prevegi el plec (art. 29). En els subministraments de lliurament successiu per preu unitari, es pot no fixar la quantia total atenent les necessitats."
         },
         {
-          "h": "Execució i recepció",
-          "p": "El contractista lliura els béns en el temps i lloc fixats, amb les característiques requerides. La recepció (acte de conformitat) inicia el termini de garantia, durant el qual respon dels vicis o defectes. L'Administració pot exercir les seves prerrogatives (modificació, suspensió, resolució)."
+          "h": "Execució, recepció i garantia",
+          "p": "El contractista lliura els béns en el temps i el lloc fixats i amb les característiques tècniques requerides. La recepció, mitjançant un acte formal de conformitat, determina l'inici del termini de garantia, durant el qual el contractista respon dels vicis o defectes dels béns subministrats. L'Administració pot exercir les seves prerrogatives (modificació, suspensió i resolució) amb els efectes generals."
         },
         {
-          "h": "Arrendament i altres",
-          "p": "En l'arrendament, l'objecte és la cessió de l'ús del bé per un temps i preu; pot incloure manteniment. La resolució i la modificació segueixen les regles generals, amb les especialitats del tipus."
-        },
-        {
-          "key": "Subministrament = béns mobles (compra/arrendament/lísing). Lliurament successiu per preu unitari possible. Recepció → garantia. Programes a mida solen ser serveis."
+          "h": "Especialitats de l'arrendament",
+          "p": "En l'arrendament, l'objecte és la cessió de l'ús del bé moble per un temps i un preu determinats, i pot incloure el manteniment. La resolució i la modificació es regeixen per les regles generals amb les especialitats pròpies del tipus."
         }
       ],
-      "key": "Subministrament (16): adquisició/arrendament/lísing de béns mobles; lliurament successiu per preu unitari. Procediments generals; durada amb pròrrogues (29). Recepció → garantia. Software a mida = serveis."
+      "key": "Subministrament (16): adquisició, arrendament o lísing de béns mobles; lliurament successiu per preu unitari possible (segons necessitats). Procediments generals; durada amb pròrrogues (29). Recepció → termini de garantia. Programari a mida = contracte de serveis."
     },
     "28": {
-      "intro": "El contracte de serveis té per objecte prestacions de fer consistents en activitats diferents de les obres o els subministraments. Inclou l'especialitat de l'elaboració de projectes d'obres (LCSP).",
+      "intro": "El contracte de serveis té per objecte prestacions de fer consistents en el desenvolupament d'una activitat o dirigides a l'obtenció d'un resultat diferent d'una obra o un subministrament. Inclou l'especialitat de l'elaboració de projectes d'obres (LCSP).",
       "sections": [
         {
           "h": "Concepte i límits",
-          "scheme": {
-            "cap": "Serveis (art. 17)",
-            "body": "OBJECTE → prestacions de FER (intel·lectuals o materials)\nLÍMIT → no poden tenir per objecte funcions que impliquin\n  EXERCICI D'AUTORITAT inherent als poders públics\nPRECAUCIÓ → evitar que encobreixin una cessió il·legal de\n  treballadors (no donar ordres laborals directes al\n  personal de l'empresa)"
-          }
+          "p": "L'art. 17 defineix els serveis com a prestacions de fer (intel·lectuals o materials). Tenen dos límits importants: no poden tenir per objecte funcions que impliquin l'exercici de l'autoritat inherent als poders públics (que es reserven a personal funcionari); i s'han d'executar de manera que no encobreixin una cessió il·legal de treballadors (l'Administració no pot exercir respecte del personal de l'empresa les facultats pròpies de l'empresari laboral)."
         },
         {
           "h": "Durada i pròrrogues",
-          "p": "La durada s'estableix atenent la naturalesa de les prestacions, amb límits legals (en general 5 anys, pròrrogues incloses) i possibilitat de pròrrogues previstes al plec, que són obligatòries per a l'empresari si el preavís és suficient (art. 29). En contractes de prestacions successives es pot preveure la continuïtat per garantir el servei mentre s'adjudica el següent."
+          "p": "La durada del contracte de serveis s'estableix atenent la naturalesa de les prestacions, amb un límit general de cinc anys (pròrrogues incloses) i la possibilitat de pròrrogues previstes al plec, que són obligatòries per a l'empresari si el preavís és suficient (art. 29). En els contractes de prestacions successives es pot preveure la continuïtat per garantir el servei mentre s'adjudica el següent."
         },
         {
           "h": "Execució, modificació i extinció",
-          "p": "S'executen a risc i ventura sota la direcció de l'Administració. La resolució per desistiment o suspensió de l'Administració genera dret a indemnització del contractista (art. 313). Si el contracte resulta deficitari per causes alienes, es poden aplicar, si escau, mecanismes d'equilibri segons el tipus."
+          "p": "Els serveis s'executen a risc i ventura sota la direcció de l'Administració. La resolució per desistiment o per suspensió definitiva de l'Administració dona dret a la indemnització del contractista (art. 313). La modificació segueix el règim general."
         },
         {
-          "h": "Especialitat: projectes d'obres",
-          "p": "L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 308 i concordants). El contractista respon dels danys derivats de defectes, insuficiències tècniques, errors materials, omissions o infraccions del projecte; pot exigir-se-li una indemnització proporcional als danys i a la importància de l'error en relació amb el pressupost de l'obra."
-        },
-        {
-          "key": "Serveis = prestacions de fer; no funcions d'autoritat; evitar cessió il·legal de treballadors. Durada limitada amb pròrrogues. Projectes d'obres: especialitat amb responsabilitat per defectes."
+          "h": "Especialitat: contractes d'elaboració de projectes d'obres",
+          "p": "L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 308 i concordants). El contractista respon dels danys i perjudicis derivats de defectes, insuficiències tècniques, errors materials, omissions o infraccions de preceptes legals o tècnics del projecte; quan el pressupost d'execució de l'obra es desvia per errors o omissions imputables al projectista, se li pot exigir una indemnització proporcional al percentatge de desviació."
         }
       ],
-      "key": "Serveis (17): prestacions de fer; no exercici d'autoritat; evitar cessió il·legal. Durada amb pròrrogues (29); desistiment de l'AP indemnitza (313). Projectes d'obres: especialitat amb responsabilitat per defectes (308)."
+      "key": "Serveis (17): prestacions de fer; no funcions d'autoritat; cal evitar la cessió il·legal de treballadors. Durada (general 5 anys) amb pròrrogues (29); el desistiment de l'AP indemnitza (313). Projectes d'obres: especialitat amb responsabilitat per defectes (308)."
     },
     "29": {
-      "intro": "El contracte de concessió de serveis encarrega a un tercer la gestió d'un servei de titularitat pública assumint el risc operacional. És una de les formes de gestió indirecta dels serveis públics (LCSP).",
+      "intro": "El contracte de concessió de serveis encarrega a un tercer la gestió d'un servei de titularitat o competència pública, assumint el concessionari el risc operacional. És una de les formes de gestió indirecta dels serveis públics (LCSP).",
       "sections": [
         {
           "h": "Concepte",
-          "p": "L'Administració encomana a un concessionari l'organització i la prestació d'un servei de la seva titularitat o competència. Es diferencia del contracte de serveis ordinari perquè el concessionari assumeix el risc operacional de l'explotació (art. 15). L'Administració conserva la titularitat i les potestats."
+          "p": "Mitjançant la concessió de serveis, l'Administració encomana a un concessionari la gestió d'un servei, la prestació del qual organitza i gestiona el concessionari, que es retribueix amb l'explotació. Es diferencia del contracte de serveis ordinari perquè el concessionari assumeix el risc operacional de l'explotació (art. 15). L'Administració conserva la titularitat del servei i les potestats sobre aquest."
         },
         {
-          "h": "Actuacions preparatòries i adjudicació",
-          "scheme": {
-            "cap": "Preparació (art. 285 i ss.)",
-            "body": "ESTUDI DE VIABILITAT (en serveis que comportin obres o\n  inversions rellevants)\nREGLAMENT del servei i plec amb el règim de prestació\nADJUDICACIÓ pels procediments generals\nDURADA limitada segons la inversió (art. 29)"
-          }
+          "h": "Actuacions preparatòries",
+          "p": "La concessió de serveis que comporti obres o inversions rellevants exigeix un estudi de viabilitat previ. Cal aprovar el règim jurídic bàsic del servei (que en declari la titularitat pública), el plec amb les condicions de prestació i les tarifes, i, si escau, el projecte de les obres. L'adjudicació es fa pels procediments generals i la durada és limitada en funció de l'amortització de les inversions (art. 29)."
         },
         {
           "h": "Execució i relacions amb els usuaris",
-          "p": "El concessionari ha de prestar el servei amb continuïtat i regularitat, en les condicions i tarifes aprovades, i admetre l'ús a qualsevol persona que compleixi els requisits. L'Administració manté potestats d'ordenació, control, inspecció i modificació del servei (ius variandi), i el dret a restablir l'equilibri econòmic en supòsits taxats."
+          "p": "El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, en les condicions i amb les tarifes aprovades, i admetre-hi qualsevol usuari que compleixi els requisits reglamentaris. L'Administració manté potestats d'ordenació, control, inspecció i modificació del servei (ius variandi), i el concessionari té dret a l'equilibri econòmic en els supòsits taxats."
         },
         {
           "h": "Extinció",
-          "scheme": {
-            "cap": "Extinció de la concessió",
-            "body": "COMPLIMENT del termini → reversió del servei i, si escau,\n  dels béns afectes\nRESCAT → l'AP assumeix la gestió directa abans del termini\nCADUCITAT → per incompliment greu del concessionari\nRESOLUCIÓ per altres causes; SUPRESSIÓ del servei\n  → amb indemnització quan correspongui"
-          }
-        },
-        {
-          "key": "Gestió indirecta amb risc per al concessionari; l'AP conserva titularitat i control; tarifes i continuïtat garantides; extinció per termini, rescat, caducitat o resolució."
+          "p": "La concessió de serveis s'extingeix per compliment del termini (amb reversió del servei i, si escau, dels béns afectes), per rescat (assumpció de la gestió directa abans del termini), per caducitat (incompliment greu del concessionari), per resolució per altres causes o per supressió del servei, amb indemnització quan correspongui."
         }
       ],
-      "key": "Concessió de serveis (15): gestió indirecta amb risc operacional; titularitat i control de l'AP. Estudi de viabilitat; tarifes i continuïtat; ius variandi i equilibri econòmic. Extinció: termini, rescat, caducitat, resolució."
+      "key": "Concessió de serveis (15): gestió indirecta amb risc operacional per al concessionari; titularitat i potestats de l'AP. Estudi de viabilitat; tarifes i continuïtat garantides; ius variandi i equilibri econòmic. Extinció: termini, rescat, caducitat, resolució, supressió."
     },
     "31": {
-      "intro": "Les llicències i autoritzacions administratives són tècniques d'intervenció de control previ de l'activitat dels particulars. La declaració responsable i la comunicació prèvia (art. 69 de la Llei 39/2015) són tècniques de control posterior que han simplificat molts procediments.",
+      "intro": "Les llicències i autoritzacions administratives són tècniques d'intervenció de control previ de l'activitat dels particulars. La declaració responsable i la comunicació prèvia (art. 69 de la Llei 39/2015) són tècniques de control posterior que han simplificat molts procediments, en línia amb la Directiva de serveis.",
       "sections": [
         {
           "h": "Autoritzacions i llicències",
-          "p": "L'autorització (o llicència) és un acte de control previ que remou un límit o obstacle a l'exercici d'un dret o activitat preexistent del particular, un cop comprovat que es compleixen els requisits. És, en general, un acte reglat. La Directiva de serveis i la legislació de transposició han reduït els supòsits d'autorització en favor de tècniques menys restrictives, exigint que estiguin justificades per raons imperioses d'interès general i siguin proporcionades."
+          "p": "L'autorització (o llicència) és un acte administratiu de control previ pel qual l'Administració, després de comprovar que es compleixen els requisits legals, remou un límit o obstacle a l'exercici d'un dret o activitat preexistent del particular. És, en general, un acte reglat (s'ha d'atorgar si es compleixen els requisits). La normativa exigeix que els règims d'autorització estiguin justificats per raons imperioses d'interès general, siguin proporcionats i no discriminatoris."
         },
         {
           "h": "Declaració responsable i comunicació prèvia",
-          "scheme": {
-            "cap": "Control posterior (art. 69)",
-            "body": "DECLARACIÓ RESPONSABLE → document en què l'interessat\n  manifesta, sota la seva responsabilitat, que compleix els\n  requisits, que disposa de la documentació que ho acredita\n  i que es compromet a mantenir-ho\nCOMUNICACIÓ → posa en coneixement de l'AP les dades per a\n  l'exercici d'un dret o l'inici d'una activitat\n→ TOTES DUES permeten iniciar des de la PRESENTACIÓ\n  (o la data que indiquin), amb CONTROL a posteriori"
-          }
+          "p": "La declaració responsable és el document subscrit per l'interessat en què manifesta, sota la seva responsabilitat, que compleix els requisits establerts per a l'exercici d'un dret o activitat, que disposa de la documentació que ho acredita i que es compromet a mantenir-ne el compliment. La comunicació prèvia és el document mitjançant el qual l'interessat posa en coneixement de l'Administració les seves dades i la resta de requisits per a l'exercici d'un dret o l'inici d'una activitat. Totes dues permeten iniciar l'exercici del dret o activitat des del dia de la presentació (o la data que indiquin), sens perjudici de les facultats de comprovació, control i inspecció a posteriori."
         },
         {
           "h": "Efectes de la inexactitud o falsedat",
-          "p": "La inexactitud, falsedat o omissió, de caràcter essencial, en qualsevol dada o document que s'incorpori a una declaració responsable o comunicació, o la no-presentació de la documentació requerida, determina la impossibilitat de continuar amb l'exercici del dret o activitat des del moment en què se'n tingui constància, sens perjudici de les responsabilitats penals, civils o administratives (art. 69.4). Pot comportar, a més, l'obligació de restituir la situació jurídica al moment previ."
+          "p": "La inexactitud, la falsedat o l'omissió, de caràcter essencial, en qualsevol dada o document que s'incorpori a una declaració responsable o comunicació, o la no-presentació de la documentació requerida, determina la impossibilitat de continuar amb l'exercici del dret o activitat afectat des del moment en què se'n tingui constància, sens perjudici de les responsabilitats penals, civils o administratives que pertoquin (art. 69.4). Pot comportar també l'obligació de l'interessat de restituir la situació jurídica al moment previ."
         },
         {
-          "h": "Aplicació urbanística i d'activitats",
-          "p": "En l'àmbit local, la comunicació prèvia s'aplica a obres i actuacions de menor entitat (art. 187 bis TRLUC) i a activitats de baixa incidència ambiental (Llei 20/2009); la llicència es reserva a les actuacions de més entitat o risc."
-        },
-        {
-          "key": "Cap autorització o silenci atorga facultats contràries a l'ordenament. La declaració responsable i la comunicació permeten iniciar des de la presentació, amb control posterior; la inexactitud essencial impedeix continuar."
+          "h": "Aplicació en l'àmbit local",
+          "p": "La comunicació prèvia s'aplica a les obres i actuacions de menor entitat (art. 187 bis TRLUC) i a les activitats de baixa incidència ambiental (Llei 20/2009); la llicència es reserva a les actuacions de més entitat o risc. Cap autorització ni el silenci no permeten adquirir facultats contràries a l'ordenament."
         }
       ],
-      "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. Inexactitud essencial → impossibilitat de continuar (69.4)."
+      "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. La inexactitud essencial impedeix continuar l'exercici (69.4). En l'àmbit local: comunicació per a actes menors, llicència per als de més entitat."
     },
     "32": {
       "intro": "La gestió indirecta dels serveis públics mitjançant concessió permet que un particular presti, a risc seu, un servei de titularitat pública. Es regula a la legislació de règim local (arts. 85 i ss. LRBRL), al ROAS (D 179/1995) i, pel que fa al contracte, a la LCSP (concessió de serveis).",
