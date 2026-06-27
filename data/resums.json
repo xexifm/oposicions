@@ -479,35 +479,26 @@
       "key": "Menor (118): obres < 40.000 € i serveis/subministraments < 15.000 € (IVA exclòs); durada ≤ 1 any, no prorrogable (29.8). Informe de necessitat (excepte ≤ 5.000 €) + aprovació de la despesa + factura (+ pressupost en obres). Prohibit fraccionar per eludir els llindars."
     },
     "36": {
-      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32-37 de la Llei 40/2015 i 65, 67, 81, 91-92, 96 de la Llei 39/2015.",
+      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32 a 37 de la Llei 40/2015 i en aspectes procedimentals a la Llei 39/2015.",
       "sections": [
         {
           "h": "Requisits",
-          "scheme": {
-            "cap": "Requisits (art. 32 Llei 40/2015)",
-            "body": "1) LESIÓ real, efectiva, avaluable econòmicament i\n   INDIVIDUALITZADA en una persona o grup\n2) ANTIJURIDICITAT → el particular NO té el deure jurídic\n   de suportar el dany\n3) IMPUTACIÓ a l'Administració pel funcionament NORMAL o\n   ANORMAL d'un servei públic\n4) NEXE CAUSAL entre l'actuació i el dany\n5) Absència de FORÇA MAJOR (el cas fortuït SÍ indemnitza)\n→ responsabilitat OBJECTIVA i DIRECTA"
-          }
+          "p": "Perquè neixi la responsabilitat cal (art. 32): una lesió real, efectiva, avaluable econòmicament i individualitzada en relació amb una persona o grup; que la lesió sigui antijurídica, és a dir, que el particular no tingui el deure jurídic de suportar el dany d'acord amb la llei; que sigui imputable a l'Administració pel funcionament normal o anormal d'un servei públic; i un nexe causal entre l'actuació administrativa i el dany. Es tracta d'una responsabilitat objectiva (no exigeix culpa) i directa (respon l'Administració, no el funcionari)."
         },
         {
           "h": "Danys indemnitzables i quantia",
-          "p": "El dany ha de ser efectiu, avaluable i individualitzat; no s'indemnitzen danys que el particular tingui el deure de suportar (p. ex. càrregues generals). La indemnització (art. 34) es calcula segons els criteris de valoració del dret aplicable (expropiació, fiscal, etc.), referida al dia en què la lesió es va produir efectivament, i s'actualitza a la data de la resolució; es pot abonar en metàl·lic o en espècie."
+          "p": "El dany ha de ser efectiu, avaluable i individualitzat; no s'indemnitzen els danys que el particular tingui el deure jurídic de suportar (per exemple, les càrregues generals). La indemnització (art. 34) es calcula amb referència al dia en què la lesió es va produir efectivament, d'acord amb els criteris de valoració del dret aplicable, i s'actualitza a la data en què es posa fi al procediment de responsabilitat; es pot satisfer en metàl·lic o en espècie."
         },
         {
-          "h": "Nexe causal i causes d'exoneració",
-          "p": "Cal acreditar el nexe causal. L'Administració queda exonerada en casos de força major (esdeveniment imprevisible o inevitable, extern al servei) —no així el cas fortuït—. La culpa exclusiva de la víctima o la intervenció d'un tercer poden trencar el nexe causal; la concurrència de causes modula (redueix) la indemnització."
+          "h": "Força major, nexe causal i exoneració",
+          "p": "L'Administració queda exonerada en els casos de força major (esdeveniment imprevisible o, si és previsible, inevitable, i aliè al servei); en canvi, el cas fortuït no exonera. La culpa exclusiva de la víctima o la intervenció determinant d'un tercer poden trencar el nexe causal; la concurrència de diverses causes modula (redueix) la indemnització."
         },
         {
           "h": "Procediment i prescripció",
-          "scheme": {
-            "cap": "Procediment (Llei 39/2015)",
-            "body": "INICIACIÓ → d'ofici o a sol·licitud de l'interessat\nINSTRUCCIÓ → al·legacions, proves, informes; DICTAMEN del\n  Consell consultiu (Comissió Jurídica Assessora) quan la\n  quantia ho exigeixi\nRESOLUCIÓ en 6 mesos (silenci NEGATIU)\nPRESCRIPCIÓ → 1 ANY des del fet o, en danys físics/psíquics,\n  des de la curació o la determinació de les seqüeles"
-          }
-        },
-        {
-          "key": "Lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescriu a l'any (seqüeles: des de l'estabilització). Resolució en 6 mesos, silenci negatiu."
+          "p": "El procediment es pot iniciar d'ofici o a sol·licitud de l'interessat; en la instrucció es practiquen al·legacions, proves i informes, i és preceptiu el dictamen del Consell consultiu (a Catalunya, la Comissió Jurídica Assessora) quan la quantia reclamada ho exigeixi. El termini per resoldre és de sis mesos, transcorregut el qual el silenci és desestimatori. El dret a reclamar prescriu a l'any de produït el fet o l'acte que motivi la indemnització o de manifestar-se'n l'efecte lesiu; en cas de danys físics o psíquics, el termini comença des de la curació o la determinació de l'abast de les seqüeles."
         }
       ],
-      "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal/anormal) + nexe causal − força major. Prescripció 1 any (seqüeles des de l'estabilització). Resolució 6 mesos, silenci negatiu."
+      "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal o anormal) + nexe causal − força major (el cas fortuït no exonera). Resolució en 6 mesos (silenci negatiu). Prescripció: 1 any (en danys físics, des de l'estabilització de les seqüeles)."
     },
     "44": {
       "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc. ATENCIÓ: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31-12-2025.",
@@ -924,142 +915,115 @@
       "key": "Autorització/llicència = control previ (acte reglat). Declaració responsable i comunicació prèvia (art. 69) = inici des de la presentació + control posterior. La inexactitud essencial impedeix continuar l'exercici (69.4). En l'àmbit local: comunicació per a actes menors, llicència per als de més entitat."
     },
     "32": {
-      "intro": "La gestió indirecta dels serveis públics mitjançant concessió permet que un particular presti, a risc seu, un servei de titularitat pública. Es regula a la legislació de règim local (arts. 85 i ss. LRBRL), al ROAS (D 179/1995) i, pel que fa al contracte, a la LCSP (concessió de serveis).",
+      "intro": "La gestió indirecta dels serveis públics mitjançant concessió permet que un particular presti, al seu risc, un servei de titularitat pública. Es regula a la legislació de règim local (arts. 85 i següents de la LRBRL), al Reglament d'obres, activitats i serveis dels ens locals (ROAS, D 179/1995) i, pel que fa al contracte, a la LCSP (concessió de serveis).",
       "sections": [
         {
           "h": "Concepte i naturalesa",
-          "p": "La concessió de serveis públics és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació a un concessionari que la realitza al seu risc i ventura, retribuint-se amb les tarifes dels usuaris i/o un preu. No es poden gestionar de manera indirecta els serveis que impliquin exercici d'autoritat."
+          "p": "La concessió de serveis públics és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació del servei a un concessionari que el gestiona al seu risc i ventura, retribuint-se mitjançant les tarifes dels usuaris o un preu. No es poden gestionar de manera indirecta els serveis que impliquin l'exercici de l'autoritat inherent als poders públics."
         },
         {
-          "h": "Elements i potestats",
-          "scheme": {
-            "cap": "Concessió de servei públic",
-            "body": "ELEMENTS → subjecte (concessionari), objecte (el servei),\n  i la relació triangular AP–concessionari–usuaris\nPOTESTATS DE L'AP → ordenar i modificar el servei,\n  fiscalitzar-lo, imposar sancions contractuals, rescatar,\n  segrestar (intervenir temporalment), i extingir\nDRETS del concessionari → percebre la retribució i mantenir\n  l'equilibri econòmic"
-          }
+          "h": "Potestats de l'Administració",
+          "p": "Encara que la gestió sigui privada, l'Administració conserva potestats sobre el servei: ordenar-lo i modificar-lo per raons d'interès públic (ius variandi), fiscalitzar-ne la prestació, imposar les sancions contractuals previstes, rescatar la concessió (assumir-ne la gestió directa abans del termini), segrestar o intervenir el servei temporalment en cas d'incompliment greu que en posi en perill la prestació, i extingir la concessió."
         },
         {
-          "h": "Relacions amb les persones usuàries",
-          "p": "El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, admetre-hi qualsevol usuari que compleixi els requisits reglamentaris i aplicar les tarifes aprovades. Els usuaris tenen dret a la prestació en aquestes condicions i a reclamar; l'Administració garanteix el servei (responsabilitat última)."
+          "h": "Drets del concessionari i relacions amb els usuaris",
+          "p": "El concessionari té dret a percebre la retribució pactada i a mantenir l'equilibri econòmic de la concessió. Ha de prestar el servei amb continuïtat, regularitat i igualtat, admetre-hi qualsevol usuari que reuneixi els requisits i aplicar les tarifes aprovades. Les persones usuàries tenen dret a rebre la prestació en aquestes condicions i a formular reclamacions; l'Administració respon, en última instància, de la garantia del servei."
         },
         {
           "h": "Extinció",
-          "p": "S'extingeix per: compliment del termini (amb reversió del servei i, si escau, dels béns afectes a l'Administració en bon estat); rescat; caducitat per incompliment del concessionari; resolució per altres causes; o supressió del servei. L'extinció anticipada por generar indemnització."
-        },
-        {
-          "key": "Concessió: titularitat pública + gestió privada a risc. L'AP conserva potestats d'ordenació, control, modificació i rescat. Extinció amb reversió."
+          "p": "La concessió s'extingeix per: compliment del termini (amb la reversió del servei i, si escau, dels béns afectes a l'Administració, que han de revertir en bon estat de conservació); rescat; caducitat per incompliment greu del concessionari; resolució per altres causes previstes; i supressió del servei per raons d'interès públic. L'extinció anticipada pot generar dret a indemnització."
         }
       ],
-      "key": "Concessió de servei públic (gestió indirecta): titularitat pública, gestió a risc del concessionari. Potestats de l'AP (ordenar, modificar, rescatar, segrestar). Usuaris: prestació en condicions i tarifes. Extinció amb reversió."
+      "key": "Concessió de servei públic (gestió indirecta): titularitat pública i gestió privada a risc del concessionari. L'AP conserva potestats (ordenar, modificar, fiscalitzar, rescatar, segrestar). Usuaris: prestació en condicions i tarifes aprovades. Extinció: termini (amb reversió), rescat, caducitat, resolució, supressió."
     },
     "33": {
-      "intro": "A més de la concessió, hi ha altres formes de gestió, directa i indirecta, dels serveis públics. La LRBRL (art. 85) i el ROAS regulen les modalitats i l'elecció ha de respondre a criteris d'eficiència i sostenibilitat.",
+      "intro": "A més de la concessió, hi ha altres formes de gestió, directa i indirecta, dels serveis públics. L'art. 85 de la LRBRL i el ROAS en regulen les modalitats, i l'elecció ha de respondre a criteris d'eficiència i sostenibilitat.",
       "sections": [
         {
-          "h": "Formes de gestió",
-          "scheme": {
-            "cap": "Gestió de serveis públics (art. 85 LRBRL)",
-            "body": "DIRECTA →\n  • per la pròpia entitat local (sense òrgan diferenciat)\n  • organisme autònom local\n  • entitat pública empresarial local\n  • societat mercantil local de capital ÍNTEGRAMENT públic\nINDIRECTA → mitjançant contracte (concessió de serveis i\n  altres modalitats), gestió interessada, societat\n  d'economia mixta"
-          }
-        },
-        {
-          "h": "Gestió interessada i economia mixta",
+          "h": "Gestió directa",
           "list": [
-            "Gestió interessada: l'empresari i l'Administració participen en els resultats de l'explotació segons una proporció prèviament fixada.",
-            "Societat d'economia mixta: societat mercantil amb capital públic i privat que gestiona el servei.",
-            "Cooperatives o altres entitats amb capital mixt segons la legislació."
+            "Per la pròpia entitat local, sense òrgan especial diferenciat.",
+            "Mitjançant un organisme autònom local.",
+            "Mitjançant una entitat pública empresarial local.",
+            "Mitjançant una societat mercantil local de capital social íntegrament públic."
           ]
         },
         {
-          "h": "Elecció de la forma de gestió",
-          "p": "L'elecció ha de motivar-se atenent l'eficiència i la sostenibilitat (per a la gestió directa mitjançant entitat pública empresarial o societat, cal acreditar-ne la sostenibilitat i eficiència amb una memòria i informes, art. 85.2 LRBRL). Els serveis que comportin exercici d'autoritat es reserven a la gestió per la pròpia entitat o organisme autònom."
+          "h": "Gestió indirecta",
+          "p": "S'articula mitjançant les diferents modalitats de contracte previstes a la LCSP, especialment la concessió de serveis, i també a través de la gestió interessada i de la societat d'economia mixta. La gestió interessada és aquella en què l'empresari i l'Administració participen en els resultats de l'explotació del servei segons una proporció prèviament fixada. La societat d'economia mixta és una societat mercantil amb capital parcialment públic i parcialment privat."
         },
         {
-          "key": "Gestió directa: pròpia entitat, OA, EPE o societat 100% pública. Indirecta: concessió, gestió interessada, economia mixta. L'autoritat → gestió directa per entitat/OA. Elecció motivada (eficiència/sostenibilitat)."
+          "h": "Elecció de la forma de gestió",
+          "p": "L'elecció de la forma de gestió s'ha de motivar. Per a la gestió directa mitjançant una entitat pública empresarial o una societat de capital íntegrament públic, l'art. 85.2 LRBRL exigeix acreditar, amb una memòria i els informes preceptius, que aquesta forma és més sostenible i eficient que les altres alternatives. Els serveis que impliquin exercici d'autoritat només es poden prestar per gestió directa de la pròpia entitat o d'un organisme autònom."
+        },
+        {
+          "h": "Reserva de serveis",
+          "p": "Determinades activitats o serveis essencials (com l'abastament d'aigua, la gestió de residus o el transport públic) poden ser reservats a favor de les entitats locals; la seva prestació en règim de monopoli requereix l'aprovació de l'òrgan competent de la comunitat autònoma."
         }
       ],
-      "key": "Gestió de serveis (85 LRBRL): directa (pròpia entitat/OA/EPE/societat 100% pública) o indirecta (concessió, gestió interessada, economia mixta). Autoritat → directa. Elecció motivada per eficiència i sostenibilitat."
+      "key": "Gestió directa: pròpia entitat, organisme autònom, entitat pública empresarial o societat de capital 100% públic. Gestió indirecta: concessió, gestió interessada, economia mixta. Autoritat → només gestió directa (entitat o OA). Elecció motivada (memòria d'eficiència i sostenibilitat, 85.2)."
     },
     "34": {
-      "intro": "Els consorcis són entitats de dret públic, de base associativa, creades per diverses administracions (o amb entitats privades sense ànim de lucre) per a finalitats d'interès comú. Es regulen als arts. 118-127 de la Llei 40/2015.",
+      "intro": "Els consorcis són entitats de dret públic, de base associativa, dotades de personalitat jurídica pròpia, creades per diverses administracions públiques (o per administracions amb entitats privades sense ànim de lucre) per a la consecució de finalitats d'interès comú. Es regulen als arts. 118 a 127 de la Llei 40/2015.",
       "sections": [
         {
-          "h": "Naturalesa",
-          "p": "El consorci té personalitat jurídica pròpia i diferenciada; pot dur a terme activitats de foment, prestació o gestió comuna de serveis i altres d'interès comú per a les administracions o entitats consorciades. El seu personal pot procedir de les administracions participants i es regeix per la normativa de l'administració d'adscripció."
+          "h": "Naturalesa i activitat",
+          "p": "El consorci pot dur a terme activitats de foment, prestacionals o de gestió comuna de serveis públics i altres d'interès comú per a les entitats consorciades. Té personalitat jurídica diferenciada de la de les administracions que l'integren. El seu personal pot procedir de les administracions participants i es regeix per la normativa de l'administració d'adscripció."
         },
         {
-          "h": "Creació, estatuts i adscripció",
-          "scheme": {
-            "cap": "Règim del consorci",
-            "body": "CREACIÓ → conveni de creació + ESTATUTS (organització,\n  funcionament, fins)\nADSCRIPCIÓ (art. 120) → a una de les administracions\n  participants segons criteris ordenats (control efectiu,\n  finançament majoritari, nombre de vots...)\n→ l'adscripció determina el RÈGIM pressupostari, comptable,\n  de control i de personal aplicable"
-          }
+          "h": "Creació i estatuts",
+          "p": "El consorci es crea mitjançant un conveni signat per les administracions o entitats que l'integren, al qual s'incorporen els seus estatuts. Els estatuts determinen l'administració d'adscripció, l'organització (òrgans de govern i d'administració), el règim de funcionament, els fins i les particularitats del règim orgànic, funcional i financer."
+        },
+        {
+          "h": "Adscripció",
+          "p": "Els estatuts han de determinar a quina administració pública queda adscrit el consorci, d'acord amb els criteris ordenats de l'art. 120 (control efectiu de la gestió, finançament majoritari de les activitats, nombre de vots als òrgans de govern, etc.). L'adscripció és cabdal perquè determina el règim pressupostari, comptable, de control econòmic i de personal que se li aplica (el de l'administració d'adscripció)."
         },
         {
           "h": "Funcionament i dissolució",
-          "p": "Els òrgans i el funcionament es fixen als estatuts; el règim jurídic és el de l'administració d'adscripció en pressupost, comptabilitat i control. El consorci es dissol per acord o per les causes estatutàries; la dissolució determina com es liquiden els seus actius i passius i el destí del patrimoni."
-        },
-        {
-          "key": "Consorci: ens públic associatiu d'interès comú. Creació amb conveni + estatuts. L'adscripció (art. 120) a una administració fixa el seu règim pressupostari i de control."
+          "p": "El consorci es regeix pels seus estatuts i per la legislació de règim jurídic del sector públic i de règim local. Es dissol per acord dels membres o per les causes previstes als estatuts; la dissolució determina la forma de liquidació dels actius i passius i el destí del patrimoni resultant, que normalment reverteix a les entitats consorciades en proporció a les seves aportacions."
         }
       ],
-      "key": "Consorcis (118-127 Llei 40/2015): ens públics associatius d'interès comú, amb personalitat pròpia. Creació: conveni + estatuts. Adscripció (120) a una AP → règim pressupostari/comptable/personal."
+      "key": "Consorcis (118-127 Llei 40/2015): entitats públiques associatives d'interès comú amb personalitat pròpia. Creació: conveni + estatuts. L'adscripció a una administració (art. 120, per criteris de control/finançament) determina el règim pressupostari, comptable, de control i de personal."
     },
     "35": {
-      "intro": "Les subvencions són disposicions dineràries a favor de persones o entitats per a una finalitat pública, sense contraprestació directa. La Llei 38/2003, general de subvencions (LGS), i el seu reglament n'estableixen el règim; els ens locals també tenen normativa pròpia (ordenances de subvencions).",
+      "intro": "Les subvencions són disposicions dineràries a favor de persones o entitats públiques o privades per a una finalitat pública o d'interès social, sense contraprestació directa. La Llei 38/2003, general de subvencions (LGS), i el seu reglament n'estableixen el règim, completat per les ordenances locals.",
       "sections": [
         {
           "h": "Concepte i principis",
-          "scheme": {
-            "cap": "Subvenció (LGS)",
-            "body": "REQUISITS → lliurament sense contraprestació directa,\n  subjecte al compliment d'un objectiu/projecte, i que el\n  projecte tingui per objecte el foment d'una activitat\n  d'utilitat pública o interès social\nPRINCIPIS → publicitat, transparència, concurrència,\n  objectivitat, igualtat i no discriminació; eficàcia i\n  eficiència"
-          }
+          "p": "Es considera subvenció tota disposició dinerària feta a favor de persones públiques o privades que compleixi tres requisits: que el lliurament es faci sense contraprestació directa dels beneficiaris; que estigui subjecte al compliment d'un objectiu, l'execució d'un projecte o l'adopció d'un comportament; i que el projecte o l'activitat tingui per objecte el foment d'una activitat d'utilitat pública o interès social. La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat i no-discriminació, eficàcia i eficiència."
         },
         {
           "h": "Pla estratègic i procediment de concessió",
-          "scheme": {
-            "cap": "Concessió de subvencions",
-            "body": "PLA ESTRATÈGIC de subvencions (previ, art. 8)\nBASES reguladores + CONVOCATÒRIA\nProcediment ORDINARI → CONCURRÈNCIA COMPETITIVA (comparació\n  de sol·licituds segons criteris i prelació)\nConcessió DIRECTA (art. 22.2) → només en supòsits taxats:\n  • subvencions NOMINATIVES als pressupostos\n  • imposades per una norma de rang legal\n  • excepcionals per interès públic, social, econòmic o\n    humanitari acreditat"
-          }
+          "p": "Amb caràcter previ a l'atorgament, cal aprovar un pla estratègic de subvencions (art. 8), que concreta els objectius i els efectes que es pretenen, així com les bases reguladores i la convocatòria. El procediment ordinari de concessió és la concurrència competitiva: es comparen les sol·licituds presentades per establir-ne una prelació d'acord amb els criteris de valoració fixats, i s'adjudiquen amb el límit del crèdit disponible. La concessió directa (art. 22.2) només és admissible en supòsits taxats: subvencions previstes nominativament als pressupostos, les imposades per una norma de rang legal i, excepcionalment, aquelles en què s'acreditin raons d'interès públic, social, econòmic o humanitari que dificultin la convocatòria pública."
         },
         {
           "h": "Obligacions del beneficiari i justificació",
-          "p": "El beneficiari ha de complir l'objectiu i destinar la subvenció a la finalitat concreta, justificar el compliment dels requisits i la realització de l'activitat i la despesa, sotmetre's a les actuacions de comprovació i control, comunicar altres ajuts i, si escau, acreditar estar al corrent d'obligacions tributàries i amb la Seguretat Social."
+          "p": "El beneficiari ha de complir l'objectiu i destinar la subvenció a la finalitat concreta per a la qual es va concedir; justificar davant l'òrgan concedent el compliment dels requisits i la realització de l'activitat i de la despesa; sotmetre's a les actuacions de comprovació i control; comunicar l'obtenció d'altres subvencions; i acreditar, si escau, que està al corrent de les obligacions tributàries i amb la Seguretat Social."
         },
         {
           "h": "Reintegrament i règim sancionador",
-          "scheme": {
-            "cap": "Reintegrament (art. 37)",
-            "body": "CAUSES → incompliment de l'objectiu/finalitat, falta o\n  insuficiència de justificació, obtenció sense complir\n  condicions, resistència al control...\nEFECTE → reintegrament de la quantia + INTERÈS DE DEMORA\n  des del pagament\nPROPORCIONALITAT → reintegrament PARCIAL segons el grau\n  d'incompliment\n+ règim SANCIONADOR independent (infraccions i sancions)"
-          }
-        },
-        {
-          "key": "Concurrència competitiva (regla); concessió directa només taxada. Reintegrament per incompliment o falta de justificació, amb interès de demora i proporcionalitat."
+          "p": "Procedeix el reintegrament de les quantitats percebudes i l'exigència de l'interès de demora des del moment del pagament (art. 37) en casos com l'incompliment total o parcial de l'objectiu o de la finalitat, la falta de justificació o la justificació insuficient, l'obtenció de la subvenció sense reunir les condicions, o la resistència a les actuacions de control. El reintegrament pot ser parcial, atenent el principi de proporcionalitat segons el grau d'incompliment. Tot això és independent del règim sancionador en matèria de subvencions, que es tramita per separat."
         }
       ],
-      "key": "Subvencions (LGS 38/2003): fons sense contraprestació per a un fi. Principis: publicitat/concurrència/objectivitat. Pla estratègic + bases + convocatòria; concurrència competitiva (regla), directa (taxada). Reintegrament (37) + interès de demora."
+      "key": "Subvencions (LGS 38/2003): fons sense contraprestació per a un fi d'utilitat pública. Principis: publicitat, concurrència, objectivitat. Pla estratègic (8) + bases + convocatòria; concurrència competitiva (regla), concessió directa (taxada, 22.2). Reintegrament (37) per incompliment o falta de justificació, amb interès de demora i proporcionalitat."
     },
     "37": {
-      "intro": "La responsabilitat de les autoritats i del personal al servei de les administracions completa el règim de responsabilitat patrimonial: regula com l'Administració exigeix responsabilitats al seu personal i la responsabilitat en supòsits especials (art. 36 Llei 40/2015).",
+      "intro": "La responsabilitat de les autoritats i del personal al servei de les administracions completa el règim de la responsabilitat patrimonial: regula com l'Administració exigeix responsabilitats al seu personal i la responsabilitat en supòsits especials (art. 36 de la Llei 40/2015).",
       "sections": [
         {
           "h": "Responsabilitat davant els particulars",
-          "p": "Els particulars exigeixen la responsabilitat directament a l'Administració (no poden demandar directament l'autoritat o el personal). L'Administració respon, doncs, davant el tercer perjudicat; un cop indemnitza, pot exercir l'acció de regrés."
+          "p": "Els particulars exigeixen la responsabilitat directament a l'Administració corresponent; no poden demandar directament l'autoritat o el personal causant del dany. L'Administració, doncs, respon davant el tercer perjudicat de manera directa i, un cop l'ha indemnitzat, pot exercir l'acció de regrés contra el seu personal."
         },
         {
           "h": "Acció de regrés",
-          "scheme": {
-            "cap": "Regrés contra el personal (art. 36)",
-            "body": "D'OFICI i OBLIGATORI → l'AP exigeix d'ofici al seu personal\n  la responsabilitat quan hagi indemnitzat i hi hagi hagut\n  DOL o CULPA o NEGLIGÈNCIA GREUS\nCRITERIS de ponderació → resultat danyós, grau de\n  culpabilitat, responsabilitat professional i relació amb\n  la producció del dany\nPROCEDIMENT amb audiència; possibilitat de fraccionar"
-          }
+          "p": "L'exigència de responsabilitat al personal és d'ofici i obligatòria: l'Administració, després d'haver indemnitzat, ha d'exigir d'ofici al personal al seu servei la responsabilitat en què hagi incorregut per dol, o culpa o negligència greus (art. 36.2). Per ponderar-la es tenen en compte el resultat danyós produït, el grau de culpabilitat, la responsabilitat professional del personal i la seva relació amb la producció del resultat. El procediment es tramita amb audiència de l'interessat."
         },
         {
-          "h": "Responsabilitat penal i altres",
-          "p": "Si el dany deriva d'un delicte, l'exigència de responsabilitat civil es pot fer en el procés penal, amb l'Administració com a responsable civil subsidiària. La responsabilitat disciplinària del personal és independent de la patrimonial. També existeix responsabilitat de l'Estat legislador (per lleis inconstitucionals o contràries al dret de la UE, amb requisits, art. 32.3-32.6) i per error judicial."
-        },
-        {
-          "key": "El ciutadà reclama a l'Administració; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus. La responsabilitat penal i la disciplinària són independents."
+          "h": "Responsabilitat penal i altres supòsits",
+          "p": "Si el dany deriva d'un delicte, la responsabilitat civil es pot exigir en el procés penal, amb l'Administració com a responsable civil subsidiari. La responsabilitat disciplinària del personal és independent de la patrimonial. La Llei 40/2015 regula també la responsabilitat de l'Estat legislador (pels danys derivats de l'aplicació de normes amb rang de llei declarades inconstitucionals o contràries al dret de la UE, amb els requisits dels arts. 32.3 a 32.6) i la responsabilitat de l'Administració de justícia per error judicial o funcionament anormal."
         }
       ],
-      "key": "Responsabilitat del personal (36): el ciutadà reclama a l'AP; aquesta exigeix d'ofici regrés al personal només per dol o culpa/negligència greus. AP = responsable civil subsidiari en via penal. Responsabilitat de l'Estat legislador (32.3-6)."
+      "key": "Responsabilitat del personal (art. 36): el ciutadà reclama a l'Administració; aquesta exigeix d'ofici el regrés al personal només per dol o culpa/negligència greus. En via penal, l'AP és responsable civil subsidiari. Responsabilitat de l'Estat legislador (32.3-6) i per error judicial."
     },
     "38": {
       "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988 (Reglament del patrimoni dels ens locals).",
