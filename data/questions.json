@@ -6,141 +6,6 @@
   },
   "questions": [
     {
-      "theme": 10,
-      "block": 2,
-      "q": "Quan un termini està fixat en dies i no s'indica res més, s'entén que es tracta de dies:",
-      "options": [
-        "Naturals",
-        "Hàbils, excloent dissabtes, diumenges i festius",
-        "Laborables incloent dissabtes",
-        "De calendari escolar"
-      ],
-      "correct": 1,
-      "explain": "Art. 30.2 Llei 39/2015: si els terminis s'assenyalen en dies, s'entenen hàbils, i s'exclouen dissabtes, diumenges i festius.",
-      "source": "L39_2015",
-      "article": "art. 30.2 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "Si el darrer dia d'un termini és inhàbil:",
-      "options": [
-        "El termini venç igualment",
-        "S'entén prorrogat al primer dia hàbil següent",
-        "S'anul·la el procediment",
-        "Es redueix a la meitat"
-      ],
-      "correct": 1,
-      "explain": "Art. 30.5 Llei 39/2015: si el darrer dia és inhàbil, el termini s'entén prorrogat al primer dia hàbil següent.",
-      "source": "L39_2015",
-      "article": "art. 30.5 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "El recurs d'alçada s'interposa:",
-      "options": [
-        "Davant el mateix òrgan que va dictar l'acte",
-        "Davant l'òrgan superior jeràrquic del que el va dictar",
-        "Davant el jutjat contenciós",
-        "Davant el Defensor del Poble"
-      ],
-      "correct": 1,
-      "explain": "Art. 121 Llei 39/2015: l'alçada s'interposa contra actes que no exhaureixen la via administrativa, davant el superior jeràrquic.",
-      "source": "L39_2015",
-      "article": "art. 121 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "El termini per interposar el recurs potestatiu de reposició contra un acte exprés és de:",
-      "options": [
-        "10 dies",
-        "15 dies",
-        "1 mes",
-        "3 mesos"
-      ],
-      "correct": 2,
-      "explain": "Art. 124 Llei 39/2015: el termini de reposició és d'1 mes si l'acte és exprés.",
-      "source": "L39_2015",
-      "article": "art. 124 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "El recurs extraordinari de revisió procedeix:",
-      "options": [
-        "Per qualsevol disconformitat amb l'acte",
-        "Per causes taxades (error de fet, aparició de documents, etc.) contra actes ferms",
-        "Sempre dins el termini d'un any sense causa",
-        "Només contra reglaments"
-      ],
-      "correct": 1,
-      "explain": "Art. 125 Llei 39/2015: el recurs extraordinari de revisió s'interposa contra actes ferms en via administrativa per les circumstàncies taxades.",
-      "source": "L39_2015",
-      "article": "art. 125 Llei 39/2015"
-    },
-    {
-      "theme": 12,
-      "block": 3,
-      "q": "El pressupost de les entitats locals té caràcter:",
-      "options": [
-        "Bianual",
-        "Anual, coincidint amb l'any natural",
-        "Quadriennal",
-        "Indefinit"
-      ],
-      "correct": 1,
-      "explain": "L'exercici pressupostari coincideix amb l'any natural (art. 163 TRLHL).",
-      "source": "TRLHL",
-      "article": "art. 163 TRLHL"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "El principi pressupostari segons el qual els ingressos no es destinen a despeses concretes s'anomena:",
-      "options": [
-        "Especialitat",
-        "No-afectació (universalitat de caixa)",
-        "Anualitat",
-        "Publicitat"
-      ],
-      "correct": 1,
-      "explain": "El principi de no-afectació estableix que els recursos s'destinen a satisfer el conjunt de les obligacions, llevat d'ingressos específicament afectats.",
-      "source": "TRLHL",
-      "article": "art. 165 TRLHL"
-    },
-    {
-      "theme": 14,
-      "block": 4,
-      "q": "L'aprovació d'ordenances i reglaments locals exigeix, en el procediment ordinari:",
-      "options": [
-        "Aprovació inicial del Ple, informació pública i aprovació definitiva",
-        "Només decret de l'Alcalde",
-        "Autorització de la Generalitat",
-        "Referèndum obligatori"
-      ],
-      "correct": 0,
-      "explain": "Art. 49 LRBRL: aprovació inicial pel Ple, informació pública i audiència (mín. 30 dies), resolució d'al·legacions i aprovació definitiva.",
-      "source": "LRBRL",
-      "article": "art. 49 LRBRL"
-    },
-    {
-      "theme": 14,
-      "block": 4,
-      "q": "Les ordenances locals entren en vigor:",
-      "options": [
-        "El dia de l'aprovació inicial",
-        "Un cop publicat íntegrament el text al BOP i transcorregut el termini de l'art. 65.2 LRBRL",
-        "Quan ho decideix l'Alcalde",
-        "Immediatament després del Ple"
-      ],
-      "correct": 1,
-      "explain": "Cal la publicació íntegra al butlletí oficial de la província i que hagi transcorregut el termini de 15 dies hàbils de l'art. 65.2 LRBRL.",
-      "source": "LRBRL",
-      "article": "arts. 70.2 i 65.2 LRBRL"
-    },
-    {
       "theme": 16,
       "block": 6,
       "q": "Les dades de salut, segons el RGPD, són:",
@@ -651,21 +516,6 @@
       "article": "RD 171/2004"
     },
     {
-      "theme": 12,
-      "block": 3,
-      "q": "El pressupost com a instrument de planificació expressa:",
-      "options": [
-        "Només els ingressos",
-        "Les obligacions que com a màxim es poden reconèixer i els drets que es preveuen liquidar",
-        "Únicament el deute",
-        "Les sancions previstes"
-      ],
-      "correct": 1,
-      "explain": "El pressupost és l'expressió xifrada, conjunta i sistemàtica de les obligacions (crèdits, límit màxim de despesa) i dels drets que es preveuen liquidar (art. 162 TRLHL).",
-      "source": "TRLHL",
-      "article": "art. 162 TRLHL"
-    },
-    {
       "theme": 41,
       "block": 3,
       "q": "Els crèdits per a despeses es destinen exclusivament:",
@@ -771,21 +621,6 @@
       "article": "codi de conducta, Llei 19/2014"
     },
     {
-      "theme": 13,
-      "block": 3,
-      "q": "El projecte de pressupost general de l'entitat local el forma i el tramet al Ple:",
-      "options": [
-        "El secretari",
-        "El president (Alcalde)",
-        "L'interventor en solitari",
-        "La Generalitat"
-      ],
-      "correct": 1,
-      "explain": "Art. 168 TRLHL: el pressupost el forma el president de l'entitat i l'eleva al Ple per a la seva aprovació.",
-      "source": "TRLHL",
-      "article": "art. 168 TRLHL"
-    },
-    {
       "theme": 18,
       "block": 7,
       "q": "Una situació administrativa del funcionari és:",
@@ -874,81 +709,6 @@
       "explain": "Art. 32.1 Llei 40/2015: els particulars no tenen dret a indemnització en els casos de força major (que sí exonera, a diferència del cas fortuït).",
       "source": "L40_2015",
       "article": "art. 32.1 Llei 40/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "Les notificacions electròniques s'entenen rebutjades si:",
-      "options": [
-        "Mai es rebutgen",
-        "Transcorren 10 dies naturals des de la posada a disposició sense accedir-hi",
-        "Passen 3 mesos",
-        "L'interessat ho diu"
-      ],
-      "correct": 1,
-      "explain": "Art. 43.2: la notificació electrònica s'entén rebutjada si passen 10 dies naturals sense accedir al contingut.",
-      "source": "L39_2015",
-      "article": "art. 43.2 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "Els registres administratius han de ser:",
-      "options": [
-        "Únicament presencials",
-        "Electrònics i interoperables, amb assentaments d'entrada i sortida",
-        "Secrets",
-        "Optatius"
-      ],
-      "correct": 1,
-      "explain": "Art. 16: cada Administració disposa d'un registre electrònic general d'entrada i sortida de documents.",
-      "source": "L39_2015",
-      "article": "art. 16 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "Posen fi a la via administrativa, entre d'altres:",
-      "options": [
-        "Tots els actes de tràmit",
-        "Les resolucions dels recursos d'alçada i els actes que resolguin reposició",
-        "Cap acte municipal",
-        "Només els reglaments"
-      ],
-      "correct": 1,
-      "explain": "Art. 114 Llei 39/2015 i art. 52 LRBRL: les resolucions d'alçada i els actes de l'Alcalde/Ple exhaureixen la via.",
-      "source": "L39_2015",
-      "article": "art. 114 Llei 39/2015"
-    },
-    {
-      "theme": 12,
-      "block": 3,
-      "q": "L'estabilitat pressupostària implica:",
-      "options": [
-        "Dèficit lliure",
-        "Una situació d'equilibri o superàvit estructural",
-        "Endeutament il·limitat",
-        "No retre comptes"
-      ],
-      "correct": 1,
-      "explain": "La LO 2/2012 d'estabilitat pressupostària imposa l'equilibri o superàvit i la sostenibilitat financera.",
-      "source": "TRLHL",
-      "article": "LO 2/2012"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "Contra l'aprovació definitiva del pressupost es pot interposar:",
-      "options": [
-        "Recurs d'alçada",
-        "Recurs contenciós administratiu directament",
-        "Reposició obligatòria",
-        "Cap recurs"
-      ],
-      "correct": 1,
-      "explain": "Art. 171 TRLHL: contra l'aprovació definitiva del pressupost s'interposa directament recurs contenciós.",
-      "source": "TRLHL",
-      "article": "art. 171 TRLHL"
     },
     {
       "theme": 40,
@@ -1521,36 +1281,6 @@
       "article": "art. 32 bis LPRL"
     },
     {
-      "theme": 14,
-      "block": 4,
-      "q": "Els bans de l'Alcalde:",
-      "options": [
-        "Són normes amb rang de llei",
-        "Són disposicions de l'Alcalde de caràcter ordinari o de necessitat",
-        "Aproven tributs",
-        "Substitueixen ordenances"
-      ],
-      "correct": 1,
-      "explain": "Els bans els dicta l'Alcalde en matèries de la seva competència (recordatoris o mesures urgents).",
-      "source": "LRBRL",
-      "article": "art. 21 LRBRL"
-    },
-    {
-      "theme": 14,
-      "block": 4,
-      "q": "Les ordenances fiscals s'aproven seguint:",
-      "options": [
-        "El procediment de l'art. 49 LRBRL exclusivament",
-        "El procediment específic del TRLHL (arts. 15-19)",
-        "Un decret d'Alcaldia",
-        "Cap procediment"
-      ],
-      "correct": 1,
-      "explain": "Les ordenances fiscals segueixen el procediment dels arts. 15-19 TRLHL (aprovació provisional, exposició 30 dies, definitiva).",
-      "source": "TRLHL",
-      "article": "arts. 15-19 TRLHL"
-    },
-    {
       "theme": 19,
       "block": 8,
       "q": "Els convenis interadministratius tenen una durada:",
@@ -1971,21 +1701,6 @@
       "article": "art. 10 RD 171/2004"
     },
     {
-      "theme": 12,
-      "block": 3,
-      "q": "El principi de sostenibilitat financera exigeix:",
-      "options": [
-        "Endeutar-se sense límit",
-        "Finançar despeses presents i futures dins dels límits de dèficit i deute",
-        "Gastar tot el superàvit",
-        "No fer pressupost"
-      ],
-      "correct": 1,
-      "explain": "La sostenibilitat financera (LO 2/2012) limita el deute i el dèficit de les administracions.",
-      "source": "TRLHL",
-      "article": "LO 2/2012"
-    },
-    {
       "theme": 40,
       "block": 3,
       "q": "El romanent de tresoreria és:",
@@ -1999,96 +1714,6 @@
       "explain": "El romanent de tresoreria mesura els recursos líquids (o el dèficit) a final d'exercici per a finançament.",
       "source": "TRLHL",
       "article": "art. 191 TRLHL"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "L'estructura del pressupost per programes permet:",
-      "options": [
-        "Amagar despeses",
-        "Vincular els crèdits a objectius i activitats (orientació a resultats)",
-        "Eliminar el control",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "La classificació per programes vincula la despesa a objectius i activitats, facilitant l'avaluació.",
-      "source": "TRLHL",
-      "article": "art. 167 TRLHL"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "El termini per resoldre i notificar el recurs d'alçada és de:",
-      "options": [
-        "10 dies",
-        "3 mesos (transcorreguts, silenci negatiu)",
-        "6 mesos",
-        "1 any"
-      ],
-      "correct": 1,
-      "explain": "Art. 122 Llei 39/2015: el termini per resoldre l'alçada és de 3 mesos; el silenci és desestimatori.",
-      "source": "L39_2015",
-      "article": "art. 122 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "El registre electrònic és accessible:",
-      "options": [
-        "En horari d'oficina",
-        "Tots els dies de l'any, 24 hores",
-        "Només dies hàbils",
-        "Mai els festius"
-      ],
-      "correct": 1,
-      "explain": "Art. 31 Llei 39/2015: el registre electrònic permet la presentació qualsevol dia i hora.",
-      "source": "L39_2015",
-      "article": "art. 31 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "Contra una resolució que resol un recurs de reposició:",
-      "options": [
-        "Es pot interposar nova reposició",
-        "No es pot tornar a interposar reposició; queda la via contenciosa",
-        "Cal una altra alçada",
-        "No hi ha recurs"
-      ],
-      "correct": 1,
-      "explain": "Art. 124.3 Llei 39/2015: contra la resolució d'un recurs de reposició no es pot tornar a interposar reposició.",
-      "source": "L39_2015",
-      "article": "art. 124.3 Llei 39/2015"
-    },
-    {
-      "theme": 12,
-      "block": 3,
-      "q": "El principi d'unitat de caixa implica:",
-      "options": [
-        "Caixes separades per àrea",
-        "La centralització de tots els fons i el seu destí conjunt",
-        "Tresoreries privades",
-        "No tenir tresoreria"
-      ],
-      "correct": 1,
-      "explain": "La unitat de caixa centralitza tots els recursos per atendre el conjunt de les obligacions.",
-      "source": "TRLHL",
-      "article": "principis pressupostaris"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "La documentació annexa al pressupost inclou:",
-      "options": [
-        "Només el sou de l'Alcalde",
-        "La liquidació de l'exercici anterior i l'avanç de la corrent, entre d'altres",
-        "Cap document",
-        "Les actes del Ple"
-      ],
-      "correct": 1,
-      "explain": "Art. 168 TRLHL: s'hi adjunta la liquidació de l'exercici anterior i l'avanç de la corrent, memòria, informe econòmic, etc.",
-      "source": "TRLHL",
-      "article": "art. 168 TRLHL"
     },
     {
       "theme": 40,
@@ -2631,51 +2256,6 @@
       "article": "presa de decisions"
     },
     {
-      "theme": 10,
-      "block": 2,
-      "q": "Els terminis es poden ampliar:",
-      "options": [
-        "Mai",
-        "D'ofici o a petició, si les circumstàncies ho aconsellen i no es perjudiquen tercers (fins a la meitat)",
-        "Sense límit",
-        "Només per l'interessat"
-      ],
-      "correct": 1,
-      "explain": "Art. 32 Llei 39/2015: ampliació de terminis fins a la meitat, si no es perjudiquen drets de tercers.",
-      "source": "L39_2015",
-      "article": "art. 32 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "El recurs d'alçada es pot interposar:",
-      "options": [
-        "Només davant el mateix òrgan",
-        "Davant l'òrgan que va dictar l'acte o el seu superior",
-        "Davant el jutjat",
-        "Davant l'AEPD"
-      ],
-      "correct": 1,
-      "explain": "L'alçada es pot presentar davant l'òrgan que va dictar l'acte o davant el competent per resoldre (art. 121.2).",
-      "source": "L39_2015",
-      "article": "art. 121.2 Llei 39/2015"
-    },
-    {
-      "theme": 12,
-      "block": 3,
-      "q": "El cicle pressupostari comprèn:",
-      "options": [
-        "Només l'aprovació",
-        "Elaboració, aprovació, execució i control/liquidació",
-        "Només l'execució",
-        "Cap fase"
-      ],
-      "correct": 1,
-      "explain": "El cicle pressupostari inclou elaboració, aprovació, execució i control (i liquidació).",
-      "source": "TRLHL",
-      "article": "cicle pressupostari"
-    },
-    {
       "theme": 40,
       "block": 3,
       "q": "El pressupost prorrogat:",
@@ -2811,21 +2391,6 @@
       "article": "art. 4 RD 171/2004"
     },
     {
-      "theme": 13,
-      "block": 3,
-      "q": "L'informe de l'interventor sobre el projecte de pressupost:",
-      "options": [
-        "És optatiu",
-        "És preceptiu i acompanya el projecte",
-        "El fa l'Alcalde",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "El projecte de pressupost s'acompanya de l'informe econòmic-financer i de l'informe d'Intervenció.",
-      "source": "TRLHL",
-      "article": "art. 168 TRLHL"
-    },
-    {
       "theme": 62,
       "block": 14,
       "q": "Els agents de l'edificació segons la LOE inclouen:",
@@ -2929,66 +2494,6 @@
       "explain": "El beneficiari ha de justificar el compliment de la finalitat i la realització de la despesa (art. 30 Llei 38/2003).",
       "source": "L38_2003",
       "article": "art. 30 Llei 38/2003"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "La validesa dels documents públics administratius requereix:",
-      "options": [
-        "Res",
-        "Que es dictin per òrgan competent i amb els requisits formals",
-        "Un notari",
-        "Pagament"
-      ],
-      "correct": 1,
-      "explain": "Els documents públics administratius es produeixen per òrgan competent amb els requisits establerts (art. 26 Llei 39/2015).",
-      "source": "L39_2015",
-      "article": "art. 26 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "El recurs potestatiu de reposició és potestatiu perquè:",
-      "options": [
-        "És obligatori",
-        "L'interessat pot triar interposar-lo o anar directament al contenciós",
-        "No existeix",
-        "El decideix l'òrgan"
-      ],
-      "correct": 1,
-      "explain": "En ser potestatiu, l'interessat pot interposar reposició o acudir directament a la jurisdicció contenciosa.",
-      "source": "L39_2015",
-      "article": "art. 123 Llei 39/2015"
-    },
-    {
-      "theme": 12,
-      "block": 3,
-      "q": "El pressupost s'aprova amb caràcter:",
-      "options": [
-        "Indicatiu",
-        "Limitatiu pel que fa a les despeses (crèdits)",
-        "Orientatiu",
-        "Voluntari"
-      ],
-      "correct": 1,
-      "explain": "Els crèdits del pressupost de despeses tenen caràcter limitatiu i vinculant.",
-      "source": "TRLHL",
-      "article": "art. 162 TRLHL"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "L'aprovació inicial del pressupost requereix:",
-      "options": [
-        "Majoria de 2/3",
-        "La majoria que la llei estableixi (en general, simple)",
-        "Unanimitat",
-        "Referèndum"
-      ],
-      "correct": 1,
-      "explain": "L'aprovació del pressupost requereix la majoria prevista legalment, normalment simple.",
-      "source": "TRLHL",
-      "article": "art. 168 TRLHL"
     },
     {
       "theme": 40,
@@ -3141,21 +2646,6 @@
       "article": "RD 1627/1997"
     },
     {
-      "theme": 11,
-      "block": 2,
-      "q": "El termini per interposar reposició contra un acte presumpte (silenci):",
-      "options": [
-        "No es pot",
-        "En qualsevol moment a partir de l'endemà que es produeixi el silenci",
-        "10 dies",
-        "1 mes fix"
-      ],
-      "correct": 1,
-      "explain": "Contra actes presumptes, el recurs es pot interposar en qualsevol moment des que es produeixin els efectes del silenci.",
-      "source": "L39_2015",
-      "article": "art. 124 Llei 39/2015"
-    },
-    {
       "theme": 42,
       "block": 3,
       "q": "Les bestretes de caixa fixa s'utilitzen per a:",
@@ -3306,21 +2796,6 @@
       "article": "qualitat"
     },
     {
-      "theme": 12,
-      "block": 3,
-      "q": "L'especialitat temporal dels crèdits implica que:",
-      "options": [
-        "No caduquen",
-        "S'han d'aplicar dins de l'exercici (i romanents segons normes)",
-        "Duren 10 anys",
-        "No tenen termini"
-      ],
-      "correct": 1,
-      "explain": "L'especialitat temporal exigeix aplicar els crèdits dins de l'exercici pressupostari corresponent.",
-      "source": "TRLHL",
-      "article": "art. 176 TRLHL"
-    },
-    {
       "theme": 40,
       "block": 3,
       "q": "Les modificacions pressupostàries són competència, segons el tipus, de:",
@@ -3379,51 +2854,6 @@
       "explain": "El portal de transparència difon de manera centralitzada la informació subjecta a publicitat activa.",
       "source": "L19_2014",
       "article": "Llei 19/2014"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "L'esmena i millora de la sol·licitud en procediments de concurrència:",
-      "options": [
-        "No s'admet",
-        "Pot tenir regles específiques però es garanteix l'esmena de defectes",
-        "És il·limitada",
-        "No té termini"
-      ],
-      "correct": 1,
-      "explain": "Fins i tot en concurrència competitiva es garanteix el tràmit d'esmena de defectes formals (art. 68).",
-      "source": "L39_2015",
-      "article": "art. 68 Llei 39/2015"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "La interposició d'un recurs administratiu fora de termini:",
-      "options": [
-        "S'admet igualment",
-        "Determina la seva inadmissió (l'acte esdevé ferm)",
-        "Suspèn l'acte",
-        "Obre el contenciós"
-      ],
-      "correct": 1,
-      "explain": "Si el recurs es presenta fora de termini, s'inadmet i l'acte adquireix fermesa.",
-      "source": "L39_2015",
-      "article": "art. 116 Llei 39/2015"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "La pròrroga pressupostària NO inclou:",
-      "options": [
-        "Els crèdits inicials",
-        "Els crèdits per a despeses corresponents a serveis o programes que finalitzin l'exercici anterior",
-        "Les bases d'execució ajustades",
-        "Els ingressos previstos"
-      ],
-      "correct": 1,
-      "explain": "En la pròrroga s'exclouen els crèdits de programes o serveis que han de concloure en l'exercici anterior.",
-      "source": "TRLHL",
-      "article": "art. 169.6 TRLHL"
     },
     {
       "theme": 16,
@@ -3529,21 +2959,6 @@
       "explain": "Els treballadors autònoms també participen en els deures de coordinació d'activitats empresarials (RD 171/2004).",
       "source": "RD171_2004",
       "article": "RD 171/2004"
-    },
-    {
-      "theme": 12,
-      "block": 3,
-      "q": "El control intern de la gestió econòmica el realitza:",
-      "options": [
-        "El secretari",
-        "La Intervenció (funció interventora i control financer)",
-        "L'Alcalde",
-        "La Generalitat"
-      ],
-      "correct": 1,
-      "explain": "La Intervenció exerceix el control intern mitjançant la funció interventora i el control financer.",
-      "source": "TRLHL",
-      "article": "art. 213 TRLHL"
     },
     {
       "theme": 40,
@@ -3694,36 +3109,6 @@
       "explain": "L'establiment del personal directiu a l'àmbit local es preveu mitjançant els reglaments orgànics municipals.",
       "source": "TREBEP",
       "article": "art. 13 TREBEP"
-    },
-    {
-      "theme": 11,
-      "block": 2,
-      "q": "Contra els actes que exhaureixen la via administrativa cal, com a regla:",
-      "options": [
-        "Alçada",
-        "Reposició potestativa o contenciós directe",
-        "Revisió obligatòria",
-        "Cap recurs"
-      ],
-      "correct": 1,
-      "explain": "Davant d'actes que exhaureixen la via, escau reposició (potestativa) o anar directament al contenciós.",
-      "source": "L39_2015",
-      "article": "art. 123 Llei 39/2015"
-    },
-    {
-      "theme": 13,
-      "block": 3,
-      "q": "L'avanç de la liquidació de l'exercici corrent s'incorpora:",
-      "options": [
-        "Mai",
-        "A la documentació del projecte de pressupost",
-        "A la factura",
-        "Al ban"
-      ],
-      "correct": 1,
-      "explain": "El projecte de pressupost incorpora l'avanç de la liquidació de l'exercici corrent (art. 168 TRLHL).",
-      "source": "TRLHL",
-      "article": "art. 168 TRLHL"
     },
     {
       "theme": 89,
@@ -5119,6 +4504,186 @@
       "explain": "Es pregunta la via per anul·lar una llicència nul·la. Correcta (b): els actes nuls de ple dret es deixen sense efecte mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment i requereix el dictamen favorable del Consell consultiu. Per què no: (a) no es pot fer per una revocació verbal; (c) la caducitat no és la via per a la il·legalitat; (d) la sanció no anul·la la llicència. Base: art. 106 Llei 39/2015.",
       "source": "L39_2015",
       "article": "art. 106 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Quan un termini s'assenyala en dies i la norma no indica res més, s'entén que són:",
+      "options": [
+        "Dies naturals, comptant dissabtes, diumenges i festius des de la notificació",
+        "Dies hàbils, i s'exclouen del còmput els dissabtes, diumenges i festius",
+        "Dies laborables segons el calendari laboral de la província corresponent",
+        "Dies del calendari escolar vigent al municipi on resideix la persona interessada"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el còmput de terminis en dies. Correcta (b): si els terminis s'assenyalen en dies, s'entenen hàbils i s'exclouen del còmput els dissabtes, els diumenges i els festius (art. 30.2). Per què no: (a) la regla general no són dies naturals; (c) i (d) no es computen per calendari laboral ni escolar. Base: art. 30.2 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 30.2 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Si l'últim dia d'un termini administratiu és inhàbil (per exemple, una festa local), el termini:",
+      "options": [
+        "Venç igualment aquell mateix dia inhàbil, sense cap mena de pròrroga possible",
+        "S'entén prorrogat al primer dia hàbil següent",
+        "Es redueix automàticament fins al darrer dia hàbil anterior al venciment",
+        "Queda en suspens fins que la persona interessada en demani la represa expressa"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el venciment en dia inhàbil. Correcta (b): quan l'últim dia del termini és inhàbil, s'entén prorrogat al primer dia hàbil següent (art. 30.5). Per què no: (a) no venç el dia inhàbil; (c) no es redueix al dia hàbil anterior; (d) no queda en suspens a petició de l'interessat. Base: art. 30.5 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 30.5 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "L'elaboració d'un reglament municipal exigeix, abans de redactar-ne el text, amb caràcter general:",
+      "options": [
+        "L'aprovació prèvia del projecte pel conseller competent de la Generalitat",
+        "Una consulta pública prèvia perquè la ciutadania i les entitats hi opinin",
+        "La publicació íntegra del text al Diari Oficial de la Generalitat de Catalunya",
+        "L'informe vinculant del Consell de Garanties Estatutàries sobre el projecte"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta un tràmit previ dels reglaments. Correcta (b): amb caràcter previ a l'elaboració, se substancia una consulta pública prèvia perquè la ciutadania i les organitzacions afectades opinin sobre l'oportunitat i els problemes a resoldre (art. 133). Per què no: (a) no cal aprovació prèvia del conseller; (c) la publicació és el tràmit final, no el previ; (d) no intervé el Consell de Garanties en l'elaboració d'un reglament municipal. Base: art. 133 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 133 Llei 39/2015"
+    },
+    {
+      "theme": 11,
+      "block": 2,
+      "q": "Contra un acte que NO posa fi a la via administrativa, quin recurs administratiu escau?",
+      "options": [
+        "El recurs potestatiu de reposició davant el mateix òrgan que va dictar l'acte",
+        "El recurs d'alçada davant l'òrgan superior jeràrquic",
+        "El recurs extraordinari de revisió davant l'òrgan que el va dictar",
+        "El recurs contenciós administratiu directament davant els tribunals"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el recurs contra actes que no exhaureixen la via. Correcta (b): contra els actes que no posen fi a la via administrativa escau el recurs d'alçada, davant l'òrgan superior jeràrquic (art. 121). Per què no: (a) la reposició és per als actes que SÍ posen fi a la via; (c) la revisió és per a actes ferms i per causes taxades; (d) el contenciós requereix haver exhaurit prèviament la via administrativa. Base: art. 121 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 121 Llei 39/2015"
+    },
+    {
+      "theme": 11,
+      "block": 2,
+      "q": "Quin és el termini per interposar el recurs potestatiu de reposició contra un acte exprés?",
+      "options": [
+        "Deu dies hàbils a comptar de l'endemà de la notificació de l'acte exprés",
+        "Un mes",
+        "Tres mesos des de la data en què es va dictar l'acte que es vol impugnar",
+        "Quinze dies hàbils des de la publicació de l'acte al butlletí oficial"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el termini de la reposició. Correcta (b): el termini per interposar el recurs de reposició és d'un mes si l'acte és exprés (art. 124). Per què no: (a), (c) i (d) no es corresponen amb el termini legal d'un mes. Base: art. 124 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 124 Llei 39/2015"
+    },
+    {
+      "theme": 11,
+      "block": 2,
+      "q": "El recurs extraordinari de revisió es pot interposar:",
+      "options": [
+        "Contra qualsevol acte de tràmit pel qual la persona interessada estigui en desacord amb el contingut",
+        "Contra actes ferms en via administrativa, només per les causes taxades a la llei",
+        "En qualsevol moment i per qualsevol motiu de disconformitat amb la resolució",
+        "Únicament contra les disposicions de caràcter general i els reglaments locals"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el recurs extraordinari de revisió. Correcta (b): s'interposa contra actes ferms en via administrativa i només per les causes taxades de l'art. 125 (error de fet, documents nous essencials, documents o testimonis falsos, prevaricació o suborn). Per què no: (a) no és per a actes de tràmit; (c) no és per qualsevol motiu; (d) no és contra reglaments. Base: art. 125 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 125 Llei 39/2015"
+    },
+    {
+      "theme": 12,
+      "block": 3,
+      "q": "Quin caràcter tenen els crèdits del pressupost de despeses?",
+      "options": [
+        "Caràcter merament estimatiu i orientatiu per als gestors de cadascuna de les àrees de despesa",
+        "Caràcter limitatiu: autoritzen un import màxim de despesa que no es pot superar",
+        "Caràcter vinculant només pel que fa als capítols de personal i d'inversions",
+        "Caràcter informatiu, sense cap efecte sobre l'execució real de la despesa"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el caràcter dels crèdits de despeses. Correcta (b): els crèdits per a despeses tenen caràcter limitatiu i vinculant; autoritzen un màxim de despesa que no es pot superar (principi d'especialitat quantitativa). Per què no: (a) i (d) no són estimatius ni merament informatius; (c) el caràcter limitatiu no es restringeix a personal i inversions. Base: art. 162 TRLHL.",
+      "source": "TRLHL",
+      "article": "art. 162 TRLHL"
+    },
+    {
+      "theme": 12,
+      "block": 3,
+      "q": "Què estableix el principi pressupostari de no-afectació (o universalitat de caixa)?",
+      "options": [
+        "Que cada ingrés concret s'ha de destinar a finançar una despesa concreta determinada prèviament",
+        "Que els recursos es destinen a finançar el conjunt de les despeses, llevat dels afectats",
+        "Que no es poden incloure al pressupost els ingressos de naturalesa tributària",
+        "Que la totalitat dels ingressos s'han d'afectar obligatòriament a inversions reals"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el principi de no-afectació. Correcta (b): els recursos s'destinen a satisfer el conjunt de les obligacions, llevat dels ingressos específicament afectats a una finalitat. Per què no: (a) és justament el contrari (l'afectació); (c) i (d) no es corresponen amb el principi. Base: art. 165 TRLHL.",
+      "source": "TRLHL",
+      "article": "art. 165 TRLHL"
+    },
+    {
+      "theme": 13,
+      "block": 3,
+      "q": "Contra l'aprovació definitiva del pressupost, quin recurs es pot interposar?",
+      "options": [
+        "El recurs d'alçada davant l'òrgan competent de la comunitat autònoma",
+        "El recurs contenciós administratiu directament",
+        "El recurs de reposició amb caràcter previ i obligatori davant el Ple",
+        "Cap recurs, perquè el pressupost no és impugnable un cop aprovat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la impugnació del pressupost. Correcta (b): contra l'aprovació definitiva del pressupost es pot interposar directament recurs contenciós administratiu, en el termini de dos mesos (art. 171 TRLHL). Per què no: (a) no escau l'alçada; (c) no cal reposició prèvia; (d) sí que és impugnable. Base: art. 171 TRLHL.",
+      "source": "TRLHL",
+      "article": "art. 171 TRLHL"
+    },
+    {
+      "theme": 13,
+      "block": 3,
+      "q": "Què passa si a l'inici de l'exercici econòmic no està aprovat el pressupost?",
+      "options": [
+        "L'entitat no pot fer cap despesa de cap mena fins que el Ple n'aprovi definitivament un de nou",
+        "Es prorroga automàticament el pressupost de l'exercici anterior amb els crèdits inicials",
+        "La comunitat autònoma aprova un pressupost provisional en substitució del municipal",
+        "S'apliquen els pressupostos generals de l'Estat de manera supletòria al municipi"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la pròrroga pressupostària. Correcta (b): si a l'1 de gener no està aprovat el pressupost, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials (art. 169.6). Per què no: (a) la pròrroga garanteix la continuïtat de la gestió; (c) i (d) ni la CA ni l'Estat aproven el pressupost municipal en substitució. Base: art. 169.6 TRLHL.",
+      "source": "TRLHL",
+      "article": "art. 169.6 TRLHL"
+    },
+    {
+      "theme": 14,
+      "block": 4,
+      "q": "En el procediment d'aprovació d'una ordenança, durant quant de temps com a mínim s'ha de sotmetre a informació pública?",
+      "options": [
+        "Durant un termini mínim de deu dies hàbils des de la publicació de l'edicte",
+        "Durant un termini mínim de trenta dies",
+        "Durant un termini mínim de quaranta-cinc dies naturals ininterromputs",
+        "Durant el termini que lliurement decideixi en cada cas l'Alcalde president"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el termini d'informació pública de les ordenances. Correcta (b): el procediment de l'art. 49 LRBRL exigeix informació pública i audiència als interessats per un termini mínim de trenta dies per presentar reclamacions i suggeriments. Per què no: (a) no són deu dies; (c) no són quaranta-cinc; (d) no és lliure decisió de l'Alcalde. Base: art. 49 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 49 LRBRL"
+    },
+    {
+      "theme": 14,
+      "block": 4,
+      "q": "Si durant la informació pública d'una ordenança no es presenta cap reclamació ni suggeriment:",
+      "options": [
+        "Cal repetir tot el procediment des de l'aprovació inicial per validar definitivament l'acord adoptat",
+        "S'entén definitivament adoptat l'acord fins llavors provisional, sense nou acord",
+        "L'ordenança decau i no es pot tornar a tramitar fins l'exercici següent",
+        "L'aprovació definitiva passa a ser competència de la diputació provincial"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'efecte de l'absència de reclamacions. Correcta (b): si no es presenta cap reclamació ni suggeriment, s'entén definitivament adoptat l'acord fins llavors provisional, sense necessitat d'un nou acord exprés (art. 49 LRBRL). Per què no: (a) no cal repetir el procediment; (c) l'ordenança no decau; (d) la competència no passa a la diputació. Base: art. 49 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 49 LRBRL"
     }
   ]
 }
