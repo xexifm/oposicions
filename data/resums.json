@@ -1648,124 +1648,112 @@
       "key": "Infraccions urbanístiques (TRLUC): lleus, greus i molt greus segons l'afectació a l'ordenació i el tipus de sòl (molt greus en sòl no urbanitzable protegit). Responsables: promotor, constructor i tècnic director, i si escau propietaris i titulars d'activitats."
     },
     "71": {
-      "intro": "Sancions urbanístiques: quantia i graduació (TRLUC).",
+      "intro": "Les sancions urbanístiques són les conseqüències punitives de les infraccions urbanístiques. El TRLUC en fixa la quantia i els criteris de graduació, amb respecte dels principis de la potestat sancionadora.",
       "sections": [
         {
-          "h": "Graduació",
-          "scheme": {
-            "cap": "Sancions urbanístiques",
-            "body": "QUANTIA → percentatge del valor de l'obra/actuació o\n   imports segons gravetat\nGRADUACIÓ (proporcionalitat) →\n   • gravetat del fet i del dany\n   • benefici obtingut\n   • reincidència\n   • grau de culpabilitat\nCOMPATIBLE amb la restauració de la legalitat"
-          }
+          "h": "Quantia de les sancions",
+          "p": "Les sancions consisteixen, principalment, en multes, la quantia de les quals es determina en funció de la gravetat de la infracció (lleu, greu o molt greu) i sovint es calcula com un percentatge del valor de l'obra, de la instal·lació o de l'actuació il·legal, o entre uns límits mínim i màxim establerts per a cada tipus. La sanció no pot suposar mai un benefici econòmic per a l'infractor: si el benefici obtingut és superior, la multa s'incrementa fins a igualar-lo com a mínim."
         },
         {
-          "h": "Notes",
-          "list": [
-            "La sanció no pot suposar un benefici per a l'infractor.",
-            "Possibilitat de reducció per legalització o restauració voluntària."
-          ]
+          "h": "Graduació de les sancions",
+          "p": "La graduació atén el principi de proporcionalitat i pondera circumstàncies com: la gravetat del fet i la magnitud física del dany causat a l'ordenació o als béns protegits; el grau de culpabilitat; el benefici obtingut amb la infracció; la reincidència; i la conducta de l'infractor en relació amb la legalització o la restauració voluntàries (que poden actuar com a circumstàncies atenuants)."
+        },
+        {
+          "h": "Compatibilitat amb la restauració",
+          "p": "La sanció (multa) és independent i compatible amb el deure de restaurar la realitat física alterada i l'ordre jurídic vulnerat: imposar una multa no eximeix de l'obligació d'enderrocar o reposar, i a la inversa. Tampoc no és compatible la doble sanció pels mateixos fets amb idèntic fonament (non bis in idem)."
         }
       ],
-      "key": "Sancions: quantia segons gravetat; graduació per dany, benefici, reincidència i culpabilitat. Compatibles amb restauració."
+      "key": "Sancions urbanístiques (TRLUC): multes segons la gravetat (sovint un percentatge del valor de l'obra), que mai no poden suposar un benefici per a l'infractor. Graduació per dany, culpabilitat, benefici, reincidència i conducta. Compatibles amb la restauració de la legalitat; non bis in idem."
     },
     "72": {
-      "intro": "Ordres d'execució: deure de conservació i rehabilitació; inspeccions (TRLUC).",
+      "intro": "Les ordres d'execució són els actes mitjançant els quals l'Administració imposa als propietaris el compliment del deure legal de conservació dels immobles. Es relacionen amb el deure de conservació i rehabilitació i amb la inspecció de l'estat dels edificis (TRLUC).",
       "sections": [
         {
-          "h": "Deure de conservació",
-          "scheme": {
-            "cap": "Ordres d'execució",
-            "body": "DEURE → mantenir els immobles en condicions de\n   SEGURETAT, SALUBRITAT i ORNAMENT públic\nORDRE D'EXECUCIÓ → imposa obres de conservació/rehabilitació\nINCOMPLIMENT → execució subsidiària a càrrec de l'obligat\n   o multes coercitives\nINSPECCIÓ tècnica d'edificis (ITE) quan escau"
-          }
+          "h": "El deure de conservació",
+          "p": "Les persones propietàries han de mantenir els terrenys, les construccions i les instal·lacions en condicions de seguretat, salubritat i ornament públic, i conservar-ne les condicions objectives d'habitabilitat o d'ús efectiu. Aquest deure té un límit (el deure normal de conservació); les obres que el superen no són exigibles per simple ordre d'execució i poden obrir pas a la declaració de ruïna."
         },
         {
-          "h": "Notes",
-          "list": [
-            "El límit del deure de conservació marca la frontera amb la declaració de ruïna.",
-            "Possible declaració de ruïna si les obres superen aquest límit."
-          ]
+          "h": "Ordres d'execució i inspecció",
+          "p": "Quan un immoble no reuneix les condicions adequades, l'Administració dicta una ordre d'execució que determina les obres necessàries i el termini per fer-les. Les administracions poden establir la inspecció tècnica periòdica dels edificis (ITE) per comprovar-ne l'estat de conservació i exigir, si escau, les obres pertinents. Les ordres d'execució també poden imposar-se per raons de seguretat, de salubritat o d'ornament."
+        },
+        {
+          "h": "Incompliment i execució forçosa",
+          "p": "Si la persona obligada no compleix l'ordre d'execució dins el termini, l'Administració pot procedir a l'execució subsidiària de les obres a càrrec de l'obligat o imposar multes coercitives reiterades fins a aconseguir-ne el compliment. En els casos de risc imminent, es poden adoptar mesures immediates de seguretat (apuntalament, desallotjament)."
         }
       ],
-      "key": "Conservació: seguretat, salubritat, ornament. Ordres d'execució; incompliment → execució subsidiària o multes coercitives."
+      "key": "Deure de conservació: mantenir els immobles en condicions de seguretat, salubritat i ornament (amb el límit del deure normal). Ordres d'execució (i inspecció tècnica d'edificis) imposen les obres necessàries. Incompliment → execució subsidiària a càrrec de l'obligat o multes coercitives."
     },
     "73": {
-      "intro": "Prescripció: de l'acció de restauració i de l'ordre de restauració urbanística (TRLUC).",
+      "intro": "La prescripció en matèria de disciplina urbanística afecta tant l'acció per restaurar la legalitat com l'ordre de restauració ja dictada. Determina el temps de què disposa l'Administració per reaccionar davant les infraccions (TRLUC).",
       "sections": [
         {
-          "h": "Terminis",
-          "scheme": {
-            "cap": "Prescripció en disciplina urbanística",
-            "body": "ACCIÓ DE RESTAURACIÓ → 6 anys des de l'acabament total\n   de les obres\nSÒL NO URBANITZABLE protegit → IMPRESCRIPTIBLE\nSANCIÓ → segons gravetat de la infracció\nCòmput → des de l'acabament/comissió"
-          }
+          "h": "Prescripció de l'acció de restauració",
+          "p": "L'acció de l'Administració per restablir la realitat física alterada i l'ordre jurídic vulnerat per obres o usos il·legals prescriu, amb caràcter general, al cap de sis anys comptats des de l'acabament total de les obres o des de la finalització de l'actuació il·legal. Aquest termini no s'aplica en sòl no urbanitzable d'especial protecció, on l'acció de restauració és imprescriptible."
         },
         {
-          "h": "Notes",
-          "list": [
-            "Transcorregut el termini, les obres queden en situació de fora d'ordenació o volum disconforme.",
-            "La prescripció no legalitza, només impedeix la restauració."
-          ]
+          "h": "Còmput i efectes",
+          "p": "El termini es computa des de l'acabament total i efectiu de les obres. Transcorregut sense que l'Administració hagi actuat, l'acció de restauració prescriu i les construccions queden en una situació assimilada a la de fora d'ordenació (amb limitacions a les obres permeses), però sense legalitzar-se: la prescripció no atorga la conformitat amb el planejament, sinó que només impedeix l'exercici de l'acció de restauració."
+        },
+        {
+          "h": "Prescripció de l'ordre de restauració",
+          "p": "Un cop dictada l'ordre de restauració (o de demolició), aquesta també té un termini per executar-se; el seu incompliment i la inactivitat de l'Administració poden donar lloc a la prescripció de l'ordre. Cal distingir, doncs, la prescripció de l'acció (per dictar l'ordre) de la prescripció de l'ordre ja dictada (per executar-la)."
         }
       ],
-      "key": "Restauració: 6 anys des de l'acabament (imprescriptible en SNU protegit). La prescripció no legalitza."
+      "key": "Prescripció: l'acció de restauració prescriu als 6 anys des de l'acabament total de les obres (imprescriptible en sòl no urbanitzable d'especial protecció). La prescripció no legalitza, només impedeix la restauració (situació assimilada a fora d'ordenació). Distinció entre prescripció de l'acció i de l'ordre."
     },
     "74": {
-      "intro": "Revisió de llicències i d'ordres d'execució: supòsits i efectes (TRLUC; Llei 39/2015).",
+      "intro": "La revisió de les llicències i de les ordres d'execució que resulten il·legals es duu a terme pels procediments de revisió d'ofici i de declaració de lesivitat de la Llei 39/2015, amb les especialitats urbanístiques del TRLUC.",
       "sections": [
         {
-          "h": "Vies de revisió",
-          "scheme": {
-            "cap": "Revisió de llicències il·legals",
-            "body": "NUL·LES → revisió d'ofici (art. 106 Llei 39/2015)\n   sense termini + dictamen del Consell consultiu\nANUL·LABLES favorables → declaració de LESIVITAT\n   (4 anys) + impugnació contenciosa (art. 107)\nMESURES CAUTELARS → suspensió dels efectes\nREVOCACIÓ → per oportunitat (pot indemnitzar)"
-          }
+          "h": "Llicències nul·les i anul·lables",
+          "p": "Les llicències i la resta d'actes que es dictin amb infracció de l'ordenament urbanístic poden ser nuls de ple dret (si concorre un supòsit de l'art. 47, com l'adquisició de facultats contràries al planejament) o anul·lables (per qualsevol altra infracció de l'ordenament). La via per deixar-los sense efecte depèn d'aquesta qualificació."
         },
         {
-          "h": "Notes",
-          "list": [
-            "No es poden revocar lliurement les llicències vàlides sense indemnitzar.",
-            "La incoació pot suspendre cautelarment els efectes."
-          ]
+          "h": "Procediments de revisió",
+          "p": "Els actes nuls es revisen mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment, sense termini, i requereix el dictamen favorable del Consell consultiu (a Catalunya, la Comissió Jurídica Assessora). Els actes anul·lables favorables es deixen sense efecte mitjançant la declaració de lesivitat per a l'interès públic (art. 107), que l'Administració ha de dictar dins el termini de quatre anys i que va seguida de la impugnació de l'acte davant la jurisdicció contenciosa administrativa."
+        },
+        {
+          "h": "Efectes de la incoació i revocació",
+          "p": "La incoació d'un expedient de revisió d'una llicència pot comportar l'adopció de mesures cautelars, com la suspensió dels efectes de la llicència i de les obres emparades, per evitar la consolidació de la il·legalitat. A més de la revisió, l'Administració pot revocar les llicències per raons d'oportunitat o per canvi dels criteris d'apreciació, supòsit en què la revocació de llicències vàlides pot generar dret a indemnització dels perjudicis causats."
         }
       ],
-      "key": "Llicència nul·la → revisió d'ofici; anul·lable favorable → lesivitat + contenciós. Revocació per oportunitat pot indemnitzar."
+      "key": "Revisió de llicències il·legals: nul·les → revisió d'ofici (art. 106, sense termini, dictamen del Consell consultiu); anul·lables favorables → declaració de lesivitat (art. 107, 4 anys) + contenciós. La incoació pot suspendre cautelarment els efectes. Revocació per oportunitat de llicències vàlides pot indemnitzar."
     },
     "75": {
-      "intro": "La Llei del dret a l'habitatge de Catalunya (Llei 18/2007): competències, planificació i mesures.",
+      "intro": "La Llei 18/2007, del dret a l'habitatge, és la norma cabdal de la política d'habitatge a Catalunya. Configura l'habitatge com un dret i estableix les competències, la planificació i les mesures per garantir-lo.",
       "sections": [
         {
-          "h": "Eixos",
-          "scheme": {
-            "cap": "Política d'habitatge (Llei 18/2007)",
-            "body": "DRET a un habitatge digne i adequat\nHABITATGE PROTEGIT → reserves de sòl i preus limitats\nDESOCUPACIÓ → mesures contra la desocupació injustificada\nCÈDULA D'HABITABILITAT → condicions mínimes\nREGISTRE de sol·licitants d'habitatge protegit"
-          }
+          "h": "El dret a l'habitatge i les competències",
+          "p": "La Llei 18/2007 configura l'accés a un habitatge digne i adequat com un dret que els poders públics han de fer efectiu. La competència en matèria d'habitatge correspon a la Generalitat (que la planifica i la regula), mentre que els municipis hi participen mitjançant el planejament urbanístic (reserves de sòl per a habitatge protegit), els plans locals d'habitatge i la gestió de polítiques de proximitat. La planificació territorial i la programació són instruments per ordenar l'oferta d'habitatge."
         },
         {
-          "h": "Competències",
-          "list": [
-            "L'habitatge és competència de la Generalitat; els municipis hi participen via planejament i polítiques locals.",
-            "Coordinació amb el planejament urbanístic (reserves d'habitatge protegit)."
-          ]
+          "h": "Habitatge protegit i registre de sol·licitants",
+          "p": "La llei regula l'habitatge amb protecció oficial (preus o rendes limitats i destinació a persones amb ingressos per sota d'uns llindars), que s'adjudica a través del Registre de sol·licitants d'habitatge amb protecció oficial, garantint la transparència i la igualtat. El planejament urbanístic ha de preveure reserves mínimes de sòl per a aquest tipus d'habitatge."
+        },
+        {
+          "h": "Cèdula d'habitabilitat i mesures contra la desocupació",
+          "p": "La cèdula d'habitabilitat és el document que acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària, entre altres, per transmetre o llogar habitatges i per donar d'alta els subministraments. La llei preveu, a més, mesures per evitar la desocupació permanent i injustificada dels habitatges i per fomentar-ne l'ocupació, així com per combatre l'assetjament immobiliari i garantir el manteniment dels immobles."
         }
       ],
-      "key": "Llei 18/2007: dret a l'habitatge, habitatge protegit, cèdula d'habitabilitat i mesures contra la desocupació."
+      "key": "Llei 18/2007 (dret a l'habitatge): l'habitatge com a dret; competència de la Generalitat amb participació municipal (planejament i plans locals). Habitatge protegit i Registre de sol·licitants; reserves de sòl. Cèdula d'habitabilitat; mesures contra la desocupació injustificada."
     },
     "76": {
-      "intro": "Polítiques sobre el medi ambient a Catalunya: Estatut, normativa i avaluació ambiental.",
+      "intro": "Les polítiques sobre el medi ambient a Catalunya es fonamenten en les previsions de l'Estatut d'autonomia i en una àmplia normativa sectorial, amb l'avaluació ambiental com a instrument transversal de prevenció.",
       "sections": [
         {
-          "h": "Marc",
-          "scheme": {
-            "cap": "Medi ambient a Catalunya",
-            "body": "COMPETÈNCIA → compartida (bases estatals + desenvolupament\n   i gestió autonòmics; art. 144 EAC)\nAVALUACIÓ AMBIENTAL →\n   • ESTRATÈGICA → plans i programes\n   • d'IMPACTE (AIA) → projectes (conclou amb DIA)\nINTERVENCIÓ d'activitats → Llei 20/2009 (PCAA)"
-          }
+          "h": "Marc competencial i principis",
+          "p": "La competència en medi ambient és compartida: l'Estat fixa la legislació bàsica i la Generalitat el desenvolupament legislatiu, la gestió i l'execució (art. 144 EAC), amb la possibilitat d'establir normes addicionals de protecció. Les polítiques ambientals s'inspiren en els principis de precaució, prevenció, correcció en origen dels danys i 'qui contamina, paga', i en l'objectiu de desenvolupament sostenible."
         },
         {
-          "h": "Notes",
-          "list": [
-            "Principis: precaució, prevenció, qui contamina paga, sostenibilitat.",
-            "Coordinació amb urbanisme i activitats."
-          ]
+          "h": "L'avaluació ambiental",
+          "p": "L'avaluació ambiental és l'instrument que valora els efectes significatius sobre el medi abans d'aprovar plans i programes o d'autoritzar projectes. Se'n distingeixen dues modalitats: l'avaluació ambiental estratègica, que recau sobre plans i programes (per exemple, el planejament urbanístic), i l'avaluació d'impacte ambiental, que recau sobre projectes concrets i que conclou amb la declaració d'impacte ambiental (DIA), de caràcter determinant per a l'autorització del projecte."
+        },
+        {
+          "h": "Instruments sectorials",
+          "p": "La protecció del medi es completa amb instruments sectorials: la prevenció i el control ambiental de les activitats (Llei 20/2009), la gestió dels residus, la protecció de l'atmosfera i contra la contaminació acústica i lumínica, la protecció dels espais naturals i de la biodiversitat, i la gestió de l'aigua. Aquestes normatives es coordinen amb l'urbanisme i amb la intervenció municipal en les activitats."
         }
       ],
-      "key": "Medi ambient: competència compartida; avaluació estratègica (plans) i d'impacte (projectes, DIA); Llei 20/2009."
+      "key": "Medi ambient a Catalunya: competència compartida (bases estatals + desenvolupament i gestió autonòmics, art. 144 EAC); principis de precaució, prevenció, qui contamina paga. Avaluació ambiental estratègica (plans/programes) i d'impacte (projectes, amb DIA). Instruments sectorials (Llei 20/2009, residus, aigua, etc.)."
     },
     "77": {
       "intro": "L'administració electrònica: drets i deures, signatura electrònica i subjectes obligats (Llei 39/2015 i 40/2015).",
