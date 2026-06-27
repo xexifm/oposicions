@@ -441,36 +441,6 @@
       "article": "art. 69.4 Llei 39/2015"
     },
     {
-      "theme": 73,
-      "block": 12,
-      "q": "L'acció de restauració de la realitat física alterada per obres il·legals prescriu, amb caràcter general, al cap de:",
-      "options": [
-        "2 anys",
-        "4 anys",
-        "6 anys des de l'acabament de les obres",
-        "No prescriu mai"
-      ],
-      "correct": 2,
-      "explain": "El termini general és de 6 anys des de l'acabament total de les obres; no opera en sòl no urbanitzable d'especial protecció.",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "Un principi de la potestat sancionadora és:",
-      "options": [
-        "La retroactivitat de les normes sancionadores desfavorables",
-        "La tipicitat: només són sancionables les infraccions previstes per llei",
-        "La sanció sense procediment",
-        "L'analogia in malam partem"
-      ],
-      "correct": 1,
-      "explain": "Els principis de la potestat sancionadora (arts. 25-31 Llei 40/2015) inclouen legalitat, tipicitat, irretroactivitat (excepte favorable), responsabilitat, proporcionalitat i no concurrència.",
-      "source": "L40_2015",
-      "article": "arts. 25-31 Llei 40/2015"
-    },
-    {
       "theme": 59,
       "block": 13,
       "q": "La Llei 20/2009 de Catalunya regula:",
@@ -741,36 +711,6 @@
       "article": "art. 36 Llei 40/2015"
     },
     {
-      "theme": 71,
-      "block": 12,
-      "q": "En la graduació de les sancions urbanístiques es tenen en compte criteris com:",
-      "options": [
-        "L'atzar",
-        "La gravetat, la reincidència, el benefici obtingut i el dany causat",
-        "Només el nom de l'infractor",
-        "El color de la façana"
-      ],
-      "correct": 1,
-      "explain": "La quantia i graduació atén a circumstàncies com la gravetat del fet, la reincidència, el benefici obtingut i la magnitud del dany (TRLUC; principi de proporcionalitat).",
-      "source": "TRLUC",
-      "article": "art. 219 TRLUC"
-    },
-    {
-      "theme": 72,
-      "block": 12,
-      "q": "Les ordres d'execució s'adrecen a garantir:",
-      "options": [
-        "El deure de conservació i rehabilitació de les construccions en condicions de seguretat, salubritat i ornament",
-        "La recaptació de tributs",
-        "La selecció de personal",
-        "La contractació menor"
-      ],
-      "correct": 0,
-      "explain": "Mitjançant ordres d'execució l'Ajuntament imposa el compliment del deure legal de conservació dels immobles (seguretat, salubritat i ornament públic).",
-      "source": "TRLUC",
-      "article": "art. 197 TRLUC"
-    },
-    {
       "theme": 76,
       "block": 15,
       "q": "L'avaluació d'impacte ambiental de projectes té per finalitat:",
@@ -889,21 +829,6 @@
       "explain": "Les obres es poden executar per contracte o per la pròpia administració amb mitjans propis quan concorrin els supòsits legals (LCSP/ROAS).",
       "source": "LCSP",
       "article": "art. 30 LCSP"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Les infraccions urbanístiques es classifiquen en:",
-      "options": [
-        "Lleus, greus i molt greus",
-        "Tipus únic",
-        "Civils i mercantils",
-        "Penals exclusivament"
-      ],
-      "correct": 0,
-      "explain": "El TRLUC classifica les infraccions urbanístiques en lleus, greus i molt greus, segons l'afectació a l'ordenació.",
-      "source": "TRLUC",
-      "article": "art. 213 TRLUC"
     },
     {
       "theme": 87,
@@ -1356,51 +1281,6 @@
       "article": "D 336/1988"
     },
     {
-      "theme": 70,
-      "block": 12,
-      "q": "Una infracció urbanística molt greu és, típicament:",
-      "options": [
-        "Una obra menor sense llicència legalitzable",
-        "Actuacions en sòl no urbanitzable de protecció especial o que impedeixen l'execució del planejament",
-        "Un retard administratiu",
-        "Una al·legació"
-      ],
-      "correct": 1,
-      "explain": "Es qualifiquen de molt greus les vulneracions més rellevants, com les que afecten sòl especialment protegit.",
-      "source": "TRLUC",
-      "article": "art. 214 TRLUC"
-    },
-    {
-      "theme": 71,
-      "block": 12,
-      "q": "La multa per infracció urbanística es gradua, entre d'altres, en funció de:",
-      "options": [
-        "El nom del propietari",
-        "El benefici obtingut, el dany i la reincidència",
-        "L'estació de l'any",
-        "El color"
-      ],
-      "correct": 1,
-      "explain": "La graduació atén a criteris de proporcionalitat: benefici, dany, reincidència, etc.",
-      "source": "TRLUC",
-      "article": "art. 219 TRLUC"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La revisió d'una llicència il·legal favorable es fa:",
-      "options": [
-        "Revocant-la directament",
-        "Pels procediments de revisió d'ofici/lesivitat de la Llei 39/2015",
-        "Verbalment",
-        "Sense cap garantia"
-      ],
-      "correct": 1,
-      "explain": "Les llicències il·legals s'anul·len pels procediments de revisió d'ofici (nul·les) o lesivitat (anul·lables).",
-      "source": "L39_2015",
-      "article": "arts. 106-107 Llei 39/2015"
-    },
-    {
       "theme": 59,
       "block": 13,
       "q": "L'autorització ambiental s'exigeix a les activitats:",
@@ -1819,66 +1699,6 @@
       "explain": "L'ús privatiu que limita l'ús comú exigeix concessió administrativa (Llei 33/2003).",
       "source": "L33_2003",
       "article": "art. 86 Llei 33/2003"
-    },
-    {
-      "theme": 72,
-      "block": 12,
-      "q": "Si el propietari incompleix una ordre d'execució:",
-      "options": [
-        "No passa res",
-        "L'Administració pot executar subsidiàriament a càrrec seu o imposar multes coercitives",
-        "Es perd el bé",
-        "Es prohibeix viure-hi"
-      ],
-      "correct": 1,
-      "explain": "L'incompliment d'ordres d'execució permet l'execució subsidiària o multes coercitives (Llei 39/2015 i TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 198 TRLUC"
-    },
-    {
-      "theme": 73,
-      "block": 12,
-      "q": "En sòl no urbanitzable de protecció especial, l'acció de restauració:",
-      "options": [
-        "Prescriu als 6 anys",
-        "No prescriu (és imprescriptible)",
-        "Prescriu a l'any",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "En sòl no urbanitzable d'especial protecció no opera la prescripció de l'acció de restauració.",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "El principi de no concurrència (non bis in idem) impedeix:",
-      "options": [
-        "Sancionar",
-        "Sancionar dos cops els mateixos fets amb idèntic fonament",
-        "Tramitar expedients",
-        "Recórrer"
-      ],
-      "correct": 1,
-      "explain": "Art. 31 Llei 40/2015: no es pot sancionar dos cops pels mateixos fets amb idèntic fonament.",
-      "source": "L40_2015",
-      "article": "art. 31 Llei 40/2015"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "La separació entre instrucció i resolució en el procediment sancionador:",
-      "options": [
-        "No cal",
-        "És una garantia: òrgans diferents instrueixen i resolen",
-        "Depèn de l'Alcalde",
-        "Es pot saltar"
-      ],
-      "correct": 1,
-      "explain": "La separació de fases instructora i resolutòria és una garantia del procediment sancionador (Llei 40/2015).",
-      "source": "L40_2015",
-      "article": "art. 63 Llei 40/2015"
     },
     {
       "theme": 59,
@@ -2571,66 +2391,6 @@
       "article": "DA i normativa específica"
     },
     {
-      "theme": 70,
-      "block": 12,
-      "q": "Són responsables d'una infracció urbanística:",
-      "options": [
-        "Només el propietari",
-        "Els promotors, constructors, tècnics i, si escau, propietaris",
-        "Ningú",
-        "Només l'Ajuntament"
-      ],
-      "correct": 1,
-      "explain": "Responen de la infracció els qui hi intervenen: promotor, constructor, tècnic director i propietaris segons el cas.",
-      "source": "TRLUC",
-      "article": "art. 215 TRLUC"
-    },
-    {
-      "theme": 71,
-      "block": 12,
-      "q": "La multa per infracció urbanística és compatible amb:",
-      "options": [
-        "Res",
-        "La restauració de la realitat física alterada",
-        "La condonació automàtica",
-        "La impunitat"
-      ],
-      "correct": 1,
-      "explain": "La sanció (multa) és independent i compatible amb el deure de restaurar la legalitat alterada.",
-      "source": "TRLUC",
-      "article": "art. 207-219 TRLUC"
-    },
-    {
-      "theme": 72,
-      "block": 12,
-      "q": "Les multes coercitives:",
-      "options": [
-        "Són sancions",
-        "Són mitjans d'execució forçosa reiterables fins al compliment",
-        "No existeixen",
-        "Substitueixen la sanció"
-      ],
-      "correct": 1,
-      "explain": "Les multes coercitives són un mitjà d'execució forçosa, reiterable, diferent de la sanció (art. 103 Llei 39/2015).",
-      "source": "L39_2015",
-      "article": "art. 103 Llei 39/2015"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La revocació de llicències per canvi de criteri:",
-      "options": [
-        "És lliure",
-        "Pot generar dret a indemnització si causa perjudicis",
-        "No té efectes",
-        "És impossible"
-      ],
-      "correct": 1,
-      "explain": "La revocació per raons d'oportunitat o canvi normatiu pot donar lloc a indemnització dels perjudicis.",
-      "source": "TRLUC",
-      "article": "art. 188-189 TRLUC"
-    },
-    {
       "theme": 75,
       "block": 15,
       "q": "La Llei 18/2007 preveu, davant la desocupació permanent:",
@@ -2826,36 +2586,6 @@
       "article": "normativa urbanitzacions"
     },
     {
-      "theme": 73,
-      "block": 11,
-      "q": "La prescripció de l'acció de restauració es computa des de:",
-      "options": [
-        "La sol·licitud de llicència",
-        "L'acabament total de les obres o l'actuació il·legal",
-        "La compra del terreny",
-        "La incoació de l'expedient"
-      ],
-      "correct": 1,
-      "explain": "El termini de prescripció es compta des de l'acabament total de les obres o actuacions.",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La incoació d'un expedient de revisió d'una llicència pot comportar:",
-      "options": [
-        "Cap mesura",
-        "La suspensió cautelar dels efectes de la llicència",
-        "La seva confirmació automàtica",
-        "Una subvenció"
-      ],
-      "correct": 1,
-      "explain": "En revisar llicències il·legals es poden adoptar mesures cautelars, com suspendre'n els efectes.",
-      "source": "L39_2015",
-      "article": "art. 108 Llei 39/2015"
-    },
-    {
       "theme": 79,
       "block": 17,
       "q": "Les fases de l'avaluació de l'assoliment d'objectius inclouen:",
@@ -3049,21 +2779,6 @@
       "explain": "La potestat d'investigació permet esbrinar la titularitat de béns presumptament de l'entitat (Llei 33/2003).",
       "source": "L33_2003",
       "article": "art. 45 Llei 33/2003"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "La caducitat de l'expedient sancionador urbanístic:",
-      "options": [
-        "No existeix",
-        "Es produeix si transcorre el termini màxim sense resoldre",
-        "És de 10 anys",
-        "La decideix l'infractor"
-      ],
-      "correct": 1,
-      "explain": "L'expedient sancionador caduca si supera el termini màxim per resoldre (Llei 39/2015 i TRLUC).",
-      "source": "L39_2015",
-      "article": "art. 25 Llei 39/2015"
     },
     {
       "theme": 89,
@@ -3394,21 +3109,6 @@
       "explain": "La cessió gratuïta a entitats públiques o sense ànim de lucre és possible per a fins d'interès general, amb expedient.",
       "source": "L33_2003",
       "article": "Llei 33/2003; D 336/1988"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "La sanció urbanística prescriu:",
-      "options": [
-        "Mai",
-        "Segons la seva gravetat (terminis taxats)",
-        "Sempre a l'any",
-        "Als 50 anys"
-      ],
-      "correct": 1,
-      "explain": "Les sancions urbanístiques prescriuen segons la gravetat de la infracció (terminis del TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 227 TRLUC"
     },
     {
       "theme": 89,
@@ -3801,21 +3501,6 @@
       "article": "Llei 33/2003"
     },
     {
-      "theme": 69,
-      "block": 12,
-      "q": "La presumpció d'innocència en el procediment sancionador:",
-      "options": [
-        "No s'aplica",
-        "És una garantia: la càrrega de la prova és de l'Administració",
-        "Es pot ignorar",
-        "Només al penal"
-      ],
-      "correct": 1,
-      "explain": "Art. 28 i 53 Llei 40/2015: regeix la presumpció d'innocència; la prova de càrrec correspon a l'Administració.",
-      "source": "L40_2015",
-      "article": "art. 53 Llei 40/2015"
-    },
-    {
       "theme": 89,
       "block": 18,
       "q": "La vigilància de la salut dels treballadors:",
@@ -3934,21 +3619,6 @@
       "explain": "Són impostos obligatoris l'IBI, l'IAE i l'IVTM; potestatius l'ICIO i l'IIVTNU (plusvàlua).",
       "source": "TRLHL",
       "article": "arts. 59 i ss. TRLHL"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La revocació d'una llicència vàlida per raons d'interès públic:",
-      "options": [
-        "Mai es paga",
-        "Pot comportar indemnització dels perjudicis causats",
-        "És sempre gratuïta",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "La revocació per raons d'oportunitat de llicències vàlides pot generar dret a indemnització.",
-      "source": "TRLUC",
-      "article": "art. 188 TRLUC"
     },
     {
       "theme": 85,
@@ -5314,6 +4984,141 @@
       "explain": "Es pregunta quina norma fixa les valoracions. Correcta (b): les valoracions del sòl es regeixen per la legislació estatal del sòl (TRLS, RDL 7/2015), competència exclusiva de l'Estat. Per què no: (a) no es fixen per ordenança municipal; (c) la valoració no és competència autonòmica exclusiva; (d) el valor cadastral no determina la valoració urbanística. Base: TRLS (RDL 7/2015).",
       "source": "TRLSRU",
       "article": "RDL 7/2015 (TRLS)"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Segons el principi de tipicitat de la potestat sancionadora, només es poden sancionar:",
+      "options": [
+        "Els fets que l'òrgan competent consideri contraris a l'interès general del municipi",
+        "Les infraccions previstes per una norma i amb les sancions que aquesta estableix",
+        "Els fets greus, encara que no estiguin expressament tipificats per cap norma legal",
+        "Les conductes que el reglament municipal qualifiqui per analogia com a infraccions"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el principi de tipicitat. Correcta (b): només són sancionables les accions o omissions tipificades com a infracció per una norma, amb les sancions que aquesta determini, i resta prohibida l'analogia (art. 27 Llei 40/2015). Per què no: (a) no depèn del criteri de l'òrgan; (c) sense tipificació no hi pot haver sanció; (d) l'analogia in malam partem està prohibida. Base: art. 27 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 27 Llei 40/2015"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "En el procediment sancionador, la càrrega de provar els fets imputats correspon a:",
+      "options": [
+        "La persona presumptament infractora, que ha de demostrar la seva innocència",
+        "L'Administració, en virtut del principi de presumpció d'innocència",
+        "Els testimonis que hagin presenciat directament els fets denunciats",
+        "L'òrgan instructor i l'òrgan que resol de manera conjunta i indistinta"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta sobre la presumpció d'innocència. Correcta (b): regeix la presumpció d'innocència, de manera que la càrrega de la prova de càrrec correspon a l'Administració (art. 28 i 53 Llei 40/2015). Per què no: (a) el presumpte infractor no ha de provar la seva innocència; (c) els testimonis aporten prova, però la càrrega és de l'Administració; (d) la instrucció i la resolució corresponen a òrgans diferents (separació de fases). Base: art. 53 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 53 Llei 40/2015"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Com es classifiquen les infraccions urbanístiques?",
+      "options": [
+        "En infraccions de caràcter civil, penal i administratiu segons la jurisdicció",
+        "En infraccions lleus, greus i molt greus",
+        "En infraccions tipificades i no tipificades segons la conducta de l'infractor",
+        "En infraccions prescriptibles i imprescriptibles segons el tipus de sòl afectat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la classificació de les infraccions urbanístiques. Correcta (b): el TRLUC les classifica en lleus, greus i molt greus, segons l'afectació a l'ordenació i el tipus de sòl. Per què no: (a) barreja jurisdiccions, no és la classificació; (c) totes les infraccions han d'estar tipificades; (d) la prescripció és una altra qüestió, no la classificació. Base: art. 213 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 213 TRLUC"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Qui pot ser responsable d'una infracció urbanística per unes obres il·legals?",
+      "options": [
+        "Únicament la persona propietària dels terrenys on materialment s'executen les obres il·legals",
+        "El promotor, el constructor i el tècnic director, cadascun en el seu àmbit",
+        "Exclusivament l'empresa constructora que materialment executa les obres",
+        "Només l'ajuntament, per no haver impedit a temps l'execució de les obres"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui respon de la infracció. Correcta (b): responen de la infracció totes les persones que hi intervenen: el promotor, el constructor o empresari de les obres i el tècnic director, cadascun en el seu àmbit, i si escau els propietaris. Per què no: (a) i (c) no es limita a un sol subjecte; (d) l'ajuntament és qui exerceix la disciplina, no el responsable de la infracció. Base: art. 215 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 215 TRLUC"
+    },
+    {
+      "theme": 71,
+      "block": 12,
+      "q": "Un criteri que es té en compte per graduar la quantia de les sancions urbanístiques és:",
+      "options": [
+        "El nombre total d'habitants que té el municipi on s'ha comès la infracció",
+        "El benefici obtingut amb la infracció, el dany causat i la reincidència",
+        "L'antiguitat de la persona infractora com a veïna empadronada al municipi",
+        "La superfície total de la finca, amb independència de l'obra efectivament executada"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els criteris de graduació. Correcta (b): la graduació de les sancions atén el principi de proporcionalitat i pondera el benefici obtingut, la magnitud del dany, la gravetat del fet, el grau de culpabilitat i la reincidència. A més, la sanció mai no pot suposar un benefici per a l'infractor. Per què no: (a), (c) i (d) no són criteris de graduació de les sancions urbanístiques. Base: art. 219 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 219 TRLUC"
+    },
+    {
+      "theme": 72,
+      "block": 12,
+      "q": "Si una persona propietària incompleix una ordre d'execució per conservar el seu immoble, l'Administració pot:",
+      "options": [
+        "Expropiar automàticament l'immoble afectat sense cap procediment ni indemnització prèvia a la persona",
+        "Executar les obres de manera subsidiària a càrrec de l'obligat o imposar multes coercitives",
+        "Inhabilitar la persona propietària per adquirir altres immobles al municipi",
+        "Assumir definitivament la propietat de l'immoble en concepte de sanció"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la reacció davant l'incompliment d'una ordre d'execució. Correcta (b): l'Administració pot procedir a l'execució subsidiària de les obres a càrrec de l'obligat o imposar multes coercitives reiterades fins a aconseguir-ne el compliment. Per què no: (a) no és una expropiació automàtica sense procediment; (c) i (d) la inhabilitació o l'assumpció de la propietat no són les conseqüències previstes. Base: art. 198 TRLUC i art. 103 Llei 39/2015.",
+      "source": "TRLUC",
+      "article": "art. 198 TRLUC"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "Quin és el termini general de prescripció de l'acció per restaurar la legalitat urbanística?",
+      "options": [
+        "Un any des que l'Administració té coneixement de la infracció comesa",
+        "Sis anys des de l'acabament total de les obres o de l'actuació il·legal",
+        "Quatre anys des de l'atorgament de la primera llicència relacionada amb l'obra",
+        "No prescriu mai en cap classe de sòl, sigui quina sigui la seva qualificació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el termini de prescripció de la restauració. Correcta (b): l'acció de restauració prescriu, amb caràcter general, als sis anys des de l'acabament total de les obres; en sòl no urbanitzable d'especial protecció és imprescriptible. Per què no: (a) i (c) no són els terminis legals; (d) sí que prescriu, llevat del sòl especialment protegit. Base: art. 207 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 207 TRLUC"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "La prescripció de l'acció de restauració de la legalitat urbanística comporta que les obres il·legals:",
+      "options": [
+        "Queden plenament legalitzades i totalment conformes amb el planejament urbanístic vigent al municipi",
+        "No es poden restaurar, però NO queden legalitzades (situació assimilada a fora d'ordenació)",
+        "S'han d'enderrocar igualment perquè la prescripció no produeix cap efecte jurídic",
+        "Generen el dret del propietari a una indemnització a càrrec de l'ajuntament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'efecte de la prescripció. Correcta (b): transcorregut el termini, l'acció de restauració prescriu i les obres queden en una situació assimilada a la de fora d'ordenació, però sense legalitzar-se: la prescripció impedeix la restauració, no atorga la conformitat amb el planejament. Per què no: (a) no es legalitzen; (c) ja no es poden restaurar; (d) no genera dret a indemnització. Base: art. 207 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 207 TRLUC"
+    },
+    {
+      "theme": 74,
+      "block": 12,
+      "q": "Com es deixa sense efecte una llicència que és nul·la de ple dret?",
+      "options": [
+        "Mitjançant una simple revocació verbal comunicada al titular de la llicència",
+        "Mitjançant la revisió d'ofici prevista a la Llei 39/2015, amb dictamen del Consell consultiu",
+        "Esperant pacientment que caduqui pel transcurs del termini fixat per iniciar les obres autoritzades",
+        "Imposant directament una sanció econòmica al titular sense cap altre tràmit"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la via per anul·lar una llicència nul·la. Correcta (b): els actes nuls de ple dret es deixen sense efecte mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment i requereix el dictamen favorable del Consell consultiu. Per què no: (a) no es pot fer per una revocació verbal; (c) la caducitat no és la via per a la il·legalitat; (d) la sanció no anul·la la llicència. Base: art. 106 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 106 Llei 39/2015"
     }
   ]
 }
