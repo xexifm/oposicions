@@ -1533,131 +1533,119 @@
       "key": "Gestió d'obres municipals: planificar – organitzar – executar – controlar (tasques, terminis, recursos). Coordinació amb companyies de serveis, mobilitat i veïnat. Coordinació de seguretat i salut obligatòria si hi ha diverses empreses (coordinador + pla de seguretat). Documentació i control econòmic."
     },
     "65": {
-      "intro": "Patrimonis públics de sòl i habitatge: concepte, finalitats i patrimoni separat (TRLUC; Llei 18/2007).",
+      "intro": "Els patrimonis públics de sòl i d'habitatge són conjunts de béns destinats a finalitats urbanístiques i a fer efectiu el dret a l'habitatge. Es regulen al TRLUC i a la legislació d'habitatge (Llei 18/2007).",
       "sections": [
         {
-          "h": "Caracterització",
-          "scheme": {
-            "cap": "Patrimoni públic de sòl",
-            "body": "NATURALESA → patrimoni SEPARAT (afectat)\nFINALITATS → regular el mercat de sòl, fer efectiu el dret\n   a l'habitatge, executar el planejament\nINTEGRACIÓ → sòl obtingut per cessió, expropiació, compra\nDESTÍ → els ingressos s'afecten a finalitats urbanístiques\n   i d'habitatge"
-          }
+          "h": "Concepte i finalitats",
+          "p": "El patrimoni públic de sòl i d'habitatge és el conjunt de béns, recursos i drets que les administracions destinen a regular el mercat de sòl, a obtenir reserves de sòl per a actuacions d'iniciativa pública, a facilitar l'execució del planejament i, especialment, a fer efectiu el dret a un habitatge digne mitjançant la promoció d'habitatge protegit."
         },
         {
-          "h": "Notes",
-          "list": [
-            "El sòl de cessió d'aprofitament s'incorpora al patrimoni públic de sòl.",
-            "Comptabilitat i gestió diferenciades."
-          ]
+          "h": "Naturalesa de patrimoni separat",
+          "p": "Es configura com un patrimoni separat de la resta de béns de l'entitat, afectat a les seves finalitats específiques, amb comptabilitat i gestió diferenciades. S'hi integren, entre altres, el sòl obtingut per cessió de l'aprofitament urbanístic, els terrenys adquirits per expropiació o per exercici dels drets de tanteig i retracte, i els ingressos derivats de la seva gestió."
+        },
+        {
+          "h": "Destinació dels béns i ingressos",
+          "p": "Els béns del patrimoni públic de sòl i els ingressos obtinguts de la seva alienació o gestió s'han de destinar a les finalitats pròpies del patrimoni (actuacions urbanístiques, conservació i ampliació del mateix patrimoni i, sobretot, polítiques d'habitatge protegit i de millora urbana). Aquesta afectació impedeix destinar-los a despeses corrents alienes a aquestes finalitats."
         }
       ],
-      "key": "Patrimoni públic de sòl: patrimoni separat afectat a regular el mercat de sòl i l'habitatge."
+      "key": "Patrimoni públic de sòl i habitatge: patrimoni separat i afectat a regular el mercat de sòl, executar el planejament i fer efectiu el dret a l'habitatge (habitatge protegit). S'hi integra el sòl de cessió d'aprofitament; els ingressos s'afecten a les seves finalitats."
     },
     "66": {
-      "intro": "Urbanitzacions amb dèficits urbanístics: concepte i règim jurídic aplicable (TRLUC i normativa específica).",
+      "intro": "Les urbanitzacions amb dèficits urbanístics són àmbits, sovint d'origen irregular, amb serveis urbanístics incomplets o sense les cessions obligatòries. La normativa (TRLUC i disposicions específiques) preveu mecanismes per regularitzar-les.",
       "sections": [
         {
-          "h": "Problemàtica",
-          "scheme": {
-            "cap": "Urbanitzacions amb dèficits",
-            "body": "CONCEPTE → àmbits amb serveis urbanístics incomplets\n   o sense cessions, sovint d'origen irregular\nOBJECTIU → completar la urbanització i integrar-les\nINSTRUMENTS → planejament + gestió (reparcel·lació)\nFINANÇAMENT → repartiment de càrregues entre propietaris"
-          }
+          "h": "Concepte i problemàtica",
+          "p": "Es tracta d'urbanitzacions, en general en sòl no urbanitzable o urbanitzable desenvolupat de manera incompleta, que presenten dèficits d'urbanització (manca o insuficiència de vialitat, abastament d'aigua, sanejament, enllumenat) i, sovint, l'absència de les cessions de sòl per a sistemes. Aquesta situació genera problemes de serveis, de seguretat i d'integració urbana."
         },
         {
-          "h": "Notes",
-          "list": [
-            "Es prioritza la seguretat i la dotació de serveis bàsics.",
-            "Possibles convenis i programes de regularització."
-          ]
+          "h": "Règim jurídic i objectius de la regularització",
+          "p": "L'objectiu de la regularització és completar la urbanització, dotar els àmbits dels serveis bàsics i regularitzar-ne la situació jurídica i les cessions pendents, prioritzant la seguretat de les persones. La regularització s'instrumenta mitjançant figures de planejament i de gestió específiques, que distribueixen les càrregues d'urbanització entre les persones propietàries."
+        },
+        {
+          "h": "Instruments i finançament",
+          "p": "Es poden emprar plans especials urbanístics o plans de millora urbana, juntament amb projectes de reparcel·lació i d'urbanització, i, si escau, convenis. El finançament de les obres es reparteix entre els propietaris segons el principi d'equidistribució, amb possibles ajuts o aportacions públiques quan ho justifiqui l'interès general."
         }
       ],
-      "key": "Urbanitzacions amb dèficits: completar serveis i cessions via planejament i gestió, amb càrregues als propietaris."
+      "key": "Urbanitzacions amb dèficits urbanístics: àmbits amb serveis incomplets o sense cessions. Regularització (planejament + gestió: plans especials/de millora, reparcel·lació) per completar serveis i cessions, amb repartiment de càrregues entre propietaris (equidistribució)."
     },
     "67": {
-      "intro": "L'expropiació forçosa: subjectes, objecte, causa, procediment, garanties i reversió (LEF; TRLUC).",
+      "intro": "L'expropiació forçosa és la privació singular de la propietat o de drets o interessos patrimonials legítims per causa d'utilitat pública o interès social, acordada imperativament i amb la corresponent indemnització (just preu). Es regeix per la Llei de 16 de desembre de 1954 i, en l'àmbit urbanístic, pel TRLUC.",
       "sections": [
+        {
+          "h": "Subjectes, objecte i causa",
+          "p": "Hi intervenen tres subjectes: l'expropiant (l'Administració titular de la potestat), el beneficiari (qui adquireix el bé o adquireix l'obligació de pagar el just preu, que pot coincidir amb l'expropiant o ser un tercer, com un concessionari) i l'expropiat (titular del bé o dret). L'objecte pot ser qualsevol bé o dret patrimonial. La causa és la utilitat pública o l'interès social, que ha d'estar declarada."
+        },
         {
           "h": "Procediment general",
-          "scheme": {
-            "cap": "Fases de l'expropiació (LEF)",
-            "body": "1) DECLARACIÓ d'utilitat pública o interès social\n2) NECESSITAT D'OCUPACIÓ dels béns concrets\n3) JUST PREU (acord o JURAT D'EXPROPIACIÓ, peça separada)\n4) PAGAMENT i OCUPACIÓ\n(urgència, art. 52: ocupació prèvia a la fixació)"
-          }
+          "p": "El procediment ordinari de la LEF comprèn: 1) la declaració d'utilitat pública o interès social; 2) la declaració de la necessitat d'ocupació dels béns concrets; 3) la determinació del just preu, mitjançant fulls d'apreuament de cada part i, si no hi ha acord, la fixació pel Jurat d'Expropiació en peça separada; i 4) el pagament i l'ocupació. En matèria urbanística, l'aprovació dels instruments de planejament que prevegin obres o actuacions comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns afectats."
         },
         {
-          "h": "Garanties",
-          "list": [
-            "Premi d'afecció del 5% i interessos de demora.",
-            "Reversió: recuperar el bé si no s'executa l'obra o desapareix la causa.",
-            "En urbanisme, l'aprovació del pla implica utilitat pública i necessitat d'ocupació."
-          ]
-        },
-        {
-          "key": "Subjectes: expropiant, beneficiari i expropiat."
+          "h": "Garanties: premi d'afecció i reversió",
+          "p": "El just preu inclou un premi d'afecció del 5% sobre el valor del bé (art. 47 LEF) i merita interessos de demora si es retarda la fixació o el pagament. La reversió permet a l'expropiat (o als seus successors) recuperar el bé si no s'executa l'obra o el servei que va motivar l'expropiació, o si desapareix la causa. Existeix també el procediment d'urgència (art. 52 LEF), que permet l'ocupació prèvia a la fixació definitiva del just preu, amb les garanties corresponents."
         }
       ],
-      "key": "Expropiació: utilitat pública → necessitat d'ocupació → just preu (Jurat) → pagament. Premi 5% i reversió."
+      "key": "Expropiació (LEF 1954 + TRLUC): subjectes (expropiant, beneficiari, expropiat); causa (utilitat pública/interès social). Procediment: utilitat pública → necessitat d'ocupació → just preu (acord o Jurat d'Expropiació) → pagament i ocupació. Premi d'afecció 5%, interessos i dret de reversió. Urgència (art. 52)."
     },
     "68": {
-      "intro": "Valoracions: del sòl, construccions i drets, en relació amb la situació bàsica del sòl (TRLS, RDL 7/2015).",
+      "intro": "Les valoracions del sòl, de les construccions i instal·lacions i dels drets es regeixen per la legislació estatal de sòl (TRLS, RDL 7/2015), competència exclusiva de l'Estat, i s'apliquen a expropiacions, reparcel·lacions, vendes o substitucions forçoses i supòsits de responsabilitat patrimonial.",
       "sections": [
         {
-          "h": "Criteris",
-          "scheme": {
-            "cap": "Valoració del sòl",
-            "body": "SÒL RURAL → capitalització de la renda (real o potencial)\n   sense expectatives urbanístiques\nSÒL URBANITZAT → edificabilitat i ús × valor de repercussió\n   • si edificat: el major entre sòl i taxació conjunta\nINDEMNITZACIONS → drets extingits, trasllats, etc."
-          }
+          "h": "Criteris segons la situació bàsica del sòl",
+          "p": "La valoració depèn de la situació bàsica del sòl. El sòl rural es valora per capitalització de la renda anual, real o potencial, de l'explotació, segons el seu estat i ús, sense computar expectatives derivades de l'assignació d'edificabilitats o usos futurs; s'hi pot aplicar un factor de correcció per localització. El sòl urbanitzat es valora aplicant a l'edificabilitat i a l'ús atribuïts el valor de repercussió del sòl, obtingut pel mètode residual."
         },
         {
-          "h": "Notes",
-          "list": [
-            "Les valoracions es regeixen per la legislació estatal (competència exclusiva).",
-            "S'apliquen a expropiacions, reparcel·lacions i responsabilitat."
-          ]
+          "h": "Construccions, instal·lacions i sòl edificat",
+          "p": "Les construccions, edificacions i instal·lacions es valoren conjuntament amb el sòl quan s'ajusten a la legalitat, pel mètode de cost de reposició depreciat segons l'antiguitat i l'estat de conservació. En el sòl urbanitzat edificat, el valor és el superior entre el del sòl (segons l'edificabilitat) i el de la taxació conjunta del sòl i l'edificació existent."
+        },
+        {
+          "h": "Indemnitzacions per altres conceptes",
+          "p": "Les valoracions incorporen també les indemnitzacions per l'extinció de drets (com els arrendaments o les concessions afectats), per les despeses d'urbanització ja realitzades, per la iniciativa i la promoció d'actuacions no executades, i pel trasllat o el cessament d'activitats, en els termes i amb els límits que estableix el TRLS."
         }
       ],
-      "key": "Sòl rural: capitalització de rendes; urbanitzat: edificabilitat × repercussió. Sense expectatives en rural."
+      "key": "Valoracions (TRLS estatal): sòl rural per capitalització de la renda (sense expectatives, amb factor de localització); sòl urbanitzat per edificabilitat × valor de repercussió (mètode residual). Construccions per cost de reposició depreciat. Indemnitzacions per extinció de drets i despeses."
     },
     "69": {
-      "intro": "La potestat sancionadora: concepte, principis i mesures (arts. 25-31 i 53-90 Llei 40/2015 i 39/2015).",
+      "intro": "La potestat sancionadora és la facultat de l'Administració d'imposar sancions per la comissió d'infraccions administratives. El seu exercici està sotmès a un conjunt de principis i garanties recollits als arts. 25 a 31 de la Llei 40/2015 (principis substantius) i als arts. 53 i següents de la Llei 39/2015 (especialitats del procediment).",
       "sections": [
         {
-          "h": "Principis (Llei 40/2015)",
-          "scheme": {
-            "cap": "Principis de la potestat sancionadora",
-            "body": "LEGALITAT → reserva de llei\nTIPICITAT → infraccions i sancions predeterminades\nIRRETROACTIVITAT → llevat de la norma favorable\nRESPONSABILITAT → dol o culpa\nPROPORCIONALITAT → adequació sanció-infracció\nNON BIS IN IDEM → no doble sanció pels mateixos fets\nPRESUMPCIÓ D'INNOCÈNCIA"
-          }
-        },
-        {
-          "h": "Procediment",
+          "h": "Principis substantius (Llei 40/2015)",
           "list": [
-            "Separació entre instrucció i resolució; drets de defensa i audiència.",
-            "Caducitat si se supera el termini màxim; prescripció d'infraccions i sancions."
+            "Legalitat: la potestat sancionadora exigeix una norma amb rang de llei (reserva de llei).",
+            "Tipicitat: només són sancionables les infraccions previstes i amb les sancions establertes; prohibició de l'analogia.",
+            "Irretroactivitat: les disposicions sancionadores no es poden aplicar retroactivament, llevat que siguin favorables al presumpte infractor.",
+            "Responsabilitat: només es pot sancionar per fets constitutius d'infracció comesos amb dol o culpa.",
+            "Proporcionalitat: adequació entre la gravetat del fet i la sanció.",
+            "Non bis in idem: no es pot sancionar dos cops els mateixos fets amb idèntic fonament."
           ]
         },
         {
-          "key": "La càrrega de la prova correspon a l'Administració (presumpció d'innocència)."
+          "h": "Garanties del procediment",
+          "p": "El procediment sancionador ha de respectar la presumpció d'innocència (la càrrega de la prova correspon a l'Administració), el dret de defensa i d'audiència, la separació entre la fase instructora i la resolutòria (que han de correspondre a òrgans diferents) i el dret a ser informat de l'acusació. Els fets constatats per funcionaris amb la condició d'autoritat tenen valor probatori, sens perjudici de les proves en contra."
+        },
+        {
+          "h": "Prescripció i caducitat",
+          "p": "Les infraccions i les sancions prescriuen en els terminis que fixin les lleis que les estableixin i, si no, en els de l'art. 30 de la Llei 40/2015 (per a les infraccions: tres anys les molt greus, dos anys les greus i sis mesos les lleus). El procediment sancionador caduca si no es resol dins el termini màxim, amb l'arxiu de les actuacions."
         }
       ],
-      "key": "Sancionadora: legalitat, tipicitat, irretroactivitat (excepte favorable), proporcionalitat, non bis in idem, presumpció d'innocència."
+      "key": "Potestat sancionadora: principis de legalitat, tipicitat, irretroactivitat (excepte favorable), responsabilitat (dol/culpa), proporcionalitat i non bis in idem (Llei 40/2015). Garanties: presumpció d'innocència (prova de càrrec de l'AP), separació instrucció/resolució. Prescripció i caducitat del procediment."
     },
     "70": {
-      "intro": "Infraccions urbanístiques: classificació, actuacions que vulneren l'ordenament i persones responsables (TRLUC).",
+      "intro": "Les infraccions urbanístiques són les accions o omissions que vulneren l'ordenament urbanístic i estan tipificades com a tals. El TRLUC les classifica segons la seva gravetat i n'identifica les persones responsables.",
       "sections": [
         {
-          "h": "Classificació",
-          "scheme": {
-            "cap": "Infraccions urbanístiques",
-            "body": "MOLT GREUS → afecten sòl no urbanitzable protegit,\n   impedeixen l'execució del planejament\nGREUS → vulneracions rellevants de l'ordenació\nLLEUS → la resta (sovint legalitzables)\nRESPONSABLES → promotor, constructor, tècnic director,\n   i propietaris segons el cas"
-          }
+          "h": "Classificació de les infraccions",
+          "p": "Les infraccions urbanístiques es classifiquen en lleus, greus i molt greus, en funció de l'afectació que produeixen a l'ordenació urbanística i al tipus de sòl. Es qualifiquen, en general, de molt greus les que afecten el sòl no urbanitzable d'especial protecció o les que comporten una vulneració greu que impedeix o dificulta de manera rellevant l'execució del planejament; de greus, les vulneracions importants legalitzables o no; i de lleus, les de menor entitat."
         },
         {
-          "h": "Notes",
-          "list": [
-            "La qualificació depèn de l'afectació a l'ordenació i del tipus de sòl.",
-            "Compatible amb la restauració de la legalitat."
-          ]
+          "h": "Actuacions que vulneren l'ordenament",
+          "p": "Constitueixen infracció, entre altres: l'execució d'obres o l'ús del sòl sense la llicència o el títol habilitant preceptiu, o contravenint-ne les condicions; les parcel·lacions il·legals; l'incompliment de les ordres de suspensió o de restauració; i les actuacions que impedeixen o dificulten les funcions d'inspecció. La conformitat o no de l'actuació amb el planejament (legalitzable o no) influeix en la qualificació."
+        },
+        {
+          "h": "Persones responsables",
+          "p": "Són responsables de la infracció totes les persones que hi intervenen: el promotor, el constructor o l'empresari de les obres, i el tècnic director (cadascun en l'àmbit de la seva actuació); i, segons el cas, els propietaris dels terrenys i les persones titulars o promotores de les activitats. Quan el compliment correspon a diverses persones conjuntament, responen de manera solidària, en els termes que fixa la llei."
         }
       ],
-      "key": "Infraccions: molt greus/greus/lleus segons afectació i tipus de sòl. Responen promotor, constructor i tècnic."
+      "key": "Infraccions urbanístiques (TRLUC): lleus, greus i molt greus segons l'afectació a l'ordenació i el tipus de sòl (molt greus en sòl no urbanitzable protegit). Responsables: promotor, constructor i tècnic director, i si escau propietaris i titulars d'activitats."
     },
     "71": {
       "intro": "Sancions urbanístiques: quantia i graduació (TRLUC).",
