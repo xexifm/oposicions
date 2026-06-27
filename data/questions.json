@@ -3034,6 +3034,186 @@
       "explain": "Es pregunta la prescripció en sòl protegit. Correcta (b): en sòl no urbanitzable d'especial protecció, l'acció de restauració de la legalitat és imprescriptible. Per què no: (a) el termini de sis anys és el general, però no s'aplica aquí; (c) no és de dos anys; (d) sí que es pot exercir (de fet, sense límit temporal). Base: art. 207 TRLUC.",
       "source": "TRLUC",
       "article": "art. 207 TRLUC"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Quina és la forma política de l'Estat espanyol segons l'article 1.3 de la Constitució?",
+      "options": [
+        "La república parlamentària de caràcter federal",
+        "La monarquia parlamentària",
+        "L'Estat autonòmic de caràcter confederal",
+        "La democràcia presidencialista"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la forma política de l'Estat. Correcta (b): l'art. 1.3 CE estableix que la forma política de l'Estat espanyol és la monarquia parlamentària. Per què no: (a), (c) i (d) no es corresponen amb la definició constitucional. Base: art. 1.3 CE.",
+      "source": "CE1978",
+      "article": "art. 1.3 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Quin òrgan és l'intèrpret suprem de la Constitució?",
+      "options": [
+        "El Tribunal Suprem, com a òrgan superior de la jurisdicció ordinària",
+        "El Tribunal Constitucional",
+        "El Consell General del Poder Judicial",
+        "El Consell d'Estat com a òrgan consultiu suprem del Govern"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'intèrpret de la Constitució. Correcta (b): el Tribunal Constitucional (Títol IX CE) és l'intèrpret suprem de la Constitució, independent dels altres òrgans constitucionals. Per què no: (a) el Tribunal Suprem és l'òrgan superior de la jurisdicció ordinària; (c) i (d) tenen altres funcions. Base: arts. 159-165 CE.",
+      "source": "CE1978",
+      "article": "arts. 159-165 CE"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "La província, en l'organització territorial de l'Estat, és:",
+      "options": [
+        "Un mer òrgan perifèric de l'Administració general de l'Estat sense autonomia",
+        "Una entitat local amb personalitat jurídica pròpia i autonomia",
+        "Una divisió administrativa dependent de la comunitat autònoma",
+        "Una agrupació voluntària de municipis sense personalitat pròpia"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la naturalesa de la província. Correcta (b): la província és una entitat local amb personalitat jurídica pròpia, determinada per l'agrupació de municipis, amb autonomia per gestionar els seus interessos (art. 141 CE). Per què no: (a) sí que té autonomia; (c) no depèn de la CA; (d) no és voluntària ni manca de personalitat. Base: art. 141 CE.",
+      "source": "LRBRL",
+      "article": "art. 141 CE"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "Quina majoria s'exigeix, en general, per a l'aprovació del reglament orgànic municipal?",
+      "options": [
+        "Majoria simple del nombre de regidors presents a la sessió del Ple",
+        "Majoria absoluta del nombre legal de membres del Ple",
+        "Unanimitat de tots els membres de la corporació local",
+        "Majoria de dos terços del nombre legal de membres del Ple"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la majoria per al reglament orgànic. Correcta (b): l'aprovació o modificació del reglament orgànic, com altres assumptes de l'art. 47.2 LRBRL, exigeix la majoria absoluta del nombre legal de membres del Ple. Per què no: (a) no n'hi ha prou amb la majoria simple; (c) no cal unanimitat; (d) no s'exigeix la majoria de dos terços. Base: art. 47.2 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 47.2 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "Quins serveis ha de prestar, com a mínim, tot municipi sigui quina sigui la seva població?",
+      "options": [
+        "Transport col·lectiu urbà de viatgers i protecció del medi ambient urbà",
+        "Enllumenat públic, cementiri, recollida de residus, aigua potable i clavegueram",
+        "Biblioteca pública, parc públic i instal·lacions esportives d'ús públic",
+        "Serveis socials, protecció civil i prevenció i extinció d'incendis"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els serveis mínims de tots els municipis. Correcta (b): tots els municipis han de prestar enllumenat públic, cementiri, recollida de residus, neteja viària, abastament d'aigua potable, clavegueram, accés als nuclis i pavimentació de vies (art. 26.1.a). Per què no: (a) és per a >50.000 hab.; (c) per a >5.000 hab. (parc i biblioteca) i >20.000 (esportives); (d) per a >20.000 hab. Base: art. 26 LRBRL.",
+      "source": "LRBRL",
+      "article": "art. 26 LRBRL"
+    },
+    {
+      "theme": 16,
+      "block": 6,
+      "q": "Quina és la base de licitud més habitual del tractament de dades al sector públic?",
+      "options": [
+        "El consentiment exprés i per escrit de la persona interessada en tots els casos",
+        "El compliment d'una obligació legal o d'una missió d'interès públic",
+        "L'interès legítim del responsable del tractament en obtenir les dades",
+        "L'interès comercial de cedir les dades a tercers per finançar el servei"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la base de licitud al sector públic. Correcta (b): al sector públic la base sol ser el compliment d'una obligació legal o d'una missió d'interès públic o l'exercici de poders públics (art. 6 RGPD). Per què no: (a) el consentiment no és la base habitual al sector públic; (c) l'interès legítim no és aplicable a les autoritats públiques en l'exercici de les seves funcions; (d) no és una base lícita. Base: art. 6 RGPD.",
+      "source": "RGPD",
+      "article": "art. 6 RGPD"
+    },
+    {
+      "theme": 16,
+      "block": 6,
+      "q": "En quin termini s'ha de notificar a l'autoritat de control una violació de la seguretat de les dades?",
+      "options": [
+        "En un termini màxim de deu dies hàbils des que es coneix la violació",
+        "Sense dilació indeguda i, si és possible, en un màxim de 72 hores",
+        "En el termini d'un mes des que s'ha produït la bretxa de seguretat",
+        "No cal notificar-la si finalment no s'ha produït cap perjudici efectiu"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el termini de notificació de bretxes. Correcta (b): les violacions de seguretat es notifiquen a l'autoritat de control sense dilació indeguda i, si és possible, en un màxim de 72 hores (art. 33 RGPD). Per què no: (a) no són deu dies; (c) no és un mes; (d) s'ha de notificar llevat que sigui improbable que comporti un risc. Base: art. 33 RGPD.",
+      "source": "RGPD",
+      "article": "art. 33 RGPD"
+    },
+    {
+      "theme": 17,
+      "block": 7,
+      "q": "El personal eventual de les administracions públiques:",
+      "options": [
+        "Adquireix la condició de funcionari de carrera si supera el període de prova",
+        "Exerceix funcions de confiança o assessorament especial, amb cessament lliure",
+        "Es vincula a l'Administració mitjançant un contracte laboral indefinit",
+        "Accedeix sempre mitjançant un procés selectiu d'oposició lliure"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el personal eventual. Correcta (b): el personal eventual exerceix funcions expressament qualificades de confiança o assessorament especial; el seu nomenament i cessament són lliures (art. 12 TREBEP). Per què no: (a) no adquireix la condició de funcionari; (c) no és personal laboral indefinit; (d) no accedeix per oposició. Base: art. 12 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 12 TREBEP"
+    },
+    {
+      "theme": 18,
+      "block": 7,
+      "q": "Les retribucions complementàries dels funcionaris inclouen, entre d'altres:",
+      "options": [
+        "El sou base assignat a cada grup de classificació professional",
+        "El complement de destinació i el complement específic del lloc",
+        "Els triennis meritats per cada tres anys de servei actiu",
+        "Les dues pagues extraordinàries que es perceben cada any"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta les retribucions complementàries. Correcta (b): són complementàries el complement de destinació (nivell del lloc), el complement específic (condicions del lloc), la productivitat i les gratificacions (art. 24 TREBEP). Per què no: (a) el sou és una retribució bàsica; (c) els triennis són bàsics; (d) les pagues extres formen part de les bàsiques. Base: art. 24 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 24 TREBEP"
+    },
+    {
+      "theme": 86,
+      "block": 7,
+      "q": "Les funcions que impliquen l'exercici d'autoritat inherent als poders públics es reserven a:",
+      "options": [
+        "El personal laboral fix seleccionat per concurs de mèrits",
+        "El personal funcionari",
+        "El personal eventual de confiança designat per l'òrgan de govern",
+        "Qualsevol empleat públic, amb independència de la seva relació jurídica"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la reserva de funcions. Correcta (b): l'exercici de funcions que impliquen la participació directa o indirecta en l'exercici de potestats públiques o en la salvaguarda dels interessos generals es reserva al personal funcionari (art. 9.2 TREBEP). Per què no: (a) i (c) el personal laboral i eventual no poden exercir aquestes funcions; (d) no és per a qualsevol empleat. Base: art. 9.2 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 9.2 TREBEP"
+    },
+    {
+      "theme": 87,
+      "block": 7,
+      "q": "La planificació de tasques en la gestió de les persones té per objecte:",
+      "options": [
+        "Sobrecarregar els equips per maximitzar la productivitat a curt termini",
+        "Distribuir la càrrega de treball de manera equitativa i eficient",
+        "Eliminar qualsevol marge d'autonomia de les persones de l'equip",
+        "Concentrar totes les decisions en una sola persona del departament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la planificació de tasques. Correcta (b): la planificació de tasques busca distribuir la càrrega de treball de manera equitativa i eficient, ajustant les tasques a les capacitats i disponibilitats. Per què no: (a) no busca sobrecarregar; (c) no elimina l'autonomia; (d) no concentra totes les decisions. Base: atenció al personal i organització del treball.",
+      "source": "TREBEP",
+      "article": "atenció al personal"
+    },
+    {
+      "theme": 88,
+      "block": 7,
+      "q": "En el règim disciplinari, les faltes es classifiquen en:",
+      "options": [
+        "Faltes ordinàries i faltes extraordinàries segons la seva freqüència",
+        "Faltes molt greus, greus i lleus",
+        "Faltes civils, penals i administratives segons la jurisdicció",
+        "Faltes públiques i faltes privades segons l'àmbit en què es cometen"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la classificació de les faltes disciplinàries. Correcta (b): les faltes disciplinàries es classifiquen en molt greus, greus i lleus (art. 95 TREBEP). Per què no: (a), (c) i (d) no són la classificació legal de les faltes disciplinàries. Base: art. 95 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 95 TREBEP"
     }
   ]
 }
