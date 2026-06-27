@@ -141,126 +141,6 @@
       "article": "arts. 70.2 i 65.2 LRBRL"
     },
     {
-      "theme": 15,
-      "block": 5,
-      "q": "La llei que regula actualment els contractes del sector públic és:",
-      "options": [
-        "Llei 30/2007",
-        "Llei 9/2017 (LCSP)",
-        "RDL 3/2011",
-        "Llei 39/2015"
-      ],
-      "correct": 1,
-      "explain": "La Llei 9/2017, de 8 de novembre, de contractes del sector públic, transposa les directives europees 2014/23 i 2014/24.",
-      "source": "LCSP",
-      "article": "Llei 9/2017"
-    },
-    {
-      "theme": 15,
-      "block": 5,
-      "q": "Quin d'aquests és un principi rector de la contractació pública?",
-      "options": [
-        "Llibertat d'accés a les licitacions i no-discriminació",
-        "Secret de les actuacions",
-        "Adjudicació discrecional sense motivació",
-        "Prohibició de publicitat"
-      ],
-      "correct": 0,
-      "explain": "Art. 1 LCSP: llibertat d'accés a les licitacions, publicitat i transparència, no-discriminació i igualtat de tracte, i ús eficient dels fons.",
-      "source": "LCSP",
-      "article": "art. 1 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "El procediment de contractació en què qualsevol empresari interessat pot presentar oferta és el:",
-      "options": [
-        "Procediment obert",
-        "Procediment negociat sense publicitat",
-        "Diàleg competitiu restringit",
-        "Contracte menor"
-      ],
-      "correct": 0,
-      "explain": "En el procediment obert tot empresari interessat pot presentar proposició (art. 156 LCSP).",
-      "source": "LCSP",
-      "article": "art. 156 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "Una oferta es pot considerar anormalment baixa:",
-      "options": [
-        "Sempre que sigui la més econòmica",
-        "Quan incorri en presumpció d'anormalitat segons els paràmetres objectius del plec, amb tràmit d'audiència al licitador",
-        "Mai",
-        "Només en contractes d'obres"
-      ],
-      "correct": 1,
-      "explain": "Art. 149 LCSP: davant una oferta presumptament anormal cal donar audiència al licitador perquè la justifiqui abans de rebutjar-la.",
-      "source": "LCSP",
-      "article": "art. 149 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "Les modificacions no previstes als plecs no poden superar, individual o conjuntament, el:",
-      "options": [
-        "10% del preu inicial",
-        "20% del preu inicial",
-        "50% del preu inicial",
-        "100% del preu inicial"
-      ],
-      "correct": 2,
-      "explain": "Art. 205 LCSP: les modificacions no previstes no poden alterar la naturalesa global ni superar, aïlladament o conjuntament, el 50% del preu inicial.",
-      "source": "LCSP",
-      "article": "art. 205 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "En el contracte d'obres, abans de la licitació cal disposar, amb caràcter general, de:",
-      "options": [
-        "Un projecte degudament aprovat i supervisat",
-        "Només un croquis",
-        "La factura final",
-        "L'acta de recepció"
-      ],
-      "correct": 0,
-      "explain": "L'adjudicació d'un contracte d'obres requereix l'elaboració, supervisió, aprovació i replanteig del projecte (art. 231 i ss. LCSP).",
-      "source": "LCSP",
-      "article": "arts. 231-236 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "El llindar del contracte menor en contractes d'obres és (IVA exclòs) d'un import inferior a:",
-      "options": [
-        "15.000 €",
-        "40.000 €",
-        "60.000 €",
-        "100.000 €"
-      ],
-      "correct": 1,
-      "explain": "Art. 118 LCSP: són menors els contractes d'obres de valor inferior a 40.000 € i els de serveis i subministraments inferiors a 15.000 €.",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "En la contractació menor està prohibit:",
-      "options": [
-        "Fer-la per escrit",
-        "Fraccionar l'objecte del contracte per disminuir-ne la quantia i eludir els requisits",
-        "Incorporar la factura",
-        "Aprovar la despesa"
-      ],
-      "correct": 1,
-      "explain": "No es pot fraccionar l'objecte del contracte amb la finalitat de disminuir la quantia i eludir els requisits de publicitat o de procediment (art. 118.2 i 99.2 LCSP).",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
-    },
-    {
       "theme": 16,
       "block": 6,
       "q": "Les dades de salut, segons el RGPD, són:",
@@ -561,171 +441,6 @@
       "article": "art. 69.4 Llei 39/2015"
     },
     {
-      "theme": 44,
-      "block": 11,
-      "q": "El TRLUC de Catalunya és:",
-      "options": [
-        "El Decret legislatiu 1/2010",
-        "La Llei 9/2017",
-        "El RDL 7/2015",
-        "La Llei 18/2007"
-      ],
-      "correct": 0,
-      "explain": "El text refós de la Llei d'urbanisme de Catalunya és el Decret legislatiu 1/2010, de 3 d'agost.",
-      "source": "TRLUC",
-      "article": "DL 1/2010"
-    },
-    {
-      "theme": 44,
-      "block": 11,
-      "q": "Segons el TRLUC, el sòl es classifica en:",
-      "options": [
-        "Urbà, urbanitzable i no urbanitzable",
-        "Edificable i no edificable",
-        "Públic i privat",
-        "Residencial i industrial"
-      ],
-      "correct": 0,
-      "explain": "El TRLUC classifica el sòl en urbà, urbanitzable i no urbanitzable.",
-      "source": "TRLUC",
-      "article": "art. 25 TRLUC"
-    },
-    {
-      "theme": 44,
-      "block": 11,
-      "q": "Té la condició de solar el sòl urbà que:",
-      "options": [
-        "Encara no disposa de cap servei",
-        "Reuneix els serveis i condicions d'urbanització necessaris per ser edificat",
-        "Està en sòl no urbanitzable",
-        "Només té projecte"
-      ],
-      "correct": 1,
-      "explain": "És solar el sòl urbà apte per a l'edificació per disposar dels serveis bàsics i complir les condicions d'urbanització i alineacions/rasants.",
-      "source": "TRLUC",
-      "article": "art. 29 TRLUC"
-    },
-    {
-      "theme": 47,
-      "block": 11,
-      "q": "L'aprofitament urbanístic és:",
-      "options": [
-        "El dret a no edificar",
-        "La mesura de les facultats urbanístiques d'ús i edificació reconegudes al sòl pel planejament",
-        "Un tribut local",
-        "Una sanció"
-      ],
-      "correct": 1,
-      "explain": "L'aprofitament urbanístic determina l'edificabilitat i els usos atribuïts pel planejament, ponderats segons la situació.",
-      "source": "TRLUC",
-      "article": "art. 36 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "L'instrument de planejament general municipal a Catalunya és, amb caràcter general:",
-      "options": [
-        "El Pla parcial",
-        "El Pla d'ordenació urbanística municipal (POUM)",
-        "El projecte d'urbanització",
-        "L'estudi de detall"
-      ],
-      "correct": 1,
-      "explain": "El POUM és l'instrument d'ordenació urbanística integral del municipi (art. 57 TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 57 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Els plans parcials urbanístics tenen per objecte:",
-      "options": [
-        "Ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació",
-        "Aprovar el pressupost",
-        "Regular el personal",
-        "Imposar sancions"
-      ],
-      "correct": 0,
-      "explain": "Els plans parcials desenvolupen el planejament general ordenant el sòl urbanitzable (delimitat) per a la seva transformació.",
-      "source": "TRLUC",
-      "article": "art. 65 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "La llicència urbanística és:",
-      "options": [
-        "Un acte reglat de control previ de la conformitat de l'actuació amb la legalitat urbanística",
-        "Un acte discrecional lliure",
-        "Un contracte",
-        "Una subvenció"
-      ],
-      "correct": 0,
-      "explain": "La llicència urbanística és un acte reglat: s'atorga o denega segons la conformitat de l'actuació amb el planejament i la legalitat.",
-      "source": "TRLUC",
-      "article": "art. 188 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "En matèria de llicències urbanístiques, no es poden adquirir per silenci administratiu:",
-      "options": [
-        "Cap facultat",
-        "Facultats o drets contraris a l'ordenament urbanístic o al planejament",
-        "Les llicències d'obres menors",
-        "Els drets de cap tipus"
-      ],
-      "correct": 1,
-      "explain": "En cap cas s'adquireixen per silenci facultats contràries a la legislació o al planejament urbanístic (art. 11.3 TRLS; doctrina consolidada).",
-      "source": "TRLSRU",
-      "article": "art. 11.3 TRLS"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "La inspecció urbanística és exercida principalment per:",
-      "options": [
-        "L'Estat",
-        "Els ajuntaments i, si escau, l'administració autonòmica",
-        "Els particulars",
-        "Els notaris"
-      ],
-      "correct": 1,
-      "explain": "La protecció de la legalitat i la inspecció urbanística corresponen als ajuntaments, sens perjudici de les competències autonòmiques (TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 199 i ss. TRLUC"
-    },
-    {
-      "theme": 73,
-      "block": 12,
-      "q": "L'acció de restauració de la realitat física alterada per obres il·legals prescriu, amb caràcter general, al cap de:",
-      "options": [
-        "2 anys",
-        "4 anys",
-        "6 anys des de l'acabament de les obres",
-        "No prescriu mai"
-      ],
-      "correct": 2,
-      "explain": "El termini general és de 6 anys des de l'acabament total de les obres; no opera en sòl no urbanitzable d'especial protecció.",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "Un principi de la potestat sancionadora és:",
-      "options": [
-        "La retroactivitat de les normes sancionadores desfavorables",
-        "La tipicitat: només són sancionables les infraccions previstes per llei",
-        "La sanció sense procediment",
-        "L'analogia in malam partem"
-      ],
-      "correct": 1,
-      "explain": "Els principis de la potestat sancionadora (arts. 25-31 Llei 40/2015) inclouen legalitat, tipicitat, irretroactivitat (excepte favorable), responsabilitat, proporcionalitat i no concurrència.",
-      "source": "L40_2015",
-      "article": "arts. 25-31 Llei 40/2015"
-    },
-    {
       "theme": 59,
       "block": 13,
       "q": "La Llei 20/2009 de Catalunya regula:",
@@ -799,21 +514,6 @@
       "explain": "El CTE es va aprovar pel Reial decret 314/2006, de 17 de març.",
       "source": "CTE",
       "article": "RD 314/2006"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "En l'expropiació forçosa, la fixació del preu just o 'just preu' té lloc:",
-      "options": [
-        "Abans de la declaració d'utilitat pública",
-        "Després de la declaració de necessitat d'ocupació, en peça separada",
-        "Mai",
-        "Només per acord verbal"
-      ],
-      "correct": 1,
-      "explain": "El procediment general (LEF) inclou la declaració d'utilitat pública, la necessitat d'ocupació, la determinació del just preu (peça separada) i el pagament i ocupació.",
-      "source": "LEF",
-      "article": "Llei d'expropiació forçosa 1954"
     },
     {
       "theme": 75,
@@ -951,66 +651,6 @@
       "article": "RD 171/2004"
     },
     {
-      "theme": 22,
-      "block": 5,
-      "q": "La prerrogativa de l'Administració d'interpretar els contractes i resoldre dubtes sobre el compliment s'anomena:",
-      "options": [
-        "Ius variandi",
-        "Interpretació unilateral, una de les prerrogatives de l'art. 190 LCSP",
-        "Factum principis",
-        "Resolució automàtica"
-      ],
-      "correct": 1,
-      "explain": "Art. 190 LCSP: l'Administració té, entre altres, la prerrogativa d'interpretar els contractes, resoldre dubtes, modificar-los (ius variandi) i acordar-ne la resolució.",
-      "source": "LCSP",
-      "article": "art. 190 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "El contracte d'elaboració de projectes d'obres és una especialitat del contracte de:",
-      "options": [
-        "Obres",
-        "Serveis",
-        "Subministrament",
-        "Concessió d'obres"
-      ],
-      "correct": 1,
-      "explain": "L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 308 i concordants LCSP).",
-      "source": "LCSP",
-      "article": "art. 308 LCSP"
-    },
-    {
-      "theme": 48,
-      "block": 11,
-      "q": "El deure de cessió de sòl per a sistemes i el deure d'urbanitzar corresponen, amb caràcter general:",
-      "options": [
-        "A l'Administració",
-        "A les persones propietàries en el marc de la gestió urbanística",
-        "A l'Estat",
-        "A ningú"
-      ],
-      "correct": 1,
-      "explain": "Els propietaris tenen, entre altres deures, els de cessió de sòl per a sistemes i aprofitament, i de costejar i, si escau, executar la urbanització (TRLUC i TRLS).",
-      "source": "TRLUC",
-      "article": "art. 44 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "Els sistemes d'actuació urbanística inclouen:",
-      "options": [
-        "Reparcel·lació (compensació i cooperació) i expropiació",
-        "Només l'expropiació",
-        "Només la venda directa",
-        "La permuta forçosa exclusivament"
-      ],
-      "correct": 0,
-      "explain": "El TRLUC preveu el sistema de reparcel·lació (modalitats de compensació, cooperació, etc.) i el d'expropiació.",
-      "source": "TRLUC",
-      "article": "art. 121 TRLUC"
-    },
-    {
       "theme": 12,
       "block": 3,
       "q": "El pressupost com a instrument de planificació expressa:",
@@ -1069,36 +709,6 @@
       "explain": "Art. 36 Llei 40/2015: l'Administració, després d'indemnitzar, exigeix d'ofici a les autoritats i personal la responsabilitat quan hi hagi dol o culpa o negligència greus.",
       "source": "L40_2015",
       "article": "art. 36 Llei 40/2015"
-    },
-    {
-      "theme": 71,
-      "block": 12,
-      "q": "En la graduació de les sancions urbanístiques es tenen en compte criteris com:",
-      "options": [
-        "L'atzar",
-        "La gravetat, la reincidència, el benefici obtingut i el dany causat",
-        "Només el nom de l'infractor",
-        "El color de la façana"
-      ],
-      "correct": 1,
-      "explain": "La quantia i graduació atén a circumstàncies com la gravetat del fet, la reincidència, el benefici obtingut i la magnitud del dany (TRLUC; principi de proporcionalitat).",
-      "source": "TRLUC",
-      "article": "art. 219 TRLUC"
-    },
-    {
-      "theme": 72,
-      "block": 12,
-      "q": "Les ordres d'execució s'adrecen a garantir:",
-      "options": [
-        "El deure de conservació i rehabilitació de les construccions en condicions de seguretat, salubritat i ornament",
-        "La recaptació de tributs",
-        "La selecció de personal",
-        "La contractació menor"
-      ],
-      "correct": 0,
-      "explain": "Mitjançant ordres d'execució l'Ajuntament imposa el compliment del deure legal de conservació dels immobles (seguretat, salubritat i ornament públic).",
-      "source": "TRLUC",
-      "article": "art. 197 TRLUC"
     },
     {
       "theme": 76,
@@ -1161,66 +771,6 @@
       "article": "codi de conducta, Llei 19/2014"
     },
     {
-      "theme": 23,
-      "block": 5,
-      "q": "La subcontractació en els contractes del sector públic:",
-      "options": [
-        "Està sempre prohibida",
-        "És possible amb els límits i condicions de la LCSP, i el contractista en respon davant l'Administració",
-        "Allibera el contractista de tota responsabilitat",
-        "No requereix comunicació"
-      ],
-      "correct": 1,
-      "explain": "Art. 215 LCSP: el contractista pot subcontractar dins dels límits del plec; l'obligació davant l'Administració continua sent del contractista principal.",
-      "source": "LCSP",
-      "article": "art. 215 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "En la concessió d'obres, el concessionari assumeix:",
-      "options": [
-        "Cap risc",
-        "El risc operacional de la construcció i explotació de l'obra",
-        "Només la construcció, mai l'explotació",
-        "Una subvenció garantida"
-      ],
-      "correct": 1,
-      "explain": "La concessió d'obres es caracteritza perquè el concessionari assumeix el risc operacional (de demanda o disponibilitat) de l'explotació de l'obra.",
-      "source": "LCSP",
-      "article": "art. 14 LCSP"
-    },
-    {
-      "theme": 50,
-      "block": 11,
-      "q": "Els plans directors urbanístics:",
-      "options": [
-        "Ordenen detalladament una parcel·la",
-        "Estableixen directrius supramunicipals d'ordenació del territori i del sòl",
-        "Aproven el pressupost",
-        "Regulen el personal"
-      ],
-      "correct": 1,
-      "explain": "Els plans directors urbanístics estableixen directrius de coordinació urbanística d'abast supramunicipal (art. 56 TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 56 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "Els convenis urbanístics:",
-      "options": [
-        "Són secrets",
-        "Estan subjectes a publicitat i no poden vulnerar les determinacions del planejament",
-        "Substitueixen el planejament",
-        "No tenen límits"
-      ],
-      "correct": 1,
-      "explain": "Els convenis urbanístics se subjecten als principis de publicitat i transparència i no poden alterar el règim del planejament al marge dels procediments establerts.",
-      "source": "TRLUC",
-      "article": "art. 104 TRLUC"
-    },
-    {
       "theme": 13,
       "block": 3,
       "q": "El projecte de pressupost general de l'entitat local el forma i el tramet al Ple:",
@@ -1266,21 +816,6 @@
       "article": "legislació de règim local i LCSP"
     },
     {
-      "theme": 46,
-      "block": 11,
-      "q": "Els sistemes urbanístics generals comprenen, entre d'altres:",
-      "options": [
-        "Habitatges privats",
-        "Les xarxes viàries, els espais lliures i els equipaments d'abast general",
-        "Locals comercials",
-        "Oficines bancàries"
-      ],
-      "correct": 1,
-      "explain": "Els sistemes urbanístics (generals i locals) inclouen vialitat, espais lliures, equipaments i serveis tècnics que estructuren el territori.",
-      "source": "TRLUC",
-      "article": "art. 34 TRLUC"
-    },
-    {
       "theme": 63,
       "block": 14,
       "q": "L'execució d'obres locals es pot fer:",
@@ -1294,21 +829,6 @@
       "explain": "Les obres es poden executar per contracte o per la pròpia administració amb mitjans propis quan concorrin els supòsits legals (LCSP/ROAS).",
       "source": "LCSP",
       "article": "art. 30 LCSP"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Les infraccions urbanístiques es classifiquen en:",
-      "options": [
-        "Lleus, greus i molt greus",
-        "Tipus únic",
-        "Civils i mercantils",
-        "Penals exclusivament"
-      ],
-      "correct": 0,
-      "explain": "El TRLUC classifica les infraccions urbanístiques en lleus, greus i molt greus, segons l'afectació a l'ordenació.",
-      "source": "TRLUC",
-      "article": "art. 213 TRLUC"
     },
     {
       "theme": 87,
@@ -1326,36 +846,6 @@
       "article": "habilitats directives"
     },
     {
-      "theme": 21,
-      "block": 5,
-      "q": "L'adjudicació del contracte s'ha de fer:",
-      "options": [
-        "A l'oferta més caval sense criteris",
-        "A la millor relació qualitat-preu segons els criteris d'adjudicació del plec",
-        "Per sorteig sempre",
-        "A la primera oferta presentada"
-      ],
-      "correct": 1,
-      "explain": "Art. 145 LCSP: l'adjudicació es fa segons la millor relació qualitat-preu, valorada amb criteris vinculats a l'objecte del contracte.",
-      "source": "LCSP",
-      "article": "art. 145 LCSP"
-    },
-    {
-      "theme": 45,
-      "block": 11,
-      "q": "Les situacions bàsiques del sòl, segons la legislació estatal, són:",
-      "options": [
-        "Rural i urbanitzat",
-        "Públic i privat",
-        "Edificat i no edificat",
-        "Urbà i rústic"
-      ],
-      "correct": 0,
-      "explain": "El TRLS (RDL 7/2015) distingeix dues situacions bàsiques: sòl rural i sòl urbanitzat.",
-      "source": "TRLSRU",
-      "article": "art. 21 TRLS"
-    },
-    {
       "theme": 40,
       "block": 3,
       "q": "La pròrroga del pressupost es produeix quan:",
@@ -1369,21 +859,6 @@
       "explain": "Art. 169.6 TRLHL: si en començar l'exercici no està aprovat el pressupost, es prorroga automàticament el de l'any anterior amb els seus crèdits inicials.",
       "source": "TRLHL",
       "article": "art. 169.6 TRLHL"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Estan subjectes a llicència urbanística, amb caràcter general:",
-      "options": [
-        "Totes les actuacions, fins i tot les exemptes per llei",
-        "Les obres i actuacions previstes legalment, sens perjudici dels règims de comunicació prèvia",
-        "Cap actuació",
-        "Només les obres de l'Estat"
-      ],
-      "correct": 1,
-      "explain": "L'art. 187 TRLUC enumera els actes subjectes a llicència; altres actuacions de menor entitat se subjecten a comunicació prèvia (art. 187 bis).",
-      "source": "TRLUC",
-      "article": "art. 187 TRLUC"
     },
     {
       "theme": 36,
@@ -1534,171 +1009,6 @@
       "explain": "Les contribucions especials graven el benefici especial obtingut per la realització d'obres o l'establiment/ampliació de serveis públics.",
       "source": "TRLHL",
       "article": "arts. 28-37 TRLHL"
-    },
-    {
-      "theme": 15,
-      "block": 5,
-      "q": "El valor estimat del contracte serveix per:",
-      "options": [
-        "Decorar el plec",
-        "Determinar el procediment i la publicitat (regulació harmonitzada)",
-        "Calcular l'IRPF",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "El valor estimat (art. 101 LCSP) determina la publicitat i el procediment aplicable.",
-      "source": "LCSP",
-      "article": "art. 101 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "El procediment obert simplificat:",
-      "options": [
-        "No existeix",
-        "Permet agilitzar contractes per sota de determinats llindars amb terminis reduïts",
-        "És per a contractes SARA grans",
-        "No té publicitat"
-      ],
-      "correct": 1,
-      "explain": "Art. 159 LCSP: l'obert simplificat (i el sumari) agilita la contractació per sota de certs llindars.",
-      "source": "LCSP",
-      "article": "art. 159 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "El procediment negociat sense publicitat només procedeix:",
-      "options": [
-        "Sempre que es vulgui",
-        "En supòsits taxats (p. ex. exclusivitat, urgència imperiosa)",
-        "Per a qualsevol obra",
-        "Sense expedient"
-      ],
-      "correct": 1,
-      "explain": "Art. 168 LCSP: el negociat sense publicitat es reserva a supòsits taxats.",
-      "source": "LCSP",
-      "article": "art. 168 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "Els criteris d'adjudicació han de ser:",
-      "options": [
-        "Subjectius i secrets",
-        "Objectius, vinculats a l'objecte del contracte i fixats al plec",
-        "Decidits a posteriori",
-        "Únicament el preu sempre"
-      ],
-      "correct": 1,
-      "explain": "Art. 145 LCSP: els criteris han de ser objectius i vinculats a l'objecte; pot haver-hi pluralitat de criteris.",
-      "source": "LCSP",
-      "article": "art. 145 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "La demora del contractista en l'execució pot comportar:",
-      "options": [
-        "Premis",
-        "Penalitats o la resolució del contracte",
-        "Cap conseqüència",
-        "Una subvenció"
-      ],
-      "correct": 1,
-      "explain": "Art. 193 LCSP: la demora habilita la imposició de penalitats o la resolució del contracte.",
-      "source": "LCSP",
-      "article": "art. 193 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "En la subcontractació, el contractista ha de:",
-      "options": [
-        "Ocultar-la",
-        "Comunicar-la i complir els límits del plec, mantenint la responsabilitat",
-        "Cedir tot el contracte",
-        "No pagar els subcontractistes"
-      ],
-      "correct": 1,
-      "explain": "Art. 215 LCSP: cal comunicar la subcontractació; el contractista principal en respon davant l'Administració.",
-      "source": "LCSP",
-      "article": "art. 215 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "El compliment del contracte es constata mitjançant:",
-      "options": [
-        "Una factura",
-        "L'acta de recepció o conformitat",
-        "Un correu electrònic",
-        "La signatura del plec"
-      ],
-      "correct": 1,
-      "explain": "Art. 210 LCSP: el contracte s'entén complert quan el contractista ha realitzat la prestació, constatat amb acta de recepció.",
-      "source": "LCSP",
-      "article": "art. 210 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "El replanteig del projecte d'obres comprova:",
-      "options": [
-        "El preu de mercat",
-        "La realitat geomètrica de l'obra i la disponibilitat dels terrenys",
-        "La solvència",
-        "El termini de garantia"
-      ],
-      "correct": 1,
-      "explain": "L'acte de replanteig comprova la realitat geomètrica i la disponibilitat dels terrenys per executar l'obra.",
-      "source": "LCSP",
-      "article": "art. 236 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "El contracte de subministrament té per objecte:",
-      "options": [
-        "Obres",
-        "L'adquisició, arrendament o lísing de productes o béns mobles",
-        "Serveis intel·lectuals",
-        "Concessions"
-      ],
-      "correct": 1,
-      "explain": "Art. 16 LCSP: el subministrament és l'adquisició (o arrendament) de productes o béns mobles.",
-      "source": "LCSP",
-      "article": "art. 16 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "En la concessió de serveis, el risc operacional:",
-      "options": [
-        "El suporta l'Administració",
-        "El suporta el concessionari",
-        "No existeix",
-        "És compartit a parts iguals per llei"
-      ],
-      "correct": 1,
-      "explain": "Art. 15 LCSP: la concessió de serveis transfereix el risc operacional al concessionari.",
-      "source": "LCSP",
-      "article": "art. 15 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "La durada màxima d'un contracte menor és:",
-      "options": [
-        "3 mesos",
-        "1 any, sense pròrroga",
-        "4 anys",
-        "Indefinida"
-      ],
-      "correct": 1,
-      "explain": "Art. 29.8 LCSP: el contracte menor no pot tenir durada superior a un any ni ser prorrogat.",
-      "source": "LCSP",
-      "article": "art. 29.8 LCSP"
     },
     {
       "theme": 16,
@@ -1969,216 +1279,6 @@
       "explain": "Les entitats locals han de formar inventari de tots els seus béns i drets, rectificat anualment.",
       "source": "D336_1988",
       "article": "D 336/1988"
-    },
-    {
-      "theme": 44,
-      "block": 11,
-      "q": "El sòl no urbanitzable es caracteritza per:",
-      "options": [
-        "Ser apte per urbanitzar",
-        "Estar preservat del procés d'urbanització i transformació",
-        "Tenir tots els serveis",
-        "Ser sempre públic"
-      ],
-      "correct": 1,
-      "explain": "El sòl no urbanitzable és el que el planejament preserva de la transformació urbanística.",
-      "source": "TRLUC",
-      "article": "art. 32 TRLUC"
-    },
-    {
-      "theme": 47,
-      "block": 11,
-      "q": "L'aprofitament urbanístic mitjà serveix per:",
-      "options": [
-        "Calcular l'IBI",
-        "Distribuir equitativament beneficis i càrregues entre propietaris",
-        "Fixar el sou dels tècnics",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "L'aprofitament mitjà és l'instrument d'equidistribució de beneficis i càrregues en sectors de planejament.",
-      "source": "TRLUC",
-      "article": "art. 37 TRLUC"
-    },
-    {
-      "theme": 49,
-      "block": 11,
-      "q": "Els usos i obres provisionals:",
-      "options": [
-        "Són definitius",
-        "S'autoritzen de manera precària, han de cessar i s'inscriuen al Registre",
-        "No requereixen res",
-        "Generen dret a indemnització"
-      ],
-      "correct": 1,
-      "explain": "Els usos provisionals s'autoritzen amb caràcter precari, amb compromís de cessament i sense dret a indemnització.",
-      "source": "TRLUC",
-      "article": "art. 53 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "El POUM, com a instrument d'ordenació, és aprovat definitivament:",
-      "options": [
-        "Per l'Alcalde",
-        "Per la Comissió Territorial d'Urbanisme (o conseller), amb aprovació inicial i provisional municipal prèvia",
-        "Pel Ple sense més tràmits",
-        "Per l'Estat"
-      ],
-      "correct": 1,
-      "explain": "L'aprovació definitiva del POUM correspon a l'administració urbanística de la Generalitat (CTU), previ acord municipal.",
-      "source": "TRLUC",
-      "article": "art. 79-80 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Els plans especials urbanístics:",
-      "options": [
-        "Substitueixen el POUM",
-        "Desenvolupen o complementen el planejament per a finalitats concretes",
-        "Aproven el pressupost",
-        "Regulen el personal"
-      ],
-      "correct": 1,
-      "explain": "Els plans especials desenvolupen previsions del planejament general per a finalitats específiques (patrimoni, infraestructures…).",
-      "source": "TRLUC",
-      "article": "art. 67 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "La iniciativa privada en el planejament derivat:",
-      "options": [
-        "Està prohibida",
-        "És possible mitjançant la formulació de plans per part dels particulars",
-        "Substitueix l'Ajuntament",
-        "No té cap límit"
-      ],
-      "correct": 1,
-      "explain": "Els particulars poden formular figures de planejament derivat, que tramita i aprova l'Administració.",
-      "source": "TRLUC",
-      "article": "art. 101 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "En el sistema de reparcel·lació per cooperació:",
-      "options": [
-        "Els propietaris executen la urbanització",
-        "L'Administració executa les obres d'urbanització a càrrec dels propietaris",
-        "No hi ha cessions",
-        "No s'urbanitza"
-      ],
-      "correct": 1,
-      "explain": "En la cooperació, els propietaris aporten el sòl i l'Administració executa les obres a càrrec d'aquells.",
-      "source": "TRLUC",
-      "article": "art. 121 TRLUC"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "En l'expropiació, la reversió procedeix quan:",
-      "options": [
-        "Sempre",
-        "Desapareix l'afectació o no s'executa l'obra que la va motivar",
-        "Mai",
-        "Ho decideix l'expropiat lliurement"
-      ],
-      "correct": 1,
-      "explain": "La reversió permet recuperar el bé si no s'executa l'obra o desapareix la causa expropiandi (LEF).",
-      "source": "LEF",
-      "article": "Llei d'expropiació forçosa"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "La valoració del sòl rural es fa, amb caràcter general:",
-      "options": [
-        "Per expectatives urbanístiques",
-        "Per capitalització de la renda real o potencial",
-        "Pel valor cadastral sempre",
-        "Lliurement"
-      ],
-      "correct": 1,
-      "explain": "El TRLS valora el sòl rural per capitalització de rendes, sense computar expectatives urbanístiques.",
-      "source": "TRLSRU",
-      "article": "art. 36 TRLS"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "Les parcel·lacions urbanístiques en sòl no urbanitzable:",
-      "options": [
-        "Són lliures",
-        "Estan prohibides (presumpció de parcel·lació urbanística il·legal)",
-        "Requereixen només comunicació",
-        "Les autoritza l'Estat"
-      ],
-      "correct": 1,
-      "explain": "En sòl no urbanitzable resta prohibida la parcel·lació urbanística; opera la presumpció legal.",
-      "source": "TRLUC",
-      "article": "art. 188 TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "L'ordre de suspensió d'obres sense llicència:",
-      "options": [
-        "Requereix sentència",
-        "Es pot dictar de manera immediata com a mesura cautelar",
-        "Triga 6 anys",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "L'Administració pot ordenar la suspensió immediata d'obres en curs sense llicència (mesura cautelar).",
-      "source": "TRLUC",
-      "article": "art. 205 TRLUC"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Una infracció urbanística molt greu és, típicament:",
-      "options": [
-        "Una obra menor sense llicència legalitzable",
-        "Actuacions en sòl no urbanitzable de protecció especial o que impedeixen l'execució del planejament",
-        "Un retard administratiu",
-        "Una al·legació"
-      ],
-      "correct": 1,
-      "explain": "Es qualifiquen de molt greus les vulneracions més rellevants, com les que afecten sòl especialment protegit.",
-      "source": "TRLUC",
-      "article": "art. 214 TRLUC"
-    },
-    {
-      "theme": 71,
-      "block": 12,
-      "q": "La multa per infracció urbanística es gradua, entre d'altres, en funció de:",
-      "options": [
-        "El nom del propietari",
-        "El benefici obtingut, el dany i la reincidència",
-        "L'estació de l'any",
-        "El color"
-      ],
-      "correct": 1,
-      "explain": "La graduació atén a criteris de proporcionalitat: benefici, dany, reincidència, etc.",
-      "source": "TRLUC",
-      "article": "art. 219 TRLUC"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La revisió d'una llicència il·legal favorable es fa:",
-      "options": [
-        "Revocant-la directament",
-        "Pels procediments de revisió d'ofici/lesivitat de la Llei 39/2015",
-        "Verbalment",
-        "Sense cap garantia"
-      ],
-      "correct": 1,
-      "explain": "Les llicències il·legals s'anul·len pels procediments de revisió d'ofici (nul·les) o lesivitat (anul·lables).",
-      "source": "L39_2015",
-      "article": "arts. 106-107 Llei 39/2015"
     },
     {
       "theme": 59,
@@ -2481,171 +1581,6 @@
       "article": "art. 48 Llei 40/2015"
     },
     {
-      "theme": 22,
-      "block": 5,
-      "q": "El factum principis i el risc imprevisible poden donar lloc a:",
-      "options": [
-        "La resolució automàtica",
-        "El restabliment de l'equilibri econòmic del contracte",
-        "Una sanció al contractista",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "Les alteracions sobrevingudes poden justificar el restabliment de l'equilibri econòmic en concessions.",
-      "source": "LCSP",
-      "article": "art. 270 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "El pagament als subcontractistes:",
-      "options": [
-        "No es controla",
-        "Pot ser objecte de comprovació per l'Administració per garantir-lo",
-        "El fa l'Administració directament",
-        "Està prohibit"
-      ],
-      "correct": 1,
-      "explain": "L'art. 217 LCSP permet a l'Administració comprovar el pagament als subcontractistes.",
-      "source": "LCSP",
-      "article": "art. 217 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "La resolució del contracte per incompliment culpable del contractista comporta:",
-      "options": [
-        "Premi",
-        "La incautació de la garantia i indemnització de danys",
-        "Cap efecte",
-        "Una pròrroga"
-      ],
-      "correct": 1,
-      "explain": "Art. 213 LCSP: la resolució per causa imputable al contractista comporta confiscació de garantia i, si escau, indemnització.",
-      "source": "LCSP",
-      "article": "art. 213 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "En el contracte d'obres, el termini de garantia:",
-      "options": [
-        "No existeix",
-        "Es fixa al plec i durant el qual el contractista respon de vicis",
-        "És sempre de 10 anys",
-        "El fixa el contractista"
-      ],
-      "correct": 1,
-      "explain": "El termini de garantia es fixa al plec; durant aquest el contractista respon dels defectes (art. 243 LCSP).",
-      "source": "LCSP",
-      "article": "art. 243 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "La concessió d'obres té una durada màxima general de:",
-      "options": [
-        "10 anys",
-        "40 anys (segons el tipus i amortització)",
-        "Indefinida",
-        "1 any"
-      ],
-      "correct": 1,
-      "explain": "Art. 29 LCSP: la concessió d'obres té límits de durada (fins a 40 anys segons el cas).",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "L'arrendament de béns mobles s'enquadra en el contracte de:",
-      "options": [
-        "Obres",
-        "Subministrament",
-        "Serveis",
-        "Concessió"
-      ],
-      "correct": 1,
-      "explain": "L'arrendament de béns mobles és una modalitat del contracte de subministrament (art. 16 LCSP).",
-      "source": "LCSP",
-      "article": "art. 16 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "El contracte de serveis no pot tenir per objecte:",
-      "options": [
-        "Prestacions intel·lectuals",
-        "Funcions que impliquin exercici d'autoritat inherent als poders públics",
-        "Manteniment",
-        "Neteja"
-      ],
-      "correct": 1,
-      "explain": "No es poden contractar com a serveis les funcions que impliquin exercici d'autoritat pública.",
-      "source": "LCSP",
-      "article": "art. 17 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "En la concessió de serveis cal, prèviament:",
-      "options": [
-        "Res",
-        "L'estudi de viabilitat econòmica i, si escau, el projecte",
-        "Una subvenció",
-        "Un ban"
-      ],
-      "correct": 1,
-      "explain": "La concessió de serveis exigeix actuacions preparatòries com l'estudi de viabilitat (art. 285 LCSP).",
-      "source": "LCSP",
-      "article": "art. 285 LCSP"
-    },
-    {
-      "theme": 15,
-      "block": 5,
-      "q": "Són poders adjudicadors que no són Administració pública:",
-      "options": [
-        "Sempre persones físiques",
-        "Determinades entitats del sector públic amb règim contractual específic",
-        "Els particulars",
-        "Els jutjats"
-      ],
-      "correct": 1,
-      "explain": "La LCSP distingeix Administracions, poders adjudicadors no AP i altres entitats del sector públic.",
-      "source": "LCSP",
-      "article": "art. 3 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "La mesa de contractació:",
-      "options": [
-        "És prescindible",
-        "Assisteix l'òrgan de contractació en la valoració i proposta d'adjudicació",
-        "Adjudica el contracte",
-        "La nomena el contractista"
-      ],
-      "correct": 1,
-      "explain": "La mesa de contractació és l'òrgan d'assistència tècnica que valora ofertes i proposa l'adjudicació.",
-      "source": "LCSP",
-      "article": "art. 326 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "En cas d'empat entre ofertes, els criteris de desempat:",
-      "options": [
-        "No existeixen",
-        "Poden afavorir empreses amb plans d'igualtat o d'inserció social",
-        "Es resolen per sorteig sempre primer",
-        "Els tria l'empresa"
-      ],
-      "correct": 1,
-      "explain": "Art. 147 LCSP: en cas d'empat s'apliquen criteris socials (igualtat, inserció, etc.) abans del sorteig.",
-      "source": "LCSP",
-      "article": "art. 147 LCSP"
-    },
-    {
       "theme": 31,
       "block": 14,
       "q": "La comunicació prèvia es diferencia de la llicència en què:",
@@ -2766,156 +1701,6 @@
       "article": "art. 86 Llei 33/2003"
     },
     {
-      "theme": 45,
-      "block": 11,
-      "q": "El sòl en situació bàsica d'urbanitzat és:",
-      "options": [
-        "El sòl rural",
-        "El integrat de manera legal i efectiva a la xarxa de dotacions i serveis",
-        "Qualsevol sòl",
-        "El protegit"
-      ],
-      "correct": 1,
-      "explain": "El TRLS considera urbanitzat el sòl integrat de forma legal i efectiva en la malla urbana.",
-      "source": "TRLSRU",
-      "article": "art. 21 TRLS"
-    },
-    {
-      "theme": 46,
-      "block": 11,
-      "q": "Els sistemes urbanístics locals:",
-      "options": [
-        "Tenen abast supramunicipal",
-        "Serveixen un sector o àmbit concret (no tot el municipi)",
-        "Són privats",
-        "No es cedeixen"
-      ],
-      "correct": 1,
-      "explain": "Els sistemes locals donen servei a un àmbit determinat, a diferència dels generals.",
-      "source": "TRLUC",
-      "article": "art. 34 TRLUC"
-    },
-    {
-      "theme": 48,
-      "block": 11,
-      "q": "El deure de conservació de les construccions correspon a:",
-      "options": [
-        "L'Ajuntament",
-        "Les persones propietàries",
-        "L'Estat",
-        "Ningú"
-      ],
-      "correct": 1,
-      "explain": "Els propietaris han de mantenir els immobles en condicions de seguretat, salubritat i ornament (deure de conservació).",
-      "source": "TRLUC",
-      "article": "art. 197 TRLUC"
-    },
-    {
-      "theme": 50,
-      "block": 11,
-      "q": "Els plans directors urbanístics els aprova:",
-      "options": [
-        "L'Alcalde",
-        "La Generalitat (òrgan urbanístic competent)",
-        "Un particular",
-        "El jutjat"
-      ],
-      "correct": 1,
-      "explain": "Els PDU són instruments de la Generalitat amb abast supramunicipal.",
-      "source": "TRLUC",
-      "article": "art. 56 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "La cessió de l'aprofitament urbanístic a l'Administració és, en sòl urbanitzable, d'un:",
-      "options": [
-        "0%",
-        "10% de l'aprofitament urbanístic (amb matisos)",
-        "100%",
-        "50% fix"
-      ],
-      "correct": 1,
-      "explain": "El deure de cessió de sòl amb aprofitament a l'Administració se situa, amb caràcter general, en el 10%.",
-      "source": "TRLUC",
-      "article": "art. 43 TRLUC"
-    },
-    {
-      "theme": 72,
-      "block": 12,
-      "q": "Si el propietari incompleix una ordre d'execució:",
-      "options": [
-        "No passa res",
-        "L'Administració pot executar subsidiàriament a càrrec seu o imposar multes coercitives",
-        "Es perd el bé",
-        "Es prohibeix viure-hi"
-      ],
-      "correct": 1,
-      "explain": "L'incompliment d'ordres d'execució permet l'execució subsidiària o multes coercitives (Llei 39/2015 i TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 198 TRLUC"
-    },
-    {
-      "theme": 73,
-      "block": 12,
-      "q": "En sòl no urbanitzable de protecció especial, l'acció de restauració:",
-      "options": [
-        "Prescriu als 6 anys",
-        "No prescriu (és imprescriptible)",
-        "Prescriu a l'any",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "En sòl no urbanitzable d'especial protecció no opera la prescripció de l'acció de restauració.",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "El principi de no concurrència (non bis in idem) impedeix:",
-      "options": [
-        "Sancionar",
-        "Sancionar dos cops els mateixos fets amb idèntic fonament",
-        "Tramitar expedients",
-        "Recórrer"
-      ],
-      "correct": 1,
-      "explain": "Art. 31 Llei 40/2015: no es pot sancionar dos cops pels mateixos fets amb idèntic fonament.",
-      "source": "L40_2015",
-      "article": "art. 31 Llei 40/2015"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "La separació entre instrucció i resolució en el procediment sancionador:",
-      "options": [
-        "No cal",
-        "És una garantia: òrgans diferents instrueixen i resolen",
-        "Depèn de l'Alcalde",
-        "Es pot saltar"
-      ],
-      "correct": 1,
-      "explain": "La separació de fases instructora i resolutòria és una garantia del procediment sancionador (Llei 40/2015).",
-      "source": "L40_2015",
-      "article": "art. 63 Llei 40/2015"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "La protecció de la legalitat urbanística inclou:",
-      "options": [
-        "Només multes",
-        "Restauració de la realitat alterada + procediment sancionador",
-        "Només indemnitzacions",
-        "Cap actuació"
-      ],
-      "correct": 1,
-      "explain": "La disciplina urbanística combina la restauració de la legalitat amb el règim sancionador.",
-      "source": "TRLUC",
-      "article": "arts. 199 i ss. TRLUC"
-    },
-    {
       "theme": 59,
       "block": 13,
       "q": "La declaració responsable ambiental s'aplica a activitats:",
@@ -3004,21 +1789,6 @@
       "explain": "La normativa preveu mecanismes per regularitzar i completar urbanitzacions amb dèficits.",
       "source": "TRLUC",
       "article": "DA TRLUC"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "El just preu en l'expropiació es pot fixar per:",
-      "options": [
-        "Sorteig",
-        "Mutu acord o, si no, pel Jurat d'Expropiació",
-        "L'expropiat unilateralment",
-        "L'Alcalde"
-      ],
-      "correct": 1,
-      "explain": "El just preu es fixa per acord o, si no n'hi ha, pel Jurat d'Expropiació (peça separada).",
-      "source": "LEF",
-      "article": "Llei d'expropiació forçosa"
     },
     {
       "theme": 77,
@@ -3216,36 +1986,6 @@
       "article": "LO 2/2012"
     },
     {
-      "theme": 44,
-      "block": 11,
-      "q": "La reforma del TRLUC vigent des del 31-12-2025 es va fer per:",
-      "options": [
-        "La Llei 9/2017",
-        "La Llei 11/2025 i el Decret llei 2/2025",
-        "La Llei 39/2015",
-        "El RD 314/2006"
-      ],
-      "correct": 1,
-      "explain": "El TRLUC (DL 1/2010) ha estat modificat per la Llei 11/2025 i el DL 2/2025, vigents des del 31-12-2025.",
-      "source": "L11_2025",
-      "article": "Llei 11/2025; DL 2/2025"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "La llicència de primera ocupació o utilització:",
-      "options": [
-        "No existeix",
-        "Comprova que l'obra acabada s'ajusta a la llicència atorgada",
-        "Autoritza enderrocar",
-        "Substitueix la d'obres"
-      ],
-      "correct": 1,
-      "explain": "La llicència de primera ocupació verifica l'adequació de l'edificació executada a la llicència concedida.",
-      "source": "TRLUC",
-      "article": "art. 187 TRLUC"
-    },
-    {
       "theme": 40,
       "block": 3,
       "q": "El romanent de tresoreria és:",
@@ -3411,141 +2151,6 @@
       "article": "art. 20 TRLHL"
     },
     {
-      "theme": 15,
-      "block": 5,
-      "q": "Els contractes subjectes a regulació harmonitzada (SARA) són els que:",
-      "options": [
-        "No tenen publicitat",
-        "Superen els llindars europeus i tenen publicitat al DOUE",
-        "Són menors",
-        "No existeixen"
-      ],
-      "correct": 1,
-      "explain": "Els contractes SARA superen els llindars de les directives i requereixen publicitat al DOUE.",
-      "source": "LCSP",
-      "article": "art. 19-23 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "El perfil del contractant:",
-      "options": [
-        "És secret",
-        "Difon a internet l'activitat contractual (publicitat i transparència)",
-        "No s'utilitza",
-        "El gestiona el contractista"
-      ],
-      "correct": 1,
-      "explain": "El perfil de contractant (a la Plataforma de Contractació) garanteix la publicitat de l'activitat contractual.",
-      "source": "LCSP",
-      "article": "art. 63 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "La classificació empresarial:",
-      "options": [
-        "És sempre obligatòria",
-        "És exigible en certs contractes d'obres i acredita solvència",
-        "No existeix",
-        "La fa el contractista mateix"
-      ],
-      "correct": 1,
-      "explain": "La classificació acredita la solvència en determinats contractes d'obres (art. 77 LCSP).",
-      "source": "LCSP",
-      "article": "art. 77 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "Les prerrogatives de l'Administració en els contractes administratius es deriven de:",
-      "options": [
-        "La voluntat del contractista",
-        "L'interès públic, i s'exerceixen de manera motivada",
-        "Cap norma",
-        "Un acord privat"
-      ],
-      "correct": 1,
-      "explain": "Les prerrogatives (interpretar, modificar, resoldre) responen a l'interès públic i s'exerceixen motivadament (art. 190).",
-      "source": "LCSP",
-      "article": "art. 190 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "En la concessió d'obres, l'equilibri econòmic es pot restablir per:",
-      "options": [
-        "Caprici",
-        "Modificacions, factum principis o riscos imprevisibles",
-        "No mai",
-        "Decisió del concessionari"
-      ],
-      "correct": 1,
-      "explain": "L'equilibri econòmic-financer es restableix en els supòsits taxats (art. 270 LCSP).",
-      "source": "LCSP",
-      "article": "art. 270 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "La recepció del subministrament:",
-      "options": [
-        "No cal",
-        "Es formalitza i obre el termini de garantia",
-        "La fa el proveïdor sol",
-        "És secreta"
-      ],
-      "correct": 1,
-      "explain": "La recepció del subministrament constata la conformitat i inicia el termini de garantia.",
-      "source": "LCSP",
-      "article": "art. 300 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "La durada dels contractes de serveis:",
-      "options": [
-        "És il·limitada",
-        "Es fixa atenent la naturalesa de la prestació, amb límits i pròrrogues taxades",
-        "Sempre 10 anys",
-        "La fixa el contractista"
-      ],
-      "correct": 1,
-      "explain": "La durada s'ajusta a la prestació amb límits legals i pròrrogues previstes (art. 29 LCSP).",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "En la concessió de serveis, les tarifes que paguen els usuaris:",
-      "options": [
-        "Les fixa lliurement el concessionari",
-        "Tenen el caràcter que estableixi la normativa i es revisen segons el contracte",
-        "No existeixen",
-        "Les fixa l'Estat"
-      ],
-      "correct": 1,
-      "explain": "Les tarifes/contraprestacions dels usuaris es regeixen pel contracte i la normativa aplicable.",
-      "source": "LCSP",
-      "article": "art. 289 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "En els contractes menors d'obres, a més de la factura, cal:",
-      "options": [
-        "Res",
-        "El pressupost de les obres (i projecte/supervisió si escau)",
-        "Una concessió",
-        "Un conveni"
-      ],
-      "correct": 1,
-      "explain": "Art. 118 LCSP: en obres menors cal pressupost i, quan correspongui, projecte i informe de supervisió.",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
-    },
-    {
       "theme": 16,
       "block": 6,
       "q": "L'encarregat del tractament:",
@@ -3696,216 +2301,6 @@
       "article": "arts. 41 i ss. Llei 33/2003"
     },
     {
-      "theme": 44,
-      "block": 11,
-      "q": "El sòl urbà consolidat es caracteritza per:",
-      "options": [
-        "Necessitar gestió integral",
-        "Estar urbanitzat i només requerir, si escau, completar la urbanització",
-        "No tenir serveis",
-        "Ser rural"
-      ],
-      "correct": 1,
-      "explain": "El sòl urbà consolidat ja disposa de la condició de solar o només requereix completar la urbanització.",
-      "source": "TRLUC",
-      "article": "art. 30 TRLUC"
-    },
-    {
-      "theme": 45,
-      "block": 11,
-      "q": "La situació bàsica de sòl rural inclou:",
-      "options": [
-        "El sòl amb tots els serveis",
-        "El sòl preservat de la transformació i el que encara no s'ha urbanitzat",
-        "Només el sòl urbà",
-        "El sòl edificat"
-      ],
-      "correct": 1,
-      "explain": "El TRLS situa en sòl rural el preservat de la urbanització i el que encara no està transformat.",
-      "source": "TRLSRU",
-      "article": "art. 21 TRLS"
-    },
-    {
-      "theme": 46,
-      "block": 11,
-      "q": "La qualificació urbanística determina:",
-      "options": [
-        "La classe de sòl",
-        "L'ús i l'edificabilitat detallats del sòl (zones i sistemes)",
-        "El propietari",
-        "El preu de mercat"
-      ],
-      "correct": 1,
-      "explain": "La qualificació assigna usos i intensitats (zones) i identifica els sistemes; la classificació fixa la classe de sòl.",
-      "source": "TRLUC",
-      "article": "art. 34 TRLUC"
-    },
-    {
-      "theme": 47,
-      "block": 11,
-      "q": "La ponderació de l'aprofitament té en compte:",
-      "options": [
-        "El nom del propietari",
-        "Els diferents usos i la seva localització (coeficients)",
-        "El color del sòl",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "L'aprofitament es pondera amb coeficients que homogeneïtzen usos i situacions.",
-      "source": "TRLUC",
-      "article": "art. 37 TRLUC"
-    },
-    {
-      "theme": 48,
-      "block": 11,
-      "q": "El subsol, en règim urbanístic:",
-      "options": [
-        "És il·limitat per al propietari",
-        "Té un aprofitament limitat al que requereixin els usos autoritzats en superfície",
-        "Pertany a l'Estat sempre",
-        "No es regula"
-      ],
-      "correct": 1,
-      "explain": "El dret del propietari sobre el subsol es limita a allò necessari per als usos urbanístics autoritzats.",
-      "source": "TRLUC",
-      "article": "art. 39 TRLUC"
-    },
-    {
-      "theme": 49,
-      "block": 11,
-      "q": "Els usos provisionals NO poden:",
-      "options": [
-        "Ser temporals",
-        "Dificultar l'execució del planejament",
-        "Cessar",
-        "Ser precaris"
-      ],
-      "correct": 1,
-      "explain": "Els usos provisionals no poden dificultar l'execució del planejament i han de cessar quan s'ordeni.",
-      "source": "TRLUC",
-      "article": "art. 53 TRLUC"
-    },
-    {
-      "theme": 50,
-      "block": 11,
-      "q": "Els plans directors urbanístics poden:",
-      "options": [
-        "Aprovar pressupostos",
-        "Establir determinacions sobre sòl no urbanitzable i infraestructures d'abast territorial",
-        "Nomenar personal",
-        "Sancionar"
-      ],
-      "correct": 1,
-      "explain": "Els PDU regulen aspectes supramunicipals com sòl no urbanitzable, infraestructures i sostenibilitat.",
-      "source": "TRLUC",
-      "article": "art. 56 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "La memòria social del POUM:",
-      "options": [
-        "És prescindible",
-        "Documenta les necessitats i previsions d'habitatge, especialment protegit",
-        "Fixa el sou dels tècnics",
-        "És un plànol"
-      ],
-      "correct": 1,
-      "explain": "La memòria social del POUM justifica les determinacions sobre habitatge assequible i protegit.",
-      "source": "TRLUC",
-      "article": "art. 59 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Els plans parcials de delimitació:",
-      "options": [
-        "No existeixen",
-        "Delimiten el sector i n'estableixen l'ordenació en sòl urbanitzable no delimitat",
-        "Aproven tributs",
-        "Substitueixen el POUM"
-      ],
-      "correct": 1,
-      "explain": "En sòl urbanitzable no delimitat, el pla parcial de delimitació delimita el sector i l'ordena.",
-      "source": "TRLUC",
-      "article": "art. 65-70 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "L'avantprojecte/iniciativa privada de planejament es presenta:",
-      "options": [
-        "A l'Estat",
-        "A l'Ajuntament, que el tramita conforme al procediment",
-        "A un notari",
-        "A la Generalitat directament"
-      ],
-      "correct": 1,
-      "explain": "Els particulars presenten les iniciatives a l'Ajuntament, que les sotmet al procediment d'aprovació.",
-      "source": "TRLUC",
-      "article": "art. 101-102 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "L'aprovació definitiva del planejament comporta:",
-      "options": [
-        "Cap efecte",
-        "L'executivitat i la publicitat de les seves determinacions",
-        "La derogació de la CE",
-        "La fi del municipi"
-      ],
-      "correct": 1,
-      "explain": "L'aprovació definitiva i la publicació fan executiu el planejament i n'obliguen el compliment.",
-      "source": "TRLUC",
-      "article": "art. 106 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "El sistema d'expropiació en l'execució urbanística:",
-      "options": [
-        "No s'aplica mai",
-        "Permet a l'Administració adquirir els terrenys per executar el planejament",
-        "Privatitza el sòl",
-        "Substitueix la reparcel·lació sempre"
-      ],
-      "correct": 1,
-      "explain": "En el sistema d'expropiació, l'Administració adquireix el sòl per executar l'actuació urbanística.",
-      "source": "TRLUC",
-      "article": "art. 122 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Les obres promogudes per altres administracions:",
-      "options": [
-        "No necessiten res",
-        "Poden tenir un règim especial però respecten el planejament municipal",
-        "Ignoren el planejament sempre",
-        "Les autoritza un particular"
-      ],
-      "correct": 1,
-      "explain": "Les actuacions d'altres administracions tenen procediments específics, però se subjecten a l'ordenació urbanística.",
-      "source": "TRLUC",
-      "article": "art. 187-189 TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "La presumpció de parcel·lació urbanística s'activa quan:",
-      "options": [
-        "Sempre",
-        "Hi ha indicis d'implantació de serveis o divisions que pressuposen transformació urbana",
-        "Mai",
-        "Ho diu el propietari"
-      ],
-      "correct": 1,
-      "explain": "La presumpció opera davant divisions o serveis que pressuposin una transformació urbanística (art. 188 TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 188 TRLUC"
-    },
-    {
       "theme": 61,
       "block": 14,
       "q": "La supervisió de projectes d'obres és preceptiva:",
@@ -3994,81 +2389,6 @@
       "explain": "La regularització combina planejament i gestió per completar urbanització i cessions pendents.",
       "source": "TRLUC",
       "article": "DA i normativa específica"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "La valoració del sòl urbanitzat sense edificar es fa:",
-      "options": [
-        "Per renda agrària",
-        "Aplicant l'edificabilitat i ús atribuïts al valor de repercussió",
-        "Pel valor cadastral només",
-        "Lliurement"
-      ],
-      "correct": 1,
-      "explain": "En sòl urbanitzat, el TRLS valora aplicant a l'edificabilitat el valor de repercussió del sòl.",
-      "source": "TRLSRU",
-      "article": "art. 37 TRLS"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Són responsables d'una infracció urbanística:",
-      "options": [
-        "Només el propietari",
-        "Els promotors, constructors, tècnics i, si escau, propietaris",
-        "Ningú",
-        "Només l'Ajuntament"
-      ],
-      "correct": 1,
-      "explain": "Responen de la infracció els qui hi intervenen: promotor, constructor, tècnic director i propietaris segons el cas.",
-      "source": "TRLUC",
-      "article": "art. 215 TRLUC"
-    },
-    {
-      "theme": 71,
-      "block": 12,
-      "q": "La multa per infracció urbanística és compatible amb:",
-      "options": [
-        "Res",
-        "La restauració de la realitat física alterada",
-        "La condonació automàtica",
-        "La impunitat"
-      ],
-      "correct": 1,
-      "explain": "La sanció (multa) és independent i compatible amb el deure de restaurar la legalitat alterada.",
-      "source": "TRLUC",
-      "article": "art. 207-219 TRLUC"
-    },
-    {
-      "theme": 72,
-      "block": 12,
-      "q": "Les multes coercitives:",
-      "options": [
-        "Són sancions",
-        "Són mitjans d'execució forçosa reiterables fins al compliment",
-        "No existeixen",
-        "Substitueixen la sanció"
-      ],
-      "correct": 1,
-      "explain": "Les multes coercitives són un mitjà d'execució forçosa, reiterable, diferent de la sanció (art. 103 Llei 39/2015).",
-      "source": "L39_2015",
-      "article": "art. 103 Llei 39/2015"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La revocació de llicències per canvi de criteri:",
-      "options": [
-        "És lliure",
-        "Pot generar dret a indemnització si causa perjudicis",
-        "No té efectes",
-        "És impossible"
-      ],
-      "correct": 1,
-      "explain": "La revocació per raons d'oportunitat o canvi normatiu pot donar lloc a indemnització dels perjudicis.",
-      "source": "TRLUC",
-      "article": "art. 188-189 TRLUC"
     },
     {
       "theme": 75,
@@ -4236,51 +2556,6 @@
       "article": "art. 85.2 LRBRL"
     },
     {
-      "theme": 49,
-      "block": 11,
-      "q": "Les obres de caràcter provisional NO requereixen:",
-      "options": [
-        "Llicència",
-        "Indemnització en cessar (no en generen)",
-        "Inscripció",
-        "Precarietat"
-      ],
-      "correct": 1,
-      "explain": "En cessar els usos provisionals no es genera dret a indemnització; cal llicència i inscripció registral.",
-      "source": "TRLUC",
-      "article": "art. 53-54 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "La col·laboració dels particulars en el planejament:",
-      "options": [
-        "Substitueix l'Administració",
-        "Es canalitza en el marc del procediment, mantenint l'Administració la potestat",
-        "És vinculant per a l'Ajuntament",
-        "No es preveu"
-      ],
-      "correct": 1,
-      "explain": "La iniciativa privada col·labora però la potestat de planejament és pública i indisponible.",
-      "source": "TRLUC",
-      "article": "art. 101 TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "La llicència de parcel·lació:",
-      "options": [
-        "No existeix",
-        "Autoritza la divisió de terrenys conforme al planejament",
-        "La dóna l'Estat",
-        "És tàcita sempre"
-      ],
-      "correct": 1,
-      "explain": "La llicència de parcel·lació controla que la divisió s'ajusti a les unitats mínimes i al planejament.",
-      "source": "TRLUC",
-      "article": "art. 187 TRLUC"
-    },
-    {
       "theme": 65,
       "block": 11,
       "q": "El patrimoni públic de sòl és un patrimoni:",
@@ -4309,51 +2584,6 @@
       "explain": "La regularització busca dotar de serveis i integrar urbanísticament aquests àmbits.",
       "source": "TRLUC",
       "article": "normativa urbanitzacions"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "En les valoracions, les indemnitzacions per extinció de drets:",
-      "options": [
-        "No es paguen",
-        "S'inclouen quan l'actuació comporta la seva privació",
-        "Són sempre el doble",
-        "Les fixa el propietari"
-      ],
-      "correct": 1,
-      "explain": "Les valoracions incorporen les indemnitzacions pels drets que s'extingeixen per l'actuació (TRLS).",
-      "source": "TRLSRU",
-      "article": "art. 42 TRLS"
-    },
-    {
-      "theme": 73,
-      "block": 11,
-      "q": "La prescripció de l'acció de restauració es computa des de:",
-      "options": [
-        "La sol·licitud de llicència",
-        "L'acabament total de les obres o l'actuació il·legal",
-        "La compra del terreny",
-        "La incoació de l'expedient"
-      ],
-      "correct": 1,
-      "explain": "El termini de prescripció es compta des de l'acabament total de les obres o actuacions.",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La incoació d'un expedient de revisió d'una llicència pot comportar:",
-      "options": [
-        "Cap mesura",
-        "La suspensió cautelar dels efectes de la llicència",
-        "La seva confirmació automàtica",
-        "Una subvenció"
-      ],
-      "correct": 1,
-      "explain": "En revisar llicències il·legals es poden adoptar mesures cautelars, com suspendre'n els efectes.",
-      "source": "L39_2015",
-      "article": "art. 108 Llei 39/2015"
     },
     {
       "theme": 79,
@@ -4429,66 +2659,6 @@
       "explain": "L'alçada es pot presentar davant l'òrgan que va dictar l'acte o davant el competent per resoldre (art. 121.2).",
       "source": "L39_2015",
       "article": "art. 121.2 Llei 39/2015"
-    },
-    {
-      "theme": 15,
-      "block": 5,
-      "q": "La prohibició de contractar:",
-      "options": [
-        "No existeix",
-        "Impedeix contractar a qui incorre en les causes taxades (condemnes, deutes, etc.)",
-        "És opcional",
-        "La decideix l'empresa"
-      ],
-      "correct": 1,
-      "explain": "Art. 71 LCSP enumera les prohibicions de contractar (condemnes penals, deutes tributaris, etc.).",
-      "source": "LCSP",
-      "article": "art. 71 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "La solvència econòmica i tècnica:",
-      "options": [
-        "No s'exigeix mai",
-        "És requisit d'aptitud per contractar, acreditat segons el plec",
-        "La fixa el contractista",
-        "És sempre la classificació"
-      ],
-      "correct": 1,
-      "explain": "Els licitadors han d'acreditar solvència econòmica/financera i tècnica/professional (arts. 86-88 LCSP).",
-      "source": "LCSP",
-      "article": "arts. 86-88 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "El compliment defectuós o l'incompliment de condicions especials:",
-      "options": [
-        "No té efectes",
-        "Pot comportar penalitats previstes al plec",
-        "És premiat",
-        "Anul·la el contracte sempre"
-      ],
-      "correct": 1,
-      "explain": "L'incompliment de condicions especials d'execució pot penalitzar-se o ser causa de resolució (art. 192 LCSP).",
-      "source": "LCSP",
-      "article": "art. 192 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "La modificació no prevista que superi el 20% i alteri l'economia del contracte:",
-      "options": [
-        "És lliure",
-        "Pot ser causa de resolució si el contractista no l'accepta",
-        "No es pot tramitar",
-        "És sempre obligatòria"
-      ],
-      "correct": 1,
-      "explain": "Quan la modificació supera certs límits, el contractista pot no acceptar-la i ser causa de resolució (art. 211 LCSP).",
-      "source": "LCSP",
-      "article": "art. 211 LCSP"
     },
     {
       "theme": 12,
@@ -4611,51 +2781,6 @@
       "article": "art. 45 Llei 33/2003"
     },
     {
-      "theme": 44,
-      "block": 11,
-      "q": "El nucli de població, en sòl no urbanitzable:",
-      "options": [
-        "Es fomenta",
-        "Es vol evitar la seva formació no planificada",
-        "És obligatori",
-        "No es regula"
-      ],
-      "correct": 1,
-      "explain": "En sòl no urbanitzable es prohibeixen les actuacions que puguin formar nucli de població.",
-      "source": "TRLUC",
-      "article": "art. 47 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "La llicència s'atorga:",
-      "options": [
-        "Amb dret a perjudicar tercers",
-        "Deixant fora el dret de propietat i sens perjudici de tercers",
-        "Sense límits",
-        "Amb caràcter discrecional"
-      ],
-      "correct": 1,
-      "explain": "Les llicències s'atorguen salvant el dret de propietat i sens perjudici de tercers.",
-      "source": "TRLUC",
-      "article": "art. 188 TRLUC"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "La caducitat de l'expedient sancionador urbanístic:",
-      "options": [
-        "No existeix",
-        "Es produeix si transcorre el termini màxim sense resoldre",
-        "És de 10 anys",
-        "La decideix l'infractor"
-      ],
-      "correct": 1,
-      "explain": "L'expedient sancionador caduca si supera el termini màxim per resoldre (Llei 39/2015 i TRLUC).",
-      "source": "L39_2015",
-      "article": "art. 25 Llei 39/2015"
-    },
-    {
       "theme": 89,
       "block": 18,
       "q": "El comitè de seguretat i salut:",
@@ -4699,66 +2824,6 @@
       "explain": "El projecte de pressupost s'acompanya de l'informe econòmic-financer i de l'informe d'Intervenció.",
       "source": "TRLHL",
       "article": "art. 168 TRLHL"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "El diàleg competitiu s'utilitza:",
-      "options": [
-        "Per a contractes senzills",
-        "En contractes complexos en què cal definir la solució amb els licitadors",
-        "Sempre",
-        "Per a contractes menors"
-      ],
-      "correct": 1,
-      "explain": "El diàleg competitiu s'aplica a contractes particularment complexos (art. 172 LCSP).",
-      "source": "LCSP",
-      "article": "art. 172 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "En els contractes de serveis de durada determinada, les pròrrogues:",
-      "options": [
-        "Són il·limitades",
-        "Han d'estar previstes i tenen límits",
-        "No es permeten mai",
-        "Les decideix el contractista"
-      ],
-      "correct": 1,
-      "explain": "Les pròrrogues han de constar al plec i respectar els límits de durada (art. 29 LCSP).",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 46,
-      "block": 11,
-      "q": "Els estàndards urbanístics (reserves mínimes) garanteixen:",
-      "options": [
-        "Beneficis privats",
-        "Sòl per a espais lliures, equipaments i habitatge protegit",
-        "Menys serveis",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "Els estàndards fixen reserves mínimes de sòl per a sistemes i habitatge protegit (TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 65 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "El programa d'actuació urbanística municipal (POUM):",
-      "options": [
-        "No es regula",
-        "Estableix les previsions temporals i de gestió per desenvolupar el pla",
-        "Aprova tributs",
-        "Nomena personal"
-      ],
-      "correct": 1,
-      "explain": "El POUM concreta les previsions de desenvolupament i gestió i la programació temporal.",
-      "source": "TRLUC",
-      "article": "art. 58-59 TRLUC"
     },
     {
       "theme": 62,
@@ -4866,36 +2931,6 @@
       "article": "art. 30 Llei 38/2003"
     },
     {
-      "theme": 67,
-      "block": 11,
-      "q": "L'ocupació urgent de béns en l'expropiació:",
-      "options": [
-        "No existeix",
-        "Permet ocupar abans de fixar el just preu en supòsits taxats",
-        "És sempre la regla",
-        "La decideix l'expropiat"
-      ],
-      "correct": 1,
-      "explain": "El procediment d'urgència (art. 52 LEF) permet l'ocupació prèvia a la fixació definitiva del just preu.",
-      "source": "LEF",
-      "article": "art. 52 LEF"
-    },
-    {
-      "theme": 48,
-      "block": 11,
-      "q": "El deure d'edificar els solars dins de termini:",
-      "options": [
-        "No existeix",
-        "Pot comportar, si s'incompleix, mesures com l'edificació forçosa",
-        "És opcional sempre",
-        "El fixa el propietari"
-      ],
-      "correct": 1,
-      "explain": "L'incompliment del deure d'edificar pot derivar en l'execució forçosa o en el règim de venda/substitució.",
-      "source": "TRLUC",
-      "article": "art. 177 TRLUC"
-    },
-    {
       "theme": 10,
       "block": 2,
       "q": "La validesa dels documents públics administratius requereix:",
@@ -4969,96 +3004,6 @@
       "explain": "El pressupost s'aprova sense dèficit inicial: els estats de despeses i ingressos s'han d'anivellar.",
       "source": "TRLHL",
       "article": "art. 165 TRLHL"
-    },
-    {
-      "theme": 15,
-      "block": 5,
-      "q": "L'objecte del contracte ha de ser:",
-      "options": [
-        "Indeterminat",
-        "Determinat, sense fraccionar-lo per eludir requisits",
-        "Secret",
-        "Variable"
-      ],
-      "correct": 1,
-      "explain": "Art. 99 LCSP: l'objecte ha de ser determinat i no es pot fraccionar per eludir requisits de publicitat o procediment.",
-      "source": "LCSP",
-      "article": "art. 99 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "La publicitat de les licitacions SARA es fa a:",
-      "options": [
-        "Només el BOP",
-        "El DOUE i la Plataforma de Contractació",
-        "Un diari local",
-        "Cap lloc"
-      ],
-      "correct": 1,
-      "explain": "Els contractes SARA es publiquen al DOUE i a la Plataforma de Contractació del Sector Públic.",
-      "source": "LCSP",
-      "article": "art. 135 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "L'adjudicació s'ha de motivar i notificar:",
-      "options": [
-        "Mai",
-        "Als licitadors, amb les raons de l'exclusió o no selecció",
-        "Només al guanyador sense raons",
-        "Verbalment"
-      ],
-      "correct": 1,
-      "explain": "L'adjudicació es notifica i publica motivadament, indicant les raons als licitadors no seleccionats (art. 151 LCSP).",
-      "source": "LCSP",
-      "article": "art. 151 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "La cessió del contracte requereix:",
-      "options": [
-        "Res",
-        "Autorització de l'òrgan de contractació i compliment de requisits",
-        "Només avisar",
-        "Està prohibida sempre"
-      ],
-      "correct": 1,
-      "explain": "La cessió del contracte exigeix autorització prèvia i que el cessionari tingui solvència (art. 214 LCSP).",
-      "source": "LCSP",
-      "article": "art. 214 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "La recepció de conformitat de la prestació determina:",
-      "options": [
-        "L'inici",
-        "L'inici del termini de garantia",
-        "La licitació",
-        "La penalització"
-      ],
-      "correct": 1,
-      "explain": "L'acte formal de recepció constata la conformitat i inicia el termini de garantia.",
-      "source": "LCSP",
-      "article": "art. 210 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "En el contracte menor, l'informe de necessitat justifica:",
-      "options": [
-        "El sou",
-        "Que no s'altera l'objecte per eludir les regles de contractació",
-        "La festa major",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "L'informe ha de motivar la necessitat i que no s'està alterant l'objecte per evitar les regles generals (art. 118).",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
     },
     {
       "theme": 16,
@@ -5166,51 +3111,6 @@
       "article": "Llei 33/2003; D 336/1988"
     },
     {
-      "theme": 44,
-      "block": 11,
-      "q": "Els serveis urbanístics bàsics NO inclouen:",
-      "options": [
-        "Xarxa viària",
-        "La connexió a internet de fibra",
-        "Abastament d'aigua",
-        "Subministrament elèctric"
-      ],
-      "correct": 1,
-      "explain": "Els serveis bàsics són vialitat, aigua, sanejament i electricitat; la fibra no és un servei urbanístic bàsic.",
-      "source": "TRLUC",
-      "article": "art. 27 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Les llicències urbanístiques caduquen:",
-      "options": [
-        "Mai",
-        "Si no s'inicien o s'acaben les obres en els terminis fixats",
-        "Als 50 anys",
-        "Quan ho vol el veí"
-      ],
-      "correct": 1,
-      "explain": "Les llicències tenen terminis d'inici i finalització; el seu incompliment en determina la caducitat.",
-      "source": "TRLUC",
-      "article": "art. 189 TRLUC"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "La sanció urbanística prescriu:",
-      "options": [
-        "Mai",
-        "Segons la seva gravetat (terminis taxats)",
-        "Sempre a l'any",
-        "Als 50 anys"
-      ],
-      "correct": 1,
-      "explain": "Les sancions urbanístiques prescriuen segons la gravetat de la infracció (terminis del TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 227 TRLUC"
-    },
-    {
       "theme": 89,
       "block": 18,
       "q": "La formació dels treballadors en PRL:",
@@ -5256,36 +3156,6 @@
       "article": "art. 124 Llei 39/2015"
     },
     {
-      "theme": 23,
-      "block": 5,
-      "q": "El contractista principal respon davant l'Administració:",
-      "options": [
-        "No respon",
-        "De la totalitat de l'execució, també de la part subcontractada",
-        "Només de la seva part",
-        "Mai"
-      ],
-      "correct": 1,
-      "explain": "El contractista assumeix la responsabilitat de l'execució completa davant l'Administració (art. 215 LCSP).",
-      "source": "LCSP",
-      "article": "art. 215 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "L'acta de comprovació del replanteig en obres:",
-      "options": [
-        "És opcional",
-        "S'estén dins el termini legal des de la formalització i autoritza l'inici",
-        "No existeix",
-        "La signa el veïnat"
-      ],
-      "correct": 1,
-      "explain": "L'acta de comprovació del replanteig s'estén en el termini fixat i habilita l'inici de les obres (art. 237 LCSP).",
-      "source": "LCSP",
-      "article": "art. 237 LCSP"
-    },
-    {
       "theme": 42,
       "block": 3,
       "q": "Les bestretes de caixa fixa s'utilitzen per a:",
@@ -5316,36 +3186,6 @@
       "article": "art. 3 TRLHL"
     },
     {
-      "theme": 52,
-      "block": 11,
-      "q": "L'estudi de detall (on subsisteix) serveix per:",
-      "options": [
-        "Aprovar tributs",
-        "Ajustar alineacions/rasants i ordenar volums en àmbits concrets",
-        "Nomenar personal",
-        "Substituir el POUM"
-      ],
-      "correct": 1,
-      "explain": "Els instruments de detall ajusten alineacions, rasants i ordenació de volums sense alterar l'aprofitament.",
-      "source": "TRLUC",
-      "article": "planejament de detall"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "La inspecció urbanística pot:",
-      "options": [
-        "Només mirar",
-        "Entrar als llocs i requerir informació per comprovar la legalitat",
-        "Sancionar sense expedient",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "La inspecció té facultats de comprovació, accés i requeriment d'informació (amb garanties).",
-      "source": "TRLUC",
-      "article": "art. 203 TRLUC"
-    },
-    {
       "theme": 35,
       "block": 8,
       "q": "El reintegrament de subvencions genera l'obligació de pagar:",
@@ -5359,21 +3199,6 @@
       "explain": "Art. 37-40 Llei 38/2003: el reintegrament inclou l'interès de demora meritat des del pagament de la subvenció.",
       "source": "L38_2003",
       "article": "art. 38 Llei 38/2003"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "En l'expropiació per ministeri de la llei:",
-      "options": [
-        "L'Administració inicia sempre",
-        "El propietari pot instar l'inici quan transcorre el termini sense actuar l'Administració",
-        "No existeix",
-        "La fa un notari"
-      ],
-      "correct": 1,
-      "explain": "L'expropiació per ministeri de la llei permet al propietari advertir i iniciar el procediment passat el termini.",
-      "source": "TRLUC",
-      "article": "art. 109 TRLUC"
     },
     {
       "theme": 31,
@@ -5481,66 +3306,6 @@
       "article": "qualitat"
     },
     {
-      "theme": 48,
-      "block": 11,
-      "q": "El deure de cessió en sòl urbà no consolidat:",
-      "options": [
-        "No existeix",
-        "Comprèn sòl per a sistemes i per a l'aprofitament que correspongui a l'Administració",
-        "És del 100%",
-        "El fixa el propietari"
-      ],
-      "correct": 1,
-      "explain": "En sòl urbà no consolidat hi ha deures de cessió de sòl per a sistemes i d'aprofitament (TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 43-44 TRLUC"
-    },
-    {
-      "theme": 46,
-      "block": 11,
-      "q": "Els sistemes generals s'obtenen, si no estan inclosos en sectors, per:",
-      "options": [
-        "Donació",
-        "Expropiació o ocupació directa, entre d'altres",
-        "Compra a preu lliure",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "Els sistemes generals s'obtenen per expropiació, ocupació directa o cessió segons el cas.",
-      "source": "TRLUC",
-      "article": "art. 34 TRLUC"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "La resolució del contracte de serveis per desistiment de l'Administració:",
-      "options": [
-        "No es paga",
-        "Dóna dret a indemnitzar el contractista",
-        "És gratuïta",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "El desistiment o la suspensió per l'Administració genera dret a indemnització del contractista (LCSP).",
-      "source": "LCSP",
-      "article": "art. 313 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "En la concessió de serveis, l'Administració conserva:",
-      "options": [
-        "Cap potestat",
-        "Les potestats d'ordenació, control i, si escau, modificació del servei",
-        "Només el cobrament",
-        "Res"
-      ],
-      "correct": 1,
-      "explain": "L'Administració manté la titularitat i les potestats sobre el servei tot i la gestió indirecta.",
-      "source": "LCSP",
-      "article": "art. 287 LCSP"
-    },
-    {
       "theme": 12,
       "block": 3,
       "q": "L'especialitat temporal dels crèdits implica que:",
@@ -5554,21 +3319,6 @@
       "explain": "L'especialitat temporal exigeix aplicar els crèdits dins de l'exercici pressupostari corresponent.",
       "source": "TRLHL",
       "article": "art. 176 TRLHL"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "L'oferta econòmicament més avantatjosa s'identifica per:",
-      "options": [
-        "El preu més baix sempre",
-        "La millor relació qualitat-preu o cost-eficàcia",
-        "Sorteig",
-        "L'antiguitat de l'empresa"
-      ],
-      "correct": 1,
-      "explain": "La LCSP identifica l'oferta més avantatjosa amb la millor relació qualitat-preu (criteris diversos).",
-      "source": "LCSP",
-      "article": "art. 145 LCSP"
     },
     {
       "theme": 40,
@@ -5631,21 +3381,6 @@
       "article": "Llei 19/2014"
     },
     {
-      "theme": 67,
-      "block": 11,
-      "q": "El just preu inclou un premi d'afecció del:",
-      "options": [
-        "0%",
-        "5%",
-        "25%",
-        "50%"
-      ],
-      "correct": 1,
-      "explain": "La LEF preveu un premi d'afecció del 5% sobre el valor del bé expropiat.",
-      "source": "LEF",
-      "article": "art. 47 LEF"
-    },
-    {
       "theme": 10,
       "block": 2,
       "q": "L'esmena i millora de la sol·licitud en procediments de concurrència:",
@@ -5689,66 +3424,6 @@
       "explain": "En la pròrroga s'exclouen els crèdits de programes o serveis que han de concloure en l'exercici anterior.",
       "source": "TRLHL",
       "article": "art. 169.6 TRLHL"
-    },
-    {
-      "theme": 15,
-      "block": 5,
-      "q": "El contracte mixt es regeix per les normes:",
-      "options": [
-        "De qualsevol tipus a l'atzar",
-        "Corresponents a la prestació principal o segons les regles legals",
-        "Del contractista",
-        "De cap"
-      ],
-      "correct": 1,
-      "explain": "Els contractes mixtos es regeixen per les normes de la prestació de més importància o segons l'art. 18 LCSP.",
-      "source": "LCSP",
-      "article": "art. 18 LCSP"
-    },
-    {
-      "theme": 20,
-      "block": 5,
-      "q": "L'expedient de contractació s'inicia amb:",
-      "options": [
-        "La factura",
-        "La justificació de la necessitat i l'aprovació del plec i la despesa",
-        "L'adjudicació",
-        "La recepció"
-      ],
-      "correct": 1,
-      "explain": "L'expedient s'inicia justificant la necessitat i incorporant els plecs i l'aprovació de la despesa (art. 116 LCSP).",
-      "source": "LCSP",
-      "article": "art. 116 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "La suspensió del contracte per l'Administració:",
-      "options": [
-        "No es paga",
-        "Dóna dret a indemnitzar danys i perjudicis al contractista",
-        "És gratuïta",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "La suspensió acordada per l'Administració genera dret a indemnització dels danys i perjudicis (art. 208 LCSP).",
-      "source": "LCSP",
-      "article": "art. 208 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "La fiscalització prèvia del contracte menor:",
-      "options": [
-        "No existeix",
-        "Recau sobre l'aprovació de la despesa",
-        "És sobre la recepció",
-        "La fa el contractista"
-      ],
-      "correct": 1,
-      "explain": "La intervenció fiscalitza l'aprovació de la despesa del contracte menor (control econòmic).",
-      "source": "TRLHL",
-      "article": "art. 214 TRLHL"
     },
     {
       "theme": 16,
@@ -5824,66 +3499,6 @@
       "explain": "L'afectació al domini públic exigeix acte exprés o, en certs supòsits, es produeix de manera presumpta (Llei 33/2003).",
       "source": "L33_2003",
       "article": "Llei 33/2003"
-    },
-    {
-      "theme": 44,
-      "block": 11,
-      "q": "En cas de dubte sobre la classe de sòl no urbà:",
-      "options": [
-        "Es considera urbà",
-        "Preval la condició de sòl no urbanitzable o urbanitzable segons el planejament",
-        "Es deixa sense classe",
-        "Decideix el propietari"
-      ],
-      "correct": 1,
-      "explain": "La classe de sòl la fixa el planejament; el sòl no classificat com a urbà serà urbanitzable o no urbanitzable.",
-      "source": "TRLUC",
-      "article": "art. 25 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Les obres d'escassa entitat tècnica:",
-      "options": [
-        "Sempre llicència",
-        "Poden subjectar-se a comunicació prèvia",
-        "Estan prohibides",
-        "Requereixen projecte SARA"
-      ],
-      "correct": 1,
-      "explain": "Les actuacions de menor entitat se sotmeten a comunicació prèvia (art. 187 bis TRLUC).",
-      "source": "TRLUC",
-      "article": "art. 187 bis TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "La protecció de la legalitat es pot exercir:",
-      "options": [
-        "Sense límit temporal sempre",
-        "Dins dels terminis de prescripció de l'acció de restauració",
-        "Només amb sentència",
-        "Mai d'ofici"
-      ],
-      "correct": 1,
-      "explain": "L'acció de restauració s'exerceix dins el termini de prescripció (6 anys general; imprescriptible en sòl protegit).",
-      "source": "TRLUC",
-      "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "La presumpció d'innocència en el procediment sancionador:",
-      "options": [
-        "No s'aplica",
-        "És una garantia: la càrrega de la prova és de l'Administració",
-        "Es pot ignorar",
-        "Només al penal"
-      ],
-      "correct": 1,
-      "explain": "Art. 28 i 53 Llei 40/2015: regeix la presumpció d'innocència; la prova de càrrec correspon a l'Administració.",
-      "source": "L40_2015",
-      "article": "art. 53 Llei 40/2015"
     },
     {
       "theme": 89,
@@ -5991,66 +3606,6 @@
       "article": "normativa d'avaluació ambiental"
     },
     {
-      "theme": 46,
-      "block": 11,
-      "q": "Els sòls destinats a sistemes:",
-      "options": [
-        "Poden tenir aprofitament privat lliure",
-        "Es destinen a usos públics (vialitat, espais lliures, equipaments)",
-        "Són sempre privats",
-        "No es regulen"
-      ],
-      "correct": 1,
-      "explain": "Els sistemes s'afecten a usos i serveis públics (vialitat, espais lliures, equipaments).",
-      "source": "TRLUC",
-      "article": "art. 34 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "El principi d'equidistribució persegueix:",
-      "options": [
-        "Beneficiar uns propietaris",
-        "Repartir equitativament beneficis i càrregues del planejament",
-        "Privatitzar el sòl",
-        "Eliminar cessions"
-      ],
-      "correct": 1,
-      "explain": "L'equidistribució reparteix de manera justa beneficis i càrregues derivats del planejament.",
-      "source": "TRLUC",
-      "article": "art. 120 TRLUC"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "El responsable del contracte:",
-      "options": [
-        "No existeix",
-        "Supervisa l'execució i adopta decisions per assegurar la prestació",
-        "Adjudica",
-        "És el contractista"
-      ],
-      "correct": 1,
-      "explain": "L'òrgan de contractació designa un responsable del contracte per supervisar-ne l'execució (art. 62 LCSP).",
-      "source": "LCSP",
-      "article": "art. 62 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "Els contractes de serveis de prestacions successives:",
-      "options": [
-        "No tenen pròrroga",
-        "Poden preveure pròrrogues amb límits de durada",
-        "Duren sempre 10 anys",
-        "Els fixa el contractista"
-      ],
-      "correct": 1,
-      "explain": "Els contractes de prestacions successives admeten pròrrogues previstes amb els límits de l'art. 29 LCSP.",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
       "theme": 43,
       "block": 3,
       "q": "Els impostos locals obligatoris inclouen:",
@@ -6064,21 +3619,6 @@
       "explain": "Són impostos obligatoris l'IBI, l'IAE i l'IVTM; potestatius l'ICIO i l'IIVTNU (plusvàlua).",
       "source": "TRLHL",
       "article": "arts. 59 i ss. TRLHL"
-    },
-    {
-      "theme": 74,
-      "block": 12,
-      "q": "La revocació d'una llicència vàlida per raons d'interès públic:",
-      "options": [
-        "Mai es paga",
-        "Pot comportar indemnització dels perjudicis causats",
-        "És sempre gratuïta",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "La revocació per raons d'oportunitat de llicències vàlides pot generar dret a indemnització.",
-      "source": "TRLUC",
-      "article": "art. 188 TRLUC"
     },
     {
       "theme": 85,
@@ -6109,21 +3649,6 @@
       "explain": "Els convenis amb compromisos econòmics superiors a un llindar es remeten a la Sindicatura/Tribunal de Comptes.",
       "source": "L40_2015",
       "article": "art. 53 Llei 40/2015"
-    },
-    {
-      "theme": 50,
-      "block": 11,
-      "q": "Els plans territorials i directors prevalen sobre:",
-      "options": [
-        "La CE",
-        "El planejament urbanístic municipal en el seu àmbit",
-        "El TREBEP",
-        "La LCSP"
-      ],
-      "correct": 1,
-      "explain": "El planejament municipal s'ha d'ajustar als instruments de rang territorial i als plans directors.",
-      "source": "TRLUC",
-      "article": "art. 13 TRLUC"
     },
     {
       "theme": 62,
@@ -6199,21 +3724,6 @@
       "explain": "El projecte de pressupost incorpora l'avanç de la liquidació de l'exercici corrent (art. 168 TRLHL).",
       "source": "TRLHL",
       "article": "art. 168 TRLHL"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "L'atorgament de llicència en sòl no urbanitzable:",
-      "options": [
-        "És lliure",
-        "Pot requerir informes i, segons l'ús, aprovació prèvia (projecte d'actuació específica)",
-        "Està prohibit sempre",
-        "No té tràmits"
-      ],
-      "correct": 1,
-      "explain": "Determinats usos en sòl no urbanitzable requereixen procediments i autoritzacions específiques (TRLUC).",
-      "source": "TRLUC",
-      "article": "arts. 47-50 TRLUC"
     },
     {
       "theme": 89,
@@ -6664,6 +4174,951 @@
       "explain": "Es pregunta el requisit de les competències 'impròpies'. Correcta (b): l'art. 7.4 LRBRL només permet exercir competències diferents de les pròpies i delegades si no hi ha duplicitat amb una altra administració i no es posa en risc la sostenibilitat financera, fet que cal acreditar amb informes previs i vinculants. Per què no: (a) no n'hi ha prou amb una comunicació; (c) no es requereix cap consulta veïnal; (d) no cal previsió estatutària expressa. Base: art. 7.4 LRBRL.",
       "source": "LRBRL",
       "article": "art. 7.4 LRBRL"
+    },
+    {
+      "theme": 15,
+      "block": 5,
+      "q": "Quina llei regula actualment els contractes del sector públic i transposa les directives europees de contractació de 2014?",
+      "options": [
+        "La Llei 30/2007, de contractes del sector públic",
+        "La Llei 9/2017, de contractes del sector públic",
+        "El Reial decret legislatiu 3/2011",
+        "La Llei 39/2015, del procediment administratiu comú"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la norma vigent en contractació. Correcta (b): és la Llei 9/2017, de 8 de novembre (LCSP), que transposa les directives 2014/23/UE i 2014/24/UE. Per què no: (a) la Llei 30/2007 i (c) el RDL 3/2011 són normes anteriors ja derogades; (d) la Llei 39/2015 regula el procediment administratiu comú, no la contractació. Base: LCSP (Llei 9/2017).",
+      "source": "LCSP",
+      "article": "Llei 9/2017"
+    },
+    {
+      "theme": 15,
+      "block": 5,
+      "q": "Què determina, principalment, el valor estimat d'un contracte?",
+      "options": [
+        "L'import exacte que finalment es pagarà al contractista en executar-lo",
+        "El procediment aplicable i les exigències de publicitat",
+        "La solvència exigible a tots els licitadors",
+        "El termini de garantia del contracte"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la funció del valor estimat. Correcta (b): el valor estimat (art. 101), calculat sense IVA i incloent-hi pròrrogues i modificacions previstes, determina el procediment aplicable i la publicitat (per exemple, si el contracte és SARA i s'ha de publicar al DOUE). Per què no: (a) l'import pagat és el preu, no el valor estimat; (c) la solvència depèn de l'objecte i del plec, no només del valor; (d) el termini de garantia és una altra qüestió. Base: art. 101 LCSP.",
+      "source": "LCSP",
+      "article": "art. 101 LCSP"
+    },
+    {
+      "theme": 15,
+      "block": 5,
+      "q": "Quin d'aquests és un principi rector de la contractació pública segons l'article 1 de la LCSP?",
+      "options": [
+        "La lliure designació de l'adjudicatari per l'òrgan de contractació",
+        "La llibertat d'accés a les licitacions i la no-discriminació",
+        "El secret de les actuacions fins a la formalització",
+        "La preferència pels contractistes del mateix municipi"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta un principi de la contractació. Correcta (b): l'art. 1 LCSP estableix la llibertat d'accés a les licitacions, la publicitat i la transparència, la no-discriminació i la igualtat de tracte, i l'ús eficient dels fons. Per què no: (a) i (d) vulnerarien la igualtat i la no-discriminació; (c) la contractació es regeix per la publicitat i la transparència, no pel secret. Base: art. 1 LCSP.",
+      "source": "LCSP",
+      "article": "art. 1 LCSP"
+    },
+    {
+      "theme": 20,
+      "block": 5,
+      "q": "En quin procediment d'adjudicació pot presentar una proposició qualsevol empresari interessat que compleixi els requisits?",
+      "options": [
+        "En el procediment restringit",
+        "En el procediment obert",
+        "En el procediment negociat sense publicitat",
+        "En el diàleg competitiu"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el procediment de màxima concurrència. Correcta (b): en el procediment obert tot empresari interessat pot presentar una proposició (art. 156). Per què no: (a) en el restringit només presenten oferta els candidats seleccionats prèviament per la seva solvència; (c) el negociat sense publicitat es limita a empreses convidades en supòsits taxats; (d) el diàleg competitiu parteix d'una selecció prèvia de candidats. Base: art. 156 LCSP.",
+      "source": "LCSP",
+      "article": "art. 156 LCSP"
+    },
+    {
+      "theme": 20,
+      "block": 5,
+      "q": "El procediment negociat sense publicitat només es pot utilitzar:",
+      "options": [
+        "Sempre que l'òrgan de contractació ho consideri convenient",
+        "En els supòsits taxats que preveu la llei",
+        "En tots els contractes d'obres de qualsevol import",
+        "Quan el contracte sigui de durada superior a un any"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta quan procedeix el negociat sense publicitat. Correcta (b): només es pot emprar en els supòsits taxats de l'art. 168 (exclusivitat tècnica o artística, urgència imperiosa resultant d'esdeveniments imprevisibles, licitacions prèvies declarades desertes, etc.). Per què no: (a) no depèn de la simple conveniència; (c) i (d) ni el tipus d'obra ni la durada habiliten per si sols aquest procediment. Base: art. 168 LCSP.",
+      "source": "LCSP",
+      "article": "art. 168 LCSP"
+    },
+    {
+      "theme": 20,
+      "block": 5,
+      "q": "Quina és la funció de la mesa de contractació?",
+      "options": [
+        "Adjudicar directament el contracte a l'empresa que hagi presentat la millor oferta econòmica",
+        "Assistir l'òrgan de contractació valorant les ofertes i proposant l'adjudicació",
+        "Redactar els plecs i aprovar la despesa del contracte",
+        "Fiscalitzar la legalitat de l'expedient de contractació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el paper de la mesa. Correcta (b): la mesa (art. 326) és l'òrgan d'assistència tècnica que qualifica la documentació, valora les ofertes i formula la proposta d'adjudicació a l'òrgan de contractació. Per què no: (a) qui adjudica és l'òrgan de contractació, no la mesa; (c) els plecs i la despesa els aprova l'òrgan de contractació; (d) la fiscalització correspon a la Intervenció. Base: art. 326 LCSP.",
+      "source": "LCSP",
+      "article": "art. 326 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Com s'ha d'actuar davant una oferta que incorre en presumpció d'anormalitat (anormalment baixa)?",
+      "options": [
+        "S'exclou automàticament per ser la més econòmica",
+        "Es requereix el licitador perquè en justifiqui la viabilitat, amb audiència",
+        "S'accepta sense cap més tràmit perquè suposa un estalvi per als fons públics",
+        "Es declara deserta la licitació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el tractament de l'oferta anormal. Correcta (b): no es pot rebutjar automàticament; cal requerir el licitador perquè justifiqui i desglossi la viabilitat de l'oferta, amb un tràmit d'audiència, i només excloure-la, de manera motivada, si no es justifica (art. 149). Per què no: (a) i (d) l'exclusió o la declaració deserta no són automàtiques; (c) tampoc no es pot acceptar sense comprovar-ne la viabilitat. Base: art. 149 LCSP.",
+      "source": "LCSP",
+      "article": "art. 149 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Els criteris d'adjudicació d'un contracte han de ser:",
+      "options": [
+        "Lliures i de valoració discrecional per part de la mesa de contractació",
+        "Objectius, vinculats a l'objecte del contracte i fixats al plec",
+        "Únicament el preu en tots els contractes",
+        "Decidits després d'obrir les ofertes"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta com han de ser els criteris. Correcta (b): els criteris (art. 145) han de ser objectius, han d'estar vinculats a l'objecte del contracte i s'han de fixar prèviament al plec, buscant la millor relació qualitat-preu. Per què no: (a) no poden ser discrecionals; (c) es pot atendre també la qualitat, no només el preu; (d) s'han de fixar abans, no després d'obrir les ofertes. Base: art. 145 LCSP.",
+      "source": "LCSP",
+      "article": "art. 145 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Una empresa condemnada per sentència ferma per un delicte contra la Hisenda pública:",
+      "options": [
+        "Pot contractar si presenta la millor oferta econòmica",
+        "Està incursa en una prohibició de contractar",
+        "Només queda exclosa dels contractes d'obres",
+        "Pot contractar amb autorització del Ple"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta una prohibició de contractar. Correcta (b): la condemna ferma per determinats delictes (entre ells els comesos contra la Hisenda pública) és una causa de prohibició de contractar amb el sector públic (art. 71). Per què no: (a) la prohibició impedeix contractar amb independència de l'oferta; (c) la prohibició no es limita a un tipus de contracte; (d) cap òrgan no pot autoritzar contractar qui està incurs en prohibició. Base: art. 71 LCSP.",
+      "source": "LCSP",
+      "article": "art. 71 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "Si el contractista incorre en demora en l'execució per causa que li és imputable, l'Administració pot:",
+      "options": [
+        "Únicament esperar que compleixi sense cap conseqüència",
+        "Optar entre resoldre el contracte o imposar penalitats",
+        "Incrementar automàticament el preu del contracte",
+        "Cedir el contracte a un altre empresari sense tràmit"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la conseqüència de la demora imputable. Correcta (b): l'Administració pot optar, indistintament, per la resolució del contracte o per la imposició de penalitats (art. 193). Per què no: (a) la demora té conseqüències; (c) no comporta cap increment de preu a favor del contractista; (d) la cessió requereix autorització i requisits, i no és la conseqüència de la demora. Base: art. 193 LCSP.",
+      "source": "LCSP",
+      "article": "art. 193 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "La potestat de l'Administració de modificar un contracte administratiu per raons d'interès públic (ius variandi):",
+      "options": [
+        "No existeix en cap contracte administratiu",
+        "És una prerrogativa que s'exerceix amb audiència del contractista",
+        "Permet modificar el contracte lliurement i sense cap mena de límit legal",
+        "Requereix sempre l'acord del contractista"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el ius variandi. Correcta (b): la modificació per interès públic és una de les prerrogatives de l'Administració (art. 190) i s'exerceix mitjançant un procediment amb audiència del contractista; l'acord és immediatament executiu. Per què no: (a) sí que existeix en els contractes administratius; (c) està subjecta a límits (causes i percentatges dels arts. 204-205); (d) dins els límits legals, és obligatòria per al contractista sense necessitat del seu acord. Base: art. 190 LCSP.",
+      "source": "LCSP",
+      "article": "art. 190 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "A qui correspon, com a regla general, el risc econòmic ordinari de l'execució del contracte?",
+      "options": [
+        "A l'Administració contractant, que assumeix tots els riscos de l'obra",
+        "Al contractista, que executa a risc i ventura",
+        "A la mesa de contractació",
+        "Es reparteix sempre al 50% entre les parts"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui assumeix el risc d'execució. Correcta (b): l'execució del contracte es fa a risc i ventura del contractista (art. 197), que assumeix els riscos econòmics ordinaris. Per què no: (a) l'Administració només respon en supòsits taxats (força major, factum principis, modificacions); (c) la mesa no executa el contracte; (d) no hi ha un repartiment automàtic al 50%. Base: art. 197 LCSP.",
+      "source": "LCSP",
+      "article": "art. 197 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "En la subcontractació, davant l'Administració respon de l'execució del contracte:",
+      "options": [
+        "Cada subcontractista únicament respecte de la part que ha executat",
+        "El contractista principal, de la totalitat de l'execució",
+        "L'Administració de manera solidària",
+        "La mesa de contractació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui respon en la subcontractació. Correcta (b): el contractista principal assumeix la responsabilitat íntegra de l'execució davant l'Administració, també de la part subcontractada (art. 215). Per què no: (a) els subcontractistes responen davant el contractista, no directament davant l'Administració; (c) l'Administració no assumeix aquesta responsabilitat; (d) la mesa no intervé en l'execució. Base: art. 215 LCSP.",
+      "source": "LCSP",
+      "article": "art. 215 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "La cessió d'un contracte a un tercer requereix, entre altres requisits:",
+      "options": [
+        "Únicament una simple comunicació posterior adreçada a l'Administració",
+        "L'autorització prèvia i expressa de l'òrgan de contractació",
+        "Que el cessionari tingui menys solvència que el cedent",
+        "Que el contracte estigui totalment executat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta un requisit de la cessió. Correcta (b): la cessió exigeix l'autorització prèvia i expressa de l'òrgan de contractació, que el cessionari tingui capacitat i solvència i no estigui incurs en prohibicions, i que el cedent hagi executat almenys un 20% del contracte (art. 214). Per què no: (a) no n'hi ha prou amb una comunicació posterior; (c) el cessionari ha de tenir solvència suficient; (d) si estigués totalment executat no hi hauria res a cedir. Base: art. 214 LCSP.",
+      "source": "LCSP",
+      "article": "art. 214 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Les modificacions del contracte NO previstes al plec només es poden acordar:",
+      "options": [
+        "Lliurement, sempre que les justifiqui l'òrgan de contractació en interès general",
+        "Per causes taxades i sense superar el 50% del preu inicial del contracte",
+        "Fins a un màxim del 10% del preu, sense necessitat de cap causa",
+        "Quan ho sol·liciti voluntàriament el contractista adjudicatari"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el límit de les modificacions no previstes. Correcta (b): les no previstes (art. 205) només procedeixen per causes taxades (prestacions addicionals no separables, circumstàncies sobrevingudes imprevisibles, errors o omissions del projecte) i no poden superar el 50% del preu inicial ni alterar la naturalesa global. Per què no: (a) no es poden acordar lliurement; (c) el percentatge i l'absència de causa són incorrectes; (d) no neixen de la voluntat del contractista. Base: art. 205 LCSP.",
+      "source": "LCSP",
+      "article": "art. 205 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "A partir de quin moment comença a comptar el termini de garantia d'un contracte?",
+      "options": [
+        "Des de l'adjudicació del contracte",
+        "Des de la recepció o conformitat de la prestació",
+        "Des de la publicació de la formalització al perfil de contractant",
+        "Des de l'aprovació de la despesa"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'inici del termini de garantia. Correcta (b): el compliment es constata mitjançant un acte formal de recepció o conformitat, a partir del qual comença el termini de garantia (art. 210). Per què no: (a) l'adjudicació és l'inici de l'execució, no de la garantia; (c) i (d) la publicació i l'aprovació de la despesa són tràmits previs sense relació amb la garantia. Base: art. 210 LCSP.",
+      "source": "LCSP",
+      "article": "art. 210 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Si un contracte es resol per una causa imputable al contractista, l'efecte principal és:",
+      "options": [
+        "L'Administració l'ha d'indemnitzar íntegrament per tots els danys i perjudicis soferts",
+        "La confiscació de la garantia i la indemnització de danys a l'Administració",
+        "La pròrroga automàtica del contracte per un any",
+        "El pagament íntegre de la prestació pendent"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'efecte de la resolució per culpa del contractista. Correcta (b): comporta la confiscació de la garantia definitiva i, a més, la indemnització a l'Administració dels danys i perjudicis en allò que excedeixi la garantia (art. 213). Per què no: (a) seria a l'inrevés (quan la causa és de l'Administració); (c) no hi ha cap pròrroga automàtica; (d) no es paga la prestació no executada. Base: art. 213 LCSP.",
+      "source": "LCSP",
+      "article": "art. 213 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "Abans de licitar un contracte d'obres, com a regla general cal disposar de:",
+      "options": [
+        "Un simple pressupost orientatiu del cost total de l'actuació prevista",
+        "Un projecte degudament supervisat, aprovat i replantejat",
+        "La factura de la primera certificació",
+        "L'acta de recepció de les obres"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el requisit previ a la licitació d'obres. Correcta (b): l'adjudicació d'obres requereix l'elaboració, la supervisió, l'aprovació i el replanteig del projecte (arts. 231 i següents). Per què no: (a) no n'hi ha prou amb un pressupost orientatiu; (c) la factura de certificació és posterior, durant l'execució; (d) l'acta de recepció es fa en acabar l'obra. Base: arts. 231-236 LCSP.",
+      "source": "LCSP",
+      "article": "arts. 231-236 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "Quin acte habilita l'inici de les obres un cop formalitzat el contracte?",
+      "options": [
+        "L'acta de recepció de l'obra",
+        "L'acta de comprovació del replanteig",
+        "La signatura del plec de prescripcions tècniques",
+        "La publicació de l'adjudicació al DOUE"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'acte que permet iniciar les obres. Correcta (b): un cop formalitzat el contracte, s'estén l'acta de comprovació del replanteig, que verifica la realitat geomètrica i la disponibilitat dels terrenys i habilita l'inici dins el termini fixat (art. 237). Per què no: (a) la recepció és en acabar; (c) i (d) la signatura del plec i la publicació no habiliten l'inici de l'execució. Base: art. 237 LCSP.",
+      "source": "LCSP",
+      "article": "art. 237 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "Què caracteritza el contracte de concessió d'obres enfront del contracte d'obres?",
+      "options": [
+        "Que el paga sempre íntegrament l'Administració titular amb càrrec al pressupost",
+        "Que el concessionari assumeix el risc operacional de l'explotació",
+        "Que no pot superar mai els cinc anys de durada",
+        "Que no requereix cap projecte previ"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'element diferenciador de la concessió d'obres. Correcta (b): el concessionari construeix i/o explota l'obra assumint el risc operacional (de demanda o disponibilitat); sense aquesta transferència de risc seria un contracte d'obres (art. 14). Per què no: (a) la retribució és l'explotació de l'obra, no un pagament íntegre; (c) la durada pot arribar fins a 40 anys (art. 29); (d) requereix projecte i estudi de viabilitat. Base: arts. 14 i 29 LCSP.",
+      "source": "LCSP",
+      "article": "arts. 14 i 29 LCSP"
+    },
+    {
+      "theme": 27,
+      "block": 5,
+      "q": "El contracte de subministrament té per objecte:",
+      "options": [
+        "La construcció o rehabilitació d'un bé immoble",
+        "L'adquisició o l'arrendament de productes o béns mobles",
+        "La gestió d'un servei públic assumint-ne íntegrament el risc operacional",
+        "La redacció d'un projecte tècnic d'obres"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'objecte del subministrament. Correcta (b): el contracte de subministrament té per objecte l'adquisició, l'arrendament o l'adquisició per arrendament financer de productes o béns mobles (art. 16). Per què no: (a) això és el contracte d'obres; (c) és la concessió de serveis; (d) és una especialitat del contracte de serveis. Base: art. 16 LCSP.",
+      "source": "LCSP",
+      "article": "art. 16 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Quina funció NO pot tenir per objecte un contracte de serveis?",
+      "options": [
+        "Una activitat material de manteniment, conservació o de neteja d'edificis",
+        "Les que impliquin exercici de l'autoritat inherent als poders públics",
+        "Una prestació de caràcter intel·lectual",
+        "La redacció de projectes d'obres"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el límit del contracte de serveis. Correcta (b): els contractes de serveis no poden tenir per objecte funcions que impliquin l'exercici de l'autoritat inherent als poders públics, reservades a personal funcionari (art. 17). Per què no: (a), (c) i (d) són prestacions de fer que sí que poden ser objecte d'un contracte de serveis (la redacció de projectes n'és, fins i tot, una especialitat). Base: art. 17 LCSP.",
+      "source": "LCSP",
+      "article": "art. 17 LCSP"
+    },
+    {
+      "theme": 29,
+      "block": 5,
+      "q": "En la concessió de serveis, el risc operacional de l'explotació:",
+      "options": [
+        "L'assumeix íntegrament l'Administració titular",
+        "L'assumeix el concessionari",
+        "No existeix en aquest tipus de contracte",
+        "Es transfereix sempre als usuaris del servei"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui assumeix el risc en la concessió de serveis. Correcta (b): la concessió de serveis es caracteritza perquè el concessionari assumeix el risc operacional de l'explotació (art. 15); aquest és l'element que la diferencia del contracte de serveis ordinari. Per què no: (a) si el risc fos de l'Administració no seria concessió; (c) el risc és consubstancial a la figura; (d) el risc és del concessionari, no dels usuaris. Base: art. 15 LCSP.",
+      "source": "LCSP",
+      "article": "art. 15 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Un contracte d'obres es pot tramitar com a contracte menor quan el seu valor estimat (IVA exclòs) és inferior a:",
+      "options": [
+        "15.000 euros",
+        "40.000 euros",
+        "60.000 euros",
+        "100.000 euros"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el llindar del menor en obres. Correcta (b): són menors els contractes d'obres de valor estimat inferior a 40.000 euros (i els de serveis i subministraments, inferior a 15.000 euros), IVA exclòs (art. 118). Per què no: (a) 15.000 € és el llindar de serveis i subministraments, no d'obres; (c) i (d) no es corresponen amb cap llindar legal. Base: art. 118 LCSP.",
+      "source": "LCSP",
+      "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Quina és la durada màxima d'un contracte menor?",
+      "options": [
+        "Un any, sense possibilitat de pròrroga",
+        "Dos anys, prorrogable un any més",
+        "Quatre anys, com la resta de contractes",
+        "No té cap límit de durada establert"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la durada del menor. Correcta (a): el contracte menor no pot tenir una durada superior a un any ni ser objecte de pròrroga (art. 29.8). Per què no: (b), (c) i (d) no s'ajusten al límit legal; precisament la durada curta i la impossibilitat de pròrroga són notes definidores del menor. Base: art. 29.8 LCSP.",
+      "source": "LCSP",
+      "article": "art. 29.8 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "En la tramitació d'un contracte menor, quan NO és necessari l'informe que justifica la necessitat del contracte?",
+      "options": [
+        "Quan el valor estimat és igual o inferior a 5.000 euros",
+        "Mai: l'informe sempre és obligatori en tot contracte menor",
+        "Quan l'adjudicatari és una entitat sense ànim de lucre",
+        "Quan el contracte és de subministrament"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta una excepció documental del menor. Correcta (a): l'informe de l'òrgan de contractació que motiva la necessitat i que no s'altera l'objecte per eludir les regles generals no és exigible en els contractes menors de valor estimat igual o inferior a 5.000 euros (art. 118). Per què no: (b) sí que hi ha aquesta excepció; (c) i (d) ni el tipus d'adjudicatari ni el tipus de contracte determinen aquesta excepció. Base: art. 118 LCSP.",
+      "source": "LCSP",
+      "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Què està expressament prohibit en la contractació menor?",
+      "options": [
+        "Incorporar la factura a l'expedient",
+        "Fraccionar l'objecte del contracte per eludir els llindars",
+        "Aprovar la despesa amb caràcter previ",
+        "Publicar-ne la informació de manera trimestral al perfil de contractant"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta una prohibició del menor. Correcta (b): no es pot fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir així els requisits de publicitat o de procediment (arts. 118.2 i 99.2). Per què no: (a), (c) i (d) són, precisament, actuacions correctes i exigibles (factura, aprovació de la despesa i publicitat trimestral). Base: arts. 118 i 99 LCSP.",
+      "source": "LCSP",
+      "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 44,
+      "block": 11,
+      "q": "Com classifica el sòl el text refós de la Llei d'urbanisme de Catalunya (TRLUC)?",
+      "options": [
+        "En sòl edificable i sòl no edificable, segons l'aprofitament",
+        "En sòl urbà, sòl urbanitzable i sòl no urbanitzable",
+        "En sòl públic i sòl privat, segons la titularitat",
+        "En sòl rural i sòl urbanitzat, segons l'estat real"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la classificació del sòl. Correcta (b): el TRLUC classifica el sòl en urbà, urbanitzable i no urbanitzable. Per què no: (a) i (c) no són categories de classificació del TRLUC; (d) 'rural' i 'urbanitzat' són les situacions bàsiques de la legislació estatal del sòl (TRLS), a efectes de valoració, no la classificació autonòmica. Base: art. 25 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 25 TRLUC"
+    },
+    {
+      "theme": 44,
+      "block": 11,
+      "q": "Quins són els serveis urbanístics bàsics que defineixen, en general, el sòl urbà?",
+      "options": [
+        "L'enllumenat públic, la recollida de residus i el transport urbà col·lectiu de viatgers",
+        "Xarxa viària, abastament d'aigua, sanejament i subministrament elèctric",
+        "Telecomunicacions de fibra òptica i xarxa de gas natural",
+        "Equipaments esportius, culturals i sanitaris de proximitat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta quins són els serveis bàsics. Correcta (b): són serveis urbanístics bàsics la xarxa viària amb un nivell de consolidació suficient, l'abastament d'aigua, el sanejament i el subministrament d'energia elèctrica. Per què no: (a), (c) i (d) són serveis o dotacions que no constitueixen, per ells mateixos, els serveis bàsics que determinen la condició de sòl urbà. Base: art. 27 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 27 TRLUC"
+    },
+    {
+      "theme": 44,
+      "block": 11,
+      "q": "Quan té un terreny la condició de solar?",
+      "options": [
+        "Quan està classificat com a sòl urbanitzable delimitat i té un pla parcial definitivament aprovat",
+        "Quan és sòl urbà apte per edificar perquè disposa dels serveis i de la urbanització bàsica",
+        "Quan disposa només d'un projecte d'edificació aprovat",
+        "Quan està situat dins el terme municipal"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el concepte de solar. Correcta (b): és solar el sòl urbà apte per ser edificat perquè disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida. Per què no: (a) el sòl urbanitzable encara s'ha de transformar; (c) un projecte no atorga la condició de solar; (d) la mera situació al terme municipal és irrellevant. Base: art. 29 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 29 TRLUC"
+    },
+    {
+      "theme": 45,
+      "block": 11,
+      "q": "Quines són les situacions bàsiques en què la legislació estatal del sòl classifica el sòl?",
+      "options": [
+        "Sòl urbà i sòl no urbanitzable",
+        "Sòl rural i sòl urbanitzat",
+        "Sòl consolidat i sòl no consolidat",
+        "Sòl dotacional i sòl lucratiu"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta les situacions bàsiques del sòl. Correcta (b): el TRLS estatal distingeix, a efectes de drets bàsics i de valoració, dues situacions: sòl rural i sòl urbanitzat. Per què no: (a) urbà/no urbanitzable són classes del TRLUC autonòmic; (c) consolidat/no consolidat són subcategories del sòl urbà; (d) dotacional/lucratiu fa referència a la qualificació. Base: art. 21 TRLS.",
+      "source": "TRLSRU",
+      "article": "art. 21 TRLS"
+    },
+    {
+      "theme": 45,
+      "block": 11,
+      "q": "Com es valora, amb caràcter general, el sòl en situació rural?",
+      "options": [
+        "Aplicant l'edificabilitat i els usos màxims que permeti el planejament futur previst",
+        "Per capitalització de la renda real o potencial, sense expectatives urbanístiques",
+        "Pel valor cadastral incrementat en un coeficient fix",
+        "Pel preu mitjà de mercat dels solars del municipi"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el criteri de valoració del sòl rural. Correcta (b): el sòl rural es valora per capitalització de la renda anual, real o potencial, de l'explotació, sense computar expectatives derivades de la futura urbanització. Per què no: (a) precisament no es computen expectatives ni edificabilitats futures; (c) i (d) no són els criteris legals (el valor cadastral o el preu dels solars no determinen la valoració del sòl rural). Base: art. 36 TRLS.",
+      "source": "TRLSRU",
+      "article": "art. 36 TRLS"
+    },
+    {
+      "theme": 46,
+      "block": 11,
+      "q": "Què són els sistemes urbanístics generals?",
+      "options": [
+        "Els terrenys destinats a l'aprofitament privat i lucratiu de les persones propietàries",
+        "Els que estructuren l'organització i el desenvolupament del conjunt del municipi",
+        "Únicament les zones verdes d'un sector de planejament concret",
+        "Els béns patrimonials de l'ajuntament destinats a rendes"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el concepte de sistema general. Correcta (b): els sistemes generals són els terrenys i les instal·lacions d'ús públic que estructuren l'organització i el desenvolupament urbà del conjunt del municipi (xarxa viària bàsica, grans espais lliures, equipaments d'abast general). Per què no: (a) els sistemes són d'ús públic, no d'aprofitament privat; (c) això descriu un sistema local; (d) no són béns patrimonials per a rendes. Base: art. 34 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 34 TRLUC"
+    },
+    {
+      "theme": 46,
+      "block": 11,
+      "q": "Els sòls qualificats com a sistemes urbanístics s'obtenen, entre altres formes, mitjançant:",
+      "options": [
+        "La donació voluntària i gratuïta de les persones propietàries en tots els casos",
+        "Cessió en les actuacions de transformació, expropiació o ocupació directa",
+        "Compra a preu lliure de mercat com a única via possible",
+        "Permuta forçosa amb béns patrimonials de l'Estat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta com s'obtenen els sistemes. Correcta (b): els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions de transformació urbanística, per expropiació o per ocupació directa. Per què no: (a) no depèn d'una donació voluntària; (c) la compra a preu lliure no és l'única via; (d) la permuta forçosa amb béns de l'Estat no és un mecanisme d'obtenció de sistemes. Base: art. 34 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 34 TRLUC"
+    },
+    {
+      "theme": 47,
+      "block": 11,
+      "q": "L'aprofitament urbanístic mitjà serveix, principalment, per:",
+      "options": [
+        "Calcular la quota de l'impost sobre béns immobles que graven els terrenys del sector",
+        "Distribuir equitativament els beneficis i les càrregues entre els propietaris",
+        "Fixar les retribucions dels tècnics municipals redactors",
+        "Determinar el valor cadastral de les finques"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la funció de l'aprofitament mitjà. Correcta (b): l'aprofitament mitjà és l'instrument d'equidistribució que permet repartir de manera equitativa els beneficis (aprofitament) i les càrregues (cessions i urbanització) entre els propietaris d'un àmbit. Per què no: (a) i (d) no té relació amb l'IBI ni amb el valor cadastral; (c) no determina retribucions de tècnics. Base: art. 37 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 37 TRLUC"
+    },
+    {
+      "theme": 48,
+      "block": 11,
+      "q": "A qui correspon el deure de conservar les construccions en condicions de seguretat, salubritat i ornament?",
+      "options": [
+        "A l'ajuntament, amb càrrec al pressupost municipal",
+        "A les persones propietàries dels immobles",
+        "A la comunitat autònoma en sòl urbà",
+        "A cap subjecte, perquè és una facultat voluntària"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta a qui correspon el deure de conservació. Correcta (b): les persones propietàries han de mantenir els terrenys i les construccions en condicions de seguretat, salubritat i ornament públic (deure de conservació). Per què no: (a) l'ajuntament ordena la conservació, però el cost recau en el propietari; (c) no correspon a la CA; (d) no és voluntari, és un deure legal. Base: art. 197 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 197 TRLUC"
+    },
+    {
+      "theme": 48,
+      "block": 11,
+      "q": "En el sòl objecte de transformació urbanística, un dels deures dels propietaris és:",
+      "options": [
+        "Edificar lliurement sense subjecció a cap termini",
+        "Cedir gratuïtament el sòl per a sistemes i el de l'aprofitament que correspon a l'Administració",
+        "Conservar la totalitat de l'aprofitament urbanístic atribuït sense fer cap cessió a l'Administració",
+        "Pagar un cànon anual a la comunitat autònoma"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta un deure dels propietaris. Correcta (b): en el sòl de transformació, els propietaris han de cedir gratuïtament el sòl per a sistemes i el sòl amb l'aprofitament que correspon a l'Administració, i costejar la urbanització. Per què no: (a) l'edificació està subjecta a terminis; (c) precisament hi ha deures de cessió; (d) no es tracta d'un cànon a la CA. Base: arts. 43-44 TRLUC.",
+      "source": "TRLUC",
+      "article": "arts. 43-44 TRLUC"
+    },
+    {
+      "theme": 49,
+      "block": 11,
+      "q": "Quina és una característica essencial dels usos i obres de caràcter provisional?",
+      "options": [
+        "Que es consoliden amb el pas del temps i passen a ser usos definitius i permanents",
+        "Que són precaris i han de cessar sense dret a indemnització quan s'ordeni",
+        "Que generen sempre dret a una indemnització en cessar",
+        "Que no requereixen cap llicència ni inscripció"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el règim dels usos provisionals. Correcta (b): els usos i obres provisionals tenen caràcter precari, no han de dificultar l'execució del planejament i han de cessar, sense dret a indemnització, quan ho ordeni l'Administració. Per què no: (a) no es consoliden; (c) precisament no generen dret a indemnització; (d) requereixen llicència, acceptació de condicions i inscripció al Registre. Base: arts. 53-54 TRLUC.",
+      "source": "TRLUC",
+      "article": "arts. 53-54 TRLUC"
+    },
+    {
+      "theme": 50,
+      "block": 11,
+      "q": "Els plans directors urbanístics (PDU) es caracteritzen perquè:",
+      "options": [
+        "Els aprova definitivament cada ajuntament en el seu àmbit municipal exclusiu",
+        "Tenen abast supramunicipal i prevalen sobre el planejament municipal",
+        "Només regulen el sòl urbà consolidat dels grans municipis de Catalunya",
+        "Substitueixen el POUM i n'assumeixen totes les determinacions detallades"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la naturalesa dels PDU. Correcta (b): els plans directors urbanístics tenen abast supramunicipal, els aprova la Generalitat i prevalen sobre el planejament urbanístic municipal en el seu àmbit. Per què no: (a) no els aprova cada ajuntament; (c) no es limiten al sòl urbà consolidat; (d) no substitueixen el POUM, sinó que el condicionen. Base: art. 56 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 56 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "A qui correspon, amb caràcter general, l'aprovació DEFINITIVA d'un POUM?",
+      "options": [
+        "Al Ple de l'ajuntament, per majoria absoluta del nombre legal de membres",
+        "A l'administració urbanística de la Generalitat (Comissió Territorial d'Urbanisme o conseller)",
+        "A la diputació provincial corresponent, amb un informe vinculant previ del consell comarcal de la zona",
+        "A l'Alcalde, mitjançant un decret motivat amb l'informe dels serveis tècnics"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui aprova definitivament el POUM. Correcta (b): l'aprovació definitiva correspon a l'administració urbanística de la Generalitat (la Comissió Territorial d'Urbanisme o el conseller, segons la població). Per què no: (a) el municipi fa l'aprovació inicial i la provisional, no la definitiva; (c) i (d) ni la diputació ni l'Alcalde tenen aquesta competència. Base: arts. 79-80 TRLUC.",
+      "source": "TRLUC",
+      "article": "arts. 79-80 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "Quin document del POUM justifica les necessitats i les previsions en matèria d'habitatge, especialment de protecció pública?",
+      "options": [
+        "L'agenda i l'avaluació econòmica i financera de les actuacions previstes",
+        "La memòria social",
+        "El catàleg de béns i elements protegits del municipi",
+        "L'informe de sostenibilitat ambiental del planejament general"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el document d'habitatge del POUM. Correcta (b): la memòria social és el document que justifica les determinacions del pla relatives a les necessitats socials d'accés a l'habitatge, especialment el de protecció pública. Per què no: (a) l'avaluació econòmica analitza la viabilitat de les actuacions; (c) el catàleg protegeix béns; (d) la documentació ambiental avalua els efectes sobre el medi. Base: art. 59 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 59 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Quin és l'objecte d'un pla parcial urbanístic?",
+      "options": [
+        "Establir l'ordenació estructural i la classificació de tot el terme municipal",
+        "Ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació",
+        "Regular la protecció del patrimoni arquitectònic i del paisatge protegit",
+        "Aprovar el programa anual d'inversions en obres públiques municipals"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'objecte del pla parcial. Correcta (b): el pla parcial ordena detalladament el sòl urbanitzable (un sector) per fer-lo apte per a l'edificació. Per què no: (a) l'ordenació estructural de tot el municipi correspon al POUM; (c) això és propi d'un pla especial de protecció; (d) el pla parcial no és un instrument pressupostari. Base: arts. 65-70 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 65 TRLUC"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Pot un particular formular i promoure una figura de planejament derivat?",
+      "options": [
+        "No, perquè el planejament és exclusivament d'iniciativa pública municipal",
+        "Sí, i la presenta a l'ajuntament, que la tramita i la resol motivadament",
+        "Sí, i això vincula l'ajuntament a aprovar-la en els termes proposats",
+        "No, llevat que disposi de l'autorització prèvia de la Generalitat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la iniciativa privada en el planejament. Correcta (b): els particulars poden redactar i promoure planejament derivat i presentar-lo a l'ajuntament, que el tramita i el resol de manera motivada (acceptant-lo, modificant-lo o denegant-lo). Per què no: (a) la iniciativa privada és possible; (c) la proposta NO vincula l'Administració, que conserva l'ius variandi; (d) no cal una autorització prèvia de la Generalitat. Base: arts. 101-102 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 101 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Quin efecte produeix l'aprovació definitiva i la publicació d'una figura de planejament?",
+      "options": [
+        "La suspensió cautelar de totes les llicències d'obres del municipi",
+        "L'executivitat i l'obligatorietat de les seves determinacions per a tothom",
+        "La consolidació automàtica de totes les edificacions disconformes existents",
+        "La caducitat dels convenis urbanístics signats amb anterioritat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'efecte de l'aprovació del planejament. Correcta (b): l'aprovació definitiva i la publicació de les normes urbanístiques fan executiu i obligatori el planejament per a les administracions i els particulars, i en legitimen les expropiacions. Per què no: (a) no comporta una suspensió general de llicències; (c) les disconformes queden en situació de fora d'ordenació, no consolidades; (d) no fa caducar els convenis. Base: art. 106 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 106 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "Quins són els sistemes d'actuació urbanística per a l'execució del planejament?",
+      "options": [
+        "L'expropiació i l'ocupació directa de tots els terrenys de l'àmbit",
+        "La reparcel·lació (amb modalitats com compensació i cooperació) i l'expropiació",
+        "La cessió gratuïta i la permuta forçosa amb béns patrimonials municipals",
+        "La subhasta pública dels terrenys i la posterior adjudicació directa al millor postor que s'hi presenti"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els sistemes d'actuació. Correcta (b): l'execució del planejament en àmbits d'actuació es fa pel sistema de reparcel·lació (amb modalitats de compensació, cooperació, etc.) o pel sistema d'expropiació. Per què no: (a) l'ocupació directa és una forma d'obtenció de sistemes, no un sistema d'actuació general; (c) i (d) no són sistemes d'actuació urbanística. Base: art. 121 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 121 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "En què consisteix el principi d'equidistribució en la gestió urbanística?",
+      "options": [
+        "A repartir el sòl per parts iguals entre tots els veïns que estiguin empadronats al municipi",
+        "A distribuir de manera equitativa els beneficis i les càrregues entre els propietaris",
+        "A garantir que l'Administració obtingui tot l'aprofitament urbanístic generat",
+        "A indemnitzar tots els propietaris afectats amb el valor de mercat del seu sòl"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el principi d'equidistribució. Correcta (b): consisteix a distribuir de manera justa i equitativa els beneficis (aprofitament) i les càrregues (cessions i urbanització) entre les persones propietàries d'un àmbit d'actuació. Per què no: (a) no és un repartiment entre tot el veïnat; (c) l'Administració només rep la cessió que li correspon, no tot l'aprofitament; (d) no és un mecanisme indemnitzatori general. Base: art. 120 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 120 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Quina naturalesa jurídica té la llicència urbanística?",
+      "options": [
+        "És un acte discrecional que l'ajuntament atorga segons criteris d'oportunitat política",
+        "És un acte reglat de control previ de la conformitat de l'actuació amb la legalitat",
+        "És un contracte administratiu entre el promotor i l'ajuntament titular del sòl",
+        "És una autorització que crea ex novo el dret a edificar a favor del propietari"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la naturalesa de la llicència. Correcta (b): la llicència urbanística és un acte reglat de control previ; s'atorga o es denega segons la conformitat de l'actuació amb el planejament i la normativa, sense marge d'oportunitat. Per què no: (a) no és discrecional; (c) no és un contracte; (d) no crea el dret, sinó que en remou el límit per exercir-lo (acte de control). Base: art. 188 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 188 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Una sol·licitud de llicència per a una obra disconforme amb el planejament no es resol dins de termini. Què passa?",
+      "options": [
+        "S'entén atorgada per silenci positiu pel sol transcurs del termini màxim per resoldre",
+        "No s'adquireix per silenci cap facultat contrària a l'ordenament urbanístic",
+        "S'entén denegada per silenci negatiu en tots els casos",
+        "S'atorga automàticament amb les condicions que fixi després l'ajuntament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el límit del silenci en llicències. Correcta (b): encara que el silenci en llicències sigui positiu, en cap cas no s'adquireixen per silenci facultats o drets contraris a l'ordenació urbanística (art. 11.3 TRLS); una obra disconforme no s'entén autoritzada. Per què no: (a) no s'obté la llicència il·legal pel transcurs del termini; (c) el silenci en llicències és, de regla, positiu, no negatiu; (d) no s'atorga automàticament amb condicions posteriors. Base: art. 11.3 TRLS.",
+      "source": "TRLSRU",
+      "article": "art. 11.3 TRLS"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "Què estableix la normativa urbanística respecte de les parcel·lacions en sòl no urbanitzable?",
+      "options": [
+        "Que es poden fer lliurement si es respecta la unitat mínima de conreu vigent",
+        "Que les parcel·lacions urbanístiques hi estan prohibides",
+        "Que només requereixen una comunicació prèvia a l'ajuntament del municipi",
+        "Que les pot autoritzar directament el departament competent de la Generalitat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el règim de parcel·lació en sòl no urbanitzable. Correcta (b): en sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques, i opera una presumpció de parcel·lació davant indicis de transformació urbana. Per què no: (a) no es poden fer lliurement; (c) no n'hi ha prou amb una comunicació; (d) tampoc no les autoritza directament la Generalitat com a parcel·lació urbanística. Base: art. 188 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 188 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "Davant unes obres en curs que s'executen sense llicència, l'ajuntament pot, com a mesura immediata:",
+      "options": [
+        "Imposar només una sanció econòmica un cop acabades les obres il·legals",
+        "Ordenar la suspensió immediata de les obres com a mesura cautelar",
+        "Esperar el transcurs del termini de sis anys de prescripció per actuar",
+        "Legalitzar-les d'ofici sense cap tràmit per evitar conflictes amb el promotor"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la reacció davant obres sense llicència en curs. Correcta (b): l'Administració pot ordenar la suspensió immediata de les obres com a mesura cautelar i incoar el procediment de protecció de la legalitat. Per què no: (a) la sanció és independent però no exclou la suspensió ni la restauració; (c) no ha d'esperar la prescripció; (d) la legalització requereix que les obres siguin conformes i el procediment corresponent. Base: art. 205 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 205 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "La restauració de la legalitat urbanística i la imposició de la sanció per la infracció són:",
+      "options": [
+        "Excloents: si s'imposa la sanció, ja no es pot exigir la restauració de la legalitat",
+        "Independents i compatibles entre si",
+        "La mateixa cosa amb dos noms diferents segons el tipus de sòl afectat",
+        "Alternatives que ha de triar el presumpte infractor en el seu escrit d'al·legacions"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la relació entre restauració i sanció. Correcta (b): són actuacions independents i compatibles; la multa per la infracció no eximeix del deure de restaurar la realitat alterada, i a la inversa. Per què no: (a) no són excloents; (c) no són la mateixa cosa (una restableix l'ordenació, l'altra castiga); (d) no és una opció a triar per l'infractor. Base: arts. 199 i 219 TRLUC.",
+      "source": "TRLUC",
+      "article": "arts. 199 i 219 TRLUC"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "Quina és la primera fase del procediment expropiatori general segons la Llei d'expropiació forçosa?",
+      "options": [
+        "La fixació del just preu mitjançant l'acord directe amb la persona expropiada",
+        "La declaració d'utilitat pública o d'interès social de l'obra o la finalitat",
+        "El pagament i la presa de possessió material del bé per part del beneficiari",
+        "La inscripció del bé expropiat al Registre de la Propietat a favor de l'Estat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'ordre del procediment expropiatori. Correcta (b): el procediment s'inicia amb la declaració d'utilitat pública o interès social; segueixen la necessitat d'ocupació, la determinació del just preu i el pagament i l'ocupació. Per què no: (a) i (c) el just preu i el pagament són fases posteriors; (d) la inscripció registral no és la primera fase. Base: Llei d'expropiació forçosa (1954).",
+      "source": "LEF",
+      "article": "Llei d'expropiació forçosa"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "Quan no hi ha acord entre l'Administració i la persona expropiada sobre el preu, qui fixa el just preu?",
+      "options": [
+        "L'Alcalde de l'ajuntament expropiant, mitjançant un decret degudament motivat",
+        "El Jurat d'Expropiació, en una peça separada del procediment",
+        "El registrador de la propietat del districte on se situa la finca afectada",
+        "La persona expropiada, que el fixa de manera unilateral en el seu full d'apreuament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui fixa el just preu sense acord. Correcta (b): a falta d'acord, el just preu el fixa el Jurat d'Expropiació (òrgan col·legiat) en peça separada; la seva decisió exhaureix la via administrativa. Per què no: (a) no el fixa l'Alcalde; (c) tampoc el registrador; (d) cada part formula el seu full d'apreuament, però no el fixa unilateralment l'expropiat. Base: Llei d'expropiació forçosa.",
+      "source": "LEF",
+      "article": "Llei d'expropiació forçosa"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Quina legislació estableix els criteris de valoració del sòl a efectes d'expropiacions i reparcel·lacions?",
+      "options": [
+        "Una ordenança fiscal específica aprovada per cada ajuntament en el seu àmbit",
+        "La legislació estatal del sòl (TRLS), de competència exclusiva de l'Estat",
+        "El TRLUC de Catalunya, de manera exclusiva i amb total independència de l'Estat",
+        "La normativa cadastral, que fixa directament el valor de mercat de cada finca"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta quina norma fixa les valoracions. Correcta (b): les valoracions del sòl es regeixen per la legislació estatal del sòl (TRLS, RDL 7/2015), competència exclusiva de l'Estat. Per què no: (a) no es fixen per ordenança municipal; (c) la valoració no és competència autonòmica exclusiva; (d) el valor cadastral no determina la valoració urbanística. Base: TRLS (RDL 7/2015).",
+      "source": "TRLSRU",
+      "article": "RDL 7/2015 (TRLS)"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Segons el principi de tipicitat de la potestat sancionadora, només es poden sancionar:",
+      "options": [
+        "Els fets que l'òrgan competent consideri contraris a l'interès general del municipi",
+        "Les infraccions previstes per una norma i amb les sancions que aquesta estableix",
+        "Els fets greus, encara que no estiguin expressament tipificats per cap norma legal",
+        "Les conductes que el reglament municipal qualifiqui per analogia com a infraccions"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el principi de tipicitat. Correcta (b): només són sancionables les accions o omissions tipificades com a infracció per una norma, amb les sancions que aquesta determini, i resta prohibida l'analogia (art. 27 Llei 40/2015). Per què no: (a) no depèn del criteri de l'òrgan; (c) sense tipificació no hi pot haver sanció; (d) l'analogia in malam partem està prohibida. Base: art. 27 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 27 Llei 40/2015"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "En el procediment sancionador, la càrrega de provar els fets imputats correspon a:",
+      "options": [
+        "La persona presumptament infractora, que ha de demostrar la seva innocència",
+        "L'Administració, en virtut del principi de presumpció d'innocència",
+        "Els testimonis que hagin presenciat directament els fets denunciats",
+        "L'òrgan instructor i l'òrgan que resol de manera conjunta i indistinta"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta sobre la presumpció d'innocència. Correcta (b): regeix la presumpció d'innocència, de manera que la càrrega de la prova de càrrec correspon a l'Administració (art. 28 i 53 Llei 40/2015). Per què no: (a) el presumpte infractor no ha de provar la seva innocència; (c) els testimonis aporten prova, però la càrrega és de l'Administració; (d) la instrucció i la resolució corresponen a òrgans diferents (separació de fases). Base: art. 53 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 53 Llei 40/2015"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Com es classifiquen les infraccions urbanístiques?",
+      "options": [
+        "En infraccions de caràcter civil, penal i administratiu segons la jurisdicció",
+        "En infraccions lleus, greus i molt greus",
+        "En infraccions tipificades i no tipificades segons la conducta de l'infractor",
+        "En infraccions prescriptibles i imprescriptibles segons el tipus de sòl afectat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la classificació de les infraccions urbanístiques. Correcta (b): el TRLUC les classifica en lleus, greus i molt greus, segons l'afectació a l'ordenació i el tipus de sòl. Per què no: (a) barreja jurisdiccions, no és la classificació; (c) totes les infraccions han d'estar tipificades; (d) la prescripció és una altra qüestió, no la classificació. Base: art. 213 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 213 TRLUC"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Qui pot ser responsable d'una infracció urbanística per unes obres il·legals?",
+      "options": [
+        "Únicament la persona propietària dels terrenys on materialment s'executen les obres il·legals",
+        "El promotor, el constructor i el tècnic director, cadascun en el seu àmbit",
+        "Exclusivament l'empresa constructora que materialment executa les obres",
+        "Només l'ajuntament, per no haver impedit a temps l'execució de les obres"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui respon de la infracció. Correcta (b): responen de la infracció totes les persones que hi intervenen: el promotor, el constructor o empresari de les obres i el tècnic director, cadascun en el seu àmbit, i si escau els propietaris. Per què no: (a) i (c) no es limita a un sol subjecte; (d) l'ajuntament és qui exerceix la disciplina, no el responsable de la infracció. Base: art. 215 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 215 TRLUC"
+    },
+    {
+      "theme": 71,
+      "block": 12,
+      "q": "Un criteri que es té en compte per graduar la quantia de les sancions urbanístiques és:",
+      "options": [
+        "El nombre total d'habitants que té el municipi on s'ha comès la infracció",
+        "El benefici obtingut amb la infracció, el dany causat i la reincidència",
+        "L'antiguitat de la persona infractora com a veïna empadronada al municipi",
+        "La superfície total de la finca, amb independència de l'obra efectivament executada"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els criteris de graduació. Correcta (b): la graduació de les sancions atén el principi de proporcionalitat i pondera el benefici obtingut, la magnitud del dany, la gravetat del fet, el grau de culpabilitat i la reincidència. A més, la sanció mai no pot suposar un benefici per a l'infractor. Per què no: (a), (c) i (d) no són criteris de graduació de les sancions urbanístiques. Base: art. 219 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 219 TRLUC"
+    },
+    {
+      "theme": 72,
+      "block": 12,
+      "q": "Si una persona propietària incompleix una ordre d'execució per conservar el seu immoble, l'Administració pot:",
+      "options": [
+        "Expropiar automàticament l'immoble afectat sense cap procediment ni indemnització prèvia a la persona",
+        "Executar les obres de manera subsidiària a càrrec de l'obligat o imposar multes coercitives",
+        "Inhabilitar la persona propietària per adquirir altres immobles al municipi",
+        "Assumir definitivament la propietat de l'immoble en concepte de sanció"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la reacció davant l'incompliment d'una ordre d'execució. Correcta (b): l'Administració pot procedir a l'execució subsidiària de les obres a càrrec de l'obligat o imposar multes coercitives reiterades fins a aconseguir-ne el compliment. Per què no: (a) no és una expropiació automàtica sense procediment; (c) i (d) la inhabilitació o l'assumpció de la propietat no són les conseqüències previstes. Base: art. 198 TRLUC i art. 103 Llei 39/2015.",
+      "source": "TRLUC",
+      "article": "art. 198 TRLUC"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "Quin és el termini general de prescripció de l'acció per restaurar la legalitat urbanística?",
+      "options": [
+        "Un any des que l'Administració té coneixement de la infracció comesa",
+        "Sis anys des de l'acabament total de les obres o de l'actuació il·legal",
+        "Quatre anys des de l'atorgament de la primera llicència relacionada amb l'obra",
+        "No prescriu mai en cap classe de sòl, sigui quina sigui la seva qualificació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el termini de prescripció de la restauració. Correcta (b): l'acció de restauració prescriu, amb caràcter general, als sis anys des de l'acabament total de les obres; en sòl no urbanitzable d'especial protecció és imprescriptible. Per què no: (a) i (c) no són els terminis legals; (d) sí que prescriu, llevat del sòl especialment protegit. Base: art. 207 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 207 TRLUC"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "La prescripció de l'acció de restauració de la legalitat urbanística comporta que les obres il·legals:",
+      "options": [
+        "Queden plenament legalitzades i totalment conformes amb el planejament urbanístic vigent al municipi",
+        "No es poden restaurar, però NO queden legalitzades (situació assimilada a fora d'ordenació)",
+        "S'han d'enderrocar igualment perquè la prescripció no produeix cap efecte jurídic",
+        "Generen el dret del propietari a una indemnització a càrrec de l'ajuntament"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'efecte de la prescripció. Correcta (b): transcorregut el termini, l'acció de restauració prescriu i les obres queden en una situació assimilada a la de fora d'ordenació, però sense legalitzar-se: la prescripció impedeix la restauració, no atorga la conformitat amb el planejament. Per què no: (a) no es legalitzen; (c) ja no es poden restaurar; (d) no genera dret a indemnització. Base: art. 207 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 207 TRLUC"
+    },
+    {
+      "theme": 74,
+      "block": 12,
+      "q": "Com es deixa sense efecte una llicència que és nul·la de ple dret?",
+      "options": [
+        "Mitjançant una simple revocació verbal comunicada al titular de la llicència",
+        "Mitjançant la revisió d'ofici prevista a la Llei 39/2015, amb dictamen del Consell consultiu",
+        "Esperant pacientment que caduqui pel transcurs del termini fixat per iniciar les obres autoritzades",
+        "Imposant directament una sanció econòmica al titular sense cap altre tràmit"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la via per anul·lar una llicència nul·la. Correcta (b): els actes nuls de ple dret es deixen sense efecte mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment i requereix el dictamen favorable del Consell consultiu. Per què no: (a) no es pot fer per una revocació verbal; (c) la caducitat no és la via per a la il·legalitat; (d) la sanció no anul·la la llicència. Base: art. 106 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 106 Llei 39/2015"
     }
   ]
 }
