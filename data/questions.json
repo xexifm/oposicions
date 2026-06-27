@@ -6,591 +6,6 @@
   },
   "questions": [
     {
-      "theme": 86,
-      "block": 7,
-      "q": "Segons el TREBEP, el personal directiu professional:",
-      "options": [
-        "Mai existeix a l'Administració local",
-        "Desenvolupa funcions directives professionals, subjecte a avaluació i responsabilitat per la gestió",
-        "És personal eventual de confiança",
-        "És personal laboral temporal"
-      ],
-      "correct": 1,
-      "explain": "Art. 13 TREBEP: el personal directiu exerceix funcions directives professionals, està subjecte a criteris d'eficàcia, eficiència, responsabilitat i control de resultats.",
-      "source": "TREBEP",
-      "article": "art. 13 TREBEP"
-    },
-    {
-      "theme": 88,
-      "block": 7,
-      "q": "En el règim disciplinari, les faltes es classifiquen en:",
-      "options": [
-        "Lleus, greus i molt greus",
-        "Petites i grans",
-        "Civils i penals",
-        "Úniques"
-      ],
-      "correct": 0,
-      "explain": "Art. 95 TREBEP: les faltes disciplinàries es classifiquen en molt greus, greus i lleus.",
-      "source": "TREBEP",
-      "article": "art. 95 TREBEP"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "La Llei de prevenció de riscos laborals és:",
-      "options": [
-        "La Llei 31/1995",
-        "La Llei 54/2003",
-        "El RD 39/1997",
-        "La Llei 14/1986"
-      ],
-      "correct": 0,
-      "explain": "La Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals, n'estableix el marc general.",
-      "source": "L31_1995",
-      "article": "Llei 31/1995"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "Un principi de l'acció preventiva és:",
-      "options": [
-        "Traslladar tot el risc al treballador",
-        "Evitar els riscos i combatre'ls en origen",
-        "Prioritzar els EPIs sobre la protecció col·lectiva",
-        "No avaluar els riscos"
-      ],
-      "correct": 1,
-      "explain": "Art. 15 Llei 31/1995: principis com evitar els riscos, avaluar els que no es puguin evitar, combatre'ls en origen i prioritzar la protecció col·lectiva sobre la individual.",
-      "source": "L31_1995",
-      "article": "art. 15 Llei 31/1995"
-    },
-    {
-      "theme": 90,
-      "block": 18,
-      "q": "La coordinació d'activitats empresarials quan concorren diverses empreses en un mateix centre es regula al:",
-      "options": [
-        "RD 171/2004",
-        "RD 1627/1997",
-        "RD 486/1997",
-        "RD 39/1997"
-      ],
-      "correct": 0,
-      "explain": "El RD 171/2004 desenvolupa l'art. 24 de la Llei 31/1995 en matèria de coordinació d'activitats empresarials.",
-      "source": "RD171_2004",
-      "article": "RD 171/2004"
-    },
-    {
-      "theme": 83,
-      "block": 17,
-      "q": "La gestió per objectius es caracteritza per:",
-      "options": [
-        "L'absència d'indicadors",
-        "La fixació d'objectius, indicadors i l'avaluació del seu assoliment",
-        "Decidir sense planificació",
-        "No retre comptes"
-      ],
-      "correct": 1,
-      "explain": "La direcció per objectius (DPO) defineix objectius mesurables, indicadors i mecanismes d'avaluació i seguiment dels resultats.",
-      "source": "L19_2014",
-      "article": "planificació i avaluació"
-    },
-    {
-      "theme": 85,
-      "block": 17,
-      "q": "L'ètica pública en la direcció s'orienta per principis com:",
-      "options": [
-        "Integritat, objectivitat i servei a la ciutadania",
-        "Interès particular",
-        "Opacitat",
-        "Arbitrarietat"
-      ],
-      "correct": 0,
-      "explain": "Els codis ètics i de bon govern es basen en la integritat, l'objectivitat, la imparcialitat, la transparència i el servei a l'interès general.",
-      "source": "L19_2014",
-      "article": "codi de conducta, Llei 19/2014"
-    },
-    {
-      "theme": 87,
-      "block": 7,
-      "q": "La gestió de conflictes i el bon clima laboral en l'atenció al personal s'orienta a:",
-      "options": [
-        "Evitar tota comunicació",
-        "Prevenir i resoldre conflictes amb tècniques de comunicació, mediació i organització del treball",
-        "Imposar sancions com a primera mesura",
-        "Ignorar les incidències"
-      ],
-      "correct": 1,
-      "explain": "La direcció de persones aplica tècniques de comunicació, negociació i mediació per prevenir i resoldre conflictes i mantenir un bon clima laboral.",
-      "source": "TREBEP",
-      "article": "habilitats directives"
-    },
-    {
-      "theme": 86,
-      "block": 7,
-      "q": "El personal laboral es regeix per:",
-      "options": [
-        "Només pel TREBEP",
-        "La legislació laboral i els preceptes del TREBEP que li siguin aplicables",
-        "El dret penal",
-        "La LCSP"
-      ],
-      "correct": 1,
-      "explain": "El personal laboral es regeix per la legislació laboral, el conveni col·lectiu i els preceptes aplicables del TREBEP.",
-      "source": "TREBEP",
-      "article": "art. 7 TREBEP"
-    },
-    {
-      "theme": 88,
-      "block": 7,
-      "q": "La sanció de separació del servei s'aplica per:",
-      "options": [
-        "Faltes lleus",
-        "Faltes molt greus",
-        "Qualsevol falta",
-        "Retards puntuals"
-      ],
-      "correct": 1,
-      "explain": "Art. 96 TREBEP: la separació del servei només procedeix per faltes molt greus.",
-      "source": "TREBEP",
-      "article": "art. 96 TREBEP"
-    },
-    {
-      "theme": 88,
-      "block": 7,
-      "q": "La prescripció de les faltes molt greus és, segons el TREBEP, de:",
-      "options": [
-        "6 mesos",
-        "3 anys",
-        "1 mes",
-        "10 anys"
-      ],
-      "correct": 1,
-      "explain": "Art. 97 TREBEP: les infraccions molt greus prescriuen als 3 anys; les greus, als 2; les lleus, als 6 mesos.",
-      "source": "TREBEP",
-      "article": "art. 97 TREBEP"
-    },
-    {
-      "theme": 84,
-      "block": 17,
-      "q": "La presa de decisions en entorns complexos s'afavoreix amb:",
-      "options": [
-        "La improvisació",
-        "L'anàlisi de problemes, l'avaluació d'alternatives i la gestió del canvi",
-        "Ignorar les dades",
-        "Decidir sense informació"
-      ],
-      "correct": 1,
-      "explain": "La presa de decisions estructurada analitza el problema, valora alternatives i gestiona el canvi.",
-      "source": "L19_2014",
-      "article": "presa de decisions"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "L'avaluació de riscos laborals:",
-      "options": [
-        "És opcional",
-        "És l'instrument inicial per planificar la prevenció",
-        "Només la fa la Inspecció",
-        "Es fa cada 10 anys obligatòriament"
-      ],
-      "correct": 1,
-      "explain": "L'avaluació de riscos (art. 16 LPRL) és la base per planificar l'activitat preventiva.",
-      "source": "L31_1995",
-      "article": "art. 16 Llei 31/1995"
-    },
-    {
-      "theme": 90,
-      "block": 18,
-      "q": "Els recursos preventius han d'estar presents:",
-      "options": [
-        "Sempre a l'oficina",
-        "Quan els riscos puguin veure's agreujats per la concurrència d'activitats",
-        "Mai",
-        "Només en festius"
-      ],
-      "correct": 1,
-      "explain": "La presència de recursos preventius és preceptiva en treballs amb riscos especials o concurrència (RD 171/2004; art. 32 bis LPRL).",
-      "source": "RD171_2004",
-      "article": "art. 32 bis LPRL"
-    },
-    {
-      "theme": 83,
-      "block": 17,
-      "q": "La planificació estratègica es distingeix de l'operativa en:",
-      "options": [
-        "No hi ha diferència",
-        "L'estratègica fixa objectius a llarg termini; l'operativa, accions concretes a curt",
-        "L'operativa és la de llarg termini",
-        "Cap és útil"
-      ],
-      "correct": 1,
-      "explain": "L'estratègica defineix la direcció a llarg termini; l'operativa concreta accions i recursos a curt.",
-      "source": "L19_2014",
-      "article": "gestió per objectius"
-    },
-    {
-      "theme": 84,
-      "block": 17,
-      "q": "La gestió del canvi en organitzacions públiques requereix:",
-      "options": [
-        "Ignorar les resistències",
-        "Comunicació, participació i acompanyament de les persones",
-        "Imposició sense diàleg",
-        "No planificar"
-      ],
-      "correct": 1,
-      "explain": "La gestió del canvi implica comunicar, implicar les persones i acompanyar la transició.",
-      "source": "L19_2014",
-      "article": "gestió del canvi"
-    },
-    {
-      "theme": 85,
-      "block": 17,
-      "q": "El codi ètic del personal directiu promou:",
-      "options": [
-        "L'interès particular",
-        "La integritat, l'exemplaritat i el servei a l'interès general",
-        "L'opacitat",
-        "L'arbitrarietat"
-      ],
-      "correct": 1,
-      "explain": "Els codis ètics i de conducta promouen integritat, exemplaritat, objectivitat i servei públic.",
-      "source": "L19_2014",
-      "article": "codi de conducta"
-    },
-    {
-      "theme": 87,
-      "block": 7,
-      "q": "El bon clima laboral es relaciona amb:",
-      "options": [
-        "L'absentisme",
-        "La motivació, la comunicació i la resolució d'incidències",
-        "El conflicte permanent",
-        "La manca de lideratge"
-      ],
-      "correct": 1,
-      "explain": "Un bon clima laboral millora la motivació i el rendiment i facilita resoldre incidències.",
-      "source": "TREBEP",
-      "article": "atenció al personal"
-    },
-    {
-      "theme": 86,
-      "block": 7,
-      "q": "El personal directiu professional es designa atenent:",
-      "options": [
-        "L'amistat",
-        "Principis de mèrit, capacitat, idoneïtat i publicitat",
-        "L'antiguitat només",
-        "L'atzar"
-      ],
-      "correct": 1,
-      "explain": "Art. 13 TREBEP: la designació del directiu atén a mèrit, capacitat i idoneïtat, amb publicitat i concurrència.",
-      "source": "TREBEP",
-      "article": "art. 13 TREBEP"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "L'obligació de protecció de la seguretat i salut recau, principalment, en:",
-      "options": [
-        "El treballador",
-        "L'empresari (l'Administració ocupadora)",
-        "La mútua",
-        "El client"
-      ],
-      "correct": 1,
-      "explain": "L'empresari té el deure general de protecció eficaç (art. 14 LPRL).",
-      "source": "L31_1995",
-      "article": "art. 14 Llei 31/1995"
-    },
-    {
-      "theme": 90,
-      "block": 18,
-      "q": "En la coordinació d'activitats empresarials, l'empresari principal té:",
-      "options": [
-        "Cap deure",
-        "Deure de vigilància del compliment de la normativa preventiva pels contractistes",
-        "Només deures fiscals",
-        "Deure d'acomiadar"
-      ],
-      "correct": 1,
-      "explain": "L'empresari principal ha de vigilar el compliment de la normativa preventiva per part de contractistes i subcontractistes.",
-      "source": "RD171_2004",
-      "article": "art. 10 RD 171/2004"
-    },
-    {
-      "theme": 86,
-      "block": 7,
-      "q": "El personal funcionari de carrera es vincula a l'Administració per:",
-      "options": [
-        "Un contracte laboral",
-        "Una relació estatutària de dret administratiu",
-        "Un conveni privat",
-        "Una concessió"
-      ],
-      "correct": 1,
-      "explain": "El funcionari de carrera manté una relació estatutària de dret administratiu (art. 9 TREBEP).",
-      "source": "TREBEP",
-      "article": "art. 9 TREBEP"
-    },
-    {
-      "theme": 88,
-      "block": 7,
-      "q": "La potestat disciplinària s'exerceix respectant el principi de:",
-      "options": [
-        "Arbitrarietat",
-        "Tipicitat i proporcionalitat",
-        "Secret total",
-        "Retroactivitat desfavorable"
-      ],
-      "correct": 1,
-      "explain": "El règim disciplinari respecta legalitat, tipicitat, proporcionalitat i altres garanties (art. 94 TREBEP).",
-      "source": "TREBEP",
-      "article": "art. 94 TREBEP"
-    },
-    {
-      "theme": 83,
-      "block": 17,
-      "q": "Un bon indicador de gestió ha de ser:",
-      "options": [
-        "Ambigu",
-        "Mesurable, rellevant i vinculat a un objectiu",
-        "Secret",
-        "Inestable"
-      ],
-      "correct": 1,
-      "explain": "Els indicadors han de ser SMART: específics, mesurables, assolibles, rellevants i temporals.",
-      "source": "L19_2014",
-      "article": "gestió per objectius"
-    },
-    {
-      "theme": 85,
-      "block": 17,
-      "q": "L'exemplaritat del directiu públic implica:",
-      "options": [
-        "Privilegis",
-        "Coherència entre els valors declarats i la conducta diària",
-        "Excepcions a la llei",
-        "Opacitat"
-      ],
-      "correct": 1,
-      "explain": "L'exemplaritat exigeix coherència entre els principis ètics i l'actuació quotidiana.",
-      "source": "L19_2014",
-      "article": "ètica pública"
-    },
-    {
-      "theme": 87,
-      "block": 7,
-      "q": "La planificació de tasques en l'atenció al personal busca:",
-      "options": [
-        "Sobrecarregar",
-        "Distribuir la càrrega de treball de manera equitativa i eficient",
-        "Improvisar",
-        "Eliminar el descans"
-      ],
-      "correct": 1,
-      "explain": "La planificació equilibra la càrrega de treball per millorar l'eficiència i el clima.",
-      "source": "TREBEP",
-      "article": "atenció al personal"
-    },
-    {
-      "theme": 84,
-      "block": 17,
-      "q": "L'anàlisi de problemes complexos requereix:",
-      "options": [
-        "Decidir sense dades",
-        "Identificar causes, generar alternatives i avaluar conseqüències",
-        "Improvisar",
-        "Evitar el problema"
-      ],
-      "correct": 1,
-      "explain": "L'anàlisi estructurada identifica causes arrel, genera alternatives i n'avalua els efectes.",
-      "source": "L19_2014",
-      "article": "presa de decisions"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "El comitè de seguretat i salut:",
-      "options": [
-        "No existeix",
-        "És l'òrgan paritari de participació en matèria de prevenció",
-        "El nomena l'Alcalde sol",
-        "És només consultiu del client"
-      ],
-      "correct": 1,
-      "explain": "El comitè de seguretat i salut és l'òrgan paritari i col·legiat de participació (art. 38 LPRL).",
-      "source": "L31_1995",
-      "article": "art. 38 Llei 31/1995"
-    },
-    {
-      "theme": 90,
-      "block": 18,
-      "q": "El deure de cooperació entre empreses concurrents implica:",
-      "options": [
-        "Competir",
-        "Informar-se recíprocament dels riscos i coordinar mesures",
-        "Ocultar riscos",
-        "No comunicar res"
-      ],
-      "correct": 1,
-      "explain": "Les empreses concurrents han de cooperar i informar-se mútuament dels riscos (art. 4 RD 171/2004).",
-      "source": "RD171_2004",
-      "article": "art. 4 RD 171/2004"
-    },
-    {
-      "theme": 86,
-      "block": 7,
-      "q": "El personal directiu pot estar subjecte a:",
-      "options": [
-        "Cap avaluació",
-        "Avaluació segons criteris d'eficàcia, eficiència i responsabilitat",
-        "Immunitat",
-        "Lliure arbitri"
-      ],
-      "correct": 1,
-      "explain": "Art. 13 TREBEP: el directiu se sotmet a avaluació per criteris d'eficàcia, eficiència i responsabilitat.",
-      "source": "TREBEP",
-      "article": "art. 13 TREBEP"
-    },
-    {
-      "theme": 88,
-      "block": 7,
-      "q": "L'expedient disciplinari per faltes greus i molt greus:",
-      "options": [
-        "No cal",
-        "És preceptiu, amb garanties (audiència, prova)",
-        "És verbal",
-        "El decideix el cap sense tràmit"
-      ],
-      "correct": 1,
-      "explain": "Per a faltes greus i molt greus cal instruir expedient disciplinari amb totes les garanties.",
-      "source": "TREBEP",
-      "article": "art. 98 TREBEP"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "La formació dels treballadors en PRL:",
-      "options": [
-        "És voluntària",
-        "És un deure de l'empresari, teòrica i pràctica i adequada al lloc",
-        "La paga el treballador",
-        "No cal"
-      ],
-      "correct": 1,
-      "explain": "L'empresari ha de garantir formació suficient i adequada en matèria preventiva (art. 19 LPRL).",
-      "source": "L31_1995",
-      "article": "art. 19 Llei 31/1995"
-    },
-    {
-      "theme": 90,
-      "block": 18,
-      "q": "El document que recull la coordinació en obres de construcció és:",
-      "options": [
-        "El pressupost",
-        "El pla de seguretat i salut",
-        "La factura",
-        "El conveni"
-      ],
-      "correct": 1,
-      "explain": "En obres, el pla de seguretat i salut concreta les mesures preventives i la coordinació.",
-      "source": "RD171_2004",
-      "article": "RD 1627/1997"
-    },
-    {
-      "theme": 86,
-      "block": 7,
-      "q": "El personal eventual cessa:",
-      "options": [
-        "Per jubilació només",
-        "Automàticament quan cessa l'autoritat a qui presta la funció de confiança",
-        "Mai",
-        "Per concurs"
-      ],
-      "correct": 1,
-      "explain": "El personal eventual cessa lliurement i, en tot cas, quan cessa l'autoritat a la qual assisteix (art. 12 TREBEP).",
-      "source": "TREBEP",
-      "article": "art. 12 TREBEP"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "La vigilància de la salut dels treballadors:",
-      "options": [
-        "És obligatòria sense consentiment sempre",
-        "Es garanteix de manera periòdica, en general amb el consentiment",
-        "No existeix",
-        "La fa el client"
-      ],
-      "correct": 1,
-      "explain": "L'empresari garanteix la vigilància periòdica de la salut, en general voluntària, amb excepcions taxades (art. 22 LPRL).",
-      "source": "L31_1995",
-      "article": "art. 22 Llei 31/1995"
-    },
-    {
-      "theme": 90,
-      "block": 18,
-      "q": "La concurrència de treballadors autònoms en un centre:",
-      "options": [
-        "Queda fora de la coordinació",
-        "També està subjecta als deures de coordinació d'activitats",
-        "No es regula",
-        "Depèn del client"
-      ],
-      "correct": 1,
-      "explain": "Els treballadors autònoms també participen en els deures de coordinació d'activitats empresarials (RD 171/2004).",
-      "source": "RD171_2004",
-      "article": "RD 171/2004"
-    },
-    {
-      "theme": 85,
-      "block": 17,
-      "q": "Els principis d'integritat i servei a la ciutadania s'apliquen:",
-      "options": [
-        "Només en festius",
-        "En la direcció diària i la presa de decisions",
-        "Mai",
-        "Només per l'Alcalde"
-      ],
-      "correct": 1,
-      "explain": "L'ètica pública guia la conducta diària dels directius i empleats al servei de l'interès general.",
-      "source": "L19_2014",
-      "article": "ètica pública"
-    },
-    {
-      "theme": 86,
-      "block": 7,
-      "q": "El personal directiu professional a l'Administració local:",
-      "options": [
-        "No es pot establir",
-        "Es pot establir si ho preveuen els reglaments orgànics",
-        "És sempre eventual",
-        "És laboral fix"
-      ],
-      "correct": 1,
-      "explain": "L'establiment del personal directiu a l'àmbit local es preveu mitjançant els reglaments orgànics municipals.",
-      "source": "TREBEP",
-      "article": "art. 13 TREBEP"
-    },
-    {
-      "theme": 89,
-      "block": 18,
-      "q": "El pla de prevenció de riscos laborals:",
-      "options": [
-        "És opcional",
-        "És l'eina per integrar la prevenció en el sistema de gestió de l'empresa",
-        "El fa el treballador",
-        "No existeix"
-      ],
-      "correct": 1,
-      "explain": "El pla de prevenció integra l'activitat preventiva en l'organització (art. 16 LPRL).",
-      "source": "L31_1995",
-      "article": "art. 16 Llei 31/1995"
-    },
-    {
       "theme": 6,
       "block": 2,
       "q": "Una persona presenta una sol·licitud de llicència i l'Administració no resol ni la notifica dins del termini màxim. Amb caràcter general, quin és el sentit del silenci en els procediments iniciats a sol·licitud de l'interessat?",
@@ -2929,6 +2344,156 @@
       "explain": "Es pregunta el silenci en el dret d'accés. Correcta (b): en el dret d'accés a la informació pública el silenci té caràcter desestimatori (negatiu), i contra la denegació o el silenci es pot reclamar davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP). Per què no: (a) i (d) el silenci no és estimatori; (c) sí que opera el règim del silenci. Base: Llei 19/2014.",
       "source": "L19_2014",
       "article": "Llei 19/2014"
+    },
+    {
+      "theme": 83,
+      "block": 17,
+      "q": "Quina diferència hi ha entre la planificació estratègica i la planificació operativa?",
+      "options": [
+        "No n'hi ha cap: són dos termes sinònims per al mateix instrument de gestió",
+        "L'estratègica fixa objectius a llarg termini; l'operativa, accions i recursos a curt termini",
+        "L'operativa la fa el nivell polític i l'estratègica, el nivell tècnic de l'organització",
+        "L'estratègica és obligatòria per llei i l'operativa és sempre voluntària"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la diferència entre planificació estratègica i operativa. Correcta (b): l'estratègica defineix la missió, la visió i els objectius a llarg termini; l'operativa concreta aquests objectius en accions, recursos i terminis a curt termini, alineats amb els estratègics. Per què no: (a) no són sinònims; (c) no es reparteixen així entre nivells; (d) no és una qüestió d'obligatorietat. Base: gestió per objectius.",
+      "source": "L19_2014",
+      "article": "gestió per objectius"
+    },
+    {
+      "theme": 84,
+      "block": 17,
+      "q": "Quina és la primera fase d'un procés estructurat de presa de decisions?",
+      "options": [
+        "Implementar la solució escollida i fer-ne el seguiment posterior",
+        "Definir i delimitar correctament el problema, identificant-ne les causes",
+        "Generar el màxim nombre possible d'alternatives de solució",
+        "Avaluar les conseqüències i els riscos de cada alternativa plantejada"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la primera fase de la decisió. Correcta (b): el procés comença per definir i delimitar el problema, identificant-ne les causes arrel (no només els símptomes); després es generen alternatives, s'avaluen, es decideix i s'implementa amb seguiment. Per què no: (a), (c) i (d) són fases posteriors del procés. Base: presa de decisions i gestió del canvi.",
+      "source": "L19_2014",
+      "article": "presa de decisions"
+    },
+    {
+      "theme": 85,
+      "block": 17,
+      "q": "L'exemplaritat com a principi de l'ètica pública implica:",
+      "options": [
+        "Gaudir de determinats privilegis pel fet d'exercir un càrrec públic",
+        "La coherència entre els valors declarats i la conducta diària real",
+        "Poder fer excepcions a la norma quan ho justifiqui l'interès del càrrec",
+        "Mantenir en secret les decisions per no condicionar l'opinió pública"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'exemplaritat. Correcta (b): l'exemplaritat exigeix coherència entre els valors i principis declarats (integritat, objectivitat) i la conducta real i quotidiana. Per què no: (a) l'ètica pública no atorga privilegis; (c) no permet excepcions a la norma; (d) la transparència, no el secret, és un valor. Base: ètica pública i codis de conducta (Llei 19/2014).",
+      "source": "L19_2014",
+      "article": "ètica pública"
+    },
+    {
+      "theme": 86,
+      "block": 7,
+      "q": "El personal directiu professional de les administracions:",
+      "options": [
+        "És personal eventual de confiança, de nomenament i cessament lliures",
+        "Exerceix funcions directives i està subjecte a avaluació i a control de resultats",
+        "És sempre personal laboral temporal contractat per a un projecte concret",
+        "No pot existir en cap cas a l'Administració local segons la normativa vigent"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el personal directiu professional. Correcta (b): el personal directiu (art. 13 TREBEP) exerceix funcions directives professionals, es designa per principis de mèrit, capacitat i idoneïtat amb publicitat, i està subjecte a avaluació segons criteris d'eficàcia i eficiència i a control de resultats. Per què no: (a) no és personal eventual de confiança; (c) no és necessàriament laboral temporal; (d) sí que pot existir a l'àmbit local (segons els reglaments orgànics). Base: art. 13 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 13 TREBEP"
+    },
+    {
+      "theme": 87,
+      "block": 7,
+      "q": "Què afavoreix el manteniment d'un bon clima laboral en una organització?",
+      "options": [
+        "L'absència total de comunicació entre el comandament i les persones de l'equip",
+        "La comunicació, el reconeixement, la participació i un tracte respectuós",
+        "La generació constant de conflictes per estimular la competitivitat interna",
+        "La manca de planificació de les tasques per donar màxima autonomia"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta què afavoreix el clima laboral. Correcta (b): un bon clima es basa en la comunicació, el reconeixement, la participació, la confiança i el tracte respectuós, i augmenta la motivació i el rendiment. Per què no: (a) l'absència de comunicació el deteriora; (c) generar conflictes no millora el clima; (d) la manca de planificació tampoc. Base: atenció al personal.",
+      "source": "TREBEP",
+      "article": "atenció al personal"
+    },
+    {
+      "theme": 88,
+      "block": 7,
+      "q": "La sanció de separació del servei d'un funcionari només es pot imposar per:",
+      "options": [
+        "Faltes lleus reiterades al llarg d'un mateix any natural",
+        "Faltes molt greus",
+        "Qualsevol falta, sempre que ho acordi l'òrgan competent",
+        "Faltes greus, però mai per faltes molt greus"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta quan procedeix la separació del servei. Correcta (b): la separació del servei, que és la sanció més greu, només es pot imposar per la comissió de faltes molt greus (art. 96 TREBEP). Per què no: (a) les faltes lleus tenen sancions menors; (c) no procedeix per qualsevol falta; (d) precisament és per a les molt greus. Base: art. 96 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 96 TREBEP"
+    },
+    {
+      "theme": 88,
+      "block": 7,
+      "q": "En quin termini prescriuen les infraccions disciplinàries molt greus segons el TREBEP?",
+      "options": [
+        "Als sis mesos des que es comet la infracció molt greu",
+        "Als tres anys",
+        "Al mes següent de tenir-ne coneixement l'òrgan competent",
+        "Als deu anys, com la resta d'infraccions administratives"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la prescripció de les faltes molt greus. Correcta (b): les infraccions molt greus prescriuen als tres anys; les greus, als dos anys; i les lleus, als sis mesos (art. 97 TREBEP). Per què no: (a) sis mesos és per a les lleus; (c) i (d) no són els terminis legals. Base: art. 97 TREBEP.",
+      "source": "TREBEP",
+      "article": "art. 97 TREBEP"
+    },
+    {
+      "theme": 89,
+      "block": 18,
+      "q": "Quin és el primer dels principis de l'acció preventiva segons la Llei de prevenció de riscos laborals?",
+      "options": [
+        "Proporcionar equips de protecció individual a tots els treballadors exposats",
+        "Evitar els riscos",
+        "Traslladar la responsabilitat de la prevenció a cada treballador individual",
+        "Contractar una assegurança que cobreixi els danys derivats dels accidents"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el primer principi de l'acció preventiva. Correcta (b): el primer principi és evitar els riscos; després, avaluar els que no es puguin evitar, combatre'ls en origen, adaptar el treball a la persona i anteposar la protecció col·lectiva a la individual (art. 15 LPRL). Per què no: (a) els EPI són l'últim recurs (protecció individual); (c) la prevenció no es trasllada al treballador; (d) l'assegurança no substitueix la prevenció. Base: art. 15 Llei 31/1995.",
+      "source": "L31_1995",
+      "article": "art. 15 Llei 31/1995"
+    },
+    {
+      "theme": 89,
+      "block": 18,
+      "q": "Sobre qui recau, principalment, el deure de garantir la seguretat i la salut en el treball?",
+      "options": [
+        "Sobre cada treballador, que ha de vetllar per la seva pròpia seguretat únicament",
+        "Sobre l'empresari (l'Administració, com a ocupadora)",
+        "Sobre la mútua col·laboradora de la Seguretat Social que cobreix l'empresa",
+        "Sobre el comitè de seguretat i salut, com a òrgan responsable de la prevenció"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta sobre qui recau el deure de protecció. Correcta (b): l'empresari (a l'Administració, com a ocupadora) té el deure general de garantir la seguretat i la salut dels treballadors en tots els aspectes relacionats amb la feina (art. 14 LPRL). Per què no: (a) el treballador té deures, però el deure principal és de l'empresari; (c) la mútua col·labora, però no és la responsable del deure; (d) el comitè és un òrgan de participació, no el responsable. Base: art. 14 Llei 31/1995.",
+      "source": "L31_1995",
+      "article": "art. 14 Llei 31/1995"
+    },
+    {
+      "theme": 90,
+      "block": 18,
+      "q": "Quan s'apliquen els deures de coordinació d'activitats empresarials?",
+      "options": [
+        "Quan una sola empresa executa tots els treballs en el seu propi centre de treball",
+        "Quan en un mateix centre de treball concorren treballadors de diverses empreses",
+        "Únicament quan es tracta d'obres de construcció de gran envergadura",
+        "Només quan ho exigeix expressament la Inspecció de Treball en una visita"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta quan s'apliquen els deures de coordinació. Correcta (b): la coordinació d'activitats empresarials s'aplica quan en un mateix centre de treball concorren treballadors de dues o més empreses (i autònoms) (art. 24 LPRL i RD 171/2004). Per què no: (a) amb una sola empresa no hi ha concurrència; (c) no es limita a grans obres; (d) no depèn d'un requeriment de la Inspecció. Base: art. 24 Llei 31/1995 i RD 171/2004.",
+      "source": "RD171_2004",
+      "article": "art. 24 LPRL; RD 171/2004"
     }
   ]
 }
