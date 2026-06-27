@@ -6,66 +6,6 @@
   },
   "questions": [
     {
-      "theme": 75,
-      "block": 15,
-      "q": "La Llei del dret a l'habitatge de Catalunya és:",
-      "options": [
-        "La Llei 18/2007",
-        "La Llei 24/2015",
-        "La Llei 4/2016",
-        "La Llei 1/2010"
-      ],
-      "correct": 0,
-      "explain": "La Llei 18/2007, de 28 de desembre, del dret a l'habitatge, regula les polítiques d'habitatge a Catalunya.",
-      "source": "L18_2007",
-      "article": "Llei 18/2007"
-    },
-    {
-      "theme": 77,
-      "block": 16,
-      "q": "Segons la Llei 39/2015, estan obligats a relacionar-se electrònicament amb l'Administració:",
-      "options": [
-        "Totes les persones físiques sense excepció",
-        "Les persones jurídiques i determinats col·lectius (entitats sense personalitat, professionals col·legiats, etc.)",
-        "Només els menors d'edat",
-        "Ningú"
-      ],
-      "correct": 1,
-      "explain": "Art. 14.2 Llei 39/2015: estan obligats a relacionar-se per mitjans electrònics les persones jurídiques, entitats sense personalitat, professionals d'exercici col·legiat, etc.",
-      "source": "L39_2015",
-      "article": "art. 14 Llei 39/2015"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "La Llei 19/2014 de Catalunya regula:",
-      "options": [
-        "La transparència, l'accés a la informació pública i el bon govern",
-        "La contractació menor",
-        "El planejament urbanístic",
-        "La prevenció de riscos"
-      ],
-      "correct": 0,
-      "explain": "La Llei 19/2014, de 29 de desembre, regula la transparència, l'accés a la informació pública i el bon govern a Catalunya.",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "El dret d'accés a la informació pública:",
-      "options": [
-        "Només el tenen els periodistes",
-        "El tenen totes les persones, amb els límits legalment establerts",
-        "Requereix ser càrrec electe",
-        "Està prohibit"
-      ],
-      "correct": 1,
-      "explain": "Qualsevol persona té dret a accedir a la informació pública, amb els límits (protecció de dades, seguretat, etc.) i ponderació previstos a la Llei 19/2014 i 19/2013.",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
-    },
-    {
       "theme": 86,
       "block": 7,
       "q": "Segons el TREBEP, el personal directiu professional:",
@@ -139,36 +79,6 @@
       "explain": "El RD 171/2004 desenvolupa l'art. 24 de la Llei 31/1995 en matèria de coordinació d'activitats empresarials.",
       "source": "RD171_2004",
       "article": "RD 171/2004"
-    },
-    {
-      "theme": 76,
-      "block": 15,
-      "q": "L'avaluació d'impacte ambiental de projectes té per finalitat:",
-      "options": [
-        "Accelerar les obres sense controls",
-        "Identificar, descriure i avaluar els efectes sobre el medi ambient abans d'autoritzar un projecte",
-        "Recaptar impostos",
-        "Fixar el preu just"
-      ],
-      "correct": 1,
-      "explain": "L'avaluació ambiental valora els efectes significatius sobre el medi abans de l'aprovació/autorització del projecte o pla.",
-      "source": "L20_2009",
-      "article": "normativa d'avaluació ambiental"
-    },
-    {
-      "theme": 78,
-      "block": 17,
-      "q": "La millora contínua dels processos administratius es fonamenta en:",
-      "options": [
-        "Mantenir sempre els mateixos procediments",
-        "Avaluar, mesurar i revisar els processos per incrementar l'eficàcia i la qualitat del servei",
-        "Eliminar tota la documentació",
-        "Reduir l'atenció a la ciutadania"
-      ],
-      "correct": 1,
-      "explain": "La qualitat i millora contínua impliquen mesurar resultats, detectar punts febles i redissenyar processos orientats a la ciutadania (cicle de millora).",
-      "source": "L19_2014",
-      "article": "bon govern i qualitat"
     },
     {
       "theme": 83,
@@ -261,126 +171,6 @@
       "article": "art. 97 TREBEP"
     },
     {
-      "theme": 75,
-      "block": 15,
-      "q": "La Llei 18/2007 considera l'habitatge:",
-      "options": [
-        "Un bé de luxe",
-        "Un dret i estableix mesures contra la desocupació i el manteniment",
-        "Irrellevant",
-        "Competència estatal exclusiva"
-      ],
-      "correct": 1,
-      "explain": "La Llei 18/2007 configura el dret a l'habitatge i regula polítiques per garantir-lo a Catalunya.",
-      "source": "L18_2007",
-      "article": "Llei 18/2007"
-    },
-    {
-      "theme": 76,
-      "block": 15,
-      "q": "L'avaluació ambiental estratègica s'aplica a:",
-      "options": [
-        "Projectes d'obra menor",
-        "Plans i programes amb efectes significatius sobre el medi",
-        "Llicències d'obres",
-        "Contractes menors"
-      ],
-      "correct": 1,
-      "explain": "L'avaluació ambiental estratègica recau sobre plans i programes (no projectes concrets, que tenen AIA).",
-      "source": "L20_2009",
-      "article": "normativa d'avaluació ambiental"
-    },
-    {
-      "theme": 77,
-      "block": 16,
-      "q": "La signatura electrònica reconeguda/qualificada:",
-      "options": [
-        "No té validesa",
-        "Equival a la signatura manuscrita",
-        "Només val per a particulars",
-        "Caduca diàriament"
-      ],
-      "correct": 1,
-      "explain": "La signatura electrònica qualificada té el mateix valor jurídic que la manuscrita.",
-      "source": "L39_2015",
-      "article": "Reglament eIDAS; Llei 39/2015"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "La publicitat activa obliga les administracions a:",
-      "options": [
-        "No publicar res",
-        "Publicar informació rellevant per iniciativa pròpia (organització, contractes, subvencions…)",
-        "Esperar sol·licituds",
-        "Cobrar per la informació"
-      ],
-      "correct": 1,
-      "explain": "La transparència activa exigeix publicar d'ofici informació institucional, organitzativa, econòmica i jurídica.",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "El límit del dret d'accés per protecció de dades personals:",
-      "options": [
-        "No existeix",
-        "Exigeix ponderar l'interès públic i els drets afectats",
-        "Impedeix tot accés",
-        "El decideix el sol·licitant"
-      ],
-      "correct": 1,
-      "explain": "L'accés es pot limitar quan afecti dades personals, prèvia ponderació (Llei 19/2014 i 19/2013).",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
-    },
-    {
-      "theme": 78,
-      "block": 17,
-      "q": "Un indicador de qualitat del servei públic és:",
-      "options": [
-        "El nombre de funcionaris",
-        "El grau de satisfacció de la ciutadania i els temps de resposta",
-        "El color de l'oficina",
-        "El pressupost de festes"
-      ],
-      "correct": 1,
-      "explain": "La qualitat es mesura amb indicadors com la satisfacció ciutadana, els temps de tramitació i la resolució d'incidències.",
-      "source": "L19_2014",
-      "article": "qualitat i bon govern"
-    },
-    {
-      "theme": 80,
-      "block": 17,
-      "q": "La gestió de l'estrès i l'organització del treball busquen:",
-      "options": [
-        "Augmentar la càrrega",
-        "Millorar el rendiment i el benestar mitjançant priorització i planificació",
-        "Eliminar la planificació",
-        "Evitar la delegació"
-      ],
-      "correct": 1,
-      "explain": "Les eines de comandament inclouen la gestió del temps, la priorització i la delegació per millorar rendiment i benestar.",
-      "source": "L31_1995",
-      "article": "habilitats directives"
-    },
-    {
-      "theme": 81,
-      "block": 17,
-      "q": "La delegació de tasques eficaç requereix:",
-      "options": [
-        "No donar instruccions",
-        "Definir objectius, donar autonomia i fer seguiment",
-        "Controlar cada detall",
-        "No confiar en l'equip"
-      ],
-      "correct": 1,
-      "explain": "La delegació efectiva combina claredat d'objectius, autonomia i seguiment dels resultats.",
-      "source": "TREBEP",
-      "article": "lideratge d'equips"
-    },
-    {
       "theme": 84,
       "block": 17,
       "q": "La presa de decisions en entorns complexos s'afavoreix amb:",
@@ -424,81 +214,6 @@
       "explain": "La presència de recursos preventius és preceptiva en treballs amb riscos especials o concurrència (RD 171/2004; art. 32 bis LPRL).",
       "source": "RD171_2004",
       "article": "art. 32 bis LPRL"
-    },
-    {
-      "theme": 77,
-      "block": 16,
-      "q": "Els ciutadans tenen dret a relacionar-se amb l'Administració:",
-      "options": [
-        "Només presencialment",
-        "A triar el canal (les persones físiques), amb mitjans electrònics",
-        "Només per correu postal",
-        "Mai electrònicament"
-      ],
-      "correct": 1,
-      "explain": "Les persones físiques poden triar el mitjà (art. 14.1 Llei 39/2015); les jurídiques estan obligades a l'electrònic.",
-      "source": "L39_2015",
-      "article": "art. 14 Llei 39/2015"
-    },
-    {
-      "theme": 78,
-      "block": 17,
-      "q": "Les cartes de serveis:",
-      "options": [
-        "No existeixen",
-        "Són instruments que informen dels compromisos de qualitat amb la ciutadania",
-        "Substitueixen el pressupost",
-        "Les fa l'Estat"
-      ],
-      "correct": 1,
-      "explain": "Les cartes de serveis expressen els compromisos de qualitat i els drets dels usuaris.",
-      "source": "L19_2014",
-      "article": "qualitat del servei"
-    },
-    {
-      "theme": 79,
-      "block": 17,
-      "q": "L'avaluació de l'assoliment d'objectius es basa en:",
-      "options": [
-        "Intuïcions",
-        "El seguiment de resultats mitjançant indicadors i fases definides",
-        "No mesurar res",
-        "El criteri d'un sol responsable"
-      ],
-      "correct": 1,
-      "explain": "L'avaluació segueix els resultats amb indicadors i fases (planificació, execució, seguiment, revisió).",
-      "source": "L19_2014",
-      "article": "avaluació de resultats"
-    },
-    {
-      "theme": 80,
-      "block": 17,
-      "q": "L'organització del treball eficaç prioritza:",
-      "options": [
-        "Les tasques urgents sense criteri",
-        "Distingir important i urgent i planificar",
-        "Fer-ho tot alhora",
-        "No delegar mai"
-      ],
-      "correct": 1,
-      "explain": "Eines com la matriu d'Eisenhower distingeixen urgent/important per prioritzar i planificar.",
-      "source": "TREBEP",
-      "article": "eines de comandament"
-    },
-    {
-      "theme": 81,
-      "block": 17,
-      "q": "La gestió de conflictes en un equip s'aborda preferentment amb:",
-      "options": [
-        "La imposició immediata",
-        "La comunicació, la negociació i la mediació",
-        "L'evitació total",
-        "La sanció directa"
-      ],
-      "correct": 1,
-      "explain": "El lideratge resol conflictes amb tècniques de comunicació, negociació i mediació abans de mesures coercitives.",
-      "source": "TREBEP",
-      "article": "lideratge d'equips"
     },
     {
       "theme": 83,
@@ -636,51 +351,6 @@
       "article": "art. 94 TREBEP"
     },
     {
-      "theme": 75,
-      "block": 15,
-      "q": "La Llei 18/2007 preveu, davant la desocupació permanent:",
-      "options": [
-        "No res",
-        "Possibles mesures de foment i, si escau, intervenció administrativa",
-        "La venda forçosa immediata sempre",
-        "La cessió a l'Estat"
-      ],
-      "correct": 1,
-      "explain": "La Llei 18/2007 estableix mesures per evitar la desocupació injustificada i fomentar l'ocupació dels habitatges.",
-      "source": "L18_2007",
-      "article": "Llei 18/2007"
-    },
-    {
-      "theme": 76,
-      "block": 15,
-      "q": "La competència en medi ambient a Catalunya:",
-      "options": [
-        "És exclusiva de l'Estat",
-        "És compartida, amb desenvolupament i execució autonòmics",
-        "No existeix",
-        "És municipal exclusiva"
-      ],
-      "correct": 1,
-      "explain": "L'EAC atribueix a la Generalitat competències en medi ambient (desenvolupament i gestió), dins el marc bàsic estatal.",
-      "source": "EAC2006",
-      "article": "art. 144 EAC"
-    },
-    {
-      "theme": 79,
-      "block": 17,
-      "q": "El quadre de comandament integral serveix per:",
-      "options": [
-        "Decorar",
-        "Mesurar i seguir indicadors clau per a la presa de decisions",
-        "Substituir el pressupost",
-        "Amagar dades"
-      ],
-      "correct": 1,
-      "explain": "El quadre de comandament integra indicadors per seguir l'assoliment d'objectius i decidir.",
-      "source": "L19_2014",
-      "article": "avaluació de resultats"
-    },
-    {
       "theme": 83,
       "block": 17,
       "q": "Un bon indicador de gestió ha de ser:",
@@ -726,51 +396,6 @@
       "article": "atenció al personal"
     },
     {
-      "theme": 80,
-      "block": 17,
-      "q": "La gestió eficaç del temps recomana:",
-      "options": [
-        "No planificar",
-        "Agrupar tasques, evitar interrupcions i prioritzar",
-        "Atendre tot alhora",
-        "No delegar"
-      ],
-      "correct": 1,
-      "explain": "Les tècniques de gestió del temps agrupen tasques, redueixen interrupcions i prioritzen.",
-      "source": "L31_1995",
-      "article": "eines de comandament"
-    },
-    {
-      "theme": 79,
-      "block": 17,
-      "q": "Les fases de l'avaluació de l'assoliment d'objectius inclouen:",
-      "options": [
-        "Només l'execució",
-        "Planificació, seguiment, mesura de resultats i revisió/millora",
-        "Cap fase",
-        "Només la sanció"
-      ],
-      "correct": 1,
-      "explain": "L'avaluació segueix el cicle: planificar, executar, mesurar/seguir i revisar per millorar.",
-      "source": "L19_2014",
-      "article": "avaluació de resultats"
-    },
-    {
-      "theme": 81,
-      "block": 17,
-      "q": "La motivació de l'equip s'afavoreix amb:",
-      "options": [
-        "L'amenaça",
-        "El reconeixement, la participació i objectius clars",
-        "La indiferència",
-        "La manca d'informació"
-      ],
-      "correct": 1,
-      "explain": "La motivació millora amb reconeixement, participació, comunicació i objectius clars i assolibles.",
-      "source": "TREBEP",
-      "article": "lideratge d'equips"
-    },
-    {
       "theme": 84,
       "block": 17,
       "q": "L'anàlisi de problemes complexos requereix:",
@@ -814,36 +439,6 @@
       "explain": "Les empreses concurrents han de cooperar i informar-se mútuament dels riscos (art. 4 RD 171/2004).",
       "source": "RD171_2004",
       "article": "art. 4 RD 171/2004"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "El silenci en el dret d'accés a la informació pública:",
-      "options": [
-        "És positiu",
-        "És negatiu (desestimatori) si no es resol en termini",
-        "No existeix",
-        "Sempre estima"
-      ],
-      "correct": 1,
-      "explain": "En el dret d'accés, el silenci té caràcter desestimatori (Llei 19/2014 i 19/2013).",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
-    },
-    {
-      "theme": 77,
-      "block": 16,
-      "q": "La seu electrònica:",
-      "options": [
-        "És una oficina física",
-        "És l'adreça electrònica titularitat de l'Administració amb garanties d'integritat",
-        "No existeix",
-        "La gestiona un particular"
-      ],
-      "correct": 1,
-      "explain": "La seu electrònica és l'adreça disponible amb titularitat, gestió i responsabilitat de l'Administració (art. 38 Llei 40/2015).",
-      "source": "L40_2015",
-      "article": "art. 38 Llei 40/2015"
     },
     {
       "theme": 86,
@@ -906,66 +501,6 @@
       "article": "RD 1627/1997"
     },
     {
-      "theme": 75,
-      "block": 15,
-      "q": "La cèdula d'habitabilitat acredita:",
-      "options": [
-        "La propietat",
-        "Que un habitatge compleix les condicions per ser destinat a residència",
-        "El preu",
-        "Els impostos"
-      ],
-      "correct": 1,
-      "explain": "La cèdula d'habitabilitat acredita el compliment de les condicions mínimes d'habitabilitat (Llei 18/2007).",
-      "source": "L18_2007",
-      "article": "Llei 18/2007"
-    },
-    {
-      "theme": 77,
-      "block": 16,
-      "q": "L'arxiu electrònic únic:",
-      "options": [
-        "No existeix",
-        "Conserva els documents electrònics dels procediments finalitzats",
-        "És en paper",
-        "El gestiona un particular"
-      ],
-      "correct": 1,
-      "explain": "Cada Administració manté un arxiu electrònic únic dels documents de procediments finalitzats (art. 17 Llei 39/2015).",
-      "source": "L39_2015",
-      "article": "art. 17 Llei 39/2015"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "El Bon Govern comporta deures de:",
-      "options": [
-        "Privilegi",
-        "Conducta ètica i bona administració dels alts càrrecs",
-        "Opacitat",
-        "Immunitat"
-      ],
-      "correct": 1,
-      "explain": "La Llei 19/2014 estableix principis ètics i de bon govern exigibles als alts càrrecs.",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
-    },
-    {
-      "theme": 78,
-      "block": 17,
-      "q": "La millora contínua segueix el cicle:",
-      "options": [
-        "Improvisació",
-        "PDCA (planificar, fer, verificar, actuar)",
-        "Atzar",
-        "Caos"
-      ],
-      "correct": 1,
-      "explain": "La millora contínua aplica el cicle PDCA (Deming): planificar, fer, verificar i actuar.",
-      "source": "L19_2014",
-      "article": "qualitat"
-    },
-    {
       "theme": 86,
       "block": 7,
       "q": "El personal eventual cessa:",
@@ -979,21 +514,6 @@
       "explain": "El personal eventual cessa lliurement i, en tot cas, quan cessa l'autoritat a la qual assisteix (art. 12 TREBEP).",
       "source": "TREBEP",
       "article": "art. 12 TREBEP"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "El portal de transparència és:",
-      "options": [
-        "Optatiu",
-        "La plataforma que centralitza la informació de publicitat activa",
-        "Un tribut",
-        "Una oficina física"
-      ],
-      "correct": 1,
-      "explain": "El portal de transparència difon de manera centralitzada la informació subjecta a publicitat activa.",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
     },
     {
       "theme": 89,
@@ -1024,21 +544,6 @@
       "explain": "Els treballadors autònoms també participen en els deures de coordinació d'activitats empresarials (RD 171/2004).",
       "source": "RD171_2004",
       "article": "RD 171/2004"
-    },
-    {
-      "theme": 76,
-      "block": 15,
-      "q": "L'avaluació d'impacte ambiental ordinària es resol amb:",
-      "options": [
-        "Una multa",
-        "La declaració d'impacte ambiental (DIA)",
-        "Una llicència d'obres",
-        "Un ban"
-      ],
-      "correct": 1,
-      "explain": "L'avaluació ordinària conclou amb la declaració d'impacte ambiental (DIA), preceptiva i determinant.",
-      "source": "L20_2009",
-      "article": "normativa d'avaluació ambiental"
     },
     {
       "theme": 85,
@@ -1084,21 +589,6 @@
       "explain": "El pla de prevenció integra l'activitat preventiva en l'organització (art. 16 LPRL).",
       "source": "L31_1995",
       "article": "art. 16 Llei 31/1995"
-    },
-    {
-      "theme": 82,
-      "block": 16,
-      "q": "Els subjectes obligats per la Llei 19/2014 inclouen:",
-      "options": [
-        "Només l'Estat",
-        "Les administracions catalanes i altres ens del sector públic",
-        "Només empreses",
-        "Cap"
-      ],
-      "correct": 1,
-      "explain": "La Llei 19/2014 obliga les administracions catalanes i ens vinculats, i en part els adjudicataris i perceptors.",
-      "source": "L19_2014",
-      "article": "Llei 19/2014"
     },
     {
       "theme": 6,
@@ -3274,6 +2764,171 @@
       "explain": "Es pregunta l'objectiu de la regularització. Correcta (b): es tracta de completar la urbanització, dotar els àmbits dels serveis bàsics i regularitzar les cessions pendents, prioritzant la seguretat, amb repartiment de càrregues entre els propietaris. Per què no: (a) no es busca la demolició íntegra; (c) no és una privatització; (d) els propietaris assumeixen les càrregues (equidistribució). Base: normativa urbanística (TRLUC i disposicions específiques).",
       "source": "TRLUC",
       "article": "DA i normativa específica"
+    },
+    {
+      "theme": 75,
+      "block": 15,
+      "q": "Quina llei regula el dret a l'habitatge a Catalunya?",
+      "options": [
+        "La Llei 24/2015, de mesures urgents contra l'emergència habitacional",
+        "La Llei 18/2007",
+        "La Llei 20/2009, de prevenció i control ambiental de les activitats",
+        "La Llei 11/2009, d'espectacles públics i activitats recreatives"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la llei d'habitatge. Correcta (b): la Llei 18/2007, de 28 de desembre, del dret a l'habitatge, és la norma cabdal de la política d'habitatge a Catalunya. Per què no: (a) la Llei 24/2015 és una norma posterior i complementària sobre emergència habitacional; (c) i (d) regulen matèries diferents. Base: Llei 18/2007.",
+      "source": "L18_2007",
+      "article": "Llei 18/2007"
+    },
+    {
+      "theme": 75,
+      "block": 15,
+      "q": "Què acredita la cèdula d'habitabilitat?",
+      "options": [
+        "La titularitat i la inscripció registral de l'habitatge a favor del propietari",
+        "Que un habitatge compleix les condicions mínimes per ser destinat a residència",
+        "El valor cadastral de l'habitatge a efectes de la liquidació de tributs locals",
+        "La qualificació d'un habitatge com a protegit dins el patrimoni públic de sòl"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la cèdula d'habitabilitat. Correcta (b): la cèdula acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària per transmetre'l, llogar-lo i donar d'alta els subministraments. Per què no: (a) no acredita la titularitat; (c) no és un document de valoració; (d) no és la qualificació d'habitatge protegit. Base: Llei 18/2007.",
+      "source": "L18_2007",
+      "article": "Llei 18/2007"
+    },
+    {
+      "theme": 76,
+      "block": 15,
+      "q": "L'avaluació ambiental que recau sobre els PLANS i PROGRAMES (com el planejament urbanístic) s'anomena:",
+      "options": [
+        "Avaluació d'impacte ambiental ordinària de projectes concrets",
+        "Avaluació ambiental estratègica",
+        "Declaració responsable d'incidència ambiental de l'activitat",
+        "Autorització ambiental integrada de la instal·lació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el tipus d'avaluació de plans i programes. Correcta (b): l'avaluació ambiental estratègica recau sobre plans i programes (per exemple, el planejament urbanístic); l'avaluació d'impacte ambiental recau sobre projectes concrets i conclou amb la declaració d'impacte ambiental (DIA). Per què no: (a) l'AIA és de projectes; (c) i (d) són règims d'intervenció d'activitats, no l'avaluació de plans. Base: normativa d'avaluació ambiental.",
+      "source": "L20_2009",
+      "article": "normativa d'avaluació ambiental"
+    },
+    {
+      "theme": 77,
+      "block": 16,
+      "q": "Quins subjectes estan obligats a relacionar-se electrònicament amb les administracions?",
+      "options": [
+        "Totes les persones físiques, sense cap mena d'excepció possible",
+        "Les persones jurídiques i determinats col·lectius (professionals col·legiats, etc.)",
+        "Únicament les administracions públiques entre elles, no els administrats",
+        "Cap subjecte: la relació electrònica és sempre voluntària per a tothom"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els subjectes obligats a l'electrònic. Correcta (b): estan obligats a relacionar-se per mitjans electrònics les persones jurídiques, les entitats sense personalitat, els qui exerceixen una activitat professional de col·legiació obligatòria, els representants d'obligats i els empleats públics (art. 14.2 Llei 39/2015). Per què no: (a) les persones físiques poden triar el canal; (c) també afecta determinats administrats; (d) per a aquests col·lectius és obligatori. Base: art. 14 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 14 Llei 39/2015"
+    },
+    {
+      "theme": 77,
+      "block": 16,
+      "q": "Quina validesa té la signatura electrònica qualificada?",
+      "options": [
+        "No té cap validesa jurídica si no s'acompanya d'una signatura manuscrita",
+        "Té el mateix valor jurídic que la signatura manuscrita",
+        "Només és vàlida per a les comunicacions internes entre administracions",
+        "Caduca cada 24 hores i s'ha de renovar per a cada tràmit que es fa"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la validesa de la signatura electrònica qualificada. Correcta (b): la signatura electrònica qualificada té, respecte de les dades consignades electrònicament, el mateix valor jurídic que la signatura manuscrita. Per què no: (a) no necessita acompanyar-se de signatura manuscrita; (c) no es limita a comunicacions internes; (d) no caduca diàriament. Base: Reglament eIDAS; Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "Reglament eIDAS; Llei 39/2015"
+    },
+    {
+      "theme": 78,
+      "block": 17,
+      "q": "En què consisteix la millora contínua dels processos administratius?",
+      "options": [
+        "A mantenir invariables els procediments per garantir-ne l'estabilitat",
+        "A aplicar un cicle de planificar, fer, verificar i actuar (PDCA) de manera iterativa",
+        "A eliminar tots els controls per agilitzar al màxim la tramitació dels expedients",
+        "A reduir l'atenció presencial a la ciutadania per estalviar recursos públics"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la millora contínua. Correcta (b): la millora contínua es basa en el cicle PDCA (planificar, fer, verificar i actuar), aplicat de manera iterativa per augmentar l'eficàcia, l'eficiència i la satisfacció. Per què no: (a) no consisteix a mantenir-ho tot igual; (c) no és eliminar controls; (d) no és reduir l'atenció a la ciutadania. Base: qualitat i bon govern (Llei 19/2014).",
+      "source": "L19_2014",
+      "article": "qualitat i bon govern"
+    },
+    {
+      "theme": 79,
+      "block": 17,
+      "q": "Com han de ser els indicadors per a l'avaluació de l'assoliment d'objectius?",
+      "options": [
+        "Genèrics i no quantificables, per donar flexibilitat als gestors públics",
+        "Mesurables, rellevants i vinculats als objectius (criteris SMART)",
+        "Secrets, perquè només els conegui l'òrgan que avalua els resultats",
+        "Fixats un cop finalitzat l'exercici, en funció dels resultats ja obtinguts"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta com han de ser els indicadors. Correcta (b): han de ser mesurables, rellevants i vinculats als objectius (criteris SMART: específics, mesurables, assolibles, rellevants i temporals). Per què no: (a) no poden ser genèrics ni no quantificables; (c) no han de ser secrets (es vinculen a la transparència); (d) s'han de fixar prèviament, no a posteriori. Base: avaluació de resultats (Llei 19/2014).",
+      "source": "L19_2014",
+      "article": "avaluació de resultats"
+    },
+    {
+      "theme": 80,
+      "block": 17,
+      "q": "Una tècnica bàsica d'organització del treball del comandament és:",
+      "options": [
+        "Atendre totes les tasques alhora a mesura que van arribant, sense prioritzar-les",
+        "Prioritzar distingint el que és urgent del que és important i planificar",
+        "No delegar mai cap tasca per mantenir el control total sobre tot el procés",
+        "Evitar fixar objectius per no condicionar la feina diària de l'equip"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta una tècnica d'organització del treball. Correcta (b): organitzar el treball implica prioritzar (distingint urgent i important, per exemple amb la matriu d'Eisenhower), planificar i delegar adequadament. Per què no: (a) atendre-ho tot alhora sense prioritzar és ineficient; (c) la delegació és una eina clau; (d) cal fixar objectius. Base: eines de comandament i direcció.",
+      "source": "L31_1995",
+      "article": "eines de comandament"
+    },
+    {
+      "theme": 81,
+      "block": 17,
+      "q": "Com s'aborden preferentment els conflictes en un equip de treball?",
+      "options": [
+        "Imposant immediatament una solució per via jeràrquica sense escoltar les parts",
+        "Amb tècniques de comunicació, negociació i, si cal, mediació",
+        "Ignorant-los fins que desapareguin per ells mateixos amb el pas del temps",
+        "Recorrent directament al procediment disciplinari contra les persones implicades"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la gestió de conflictes. Correcta (b): els conflictes s'aborden preferentment amb comunicació, negociació i, si cal, mediació, abans de recórrer a mesures coercitives. Per què no: (a) la imposició immediata sense escoltar no és la via preferent; (c) ignorar-los els pot agreujar; (d) el disciplinari és l'últim recurs, no el primer. Base: lideratge d'equips.",
+      "source": "TREBEP",
+      "article": "lideratge d'equips"
+    },
+    {
+      "theme": 82,
+      "block": 16,
+      "q": "El dret d'accés a la informació pública, segons la Llei 19/2014:",
+      "options": [
+        "Només el poden exercir els periodistes acreditats i els càrrecs electes",
+        "El té qualsevol persona, sense necessitat de motivar la sol·licitud",
+        "Exigeix acreditar un interès personal i directe en la informació demanada",
+        "Està reservat a les persones que siguin part en un procediment administratiu"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la titularitat del dret d'accés. Correcta (b): qualsevol persona té dret a accedir a la informació pública, sense necessitat de motivar la sol·licitud ni d'acreditar cap interès, amb els límits taxats per la llei. Per què no: (a) no es limita a periodistes o electes; (c) no cal acreditar interès; (d) no es reserva a les parts d'un procediment. Base: Llei 19/2014.",
+      "source": "L19_2014",
+      "article": "Llei 19/2014"
+    },
+    {
+      "theme": 82,
+      "block": 16,
+      "q": "Quin sentit té el silenci administratiu en una sol·licitud d'accés a la informació pública?",
+      "options": [
+        "Positiu: l'accés s'entén concedit si no es resol dins de termini",
+        "Negatiu (desestimatori), amb possibilitat de reclamar davant la GAIP",
+        "No existeix el silenci en matèria d'accés a la informació pública",
+        "Positiu, però només si la informació no afecta dades de tercers"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el silenci en el dret d'accés. Correcta (b): en el dret d'accés a la informació pública el silenci té caràcter desestimatori (negatiu), i contra la denegació o el silenci es pot reclamar davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP). Per què no: (a) i (d) el silenci no és estimatori; (c) sí que opera el règim del silenci. Base: Llei 19/2014.",
+      "source": "L19_2014",
+      "article": "Llei 19/2014"
     }
   ]
 }
