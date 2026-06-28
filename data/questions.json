@@ -3379,6 +3379,186 @@
       "explain": "Es pregunta la causa d'exoneració. Correcta (b): la força major exclou la responsabilitat patrimonial (art. 32.1 Llei 40/2015). Per què no: (a) el cas fortuït NO exonera (sí indemnitza); (c) la culpa de la víctima modula o trenca el nexe, però no és la causa legal d'exoneració general; (d) el funcionament anormal és, precisament, un títol d'imputació, no una exoneració. Base: art. 32.1 Llei 40/2015.",
       "source": "L40_2015",
       "article": "art. 32.1 Llei 40/2015"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "A quin règim se sotmeten les activitats de BAIXA incidència ambiental?",
+      "options": [
+        "A l'autorització ambiental atorgada per la Generalitat amb informació pública",
+        "Al règim de comunicació (declaració responsable o comunicació prèvia)",
+        "A la llicència ambiental amb avaluació d'impacte ambiental obligatòria",
+        "A una autorització conjunta de l'ajuntament i del departament de medi ambient"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el règim de la baixa incidència. Correcta (b): les activitats de baixa incidència (annex III) se sotmeten al règim de comunicació, amb control posterior. Per què no: (a) l'autorització és per a l'alta incidència; (c) la llicència ambiental és per a la mitjana; (d) no requereix autorització conjunta. Base: Llei 20/2009.",
+      "source": "L20_2009",
+      "article": "Llei 20/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Els establiments oberts al públic per a espectacles i activitats recreatives:",
+      "options": [
+        "No requereixen cap títol habilitant si l'aforament és inferior a 100 persones",
+        "Se sotmeten a llicència o comunicació segons el tipus, el risc i l'aforament",
+        "Només els pot autoritzar la Generalitat, mai els ajuntaments",
+        "Estan exempts de complir les condicions de seguretat i autoprotecció"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el règim dels establiments d'espectacles. Correcta (b): segons el tipus d'establiment, l'aforament i el risc, la intervenció es fa mitjançant llicència municipal (control previ) o comunicació prèvia (Llei 11/2009). Per què no: (a) no estan exempts per aforament; (c) també intervenen els ajuntaments; (d) han de complir condicions de seguretat. Base: Llei 11/2009.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "Qui pot redactar els projectes d'obres locals?",
+      "options": [
+        "Exclusivament empreses constructores especialitzades en obra pública",
+        "Els serveis tècnics municipals o tècnics competents contractats a aquest efecte",
+        "Únicament tècnics funcionaris de la diputació provincial corresponent",
+        "Qualsevol persona, atès que el projecte no requereix titulació tècnica"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta qui redacta els projectes d'obres locals. Correcta (b): els projectes els redacten els serveis tècnics de la pròpia entitat o, si no disposa de mitjans, tècnics competents contractats (contracte de serveis). Per què no: (a) no es reserva a constructores; (c) no es reserva a la diputació; (d) requereix titulació tècnica competent. Base: ROAS i LCSP.",
+      "source": "ROAS",
+      "article": "D 179/1995"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Quin és el termini de garantia per als danys que afecten l'habitabilitat d'un edifici (LOE)?",
+      "options": [
+        "Un any des de la recepció de l'obra acabada",
+        "Tres anys",
+        "Deu anys, com els danys que afecten l'estabilitat estructural",
+        "Quinze anys, igual que la responsabilitat per ruïna"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el termini de garantia d'habitabilitat. Correcta (b): la LOE estableix una garantia de tres anys per als danys que afecten l'habitabilitat (art. 17); d'un any per als d'acabament i de deu per als estructurals. Per què no: (a) un any és per als acabats; (c) deu anys és per a l'estabilitat; (d) quinze és la ruïna de la LCSP. Base: art. 17 LOE.",
+      "source": "LOE",
+      "article": "art. 17 LOE"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "Quan diverses empreses concorren en una obra municipal, és preceptiu, en matèria de seguretat:",
+      "options": [
+        "Que cada empresa actuï de manera independent sense coordinar-se amb les altres",
+        "Designar un coordinador de seguretat i salut i disposar d'un pla de seguretat",
+        "Que l'ajuntament assumeixi directament l'execució de tota l'obra",
+        "Suspendre l'obra fins que només hi quedi una única empresa contractista"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la seguretat en obres amb diverses empreses. Correcta (b): quan hi intervé més d'una empresa, cal designar un coordinador de seguretat i salut i disposar del pla de seguretat i salut (RD 1627/1997). Per què no: (a) precisament cal coordinar-se; (c) no cal que l'ajuntament executi l'obra; (d) no s'ha de suspendre. Base: RD 1627/1997.",
+      "source": "RD171_2004",
+      "article": "RD 1627/1997"
+    },
+    {
+      "theme": 75,
+      "block": 15,
+      "q": "La cèdula d'habitabilitat és necessària, entre altres supòsits, per:",
+      "options": [
+        "Sol·licitar una llicència d'obres majors de nova construcció",
+        "Transmetre o llogar un habitatge i donar d'alta els subministraments",
+        "Inscriure la propietat de l'habitatge al Registre de la Propietat",
+        "Obtenir una subvenció per a la rehabilitació energètica de l'edifici"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta per a què cal la cèdula d'habitabilitat. Correcta (b): la cèdula és necessària, entre altres, per transmetre o llogar un habitatge i per donar d'alta els subministraments (aigua, llum, gas). Per què no: (a) la llicència d'obres és prèvia a la construcció; (c) no és requisit d'inscripció registral; (d) no és el document per a subvencions. Base: Llei 18/2007.",
+      "source": "L18_2007",
+      "article": "Llei 18/2007"
+    },
+    {
+      "theme": 77,
+      "block": 16,
+      "q": "La seu electrònica d'una administració pública es defineix com:",
+      "options": [
+        "Qualsevol pàgina web on l'administració publiqui informació institucional",
+        "L'adreça electrònica de titularitat, gestió i responsabilitat de l'administració",
+        "Un registre privat d'accés restringit als empleats públics autoritzats",
+        "El correu electrònic corporatiu del secretari de la corporació local"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la seu electrònica. Correcta (b): la seu electrònica és l'adreça electrònica disponible per a la ciutadania la titularitat, gestió i responsabilitat de la qual correspon a una administració, amb garanties d'integritat i veracitat (art. 38 Llei 40/2015). Per què no: (a) no és qualsevol web; (c) no és un registre restringit; (d) no és un correu electrònic. Base: art. 38 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 38 Llei 40/2015"
+    },
+    {
+      "theme": 82,
+      "block": 16,
+      "q": "Quina és una obligació de publicitat activa segons la Llei 19/2014?",
+      "options": [
+        "Esperar que la ciutadania sol·liciti la informació abans de publicar-la",
+        "Publicar per iniciativa pròpia informació sobre contractes, convenis i subvencions",
+        "Cobrar una taxa per accedir a qualsevol informació institucional publicada",
+        "Limitar la difusió de la informació econòmica als càrrecs electes de la corporació"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la publicitat activa. Correcta (b): la transparència obliga a publicar per iniciativa pròpia, de manera permanent i actualitzada, informació rellevant, inclosa la relativa a contractes, convenis i subvencions. Per què no: (a) la publicitat activa és d'ofici, sense esperar sol·licituds; (c) l'accés és gratuït; (d) no es limita als electes. Base: Llei 19/2014.",
+      "source": "L19_2014",
+      "article": "Llei 19/2014"
+    },
+    {
+      "theme": 78,
+      "block": 17,
+      "q": "El cicle de millora contínua de la qualitat (PDCA) consisteix a:",
+      "options": [
+        "Mantenir sempre els mateixos procediments per garantir la seguretat jurídica",
+        "Planificar, fer, verificar i actuar, de manera iterativa",
+        "Externalitzar tots els processos a empreses especialitzades en qualitat",
+        "Reduir el personal d'atenció al públic per abaratir el cost dels serveis"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el cicle PDCA. Correcta (b): la millora contínua aplica el cicle PDCA (planificar, fer, verificar i actuar) de manera iterativa. Per què no: (a) no és mantenir-ho tot igual; (c) no és externalitzar; (d) no és reduir personal. Base: qualitat i bon govern.",
+      "source": "L19_2014",
+      "article": "qualitat i bon govern"
+    },
+    {
+      "theme": 81,
+      "block": 17,
+      "q": "La delegació eficaç de tasques en un equip requereix:",
+      "options": [
+        "Controlar de manera detallada cada pas que fa la persona en qui es delega",
+        "Definir l'objectiu, donar autonomia i fer-ne un seguiment posterior",
+        "No donar cap instrucció per fomentar la creativitat de l'equip",
+        "Reservar-se sempre les decisions importants sense delegar-ne cap"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la delegació eficaç. Correcta (b): delegar bé consisteix a definir clarament l'objectiu i els recursos, donar l'autonomia necessària i fer un seguiment dels resultats. Per què no: (a) el control excessiu anul·la la delegació; (c) cal donar instruccions clares; (d) no delegar res no és delegar. Base: lideratge d'equips.",
+      "source": "TREBEP",
+      "article": "lideratge d'equips"
+    },
+    {
+      "theme": 84,
+      "block": 17,
+      "q": "Una eina útil per a l'anàlisi de problemes complexos en la presa de decisions és:",
+      "options": [
+        "La improvisació basada exclusivament en la intuïció del responsable",
+        "L'anàlisi DAFO (debilitats, amenaces, fortaleses i oportunitats)",
+        "La delegació total del problema en una persona de l'equip sense seguiment",
+        "L'ajornament indefinit de la decisió fins que el problema desaparegui sol"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta una eina d'anàlisi de problemes. Correcta (b): l'anàlisi DAFO (debilitats, amenaces, fortaleses i oportunitats), juntament amb l'arbre de problemes o l'anàlisi cost-benefici, ajuda a analitzar problemes complexos. Per què no: (a), (c) i (d) no són eines d'anàlisi estructurada. Base: presa de decisions.",
+      "source": "L19_2014",
+      "article": "presa de decisions"
+    },
+    {
+      "theme": 89,
+      "block": 18,
+      "q": "L'avaluació de riscos laborals és:",
+      "options": [
+        "Un tràmit voluntari que cada treballador pot fer pel seu compte",
+        "L'instrument inicial per planificar l'activitat preventiva de l'empresa",
+        "Una competència exclusiva de la Inspecció de Treball i Seguretat Social",
+        "Un document que només cal elaborar en cas que es produeixi un accident greu"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta l'avaluació de riscos. Correcta (b): l'avaluació de riscos és l'instrument inicial del sistema de gestió de la prevenció, a partir del qual es planifica l'activitat preventiva (art. 16 LPRL). Per què no: (a) no és voluntària ni individual; (c) és responsabilitat de l'empresari, no de la Inspecció; (d) és preventiva, no posterior a l'accident. Base: art. 16 Llei 31/1995.",
+      "source": "L31_1995",
+      "article": "art. 16 Llei 31/1995"
     }
   ]
 }
