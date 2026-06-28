@@ -5614,6 +5614,891 @@
       "explain": "Es pregunta la naturalesa de la suspensió. Correcta (a): és una mesura cautelar per evitar que es consolidi la il·legalitat mentre es tramita el procediment. Per què no: (b) no és la sanció; (c) és impugnable; (d) no legalitza. Base: TRLUC.",
       "source": "TRLUC",
       "article": "Suspensió"
+    },
+    {
+      "theme": 47,
+      "block": 11,
+      "q": "L'aprofitament urbanístic d'un terreny es defineix essencialment com:",
+      "options": [
+        "L'edificabilitat i els usos atribuïts pel planejament, ponderats segons el seu valor",
+        "La superfície de la finca",
+        "El nombre de residents que el pla preveu allotjar en l'àmbit segons les projeccions de població",
+        "El valor cadastral de la finca"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el concepte d'aprofitament. Correcta (a): és l'edificabilitat i els usos atribuïts pel planejament, ponderats per coeficients. Per què no: (b), (c) i (d) són magnituds diferents. Base: TRLUC, aprofitament.",
+      "source": "TRLUC",
+      "article": "Aprofitament"
+    },
+    {
+      "theme": 49,
+      "block": 11,
+      "q": "Els usos i obres de caràcter provisional s'admeten sempre que:",
+      "options": [
+        "No siguin prohibits pel pla ni en dificultin l'execució",
+        "Comportin fonaments i estructures de caràcter permanent que consolidin una edificació estable",
+        "Estiguin previstos com a definitius",
+        "S'ubiquin en sòl d'especial protecció"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el requisit dels usos provisionals. Correcta (a): que no siguin prohibits pel pla ni en dificultin l'execució i siguin desmuntables. Per què no: (b) han de ser desmuntables; (c) per definició no són definitius; (d) és incorrecte. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Usos provisionals"
+    },
+    {
+      "theme": 49,
+      "block": 11,
+      "q": "L'autorització d'un ús provisional comporta per al titular el deure de:",
+      "options": [
+        "Cessar l'ús i restituir el terreny quan ho requereixi l'administració, sense indemnització",
+        "Mantenir l'ús de manera indefinida i adquirir un dret consolidat oposable davant l'administració",
+        "Edificar de manera permanent",
+        "Pagar una taxa anual creixent"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els efectes. Correcta (a): cessar l'ús i restituir quan ho requereixi l'administració, sense dret a indemnització. Per què no: (b) no consolida cap dret; (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Usos provisionals"
+    },
+    {
+      "theme": 50,
+      "block": 11,
+      "q": "Els plans directors urbanístics tenen per funció principal:",
+      "options": [
+        "Establir directrius d'abast supramunicipal per coordinar el planejament",
+        "Atorgar directament les llicències d'obres als particulars de cadascun dels municipis afectats",
+        "Ordenar el detall d'una parcel·la",
+        "Aprovar el pressupost municipal"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els plans directors. Correcta (a): fixen directrius supramunicipals de coordinació. Per què no: (b), (c) i (d) corresponen a altres instruments o funcions. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Plans directors"
+    },
+    {
+      "theme": 50,
+      "block": 11,
+      "q": "En la jerarquia del planejament, els plans directors urbanístics se situen:",
+      "options": [
+        "Per sobre del planejament general municipal, que s'hi ha d'adaptar",
+        "Per sota dels plans parcials i dels plans de millora urbana de desenvolupament dels sectors",
+        "Al mateix nivell que les llicències",
+        "Al marge de tota relació jeràrquica"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la posició. Correcta (a): abast supramunicipal; el planejament general s'hi adapta. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC, jerarquia.",
+      "source": "TRLUC",
+      "article": "Jerarquia"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "El pla d'ordenació urbanística municipal (POUM):",
+      "options": [
+        "Classifica el sòl del municipi i n'estableix l'ordenació estructural",
+        "Atorga directament les llicències d'obres i d'activitats que sol·licitin els particulars",
+        "Aprova el pressupost anual",
+        "Regula el règim disciplinari del personal"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el POUM. Correcta (a): classifica el sòl i fixa l'ordenació estructural del municipi. Per què no: (b), (c) i (d) són funcions alienes al POUM. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "POUM"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "L'aprovació definitiva del POUM correspon, amb caràcter general, a:",
+      "options": [
+        "L'administració urbanística de la Generalitat",
+        "L'alcalde mitjançant decret",
+        "La junta de govern local en exercici de les competències executives que té delegades pel ple",
+        "El ministeri estatal"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta l'aprovació definitiva. Correcta (a): l'aprovació inicial i provisional és municipal i la definitiva correspon a la Generalitat (comissió territorial d'urbanisme). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Aprovació POUM"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Els plans parcials urbanístics tenen per finalitat:",
+      "options": [
+        "Desenvolupar i ordenar amb detall un sector de sòl urbanitzable",
+        "Classificar per primera vegada tot el sòl del terme municipal en les diferents categories legals",
+        "Fixar directrius supramunicipals",
+        "Aprovar projectes d'urbanització"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els plans parcials. Correcta (a): desenvolupen i detallen el sòl urbanitzable d'un sector. Per què no: (b) ho fa el POUM; (c) els plans directors; (d) és el projecte d'urbanització. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Plans parcials"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Els plans especials urbanístics es caracteritzen per:",
+      "options": [
+        "Ordenar o protegir àmbits o aspectes concrets en desenvolupament del planejament",
+        "Substituir de manera íntegra el pla d'ordenació urbanística municipal vigent al municipi",
+        "Classificar sempre el sòl no urbanitzable",
+        "Regular la contractació pública"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els plans especials. Correcta (a): ordenen o protegeixen aspectes o àmbits concrets (patrimoni, infraestructures). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Plans especials"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "El planejament derivat es distingeix del general perquè el derivat:",
+      "options": [
+        "Desenvolupa i concreta el planejament general en àmbits més reduïts",
+        "Classifica el sòl i estableix l'ordenació estructural del conjunt del terme municipal",
+        "Té rang superior al POUM",
+        "No admet mai iniciativa privada"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la distinció. Correcta (a): el derivat desenvolupa el general en àmbits concrets. Per què no: (b) ho fa el general; (c) té rang inferior; (d) admet iniciativa privada. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Planejament derivat"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "En la formulació del planejament urbanístic derivat, els particulars:",
+      "options": [
+        "Hi poden tenir iniciativa i col·laborar-hi, però l'aprovació és pública",
+        "Decideixen de manera vinculant i definitiva el contingut del pla que finalment s'acaba aprovant",
+        "No hi poden intervenir mai",
+        "Aproven el pla si són majoria"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la iniciativa particular. Correcta (a): poden impulsar i col·laborar, però l'aprovació és pública. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Iniciativa privada"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Quan un particular presenta una proposta de planejament derivat, l'administració:",
+      "options": [
+        "L'ha de tramitar i resoldre, conservant la potestat d'aprovar-la o denegar-la",
+        "Queda obligada a aprovar-la exactament en els termes en què el particular l'hagi presentada",
+        "No té cap deure de resposta",
+        "Cedeix al particular la competència"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el deure de l'administració. Correcta (a): ha de tramitar i resoldre, però decideix segons l'interès públic. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Iniciativa privada"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Perquè un instrument de planejament urbanístic produeixi efectes cal:",
+      "options": [
+        "Publicar l'acord d'aprovació definitiva i la normativa al diari oficial",
+        "Esperar el transcurs de cinc anys complets des de la redacció tècnica del document de planejament",
+        "La sola aprovació inicial",
+        "Inscriure abans totes les finques"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta l'eficàcia. Correcta (a): cal publicar l'acord d'aprovació definitiva i les normes al diari oficial. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Publicitat"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Les edificacions que esdevenen disconformes amb un nou planejament queden, en general, en règim de:",
+      "options": [
+        "Fora d'ordenació o de volum disconforme, amb limitacions a les obres",
+        "Plena legalitat i sense cap limitació respecte de les obres de reforma o ampliació que vulguin fer",
+        "Enderroc immediat obligatori",
+        "Expropiació automàtica"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la disconformitat sobrevinguda. Correcta (a): fora d'ordenació o volum disconforme, amb limitacions. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Fora d'ordenació"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "En el sistema d'expropiació per a la gestió urbanística:",
+      "options": [
+        "L'administració obté el sòl i executa la urbanització, indemnitzant els propietaris",
+        "Els propietaris s'agrupen en una junta de compensació i assumeixen al seu càrrec tota la urbanització",
+        "No hi ha cap intervenció pública",
+        "No es paga cap indemnització"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta l'expropiació com a sistema d'actuació. Correcta (a): l'administració adquireix el sòl i urbanitza, amb indemnització als propietaris. Per què no: (b) descriu la compensació; (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Expropiació"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "La parcel·lació urbanística consisteix en:",
+      "options": [
+        "La divisió de terrenys en dos o més lots amb finalitat urbanística",
+        "L'agrupació de diverses finques rústiques per constituir una sola explotació agrària de més extensió",
+        "La venda d'un edifici",
+        "La modificació del POUM"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el concepte. Correcta (a): divisió de terrenys en dos o més lots amb finalitat urbanística. Per què no: (b), (c) i (d) no la defineixen. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Parcel·lació"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "La intervenció administrativa de les activitats amb incidència ambiental s'articula, a Catalunya, mitjançant:",
+      "options": [
+        "Règims d'autorització, llicència o comunicació segons el grau d'incidència ambiental",
+        "Un únic règim d'autorització estatal previ idèntic per a totes les activitats, sigui quina sigui",
+        "La lliure instal·lació sense control",
+        "Un contracte administratiu"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la intervenció ambiental d'activitats. Correcta (a): la Llei 20/2009 estableix règims (autorització, llicència, comunicació) segons la incidència ambiental. Per què no: (b), (c) i (d) són incorrectes. Base: Llei 20/2009.",
+      "source": "L20_2009",
+      "article": "Règims d'intervenció"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "Les activitats amb més incidència ambiental se subjecten, segons la Llei 20/2009, a:",
+      "options": [
+        "Autorització ambiental, atorgada per l'administració de la Generalitat",
+        "Simple comunicació prèvia sense cap control ambiental ni documentació tècnica de cap mena",
+        "Declaració responsable verbal",
+        "Cap intervenció administrativa"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el règim de les activitats de més incidència. Correcta (a): autorització ambiental de la Generalitat. Per què no: (b) i (c) corresponen a activitats de menor incidència; (d) és incorrecte. Base: Llei 20/2009.",
+      "source": "L20_2009",
+      "article": "Autorització ambiental"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Una perruqueria, com a activitat innòcua, se subjecta generalment a:",
+      "options": [
+        "Comunicació prèvia o declaració responsable",
+        "Autorització ambiental atorgada per la Generalitat amb avaluació d'impacte ambiental prèvia",
+        "Llicència d'establiment obert",
+        "Concessió demanial"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el règim d'una activitat innòcua. Correcta (a): comunicació prèvia o declaració responsable. Per què no: (b) és per a activitats d'incidència ambiental; (c) per a espectacles/recreatives de més entitat; (d) és incorrecte. Base: règim d'activitats.",
+      "source": "ROAS",
+      "article": "Activitat innòcua"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Els espectacles públics i les activitats recreatives es regulen a Catalunya per:",
+      "options": [
+        "La Llei 11/2009, de regulació administrativa dels espectacles públics i les activitats recreatives",
+        "El text refós de la Llei d'urbanisme de Catalunya en els seus preceptes sobre llicències d'obres",
+        "La Llei de contractes",
+        "El Codi civil"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la norma reguladora. Correcta (a): la Llei 11/2009. Per què no: (b), (c) i (d) regulen altres matèries. Base: Llei 11/2009.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "La comunicació prèvia d'una activitat:",
+      "options": [
+        "Habilita per iniciar-la des de la presentació, amb control posterior de l'administració",
+        "Requereix un acte exprés d'autorització de l'administració amb caràcter previ a l'inici de l'activitat",
+        "Eximeix de complir els requisits",
+        "Només s'aplica a obres majors"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la comunicació prèvia. Correcta (a): habilita des de la presentació amb control posterior. Per què no: (b) això és la llicència; (c) i (d) són incorrectes. Base: art. 69 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "Art. 69"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "El contingut mínim d'un projecte d'obres locals comprèn:",
+      "options": [
+        "Memòria, plànols, plec de prescripcions tècniques i pressupost",
+        "Únicament una memòria descriptiva sense plànols ni pressupost ni cap altre document tècnic complementari",
+        "Només el pressupost",
+        "Exclusivament l'estudi de seguretat"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el contingut del projecte. Correcta (a): memòria, plànols, plec de prescripcions i pressupost (amb amidaments). Per què no: (b), (c) i (d) són incomplets. Base: ROAS/LCSP.",
+      "source": "ROAS",
+      "article": "Contingut projecte"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "La memòria valorada s'admet, en l'àmbit local, per a:",
+      "options": [
+        "Obres de menor entitat, de reparació menor o de manteniment",
+        "Grans obres de nova planta que requereixen projecte tècnic complet amb totes les seves parts",
+        "Qualsevol obra, sense límit",
+        "Cap supòsit"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la memòria valorada. Correcta (a): document simplificat per a obres de menor entitat o manteniment. Per què no: (b) requereix projecte complet; (c) i (d) són incorrectes. Base: ROAS.",
+      "source": "ROAS",
+      "article": "Memòria valorada"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "La tramitació d'aprovació d'un projecte d'obres locals segueix, amb caràcter general, les fases de:",
+      "options": [
+        "Aprovació inicial, informació pública i aprovació definitiva",
+        "Adjudicació directa sense cap aprovació prèvia del document tècnic ni cap tràmit d'informació pública",
+        "Sorteig entre projectes",
+        "Referèndum veïnal"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la tramitació. Correcta (a): aprovació inicial, informació pública i aprovació definitiva. Per què no: (b), (c) i (d) són incorrectes. Base: ROAS.",
+      "source": "ROAS",
+      "article": "Tramitació projecte"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Els requisits bàsics de l'edificació que estableix la LOE s'agrupen en:",
+      "options": [
+        "Funcionalitat, seguretat i habitabilitat",
+        "Rendibilitat econòmica, estètica i representativitat institucional de l'edifici davant la ciutadania",
+        "Només seguretat estructural",
+        "Únicament accessibilitat"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els requisits bàsics. Correcta (a): funcionalitat, seguretat i habitabilitat (LOE). Per què no: (b), (c) i (d) són incorrectes o incomplets. Base: LOE.",
+      "source": "LOE",
+      "article": "Requisits bàsics"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "El Codi Tècnic de l'Edificació (CTE) concreta les exigències bàsiques mitjançant:",
+      "options": [
+        "Els documents bàsics (DB), com el DB-SI o el DB-HE",
+        "Un únic article general sense desenvolupament tècnic ni solucions concretes per a cada exigència",
+        "Les ordenances fiscals municipals",
+        "Els plecs de contractació"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el CTE. Correcta (a): es desplega en documents bàsics (DB) per a cada exigència. Per què no: (b), (c) i (d) són incorrectes. Base: CTE.",
+      "source": "CTE",
+      "article": "Documents bàsics"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "En l'execució d'una obra local per contracte, la direcció de l'obra correspon a:",
+      "options": [
+        "El director de l'obra, integrant de la direcció facultativa",
+        "El mateix contractista, que dirigeix, executa i controla unilateralment la totalitat dels treballs",
+        "La intervenció municipal",
+        "La mesa de contractació"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la direcció de l'obra. Correcta (a): el director de l'obra, dins la direcció facultativa. Per què no: (b), (c) i (d) són incorrectes. Base: LCSP/LOE.",
+      "source": "LCSP",
+      "article": "Direcció facultativa"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "Les certificacions d'obra, en l'execució d'un contracte d'obres, tenen per funció:",
+      "options": [
+        "Documentar periòdicament l'obra executada i servir de base per als pagaments a compte",
+        "Substituir de manera definitiva l'acta de recepció i la liquidació final del contracte d'obres",
+        "Atorgar la llicència d'obres",
+        "Aprovar el projecte"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta les certificacions. Correcta (a): documenten l'obra executada (normalment mensual) i fonamenten els pagaments a compte. Per què no: (b), (c) i (d) són incorrectes. Base: LCSP.",
+      "source": "LCSP",
+      "article": "Certificacions"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "La recepció de l'obra, un cop finalitzada, comporta:",
+      "options": [
+        "L'inici del termini de garantia durant el qual el contractista respon dels defectes",
+        "L'extinció immediata de tota responsabilitat del contractista sobre els vicis o defectes de l'obra",
+        "La devolució del projecte",
+        "La represa del replanteig"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la recepció. Correcta (a): inicia el termini de garantia. Per què no: (b) la responsabilitat es manté durant la garantia; (c) i (d) són incorrectes. Base: LCSP.",
+      "source": "LCSP",
+      "article": "Recepció"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "En la planificació de les obres municipals, la priorització de les actuacions ha d'atendre:",
+      "options": [
+        "La urgència, l'interès públic i la disponibilitat pressupostària",
+        "Exclusivament l'ordre alfabètic dels carrers afectats per les actuacions previstes per als serveis tècnics",
+        "Només la voluntat del contractista",
+        "L'antiguitat dels expedients"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la priorització. Correcta (a): urgència (seguretat), interès públic i disponibilitat pressupostària. Per què no: (b), (c) i (d) són incorrectes. Base: organització d'obres.",
+      "source": "ROAS",
+      "article": "Priorització"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "En l'organització de les obres municipals, el seguiment i el control de l'execució serveixen per:",
+      "options": [
+        "Detectar desviacions de termini, cost o qualitat i reconduir-les a temps",
+        "Substituir la fase de planificació inicial i la priorització de les actuacions que s'han de desenvolupar",
+        "Eliminar la direcció facultativa",
+        "Suprimir el pressupost"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el seguiment. Correcta (a): detectar i corregir desviacions. Per què no: (b), (c) i (d) són incorrectes. Base: organització d'obres.",
+      "source": "ROAS",
+      "article": "Seguiment"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "L'execució de les obres municipals es pot dur a terme:",
+      "options": [
+        "Mitjançant contracte amb un tercer o per mitjans propis municipals",
+        "Únicament i en tot cas mitjançant l'encàrrec obligatori a empreses externes prèviament classificades",
+        "Només pels veïns afectats",
+        "Sense cap projecte ni direcció"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta les vies d'execució. Correcta (a): per contracte o per mitjans propis. Per què no: (b), (c) i (d) són incorrectes. Base: ROAS/LCSP.",
+      "source": "ROAS",
+      "article": "Execució obres"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "El patrimoni públic de sòl i habitatge es configura com:",
+      "options": [
+        "Un patrimoni separat afectat a finalitats urbanístiques i d'habitatge",
+        "Un conjunt de béns de lliure disposició que es poden destinar a qualsevol despesa corrent de l'entitat",
+        "Un bé de propietat privada",
+        "Un tribut municipal"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la naturalesa. Correcta (a): patrimoni separat afectat a les seves finalitats. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Patrimoni de sòl"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "Els ingressos obtinguts de l'alienació de béns del patrimoni públic de sòl s'han de destinar a:",
+      "options": [
+        "Les finalitats pròpies del patrimoni, especialment l'habitatge protegit",
+        "Qualsevol despesa corrent que decideixi lliurement l'entitat local en funció de les seves necessitats",
+        "El pagament de sancions",
+        "La compra de mobiliari d'oficina"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la destinació dels ingressos. Correcta (a): a les finalitats pròpies (habitatge protegit, actuacions urbanístiques). Per què no: (b), (c) i (d) vulneren l'afectació. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Afectació"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "S'integra en el patrimoni públic de sòl, entre altres béns:",
+      "options": [
+        "El sòl obtingut per la cessió de l'aprofitament urbanístic",
+        "El mobiliari de les dependències administratives municipals destinat a l'ús quotidià dels empleats",
+        "Els vehicles de la policia local",
+        "El material informàtic"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la integració de béns. Correcta (a): el sòl de cessió d'aprofitament, l'adquirit per expropiació o tanteig, etc. Per què no: (b), (c) i (d) no s'hi integren. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Integració"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "Les urbanitzacions amb dèficits urbanístics es caracteritzen per:",
+      "options": [
+        "Tenir serveis urbanístics incomplets i, sovint, cessions pendents",
+        "Disposar de tots els serveis i les cessions fetes, però amb un excés d'equipaments respecte dels estàndards",
+        "Ser sempre de titularitat pública",
+        "No admetre cap regularització"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el concepte. Correcta (a): serveis incomplets i cessions pendents. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Dèficits urbanístics"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "La regularització d'una urbanització amb dèficits s'instrumenta mitjançant:",
+      "options": [
+        "Plans especials o de millora urbana i projectes de reparcel·lació i urbanització",
+        "La simple inscripció registral de les finques, sense necessitat de cap instrument de planejament ni de gestió",
+        "Un contracte de subministrament",
+        "Una ordenança fiscal"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els instruments. Correcta (a): planejament (pla especial/de millora) i gestió (reparcel·lació, urbanització). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Regularització"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "El finançament de les obres de regularització d'una urbanització amb dèficits es reparteix:",
+      "options": [
+        "Entre les persones propietàries, segons el principi d'equidistribució",
+        "Íntegrament i en exclusiva a càrrec dels pressupostos generals de l'Estat, sense aportació dels propietaris",
+        "Sense cap criteri",
+        "A càrrec només dels nous compradors"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el finançament. Correcta (a): es reparteix entre els propietaris (equidistribució), amb possibles ajuts públics. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Equidistribució"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "En l'expropiació forçosa, el beneficiari és:",
+      "options": [
+        "Qui adquireix el bé o assumeix l'obligació de pagar el just preu, i pot ser un tercer",
+        "Sempre i en tot cas l'administració expropiant, sense que mai pugui ser-ho un concessionari o un particular",
+        "El titular del bé expropiat",
+        "El jutge"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el beneficiari. Correcta (a): qui adquireix el bé o paga el just preu (pot ser un tercer, com un concessionari). Per què no: (b) pot ser un tercer; (c) és l'expropiat; (d) és incorrecte. Base: LEF.",
+      "source": "LEF",
+      "article": "Beneficiari"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "El just preu de l'expropiació inclou, a més del valor del bé:",
+      "options": [
+        "Un premi d'afecció del 5 per cent",
+        "Un recàrrec del 50 per cent sobre el valor total del bé com a compensació pels perjudicis morals",
+        "Una taxa del 10 per cent",
+        "Cap concepte addicional"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el premi d'afecció. Correcta (a): el just preu incorpora un premi d'afecció del 5% (art. 47 LEF). Per què no: (b), (c) i (d) són incorrectes. Base: art. 47 LEF.",
+      "source": "LEF",
+      "article": "Premi d'afecció"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "El sòl rural es valora, segons la legislació estatal de sòl, per:",
+      "options": [
+        "Capitalització de la renda de l'explotació, sense expectatives urbanístiques",
+        "Aplicació de l'edificabilitat futura que el planejament li pugui arribar a atribuir en un moment posterior",
+        "El valor cadastral",
+        "Subhasta pública"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la valoració del sòl rural. Correcta (a): per capitalització de la renda, sense expectatives. Per què no: (b) descriu el sòl urbanitzat; (c) i (d) són incorrectes. Base: TRLS.",
+      "source": "TRLSRU",
+      "article": "Sòl rural"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "El sòl urbanitzat es valora aplicant a l'edificabilitat i l'ús atribuïts:",
+      "options": [
+        "El valor de repercussió del sòl, obtingut pel mètode residual",
+        "Un coeficient fix idèntic per a tot el territori de l'Estat amb independència de la localització concreta",
+        "El valor en renda agrària",
+        "El cost de l'arrendament"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la valoració del sòl urbanitzat. Correcta (a): edificabilitat × valor de repercussió (mètode residual). Per què no: (b), (c) i (d) són incorrectes. Base: TRLS.",
+      "source": "TRLSRU",
+      "article": "Sòl urbanitzat"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Les construccions i edificacions ajustades a la legalitat es valoren pel mètode de:",
+      "options": [
+        "Cost de reposició depreciat segons l'antiguitat i l'estat de conservació",
+        "Capitalització de la renda agrària potencial del terreny on s'assenten les edificacions concretes",
+        "Valor d'afecció",
+        "Subhasta"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la valoració de construccions. Correcta (a): cost de reposició depreciat. Per què no: (b), (c) i (d) són incorrectes. Base: TRLS.",
+      "source": "TRLSRU",
+      "article": "Construccions"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "El principi de tipicitat en la potestat sancionadora exigeix que:",
+      "options": [
+        "Les infraccions i sancions estiguin previstes prèviament, sense aplicació analògica",
+        "L'administració pugui crear noves infraccions a partir de conductes semblants no previstes expressament",
+        "Les sancions siguin sempre privatives de llibertat",
+        "No calgui norma habilitant"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la tipicitat. Correcta (a): exigeix previsió prèvia de la infracció i la sanció, sense analogia. Per què no: (b) prohibeix l'analogia; (c) l'AP no imposa penes de presó; (d) cal llei. Base: art. 27 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "Tipicitat"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "En el procediment sancionador, la presumpció d'innocència implica que:",
+      "options": [
+        "La càrrega de provar els fets correspon a l'administració",
+        "És la persona expedientada qui ha de demostrar que no ha comès cap mena d'infracció administrativa",
+        "No cal practicar cap prova",
+        "Els fets es presumeixen certs sempre"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la presumpció d'innocència. Correcta (a): la càrrega de la prova és de l'administració. Per què no: (b), (c) i (d) la contradiuen. Base: art. 28 i 53 Llei 39-40/2015.",
+      "source": "L40_2015",
+      "article": "Presumpció d'innocència"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Una garantia essencial del procediment sancionador és:",
+      "options": [
+        "La separació entre la fase instructora i la fase resolutòria",
+        "L'acumulació en un sol òrgan de la instrucció i la resolució per agilitar al màxim la tramitació",
+        "La supressió del tràmit d'audiència",
+        "La irrecurribilitat de la sanció"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta una garantia. Correcta (a): la separació entre instrucció i resolució (òrgans diferents). Per què no: (b), (c) i (d) vulneren les garanties. Base: art. 63 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "Separació de fases"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Les infraccions urbanístiques es classifiquen, segons la seva gravetat, en:",
+      "options": [
+        "Lleus, greus i molt greus",
+        "Simples, qualificades i extraordinàries, en funció del valor econòmic de l'obra il·legalment executada",
+        "Públiques i privades",
+        "Doloses i culposes"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la classificació. Correcta (a): lleus, greus i molt greus. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Classificació infraccions"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Són responsables d'una infracció urbanística, entre altres:",
+      "options": [
+        "El promotor, el constructor i el tècnic director de les obres",
+        "Únicament i en exclusiva el propietari registral del terreny, amb independència de qui hagi executat l'obra",
+        "Només l'ajuntament",
+        "Cap persona física"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els responsables. Correcta (a): promotor, constructor i tècnic director (i si escau propietaris). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Responsables"
+    },
+    {
+      "theme": 71,
+      "block": 12,
+      "q": "La quantia de les sancions urbanístiques es determina, principalment, en funció de:",
+      "options": [
+        "La gravetat de la infracció, sovint com un percentatge del valor de l'obra",
+        "L'antiguitat de l'expedient i el nombre total d'al·legacions que hagi presentat la persona interessada",
+        "El nombre d'habitants del municipi",
+        "L'estació de l'any"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la quantia. Correcta (a): segons la gravetat, sovint un percentatge del valor de l'obra. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Quantia"
+    },
+    {
+      "theme": 71,
+      "block": 12,
+      "q": "Un principi essencial de les sancions urbanístiques és que la sanció:",
+      "options": [
+        "Mai no pot suposar un benefici econòmic per a l'infractor",
+        "Pot ser inferior al benefici obtingut per l'infractor sempre que es tracti d'una primera infracció lleu",
+        "No es pot graduar",
+        "És sempre la mateixa"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el principi. Correcta (a): la sanció mai no pot suposar un benefici; si cal, s'incrementa fins a igualar-lo. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Benefici il·lícit"
+    },
+    {
+      "theme": 71,
+      "block": 12,
+      "q": "La sanció urbanística (multa) i el deure de restaurar la legalitat són:",
+      "options": [
+        "Independents i compatibles entre si",
+        "Excloents, de manera que la imposició de la multa eximeix del deure d'enderrocar o reposar la realitat alterada",
+        "Idèntics",
+        "Alternatius a elecció de l'infractor"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la relació. Correcta (a): són independents i compatibles. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Compatibilitat"
+    },
+    {
+      "theme": 72,
+      "block": 12,
+      "q": "El deure de conservació obliga els propietaris a mantenir els immobles en condicions de:",
+      "options": [
+        "Seguretat, salubritat i ornament públic",
+        "Màxima rendibilitat econòmica i actualització estètica permanent segons les modes arquitectòniques vigents",
+        "Ocupació permanent",
+        "Cessió gratuïta"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta el deure de conservació. Correcta (a): seguretat, salubritat i ornament. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Conservació"
+    },
+    {
+      "theme": 72,
+      "block": 12,
+      "q": "L'ordre d'execució és l'acte pel qual l'administració:",
+      "options": [
+        "Imposa al propietari les obres necessàries i el termini per fer-les",
+        "Atorga al propietari una subvenció automàtica per finançar la totalitat de les obres de conservació necessàries",
+        "Expropia l'immoble",
+        "Concedeix una llicència"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta l'ordre d'execució. Correcta (a): imposa les obres necessàries i el termini. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Ordre d'execució"
+    },
+    {
+      "theme": 72,
+      "block": 12,
+      "q": "Si el propietari no compleix una ordre d'execució dins el termini, l'administració pot:",
+      "options": [
+        "Procedir a l'execució subsidiària a càrrec de l'obligat o imposar multes coercitives",
+        "Donar per perdut el dret a exigir les obres i arxivar definitivament l'expedient sense cap més actuació",
+        "Atorgar-li una pròrroga il·limitada",
+        "Reduir-li els impostos"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta l'incompliment. Correcta (a): execució subsidiària a càrrec de l'obligat o multes coercitives. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Execució subsidiària"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "L'acció de restauració de la legalitat urbanística prescriu, amb caràcter general, al cap de:",
+      "options": [
+        "Sis anys des de l'acabament total de les obres",
+        "Sis mesos des que l'administració té coneixement de la infracció comesa per la persona responsable",
+        "Vint anys",
+        "Un any"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la prescripció. Correcta (a): 6 anys des de l'acabament total (imprescriptible en sòl no urbanitzable protegit). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Prescripció"
+    },
+    {
+      "theme": 73,
+      "block": 12,
+      "q": "La prescripció de l'acció de restauració de la legalitat urbanística:",
+      "options": [
+        "No legalitza les obres, només impedeix l'exercici de l'acció de restauració",
+        "Suposa la legalització plena i automàtica de les obres, que passen a ser plenament conformes amb el pla",
+        "Comporta una sanció afegida",
+        "Obliga a enderrocar"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta els efectes. Correcta (a): no legalitza; deixa les obres en situació assimilada a fora d'ordenació. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
+      "source": "TRLUC",
+      "article": "Efectes prescripció"
+    },
+    {
+      "theme": 74,
+      "block": 12,
+      "q": "Una llicència que atorga facultats urbanístiques contràries al planejament és, en general:",
+      "options": [
+        "Nul·la de ple dret",
+        "Plenament vàlida mentre no s'impugni davant la jurisdicció contenciosa administrativa per un tercer interessat",
+        "Anul·lable per silenci",
+        "Convalidable pel transcurs del temps"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la qualificació. Correcta (a): nul·la de ple dret (art. 47 Llei 39/2015). Per què no: (b), (c) i (d) són incorrectes. Base: art. 47 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "Nul·litat"
+    },
+    {
+      "theme": 74,
+      "block": 12,
+      "q": "Els actes administratius nuls de ple dret es revisen mitjançant:",
+      "options": [
+        "La revisió d'ofici de l'article 106 de la Llei 39/2015, sense subjecció a termini",
+        "La declaració de lesivitat, que s'ha de dictar en el termini màxim de quatre anys i impugnar després",
+        "Un recurs d'alçada",
+        "Una simple resolució"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la via per als actes nuls. Correcta (a): revisió d'ofici (art. 106), sense termini, amb dictamen consultiu. Per què no: (b) és per als anul·lables favorables; (c) i (d) són incorrectes. Base: art. 106 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "Art. 106"
+    },
+    {
+      "theme": 74,
+      "block": 12,
+      "q": "Per deixar sense efecte un acte anul·lable favorable als interessats, l'administració ha de:",
+      "options": [
+        "Declarar-lo lesiu per a l'interès públic i impugnar-lo davant la jurisdicció contenciosa",
+        "Limitar-se a dictar una resolució que l'anul·li directament d'ofici sense cap altre tràmit ni control judicial",
+        "Esperar que prescrigui",
+        "Atorgar una indemnització i prou"
+      ],
+      "correct": 0,
+      "explain": "Es pregunta la declaració de lesivitat. Correcta (a): declaració de lesivitat (art. 107) i impugnació contenciosa. Per què no: (b), (c) i (d) són incorrectes. Base: art. 107 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "Art. 107"
     }
   ]
 }
