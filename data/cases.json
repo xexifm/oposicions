@@ -3564,6 +3564,465 @@
       "sources": [
         "TRLUC"
       ]
+    },
+    {
+      "id": "c50-pdu",
+      "theme": 50,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Pla director urbanístic i jerarquia del planejament",
+      "context": "La Generalitat aprova un pla director urbanístic que estableix determinacions sobre el sòl no urbanitzable i infraestructures d'abast supramunicipal que afecten el terme municipal. El POUM vigent en contradiu algunes previsions.",
+      "prompt": "Expliqueu què és un PDU, qui l'aprova, la seva posició en la jerarquia del planejament i què ha de fer el municipi davant la contradicció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El PDU és un instrument de planejament d'abast supramunicipal",
+          "weight": 12,
+          "keywords": [
+            [
+              "pla director",
+              "pdu"
+            ],
+            [
+              "supramunicipal",
+              "abast supramunicipal"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'aprova l'administració urbanística de la Generalitat",
+          "weight": 11,
+          "keywords": [
+            [
+              "generalitat"
+            ],
+            [
+              "aprova",
+              "administracio urbanistica"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "El PDU (i els plans territorials) prevalen sobre el planejament municipal",
+          "weight": 13,
+          "keywords": [
+            [
+              "prevalen",
+              "prevalencia",
+              "jerarquia"
+            ],
+            [
+              "planejament municipal",
+              "poum"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "El POUM s'hi ha d'ajustar (adaptar les previsions contradictòries)",
+          "weight": 9,
+          "keywords": [
+            [
+              "s'ha d'ajustar",
+              "adaptar",
+              "ajustar-se"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El pla director urbanístic (PDU) és una figura de planejament d'abast supramunicipal (art. 56 TRLUC), que pot establir directrius de coordinació, determinacions sobre el sòl no urbanitzable, mesures de protecció i previsions d'infraestructures i reserves de sòl. L'aprova l'administració urbanística de la Generalitat. En la jerarquia del planejament, els plans territorials i els plans directors urbanístics prevalen sobre el planejament urbanístic municipal (el POUM i el planejament derivat) en el seu àmbit. Per tant, davant la contradicció, el municipi ha d'ajustar el seu planejament a les determinacions del PDU: les previsions del POUM que el contradiguin queden desplaçades, i el municipi ha de tramitar, si escau, la modificació o l'adaptació del POUM perquè s'hi adeqüi.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c52-pla-parcial",
+      "theme": 52,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Desenvolupament del sòl urbanitzable mitjançant pla parcial",
+      "context": "Un sector de sòl urbanitzable delimitat pel POUM s'ha de desenvolupar per fer-lo apte per a l'edificació. Es planteja quina figura de planejament cal i com es tramita.",
+      "prompt": "Indiqueu la figura de planejament procedent, el seu objecte i la tramitació i aprovació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La figura procedent és el pla parcial urbanístic",
+          "weight": 12,
+          "keywords": [
+            [
+              "pla parcial"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Objecte: ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació",
+          "weight": 13,
+          "keywords": [
+            [
+              "ordenar detalladament",
+              "ordenacio detallada"
+            ],
+            [
+              "apte per a l'edificacio",
+              "edificacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Tramitació: aprovació inicial i provisional municipal amb informació pública",
+          "weight": 12,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "aprovacio provisional"
+            ],
+            [
+              "informacio publica"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Aprovació definitiva (municipal o de la Generalitat segons el cas)",
+          "weight": 8,
+          "keywords": [
+            [
+              "aprovacio definitiva"
+            ],
+            [
+              "municipi",
+              "generalitat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Per desenvolupar un sector de sòl urbanitzable delimitat cal un pla parcial urbanístic, que té per objecte ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació: estableix la qualificació detallada, els sistemes locals, els paràmetres d'edificació i ús i les determinacions de gestió (arts. 65-70 TRLUC). La tramitació consisteix en l'aprovació inicial per l'Ajuntament, seguida d'informació pública (i sol·licitud d'informes als organismes afectats), la resolució de les al·legacions i l'aprovació provisional, i finalment l'aprovació definitiva, que correspon al mateix municipi (quan deriva d'un planejament general adaptat i el municipi en té la competència) o a la Generalitat, segons el cas. La publicació de l'acord i de les normes urbanístiques en determina l'executivitat.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c53-iniciativa-privada",
+      "theme": 53,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Iniciativa privada en el planejament",
+      "context": "Una promotora redacta i presenta a l'Ajuntament un pla de millora urbana per a un àmbit de sòl urbà, i sosté que l'Ajuntament està obligat a aprovar-lo en els termes proposats.",
+      "prompt": "Valoreu si la iniciativa privada és possible, si vincula l'Administració i quins límits hi ha.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La iniciativa privada en el planejament derivat és possible",
+          "weight": 11,
+          "keywords": [
+            [
+              "iniciativa privada"
+            ],
+            [
+              "es possible",
+              "poden formular",
+              "particulars"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Es presenta a l'Ajuntament, que la tramita i la resol de manera motivada",
+          "weight": 11,
+          "keywords": [
+            [
+              "ajuntament"
+            ],
+            [
+              "tramita",
+              "resol",
+              "motivada"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La proposta NO vincula l'Administració (potestat de planejament pública i indisponible)",
+          "weight": 14,
+          "keywords": [
+            [
+              "no vincula",
+              "no obliga"
+            ],
+            [
+              "potestat publica",
+              "indisponible",
+              "ius variandi"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "L'Administració pot acceptar, modificar o denegar la proposta",
+          "weight": 9,
+          "keywords": [
+            [
+              "acceptar",
+              "modificar",
+              "denegar"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La iniciativa privada en la formulació del planejament derivat és possible: els particulars poden redactar i promoure figures com els plans de millora urbana i presentar-les a l'Ajuntament (arts. 101-102 TRLUC). Ara bé, la proposta NO vincula l'Administració: la potestat de planejament és pública i indisponible, i l'Administració conserva l'ius variandi (la potestat de decidir l'ordenació en interès públic). Per tant, l'Ajuntament tramita la proposta conforme al procediment d'aprovació i la resol de manera motivada, podent acceptar-la, modificar-la o denegar-la; no està obligat a aprovar-la en els termes proposats per la promotora. Els convenis urbanístics que acompanyin la iniciativa tampoc no poden substituir el procediment ni alterar el règim legal del sòl.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c54-efectes-planejament",
+      "theme": 54,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Efectes de l'aprovació del planejament i fora d'ordenació",
+      "context": "Un nou POUM qualifica com a zona verda uns terrenys on hi ha una nau industrial en funcionament, que esdevé disconforme amb la nova ordenació. El propietari pregunta quins efectes té l'aprovació del pla sobre la seva edificació.",
+      "prompt": "Expliqueu els efectes de l'aprovació del planejament i el règim de la construcció que esdevé disconforme.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "L'aprovació definitiva i la publicació fan el pla executiu i obligatori per a tothom",
+          "weight": 12,
+          "keywords": [
+            [
+              "executiu",
+              "executivitat"
+            ],
+            [
+              "obligatori",
+              "publicacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'aprovació legitima les expropiacions necessàries per executar el pla",
+          "weight": 10,
+          "keywords": [
+            [
+              "legitima",
+              "expropiacio",
+              "utilitat publica"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La nau disconforme queda en situació de fora d'ordenació (o volum disconforme)",
+          "weight": 14,
+          "keywords": [
+            [
+              "fora d'ordenacio",
+              "volum disconforme"
+            ],
+            [
+              "disconforme"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "En fora d'ordenació, les obres permeses són limitades (no consolidació)",
+          "weight": 9,
+          "keywords": [
+            [
+              "obres limitades",
+              "limitacions",
+              "nomes obres de"
+            ],
+            [
+              "no consolidacio",
+              "no s'augmenta"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'aprovació definitiva i la publicació de les normes urbanístiques fan el planejament executiu i obligatori per a les administracions i els particulars (art. 106 TRLUC), i en legitimen les expropiacions necessàries per executar-lo (amb la corresponent declaració d'utilitat pública). Pel que fa a la nau industrial preexistent que esdevé disconforme amb la nova qualificació de zona verda, queda en situació de fora d'ordenació (si és totalment incompatible amb el pla) o de volum disconforme (si només és parcialment disconforme). En situació de fora d'ordenació, les obres autoritzables són molt limitades (en general, només les de conservació, higiene i seguretat estrictament necessàries, sense consolidar ni augmentar el volum ni l'aprofitament), atès que el destí previst és l'adequació a la nova ordenació.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c57-parcellacio",
+      "theme": 57,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Parcel·lació en sòl no urbanitzable",
+      "context": "En sòl no urbanitzable, una persona ha dividit una finca i ha obert camins i implantat serveis bàsics a cada lot, sense sol·licitar cap llicència. L'Ajuntament ho detecta.",
+      "prompt": "Expliqueu el règim de les parcel·lacions urbanístiques en sòl no urbanitzable, la presumpció de parcel·lació i les conseqüències.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "En sòl no urbanitzable les parcel·lacions urbanístiques estan prohibides",
+          "weight": 13,
+          "keywords": [
+            [
+              "prohibides",
+              "prohibicio"
+            ],
+            [
+              "parcel·lacio urbanistica",
+              "parcellacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Opera la presumpció de parcel·lació davant indicis materials (camins, serveis)",
+          "weight": 13,
+          "keywords": [
+            [
+              "presumpcio",
+              "presumpcio de parcellacio"
+            ],
+            [
+              "indicis",
+              "camins",
+              "serveis"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'actuació és il·legal i activa la protecció de la legalitat urbanística",
+          "weight": 11,
+          "keywords": [
+            [
+              "illegal",
+              "legalitat urbanistica",
+              "restauracio",
+              "disciplina"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Control notarial i registral (cal llicència o declaració d'innecessarietat)",
+          "weight": 8,
+          "keywords": [
+            [
+              "notari",
+              "registre",
+              "registral"
+            ],
+            [
+              "llicencia",
+              "innecessarietat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques (art. 188 TRLUC), és a dir, les divisions de terrenys que puguin donar lloc a la implantació d'usos urbans o a la formació de nous nuclis de població. La llei estableix una presumpció de parcel·lació urbanística quan, en aquesta classe de sòl, s'observen indicis materials —com l'obertura de camins, la implantació de serveis o la disposició d'edificacions— que pressuposen una transformació urbana, com passa en el cas. Per tant, l'actuació és il·legal: l'Ajuntament ha d'incoar el procediment de protecció de la legalitat urbanística (restauració de la realitat alterada) i el corresponent expedient sancionador. A més, els notaris i registradors exigeixen l'acreditació de la llicència de parcel·lació o de la declaració d'innecessarietat per autoritzar o inscriure divisions o segregacions.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c58-proteccio-legalitat",
+      "theme": 58,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Protecció de la legalitat: obres en curs sense llicència",
+      "context": "Els serveis tècnics detecten que s'estan executant unes obres sense llicència en sòl urbà. Les obres semblen conformes amb el planejament i, per tant, legalitzables.",
+      "prompt": "Expliqueu les actuacions de protecció de la legalitat urbanística (inspecció, suspensió, legalització o restauració) i la seva relació amb la sanció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La inspecció urbanística comprova la legalitat (agents de l'autoritat)",
+          "weight": 10,
+          "keywords": [
+            [
+              "inspeccio urbanistica",
+              "inspeccio"
+            ],
+            [
+              "agents de l'autoritat",
+              "comprovar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Obres en curs sense llicència: ordre de suspensió immediata (mesura cautelar)",
+          "weight": 13,
+          "keywords": [
+            [
+              "suspensio",
+              "suspensio immediata",
+              "paralitzacio"
+            ],
+            [
+              "cautelar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Si són legalitzables: requeriment per sol·licitar la llicència; si no, restauració",
+          "weight": 12,
+          "keywords": [
+            [
+              "legalitzable",
+              "sollicitar llicencia"
+            ],
+            [
+              "restauracio",
+              "enderroc"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La restauració i la sanció són independents i compatibles",
+          "weight": 10,
+          "keywords": [
+            [
+              "independents",
+              "compatibles"
+            ],
+            [
+              "sancio",
+              "restauracio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Davant d'unes obres en curs sense llicència, l'Ajuntament exerceix la protecció de la legalitat urbanística (TRLUC). La inspecció urbanística, el personal de la qual té la condició d'agent de l'autoritat, comprova els fets i aixeca acta. Com que les obres estan en curs, s'ordena la seva suspensió immediata com a mesura cautelar. A continuació, atès que les obres semblen conformes amb el planejament (legalitzables), es requereix la persona perquè, en el termini corresponent, sol·liciti la llicència i les legalitzi; si no fossin legalitzables, s'ordenaria la restauració de la realitat física alterada (enderroc o reposició). Aquestes actuacions de restabliment de la legalitat són independents i compatibles amb la incoació del corresponent procediment sancionador per la infracció comesa: la imposició de la multa no eximeix del deure de legalitzar o restaurar, i a la inversa.",
+      "sources": [
+        "TRLUC"
+      ]
     }
   ]
 }
