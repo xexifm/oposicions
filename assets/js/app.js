@@ -35,6 +35,93 @@ function normRef(key){
   return n ? n : { name:key, url:'#' };
 }
 
+/* ---------------------------------------------------------------------------
+   Enllaçat automàtic de normes i articles dins del text dels resums.
+   Detecta sigles (TRLUC, LRBRL…) i formes "Llei 39/2015" i les enllaça al
+   text consolidat; si davant hi ha "art. N", afegeix l'àncora #a<N> (BOE).
+   --------------------------------------------------------------------------- */
+const LAW_TOKENS = [
+  ['Llei 39/2015','L39_2015'], ['Llei 40/2015','L40_2015'], ['Llei 19/2014','L19_2014'],
+  ['Llei 18/2007','L18_2007'], ['Llei 20/2009','L20_2009'], ['Llei 11/2009','L11_2009'],
+  ['Llei 11/2025','L11_2025'], ['Llei 31/1995','L31_1995'], ['Llei 38/2003','L38_2003'],
+  ['Llei 33/2003','L33_2003'], ['Llei 9/2017','LCSP'], ['Llei 7/1985','LRBRL'],
+  ['Llei 38/1999','LOE'], ['RD 171/2004','RD171_2004'], ['RD 500/1990','RD500_1990'],
+  ['Decret 179/1995','ROAS'], ['Decret 305/2006','RLUC'], ['Decret 336/1988','D336_1988'],
+  ['TRLSRU','TRLSRU'], ['TRLUC','TRLUC'], ['TRLHL','TRLHL'], ['TREBEP','TREBEP'],
+  ['LOPDGDD','LOPDGDD'], ['LRBRL','LRBRL'], ['RLUC','RLUC'], ['LCSP','LCSP'],
+  ['ROAS','ROAS'], ['RGPD','RGPD'], ['TRRL','TRRL'], ['LEF','LEF'], ['LOE','LOE'],
+  ['CTE','CTE'], ['EAC','EAC2006'], ['Estatut d\'autonomia','EAC2006'],
+];
+const _escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const _normTok = s => s.toUpperCase().replace(/\s+/g,' ').replace(/’/g,"'").trim();
+const TOK_KEY = {}; LAW_TOKENS.forEach(([t,k])=>{ TOK_KEY[_normTok(t)] = k; });
+const _alts = LAW_TOKENS.map(([t])=>_escRe(t).replace(/\s+/g,'\\s+'))
+  .sort((a,b)=>b.length-a.length).join('|');
+const ART_PRE = "(?:\\b(?:arts?\\.?|articles?)\\s+(\\d+(?:\\.\\d+)?)\\s+(?:de\\s+(?:la|l'|l’|el)\\s+)?)?";
+const LAW_RE = new RegExp(ART_PRE + "\\b(" + _alts + ")\\b", "gi");
+const NORM_RE = new RegExp("\\b(" + _alts + ")\\b", "gi");
+
+/* Enllaça normes en un text JA escapat (esc). */
+function linkifyLaw(escaped){
+  if (!escaped) return escaped;
+  return escaped.replace(LAW_RE, (m, artNum, token)=>{
+    const key = TOK_KEY[_normTok(token)];
+    const ref = key && DATA.temari.norms[key];
+    if (!ref) return m;
+    const isBoe = /boe\.es/.test(ref.url);
+    const anchor = (artNum && isBoe) ? '#a'+artNum : '';
+    return `<a class="lawlink" href="${esc(ref.url)}${anchor}" target="_blank" rel="noopener" title="${esc(ref.name)}">${m}</a>`;
+  });
+}
+/* Conjunt de claus de normes esmentades en un text pla. */
+function detectNorms(plain){
+  const found = new Set(); let m;
+  NORM_RE.lastIndex = 0;
+  while ((m = NORM_RE.exec(plain))){ const k = TOK_KEY[_normTok(m[1])]; if (k) found.add(k); }
+  return found;
+}
+/* Glossari d'abreviacions a partir de les normes del tema + les detectades. */
+function glossaryHtml(resum, tema){
+  const keys = new Set((tema && tema.sources) || []);
+  let plain = (resum.intro||'') + ' ';
+  (resum.sections||[]).forEach(s=>{ plain += (s.p||'')+' '+((s.list||[]).join(' '))+' '+(s.key||'')+' '; });
+  plain += (resum.key||'');
+  flattenKeypoints(resum.keypoints||[]).forEach(t=> plain += ' '+t);
+  detectNorms(plain).forEach(k=>keys.add(k));
+  const ks = [...keys].filter(k=>DATA.temari.norms[k]);
+  if (!ks.length) return '';
+  ks.sort((a,b)=>DATA.temari.norms[a].name.localeCompare(DATA.temari.norms[b].name,'ca'));
+  const items = ks.map(k=>{
+    const n = DATA.temari.norms[k];
+    return `<li><a class="lawlink" href="${esc(n.url)}" target="_blank" rel="noopener"><b>${esc(k)}</b></a> — ${esc(n.name)}</li>`;
+  }).join('');
+  return `<details class="gloss" open><summary>📖 Glossari d'abreviacions</summary><ul>${items}</ul></details>`;
+}
+function flattenKeypoints(kp){
+  const out = [];
+  (kp||[]).forEach(g=>{
+    if (typeof g==='string'){ out.push(g); return; }
+    if (g.h) out.push(g.h);
+    (g.p||[]).forEach(it=>{ if (typeof it==='string') out.push(it); else { if(it.t) out.push(it.t); (it.sub||[]).forEach(x=>out.push(x)); } });
+  });
+  return out;
+}
+/* Esquema jeràrquic de repàs ràpid (keypoints). */
+function renderKeypoints(kp){
+  if (!kp || !kp.length) return '';
+  let html = '<div class="keysch"><div class="kcap">🧠 Repàs ràpid · esquema clau</div>';
+  kp.forEach(g=>{
+    if (typeof g==='string'){ html += `<div class="kgrp"><ul><li>${linkifyLaw(esc(g))}</li></ul></div>`; return; }
+    html += `<div class="kgrp">${g.h?`<b>${linkifyLaw(esc(g.h))}</b>`:''}<ul>`;
+    (g.p||[]).forEach(it=>{
+      if (typeof it==='string'){ html += `<li>${linkifyLaw(esc(it))}</li>`; }
+      else { html += `<li>${linkifyLaw(esc(it.t||''))}${(it.sub||[]).length?`<ul>${it.sub.map(x=>`<li>${linkifyLaw(esc(x))}</li>`).join('')}</ul>`:''}</li>`; }
+    });
+    html += '</ul></div>';
+  });
+  return html + '</div>';
+}
+
 /* ===========================================================================
    ROUTER
    =========================================================================== */
@@ -152,6 +239,18 @@ function estudi(){
     <div id="temalist"></div>`;
 
   const listEl = byId('temalist');
+  const stats = store.themeStats();
+  function pctClass(p){ return p>=75?'good':(p>=50?'mid':'bad'); }
+  function statBadges(num){
+    const ts = stats[num];
+    let html='';
+    if (ts && ts.qTot){ const p=Math.round(ts.qOk/ts.qTot*100);
+      html+=`<span class="tstat ${pctClass(p)}" title="${ts.qOk} encerts de ${ts.qTot} preguntes contestades">test ${p}%</span>`; }
+    if (ts && ts.cMax){ const p=Math.round(ts.cPts/ts.cMax*100);
+      html+=`<span class="tstat ${pctClass(p)}" title="punts de casos acumulats">casos ${p}%</span>`; }
+    if (!html) html='<span class="tstat none">sense dades</span>';
+    return html;
+  }
   function draw(filter){
     const f = (filter||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
     const match = t => {
@@ -170,8 +269,9 @@ function estudi(){
         const hasResum = DATA.resums[t.num];
         html += `<a class="tema-item" href="#/tema/${t.num}">
           <span class="tn">${t.num}</span>
-          <span><span class="tt">${esc(t.title)}</span></span>
-          <span class="badge">${done?'✓ repassat':''} ${hasResum?'':'· resum en preparació'}</span>
+          <span class="tmid"><span class="tt">${esc(t.title)}</span>
+            <span class="tstats">${done?'<span class="tstat done">✓ repassat</span>':''}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
+          </span>
         </a>`;
       });
     });
@@ -199,7 +299,7 @@ function temaView(num){
 
   let body;
   if (resum){
-    body = renderResum(resum);
+    body = renderResum(resum, tema);
   } else {
     body = `<div class="notice">El resum detallat d'aquest tema encara s'està preparant
       (s'aniran afegint per fases). Mentrestant, consulta les fonts oficials de sota i practica
@@ -233,17 +333,19 @@ function temaView(num){
   });
 }
 
-function renderResum(r){
-  let html = '';
-  if (r.intro) html += `<p>${esc(r.intro)}</p>`;
+function renderResum(r, tema){
+  let html = glossaryHtml(r, tema);
+  if (r.intro) html += `<p>${linkifyLaw(esc(r.intro))}</p>`;
   (r.sections||[]).forEach(s=>{
     if (s.h) html += `<h3>${esc(s.h)}</h3>`;
-    if (s.p) html += `<p>${esc(s.p)}</p>`;
-    if (s.list) html += `<ul>${s.list.map(li=>`<li>${esc(li)}</li>`).join('')}</ul>`;
-    if (s.key) html += `<div class="keyfact">💡 ${esc(s.key)}</div>`;
+    if (s.p) html += `<p>${linkifyLaw(esc(s.p))}</p>`;
+    if (s.list) html += `<ul>${s.list.map(li=>`<li>${linkifyLaw(esc(li))}</li>`).join('')}</ul>`;
+    if (s.key) html += `<div class="keyfact">💡 ${linkifyLaw(esc(s.key))}</div>`;
     if (s.scheme) html += renderScheme(s.scheme);
   });
-  if (r.key) html += `<div class="keyfact">💡 <b>Clau:</b> ${esc(r.key)}</div>`;
+  // Esquema jeràrquic de repàs (nou). Si no n'hi ha, mostrem la clau textual.
+  if (r.keypoints && r.keypoints.length) html += renderKeypoints(r.keypoints);
+  if (r.key) html += `<div class="keyfact">💡 <b>Clau:</b> ${linkifyLaw(esc(r.key))}</div>`;
   return html;
 }
 
@@ -266,19 +368,43 @@ function renderScheme(sc){
    =========================================================================== */
 function examenConfig(){
   const params = new URLSearchParams((location.hash.split('?')[1])||'');
-  const preBlock = params.get('block') || 'all';
+  const preBlock = params.get('block');
   const blocks = DATA.temari.blocks;
+  const temari = DATA.temari.temari;
   const s = store.settings();
-  const blockOpts = ['<option value="all">Tot el temari (90 temes)</option>']
-    .concat(Object.keys(blocks).sort((a,b)=>a-b).map(b=>
-      `<option value="${b}" ${b===preBlock?'selected':''}>Bloc ${b} · ${esc(blocks[b])}</option>`)).join('');
+  const allThemes = temari.map(t=>t.num);
+  const themesOfBlock = b => temari.filter(t=>String(t.block)===String(b)).map(t=>t.num);
+
+  // selecció inicial: un bloc si ve per paràmetre, si no tot el temari
+  const sel = new Set(preBlock ? themesOfBlock(preBlock) : allThemes);
+
+  // grups de blocs amb els seus temes
+  const blockPick = Object.keys(blocks).sort((a,b)=>a-b).map(b=>{
+    const ths = themesOfBlock(b);
+    const chips = ths.map(n=>{
+      const t = temari.find(x=>x.num===n);
+      return `<label class="thchip"><input type="checkbox" data-theme="${n}" ${sel.has(n)?'checked':''}>
+        <span>${n}</span></label>`;
+    }).join('');
+    return `<div class="blockpick">
+      <label class="blocktoggle"><input type="checkbox" data-block="${b}"> <b>Bloc ${b}</b> · ${esc(blocks[b])}</label>
+      <div class="themes">${chips}</div></div>`;
+  }).join('');
 
   view.innerHTML = `
     <h1>Configura l'examen</h1>
     <p class="lead">Tria com vols practicar. La puntuació segueix la Base 7.7 de la convocatòria.</p>
     <div class="card">
-      <label class="field"><span>Bloc del temari</span>
-        <select id="cfgBlock">${blockOpts}</select></label>
+      <div class="field"><span>Àmbit · pots triar diversos blocs o temes</span>
+        <div class="row" style="gap:6px;flex-wrap:wrap;margin-bottom:8px">
+          <button type="button" class="chip" id="selAll">Tot el temari</button>
+          <button type="button" class="chip" id="selNone">Buidar selecció</button>
+        </div>
+        <details class="themepick" id="themepick">
+          <summary>Triar blocs i temes concrets · <span id="selcount"></span></summary>
+          ${blockPick}
+        </details>
+      </div>
 
       <div class="field"><span>Preguntes tipus test (Prova 1)</span>
         <div class="seg" id="cfgN">
@@ -302,18 +428,53 @@ function examenConfig(){
       <p class="muted" id="avail" style="margin:.7em 0 0;font-size:.85rem"></p>
     </div>`;
 
-  let cfg = { block:preBlock, n:(s.n||20), cases:(s.cases??1), timer:60 };
-  const updateAvail = ()=>{
-    const qs = poolQuestions(cfg.block).length;
-    const cs = poolCases(cfg.block).length;
-    byId('avail').textContent = `Disponibles en aquesta selecció: ${qs} preguntes test · ${cs} casos pràctics.`;
-  };
-  byId('cfgBlock').addEventListener('change', e=>{cfg.block=e.target.value;updateAvail();});
+  let cfg = { n:(s.n||20), cases:(s.cases??1), timer:60 };
+  const themeCbs = ()=>$$('input[data-theme]');
+  const blockCbs = ()=>$$('input[data-block]');
+
+  function syncBlockToggles(){
+    blockCbs().forEach(cb=>{
+      const ths = themesOfBlock(cb.dataset.block);
+      const on = ths.filter(n=>sel.has(n)).length;
+      cb.checked = on===ths.length && on>0;
+      cb.indeterminate = on>0 && on<ths.length;
+    });
+    const allOn = sel.size===allThemes.length;
+    byId('selAll').classList.toggle('on', allOn);
+    byId('selcount').textContent = allOn ? 'tot el temari' : `${sel.size} tema(es)`;
+  }
+  function updateAvail(){
+    const qs = poolQuestions(sel).length, cs = poolCases(sel).length;
+    byId('avail').textContent = sel.size
+      ? `Disponibles en aquesta selecció: ${qs} preguntes test · ${cs} casos pràctics.`
+      : 'Selecciona com a mínim un tema o un bloc.';
+  }
+  function refresh(){ syncBlockToggles(); updateAvail(); }
+
+  themeCbs().forEach(cb=>cb.addEventListener('change', ()=>{
+    const n=+cb.dataset.theme; cb.checked?sel.add(n):sel.delete(n); refresh();
+  }));
+  blockCbs().forEach(cb=>cb.addEventListener('change', ()=>{
+    themesOfBlock(cb.dataset.block).forEach(n=>{ cb.checked?sel.add(n):sel.delete(n); });
+    themeCbs().forEach(t=>{ t.checked = sel.has(+t.dataset.theme); });
+    refresh();
+  }));
+  byId('selAll').addEventListener('click', ()=>{
+    allThemes.forEach(n=>sel.add(n)); themeCbs().forEach(t=>t.checked=true); refresh();
+  });
+  byId('selNone').addEventListener('click', ()=>{
+    sel.clear(); themeCbs().forEach(t=>t.checked=false); refresh();
+  });
+  if (preBlock) byId('themepick').open = true;
+
   segHandler('cfgN', v=>{cfg.n=+v; store.setSetting('n',+v);});
   segHandler('cfgCases', v=>{cfg.cases=+v; store.setSetting('cases',+v);});
   byId('cfgTimer').addEventListener('change', e=>cfg.timer=+e.target.value);
-  byId('startBtn').addEventListener('click', ()=>startExam(cfg));
-  updateAvail();
+  byId('startBtn').addEventListener('click', ()=>{
+    if (!sel.size){ alert('Selecciona com a mínim un tema o un bloc.'); return; }
+    startExam({ ...cfg, themes:[...sel] });
+  });
+  refresh();
 }
 function segHandler(id, cb){
   byId(id).addEventListener('click', e=>{
@@ -322,23 +483,27 @@ function segHandler(id, cb){
     b.classList.add('on'); cb(b.dataset.v);
   });
 }
-function poolQuestions(block){
-  return DATA.questions.filter(q => block==='all' || String(q.block)===String(block) || isThemeInBlock(q.theme, block));
+/* themes: Set de números de tema, o null/undefined = tot el temari. */
+function asThemeSet(themes){
+  if (!themes) return null;
+  return themes instanceof Set ? themes : new Set(themes);
 }
-function poolCases(block){
-  return DATA.cases.filter(c => block==='all' || String(c.block)===String(block) || isThemeInBlock(c.theme, block));
+function poolQuestions(themes){
+  const set = asThemeSet(themes);
+  return DATA.questions.filter(q => !set || set.has(q.theme));
 }
-function isThemeInBlock(theme, block){
-  const t = DATA.temari.temari.find(x=>x.num===theme);
-  return t && String(t.block)===String(block);
+function poolCases(themes){
+  const set = asThemeSet(themes);
+  return DATA.cases.filter(c => !set || set.has(c.theme));
 }
 
 /* ===========================================================================
    EXAMEN EN CURS
    =========================================================================== */
 function startExam(cfg){
-  const qs = shuffle(poolQuestions(cfg.block)).slice(0, cfg.n).map(q=>({...q}));
-  const cs = shuffle(poolCases(cfg.block)).slice(0, cfg.cases).map(c=>({...c}));
+  const set = cfg.themes ? new Set(cfg.themes) : null;
+  const qs = shuffle(poolQuestions(set)).slice(0, cfg.n).map(q=>({...q}));
+  const cs = shuffle(poolCases(set)).slice(0, cfg.cases).map(c=>({...c}));
   if (qs.length===0 && cs.length===0){ alert('No hi ha contingut per a aquesta selecció.'); return; }
   examState = {
     cfg, qs, cs,
@@ -569,13 +734,33 @@ function renderResults(R){
   byId('saveBtn').addEventListener('click', e=>{
     const scoreB2 = partBTotal(caseResults, caseMax);
     const total2 = (scoreA||0)+(scoreB2||0);
+    const nThemes = (examState.cfg.themes||[]).length;
+    const totalThemes = DATA.temari.temari.length;
+    const label = (!nThemes || nThemes===totalThemes) ? 'all' : `${nThemes} temes`;
     store.saveExam({
       id:'ex_'+Date.now(), date:Date.now(),
-      block: examState.cfg.block, n: examState.qs.length, cases: caseResults.length,
+      block: label, n: examState.qs.length, cases: caseResults.length,
       correct, wrong, blank,
       scoreA: scoreA, scoreB: scoreB2, total: total2,
       apte: (scoreA===null||scoreA>=12.5) && (scoreB2===null||scoreB2>=22.5) && (scoreA!==null||scoreB2!==null),
     });
+    // estadístiques per tema: encerts test (sobre les contestades) i punts de casos
+    const qPerf = {};
+    examState.qs.forEach((q,i)=>{
+      const a = examState.answers[i];
+      if (a===null) return;                       // les no contestades no compten
+      const k = q.theme; (qPerf[k] ||= {tot:0,ok:0});
+      qPerf[k].tot++; if (a===q.correct) qPerf[k].ok++;
+    });
+    const casePerf = {};
+    caseResults.forEach(({c,ans})=>{
+      const pts = (ans.claude && typeof ans.claude.scoreFraction==='number')
+        ? ans.claude.scoreFraction*caseMax
+        : scoreFromChecks(c.criteria||[], ans.checks, caseMax).points;
+      const k = c.theme; (casePerf[k] ||= {pts:0,max:0});
+      casePerf[k].pts += pts; casePerf[k].max += caseMax;
+    });
+    store.recordThemePerf(qPerf, casePerf);
     e.target.textContent = '✓ Desat'; e.target.disabled = true;
   });
 }
@@ -598,7 +783,7 @@ function renderReviewA(){
     return `<div class="card">
       <div class="qmeta"><span class="qnum">Pregunta ${i+1}</span> ${status} ${themeLabel(q.theme)}</div>
       <p style="font-weight:500">${esc(q.q)}</p>${opts}
-      ${q.explain?`<div class="explain">${esc(q.explain)}
+      ${q.explain?`<div class="explain">${linkifyLaw(esc(q.explain))}
         ${src?`<br><a class="src" href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.name)}${q.article?', '+esc(q.article):''} ↗</a>`:''}</div>`:''}
     </div>`;
   }).join('');
@@ -816,10 +1001,10 @@ function mdToHtml(md){
     ln=ln.trimEnd();
     if (/^[-•]\s+/.test(ln)){
       if(!inList){html+='<ul>';inList=true;}
-      html+=`<li>${esc(ln.replace(/^[-•]\s+/,''))}</li>`;
+      html+=`<li>${linkifyLaw(esc(ln.replace(/^[-•]\s+/,'')))}</li>`;
     } else {
       if(inList){html+='</ul>';inList=false;}
-      if(ln.trim()) html+=`<p>${esc(ln)}</p>`;
+      if(ln.trim()) html+=`<p>${linkifyLaw(esc(ln))}</p>`;
     }
   }
   if(inList) html+='</ul>';
