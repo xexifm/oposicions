@@ -3724,6 +3724,201 @@
       "explain": "Es pregunta el dret de vaga. Correcta (b): els funcionaris tenen dret a l'exercici de la vaga, amb la garantia del manteniment dels serveis essencials de la comunitat (art. 15 TREBEP). Per què no: (a) sí que existeix; (c) no és il·limitat (cal garantir serveis essencials); (d) no es limita a l'àmbit local. Base: art. 15 TREBEP.",
       "source": "TREBEP",
       "article": "art. 15 TREBEP"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "El Consell de Garanties Estatutàries de Catalunya té com a funció:",
+      "options": [
+        "Resoldre els recursos d'empara dels ciutadans davant les administracions catalanes",
+        "Dictaminar sobre l'adequació de projectes normatius a l'Estatut i a la Constitució",
+        "Fiscalitzar els comptes i la gestió econòmica del sector públic català",
+        "Jutjar les causes penals contra els membres del Govern de la Generalitat"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la funció del CGE. Correcta (b): el Consell de Garanties Estatutàries dictamina sobre l'adequació a l'Estatut i a la Constitució dels projectes i proposicions normatives. Per què no: (a) l'empara és del TC; (c) és funció de la Sindicatura de Comptes; (d) no jutja causes penals. Base: art. 76 EAC.",
+      "source": "EAC2006",
+      "article": "art. 76 EAC"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "A Catalunya, quins ens locals propis preveu l'Estatut, a més del municipi?",
+      "options": [
+        "La província i la mancomunitat de municipis exclusivament",
+        "La comarca i la vegueria",
+        "El consorci i la societat municipal de capital públic",
+        "El districte i l'entitat metropolitana de transport"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta els ens locals propis de Catalunya. Correcta (b): l'Estatut configura com a ens locals propis, a més del municipi, la comarca i la vegueria (a més de les àrees metropolitanes i mancomunitats). Per què no: (a) és incompleta i no recull la vegueria; (c) el consorci i la societat no són ens locals territorials propis; (d) no són les categories estatutàries. Base: art. 83 i ss. EAC.",
+      "source": "EAC2006",
+      "article": "art. 83 EAC"
+    },
+    {
+      "theme": 8,
+      "block": 2,
+      "q": "Quan ha d'abstenir-se una autoritat o personal al servei de l'Administració?",
+      "options": [
+        "Sempre que la persona interessada en el procediment li ho sol·liciti per escrit",
+        "Quan concorri una causa d'abstenció, com l'interès personal o el parentiu proper",
+        "Únicament quan ho ordeni expressament el seu superior jeràrquic directe",
+        "Només en els procediments de caràcter sancionador o de responsabilitat patrimonial"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el deure d'abstenció. Correcta (b): qui concorri en una causa d'abstenció (interès personal, parentiu dins del quart grau, amistat íntima o enemistat, etc.) s'ha d'abstenir i comunicar-ho al superior (art. 23 Llei 40/2015). Per què no: (a) no depèn de la petició de l'interessat; (c) no cal una ordre del superior; (d) no es limita a sancionadors o responsabilitat. Base: art. 23 Llei 40/2015.",
+      "source": "L40_2015",
+      "article": "art. 23 Llei 40/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "La tramitació d'urgència d'un procediment administratiu comporta:",
+      "options": [
+        "L'eliminació del tràmit d'audiència a la persona interessada",
+        "La reducció a la meitat dels terminis establerts per al procediment ordinari",
+        "La resolució immediata sense necessitat de cap instrucció prèvia",
+        "L'ampliació automàtica dels terminis fins al doble de la seva durada"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la tramitació d'urgència. Correcta (b): la tramitació d'urgència redueix a la meitat els terminis establerts per al procediment ordinari (excepte els relatius a la presentació de sol·licituds i recursos) (art. 33 Llei 39/2015). Per què no: (a) no elimina l'audiència; (c) no suprimeix la instrucció; (d) no amplia els terminis, els redueix. Base: art. 33 Llei 39/2015.",
+      "source": "L39_2015",
+      "article": "art. 33 Llei 39/2015"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "La demora del contractista en el compliment dels terminis pot comportar:",
+      "options": [
+        "Un increment automàtic del preu del contracte a favor del contractista",
+        "La imposició de penalitats o, alternativament, la resolució del contracte",
+        "La pròrroga automàtica del termini sense cap conseqüència per al contractista",
+        "L'obligació de l'Administració d'indemnitzar el contractista pel retard"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la conseqüència de la demora. Correcta (b): la demora imputable al contractista permet a l'Administració optar entre imposar penalitats o resoldre el contracte (art. 193). Per què no: (a) no incrementa el preu; (c) no hi ha pròrroga automàtica sense conseqüència; (d) no indemnitza el contractista per un retard que li és imputable. Base: art. 193 LCSP.",
+      "source": "LCSP",
+      "article": "art. 193 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "El concessionari d'obres assumeix:",
+      "options": [
+        "Únicament la construcció de l'obra, mai la seva explotació posterior",
+        "El risc operacional de l'explotació de l'obra que construeix",
+        "Un risc compartit al 50% amb l'Administració concedent",
+        "Cap risc, perquè l'Administració li garanteix la recuperació de la inversió"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el risc en la concessió d'obres. Correcta (b): el concessionari assumeix el risc operacional de l'explotació (de demanda o disponibilitat); aquest és l'element definidor de la concessió (art. 14 LCSP). Per què no: (a) també n'assumeix l'explotació; (c) no és un risc compartit al 50%; (d) no té garantida la recuperació en condicions normals. Base: art. 14 LCSP.",
+      "source": "LCSP",
+      "article": "art. 14 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Un contracte de serveis no pot tenir per objecte:",
+      "options": [
+        "La neteja i el manteniment dels edificis de titularitat municipal",
+        "Funcions que impliquin l'exercici de l'autoritat inherent als poders públics",
+        "La redacció d'estudis i informes de caràcter tècnic per a l'Administració",
+        "La prestació de serveis de vigilància i seguretat privada de les instal·lacions"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el límit del contracte de serveis. Correcta (b): no poden tenir per objecte funcions que impliquin l'exercici de l'autoritat inherent als poders públics, reservades a funcionaris (art. 17). Per què no: (a), (c) i (d) són prestacions de fer admissibles com a contracte de serveis. Base: art. 17 LCSP.",
+      "source": "LCSP",
+      "article": "art. 17 LCSP"
+    },
+    {
+      "theme": 45,
+      "block": 11,
+      "q": "El sòl en situació de rural es valora:",
+      "options": [
+        "Aplicant l'edificabilitat màxima que el planejament li pugui atribuir en el futur",
+        "Per capitalització de la renda real o potencial de l'explotació",
+        "Pel valor de mercat dels solars edificables més pròxims",
+        "Pel valor cadastral incrementat per un coeficient d'actualització anual"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la valoració del sòl rural. Correcta (b): el sòl rural es valora per capitalització de la renda anual, real o potencial, de l'explotació, sense computar expectatives urbanístiques (art. 36 TRLS). Per què no: (a) no es computen edificabilitats futures; (c) no es valora pel preu dels solars; (d) no es valora pel valor cadastral. Base: art. 36 TRLS.",
+      "source": "TRLSRU",
+      "article": "art. 36 TRLS"
+    },
+    {
+      "theme": 47,
+      "block": 11,
+      "q": "L'aprofitament urbanístic es pondera mitjançant coeficients perquè:",
+      "options": [
+        "Tots els propietaris obtinguin exactament la mateixa superfície de sòl",
+        "Es puguin homogeneïtzar usos i tipologies de valor desigual i repartir-los amb equitat",
+        "L'Administració pugui recaptar més impostos sobre les finques edificables",
+        "Es prohibeixi qualsevol aprofitament privat en el sòl urbanitzable"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la ponderació de l'aprofitament. Correcta (b): com que hi pot haver usos i tipologies de valor desigual, l'aprofitament es pondera amb coeficients que els homogeneïtzen, per poder comparar i repartir de manera equitativa entre propietaris. Per què no: (a) no busca igualar superfícies; (c) no és un instrument recaptatori; (d) no prohibeix l'aprofitament privat. Base: art. 37 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 37 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "En el sistema de reparcel·lació per cooperació:",
+      "options": [
+        "Els propietaris executen ells mateixos la urbanització de manera directa",
+        "L'Administració executa les obres d'urbanització a càrrec dels propietaris",
+        "L'Administració expropia la totalitat dels terrenys de l'àmbit d'actuació",
+        "No es fan cessions de sòl per a sistemes ni per a l'aprofitament públic"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta la modalitat de cooperació. Correcta (b): en la cooperació, els propietaris aporten el sòl i l'Administració executa les obres d'urbanització a càrrec d'aquells. Per què no: (a) executar la urbanització directament és propi de la compensació; (c) expropiar tot l'àmbit és el sistema d'expropiació; (d) sí que hi ha cessions. Base: art. 121 TRLUC.",
+      "source": "TRLUC",
+      "article": "art. 121 TRLUC"
+    },
+    {
+      "theme": 76,
+      "block": 15,
+      "q": "La declaració d'impacte ambiental (DIA) és el resultat de:",
+      "options": [
+        "L'avaluació ambiental estratègica d'un pla o programa",
+        "L'avaluació d'impacte ambiental d'un projecte concret",
+        "La llicència ambiental municipal d'una activitat de mitjana incidència",
+        "La comunicació prèvia d'una activitat de baixa incidència ambiental"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta què és la DIA. Correcta (b): l'avaluació d'impacte ambiental d'un projecte conclou amb la declaració d'impacte ambiental (DIA), de caràcter determinant per a l'autorització. Per què no: (a) l'avaluació estratègica recau sobre plans i programes (no produeix DIA sinó la declaració ambiental estratègica); (c) i (d) són règims d'intervenció d'activitats. Base: normativa d'avaluació ambiental.",
+      "source": "L20_2009",
+      "article": "normativa d'avaluació ambiental"
+    },
+    {
+      "theme": 85,
+      "block": 17,
+      "q": "El codi ètic i de conducta dels alts càrrecs inclou normes sobre:",
+      "options": [
+        "L'increment automàtic de les seves retribucions per assolir objectius",
+        "La prevenció dels conflictes d'interès i el règim d'incompatibilitats",
+        "La possibilitat de fer excepcions a la llei en cas d'urgència",
+        "La confidencialitat absoluta de tota l'activitat de govern"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el contingut del codi ètic. Correcta (b): els codis ètics i de conducta concreten principis i inclouen normes sobre la prevenció de conflictes d'interès, el règim d'incompatibilitats, l'acceptació de regals i l'ús adequat dels recursos públics (Llei 19/2014). Per què no: (a) no regula increments retributius; (c) no permet excepcions a la llei; (d) la transparència, no la confidencialitat absoluta, és el valor. Base: Llei 19/2014.",
+      "source": "L19_2014",
+      "article": "codi de conducta"
+    },
+    {
+      "theme": 90,
+      "block": 18,
+      "q": "En la coordinació d'activitats empresarials, l'empresari principal té el deure de:",
+      "options": [
+        "Assumir directament la prevenció de riscos de totes les empreses concurrents",
+        "Vigilar el compliment de la normativa de prevenció pels contractistes i subcontractistes",
+        "Substituir els recursos preventius de les empreses contractades per uns de propis",
+        "Eximir les empreses subcontractades de qualsevol obligació en matèria preventiva"
+      ],
+      "correct": 1,
+      "explain": "Es pregunta el deure de l'empresari principal. Correcta (b): l'empresari principal (qui contracta obres o serveis de la pròpia activitat al seu centre) té el deure de vigilar el compliment de la normativa de prevenció pels contractistes i subcontractistes (art. 10 RD 171/2004). Per què no: (a) no assumeix la prevenció de les altres, sinó que la vigila; (c) no substitueix els seus recursos; (d) no eximeix els subcontractistes. Base: art. 10 RD 171/2004.",
+      "source": "RD171_2004",
+      "article": "art. 10 RD 171/2004"
     }
   ]
 }
