@@ -1,8 +1,8 @@
 {
   "_meta": {
     "info": "Casos teòrico-pràctics (Prova 2, Base 7.7.b). Cada cas porta una rúbrica de criteris amb pesos i paraules clau per a la correcció automàtica, més una resposta model. Material d'estudi generat amb IA: contrasta amb la normativa vigent.",
-    "objectiu_total": 50,
-    "fase": "Lot 1-2 · 25/50"
+    "objectiu_total": 90,
+    "fase": "Tots els 90 temes amb cas · 75 casos (objectiu 50+)"
   },
   "cases": [
     {
@@ -2122,6 +2122,4031 @@
       "model": "La comunicació prèvia i la declaració responsable (art. 69 Llei 39/2015) són documents de l'interessat —no actes administratius— mitjançant els quals manifesta, sota la seva responsabilitat, que compleix els requisits exigits i posa en coneixement de l'Administració les dades per iniciar l'activitat. Permeten iniciar l'exercici del dret o activitat des del dia de la presentació.\nNo hi ha, per tant, una autorització prèvia: l'Administració exerceix un control a posteriori, comprovant la veracitat i el compliment (potestats d'inspecció).\nLa inexactitud, falsedat o omissió de caràcter essencial en les dades declarades, o la no-presentació de la documentació exigida, determina la impossibilitat de continuar amb l'exercici de l'activitat des del moment en què se'n tingui constància (art. 69.4), sens perjudici de les responsabilitats penals, civils o administratives que escaiguin. En el cas, en ser inexacta la documentació tècnica i incomplir-se una condició de seguretat, l'Ajuntament pot ordenar el cessament de l'activitat i, si escau, la reposició de la situació jurídica i l'exigència de responsabilitats.",
       "sources": [
         "L39_2015"
+      ]
+    },
+    {
+      "id": "c26-contracte-obres",
+      "theme": 25,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Preparació i inici d'un contracte d'obres",
+      "context": "L'Ajuntament vol licitar la construcció d'un nou pavelló esportiu. Disposa d'un projecte redactat per un tècnic extern. Es planteja com s'ha de preparar la licitació i quins actes són necessaris abans i en començar l'execució.",
+      "prompt": "Indiqueu: a) els requisits del projecte abans de licitar; b) què comprova el replanteig; c) quin acte habilita l'inici de les obres i quines obligacions de control hi ha durant l'execució.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Abans de licitar cal projecte degudament supervisat (si escau), aprovat i replantejat",
+          "weight": 12,
+          "keywords": [
+            [
+              "projecte"
+            ],
+            [
+              "supervisat",
+              "supervisio",
+              "aprovat"
+            ],
+            [
+              "replanteig",
+              "replantejat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Contingut del projecte: memòria, plànols, plec de prescripcions tècniques i pressupost (i ESS)",
+          "weight": 10,
+          "keywords": [
+            [
+              "memoria"
+            ],
+            [
+              "planols"
+            ],
+            [
+              "plec",
+              "prescripcions"
+            ],
+            [
+              "pressupost"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'acta de comprovació del replanteig habilita l'inici de les obres",
+          "weight": 13,
+          "keywords": [
+            [
+              "acta de comprovacio",
+              "comprovacio del replanteig",
+              "acta de replanteig"
+            ],
+            [
+              "inici",
+              "comencar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Execució sota direcció facultativa amb certificacions d'obra periòdiques",
+          "weight": 10,
+          "keywords": [
+            [
+              "direccio facultativa"
+            ],
+            [
+              "certificacions",
+              "certificacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "a) L'adjudicació d'un contracte d'obres requereix l'elaboració, la supervisió (preceptiva en obres de quantia elevada o que afectin l'estabilitat/seguretat), l'aprovació i el replanteig del projecte (arts. 231 i ss. LCSP). El projecte ha de contenir, com a mínim, la memòria, els plànols, el plec de prescripcions tècniques particulars, el pressupost i l'estudi de seguretat i salut.\nb) El replanteig comprova la realitat geomètrica de l'obra i la disponibilitat dels terrenys necessaris per a l'execució.\nc) Un cop formalitzat el contracte, s'estén l'acta de comprovació del replanteig (art. 237 LCSP), que habilita l'inici de les obres dins el termini fixat. Durant l'execució, l'obra es desenvolupa sota la direcció facultativa i es mesura mitjançant les certificacions d'obra periòdiques (en general mensuals), fins a la recepció i la liquidació.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c27-concessio-obres",
+      "theme": 26,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Concessió d'obra pública i risc operacional",
+      "context": "L'Ajuntament vol construir i explotar un aparcament soterrani mitjançant un tercer, que es retribuiria amb les tarifes dels usuaris durant un nombre d'anys. Es dubta de quin tipus de contracte és i de quins riscos assumeix l'empresa.",
+      "prompt": "Determineu el tipus de contracte, l'element que el caracteritza, la durada màxima i en quins supòsits es pot restablir l'equilibri econòmic.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "És un contracte de concessió d'obres (construcció + explotació)",
+          "weight": 10,
+          "keywords": [
+            [
+              "concessio d'obres",
+              "concessio d'obra"
+            ],
+            [
+              "explotacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Element clau: transferència del risc operacional al concessionari",
+          "weight": 13,
+          "keywords": [
+            [
+              "risc operacional",
+              "risc de demanda",
+              "risc"
+            ],
+            [
+              "concessionari",
+              "transferencia"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Durada màxima fins a 40 anys segons la recuperació de les inversions",
+          "weight": 10,
+          "keywords": [
+            [
+              "40 anys",
+              "quaranta anys"
+            ],
+            [
+              "durada",
+              "amortitzacio",
+              "recuperacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Restabliment de l'equilibri econòmic: modificacions, factum principis i riscos imprevisibles",
+          "weight": 12,
+          "keywords": [
+            [
+              "equilibri economic",
+              "equilibri"
+            ],
+            [
+              "modificacions",
+              "factum principis",
+              "imprevisibles"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Es tracta d'un contracte de concessió d'obres (art. 14 LCSP): el concessionari construeix i explota l'aparcament, retribuint-se amb les tarifes. L'element que el caracteritza i el distingeix del contracte d'obres és la transferència al concessionari del risc operacional de l'explotació (de demanda o disponibilitat): en condicions normals, no té garantida la recuperació de les inversions. La durada és limitada en funció del període de recuperació de les inversions, amb un màxim de quaranta anys (art. 29). L'equilibri econòmic-financer es pot restablir en supòsits taxats (art. 270): modificacions imposades per l'Administració, factum principis (actuacions generals de l'Administració que afecten l'economia de la concessió) i causes de força major o riscos imprevisibles. En extingir-se, l'obra reverteix a l'Administració.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c28-subministrament",
+      "theme": 27,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Contracte de subministrament amb lliurament successiu",
+      "context": "L'Ajuntament necessita material d'oficina durant un any, en quantitats que aniran variant segons les necessitats de cada departament, amb preus per unitat. Es planteja com s'ha de configurar el contracte.",
+      "prompt": "Qualifiqueu el contracte, expliqueu la possibilitat de no fixar la quantia total, i el règim de recepció i garantia.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "És un contracte de subministrament (béns mobles)",
+          "weight": 11,
+          "keywords": [
+            [
+              "subministrament"
+            ],
+            [
+              "bens mobles",
+              "productes"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Lliurament successiu per preu unitari, sense fixar la quantia total exacta",
+          "weight": 13,
+          "keywords": [
+            [
+              "lliurament successiu",
+              "successiu"
+            ],
+            [
+              "preu unitari",
+              "unitari"
+            ],
+            [
+              "sense fixar",
+              "necessitats"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Recepció de conformitat que obre el termini de garantia",
+          "weight": 11,
+          "keywords": [
+            [
+              "recepcio",
+              "conformitat"
+            ],
+            [
+              "garantia"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Es regeix pels procediments generals d'adjudicació",
+          "weight": 10,
+          "keywords": [
+            [
+              "procediment",
+              "obert",
+              "adjudicacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El contracte té per objecte l'adquisició de béns mobles (material d'oficina), de manera que és un contracte de subministrament (art. 16 LCSP). Atès que el lliurament es fa de manera successiva i per preu unitari, en funció de les necessitats, es pot no fixar la quantia total en el moment de celebrar el contracte, vinculant-la a les necessitats reals (art. 16.3.a). S'adjudica pels procediments generals (obert, restringit, etc.). El lliurament dels béns es constata mitjançant un acte formal de recepció o conformitat, a partir del qual comença el termini de garantia, durant el qual el contractista respon dels vicis o defectes. L'Administració conserva les seves prerrogatives (modificació, suspensió i resolució).",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c29-contracte-serveis",
+      "theme": 28,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Contracte de serveis i límits",
+      "context": "L'Ajuntament vol externalitzar tasques de neteja d'edificis municipals i, alhora, la tramitació i la resolució d'expedients sancionadors. Es planteja si totes dues prestacions es poden contractar com a serveis.",
+      "prompt": "Qualifiqueu cada prestació, indiqueu el límit del contracte de serveis i el risc que cal evitar en la seva execució.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La neteja és una prestació de fer admissible com a contracte de serveis",
+          "weight": 11,
+          "keywords": [
+            [
+              "serveis",
+              "servei"
+            ],
+            [
+              "neteja",
+              "admissible",
+              "es pot contractar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "La tramitació i resolució d'expedients implica exercici d'autoritat: no es pot contractar",
+          "weight": 14,
+          "keywords": [
+            [
+              "exercici d'autoritat",
+              "autoritat",
+              "potestat publica"
+            ],
+            [
+              "no es pot",
+              "reservat",
+              "funcionari"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Cal evitar la cessió il·legal de treballadors (no donar ordres laborals directes)",
+          "weight": 11,
+          "keywords": [
+            [
+              "cessio illegal",
+              "cessio de treballadors"
+            ],
+            [
+              "ordres",
+              "direccio laboral"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Durada limitada amb pròrrogues previstes; desistiment de l'AP indemnitza",
+          "weight": 9,
+          "keywords": [
+            [
+              "durada",
+              "prorroga"
+            ],
+            [
+              "desistiment",
+              "indemnitza"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La neteja dels edificis és una prestació de fer (activitat material) que pot ser objecte d'un contracte de serveis (art. 17 LCSP). En canvi, la tramitació i, sobretot, la resolució d'expedients sancionadors impliquen l'exercici de l'autoritat inherent als poders públics, funció que es reserva al personal funcionari i que NO es pot contractar com a servei (arts. 17 LCSP i 9.2 TREBEP). En l'execució del contracte de neteja cal evitar que es produeixi una cessió il·legal de treballadors: l'Administració no pot exercir respecte del personal de l'empresa les facultats pròpies de l'empresari laboral (donar ordres directes, fixar horaris, etc.). La durada s'ajusta a la prestació amb les pròrrogues previstes al plec (art. 29), i el desistiment o la suspensió definitiva de l'Administració dona dret a la indemnització del contractista (art. 313).",
+      "sources": [
+        "LCSP",
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c30-concessio-serveis",
+      "theme": 29,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Concessió de serveis i potestats de l'Administració",
+      "context": "L'Ajuntament adjudica a una empresa la gestió del servei municipal d'escola bressol durant deu anys, retribuïda amb les quotes dels usuaris i una aportació municipal. Durant l'execució vol modificar les condicions de prestació per interès públic.",
+      "prompt": "Determineu el tipus de contracte, qui assumeix el risc, quines potestats conserva l'Administració i què passa amb l'equilibri econòmic en cas de modificació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "És un contracte de concessió de serveis",
+          "weight": 10,
+          "keywords": [
+            [
+              "concessio de serveis",
+              "concessio del servei"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "El concessionari assumeix el risc operacional de l'explotació",
+          "weight": 12,
+          "keywords": [
+            [
+              "risc operacional",
+              "risc"
+            ],
+            [
+              "concessionari"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'Administració conserva la titularitat i les potestats d'ordenació, control i modificació (ius variandi)",
+          "weight": 12,
+          "keywords": [
+            [
+              "titularitat"
+            ],
+            [
+              "ordenacio",
+              "control",
+              "modificacio",
+              "ius variandi"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La modificació dona dret al restabliment de l'equilibri econòmic",
+          "weight": 11,
+          "keywords": [
+            [
+              "equilibri economic",
+              "equilibri"
+            ],
+            [
+              "restablir",
+              "restabliment"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Es tracta d'un contracte de concessió de serveis (art. 15 LCSP), atès que l'empresa gestiona un servei de titularitat municipal i assumeix el risc operacional de l'explotació, retribuint-se amb les quotes (i una aportació). L'Administració conserva la titularitat del servei i les potestats d'ordenació, control, inspecció i modificació per raons d'interès públic (ius variandi). Quan la modificació imposada per l'Administració alteri l'economia de la concessió, el concessionari té dret al restabliment de l'equilibri econòmic de la concessió, en els termes taxats per la llei. El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, i admetre-hi els usuaris que compleixin els requisits. En extingir-se la concessió (per termini, rescat, caducitat...) es produeix la reversió del servei i, si escau, dels béns afectes.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c32-concessio-servei-public",
+      "theme": 32,
+      "block": 8,
+      "maxPoints": 45,
+      "title": "Gestió indirecta i incompliment del concessionari",
+      "context": "El concessionari del servei municipal d'abastament d'aigua incompleix de manera greu les obligacions de manteniment, fet que posa en perill la continuïtat del servei. L'Ajuntament es planteja com actuar sense haver d'esperar l'extinció del contracte.",
+      "prompt": "Expliqueu la naturalesa de la concessió, les potestats de l'Administració davant l'incompliment (especialment el segrest o intervenció) i les causes d'extinció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La concessió és una forma de gestió indirecta amb titularitat pública del servei",
+          "weight": 11,
+          "keywords": [
+            [
+              "gestio indirecta",
+              "indirecta"
+            ],
+            [
+              "titularitat publica",
+              "titularitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'Administració conserva potestats d'ordenació, control i sanció contractual",
+          "weight": 11,
+          "keywords": [
+            [
+              "ordenacio",
+              "control",
+              "fiscalitzar"
+            ],
+            [
+              "potestats",
+              "sancio contractual"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Davant l'incompliment greu, pot acordar el segrest o intervenció temporal del servei",
+          "weight": 13,
+          "keywords": [
+            [
+              "segrest",
+              "intervencio temporal",
+              "intervenir"
+            ],
+            [
+              "incompliment greu",
+              "continuitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Causes d'extinció: termini, rescat, caducitat, resolució; reversió en extingir-se",
+          "weight": 10,
+          "keywords": [
+            [
+              "termini",
+              "rescat",
+              "caducitat",
+              "resolucio"
+            ],
+            [
+              "reversio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La concessió de servei públic és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació a un concessionari que la gestiona al seu risc. L'Administració conserva potestats d'ordenació i modificació del servei, de fiscalització, i d'imposició de les sancions contractuals previstes. Davant un incompliment greu que posi en perill la continuïtat del servei, l'Administració pot acordar-ne el segrest o intervenció: assumeix temporalment la gestió del servei per garantir-ne la prestació, sense extingir la concessió, fins que el concessionari pugui reprendre la gestió o s'acordi la resolució. Les causes d'extinció són el compliment del termini (amb reversió del servei i dels béns afectes), el rescat, la caducitat per incompliment, la resolució per altres causes i la supressió del servei, amb indemnització quan correspongui.",
+      "sources": [
+        "LCSP",
+        "LRBRL"
+      ]
+    },
+    {
+      "id": "c33-formes-gestio",
+      "theme": 33,
+      "block": 8,
+      "maxPoints": 45,
+      "title": "Elecció de la forma de gestió d'un servei",
+      "context": "L'Ajuntament vol crear un servei municipal d'esports i dubta entre gestionar-lo directament mitjançant una societat mercantil de capital íntegrament públic o de manera indirecta. El servei no implica exercici d'autoritat.",
+      "prompt": "Distingiu les formes de gestió directa i indirecta, indiqueu què exigeix optar per una societat pública i quins serveis es reserven a la gestió directa.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Gestió directa: pròpia entitat, organisme autònom, entitat pública empresarial o societat de capital 100% públic",
+          "weight": 12,
+          "keywords": [
+            [
+              "gestio directa",
+              "directa"
+            ],
+            [
+              "organisme autonom",
+              "entitat publica empresarial",
+              "societat",
+              "100%",
+              "integrament public"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Gestió indirecta: concessió, gestió interessada, societat d'economia mixta",
+          "weight": 11,
+          "keywords": [
+            [
+              "gestio indirecta",
+              "indirecta"
+            ],
+            [
+              "concessio",
+              "gestio interessada",
+              "economia mixta"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Optar per societat o EPE exigeix acreditar-ne la sostenibilitat i eficiència (memòria i informes)",
+          "weight": 12,
+          "keywords": [
+            [
+              "sostenibilitat",
+              "eficiencia"
+            ],
+            [
+              "memoria",
+              "informes",
+              "acreditar",
+              "85.2"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Els serveis que impliquin autoritat es reserven a la gestió directa per la pròpia entitat o organisme autònom",
+          "weight": 10,
+          "keywords": [
+            [
+              "autoritat"
+            ],
+            [
+              "gestio directa",
+              "propia entitat",
+              "organisme autonom"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La gestió de serveis públics pot ser directa (per la pròpia entitat, un organisme autònom local, una entitat pública empresarial local o una societat mercantil local de capital íntegrament públic) o indirecta (mitjançant concessió, gestió interessada o societat d'economia mixta). Per optar per la gestió directa mitjançant una entitat pública empresarial o una societat de capital íntegrament públic, l'art. 85.2 LRBRL exigeix acreditar, amb una memòria i els informes preceptius (entre ells el de la Intervenció), que aquesta forma és més sostenible i eficient que les altres alternatives. Els serveis que impliquin l'exercici d'autoritat es reserven a la gestió directa per la pròpia entitat o per un organisme autònom. Com que el servei d'esports no implica autoritat, totes les formes són possibles, amb l'elecció motivada que correspongui.",
+      "sources": [
+        "LRBRL"
+      ]
+    },
+    {
+      "id": "c34-consorci",
+      "theme": 34,
+      "block": 8,
+      "maxPoints": 45,
+      "title": "Creació i adscripció d'un consorci",
+      "context": "Diversos ajuntaments volen crear un consorci per gestionar de manera conjunta la promoció turística de la comarca. Es plantegen com s'ha de crear i quina rellevància té determinar a quina administració queda adscrit.",
+      "prompt": "Expliqueu la naturalesa del consorci, els instruments per a la seva creació i la importància i els criteris de l'adscripció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El consorci és un ens de dret públic amb personalitat jurídica pròpia per a finalitats d'interès comú",
+          "weight": 11,
+          "keywords": [
+            [
+              "dret public",
+              "personalitat juridica propia"
+            ],
+            [
+              "interes comu",
+              "finalitat comuna"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Es crea mitjançant conveni de creació amb els estatuts",
+          "weight": 12,
+          "keywords": [
+            [
+              "conveni"
+            ],
+            [
+              "estatuts"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'adscripció determina el règim pressupostari, comptable, de control i de personal aplicable",
+          "weight": 13,
+          "keywords": [
+            [
+              "adscripcio"
+            ],
+            [
+              "regim pressupostari",
+              "comptable",
+              "control",
+              "personal"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "L'adscripció es fa segons criteris ordenats (control efectiu, finançament majoritari, vots)",
+          "weight": 9,
+          "keywords": [
+            [
+              "control efectiu",
+              "finançament majoritari",
+              "nombre de vots"
+            ],
+            [
+              "criteris",
+              "120"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El consorci és una entitat de dret públic, de base associativa, amb personalitat jurídica pròpia, creada per diverses administracions (o amb entitats privades sense ànim de lucre) per a la consecució de finalitats d'interès comú (arts. 118 i ss. Llei 40/2015). Es crea mitjançant un conveni signat per les entitats que l'integren, al qual s'incorporen els estatuts (que regulen l'organització, el funcionament i els fins). És cabdal determinar a quina administració queda adscrit, perquè l'adscripció determina el règim pressupostari, comptable, de control econòmic i de personal aplicable al consorci. L'adscripció es fixa d'acord amb els criteris ordenats de l'art. 120 (control efectiu de la gestió, finançament majoritari de les activitats, nombre de vots als òrgans de govern, etc.).",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c37-resp-personal",
+      "theme": 37,
+      "block": 9,
+      "maxPoints": 45,
+      "title": "Responsabilitat del personal i acció de regrés",
+      "context": "L'Ajuntament ha hagut d'indemnitzar un ciutadà pels danys causats per l'actuació d'un empleat municipal que va actuar amb negligència greu. Es planteja si pot reclamar a l'empleat i com.",
+      "prompt": "Expliqueu davant qui reclama el particular, en quins casos i com l'Administració pot exigir responsabilitat al seu personal, i la relació amb la via penal.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El particular reclama directament a l'Administració, no a l'empleat",
+          "weight": 12,
+          "keywords": [
+            [
+              "reclama a l'administracio",
+              "directament a l'administracio"
+            ],
+            [
+              "no a l'empleat",
+              "no directament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'AP exigeix d'ofici el regrés al personal per dol o culpa/negligència greus",
+          "weight": 14,
+          "keywords": [
+            [
+              "regres",
+              "exigir",
+              "d'ofici"
+            ],
+            [
+              "dol",
+              "culpa greu",
+              "negligencia greu"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Criteris de ponderació: resultat danyós, grau de culpabilitat, responsabilitat professional",
+          "weight": 9,
+          "keywords": [
+            [
+              "grau de culpabilitat",
+              "resultat danyos",
+              "responsabilitat professional"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "En via penal, l'Administració és responsable civil subsidiari",
+          "weight": 8,
+          "keywords": [
+            [
+              "penal"
+            ],
+            [
+              "responsable civil subsidiari",
+              "subsidiari"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El particular perjudicat reclama directament a l'Administració, no a l'empleat causant del dany (la responsabilitat patrimonial és directa). Un cop l'Administració ha indemnitzat el tercer, ha d'exigir d'ofici al personal al seu servei la responsabilitat en què hagi incorregut per dol, o culpa o negligència greus (acció de regrés, art. 36.2 Llei 40/2015). Per ponderar-la es tenen en compte el resultat danyós produït, el grau de culpabilitat, la responsabilitat professional del personal i la seva relació amb la producció del resultat, mitjançant un procediment amb audiència de l'interessat. Com que en el cas hi va haver negligència greu, escau l'exigència del regrés. Si el dany derivés d'un delicte, la responsabilitat civil es podria exigir en el procés penal, amb l'Administració com a responsable civil subsidiari.",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c39-bens-recuperacio",
+      "theme": 39,
+      "block": 10,
+      "maxPoints": 45,
+      "title": "Ocupació indeguda d'un bé de domini públic",
+      "context": "Un particular ha tancat i ocupat un tram de camí públic municipal, incorporant-lo a la seva finca. L'Ajuntament vol recuperar-ne la possessió.",
+      "prompt": "Indiqueu quines potestats té l'Ajuntament per recuperar el bé, el règim del domini públic i el paper de l'inventari.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El camí és un bé de domini públic: inalienable, imprescriptible i inembargable",
+          "weight": 12,
+          "keywords": [
+            [
+              "domini public",
+              "demanial"
+            ],
+            [
+              "inalienable",
+              "imprescriptible",
+              "inembargable"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Recuperació d'ofici de la possessió (en demanials, en qualsevol moment)",
+          "weight": 13,
+          "keywords": [
+            [
+              "recuperacio d'ofici",
+              "recuperar la possessio"
+            ],
+            [
+              "qualsevol moment",
+              "demanial"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Pot emprar el desnonament administratiu per a béns demanials ocupats sense títol",
+          "weight": 10,
+          "keywords": [
+            [
+              "desnonament administratiu",
+              "desnonament"
+            ],
+            [
+              "sense titol"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "L'inventari facilita la defensa, però no és per si sol títol de propietat",
+          "weight": 8,
+          "keywords": [
+            [
+              "inventari"
+            ],
+            [
+              "no es titol",
+              "facilita la defensa",
+              "prova"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El camí públic és un bé de domini públic d'ús públic, i com a tal és inalienable, imprescriptible i inembargable (art. 132 CE): el particular no l'ha pogut adquirir per usucapió. L'Ajuntament disposa de la potestat de recuperació d'ofici de la possessió, que en els béns demanials pot exercir en qualsevol moment, sense necessitat d'acudir als tribunals. Per recuperar la possessió d'un bé de domini públic ocupat sense títol pot emprar el desnonament administratiu (art. 58 Llei 33/2003). L'inventari de béns, on hauria de constar el camí, facilita la defensa del bé, tot i que no constitueix per si sol un títol de propietat; també disposa de les potestats d'investigació i de llindament. Tot això és independent de la possible imposició de sancions i de l'exigència de restituir la situació anterior.",
+      "sources": [
+        "L33_2003"
+      ]
+    },
+    {
+      "id": "c40-prorroga-pressupost",
+      "theme": 40,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Liquidació i pròrroga del pressupost",
+      "context": "A 1 de gener, l'Ajuntament no ha aprovat el pressupost del nou exercici. A més, ha de tancar i liquidar el de l'exercici anterior. Es plantegen els efectes d'aquesta situació.",
+      "prompt": "Expliqueu què passa amb el pressupost no aprovat (pròrroga), qui aprova la liquidació i en quin termini, i quines magnituds en resulten.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Si a 1/1 no està aprovat, es prorroga automàticament el de l'exercici anterior amb els crèdits inicials",
+          "weight": 13,
+          "keywords": [
+            [
+              "prorroga",
+              "prorroga automatica"
+            ],
+            [
+              "credits inicials",
+              "exercici anterior"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "S'exclouen de la pròrroga els crèdits de programes que finalitzaven l'exercici anterior",
+          "weight": 9,
+          "keywords": [
+            [
+              "s'exclouen",
+              "exclou"
+            ],
+            [
+              "programes que finalitzen",
+              "serveis que finalitzen"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La liquidació l'aprova el president, abans de l'1 de març, donant-ne compte al Ple",
+          "weight": 12,
+          "keywords": [
+            [
+              "president",
+              "alcalde"
+            ],
+            [
+              "1 de marc",
+              "abans de l'1 de marc"
+            ],
+            [
+              "compte al ple"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "De la liquidació en resulten el resultat pressupostari i el romanent de tresoreria",
+          "weight": 11,
+          "keywords": [
+            [
+              "resultat pressupostari"
+            ],
+            [
+              "romanent de tresoreria",
+              "romanent"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Si a l'inici de l'exercici (1 de gener) no està aprovat el pressupost, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials, fins a l'entrada en vigor del nou (art. 169.6 TRLHL); de la pròrroga s'exclouen els crèdits destinats a serveis o programes que havien de finalitzar en l'exercici anterior. Pel que fa al tancament, la liquidació del pressupost l'aprova el president de l'entitat (l'Alcalde), prèvia informe de la Intervenció, abans de l'1 de març de l'exercici següent, i en dona compte al Ple (art. 191 TRLHL). De la liquidació en resulten magnituds com el resultat pressupostari (diferència entre drets i obligacions reconeguts, amb ajustaments), els romanents de crèdit i el romanent de tresoreria, que mesura els recursos líquids disponibles al tancament i, en la part per a despeses generals, pot finançar modificacions de crèdit.",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c42-fases-despesa",
+      "theme": 42,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Execució del pressupost de despeses",
+      "context": "L'Ajuntament ha d'adjudicar i pagar un contracte de subministrament. Es plantegen quines fases pressupostàries cal seguir i quins controls hi intervenen.",
+      "prompt": "Enumereu i expliqueu les fases d'execució de la despesa, i indiqueu el requisit de crèdit i el control que hi intervé.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Fases: autorització (A), disposició (D), reconeixement de l'obligació (O) i ordenació del pagament (P)",
+          "weight": 14,
+          "keywords": [
+            [
+              "autoritzacio"
+            ],
+            [
+              "disposicio",
+              "compromis"
+            ],
+            [
+              "reconeixement de l'obligacio",
+              "obligacio"
+            ],
+            [
+              "ordenacio del pagament",
+              "pagament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Es poden acumular en un sol acte (ADO/ADOP)",
+          "weight": 8,
+          "keywords": [
+            [
+              "ado",
+              "adop",
+              "acumular"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Tota despesa requereix l'existència de crèdit adequat i suficient",
+          "weight": 12,
+          "keywords": [
+            [
+              "credit adequat",
+              "credit suficient",
+              "existencia de credit"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Fiscalització prèvia per la Intervenció (control intern)",
+          "weight": 10,
+          "keywords": [
+            [
+              "fiscalitzacio",
+              "intervencio"
+            ],
+            [
+              "control intern",
+              "previa"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'execució del pressupost de despeses segueix quatre fases successives: l'autorització (A), acte que aprova la realització d'una despesa per una quantia certa, reservant el crèdit; la disposició o compromís (D), acord ferm amb un tercer determinat per un import exactament determinat; el reconeixement de l'obligació (O), que declara l'existència d'un deute exigible després de l'acreditació de la prestació; i l'ordenació del pagament (P). Diverses fases es poden acumular en un sol acte administratiu (ADO o ADOP). Tota despesa requereix l'existència de crèdit adequat i suficient al pressupost (principi d'especialitat). A més, hi intervé el control intern de la Intervenció mitjançant la fiscalització prèvia, que comprova la legalitat de la despesa abans d'aprovar-la, sens perjudici del control financer i del control extern posterior (Sindicatura de Comptes).",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c43-taxa-preu",
+      "theme": 43,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Taxa, preu públic o contribució especial",
+      "context": "L'Ajuntament vol finançar: (1) el servei de recollida de residus (de recepció obligatòria), (2) l'ús de la piscina municipal (que també ofereixen instal·lacions privades) i (3) la pavimentació d'un carrer que revaloritza les finques confrontants.",
+      "prompt": "Qualifiqueu cadascun dels tres recursos (taxa, preu públic o contribució especial) i justifiqueu-ho.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La recollida de residus (recepció obligatòria) es finança amb una TAXA",
+          "weight": 13,
+          "keywords": [
+            [
+              "taxa"
+            ],
+            [
+              "recollida de residus",
+              "recepcio obligatoria",
+              "obligatoria"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "La piscina (servei voluntari també prestat pel sector privat) es finança amb un PREU PÚBLIC",
+          "weight": 13,
+          "keywords": [
+            [
+              "preu public"
+            ],
+            [
+              "voluntaria",
+              "sector privat",
+              "piscina"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La pavimentació que revaloritza les finques es finança amb una CONTRIBUCIÓ ESPECIAL",
+          "weight": 13,
+          "keywords": [
+            [
+              "contribucio especial"
+            ],
+            [
+              "benefici",
+              "augment de valor",
+              "obra publica",
+              "pavimentacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La taxa i la contribució especial són tributs; el preu públic no és un tribut",
+          "weight": 6,
+          "keywords": [
+            [
+              "tribut"
+            ],
+            [
+              "el preu public no es un tribut",
+              "no es tribut"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "(1) La recollida de residus és un servei de recepció obligatòria de competència local que es refereix i beneficia l'obligat, de manera que es finança mitjançant una TAXA (art. 20 TRLHL). (2) L'ús de la piscina municipal és un servei de recepció voluntària que també presta el sector privat; per tant es finança amb un PREU PÚBLIC (arts. 41-47 TRLHL), que no té naturalesa de tribut. (3) La pavimentació del carrer comporta per als propietaris confrontants un benefici especial o un augment de valor dels seus béns com a conseqüència d'una obra pública, de manera que es pot finançar mitjançant una CONTRIBUCIÓ ESPECIAL (arts. 28-37 TRLHL). La taxa i la contribució especial són tributs propis de l'entitat local; el preu públic, en canvi, no és un tribut.",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c45-situacions-sol",
+      "theme": 45,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Situacions bàsiques del sòl i valoració",
+      "context": "S'ha d'expropiar una finca classificada pel planejament com a sòl urbanitzable, però en la qual encara no s'ha iniciat ni executat cap obra d'urbanització. El propietari reclama que se li valori com a sòl edificable.",
+      "prompt": "Determineu en quina situació bàsica es troba el sòl, com s'ha de valorar i per què no es computen les expectatives.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La valoració es regeix per la situació bàsica del sòl, no per la classificació",
+          "weight": 11,
+          "keywords": [
+            [
+              "situacio basica",
+              "situacio del sol"
+            ],
+            [
+              "no per la classificacio",
+              "independent de la classe"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Mentre no s'ha urbanitzat, el sòl es troba en situació bàsica de RURAL",
+          "weight": 13,
+          "keywords": [
+            [
+              "rural",
+              "situacio rural"
+            ],
+            [
+              "no s'ha urbanitzat",
+              "sense urbanitzar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Es valora per capitalització de la renda, sense computar expectatives urbanístiques",
+          "weight": 13,
+          "keywords": [
+            [
+              "capitalitzacio",
+              "renda"
+            ],
+            [
+              "sense expectatives",
+              "no es computen expectatives"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que no es valora com a edificable fins que s'hagi acabat la urbanització",
+          "weight": 8,
+          "keywords": [
+            [
+              "no es valora com a edificable",
+              "no edificable",
+              "fins que s'urbanitzi"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La valoració del sòl es regeix per la legislació estatal del sòl (TRLS) i depèn de la situació bàsica real del sòl, amb independència de la seva classificació urbanística. Encara que el planejament classifiqui la finca com a sòl urbanitzable, mentre no s'hagi acabat l'actuació d'urbanització el sòl es troba en situació bàsica de sòl RURAL (art. 21 TRLS). En conseqüència, s'ha de valorar per capitalització de la renda anual, real o potencial, de l'explotació, sense computar les expectatives derivades de l'assignació d'edificabilitats o usos pel planejament (art. 36 TRLS). Per tant, no es pot valorar com a sòl edificable: la pretensió del propietari no és procedent fins que el sòl assoleixi la situació d'urbanitzat (integrat de manera legal i efectiva a la malla urbana).",
+      "sources": [
+        "TRLSRU"
+      ]
+    },
+    {
+      "id": "c46-sistemes",
+      "theme": 46,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Sistemes urbanístics i estàndards",
+      "context": "En la tramitació d'un pla parcial d'un sector residencial, es discuteix quanta superfície s'ha de reservar per a zones verdes i equipaments i com s'obtindran aquests terrenys.",
+      "prompt": "Expliqueu què són els sistemes urbanístics, els estàndards de reserva i les formes d'obtenció dels sistemes.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Els sistemes urbanístics són terrenys d'ús públic (generals i locals)",
+          "weight": 11,
+          "keywords": [
+            [
+              "sistemes urbanistics",
+              "sistemes"
+            ],
+            [
+              "us public",
+              "generals",
+              "locals"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "El planejament ha de preveure reserves mínimes (estàndards) per a espais lliures i equipaments",
+          "weight": 13,
+          "keywords": [
+            [
+              "reserves minimes",
+              "estandards"
+            ],
+            [
+              "espais lliures",
+              "zones verdes",
+              "equipaments"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions",
+          "weight": 12,
+          "keywords": [
+            [
+              "cessio",
+              "cessio obligatoria",
+              "gratuita"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "També per expropiació o per ocupació directa",
+          "weight": 9,
+          "keywords": [
+            [
+              "expropiacio"
+            ],
+            [
+              "ocupacio directa"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Els sistemes urbanístics són els terrenys i les instal·lacions destinats a usos i serveis públics que estructuren el territori; es distingeixen els sistemes generals (abast municipal: xarxa viària bàsica, grans espais lliures, equipaments generals) i els locals (serveixen un sector o àmbit concret). El planejament ha de preveure unes reserves mínimes de sòl (estàndards urbanístics) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o al nombre d'habitatges (art. 65 TRLUC). Els sistemes locals previstos en un sector s'obtenen, en l'actuació de transformació, per cessió obligatòria i gratuïta a l'Administració a través de la reparcel·lació; quan no estan inclosos en sectors, els sistemes (sobretot els generals) es poden obtenir per expropiació o per ocupació directa.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c47-aprofitament",
+      "theme": 47,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Aprofitament urbanístic i cessió",
+      "context": "En un sector de sòl urbanitzable, els propietaris discuteixen quina part de l'aprofitament poden fer seva i quina han de cedir a l'Administració, atès que el sector té usos residencials i comercials de valor desigual.",
+      "prompt": "Expliqueu el concepte d'aprofitament urbanístic, la seva ponderació i el deure de cessió a l'Administració.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "L'aprofitament és l'edificabilitat ponderada pels usos atribuïts pel planejament",
+          "weight": 12,
+          "keywords": [
+            [
+              "aprofitament"
+            ],
+            [
+              "edificabilitat"
+            ],
+            [
+              "usos",
+              "ponderada"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "La ponderació amb coeficients homogeneïtza usos i tipologies de valor desigual",
+          "weight": 12,
+          "keywords": [
+            [
+              "coeficients",
+              "ponderacio"
+            ],
+            [
+              "homogeneitzar",
+              "valor desigual",
+              "usos diferents"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'aprofitament mitjà permet l'equidistribució de beneficis i càrregues",
+          "weight": 11,
+          "keywords": [
+            [
+              "aprofitament mitja"
+            ],
+            [
+              "equidistribucio",
+              "beneficis i carregues"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "El propietari fa seu un percentatge i cedeix l'excés a l'Administració",
+          "weight": 10,
+          "keywords": [
+            [
+              "percentatge",
+              "susceptible d'apropiacio"
+            ],
+            [
+              "cedeix",
+              "cessio",
+              "excedent"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl: resulta de ponderar l'edificabilitat (sostre) en funció dels usos i les tipologies previstes. Com que en el sector hi ha usos residencials i comercials de valor desigual, l'aprofitament es pondera mitjançant coeficients que homogeneïtzen els diferents usos i situacions, per poder comparar i repartir de manera equitativa. Es defineix un aprofitament mitjà del sector, que permet l'equidistribució dels beneficis (aprofitament) i les càrregues (cessions i urbanització) entre tots els propietaris. El propietari té dret a fer seu l'aprofitament susceptible d'apropiació privada (un percentatge de l'aprofitament mitjà fixat per la llei) i ha de cedir gratuïtament a l'Administració la diferència (l'excés d'aprofitament), juntament amb el sòl per a sistemes.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c48-deures-propietaris",
+      "theme": 48,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Deures de les persones propietàries i incompliment",
+      "context": "Una persona és propietària d'un solar en sòl urbà que no edifica des de fa anys, malgrat que el planejament n'estableix l'obligació, i a més no en manté les condicions de seguretat.",
+      "prompt": "Indiqueu els deures urbanístics dels propietaris i les conseqüències de l'incompliment dels deures d'edificar i de conservar.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Drets i deures: dret a l'aprofitament i deures de cessió, urbanització, conservació i edificació",
+          "weight": 12,
+          "keywords": [
+            [
+              "aprofitament"
+            ],
+            [
+              "cessio",
+              "urbanitzar",
+              "conservacio",
+              "edificar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Deure de conservació: mantenir l'immoble en condicions de seguretat, salubritat i ornament",
+          "weight": 12,
+          "keywords": [
+            [
+              "conservacio"
+            ],
+            [
+              "seguretat",
+              "salubritat",
+              "ornament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Davant l'incompliment del deure de conservació: ordre d'execució i execució subsidiària o multes coercitives",
+          "weight": 11,
+          "keywords": [
+            [
+              "ordre d'execucio"
+            ],
+            [
+              "execucio subsidiaria",
+              "multes coercitives"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Incompliment del deure d'edificar: edificació forçosa o règim de venda/substitució forçosa",
+          "weight": 10,
+          "keywords": [
+            [
+              "edificacio forçosa",
+              "venda forçosa",
+              "substitucio forçosa"
+            ],
+            [
+              "incompliment del deure d'edificar"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les persones propietàries tenen dret a usar, gaudir i disposar del sòl conforme a la seva classificació i a fer seu l'aprofitament susceptible d'apropiació, però amb subjecció a uns deures: cedir sòl per a sistemes i aprofitament, costejar i executar la urbanització, conservar les construccions i edificar els solars dins de termini. El deure de conservació obliga a mantenir l'immoble en condicions de seguretat, salubritat i ornament públic; davant el seu incompliment, l'Administració pot dictar una ordre d'execució i, si no es compleix, procedir a l'execució subsidiària a càrrec de l'obligat o imposar multes coercitives. L'incompliment del deure d'edificar dins de termini pot comportar la inclusió de la finca en el règim d'edificació forçosa, amb la possibilitat de l'execució forçosa o de la venda o substitució forçosa del propietari incomplidor, i, en darrer terme, l'expropiació per incompliment de la funció social.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c49-usos-provisionals",
+      "theme": 49,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Autorització d'un ús provisional",
+      "context": "En un terreny classificat com a sòl urbanitzable, encara sense desenvolupar, una empresa vol instal·lar temporalment un aparcament en superfície fins que s'executi el planejament.",
+      "prompt": "Expliqueu el règim dels usos i obres provisionals: requisits, garanties i conseqüències en cessar.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Naturalesa precària i temporal; no han de dificultar l'execució del planejament",
+          "weight": 13,
+          "keywords": [
+            [
+              "precari",
+              "precaria",
+              "temporal"
+            ],
+            [
+              "no dificultar",
+              "execucio del planejament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Requereixen llicència i l'acceptació expressa de les condicions",
+          "weight": 11,
+          "keywords": [
+            [
+              "llicencia"
+            ],
+            [
+              "acceptacio",
+              "condicions",
+              "compromis"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "S'inscriuen al Registre de la Propietat (i poden exigir-se garanties)",
+          "weight": 10,
+          "keywords": [
+            [
+              "registre de la propietat",
+              "inscripcio"
+            ],
+            [
+              "garantia",
+              "garanties"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "En cessar, no generen dret a indemnització",
+          "weight": 11,
+          "keywords": [
+            [
+              "sense indemnitzacio",
+              "no genera indemnitzacio",
+              "cap indemnitzacio"
+            ],
+            [
+              "cessar"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Els usos i les obres de caràcter provisional tenen una naturalesa precària i temporal, i només es poden autoritzar si no dificulten l'execució del planejament urbanístic (art. 53 TRLUC); per això s'admeten típicament en sòls amb una transformació prevista però encara no executada, com el cas. La seva autorització exigeix la corresponent llicència i l'acceptació expressa, per part del titular, del caràcter precari i del compromís de cessar en l'ús i retirar les obres quan l'Administració ho ordeni. Aquestes condicions s'han d'inscriure al Registre de la Propietat, i es poden exigir garanties econòmiques per assegurar el compliment del compromís de retirada o restitució. En cessar (quan ho ordeni l'Administració o es compleixi el termini o la condició), els usos i obres provisionals no generen cap dret a indemnització.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c50-pdu",
+      "theme": 50,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Pla director urbanístic i jerarquia del planejament",
+      "context": "La Generalitat aprova un pla director urbanístic que estableix determinacions sobre el sòl no urbanitzable i infraestructures d'abast supramunicipal que afecten el terme municipal. El POUM vigent en contradiu algunes previsions.",
+      "prompt": "Expliqueu què és un PDU, qui l'aprova, la seva posició en la jerarquia del planejament i què ha de fer el municipi davant la contradicció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El PDU és un instrument de planejament d'abast supramunicipal",
+          "weight": 12,
+          "keywords": [
+            [
+              "pla director",
+              "pdu"
+            ],
+            [
+              "supramunicipal",
+              "abast supramunicipal"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'aprova l'administració urbanística de la Generalitat",
+          "weight": 11,
+          "keywords": [
+            [
+              "generalitat"
+            ],
+            [
+              "aprova",
+              "administracio urbanistica"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "El PDU (i els plans territorials) prevalen sobre el planejament municipal",
+          "weight": 13,
+          "keywords": [
+            [
+              "prevalen",
+              "prevalencia",
+              "jerarquia"
+            ],
+            [
+              "planejament municipal",
+              "poum"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "El POUM s'hi ha d'ajustar (adaptar les previsions contradictòries)",
+          "weight": 9,
+          "keywords": [
+            [
+              "s'ha d'ajustar",
+              "adaptar",
+              "ajustar-se"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El pla director urbanístic (PDU) és una figura de planejament d'abast supramunicipal (art. 56 TRLUC), que pot establir directrius de coordinació, determinacions sobre el sòl no urbanitzable, mesures de protecció i previsions d'infraestructures i reserves de sòl. L'aprova l'administració urbanística de la Generalitat. En la jerarquia del planejament, els plans territorials i els plans directors urbanístics prevalen sobre el planejament urbanístic municipal (el POUM i el planejament derivat) en el seu àmbit. Per tant, davant la contradicció, el municipi ha d'ajustar el seu planejament a les determinacions del PDU: les previsions del POUM que el contradiguin queden desplaçades, i el municipi ha de tramitar, si escau, la modificació o l'adaptació del POUM perquè s'hi adeqüi.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c52-pla-parcial",
+      "theme": 52,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Desenvolupament del sòl urbanitzable mitjançant pla parcial",
+      "context": "Un sector de sòl urbanitzable delimitat pel POUM s'ha de desenvolupar per fer-lo apte per a l'edificació. Es planteja quina figura de planejament cal i com es tramita.",
+      "prompt": "Indiqueu la figura de planejament procedent, el seu objecte i la tramitació i aprovació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La figura procedent és el pla parcial urbanístic",
+          "weight": 12,
+          "keywords": [
+            [
+              "pla parcial"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Objecte: ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació",
+          "weight": 13,
+          "keywords": [
+            [
+              "ordenar detalladament",
+              "ordenacio detallada"
+            ],
+            [
+              "apte per a l'edificacio",
+              "edificacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Tramitació: aprovació inicial i provisional municipal amb informació pública",
+          "weight": 12,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "aprovacio provisional"
+            ],
+            [
+              "informacio publica"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Aprovació definitiva (municipal o de la Generalitat segons el cas)",
+          "weight": 8,
+          "keywords": [
+            [
+              "aprovacio definitiva"
+            ],
+            [
+              "municipi",
+              "generalitat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Per desenvolupar un sector de sòl urbanitzable delimitat cal un pla parcial urbanístic, que té per objecte ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació: estableix la qualificació detallada, els sistemes locals, els paràmetres d'edificació i ús i les determinacions de gestió (arts. 65-70 TRLUC). La tramitació consisteix en l'aprovació inicial per l'Ajuntament, seguida d'informació pública (i sol·licitud d'informes als organismes afectats), la resolució de les al·legacions i l'aprovació provisional, i finalment l'aprovació definitiva, que correspon al mateix municipi (quan deriva d'un planejament general adaptat i el municipi en té la competència) o a la Generalitat, segons el cas. La publicació de l'acord i de les normes urbanístiques en determina l'executivitat.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c53-iniciativa-privada",
+      "theme": 53,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Iniciativa privada en el planejament",
+      "context": "Una promotora redacta i presenta a l'Ajuntament un pla de millora urbana per a un àmbit de sòl urbà, i sosté que l'Ajuntament està obligat a aprovar-lo en els termes proposats.",
+      "prompt": "Valoreu si la iniciativa privada és possible, si vincula l'Administració i quins límits hi ha.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La iniciativa privada en el planejament derivat és possible",
+          "weight": 11,
+          "keywords": [
+            [
+              "iniciativa privada"
+            ],
+            [
+              "es possible",
+              "poden formular",
+              "particulars"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Es presenta a l'Ajuntament, que la tramita i la resol de manera motivada",
+          "weight": 11,
+          "keywords": [
+            [
+              "ajuntament"
+            ],
+            [
+              "tramita",
+              "resol",
+              "motivada"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La proposta NO vincula l'Administració (potestat de planejament pública i indisponible)",
+          "weight": 14,
+          "keywords": [
+            [
+              "no vincula",
+              "no obliga"
+            ],
+            [
+              "potestat publica",
+              "indisponible",
+              "ius variandi"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "L'Administració pot acceptar, modificar o denegar la proposta",
+          "weight": 9,
+          "keywords": [
+            [
+              "acceptar",
+              "modificar",
+              "denegar"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La iniciativa privada en la formulació del planejament derivat és possible: els particulars poden redactar i promoure figures com els plans de millora urbana i presentar-les a l'Ajuntament (arts. 101-102 TRLUC). Ara bé, la proposta NO vincula l'Administració: la potestat de planejament és pública i indisponible, i l'Administració conserva l'ius variandi (la potestat de decidir l'ordenació en interès públic). Per tant, l'Ajuntament tramita la proposta conforme al procediment d'aprovació i la resol de manera motivada, podent acceptar-la, modificar-la o denegar-la; no està obligat a aprovar-la en els termes proposats per la promotora. Els convenis urbanístics que acompanyin la iniciativa tampoc no poden substituir el procediment ni alterar el règim legal del sòl.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c54-efectes-planejament",
+      "theme": 54,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Efectes de l'aprovació del planejament i fora d'ordenació",
+      "context": "Un nou POUM qualifica com a zona verda uns terrenys on hi ha una nau industrial en funcionament, que esdevé disconforme amb la nova ordenació. El propietari pregunta quins efectes té l'aprovació del pla sobre la seva edificació.",
+      "prompt": "Expliqueu els efectes de l'aprovació del planejament i el règim de la construcció que esdevé disconforme.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "L'aprovació definitiva i la publicació fan el pla executiu i obligatori per a tothom",
+          "weight": 12,
+          "keywords": [
+            [
+              "executiu",
+              "executivitat"
+            ],
+            [
+              "obligatori",
+              "publicacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'aprovació legitima les expropiacions necessàries per executar el pla",
+          "weight": 10,
+          "keywords": [
+            [
+              "legitima",
+              "expropiacio",
+              "utilitat publica"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La nau disconforme queda en situació de fora d'ordenació (o volum disconforme)",
+          "weight": 14,
+          "keywords": [
+            [
+              "fora d'ordenacio",
+              "volum disconforme"
+            ],
+            [
+              "disconforme"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "En fora d'ordenació, les obres permeses són limitades (no consolidació)",
+          "weight": 9,
+          "keywords": [
+            [
+              "obres limitades",
+              "limitacions",
+              "nomes obres de"
+            ],
+            [
+              "no consolidacio",
+              "no s'augmenta"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'aprovació definitiva i la publicació de les normes urbanístiques fan el planejament executiu i obligatori per a les administracions i els particulars (art. 106 TRLUC), i en legitimen les expropiacions necessàries per executar-lo (amb la corresponent declaració d'utilitat pública). Pel que fa a la nau industrial preexistent que esdevé disconforme amb la nova qualificació de zona verda, queda en situació de fora d'ordenació (si és totalment incompatible amb el pla) o de volum disconforme (si només és parcialment disconforme). En situació de fora d'ordenació, les obres autoritzables són molt limitades (en general, només les de conservació, higiene i seguretat estrictament necessàries, sense consolidar ni augmentar el volum ni l'aprofitament), atès que el destí previst és l'adequació a la nova ordenació.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c57-parcellacio",
+      "theme": 57,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Parcel·lació en sòl no urbanitzable",
+      "context": "En sòl no urbanitzable, una persona ha dividit una finca i ha obert camins i implantat serveis bàsics a cada lot, sense sol·licitar cap llicència. L'Ajuntament ho detecta.",
+      "prompt": "Expliqueu el règim de les parcel·lacions urbanístiques en sòl no urbanitzable, la presumpció de parcel·lació i les conseqüències.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "En sòl no urbanitzable les parcel·lacions urbanístiques estan prohibides",
+          "weight": 13,
+          "keywords": [
+            [
+              "prohibides",
+              "prohibicio"
+            ],
+            [
+              "parcel·lacio urbanistica",
+              "parcellacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Opera la presumpció de parcel·lació davant indicis materials (camins, serveis)",
+          "weight": 13,
+          "keywords": [
+            [
+              "presumpcio",
+              "presumpcio de parcellacio"
+            ],
+            [
+              "indicis",
+              "camins",
+              "serveis"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'actuació és il·legal i activa la protecció de la legalitat urbanística",
+          "weight": 11,
+          "keywords": [
+            [
+              "illegal",
+              "legalitat urbanistica",
+              "restauracio",
+              "disciplina"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Control notarial i registral (cal llicència o declaració d'innecessarietat)",
+          "weight": 8,
+          "keywords": [
+            [
+              "notari",
+              "registre",
+              "registral"
+            ],
+            [
+              "llicencia",
+              "innecessarietat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques (art. 188 TRLUC), és a dir, les divisions de terrenys que puguin donar lloc a la implantació d'usos urbans o a la formació de nous nuclis de població. La llei estableix una presumpció de parcel·lació urbanística quan, en aquesta classe de sòl, s'observen indicis materials —com l'obertura de camins, la implantació de serveis o la disposició d'edificacions— que pressuposen una transformació urbana, com passa en el cas. Per tant, l'actuació és il·legal: l'Ajuntament ha d'incoar el procediment de protecció de la legalitat urbanística (restauració de la realitat alterada) i el corresponent expedient sancionador. A més, els notaris i registradors exigeixen l'acreditació de la llicència de parcel·lació o de la declaració d'innecessarietat per autoritzar o inscriure divisions o segregacions.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c58-proteccio-legalitat",
+      "theme": 58,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Protecció de la legalitat: obres en curs sense llicència",
+      "context": "Els serveis tècnics detecten que s'estan executant unes obres sense llicència en sòl urbà. Les obres semblen conformes amb el planejament i, per tant, legalitzables.",
+      "prompt": "Expliqueu les actuacions de protecció de la legalitat urbanística (inspecció, suspensió, legalització o restauració) i la seva relació amb la sanció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La inspecció urbanística comprova la legalitat (agents de l'autoritat)",
+          "weight": 10,
+          "keywords": [
+            [
+              "inspeccio urbanistica",
+              "inspeccio"
+            ],
+            [
+              "agents de l'autoritat",
+              "comprovar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Obres en curs sense llicència: ordre de suspensió immediata (mesura cautelar)",
+          "weight": 13,
+          "keywords": [
+            [
+              "suspensio",
+              "suspensio immediata",
+              "paralitzacio"
+            ],
+            [
+              "cautelar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Si són legalitzables: requeriment per sol·licitar la llicència; si no, restauració",
+          "weight": 12,
+          "keywords": [
+            [
+              "legalitzable",
+              "sollicitar llicencia"
+            ],
+            [
+              "restauracio",
+              "enderroc"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La restauració i la sanció són independents i compatibles",
+          "weight": 10,
+          "keywords": [
+            [
+              "independents",
+              "compatibles"
+            ],
+            [
+              "sancio",
+              "restauracio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Davant d'unes obres en curs sense llicència, l'Ajuntament exerceix la protecció de la legalitat urbanística (TRLUC). La inspecció urbanística, el personal de la qual té la condició d'agent de l'autoritat, comprova els fets i aixeca acta. Com que les obres estan en curs, s'ordena la seva suspensió immediata com a mesura cautelar. A continuació, atès que les obres semblen conformes amb el planejament (legalitzables), es requereix la persona perquè, en el termini corresponent, sol·liciti la llicència i les legalitzi; si no fossin legalitzables, s'ordenaria la restauració de la realitat física alterada (enderroc o reposició). Aquestes actuacions de restabliment de la legalitat són independents i compatibles amb la incoació del corresponent procediment sancionador per la infracció comesa: la imposició de la multa no eximeix del deure de legalitzar o restaurar, i a la inversa.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c60-establiment-obert",
+      "theme": 60,
+      "block": 13,
+      "maxPoints": 45,
+      "title": "Obertura d'un bar musical i d'una perruqueria",
+      "context": "Una persona vol obrir un bar musical (amb ambientació musical) en un local i, en un altre, una perruqueria. Pregunta a l'Ajuntament quin règim d'intervenció s'aplica a cada cas.",
+      "prompt": "Distingiu el règim d'intervenció (llicència, comunicació prèvia o declaració responsable) aplicable a cada activitat i justifiqueu-ho amb la normativa.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El bar musical és espectacle/activitat recreativa subjecta a la Llei 11/2009",
+          "weight": 12,
+          "keywords": [
+            [
+              "activitat recreativa",
+              "espectacle",
+              "bar musical"
+            ],
+            [
+              "llei 11/2009",
+              "11/2009"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Segons aforament/risc: llicència d'establiment obert o comunicació prèvia",
+          "weight": 13,
+          "keywords": [
+            [
+              "llicencia",
+              "establiment obert"
+            ],
+            [
+              "comunicacio previa",
+              "aforament",
+              "risc"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La perruqueria és activitat innòcua: comunicació prèvia o declaració responsable",
+          "weight": 12,
+          "keywords": [
+            [
+              "innocua",
+              "perruqueria"
+            ],
+            [
+              "comunicacio previa",
+              "declaracio responsable"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La comunicació/declaració habilita des de la presentació, amb control posterior",
+          "weight": 8,
+          "keywords": [
+            [
+              "des de la presentacio",
+              "habilita",
+              "immediat"
+            ],
+            [
+              "control posterior",
+              "comprovacio",
+              "inspeccio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El bar musical és una activitat recreativa/espectacle públic regulada per la Llei 11/2009, de l'11 de novembre, de regulació administrativa dels espectacles públics i les activitats recreatives. El règim d'intervenció depèn de l'aforament i del risc: els establiments oberts al públic de més entitat resten subjectes a llicència municipal d'establiment obert al públic, mentre que els de menor aforament i risc poden quedar subjectes a comunicació prèvia. La perruqueria, en canvi, és una activitat innòcua (sense incidència ambiental o de seguretat rellevant), que se subjecta a comunicació prèvia o a declaració responsable d'activitat innòcua. Tant la comunicació prèvia com la declaració responsable habiliten per iniciar l'activitat des del moment de la presentació, sens perjudici de les facultats de comprovació, control i inspecció posterior de l'Ajuntament, que pot ordenar el cessament si es constata l'incompliment dels requisits.",
+      "sources": [
+        "L11_2009",
+        "ROAS"
+      ]
+    },
+    {
+      "id": "c61-projecte-obra-local",
+      "theme": 61,
+      "block": 14,
+      "maxPoints": 45,
+      "title": "Redacció i aprovació del projecte d'un nou pavelló",
+      "context": "L'Ajuntament vol construir un pavelló esportiu. Els serveis tècnics han de redactar el projecte d'obra i tramitar-ne l'aprovació.",
+      "prompt": "Exposeu el contingut mínim d'un projecte d'obres locals i el procediment d'aprovació, distingint-lo de la memòria valorada.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "El projecte el poden redactar els serveis tècnics municipals o equips externs",
+          "weight": 8,
+          "keywords": [
+            [
+              "serveis tecnics",
+              "redaccio"
+            ],
+            [
+              "equips externs",
+              "encarrec"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Contingut: memòria, plànols, plec de condicions i pressupost",
+          "weight": 14,
+          "keywords": [
+            [
+              "memoria",
+              "plànols",
+              "plec de condicions",
+              "pressupost"
+            ],
+            [
+              "amidaments",
+              "preus"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "La memòria valorada s'admet en obres menors o de manteniment (sense projecte complet)",
+          "weight": 10,
+          "keywords": [
+            [
+              "memoria valorada"
+            ],
+            [
+              "obra menor",
+              "menor entitat",
+              "manteniment"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Tramitació: aprovació inicial, informació pública i aprovació definitiva",
+          "weight": 13,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "aprovacio definitiva"
+            ],
+            [
+              "informacio publica",
+              "exposicio publica"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El projecte d'obres locals pot ser redactat pels serveis tècnics municipals o encarregat a equips externs. El seu contingut mínim, d'acord amb la legislació de contractes i el ROAS, comprèn: la memòria descriptiva i justificativa, els plànols de conjunt i de detall, el plec de prescripcions tècniques, i el pressupost amb els amidaments i el quadre de preus; quan escau, incorpora també l'estudi de seguretat i salut i el programa de treball. Per a obres de menor entitat, de reparació menor o de manteniment, n'hi ha prou amb una memòria valorada, que és un document simplificat sense l'abast d'un projecte complet. La tramitació d'aprovació segueix, amb caràcter general, les fases d'aprovació inicial per l'òrgan competent, informació pública (perquè s'hi puguin presentar al·legacions) i aprovació definitiva, moment a partir del qual el projecte resta a disposició de la contractació i l'execució de l'obra.",
+      "sources": [
+        "ROAS",
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c62-cte-requisits",
+      "theme": 62,
+      "block": 14,
+      "maxPoints": 45,
+      "title": "Verificació del compliment del CTE en un projecte",
+      "context": "Es presenta el projecte d'un edifici plurifamiliar. Cal verificar que compleix els requisits bàsics de l'edificació que estableixen la LOE i el Codi Tècnic de l'Edificació (CTE).",
+      "prompt": "Exposeu els requisits bàsics de l'edificació (funcionalitat, seguretat i habitabilitat) i el paper del CTE i de l'ecoeficiència.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Requisits bàsics: funcionalitat, seguretat i habitabilitat (LOE)",
+          "weight": 13,
+          "keywords": [
+            [
+              "funcionalitat",
+              "seguretat",
+              "habitabilitat"
+            ],
+            [
+              "loe",
+              "requisits basics"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "El CTE concreta les exigències mitjançant els documents bàsics (DB)",
+          "weight": 12,
+          "keywords": [
+            [
+              "cte",
+              "codi tecnic"
+            ],
+            [
+              "documents basics",
+              "db",
+              "exigencies"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Seguretat: estructural (DB-SE), en cas d'incendi (DB-SI) i d'utilització (DB-SUA)",
+          "weight": 10,
+          "keywords": [
+            [
+              "seguretat estructural",
+              "db-se",
+              "incendi",
+              "db-si"
+            ],
+            [
+              "utilitzacio",
+              "db-sua"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Habitabilitat i ecoeficiència: estalvi d'energia (DB-HE), salubritat i soroll",
+          "weight": 10,
+          "keywords": [
+            [
+              "habitabilitat",
+              "salubritat",
+              "soroll"
+            ],
+            [
+              "ecoeficiencia",
+              "estalvi d'energia",
+              "db-he",
+              "energetica"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Els requisits bàsics de l'edificació els fixa la Llei 38/1999, d'ordenació de l'edificació (LOE), i s'agrupen en tres blocs: funcionalitat (utilització, accessibilitat, accés als serveis), seguretat (estructural, en cas d'incendi i d'utilització) i habitabilitat (higiene, salut i protecció del medi ambient, protecció contra el soroll, estalvi d'energia i aïllament tèrmic). El Codi Tècnic de l'Edificació (CTE) és el marc normatiu que concreta aquestes exigències bàsiques mitjançant els documents bàsics (DB): DB-SE (seguretat estructural), DB-SI (seguretat en cas d'incendi), DB-SUA (seguretat d'utilització i accessibilitat), DB-HS (salubritat), DB-HR (protecció contra el soroll) i DB-HE (estalvi d'energia). L'ecoeficiència en els edificis es vincula sobretot al DB-HE i a la normativa catalana d'ecoeficiència, que imposa criteris d'estalvi d'aigua, d'energia, d'ús de materials i de gestió de residus per reduir l'impacte ambiental de l'edificació. El compliment del CTE és exigible i es verifica en el projecte i en l'obra executada.",
+      "sources": [
+        "CTE",
+        "LOE"
+      ]
+    },
+    {
+      "id": "c63-execucio-obra",
+      "theme": 63,
+      "block": 14,
+      "maxPoints": 45,
+      "title": "Execució per contracte d'una obra municipal",
+      "context": "L'Ajuntament adjudica per contracte la construcció d'una escola bressol. Cal organitzar la direcció facultativa, el control de qualitat i la recepció de l'obra.",
+      "prompt": "Expliqueu les figures de la direcció de l'obra, el control de qualitat, les certificacions i la recepció de l'obra.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Execució per contracte o per mitjans propis municipals",
+          "weight": 8,
+          "keywords": [
+            [
+              "contracte",
+              "contractista"
+            ],
+            [
+              "mitjans propis",
+              "administracio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Direcció facultativa: director d'obra, director d'execució i coordinador de seguretat i salut",
+          "weight": 14,
+          "keywords": [
+            [
+              "director d'obra",
+              "direccio facultativa"
+            ],
+            [
+              "director d'execucio",
+              "coordinador de seguretat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Control de qualitat i certificacions d'obra (mensuals, a compte)",
+          "weight": 11,
+          "keywords": [
+            [
+              "control de qualitat"
+            ],
+            [
+              "certificacions",
+              "certificacio d'obra",
+              "a compte"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Recepció de l'obra i inici del termini de garantia",
+          "weight": 10,
+          "keywords": [
+            [
+              "recepcio",
+              "acta de recepcio"
+            ],
+            [
+              "termini de garantia",
+              "garantia"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'execució d'una obra local es pot fer mitjançant contracte amb un contractista (que, per a determinats imports, ha d'estar degudament classificat o acreditar solvència) o per mitjans propis municipals. La direcció facultativa s'integra per: el director de l'obra, que dirigeix el desenvolupament de l'obra en els aspectes tècnics, estètics, urbanístics i mediambientals de conformitat amb el projecte; el director de l'execució de l'obra, que assumeix la direcció material i el control de l'execució i de la qualitat del que es construeix; i el coordinador de seguretat i salut, que coordina l'aplicació dels principis de prevenció durant l'execució. El control de qualitat verifica que els materials i les unitats d'obra compleixen les prescripcions del projecte. L'obra executada es valora periòdicament mitjançant les certificacions d'obra (normalment mensuals i a compte), que documenten l'obra realitzada i serveixen de base per als pagaments. Un cop acabada, es formalitza la recepció de l'obra mitjançant acta, acte a partir del qual s'inicia el termini de garantia durant el qual el contractista respon dels vicis o defectes que apareguin.",
+      "sources": [
+        "LCSP",
+        "ROAS"
+      ]
+    },
+    {
+      "id": "c64-organitzacio-obres",
+      "theme": 64,
+      "block": 14,
+      "maxPoints": 45,
+      "title": "Planificació d'un programa d'obres dels serveis tècnics",
+      "context": "Els serveis tècnics municipals han d'executar diverses actuacions al llarg de l'any (manteniment de carrers, una reforma i una obra nova) amb recursos limitats. Cal organitzar i prioritzar les tasques.",
+      "prompt": "Exposeu com planificar, organitzar i coordinar la realització de les obres municipals (priorització, recursos, seguiment).",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Planificació: identificar actuacions, objectius i terminis",
+          "weight": 12,
+          "keywords": [
+            [
+              "planificacio",
+              "planificar"
+            ],
+            [
+              "objectius",
+              "terminis",
+              "calendari"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Priorització segons urgència, interès públic i disponibilitat pressupostària",
+          "weight": 12,
+          "keywords": [
+            [
+              "prioritzacio",
+              "prioritzar"
+            ],
+            [
+              "urgencia",
+              "interes public",
+              "pressupost"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Assignació de recursos: mitjans propis o externs, coordinació d'equips",
+          "weight": 11,
+          "keywords": [
+            [
+              "recursos",
+              "mitjans propis",
+              "externs"
+            ],
+            [
+              "coordinacio",
+              "equips",
+              "assignacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Seguiment, control de l'execució i reconducció de desviacions",
+          "weight": 10,
+          "keywords": [
+            [
+              "seguiment",
+              "control"
+            ],
+            [
+              "desviacions",
+              "reconduccio",
+              "correccio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'organització i coordinació de les obres municipals exigeix, en primer lloc, una planificació: identificar totes les actuacions a desenvolupar, fixar-ne els objectius, l'abast i els terminis, i elaborar un calendari o programa de treball. Com que els recursos són limitats, cal prioritzar les actuacions atenent la urgència (especialment les de seguretat), l'interès públic, les obligacions legals i la disponibilitat pressupostària. A continuació s'assignen els recursos: decidir què s'executa amb mitjans propis dels serveis tècnics i què s'encarrega o contracta externament, i coordinar els equips i les diferents àrees implicades. Finalment, cal fer el seguiment i el control de l'execució de cada projecte (compliment de terminis, costos i qualitat) i reconduir les desviacions que es detectin, reprogramant les tasques quan calgui. Una bona coordinació evita solapaments, optimitza els recursos i garanteix que les actuacions s'executin de manera ordenada i eficient.",
+      "sources": [
+        "ROAS",
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c65-patrimoni-public-sol",
+      "theme": 65,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Destinació dels ingressos del patrimoni públic de sòl",
+      "context": "L'Ajuntament ha obtingut sòl per cessió de l'aprofitament urbanístic i n'ha alienat una part. La intervenció municipal vol destinar aquests ingressos a despeses corrents.",
+      "prompt": "Expliqueu què és el patrimoni públic de sòl i habitatge, la seva naturalesa i a què s'han de destinar els seus béns i ingressos.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Concepte: béns i recursos destinats a finalitats urbanístiques i a l'habitatge",
+          "weight": 11,
+          "keywords": [
+            [
+              "patrimoni public de sol",
+              "conjunt de bens"
+            ],
+            [
+              "finalitats urbanistiques",
+              "habitatge"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Naturalesa de patrimoni separat i afectat, amb gestió diferenciada",
+          "weight": 12,
+          "keywords": [
+            [
+              "patrimoni separat"
+            ],
+            [
+              "afectat",
+              "gestio diferenciada"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "S'hi integra el sòl de cessió d'aprofitament i d'expropiació",
+          "weight": 10,
+          "keywords": [
+            [
+              "cessio d'aprofitament",
+              "aprofitament urbanistic"
+            ],
+            [
+              "expropiacio",
+              "tanteig"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Els ingressos s'han de destinar a les seves finalitats (habitatge protegit), no a despeses corrents",
+          "weight": 12,
+          "keywords": [
+            [
+              "destinar",
+              "afectacio"
+            ],
+            [
+              "habitatge protegit",
+              "no despeses corrents",
+              "finalitats propies"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El patrimoni públic de sòl i d'habitatge és el conjunt de béns, recursos i drets que les administracions destinen a regular el mercat del sòl, a obtenir reserves de sòl per a actuacions d'iniciativa pública, a facilitar l'execució del planejament i, especialment, a fer efectiu el dret a un habitatge digne mitjançant la promoció d'habitatge protegit. Es configura com un patrimoni separat de la resta de béns de l'entitat, afectat a aquestes finalitats específiques i amb comptabilitat i gestió diferenciades. S'hi integren, entre altres, el sòl obtingut per la cessió de l'aprofitament urbanístic, els terrenys adquirits per expropiació o per l'exercici dels drets de tanteig i retracte, i els ingressos derivats de la seva gestió o alienació. Per aquesta raó, els béns i els ingressos del patrimoni públic de sòl no es poden destinar a despeses corrents alienes: estan afectats a les finalitats pròpies del patrimoni (actuacions urbanístiques, conservació i ampliació del patrimoni i, sobretot, polítiques d'habitatge protegit). La pretensió de destinar aquests ingressos a despeses corrents seria contrària a aquesta afectació legal.",
+      "sources": [
+        "TRLUC",
+        "L18_2007"
+      ]
+    },
+    {
+      "id": "c66-urbanitzacio-deficit",
+      "theme": 66,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Regularització d'una urbanització sense serveis complets",
+      "context": "En el terme municipal hi ha una urbanització antiga, d'origen parcialment irregular, que no disposa de xarxa de sanejament ni d'enllumenat complets i no va fer les cessions de sòl per a sistemes. Els veïns demanen regularitzar-la.",
+      "prompt": "Expliqueu el concepte d'urbanització amb dèficits urbanístics i els instruments per regularitzar-la.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Concepte: àmbits amb serveis urbanístics incomplets i cessions pendents",
+          "weight": 12,
+          "keywords": [
+            [
+              "deficits",
+              "serveis incomplets"
+            ],
+            [
+              "cessions pendents",
+              "sense cessions",
+              "irregular"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Objectiu: completar la urbanització i regularitzar la situació, prioritzant la seguretat",
+          "weight": 11,
+          "keywords": [
+            [
+              "completar",
+              "dotar de serveis"
+            ],
+            [
+              "regularitzar",
+              "seguretat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Instruments de planejament: pla especial o pla de millora urbana",
+          "weight": 11,
+          "keywords": [
+            [
+              "pla especial",
+              "pla de millora urbana"
+            ],
+            [
+              "planejament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Gestió: reparcel·lació i urbanització, amb repartiment de càrregues (equidistribució)",
+          "weight": 11,
+          "keywords": [
+            [
+              "reparcel·lacio",
+              "projecte d'urbanitzacio"
+            ],
+            [
+              "carregues",
+              "equidistribucio",
+              "propietaris"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les urbanitzacions amb dèficits urbanístics són àmbits, sovint d'origen irregular o desenvolupats de manera incompleta, que presenten manca o insuficiència dels serveis urbanístics bàsics (vialitat, abastament d'aigua, sanejament, enllumenat) i, freqüentment, l'absència de les cessions de sòl per a sistemes que exigeix la llei. L'objectiu de la regularització és completar la urbanització i dotar l'àmbit dels serveis bàsics, alhora que es regularitza la seva situació jurídica i les cessions pendents, prioritzant sempre la seguretat de les persones. La regularització s'instrumenta mitjançant figures de planejament derivat, com el pla especial urbanístic o el pla de millora urbana, acompanyades dels instruments de gestió corresponents (projecte de reparcel·lació i projecte d'urbanització). El finançament de les obres es reparteix entre les persones propietàries segons el principi d'equidistribució de beneficis i càrregues, sens perjudici de possibles ajuts o aportacions públiques quan ho justifiqui l'interès general.",
+      "sources": [
+        "TRLUC",
+        "RLUC"
+      ]
+    },
+    {
+      "id": "c68-valoracions",
+      "theme": 68,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Valoració de finques en una expropiació",
+      "context": "Per executar un sistema general cal expropiar dues finques: una és sòl rural (un camp de conreu) i l'altra és sòl urbanitzat amb una nau industrial. Cal determinar els criteris de valoració.",
+      "prompt": "Exposeu els criteris de valoració del sòl segons la seva situació bàsica i com es valoren les construccions, d'acord amb la legislació estatal de sòl.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La valoració depèn de la situació bàsica: sòl rural o sòl urbanitzat (TRLS estatal)",
+          "weight": 10,
+          "keywords": [
+            [
+              "situacio basica",
+              "sol rural",
+              "sol urbanitzat"
+            ],
+            [
+              "trls",
+              "legislacio estatal"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Sòl rural: capitalització de la renda, sense expectatives, amb factor de localització",
+          "weight": 12,
+          "keywords": [
+            [
+              "capitalitzacio de la renda",
+              "renda"
+            ],
+            [
+              "sense expectatives",
+              "factor de localitzacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Sòl urbanitzat: edificabilitat × valor de repercussió (mètode residual)",
+          "weight": 12,
+          "keywords": [
+            [
+              "edificabilitat",
+              "valor de repercussio"
+            ],
+            [
+              "metode residual"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Construccions: cost de reposició depreciat per antiguitat i estat",
+          "weight": 11,
+          "keywords": [
+            [
+              "construccions",
+              "cost de reposicio"
+            ],
+            [
+              "depreciat",
+              "antiguitat",
+              "estat de conservacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les valoracions del sòl es regeixen per la legislació estatal de sòl (TRLS, RDL 7/2015), competència exclusiva de l'Estat, i el criteri aplicable depèn de la situació bàsica del sòl. El sòl rural (el camp de conreu) es valora per capitalització de la renda anual, real o potencial, de l'explotació, segons el seu estat i ús actuals, sense computar les expectatives derivades de l'assignació futura d'edificabilitats o usos; a aquest valor s'hi pot aplicar un factor de correcció per localització. El sòl urbanitzat (la nau industrial) es valora aplicant a l'edificabilitat i a l'ús atribuïts pel planejament el valor de repercussió del sòl, obtingut pel mètode residual. Les construccions, edificacions i instal·lacions ajustades a la legalitat es valoren conjuntament amb el sòl pel mètode del cost de reposició, depreciat en funció de l'antiguitat i de l'estat de conservació; en el sòl urbanitzat edificat, el valor és el superior entre el del sòl segons l'edificabilitat i el de la taxació conjunta del sòl i l'edificació existent. A més, s'indemnitzen, si escau, l'extinció de drets afectats i altres conceptes que preveu el TRLS.",
+      "sources": [
+        "TRLSRU"
+      ]
+    },
+    {
+      "id": "c69-potestat-sancionadora",
+      "theme": 69,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Tramitació d'un expedient sancionador local",
+      "context": "L'Ajuntament vol sancionar una empresa per una infracció administrativa. L'instructor i l'òrgan que resol han de respectar els principis i garanties de la potestat sancionadora.",
+      "prompt": "Exposeu els principis substantius de la potestat sancionadora i les garanties del procediment sancionador.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Principis: legalitat (reserva de llei) i tipicitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "legalitat",
+              "reserva de llei"
+            ],
+            [
+              "tipicitat",
+              "previa",
+              "analogia"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Irretroactivitat (excepte favorable), responsabilitat (dol o culpa) i proporcionalitat",
+          "weight": 11,
+          "keywords": [
+            [
+              "irretroactivitat",
+              "retroactiva favorable"
+            ],
+            [
+              "dol",
+              "culpa",
+              "proporcionalitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Non bis in idem: no sancionar dos cops els mateixos fets amb idèntic fonament",
+          "weight": 10,
+          "keywords": [
+            [
+              "non bis in idem",
+              "dos cops"
+            ],
+            [
+              "mateixos fets",
+              "identic fonament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Garanties: presumpció d'innocència i separació instrucció/resolució",
+          "weight": 12,
+          "keywords": [
+            [
+              "presumpcio d'innocencia",
+              "carrega de la prova"
+            ],
+            [
+              "separacio",
+              "instruccio",
+              "resolucio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'exercici de la potestat sancionadora s'ha de subjectar als principis substantius dels articles 25 a 31 de la Llei 40/2015 i a les especialitats procedimentals de la Llei 39/2015. Els principis substantius són: la legalitat, que exigeix una norma amb rang de llei (reserva de llei) que habiliti per sancionar; la tipicitat, que només permet sancionar les infraccions prèviament previstes i amb les sancions establertes, amb prohibició de l'analogia; la irretroactivitat de les disposicions sancionadores, llevat que siguin favorables al presumpte infractor; la responsabilitat, que exigeix dol o culpa; la proporcionalitat, que ha d'adequar la sanció a la gravetat del fet; i el non bis in idem, que impedeix sancionar dos cops els mateixos fets amb idèntic fonament. Quant al procediment, s'han de garantir la presumpció d'innocència (la càrrega de la prova correspon a l'Administració), el dret de defensa i d'audiència, el dret a ser informat de l'acusació i la separació entre la fase instructora i la resolutòria, que han de correspondre a òrgans diferents. Les infraccions i sancions prescriuen i el procediment caduca si no es resol dins el termini màxim. En l'àmbit local, els ens locals poden tipificar infraccions i sancions per ordenança dins els límits que fixa la legislació de règim local.",
+      "sources": [
+        "L40_2015",
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c70-infraccio-urbanistica",
+      "theme": 70,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Obres en sòl no urbanitzable protegit sense llicència",
+      "context": "Una persona ha construït una edificació sense llicència en sòl no urbanitzable d'especial protecció. Hi han intervingut el promotor, el constructor i el tècnic redactor.",
+      "prompt": "Classifiqueu la infracció urbanística segons la seva gravetat i identifiqueu les persones responsables.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Les infraccions urbanístiques es classifiquen en lleus, greus i molt greus",
+          "weight": 10,
+          "keywords": [
+            [
+              "lleus",
+              "greus",
+              "molt greus"
+            ],
+            [
+              "classificacio",
+              "gravetat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Les que afecten sòl no urbanitzable d'especial protecció són molt greus",
+          "weight": 12,
+          "keywords": [
+            [
+              "sol no urbanitzable",
+              "especial proteccio"
+            ],
+            [
+              "molt greu"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Constitueix infracció executar obres sense llicència o títol habilitant",
+          "weight": 11,
+          "keywords": [
+            [
+              "sense llicencia",
+              "sense titol"
+            ],
+            [
+              "infraccio",
+              "vulnera"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Responsables: promotor, constructor i tècnic director (i propietaris si escau), solidàriament",
+          "weight": 12,
+          "keywords": [
+            [
+              "promotor",
+              "constructor",
+              "tecnic"
+            ],
+            [
+              "responsables",
+              "solidaria",
+              "solidariament"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les infraccions urbanístiques són les accions o omissions tipificades que vulneren l'ordenament urbanístic. El TRLUC les classifica, segons la seva gravetat, en lleus, greus i molt greus, en funció de l'afectació que produeixen a l'ordenació i del tipus de sòl. Es qualifiquen de molt greus, entre d'altres, les que afecten el sòl no urbanitzable d'especial protecció o les que comporten una vulneració greu que impedeix o dificulta de manera rellevant l'execució del planejament. En el cas plantejat, l'edificació en sòl no urbanitzable d'especial protecció sense llicència constitueix una infracció molt greu, atès que executar obres sense la llicència o el títol habilitant preceptiu, o contravenint-ne les condicions, és una conducta tipificada. Pel que fa a la responsabilitat, en responen totes les persones que hi han intervingut: el promotor, el constructor o empresari de les obres i el tècnic director o redactor, cadascun en l'àmbit de la seva actuació, i, si escau, els propietaris dels terrenys. Quan el compliment correspon conjuntament a diverses persones, responen de manera solidària en els termes que fixa la llei.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c71-sancions-urbanistiques",
+      "theme": 71,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Imposició i graduació d'una multa urbanística",
+      "context": "Després d'una infracció greu, l'instructor ha de proposar la multa. El benefici que l'infractor ha obtingut amb l'obra il·legal és superior a la multa mínima prevista.",
+      "prompt": "Expliqueu com es determina la quantia de la sanció urbanística, la seva graduació i la relació amb la restauració.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Les sancions són multes segons la gravetat (sovint un percentatge del valor de l'obra)",
+          "weight": 12,
+          "keywords": [
+            [
+              "multa",
+              "sancio"
+            ],
+            [
+              "percentatge del valor",
+              "valor de l'obra",
+              "gravetat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "La sanció mai no pot suposar un benefici econòmic per a l'infractor",
+          "weight": 12,
+          "keywords": [
+            [
+              "benefici",
+              "no pot suposar un benefici"
+            ],
+            [
+              "incrementa",
+              "igualar el benefici"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Graduació per proporcionalitat: dany, culpabilitat, benefici, reincidència, conducta",
+          "weight": 11,
+          "keywords": [
+            [
+              "graduacio",
+              "proporcionalitat"
+            ],
+            [
+              "dany",
+              "reincidencia",
+              "culpabilitat",
+              "conducta"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La multa és compatible amb el deure de restaurar la legalitat",
+          "weight": 10,
+          "keywords": [
+            [
+              "compatible",
+              "independent"
+            ],
+            [
+              "restaurar",
+              "restauracio",
+              "enderroc"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les sancions urbanístiques consisteixen principalment en multes, la quantia de les quals es determina en funció de la gravetat de la infracció (lleu, greu o molt greu) i sovint es calcula com un percentatge del valor de l'obra, de la instal·lació o de l'actuació il·legal, o entre uns límits mínim i màxim. Un principi essencial és que la sanció mai no pot suposar un benefici econòmic per a l'infractor: si el benefici obtingut és superior a la multa, aquesta s'incrementa fins a igualar-lo com a mínim; per tant, en el cas plantejat, la multa s'ha d'elevar fins a absorbir el benefici obtingut. La graduació de la sanció respon al principi de proporcionalitat i pondera circumstàncies com la magnitud del dany causat a l'ordenació, el grau de culpabilitat, el benefici obtingut, la reincidència i la conducta de l'infractor (la legalització o restauració voluntàries poden actuar com a atenuants). Finalment, la multa és independent i compatible amb el deure de restaurar la realitat física alterada i l'ordre jurídic vulnerat: imposar la sanció no eximeix d'enderrocar o reposar, ni a la inversa.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c72-ordre-execucio",
+      "theme": 72,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Edifici en mal estat de conservació",
+      "context": "Els serveis tècnics constaten que la façana d'un edifici presenta despreniments i risc per als vianants. La propietat no actua.",
+      "prompt": "Expliqueu el deure de conservació, les ordres d'execució i les conseqüències del seu incompliment.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Deure de conservació: mantenir l'immoble en condicions de seguretat, salubritat i ornament",
+          "weight": 12,
+          "keywords": [
+            [
+              "deure de conservacio",
+              "conservacio"
+            ],
+            [
+              "seguretat",
+              "salubritat",
+              "ornament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Hi ha un límit (deure normal de conservació); per sobre, pot obrir pas a la ruïna",
+          "weight": 9,
+          "keywords": [
+            [
+              "deure normal",
+              "limit"
+            ],
+            [
+              "ruina"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Ordre d'execució: determina les obres necessàries i el termini per fer-les",
+          "weight": 12,
+          "keywords": [
+            [
+              "ordre d'execucio"
+            ],
+            [
+              "obres necessaries",
+              "termini"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Incompliment: execució subsidiària a càrrec de l'obligat o multes coercitives",
+          "weight": 12,
+          "keywords": [
+            [
+              "execucio subsidiaria",
+              "subsidiaria"
+            ],
+            [
+              "multes coercitives",
+              "carrec de l'obligat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les persones propietàries tenen el deure legal de conservació: han de mantenir els terrenys, les construccions i les instal·lacions en condicions de seguretat, salubritat i ornament públic, i conservar-ne les condicions objectives d'habitabilitat o d'ús. Aquest deure té un límit, el deure normal de conservació; les obres que el superen no són exigibles per simple ordre d'execució i poden obrir pas a la declaració de ruïna. Quan un immoble no reuneix les condicions adequades —com la façana amb despreniments del cas plantejat—, l'Administració dicta una ordre d'execució que determina les obres necessàries i el termini per executar-les, per raons de seguretat, salubritat o ornament; les administracions també poden establir la inspecció tècnica periòdica dels edificis (ITE). Si la persona obligada no compleix l'ordre dins el termini, l'Administració pot procedir a l'execució subsidiària de les obres a càrrec de l'obligat o imposar multes coercitives reiterades fins a aconseguir-ne el compliment. En cas de risc imminent, com el d'aquest supòsit, es poden adoptar mesures immediates de seguretat (apuntalament, tancament de la vorera o desallotjament).",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c74-revisio-llicencia",
+      "theme": 74,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Llicència atorgada contra el planejament",
+      "context": "L'Ajuntament detecta que ha atorgat una llicència que permet una edificabilitat contrària al planejament. Cal deixar-la sense efecte.",
+      "prompt": "Exposeu com es poden revisar les llicències il·legals segons si són nul·les o anul·lables i els efectes de la incoació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingir actes nuls de ple dret i actes anul·lables",
+          "weight": 11,
+          "keywords": [
+            [
+              "nuls",
+              "nul·litat",
+              "ple dret"
+            ],
+            [
+              "anul·lables",
+              "anul·labilitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Actes nuls: revisió d'ofici (art. 106), sense termini, amb dictamen del Consell consultiu",
+          "weight": 12,
+          "keywords": [
+            [
+              "revisio d'ofici",
+              "article 106"
+            ],
+            [
+              "sense termini",
+              "dictamen",
+              "consell consultiu",
+              "comissio juridica assessora"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Actes anul·lables favorables: declaració de lesivitat (art. 107, 4 anys) i contenciós",
+          "weight": 12,
+          "keywords": [
+            [
+              "declaracio de lesivitat",
+              "article 107"
+            ],
+            [
+              "quatre anys",
+              "contencios"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La incoació pot suspendre cautelarment els efectes de la llicència i les obres",
+          "weight": 10,
+          "keywords": [
+            [
+              "incoacio",
+              "suspensio cautelar"
+            ],
+            [
+              "suspendre",
+              "efectes",
+              "obres"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les llicències i la resta d'actes dictats amb infracció de l'ordenament urbanístic poden ser nuls de ple dret —si concorre un supòsit de l'article 47 de la Llei 39/2015, com l'adquisició de facultats urbanístiques contràries al planejament, que és el cas plantejat— o simplement anul·lables, per qualsevol altra infracció de l'ordenament. La via per deixar-los sense efecte depèn d'aquesta qualificació. Els actes nuls es revisen mitjançant la revisió d'ofici de l'article 106 de la Llei 39/2015, que es pot iniciar en qualsevol moment, sense subjecció a termini, i requereix el dictamen previ i favorable del Consell consultiu (a Catalunya, la Comissió Jurídica Assessora). Els actes anul·lables favorables per als interessats no es poden anul·lar directament d'ofici: l'Administració els ha de declarar lesius per a l'interès públic (declaració de lesivitat de l'article 107), dins el termini de quatre anys, i tot seguit impugnar-los davant la jurisdicció contenciosa administrativa. La incoació de l'expedient de revisió pot comportar mesures cautelars, com la suspensió dels efectes de la llicència i de les obres emparades, per evitar que es consolidi la il·legalitat.",
+      "sources": [
+        "L39_2015",
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c75-llei-habitatge",
+      "theme": 75,
+      "block": 15,
+      "maxPoints": 45,
+      "title": "Lloguer d'un habitatge i exigència de cèdula",
+      "context": "Un propietari vol llogar un habitatge i donar d'alta els subministraments. A més, l'Ajuntament vol fer reserves de sòl per a habitatge protegit en un nou sector.",
+      "prompt": "Exposeu el marc de la Llei 18/2007 (dret a l'habitatge): cèdula d'habitabilitat, habitatge protegit i competències.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La cèdula d'habitabilitat acredita les condicions mínimes d'habitabilitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "cedula d'habitabilitat",
+              "cedula"
+            ],
+            [
+              "condicions minimes",
+              "habitabilitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Cal per transmetre o llogar habitatges i donar d'alta subministraments",
+          "weight": 11,
+          "keywords": [
+            [
+              "llogar",
+              "transmetre"
+            ],
+            [
+              "subministraments",
+              "alta"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Habitatge protegit: preus limitats i Registre de sol·licitants; reserves de sòl",
+          "weight": 12,
+          "keywords": [
+            [
+              "habitatge protegit",
+              "proteccio oficial"
+            ],
+            [
+              "registre de sollicitants",
+              "reserves de sol"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Competència de la Generalitat amb participació municipal (planejament/plans locals)",
+          "weight": 10,
+          "keywords": [
+            [
+              "generalitat",
+              "competencia"
+            ],
+            [
+              "municipal",
+              "planejament",
+              "pla local d'habitatge"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La Llei 18/2007, del dret a l'habitatge, configura l'accés a un habitatge digne i adequat com un dret que els poders públics han de fer efectiu. La cèdula d'habitabilitat és el document que acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària, entre altres supòsits, per transmetre o llogar habitatges i per donar d'alta els subministraments (aigua, electricitat, gas). Per tant, el propietari del cas necessita la cèdula vigent per formalitzar el lloguer i les altes. La llei regula també l'habitatge amb protecció oficial (preus o rendes limitats i destinat a persones amb ingressos per sota d'uns llindars), que s'adjudica a través del Registre de sol·licitants d'habitatge amb protecció oficial per garantir la transparència i la igualtat; el planejament urbanístic ha de preveure reserves mínimes de sòl per a aquest habitatge, com vol fer l'Ajuntament en el nou sector. La competència en matèria d'habitatge correspon a la Generalitat, que la planifica i la regula, mentre que els municipis hi participen mitjançant el planejament urbanístic, els plans locals d'habitatge i les polítiques de proximitat.",
+      "sources": [
+        "L18_2007"
+      ]
+    },
+    {
+      "id": "c76-medi-ambient",
+      "theme": 76,
+      "block": 15,
+      "maxPoints": 45,
+      "title": "Activitat amb possible impacte ambiental",
+      "context": "Es vol implantar al municipi una activitat industrial que podria tenir efectes significatius sobre el medi. Cal saber quin instrument ambiental s'aplica.",
+      "prompt": "Exposeu el marc de les polítiques ambientals a Catalunya i l'avaluació ambiental (estratègica i d'impacte).",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Competència compartida: bases estatals i desenvolupament/gestió de la Generalitat (EAC)",
+          "weight": 10,
+          "keywords": [
+            [
+              "competencia compartida",
+              "bases estatals"
+            ],
+            [
+              "generalitat",
+              "desenvolupament",
+              "estatut"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Principis: precaució, prevenció, correcció en origen i qui contamina paga",
+          "weight": 10,
+          "keywords": [
+            [
+              "precaucio",
+              "prevencio"
+            ],
+            [
+              "qui contamina paga",
+              "correccio en origen"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Avaluació ambiental estratègica (plans i programes) vs d'impacte ambiental (projectes)",
+          "weight": 13,
+          "keywords": [
+            [
+              "avaluacio ambiental estrategica",
+              "plans i programes"
+            ],
+            [
+              "impacte ambiental",
+              "projectes"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "L'avaluació d'impacte conclou amb la declaració d'impacte ambiental (DIA)",
+          "weight": 12,
+          "keywords": [
+            [
+              "declaracio d'impacte ambiental",
+              "dia"
+            ],
+            [
+              "determinant",
+              "autoritzacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les polítiques sobre el medi ambient a Catalunya s'inscriuen en un marc de competència compartida: l'Estat fixa la legislació bàsica i la Generalitat n'assumeix el desenvolupament legislatiu, la gestió i l'execució (art. 144 de l'Estatut d'autonomia), amb possibilitat d'establir normes addicionals de protecció. S'inspiren en els principis de precaució, prevenció, correcció en origen dels danys i 'qui contamina, paga', amb l'objectiu del desenvolupament sostenible. L'avaluació ambiental és l'instrument que valora els efectes significatius sobre el medi abans d'aprovar plans i programes o d'autoritzar projectes. Se'n distingeixen dues modalitats: l'avaluació ambiental estratègica, que recau sobre plans i programes (per exemple, el planejament urbanístic), i l'avaluació d'impacte ambiental, que recau sobre projectes concrets. En el cas plantejat, com que es tracta d'una activitat industrial concreta amb possibles efectes significatius, l'instrument aplicable és l'avaluació d'impacte ambiental, que conclou amb la declaració d'impacte ambiental (DIA), de caràcter determinant per a l'autorització del projecte. A més, la implantació de l'activitat resta subjecta a la prevenció i el control ambiental de la Llei 20/2009.",
+      "sources": [
+        "L20_2009",
+        "EAC2006"
+      ]
+    },
+    {
+      "id": "c77-admin-electronica",
+      "theme": 77,
+      "block": 16,
+      "maxPoints": 45,
+      "title": "Presentació de sol·licituds: paper o electrònic",
+      "context": "Una persona física i una empresa (societat mercantil) volen presentar sengles sol·licituds a l'Ajuntament. Pregunten si poden fer-ho en paper o si han de fer-ho electrònicament.",
+      "prompt": "Expliqueu el dret a relacionar-se electrònicament, els subjectes obligats i el paper de la signatura electrònica.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Les persones físiques poden triar el canal (electrònic o no), art. 14.1",
+          "weight": 12,
+          "keywords": [
+            [
+              "persones fisiques",
+              "triar"
+            ],
+            [
+              "article 14",
+              "14.1",
+              "poden escollir"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Estan obligades les persones jurídiques i entitats sense personalitat (art. 14.2)",
+          "weight": 13,
+          "keywords": [
+            [
+              "persones juridiques",
+              "obligats"
+            ],
+            [
+              "article 14.2",
+              "14.2",
+              "entitats sense personalitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "També professionals col·legiats i empleats públics en les seves funcions",
+          "weight": 9,
+          "keywords": [
+            [
+              "professionals col·legiats",
+              "collegiacio"
+            ],
+            [
+              "empleats publics"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Signatura electrònica qualificada equival a la manuscrita per manifestar la voluntat",
+          "weight": 11,
+          "keywords": [
+            [
+              "signatura electronica",
+              "qualificada"
+            ],
+            [
+              "manuscrita",
+              "voluntat",
+              "mateix valor"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El règim de relació electrònica amb les administracions el fixa l'article 14 de la Llei 39/2015. Les persones físiques poden triar en tot moment si es comuniquen amb l'Administració per mitjans electrònics o no (art. 14.1); per tant, la persona física del cas pot presentar la sol·licitud en paper o electrònicament, com prefereixi. En canvi, estan obligats a relacionar-s'hi exclusivament per mitjans electrònics (art. 14.2), entre altres: les persones jurídiques, les entitats sense personalitat jurídica, els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria (en l'exercici de l'activitat), els qui representin un interessat obligat, i els empleats públics en l'exercici de les seves funcions. L'empresa del cas, com a societat mercantil (persona jurídica), està obligada a presentar la sol·licitud electrònicament. Per actuar electrònicament cal identificar-se amb els sistemes admesos i, per als tràmits que impliquen manifestar la voluntat (com presentar sol·licituds o recursos), signar electrònicament: la signatura electrònica qualificada té, respecte de les dades consignades en forma electrònica, el mateix valor jurídic que la signatura manuscrita.",
+      "sources": [
+        "L39_2015",
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c78-millora-qualitat",
+      "theme": 78,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Millora del servei d'atenció a la ciutadania",
+      "context": "L'àrea d'urbanisme rep moltes queixes per la lentitud i la manca d'informació en la tramitació de llicències. La direcció vol implantar un pla de millora de la qualitat.",
+      "prompt": "Proposeu instruments de millora de la qualitat i d'atenció a la ciutadania i expliqueu el cicle de millora contínua.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Cicle de millora contínua PDCA: planificar, fer, verificar i actuar",
+          "weight": 12,
+          "keywords": [
+            [
+              "millora continua",
+              "pdca"
+            ],
+            [
+              "planificar",
+              "verificar",
+              "actuar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Objectius: eficàcia, eficiència i satisfacció de les persones usuàries",
+          "weight": 10,
+          "keywords": [
+            [
+              "eficacia",
+              "eficiencia"
+            ],
+            [
+              "satisfaccio",
+              "usuaris"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Carta de serveis amb compromisos de qualitat (terminis, condicions)",
+          "weight": 12,
+          "keywords": [
+            [
+              "carta de serveis"
+            ],
+            [
+              "compromisos",
+              "terminis"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Indicadors, enquestes de satisfacció i sistema de queixes i suggeriments",
+          "weight": 11,
+          "keywords": [
+            [
+              "indicadors",
+              "enquestes de satisfaccio"
+            ],
+            [
+              "queixes",
+              "suggeriments"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La millora de la qualitat es basa en la millora contínua dels processos i en l'orientació del servei a la ciutadania. El marc de referència és el cicle PDCA (planificar, fer, verificar i actuar): es planifiquen els processos i els objectius, s'executen, es mesuren els resultats i es revisen per introduir-hi millores de manera iterativa, amb l'objectiu d'incrementar l'eficàcia (assolir els resultats), l'eficiència (amb el mínim de recursos) i la satisfacció de les persones usuàries. Per al cas de l'àrea d'urbanisme, es poden implantar diversos instruments: una carta de serveis que informi la ciutadania dels serveis prestats i fixi compromisos de qualitat (terminis de resolució, condicions, drets dels usuaris); indicadors de qualitat (temps de resposta, grau de satisfacció, taxa de resolució d'incidències); enquestes de satisfacció i un sistema de queixes i suggeriments com a fonts d'informació per a la millora; i mesures de simplificació administrativa i reducció de càrregues. Tot plegat orientat a una atenció accessible (presencial i electrònica), amb informació clara i comprensible, tracte correcte i resposta en terminis raonables, la qual cosa exigeix també formació del personal i ús eficient de les tecnologies.",
+      "sources": [
+        "L19_2014"
+      ]
+    },
+    {
+      "id": "c79-avaluacio-objectius",
+      "theme": 79,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Seguiment dels objectius de l'Àrea de Territori",
+      "context": "L'Àrea del Territori i Sostenibilitat s'ha fixat objectius anuals (reduir els terminis de tramitació de llicències i executar un pla d'obres). A mig any, alguns indicadors mostren desviacions.",
+      "prompt": "Exposeu les fases de l'avaluació de l'assoliment d'objectius i com reconduir les desviacions.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Fases: planificació, execució, seguiment/mesura i revisió (cicle retroalimentat)",
+          "weight": 13,
+          "keywords": [
+            [
+              "planificacio",
+              "execucio"
+            ],
+            [
+              "seguiment",
+              "mesura",
+              "revisio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Indicadors mesurables i vinculats als objectius (criteris SMART)",
+          "weight": 11,
+          "keywords": [
+            [
+              "indicadors",
+              "mesurables"
+            ],
+            [
+              "smart",
+              "vinculats als objectius"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Quadre de comandament per detectar a temps les desviacions",
+          "weight": 10,
+          "keywords": [
+            [
+              "quadre de comandament"
+            ],
+            [
+              "desviacions",
+              "detectar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Adopció de mesures correctores i vinculació amb el retiment de comptes",
+          "weight": 11,
+          "keywords": [
+            [
+              "mesures correctores",
+              "reconduccio",
+              "corregir"
+            ],
+            [
+              "retiment de comptes",
+              "transparencia"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'avaluació de l'assoliment d'objectius és el procés de seguiment dels resultats propis i de l'àrea per comprovar en quina mesura s'assoleixen els objectius fixats i introduir-hi millores. Segueix un cicle amb fases definides: la planificació (definició dels objectius i dels indicadors), l'execució (desplegament de les accions previstes), el seguiment i la mesura (recollida sistemàtica de dades sobre l'evolució) i la revisió (anàlisi de les desviacions respecte dels objectius i adopció de mesures correctores). Aquest cicle es retroalimenta: els resultats orienten la planificació següent. Els objectius s'han de poder mesurar amb indicadors rellevants, mesurables i vinculats als objectius (criteris SMART: específics, mesurables, assolibles, rellevants i amb horitzó temporal), integrats en un quadre de comandament que permet detectar a temps les desviacions. En el cas de l'Àrea del Territori, en constatar a mig any les desviacions en els terminis de tramitació i en el pla d'obres, cal analitzar-ne les causes i adoptar mesures correctores (reforç de recursos, reprogramació, simplificació de tràmits) per reconduir-les. L'avaluació es vincula al retiment de comptes i a la transparència, que reforcen la responsabilitat de la gestió i la confiança de la ciutadania.",
+      "sources": [
+        "L19_2014"
+      ]
+    },
+    {
+      "id": "c80-eines-comandament",
+      "theme": 80,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Sobrecàrrega de treball en un equip tècnic",
+      "context": "Un cap d'equip detecta que el seu equip està sobrecarregat, amb moltes interrupcions, reunions poc productives i signes d'estrès. Vol millorar l'organització del treball.",
+      "prompt": "Proposeu eines d'organització del treball i de gestió de l'estrès aplicables a la situació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Organització: prioritzar (urgent/important), planificar i agrupar tasques",
+          "weight": 13,
+          "keywords": [
+            [
+              "prioritzar",
+              "urgent",
+              "important"
+            ],
+            [
+              "planificar",
+              "agrupar tasques"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Delegar adequadament i evitar interrupcions innecessàries",
+          "weight": 10,
+          "keywords": [
+            [
+              "delegar",
+              "delegacio"
+            ],
+            [
+              "interrupcions",
+              "evitar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Gestió de l'estrès: identificar fonts, càrrega realista, prevenció de riscos psicosocials",
+          "weight": 12,
+          "keywords": [
+            [
+              "estres",
+              "fonts",
+              "sobrecarrega"
+            ],
+            [
+              "riscos psicosocials",
+              "carrega realista",
+              "prevencio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Reunions eficaces (objectiu, ordre del dia, durada) i comunicació clara",
+          "weight": 10,
+          "keywords": [
+            [
+              "reunions",
+              "ordre del dia",
+              "objectiu"
+            ],
+            [
+              "comunicacio clara",
+              "seguiment"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Les eines del comandament inclouen tècniques d'organització del treball i de gestió de l'estrès. Davant la situació descrita, una bona organització del treball passa per prioritzar, distingint el que és urgent del que és important (per exemple amb la matriu d'Eisenhower), planificar les tasques i els terminis, agrupar les tasques similars, evitar les interrupcions innecessàries i delegar adequadament, donant autonomia i fent seguiment. La planificació del temps i la fixació d'objectius diaris i setmanals ajuden a centrar l'esforç en el que aporta valor. Pel que fa a l'estrès, cal identificar-ne les fonts (sobrecàrrega, manca de control, conflictes), organitzar la càrrega de treball de manera realista, demanar suport i, des de l'organització, prevenir els riscos psicosocials; un nivell d'estrès gestionable millora el rendiment, però l'estrès crònic el deteriora i afecta la salut. Finalment, convé fer les reunions més eficaces (objectiu clar, ordre del dia, durada ajustada i seguiment dels acords) i mantenir una comunicació clara i bidireccional, combinant l'orientació a resultats amb l'atenció a les persones de l'equip.",
+      "sources": [
+        "L31_1995",
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c81-lideratge-equips",
+      "theme": 81,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Conflicte i desmotivació en un equip",
+      "context": "En un equip hi ha un conflicte entre dues persones i una baixada general de motivació. El comandament ha de reconduir la situació i recuperar la implicació de l'equip.",
+      "prompt": "Proposeu tècniques de motivació, delegació i resolució del conflicte, i les habilitats de comunicació necessàries.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Motivar: reconeixement, participació, objectius clars i desenvolupament professional",
+          "weight": 12,
+          "keywords": [
+            [
+              "motivacio",
+              "reconeixement"
+            ],
+            [
+              "participacio",
+              "objectius clars",
+              "desenvolupament"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Lideratge situacional: adaptar l'estil a la maduresa i la tasca",
+          "weight": 9,
+          "keywords": [
+            [
+              "lideratge situacional",
+              "adaptar l'estil"
+            ],
+            [
+              "maduresa",
+              "competencia"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Resoldre el conflicte amb comunicació, negociació i mediació",
+          "weight": 12,
+          "keywords": [
+            [
+              "conflicte",
+              "negociacio",
+              "mediacio"
+            ],
+            [
+              "comunicacio",
+              "dialeg"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Habilitats: escolta activa, assertivitat, empatia i feedback constructiu",
+          "weight": 12,
+          "keywords": [
+            [
+              "escolta activa",
+              "assertivitat"
+            ],
+            [
+              "empatia",
+              "feedback",
+              "retroaccio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El lideratge d'equips combina tècniques de motivació, de delegació i de gestió de conflictes amb habilitats de comunicació. Per recuperar la motivació de l'equip, el comandament pot reforçar el reconeixement de la feina, fomentar la participació en les decisions, establir objectius clars i assolibles i afavorir el desenvolupament professional de les persones; el lideratge situacional recomana adaptar l'estil (directiu, participatiu o delegatiu) al grau de maduresa i competència de cada persona i a la naturalesa de la tasca. Davant el conflicte entre dues persones, cal abordar-lo preferentment amb tècniques de comunicació, negociació i mediació, abans de recórrer a mesures coercitives: escoltar les dues parts, identificar els interessos reals i cercar una solució acceptada per ambdues. Les habilitats de comunicació clau són l'escolta activa, l'assertivitat (expressar el propi punt de vista respectant els altres), l'empatia i la capacitat de donar i rebre retroacció (feedback) de manera constructiva. Una delegació eficaç de tasques, amb autonomia i seguiment, també contribueix a implicar l'equip i a desenvolupar-ne les capacitats.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c83-gestio-objectius",
+      "theme": 83,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Implantació de la gestió per objectius en una àrea",
+      "context": "La direcció vol implantar un sistema de gestió per objectius a l'àrea, alineant la planificació estratègica amb l'operativa i avaluant l'acompliment del personal.",
+      "prompt": "Exposeu els elements de la gestió per objectius: planificació estratègica i operativa, indicadors i avaluació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Planificació estratègica (objectius a llarg termini) i operativa (accions concretes)",
+          "weight": 13,
+          "keywords": [
+            [
+              "planificacio estrategica",
+              "llarg termini"
+            ],
+            [
+              "operativa",
+              "accions",
+              "curt termini"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Despleg dels objectius generals en objectius d'àrea i individuals",
+          "weight": 10,
+          "keywords": [
+            [
+              "desplegar",
+              "objectius generals"
+            ],
+            [
+              "objectius d'area",
+              "individuals",
+              "alineacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Fixació d'indicadors mesurables per al seguiment",
+          "weight": 11,
+          "keywords": [
+            [
+              "indicadors",
+              "mesurables"
+            ],
+            [
+              "seguiment",
+              "fixacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Avaluació de l'acompliment i reconducció de desviacions",
+          "weight": 11,
+          "keywords": [
+            [
+              "avaluacio de l'acompliment",
+              "avaluacio del desenvolupament"
+            ],
+            [
+              "desviacions",
+              "reconduccio",
+              "retroalimentacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La gestió per objectius és un model de direcció que orienta l'activitat de l'organització cap a la consecució de resultats prèviament definits. Parteix de la planificació estratègica, que fixa els objectius generals a llarg termini i les línies prioritàries, i la concreta en la planificació operativa, que en desplega les accions concretes, els recursos i els terminis a curt termini. Els objectius generals de l'organització es despleguen en objectius d'àrea i, si escau, individuals, de manera que tots quedin alineats i cada unitat i persona sàpiga com contribueix als resultats. Per poder-ne fer el seguiment, cal fixar indicadors mesurables (criteris SMART), que permeten comprovar el grau d'assoliment i detectar desviacions. Finalment, el sistema es tanca amb l'avaluació de l'acompliment (que en l'àmbit públic preveu el TREBEP), que mesura la conducta professional i el rendiment respecte dels objectius i permet reconduir les desviacions i orientar la planificació següent. La gestió per objectius afavoreix la transparència, la responsabilitat i la millora contínua de la gestió pública.",
+      "sources": [
+        "TREBEP",
+        "L19_2014"
+      ]
+    },
+    {
+      "id": "c84-presa-decisions",
+      "theme": 84,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Decisió davant un problema complex i un canvi organitzatiu",
+      "context": "L'àrea ha d'afrontar un problema complex (reorganitzar un servei amb recursos escassos i resistències del personal) i implantar un canvi en els processos de treball.",
+      "prompt": "Exposeu un mètode d'anàlisi i presa de decisions i com gestionar el canvi en un entorn públic.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Anàlisi del problema: definir-lo, recollir informació i identificar causes",
+          "weight": 12,
+          "keywords": [
+            [
+              "definir el problema",
+              "analisi"
+            ],
+            [
+              "informacio",
+              "causes"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Generar i avaluar alternatives segons criteris i decidir",
+          "weight": 12,
+          "keywords": [
+            [
+              "alternatives",
+              "opcions"
+            ],
+            [
+              "avaluar",
+              "criteris",
+              "decidir"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Implantar la decisió i avaluar-ne els resultats",
+          "weight": 9,
+          "keywords": [
+            [
+              "implantar",
+              "executar"
+            ],
+            [
+              "avaluar resultats",
+              "seguiment"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Gestió del canvi: comunicació, participació i superació de resistències",
+          "weight": 12,
+          "keywords": [
+            [
+              "gestio del canvi",
+              "canvi"
+            ],
+            [
+              "comunicacio",
+              "participacio",
+              "resistencies"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La presa de decisions davant problemes complexos requereix un mètode estructurat. Primer, cal analitzar el problema: definir-lo amb precisió, recollir informació rellevant i identificar-ne les causes reals (no només els símptomes). A continuació, es generen diverses alternatives de solució i s'avaluen segons criteris objectius (eficàcia, cost, viabilitat, impacte i riscos), tenint en compte els recursos disponibles, per seleccionar la més adequada. Un cop presa la decisió, s'implanta mitjançant un pla d'acció amb responsables i terminis, i se n'avaluen els resultats per comprovar si resol el problema i introduir-hi ajustos. En entorns públics, la decisió sovint comporta un canvi organitzatiu que genera resistències; per això cal gestionar el canvi: comunicar de manera clara els motius i els beneficis, implicar i fer participar les persones afectades, formar i acompanyar l'equip, i abordar les resistències amb diàleg i lideratge. La transparència del procés i el respecte als principis de legalitat i objectivitat reforcen la legitimitat de la decisió i n'afavoreixen l'acceptació.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c85-etica-publica",
+      "theme": 85,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Aplicació dels principis ètics en la direcció diària",
+      "context": "Un comandament s'enfronta a situacions quotidianes que afecten la integritat: un possible conflicte d'interès en un expedient i pressions per agilitar un tràmit a favor d'un conegut.",
+      "prompt": "Exposeu els principis d'ètica pública i de conducta aplicables i com s'han de resoldre aquestes situacions.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Principis ètics: integritat, objectivitat, imparcialitat i servei a la ciutadania",
+          "weight": 13,
+          "keywords": [
+            [
+              "integritat",
+              "objectivitat"
+            ],
+            [
+              "imparcialitat",
+              "servei a la ciutadania"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Codi ètic / de conducta dels empleats públics (TREBEP) i bon govern",
+          "weight": 10,
+          "keywords": [
+            [
+              "codi etic",
+              "codi de conducta"
+            ],
+            [
+              "bon govern",
+              "trebep",
+              "empleats publics"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Abstenció en cas de conflicte d'interès",
+          "weight": 12,
+          "keywords": [
+            [
+              "conflicte d'interes",
+              "abstencio"
+            ],
+            [
+              "abstenir-se",
+              "abstenir"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Rebuig de favoritismes i tracte igual; transparència i legalitat",
+          "weight": 10,
+          "keywords": [
+            [
+              "favoritisme",
+              "tracte igual",
+              "igualtat"
+            ],
+            [
+              "transparencia",
+              "legalitat",
+              "rebutjar"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'ètica pública exigeix que l'actuació del personal i dels càrrecs s'ajusti a uns principis i valors que garanteixin el servei objectiu a l'interès general. Els principis ètics i de conducta —recollits, entre altres, al codi de conducta dels empleats públics del TREBEP i a la normativa de bon govern— inclouen la integritat, l'objectivitat, la imparcialitat, la professionalitat, la transparència i el servei a la ciutadania. En la direcció diària, aquests principis es tradueixen en conductes concretes. Davant el possible conflicte d'interès en l'expedient, el comandament té el deure d'abstenir-se d'intervenir-hi i de comunicar-ho, perquè un altre òrgan o persona el tramiti, preservant així la imparcialitat. Davant les pressions per agilitar un tràmit a favor d'un conegut, ha de rebutjar el favoritisme i garantir el tracte igual i el respecte a l'ordre de tramitació i a la legalitat, sense atorgar avantatges indeguts. L'aplicació coherent d'aquests valors, juntament amb la transparència en les decisions, reforça la confiança de la ciutadania i la legitimitat de l'Administració.",
+      "sources": [
+        "TREBEP",
+        "L19_2014"
+      ]
+    },
+    {
+      "id": "c86-personal-ap",
+      "theme": 86,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Selecció del tipus de vinculació per a un lloc",
+      "context": "L'Ajuntament ha de cobrir un lloc que implica l'exercici de potestats públiques i, per altra banda, vol nomenar una persona de confiança per a tasques d'assessorament del càrrec electe.",
+      "prompt": "Distingiu les classes de personal al servei de les administracions públiques i el règim d'incompatibilitats.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Funcionaris de carrera: exerceixen potestats públiques i tasques reservades",
+          "weight": 13,
+          "keywords": [
+            [
+              "funcionari de carrera",
+              "funcionaris"
+            ],
+            [
+              "potestats publiques",
+              "reservades"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Personal laboral per a llocs no reservats a funcionaris",
+          "weight": 10,
+          "keywords": [
+            [
+              "personal laboral",
+              "laboral"
+            ],
+            [
+              "no reservats",
+              "conveni"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Personal eventual (confiança/assessorament) i personal directiu professional",
+          "weight": 12,
+          "keywords": [
+            [
+              "personal eventual",
+              "confianca",
+              "assessorament"
+            ],
+            [
+              "personal directiu",
+              "directiu professional"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Règim d'incompatibilitats: regla general d'un sol lloc públic",
+          "weight": 9,
+          "keywords": [
+            [
+              "incompatibilitats",
+              "incompatibilitat"
+            ],
+            [
+              "un sol lloc",
+              "compatibilitat"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El TREBEP distingeix diverses classes de personal al servei de les administracions públiques. Els funcionaris de carrera estan vinculats per una relació estatutària de dret públic per a l'exercici permanent de funcions professionals retribuïdes; l'exercici de potestats públiques i les funcions que impliquen la salvaguarda dels interessos generals estan reservats al personal funcionari, de manera que el lloc del cas que comporta l'exercici de potestats l'ha d'ocupar un funcionari. Els funcionaris interins són nomenats per raons justificades de necessitat i urgència per a funcions pròpies de funcionaris, amb caràcter temporal. El personal laboral (fix, indefinit o temporal) ocupa els llocs que no estiguin reservats a funcionaris, en règim de dret laboral. El personal eventual exerceix funcions expressament qualificades de confiança o assessorament especial, és de lliure nomenament i cessament i cessa amb l'autoritat a qui presta servei: és la figura adequada per a la persona d'assessorament del càrrec electe. El personal directiu professional desenvolupa funcions directives amb subjecció a avaluació i responsabilitat per la gestió. Finalment, el règim d'incompatibilitats parteix de la regla general que el personal al servei de les administracions no pot exercir més d'un lloc de treball públic ni activitats privades que comprometin la seva imparcialitat o independència, llevat de les compatibilitats autoritzades en els termes legals.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c87-atencio-personal",
+      "theme": 87,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Incidència i conflicte en un equip de treball",
+      "context": "En un equip s'ha produït un conflicte entre dos treballadors que afecta el clima laboral i el repartiment de tasques. El comandament ha de resoldre la incidència i recuperar un bon clima.",
+      "prompt": "Proposeu com gestionar el conflicte, planificar les tasques i mantenir un bon clima laboral.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Gestió del conflicte: escoltar les parts, dialogar, negociar o mediar",
+          "weight": 13,
+          "keywords": [
+            [
+              "conflicte",
+              "escoltar",
+              "dialeg"
+            ],
+            [
+              "negociar",
+              "mediacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Planificació i repartiment equitatiu de tasques, amb funcions clares",
+          "weight": 11,
+          "keywords": [
+            [
+              "planificacio de tasques",
+              "repartiment"
+            ],
+            [
+              "equitatiu",
+              "funcions clares"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Bon clima laboral: comunicació, reconeixement i respecte",
+          "weight": 11,
+          "keywords": [
+            [
+              "bon clima",
+              "clima laboral"
+            ],
+            [
+              "comunicacio",
+              "reconeixement",
+              "respecte"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Resolució d'incidències amb seguiment i prevenció de noves situacions",
+          "weight": 10,
+          "keywords": [
+            [
+              "resolucio d'incidencies",
+              "seguiment"
+            ],
+            [
+              "prevenir",
+              "prevencio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "L'atenció al personal és una funció clau del comandament que comprèn la gestió de conflictes, la planificació de les tasques, el manteniment d'un bon clima laboral i la resolució d'incidències. Davant el conflicte entre els dos treballadors, el comandament ha d'actuar amb promptitud i objectivitat: escoltar per separat i conjuntament les parts, identificar les causes reals, i cercar una solució mitjançant el diàleg, la negociació o, si cal, la mediació, evitant prendre partit i centrant-se en els fets i en l'interès del servei. Pel que fa al repartiment de tasques, cal planificar-les i distribuir-les de manera equitativa i transparent, amb funcions i responsabilitats clares, per evitar greuges i sobrecàrregues. El bon clima laboral es construeix amb una comunicació fluida i bidireccional, el reconeixement de la feina, el tracte respectuós i la participació de l'equip. Finalment, la resolució de la incidència s'ha de documentar i fer-ne seguiment per comprovar que el conflicte s'ha tancat i adoptar mesures preventives (clarificació de processos, normes de convivència, formació) que evitin que es repeteixin situacions similars.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c89-seguretat-salut",
+      "theme": 89,
+      "block": 18,
+      "maxPoints": 45,
+      "title": "Prevenció de riscos en una visita d'obra",
+      "context": "Un tècnic municipal ha de fer visites a obres i emplaçaments amb riscos (caigudes d'altura, atropellaments, exposició a soroll i pols). Cal establir les mesures de prevenció.",
+      "prompt": "Exposeu els conceptes bàsics de seguretat i salut, la jerarquia de mesures i els equips de protecció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Conceptes: risc laboral, prevenció i avaluació de riscos",
+          "weight": 11,
+          "keywords": [
+            [
+              "risc laboral",
+              "prevencio"
+            ],
+            [
+              "avaluacio de riscos",
+              "perill"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Prioritat de la protecció col·lectiva sobre la individual",
+          "weight": 13,
+          "keywords": [
+            [
+              "proteccio collectiva",
+              "col·lectiva"
+            ],
+            [
+              "prioritat",
+              "prioritaria",
+              "abans"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Equips de protecció individual (EPI) quan el risc no s'elimina d'altra manera",
+          "weight": 12,
+          "keywords": [
+            [
+              "equips de proteccio individual",
+              "epi"
+            ],
+            [
+              "casc",
+              "arnes",
+              "individual"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Informació, formació i vigilància de la salut dels treballadors",
+          "weight": 9,
+          "keywords": [
+            [
+              "informacio",
+              "formacio"
+            ],
+            [
+              "vigilancia de la salut",
+              "salut"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La seguretat i salut en el treball es regeix per la Llei 31/1995, de prevenció de riscos laborals. El risc laboral és la possibilitat que un treballador pateixi un dany derivat del treball, i la prevenció és el conjunt d'activitats adoptades per evitar-lo o reduir-lo; l'instrument central és l'avaluació de riscos, que identifica els perills (en el cas, caigudes d'altura, atropellaments, soroll i pols) i determina les mesures. Un principi essencial és la jerarquia de l'acció preventiva: cal evitar i combatre els riscos en origen i, sobretot, anteposar la protecció col·lectiva a la individual (per exemple, baranes, xarxes, senyalització i delimitació de zones de pas). Només quan el risc no es pot eliminar o reduir suficientment amb mesures col·lectives s'utilitzen els equips de protecció individual (EPI), com el casc, el calçat de seguretat, l'arnès anticaigudes, la protecció auditiva i les mascaretes, que han de ser adequats, certificats i d'ús obligatori. A més, l'empresari ha de garantir la informació i la formació dels treballadors sobre els riscos i les mesures, la vigilància de la salut i la coordinació d'activitats empresarials quan concorren diverses empreses a l'obra.",
+      "sources": [
+        "L31_1995"
       ]
     }
   ]
