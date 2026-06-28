@@ -2123,6 +2123,494 @@
       "sources": [
         "L39_2015"
       ]
+    },
+    {
+      "id": "c26-contracte-obres",
+      "theme": 25,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Preparació i inici d'un contracte d'obres",
+      "context": "L'Ajuntament vol licitar la construcció d'un nou pavelló esportiu. Disposa d'un projecte redactat per un tècnic extern. Es planteja com s'ha de preparar la licitació i quins actes són necessaris abans i en començar l'execució.",
+      "prompt": "Indiqueu: a) els requisits del projecte abans de licitar; b) què comprova el replanteig; c) quin acte habilita l'inici de les obres i quines obligacions de control hi ha durant l'execució.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Abans de licitar cal projecte degudament supervisat (si escau), aprovat i replantejat",
+          "weight": 12,
+          "keywords": [
+            [
+              "projecte"
+            ],
+            [
+              "supervisat",
+              "supervisio",
+              "aprovat"
+            ],
+            [
+              "replanteig",
+              "replantejat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Contingut del projecte: memòria, plànols, plec de prescripcions tècniques i pressupost (i ESS)",
+          "weight": 10,
+          "keywords": [
+            [
+              "memoria"
+            ],
+            [
+              "planols"
+            ],
+            [
+              "plec",
+              "prescripcions"
+            ],
+            [
+              "pressupost"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'acta de comprovació del replanteig habilita l'inici de les obres",
+          "weight": 13,
+          "keywords": [
+            [
+              "acta de comprovacio",
+              "comprovacio del replanteig",
+              "acta de replanteig"
+            ],
+            [
+              "inici",
+              "comencar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Execució sota direcció facultativa amb certificacions d'obra periòdiques",
+          "weight": 10,
+          "keywords": [
+            [
+              "direccio facultativa"
+            ],
+            [
+              "certificacions",
+              "certificacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "a) L'adjudicació d'un contracte d'obres requereix l'elaboració, la supervisió (preceptiva en obres de quantia elevada o que afectin l'estabilitat/seguretat), l'aprovació i el replanteig del projecte (arts. 231 i ss. LCSP). El projecte ha de contenir, com a mínim, la memòria, els plànols, el plec de prescripcions tècniques particulars, el pressupost i l'estudi de seguretat i salut.\nb) El replanteig comprova la realitat geomètrica de l'obra i la disponibilitat dels terrenys necessaris per a l'execució.\nc) Un cop formalitzat el contracte, s'estén l'acta de comprovació del replanteig (art. 237 LCSP), que habilita l'inici de les obres dins el termini fixat. Durant l'execució, l'obra es desenvolupa sota la direcció facultativa i es mesura mitjançant les certificacions d'obra periòdiques (en general mensuals), fins a la recepció i la liquidació.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c27-concessio-obres",
+      "theme": 26,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Concessió d'obra pública i risc operacional",
+      "context": "L'Ajuntament vol construir i explotar un aparcament soterrani mitjançant un tercer, que es retribuiria amb les tarifes dels usuaris durant un nombre d'anys. Es dubta de quin tipus de contracte és i de quins riscos assumeix l'empresa.",
+      "prompt": "Determineu el tipus de contracte, l'element que el caracteritza, la durada màxima i en quins supòsits es pot restablir l'equilibri econòmic.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "És un contracte de concessió d'obres (construcció + explotació)",
+          "weight": 10,
+          "keywords": [
+            [
+              "concessio d'obres",
+              "concessio d'obra"
+            ],
+            [
+              "explotacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Element clau: transferència del risc operacional al concessionari",
+          "weight": 13,
+          "keywords": [
+            [
+              "risc operacional",
+              "risc de demanda",
+              "risc"
+            ],
+            [
+              "concessionari",
+              "transferencia"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Durada màxima fins a 40 anys segons la recuperació de les inversions",
+          "weight": 10,
+          "keywords": [
+            [
+              "40 anys",
+              "quaranta anys"
+            ],
+            [
+              "durada",
+              "amortitzacio",
+              "recuperacio"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Restabliment de l'equilibri econòmic: modificacions, factum principis i riscos imprevisibles",
+          "weight": 12,
+          "keywords": [
+            [
+              "equilibri economic",
+              "equilibri"
+            ],
+            [
+              "modificacions",
+              "factum principis",
+              "imprevisibles"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Es tracta d'un contracte de concessió d'obres (art. 14 LCSP): el concessionari construeix i explota l'aparcament, retribuint-se amb les tarifes. L'element que el caracteritza i el distingeix del contracte d'obres és la transferència al concessionari del risc operacional de l'explotació (de demanda o disponibilitat): en condicions normals, no té garantida la recuperació de les inversions. La durada és limitada en funció del període de recuperació de les inversions, amb un màxim de quaranta anys (art. 29). L'equilibri econòmic-financer es pot restablir en supòsits taxats (art. 270): modificacions imposades per l'Administració, factum principis (actuacions generals de l'Administració que afecten l'economia de la concessió) i causes de força major o riscos imprevisibles. En extingir-se, l'obra reverteix a l'Administració.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c28-subministrament",
+      "theme": 27,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Contracte de subministrament amb lliurament successiu",
+      "context": "L'Ajuntament necessita material d'oficina durant un any, en quantitats que aniran variant segons les necessitats de cada departament, amb preus per unitat. Es planteja com s'ha de configurar el contracte.",
+      "prompt": "Qualifiqueu el contracte, expliqueu la possibilitat de no fixar la quantia total, i el règim de recepció i garantia.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "És un contracte de subministrament (béns mobles)",
+          "weight": 11,
+          "keywords": [
+            [
+              "subministrament"
+            ],
+            [
+              "bens mobles",
+              "productes"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "Lliurament successiu per preu unitari, sense fixar la quantia total exacta",
+          "weight": 13,
+          "keywords": [
+            [
+              "lliurament successiu",
+              "successiu"
+            ],
+            [
+              "preu unitari",
+              "unitari"
+            ],
+            [
+              "sense fixar",
+              "necessitats"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Recepció de conformitat que obre el termini de garantia",
+          "weight": 11,
+          "keywords": [
+            [
+              "recepcio",
+              "conformitat"
+            ],
+            [
+              "garantia"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Es regeix pels procediments generals d'adjudicació",
+          "weight": 10,
+          "keywords": [
+            [
+              "procediment",
+              "obert",
+              "adjudicacio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "El contracte té per objecte l'adquisició de béns mobles (material d'oficina), de manera que és un contracte de subministrament (art. 16 LCSP). Atès que el lliurament es fa de manera successiva i per preu unitari, en funció de les necessitats, es pot no fixar la quantia total en el moment de celebrar el contracte, vinculant-la a les necessitats reals (art. 16.3.a). S'adjudica pels procediments generals (obert, restringit, etc.). El lliurament dels béns es constata mitjançant un acte formal de recepció o conformitat, a partir del qual comença el termini de garantia, durant el qual el contractista respon dels vicis o defectes. L'Administració conserva les seves prerrogatives (modificació, suspensió i resolució).",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c29-contracte-serveis",
+      "theme": 28,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Contracte de serveis i límits",
+      "context": "L'Ajuntament vol externalitzar tasques de neteja d'edificis municipals i, alhora, la tramitació i la resolució d'expedients sancionadors. Es planteja si totes dues prestacions es poden contractar com a serveis.",
+      "prompt": "Qualifiqueu cada prestació, indiqueu el límit del contracte de serveis i el risc que cal evitar en la seva execució.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La neteja és una prestació de fer admissible com a contracte de serveis",
+          "weight": 11,
+          "keywords": [
+            [
+              "serveis",
+              "servei"
+            ],
+            [
+              "neteja",
+              "admissible",
+              "es pot contractar"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "La tramitació i resolució d'expedients implica exercici d'autoritat: no es pot contractar",
+          "weight": 14,
+          "keywords": [
+            [
+              "exercici d'autoritat",
+              "autoritat",
+              "potestat publica"
+            ],
+            [
+              "no es pot",
+              "reservat",
+              "funcionari"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Cal evitar la cessió il·legal de treballadors (no donar ordres laborals directes)",
+          "weight": 11,
+          "keywords": [
+            [
+              "cessio illegal",
+              "cessio de treballadors"
+            ],
+            [
+              "ordres",
+              "direccio laboral"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Durada limitada amb pròrrogues previstes; desistiment de l'AP indemnitza",
+          "weight": 9,
+          "keywords": [
+            [
+              "durada",
+              "prorroga"
+            ],
+            [
+              "desistiment",
+              "indemnitza"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La neteja dels edificis és una prestació de fer (activitat material) que pot ser objecte d'un contracte de serveis (art. 17 LCSP). En canvi, la tramitació i, sobretot, la resolució d'expedients sancionadors impliquen l'exercici de l'autoritat inherent als poders públics, funció que es reserva al personal funcionari i que NO es pot contractar com a servei (arts. 17 LCSP i 9.2 TREBEP). En l'execució del contracte de neteja cal evitar que es produeixi una cessió il·legal de treballadors: l'Administració no pot exercir respecte del personal de l'empresa les facultats pròpies de l'empresari laboral (donar ordres directes, fixar horaris, etc.). La durada s'ajusta a la prestació amb les pròrrogues previstes al plec (art. 29), i el desistiment o la suspensió definitiva de l'Administració dona dret a la indemnització del contractista (art. 313).",
+      "sources": [
+        "LCSP",
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c30-concessio-serveis",
+      "theme": 29,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Concessió de serveis i potestats de l'Administració",
+      "context": "L'Ajuntament adjudica a una empresa la gestió del servei municipal d'escola bressol durant deu anys, retribuïda amb les quotes dels usuaris i una aportació municipal. Durant l'execució vol modificar les condicions de prestació per interès públic.",
+      "prompt": "Determineu el tipus de contracte, qui assumeix el risc, quines potestats conserva l'Administració i què passa amb l'equilibri econòmic en cas de modificació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "És un contracte de concessió de serveis",
+          "weight": 10,
+          "keywords": [
+            [
+              "concessio de serveis",
+              "concessio del servei"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "El concessionari assumeix el risc operacional de l'explotació",
+          "weight": 12,
+          "keywords": [
+            [
+              "risc operacional",
+              "risc"
+            ],
+            [
+              "concessionari"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "L'Administració conserva la titularitat i les potestats d'ordenació, control i modificació (ius variandi)",
+          "weight": 12,
+          "keywords": [
+            [
+              "titularitat"
+            ],
+            [
+              "ordenacio",
+              "control",
+              "modificacio",
+              "ius variandi"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "La modificació dona dret al restabliment de l'equilibri econòmic",
+          "weight": 11,
+          "keywords": [
+            [
+              "equilibri economic",
+              "equilibri"
+            ],
+            [
+              "restablir",
+              "restabliment"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "Es tracta d'un contracte de concessió de serveis (art. 15 LCSP), atès que l'empresa gestiona un servei de titularitat municipal i assumeix el risc operacional de l'explotació, retribuint-se amb les quotes (i una aportació). L'Administració conserva la titularitat del servei i les potestats d'ordenació, control, inspecció i modificació per raons d'interès públic (ius variandi). Quan la modificació imposada per l'Administració alteri l'economia de la concessió, el concessionari té dret al restabliment de l'equilibri econòmic de la concessió, en els termes taxats per la llei. El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, i admetre-hi els usuaris que compleixin els requisits. En extingir-se la concessió (per termini, rescat, caducitat...) es produeix la reversió del servei i, si escau, dels béns afectes.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c32-concessio-servei-public",
+      "theme": 32,
+      "block": 8,
+      "maxPoints": 45,
+      "title": "Gestió indirecta i incompliment del concessionari",
+      "context": "El concessionari del servei municipal d'abastament d'aigua incompleix de manera greu les obligacions de manteniment, fet que posa en perill la continuïtat del servei. L'Ajuntament es planteja com actuar sense haver d'esperar l'extinció del contracte.",
+      "prompt": "Expliqueu la naturalesa de la concessió, les potestats de l'Administració davant l'incompliment (especialment el segrest o intervenció) i les causes d'extinció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "La concessió és una forma de gestió indirecta amb titularitat pública del servei",
+          "weight": 11,
+          "keywords": [
+            [
+              "gestio indirecta",
+              "indirecta"
+            ],
+            [
+              "titularitat publica",
+              "titularitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c2",
+          "label": "L'Administració conserva potestats d'ordenació, control i sanció contractual",
+          "weight": 11,
+          "keywords": [
+            [
+              "ordenacio",
+              "control",
+              "fiscalitzar"
+            ],
+            [
+              "potestats",
+              "sancio contractual"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c3",
+          "label": "Davant l'incompliment greu, pot acordar el segrest o intervenció temporal del servei",
+          "weight": 13,
+          "keywords": [
+            [
+              "segrest",
+              "intervencio temporal",
+              "intervenir"
+            ],
+            [
+              "incompliment greu",
+              "continuitat"
+            ]
+          ],
+          "threshold": 0.5
+        },
+        {
+          "id": "c4",
+          "label": "Causes d'extinció: termini, rescat, caducitat, resolució; reversió en extingir-se",
+          "weight": 10,
+          "keywords": [
+            [
+              "termini",
+              "rescat",
+              "caducitat",
+              "resolucio"
+            ],
+            [
+              "reversio"
+            ]
+          ],
+          "threshold": 0.5
+        }
+      ],
+      "model": "La concessió de servei públic és una forma de gestió indirecta en què l'Administració, conservant-ne la titularitat, encomana la prestació a un concessionari que la gestiona al seu risc. L'Administració conserva potestats d'ordenació i modificació del servei, de fiscalització, i d'imposició de les sancions contractuals previstes. Davant un incompliment greu que posi en perill la continuïtat del servei, l'Administració pot acordar-ne el segrest o intervenció: assumeix temporalment la gestió del servei per garantir-ne la prestació, sense extingir la concessió, fins que el concessionari pugui reprendre la gestió o s'acordi la resolució. Les causes d'extinció són el compliment del termini (amb reversió del servei i dels béns afectes), el rescat, la caducitat per incompliment, la resolució per altres causes i la supressió del servei, amb indemnització quan correspongui.",
+      "sources": [
+        "LCSP",
+        "LRBRL"
+      ]
     }
   ]
 }
