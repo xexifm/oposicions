@@ -31,6 +31,20 @@ export const store = {
     this.set('exams', this.exams().filter(e => e.id !== id));
   },
   clearExams(){ this.set('exams', []); },
+  // --- estadístiques acumulades per tema (encerts test i punts de casos) ---
+  themeStats(){ return this.get('themeStats', {}); },
+  recordThemePerf(qPerf, casePerf){
+    const ts = this.themeStats();
+    const ensure = k => (ts[k] || (ts[k] = { qTot:0, qOk:0, cPts:0, cMax:0 }));
+    for (const [theme, v] of Object.entries(qPerf||{})){
+      const e = ensure(theme); e.qTot += v.tot; e.qOk += v.ok;
+    }
+    for (const [theme, v] of Object.entries(casePerf||{})){
+      const e = ensure(theme); e.cPts += v.pts; e.cMax += v.max;
+    }
+    this.set('themeStats', ts);
+  },
+  clearThemeStats(){ this.set('themeStats', {}); },
   // --- progrés d'estudi (temes marcats com a repassats) ---
   studied(){ return this.get('studied', {}); },
   toggleStudied(num){

@@ -229,6 +229,53 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
   letter-spacing:.05em;margin-bottom:8px}
 .scheme .sline{font-size:.92rem;line-height:1.5;color:var(--ink);overflow-wrap:break-word;word-break:break-word}
 .scheme .sgap{height:.5em}
+
+/* estadístiques per tema a la llista d'estudi */
+.tema-item .tmid{display:flex;flex-direction:column;gap:5px;min-width:0}
+.tema-item .tstats{display:flex;flex-wrap:wrap;gap:5px}
+.tstat{display:inline-block;font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:999px;
+  border:1px solid var(--line);white-space:nowrap}
+.tstat.good{background:var(--green-bg);color:var(--green);border-color:#bcd6c1}
+.tstat.mid{background:var(--amber-bg);color:var(--amber);border-color:#e3d3a6}
+.tstat.bad{background:var(--red-bg);color:var(--red);border-color:#e6c2bd}
+.tstat.none{background:transparent;color:var(--ink-faint)}
+.tstat.done{background:#eef5ef;color:var(--green);border-color:#cfe3d2}
+
+/* glossari d'abreviacions */
+.gloss{background:#fbfaf7;border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:0 0 14px}
+.gloss>summary{cursor:pointer;font-weight:700;color:var(--crimson);font-size:.9rem}
+.gloss ul{margin:10px 0 2px;padding-left:1.1em}
+.gloss li{margin:.25em 0;font-size:.9rem}
+
+/* enllaç a la norma dins del text */
+.lawlink{color:var(--crimson-deep);text-decoration:underline;text-decoration-color:#d9c3c0;
+  text-underline-offset:2px}
+.lawlink:hover{text-decoration-color:var(--crimson)}
+
+/* esquema jeràrquic de repàs (keypoints) */
+.keysch{background:#f7f9fb;border:1px solid #dfe6ec;border-radius:12px;padding:14px 16px;margin:16px 0}
+.keysch .kcap{font-size:.78rem;color:#2b6a86;font-weight:800;text-transform:uppercase;
+  letter-spacing:.05em;margin-bottom:10px}
+.keysch .kgrp{margin:8px 0}
+.keysch .kgrp>b{display:block;color:var(--ink);font-size:.95rem;margin-bottom:2px}
+.keysch ul{margin:.2em 0;padding-left:1.15em}
+.keysch li{margin:.22em 0;font-size:.9rem;line-height:1.45}
+.keysch ul ul{margin:.1em 0}
+.keysch ul ul li{font-size:.86rem;color:var(--ink-soft,#555)}
+
+/* selecció multi-tema/bloc a la configuració d'examen */
+.chip{font-size:.82rem;font-weight:700;padding:7px 13px;border-radius:999px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);cursor:pointer}
+.chip.on{background:var(--crimson);color:#fff;border-color:var(--crimson)}
+.themepick{border:1px solid var(--line);border-radius:11px;padding:10px 12px;background:var(--card)}
+.themepick>summary{cursor:pointer;font-weight:700;font-size:.88rem}
+.blockpick{margin:12px 0;padding-bottom:10px;border-bottom:1px dashed var(--line)}
+.blockpick:last-child{border-bottom:0;padding-bottom:0}
+.blocktoggle{display:block;font-size:.88rem;margin-bottom:7px;cursor:pointer}
+.blockpick .themes{display:flex;flex-wrap:wrap;gap:6px;padding-left:4px}
+.thchip{display:inline-flex;align-items:center;gap:4px;font-size:.8rem;border:1px solid var(--line);
+  border-radius:8px;padding:3px 8px;cursor:pointer;background:#fff}
+.thchip input{margin:0}
 .srclist{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 .srcchip{display:inline-flex;align-items:center;gap:5px;text-decoration:none;font-weight:600;font-size:.82rem;
   background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--crimson)}

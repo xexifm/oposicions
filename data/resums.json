@@ -159,13 +159,13 @@
       "key": "Competències: pròpies (per llei, en autonomia, art. 25), delegades (amb dotació i control, art. 27, mínim 5 anys) i diferents/impròpies (art. 7.4, amb informes de no-duplicitat i sostenibilitat). Serveis mínims per trams de població (art. 26): 5.000, 20.000 i 50.000 habitants."
     },
     "6": {
-      "intro": "L'acte administratiu és tota declaració de voluntat, de judici, de coneixement o de desig dictada per una Administració pública en exercici d'una potestat administrativa diferent de la reglamentària. Es regeix per la Llei 39/2015. És clau diferenciar-lo del reglament: el reglament és una norma que s'integra a l'ordenament (té rang superior i vocació de permanència), mentre que l'acte aplica l'ordenament a un cas concret i s'esgota amb el seu compliment. Per això una resolució no pot vulnerar un reglament encara que la dicti un òrgan superior (inderogabilitat singular dels reglaments, art. 37).",
+      "intro": "L'acte administratiu és tota declaració de voluntat, de judici, de coneixement o de desig dictada per una Administració pública en exercici d'una potestat administrativa diferent de la reglamentària. Es regeix per la Llei 39/2015. És clau diferenciar-lo del reglament: el reglament és una norma que s'integra a l'ordenament (té rang superior i vocació de permanència), mentre que l'acte aplica l'ordenament a un cas concret i s'esgota amb el seu compliment. Per això una resolució no pot vulnerar un reglament encara que la dicti un òrgan superior (inderogabilitat singular dels reglaments, art. 37 de la Llei 39/2015).",
       "sections": [
         {
           "h": "Classes d'actes",
           "list": [
             "Segons la incidència: favorables (amplien la situació jurídica: llicències, subvencions) i de gravamen (la restringeixen: sancions, ordres). La distinció és rellevant perquè els de gravamen s'han de motivar i els favorables només es poden retirar per vies taxades.",
-            "Resolutoris (decideixen el fons) i de tràmit (impulsen el procediment). Només es poden recórrer separadament els actes de tràmit qualificats: els que decideixen directament o indirectament el fons, impedeixen continuar el procediment, produeixen indefensió o un perjudici irreparable (art. 112).",
+            "Resolutoris (decideixen el fons) i de tràmit (impulsen el procediment). Només es poden recórrer separadament els actes de tràmit qualificats: els que decideixen directament o indirectament el fons, impedeixen continuar el procediment, produeixen indefensió o un perjudici irreparable (art. 112 de la Llei 39/2015).",
             "Expressos i presumptes (produïts per silenci).",
             "Que posen fi o no a la via administrativa; ferms o no ferms."
           ]
@@ -176,7 +176,7 @@
         },
         {
           "h": "La motivació",
-          "p": "La motivació és la expressió de les raons de fet i de dret que fonamenten l'acte. L'art. 35 la fa obligatòria, entre d'altres, en els actes que limiten drets subjectius o interessos legítims; els que resolen procediments de revisió, recursos administratius o arbitratge; els que se separen del criteri seguit en actuacions precedents o del dictamen d'òrgans consultius; els acords de suspensió i les mesures provisionals; els discrecionals; i els sancionadors. La falta o insuficiència de motivació pot generar indefensió i, per tant, anul·labilitat."
+          "p": "La motivació és l'expressió de les raons de fet i de dret que fonamenten l'acte. L'art. 35 de la Llei 39/2015 la fa obligatòria, entre d'altres, en els actes que limiten drets subjectius o interessos legítims; els que resolen procediments de revisió, recursos administratius o arbitratge; els que se separen del criteri seguit en actuacions precedents o del dictamen d'òrgans consultius; els acords de suspensió i les mesures provisionals; els discrecionals; i els sancionadors. La falta o insuficiència de motivació pot generar indefensió i, per tant, anul·labilitat."
         },
         {
           "h": "El silenci administratiu",
@@ -187,7 +187,68 @@
           "p": "Si poden produir efectes desfavorables o de gravamen (per exemple, sancionadors), el transcurs del termini sense resolució produeix la caducitat del procediment i l'arxiu de les actuacions (art. 25). Si reconeixen o constitueixen drets, els interessats poden entendre desestimades les seves pretensions per silenci."
         }
       ],
-      "key": "Acte administratiu (Llei 39/2015). Elements: subjectiu (competència), objectiu (contingut/causa), teleològic (fi) i formal (procediment/forma). Motivació obligatòria (art. 35) en actes limitatius, discrecionals i sancionadors. Silenci a instància de part: positiu de regla (acte veritable), negatiu en excepcions taxades; mai facultats contràries a l'ordenament. D'ofici desfavorable: caducitat."
+      "key": "Acte administratiu (Llei 39/2015). Elements: subjectiu (competència), objectiu (contingut/causa), teleològic (fi) i formal (procediment/forma). Motivació obligatòria (art. 35) en actes limitatius, discrecionals i sancionadors. Silenci a instància de part: positiu de regla (acte veritable), negatiu en excepcions taxades; mai facultats contràries a l'ordenament. D'ofici desfavorable: caducitat.",
+      "keypoints": [
+        {
+          "h": "Acte ≠ reglament",
+          "p": [
+            "Acte: aplica l'ordenament a un cas concret i s'esgota en complir-se",
+            "Reglament: norma que s'integra a l'ordenament, amb rang superior",
+            "Inderogabilitat singular: un acte no pot vulnerar un reglament (art. 37 de la Llei 39/2015)"
+          ]
+        },
+        {
+          "h": "Classes d'actes",
+          "p": [
+            {
+              "t": "Per la incidència",
+              "sub": [
+                "Favorables (llicències, subvencions)",
+                "De gravamen (sancions, ordres) → s'han de motivar"
+              ]
+            },
+            {
+              "t": "Per la funció",
+              "sub": [
+                "Resolutoris (decideixen el fons)",
+                "De tràmit; només recurribles els qualificats (art. 112 de la Llei 39/2015)"
+              ]
+            },
+            "Expressos o presumptes (per silenci)",
+            "Que posen fi o no a la via administrativa; ferms o no ferms"
+          ]
+        },
+        {
+          "h": "Elements de validesa",
+          "p": [
+            "Subjectiu: òrgan competent, ben investit i sense causa d'abstenció",
+            "Objectiu: contingut lícit, possible i determinat o determinable",
+            "Teleològic: fi d'interès públic (apartar-se'n = desviació de poder, anul·labilitat)",
+            "Formal: procediment degut i forma escaient (en general escrita i electrònica)"
+          ]
+        },
+        {
+          "h": "Motivació (art. 35 de la Llei 39/2015)",
+          "p": [
+            "Obligatòria en actes de gravamen, discrecionals, sancionadors, recursos i revisions",
+            "La manca o insuficiència pot causar indefensió → anul·labilitat"
+          ]
+        },
+        {
+          "h": "Silenci administratiu",
+          "p": [
+            {
+              "t": "A instància de part",
+              "sub": [
+                "Regla general: positiu (acte veritable)",
+                "Negatiu només en casos taxats per llei"
+              ]
+            },
+            "D'ofici i desfavorable: caducitat del procediment",
+            "El silenci mai no atorga facultats contràries a l'ordenament"
+          ]
+        }
+      ]
     },
     "7": {
       "intro": "L'eficàcia, l'executivitat i la invalidesa de l'acte administratiu es regulen als arts. 37 a 52 de la Llei 39/2015. Els actes administratius es presumeixen vàlids (presumpció de legalitat) i produeixen efectes des que es dicten, fet que els fa immediatament executius i permet a l'Administració dur-los a terme fins i tot contra la voluntat de l'obligat.",
@@ -520,7 +581,58 @@
           "p": "A efectes de valoració i de drets bàsics, el TRLS estatal distingeix dues situacions: el sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i el sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica: un sòl classificat com a urbanitzable però no urbanitzat es valora com a rural."
         }
       ],
-      "key": "Classificació (TRLUC): sòl urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament i electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025 (Llei 11/2025 i DL 2/2025)."
+      "key": "Classificació (TRLUC): sòl urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament i electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025 (Llei 11/2025 i DL 2/2025).",
+      "keypoints": [
+        {
+          "h": "Classificació del sòl (TRLUC)",
+          "p": [
+            {
+              "t": "Sòl urbà",
+              "sub": [
+                "Consolidat (ja és solar o gairebé)",
+                "No consolidat (cal transformació o reforma interior)"
+              ]
+            },
+            {
+              "t": "Sòl urbanitzable",
+              "sub": [
+                "Delimitat o no delimitat",
+                "Es transforma via planejament derivat"
+              ]
+            },
+            "Sòl no urbanitzable (preservat de la transformació)"
+          ]
+        },
+        {
+          "h": "Serveis urbanístics bàsics",
+          "p": [
+            "Xarxa viària amb connectivitat suficient",
+            "Abastament d'aigua i sanejament",
+            "Subministrament d'energia elèctrica"
+          ]
+        },
+        {
+          "h": "Concepte de solar",
+          "p": [
+            "Sòl urbà apte per edificar: serveis bàsics + alineacions i rasants + urbanització bàsica"
+          ]
+        },
+        {
+          "h": "Situacions bàsiques (TRLSRU estatal)",
+          "p": [
+            "Sòl rural: preservat o encara no urbanitzat",
+            "Sòl urbanitzat: integrat de manera legal i efectiva a la malla urbana",
+            "Rellevant per a la valoració del sòl"
+          ]
+        },
+        {
+          "h": "Atenció reforma 2025",
+          "p": [
+            "El TRLUC està modificat per la Llei 11/2025 i el DL 2/2025 (vigents 31-12-2025)",
+            "Contrasta sempre amb el text consolidat"
+          ]
+        }
+      ]
     },
     "56": {
       "intro": "La intervenció administrativa en l'edificació i l'ús del sòl es canalitza, principalment, a través de la llicència urbanística, acte de control previ de la conformitat de l'actuació amb la legalitat urbanística (TRLUC, arts. 187 i següents).",
