@@ -1,7 +1,7 @@
 /* Service worker — offline-first per estudiar sense connexió.
    Precarrega tot el contingut (resums i tests) i, quan hi ha xarxa,
    actualitza les dades. El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v7';
+const CACHE = 'montornes-oposicio-v8';
 const ASSETS = [
   './',
   './index.html',
@@ -9,6 +9,7 @@ const ASSETS = [
   './assets/js/app.js',
   './assets/js/storage.js',
   './assets/js/grader.js',
+  './assets/js/sync.js',
   './data/temari.json',
   './data/resums.json',
   './data/questions.json',

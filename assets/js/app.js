@@ -3,6 +3,7 @@
    =========================================================================== */
 import { store } from './storage.js';
 import { autoMatch, scoreFromChecks, gradeWithClaude } from './grader.js';
+import { encryptBundle, decryptBundle } from './sync.js';
 
 const view = document.getElementById('view');
 const DATA = { temari:null, resums:null, questions:null, cases:null };
@@ -737,13 +738,6 @@ function renderResults(R){
     const nThemes = (examState.cfg.themes||[]).length;
     const totalThemes = DATA.temari.temari.length;
     const label = (!nThemes || nThemes===totalThemes) ? 'all' : `${nThemes} temes`;
-    store.saveExam({
-      id:'ex_'+Date.now(), date:Date.now(),
-      block: label, n: examState.qs.length, cases: caseResults.length,
-      correct, wrong, blank,
-      scoreA: scoreA, scoreB: scoreB2, total: total2,
-      apte: (scoreA===null||scoreA>=12.5) && (scoreB2===null||scoreB2>=22.5) && (scoreA!==null||scoreB2!==null),
-    });
     // estadístiques per tema: encerts test (sobre les contestades) i punts de casos
     const qPerf = {};
     examState.qs.forEach((q,i)=>{
@@ -760,7 +754,14 @@ function renderResults(R){
       const k = c.theme; (casePerf[k] ||= {pts:0,max:0});
       casePerf[k].pts += pts; casePerf[k].max += caseMax;
     });
-    store.recordThemePerf(qPerf, casePerf);
+    store.saveExam({
+      id:'ex_'+Date.now(), date:Date.now(),
+      block: label, n: examState.qs.length, cases: caseResults.length,
+      correct, wrong, blank,
+      scoreA: scoreA, scoreB: scoreB2, total: total2,
+      apte: (scoreA===null||scoreA>=12.5) && (scoreB2===null||scoreB2>=22.5) && (scoreA!==null||scoreB2!==null),
+      themePerf: { q:qPerf, c:casePerf },        // per recalcular estadístiques per tema (i fusionar entre dispositius)
+    });
     e.target.textContent = '✓ Desat'; e.target.disabled = true;
   });
 }
@@ -956,10 +957,71 @@ function historial(){
         </div></div>`;
     }).join('');
   }
+  // --- Sincronització entre dispositius ---
+  html += `
+    <div class="card" id="synccard" style="margin-top:18px">
+      <h2 style="margin:0 0 4px">🔄 Sincronitza entre dispositius</h2>
+      <p class="muted" style="margin:0 0 10px">El progrés (temes repassats i exàmens) es desa a cada
+      dispositiu. Per veure el del mòbil al PC (o a l'inrevés), <b>genera un codi</b> aquí, copia'l a l'altre
+      dispositiu i <b>importa'l</b>. La importació <b>fusiona</b> (no esborra res). El codi va xifrat amb un
+      <b>PIN</b>: sense el PIN ningú no el pot llegir ni modificar, i res no s'envia a cap servidor.</p>
+      <label class="field"><span>PIN (mínim 4 caràcters)</span>
+        <input id="syncpin" type="password" inputmode="numeric" autocomplete="off" placeholder="El teu PIN"></label>
+      <div class="row" style="gap:8px">
+        <button class="btn primary" id="genCode">Genera el codi del meu progrés</button>
+      </div>
+      <label class="field" id="genWrap" hidden style="margin-top:10px"><span>Codi — copia'l i enganxa'l a l'altre dispositiu</span>
+        <textarea id="genOut" readonly rows="4" style="font-family:monospace;font-size:.8rem"></textarea></label>
+      <div class="row" id="genActions" hidden style="gap:8px"><button class="btn ghost" id="copyCode">📋 Copia el codi</button></div>
+      <div class="divider"></div>
+      <label class="field"><span>Importa un codi d'un altre dispositiu</span>
+        <textarea id="impIn" rows="4" placeholder="Enganxa aquí el codi que has generat a l'altre dispositiu…" style="font-family:monospace;font-size:.8rem"></textarea></label>
+      <button class="btn" id="impBtn">Importa i fusiona</button>
+      <p id="syncmsg" class="muted" style="margin:.7em 0 0"></p>
+    </div>`;
+
   view.innerHTML = html;
   const clr = byId('clearAll');
   if (clr) clr.addEventListener('click', ()=>{ if(confirm('Esborrar tot l\'historial?')){ store.clearExams(); render(); }});
   $$('[data-del]').forEach(b=>b.addEventListener('click', ()=>{ store.deleteExam(b.dataset.del); render(); }));
+  setupSync();
+}
+
+function setupSync(){
+  const pinEl = byId('syncpin'), msg = byId('syncmsg');
+  const say = (t, ok)=>{ if(msg){ msg.textContent=t; msg.style.color = ok===true?'var(--green)':ok===false?'var(--red)':'var(--ink-faint)'; } };
+  const getPin = ()=>{
+    const p = (pinEl.value||'').trim();
+    if (p.length<4){ say('Escriu un PIN de com a mínim 4 caràcters.', false); pinEl.focus(); return null; }
+    return p;
+  };
+  byId('genCode').addEventListener('click', async ()=>{
+    const pin = getPin(); if(!pin) return;
+    try{
+      const code = await encryptBundle(store.exportBundle(), pin);
+      byId('genOut').value = code;
+      byId('genWrap').hidden = false; byId('genActions').hidden = false;
+      const b = store.exportBundle();
+      say(`Codi generat (${Object.keys(b.studied).length} temes repassats · ${b.exams.length} exàmens). Copia'l i importa'l a l'altre dispositiu amb el mateix PIN.`, true);
+    }catch(e){ say('No s\'ha pogut generar el codi: '+e.message, false); }
+  });
+  byId('copyCode').addEventListener('click', async ()=>{
+    const ta = byId('genOut');
+    try{ await navigator.clipboard.writeText(ta.value); say('Codi copiat al porta-retalls ✓', true); }
+    catch(e){ ta.select(); say('Selecciona el codi i copia\'l manualment (Ctrl/Cmd+C).'); }
+  });
+  byId('impBtn').addEventListener('click', async ()=>{
+    const pin = getPin(); if(!pin) return;
+    const code = (byId('impIn').value||'').trim();
+    if(!code){ say('Enganxa el codi que has generat a l\'altre dispositiu.', false); return; }
+    try{
+      const bundle = await decryptBundle(code, pin);
+      const r = store.importBundle(bundle);
+      say(`Importat i fusionat ✓ Ara tens ${r.studied} temes repassats i ${r.exams} exàmens desats.`, true);
+      toast('Progrés fusionat correctament ✓');
+      setTimeout(()=>render(), 900);
+    }catch(e){ say('No s\'ha pogut importar: '+e.message, false); }
+  });
 }
 
 /* ===========================================================================
