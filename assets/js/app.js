@@ -1027,35 +1027,18 @@ function historial(){
         </div></div>`;
     }).join('');
   }
-  // --- Sincronització entre dispositius ---
+  // --- Sincronització entre dispositius (Gist privat de GitHub) ---
   html += `
     <div class="card" id="synccard" style="margin-top:18px">
       <h2 style="margin:0 0 4px">🔄 Sincronitza entre dispositius</h2>
       <p class="muted" style="margin:0 0 10px">El progrés (temes repassats i exàmens) es desa a cada
-      dispositiu. Per veure el del mòbil al PC (o a l'inrevés), <b>genera un codi</b> aquí, copia'l a l'altre
-      dispositiu i <b>importa'l</b>. La importació <b>fusiona</b> (no esborra res). El codi va xifrat amb un
-      <b>PIN</b>: sense el PIN ningú no el pot llegir ni modificar, i res no s'envia a cap servidor.</p>
-      <label class="field"><span>PIN (mínim 4 caràcters)</span>
+      dispositiu. Amb aquesta opció es puja i es baixa <b>automàticament</b> a un Gist <b>privat</b> del teu
+      compte de GitHub, xifrat amb un <b>PIN</b>. Ningú no hi té accés sense el PIN i el token es desa només
+      en aquest dispositiu. Passos: 1) crea un token de GitHub
+      <a href="https://github.com/settings/tokens/new?scopes=gist&description=Oposici%C3%B3%20Montorn%C3%A8s" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>;
+      2) posa un PIN i el token i activa-ho. Al segon dispositiu, fes servir <b>el mateix PIN</b> i el seu token.</p>
+      <label class="field"><span>PIN (mínim 4 caràcters · el mateix a tots els dispositius)</span>
         <input id="syncpin" type="password" inputmode="numeric" autocomplete="off" placeholder="El teu PIN"></label>
-      <div class="row" style="gap:8px">
-        <button class="btn primary" id="genCode">Genera el codi del meu progrés</button>
-      </div>
-      <label class="field" id="genWrap" hidden style="margin-top:10px"><span>Codi — copia'l i enganxa'l a l'altre dispositiu</span>
-        <textarea id="genOut" readonly rows="4" style="font-family:monospace;font-size:.8rem"></textarea></label>
-      <div class="row" id="genActions" hidden style="gap:8px"><button class="btn ghost" id="copyCode">📋 Copia el codi</button></div>
-      <div class="divider"></div>
-      <label class="field"><span>Importa un codi d'un altre dispositiu</span>
-        <textarea id="impIn" rows="4" placeholder="Enganxa aquí el codi que has generat a l'altre dispositiu…" style="font-family:monospace;font-size:.8rem"></textarea></label>
-      <button class="btn" id="impBtn">Importa i fusiona</button>
-      <p id="syncmsg" class="muted" style="margin:.7em 0 0"></p>
-
-      <div class="divider"></div>
-      <h3 style="margin:.2em 0">☁️ Sincronització automàtica (Gist de GitHub)</h3>
-      <p class="muted" style="margin:0 0 8px">Opció avançada: fes servir el <b>PIN de dalt</b> + un <b>token</b>
-      de GitHub (una vegada per dispositiu) i el progrés es puja i es baixa <b>automàticament</b> a un Gist
-      <b>privat</b>, xifrat amb el PIN. Ningú no hi té accés sense el PIN. Crea el token
-      <a href="https://github.com/settings/tokens/new?scopes=gist&description=Oposici%C3%B3%20Montorn%C3%A8s" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>.
-      Al segon dispositiu, fes servir <b>el mateix PIN</b> i el seu token.</p>
       <label class="field"><span>Token de GitHub (ghp_… o github_pat_…)</span>
         <input id="ghtoken" type="password" autocomplete="off" placeholder="El token es desa només en aquest dispositiu"></label>
       <div class="row" style="gap:8px">
@@ -1074,43 +1057,14 @@ function historial(){
 }
 
 function setupSync(){
-  const pinEl = byId('syncpin'), msg = byId('syncmsg');
-  const say = (t, ok)=>{ if(msg){ msg.textContent=t; msg.style.color = ok===true?'var(--green)':ok===false?'var(--red)':'var(--ink-faint)'; } };
+  const pinEl = byId('syncpin');
   const getPin = ()=>{
     const p = (pinEl.value||'').trim();
-    if (p.length<4){ say('Escriu un PIN de com a mínim 4 caràcters.', false); pinEl.focus(); return null; }
+    if (p.length<4){ gistStatus('Escriu un PIN de com a mínim 4 caràcters.', 'err'); pinEl.focus(); return null; }
     return p;
   };
-  byId('genCode').addEventListener('click', async ()=>{
-    const pin = getPin(); if(!pin) return;
-    try{
-      const code = await encryptBundle(store.exportBundle(), pin);
-      byId('genOut').value = code;
-      byId('genWrap').hidden = false; byId('genActions').hidden = false;
-      const b = store.exportBundle();
-      say(`Codi generat (${Object.keys(b.studied).length} temes repassats · ${b.exams.length} exàmens). Copia'l i importa'l a l'altre dispositiu amb el mateix PIN.`, true);
-    }catch(e){ say('No s\'ha pogut generar el codi: '+e.message, false); }
-  });
-  byId('copyCode').addEventListener('click', async ()=>{
-    const ta = byId('genOut');
-    try{ await navigator.clipboard.writeText(ta.value); say('Codi copiat al porta-retalls ✓', true); }
-    catch(e){ ta.select(); say('Selecciona el codi i copia\'l manualment (Ctrl/Cmd+C).'); }
-  });
-  byId('impBtn').addEventListener('click', async ()=>{
-    const pin = getPin(); if(!pin) return;
-    const code = (byId('impIn').value||'').trim();
-    if(!code){ say('Enganxa el codi que has generat a l\'altre dispositiu.', false); return; }
-    try{
-      const bundle = await decryptBundle(code, pin);
-      const r = store.importBundle(bundle);
-      say(`Importat i fusionat ✓ Ara tens ${r.studied} temes repassats i ${r.exams} exàmens desats.`, true);
-      toast('Progrés fusionat correctament ✓');
-      setTimeout(()=>render(), 900);
-    }catch(e){ say('No s\'ha pogut importar: '+e.message, false); }
-  });
 
   // --- Sincronització automàtica amb Gist de GitHub ---
-  const s = store.settings();
   const tokenEl = byId('ghtoken');
   const btnAct = byId('ghActivate'), btnNow = byId('ghSyncNow'), btnOff = byId('ghDisable');
   function paintGh(){
