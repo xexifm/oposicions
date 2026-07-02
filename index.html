@@ -56,8 +56,18 @@
 <script type="module" src="assets/js/app.js"></script>
 <script>
   if ('serviceWorker' in navigator) {
+    // Quan una versió nova del service worker pren el control, recarrega una
+    // vegada perquè es vegin els canvis de seguida (evita quedar en una versió vella).
+    let _swRefreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (_swRefreshing) return;
+      _swRefreshing = true;
+      location.reload();
+    });
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js').catch(()=>{});
+      navigator.serviceWorker.register('sw.js').then(reg => {
+        reg.update && reg.update();               // comprova si hi ha versió nova
+      }).catch(()=>{});
     });
   }
 </script>

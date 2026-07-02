@@ -1,7 +1,12 @@
 /* Service worker — offline-first per estudiar sense connexió.
-   Precarrega tot el contingut (resums i tests) i, quan hi ha xarxa,
-   actualitza les dades. El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v11';
+   Estratègia:
+   - Shell (HTML/JS/CSS): NETWORK-FIRST → quan hi ha xarxa sempre s'agafa la
+     versió nova (així les actualitzacions es veuen de seguida); sense xarxa,
+     es recorre a la còpia de la memòria cau.
+   - Dades (/data/): network-first amb còpia per a offline.
+   - Icones/manifest: cache-first.
+   El progrés es desa a localStorage (al dispositiu). */
+const CACHE = 'montornes-oposicio-v12';
 const ASSETS = [
   './',
   './index.html',
@@ -21,11 +26,15 @@ const ASSETS = [
   './assets/icons/favicon.png',
 ];
 
-// Precàrrega robusta: si un recurs falla, no bloqueja la resta.
+// Precàrrega robusta i SENSE memòria cau HTTP (cache:'reload'), perquè no es
+// guardin versions velles dels fitxers. Si un recurs falla, no bloqueja la resta.
 self.addEventListener('install', e => {
   e.waitUntil((async () => {
     const c = await caches.open(CACHE);
-    await Promise.allSettled(ASSETS.map(a => c.add(a)));
+    await Promise.allSettled(ASSETS.map(async a => {
+      try { const r = await fetch(new Request(a, { cache: 'reload' })); if (r.ok) await c.put(a, r); }
+      catch (err) { /* ignora */ }
+    }));
     self.skipWaiting();
   })());
 });
@@ -38,43 +47,38 @@ self.addEventListener('activate', e => {
   })());
 });
 
+async function networkFirst(request) {
+  try {
+    const r = await fetch(request);
+    if (r && r.ok) { const c = await caches.open(CACHE); c.put(request, r.clone()); }
+    return r;
+  } catch (err) {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    if (request.mode === 'navigate') {
+      const fb = await caches.match('./index.html');
+      if (fb) return fb;
+    }
+    throw err;
+  }
+}
+async function cacheFirst(request) {
+  const cached = await caches.match(request);
+  if (cached) return cached;
+  const r = await fetch(request);
+  if (r && r.ok) { const c = await caches.open(CACHE); c.put(request, r.clone()); }
+  return r;
+}
+
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET') return;
-  if (url.origin !== location.origin) return; // no interceptar API d'Anthropic ni fonts externes
+  if (url.origin !== location.origin) return; // no interceptar API d'Anthropic, GitHub ni fonts externes
 
-  // Dades: network-first (per actualitzar-se), amb còpia a la memòria cau per a offline.
-  if (url.pathname.includes('/data/')) {
-    e.respondWith((async () => {
-      try {
-        const r = await fetch(e.request);
-        const c = await caches.open(CACHE);
-        c.put(e.request, r.clone());
-        return r;
-      } catch (err) {
-        const cached = await caches.match(e.request);
-        if (cached) return cached;
-        throw err;
-      }
-    })());
-    return;
-  }
+  const dest = e.request.destination;
+  const isShell = e.request.mode === 'navigate' ||
+    dest === 'document' || dest === 'script' || dest === 'style' ||
+    url.pathname.includes('/data/');
 
-  // Resta (shell): cache-first; navegacions cauen a index.html si no hi ha xarxa.
-  e.respondWith((async () => {
-    const cached = await caches.match(e.request);
-    if (cached) return cached;
-    try {
-      const r = await fetch(e.request);
-      const c = await caches.open(CACHE);
-      c.put(e.request, r.clone());
-      return r;
-    } catch (err) {
-      if (e.request.mode === 'navigate') {
-        const fallback = await caches.match('./index.html');
-        if (fallback) return fallback;
-      }
-      throw err;
-    }
-  })());
+  e.respondWith(isShell ? networkFirst(e.request) : cacheFirst(e.request));
 });
