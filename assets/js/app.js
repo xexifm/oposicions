@@ -52,28 +52,63 @@ const LAW_TOKENS = [
   ['TRLSRU','TRLSRU'], ['TRLUC','TRLUC'], ['TRLHL','TRLHL'], ['TREBEP','TREBEP'],
   ['LOPDGDD','LOPDGDD'], ['LRBRL','LRBRL'], ['RLUC','RLUC'], ['LCSP','LCSP'],
   ['ROAS','ROAS'], ['RGPD','RGPD'], ['TRRL','TRRL'], ['LEF','LEF'], ['LOE','LOE'],
-  ['CTE','CTE'], ['EAC','EAC2006'], ['Estatut d\'autonomia','EAC2006'],
+  ['CTE','CTE'], ['EAC','EAC2006'], ['CEAL','CEAL'], ['CE','CE1978'], ['Constitució','CE1978'],
 ];
 const _escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const _normTok = s => s.toUpperCase().replace(/\s+/g,' ').replace(/’/g,"'").trim();
 const TOK_KEY = {}; LAW_TOKENS.forEach(([t,k])=>{ TOK_KEY[_normTok(t)] = k; });
+// CEAL no és al catàleg de normes; s'ignora en enllaçar (només evita mal-enllaçar "CE").
 const _alts = LAW_TOKENS.map(([t])=>_escRe(t).replace(/\s+/g,'\\s+'))
   .sort((a,b)=>b.length-a.length).join('|');
-const ART_PRE = "(?:\\b(?:arts?\\.?|articles?)\\s+(\\d+(?:\\.\\d+)?)\\s+(?:de\\s+(?:la|l'|l’|el)\\s+)?)?";
-const LAW_RE = new RegExp(ART_PRE + "\\b(" + _alts + ")\\b", "gi");
-const NORM_RE = new RegExp("\\b(" + _alts + ")\\b", "gi");
+// Referència d'article: "art. 47", "arts. 15-29", "article 5.2", amb possible llei al darrere.
+const ARTWORD = "\\b(?:[Aa]rts?\\.?|[Aa]rticles?)";
+const NUM = "\\d+(?:\\.\\d+)?(?:\\s*bis|\\s*ter)?";
+const ARTNUMS = NUM + "(?:\\s*(?:-|–|a|i|,|;)\\s*" + NUM + ")*";
+// Llei al darrere de l'article, només si realment hi és (amb "de la…", "del" o un simple espai).
+const LAWGRP = "(?:\\s+(?:de\\s+(?:la|l'|el)\\s+|del\\s+|de\\s+)?(?:" + _alts + ")\\b)?";
+const ART_CLUSTER = ARTWORD + "\\s*" + ARTNUMS + LAWGRP;
+// Matcher case-sensitive (per no confondre "CE" amb "ce" ni sigles amb text normal).
+const MASTER = new RegExp("(" + ART_CLUSTER + ")|(\\b(?:" + _alts + ")\\b)", "g");
+const NORM_RE = new RegExp("\\b(" + _alts + ")\\b", "g");
+const LAWEND_RE = new RegExp("(" + _alts + ")\\s*$");
 
-/* Enllaça normes en un text JA escapat (esc). */
-function linkifyLaw(escaped){
+function anchorTag(ref, artNum, text){
+  const isBoe = /boe\.es/.test(ref.url);
+  const anchor = (artNum && isBoe) ? '#a' + String(artNum).split('.')[0] : '';
+  return `<a class="lawlink" href="${esc(ref.url)}${anchor}" target="_blank" rel="noopener" title="${esc(ref.name)}">${text}</a>`;
+}
+
+/* Enllaça normes i articles en un text JA escapat (esc).
+   defaultLaw: clau de norma a assumir per als "art. N" que no porten llei
+   (p. ex. la llei del títol de l'apartat). L'estat es reinicia a cada crida. */
+function linkifyLaw(escaped, defaultLaw){
   if (!escaped) return escaped;
-  return escaped.replace(LAW_RE, (m, artNum, token)=>{
-    const key = TOK_KEY[_normTok(token)];
-    const ref = key && DATA.temari.norms[key];
-    if (!ref) return m;
-    const isBoe = /boe\.es/.test(ref.url);
-    const anchor = (artNum && isBoe) ? '#a'+artNum : '';
-    return `<a class="lawlink" href="${esc(ref.url)}${anchor}" target="_blank" rel="noopener" title="${esc(ref.name)}">${m}</a>`;
-  });
+  let out = '', last = 0, lastLaw = defaultLaw || null, m;
+  MASTER.lastIndex = 0;
+  while ((m = MASTER.exec(escaped))){
+    out += escaped.slice(last, m.index);
+    last = m.index + m[0].length;
+    if (m[2] !== undefined){                         // sigla o llei solta
+      const key = TOK_KEY[_normTok(m[2])];
+      const ref = key && DATA.temari.norms[key];
+      if (ref){ lastLaw = key; out += anchorTag(ref, null, m[2]); } else out += m[0];
+    } else {                                         // referència d'article
+      const seg = m[1];
+      const lawM = seg.match(LAWEND_RE);
+      let key = lawM ? TOK_KEY[_normTok(lawM[1])] : null;
+      if (key) lastLaw = key; else key = lastLaw;
+      const numM = seg.match(/\d+(?:\.\d+)?/);
+      const ref = key && DATA.temari.norms[key];
+      out += ref ? anchorTag(ref, numM ? numM[0] : null, seg) : seg;
+    }
+  }
+  return out + escaped.slice(last);
+}
+/* Primera norma esmentada en un text (per fixar la llei per defecte d'un apartat). */
+function pickLaw(text, fallback){
+  NORM_RE.lastIndex = 0;
+  const m = NORM_RE.exec(text||'');
+  return m ? (TOK_KEY[_normTok(m[1])] || fallback) : fallback;
 }
 /* Conjunt de claus de normes esmentades en un text pla. */
 function detectNorms(plain){
@@ -109,15 +144,16 @@ function flattenKeypoints(kp){
   return out;
 }
 /* Esquema jeràrquic de repàs ràpid (keypoints). */
-function renderKeypoints(kp){
+function renderKeypoints(kp, fallback){
   if (!kp || !kp.length) return '';
   let html = '<div class="keysch"><div class="kcap">🧠 Repàs ràpid · esquema clau</div>';
   kp.forEach(g=>{
-    if (typeof g==='string'){ html += `<div class="kgrp"><ul><li>${linkifyLaw(esc(g))}</li></ul></div>`; return; }
-    html += `<div class="kgrp">${g.h?`<b>${linkifyLaw(esc(g.h))}</b>`:''}<ul>`;
+    if (typeof g==='string'){ html += `<div class="kgrp"><ul><li>${linkifyLaw(esc(g), fallback)}</li></ul></div>`; return; }
+    const gl = pickLaw(g.h||'', fallback);
+    html += `<div class="kgrp">${g.h?`<b>${linkifyLaw(esc(g.h), fallback)}</b>`:''}<ul>`;
     (g.p||[]).forEach(it=>{
-      if (typeof it==='string'){ html += `<li>${linkifyLaw(esc(it))}</li>`; }
-      else { html += `<li>${linkifyLaw(esc(it.t||''))}${(it.sub||[]).length?`<ul>${it.sub.map(x=>`<li>${linkifyLaw(esc(x))}</li>`).join('')}</ul>`:''}</li>`; }
+      if (typeof it==='string'){ html += `<li>${linkifyLaw(esc(it), gl)}</li>`; }
+      else { html += `<li>${linkifyLaw(esc(it.t||''), gl)}${(it.sub||[]).length?`<ul>${it.sub.map(x=>`<li>${linkifyLaw(esc(x), gl)}</li>`).join('')}</ul>`:''}</li>`; }
     });
     html += '</ul></div>';
   });
@@ -404,18 +440,21 @@ function temaView(num){
 }
 
 function renderResum(r, tema){
+  const primary = (tema && tema.sources && tema.sources[0]) || null;
   let html = glossaryHtml(r, tema);
-  if (r.intro) html += `<p>${linkifyLaw(esc(r.intro))}</p>`;
+  if (r.intro) html += `<p>${linkifyLaw(esc(r.intro), pickLaw(r.intro, primary))}</p>`;
   (r.sections||[]).forEach(s=>{
+    // llei per defecte de l'apartat: la del títol, si no la del primer paràgraf, si no la del tema
+    const secLaw = pickLaw((s.h||'') + ' ' + (s.p||''), primary);
     if (s.h) html += `<h3>${esc(s.h)}</h3>`;
-    if (s.p) html += `<p>${linkifyLaw(esc(s.p))}</p>`;
-    if (s.list) html += `<ul>${s.list.map(li=>`<li>${linkifyLaw(esc(li))}</li>`).join('')}</ul>`;
-    if (s.key) html += `<div class="keyfact">💡 ${linkifyLaw(esc(s.key))}</div>`;
+    if (s.p) html += `<p>${linkifyLaw(esc(s.p), secLaw)}</p>`;
+    if (s.list) html += `<ul>${s.list.map(li=>`<li>${linkifyLaw(esc(li), secLaw)}</li>`).join('')}</ul>`;
+    if (s.key) html += `<div class="keyfact">💡 ${linkifyLaw(esc(s.key), secLaw)}</div>`;
     if (s.scheme) html += renderScheme(s.scheme);
   });
   // Esquema jeràrquic de repàs (nou). Si no n'hi ha, mostrem la clau textual.
-  if (r.keypoints && r.keypoints.length) html += renderKeypoints(r.keypoints);
-  if (r.key) html += `<div class="keyfact">💡 <b>Clau:</b> ${linkifyLaw(esc(r.key))}</div>`;
+  if (r.keypoints && r.keypoints.length) html += renderKeypoints(r.keypoints, primary);
+  if (r.key) html += `<div class="keyfact">💡 <b>Clau:</b> ${linkifyLaw(esc(r.key), primary)}</div>`;
   return html;
 }
 
@@ -854,7 +893,7 @@ function renderReviewA(){
     return `<div class="card">
       <div class="qmeta"><span class="qnum">Pregunta ${i+1}</span> ${status} ${themeLabel(q.theme)}</div>
       <p style="font-weight:500">${esc(q.q)}</p>${opts}
-      ${q.explain?`<div class="explain">${linkifyLaw(esc(q.explain))}
+      ${q.explain?`<div class="explain">${linkifyLaw(esc(q.explain), q.source||null)}
         ${src?`<br><a class="src" href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.name)}${q.article?', '+esc(q.article):''} ↗</a>`:''}</div>`:''}
     </div>`;
   }).join('');
@@ -880,7 +919,7 @@ function renderReviewB(caseResults, caseMax){
           <span>${esc(cr.label)}${ans.auto&&ans.auto[cr.id]&&ans.auto[cr.id].hits.length?` <span class="muted">(detectat: ${ans.auto[cr.id].hits.map(esc).join(', ')})</span>`:''}</span>
           <span class="w">${cr.weight||1} pts</span>
         </label>`).join('')}</div>
-      <div class="model"><h4>Resposta model</h4>${mdToHtml(c.model)}
+      <div class="model"><h4>Resposta model</h4>${mdToHtml(c.model, (c.sources||[])[0]||null)}
         ${c.sources?`<div class="srclist" style="margin-top:8px">${c.sources.map(k=>{const n=normRef(k);return `<a class="srcchip" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">${esc(n.name)} ↗</a>`;}).join('')}</div>`:''}
       </div>
       <details style="margin-top:10px"><summary style="cursor:pointer;font-weight:600">⚙️ Correcció amb Claude (API, opcional)</summary>
@@ -1133,7 +1172,7 @@ function fonts(){
 }
 
 /* ---- mini markdown per a respostes model ---- */
-function mdToHtml(md){
+function mdToHtml(md, defaultLaw){
   if(!md) return '';
   const lines = String(md).split('\n');
   let html='', inList=false;
@@ -1141,10 +1180,10 @@ function mdToHtml(md){
     ln=ln.trimEnd();
     if (/^[-•]\s+/.test(ln)){
       if(!inList){html+='<ul>';inList=true;}
-      html+=`<li>${linkifyLaw(esc(ln.replace(/^[-•]\s+/,'')))}</li>`;
+      html+=`<li>${linkifyLaw(esc(ln.replace(/^[-•]\s+/,'')), defaultLaw)}</li>`;
     } else {
       if(inList){html+='</ul>';inList=false;}
-      if(ln.trim()) html+=`<p>${linkifyLaw(esc(ln))}</p>`;
+      if(ln.trim()) html+=`<p>${linkifyLaw(esc(ln), defaultLaw)}</p>`;
     }
   }
   if(inList) html+='</ul>';
