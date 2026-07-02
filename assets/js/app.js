@@ -4,6 +4,7 @@
 import { store } from './storage.js';
 import { autoMatch, scoreFromChecks, gradeWithClaude } from './grader.js';
 import { encryptBundle, decryptBundle } from './sync.js';
+import { findGist, createGist, readGist, writeGist } from './gist.js';
 
 const view = document.getElementById('view');
 const DATA = { temari:null, resums:null, questions:null, cases:null };
@@ -153,6 +154,7 @@ async function render(){
 window.addEventListener('hashchange', render);
 window.addEventListener('DOMContentLoaded', render);
 render();
+setTimeout(initGistSync, 0);   // defer: espera que el mòdul acabi de carregar
 
 /* ---------- estat de connexió: offline + actualització en reconnectar ---------- */
 function toast(msg, ms=3200){
@@ -171,6 +173,72 @@ window.addEventListener('online', async ()=>{
     toast('Tornes a estar en línia — contingut actualitzat ✓');
   }catch(e){ /* si falla, es manté el que hi ha en memòria */ }
 });
+
+/* ---------- Sincronització automàtica amb Gist privat de GitHub ---------- */
+let gistBusy = false, gistPushTimer = null, gistInited = false;
+function gistStatus(msg, cls){
+  const el = byId('ghstatus'); if(!el) return;
+  el.textContent = msg; el.className = 'muted ' + (cls||'');
+}
+/* Assegura que tenim l'id del Gist (el cerca o el crea). Xifrat amb el PIN. */
+async function ensureGistId(token, pin){
+  const s = store.settings();
+  if (s.ghGistId) return s.ghGistId;
+  let id = await findGist(token);
+  if (!id) id = await createGist(token, await encryptBundle(store.exportBundle(), pin));
+  store.setSetting('ghGistId', id);
+  return id;
+}
+/* Sincronització completa: baixa i fusiona, després puja la unió.
+   El contingut es xifra amb el PIN (compartit entre dispositius), no amb el
+   token (que pot variar). Si el PIN no coincideix, NO puja (no sobreescriu). */
+async function gistSyncNow({ pull=true, push=true, silent=false } = {}){
+  const s = store.settings();
+  const token = s.ghToken, pin = s.ghPin;
+  if (!token || !pin || gistBusy) return { ok:false };
+  gistBusy = true;
+  if (!silent) gistStatus('Sincronitzant…');
+  try{
+    const id = await ensureGistId(token, pin);
+    let changed = false;
+    if (pull){
+      const content = await readGist(token, id);
+      if (content){
+        let remote;
+        try{ remote = await decryptBundle(content, pin); }
+        catch(e){
+          // Contingut xifrat amb un PIN diferent: no toquem res per no perdre dades.
+          if (!silent) gistStatus('El PIN no coincideix amb el de l\'altre dispositiu. Fes servir el mateix PIN a tots dos.', 'err');
+          return { ok:false, pinMismatch:true };
+        }
+        const before = JSON.stringify(store.exportBundle());
+        store.importBundle(remote);
+        changed = JSON.stringify(store.exportBundle()) !== before;
+      }
+    }
+    if (push) await writeGist(token, id, await encryptBundle(store.exportBundle(), pin));
+    store.setSetting('syncLast', Date.now());
+    if (!silent) gistStatus('Sincronitzat ✓ · ' + new Date().toLocaleTimeString('ca-ES',{hour:'2-digit',minute:'2-digit'}), 'ok');
+    return { ok:true, changed };
+  }catch(e){
+    if (!silent) gistStatus('Error: ' + e.message, 'err');
+    return { ok:false, error:e.message };
+  }finally{ gistBusy = false; }
+}
+/* Puja els canvis locals amb un petit retard (agrupant-los). */
+function scheduleGistPush(){
+  if (!store.settings().ghToken || !store.settings().ghAuto) return;
+  clearTimeout(gistPushTimer);
+  gistPushTimer = setTimeout(()=>{ gistSyncNow({ pull:false, push:true, silent:true }); }, 1800);
+}
+/* En obrir l'app: baixa i fusiona una vegada, i refresca la vista si ha canviat. */
+async function initGistSync(){
+  if (gistInited) return; gistInited = true;
+  const s = store.settings();
+  if (!s.ghAuto || !s.ghToken || !s.ghPin) return;
+  const r = await gistSyncNow({ pull:true, push:true, silent:true });
+  if (r && r.changed) render();
+}
 
 /* ===========================================================================
    VISTA: INICI
@@ -331,6 +399,7 @@ function temaView(num){
     const now = store.toggleStudied(num);
     e.target.classList.toggle('primary', now);
     e.target.textContent = now ? '✓ Repassat' : 'Marcar com a repassat';
+    scheduleGistPush();
   });
 }
 
@@ -763,6 +832,7 @@ function renderResults(R){
       themePerf: { q:qPerf, c:casePerf },        // per recalcular estadístiques per tema (i fusionar entre dispositius)
     });
     e.target.textContent = '✓ Desat'; e.target.disabled = true;
+    scheduleGistPush();
   });
 }
 
@@ -978,6 +1048,22 @@ function historial(){
         <textarea id="impIn" rows="4" placeholder="Enganxa aquí el codi que has generat a l'altre dispositiu…" style="font-family:monospace;font-size:.8rem"></textarea></label>
       <button class="btn" id="impBtn">Importa i fusiona</button>
       <p id="syncmsg" class="muted" style="margin:.7em 0 0"></p>
+
+      <div class="divider"></div>
+      <h3 style="margin:.2em 0">☁️ Sincronització automàtica (Gist de GitHub)</h3>
+      <p class="muted" style="margin:0 0 8px">Opció avançada: fes servir el <b>PIN de dalt</b> + un <b>token</b>
+      de GitHub (una vegada per dispositiu) i el progrés es puja i es baixa <b>automàticament</b> a un Gist
+      <b>privat</b>, xifrat amb el PIN. Ningú no hi té accés sense el PIN. Crea el token
+      <a href="https://github.com/settings/tokens/new?scopes=gist&description=Oposici%C3%B3%20Montorn%C3%A8s" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>.
+      Al segon dispositiu, fes servir <b>el mateix PIN</b> i el seu token.</p>
+      <label class="field"><span>Token de GitHub (ghp_… o github_pat_…)</span>
+        <input id="ghtoken" type="password" autocomplete="off" placeholder="El token es desa només en aquest dispositiu"></label>
+      <div class="row" style="gap:8px">
+        <button class="btn primary" id="ghActivate">Activa la sincronització automàtica</button>
+        <button class="btn ghost" id="ghSyncNow" hidden>Sincronitza ara</button>
+        <button class="btn ghost" id="ghDisable" hidden>Desactiva</button>
+      </div>
+      <p id="ghstatus" class="muted" style="margin:.7em 0 0"></p>
     </div>`;
 
   view.innerHTML = html;
@@ -1022,6 +1108,44 @@ function setupSync(){
       setTimeout(()=>render(), 900);
     }catch(e){ say('No s\'ha pogut importar: '+e.message, false); }
   });
+
+  // --- Sincronització automàtica amb Gist de GitHub ---
+  const s = store.settings();
+  const tokenEl = byId('ghtoken');
+  const btnAct = byId('ghActivate'), btnNow = byId('ghSyncNow'), btnOff = byId('ghDisable');
+  function paintGh(){
+    const on = !!(store.settings().ghAuto && store.settings().ghToken);
+    btnAct.hidden = on; btnNow.hidden = !on; btnOff.hidden = !on;
+    if (on){
+      tokenEl.value = store.settings().ghToken;
+      const last = store.settings().syncLast;
+      gistStatus(on ? ('Activada ✓' + (last?(' · última sincronització a les '+new Date(last).toLocaleTimeString('ca-ES',{hour:'2-digit',minute:'2-digit'})):'')) : '', 'ok');
+    }
+  }
+  btnAct.addEventListener('click', async ()=>{
+    const pin = getPin(); if(!pin) return;      // reutilitza el PIN de dalt (mateix a tots dos dispositius)
+    const tk = (tokenEl.value||'').trim();
+    if (tk.length<20){ gistStatus('Enganxa un token de GitHub vàlid.', 'err'); tokenEl.focus(); return; }
+    store.setSetting('ghToken', tk);
+    store.setSetting('ghPin', pin);
+    store.setSetting('ghGistId', '');           // que el torni a cercar/crear
+    store.setSetting('ghAuto', true);
+    gistInited = false;
+    const r = await gistSyncNow({ pull:true, push:true });
+    if (r.ok){ paintGh(); toast('Sincronització automàtica activada ✓'); if (r.changed) setTimeout(()=>render(), 900); }
+    else { store.setSetting('ghAuto', false); }  // no deixar-la activa si ha fallat
+  });
+  btnNow.addEventListener('click', async ()=>{
+    const r = await gistSyncNow({ pull:true, push:true });
+    if (r.ok && r.changed) setTimeout(()=>render(), 900);
+  });
+  btnOff.addEventListener('click', ()=>{
+    store.setSetting('ghAuto', false); store.setSetting('ghToken', '');
+    store.setSetting('ghGistId', ''); store.setSetting('ghPin', '');
+    gistStatus('Sincronització automàtica desactivada.', '');
+    paintGh();
+  });
+  paintGh();
 }
 
 /* ===========================================================================
