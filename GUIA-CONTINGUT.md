@@ -65,6 +65,13 @@ s'ha d'**afegir o modificar** aquí.
 - **Estadístiques per tema** a la llista d'estudi: sota l'estat "repassat", mostrar el
   **% de preguntes test encertades** acumulat de tots els exàmens i la **puntuació dels
   casos**, amb **color** (verd si alt, vermell si baix; llindar de referència ~75%).
+- **Sincronització del progrés entre dispositius (mòbil ↔ PC).** El progrés s'ha de poder
+  moure entre dispositius. Com que l'app és estàtica (GitHub Pages, sense servidor), es fa
+  amb un **codi de sincronització xifrat amb un PIN**: es genera a un dispositiu i s'importa
+  a l'altre (la importació **fusiona**, no substitueix). Requisit clau: **ningú amb accés a
+  l'enllaç públic no pot llegir ni modificar el progrés** sense el PIN; res no s'envia a cap
+  servidor de tercers. *(Si algun dia es vol sincronització automàtica en viu, caldria un
+  backend o un servei extern amb autenticació — no fet per no dependre de tercers.)*
 
 ## 5. Procés de treball
 
