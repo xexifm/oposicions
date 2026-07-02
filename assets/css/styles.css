@@ -276,6 +276,10 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
 .thchip{display:inline-flex;align-items:center;gap:4px;font-size:.8rem;border:1px solid var(--line);
   border-radius:8px;padding:3px 8px;cursor:pointer;background:#fff}
 .thchip input{margin:0}
+
+/* estat de la sincronització */
+.muted.ok{color:var(--green)}
+.muted.err{color:var(--red)}
 .srclist{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 .srcchip{display:inline-flex;align-items:center;gap:5px;text-decoration:none;font-weight:600;font-size:.82rem;
   background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--crimson)}

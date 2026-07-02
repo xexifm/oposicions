@@ -70,8 +70,13 @@ s'ha d'**afegir o modificar** aquí.
   amb un **codi de sincronització xifrat amb un PIN**: es genera a un dispositiu i s'importa
   a l'altre (la importació **fusiona**, no substitueix). Requisit clau: **ningú amb accés a
   l'enllaç públic no pot llegir ni modificar el progrés** sense el PIN; res no s'envia a cap
-  servidor de tercers. *(Si algun dia es vol sincronització automàtica en viu, caldria un
-  backend o un servei extern amb autenticació — no fet per no dependre de tercers.)*
+  servidor de tercers.
+- **Sincronització automàtica (Gist privat de GitHub).** A més del codi manual, hi ha una
+  opció automàtica: l'usuari enganxa un **token de GitHub** (permís «gist») una vegada per
+  dispositiu i el progrés es puja/baixa sol a un **Gist privat**. El contingut es **xifra amb
+  el PIN** (compartit entre dispositius, no amb el token, que pot variar). El token es desa
+  només al dispositiu (localStorage), **mai al repositori**. Salvaguarda: si el PIN no
+  coincideix, **no se sobreescriu** res (evita perdre dades de l'altre dispositiu).
 
 ## 5. Procés de treball
 
