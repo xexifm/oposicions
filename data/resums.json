@@ -74,7 +74,16 @@
       "sections": [
         {
           "h": "Naturalesa i estructura",
-          "p": "L'EAC és una llei orgànica de caràcter especial: l'elabora i aprova el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols: I, drets, deures i principis rectors; II, les institucions; III, el poder judicial a Catalunya; IV, les competències; V, les relacions institucionals (amb l'Estat, la UE i l'acció exterior); VI, el finançament; i VII, la reforma."
+          "p": "L'EAC és una llei orgànica de caràcter especial: l'elabora i aprova el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols:",
+          "list": [
+            "I, drets, deures i principis rectors",
+            "II, les institucions",
+            "III, el poder judicial a Catalunya",
+            "IV, les competències",
+            "V, les relacions institucionals (amb l'Estat, la UE i l'acció exterior)",
+            "VI, el finançament",
+            "VII, la reforma"
+          ]
         },
         {
           "h": "La Generalitat: institucions",
@@ -130,7 +139,14 @@
       "sections": [
         {
           "h": "Entitats que integren l'Administració local",
-          "p": "L'art. 3 LRBRL distingeix dos grups. Tenen caràcter d'entitats locals TERRITORIALS (amb autonomia plena per gestionar els seus interessos) el municipi, la província i l'illa (als arxipèlags). Són ALTRES entitats locals: la comarca i les agrupacions de municipis que creïn les CA; les àrees metropolitanes; les mancomunitats de municipis; i les entitats d'àmbit territorial inferior al municipi (EATIM). A Catalunya, l'Estatut configura com a ens locals propis el municipi, la comarca i la vegueria, a més de les àrees metropolitanes i les mancomunitats."
+          "p": "L'art. 3 LRBRL distingeix dos grups. Tenen caràcter d'entitats locals TERRITORIALS (amb autonomia plena per gestionar els seus interessos) el municipi, la província i l'illa (als arxipèlags). Són ALTRES entitats locals:",
+          "list": [
+            "La comarca i les agrupacions de municipis que creïn les CA",
+            "Les àrees metropolitanes",
+            "Les mancomunitats de municipis",
+            "Les entitats d'àmbit territorial inferior al municipi (EATIM)"
+          ],
+          "p2": "A Catalunya, l'Estatut configura com a ens locals propis el municipi, la comarca i la vegueria, a més de les àrees metropolitanes i les mancomunitats."
         },
         {
           "h": "El municipi",
@@ -189,7 +205,13 @@
         },
         {
           "h": "Òrgans necessaris",
-          "p": "Existeixen sempre: l'Alcalde o alcaldessa, que dirigeix el govern i l'administració municipal; els tinents d'alcalde, que substitueixen l'Alcalde per l'ordre del seu nomenament i són nomenats i cessats lliurement per aquest entre els membres de la Junta de Govern Local; i el Ple, integrat per tots els regidors i presidit per l'Alcalde. La Junta de Govern Local, integrada per l'Alcalde i un nombre de regidors no superior a un terç, és òrgan necessari als municipis de més de 5.000 habitants i, en els altres, quan així ho disposi el reglament orgànic o ho acordi el Ple."
+          "p": "Existeixen sempre:",
+          "list": [
+            "L'Alcalde o alcaldessa, que dirigeix el govern i l'administració municipal",
+            "Els tinents d'alcalde, que substitueixen l'Alcalde per l'ordre del seu nomenament i són nomenats i cessats lliurement per aquest entre els membres de la Junta de Govern Local",
+            "El Ple, integrat per tots els regidors i presidit per l'Alcalde"
+          ],
+          "p2": "La Junta de Govern Local, integrada per l'Alcalde i un nombre de regidors no superior a un terç, és òrgan necessari als municipis de més de 5.000 habitants i, en els altres, quan així ho disposi el reglament orgànic o ho acordi el Ple."
         },
         {
           "h": "Òrgans complementaris",
@@ -197,7 +219,16 @@
         },
         {
           "h": "Competències del Ple (art. 22 LRBRL)",
-          "p": "El Ple exerceix les atribucions de major rellevància política i normativa, moltes de les quals són indelegables: el control i la fiscalització dels òrgans de govern; l'aprovació del reglament orgànic i de les ordenances; l'aprovació i modificació dels pressupostos i l'aprovació dels comptes; l'aprovació de la plantilla de personal i la relació de llocs de treball; l'aprovació inicial del planejament urbanístic general i la determinació de les formes de gestió dels serveis; l'alteració del terme municipal; i la imposició i ordenació de tributs."
+          "p": "El Ple exerceix les atribucions de major rellevància política i normativa, moltes de les quals són indelegables:",
+          "list": [
+            "El control i la fiscalització dels òrgans de govern",
+            "L'aprovació del reglament orgànic i de les ordenances",
+            "L'aprovació i modificació dels pressupostos i l'aprovació dels comptes",
+            "L'aprovació de la plantilla de personal i la relació de llocs de treball",
+            "L'aprovació inicial del planejament urbanístic general i la determinació de les formes de gestió dels serveis",
+            "L'alteració del terme municipal",
+            "La imposició i ordenació de tributs"
+          ]
         },
         {
           "h": "Competències de l'Alcalde (art. 21 LRBRL)",
@@ -245,7 +276,20 @@
       "sections": [
         {
           "h": "Competències pròpies",
-          "p": "Són les atribuïdes per llei (estatal o autonòmica) i s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat (art. 7.2). La clàusula de l'art. 25.1 permet al municipi promoure activitats i prestar serveis públics que contribueixin a satisfer les necessitats de la comunitat veïnal. L'art. 25.2 enumera les matèries en què el municipi exercirà en tot cas competències pròpies: urbanisme; medi ambient urbà; abastament d'aigua i tractament d'aigües residuals; residus; infraestructura viària; trànsit i mobilitat; protecció civil i prevenció i extinció d'incendis; protecció de la salubritat pública; cementiris; promoció de la cultura, l'esport i el turisme; i informació i promoció de l'activitat turística d'interès local, entre altres."
+          "p": "Són les atribuïdes per llei (estatal o autonòmica) i s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat (art. 7.2). La clàusula de l'art. 25.1 permet al municipi promoure activitats i prestar serveis públics que contribueixin a satisfer les necessitats de la comunitat veïnal. L'art. 25.2 enumera les matèries en què el municipi exercirà en tot cas competències pròpies:",
+          "list": [
+            "Urbanisme",
+            "Medi ambient urbà",
+            "Abastament d'aigua i tractament d'aigües residuals",
+            "Residus",
+            "Infraestructura viària",
+            "Trànsit i mobilitat",
+            "Protecció civil i prevenció i extinció d'incendis",
+            "Protecció de la salubritat pública",
+            "Cementiris",
+            "Promoció de la cultura, l'esport i el turisme",
+            "Informació i promoció de l'activitat turística d'interès local, entre altres"
+          ]
         },
         {
           "h": "Serveis mínims obligatoris (art. 26)",
@@ -306,7 +350,13 @@
         },
         {
           "h": "Elements de validesa",
-          "p": "Un acte és vàlid si concorren: l'element subjectiu (òrgan competent, vàlidament investit i sense causa d'abstenció); l'element objectiu (contingut lícit, possible i determinat o determinable); l'element causal o teleològic (adequació al fi d'interès públic previst per la norma; apartar-se'n és desviació de poder, causa d'anul·labilitat); i l'element formal (producció a través del procediment degut i amb la forma escaient, en general escrita i per mitjans electrònics)."
+          "p": "Un acte és vàlid si concorren:",
+          "list": [
+            "L'element subjectiu (òrgan competent, vàlidament investit i sense causa d'abstenció)",
+            "L'element objectiu (contingut lícit, possible i determinat o determinable)",
+            "L'element causal o teleològic (adequació al fi d'interès públic previst per la norma; apartar-se'n és desviació de poder, causa d'anul·labilitat)",
+            "L'element formal (producció a través del procediment degut i amb la forma escaient, en general escrita i per mitjans electrònics)"
+          ]
         },
         {
           "h": "La motivació",
@@ -314,7 +364,15 @@
         },
         {
           "h": "El silenci administratiu",
-          "p": "Quan l'Administració incompleix el deure de resoldre i notificar dins el termini (art. 21 obliga sempre a resoldre), la llei atribueix un sentit a la inactivitat. En els procediments iniciats a sol·licitud de l'interessat, la regla general és el silenci POSITIU o estimatori: la sol·licitud s'entén estimada i això produeix un acte veritable (acte presumpte), invocable davant de tothom; un cop produït, l'Administració ja no pot resoldre en sentit contrari (art. 24.3.a). El silenci té sentit NEGATIU només en les excepcions previstes per una norma amb rang de llei o pel dret de la UE per raons imperioses d'interès general: el dret de petició; els procediments en què l'estimació transferiria al sol·licitant facultats sobre el domini públic o el servei públic; la responsabilitat patrimonial; els procediments d'impugnació d'actes; i els relatius al medi ambient. Un límit infranquejable: el silenci no permet adquirir mai facultats o drets contraris a l'ordenament jurídic (per això una llicència urbanística disconforme amb el planejament no s'adquireix mai per silenci, art. 11.3 TRLS)."
+          "p": "Quan l'Administració incompleix el deure de resoldre i notificar dins el termini (art. 21 obliga sempre a resoldre), la llei atribueix un sentit a la inactivitat. En els procediments iniciats a sol·licitud de l'interessat, la regla general és el silenci POSITIU o estimatori: la sol·licitud s'entén estimada i això produeix un acte veritable (acte presumpte), invocable davant de tothom; un cop produït, l'Administració ja no pot resoldre en sentit contrari (art. 24.3.a). El silenci té sentit NEGATIU només en les excepcions previstes per una norma amb rang de llei o pel dret de la UE per raons imperioses d'interès general:",
+          "list": [
+            "El dret de petició",
+            "Els procediments en què l'estimació transferiria al sol·licitant facultats sobre el domini públic o el servei públic",
+            "La responsabilitat patrimonial",
+            "Els procediments d'impugnació d'actes",
+            "Els relatius al medi ambient"
+          ],
+          "p2": "Un límit infranquejable: el silenci no permet adquirir mai facultats o drets contraris a l'ordenament jurídic (per això una llicència urbanística disconforme amb el planejament no s'adquireix mai per silenci, art. 11.3 TRLS)."
         },
         {
           "h": "Silenci en procediments iniciats d'ofici",
@@ -369,7 +427,17 @@
         },
         {
           "h": "Nul·litat de ple dret (art. 47)",
-          "p": "És la forma més greu d'invalidesa, reservada a supòsits taxats: actes que lesionen drets i llibertats susceptibles d'empara constitucional; dictats per òrgan manifestament incompetent per raó de la matèria o del territori; de contingut impossible; constitutius d'infracció penal o dictats com a conseqüència d'aquesta; dictats prescindint total i absolutament del procediment legalment establert o de les normes essencials de formació de la voluntat dels òrgans col·legiats; actes contraris a l'ordenament pels quals s'adquireixen facultats o drets sense els requisits essencials; i els que estableixi una norma amb rang de llei. Els seus efectes són ex tunc (des de l'origen), no és convalidable i pot declarar-se en qualsevol moment."
+          "p": "És la forma més greu d'invalidesa, reservada a supòsits taxats:",
+          "list": [
+            "Actes que lesionen drets i llibertats susceptibles d'empara constitucional",
+            "Dictats per òrgan manifestament incompetent per raó de la matèria o del territori",
+            "De contingut impossible",
+            "Constitutius d'infracció penal o dictats com a conseqüència d'aquesta",
+            "Dictats prescindint total i absolutament del procediment legalment establert o de les normes essencials de formació de la voluntat dels òrgans col·legiats",
+            "Actes contraris a l'ordenament pels quals s'adquireixen facultats o drets sense els requisits essencials",
+            "Els que estableixi una norma amb rang de llei"
+          ],
+          "p2": "Els seus efectes són ex tunc (des de l'origen), no és convalidable i pot declarar-se en qualsevol moment."
         },
         {
           "h": "Anul·labilitat (art. 48)",
@@ -415,11 +483,25 @@
       "sections": [
         {
           "h": "Capacitat i interessats",
-          "p": "Tenen capacitat d'obrar davant les administracions les persones físiques i jurídiques que la tinguin conforme a la normativa civil, els menors per a l'exercici dels drets que l'ordenament els permet sense assistència, i els grups d'afectats, unions i entitats sense personalitat jurídica quan la llei ho prevegi (art. 3). Són interessats (art. 4): els qui promoguin el procediment com a titulars de drets o interessos legítims; els qui, sense haver-lo iniciat, tinguin drets que puguin resultar afectats per la decisió; i aquells els interessos legítims dels quals, individuals o col·lectius, puguin resultar afectats i es personin abans de la resolució."
+          "p": "Tenen capacitat d'obrar davant les administracions les persones físiques i jurídiques que la tinguin conforme a la normativa civil, els menors per a l'exercici dels drets que l'ordenament els permet sense assistència, i els grups d'afectats, unions i entitats sense personalitat jurídica quan la llei ho prevegi (art. 3). Són interessats (art. 4):",
+          "list": [
+            "Els qui promoguin el procediment com a titulars de drets o interessos legítims",
+            "Els qui, sense haver-lo iniciat, tinguin drets que puguin resultar afectats per la decisió",
+            "Aquells els interessos legítims dels quals, individuals o col·lectius, puguin resultar afectats i es personin abans de la resolució"
+          ]
         },
         {
           "h": "Drets de les persones en les seves relacions amb l'Administració",
-          "p": "Inclouen (arts. 13 i 53): el dret a una bona administració (a ser tractat amb imparcialitat i a una resolució en termini raonable); a conèixer l'estat de la tramitació i a accedir a l'expedient; a obtenir informació i orientació; a no presentar documents que ja estiguin en poder de les administracions o que hagi elaborat qualsevol administració (interoperabilitat); a actuar assistit; i a la protecció de dades. L'interessat té, a més, drets específics com el de formular al·legacions, utilitzar els mitjans de defensa admesos i obtenir còpies."
+          "p": "Inclouen (arts. 13 i 53):",
+          "list": [
+            "El dret a una bona administració (a ser tractat amb imparcialitat i a una resolució en termini raonable)",
+            "A conèixer l'estat de la tramitació i a accedir a l'expedient",
+            "A obtenir informació i orientació",
+            "A no presentar documents que ja estiguin en poder de les administracions o que hagi elaborat qualsevol administració (interoperabilitat)",
+            "A actuar assistit",
+            "A la protecció de dades"
+          ],
+          "p2": "L'interessat té, a més, drets específics com el de formular al·legacions, utilitzar els mitjans de defensa admesos i obtenir còpies."
         },
         {
           "h": "Principis del procediment",
@@ -427,7 +509,15 @@
         },
         {
           "h": "Abstenció i recusació",
-          "p": "Les autoritats i el personal en qui concorri una causa d'abstenció s'han d'abstenir d'intervenir i comunicar-ho al seu superior (art. 23 Llei 40/2015). Són causes d'abstenció, entre altres: tenir interès personal en l'assumpte; el parentiu de consanguinitat dins del quart grau o d'afinitat dins del segon; l'amistat íntima o l'enemistat manifesta; haver intervingut com a perit o testimoni; o tenir una relació de servei amb una persona interessada. Els interessats poden promoure la recusació en qualsevol moment (art. 24). La intervenció d'una autoritat en qui concorri causa d'abstenció no implica, per si sola, la invalidesa dels actes, però pot generar responsabilitat."
+          "p": "Les autoritats i el personal en qui concorri una causa d'abstenció s'han d'abstenir d'intervenir i comunicar-ho al seu superior (art. 23 Llei 40/2015). Són causes d'abstenció, entre altres:",
+          "list": [
+            "Tenir interès personal en l'assumpte",
+            "El parentiu de consanguinitat dins del quart grau o d'afinitat dins del segon",
+            "L'amistat íntima o l'enemistat manifesta",
+            "Haver intervingut com a perit o testimoni",
+            "O tenir una relació de servei amb una persona interessada"
+          ],
+          "p2": "Els interessats poden promoure la recusació en qualsevol moment (art. 24). La intervenció d'una autoritat en qui concorri causa d'abstenció no implica, per si sola, la invalidesa dels actes, però pot generar responsabilitat."
         },
         {
           "h": "Principis de bona regulació (potestat normativa)",
@@ -477,7 +567,14 @@
         },
         {
           "h": "Instrucció",
-          "p": "Comprèn els actes necessaris per determinar, conèixer i comprovar els fets sobre els quals s'ha de pronunciar la resolució: les al·legacions de l'interessat, que es poden formular en qualsevol moment anterior al tràmit d'audiència (art. 76); la prova, quan l'Administració no tingui per certs els fets (arts. 77-78; els fets es poden acreditar per qualsevol mitjà admès en dret); els informes, preceptius o facultatius i, en general, no vinculants (arts. 79-80); la informació pública, quan la naturalesa del procediment ho requereixi (art. 83); i el tràmit d'audiència, posterior a la instrucció i immediatament anterior a la redacció de la proposta de resolució (art. 82)."
+          "p": "Comprèn els actes necessaris per determinar, conèixer i comprovar els fets sobre els quals s'ha de pronunciar la resolució:",
+          "list": [
+            "Les al·legacions de l'interessat, que es poden formular en qualsevol moment anterior al tràmit d'audiència (art. 76)",
+            "La prova, quan l'Administració no tingui per certs els fets (arts. 77-78; els fets es poden acreditar per qualsevol mitjà admès en dret)",
+            "Els informes, preceptius o facultatius i, en general, no vinculants (arts. 79-80)",
+            "La informació pública, quan la naturalesa del procediment ho requereixi (art. 83)",
+            "El tràmit d'audiència, posterior a la instrucció i immediatament anterior a la redacció de la proposta de resolució (art. 82)"
+          ]
         },
         {
           "h": "Finalització",
@@ -530,7 +627,15 @@
         },
         {
           "h": "L'elaboració de les disposicions de caràcter general (reglaments)",
-          "p": "L'exercici de la potestat reglamentària segueix un procediment garantista: una consulta pública prèvia a la redacció (art. 133), perquè la ciutadania i les organitzacions afectades opinin sobre l'oportunitat i els problemes que es vol resoldre; la redacció del projecte acompanyada d'una memòria de l'anàlisi d'impacte normatiu (MAIN); els informes preceptius; el tràmit d'audiència als interessats i la informació pública; l'aprovació per l'òrgan competent; i la publicació íntegra al diari oficial, requisit per a l'entrada en vigor."
+          "p": "L'exercici de la potestat reglamentària segueix un procediment garantista:",
+          "list": [
+            "Una consulta pública prèvia a la redacció (art. 133), perquè la ciutadania i les organitzacions afectades opinin sobre l'oportunitat i els problemes que es vol resoldre",
+            "La redacció del projecte acompanyada d'una memòria de l'anàlisi d'impacte normatiu (MAIN)",
+            "Els informes preceptius",
+            "El tràmit d'audiència als interessats i la informació pública",
+            "L'aprovació per l'òrgan competent",
+            "La publicació íntegra al diari oficial, requisit per a l'entrada en vigor"
+          ]
         },
         {
           "h": "Principis i límits de la potestat normativa",
@@ -583,11 +688,24 @@
         },
         {
           "h": "Recurs extraordinari de revisió",
-          "p": "S'interposa contra actes ferms en via administrativa, davant l'òrgan que els va dictar, només per les causes taxades de l'art. 125: que en dictar-los s'hagi incorregut en un error de fet que resulti dels mateixos documents incorporats a l'expedient; que apareguin documents de valor essencial posteriors a l'acte o impossibles d'aportar abans; que en l'acte hagin influït documents o testimonis declarats falsos per sentència ferma; o que s'hagi dictat com a conseqüència de prevaricació, suborn, violència o maquinació fraudulenta. Els terminis són de quatre anys (error de fet) o de tres mesos (resta de causes)."
+          "p": "S'interposa contra actes ferms en via administrativa, davant l'òrgan que els va dictar, només per les causes taxades de l'art. 125:",
+          "list": [
+            "Que en dictar-los s'hagi incorregut en un error de fet que resulti dels mateixos documents incorporats a l'expedient",
+            "Que apareguin documents de valor essencial posteriors a l'acte o impossibles d'aportar abans",
+            "Que en l'acte hagin influït documents o testimonis declarats falsos per sentència ferma",
+            "O que s'hagi dictat com a conseqüència de prevaricació, suborn, violència o maquinació fraudulenta"
+          ],
+          "p2": "Els terminis són de quatre anys (error de fet) o de tres mesos (resta de causes)."
         },
         {
           "h": "Fi de la via administrativa i via judicial",
-          "p": "Posen fi a la via administrativa, entre d'altres (art. 114 i art. 52 LRBRL): les resolucions dels recursos d'alçada; els actes dels òrgans que no tenen superior jeràrquic; i, en l'àmbit local, les resolucions de l'Alcalde, del Ple i de la Junta de Govern Local. Exhaurida la via administrativa, queda oberta la jurisdicció contenciosa administrativa, davant la qual el recurs s'interposa en el termini de dos mesos si l'acte és exprés."
+          "p": "Posen fi a la via administrativa, entre d'altres (art. 114 i art. 52 LRBRL):",
+          "list": [
+            "Les resolucions dels recursos d'alçada",
+            "Els actes dels òrgans que no tenen superior jeràrquic",
+            "En l'àmbit local, les resolucions de l'Alcalde, del Ple i de la Junta de Govern Local"
+          ],
+          "p2": "Exhaurida la via administrativa, queda oberta la jurisdicció contenciosa administrativa, davant la qual el recurs s'interposa en el termini de dos mesos si l'acte és exprés."
         }
       ],
       "key": "Recursos: alçada (actes que NO exhaureixen la via → superior jeràrquic, 1 mes; resol en 3 mesos, silenci negatiu); reposició (actes que exhaureixen la via → mateix òrgan, POTESTATIVA, 1 mes); extraordinari de revisió (actes ferms, causes taxades, art. 125). Fi de via: alçada i actes de l'Alcalde/Ple/JGL (52 LRBRL). Contenciós: 2 mesos.",
@@ -740,7 +858,13 @@
         },
         {
           "h": "Procediment d'aprovació (art. 49 LRBRL)",
-          "p": "La tramitació ordinària consta de tres passos: 1) aprovació inicial pel Ple; 2) informació pública i audiència a les persones interessades durant un termini mínim de trenta dies, per a la presentació de reclamacions i suggeriments; 3) resolució de totes les reclamacions i suggeriments presentats i aprovació definitiva pel Ple. Un cas important: si no es presenta cap reclamació ni suggeriment durant el període d'informació pública, l'acord d'aprovació inicial s'entén elevat a definitiu de manera automàtica, sense necessitat d'un nou acord."
+          "p": "La tramitació ordinària consta de tres passos:",
+          "list": [
+            "Aprovació inicial pel Ple",
+            "Informació pública i audiència a les persones interessades durant un termini mínim de trenta dies, per a la presentació de reclamacions i suggeriments",
+            "Resolució de totes les reclamacions i suggeriments presentats i aprovació definitiva pel Ple"
+          ],
+          "p2": "Un cas important: si no es presenta cap reclamació ni suggeriment durant el període d'informació pública, l'acord d'aprovació inicial s'entén elevat a definitiu de manera automàtica, sense necessitat d'un nou acord."
         },
         {
           "h": "Publicació i entrada en vigor",
@@ -783,11 +907,25 @@
         },
         {
           "h": "Àmbit subjectiu",
-          "p": "La LCSP s'aplica al sector públic amb una intensitat graduada: les administracions públiques queden subjectes plenament; els poders adjudicadors que no són administració pública apliquen una part de la llei; i la resta d'entitats del sector públic, un règim més lleuger. El concepte clau, a efectes europeus, és el de 'poder adjudicador'."
+          "p": "La LCSP s'aplica al sector públic amb una intensitat graduada:",
+          "list": [
+            "Les administracions públiques queden subjectes plenament",
+            "Els poders adjudicadors que no són administració pública apliquen una part de la llei",
+            "La resta d'entitats del sector públic, un règim més lleuger"
+          ],
+          "p2": "El concepte clau, a efectes europeus, és el de 'poder adjudicador'."
         },
         {
           "h": "Classificació dels contractes",
-          "p": "Els contractes típics són: el contracte d'obres (construcció o rehabilitació d'un bé immoble); la concessió d'obres (construcció i explotació de l'obra assumint el risc operacional); el contracte de subministrament (adquisició de béns mobles); el contracte de serveis (prestacions de fer); i la concessió de serveis (gestió d'un servei amb transferència del risc operacional). Hi ha també contractes mixtos. Segons el règim jurídic, els contractes poden ser administratius (els típics i altres vinculats al servei públic) o privats."
+          "p": "Els contractes típics són:",
+          "list": [
+            "El contracte d'obres (construcció o rehabilitació d'un bé immoble)",
+            "La concessió d'obres (construcció i explotació de l'obra assumint el risc operacional)",
+            "El contracte de subministrament (adquisició de béns mobles)",
+            "El contracte de serveis (prestacions de fer)",
+            "La concessió de serveis (gestió d'un servei amb transferència del risc operacional)"
+          ],
+          "p2": "Hi ha també contractes mixtos. Segons el règim jurídic, els contractes poden ser administratius (els típics i altres vinculats al servei públic) o privats."
         },
         {
           "h": "Valor estimat i contractes SARA",
@@ -849,7 +987,14 @@
         },
         {
           "h": "Obligacions de l'Administració",
-          "p": "Com a responsable del tractament, l'Administració ha de: designar un Delegat de Protecció de Dades (DPD), obligatori al sector públic (art. 37); mantenir un registre de les activitats de tractament (art. 30); aplicar mesures de seguretat tècniques i organitzatives i els principis de protecció des del disseny i per defecte; dur a terme una avaluació d'impacte (AIPD) quan el tractament comporti un alt risc (art. 35); i notificar les violacions de seguretat a l'autoritat de control (l'APDCAT a Catalunya) sense dilació indeguda i, si és possible, en un termini de 72 hores (art. 33)."
+          "p": "Com a responsable del tractament, l'Administració ha de:",
+          "list": [
+            "Designar un Delegat de Protecció de Dades (DPD), obligatori al sector públic (art. 37)",
+            "Mantenir un registre de les activitats de tractament (art. 30)",
+            "Aplicar mesures de seguretat tècniques i organitzatives i els principis de protecció des del disseny i per defecte",
+            "Dur a terme una avaluació d'impacte (AIPD) quan el tractament comporti un alt risc (art. 35)",
+            "Notificar les violacions de seguretat a l'autoritat de control (l'APDCAT a Catalunya) sense dilació indeguda i, si és possible, en un termini de 72 hores (art. 33)"
+          ]
         }
       ],
       "key": "RGPD + LO 3/2018. Principis (art. 5) i responsabilitat proactiva. Bases (art. 6); categories especials (art. 9, com la salut) amb protecció reforçada. Drets ARSOPOL (15-22). DPD obligatori al sector públic; registre d'activitats; AIPD si alt risc; bretxes notificades en 72 h.",
@@ -936,7 +1081,14 @@
       "sections": [
         {
           "h": "Requisits",
-          "p": "Perquè neixi la responsabilitat cal (art. 32): una lesió real, efectiva, avaluable econòmicament i individualitzada en relació amb una persona o grup; que la lesió sigui antijurídica, és a dir, que el particular no tingui el deure jurídic de suportar el dany d'acord amb la llei; que sigui imputable a l'Administració pel funcionament normal o anormal d'un servei públic; i un nexe causal entre l'actuació administrativa i el dany. Es tracta d'una responsabilitat objectiva (no exigeix culpa) i directa (respon l'Administració, no el funcionari)."
+          "p": "Perquè neixi la responsabilitat cal (art. 32):",
+          "list": [
+            "Una lesió real, efectiva, avaluable econòmicament i individualitzada en relació amb una persona o grup",
+            "Que la lesió sigui antijurídica, és a dir, que el particular no tingui el deure jurídic de suportar el dany d'acord amb la llei",
+            "Que sigui imputable a l'Administració pel funcionament normal o anormal d'un servei públic",
+            "Un nexe causal entre l'actuació administrativa i el dany"
+          ],
+          "p2": "Es tracta d'una responsabilitat objectiva (no exigeix culpa) i directa (respon l'Administració, no el funcionari)."
         },
         {
           "h": "Danys indemnitzables i quantia",
@@ -988,7 +1140,13 @@
         },
         {
           "h": "Serveis urbanístics bàsics i concepte de solar",
-          "p": "Es consideren serveis urbanístics bàsics: la xarxa viària amb un nivell de consolidació suficient per permetre la connectivitat; les xarxes d'abastament d'aigua i de sanejament; i el subministrament d'energia elèctrica. Té la condició de solar el sòl urbà que és apte per a l'edificació perquè disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida. El nucli de població és l'agrupació d'edificacions que pot generar necessitats de serveis; en sòl no urbanitzable, se n'evita la formació no planificada."
+          "p": "Es consideren serveis urbanístics bàsics:",
+          "list": [
+            "La xarxa viària amb un nivell de consolidació suficient per permetre la connectivitat",
+            "Les xarxes d'abastament d'aigua i de sanejament",
+            "El subministrament d'energia elèctrica. Té la condició de solar el sòl urbà que és apte per a l'edificació perquè disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida. El nucli de població és l'agrupació d'edificacions que pot generar necessitats de serveis",
+            "En sòl no urbanitzable, se n'evita la formació no planificada"
+          ]
         },
         {
           "h": "Sòl urbà consolidat i no consolidat",
@@ -1044,7 +1202,16 @@
       "sections": [
         {
           "h": "Naturalesa i actes subjectes",
-          "p": "La llicència urbanística és un acte reglat: s'atorga o es denega segons la conformitat de l'actuació projectada amb el planejament i la normativa, sense marge de discrecionalitat. Estan subjectes a llicència, entre altres (art. 187): les obres de nova construcció i les de gran rehabilitació; les parcel·lacions urbanístiques; la primera ocupació o utilització dels edificis; els usos i les obres provisionals; els moviments de terres i les tales; i la instal·lació de cases prefabricades. Les actuacions de menor entitat se subjecten al règim de comunicació prèvia (art. 187 bis)."
+          "p": "La llicència urbanística és un acte reglat: s'atorga o es denega segons la conformitat de l'actuació projectada amb el planejament i la normativa, sense marge de discrecionalitat. Estan subjectes a llicència, entre altres (art. 187):",
+          "list": [
+            "Les obres de nova construcció i les de gran rehabilitació",
+            "Les parcel·lacions urbanístiques",
+            "La primera ocupació o utilització dels edificis",
+            "Els usos i les obres provisionals",
+            "Els moviments de terres i les tales",
+            "La instal·lació de cases prefabricades"
+          ],
+          "p2": "Les actuacions de menor entitat se subjecten al règim de comunicació prèvia (art. 187 bis)."
         },
         {
           "h": "Procediment i contingut",
@@ -1098,7 +1265,18 @@
         },
         {
           "h": "Principis de l'acció preventiva (art. 15)",
-          "p": "L'acció preventiva s'ajusta a un ordre de prioritats: evitar els riscos; avaluar els que no es puguin evitar; combatre els riscos en origen; adaptar el treball a la persona; tenir en compte l'evolució de la tècnica; substituir el que és perillós pel que comporti poc o cap perill; planificar la prevenció; adoptar mesures que anteposin la protecció col·lectiva a la individual; i donar les degudes instruccions als treballadors."
+          "p": "L'acció preventiva s'ajusta a un ordre de prioritats:",
+          "list": [
+            "Evitar els riscos",
+            "Avaluar els que no es puguin evitar",
+            "Combatre els riscos en origen",
+            "Adaptar el treball a la persona",
+            "Tenir en compte l'evolució de la tècnica",
+            "Substituir el que és perillós pel que comporti poc o cap perill",
+            "Planificar la prevenció",
+            "Adoptar mesures que anteposin la protecció col·lectiva a la individual",
+            "Donar les degudes instruccions als treballadors"
+          ]
         },
         {
           "h": "Instruments i drets",
@@ -1259,7 +1437,14 @@
         },
         {
           "h": "Situacions administratives (art. 85)",
-          "p": "El funcionari pot trobar-se en alguna d'aquestes situacions: servei actiu; serveis especials (per ocupar determinats càrrecs o missions); servei en altres administracions públiques; excedència (voluntària per interès particular o per agrupació familiar, per cura de fills o de familiars, forçosa, o per raó de violència de gènere); i suspensió de funcions (provisional o ferma, aquesta com a sanció disciplinària)."
+          "p": "El funcionari pot trobar-se en alguna d'aquestes situacions:",
+          "list": [
+            "Servei actiu",
+            "Serveis especials (per ocupar determinats càrrecs o missions)",
+            "Servei en altres administracions públiques",
+            "Excedència (voluntària per interès particular o per agrupació familiar, per cura de fills o de familiars, forçosa, o per raó de violència de gènere)",
+            "Suspensió de funcions (provisional o ferma, aquesta com a sanció disciplinària)"
+          ]
         }
       ],
       "key": "Drets individuals (14) i col·lectius (15, inclosa la vaga amb serveis essencials); deures i codi de conducta (52-54). Retribucions: bàsiques (sou + triennis + pagues extres) i complementàries (destinació, específic, productivitat, gratificacions); grups A1-C2. Situacions (85): actiu, serveis especials, excedència i suspensió.",
@@ -1346,7 +1531,14 @@
       "sections": [
         {
           "h": "Contractes exclosos",
-          "p": "Queden fora de l'àmbit de la LCSP (arts. 4 a 11), entre d'altres: les relacions de servei dels funcionaris i els contractes laborals; determinats convenis; els encàrrecs a mitjans propis personificats (in house) que compleixin els requisits legals (control anàleg, més del 80% de l'activitat per al poder adjudicador, etc.); certs negocis entre entitats del sector públic; i alguns contractes en àmbits com la defensa, els serveis financers o l'arbitratge."
+          "p": "Queden fora de l'àmbit de la LCSP (arts. 4 a 11), entre d'altres:",
+          "list": [
+            "Les relacions de servei dels funcionaris i els contractes laborals",
+            "Determinats convenis",
+            "Els encàrrecs a mitjans propis personificats (in house) que compleixin els requisits legals (control anàleg, més del 80% de l'activitat per al poder adjudicador, etc.)",
+            "Certs negocis entre entitats del sector públic",
+            "Alguns contractes en àmbits com la defensa, els serveis financers o l'arbitratge"
+          ]
         },
         {
           "h": "Preparació del contracte",
@@ -1499,7 +1691,14 @@
       "sections": [
         {
           "h": "Cessió del contracte (art. 214)",
-          "p": "És la transmissió a un tercer (el cessionari) dels drets i les obligacions derivats del contracte. Perquè sigui possible cal: que les qualitats tècniques o personals del cedent no hagin estat raó determinant de l'adjudicació; l'autorització prèvia i expressa de l'òrgan de contractació; que el cedent hagi executat almenys un 20% de l'import del contracte (o, en una concessió, n'hagi explotat almenys una cinquena part del termini); que el cessionari tingui capacitat i solvència i no estigui incurs en prohibicions de contractar; i la formalització de la cessió en escriptura pública."
+          "p": "És la transmissió a un tercer (el cessionari) dels drets i les obligacions derivats del contracte. Perquè sigui possible cal:",
+          "list": [
+            "Que les qualitats tècniques o personals del cedent no hagin estat raó determinant de l'adjudicació",
+            "L'autorització prèvia i expressa de l'òrgan de contractació",
+            "Que el cedent hagi executat almenys un 20% de l'import del contracte (o, en una concessió, n'hagi explotat almenys una cinquena part del termini)",
+            "Que el cessionari tingui capacitat i solvència i no estigui incurs en prohibicions de contractar",
+            "La formalització de la cessió en escriptura pública"
+          ]
         },
         {
           "h": "Subcontractació (art. 215)",
@@ -1547,7 +1746,15 @@
         },
         {
           "h": "Resolució del contracte",
-          "p": "Són causes de resolució (arts. 211-213), entre altres: la mort o incapacitat del contractista individual o l'extinció de la personalitat jurídica; la declaració de concurs o d'insolvència; el mutu acord; la demora i l'incompliment d'obligacions essencials; i la impossibilitat d'executar la prestació per modificacions superiors als límits. Els efectes depenen de la causa: si la resolució és per culpa del contractista, comporta la confiscació de la garantia definitiva i la indemnització dels danys causats a l'Administració; si és per culpa de l'Administració, aquesta ha d'indemnitzar el contractista."
+          "p": "Són causes de resolució (arts. 211-213), entre altres:",
+          "list": [
+            "La mort o incapacitat del contractista individual o l'extinció de la personalitat jurídica",
+            "La declaració de concurs o d'insolvència",
+            "El mutu acord",
+            "La demora i l'incompliment d'obligacions essencials",
+            "La impossibilitat d'executar la prestació per modificacions superiors als límits. Els efectes depenen de la causa: si la resolució és per culpa del contractista, comporta la confiscació de la garantia definitiva i la indemnització dels danys causats a l'Administració",
+            "Si és per culpa de l'Administració, aquesta ha d'indemnitzar el contractista"
+          ]
         }
       ],
       "key": "Compliment → recepció formal (dins 1 mes) → termini de garantia → liquidació. Modificació: prevista (204, ≤20%) o no prevista (205, ≤50%, causes taxades), obligatòria dins límits. Resolució (211-213): efectes segons la culpa (garantia confiscada + indemnització si és del contractista).",
@@ -1633,7 +1840,12 @@
         },
         {
           "h": "Drets, prerrogatives i equilibri econòmic",
-          "p": "El concessionari té dret a explotar l'obra i a percebre la retribució (tarifes dels usuaris o pagaments de l'Administració), i a mantenir l'equilibri econòmic de la concessió. L'Administració conserva prerrogatives d'ordenació, control, modificació, rescat i segrest. L'equilibri econòmic-financer es restableix, en benefici de la part que correspongui, en supòsits taxats (art. 270): quan l'Administració modifica la concessió per raons d'interès públic; per actuacions de l'Administració que, sense modificar directament la concessió, n'afecten l'economia (factum principis); i per causes de força major o riscos imprevisibles."
+          "p": "El concessionari té dret a explotar l'obra i a percebre la retribució (tarifes dels usuaris o pagaments de l'Administració), i a mantenir l'equilibri econòmic de la concessió. L'Administració conserva prerrogatives d'ordenació, control, modificació, rescat i segrest. L'equilibri econòmic-financer es restableix, en benefici de la part que correspongui, en supòsits taxats (art. 270):",
+          "list": [
+            "Quan l'Administració modifica la concessió per raons d'interès públic",
+            "Per actuacions de l'Administració que, sense modificar directament la concessió, n'afecten l'economia (factum principis)",
+            "Per causes de força major o riscos imprevisibles"
+          ]
         },
         {
           "h": "Extinció i reversió",
@@ -1875,7 +2087,15 @@
         },
         {
           "h": "Extinció",
-          "p": "La concessió s'extingeix per: compliment del termini (amb la reversió del servei i, si escau, dels béns afectes a l'Administració, que han de revertir en bon estat de conservació); rescat; caducitat per incompliment greu del concessionari; resolució per altres causes previstes; i supressió del servei per raons d'interès públic. L'extinció anticipada pot generar dret a indemnització."
+          "p": "La concessió s'extingeix per:",
+          "list": [
+            "Compliment del termini (amb la reversió del servei i, si escau, dels béns afectes a l'Administració, que han de revertir en bon estat de conservació)",
+            "Rescat",
+            "Caducitat per incompliment greu del concessionari",
+            "Resolució per altres causes previstes",
+            "Supressió del servei per raons d'interès públic"
+          ],
+          "p2": "L'extinció anticipada pot generar dret a indemnització."
         }
       ],
       "key": "Concessió de servei públic (gestió indirecta): titularitat pública i gestió privada a risc del concessionari. L'AP conserva potestats (ordenar, modificar, fiscalitzar, rescatar, segrestar). Usuaris: prestació en condicions i tarifes aprovades. Extinció: termini (amb reversió), rescat, caducitat, resolució, supressió.",
@@ -2008,7 +2228,13 @@
       "sections": [
         {
           "h": "Concepte i principis",
-          "p": "Es considera subvenció tota disposició dinerària feta a favor de persones públiques o privades que compleixi tres requisits: que el lliurament es faci sense contraprestació directa dels beneficiaris; que estigui subjecte al compliment d'un objectiu, l'execució d'un projecte o l'adopció d'un comportament; i que el projecte o l'activitat tingui per objecte el foment d'una activitat d'utilitat pública o interès social. La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat i no-discriminació, eficàcia i eficiència."
+          "p": "Es considera subvenció tota disposició dinerària feta a favor de persones públiques o privades que compleixi tres requisits:",
+          "list": [
+            "Que el lliurament es faci sense contraprestació directa dels beneficiaris",
+            "Que estigui subjecte al compliment d'un objectiu, l'execució d'un projecte o l'adopció d'un comportament",
+            "Que el projecte o l'activitat tingui per objecte el foment d'una activitat d'utilitat pública o interès social"
+          ],
+          "p2": "La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat i no-discriminació, eficàcia i eficiència."
         },
         {
           "h": "Pla estratègic i procediment de concessió",
@@ -2206,7 +2432,14 @@
         },
         {
           "h": "Magnituds de tancament",
-          "p": "De la liquidació es deriven magnituds clau: els drets pendents de cobrament i les obligacions pendents de pagament; el resultat pressupostari (diferència entre drets reconeguts nets i obligacions reconegudes netes, amb ajustaments); els romanents de crèdit; i el romanent de tresoreria, que mesura els recursos líquids disponibles (o el dèficit) al tancament i, en la seva part per a despeses generals, pot finançar modificacions de crèdit. Un romanent de tresoreria negatiu obliga a adoptar mesures de sanejament."
+          "p": "De la liquidació es deriven magnituds clau:",
+          "list": [
+            "Els drets pendents de cobrament i les obligacions pendents de pagament",
+            "El resultat pressupostari (diferència entre drets reconeguts nets i obligacions reconegudes netes, amb ajustaments)",
+            "Els romanents de crèdit",
+            "El romanent de tresoreria, que mesura els recursos líquids disponibles (o el dèficit) al tancament i, en la seva part per a despeses generals, pot finançar modificacions de crèdit"
+          ],
+          "p2": "Un romanent de tresoreria negatiu obliga a adoptar mesures de sanejament."
         }
       ],
       "key": "Bases d'execució: adapten les regles pressupostàries a l'entitat. Execució de despeses A-D-O-P; ingressos: reconeixement-liquidació-recaptació; crèdit previ + fiscalització. Liquidació: l'aprova el president (compte al Ple, abans de l'1 de març) → resultat pressupostari, romanents i romanent de tresoreria.",
@@ -2294,7 +2527,14 @@
       "sections": [
         {
           "h": "Fases del pressupost de despeses",
-          "p": "L'execució de la despesa passa per: l'autorització (A), acte pel qual s'aprova la realització d'una despesa per una quantia certa o aproximada, reservant el crèdit; la disposició o compromís (D), acte pel qual s'acorda la realització de la despesa amb un tercer determinat i per un import exactament determinat; el reconeixement de l'obligació (O), acte que declara l'existència d'un crèdit exigible contra l'entitat, després de l'acreditació de la prestació; i l'ordenació del pagament (P). Diverses fases es poden acumular en un sol acte administratiu (ADO, ADOP)."
+          "p": "L'execució de la despesa passa per:",
+          "list": [
+            "L'autorització (A), acte pel qual s'aprova la realització d'una despesa per una quantia certa o aproximada, reservant el crèdit",
+            "La disposició o compromís (D), acte pel qual s'acorda la realització de la despesa amb un tercer determinat i per un import exactament determinat",
+            "El reconeixement de l'obligació (O), acte que declara l'existència d'un crèdit exigible contra l'entitat, després de l'acreditació de la prestació",
+            "L'ordenació del pagament (P)"
+          ],
+          "p2": "Diverses fases es poden acumular en un sol acte administratiu (ADO, ADOP)."
         },
         {
           "h": "Execució del pressupost d'ingressos",
@@ -2348,7 +2588,17 @@
       "sections": [
         {
           "h": "Recursos de les hisendes locals",
-          "p": "Segons l'art. 2 del TRLHL, els recursos són: els ingressos de dret privat; els tributs propis (taxes, contribucions especials i impostos) i els recàrrecs sobre tributs d'altres administracions; les participacions en els tributs de l'Estat i de les comunitats autònomes; les subvencions; els preus públics; el producte de les operacions de crèdit; el producte de les multes i sancions; i la resta de prestacions de dret públic."
+          "p": "Segons l'art. 2 del TRLHL, els recursos són:",
+          "list": [
+            "Els ingressos de dret privat",
+            "Els tributs propis (taxes, contribucions especials i impostos) i els recàrrecs sobre tributs d'altres administracions",
+            "Les participacions en els tributs de l'Estat i de les comunitats autònomes",
+            "Les subvencions",
+            "Els preus públics",
+            "El producte de les operacions de crèdit",
+            "El producte de les multes i sancions",
+            "La resta de prestacions de dret públic"
+          ]
         },
         {
           "h": "Els impostos locals",
@@ -2523,7 +2773,14 @@
         },
         {
           "h": "Deures",
-          "p": "En el sòl objecte de transformació, els deures inclouen: la cessió obligatòria i gratuïta a l'Administració del sòl per a sistemes i del sòl amb l'aprofitament que li correspon; costejar i, si escau, executar les obres d'urbanització; conservar les construccions en condicions de seguretat, salubritat i ornament públic; i edificar els solars dins els terminis fixats pel planejament. En el sòl ja consolidat, els deures són els de completar la urbanització i edificar."
+          "p": "En el sòl objecte de transformació, els deures inclouen:",
+          "list": [
+            "La cessió obligatòria i gratuïta a l'Administració del sòl per a sistemes i del sòl amb l'aprofitament que li correspon",
+            "Costejar i, si escau, executar les obres d'urbanització",
+            "Conservar les construccions en condicions de seguretat, salubritat i ornament públic",
+            "Edificar els solars dins els terminis fixats pel planejament"
+          ],
+          "p2": "En el sòl ja consolidat, els deures són els de completar la urbanització i edificar."
         },
         {
           "h": "Règim urbanístic del subsol",
@@ -2571,7 +2828,13 @@
         },
         {
           "h": "Garanties i procediment",
-          "p": "L'autorització d'usos i obres provisionals exigeix: la llicència corresponent; l'acceptació expressa, per part del titular, del caràcter precari i del compromís de cessar en l'ús i de retirar o enderrocar les obres quan l'Administració ho requereixi, sense dret a indemnització; i la inscripció d'aquestes condicions al Registre de la Propietat. Es poden exigir garanties econòmiques per assegurar el compliment del compromís d'enderroc o restitució. El procediment es tramita amb informació pública."
+          "p": "L'autorització d'usos i obres provisionals exigeix:",
+          "list": [
+            "La llicència corresponent",
+            "L'acceptació expressa, per part del titular, del caràcter precari i del compromís de cessar en l'ús i de retirar o enderrocar les obres quan l'Administració ho requereixi, sense dret a indemnització",
+            "La inscripció d'aquestes condicions al Registre de la Propietat"
+          ],
+          "p2": "Es poden exigir garanties econòmiques per assegurar el compliment del compromís d'enderroc o restitució. El procediment es tramita amb informació pública."
         },
         {
           "h": "Límits materials",
@@ -2606,11 +2869,23 @@
       "sections": [
         {
           "h": "Jerarquia del planejament",
-          "p": "El sistema de planejament s'ordena de més a menys general: els plans territorials (ordenació del territori) i els plans directors urbanístics (abast supramunicipal); el planejament urbanístic general (el POUM i, en certs casos, les normes de planejament); i el planejament urbanístic derivat (plans parcials, plans especials i plans de millora urbana). Cada instrument s'ha d'ajustar als de rang superior."
+          "p": "El sistema de planejament s'ordena de més a menys general:",
+          "list": [
+            "Els plans territorials (ordenació del territori) i els plans directors urbanístics (abast supramunicipal)",
+            "El planejament urbanístic general (el POUM i, en certs casos, les normes de planejament)",
+            "El planejament urbanístic derivat (plans parcials, plans especials i plans de millora urbana)"
+          ],
+          "p2": "Cada instrument s'ha d'ajustar als de rang superior."
         },
         {
           "h": "Plans directors urbanístics",
-          "p": "Els PDU poden establir, en àmbits supramunicipals: directrius per coordinar l'ordenació urbanística d'un territori d'abast intermunicipal; determinacions sobre el desenvolupament urbanístic sostenible, la mobilitat i les infraestructures; mesures de protecció del sòl no urbanitzable i criteris per a l'estructuració orgànica d'aquest sòl; i la concreció i la localització de reserves de sòl per a infraestructures, equipaments o per a la implantació d'activitats econòmiques o d'habitatge."
+          "p": "Els PDU poden establir, en àmbits supramunicipals:",
+          "list": [
+            "Directrius per coordinar l'ordenació urbanística d'un territori d'abast intermunicipal",
+            "Determinacions sobre el desenvolupament urbanístic sostenible, la mobilitat i les infraestructures",
+            "Mesures de protecció del sòl no urbanitzable i criteris per a l'estructuració orgànica d'aquest sòl",
+            "La concreció i la localització de reserves de sòl per a infraestructures, equipaments o per a la implantació d'activitats econòmiques o d'habitatge"
+          ]
         },
         {
           "h": "Aprovació i efectes",
@@ -2644,7 +2919,15 @@
       "sections": [
         {
           "h": "Objecte i contingut documental",
-          "p": "El POUM classifica tot el sòl del municipi, en defineix el règim, estableix l'estructura general del territori (els sistemes generals) i les determinacions per al desenvolupament i la gestió. La seva documentació comprèn: la memòria (descriptiva i justificativa) i la memòria social (que justifica les necessitats i les previsions d'habitatge, especialment de protecció pública); les normes urbanístiques; els plànols d'informació i d'ordenació; el catàleg de béns a protegir; l'agenda i l'avaluació econòmica i financera de les actuacions; i la documentació ambiental (avaluació ambiental estratègica)."
+          "p": "El POUM classifica tot el sòl del municipi, en defineix el règim, estableix l'estructura general del territori (els sistemes generals) i les determinacions per al desenvolupament i la gestió. La seva documentació comprèn:",
+          "list": [
+            "La memòria (descriptiva i justificativa) i la memòria social (que justifica les necessitats i les previsions d'habitatge, especialment de protecció pública)",
+            "Les normes urbanístiques",
+            "Els plànols d'informació i d'ordenació",
+            "El catàleg de béns a protegir",
+            "L'agenda i l'avaluació econòmica i financera de les actuacions",
+            "La documentació ambiental (avaluació ambiental estratègica)"
+          ]
         },
         {
           "h": "Determinacions",
@@ -2652,7 +2935,14 @@
         },
         {
           "h": "Tramitació i aprovació",
-          "p": "La tramitació consta, en síntesi, de: un avanç de pla (recomanable) amb participació; l'aprovació inicial per l'Ajuntament, seguida d'informació pública (com a mínim un mes, sovint 45 dies) i de la sol·licitud d'informes als organismes afectats; l'aprovació provisional pel Ple municipal, un cop resoltes les al·legacions; i l'aprovació definitiva, que correspon a l'administració urbanística de la Generalitat (la Comissió Territorial d'Urbanisme o el conseller, segons la població del municipi). La publicació de l'acord i de les normes urbanístiques al diari oficial determina l'executivitat del pla."
+          "p": "La tramitació consta, en síntesi, de:",
+          "list": [
+            "Un avanç de pla (recomanable) amb participació",
+            "L'aprovació inicial per l'Ajuntament, seguida d'informació pública (com a mínim un mes, sovint 45 dies) i de la sol·licitud d'informes als organismes afectats",
+            "L'aprovació provisional pel Ple municipal, un cop resoltes les al·legacions",
+            "L'aprovació definitiva, que correspon a l'administració urbanística de la Generalitat (la Comissió Territorial d'Urbanisme o el conseller, segons la població del municipi)"
+          ],
+          "p2": "La publicació de l'acord i de les normes urbanístiques al diari oficial determina l'executivitat del pla."
         }
       ],
       "key": "POUM (planejament general): memòria i memòria social, normes, plànols, catàleg, avaluació econòmica i ambiental, programa d'actuació. Tramitació: aprovació inicial (Ajuntament) + informació pública → provisional (Ple) → definitiva (Generalitat: CTU o conseller). Publicació → executivitat.",
@@ -2810,7 +3100,14 @@
       "sections": [
         {
           "h": "Sistemes d'actuació",
-          "p": "L'execució del planejament en àmbits d'actuació (polígons o sectors) es fa pel sistema de reparcel·lació o pel sistema d'expropiació. El sistema de reparcel·lació té diverses modalitats: la compensació bàsica (els propietaris, agrupats en una junta, aporten el sòl, executen la urbanització i es distribueixen les finques resultants); la compensació per concertació; la cooperació (els propietaris aporten el sòl i l'Administració executa les obres a càrrec d'aquells); i d'altres. En el sistema d'expropiació, l'Administració (o el concessionari) adquireix la totalitat dels terrenys de l'àmbit per executar-hi l'actuació."
+          "p": "L'execució del planejament en àmbits d'actuació (polígons o sectors) es fa pel sistema de reparcel·lació o pel sistema d'expropiació. El sistema de reparcel·lació té diverses modalitats:",
+          "list": [
+            "La compensació bàsica (els propietaris, agrupats en una junta, aporten el sòl, executen la urbanització i es distribueixen les finques resultants)",
+            "La compensació per concertació",
+            "La cooperació (els propietaris aporten el sòl i l'Administració executa les obres a càrrec d'aquells)",
+            "D'altres"
+          ],
+          "p2": "En el sistema d'expropiació, l'Administració (o el concessionari) adquireix la totalitat dels terrenys de l'àmbit per executar-hi l'actuació."
         },
         {
           "h": "La reparcel·lació",
@@ -3021,7 +3318,14 @@
       "sections": [
         {
           "h": "Concepte i contingut",
-          "p": "El projecte d'obres és el document tècnic que defineix amb precisió l'obra, de manera que es pugui executar i valorar. Comprèn, com a mínim: la memòria (que descriu i justifica la solució adoptada); els plànols de conjunt i de detall; el plec de prescripcions tècniques particulars; el pressupost (amb els amidaments, els quadres de preus i el pressupost d'execució); i, segons el cas, l'estudi de seguretat i salut, el programa de treball i els estudis geotècnics i altres complementaris."
+          "p": "El projecte d'obres és el document tècnic que defineix amb precisió l'obra, de manera que es pugui executar i valorar. Comprèn, com a mínim:",
+          "list": [
+            "La memòria (que descriu i justifica la solució adoptada)",
+            "Els plànols de conjunt i de detall",
+            "El plec de prescripcions tècniques particulars",
+            "El pressupost (amb els amidaments, els quadres de preus i el pressupost d'execució)",
+            "Segons el cas, l'estudi de seguretat i salut, el programa de treball i els estudis geotècnics i altres complementaris"
+          ]
         },
         {
           "h": "Redacció i classes de projectes",
@@ -3266,7 +3570,14 @@
         },
         {
           "h": "Procediment general",
-          "p": "El procediment ordinari de la LEF comprèn: 1) la declaració d'utilitat pública o interès social; 2) la declaració de la necessitat d'ocupació dels béns concrets; 3) la determinació del just preu, mitjançant fulls d'apreuament de cada part i, si no hi ha acord, la fixació pel Jurat d'Expropiació en peça separada; i 4) el pagament i l'ocupació. En matèria urbanística, l'aprovació dels instruments de planejament que prevegin obres o actuacions comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns afectats."
+          "p": "El procediment ordinari de la LEF comprèn:",
+          "list": [
+            "La declaració d'utilitat pública o interès social",
+            "La declaració de la necessitat d'ocupació dels béns concrets",
+            "La determinació del just preu, mitjançant fulls d'apreuament de cada part i, si no hi ha acord, la fixació pel Jurat d'Expropiació en peça separada",
+            "El pagament i l'ocupació"
+          ],
+          "p2": "En matèria urbanística, l'aprovació dels instruments de planejament que prevegin obres o actuacions comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns afectats."
         },
         {
           "h": "Garanties: premi d'afecció i reversió",
@@ -3393,7 +3704,14 @@
         },
         {
           "h": "Actuacions que vulneren l'ordenament",
-          "p": "Constitueixen infracció, entre altres: l'execució d'obres o l'ús del sòl sense la llicència o el títol habilitant preceptiu, o contravenint-ne les condicions; les parcel·lacions il·legals; l'incompliment de les ordres de suspensió o de restauració; i les actuacions que impedeixen o dificulten les funcions d'inspecció. La conformitat o no de l'actuació amb el planejament (legalitzable o no) influeix en la qualificació."
+          "p": "Constitueixen infracció, entre altres:",
+          "list": [
+            "L'execució d'obres o l'ús del sòl sense la llicència o el títol habilitant preceptiu, o contravenint-ne les condicions",
+            "Les parcel·lacions il·legals",
+            "L'incompliment de les ordres de suspensió o de restauració",
+            "Les actuacions que impedeixen o dificulten les funcions d'inspecció"
+          ],
+          "p2": "La conformitat o no de l'actuació amb el planejament (legalitzable o no) influeix en la qualificació."
         },
         {
           "h": "Persones responsables",
@@ -3432,7 +3750,14 @@
         },
         {
           "h": "Graduació de les sancions",
-          "p": "La graduació atén el principi de proporcionalitat i pondera circumstàncies com: la gravetat del fet i la magnitud física del dany causat a l'ordenació o als béns protegits; el grau de culpabilitat; el benefici obtingut amb la infracció; la reincidència; i la conducta de l'infractor en relació amb la legalització o la restauració voluntàries (que poden actuar com a circumstàncies atenuants)."
+          "p": "La graduació atén el principi de proporcionalitat i pondera circumstàncies com:",
+          "list": [
+            "La gravetat del fet i la magnitud física del dany causat a l'ordenació o als béns protegits",
+            "El grau de culpabilitat",
+            "El benefici obtingut amb la infracció",
+            "La reincidència",
+            "La conducta de l'infractor en relació amb la legalització o la restauració voluntàries (que poden actuar com a circumstàncies atenuants)"
+          ]
         },
         {
           "h": "Compatibilitat amb la restauració",
@@ -3951,7 +4276,15 @@
       "sections": [
         {
           "h": "El procés de decisió",
-          "p": "Un procés estructurat de presa de decisions comprèn: definir i delimitar el problema (identificant-ne les causes arrel, no només els símptomes); recollir i analitzar la informació rellevant; generar diverses alternatives de solució; avaluar cada alternativa segons criteris (eficàcia, cost, impacte, riscos, legalitat); triar i implementar la decisió; i fer-ne el seguiment per comprovar-ne els resultats i corregir si cal."
+          "p": "Un procés estructurat de presa de decisions comprèn:",
+          "list": [
+            "Definir i delimitar el problema (identificant-ne les causes arrel, no només els símptomes)",
+            "Recollir i analitzar la informació rellevant",
+            "Generar diverses alternatives de solució",
+            "Avaluar cada alternativa segons criteris (eficàcia, cost, impacte, riscos, legalitat)",
+            "Triar i implementar la decisió",
+            "Fer-ne el seguiment per comprovar-ne els resultats i corregir si cal"
+          ]
         },
         {
           "h": "Eines d'anàlisi de problemes complexos",
@@ -4115,7 +4448,17 @@
         },
         {
           "h": "Sancions",
-          "p": "Les sancions (art. 96) poden ser: la separació del servei (només per a faltes molt greus); l'acomiadament disciplinari del personal laboral; la suspensió ferma de funcions o de feina i sou; el trasllat forçós; la demèrit (penalització en la carrera); l'advertiment o l'amonestació; i altres previstes per llei. S'apliquen amb proporcionalitat a la gravetat de la falta."
+          "p": "Les sancions (art. 96) poden ser:",
+          "list": [
+            "La separació del servei (només per a faltes molt greus)",
+            "L'acomiadament disciplinari del personal laboral",
+            "La suspensió ferma de funcions o de feina i sou",
+            "El trasllat forçós",
+            "La demèrit (penalització en la carrera)",
+            "L'advertiment o l'amonestació",
+            "Altres previstes per llei"
+          ],
+          "p2": "S'apliquen amb proporcionalitat a la gravetat de la falta."
         },
         {
           "h": "Procediment i prescripció",

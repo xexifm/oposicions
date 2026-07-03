@@ -449,6 +449,7 @@ function renderResum(r, tema){
     if (s.h) html += `<h3>${esc(s.h)}</h3>`;
     if (s.p) html += `<p>${linkifyLaw(esc(s.p), secLaw)}</p>`;
     if (s.list) html += `<ul>${s.list.map(li=>`<li>${linkifyLaw(esc(li), secLaw)}</li>`).join('')}</ul>`;
+    if (s.p2) html += `<p>${linkifyLaw(esc(s.p2), secLaw)}</p>`;
     if (s.key) html += `<div class="keyfact">💡 ${linkifyLaw(esc(s.key), secLaw)}</div>`;
     if (s.scheme) html += renderScheme(s.scheme);
   });
