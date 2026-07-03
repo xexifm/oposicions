@@ -277,6 +277,21 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
   border-radius:8px;padding:3px 8px;cursor:pointer;background:#fff}
 .thchip input{margin:0}
 
+/* barra de navegació entre temes (resums) */
+.temanav{position:sticky;top:56px;z-index:30;display:flex;gap:8px;align-items:center;
+  background:rgba(243,239,230,.97);backdrop-filter:blur(8px);padding:8px 0;margin:-4px 0 6px}
+.tnav-arrow{flex:0 0 auto;width:40px;height:40px;display:grid;place-items:center;text-decoration:none;
+  font-size:1.5rem;font-weight:700;color:var(--crimson);background:var(--card);border:1px solid var(--line);
+  border-radius:10px;box-shadow:var(--shadow-sm)}
+.tnav-arrow:hover{border-color:var(--crimson)}
+.tnav-arrow.disabled{color:var(--ink-faint);opacity:.4;pointer-events:none}
+.tnav-select{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:10px;
+  background:var(--card);color:var(--ink);font-size:.9rem;font-weight:600}
+@media(max-width:720px){.temanav{top:62px}}
+
+/* targeta d'examen en procés */
+.pendingcard{border-color:#e3d3a6;background:var(--amber-bg)}
+
 /* estat de la sincronització */
 .muted.ok{color:var(--green)}
 .muted.err{color:var(--red)}

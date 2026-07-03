@@ -31,6 +31,10 @@ export const store = {
     this.set('exams', this.exams().filter(e => e.id !== id));
   },
   clearExams(){ this.set('exams', []); },
+  // --- examen en procés (per poder reprendre'l) ---
+  pendingExam(){ return this.get('pendingExam', null); },
+  setPendingExam(state){ this.set('pendingExam', state); },
+  clearPendingExam(){ this.set('pendingExam', null); },
   // --- estadístiques per tema, DERIVADES dels exàmens desats ---
   // Cada exam desa el seu themePerf; així la fusió entre dispositius (unió
   // d'exàmens per id) no duplica els comptadors.
