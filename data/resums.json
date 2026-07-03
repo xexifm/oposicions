@@ -1215,104 +1215,111 @@
       "key": "Contractació menor (art. 118 LCSP): obres < 40.000 € i serveis/subministraments < 15.000 € (IVA exclòs); adjudicació directa. Durada ≤ 1 any, no prorrogable (art. 29.8). Expedient: aprovació de la despesa + factura (+ pressupost en obres) + informe de necessitat (excepte < 5.000 € per bestreta de caixa fixa). Prohibit fraccionar l'objecte per eludir els llindars. Publicitat trimestral agregada al perfil del contractant."
     },
     "36": {
-      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les administracions pels danys que pateixin com a conseqüència del funcionament dels serveis públics. És una responsabilitat objectiva i directa, regulada als arts. 32 a 37 de la Llei 40/2015 i en aspectes procedimentals a la Llei 39/2015.",
+      "intro": "La responsabilitat patrimonial és el dret dels particulars a ser indemnitzats per les lesions que pateixen en els seus béns i drets com a conseqüència del funcionament dels serveis públics. Es regeix pels arts. 32 a 37 de la Llei 40/2015 i pels tràmits de la Llei 39/2015.",
       "sections": [
         {
+          "h": "Concepte i característiques",
+          "p": "La responsabilitat patrimonial de l'administració és objectiva i directa: neix del funcionament normal o anormal dels serveis públics, amb independència de la culpa d'una autoritat o empleat concret, i respon l'administració directament davant el particular. No cal, doncs, provar la il·legalitat de l'actuació ni identificar el responsable individual."
+        },
+        {
           "h": "Requisits",
-          "p": "Perquè neixi la responsabilitat cal (art. 32):",
+          "p": "Perquè neixi la responsabilitat cal que concorrin (art. 32 de la Llei 40/2015):",
           "list": [
-            "Una lesió real, efectiva, avaluable econòmicament i individualitzada en relació amb una persona o grup",
-            "Que la lesió sigui antijurídica, és a dir, que el particular no tingui el deure jurídic de suportar el dany d'acord amb la llei",
-            "Que sigui imputable a l'Administració pel funcionament normal o anormal d'un servei públic",
-            "Un nexe causal entre l'actuació administrativa i el dany"
+            "Una lesió efectiva, avaluable econòmicament i individualitzada en una persona o grup.",
+            "Que el particular no tingui el deure jurídic de suportar el dany (antijuridicitat de la lesió).",
+            "Una relació de causalitat entre el funcionament del servei públic i el dany.",
+            "L'absència de força major (el cas fortuït, en canvi, no exonera)."
           ],
-          "p2": "Es tracta d'una responsabilitat objectiva (no exigeix culpa) i directa (respon l'Administració, no el funcionari)."
+          "p2": "No són indemnitzables els danys derivats de fets que el particular tenia el deure de suportar d'acord amb la llei, ni els danys imprevisibles o inevitables segons l'estat de la ciència (força major)."
         },
         {
           "h": "Danys indemnitzables i quantia",
-          "p": "El dany ha de ser efectiu, avaluable i individualitzat; no s'indemnitzen els danys que el particular tingui el deure jurídic de suportar (per exemple, les càrregues generals). La indemnització (art. 34) es calcula amb referència al dia en què la lesió es va produir efectivament, d'acord amb els criteris de valoració del dret aplicable, i s'actualitza a la data en què es posa fi al procediment de responsabilitat; es pot satisfer en metàl·lic o en espècie."
-        },
-        {
-          "h": "Força major, nexe causal i exoneració",
-          "p": "L'Administració queda exonerada en els casos de força major (esdeveniment imprevisible o, si és previsible, inevitable, i aliè al servei); en canvi, el cas fortuït no exonera. La culpa exclusiva de la víctima o la intervenció determinant d'un tercer poden trencar el nexe causal; la concurrència de diverses causes modula (redueix) la indemnització."
+          "p": "La indemnització cobreix tots els danys al·legats i provats (danys materials, personals i, si escau, morals). Es calcula amb referència al dia en què la lesió es va produir efectivament, i s'actualitza fins a la resolució. En els danys personals, es poden emprar barems de referència."
         },
         {
           "h": "Procediment i prescripció",
-          "p": "El procediment es pot iniciar d'ofici o a sol·licitud de l'interessat; en la instrucció es practiquen al·legacions, proves i informes, i és preceptiu el dictamen del Consell consultiu (a Catalunya, la Comissió Jurídica Assessora) quan la quantia reclamada ho exigeixi. El termini per resoldre és de sis mesos, transcorregut el qual el silenci és desestimatori. El dret a reclamar prescriu a l'any de produït el fet o l'acte que motivi la indemnització o de manifestar-se'n l'efecte lesiu; en cas de danys físics o psíquics, el termini comença des de la curació o la determinació de l'abast de les seqüeles."
+          "p": "El procediment (Llei 39/2015) es pot iniciar d'ofici o a instància de l'interessat; requereix, en determinats casos, dictamen del Consell consultiu, i s'ha de resoldre en el termini de sis mesos (el silenci és desestimatori). El dret a reclamar prescriu al cap d'un any des del fet o des de la manifestació del seu efecte lesiu; en danys físics o psíquics, des de la curació o la determinació de l'abast de les seqüeles."
         }
       ],
-      "key": "Responsabilitat patrimonial (32-37 Llei 40/2015): objectiva i directa. Requisits: lesió antijurídica + imputació (funcionament normal o anormal) + nexe causal − força major (el cas fortuït no exonera). Resolució en 6 mesos (silenci negatiu). Prescripció: 1 any (en danys físics, des de l'estabilització de les seqüeles).",
       "keypoints": [
         {
           "h": "Naturalesa",
           "p": [
-            "Responsabilitat patrimonial (arts. 32-37 de la Llei 40/2015): objectiva i directa"
+            "Objectiva i directa",
+            "Funcionament normal o anormal dels serveis públics"
           ]
         },
         {
-          "h": "Requisits",
+          "h": "Requisits (art. 32)",
           "p": [
-            "Lesió antijurídica + imputació (funcionament normal o anormal) + nexe causal"
+            "Lesió efectiva, avaluable i individualitzada",
+            "Antijuridicitat (no deure de suportar-la)",
+            "Nexe causal; absència de força major"
           ]
         },
         {
-          "h": "Exoneració",
+          "h": "Danys",
           "p": [
-            "Força major (el cas fortuït NO exonera)"
+            "Materials, personals i morals provats",
+            "Actualització; barems si escau"
           ]
         },
         {
           "h": "Procediment",
           "p": [
-            "Resolució en 6 mesos (silenci negatiu); prescripció: 1 any"
+            "Resolució en 6 mesos (silenci negatiu)",
+            "Prescripció: 1 any (seqüeles: des de l'estabilització)"
           ]
         }
-      ]
+      ],
+      "key": "Responsabilitat patrimonial (arts. 32-37 de la Llei 40/2015): objectiva i directa, pel funcionament normal o anormal dels serveis públics. Requisits (art. 32): lesió efectiva, avaluable i individualitzada; antijuridicitat (no deure de suportar-la); nexe causal; absència de força major (el cas fortuït no exonera). Danys indemnitzables: materials, personals i morals provats, actualitzats. Procediment (Llei 39/2015): resolució en 6 mesos, silenci negatiu; prescripció d'1 any des del fet o de l'efecte lesiu (en danys físics, des de l'estabilització de les seqüeles)."
     },
     "44": {
-      "intro": "El règim urbanístic del sòl determina els drets i deures segons la classificació. A Catalunya el regula el text refós de la Llei d'urbanisme (DL 1/2010, TRLUC) i el seu reglament (D 305/2006), amb la legislació estatal de sòl (RDL 7/2015, TRLS) com a marc bàsic. IMPORTANT: el TRLUC ha estat modificat per la Llei 11/2025 i el Decret llei 2/2025, vigents des del 31 de desembre de 2025; cal contrastar sempre amb el text consolidat.",
+      "intro": "El règim urbanístic del sòl determina els drets i deures de les persones propietàries segons la classe de sòl. A Catalunya el regula el text refós de la Llei d'urbanisme (TRLUC, DL 1/2010) i el seu reglament, amb la legislació estatal de sòl (TRLSRU) com a marc bàsic. Cal tenir present que el TRLUC ha estat modificat per la Llei 11/2025 (vigent des del 31-12-2025); s'ha de contrastar amb el text consolidat.",
       "sections": [
         {
           "h": "Classificació del sòl",
-          "p": "El TRLUC classifica tot el sòl del municipi en tres classes. El sòl urbà és el que disposa dels serveis urbanístics bàsics o està comprès en àrees consolidades per l'edificació integrades a la trama urbana; es divideix en consolidat i no consolidat. El sòl urbanitzable és el que el planejament destina a ser transformat mitjançant la urbanització, a través del planejament derivat (pot ser delimitat o no delimitat). El sòl no urbanitzable és el que el planejament preserva del procés de transformació urbanística (sòl rústic, agrícola, forestal, d'especial protecció per valors o per riscos)."
-        },
-        {
-          "h": "Serveis urbanístics bàsics i concepte de solar",
-          "p": "Es consideren serveis urbanístics bàsics:",
+          "p": "El planejament classifica tot el sòl del municipi en tres classes:",
           "list": [
-            "La xarxa viària amb un nivell de consolidació suficient per permetre la connectivitat",
-            "Les xarxes d'abastament d'aigua i de sanejament",
-            "El subministrament d'energia elèctrica. Té la condició de solar el sòl urbà que és apte per a l'edificació perquè disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida. El nucli de població és l'agrupació d'edificacions que pot generar necessitats de serveis",
-            "En sòl no urbanitzable, se n'evita la formació no planificada"
+            "Sòl urbà: el que disposa dels serveis urbanístics bàsics o està consolidat per l'edificació i integrat a la trama urbana; es divideix en consolidat i no consolidat.",
+            "Sòl urbanitzable: el que el planejament destina a ser transformat mitjançant la urbanització, a través del planejament derivat (pot ser delimitat o no delimitat).",
+            "Sòl no urbanitzable: el que el planejament preserva del procés de transformació urbanística (per valors agrícoles, forestals, paisatgístics o per riscos)."
           ]
         },
         {
+          "h": "Serveis urbanístics bàsics i concepte de solar",
+          "p": "Es consideren serveis urbanístics bàsics: la xarxa viària amb un grau de consolidació suficient per permetre la connectivitat, les xarxes d'abastament d'aigua i de sanejament, i el subministrament d'energia elèctrica. Té la condició de solar el sòl urbà apte per a l'edificació que disposa dels serveis bàsics, té assenyalades les alineacions i rasants i compta amb la urbanització bàsica executada o garantida."
+        },
+        {
+          "h": "Nucli de població",
+          "p": "El nucli de població és l'agrupació d'edificacions que pot generar necessitats de serveis i equipaments comuns. En sòl no urbanitzable, la normativa evita la formació de nuclis de població no planificats, per la qual cosa controla especialment les parcel·lacions i les edificacions."
+        },
+        {
           "h": "Sòl urbà consolidat i no consolidat",
-          "p": "El sòl urbà consolidat ja té la condició de solar o només requereix, per assolir-la, completar o acabar la urbanització; els seus propietaris tenen deures mínims. El sòl urbà no consolidat és el que requereix actuacions de transformació o de reforma interior i, per tant, comporta deures de cessió (de sòl per a sistemes i de l'aprofitament que correspon a l'Administració) i d'urbanització, que s'articulen mitjançant la gestió urbanística."
+          "p": "El sòl urbà consolidat ja té la condició de solar o només requereix, per assolir-la, completar o acabar la urbanització; els seus propietaris tenen deures mínims. El sòl urbà no consolidat és el que requereix actuacions de transformació urbanística o de reforma interior i, per tant, comporta deures de cessió (de sòl per a sistemes i de l'aprofitament que correspon a l'administració) i d'urbanització, que s'articulen mitjançant la gestió urbanística."
         },
         {
           "h": "Situacions bàsiques del sòl (legislació estatal)",
-          "p": "A efectes de valoració i de drets bàsics, el TRLS estatal distingeix dues situacions: el sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i el sòl urbanitzat (l'integrat de forma legal i efectiva a la malla urbana). Aquesta classificació estatal no coincideix necessàriament amb la classe de sòl autonòmica: un sòl classificat com a urbanitzable però no urbanitzat es valora com a rural."
+          "p": "A l'efecte de la valoració i dels drets bàsics, el TRLSRU estatal distingeix, amb independència de la classe autonòmica, dues situacions: el sòl rural (el preservat de la transformació i el que encara no s'ha urbanitzat) i el sòl urbanitzat (l'integrat de manera legal i efectiva a la xarxa de dotacions i serveis dels nuclis)."
         }
       ],
-      "key": "Classificació (TRLUC): sòl urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis bàsics: vialitat, aigua, sanejament i electricitat. Solar = sòl urbà apte per edificar. Estatal: rural/urbanitzat. ⚠️ Reforma 2025 (Llei 11/2025 i DL 2/2025).",
       "keypoints": [
         {
-          "h": "Classificació del sòl (TRLUC)",
+          "h": "Classificació (TRLUC)",
           "p": [
             {
-              "t": "Urbà",
+              "t": "Sòl urbà",
               "sub": [
                 "Consolidat / no consolidat"
               ]
             },
             {
-              "t": "Urbanitzable",
+              "t": "Sòl urbanitzable",
               "sub": [
                 "Delimitat / no delimitat"
               ]
             },
-            "No urbanitzable (preservat de la transformació)"
+            "Sòl no urbanitzable (preservat)"
           ]
         },
         {
@@ -1322,9 +1329,17 @@
           ]
         },
         {
-          "h": "Solar",
+          "h": "Solar i nucli de població",
           "p": [
-            "Sòl urbà apte per edificar"
+            "Solar: sòl urbà apte per edificar (serveis + alineacions + urbanització)",
+            "Nucli de població: control en sòl no urbanitzable"
+          ]
+        },
+        {
+          "h": "Consolidat vs no consolidat",
+          "p": [
+            "Consolidat: deures mínims (ja solar o gairebé)",
+            "No consolidat: deures de cessió i urbanització"
           ]
         },
         {
@@ -1333,7 +1348,8 @@
             "Rural / urbanitzat (per a la valoració)"
           ]
         }
-      ]
+      ],
+      "key": "Classificació del sòl (TRLUC): urbà (consolidat/no consolidat), urbanitzable (delimitat/no delimitat) i no urbanitzable. Serveis urbanístics bàsics: vialitat, aigua, sanejament i electricitat. Solar: sòl urbà apte per edificar (serveis + alineacions i rasants + urbanització bàsica). Nucli de població: se'n controla la formació en sòl no urbanitzable. Sòl urbà consolidat (deures mínims) vs no consolidat (deures de cessió i urbanització). Situacions bàsiques estatals (TRLSRU): rural i urbanitzat, rellevants per a la valoració. Atenció a la reforma de la Llei 11/2025."
     },
     "56": {
       "intro": "La intervenció administrativa en l'edificació i l'ús del sòl es canalitza, principalment, a través de la llicència urbanística, acte de control previ de la conformitat de l'actuació amb la legalitat urbanística (TRLUC, arts. 187 i següents).",
@@ -2499,422 +2515,478 @@
       "key": "Consorcis (arts. 118-127 de la Llei 40/2015): entitats de dret públic associatives, amb personalitat pròpia, creades per diverses administracions (o amb entitats privades sense ànim de lucre) per a finalitats d'interès comú. Creació: conveni + estatuts (que fixen adscripció, òrgans, règim i aportacions). Adscripció a una administració segons criteris de control i finançament (art. 120), que determina el règim pressupostari, comptable, de control i de personal. Funcionament pels estatuts i la Llei 40/2015; separació, dissolució i liquidació regulades (arts. 125-127)."
     },
     "35": {
-      "intro": "Les subvencions són disposicions dineràries a favor de persones o entitats públiques o privades per a una finalitat pública o d'interès social, sense contraprestació directa. La Llei 38/2003, general de subvencions (LGS), i el seu reglament n'estableixen el règim, completat per les ordenances locals.",
+      "intro": "Les subvencions són disposicions dineràries a favor de persones públiques o privades per fomentar una activitat d'utilitat pública o interès social, sense contraprestació directa. Es regeixen per la Llei 38/2003, general de subvencions (LGS), i el seu reglament. Aquest tema en tracta el pla estratègic, els procediments de concessió i gestió, el reintegrament, les subvencions nominatives i els convenis.",
       "sections": [
         {
           "h": "Concepte i principis",
-          "p": "Es considera subvenció tota disposició dinerària feta a favor de persones públiques o privades que compleixi tres requisits:",
-          "list": [
-            "Que el lliurament es faci sense contraprestació directa dels beneficiaris",
-            "Que estigui subjecte al compliment d'un objectiu, l'execució d'un projecte o l'adopció d'un comportament",
-            "Que el projecte o l'activitat tingui per objecte el foment d'una activitat d'utilitat pública o interès social"
-          ],
-          "p2": "La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat i no-discriminació, eficàcia i eficiència."
+          "p": "És subvenció tota disposició dinerària que compleix tres notes: que es fa sense contraprestació directa del beneficiari, que està subjecta al compliment d'una finalitat o l'execució d'un projecte, i que té per objecte el foment d'una activitat d'utilitat pública o interès social. La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat, no-discriminació, eficàcia i eficiència."
         },
         {
-          "h": "Pla estratègic i procediment de concessió",
-          "p": "Amb caràcter previ a l'atorgament, cal aprovar un pla estratègic de subvencions (art. 8), que concreta els objectius i els efectes que es pretenen, així com les bases reguladores i la convocatòria. El procediment ordinari de concessió és la concurrència competitiva: es comparen les sol·licituds presentades per establir-ne una prelació d'acord amb els criteris de valoració fixats, i s'adjudiquen amb el límit del crèdit disponible. La concessió directa (art. 22.2) només és admissible en supòsits taxats: subvencions previstes nominativament als pressupostos, les imposades per una norma de rang legal i, excepcionalment, aquelles en què s'acreditin raons d'interès públic, social, econòmic o humanitari que dificultin la convocatòria pública."
+          "h": "El pla estratègic de subvencions",
+          "p": "Amb caràcter previ a l'establiment de subvencions, l'òrgan competent ha d'aprovar un pla estratègic de subvencions (art. 8 LGS), que concreta els objectius i els efectes que es pretenen, el termini, els costos previsibles i les fonts de finançament. És un instrument de planificació i de control de l'eficàcia."
         },
         {
-          "h": "Obligacions del beneficiari i justificació",
-          "p": "El beneficiari ha de complir l'objectiu i destinar la subvenció a la finalitat concreta per a la qual es va concedir; justificar davant l'òrgan concedent el compliment dels requisits i la realització de l'activitat i de la despesa; sotmetre's a les actuacions de comprovació i control; comunicar l'obtenció d'altres subvencions; i acreditar, si escau, que està al corrent de les obligacions tributàries i amb la Seguretat Social."
+          "h": "Procediments de concessió",
+          "p": "El procediment ordinari de concessió és el de concurrència competitiva: es comparen les sol·licituds presentades segons els criteris de valoració fixats a les bases i s'estableix una prelació. Excepcionalment, la concessió pot ser directa (art. 22.2 LGS) en els casos de subvencions previstes nominativament als pressupostos, les imposades per una norma amb rang de llei, o quan concorren raons d'interès públic, social, econòmic o humanitari degudament justificades."
         },
         {
-          "h": "Reintegrament i règim sancionador",
-          "p": "Procedeix el reintegrament de les quantitats percebudes i l'exigència de l'interès de demora des del moment del pagament (art. 37) en casos com l'incompliment total o parcial de l'objectiu o de la finalitat, la falta de justificació o la justificació insuficient, l'obtenció de la subvenció sense reunir les condicions, o la resistència a les actuacions de control. El reintegrament pot ser parcial, atenent el principi de proporcionalitat segons el grau d'incompliment. Tot això és independent del règim sancionador en matèria de subvencions, que es tramita per separat."
+          "h": "Gestió, justificació i reintegrament",
+          "p": "El beneficiari ha de complir l'objectiu, justificar-ne la realització i el cost, sotmetre's a les actuacions de comprovació i comunicar l'obtenció d'altres subvencions. Procedeix el reintegrament (art. 37 LGS) de les quantitats percebudes, amb l'interès de demora, quan s'obté la subvenció sense reunir els requisits, s'incompleix la finalitat o l'obligació de justificar, o es resisteix a les actuacions de control; el reintegrament s'aplica amb criteris de proporcionalitat."
+        },
+        {
+          "h": "Subvencions nominatives i convenis",
+          "p": "Les subvencions nominatives són les previstes expressament als pressupostos amb indicació del beneficiari; s'articulen sovint mitjançant un conveni que en fixa l'objecte, les obligacions i la justificació. Aquest conveni no és un contracte: instrumenta una subvenció i se subjecta a la LGS."
         }
       ],
-      "key": "Subvencions (LGS 38/2003): fons sense contraprestació per a un fi d'utilitat pública. Principis: publicitat, concurrència, objectivitat. Pla estratègic (8) + bases + convocatòria; concurrència competitiva (regla), concessió directa (taxada, 22.2). Reintegrament (37) per incompliment o falta de justificació, amb interès de demora i proporcionalitat.",
       "keypoints": [
         {
           "h": "Concepte",
           "p": [
-            "Subvencions (Llei 38/2003): fons sense contraprestació per a un fi públic"
+            "Disposició dinerària sense contraprestació",
+            "Per a una finalitat d'utilitat pública o interès social"
           ]
         },
         {
           "h": "Principis",
           "p": [
-            "Publicitat, concurrència, objectivitat"
+            "Publicitat, transparència, concurrència",
+            "Objectivitat, igualtat, eficàcia i eficiència"
           ]
         },
         {
-          "h": "Procediment",
+          "h": "Planificació i procediment",
           "p": [
-            "Pla estratègic (art. 8) + bases + convocatòria",
-            "Concurrència competitiva (regla); concessió directa taxada (art. 22.2)"
+            "Pla estratègic de subvencions (art. 8)",
+            "Concurrència competitiva (regla)",
+            "Concessió directa taxada (art. 22.2): nominatives, per llei, interès públic"
           ]
         },
         {
           "h": "Reintegrament (art. 37)",
           "p": [
-            "Per incompliment o falta de justificació, amb interès de demora"
+            "Per incompliment o falta de justificació",
+            "Amb interès de demora i proporcionalitat"
+          ]
+        },
+        {
+          "h": "Nominatives i convenis",
+          "p": [
+            "Previstes als pressupostos amb beneficiari",
+            "Convenis que instrumenten subvencions (LGS, no contracte)"
           ]
         }
-      ]
+      ],
+      "key": "Subvencions (Llei 38/2003, LGS): disposició dinerària sense contraprestació per a una finalitat d'utilitat pública o interès social. Principis: publicitat, transparència, concurrència, objectivitat. Planificació: pla estratègic de subvencions (art. 8). Procediment ordinari: concurrència competitiva; concessió directa taxada (art. 22.2): nominatives, imposades per llei o per raons d'interès públic. Reintegrament (art. 37) amb interès de demora i proporcionalitat per incompliment o falta de justificació. Subvencions nominatives previstes als pressupostos, sovint via conveni (que instrumenta la subvenció, no és un contracte)."
     },
     "37": {
-      "intro": "La responsabilitat de les autoritats i del personal al servei de les administracions completa el règim de la responsabilitat patrimonial: regula com l'Administració exigeix responsabilitats al seu personal i la responsabilitat en supòsits especials (art. 36 de la Llei 40/2015).",
+      "intro": "Aquest tema tracta com es depura la responsabilitat de les autoritats i del personal al servei de les administracions pels danys causats a tercers i a la mateixa administració, regulada bàsicament a l'art. 36 de la Llei 40/2015.",
       "sections": [
         {
           "h": "Responsabilitat davant els particulars",
-          "p": "Els particulars exigeixen la responsabilitat directament a l'Administració corresponent; no poden demandar directament l'autoritat o el personal causant del dany. L'Administració, doncs, respon davant el tercer perjudicat de manera directa i, un cop l'ha indemnitzat, pot exercir l'acció de regrés contra el seu personal."
+          "p": "Quan un dany indemnitzable ha estat causat per una autoritat o pel personal al servei de l'administració, el particular perjudicat ha de reclamar directament a l'administració, i no al funcionari (art. 36.1 de la Llei 40/2015). Aquest sistema garanteix la solvència de la indemnització i evita que el ciutadà hagi d'identificar l'agent concret."
         },
         {
-          "h": "Acció de regrés",
-          "p": "L'exigència de responsabilitat al personal és d'ofici i obligatòria: l'Administració, després d'haver indemnitzat, ha d'exigir d'ofici al personal al seu servei la responsabilitat en què hagi incorregut per dol, o culpa o negligència greus (art. 36.2). Per ponderar-la es tenen en compte el resultat danyós produït, el grau de culpabilitat, la responsabilitat professional del personal i la seva relació amb la producció del resultat. El procediment es tramita amb audiència de l'interessat."
+          "h": "L'acció de regrés",
+          "p": "Un cop indemnitzat el lesionat, l'administració ha d'exigir d'ofici al seu personal la responsabilitat en què hagi incorregut, però només quan hi hagi hagut dol, culpa o negligència greus (art. 36.2). Per graduar l'exigència es ponderen el resultat danós, l'existència o no d'intencionalitat, la responsabilitat professional del personal i la seva relació amb la producció del dany. El procediment de regrés es tramita amb audiència de l'interessat."
         },
         {
           "h": "Responsabilitat penal i altres supòsits",
-          "p": "Si el dany deriva d'un delicte, la responsabilitat civil es pot exigir en el procés penal, amb l'Administració com a responsable civil subsidiari. La responsabilitat disciplinària del personal és independent de la patrimonial. La Llei 40/2015 regula també la responsabilitat de l'Estat legislador (pels danys derivats de l'aplicació de normes amb rang de llei declarades inconstitucionals o contràries al dret de la UE, amb els requisits dels arts. 32.3 a 32.6) i la responsabilitat de l'Administració de justícia per error judicial o funcionament anormal."
+          "p": "Si els fets són constitutius de delicte, es depura la responsabilitat penal de l'autoritat o el personal davant la jurisdicció penal; en aquest àmbit, l'administració respon civilment de manera subsidiària dels danys. A més, el personal pot incórrer en responsabilitat disciplinària i, davant la hisenda pública, en responsabilitat comptable exigible per la Sindicatura o el Tribunal de Comptes."
         }
       ],
-      "key": "Responsabilitat del personal (art. 36): el ciutadà reclama a l'Administració; aquesta exigeix d'ofici el regrés al personal només per dol o culpa/negligència greus. En via penal, l'AP és responsable civil subsidiari. Responsabilitat de l'Estat legislador (32.3-6) i per error judicial.",
       "keypoints": [
         {
           "h": "Davant els particulars",
           "p": [
-            "El ciutadà reclama a l'Administració (art. 36 de la Llei 40/2015)"
+            "El ciutadà reclama a l'administració (art. 36.1)",
+            "No directament al funcionari"
           ]
         },
         {
-          "h": "Acció de regrés",
+          "h": "Acció de regrés (art. 36.2)",
           "p": [
-            "L'AP l'exigeix al personal només per dol o culpa/negligència greus"
+            "L'AP l'exigeix al personal només per dol o culpa/negligència greus",
+            "D'ofici, amb audiència; ponderació de circumstàncies"
           ]
         },
         {
-          "h": "Altres supòsits",
+          "h": "Altres",
           "p": [
-            "En via penal, l'AP és responsable civil subsidiari",
-            "Estat legislador (art. 32.3-6) i error judicial"
+            "Responsabilitat penal (AP responsable civil subsidiària)",
+            "Responsabilitat disciplinària i comptable"
           ]
         }
-      ]
+      ],
+      "key": "Responsabilitat del personal (art. 36 de la Llei 40/2015). El particular reclama a l'administració, no al funcionari (art. 36.1). Acció de regrés (art. 36.2): l'administració exigeix d'ofici la responsabilitat al seu personal només quan hi hagi hagut dol, culpa o negligència greus, amb audiència i ponderació de circumstàncies. En via penal, l'administració és responsable civil subsidiària. El personal també pot incórrer en responsabilitat disciplinària i comptable."
     },
     "38": {
-      "intro": "Els béns de les entitats locals es classifiquen segons la seva destinació i tenen un règim jurídic propi. El marc és la Llei 33/2003, del patrimoni de les administracions públiques (en allò bàsic), i, a Catalunya, el Decret 336/1988, que aprova el Reglament del patrimoni dels ens locals.",
+      "intro": "Els béns de les entitats locals són el conjunt de béns i drets que els pertanyen. Es regeixen per la legislació bàsica de patrimoni de les administracions públiques (Llei 33/2003), la legislació de règim local i, a Catalunya, el Reglament de patrimoni dels ens locals (Decret 336/1988). Aquest tema en tracta el concepte, la naturalesa i els elements, l'alteració de la qualificació, el tràfic jurídic i la utilització.",
       "sections": [
         {
-          "h": "Classificació dels béns",
-          "p": "Els béns de les entitats locals es classifiquen en béns de domini públic (demanials) i béns patrimonials (de propis). Els demanials són els destinats a un ús públic (carrers, places, parcs, camins, fonts) o a un servei públic (edificis i instal·lacions afectes a serveis: escoles, mercats, cementiris); estan subjectes als principis d'inalienabilitat, imprescriptibilitat i inembargabilitat (art. 132 CE). Els patrimonials són els que no estan destinats a ús ni a servei públic; es regeixen pel dret privat i poden produir rendes. Els béns comunals són una categoria especial de béns de domini públic l'aprofitament dels quals correspon al comú dels veïns."
+          "h": "Concepte i classificació",
+          "p": "Els béns de les entitats locals es classifiquen, segons la seva naturalesa jurídica, en:",
+          "list": [
+            "Béns de domini públic (demanials): destinats a l'ús públic o a un servei públic, o declarats així per una llei.",
+            "Béns patrimonials o de propis: els que no tenen la condició de demanials i produeixen rendes o aprofitaments.",
+            "Béns comunals: els de domini públic l'aprofitament dels quals correspon al comú del veïnat."
+          ]
+        },
+        {
+          "h": "Naturalesa dels béns demanials",
+          "p": "Els béns de domini públic i els comunals gaudeixen d'un règim especial de protecció: són inalienables (no es poden vendre), imprescriptibles (no s'adquireixen per usucapió) i inembargables. Els béns patrimonials, en canvi, es regeixen pel dret privat, amb les especialitats administratives, i sí que són alienables i embargables."
         },
         {
           "h": "Alteració de la qualificació jurídica",
-          "p": "L'afectació vincula un bé a un ús o servei públic; la desafectació el converteix en patrimonial; la mutació demanial canvia la destinació dins el domini públic. L'alteració de la qualificació jurídica dels béns requereix, amb caràcter general, un expedient que n'acrediti l'oportunitat i la legalitat, amb informació pública. Hi ha supòsits d'alteració automàtica (per exemple, l'aprovació definitiva de plans urbanístics o de projectes d'obres que prevegin l'ús o servei públic)."
+          "p": "El pas d'un bé de demanial a patrimonial (desafectació) o a la inversa (afectació), i la mutació demanial (canvi de destinació entre finalitats públiques), requereixen un expedient que acrediti l'oportunitat i la legalitat del canvi, amb informació pública. En alguns casos (per exemple, per aprovació d'un instrument de planejament), l'alteració es produeix de manera automàtica."
         },
         {
-          "h": "Utilització dels béns de domini públic",
+          "h": "Utilització i aprofitament dels béns",
+          "p": "L'ús dels béns de domini públic pot ser:",
           "list": [
-            "Ús comú general: el que correspon per igual a tots els ciutadans, de manera que l'ús d'uns no impedeix el dels altres (passejar, circular). És lliure.",
-            "Ús comú especial: quan concorren circumstàncies d'intensitat d'ús, perillositat o altres similars (terrasses, parades). Se sotmet a autorització.",
-            "Ús privatiu: el que limita o exclou la utilització per part d'altres (ocupació amb instal·lacions fixes). Requereix concessió administrativa."
-          ]
-        },
-        {
-          "h": "Tràfic jurídic dels béns patrimonials",
-          "p": "Els béns patrimonials es regeixen pel dret privat, però la seva adquisició, gravamen i alienació segueixen les especialitats de la legislació administrativa (procediment, valoració prèvia, formes d'adjudicació com la subhasta, el concurs o, excepcionalment, l'adjudicació directa). Els ingressos derivats del patrimoni tenen la consideració d'ingressos de dret privat."
+            "Ús comú general: el que correspon a tothom per igual, lliurement (per exemple, passejar per un carrer).",
+            "Ús comú especial: quan concorren circumstàncies singulars (intensitat, perillositat); se subjecta a autorització (per exemple, una terrassa).",
+            "Ús privatiu: el que ocupa una porció del domini públic i n'exclou l'ús pels altres; requereix una concessió administrativa."
+          ],
+          "p2": "Els béns patrimonials es poden explotar (arrendar) i el seu aprofitament genera rendes per a la hisenda local."
         }
       ],
-      "key": "Béns: demanials (ús o servei públic; inalienables, imprescriptibles, inembargables), patrimonials (dret privat) i comunals (aprofitament veïnal). Alteració de la qualificació amb expedient (o automàtica per planejament). Usos del demani: comú general (lliure), comú especial (autorització) i privatiu (concessió).",
       "keypoints": [
         {
           "h": "Classificació",
           "p": [
-            "Demanials (ús o servei públic), patrimonials (dret privat) i comunals"
-          ]
-        },
-        {
-          "h": "Demanials",
-          "p": [
-            "Inalienables, imprescriptibles i inembargables"
-          ]
-        },
-        {
-          "h": "Alteració de la qualificació",
-          "p": [
-            "Amb expedient (o automàtica per planejament)"
-          ]
-        },
-        {
-          "h": "Usos del demani",
-          "p": [
-            "Comú general (lliure), comú especial (autorització) i privatiu (concessió)"
-          ]
-        }
-      ]
-    },
-    "39": {
-      "intro": "Els béns de domini públic i els patrimonials disposen de prerrogatives i potestats per a la seva protecció i defensa, i les entitats locals han de formar i mantenir un inventari de tots els seus béns i drets (Llei 33/2003; D 336/1988).",
-      "sections": [
-        {
-          "h": "Prerrogatives i potestats",
-          "list": [
-            "Potestat d'investigació: per esbrinar la situació dels béns i drets que es presumeixin de la seva titularitat.",
-            "Potestat de llindament (deslinde): per delimitar els béns immobles respecte d'altres finques confrontants.",
-            "Recuperació d'ofici de la possessió: dels béns demanials en qualsevol moment; dels patrimonials, dins el termini d'un any des de la usurpació.",
-            "Desnonament administratiu: per recuperar la possessió de béns de domini públic ocupats sense títol.",
-            "Potestat sancionadora en defensa del patrimoni."
-          ]
-        },
-        {
-          "h": "Règim dels béns demanials i patrimonials",
-          "p": "Els béns de domini públic estan emparats per la inalienabilitat, la imprescriptibilitat i la inembargabilitat. Els béns patrimonials, tot i regir-se pel dret privat, gaudeixen també d'algunes garanties administratives (per exemple, la inembargabilitat dels béns i drets afectats a un servei públic o l'exigència de procediment per a la seva alienació). Els béns comunals tenen un règim especial d'aprofitament pels veïns, generalment regulat per ordenança."
-        },
-        {
-          "h": "Inventari, conservació i defensa",
-          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, sigui quina sigui la seva naturalesa o forma d'adquisició; l'aprova el Ple, es rectifica anualment i es comprova en renovar-se la corporació. L'inventari no és, per si sol, un títol de propietat, però facilita la gestió i la defensa. Existeix el deure de conservar, protegir i defensar els béns, i d'inscriure els immobles i drets reals al Registre de la Propietat."
-        }
-      ],
-      "key": "Potestats: investigació, llindament, recuperació d'ofici (demanials sense termini; patrimonials en 1 any) i desnonament administratiu. Demanials: inalienables, imprescriptibles, inembargables. Inventari de tots els béns, aprovat pel Ple, rectificació anual; inscripció al Registre de la Propietat.",
-      "keypoints": [
-        {
-          "h": "Potestats",
-          "p": [
-            "Investigació, llindament, recuperació d'ofici i desnonament administratiu",
-            "Recuperació: demanials sense termini; patrimonials en 1 any"
+            "Demanials (ús o servei públic)",
+            "Patrimonials o de propis (rendes)",
+            "Comunals (aprofitament veïnal)"
           ]
         },
         {
           "h": "Règim",
           "p": [
-            "Demanials: inalienables, imprescriptibles, inembargables"
+            "Demanials i comunals: inalienables, imprescriptibles, inembargables",
+            "Patrimonials: dret privat, alienables i embargables"
           ]
         },
         {
-          "h": "Inventari",
+          "h": "Alteració de la qualificació",
           "p": [
-            "De tots els béns, aprovat pel Ple, rectificació anual",
-            "Inscripció al Registre de la Propietat"
+            "Afectació/desafectació i mutació demanial",
+            "Expedient d'oportunitat i legalitat (o automàtica per planejament)"
           ]
-        }
-      ]
-    },
-    "40": {
-      "intro": "El pressupost general desplega la seva eficàcia mitjançant l'execució i finalitza amb la liquidació. El RD 500/1990 desenvolupa el TRLHL en aquesta matèria, completat per les bases d'execució que aprova cada entitat amb el pressupost.",
-      "sections": [
-        {
-          "h": "Les bases d'execució",
-          "p": "Contenen l'adaptació de les disposicions generals en matèria pressupostària a l'organització i circumstàncies de la pròpia entitat: els nivells de vinculació jurídica dels crèdits, el règim de les modificacions de crèdit i els òrgans competents per aprovar-les, els supòsits de pagaments a justificar i de bestretes de caixa fixa, les normes sobre tramitació de despeses i el reconeixement d'obligacions, etc. S'aproven juntament amb el pressupost i en tenen la mateixa vigència."
         },
         {
-          "h": "Execució del pressupost",
-          "p": "L'execució del pressupost de despeses recorre quatre fases: autorització (A), disposició o compromís (D), reconeixement de l'obligació (O) i ordenació del pagament (P). L'execució del pressupost d'ingressos comprèn el reconeixement i la liquidació dels drets i la seva recaptació en període voluntari i, si escau, executiu. Tota despesa requereix l'existència de crèdit adequat i suficient i la prèvia fiscalització per la Intervenció (control intern)."
-        },
-        {
-          "h": "La liquidació del pressupost",
-          "p": "La liquidació posa fi a l'execució de cada exercici. L'aprova el president de l'entitat, prèvia informe de la Intervenció, i en dona compte al Ple en la primera sessió que se celebri; s'ha d'aprovar abans del dia 1 de març de l'exercici següent. La liquidació posa de manifest, respecte del pressupost de despeses i per a cada partida, els crèdits inicials, les modificacions, els crèdits definitius i les despeses compromeses i reconegudes; i respecte dels ingressos, les previsions i els drets reconeguts i recaptats."
-        },
-        {
-          "h": "Magnituds de tancament",
-          "p": "De la liquidació es deriven magnituds clau:",
-          "list": [
-            "Els drets pendents de cobrament i les obligacions pendents de pagament",
-            "El resultat pressupostari (diferència entre drets reconeguts nets i obligacions reconegudes netes, amb ajustaments)",
-            "Els romanents de crèdit",
-            "El romanent de tresoreria, que mesura els recursos líquids disponibles (o el dèficit) al tancament i, en la seva part per a despeses generals, pot finançar modificacions de crèdit"
-          ],
-          "p2": "Un romanent de tresoreria negatiu obliga a adoptar mesures de sanejament."
+          "h": "Usos del demani",
+          "p": [
+            "Comú general (lliure)",
+            "Comú especial (autorització)",
+            "Privatiu (concessió)"
+          ]
         }
       ],
-      "key": "Bases d'execució: adapten les regles pressupostàries a l'entitat. Execució de despeses A-D-O-P; ingressos: reconeixement-liquidació-recaptació; crèdit previ + fiscalització. Liquidació: l'aprova el president (compte al Ple, abans de l'1 de març) → resultat pressupostari, romanents i romanent de tresoreria.",
+      "key": "Béns de les entitats locals (Llei 33/2003 i Decret 336/1988). Classificació: demanials (ús o servei públic), patrimonials o de propis (rendes) i comunals (aprofitament veïnal). Règim: els demanials i comunals són inalienables, imprescriptibles i inembargables; els patrimonials es regeixen pel dret privat. Alteració de la qualificació (afectació, desafectació, mutació demanial) amb expedient d'oportunitat i legalitat, o automàtica per planejament. Usos del domini públic: comú general (lliure), comú especial (autorització) i privatiu (concessió)."
+    },
+    "39": {
+      "intro": "Aquest tema aprofundeix en el règim dels béns de les entitats locals: els béns de domini públic i patrimonials, les prerrogatives i potestats per defensar-los, els béns comunals i l'inventari, la conservació i la defensa. Es regeix per la Llei 33/2003 i el Decret 336/1988.",
+      "sections": [
+        {
+          "h": "Béns de domini públic i patrimonials",
+          "p": "Els béns de domini públic estan afectats a l'ús o el servei públic i gaudeixen del règim protector (inalienabilitat, imprescriptibilitat, inembargabilitat). Els béns patrimonials no estan afectats a cap ús o servei públic, es regeixen pel dret privat amb especialitats, i el seu tràfic (adquisició, alienació, gravamen) segueix procediments amb garanties de publicitat i concurrència."
+        },
+        {
+          "h": "Prerrogatives i potestats",
+          "p": "Per defensar el seu patrimoni, les entitats locals disposen de potestats exorbitants:",
+          "list": [
+            "Investigació: per esbrinar la situació dels béns que es presumeixen propis.",
+            "Llindament (delimitació): per fixar els límits amb els predis confrontants.",
+            "Recuperació d'ofici de la possessió: en els béns demanials, en qualsevol moment; en els patrimonials, dins l'any següent a la usurpació.",
+            "Desnonament administratiu: per recuperar l'ús dels béns demanials ocupats sense títol."
+          ]
+        },
+        {
+          "h": "Els béns comunals",
+          "p": "Els béns comunals són béns de domini públic el gaudi dels quals correspon al conjunt del veïnat. El seu aprofitament es regeix pel costum, les ordenances locals i la legislació; poden ser objecte d'aprofitament col·lectiu (pastures, boscos) o veïnal. Gaudeixen del règim de protecció dels béns demanials."
+        },
+        {
+          "h": "Inventari, conservació i defensa",
+          "p": "Les entitats locals han de formar un inventari de tots els seus béns i drets, aprovat pel Ple, que s'ha de rectificar anualment i comprovar en renovar-se la corporació. Els béns immobles i drets reals s'han d'inscriure al Registre de la Propietat. Les entitats tenen el deure de conservar, protegir i defensar els seus béns, i exercir les accions pertinents davant qualsevol pertorbació."
+        }
+      ],
       "keypoints": [
+        {
+          "h": "Tipus",
+          "p": [
+            "Demanials (afectats; règim protector)",
+            "Patrimonials (dret privat; tràfic amb garanties)"
+          ]
+        },
+        {
+          "h": "Potestats",
+          "p": [
+            "Investigació i llindament",
+            "Recuperació d'ofici (demanials sense termini; patrimonials en 1 any)",
+            "Desnonament administratiu"
+          ]
+        },
+        {
+          "h": "Comunals",
+          "p": [
+            "Aprofitament del veïnat; règim demanial"
+          ]
+        },
+        {
+          "h": "Inventari i defensa",
+          "p": [
+            "Inventari aprovat pel Ple; rectificació anual",
+            "Inscripció al Registre de la Propietat",
+            "Deure de conservar, protegir i defensar"
+          ]
+        }
+      ],
+      "key": "Règim dels béns locals (Llei 33/2003, Decret 336/1988). Demanials: afectats a l'ús o servei públic, règim protector; patrimonials: dret privat amb tràfic garantit. Potestats de defensa: investigació, llindament, recuperació d'ofici (demanials sense termini, patrimonials en 1 any) i desnonament administratiu. Béns comunals: aprofitament del veïnat, amb règim demanial. Inventari de tots els béns aprovat pel Ple i rectificat anualment; inscripció al Registre de la Propietat; deure de conservar, protegir i defensar."
+    },
+    "40": {
+      "intro": "El pressupost general de les entitats locals és l'instrument que ordena la seva activitat econòmica durant l'exercici. Es regeix pel TRLHL (RDL 2/2004) i el RD 500/1990. Aquest tema en tracta l'estructura, l'elaboració i aprovació, les bases d'execució, la pròrroga, i l'execució i liquidació.",
+      "sections": [
+        {
+          "h": "Estructura pressupostària",
+          "p": "Els estats de despeses i d'ingressos s'estructuren segons tres classificacions (art. 167 TRLHL): la classificació per programes (objectius i finalitats de la despesa), l'orgànica (òrgans o àrees de despesa) i l'econòmica (naturalesa de la despesa o l'ingrés, agrupada en nou capítols). En les despeses, els capítols 1-4 i 5 són operacions corrents, 6-7 de capital i 8-9 financeres."
+        },
+        {
+          "h": "Elaboració i aprovació",
+          "p": "El president forma el pressupost i el tramet al Ple abans del 15 d'octubre, amb la documentació preceptiva. El Ple l'aprova inicialment, s'exposa al públic quinze dies hàbils per a reclamacions (només pels motius taxats de l'art. 170.2), i s'aprova definitivament abans del 31 de desembre; es publica resumit al BOP i es tramet a l'Estat i la Generalitat (arts. 168-169 TRLHL)."
+        },
+        {
+          "h": "Les bases d'execució",
+          "p": "Les bases d'execució adapten les disposicions generals en matèria pressupostària a l'organització i les característiques de l'entitat. Contenen, entre altres, els nivells de vinculació jurídica dels crèdits, el règim de les modificacions de crèdit i de les despeses a justificar, les normes sobre la tramitació de les despeses i els pagaments, i el reconeixement d'obligacions."
+        },
+        {
+          "h": "La pròrroga del pressupost",
+          "p": "Si a l'1 de gener no està aprovat el pressupost, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials (art. 169.6 TRLHL), fins a l'entrada en vigor del nou; s'exclouen els crèdits per a serveis que havien de finalitzar."
+        },
+        {
+          "h": "L'execució i la liquidació",
+          "p": "L'execució del pressupost de despeses segueix les fases d'autorització, disposició, reconeixement de l'obligació i ordenació del pagament; la dels ingressos, el reconeixement del dret, la liquidació i la recaptació. El pressupost es liquida en tancar l'exercici: l'aprova el president abans de l'1 de març de l'any següent i en dona compte al Ple. De la liquidació resulten el resultat pressupostari, els romanents de crèdit i el romanent de tresoreria."
+        }
+      ],
+      "keypoints": [
+        {
+          "h": "Estructura (art. 167)",
+          "p": [
+            "Per programes, orgànica i econòmica",
+            "Capítols 1-9 (corrents, capital, financeres)"
+          ]
+        },
+        {
+          "h": "Elaboració",
+          "p": [
+            "El forma el president → Ple abans del 15-oct",
+            "Aprovació inicial → 15 dies → definitiva abans del 31-des"
+          ]
+        },
         {
           "h": "Bases d'execució",
           "p": [
-            "Adapten les regles pressupostàries a l'entitat"
+            "Adapten les regles pressupostàries a l'entitat",
+            "Vinculació, modificacions, tramitació de despeses"
           ]
         },
         {
-          "h": "Execució",
+          "h": "Execució i liquidació",
           "p": [
-            "Despeses A-D-O-P; ingressos: reconeixement-liquidació-recaptació",
-            "Crèdit previ + fiscalització"
-          ]
-        },
-        {
-          "h": "Liquidació",
-          "p": [
-            "L'aprova el president (compte al Ple abans de l'1 de març)"
-          ]
-        },
-        {
-          "h": "Magnituds",
-          "p": [
+            "Despeses A-D-O-P; ingressos: dret-liquidació-recaptació",
+            "Liquidació: l'aprova el president abans de l'1 de març",
             "Resultat pressupostari, romanents i romanent de tresoreria"
           ]
         }
-      ]
+      ],
+      "key": "Pressupost general de les EELL (TRLHL + RD 500/1990). Estructura (art. 167): per programes, orgànica i econòmica (capítols 1-9). Elaboració: el forma el president i el tramet al Ple abans del 15 d'octubre → aprovació inicial → 15 dies d'exposició → definitiva abans del 31 de desembre (arts. 168-169). Bases d'execució: adapten les regles a l'entitat (vinculació, modificacions, tramitació de despeses). Pròrroga automàtica (art. 169.6). Execució: despeses A-D-O-P; ingressos: reconeixement del dret, liquidació i recaptació. Liquidació aprovada pel president abans de l'1 de març → resultat pressupostari, romanents i romanent de tresoreria."
     },
     "41": {
-      "intro": "Els crèdits del pressupost de despeses són les autoritzacions màximes de despesa per a finalitats determinades. La seva delimitació, situació i nivells de vinculació jurídica defineixen el marge de gestió, i les modificacions de crèdit permeten ajustar-los durant l'exercici (TRLHL i RD 500/1990).",
+      "intro": "Els crèdits del pressupost de despeses són les autoritzacions màximes de despesa per a cada finalitat. La seva delimitació, situació i nivells de vinculació es regeixen pel TRLHL i el RD 500/1990.",
       "sections": [
         {
+          "h": "Delimitació i caràcter dels crèdits",
+          "p": "Els crèdits per a despeses tenen caràcter limitatiu: no es poden adquirir compromisos de despesa ni reconèixer obligacions per un import superior al consignat (art. 173 TRLHL). Es destinen exclusivament a la finalitat específica per a la qual s'han autoritzat. Els compromisos i les obligacions adquirits amb infracció d'aquesta norma són nuls de ple dret."
+        },
+        {
           "h": "Especialitat dels crèdits",
-          "p": "Els crèdits estan sotmesos al principi d'especialitat en tres vessants: qualitativa (s'apliquen exclusivament a la finalitat específica per a la qual s'han autoritzat), quantitativa (no es pot adquirir cap compromís de despesa per quantia superior a l'import dels crèdits) i temporal (s'apliquen a les obligacions reconegudes durant l'exercici). Aquest caràcter limitatiu i vinculant és essencial per al control de la despesa pública."
+          "p": "El caràcter limitatiu es manifesta en una triple especialitat:",
+          "list": [
+            "Qualitativa: el crèdit s'ha d'aplicar a la finalitat concreta.",
+            "Quantitativa: no es pot superar l'import autoritzat.",
+            "Temporal: el crèdit s'ha d'aplicar dins l'exercici (les obligacions s'han de reconèixer abans de final d'any)."
+          ]
         },
         {
           "h": "Nivells de vinculació jurídica",
-          "p": "La vinculació jurídica és el nivell (per exemple, àrea de despesa, capítol, article o concepte) fins al qual la limitació quantitativa del crèdit és exigible. Com més ampli és el nivell de vinculació, més flexibilitat té el gestor per executar la despesa sense necessitat de tramitar modificacions. Les bases d'execució fixen aquests nivells per a cada entitat."
+          "p": "La vinculació jurídica és el nivell de desagregació (per exemple, per àrea de despesa, capítol, article, concepte o partida) fins al qual el crèdit és limitatiu. Per sobre d'aquest nivell, els crèdits són fungibles entre si sense necessitat de modificació. Les bases d'execució en fixen els nivells; com més agregat és el nivell, més flexibilitat de gestió."
         },
         {
-          "h": "Modificacions de crèdit",
-          "list": [
-            "Crèdit extraordinari: per atendre una despesa específica i determinada per a la qual no existeix crèdit.",
-            "Suplement de crèdit: quan el crèdit existent és insuficient. Tots dos els aprova el Ple, amb el mateix procediment que el pressupost (exposició 15 dies i possibles reclamacions), i es financen amb romanent líquid de tresoreria, amb nous o majors ingressos, o amb baixes de crèdits no compromesos.",
-            "Ampliació de crèdit: per a partides declarades ampliables, en funció d'ingressos afectats.",
-            "Transferència de crèdit: trasllat d'import entre partides, amb limitacions.",
-            "Generació de crèdit: increment per ingressos no previstos o superiors als previstos.",
-            "Incorporació de romanents de crèdit i baixa per anul·lació."
-          ]
-        },
-        {
-          "h": "Competència per aprovar-les",
-          "p": "Corresponen al Ple els crèdits extraordinaris, els suplements de crèdit i les transferències entre àrees de despesa diferents (amb les excepcions legals). La resta de modificacions (generacions, ampliacions, incorporacions, transferències dins la mateixa àrea) solen correspondre al president, segons el que estableixin les bases d'execució."
+          "h": "Situació dels crèdits",
+          "p": "Els crèdits passen per diferents situacions al llarg de l'exercici: crèdits disponibles, crèdits retinguts (per a una despesa concreta, mitjançant la retenció de crèdit) i crèdits no disponibles (quan es declara la no-disponibilitat d'una part per garantir l'estabilitat o per altres motius). Les modificacions de crèdit alteren la quantia o la finalitat inicial (crèdits extraordinaris, suplements, transferències, etc.)."
         }
       ],
-      "key": "Crèdits: especialitat qualitativa, quantitativa i temporal; vinculació jurídica (nivell de control). Modificacions: crèdit extraordinari (sense crèdit) i suplement (insuficient), aprovats pel Ple amb procediment del pressupost; ampliació, transferència, generació, incorporació de romanents i baixa.",
       "keypoints": [
         {
-          "h": "Especialitat dels crèdits",
+          "h": "Caràcter (art. 173)",
           "p": [
-            "Qualitativa, quantitativa i temporal",
-            "Vinculació jurídica = nivell de control"
+            "Limitatiu: no superar l'import ni la finalitat",
+            "Compromisos per damunt: nuls de ple dret"
           ]
         },
         {
-          "h": "Modificacions",
+          "h": "Especialitat",
           "p": [
-            "Crèdit extraordinari (sense crèdit) i suplement (insuficient)",
-            "Ampliació, transferència, generació, incorporació de romanents, baixa"
+            "Qualitativa (finalitat)",
+            "Quantitativa (import)",
+            "Temporal (dins l'exercici)"
           ]
         },
         {
-          "h": "Competència",
+          "h": "Vinculació jurídica",
           "p": [
-            "Crèdit extraordinari i suplement: el Ple (procediment del pressupost)"
+            "Nivell de desagregació en què el crèdit és limitatiu",
+            "Per sobre: fungibles sense modificació"
+          ]
+        },
+        {
+          "h": "Situació",
+          "p": [
+            "Disponibles, retinguts, no disponibles",
+            "Modificacions de crèdit alteren quantia o finalitat"
           ]
         }
-      ]
+      ],
+      "key": "Crèdits del pressupost de despeses (TRLHL, RD 500/1990). Caràcter limitatiu (art. 173): no es poden reconèixer obligacions per damunt de l'import ni fora de la finalitat; els compromisos que ho infringeixen són nuls. Triple especialitat: qualitativa (finalitat), quantitativa (import) i temporal (dins l'exercici). Nivell de vinculació jurídica: grau de desagregació en què el crèdit és limitatiu (per sobre, fungible). Situacions: crèdits disponibles, retinguts i no disponibles; les modificacions de crèdit n'alteren quantia o finalitat."
     },
     "42": {
-      "intro": "L'execució del pressupost de despeses i d'ingressos es desenvolupa per fases reglades i compta amb figures especials per a despeses singulars (pagaments a justificar, bestretes de caixa fixa, despeses plurianuals, tramitació anticipada i despeses amb finançament afectat), recollides al TRLHL i al RD 500/1990.",
+      "intro": "L'execució del pressupost és el procés de realització de les despeses i els ingressos previstos. Es regeix pel TRLHL i el RD 500/1990. Aquest tema en tracta les fases, els pagaments a justificar, les bestretes de caixa, les despeses plurianuals, la tramitació anticipada, els projectes de despeses i les despeses amb finançament afectat.",
       "sections": [
         {
           "h": "Fases del pressupost de despeses",
-          "p": "L'execució de la despesa passa per:",
+          "p": "L'execució de la despesa segueix quatre fases successives:",
           "list": [
-            "L'autorització (A), acte pel qual s'aprova la realització d'una despesa per una quantia certa o aproximada, reservant el crèdit",
-            "La disposició o compromís (D), acte pel qual s'acorda la realització de la despesa amb un tercer determinat i per un import exactament determinat",
-            "El reconeixement de l'obligació (O), acte que declara l'existència d'un crèdit exigible contra l'entitat, després de l'acreditació de la prestació",
-            "L'ordenació del pagament (P)"
+            "Autorització (A): acord que autoritza la realització d'una despesa per una quantia certa, reservant-ne el crèdit.",
+            "Disposició o compromís (D): acte pel qual es compromet la despesa amb un tercer per un import determinat.",
+            "Reconeixement de l'obligació (O): declaració de l'existència d'un crèdit exigible perquè el tercer ha complert la prestació.",
+            "Ordenació del pagament (P): ordre d'expedir el pagament al creditor."
           ],
-          "p2": "Diverses fases es poden acumular en un sol acte administratiu (ADO, ADOP)."
+          "p2": "Aquestes fases es poden acumular en un sol acte (ADO o ADOP)."
         },
         {
           "h": "Execució del pressupost d'ingressos",
-          "p": "Comprèn el reconeixement i la liquidació de drets (que determinen el naixement del dret a cobrar) i la recaptació, en període voluntari i, si no es paga, en període executiu, amb els recàrrecs corresponents i el procediment de constrenyiment. La gestió de la tresoreria respecta el principi d'unitat de caixa i atén el pagament de les obligacions segons el pla de disposició de fons."
+          "p": "L'execució dels ingressos comprèn el reconeixement o la liquidació del dret (naixement del dret a cobrar) i la recaptació, en període voluntari o executiu. Regeix el principi d'unitat de caixa: tots els ingressos formen una única tresoreria per atendre el conjunt de les obligacions."
         },
         {
           "h": "Figures especials de gestió",
+          "p": "La gestió pressupostària preveu figures especials:",
           "list": [
-            "Pagaments a justificar: s'expedeixen quan els documents justificatius no es poden aportar abans de formular la proposta de pagament; els perceptors han de justificar-ne l'aplicació en un termini.",
-            "Bestretes de caixa fixa: provisions de fons a habilitats de caixa per atendre despeses periòdiques o repetitives de petita quantia.",
-            "Despeses de caràcter plurianual: comprometen crèdits d'exercicis futurs, amb límits per anualitats i per nombre d'exercicis (art. 174).",
-            "Tramitació anticipada: permet iniciar l'expedient de despesa en l'exercici anterior a aquell en què s'executarà.",
-            "Despeses amb finançament afectat: lligades a ingressos específics que les financen."
+            "Pagaments a justificar: fons lliurats per a despeses sense la documentació justificativa prèvia, que s'ha d'aportar després.",
+            "Bestretes de caixa fixa: provisions de fons de caràcter no pressupostari per atendre despeses periòdiques o repetitives de petita quantia.",
+            "Despeses de caràcter plurianual: despeses que s'estenen a exercicis futurs, amb els límits de l'art. 174 TRLHL.",
+            "Tramitació anticipada: iniciar l'expedient de despesa en l'exercici anterior a aquell en què s'executarà."
           ]
         },
         {
-          "h": "Control",
-          "p": "Tota l'execució se sotmet al control intern de la Intervenció (funció interventora i control financer) i, posteriorment, al control extern del Tribunal de Comptes i de la Sindicatura de Comptes de Catalunya."
+          "h": "Projectes i finançament afectat",
+          "p": "Els projectes de despeses són unitats de despesa que es poden estendre a diversos exercicis i que requereixen un seguiment individualitzat. Les despeses amb finançament afectat són les que es financen amb ingressos concrets (subvencions, contribucions especials), de manera que la seva execució depèn de l'efectiva realització d'aquells ingressos i genera desviacions de finançament que s'han de controlar. Tota l'execució està sotmesa al control de la Intervenció (funció interventora)."
         }
       ],
-      "key": "Despesa: fases A-D-O-P (acumulables en ADO/ADOP). Ingressos: reconeixement-liquidació-recaptació (voluntària/executiva), amb unitat de caixa. Figures especials: pagaments a justificar, bestretes de caixa fixa, despeses plurianuals (174), tramitació anticipada i finançament afectat. Control de la Intervenció.",
       "keypoints": [
         {
-          "h": "Despeses",
+          "h": "Fases de la despesa",
           "p": [
-            "Fases A-D-O-P (acumulables en ADO/ADOP)"
+            "Autorització (A) → Disposició (D)",
+            "Reconeixement de l'obligació (O) → Ordenació del pagament (P)",
+            "Acumulables: ADO / ADOP"
           ]
         },
         {
           "h": "Ingressos",
           "p": [
-            "Reconeixement-liquidació-recaptació (voluntària/executiva); unitat de caixa"
+            "Reconeixement/liquidació del dret + recaptació (voluntària/executiva)",
+            "Unitat de caixa"
           ]
         },
         {
           "h": "Figures especials",
           "p": [
-            "Pagaments a justificar, bestretes de caixa fixa, plurianuals (art. 174), finançament afectat"
+            "Pagaments a justificar; bestretes de caixa fixa",
+            "Despeses plurianuals (art. 174); tramitació anticipada"
           ]
         },
         {
-          "h": "Control",
+          "h": "Projectes i afectat",
           "p": [
-            "Intervenció (funció interventora)"
+            "Projectes de despeses (seguiment)",
+            "Finançament afectat (desviacions)",
+            "Control de la Intervenció"
           ]
         }
-      ]
+      ],
+      "key": "Execució del pressupost (TRLHL, RD 500/1990). Despeses: fases A-D-O-P (acumulables en ADO/ADOP). Ingressos: reconeixement/liquidació del dret i recaptació (voluntària o executiva), amb unitat de caixa. Figures especials: pagaments a justificar, bestretes de caixa fixa, despeses plurianuals (art. 174) i tramitació anticipada. Projectes de despeses amb seguiment individualitzat i despeses amb finançament afectat (desviacions de finançament). Tot sota el control de la Intervenció."
     },
     "43": {
-      "intro": "Les hisendes locals disposen d'un conjunt de recursos per finançar les seves competències, enumerats a l'art. 2 del TRLHL. La distinció entre les diferents figures (especialment taxes, contribucions especials i preus públics) és recurrent als exàmens.",
+      "intro": "Les hisendes locals disposen d'un conjunt de recursos per finançar les seves competències. Es regulen al text refós de la Llei reguladora de les hisendes locals (TRLHL). Aquest tema en tracta els recursos, els ingressos de dret privat i les subvencions i altres ingressos de dret públic.",
       "sections": [
         {
-          "h": "Recursos de les hisendes locals",
-          "p": "Segons l'art. 2 del TRLHL, els recursos són:",
+          "h": "Recursos de les hisendes locals (art. 2 TRLHL)",
+          "p": "La hisenda de les entitats locals està constituïda per:",
           "list": [
-            "Els ingressos de dret privat",
-            "Els tributs propis (taxes, contribucions especials i impostos) i els recàrrecs sobre tributs d'altres administracions",
-            "Les participacions en els tributs de l'Estat i de les comunitats autònomes",
-            "Les subvencions",
-            "Els preus públics",
-            "El producte de les operacions de crèdit",
-            "El producte de les multes i sancions",
-            "La resta de prestacions de dret públic"
+            "Els tributs propis (taxes, contribucions especials i impostos) i els recàrrecs sobre tributs d'altres ens.",
+            "Les participacions en els tributs de l'Estat i de les comunitats autònomes.",
+            "Les subvencions.",
+            "Els ingressos procedents del seu patrimoni i altres de dret privat.",
+            "Els preus públics.",
+            "El producte de les operacions de crèdit i de les multes i sancions.",
+            "Les prestacions patrimonials de caràcter públic."
           ]
         },
         {
           "h": "Els impostos locals",
-          "p": "Hi ha impostos d'exacció obligatòria, que tots els ajuntaments han d'exigir: l'impost sobre béns immobles (IBI), l'impost sobre activitats econòmiques (IAE) i l'impost sobre vehicles de tracció mecànica (IVTM). I impostos potestatius, que cada ajuntament pot establir o no mitjançant la corresponent ordenança fiscal: l'impost sobre construccions, instal·lacions i obres (ICIO) i l'impost sobre l'increment de valor dels terrenys de naturalesa urbana (IIVTNU, la plusvàlua municipal)."
+          "p": "Els impostos poden ser d'exigència obligatòria o potestativa. Són obligatoris l'impost sobre béns immobles (IBI), l'impost sobre activitats econòmiques (IAE) i l'impost sobre vehicles de tracció mecànica (IVTM). Són potestatius l'impost sobre construccions, instal·lacions i obres (ICIO) i l'impost sobre l'increment de valor dels terrenys de naturalesa urbana (plusvàlua municipal)."
         },
         {
           "h": "Taxes, contribucions especials i preus públics",
-          "list": [
-            "Taxa: tribut que es paga per la utilització privativa o l'aprofitament especial del domini públic local, o per la prestació de serveis o la realització d'activitats de competència local que es refereixin, afectin o beneficiïn de manera particular l'obligat, quan siguin de recepció obligatòria o no els presti el sector privat (art. 20).",
-            "Contribució especial: tribut el fet imposable del qual és l'obtenció per l'obligat d'un benefici o d'un augment de valor dels seus béns com a conseqüència de la realització d'obres públiques o de l'establiment o ampliació de serveis públics (arts. 28-37).",
-            "Preu públic: contraprestació pecuniària per serveis o activitats de competència local quan, prestant-se també pel sector privat, són de sol·licitud o recepció voluntària (arts. 41-47). No és un tribut."
-          ]
+          "p": "La taxa es paga per l'ús privatiu del domini públic o per la prestació d'un servei o activitat que afecta o beneficia l'obligat, quan el servei és de recepció obligatòria o de monopoli. Les contribucions especials graven el benefici o l'increment de valor que obté una persona per la realització d'obres o l'establiment de serveis públics. El preu públic es paga per serveis o activitats prestats també pel sector privat i de sol·licitud voluntària."
         },
         {
-          "h": "Ingressos de dret privat",
-          "p": "Provenen del rendiment o producte de qualsevol naturalesa derivat del patrimoni de l'entitat (lloguers, alienació de béns patrimonials, herències, llegats i donacions), i es regeixen per les normes de dret privat. No tenen aquesta consideració els béns de domini públic mentre conservin aquesta qualificació."
+          "h": "Ingressos de dret privat i altres de dret públic",
+          "p": "Són ingressos de dret privat els que provenen del patrimoni de l'entitat (rendes, productes, alienació de béns patrimonials, herències, llegats i donacions). Les subvencions i altres ingressos de dret públic (com les multes) es regeixen per la seva normativa específica; la seva recaptació gaudeix de les prerrogatives de dret públic (via de constrenyiment)."
         }
       ],
-      "key": "Recursos (art. 2 TRLHL): tributs propis (taxes, contribucions especials i impostos), participacions, ingressos de dret privat, subvencions, preus públics i crèdit. Impostos obligatoris: IBI, IAE, IVTM; potestatius: ICIO i plusvàlua. Taxa (servei obligatori/monopoli) vs preu públic (servei voluntari també privat).",
       "keypoints": [
         {
           "h": "Recursos (art. 2 TRLHL)",
           "p": [
-            "Tributs propis, participacions, ingressos de dret privat, subvencions, preus públics i crèdit"
+            "Tributs propis (taxes, contribucions especials, impostos)",
+            "Participacions, subvencions, preus públics",
+            "Patrimoni, crèdit, multes"
           ]
         },
         {
           "h": "Impostos",
           "p": [
             "Obligatoris: IBI, IAE, IVTM",
-            "Potestatius: ICIO i plusvàlua (IIVTNU)"
+            "Potestatius: ICIO i plusvàlua"
           ]
         },
         {
-          "h": "Taxa vs preu públic",
+          "h": "Taxes / preus públics",
           "p": [
-            "Taxa: servei obligatori/monopoli",
-            "Preu públic: servei voluntari també prestat pel sector privat"
+            "Taxa: servei obligatori o monopoli, ús del domini públic",
+            "Contribucions especials: benefici per obres/serveis",
+            "Preu públic: servei voluntari també privat"
+          ]
+        },
+        {
+          "h": "Dret privat i altres",
+          "p": [
+            "Ingressos del patrimoni (rendes, alienacions, llegats)",
+            "Recaptació de dret públic amb via de constrenyiment"
           ]
         }
-      ]
+      ],
+      "key": "Recursos de les hisendes locals (art. 2 TRLHL): tributs propis (taxes, contribucions especials i impostos), participacions en tributs de l'Estat i les CA, subvencions, ingressos patrimonials i de dret privat, preus públics, crèdit i multes. Impostos obligatoris: IBI, IAE, IVTM; potestatius: ICIO i plusvàlua. Taxa (servei obligatori o monopoli, ús del domini públic) vs preu públic (servei voluntari també prestat pel sector privat); contribucions especials pel benefici d'obres o serveis. Ingressos de dret privat (patrimoni); les subvencions i altres ingressos de dret públic es recapten amb via de constrenyiment."
     },
     "45": {
       "intro": "Les situacions bàsiques del sòl són la categorització que estableix la legislació estatal del sòl (TRLS, RDL 7/2015) a efectes dels drets i deures bàsics i, sobretot, de la valoració: el sòl rural i el sòl urbanitzat.",
