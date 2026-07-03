@@ -684,99 +684,107 @@ Abans de l'aprovació, i seguint els principis de bona regulació, es poden fer 
 
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic).
 
-La contractació del sector públic és l'activitat mitjançant la qual les administracions obtenen béns, obres i serveis a través de contractes onerosos amb tercers. La norma central és la Llei 9/2017, de contractes del sector públic (LCSP), que transposa les directives europees de 2014. Aquest tema en tracta el concepte i les fonts, la incidència del dret comunitari (i els contractes subjectes a regulació harmonitzada), els principis bàsics, l'àmbit subjectiu i la classificació dels contractes amb el seu règim jurídic i els llindars econòmics que en determinen la tramitació.
+La **contractació del sector públic** és l'obtenció de béns, obres i serveis mitjançant **contractes onerosos** amb tercers. Norma central: la **Llei 9/2017 (LCSP)**, que transposa les directives europees de 2014. El tema abasta el concepte i les fonts, el dret comunitari (contractes **SARA**), els principis, l'àmbit subjectiu, i la classificació dels contractes amb els seus **llindars econòmics** i el règim jurídic.
 
-### Concepte i fonts
-El contracte del sector públic és el negoci jurídic de caràcter onerós (amb contraprestació) que una entitat del sector públic celebra amb un o més empresaris. Es diferencia dels convenis (que no tenen contraprestació ni objecte contractual) i dels actes unilaterals. Les fonts que el regeixen, per ordre d'aplicació, són:
+### 1. Concepte i fonts
+**Contracte del sector públic** = negoci jurídic **onerós** (amb contraprestació) entre una entitat del sector públic i un o més empresaris. Es diferencia del **conveni** (sense contraprestació ni objecte contractual). Fonts, per ordre d'aplicació:
 
-- El dret de la Unió Europea: les directives 2014/23/UE (concessions), 2014/24/UE (contractació pública) i 2014/25/UE (sectors especials: aigua, energia, transports i serveis postals), i els principis del Tractat de funcionament de la UE (TFUE).
-- La Llei 9/2017 (LCSP) i la seva normativa de desplegament (com el Reglament general de la Llei de contractes, RD 1098/2001, en el que continua vigent, i el RD 817/2009).
-- Els plecs de clàusules administratives particulars (PCAP) i de prescripcions tècniques (PPT), que constitueixen la «llei del contracte» i vinculen l'administració i el contractista.
-- Supletòriament, la resta de normes de dret administratiu i, en darrer terme, el dret privat.
+- **Dret de la UE**: directives **2014/23** (concessions), **2014/24** (contractació pública) i **2014/25** (sectors especials: aigua, energia, transport, correus) + principis del **TFUE**.
+- **LCSP (Llei 9/2017)** i desplegament (RD 1098/2001 vigent en part; RD 817/2009).
+- **Plecs**: de clàusules administratives particulars (**PCAP**) i de prescripcions tècniques (**PPT**) → són la «**llei del contracte**».
+- Supletòriament: dret administratiu i, en darrer terme, **dret privat**.
 
-### Incidència del dret comunitari: els contractes SARA (regulació harmonitzada)
-La contractació pública és una matèria fortament europeïtzada, perquè afecta el mercat interior: la UE hi garanteix la lliure circulació, la no-discriminació per raó de nacionalitat i la concurrència. Per això, els contractes de més quantia queden subjectes a regulació harmonitzada (contractes SARA): són els que, per raó del seu tipus i del seu valor estimat, superen els llindars fixats per la UE i, en conseqüència, se sotmeten a les regles europees més estrictes.
+### 2. Contractes SARA (regulació harmonitzada)
+Els **contractes SARA** (subjectes a regulació harmonitzada) són els que, pel **tipus** i pel **valor estimat**, **superen els llindars de la UE** i queden sotmesos a les regles europees més estrictes.
 
-### Els llindars de la regulació harmonitzada (SARA)
-Els llindars (arts. 20 a 23 LCSP) es revisen cada dos anys mitjançant reglaments delegats de la Comissió Europea, de manera que les xifres exactes s'han de contrastar amb la revisió vigent. Amb caràcter orientatiu, els imports (valor estimat, sense IVA) són:
+- **Per què existeixen**: garantir el mercat interior (lliure circulació, no-discriminació per nacionalitat, concurrència).
+- **Efectes de ser SARA**: publicitat obligatòria al **DOUE** (a més del perfil del contractant); terminis d'ofertes més amplis; règim reforçat de garanties.
+- **No SARA**: només regits per la LCSP, amb publicitat estatal (perfil del contractant).
 
-- Contractes d'obres i contractes de concessió (d'obres i de serveis): a partir d'uns 5.500.000 € aproximadament (5.538.000 € en la darrera revisió).
-- Contractes de subministrament i de serveis: a partir d'uns 221.000 € per als poders adjudicadors que NO són l'Administració General de l'Estat (per exemple, les entitats locals), i d'uns 143.000 € per a l'Administració General de l'Estat i els seus organismes.
-- Contractes de serveis especials de l'annex IV (socials i altres serveis específics): a partir d'uns 750.000 €.
+### 3. Llindars SARA (arts. 20-23 LCSP)
+Els imports són el **valor estimat sense IVA** i **la UE els revisa cada 2 anys** (contrasta la xifra vigent). Orientativament:
 
-Ser un contracte SARA comporta conseqüències importants: la publicitat obligatòria de la licitació al Diari Oficial de la Unió Europea (DOUE), a més del perfil del contractant; terminis de presentació d'ofertes més amplis; i un règim més estricte de garanties. Els contractes que no superen aquests llindars (no SARA) es regeixen només per la LCSP, amb publicitat estatal (perfil del contractant i, si escau, butlletins oficials).
+- **Obres i concessions** (d'obres i de serveis): a partir d'uns **5.500.000 €** (≈ 5.538.000 €).
+- **Subministraments i serveis**: a partir d'uns **221.000 €** en entitats locals i altres poders adjudicadors; **143.000 €** a l'Administració General de l'Estat.
+- **Serveis especials** (annex IV, socials i altres): a partir d'uns **750.000 €**.
 
-### Principis bàsics de la contractació (art. 1 LCSP)
-Tota la contractació s'ha d'ajustar a uns principis rectors que en garanteixen l'objectivitat i el bon ús dels recursos:
+### 4. Principis bàsics (art. 1 LCSP)
+- **Llibertat d'accés** a les licitacions.
+- **Publicitat i transparència** dels procediments.
+- **Igualtat i no-discriminació** entre licitadors.
+- **Eficiència** dels fons públics → **millor relació qualitat-preu**.
+- **Integritat** (prevenció de corrupció i conflictes d'interès).
+- Transversalment: **criteris socials, laborals i ambientals** obligatoris.
 
-- Llibertat d'accés a les licitacions.
-- Publicitat i transparència dels procediments.
-- No-discriminació i igualtat de tracte entre els candidats i licitadors.
-- Eficiència en la utilització dels fons públics, mitjançant l'exigència de la millor relació qualitat-preu.
-- Integritat i prevenció de la corrupció i els conflictes d'interès.
-- Salvaguarda de la lliure competència i control de la despesa pública.
+### 5. Àmbit subjectiu (art. 3 LCSP) — 3 nivells
+Tot el sector públic, amb intensitat **decreixent** de subjecció:
 
-A més, la LCSP incorpora de manera transversal i obligatòria criteris socials, laborals i mediambientals en tota la contractació.
+- **Administracions públiques** (Estat, CA, entitats locals i organismes de dret públic; universitats) → subjecció **plena** i celebren **contractes administratius**.
+- **Altres poders adjudicadors** (no AP): entitats que satisfan necessitats d'interès general no industrial ni mercantil, controlades o finançades pel sector públic → **preparació i adjudicació** subjectes a la llei; contractes **privats**.
+- **Resta del sector públic** (no poders adjudicadors) → només **principis** generals.
 
-### Àmbit d'aplicació subjectiva (art. 3 LCSP)
-La llei s'aplica a tot el sector públic, però amb tres nivells d'intensitat decreixent:
+### 6. Classificació dels contractes
+**Per l'objecte** (contractes típics, arts. 13-18 LCSP):
 
-- Les administracions públiques (l'Estat, les comunitats autònomes, les entitats locals i els seus organismes de dret públic, i les universitats públiques): estan plenament subjectes a la llei i celebren contractes administratius.
-- La resta de poders adjudicadors que no tenen la condició d'administració pública (entitats creades per satisfer necessitats d'interès general que no tenen caràcter industrial o mercantil, controlades o finançades majoritàriament pel sector públic): la preparació i l'adjudicació dels seus contractes se subjecten a la llei, però els seus contractes són privats.
-- Les altres entitats del sector públic que no són poders adjudicadors: només queden vinculades pels principis generals de la contractació.
+- **Obres**
+- **Concessió d'obres**
+- **Concessió de serveis**
+- **Subministrament**
+- **Serveis**
+- (+ **mixtos**: combinen prestacions de diversos tipus)
 
-### Classificació dels contractes
-Els contractes es poden classificar per diversos criteris. Per l'objecte, els contractes típics (arts. 13 a 18 LCSP) són el d'obres, el de concessió d'obres, el de concessió de serveis, el de subministrament i el de serveis (a més dels contractes mixtos, que combinen prestacions de diversos tipus). Per la naturalesa jurídica, es distingeixen els contractes administratius (els típics i els vinculats al gir o tràfic de l'administració o d'interès públic, que es regeixen íntegrament per la LCSP) i els contractes privats (per exemple, els serveis financers o la creació artística, en què els efectes i l'extinció es regeixen pel dret privat).
+**Per la naturalesa jurídica**: **administratius** (els típics i els vinculats al gir o tràfic de l'administració → íntegrament LCSP i jurisdicció contenciosa) i **privats** (p. ex. serveis financers, creació artística → efectes i extinció pel **dret privat** i jurisdicció **civil**).
 
-### Classificació segons la quantia: contractes menors i la resta
-Per raó de la quantia i el procediment, cal distingir els contractes menors de la resta (els no menors, que segueixen els procediments ordinaris com l'obert o el restringit; la LCSP no fa servir la categoria de «contracte major»).
+### 7. Classificació per la quantia: contractes menors
+Cal distingir els **contractes menors** de la resta (**no menors**, que van per procediment ordinari). *La LCSP no fa servir la categoria «contracte major».*
 
-- Contractes menors (art. 118 LCSP): els d'obres de valor estimat inferior a 40.000 € i els de subministrament o de serveis inferiors a 15.000 € (imports sense IVA). Són d'adjudicació directa, amb un expedient simplificat: informe de l'òrgan de contractació que motivi la necessitat (no cal en els de valor inferior a 5.000 € pagats per bestreta de caixa fixa), aprovació de la despesa i incorporació de la factura (i el pressupost en les obres).
-- Durada dels menors: no poden durar més d'un any ni ser prorrogables (art. 29.8 LCSP).
-- Prohibició de fraccionament (art. 99.2 LCSP): no es pot dividir l'objecte d'un contracte en diverses parts (ni encadenar contractes menors successius per a la mateixa prestació) amb la finalitat d'eludir els llindars i defugir la publicitat i la concurrència.
-- La resta de contractes (no menors) exigeixen la tramitació d'un expedient complet i l'adjudicació per un procediment ordinari amb publicitat i concurrència.
+- **Llindars del menor (art. 118)**: **obres < 40.000 €** i **serveis/subministraments < 15.000 €** (imports **sense IVA**).
+- **Adjudicació directa** amb expedient simplificat: informe de necessitat (no cal si **< 5.000 €** per bestreta de caixa fixa) + aprovació de la despesa + factura (+ pressupost en obres).
+- **Durada ≤ 1 any** i **no prorrogable** (art. 29.8).
+- **Prohibició de fraccionament (art. 99.2)**: no es pot dividir l'objecte ni encadenar menors successius per a la mateixa prestació per eludir els llindars i la publicitat.
+- **No menors**: expedient complet + procediment ordinari (obert, restringit…) amb publicitat i concurrència.
 
-### Règim jurídic i el recurs especial
-En els contractes administratius, la preparació, l'adjudicació, els efectes, la modificació i l'extinció es regeixen per la LCSP; l'administració gaudeix de prerrogatives (interpretar, modificar, resoldre) i els actes són impugnables en via administrativa i davant la jurisdicció contenciosa administrativa. En els contractes privats, la preparació i l'adjudicació se subjecten a la LCSP, però els efectes i l'extinció es regeixen pel dret privat, amb competència de la jurisdicció civil.
+### 8. Valor estimat i recurs especial
+**Valor estimat (art. 101)** = import total **sense IVA**, incloses **opcions, pròrrogues i modificacions previstes**. És la xifra que determina el **procediment**, els **llindars SARA** i l'accés al **recurs especial**.
 
-- El valor estimat del contracte (art. 101 LCSP) és l'import total, sense IVA, incloses les opcions, les pròrrogues i les modificacions previstes; és la magnitud que determina el procediment aplicable, els llindars SARA i l'accés al recurs especial.
-- El recurs especial en matèria de contractació (art. 44 LCSP) és un recurs potestatiu i gratuït, resolt per un òrgan independent (a Catalunya, el Tribunal Català de Contractes del Sector Públic), contra els actes de licitació (anuncis, plecs, actes d'exclusió i adjudicació) dels contractes de més entitat: obres i concessions de valor estimat superior a 3.000.000 € i subministraments i serveis superiors a 100.000 €. Té efectes suspensius i és previ al contenciós.
+- **Recurs especial en matèria de contractació (art. 44)**: **potestatiu**, **gratuït** i amb efecte **suspensiu**, resolt per un òrgan independent (a Catalunya, el **Tribunal Català de Contractes del Sector Públic**).
+- **Contra**: anuncis, plecs, actes d'exclusió i **adjudicació**.
+- **Llindars del recurs especial**: **obres i concessions > 3.000.000 €** i **subministraments i serveis > 100.000 €** (valor estimat).
+- És **previ** al recurs contenciós administratiu.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Concepte i fonts**
-  - Contracte onerós del sector públic (LCSP, Llei 9/2017)
-  - Fonts: dret UE (directives 2014/23, 24 i 25) → LCSP → plecs → dret administratiu i privat
+  - Contracte **onerós** del sector públic (**LCSP, Llei 9/2017**)
+  - Fonts: **dret UE** (directives 2014/23, 24, 25) → LCSP → **plecs** → dret adm./privat
 - **SARA (regulació harmonitzada)**
-  - Contractes que superen els llindars europeus (per valor estimat i tipus)
-  - Llindars aprox. (arts. 20-23, revisats cada 2 anys):
-    - Obres i concessions: ~5.500.000 €
-    - Subministraments/serveis: ~221.000 € (EELL) i ~143.000 € (AGE)
-    - Serveis especials annex IV: ~750.000 €
-  - Efecte: publicitat al DOUE i regles UE més estrictes
-- **Principis (art. 1 LCSP)**
-  - Llibertat d'accés, publicitat i transparència
-  - Igualtat i no-discriminació
-  - Eficiència (qualitat-preu) i integritat
-  - Criteris socials i ambientals transversals
+  - Superen els **llindars UE** (valor estimat + tipus) → publicitat al **DOUE**
+  - Llindars (arts. 20-23, revisats cada 2 anys):
+    - Obres i concessions: **~5.500.000 €**
+    - Subministraments/serveis: **~221.000 €** (EELL) · **143.000 €** (Estat)
+    - Serveis especials (annex IV): **~750.000 €**
+- **Principis (art. 1)**
+  - **Llibertat d'accés, publicitat, transparència**
+  - **Igualtat i no-discriminació**
+  - **Eficiència** (qualitat-preu) i **integritat**
+  - Criteris **socials i ambientals** transversals
 - **Àmbit subjectiu (art. 3)**
-  - Administracions públiques (subjecció plena)
-  - Altres poders adjudicadors (preparació i adjudicació)
-  - Resta del sector públic (principis)
+  - **Administracions públiques** (plena)
+  - **Altres poders adjudicadors** (preparació/adjudicació)
+  - **Resta del sector públic** (principis)
 - **Tipus i naturalesa**
-  - Típics (arts. 13-18): obres, concessió d'obres i de serveis, subministrament, serveis
-  - Administratius (LCSP + contenciós) vs privats (efectes pel dret privat + civil)
-- **Llindars per quantia**
-  - Contractes menors (art. 118):
-    - Obres < 40.000 €
-    - Serveis i subministraments < 15.000 € (sense IVA)
-    - Adjudicació directa; durada ≤ 1 any, no prorrogable (art. 29.8)
-  - Prohibit fraccionar per eludir llindars (art. 99.2)
-  - La resta (no menors): procediments ordinaris amb publicitat
+  - Típics (arts. 13-18): **obres, concessió d'obres i de serveis, subministrament, serveis**
+  - **Administratius** (LCSP + contenciós) vs **privats** (dret privat + civil)
+- **Contractes menors (art. 118)**
+  - Llindars (sense IVA):
+    - **Obres < 40.000 €**
+    - **Serveis/subministraments < 15.000 €**
+  - **Adjudicació directa**; **durada ≤ 1 any, no prorrogable** (art. 29.8)
+  - **Prohibit fraccionar** per eludir llindars (art. 99.2)
 - **Valor estimat i recurs especial**
-  - Valor estimat (art. 101): total sense IVA, amb opcions, pròrrogues i modificacions
-  - Recurs especial (art. 44): obres/concessions > 3.000.000 € i subministraments/serveis > 100.000 €; potestatiu, gratuït i suspensiu
+  - **Valor estimat (art. 101)**: total sense IVA + opcions/pròrrogues/modificacions
+  - **Recurs especial (art. 44)**: obres/concessions **> 3.000.000 €**; subministr./serveis **> 100.000 €**; potestatiu, gratuït, suspensiu
 
-**Clau:** Contractació pública (LCSP, Llei 9/2017, transposició de les directives UE de 2014). Fonts: dret UE → LCSP → plecs. Contractes SARA (regulació harmonitzada): superen els llindars europeus (arts. 20-23, revisats cada 2 anys): obres i concessions ~5.500.000 €, subministraments/serveis ~221.000 € (EELL) o ~143.000 € (AGE), serveis especials ~750.000 €; efecte: publicitat al DOUE i regles UE més estrictes. Principis (art. 1): llibertat d'accés, publicitat, igualtat, eficiència i integritat, amb criteris socials i ambientals. Àmbit subjectiu (art. 3): administracions públiques, altres poders adjudicadors i resta del sector públic. Tipus (arts. 13-18): obres, concessió d'obres i de serveis, subministrament i serveis; administratius vs privats. Contractes menors (art. 118): obres < 40.000 € i serveis/subministraments < 15.000 € (sense IVA), adjudicació directa, durada ≤ 1 any no prorrogable (art. 29.8); prohibit fraccionar per eludir els llindars (art. 99.2); la resta són no menors i van per procediment ordinari. Valor estimat (art. 101) sense IVA amb opcions i pròrrogues. Recurs especial (art. 44): obres/concessions > 3.000.000 € i subministraments/serveis > 100.000 €, potestatiu, gratuït i suspensiu.
+**Clau:** **Contractació pública** (**LCSP, Llei 9/2017**; transposa les directives UE de 2014). Fonts: **dret UE → LCSP → plecs**. **SARA** (regulació harmonitzada): superen els **llindars UE** (arts. 20-23, revisats cada 2 anys): obres i concessions **~5.500.000 €**; subministraments/serveis **~221.000 €** (EELL) o **143.000 €** (Estat); serveis especials **~750.000 €** → publicitat al **DOUE**. Principis (art. 1): llibertat d'accés, publicitat, igualtat, eficiència i integritat (+ socials i ambientals). Àmbit subjectiu (art. 3): administracions públiques / altres poders adjudicadors / resta del sector públic. Tipus (arts. 13-18): obres, concessió d'obres i de serveis, subministrament, serveis; **administratius vs privats**. **Contractes menors (art. 118)**: **obres < 40.000 €**, **serveis/subministraments < 15.000 €** (sense IVA), adjudicació directa, **durada ≤ 1 any no prorrogable** (art. 29.8); **prohibit fraccionar** (art. 99.2). **Valor estimat (art. 101)** sense IVA amb opcions i pròrrogues. **Recurs especial (art. 44)**: obres/concessions **> 3.000.000 €**, subministr./serveis **> 100.000 €**, potestatiu, gratuït i suspensiu.
 
 ---
 
