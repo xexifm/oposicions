@@ -2442,34 +2442,37 @@ Els convenis urbanístics són acords entre l'administració i particulars sobre
 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
-La gestió urbanística és el conjunt de procediments per executar el planejament. S'articula mitjançant els sistemes d'actuació urbanística, l'elecció dels quals correspon a l'Administració, i s'inspira en el principi d'equidistribució (TRLUC).
+La gestió urbanística és el conjunt de procediments per executar el planejament i transformar el sòl. El TRLUC regula els sistemes d'actuació, la seva elecció i el principi d'equidistribució.
 
-### Sistemes d'actuació
-L'execució del planejament en àmbits d'actuació (polígons o sectors) es fa pel sistema de reparcel·lació o pel sistema d'expropiació. El sistema de reparcel·lació té diverses modalitats:
+### Concepte i modalitats d'execució
+La gestió urbanística fa efectiu el planejament: urbanitza el sòl, reparteix beneficis i càrregues i obté les cessions. Es distingeix l'actuació aïllada (en sòl urbà consolidat, sense necessitat de repartir càrregues) de l'actuació integrada o sistemàtica (en polígons o sectors, mitjançant un sistema d'actuació urbanística).
 
-- La compensació bàsica (els propietaris, agrupats en una junta, aporten el sòl, executen la urbanització i es distribueixen les finques resultants)
-- La compensació per concertació
-- La cooperació (els propietaris aporten el sòl i l'Administració executa les obres a càrrec d'aquells)
-- D'altres
+### Els sistemes d'actuació
+En l'actuació integrada, el TRLUC preveu dos sistemes d'actuació urbanística:
 
-En el sistema d'expropiació, l'Administració (o el concessionari) adquireix la totalitat dels terrenys de l'àmbit per executar-hi l'actuació.
+- Reparcel·lació, en les modalitats de: compensació bàsica i compensació per concertació (iniciativa dels propietaris, agrupats en junta), i cooperació (l'administració executa la urbanització i els propietaris n'assumeixen el cost).
+- Expropiació: l'administració adquireix la totalitat del sòl de l'àmbit i n'executa la urbanització, indemnitzant els propietaris.
 
-### La reparcel·lació
-La reparcel·lació és l'operació que regularitza la configuració de les finques i n'adjudica de noves als propietaris en proporció als seus drets, alhora que concreta les cessions a l'Administració (sòl per a sistemes i sòl amb aprofitament) i la distribució de les càrregues d'urbanització. El projecte de reparcel·lació es tramita amb informació pública i s'inscriu al Registre de la Propietat.
+### Elecció del sistema
+L'elecció del sistema d'actuació correspon a l'administració, que la fa en el planejament o en la delimitació del polígon, atenent les necessitats, els mitjans disponibles, la col·laboració de la iniciativa privada i l'interès públic. El sistema es pot canviar mitjançant el procediment corresponent.
 
-### Principi d'equidistribució
-Tots els sistemes s'inspiren en el principi d'equidistribució (o de distribució equitativa de beneficis i càrregues): cap propietari ha d'obtenir un benefici o suportar una càrrega desproporcionada en relació amb els altres, atès l'aprofitament que els correspon. Aquest principi és la garantia de la igualtat entre els propietaris afectats per una actuació urbanística.
+### El principi d'equidistribució
+Tota la gestió s'inspira en el principi d'equidistribució (o distribució equitativa) de beneficis i càrregues: els propietaris d'un àmbit han de participar en els beneficis (aprofitament) i en les càrregues (cessions i costos d'urbanització) en proporció a la seva aportació. La reparcel·lació és l'instrument que materialitza aquest repartiment, agrupant les finques i adjudicant-ne de noves ajustades al planejament.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Sistemes d'actuació**
-  - Reparcel·lació (compensació i cooperació) i expropiació
-  - L'elecció és de l'Administració
-- **Reparcel·lació**
-  - Regularitza finques i concreta cessions i càrregues
-- **Principi rector**
-  - Equidistribució de beneficis i càrregues
+- **Modalitats**
+  - Actuació aïllada (sòl urbà consolidat)
+  - Actuació integrada (polígons/sectors, per sistema)
+- **Sistemes**
+  - Reparcel·lació: compensació i cooperació
+  - Expropiació
+- **Elecció**
+  - La fa l'administració (planejament o delimitació)
+- **Equidistribució**
+  - Repartiment equitatiu de beneficis i càrregues
+  - Materialitzat per la reparcel·lació
 
-**Clau:** Gestió urbanística: sistemes de reparcel·lació (modalitats de compensació i de cooperació) i d'expropiació; l'elecció és de l'Administració. La reparcel·lació regularitza finques i concreta cessions i càrregues. Tot s'inspira en el principi d'equidistribució de beneficis i càrregues.
+**Clau:** Gestió urbanística (TRLUC): executa el planejament. Actuació aïllada (sòl urbà consolidat) o integrada (per sistema). Sistemes d'actuació: reparcel·lació (modalitats de compensació i de cooperació) i expropiació; l'elecció correspon a l'administració. Tot s'inspira en el principi d'equidistribució de beneficis i càrregues, que la reparcel·lació materialitza agrupant finques i adjudicant-ne de noves segons el planejament.
 
 ---
 
@@ -2478,42 +2481,34 @@ Tots els sistemes s'inspiren en el principi d'equidistribució (o de distribuci�
 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)); **RLUC** (Decret 305/2006 (Reglament Llei d'urbanisme)).
 
-La intervenció administrativa en l'edificació i l'ús del sòl es canalitza, principalment, a través de la llicència urbanística, acte de control previ de la conformitat de l'actuació amb la legalitat urbanística (TRLUC, arts. 187 i següents).
+La llicència urbanística és l'acte d'intervenció administrativa que controla, amb caràcter previ, la conformitat dels actes d'edificació i ús del sòl amb l'ordenació urbanística. La regulen el TRLUC (art. 187) i el seu reglament (RLUC).
 
 ### Naturalesa i actes subjectes
-La llicència urbanística és un acte reglat: s'atorga o es denega segons la conformitat de l'actuació projectada amb el planejament i la normativa, sense marge de discrecionalitat. Estan subjectes a llicència, entre altres (art. 187):
-
-- Les obres de nova construcció i les de gran rehabilitació
-- Les parcel·lacions urbanístiques
-- La primera ocupació o utilització dels edificis
-- Els usos i les obres provisionals
-- Els moviments de terres i les tales
-- La instal·lació de cases prefabricades
-
-Les actuacions de menor entitat se subjecten al règim de comunicació prèvia (art. 187 bis).
+La llicència urbanística és un acte reglat de control previ: s'ha d'atorgar si l'actuació s'ajusta a la legalitat, i s'atorga salvant el dret de propietat i sense perjudici de tercers. Resten subjectes a llicència, entre altres (art. 187 TRLUC): les obres de nova construcció i de gran rehabilitació, les parcel·lacions urbanístiques, la primera ocupació dels edificis, els moviments de terres, les activitats extractives i la tala de masses arbòries. Els actes de menor entitat resten subjectes a comunicació prèvia (art. 187 bis).
 
 ### Procediment i contingut
-El procediment s'inicia amb la sol·licitud, acompanyada del projecte tècnic quan escaigui; segueixen els informes tècnic i jurídic dels serveis municipals; i finalitza amb la resolució. Les llicències s'atorguen deixant fora el dret de propietat i sens perjudici del de tercers. Estan subjectes, si escau, a la liquidació de les taxes i de l'impost sobre construccions, instal·lacions i obres (ICIO).
+La sol·licitud s'acompanya de la documentació tècnica (projecte) i dels informes preceptius (tècnic i jurídic). La llicència fixa les condicions i els terminis per iniciar i acabar les obres. L'atorgament és competència municipal (generalment de l'Alcalde), amb subjecció al planejament i a les ordenances.
 
 ### El silenci en les llicències
-En matèria de llicències urbanístiques, el silenci administratiu té, amb caràcter general, sentit positiu, però amb un límit infranquejable: en cap cas no es poden adquirir per silenci facultats o drets que contravinguin l'ordenació urbanística (art. 11.3 del TRLS estatal). Per tant, una actuació disconforme amb el planejament no s'entén autoritzada per silenci, encara que hagi transcorregut el termini; cal una resolució expressa i, si s'ha executat l'obra, l'inici de la protecció de la legalitat.
+El sentit del silenci és, en general, positiu (transcorregut el termini sense resolució, la llicència s'entén atorgada). Ara bé, en cap cas es poden adquirir per silenci facultats o drets contraris a l'ordenació urbanística (art. 11.3 TRLSRU): les llicències obtingudes per silenci contra el planejament són nul·les.
 
 ### Caducitat
-Les llicències tenen fixats terminis per iniciar i per acabar les obres. L'incompliment d'aquests terminis en determina la caducitat, prèvia declaració expressa, de manera que les obres no es poden continuar sense obtenir una nova llicència.
+Les llicències caduquen si les obres no s'inicien o no s'acaben dins els terminis fixats (o les seves pròrrogues), o si s'interrompen. Un cop declarada la caducitat, per reprendre les obres cal sol·licitar i obtenir una nova llicència.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Naturalesa**
-  - Llicència urbanística (art. 187 TRLUC): acte reglat de control previ
+- **Naturalesa (art. 187 TRLUC)**
+  - Acte reglat de control previ
+  - Salvant el dret de propietat i de tercers
 - **Actes subjectes**
   - Obres majors, parcel·lacions, primera ocupació…
-  - Comunicació prèvia per als menors (art. 187 bis)
-- **Atorgament**
-  - Salvant el dret de propietat i de tercers
-- **Silenci i caducitat**
-  - Positiu, però mai per a actuacions contràries al planejament
-  - Caducitat per incompliment de terminis
+  - Actes menors: comunicació prèvia (art. 187 bis)
+- **Silenci**
+  - Positiu, però mai facultats contra el planejament (art. 11.3 TRLSRU)
+- **Caducitat**
+  - Per no iniciar/acabar en termini
+  - Cal nova llicència per reprendre
 
-**Clau:** Llicència urbanística (187 TRLUC): acte reglat de control previ; actes subjectes (obres majors, parcel·lacions, primera ocupació...) i comunicació prèvia per als menors (187 bis). S'atorga salvant el dret de propietat i de tercers. Silenci positiu però mai per a actuacions contràries al planejament (11.3 TRLS). Caducitat per incompliment de terminis.
+**Clau:** Llicència urbanística (art. 187 TRLUC, RLUC): acte reglat de control previ, salvant el dret de propietat i de tercers. Actes subjectes: obres majors, parcel·lacions, primera ocupació, moviments de terres…; els actes menors, a comunicació prèvia (art. 187 bis). Procediment amb projecte i informes; atorgament municipal. Silenci positiu, però mai s'adquireixen per silenci facultats contràries al planejament (art. 11.3 TRLSRU). Caducitat per incompliment dels terminis d'inici o acabament.
 
 ---
 
@@ -2522,27 +2517,29 @@ Les llicències tenen fixats terminis per iniciar i per acabar les obres. L'inco
 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
-Les parcel·lacions urbanístiques són la divisió simultània o successiva de terrenys en dos o més lots. Estan sotmeses a control per garantir que s'ajustin al planejament i per evitar la formació de nuclis de població al marge de l'ordenació (TRLUC).
+La parcel·lació urbanística és la divisió de terrenys amb finalitat urbanística, sotmesa a control per evitar la formació de nuclis de població irregulars. La regula el TRLUC.
 
 ### Concepte i llicència
-És parcel·lació urbanística tota divisió de terrenys que, per les seves característiques, pugui donar lloc a la implantació d'usos urbans o a la formació de nous nuclis de població. Les parcel·lacions urbanístiques estan subjectes a llicència (o, segons el cas, a declaració d'innecessarietat); les segregacions i divisions han de respectar la parcel·la mínima i les condicions del planejament.
+És parcel·lació urbanística tota divisió simultània o successiva de terrenys en dos o més lots quan tingui per finalitat facilitar o dur a terme la construcció d'edificacions o la implantació d'usos urbanístics. Se subjecta a llicència de parcel·lació (o a la declaració d'innecessarietat), i és un requisit previ a la inscripció registral i a l'atorgament d'escriptures de divisió.
 
 ### Presumpció de parcel·lació urbanística
-La llei estableix una presumpció: es considera que hi ha parcel·lació urbanística quan, en sòl no urbanitzable o urbanitzable no delimitat, s'observen indicis materials (com l'obertura de camins, la implantació de serveis o la disposició d'edificacions) que pressuposen l'existència d'una transformació o l'aparició d'un nucli de població. Aquesta presumpció permet a l'Administració actuar davant divisions encobertes.
+La llei estableix una presumpció de parcel·lació urbanística: es presumeix que hi ha parcel·lació quan, en un terreny, concorren indicis materials o físics reveladors d'una possible transformació urbana (obertura de camins, instal·lació de serveis, divisions que no responen a l'explotació agrària, publicitat de venda de parcel·les). Aquesta presumpció facilita la reacció contra les parcel·lacions il·legals encobertes.
 
 ### Indivisibilitat i prohibicions
-En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques. Determinades finques són indivisibles (les de dimensió igual o inferior a la parcel·la mínima, o les vinculades a una edificació). Els notaris i registradors exigeixen l'acreditació de la llicència de parcel·lació o de la declaració d'innecessarietat per autoritzar o inscriure actes de divisió o segregació.
+Són indivisibles les parcel·les de dimensió igual o inferior a la mínima (i les que quedarien per sota en dividir-se), i les vinculades a una edificació per esgotament de l'edificabilitat. En sòl no urbanitzable, les parcel·lacions urbanístiques estan prohibides; només s'hi admeten les divisions o segregacions conformes amb la legislació agrària, forestal o de naturalesa anàloga, sempre que no comportin la formació de nucli de població.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Concepte**
-  - Parcel·lació urbanística: divisió de terrenys subjecta a llicència
-  - Prohibida en sòl no urbanitzable
+  - Divisió de terrenys amb finalitat urbanística
+  - Subjecta a llicència (o declaració d'innecessarietat)
 - **Presumpció**
-  - De parcel·lació davant indicis materials (camins, serveis)
-- **Indivisibilitat**
-  - Per sota de la parcel·la mínima; control notarial i registral
+  - Indicis materials (camins, serveis, venda de parcel·les)
+  - Facilita reaccionar contra parcel·lacions encobertes
+- **Indivisibilitat i prohibicions**
+  - Parcel·la mínima; vinculació per edificabilitat
+  - Prohibida en sòl no urbanitzable (evitar nucli de població)
 
-**Clau:** Parcel·lació urbanística: divisió de terrenys subjecta a llicència (o declaració d'innecessarietat). Prohibida en sòl no urbanitzable. Opera una presumpció de parcel·lació davant indicis materials (camins, serveis). Indivisibilitat per sota de la parcel·la mínima; control notarial i registral.
+**Clau:** Parcel·lació urbanística (TRLUC): divisió de terrenys en dos o més lots amb finalitat urbanística, subjecta a llicència de parcel·lació o declaració d'innecessarietat (requisit per a la inscripció registral). Presumpció de parcel·lació davant indicis materials (camins, serveis, venda de parcel·les). Indivisibilitat per sota de la parcel·la mínima o per esgotament de l'edificabilitat. En sòl no urbanitzable la parcel·lació urbanística està prohibida, per evitar la formació de nuclis de població.
 
 ---
 
@@ -2551,28 +2548,38 @@ En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques. De
 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)); **L11_2025** (Llei 11/2025 i DL 2/2025 (reforma urbanisme, vigent 31-12-2025)).
 
-La protecció de la legalitat urbanística és el conjunt de potestats que permeten a l'Administració restablir l'ordenació vulnerada per actuacions il·legals. Les competències corresponen, en primer terme, als ajuntaments, amb intervenció de la Generalitat en determinats casos (TRLUC).
+La protecció de la legalitat urbanística és el conjunt de potestats per restablir la realitat física i jurídica alterada per actuacions il·legals. La regulen el TRLUC (modificat per la Llei 11/2025), amb competències municipals i autonòmiques.
 
-### Inspecció urbanística
-La inspecció urbanística és l'activitat de comprovació del compliment de la legalitat. El personal inspector té la condició d'agent de l'autoritat i pot accedir als llocs, requerir informació i documentació i aixecar actes que tenen valor probatori. La inspecció és l'instrument que detecta les infraccions i activa els procediments de protecció de la legalitat i sancionador.
+### Competències municipals i autonòmiques
+La protecció de la legalitat correspon, en primer terme, als ajuntaments, dins el seu terme municipal; l'administració de la Generalitat hi actua de manera subsidiària o concurrent, especialment en el sòl no urbanitzable i quan l'ajuntament no exerceix les seves competències. Tots dos poden requerir-se i col·laborar.
+
+### La inspecció urbanística
+La inspecció urbanística és l'activitat de comprovació del compliment de la legalitat. El personal que la du a terme té la condició d'agent de l'autoritat, pot accedir als llocs i aixecar actes que gaudeixen de presumpció de veracitat. La inspecció és l'instrument que permet detectar les infraccions i iniciar les actuacions de protecció.
 
 ### Procediment de protecció de la legalitat
-Davant d'obres o usos sense llicència o que no s'hi ajusten, l'Administració incoa el procediment de protecció de la legalitat urbanística: si les obres estan en curs, n'ordena la suspensió immediata (mesura cautelar); tant si han acabat com si no, requereix la legalització (quan són legalitzables) o ordena la restauració de la realitat física alterada i de l'ordre jurídic vulnerat (quan no ho són), mitjançant l'enderroc o la reposició al seu estat anterior.
+Davant obres o usos sense títol o que no s'hi ajusten, l'administració:
+
+- Si les obres estan en curs, ordena la seva suspensió immediata (mesura cautelar).
+- Requereix la legalització (sol·licitud de la llicència) si l'actuació és legalitzable.
+- Si no és legalitzable, o no es legalitza, ordena la restauració de la realitat física alterada i de l'ordre jurídic vulnerat (enderroc, reposició).
 
 ### Relació amb el procediment sancionador
-La restauració de la legalitat i la sanció són actuacions independents i compatibles: la imposició d'una multa per la infracció comesa no eximeix del deure de restaurar la realitat alterada, i a la inversa. L'acció de restauració està sotmesa a un termini de prescripció (sis anys des de l'acabament de les obres, amb caràcter general, i imprescriptible en sòl no urbanitzable d'especial protecció), mentre que la sanció prescriu segons la gravetat de la infracció.
+Les actuacions de restabliment de la legalitat són independents i compatibles amb la incoació del procediment sancionador per la infracció comesa: la sanció (multa) no eximeix del deure de restaurar, ni a la inversa. L'acció de restauració prescriu, amb caràcter general, al cap de sis anys des de l'acabament de les obres (és imprescriptible en sòl no urbanitzable d'especial protecció).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Competències**
+  - Municipals (primer terme)
+  - Autonòmiques (subsidiàries; sòl no urbanitzable)
 - **Inspecció**
-  - Agents de l'autoritat; aixequen acta
+  - Agents de l'autoritat; actes amb presumpció de veracitat
 - **Procediment**
-  - Suspensió cautelar + legalització o restauració de la realitat alterada
-- **Relació amb la sanció**
-  - Independent i compatible amb el procediment sancionador
-- **Termini**
+  - Suspensió immediata (obres en curs)
+  - Legalització si és legalitzable; si no, restauració
+- **Sanció**
+  - Independent i compatible amb la restauració
   - Restauració: 6 anys (imprescriptible en SNU protegit)
 
-**Clau:** Protecció de la legalitat urbanística (ajuntaments + Generalitat): inspecció (agents de l'autoritat) + suspensió cautelar + legalització o restauració de la realitat alterada. És independent i compatible amb el procediment sancionador. Restauració: 6 anys (imprescriptible en SNU protegit).
+**Clau:** Protecció de la legalitat urbanística (TRLUC, Llei 11/2025): competència municipal (primer terme) i autonòmica (subsidiària, sòl no urbanitzable). Inspecció urbanística: agents de l'autoritat amb actes de presumpció de veracitat. Procediment: suspensió immediata de les obres en curs; legalització si és legalitzable, o restauració de la realitat alterada si no ho és. És independent i compatible amb el procediment sancionador. L'acció de restauració prescriu als 6 anys (imprescriptible en sòl no urbanitzable d'especial protecció).
 
 ---
 
@@ -2581,30 +2588,34 @@ La restauració de la legalitat i la sanció són actuacions independents i comp
 
 Normes: **L20_2009** (Llei 20/2009 de prevenció i control ambiental de les activitats).
 
-La intervenció i el control administratiu de les activitats amb incidència ambiental a Catalunya es regulen per la Llei 20/2009, de prevenció i control ambiental de les activitats (PCAA), que gradua els règims d'intervenció segons la incidència ambiental de cada activitat.
+La intervenció administrativa de les activitats amb incidència ambiental té per objecte prevenir i controlar la contaminació. A Catalunya la regula la Llei 20/2009, de prevenció i control ambiental de les activitats (PCAA).
 
-### Règims d'intervenció segons la incidència
-- Activitats d'alta incidència ambiental (annex I): se sotmeten a autorització ambiental, atorgada per la Generalitat, que integra els diferents vectors ambientals (i, si escau, l'avaluació d'impacte ambiental).
-- Activitats de mitjana incidència (annex II): se sotmeten a llicència ambiental, atorgada per l'ajuntament, amb un control previ municipal.
-- Activitats de baixa incidència (annex III): se sotmeten al règim de comunicació (declaració responsable o comunicació prèvia), amb control posterior.
+### Objecte i règims d'intervenció
+La Llei 20/2009 estableix el sistema d'intervenció de les activitats en funció de la seva incidència ambiental, classificant-les en annexos. Els règims, de més a menys intensitat de control, són:
+
+- Autorització ambiental (annex I): per a les activitats amb una incidència ambiental alta; l'atorga la Generalitat, amb avaluació d'impacte ambiental quan escau.
+- Llicència ambiental (annex II): per a les activitats amb incidència ambiental moderada; l'atorga l'ajuntament, amb control previ.
+- Règim de comunicació (annex III): per a les activitats amb incidència ambiental baixa; n'hi ha prou amb la comunicació, amb control posterior.
 
 ### Procediment i avaluació ambiental
-Els procediments d'autorització i de llicència ambiental incorporen, segons el cas, l'avaluació d'impacte ambiental, els informes dels organismes sectorials competents (aigües, residus, emissions, etc.) i, quan escau, la informació pública. La resolució fixa les condicions de funcionament i les mesures correctores que ha de complir l'activitat.
+El procediment integra els diferents vessants ambientals (emissions a l'atmosfera, abocaments, residus, sorolls) en un únic acte. Per a les activitats de l'annex I s'incorpora, si escau, l'avaluació d'impacte ambiental, que conclou amb la declaració d'impacte ambiental. Es requereixen els informes preceptius i la participació pública.
 
 ### Controls i règim sancionador
-Les activitats sotmeses a autorització o llicència estan subjectes a controls ambientals periòdics que verifiquen el manteniment de les condicions imposades. L'incompliment de la normativa o de les condicions pot donar lloc a l'exercici de la potestat sancionadora i, en casos greus, a la suspensió o el tancament de l'activitat. La comunicació prèvia inexacta o falsa impedeix la continuïtat de l'activitat des que se'n té constància.
+Un cop en funcionament, les activitats se sotmeten a controls ambientals periòdics (inicial i periòdics) per verificar que s'ajusten a les condicions autoritzades. L'incompliment de la normativa ambiental dona lloc a un règim sancionador, amb infraccions i sancions graduades segons la gravetat, i pot comportar la clausura de l'activitat.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Règims (Llei 20/2009, PCAA)**
+- **Règims (Llei 20/2009)**
   - Autorització ambiental (annex I, Generalitat)
-  - Llicència ambiental (annex II, ajuntament, control previ)
+  - Llicència ambiental (annex II, ajuntament)
   - Comunicació (annex III, control posterior)
-- **Avaluació**
-  - Avaluació d'impacte ambiental quan escau
-- **Controls**
-  - Controls ambientals periòdics i règim sancionador
+- **Procediment**
+  - Acte integrat (atmosfera, abocaments, residus, sorolls)
+  - Avaluació d'impacte ambiental (DIA) si escau
+- **Control**
+  - Controls ambientals periòdics
+  - Règim sancionador; possible clausura
 
-**Clau:** Llei 20/2009 (PCAA): autorització ambiental (alta incidència, annex I, Generalitat), llicència ambiental (mitjana, annex II, ajuntament, control previ) i règim de comunicació (baixa, annex III, control posterior). Controls ambientals periòdics i règim sancionador.
+**Clau:** Intervenció ambiental de les activitats (Llei 20/2009, PCAA). Règims segons la incidència: autorització ambiental (annex I, alta incidència, Generalitat), llicència ambiental (annex II, moderada, ajuntament, control previ) i règim de comunicació (annex III, baixa, control posterior). Procediment integrat dels vessants ambientals, amb avaluació d'impacte ambiental (DIA) quan escau. Controls ambientals periòdics i règim sancionador que pot comportar la clausura.
 
 ---
 
@@ -2613,29 +2624,36 @@ Les activitats sotmeses a autorització o llicència estan subjectes a controls 
 
 Normes: **L11_2009** (Llei 11/2009 d'espectacles públics i activitats recreatives).
 
-Els espectacles públics i les activitats recreatives a Catalunya es regulen per la Llei 11/2009 i el seu reglament, que estableixen els règims d'intervenció (llicència o comunicació) i les condicions de seguretat dels establiments oberts al públic.
+Els espectacles públics i les activitats recreatives (bars, restaurants, sales, activitats musicals) tenen un règim d'intervenció específic per garantir la seguretat de les persones i la convivència. A Catalunya els regula la Llei 11/2009, de regulació administrativa dels espectacles públics i les activitats recreatives.
 
 ### Àmbit i règims d'intervenció
-La Llei 11/2009 regula l'organització i la celebració d'espectacles públics i activitats recreatives i el funcionament dels establiments oberts al públic on es duen a terme. Segons el tipus d'establiment, l'aforament i el risc, la intervenció es fa mitjançant llicència municipal (control previ) o mitjançant comunicació prèvia. Els espectacles i les activitats de caràcter extraordinari o els organitzats amb motiu de festes tenen un règim específic d'autorització.
+La Llei 11/2009 s'aplica als establiments oberts al públic, als espectacles públics i a les activitats recreatives. La intervenció es gradua segons l'aforament, el risc i el tipus d'activitat:
+
+- Llicència municipal d'establiment obert al públic: per als establiments de més entitat.
+- Comunicació prèvia: per als establiments i les activitats de menor aforament i risc.
+- Autoritzacions específiques per als espectacles i les activitats de caràcter extraordinari o amb règims especials.
 
 ### Condicions i llicència d'establiments oberts al públic
-La llicència o la comunicació han de garantir el compliment de les condicions de seguretat, d'autoprotecció, d'higiene, d'accessibilitat, de protecció contra incendis i de control del soroll, així com el respecte dels horaris i de l'aforament autoritzat. Sovint la tramitació es coordina amb el règim ambiental de l'activitat i amb la normativa d'incendis.
+Els establiments han de complir condicions tècniques de seguretat (estructural i contra incendis), d'aforament, d'accessibilitat, d'higiene i de protecció acústica, i disposar, quan escau, d'un pla d'autoprotecció. La llicència comprova el compliment d'aquestes condicions abans de l'obertura; sovint s'articula de manera coordinada amb la intervenció ambiental de l'activitat.
 
 ### Control, inspecció i sancions
-L'Administració exerceix funcions d'inspecció i control del compliment de les condicions. La normativa tipifica les infraccions (lleus, greus i molt greus) i les sancions corresponents, que poden incloure multes, la suspensió o la clausura de l'establiment i la prohibició d'activitats. Les administracions competents són els ajuntaments i la Generalitat segons el tipus d'establiment o d'espectacle.
+L'administració exerceix funcions de control i inspecció per comprovar que l'activitat s'ajusta a les condicions i a l'horari autoritzats. Els incompliments (excés d'aforament, sorolls, manca de mesures de seguretat, horaris) constitueixen infraccions sotmeses a un règim sancionador amb multes i, si escau, la suspensió o la clausura de l'activitat.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Marc**
-  - Llei 11/2009 (espectacles públics i activitats recreatives)
+  - Llei 11/2009 (espectacles i activitats recreatives)
 - **Intervenció**
-  - Llicència municipal o comunicació prèvia segons risc i aforament
-  - Règim específic per als espectacles extraordinaris
+  - Llicència d'establiment obert (més entitat)
+  - Comunicació prèvia (menor aforament/risc)
+  - Autoritzacions per a espectacles extraordinaris
 - **Condicions**
-  - Seguretat, autoprotecció i incendis
+  - Seguretat, incendis, aforament, accessibilitat, soroll
+  - Pla d'autoprotecció; coordinació amb la intervenció ambiental
 - **Control**
-  - Inspecció i règim sancionador
+  - Inspecció d'aforament i horaris
+  - Règim sancionador; suspensió o clausura
 
-**Clau:** Llei 11/2009 (espectacles públics i activitats recreatives): intervenció per llicència municipal o comunicació prèvia segons el risc i l'aforament; règim específic per als espectacles extraordinaris. Condicions de seguretat, autoprotecció i incendis. Inspecció i règim sancionador.
+**Clau:** Espectacles públics i activitats recreatives (Llei 11/2009): intervenció segons aforament i risc mitjançant llicència municipal d'establiment obert al públic (més entitat), comunicació prèvia (menor entitat) i autoritzacions per a espectacles extraordinaris. Condicions de seguretat, incendis, aforament, accessibilitat i soroll, amb pla d'autoprotecció, coordinades amb la intervenció ambiental. Control i inspecció d'aforament i horaris; règim sancionador amb multes, suspensió o clausura.
 
 ---
 
@@ -2644,33 +2662,35 @@ L'Administració exerceix funcions d'inspecció i control del compliment de les 
 
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic); **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)).
 
-Els projectes d'obres locals defineixen tècnicament les obres que han d'executar les entitats locals. Es redacten pels serveis tècnics municipals o per tècnics competents externs, i es regeixen pel ROAS (D 179/1995) i per la LCSP.
+Els projectes d'obres locals són els documents tècnics que defineixen les obres que executen les entitats locals. La seva elaboració i tramitació es regeixen per la legislació de contractes (LCSP) i pel Reglament d'obres, activitats i serveis dels ens locals (ROAS).
 
 ### Concepte i contingut
-El projecte d'obres és el document tècnic que defineix amb precisió l'obra, de manera que es pugui executar i valorar. Comprèn, com a mínim:
+El projecte d'obres és el document que defineix amb precisió l'obra a executar. El seu contingut mínim comprèn:
 
-- La memòria (que descriu i justifica la solució adoptada)
-- Els plànols de conjunt i de detall
-- El plec de prescripcions tècniques particulars
-- El pressupost (amb els amidaments, els quadres de preus i el pressupost d'execució)
-- Segons el cas, l'estudi de seguretat i salut, el programa de treball i els estudis geotècnics i altres complementaris
+- La memòria (descriptiva i justificativa de la solució adoptada).
+- Els plànols de conjunt i de detall.
+- El plec de prescripcions tècniques particulars.
+- El pressupost, amb els amidaments i el quadre de preus.
+- L'estudi (o estudi bàsic) de seguretat i salut i, si escau, el programa de treball.
 
 ### Redacció i classes de projectes
-Els projectes els redacten els serveis tècnics de la pròpia entitat o, quan aquesta no disposa de mitjans suficients, tècnics competents contractats a aquest efecte (mitjançant un contracte de serveis d'elaboració de projectes). Es distingeixen, entre d'altres, els projectes d'obres de primer establiment, de reforma o gran reparació, de reparació simple, de conservació i manteniment, i de demolició.
+El projecte pot ser redactat pels serveis tècnics municipals o encarregat a tècnics o equips externs (mitjançant un contracte de serveis). Segons l'entitat de l'obra, es distingeix el projecte complet (obres de nova planta o de gran reforma) de la memòria valorada, document simplificat admissible per a obres de menor entitat, de reparació menor o de manteniment.
 
 ### Supervisió, aprovació i replanteig
-Abans de l'aprovació, els projectes d'import elevat o que afectin l'estabilitat, la seguretat o l'estanqueïtat de les obres se sotmeten a la supervisió d'una oficina o unitat tècnica (art. 235 LCSP). Un cop aprovat el projecte per l'òrgan competent, es fa el replanteig, que comprova la realitat geomètrica de l'obra i la disponibilitat dels terrenys necessaris per a l'execució.
+Abans d'aprovar-lo, el projecte se sotmet a supervisió tècnica quan la seva quantia o naturalesa ho requereix (art. 235 LCSP), per verificar que compleix la normativa. Un cop aprovat per l'òrgan competent (amb informació pública quan escau, segons el ROAS), es fa el replanteig, que comprova la viabilitat geomètrica de l'obra i la disponibilitat dels terrenys, com a requisit previ a la licitació i l'execució.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Contingut**
-  - Projecte d'obres locals: memòria + plànols + plec de prescripcions tècniques + pressupost
-  - + estudi de seguretat i salut
+  - Memòria, plànols, plec de prescripcions tècniques
+  - Pressupost (amidaments, preus) i estudi de seguretat i salut
 - **Redacció**
-  - Serveis tècnics municipals o tècnics externs
+  - Serveis tècnics municipals o equips externs
+  - Projecte complet vs memòria valorada (obres menors)
 - **Tramitació**
-  - Supervisió preceptiva en obres rellevants (art. 235 LCSP), aprovació i replanteig
+  - Supervisió (art. 235 LCSP)
+  - Aprovació + replanteig previ a l'execució
 
-**Clau:** Projecte d'obres locals (ROAS/LCSP): memòria + plànols + plec de prescripcions tècniques + pressupost (+ estudi de seguretat i salut). Redacció pels serveis tècnics municipals o per tècnics externs. Supervisió preceptiva en obres rellevants (235), aprovació i replanteig.
+**Clau:** Projectes d'obres locals (ROAS, LCSP). Contingut: memòria, plànols, plec de prescripcions tècniques, pressupost (amidaments i preus) i estudi de seguretat i salut. Redacció pels serveis tècnics municipals o per equips externs; projecte complet o memòria valorada (obres de menor entitat). Tramitació: supervisió preceptiva en obres rellevants (art. 235 LCSP), aprovació i replanteig previ a la licitació i l'execució.
 
 ---
 
@@ -2679,30 +2699,33 @@ Abans de l'aprovació, els projectes d'import elevat o que afectin l'estabilitat
 
 Normes: **LOE** (Llei 38/1999 d'ordenació de l'edificació); **CTE** (RD 314/2006 (Codi tècnic de l'edificació)).
 
-L'edificació està sotmesa a uns requisits bàsics de funcionalitat, seguretat i habitabilitat, establerts per la Llei 38/1999, d'ordenació de l'edificació (LOE), i desplegats pel Codi tècnic de l'edificació (CTE, RD 314/2006).
+L'edificació és el procés de construcció d'edificis, subjecte a uns requisits bàsics de qualitat. El regula la Llei 38/1999, d'ordenació de l'edificació (LOE), desplegada pel Codi tècnic de l'edificació (CTE, RD 314/2006).
 
-### Requisits bàsics (art. 3 LOE)
-- Funcionalitat: utilització adequada, accessibilitat i accés als serveis de telecomunicacions i altres.
-- Seguretat: estructural (que l'edifici no es deteriori ni s'enrunni), en cas d'incendi (limitar el risc i permetre l'evacuació) i d'utilització (que el seu ús no comporti riscos d'accident).
-- Habitabilitat: higiene, salut i protecció del medi ambient; protecció contra el soroll; estalvi d'energia i aïllament tèrmic; i altres aspectes funcionals d'interès general.
+### Requisits bàsics de les edificacions (art. 3 LOE)
+La LOE exigeix que els edificis compleixin uns requisits bàsics, agrupats en tres blocs:
+
+- Funcionalitat: utilització (adequació dels espais a l'ús), accessibilitat i accés als serveis de telecomunicacions.
+- Seguretat: estructural (resistència i estabilitat), en cas d'incendi (evacuació i limitació de la propagació) i d'utilització (prevenció de riscos d'accident).
+- Habitabilitat: higiene i salut, protecció contra el soroll, estalvi d'energia i aïllament tèrmic, i protecció del medi ambient.
 
 ### El Codi tècnic de l'edificació
-El CTE és el marc normatiu que estableix les exigències bàsiques de qualitat que han de complir els edificis, mitjançant els documents bàsics (DB) corresponents (seguretat estructural, seguretat en cas d'incendi, seguretat d'utilització i accessibilitat, salubritat, protecció contra el soroll i estalvi d'energia). S'aplica a les edificacions de nova construcció i a determinades intervencions en edificis existents.
+El CTE (RD 314/2006) és el marc normatiu que estableix les exigències bàsiques de qualitat i les concreta en documents bàsics (DB): DB-SE (seguretat estructural), DB-SI (seguretat en cas d'incendi), DB-SUA (seguretat d'utilització i accessibilitat), DB-HS (salubritat), DB-HR (protecció contra el soroll) i DB-HE (estalvi d'energia). El compliment del CTE és exigible al projecte i a l'obra executada.
 
-### Agents de l'edificació i garanties
-La LOE defineix els agents que intervenen en el procés: el promotor, el projectista, el constructor, el director d'obra, el director de l'execució de l'obra, les entitats i els laboratoris de control de qualitat, i els subministradors de productes. Estableix, a més, un règim de responsabilitats i garanties per danys materials per vicis o defectes, amb terminis d'un any (defectes d'acabament o terminació), tres anys (defectes que afecten l'habitabilitat) i deu anys (defectes que afecten l'estabilitat i la seguretat estructural).
+### Ecoeficiència i agents de l'edificació
+L'ecoeficiència en els edificis (estalvi d'aigua i energia, ús de materials i gestió de residus) es vincula al DB-HE i a la normativa catalana d'ecoeficiència. En el procés hi intervenen els agents de l'edificació que defineix la LOE: el promotor, el projectista, el constructor, el director d'obra, el director d'execució de l'obra i les entitats i laboratoris de control. La LOE fixa les garanties per danys materials segons l'element: un any (acabament), tres anys (habitabilitat) i deu anys (estructura).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Requisits bàsics (art. 3 LOE)**
-  - Funcionalitat, seguretat (estructural, incendi, utilització) i habitabilitat
-- **CTE**
-  - RD 314/2006: documents bàsics que despleguen les exigències
-- **Agents**
-  - Promotor, projectista, constructor, direcció d'obra i d'execució
-- **Garanties**
-  - 1, 3 i 10 anys segons l'element
+- **Requisits (art. 3 LOE)**
+  - Funcionalitat (ús, accessibilitat)
+  - Seguretat (estructural, incendi, utilització)
+  - Habitabilitat (salut, soroll, energia)
+- **CTE (RD 314/2006)**
+  - Documents bàsics (DB-SE, DB-SI, DB-SUA, DB-HS, DB-HR, DB-HE)
+- **Agents i garanties**
+  - Promotor, projectista, constructor, direccions
+  - Garanties: 1, 3 i 10 anys segons l'element
 
-**Clau:** Edificació: LOE (38/1999) → requisits bàsics de funcionalitat, seguretat (estructural, incendi, utilització) i habitabilitat, desplegats pel CTE (RD 314/2006, documents bàsics). Agents: promotor, projectista, constructor, direcció d'obra i d'execució. Garanties: 1, 3 i 10 anys segons l'element.
+**Clau:** Edificació (LOE, Llei 38/1999). Requisits bàsics (art. 3): funcionalitat (ús, accessibilitat), seguretat (estructural, incendi, utilització) i habitabilitat (salut, soroll, estalvi d'energia). El Codi tècnic de l'edificació (CTE, RD 314/2006) els concreta en documents bàsics (DB-SE, DB-SI, DB-SUA, DB-HS, DB-HR, DB-HE), amb l'ecoeficiència vinculada al DB-HE. Agents de l'edificació: promotor, projectista, constructor, director d'obra i d'execució. Garanties per danys: 1, 3 i 10 anys segons l'element.
 
 ---
 
@@ -2711,26 +2734,33 @@ La LOE defineix els agents que intervenen en el procés: el promotor, el project
 
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic); **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)).
 
-L'execució de les obres locals es pot dur a terme mitjançant contracte o per la mateixa Administració amb mitjans propis. La classificació del contractista acredita la solvència en determinats contractes d'obres (ROAS i LCSP).
+L'execució de les obres locals és la fase de materialització física del projecte. Es pot fer per contracte o per mitjans propis, i es regeix per la LCSP i el ROAS.
 
 ### Execució per contracte
-És la regla general: l'obra s'executa a través d'un contracte d'obres adjudicat conforme a la LCSP, amb el projecte prèviament aprovat. L'execució es desenvolupa sota la direcció facultativa i amb el control de l'Administració, i es documenta mitjançant les certificacions d'obra, fins a la recepció i la liquidació.
+La regla general és l'execució mitjançant contracte d'obres, adjudicat a un contractista, amb el projecte prèviament aprovat, l'acta de comprovació del replanteig i la direcció facultativa. L'obra es documenta amb les certificacions d'obra (mensuals, a compte) i finalitza amb la recepció i el termini de garantia.
 
-### Execució per la pròpia Administració (mitjans propis)
-L'Administració pot executar obres amb els seus propis serveis i mitjans personals i materials, o amb la col·laboració d'empresaris particulars, només en els supòsits taxats de l'art. 30 de la LCSP (per exemple, quan disposa de mitjans propis adequats, en casos d'emergència, o quan es tracta d'obres que, per la seva naturalesa, no convé contractar). Cal que concorrin les circumstàncies legals i que es justifiqui.
+### Execució per mitjans propis
+L'administració pot executar l'obra amb els seus propis mitjans (personal i maquinària), en els supòsits taxats de l'art. 30 LCSP: per exemple, quan disposa de serveis tècnics idonis, per raons d'economia o urgència, o quan es tracta d'obres de mera conservació. Pot també contractar només part de les prestacions.
 
 ### La classificació del contractista
-La classificació empresarial és el requisit que acredita la solvència econòmica, financera i tècnica de les empreses per contractar determinades obres. És exigible en els contractes d'obres de valor estimat igual o superior al llindar legal; per sota, l'empresari pot acreditar la solvència pels mitjans alternatius previstos al plec. La classificació s'atorga per categories i grups segons el tipus i l'import de l'obra.
+Per contractar determinades obres (a partir del llindar legal), l'empresari ha d'acreditar la seva solvència mitjançant la classificació empresarial, atorgada per l'òrgan competent en funció de la seva experiència i mitjans, i que l'habilita per a un grup, subgrup i categoria d'obres. Per sota del llindar, la solvència s'acredita pels mitjans generals.
+
+### Direcció, control i recepció
+La direcció facultativa (director d'obra, director d'execució i coordinador de seguretat i salut) dirigeix i controla l'execució. El control de qualitat verifica que els materials i les unitats d'obra s'ajusten al projecte. En acabar, es formalitza la recepció mitjançant acta, que inicia el termini de garantia, i posteriorment la liquidació.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Per contracte**
-  - Regla general: amb projecte aprovat i direcció facultativa
+  - Regla general: projecte + direcció facultativa
+  - Certificacions i recepció
 - **Per mitjans propis**
   - Supòsits taxats (art. 30 LCSP)
 - **Classificació del contractista**
-  - Acredita la solvència en obres a partir del llindar legal
+  - Acredita la solvència en obres a partir del llindar
+- **Direcció i recepció**
+  - Director d'obra, d'execució i coordinador de SS
+  - Control de qualitat; recepció → garantia → liquidació
 
-**Clau:** Execució d'obres locals: per contracte (regla general, amb projecte aprovat i direcció facultativa) o per la pròpia Administració amb mitjans propis (supòsits taxats, art. 30 LCSP). La classificació del contractista acredita la solvència en obres a partir del llindar legal.
+**Clau:** Execució d'obres locals (LCSP, ROAS). Per contracte (regla general): projecte aprovat, direcció facultativa, certificacions i recepció. Per mitjans propis municipals en supòsits taxats (art. 30 LCSP). La classificació del contractista acredita la solvència en obres a partir del llindar legal. Direcció facultativa (director d'obra, director d'execució i coordinador de seguretat i salut) i control de qualitat; recepció formal, termini de garantia i liquidació.
 
 ---
 
@@ -2739,27 +2769,29 @@ La classificació empresarial és el requisit que acredita la solvència econòm
 
 Normes: **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)).
 
-L'organització i la coordinació de la realització d'obres municipals comprenen la planificació de les tasques, les accions i els projectes a desenvolupar, així com la coordinació amb la resta d'agents i serveis afectats.
+L'organització i la coordinació de les obres municipals comprèn la planificació de les tasques i la seva execució per part dels serveis tècnics. Es relaciona amb el ROAS i la resta de normativa d'obres.
 
 ### Planificació i organització
-La gestió d'obres municipals segueix un cicle: planificar (definir objectius, tasques, terminis i recursos), organitzar (assignar i coordinar els equips i els mitjans), executar (dirigir i fer el seguiment de l'obra mitjançant la direcció facultativa i les certificacions) i controlar (verificar el compliment de la qualitat, el cost i el termini, i adoptar les mesures correctores). Una bona programació evita endarreriments i sobrecostos.
+La gestió de les obres municipals segueix un cicle: planificar (identificar les actuacions, els objectius, l'abast i els terminis), organitzar (assignar recursos, humans i materials, propis o externs), executar i controlar. Com que els recursos són limitats, cal prioritzar les actuacions segons la urgència (especialment les de seguretat), l'interès públic, les obligacions legals i la disponibilitat pressupostària.
 
 ### Coordinació amb agents i serveis
-L'execució d'obres a la via pública o en equipaments exigeix coordinar-se amb les companyies de serveis (aigua, electricitat, gas, telecomunicacions), amb els serveis municipals de mobilitat, neteja i seguretat, i amb el veïnat i les activitats afectades, per minimitzar les molèsties i garantir la seguretat. Cal preveure els desviaments de trànsit, els talls de serveis i la senyalització.
+L'execució exigeix coordinar-se amb múltiples agents: les companyies subministradores de serveis (aigua, electricitat, gas, telecomunicacions) per als serveis afectats, els responsables de la mobilitat i el trànsit, els veïns i les activitats afectades, i altres administracions. Una bona coordinació evita solapaments, minimitza les molèsties i optimitza els recursos.
 
 ### Seguretat i salut i documentació
-Quan en l'obra intervé més d'una empresa, és preceptiva la coordinació de seguretat i salut, amb la designació d'un coordinador i l'aprovació del pla de seguretat i salut. Tota l'obra es documenta (acta de replanteig, llibre d'ordres, certificacions, acta de recepció), i se'n fa el control econòmic per assegurar l'ajust al pressupost i la correcta justificació de la despesa.
+Quan en una obra concorren diverses empreses o treballadors autònoms, cal designar un coordinador de seguretat i salut i aprovar un pla de seguretat i salut. Tota l'activitat s'ha de documentar (projecte, actes, certificacions, informes) i sotmetre a un control econòmic (seguiment de costos i terminis) que permeti detectar i reconduir les desviacions.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Planificació**
-  - Planificar – organitzar – executar – controlar (tasques, terminis, recursos)
+  - Planificar – organitzar – executar – controlar
+  - Prioritzar per urgència, interès públic i pressupost
 - **Coordinació**
-  - Amb companyies de serveis, mobilitat i veïnat
-- **Seguretat i salut**
-  - Coordinador + pla de seguretat si hi ha diverses empreses
-  - Documentació i control econòmic
+  - Companyies de serveis, mobilitat, veïnat
+  - Evitar solapaments i molèsties
+- **Seguretat i documentació**
+  - Coordinador i pla de seguretat i salut
+  - Documentació i control econòmic; reconducció de desviacions
 
-**Clau:** Gestió d'obres municipals: planificar – organitzar – executar – controlar (tasques, terminis, recursos). Coordinació amb companyies de serveis, mobilitat i veïnat. Coordinació de seguretat i salut obligatòria si hi ha diverses empreses (coordinador + pla de seguretat). Documentació i control econòmic.
+**Clau:** Organització d'obres municipals (ROAS). Cicle: planificar – organitzar – executar – controlar, prioritzant per urgència, interès públic i disponibilitat pressupostària. Coordinació amb companyies de serveis, mobilitat i veïnat per minimitzar afectacions. Quan concorren diverses empreses, coordinador i pla de seguretat i salut. Documentació completa i control econòmic (costos i terminis) per detectar i reconduir desviacions.
 
 ---
 
