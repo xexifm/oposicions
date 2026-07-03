@@ -225,42 +225,57 @@ Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 ### 🧠 Repàs ràpid · esquema clau
 - **Acte ≠ reglament**
   - Acte: aplica l'ordenament a un cas i s'esgota
-  - Inderogabilitat singular (art. 37 de la Llei 39/2015)
+  - Inderogabilitat singular (art. 37)
 - **Classes**
   - Favorables / de gravamen
   - Resolutoris / de tràmit (qualificats: art. 112)
+  - Expressos / presumptes
 - **Elements**
-  - Subjectiu, objectiu, teleològic (desviació de poder) i formal
-- **Motivació i silenci**
-  - Motivació obligatòria (art. 35): gravamen, discrecionals, sancionadors
-  - Silenci: positiu de regla; d'ofici desfavorable, caducitat
+  - Subjectiu, objectiu, teleològic (desviació de poder), formal
+- **Motivació (art. 35)**
+  - Obligatòria: gravamen, discrecionals, sancionadors, recursos
+- **Silenci**
+  - A instància: positiu de regla; negatiu si excepció
+  - D'ofici desfavorable: caducitat
+  - Mai facultats contra l'ordenament
 
-L'acte administratiu és tota declaració de voluntat, de judici, de coneixement o de desig dictada per una administració en exercici d'una potestat administrativa diferent de la reglamentària. Es regeix per la Llei 39/2015.
+L'acte administratiu és tota declaració de voluntat, judici, coneixement o desig dictada per una administració en exercici d'una potestat administrativa diferent de la reglamentària. Es regeix per la Llei 39/2015. El tema en tracta les classes, els elements de validesa, la motivació i el silenci administratiu.
 
-### Concepte i distinció del reglament
-L'acte administratiu aplica l'ordenament a un cas concret i s'esgota amb el seu compliment, mentre que el reglament és una norma que s'integra a l'ordenament, amb rang superior i vocació de permanència. Per això un acte, encara que el dicti un òrgan superior, no pot vulnerar un reglament (inderogabilitat singular dels reglaments, art. 37 de la Llei 39/2015).
+### 1. Concepte i distinció del reglament
+L'acte aplica l'ordenament a un cas concret i s'esgota amb el compliment; el reglament és una norma que s'integra a l'ordenament, amb rang superior i vocació de permanència. Per això un acte, encara que el dicti un òrgan superior, no pot vulnerar un reglament: és la inderogabilitat singular dels reglaments (art. 37 de la Llei 39/2015).
 
-### Classes d'actes
-Els actes es classifiquen segons diversos criteris:
+### 2. Classes d'actes
+Els actes es classifiquen per diversos criteris:
 
-- Segons la incidència: favorables (amplien la situació jurídica: llicències, subvencions) i de gravamen (la restringeixen: sancions, ordres).
-- Resolutoris (decideixen el fons) i de tràmit (impulsen el procediment); només es poden recórrer separadament els actes de tràmit qualificats (art. 112 de la Llei 39/2015).
-- Expressos i presumptes (produïts per silenci).
-- Que posen fi o no a la via administrativa; ferms o no ferms.
+| Criteri | Classes |
+| --- | --- |
+| Per la incidència | Favorables (amplien drets: llicències, subvencions) / de gravamen (els restringeixen: sancions, ordres) |
+| Per la funció | Resolutoris (decideixen el fons) / de tràmit (impulsen); només es recorren els de tràmit qualificats (art. 112) |
+| Per la manifestació | Expressos / presumptes (per silenci) |
+| Per la via | Que posen fi o no a la via administrativa; ferms o no ferms |
 
-### Elements de validesa
-Un acte és vàlid si concorren:
+### 3. Elements de validesa
+Un acte és vàlid si concorren quatre elements:
 
-- L'element subjectiu (òrgan competent, vàlidament investit i sense causa d'abstenció)
-- L'element objectiu (contingut lícit, possible i determinat o determinable)
-- L'element causal o teleològic (adequació al fi d'interès públic; apartar-se'n és desviació de poder, causa d'anul·labilitat)
-- L'element formal (producció a través del procediment degut i amb la forma escaient)
+- Subjectiu: òrgan competent, vàlidament investit i sense causa d'abstenció.
+- Objectiu: contingut lícit, possible i determinat o determinable.
+- Teleològic (causal): adequació al fi d'interès públic; apartar-se'n és desviació de poder (causa d'anul·labilitat).
+- Formal: producció a través del procediment degut i amb la forma escaient.
 
-### La motivació
-La motivació és l'expressió de les raons de fet i de dret que fonamenten l'acte. L'art. 35 de la Llei 39/2015 la fa obligatòria, entre altres, en els actes que limiten drets, els que resolen recursos o procediments de revisió, els que se separen del criteri precedent o del dictamen d'òrgans consultius, els discrecionals i els sancionadors. La manca o la insuficiència de motivació pot generar indefensió i, per tant, anul·labilitat.
+### 4. La motivació (art. 35 de la Llei 39/2015)
+La motivació és l'expressió de les raons de fet i de dret de l'acte. És obligatòria, entre altres, en els actes que limiten drets, els que resolen recursos o revisions, els que se separen del criteri precedent o del dictamen d'òrgans consultius, els discrecionals i els sancionadors. La manca o insuficiència de motivació pot causar indefensió i, per tant, anul·labilitat.
 
-### El silenci administratiu
-Quan l'administració incompleix el deure de resoldre, opera el silenci. A instància de part, el silenci és, com a regla general, positiu (produeix un acte veritable), llevat de les excepcions taxades (per exemple, l'exercici del dret de petició o quan una norma amb rang de llei o de dret de la UE ho estableixi), i mai no atorga facultats contràries a l'ordenament. En els procediments iniciats d'ofici dels quals es puguin derivar efectes desfavorables, el silenci comporta la caducitat.
+### 5. El silenci administratiu
+Quan l'administració incompleix el deure de resoldre, opera el silenci, amb efectes diferents segons com s'iniciï el procediment:
+
+| Inici del procediment | Efecte del silenci |
+| --- | --- |
+| A instància de part (regla general) | Positiu (estimatori): produeix un acte veritable |
+| A instància de part (excepcions taxades) | Negatiu: dret de petició, medi ambient, o quan ho fixi una llei o el dret de la UE |
+| D'ofici amb possibles efectes favorables | Negatiu (desestimatori) |
+| D'ofici amb possibles efectes desfavorables | Caducitat del procediment |
+
+El silenci mai no permet adquirir facultats o drets contraris a l'ordenament jurídic.
 
 ---
 
@@ -275,33 +290,45 @@ Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
   - Notificació en 10 dies (art. 40)
 - **Executivitat**
   - Immediatament executius; autotutela
-  - Execució forçosa (arts. 99-105): constrenyiment, subsidiària, multa coercitiva
-- **Invalidesa**
-  - Nul·litat (art. 47): taxada, ex tunc, imprescriptible
-  - Anul·labilitat (art. 48): regla; forma només si causa indefensió; convalidable (art. 52)
+  - Execució forçosa (arts. 99-105)
+- **Nul·litat (art. 47)**
+  - Taxada, ex tunc, imprescriptible, no convalidable
+- **Anul·labilitat (art. 48)**
+  - Regla general; forma només si causa indefensió
+  - Convalidable (art. 52)
 - **Reacció**
   - Revisió d'ofici (art. 106)
   - Declaració de lesivitat (art. 107, 4 anys)
 
-L'eficàcia de l'acte administratiu és la seva aptitud per produir efectes jurídics. La Llei 39/2015 en regula l'eficàcia, la notificació, l'executivitat i els supòsits d'invalidesa.
+L'eficàcia de l'acte administratiu és la seva aptitud per produir efectes jurídics. La Llei 39/2015 en regula l'eficàcia, la notificació, l'executivitat i els supòsits d'invalidesa (nul·litat i anul·labilitat).
 
-### Eficàcia de l'acte
-Els actes administratius es presumeixen vàlids i produeixen efectes des de la data en què es dicten, llevat que hi disposin una altra cosa (art. 39 de la Llei 39/2015). L'eficàcia es pot demorar quan així ho exigeix el contingut de l'acte o està supeditada a la notificació, la publicació o l'aprovació superior.
+### 1. Eficàcia, notificació i publicació
+Els actes es presumeixen vàlids i produeixen efectes des de la data en què es dicten (art. 39); l'eficàcia es pot demorar si ho exigeix el contingut o queda supeditada a la notificació, la publicació o l'aprovació superior.
 
-### Notificació i publicació
-Els actes s'han de notificar als interessats en el termini de deu dies des que es dicten (art. 40), amb indicació dels recursos procedents. La notificació s'ha de practicar preferentment per mitjans electrònics. La publicació substitueix la notificació en els casos legalment previstos (per exemple, quan els destinataris són indeterminats).
+- La notificació s'ha de practicar en el termini de deu dies des que es dicta l'acte (art. 40), preferentment per mitjans electrònics, amb indicació dels recursos procedents.
+- La publicació substitueix la notificació quan els destinataris són indeterminats o ho preveu la norma.
 
-### Executivitat i execució forçosa
-Els actes són immediatament executius (art. 98) i gaudeixen de la presumpció de validesa i de l'autotutela: l'administració pot executar-los per si mateixa. L'execució forçosa (arts. 99-105) es fa a través dels mitjans taxats: constrenyiment sobre el patrimoni, execució subsidiària, multa coercitiva i compulsió sobre les persones, amb respecte del principi de proporcionalitat i amb advertiment previ.
+### 2. Executivitat i execució forçosa
+Els actes són immediatament executius (art. 98) i gaudeixen de la presumpció de validesa i de l'autotutela: l'administració els pot executar per si mateixa. L'execució forçosa (arts. 99-105) es fa pels mitjans taxats, amb advertiment previ i proporcionalitat:
 
-### Nul·litat i anul·labilitat
-La invalidesa pot ser de dos graus:
+- Constrenyiment sobre el patrimoni.
+- Execució subsidiària (a càrrec de l'obligat).
+- Multa coercitiva (reiterada).
+- Compulsió sobre les persones.
 
-- Nul·litat de ple dret (art. 47): supòsits taxats (actes que lesionen drets fonamentals, dictats per òrgan manifestament incompetent, de contingut impossible, constitutius d'infracció penal, dictats prescindint totalment del procediment); és radical, ex tunc, no convalidable i imprescriptible.
-- Anul·labilitat (art. 48): és la regla general per a qualsevol infracció de l'ordenament; el defecte de forma només invalida si impedeix assolir la finalitat de l'acte o causa indefensió; els actes anul·lables són convalidables (art. 52).
+### 3. Nul·litat i anul·labilitat
+La invalidesa té dos graus, amb règims molt diferents:
 
-### Vies de reacció
-L'administració pot revisar els seus propis actes: la revisió d'ofici dels actes nuls (art. 106), sense termini i amb dictamen consultiu, i la declaració de lesivitat dels actes anul·lables favorables (art. 107), dins de quatre anys, seguida de la impugnació davant la jurisdicció contenciosa.
+| Aspecte | Nul·litat de ple dret (art. 47) | Anul·labilitat (art. 48) |
+| --- | --- | --- |
+| Supòsits | Taxats (lesió de drets fonamentals, òrgan manifestament incompetent, contingut impossible, infracció penal, prescindir del procediment) | Regla general: qualsevol altra infracció de l'ordenament |
+| Defecte de forma | — | Només invalida si impedeix la finalitat de l'acte o causa indefensió |
+| Efectes | Ex tunc (des de l'origen) | Ex nunc (des de la declaració) |
+| Convalidació | No convalidable | Convalidable (art. 52) |
+| Termini per reaccionar | Imprescriptible | Terminis (recursos; lesivitat: 4 anys) |
+
+### 4. Vies de reacció de l'administració
+L'administració pot revisar els seus propis actes: la revisió d'ofici dels actes nuls (art. 106), sense termini i amb dictamen consultiu, i la declaració de lesivitat dels actes anul·lables favorables (art. 107), dins de quatre anys, seguida de la impugnació davant la jurisdicció contenciosa administrativa.
 
 ---
 
@@ -443,22 +470,26 @@ Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
   - Alçada i actes de l'Alcalde/Ple/JGL (art. 52 LRBRL)
   - Contenciós: 2 mesos
 
-Els recursos administratius són els mitjans d'impugnació dels actes administratius davant la mateixa administració, com a garantia dels administrats i com a via prèvia a la jurisdicció contenciosa. Els regula la Llei 39/2015.
+Els recursos administratius són els mitjans d'impugnació dels actes davant la mateixa administració, com a garantia dels administrats i via prèvia a la jurisdicció contenciosa. Els regula la Llei 39/2015.
 
-### Regles generals
-Els recursos es fonamenten en la nul·litat o l'anul·labilitat de l'acte. Els pot interposar qui té la condició d'interessat. La interposició, com a regla general, no suspèn l'execució de l'acte impugnat, tot i que l'òrgan competent pot acordar-ne la suspensió (per exemple, si l'execució pot causar perjudicis de difícil reparació). L'error en la qualificació del recurs no n'impedeix la tramitació si es dedueix el seu caràcter veritable.
+### 1. Regles generals
+Els recursos es fonamenten en la nul·litat o l'anul·labilitat de l'acte i els pot interposar qui és interessat. La interposició, com a regla general, no suspèn l'execució de l'acte, tot i que es pot acordar la suspensió (per exemple, si l'execució pot causar perjudicis de difícil reparació). L'error en la qualificació del recurs no n'impedeix la tramitació.
 
-### Recurs d'alçada
-Procedeix contra els actes que NO posen fi a la via administrativa i s'interposa davant l'òrgan superior jeràrquic del que va dictar l'acte, en el termini d'un mes (si l'acte és exprés). El termini per resoldre és de tres mesos; transcorregut sense resolució, el silenci és desestimatori. Exhaureix la via administrativa.
+### 2. Tipus de recursos
+La llei preveu tres recursos ordinaris i extraordinari:
 
-### Recurs potestatiu de reposició
-Procedeix contra els actes que exhaureixen la via administrativa i s'interposa davant el mateix òrgan que els va dictar. És potestatiu (es pot interposar o anar directament al contenciós), en el termini d'un mes, i el termini per resoldre és d'un mes (silenci desestimatori). No es pot interposar el contenciós fins que s'hagi resolt expressament o s'hagi produït el silenci.
+| Recurs | Contra quins actes | Òrgan | Termini d'interposició | Termini per resoldre / silenci |
+| --- | --- | --- | --- | --- |
+| Alçada | Actes que NO exhaureixen la via administrativa | Superior jeràrquic | 1 mes (si és exprés) | 3 mesos; silenci negatiu |
+| Reposició (potestatiu) | Actes que exhaureixen la via administrativa | Mateix òrgan | 1 mes (si és exprés) | 1 mes; silenci negatiu |
+| Extraordinari de revisió | Actes ferms (causes taxades, art. 125) | Mateix òrgan | 3 mesos / 4 anys segons la causa | 3 mesos; silenci negatiu |
 
-### Recurs extraordinari de revisió
-És un recurs excepcional contra actes ferms, que només procedeix per les causes taxades de l'art. 125 (error de fet, aparició de documents essencials, documents o testimonis declarats falsos, o prevaricació o suborn que hagin influït en l'acte). S'interposa davant l'òrgan que va dictar l'acte, amb terminis específics.
+### 3. Fi de la via administrativa i via judicial
+Cal saber quins actes exhaureixen la via administrativa, perquè determina quin recurs procedeix i l'accés al contenciós:
 
-### Fi de la via administrativa i via judicial
-Posen fi a la via administrativa, entre altres, les resolucions dels recursos d'alçada i els actes dels òrgans locals (Alcalde, Ple, Junta de Govern), d'acord amb l'art. 52 de la LRBRL. Esgotada la via administrativa, s'obre la jurisdicció contenciosa administrativa, amb un termini d'interposició de dos mesos.
+- Posen fi a la via administrativa, entre altres: les resolucions dels recursos d'alçada i, en l'àmbit local, els actes de l'Alcalde, el Ple i la Junta de Govern Local (art. 52 LRBRL).
+- Contra els actes que exhaureixen la via es pot interposar el recurs potestatiu de reposició o, directament, el recurs contenciós administratiu.
+- El termini per interposar el recurs contenciós administratiu és de dos mesos des de la notificació.
 
 ---
 
