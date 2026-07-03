@@ -470,7 +470,10 @@ function temaView(num){
 
 function renderResum(r, tema){
   const primary = (tema && tema.sources && tema.sources[0]) || null;
-  let html = glossaryHtml(r, tema);
+  let html = '';
+  // Esquema clau (repàs ràpid) al PRINCIPI del resum.
+  if (r.keypoints && r.keypoints.length) html += renderKeypoints(r.keypoints, primary);
+  html += glossaryHtml(r, tema);
   if (r.intro) html += `<p>${linkifyLaw(esc(r.intro), pickLaw(r.intro, primary))}</p>`;
   (r.sections||[]).forEach(s=>{
     // llei per defecte de l'apartat: la del títol, si no la del primer paràgraf, si no la del tema
@@ -483,10 +486,7 @@ function renderResum(r, tema){
     if (s.key) html += `<div class="keyfact">💡 ${linkifyLaw(esc(s.key), secLaw)}</div>`;
     if (s.scheme) html += renderScheme(s.scheme);
   });
-  // Esquema jeràrquic de repàs (nou). Si no n'hi ha, mostrem la clau textual.
-  if (r.keypoints && r.keypoints.length) html += renderKeypoints(r.keypoints, primary);
-  if (r.key) html += `<div class="keyfact">💡 <b>Clau:</b> ${linkifyLaw(esc(r.key), primary)}</div>`;
-  return html;
+  return html;   // (la "Clau" final s'ha eliminat; el repàs ràpid és a dalt)
 }
 
 /* Renderitza un "esquema" com a text normal que s'ajusta a la pantalla
