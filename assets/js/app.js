@@ -478,6 +478,7 @@ function renderResum(r, tema){
     if (s.h) html += `<h3>${esc(s.h)}</h3>`;
     if (s.p) html += `<p>${linkifyLaw(esc(s.p), secLaw)}</p>`;
     if (s.list) html += `<ul>${s.list.map(li=>`<li>${linkifyLaw(esc(li), secLaw)}</li>`).join('')}</ul>`;
+    if (s.table) html += renderTable(s.table, secLaw);
     if (s.p2) html += `<p>${linkifyLaw(esc(s.p2), secLaw)}</p>`;
     if (s.key) html += `<div class="keyfact">💡 ${linkifyLaw(esc(s.key), secLaw)}</div>`;
     if (s.scheme) html += renderScheme(s.scheme);
@@ -500,6 +501,14 @@ function renderScheme(sc){
     rows += `<div class="sline" style="padding-left:${lvl*0.8}em">${esc(ln.trim())}</div>`;
   }
   return `<div class="scheme"><div class="cap">${esc(sc.cap||'Esquema')}</div>${rows}</div>`;
+}
+
+/* Taula comparativa (contractes, procediments, llindars…). Amb scroll horitzontal si cal. */
+function renderTable(t, law){
+  const head = (t.headers||[]).map(h=>`<th>${linkifyLaw(esc(h), law)}</th>`).join('');
+  const body = (t.rows||[]).map(r=>`<tr>${r.map(c=>`<td>${linkifyLaw(esc(c), law)}</td>`).join('')}</tr>`).join('');
+  return `<div class="tablewrap">${t.cap?`<div class="tcap">${esc(t.cap)}</div>`:''}`
+    + `<table class="rtable"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 /* ===========================================================================
