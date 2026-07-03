@@ -9,45 +9,41 @@ Recull complet dels 90 resums per a revisió. Material d'estudi generat amb IA: 
 
 Normes: **CE1978** (Constitució espanyola de 1978).
 
-La Constitució espanyola (CE) de 1978 és la norma suprema de l'ordenament jurídic: totes les altres normes s'hi subordinen i el Tribunal Constitucional en garanteix la supremacia. Va ser aprovada per les Corts el 31 d'octubre de 1978, ratificada en referèndum el 6 de desembre i sancionada pel Rei el 27 de desembre. És una constitució rígida (la reforma exigeix procediments agreujats), derivada d'un ampli consens i amb una part dogmàtica (valors i drets) i una part orgànica (organització dels poders).
+La Constitució espanyola (CE) de 1978 és la norma suprema de l'ordenament jurídic, a la qual se subordinen totes les altres normes i que el Tribunal Constitucional garanteix. Va ser ratificada en referèndum el 6 de desembre de 1978. Aquest tema en tracta l'estructura, els principis del títol preliminar i els drets fonamentals.
 
 ### Estructura
-La CE consta d'un preàmbul, un títol preliminar (arts. 1 a 9) i deu títols numerats, amb un total de 169 articles, més 4 disposicions addicionals, 9 transitòries, 1 derogatòria i 1 final. La part dogmàtica la formen el títol preliminar i el Títol I (drets i deures). La part orgànica regula la Corona (II), les Corts Generals (III), el Govern i l'Administració (IV), les relacions entre Govern i Corts (V), el poder judicial (VI), l'economia i la hisenda (VII), l'organització territorial (VIII), el Tribunal Constitucional (IX) i la reforma (X).
+La CE consta d'un preàmbul, un títol preliminar (arts. 1-9) i deu títols numerats, amb un total de 169 articles, més disposicions addicionals, transitòries, derogatòria i final. Es distingeix una part dogmàtica (el títol preliminar i el títol I, sobre valors i drets) i una part orgànica (que regula la Corona, les Corts Generals, el Govern, el poder judicial, l'organització territorial, el Tribunal Constitucional i la reforma).
 
 ### Títol preliminar: principis generals
-- Art. 1.1: Espanya es constitueix en un Estat social i democràtic de dret, que propugna com a valors superiors la llibertat, la justícia, la igualtat i el pluralisme polític.
-- Art. 1.2: la sobirania nacional resideix en el poble espanyol, del qual emanen els poders de l'Estat.
-- Art. 1.3: la forma política de l'Estat és la monarquia parlamentària.
-- Art. 2: es fonamenta en la indissoluble unitat de la nació espanyola i reconeix el dret a l'autonomia de les nacionalitats i regions i la solidaritat entre elles.
-- Art. 3: el castellà és la llengua espanyola oficial de l'Estat; les altres llengües són també oficials a les respectives comunitats autònomes.
-- Art. 6 i 7: els partits polítics i els sindicats i associacions empresarials són instruments fonamentals de participació.
-- Art. 9.3: garanteix el principi de legalitat, la jerarquia normativa, la publicitat de les normes, la irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets, la seguretat jurídica, la responsabilitat i la interdicció de l'arbitrarietat dels poders públics.
+El títol preliminar recull els principis bàsics:
+
+- Espanya es constitueix en un Estat social i democràtic de dret (art. 1.1), amb els valors superiors de la llibertat, la justícia, la igualtat i el pluralisme polític.
+- La sobirania nacional resideix en el poble (art. 1.2) i la forma política de l'Estat és la monarquia parlamentària (art. 1.3).
+- Es fonamenta en la unitat de la nació i reconeix el dret a l'autonomia de les nacionalitats i regions (art. 2).
+- L'art. 9.3 garanteix el principi de legalitat, la jerarquia normativa, la publicitat de les normes, la irretroactivitat de les disposicions sancionadores no favorables, la seguretat jurídica, la responsabilitat i la interdicció de l'arbitrarietat dels poders públics.
 
 ### Drets fonamentals i nivells de protecció
-El Títol I (arts. 10-55) regula els drets i deures, amb la dignitat de la persona com a fonament (art. 10). El que decideix la intensitat de la protecció és la ubicació del dret. La màxima protecció correspon a l'art. 14 (igualtat davant la llei), als drets de la Secció 1a del Capítol II (arts. 15 a 29, com la vida, la llibertat, la tutela judicial efectiva, la llibertat d'expressió o la participació) i a l'objecció de consciència (art. 30.2): aquests es regulen per llei orgànica, gaudeixen d'un procediment preferent i sumari davant els tribunals i del recurs d'empara davant el Tribunal Constitucional. Els drets de la resta del Capítol II (arts. 30 a 38) vinculen els poders públics i tenen reserva de llei, però no empara. Els principis rectors de la política social i econòmica (Capítol III, arts. 39 a 52) informen la legislació i la pràctica judicial, però només són al·legables davant la jurisdicció d'acord amb les lleis que els desenvolupin.
+El títol I regula els drets i deures, amb la dignitat de la persona com a fonament (art. 10). La intensitat de la protecció depèn de la ubicació del dret: la màxima correspon a l'art. 14 (igualtat) i als drets de la Secció 1a del Capítol II (arts. 15-29) i a l'objecció de consciència (art. 30.2), que es regulen per llei orgànica i gaudeixen del recurs d'empara davant el Tribunal Constitucional i d'un procediment preferent i sumari.
 
-### Garanties i suspensió de drets
-L'art. 53 estableix les garanties dels drets i l'art. 54 crea el Defensor del Poble com a alt comissionat de les Corts per a la seva defensa. El contingut essencial dels drets és indisponible per al legislador. La suspensió general de determinats drets és possible en els estats d'excepció i de setge (art. 55.1) i, de manera individual i amb intervenció judicial, en investigacions relatives a bandes armades o terrorisme (art. 55.2).
-
-### La reforma de la Constitució
-Hi ha dos procediments. El procediment ORDINARI (art. 167) s'aplica a la reforma de la resta del text: exigeix l'aprovació per tres cinquens de cada cambra i, si ho demana una desena part dels membres de qualsevol cambra, se sotmet a referèndum. El procediment AGREUJAT (art. 168) s'aplica a la revisió total o a la que afecti el títol preliminar, la Secció 1a del Capítol II del Títol I (drets fonamentals) o la Corona: exigeix l'aprovació del principi de reforma per dos terços de cada cambra, la dissolució immediata de les Corts, la ratificació de la decisió per les noves cambres i l'aprovació del nou text per dos terços de totes dues, i un referèndum obligatori de ratificació.
+### Garanties i reforma
+L'art. 53 estableix les garanties dels drets i l'art. 54 crea el Defensor del Poble. La reforma es fa per dos procediments: l'ordinari (art. 167), per la resta del text, i l'agreujat (art. 168), per a la revisió total o la que afecti el títol preliminar, els drets fonamentals o la Corona, que exigeix majories qualificades, la dissolució de les Corts i un referèndum obligatori.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Estructura**
-  - Títol preliminar + 10 títols + part dogmàtica (drets) i orgànica (poders)
-  - 169 articles, preàmbul i disposicions
-- **Principis (Títol preliminar)**
-  - Estat social i democràtic de dret (art. 1.1 CE)
-  - Sobirania popular (art. 1.2) i monarquia parlamentària (art. 1.3)
-  - Garanties de l'art. 9.3 CE (legalitat, jerarquia, irretroactivitat…)
-- **Drets i protecció**
-  - Empara: art. 14 i arts. 15-29 (+ objecció, 30.2)
-  - Reserva de llei orgànica per a drets fonamentals
+  - Preàmbul + títol preliminar + 10 títols; 169 articles
+  - Part dogmàtica (drets) i orgànica (poders)
+- **Principis (títol preliminar)**
+  - Estat social i democràtic de dret (art. 1.1)
+  - Sobirania popular (art. 1.2); monarquia parlamentària (art. 1.3)
+  - Garanties de l'art. 9.3
+- **Drets**
+  - Màxima protecció: art. 14 i arts. 15-29 (+30.2)
+  - Llei orgànica i recurs d'empara
 - **Reforma**
-  - Ordinària: art. 167 CE
-  - Agreujada: art. 168 CE (dissolució de Corts + referèndum)
+  - Ordinària (art. 167)
+  - Agreujada (art. 168): dissolució + referèndum
 
-**Clau:** CE 1978: norma suprema. Estat social i democràtic de dret (1.1), sobirania popular (1.2), monarquia parlamentària (1.3). Garanties de l'art. 9.3. Drets amb empara: art. 14 i arts. 15-29 (+30.2). Reforma ordinària (167) i agreujada (168, amb dissolució i referèndum).
+**Clau:** CE de 1978: norma suprema. Estructura: títol preliminar + 10 títols, 169 articles, part dogmàtica i orgànica. Principis (títol preliminar): Estat social i democràtic de dret (art. 1.1), sobirania popular (art. 1.2), monarquia parlamentària (art. 1.3) i garanties de l'art. 9.3. Drets: màxima protecció per a l'art. 14 i els arts. 15-29 (+30.2), amb llei orgànica i recurs d'empara. Reforma ordinària (art. 167) i agreujada (art. 168, amb dissolució de les Corts i referèndum).
 
 ---
 
@@ -56,49 +52,40 @@ Hi ha dos procediments. El procediment ORDINARI (art. 167) s'aplica a la reforma
 
 Normes: **EAC2006** (Estatut d'autonomia de Catalunya (LO 6/2006)).
 
-L'Estatut d'autonomia de Catalunya (EAC) vigent és la Llei orgànica 6/2006, de 19 de juliol, que va reformar l'Estatut de 1979. És la norma institucional bàsica de la Generalitat (art. 147 CE) i forma part del bloc de constitucionalitat, de manera que serveix de paràmetre per jutjar la validesa d'altres normes. La Sentència del Tribunal Constitucional 31/2010 en va matisar diversos preceptes.
+L'Estatut d'autonomia de Catalunya (EAC) és la norma institucional bàsica de la Generalitat i forma part del bloc de constitucionalitat. L'EAC vigent és la Llei orgànica 6/2006.
 
 ### Naturalesa i estructura
-L'EAC és una llei orgànica de caràcter especial: l'elabora i aprova el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols:
-
-- I, drets, deures i principis rectors
-- II, les institucions
-- III, el poder judicial a Catalunya
-- IV, les competències
-- V, les relacions institucionals (amb l'Estat, la UE i l'acció exterior)
-- VI, el finançament
-- VII, la reforma
+L'EAC és una llei orgànica de caràcter especial: l'elaboren i aproven el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols: drets, deures i principis rectors; les institucions; el poder judicial a Catalunya; les competències; les relacions institucionals; el finançament; i la reforma.
 
 ### La Generalitat: institucions
-La Generalitat és el sistema institucional en què s'organitza políticament l'autogovern de Catalunya. La integren:
-
-- El Parlament: representa el poble de Catalunya, exerceix la potestat legislativa, aprova els pressupostos i impulsa i controla l'acció del Govern. És elegit per sufragi universal.
-- El president o presidenta de la Generalitat: té la més alta representació de la Generalitat i l'ordinària de l'Estat a Catalunya; dirigeix i coordina l'acció del Govern.
-- El Govern (Consell Executiu): òrgan superior col·legiat que dirigeix la política i l'Administració de la Generalitat i exerceix la funció executiva i la potestat reglamentària.
-- Altres institucions estatutàries: el Síndic de Greuges (defensa dels drets davant les administracions catalanes), la Sindicatura de Comptes (fiscalització de la gestió econòmica del sector públic) i el Consell de Garanties Estatutàries (dictàmens sobre l'adequació de projectes normatius a l'Estatut i a la Constitució).
+La Generalitat és el sistema institucional en què s'organitza l'autogovern de Catalunya. La integren el Parlament (que representa el poble i exerceix la potestat legislativa), el president o presidenta de la Generalitat (la més alta representació) i el Govern (òrgan executiu). En formen part també altres institucions estatutàries: el Síndic de Greuges, la Sindicatura de Comptes i el Consell de Garanties Estatutàries.
 
 ### Les competències
-L'Estatut tipifica les competències per dotar-les de més seguretat jurídica. Distingeix tres categories. En les competències EXCLUSIVES correspon a la Generalitat, de manera íntegra, la potestat legislativa, la reglamentària i la funció executiva, amb el dret propi com a aplicable de manera preferent (art. 110). En les COMPARTIDES, l'Estat estableix els principis o les bases (mínim comú normatiu) i la Generalitat el desenvolupament legislatiu i tota la potestat reglamentària i executiva (art. 111). En les EXECUTIVES, la Generalitat només exerceix la funció executiva i la potestat reglamentària de caràcter organitzatiu (art. 112).
+L'EAC classifica les competències de la Generalitat en tres tipus:
 
-### Matèries rellevants per a l'àmbit municipal
-La Generalitat té competències, entre moltes altres, en urbanisme i ordenació del territori, habitatge, règim local, medi ambient, espectacles i activitats recreatives o protecció civil. Aquestes competències es projecten directament sobre l'activitat dels ajuntaments a través de la legislació sectorial catalana (el TRLUC en urbanisme, la Llei 18/2007 en habitatge, la Llei 20/2009 en activitats, etc.), de manera que el marc normatiu municipal és, en gran part, autonòmic.
+- Exclusives (art. 110): corresponen íntegrament a la Generalitat, que hi exerceix la potestat legislativa, la reglamentària i l'executiva.
+- Compartides (art. 111): la Generalitat exerceix el desenvolupament legislatiu i l'execució, en el marc de les bases que fixa l'Estat.
+- Executives (art. 112): la Generalitat exerceix la funció executiva, inclosa la potestat reglamentària d'organització.
 
-### Reforma de l'Estatut
-La reforma segueix un procediment agreujat: requereix majories qualificades al Parlament, l'aprovació de les Corts Generals com a llei orgànica i, en general, la ratificació en referèndum del poble de Catalunya. El Consell de Garanties Estatutàries pot emetre dictàmens previs, que són vinculants quan es refereixen a projectes que desenvolupen o afecten drets estatutaris.
+### Matèries municipals i reforma
+L'EAC atribueix a la Generalitat competències rellevants per a l'àmbit municipal (règim local, urbanisme, habitatge, medi ambient) i configura els ens locals propis de Catalunya (municipi, comarca, vegueria). La reforma de l'Estatut segueix els procediments dels seus darrers articles, amb l'aprovació pel Parlament i les Corts Generals i, si escau, el referèndum.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Naturalesa**
-  - EAC = LO 6/2006, norma institucional bàsica
-  - Forma part del bloc de constitucionalitat
-- **Institucions (la Generalitat)**
-  - Parlament + President + Govern
-  - I Síndic de Greuges, Sindicatura de Comptes, Consell de Garanties Estatutàries
+  - LO 6/2006; norma institucional bàsica
+  - Bloc de constitucionalitat
+- **Institucions**
+  - Parlament + president + Govern
+  - Síndic, Sindicatura de Comptes, Consell de Garanties Estatutàries
 - **Competències**
-  - Exclusives (art. 110 EAC)
-  - Compartides (art. 111: bases estatals + desenvolupament)
+  - Exclusives (art. 110)
+  - Compartides (art. 111: bases + desenvolupament)
   - Executives (art. 112)
+- **Àmbit local**
+  - Règim local, urbanisme, habitatge
+  - Ens locals propis: municipi, comarca, vegueria
 
-**Clau:** EAC = LO 6/2006, norma institucional bàsica i part del bloc de constitucionalitat. Generalitat: Parlament + President + Govern (i Síndic, Sindicatura i Consell de Garanties Estatutàries). Competències exclusives (110), compartides (111, bases estatals + desenvolupament) i executives (112).
+**Clau:** EAC = LO 6/2006, norma institucional bàsica de la Generalitat i part del bloc de constitucionalitat. Institucions: Parlament, president i Govern (i Síndic de Greuges, Sindicatura de Comptes i Consell de Garanties Estatutàries). Competències: exclusives (art. 110), compartides (art. 111: bases estatals + desenvolupament) i executives (art. 112). Atribueix competències en règim local, urbanisme i habitatge i configura els ens locals propis (municipi, comarca, vegueria).
 
 ---
 
@@ -107,46 +94,42 @@ La reforma segueix un procediment agreujat: requereix majories qualificades al P
 
 Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local); **DL2_2003** (DL 2/2003 (TR Llei municipal i de règim local de Catalunya)).
 
-El Títol VIII de la CE estructura territorialment l'Estat en municipis, províncies i comunitats autònomes, tots amb autonomia per a la gestió dels seus interessos (art. 137). L'Administració local és la més pròxima al ciutadà i la integren diverses entitats reconegudes per la legislació bàsica de règim local (Llei 7/1985, LRBRL) i, a Catalunya, pel Decret legislatiu 2/2003.
+L'organització territorial de l'Estat inclou l'Administració local, integrada per diverses entitats. La regula la legislació bàsica de règim local (LRBRL) i, a Catalunya, el text refós de la Llei municipal i de règim local (DL 2/2003).
 
 ### Entitats que integren l'Administració local
-L'art. 3 LRBRL distingeix dos grups. Tenen caràcter d'entitats locals TERRITORIALS (amb autonomia plena per gestionar els seus interessos) el municipi, la província i l'illa (als arxipèlags). Són ALTRES entitats locals:
+L'art. 3 de la LRBRL distingeix dos grups. Tenen caràcter d'entitats locals TERRITORIALS (amb autonomia plena per gestionar els seus interessos) el municipi, la província i l'illa (als arxipèlags). Són ALTRES entitats locals:
 
-- La comarca i les agrupacions de municipis que creïn les CA
-- Les àrees metropolitanes
-- Les mancomunitats de municipis
-- Les entitats d'àmbit territorial inferior al municipi (EATIM)
+- La comarca i les agrupacions de municipis que creïn les comunitats autònomes.
+- Les àrees metropolitanes.
+- Les mancomunitats de municipis.
+- Les entitats d'àmbit territorial inferior al municipi (EATIM).
 
 A Catalunya, l'Estatut configura com a ens locals propis el municipi, la comarca i la vegueria, a més de les àrees metropolitanes i les mancomunitats.
 
 ### El municipi
-És l'entitat local bàsica de l'organització territorial i el canal immediat de participació ciutadana. Té tres elements: el territori (terme municipal), la població (el conjunt de veïns inscrits al padró) i l'organització (els òrgans de govern). Gaudeix de personalitat jurídica pròpia i plena capacitat per al compliment de les seves finalitats.
+El municipi és l'entitat local bàsica, amb personalitat jurídica pròpia, integrada pel territori (terme municipal), la població (veïns) i l'organització. És el cauce immediat de participació ciutadana i presta els serveis públics de proximitat.
 
 ### La província
-És una entitat local determinada per l'agrupació de municipis i, alhora, divisió territorial per al compliment de les activitats de l'Estat (art. 141 CE). Té personalitat jurídica pròpia i autonomia. La seva funció essencial, exercida per la Diputació, és garantir els principis de solidaritat i equilibri intermunicipals: assistència i cooperació jurídica, econòmica i tècnica als municipis (sobretot els de menor capacitat de gestió), coordinació de serveis municipals, prestació de serveis de caràcter supramunicipal i foment del desenvolupament econòmic i social (art. 36 LRBRL).
-
-### Comarca, vegueria i altres ens a Catalunya
-- Comarca: ens local supramunicipal de cooperació i prestació de serveis als municipis, amb territori, població i organització (consell comarcal) propis.
-- Vegueria: àmbit territorial específic per a la cooperació local i per a l'organització territorial de la Generalitat, que l'Estatut preveu (arts. 90-91).
-- Mancomunitat: associació voluntària de municipis per executar en comú obres o serveis, amb estatuts propis.
-- Àrea metropolitana: ens local integrat pels municipis de grans aglomeracions urbanes vinculades.
-- EATIM: entitat per a la gestió descentralitzada de nuclis de població separats.
+La província és una entitat local determinada per l'agrupació de municipis (art. 141 CE), amb personalitat jurídica pròpia. La seva finalitat principal és assistir i cooperar amb els municipis, especialment els de menor capacitat (art. 36 LRBRL), i garantir la prestació dels serveis municipals. A Catalunya, la vegueria és l'ens en què s'organitza territorialment el govern intermedi.
 
 ### Principis del règim local
-L'autonomia local és el dret i la capacitat efectiva de les entitats locals d'ordenar i gestionar una part important dels assumptes públics, en el marc de la llei, sota la pròpia responsabilitat i en benefici dels seus habitants (Carta Europea d'Autonomia Local, 1985). Es complementa amb la suficiència financera (mitjans suficients per exercir les competències, art. 142 CE). El control de l'activitat local és, com a regla, de legalitat i a posteriori, i correspon als tribunals; no hi ha controls genèrics d'oportunitat ni de tutela.
+El règim local es fonamenta en l'autonomia local (garantida per la CE i la Carta Europea d'Autonomia Local), que és el dret de les entitats locals a ordenar i gestionar una part important dels assumptes públics, i en la suficiència financera (art. 142 CE), que garanteix els mitjans econòmics per exercir les seves competències.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Entitats locals territorials (art. 3 LRBRL)**
-  - Municipi, província i illa
-  - Altres: comarca, àrea metropolitana, mancomunitat, EMD; a Catalunya, vegueria
+- **Entitats (art. 3 LRBRL)**
+  - Territorials: municipi, província, illa
+  - Altres: comarca, àrea metropolitana, mancomunitat, EATIM
+  - Catalunya: també la vegueria
+- **Municipi**
+  - Entitat bàsica: territori + població + organització
 - **Província**
   - Agrupació de municipis (art. 141 CE)
-  - Assisteix i coopera amb els municipis (art. 36 LRBRL)
+  - Assisteix i coopera (art. 36 LRBRL)
 - **Principis**
   - Autonomia local (CEAL)
   - Suficiència financera (art. 142 CE)
 
-**Clau:** Entitats locals territorials (art. 3 LRBRL): municipi, província i illa. Altres: comarca, àrea metropolitana, mancomunitat, EATIM. A Catalunya, també vegueria. Província (141 CE): assisteix i coopera amb els municipis (art. 36). Principis: autonomia local (CEAL) i suficiència financera (142 CE).
+**Clau:** Administració local (LRBRL, DL 2/2003). Entitats locals territorials (art. 3 LRBRL): municipi, província i illa; altres: comarca, àrea metropolitana, mancomunitat i EATIM; a Catalunya, també la vegueria. El municipi és l'entitat bàsica (territori, població, organització). La província (art. 141 CE) assisteix i coopera amb els municipis (art. 36 LRBRL). Principis: autonomia local (CEAL) i suficiència financera (art. 142 CE).
 
 ---
 
@@ -155,55 +138,44 @@ L'autonomia local és el dret i la capacitat efectiva de les entitats locals d'o
 
 Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local); **DL2_2003** (DL 2/2003 (TR Llei municipal i de règim local de Catalunya)); **MONT** (Ajuntament de Montornès del Vallès).
 
-El municipi s'organitza mitjançant òrgans de govern regulats per la LRBRL i, a Catalunya, pel DL 2/2003, i designats d'acord amb la legislació electoral (LOREG). Es distingeixen òrgans necessaris (han d'existir sempre) i complementaris (els pot crear cada municipi). A l'Ajuntament de Montornès del Vallès, l'estructura es completa amb una organització per àrees funcionals (organigrama polític i tècnic vigent).
+El municipi s'organitza a través d'uns òrgans de govern i representació, elegits democràticament. Ho regulen la LRBRL, la legislació catalana de règim local (DL 2/2003) i el reglament orgànic municipal (a Montornès del Vallès, el ROM propi).
 
 ### Designació dels membres i elecció de l'Alcalde
-Els regidors s'elegeixen per sufragi universal, lliure, igual, directe i secret, mitjançant llistes en circumscripció única municipal i sistema proporcional (LOREG). El nombre de regidors depèn de la població del municipi. L'Alcalde és elegit pels regidors en la sessió constitutiva: si cap candidat obté la majoria absoluta, és proclamat alcalde el regidor que encapçali la llista més votada. En els municipis de menys de 100 habitants i altres supòsits funciona el règim de concell obert.
+Els regidors s'elegeixen per sufragi universal, lliure, igual, directe i secret, mitjançant llistes en un sistema proporcional. L'Alcalde l'elegeixen els regidors d'entre ells en la sessió constitutiva; si cap candidat no obté la majoria absoluta, és proclamat alcalde el regidor que encapçala la llista més votada.
 
 ### Òrgans necessaris
 Existeixen sempre:
 
-- L'Alcalde o alcaldessa, que dirigeix el govern i l'administració municipal
-- Els tinents d'alcalde, que substitueixen l'Alcalde per l'ordre del seu nomenament i són nomenats i cessats lliurement per aquest entre els membres de la Junta de Govern Local
-- El Ple, integrat per tots els regidors i presidit per l'Alcalde
+- L'Alcalde o alcaldessa, que dirigeix el govern i l'administració municipal.
+- Els tinents d'alcalde, que substitueixen l'Alcalde i són nomenats i cessats lliurement per aquest entre els membres de la Junta de Govern Local.
+- El Ple, integrat per tots els regidors i presidit per l'Alcalde.
 
-La Junta de Govern Local, integrada per l'Alcalde i un nombre de regidors no superior a un terç, és òrgan necessari als municipis de més de 5.000 habitants i, en els altres, quan així ho disposi el reglament orgànic o ho acordi el Ple.
+La Junta de Govern Local (l'Alcalde i un nombre de regidors no superior a un terç) és òrgan necessari als municipis de més de 5.000 habitants. La Comissió Especial de Comptes és també obligatòria.
 
 ### Òrgans complementaris
-Els pot establir cada municipi en el seu reglament orgànic: les comissions informatives (òrgans d'estudi, informe i dictamen previ dels assumptes que es debaten al Ple), les juntes de districte, els consells sectorials de participació, etc. La Comissió Especial de Comptes és, però, d'existència obligatòria en tots els municipis: informa els comptes anuals abans de la seva aprovació pel Ple.
+Els reglaments orgànics poden crear òrgans complementaris, com les comissions informatives (que dictaminen els assumptes del Ple), els consells sectorials, les juntes de districte i els grups polítics municipals.
 
-### Competències del Ple (art. 22 LRBRL)
-El Ple exerceix les atribucions de major rellevància política i normativa, moltes de les quals són indelegables:
-
-- El control i la fiscalització dels òrgans de govern
-- L'aprovació del reglament orgànic i de les ordenances
-- L'aprovació i modificació dels pressupostos i l'aprovació dels comptes
-- L'aprovació de la plantilla de personal i la relació de llocs de treball
-- L'aprovació inicial del planejament urbanístic general i la determinació de les formes de gestió dels serveis
-- L'alteració del terme municipal
-- La imposició i ordenació de tributs
-
-### Competències de l'Alcalde (art. 21 LRBRL)
-L'Alcalde dirigeix el govern i l'administració, representa l'ajuntament, convoca i presideix les sessions, dirigeix el personal (prefectura de personal i de la policia local), dicta bans, exerceix la potestat sancionadora quan li correspon i és l'òrgan de contractació i el competent per atorgar llicències quan no estiguin atribuïdes al Ple o a un altre òrgan. Pot delegar competències en la Junta de Govern Local, en els tinents d'alcalde o en altres regidors.
+### Competències del Ple i de l'Alcalde
+El Ple (art. 22 LRBRL) exerceix les atribucions de major rellevància, moltes indelegables: aprovar els pressupostos i les ordenances, el planejament general, la plantilla de personal i la determinació de les formes de gestió dels serveis. L'Alcalde (art. 21 LRBRL) dirigeix el govern i l'administració, i té atribuïdes la direcció del personal, la contractació i l'atorgament de llicències, entre altres.
 
 ### Règim de sessions i acords
-El Ple celebra sessions ordinàries amb la periodicitat fixada segons la població (com a mínim cada mes, dos mesos o tres mesos) i extraordinàries quan ho decideixi l'Alcalde o ho sol·liciti una quarta part dels regidors. Per a la constitució vàlida cal un quòrum d'un terç dels membres (mínim de tres) que s'ha de mantenir, i la presència del president i del secretari. Els acords s'adopten, per regla general, per majoria simple (més vots a favor que en contra); determinats assumptes (reglament orgànic, planejament general, alteració del terme, operacions de crèdit qualificades) exigeixen majoria absoluta del nombre legal de membres.
+El Ple es reuneix en sessions ordinàries (amb la periodicitat que fixa la llei segons la població) i extraordinàries. Els acords s'adopten, com a regla general, per majoria simple dels membres presents; determinats assumptes taxats requereixen majoria absoluta del nombre legal de membres.
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Elecció**
+  - Regidors: sufragi universal (proporcional)
+  - Alcalde: elegit pels regidors; si no, cap de la llista més votada
 - **Òrgans necessaris**
   - Alcalde, tinents d'alcalde i Ple
-  - Junta de Govern Local obligatòria si > 5.000 hab.
-  - Comissió Especial de Comptes (sempre)
-- **Ple (art. 22 LRBRL)**
-  - Pressupost, ordenances i planejament general
-  - Competències indelegables
-- **Alcalde (art. 21 LRBRL)**
-  - Direcció del govern, personal, contractació i llicències
+  - Junta de Govern Local (>5.000 hab.); Comissió Especial de Comptes
+- **Competències**
+  - Ple (art. 22): pressupost, ordenances, planejament (indelegables)
+  - Alcalde (art. 21): govern, personal, contractació, llicències
 - **Acords**
-  - Regla: majoria simple
+  - Majoria simple (regla)
   - Majoria absoluta en assumptes taxats
 
-**Clau:** Òrgans necessaris: Alcalde, tinents d'alcalde i Ple; Junta de Govern Local obligatòria si >5.000 hab. La Comissió Especial de Comptes és obligatòria. Ple (art. 22): pressupost, ordenances, planejament general (indelegables). Alcalde (art. 21): direcció, personal, contractació i llicències. Acords: majoria simple (regla) o absoluta en assumptes taxats.
+**Clau:** Òrgans municipals (LRBRL, DL 2/2003). Regidors elegits per sufragi universal proporcional; l'Alcalde l'elegeixen els regidors (si no hi ha majoria absoluta, el cap de la llista més votada). Òrgans necessaris: Alcalde, tinents d'alcalde i Ple; Junta de Govern Local obligatòria si > 5.000 habitants, i Comissió Especial de Comptes. Competències: Ple (art. 22, pressupost, ordenances, planejament, indelegables) i Alcalde (art. 21, govern, personal, contractació, llicències). Acords per majoria simple (regla) o absoluta en assumptes taxats.
 
 ---
 
@@ -3505,27 +3477,29 @@ Les decisions solen comportar canvis organitzatius que generen resistències. La
 ## Tema 85. Ètica Pública i Valors: El codi ètic. Aplicació de principis de integritat i servei a la ciutadania en la direcció diària
 *Bloc 17 · Direcció, lideratge i habilitats directives*
 
-L'ètica pública i els valors són el conjunt de principis que han de guiar la conducta de les persones al servei de les administracions. El codi ètic i l'aplicació dels principis d'integritat i servei a la ciutadania orienten la direcció diària.
+L'ètica pública és el conjunt de principis i valors que han d'orientar l'actuació de les persones al servei de les administracions per garantir el servei objectiu a l'interès general. Es concreta en codis ètics i de conducta (TREBEP i normativa de bon govern).
 
 ### Principis ètics i de conducta
-L'actuació dels empleats i directius públics s'ha de regir per principis com la integritat i l'honestedat, l'objectivitat i la imparcialitat, la neutralitat, la responsabilitat, la transparència, l'exemplaritat, l'austeritat i la dedicació al servei públic (arts. 52-54 del TREBEP i Llei 19/2014). El servei a l'interès general i a la ciutadania és l'eix de l'ètica pública.
+L'actuació dels empleats públics s'ha d'ajustar als principis ètics i de conducta dels arts. 52 a 54 del TREBEP: objectivitat, integritat, imparcialitat, neutralitat, responsabilitat, professionalitat, transparència, exemplaritat, austeritat, accessibilitat, eficàcia i, sobretot, servei a l'interès general i a la ciutadania. Aquests principis informen la interpretació i l'aplicació del règim disciplinari.
 
 ### El codi ètic i de bon govern
-Els codis ètics o de conducta concreten aquests principis en pautes d'actuació i compromisos exigibles. Inclouen normes sobre la prevenció dels conflictes d'interès, el règim d'incompatibilitats, l'acceptació de regals, la confidencialitat i l'ús adequat dels recursos públics. La Llei 19/2014 imposa als alts càrrecs un codi de conducta i mecanismes de seguiment.
+Els codis ètics i de bon govern concreten aquests valors en pautes de conducta i mesures de prevenció: la gestió dels conflictes d'interès i el deure d'abstenció, el règim d'incompatibilitats, la limitació en l'acceptació de regals i d'avantatges, i la transparència en l'actuació. El bon govern (Llei 19/2014) exigeix als alts càrrecs uns principis d'actuació i un règim de responsabilitat.
 
 ### Integritat i exemplaritat en la direcció
-En la direcció diària, la integritat es tradueix en decisions basades en l'interès general i no en interessos particulars, i l'exemplaritat exigeix coherència entre els valors declarats i la conducta real. La construcció d'una cultura d'integritat (codis, formació, canals de denúncia, avaluació) és una eina de prevenció de la corrupció i de reforç de la confiança de la ciutadania.
+En la direcció diària, l'aplicació de l'ètica pública es tradueix en conductes concretes: abstenir-se en els casos de conflicte d'interès, rebutjar el favoritisme i garantir el tracte igual, respectar la legalitat i l'ordre de tramitació, i actuar amb transparència. La integritat i l'exemplaritat dels comandaments són eines fonamentals de prevenció de la corrupció i de reforç de la confiança de la ciutadania.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Principis ètics**
-  - Integritat, objectivitat, imparcialitat, transparència i servei a l'interès general
-  - TREBEP arts. 52-54; Llei 19/2014
-- **Codi ètic**
-  - Prevenció de conflictes d'interès, incompatibilitats, regals
-- **Integritat**
-  - Exemplaritat com a eina de prevenció de la corrupció
+- **Principis (arts. 52-54 TREBEP)**
+  - Objectivitat, integritat, imparcialitat
+  - Transparència, exemplaritat, servei a l'interès general
+- **Codi ètic i bon govern**
+  - Conflictes d'interès i abstenció; incompatibilitats
+  - Regals; transparència (Llei 19/2014)
+- **Direcció**
+  - Abstenir-se; rebutjar favoritismes; tracte igual
+  - Integritat i exemplaritat contra la corrupció
 
-**Clau:** Ètica pública: integritat, objectivitat, imparcialitat, transparència, exemplaritat i servei a l'interès general (TREBEP 52-54; Llei 19/2014). Codi ètic i de conducta: prevenció de conflictes d'interès, incompatibilitats, regals. Integritat i exemplaritat com a eines de prevenció de la corrupció.
+**Clau:** Ètica pública: principis ètics i de conducta (arts. 52-54 TREBEP): objectivitat, integritat, imparcialitat, transparència, exemplaritat i servei a l'interès general. El codi ètic i de bon govern (Llei 19/2014) concreta la prevenció dels conflictes d'interès (abstenció), les incompatibilitats i els regals. En la direcció, abstenir-se en cas de conflicte, rebutjar el favoritisme i garantir el tracte igual; la integritat i l'exemplaritat prevenen la corrupció.
 
 ---
 
@@ -3534,30 +3508,42 @@ En la direcció diària, la integritat es tradueix en decisions basades en l'int
 
 Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)).
 
-El personal al servei de les administracions públiques es classifica en diferents tipus segons la naturalesa de la seva relació. El TREBEP en regula les classes, amb especial atenció al personal directiu professional.
+El personal al servei de les administracions públiques comprèn diverses classes segons la seva vinculació i funcions. El regula el text refós de l'Estatut bàsic de l'empleat públic (TREBEP).
 
-### Classes de personal
-- Personal funcionari de carrera: vinculat per una relació estatutària de dret administratiu de caràcter permanent; exerceix les funcions reservades que impliquen autoritat o salvaguarda d'interessos generals.
-- Personal funcionari interí: nomenat amb caràcter temporal per raons de necessitat i urgència justificades.
-- Personal laboral (fix, indefinit o temporal): vinculat per un contracte de treball i regit per la legislació laboral i el conveni col·lectiu.
-- Personal eventual: exerceix funcions de confiança o assessorament especial, amb nomenament i cessament lliures.
+### Classes de personal (art. 8 TREBEP)
+El personal al servei de les administracions es classifica en:
+
+- Funcionaris de carrera: relació estatutària de dret públic per a l'exercici permanent de funcions retribuïdes.
+- Funcionaris interins: nomenats per raons de necessitat i urgència, amb caràcter temporal.
+- Personal laboral (fix, indefinit o temporal): vinculat per contracte de treball.
+- Personal eventual: funcions de confiança o assessorament especial, de lliure nomenament i cessament.
+
+Les funcions que impliquen l'exercici de potestats públiques o la salvaguarda dels interessos generals es reserven als funcionaris (art. 9.2 TREBEP).
 
 ### El personal directiu professional
-El personal directiu professional (art. 13 TREBEP) és el que exerceix funcions directives professionals a les administracions, definides com a tals a les normes específiques de cada administració. La seva designació atén els principis de mèrit i capacitat i de criteris d'idoneïtat, mitjançant procediments que garanteixen la publicitat i la concurrència. Està subjecte a avaluació segons criteris d'eficàcia, eficiència i responsabilitat per la gestió, i a control de resultats.
+El personal directiu professional (art. 13 TREBEP) és el que desenvolupa funcions directives en les administracions. La seva designació atén els principis de mèrit, capacitat i idoneïtat, mitjançant procediments que garanteixin la publicitat i la concurrència. Està subjecte a avaluació segons els criteris d'eficàcia, eficiència, responsabilitat per la gestió i control de resultats.
+
+### Règim d'incompatibilitats
+El règim d'incompatibilitats parteix de la regla general que el personal al servei de les administracions no pot exercir més d'un lloc de treball públic ni activitats privades que comprometin la seva imparcialitat o independència, o que es relacionin amb els assumptes que gestiona. Les compatibilitats s'han d'autoritzar de manera expressa i tenen límits (per exemple, retributius).
 
 ### Particularitats a l'àmbit local
-A l'Administració local, l'establiment del personal directiu professional es preveu en els reglaments orgànics municipals i en la legislació de règim local; cal distingir-lo del personal eventual de confiança i dels òrgans directius. Les funcions que impliquin l'exercici d'autoritat es reserven, en tot cas, al personal funcionari.
+En l'àmbit local, la funció pública s'ordena d'acord amb el TREBEP i la legislació catalana de règim local i de funció pública. Existeixen, a més, els funcionaris d'administració local amb habilitació de caràcter nacional (secretaria, intervenció-tresoreria), que exerceixen les funcions públiques necessàries reservades.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Classes (TREBEP)**
-  - Funcionari de carrera, interí, laboral i eventual (confiança)
-- **Personal directiu (art. 13 TREBEP)**
-  - Funcions directives; designació per mèrit, capacitat i idoneïtat
+- **Classes (art. 8 TREBEP)**
+  - Funcionari de carrera i interí
+  - Laboral i eventual (confiança)
+  - Potestats reservades a funcionaris (art. 9.2)
+- **Directiu (art. 13)**
+  - Funcions directives; mèrit, capacitat, idoneïtat
   - Avaluació i responsabilitat per la gestió
+- **Incompatibilitats**
+  - Un sol lloc públic; no comprometre la imparcialitat
+  - Compatibilitat autoritzada amb límits
 - **Àmbit local**
-  - Particularitats en l'organització del personal directiu
+  - Habilitats nacionals (secretaria, intervenció-tresoreria)
 
-**Clau:** Personal de les AP (TREBEP): funcionari de carrera (relació estatutària permanent), interí (temporal), laboral i eventual (confiança). Personal directiu professional (art. 13): funcions directives, designació per mèrit, capacitat i idoneïtat, amb avaluació i responsabilitat per la gestió.
+**Clau:** Personal al servei de les AP (TREBEP). Classes (art. 8): funcionari de carrera, interí, laboral i eventual (confiança); potestats públiques reservades a funcionaris (art. 9.2). Personal directiu professional (art. 13): funcions directives, designació per mèrit, capacitat i idoneïtat, amb avaluació i responsabilitat per la gestió. Incompatibilitats: regla d'un sol lloc públic, sense comprometre la imparcialitat. En l'àmbit local, funcionaris amb habilitació de caràcter nacional (secretaria, intervenció-tresoreria).
 
 ---
 
@@ -3566,27 +3552,29 @@ A l'Administració local, l'establiment del personal directiu professional es pr
 
 Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)).
 
-L'atenció al personal comprèn la gestió de les persones de l'organització: la gestió de conflictes, la planificació de tasques, el manteniment d'un bon clima laboral i la resolució d'incidències i conflictes.
+L'atenció al personal és una funció del comandament que comprèn la planificació de tasques, el manteniment d'un bon clima laboral i la gestió i resolució de conflictes i incidències.
 
 ### Planificació de tasques i organització
-La gestió de les persones requereix planificar i distribuir la càrrega de treball de manera equitativa i eficient, ajustant les tasques a les capacitats i les disponibilitats, fixant prioritats i evitant tant la sobrecàrrega com la infrautilització. Una bona organització del treball repercuteix en la productivitat i en la satisfacció del personal.
+Correspon al comandament planificar i distribuir la càrrega de treball de manera equitativa i transparent, amb funcions i responsabilitats clares, prioritzant les tasques i fixant terminis realistes. Una organització adequada evita greuges i sobrecàrregues i millora l'eficiència de l'equip.
 
 ### Clima laboral i motivació
-El clima laboral és la percepció compartida sobre l'ambient de treball. Un bon clima (basat en la comunicació, el reconeixement, la participació, la confiança i el tracte respectuós) augmenta la motivació i el compromís, redueix l'absentisme i la rotació, i millora el rendiment. La conciliació de la vida personal i laboral i la prevenció dels riscos psicosocials hi contribueixen.
+El bon clima laboral es construeix amb una comunicació fluida i bidireccional, el reconeixement de la feina, el tracte respectuós, la participació i la conciliació de la vida personal i laboral. Cal, a més, prevenir els riscos psicosocials (estrès, assetjament) i vetllar per la salut i el benestar de les persones.
 
 ### Gestió i resolució de conflictes i incidències
-Els conflictes són inevitables en qualsevol organització; la clau és gestionar-los de manera constructiva, identificant-ne les causes i emprant la comunicació, la negociació i, si cal, la mediació, abans de recórrer a mesures disciplinàries. Les incidències (absències, baixes, queixes) s'han de resoldre amb agilitat i fer-ne el seguiment, garantint l'equitat i el compliment de la normativa.
+Davant un conflicte, el comandament ha d'actuar amb promptitud i objectivitat: escoltar les parts, identificar les causes reals i cercar una solució mitjançant el diàleg, la negociació o la mediació, evitant prendre partit. Les incidències s'han de resoldre amb agilitat i equitat, documentar-les i fer-ne un seguiment, adoptant mesures preventives perquè no es repeteixin.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Planificació de tasques**
-  - Distribució equitativa de la càrrega de treball
+  - Distribució equitativa i transparent
+  - Funcions clares i terminis realistes
 - **Clima laboral**
   - Comunicació, reconeixement, conciliació
   - Prevenció de riscos psicosocials
 - **Conflictes i incidències**
-  - Comunicació, negociació i mediació, amb agilitat i equitat
+  - Escoltar, dialogar, negociar, mediar
+  - Agilitat, equitat i seguiment
 
-**Clau:** Atenció al personal: planificar i distribuir la càrrega de treball de manera equitativa; cuidar el clima laboral (comunicació, reconeixement, conciliació, prevenció de riscos psicosocials); i gestionar conflictes (comunicació, negociació, mediació) i incidències amb agilitat i equitat.
+**Clau:** Atenció al personal: planificar i distribuir la càrrega de treball de manera equitativa, amb funcions clares; cuidar el clima laboral (comunicació, reconeixement, conciliació, prevenció de riscos psicosocials); i gestionar els conflictes (escolta, diàleg, negociació i mediació) i les incidències amb agilitat, equitat i seguiment.
 
 ---
 
@@ -3595,37 +3583,34 @@ Els conflictes són inevitables en qualsevol organització; la clau és gestiona
 
 Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)).
 
-El règim disciplinari del personal és el conjunt de normes que tipifiquen les faltes comeses pels empleats públics en l'exercici de les seves funcions i les sancions corresponents, i que regulen el procediment per imposar-les (TREBEP, arts. 93-98).
+El règim disciplinari permet exigir responsabilitat als empleats públics per les faltes comeses en l'exercici de les seves funcions. El regulen els arts. 93 a 98 del TREBEP i la normativa de desplegament.
 
 ### Aplicació i classificació de les faltes
-El règim disciplinari s'aplica al personal funcionari i, amb les especialitats pròpies, al personal laboral. Les faltes disciplinàries es classifiquen en molt greus, greus i lleus (art. 95). Són molt greus, entre altres, l'incompliment del deure de fidelitat a la Constitució i a l'Estatut, l'abús d'autoritat, la desobediència oberta, l'abandonament del servei, la falsedat o l'assetjament. Les greus i lleus es determinen en funció de criteris com la intencionalitat, el dany a l'interès públic i la reincidència.
+La responsabilitat disciplinària s'exigeix respectant els principis de la potestat sancionadora (legalitat, tipicitat, proporcionalitat, presumpció d'innocència). Les faltes es classifiquen, segons la gravetat (art. 95 TREBEP), en molt greus, greus i lleus. Són molt greus, entre altres, l'incompliment del deure de fidelitat a la Constitució, l'abús d'autoritat, l'assetjament o l'abandonament del servei.
 
 ### Sancions
-Les sancions (art. 96) poden ser:
+Les sancions (art. 96 TREBEP) es gradúen segons la gravetat de la falta i poden consistir en:
 
-- La separació del servei (només per a faltes molt greus)
-- L'acomiadament disciplinari del personal laboral
-- La suspensió ferma de funcions o de feina i sou
-- El trasllat forçós
-- La demèrit (penalització en la carrera)
-- L'advertiment o l'amonestació
-- Altres previstes per llei
-
-S'apliquen amb proporcionalitat a la gravetat de la falta.
+- La separació del servei (reservada a les faltes molt greus).
+- La suspensió de funcions.
+- El trasllat forçós.
+- La demèrit (penalització en la carrera) o l'advertiment, per a les faltes de menor gravetat.
 
 ### Procediment i prescripció
-Per a les faltes greus i molt greus cal instruir un expedient disciplinari amb totes les garanties (separació entre l'instructor i l'òrgan que resol, dret d'audiència i de defensa, prova i presumpció d'innocència). Les infraccions prescriuen als tres anys les molt greus, als dos anys les greus i als sis mesos les lleus (art. 97); les sancions també prescriuen en terminis anàlegs.
+La imposició de sancions per faltes greus i molt greus requereix la tramitació d'un procediment disciplinari amb totes les garanties (dret d'audiència i de defensa, separació entre instrucció i resolució). Les infraccions prescriuen en els terminis de l'art. 97 TREBEP: tres anys les molt greus, dos anys les greus i sis mesos les lleus; les sancions prescriuen en terminis anàlegs.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Faltes (art. 95 TREBEP)**
   - Molt greus, greus i lleus
-- **Sancions (art. 96 TREBEP)**
-  - De l'advertiment a la separació del servei (només molt greus)
+  - Principis: legalitat, tipicitat, proporcionalitat
+- **Sancions (art. 96)**
+  - Separació del servei (només molt greus)
+  - Suspensió, trasllat forçós, advertiment
 - **Procediment**
-  - Expedient amb garanties (faltes greus i molt greus)
-  - Prescripció: 3 anys (MG), 2 (G), 6 mesos (L)
+  - Expedient amb garanties (greus i molt greus)
+  - Prescripció (art. 97): 3 anys / 2 anys / 6 mesos
 
-**Clau:** Règim disciplinari (TREBEP 93-98): faltes molt greus, greus i lleus (art. 95). Sancions (art. 96): de l'advertiment fins a la separació del servei (només molt greus). Expedient amb garanties per a faltes greus i molt greus. Prescripció de les infraccions: 3 anys (MG), 2 (G), 6 mesos (L). Principis: legalitat, tipicitat, proporcionalitat, presumpció d'innocència.
+**Clau:** Règim disciplinari (arts. 93-98 TREBEP): principis de legalitat, tipicitat, proporcionalitat i presumpció d'innocència. Faltes (art. 95): molt greus, greus i lleus. Sancions (art. 96): separació del servei (només molt greus), suspensió de funcions, trasllat forçós i advertiment. Procediment amb garanties per a les faltes greus i molt greus (audiència, separació instrucció/resolució). Prescripció (art. 97): 3 anys les molt greus, 2 les greus i 6 mesos les lleus.
 
 ---
 
@@ -3634,45 +3619,40 @@ Per a les faltes greus i molt greus cal instruir un expedient disciplinari amb t
 
 Normes: **L31_1995** (Llei 31/1995 de prevenció de riscos laborals).
 
-La seguretat i salut en el treball té per objecte protegir els treballadors davant els riscos derivats de la feina. El marc bàsic és la Llei 31/1995, de prevenció de riscos laborals (LPRL), aplicable també a les administracions públiques.
+La seguretat i salut en el treball té per objecte protegir els treballadors davant els riscos derivats de la feina. La regula la Llei 31/1995, de prevenció de riscos laborals (LPRL).
 
 ### Conceptes bàsics i deure de protecció
-La LPRL defineix conceptes com el risc laboral (possibilitat que un treballador pateixi un dany derivat de la feina) i el dany derivat del treball. Estableix el deure general de l'empresari (a l'Administració, com a ocupadora) de garantir la seguretat i la salut dels treballadors en tots els aspectes relacionats amb la feina, mitjançant una acció preventiva integrada en l'activitat de l'organització (art. 14).
+La LPRL parteix del dret dels treballadors a una protecció eficaç en matèria de seguretat i salut i del deure correlatiu de l'empresari de garantir-la (art. 14). El risc laboral és la possibilitat que un treballador pateixi un dany derivat del treball; la prevenció és el conjunt d'activitats o mesures adoptades per evitar-lo o reduir-lo.
 
-### Principis de l'acció preventiva (art. 15)
-L'acció preventiva s'ajusta a un ordre de prioritats:
+### Principis de l'acció preventiva (art. 15 LPRL)
+L'empresari ha d'aplicar les mesures preventives d'acord amb uns principis ordenats:
 
-- Evitar els riscos
-- Avaluar els que no es puguin evitar
-- Combatre els riscos en origen
-- Adaptar el treball a la persona
-- Tenir en compte l'evolució de la tècnica
-- Substituir el que és perillós pel que comporti poc o cap perill
-- Planificar la prevenció
-- Adoptar mesures que anteposin la protecció col·lectiva a la individual
-- Donar les degudes instruccions als treballadors
+- Evitar els riscos i avaluar els que no es puguin evitar.
+- Combatre els riscos en el seu origen.
+- Adaptar el treball a la persona.
+- Anteposar la protecció col·lectiva a la individual.
+- Donar les instruccions degudes als treballadors i planificar la prevenció.
 
 ### Instruments i drets
-- L'avaluació de riscos i la planificació de l'activitat preventiva són els instruments inicials del sistema de gestió de la prevenció.
-- El pla de prevenció de riscos laborals integra la prevenció en l'organització.
-- Drets dels treballadors: informació, consulta i participació, formació, vigilància de la salut (en general voluntària) i protecció mitjançant equips de protecció individual (EPI) quan calgui.
-- Modalitats d'organització preventiva: assumpció pel propi empresari, treballadors designats, servei de prevenció propi o aliè.
+Els instruments centrals són l'avaluació de riscos, la planificació de l'activitat preventiva i el pla de prevenció, integrat en la gestió de l'empresa. Els treballadors tenen dret a la informació, la formació, la consulta i la participació, a la vigilància de la salut i als equips de protecció individual (EPI) quan calgui. L'empresari pot organitzar la prevenció amb mitjans propis o amb serveis de prevenció aliens.
 
 ### Òrgans de participació
-Els delegats de prevenció són els representants dels treballadors amb funcions específiques en matèria de prevenció. El comitè de seguretat i salut és l'òrgan paritari i col·legiat de participació destinat a la consulta regular i periòdica de les actuacions de l'empresa en matèria de prevenció (obligatori a partir d'un determinat nombre de treballadors).
+La participació dels treballadors s'articula a través dels delegats de prevenció (representants amb funcions específiques en matèria preventiva) i del comitè de seguretat i salut (òrgan paritari de consulta i participació), en les empreses o centres amb el nombre de treballadors que fixa la llei.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Deure de protecció (art. 14 LPRL)**
   - Protecció eficaç dels treballadors (Llei 31/1995)
-- **Acció preventiva (art. 15 LPRL)**
-  - Evitar, avaluar, combatre en origen
+- **Acció preventiva (art. 15)**
+  - Evitar i avaluar; combatre en origen
   - Protecció col·lectiva sobre la individual
-- **Instruments**
-  - Avaluació de riscos + planificació + pla de prevenció
+- **Instruments i drets**
+  - Avaluació de riscos + pla de prevenció
+  - Informació, formació, vigilància de la salut, EPI
 - **Participació**
-  - Delegats de prevenció i comitè de seguretat i salut
+  - Delegats de prevenció
+  - Comitè de seguretat i salut
 
-**Clau:** Prevenció de riscos laborals (LPRL 31/1995): deure general de l'empresari de protecció eficaç (art. 14). Principis de l'acció preventiva (art. 15): evitar, avaluar, combatre en origen, protecció col·lectiva sobre individual. Avaluació de riscos + planificació + pla de prevenció. Delegats de prevenció i comitè de seguretat i salut.
+**Clau:** Prevenció de riscos laborals (LPRL, Llei 31/1995). Deure de l'empresari de protecció eficaç (art. 14). Principis de l'acció preventiva (art. 15): evitar i avaluar els riscos, combatre'ls en origen, adaptar el treball a la persona i anteposar la protecció col·lectiva a la individual. Instruments: avaluació de riscos, planificació i pla de prevenció; drets d'informació, formació, vigilància de la salut i EPI. Participació: delegats de prevenció i comitè de seguretat i salut.
 
 ---
 
@@ -3681,29 +3661,32 @@ Els delegats de prevenció són els representants dels treballadors amb funcions
 
 Normes: **L31_1995** (Llei 31/1995 de prevenció de riscos laborals); **RD171_2004** (RD 171/2004 (coordinació d'activitats empresarials)).
 
-La coordinació d'activitats empresarials (CAE) s'aplica quan en un mateix centre de treball concorren treballadors de diverses empreses. Es regula a l'art. 24 de la Llei 31/1995 i al Reial decret 171/2004.
+La coordinació d'activitats empresarials preveu les obligacions preventives quan en un mateix centre de treball concorren treballadors de diverses empreses. La regulen l'art. 24 de la Llei 31/1995 i el RD 171/2004.
 
 ### Objectiu i deure de cooperació
-L'objectiu de la coordinació és garantir l'aplicació coherent i responsable dels principis de l'acció preventiva quan en un centre de treball desenvolupen activitats treballadors de dues o més empreses (i treballadors autònoms). Totes les empreses concurrents tenen el deure de cooperar i d'informar-se recíprocament sobre els riscos específics de les seves activitats que puguin afectar els altres, i de tenir-ho en compte en l'avaluació i la planificació de la prevenció.
+Quan en un mateix centre de treball desenvolupen activitats treballadors de dues o més empreses (o autònoms), totes elles tenen el deure de cooperar en l'aplicació de la normativa de prevenció, informant-se recíprocament dels riscos que la seva activitat pot generar per a les altres. L'objectiu és evitar que la concurrència d'empreses generi nous riscos o els agreugi.
 
 ### Subjectes i obligacions
-- L'empresari titular del centre de treball (qui té la capacitat de posar-lo a disposició) ha d'informar i donar instruccions a les empreses concurrents sobre els riscos del centre i les mesures de prevenció i d'emergència.
-- L'empresari principal (qui contracta o subcontracta obres o serveis corresponents a la seva pròpia activitat i es desenvolupen al seu centre) té, a més, el deure de vigilar el compliment de la normativa de prevenció per part de contractistes i subcontractistes.
-- Els treballadors autònoms també participen en els deures de cooperació i informació.
+El RD 171/2004 distingeix diferents posicions i obligacions:
+
+- L'empresari titular del centre de treball ha d'informar i donar instruccions als altres empresaris sobre els riscos del centre i les mesures d'emergència.
+- L'empresari principal (que contracta obres o serveis de la seva pròpia activitat) té, a més, un deure de vigilància del compliment de la normativa preventiva pels contractistes i subcontractistes.
+- Cada empresari concurrent ha d'informar els seus treballadors i complir les instruccions rebudes.
 
 ### Mitjans de coordinació
-Els mitjans de coordinació es trien en funció del grau de perillositat de les activitats i poden incloure: l'intercanvi d'informació i de comunicacions, les reunions, les instruccions, l'establiment de mesures específiques, la presència de recursos preventius (preceptiva quan els riscos puguin veure's agreujats per la concurrència d'activitats) i la designació d'una o més persones encarregades de la coordinació. En les obres de construcció, a més, cal designar un coordinador de seguretat i salut i disposar del pla de seguretat i salut (RD 1627/1997).
+La coordinació es pot articular amb diversos mitjans: l'intercanvi d'informació i de comunicacions, les reunions de coordinació, les instruccions, la designació d'una persona o d'un equip de coordinació, o la presència de recursos preventius. En les obres de construcció, la coordinació s'instrumenta amb el coordinador de seguretat i salut i el pla de seguretat i salut.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Objectiu (art. 24 LPRL + RD 171/2004)**
-  - Cooperació i informació recíproca entre empreses concurrents i autònoms
+  - Cooperació i informació recíproca entre empreses concurrents
 - **Subjectes**
-  - Empresari titular informa i instrueix
-  - Empresari principal: deure de vigilància
+  - Titular: informa i instrueix
+  - Principal: deure de vigilància
+  - Concurrents: informen i compleixen instruccions
 - **Mitjans**
   - Reunions, instruccions, recursos preventius
   - En obres: coordinador i pla de seguretat i salut
 
-**Clau:** Coordinació d'activitats empresarials (art. 24 LPRL + RD 171/2004): cooperació i informació recíproca entre totes les empreses concurrents (i autònoms). L'empresari titular informa i instrueix; l'empresari principal té deure de vigilància. Mitjans: reunions, instruccions, recursos preventius. En obres: coordinador i pla de seguretat i salut.
+**Clau:** Coordinació d'activitats empresarials (art. 24 de la Llei 31/1995 + RD 171/2004): cooperació i informació recíproca quan concorren treballadors de diverses empreses en un centre. Subjectes: l'empresari titular informa i instrueix; l'empresari principal té deure de vigilància; els concurrents informen els seus treballadors i compleixen les instruccions. Mitjans: reunions, instruccions i recursos preventius; en obres, coordinador i pla de seguretat i salut.
 
 ---
