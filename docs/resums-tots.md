@@ -3160,24 +3160,32 @@ Normes: **L18_2007** (Llei 18/2007 del dret a l'habitatge (Catalunya)).
 La Llei 18/2007, del dret a l'habitatge, és la norma cabdal de la política d'habitatge a Catalunya. Configura l'habitatge com un dret i estableix les competències, la planificació i les mesures per garantir-lo.
 
 ### El dret a l'habitatge i les competències
-La Llei 18/2007 configura l'accés a un habitatge digne i adequat com un dret que els poders públics han de fer efectiu. La competència en matèria d'habitatge correspon a la Generalitat (que la planifica i la regula), mentre que els municipis hi participen mitjançant el planejament urbanístic (reserves de sòl per a habitatge protegit), els plans locals d'habitatge i la gestió de polítiques de proximitat. La planificació territorial i la programació són instruments per ordenar l'oferta d'habitatge.
+La Llei 18/2007 configura l'accés a un habitatge digne i adequat com un dret que els poders públics han de fer efectiu. La competència en habitatge correspon a la Generalitat (que la planifica i regula), mentre que els municipis hi participen mitjançant el planejament urbanístic (reserves de sòl per a habitatge protegit), els plans locals d'habitatge i la gestió de polítiques de proximitat.
 
-### Habitatge protegit i registre de sol·licitants
-La llei regula l'habitatge amb protecció oficial (preus o rendes limitats i destinació a persones amb ingressos per sota d'uns llindars), que s'adjudica a través del Registre de sol·licitants d'habitatge amb protecció oficial, garantint la transparència i la igualtat. El planejament urbanístic ha de preveure reserves mínimes de sòl per a aquest tipus d'habitatge.
+### Planificació i habitatge protegit
+La planificació territorial i la programació ordenen l'oferta d'habitatge. La llei regula l'habitatge amb protecció oficial (preus o rendes limitats i destinació a persones amb ingressos per sota d'uns llindars), que s'adjudica a través del Registre de sol·licitants d'habitatge amb protecció oficial, garantint la transparència i la igualtat. El planejament ha de preveure reserves mínimes de sòl per a aquest habitatge.
 
-### Cèdula d'habitabilitat i mesures contra la desocupació
-La cèdula d'habitabilitat és el document que acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària, entre altres, per transmetre o llogar habitatges i per donar d'alta els subministraments. La llei preveu, a més, mesures per evitar la desocupació permanent i injustificada dels habitatges i per fomentar-ne l'ocupació, així com per combatre l'assetjament immobiliari i garantir el manteniment dels immobles.
+### Qualitat del parc i cèdula d'habitabilitat
+La cèdula d'habitabilitat és el document que acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària, entre altres, per transmetre o llogar habitatges i per donar d'alta els subministraments. La llei estableix també deures de conservació i rehabilitació i mesures per garantir la qualitat del parc immobiliari.
+
+### Protecció dels consumidors i règim sancionador
+La llei protegeix els consumidors i usuaris d'habitatges en el mercat immobiliari (informació, transparència en la comercialització) i preveu mesures contra la desocupació permanent i injustificada dels habitatges i contra l'assetjament immobiliari. Estableix un règim de control i un procediment sancionador per a les infraccions en matèria d'habitatge.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Dret i competències**
-  - Llei 18/2007: l'habitatge com a dret
-  - Generalitat amb participació municipal (planejament i plans locals)
+  - L'habitatge com a dret (Llei 18/2007)
+  - Generalitat + participació municipal (planejament, plans locals)
 - **Habitatge protegit**
-  - Registre de sol·licitants; reserves de sòl
+  - Preus limitats; Registre de sol·licitants
+  - Reserves de sòl al planejament
 - **Qualitat del parc**
-  - Cèdula d'habitabilitat; mesures contra la desocupació injustificada
+  - Cèdula d'habitabilitat (transmetre, llogar, subministraments)
+  - Conservació i rehabilitació
+- **Protecció i sanció**
+  - Consumidors; contra la desocupació injustificada i l'assetjament
+  - Règim sancionador
 
-**Clau:** Llei 18/2007 (dret a l'habitatge): l'habitatge com a dret; competència de la Generalitat amb participació municipal (planejament i plans locals). Habitatge protegit i Registre de sol·licitants; reserves de sòl. Cèdula d'habitabilitat; mesures contra la desocupació injustificada.
+**Clau:** Llei 18/2007 (dret a l'habitatge): l'habitatge com a dret; competència de la Generalitat amb participació municipal (planejament i plans locals). Habitatge protegit amb preus limitats i Registre de sol·licitants; reserves de sòl. Cèdula d'habitabilitat (per transmetre, llogar i donar d'alta subministraments); qualitat del parc. Protecció dels consumidors, mesures contra la desocupació injustificada i l'assetjament, i règim sancionador.
 
 ---
 
@@ -3186,27 +3194,32 @@ La cèdula d'habitabilitat és el document que acredita que un habitatge complei
 
 Normes: **L20_2009** (Llei 20/2009 de prevenció i control ambiental de les activitats); **EAC2006** (Estatut d'autonomia de Catalunya (LO 6/2006)).
 
-Les polítiques sobre el medi ambient a Catalunya es fonamenten en les previsions de l'Estatut d'autonomia i en una àmplia normativa sectorial, amb l'avaluació ambiental com a instrument transversal de prevenció.
+Les polítiques sobre el medi ambient a Catalunya es fonamenten en l'Estatut d'autonomia i en una àmplia normativa sectorial, amb l'avaluació ambiental com a instrument transversal de prevenció.
 
 ### Marc competencial i principis
-La competència en medi ambient és compartida: l'Estat fixa la legislació bàsica i la Generalitat el desenvolupament legislatiu, la gestió i l'execució (art. 144 EAC), amb la possibilitat d'establir normes addicionals de protecció. Les polítiques ambientals s'inspiren en els principis de precaució, prevenció, correcció en origen dels danys i 'qui contamina, paga', i en l'objectiu de desenvolupament sostenible.
+La competència en medi ambient és compartida: l'Estat fixa la legislació bàsica i la Generalitat el desenvolupament legislatiu, la gestió i l'execució (art. 144 EAC), amb la possibilitat d'establir normes addicionals de protecció. Les polítiques ambientals s'inspiren en els principis de precaució, prevenció, correcció en origen dels danys i 'qui contamina paga', i en l'objectiu del desenvolupament sostenible.
 
 ### L'avaluació ambiental
-L'avaluació ambiental és l'instrument que valora els efectes significatius sobre el medi abans d'aprovar plans i programes o d'autoritzar projectes. Se'n distingeixen dues modalitats: l'avaluació ambiental estratègica, que recau sobre plans i programes (per exemple, el planejament urbanístic), i l'avaluació d'impacte ambiental, que recau sobre projectes concrets i que conclou amb la declaració d'impacte ambiental (DIA), de caràcter determinant per a l'autorització del projecte.
+L'avaluació ambiental valora els efectes significatius sobre el medi abans d'aprovar plans i programes o d'autoritzar projectes. Se'n distingeixen dues modalitats:
 
-### Instruments sectorials
-La protecció del medi es completa amb instruments sectorials: la prevenció i el control ambiental de les activitats (Llei 20/2009), la gestió dels residus, la protecció de l'atmosfera i contra la contaminació acústica i lumínica, la protecció dels espais naturals i de la biodiversitat, i la gestió de l'aigua. Aquestes normatives es coordinen amb l'urbanisme i amb la intervenció municipal en les activitats.
+- L'avaluació ambiental estratègica, que recau sobre plans i programes (per exemple, el planejament urbanístic).
+- L'avaluació d'impacte ambiental, que recau sobre projectes concrets i que conclou amb la declaració d'impacte ambiental (DIA), determinant per a l'autorització del projecte.
+
+### Regulació de les activitats amb impacte ambiental
+La intervenció ambiental de les activitats a Catalunya es regeix per la Llei 20/2009, de prevenció i control ambiental de les activitats (PCAA), que gradua el control (autorització, llicència o comunicació) segons la incidència ambiental. Es completa amb la normativa sectorial de residus, protecció de l'atmosfera, contaminació acústica i lumínica, aigua i espais naturals, coordinada amb l'urbanisme i la intervenció municipal.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Marc competencial**
-  - Compartida: bases estatals + desenvolupament autonòmic (art. 144 EAC)
+- **Competències (art. 144 EAC)**
+  - Compartida: bases estatals + desenvolupament autonòmic
   - Principis: precaució, prevenció, qui contamina paga
 - **Avaluació ambiental**
-  - Estratègica (plans/programes) i d'impacte (projectes, amb DIA)
-- **Instruments sectorials**
-  - Llei 20/2009, residus, aigua, atmosfera…
+  - Estratègica (plans/programes)
+  - D'impacte (projectes, amb DIA)
+- **Activitats i sectors**
+  - Llei 20/2009 (PCAA): autorització/llicència/comunicació
+  - Residus, atmosfera, soroll, aigua
 
-**Clau:** Medi ambient a Catalunya: competència compartida (bases estatals + desenvolupament i gestió autonòmics, art. 144 EAC); principis de precaució, prevenció, qui contamina paga. Avaluació ambiental estratègica (plans/programes) i d'impacte (projectes, amb DIA). Instruments sectorials (Llei 20/2009, residus, aigua, etc.).
+**Clau:** Medi ambient a Catalunya: competència compartida (bases estatals + desenvolupament i gestió autonòmics, art. 144 EAC); principis de precaució, prevenció i qui contamina paga. Avaluació ambiental estratègica (plans i programes) i d'impacte (projectes, amb DIA). Intervenció de les activitats per la Llei 20/2009 (PCAA), amb normativa sectorial de residus, atmosfera, soroll i aigua.
 
 ---
 
@@ -3215,33 +3228,46 @@ La protecció del medi es completa amb instruments sectorials: la prevenció i e
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú); **L40_2015** (Llei 40/2015 de règim jurídic del sector públic).
 
-L'administració electrònica és el model de relació entre les administracions i la ciutadania basat en l'ús dels mitjans electrònics. El regulen la Llei 39/2015 (procediment) i la Llei 40/2015 (funcionament intern i relacions interadministratives), amb el reforç de la transparència.
+L'administració electrònica és el model de relació entre les administracions i la ciutadania basat en l'ús dels mitjans electrònics. El regulen la Llei 39/2015 (procediment) i la Llei 40/2015 (funcionament i relacions interadministratives).
 
 ### Drets i subjectes obligats
-Les persones físiques poden triar en tot moment si es comuniquen amb les administracions per mitjans electrònics o no (art. 14.1 de la Llei 39/2015). En canvi, estan obligats a relacionar-s'hi exclusivament per mitjans electrònics (art. 14.2): les persones jurídiques, les entitats sense personalitat jurídica, els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria, els qui representin un interessat obligat, i els empleats públics en l'exercici de les seves funcions.
+Les persones físiques poden triar en tot moment si es comuniquen amb les administracions per mitjans electrònics o no (art. 14.1 de la Llei 39/2015). En canvi, estan obligats a relacionar-s'hi exclusivament per mitjans electrònics (art. 14.2):
+
+- Les persones jurídiques.
+- Les entitats sense personalitat jurídica.
+- Els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria.
+- Els qui representin un interessat obligat.
+- Els empleats públics en l'exercici de les seves funcions.
 
 ### Identificació i signatura electrònica
-Per actuar electrònicament, els interessats es poden identificar mitjançant els sistemes admesos (certificats electrònics qualificats, sistemes de clau concertada com Cl@ve, etc.). Per als tràmits que requereixen manifestar la voluntat (per exemple, presentar sol·licituds o interposar recursos) cal, a més, la signatura electrònica. La signatura electrònica qualificada té, respecte de les dades consignades en forma electrònica, el mateix valor jurídic que la signatura manuscrita.
+Per actuar electrònicament, els interessats es poden identificar amb els sistemes admesos (certificats electrònics qualificats, sistemes de clau concertada com Cl@ve). Per als tràmits que requereixen manifestar la voluntat (presentar sol·licituds, interposar recursos) cal, a més, la signatura electrònica. La signatura electrònica qualificada té el mateix valor jurídic que la signatura manuscrita.
 
 ### Eines de l'administració electrònica
-- La seu electrònica: adreça electrònica de titularitat, gestió i responsabilitat d'una administració, amb garanties d'integritat i actualització de la informació.
+El model es materialitza en un conjunt d'eines:
+
+- La seu electrònica: adreça electrònica de titularitat i responsabilitat d'una administració, amb garanties d'integritat i actualització.
 - El registre electrònic general, per a l'entrada i sortida de documents, accessible tots els dies de l'any.
 - L'arxiu electrònic únic dels documents de procediments finalitzats.
 - Les notificacions electròniques i el punt d'accés general electrònic.
 
 ### Drets derivats
-Els ciutadans tenen dret a no aportar documents que ja estiguin en poder de les administracions o que hagi elaborat qualsevol administració (gràcies a la interoperabilitat), a conèixer l'estat de la tramitació i a relacionar-se a través d'un punt d'accés general. La identitat i el contingut s'han de garantir amb les mesures de seguretat adequades.
+Els ciutadans tenen dret a no aportar documents que ja estiguin en poder de les administracions (interoperabilitat), a conèixer l'estat de la tramitació i a relacionar-se a través d'un punt d'accés general, amb les mesures de seguretat adequades.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Subjectes (art. 14 de la Llei 39/2015)**
-  - Persones físiques: trien el canal
-  - Obligats a l'electrònic: persones jurídiques, professionals col·legiats, empleats públics (art. 14.2)
-- **Signatura**
-  - Signatura electrònica qualificada = manuscrita
+  - Persones físiques: trien el canal (art. 14.1)
+  - Obligats a l'electrònic (art. 14.2): jurídiques, professionals col·legiats, empleats públics
+- **Identificació i signatura**
+  - Certificats i clau concertada (Cl@ve)
+  - Signatura qualificada = manuscrita
 - **Eines**
-  - Seu electrònica, registre electrònic, arxiu únic i notificacions electròniques
+  - Seu electrònica, registre electrònic, arxiu únic
+  - Notificacions electròniques i punt d'accés general
+- **Drets derivats**
+  - No aportar documents (interoperabilitat)
+  - Conèixer l'estat de la tramitació
 
-**Clau:** Administració electrònica (Lleis 39 i 40/2015): persones físiques trien el canal; obligats a l'electrònic les persones jurídiques, entitats sense personalitat, professionals col·legiats i empleats públics (art. 14.2). Signatura qualificada = manuscrita. Seu electrònica, registre electrònic, arxiu únic i notificacions electròniques.
+**Clau:** Administració electrònica (Lleis 39 i 40/2015). Persones físiques: trien el canal (art. 14.1); obligats a l'electrònic (art. 14.2): persones jurídiques, entitats sense personalitat, professionals col·legiats, representants d'obligats i empleats públics. Identificació amb certificats o clau concertada; signatura electrònica qualificada = manuscrita. Eines: seu electrònica, registre electrònic, arxiu únic i notificacions electròniques. Drets derivats: no aportar documents (interoperabilitat) i conèixer l'estat de la tramitació.
 
 ---
 
@@ -3254,84 +3280,106 @@ La millora de la qualitat consisteix en la millora contínua dels processos admi
 La millora contínua es basa en el cicle PDCA (planificar, fer, verificar i actuar): es planifiquen els processos i els objectius, s'executen, es mesuren els resultats i es revisen per introduir-hi millores de manera iterativa. L'objectiu és incrementar l'eficàcia (assolir els resultats), l'eficiència (amb el mínim de recursos) i la satisfacció de les persones usuàries.
 
 ### Instruments de qualitat
-- Les cartes de serveis: documents que informen la ciutadania dels serveis prestats i dels compromisos de qualitat assumits (terminis, condicions), i dels drets dels usuaris.
+La millora de la qualitat es val de diversos instruments:
+
+- Les cartes de serveis: documents que informen la ciutadania dels serveis prestats i dels compromisos de qualitat assumits (terminis, condicions) i dels drets dels usuaris.
 - Les enquestes de satisfacció i els sistemes de queixes i suggeriments, com a fonts d'informació per a la millora.
 - Els indicadors de qualitat (temps de resposta, grau de satisfacció, taxa de resolució d'incidències).
 - La simplificació administrativa i la reducció de càrregues per facilitar les relacions amb la ciutadania.
 
 ### Atenció a la ciutadania
-La qualitat del servei públic se centra en l'atenció a la ciutadania: accessibilitat (presencial i electrònica), informació clara i comprensible, tracte correcte i imparcial, i resposta en terminis raonables. La millora de l'atenció exigeix formació del personal, simplificació de tràmits i ús eficient de les tecnologies.
+La qualitat del servei públic se centra en l'atenció a la ciutadania: accessibilitat (presencial i electrònica), informació clara i comprensible, tracte correcte i imparcial, i resposta en terminis raonables. La millora de l'atenció exigeix la formació del personal, la simplificació dels tràmits i l'ús eficient de les tecnologies.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Millora contínua**
   - Cicle PDCA (planificar-fer-verificar-actuar)
-  - Millorar eficàcia, eficiència i satisfacció
+  - Eficàcia, eficiència i satisfacció
 - **Instruments**
-  - Cartes de serveis, enquestes, queixes i suggeriments, indicadors, simplificació
-- **Orientació**
-  - Atenció accessible i de qualitat a la ciutadania
+  - Cartes de serveis (compromisos de qualitat)
+  - Enquestes, queixes i suggeriments, indicadors
+  - Simplificació administrativa
+- **Atenció a la ciutadania**
+  - Accessibilitat, informació clara, tracte correcte
+  - Formació i tecnologies
 
-**Clau:** Millora de la qualitat: cicle PDCA (planificar-fer-verificar-actuar) per millorar eficàcia, eficiència i satisfacció. Instruments: cartes de serveis, enquestes, queixes i suggeriments, indicadors i simplificació administrativa. Orientació a l'atenció de la ciutadania.
+**Clau:** Millora de la qualitat: cicle PDCA (planificar-fer-verificar-actuar) per millorar l'eficàcia, l'eficiència i la satisfacció. Instruments: cartes de serveis (compromisos de qualitat), enquestes de satisfacció, sistemes de queixes i suggeriments, indicadors i simplificació administrativa. Orientació a l'atenció de la ciutadania: accessibilitat, informació clara, tracte correcte i resposta en terminis raonables.
 
 ---
 
 ## Tema 79. Avaluació de l’assoliment d’objectius: seguiment dels resultats propis i de l’Àrea del Territori i Sostenibilitat. Fases de treball. Qualitat dels resultats i reconducció de desviacions
 *Bloc 17 · Direcció, lideratge i habilitats directives*
 
-L'avaluació de l'assoliment d'objectius és el procés de seguiment dels resultats propis i de l'àrea (en aquest cas, l'Àrea del Territori i Sostenibilitat) per comprovar en quina mesura s'aconsegueixen els objectius fixats i per introduir-hi millores.
+L'avaluació de l'assoliment d'objectius és el procés de seguiment dels resultats propis i de l'àrea (l'Àrea del Territori i Sostenibilitat) per comprovar en quina mesura s'aconsegueixen els objectius fixats i introduir-hi millores.
 
 ### Fases de l'avaluació
-L'avaluació segueix un cicle amb fases definides: la planificació (definició dels objectius i dels indicadors), l'execució (desplegament de les accions previstes), el seguiment i la mesura (recollida sistemàtica de dades sobre l'evolució), i la revisió (anàlisi de les desviacions respecte dels objectius i adopció de mesures correctores i de millora). Aquest cicle es retroalimenta, de manera que els resultats orienten la planificació següent.
+L'avaluació segueix un cicle amb fases definides:
+
+- La planificació: definició dels objectius i dels indicadors.
+- L'execució: desplegament de les accions previstes.
+- El seguiment i la mesura: recollida sistemàtica de dades sobre l'evolució.
+- La revisió: anàlisi de les desviacions respecte dels objectius i adopció de mesures correctores.
+
+El cicle es retroalimenta: els resultats orienten la planificació següent.
 
 ### Indicadors i quadre de comandament
 Els objectius s'han de poder mesurar mitjançant indicadors, que han de ser rellevants, mesurables i vinculats als objectius (criteris SMART: específics, mesurables, assolibles, rellevants i amb un horitzó temporal). El quadre de comandament integra els indicadors clau per facilitar-ne el seguiment i la presa de decisions, i permet detectar a temps les desviacions.
 
-### Retiment de comptes
-L'avaluació de resultats es vincula al retiment de comptes i a la transparència: la difusió dels objectius assolits i dels indicadors reforça la responsabilitat de la gestió pública i la confiança de la ciutadania. En l'àmbit del territori, els objectius poden referir-se a terminis de tramitació de llicències i instruments de planejament, a la qualitat dels serveis urbans o a l'execució d'obres i projectes.
+### Qualitat dels resultats i reconducció de desviacions
+Quan el seguiment detecta desviacions respecte dels objectius (per exemple, en els terminis de tramitació de llicències o en l'execució d'obres), cal analitzar-ne les causes i adoptar mesures correctores (reforç de recursos, reprogramació, simplificació). L'avaluació es vincula al retiment de comptes i a la transparència, que reforcen la responsabilitat de la gestió i la confiança de la ciutadania.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Fases**
-  - Planificació, execució, seguiment/mesura i revisió
+  - Planificació → execució → seguiment/mesura → revisió
+  - Cicle retroalimentat
 - **Indicadors**
-  - SMART i quadre de comandament per detectar desviacions
-- **Retiment de comptes**
-  - Vinculació amb la transparència i la responsabilitat
+  - SMART i vinculats als objectius
+  - Quadre de comandament (detecta desviacions)
+- **Reconducció**
+  - Mesures correctores de les desviacions
+  - Retiment de comptes i transparència
 
-**Clau:** Avaluació de l'assoliment d'objectius: cicle de planificació, execució, seguiment/mesura i revisió. Indicadors SMART i quadre de comandament per detectar desviacions. Vinculació amb el retiment de comptes i la transparència.
+**Clau:** Avaluació de l'assoliment d'objectius: cicle de planificació, execució, seguiment/mesura i revisió, retroalimentat. Indicadors SMART i quadre de comandament per detectar a temps les desviacions. Davant les desviacions, mesures correctores (recursos, reprogramació, simplificació). Vinculació amb el retiment de comptes i la transparència.
 
 ---
 
 ## Tema 80. Eines del comandament: Gestió de l’estrès. Organització del treball
 *Bloc 17 · Direcció, lideratge i habilitats directives*
 
-Les eines del comandament inclouen les tècniques de gestió de l'estrès i d'organització del treball que permeten al directiu i a l'equip millorar el rendiment i el benestar.
+Les eines del comandament inclouen les tècniques d'organització del treball i de gestió de l'estrès que permeten al directiu i a l'equip millorar el rendiment i el benestar.
 
 ### Organització del treball
-Una bona organització del treball es basa a prioritzar (distingint el que és urgent del que és important, per exemple amb la matriu d'Eisenhower), planificar les tasques i els terminis, agrupar les tasques similars, evitar les interrupcions innecessàries i delegar adequadament. La planificació del temps i la fixació d'objectius diaris i setmanals ajuden a centrar l'esforç en el que aporta valor.
+Una bona organització del treball es basa en:
+
+- Prioritzar, distingint el que és urgent del que és important (per exemple, amb la matriu d'Eisenhower).
+- Planificar les tasques i els terminis, i fixar objectius diaris i setmanals.
+- Agrupar les tasques similars i evitar les interrupcions innecessàries.
+- Delegar adequadament, donant autonomia i fent-ne el seguiment.
 
 ### Gestió de l'estrès
 La gestió de l'estrès implica identificar-ne les fonts (sobrecàrrega, manca de control, conflictes), adoptar hàbits saludables, organitzar la càrrega de treball de manera realista, demanar suport i, des de l'organització, prevenir els riscos psicosocials. Un nivell d'estrès gestionable millora el rendiment; un estrès crònic el deteriora i afecta la salut.
 
 ### Reunions i comunicació eficaces
-Les reunions han de tenir un objectiu clar, un ordre del dia, una durada ajustada i un seguiment dels acords. La comunicació eficaç (clara, concreta i bidireccional) evita malentesos i facilita la coordinació. El comandament ha de combinar l'orientació a resultats amb l'atenció a les persones de l'equip.
+Les reunions han de tenir un objectiu clar, un ordre del dia, una durada ajustada i un seguiment dels acords. La comunicació eficaç (clara, concreta i bidireccional) evita malentesos i facilita la coordinació. El comandament ha de combinar l'orientació als resultats amb l'atenció a les persones de l'equip.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Organització del treball**
-  - Prioritzar urgent/important, planificar, agrupar tasques, delegar
+  - Prioritzar (urgent/important)
+  - Planificar, agrupar tasques, delegar
 - **Gestió de l'estrès**
-  - Identificar fonts, càrrega realista
+  - Identificar fonts; càrrega realista
   - Prevenció de riscos psicosocials
 - **Reunions i comunicació**
-  - Reunions amb objectiu i seguiment; comunicació clara i bidireccional
+  - Objectiu, ordre del dia, seguiment
+  - Comunicació clara i bidireccional
 
-**Clau:** Eines del comandament: organització del treball (prioritzar urgent/important, planificar, agrupar tasques, delegar) i gestió de l'estrès (identificar fonts, càrrega realista, prevenció de riscos psicosocials). Reunions amb objectiu i seguiment; comunicació clara i bidireccional.
+**Clau:** Eines del comandament: organització del treball (prioritzar urgent/important, planificar, agrupar tasques, delegar) i gestió de l'estrès (identificar fonts, càrrega realista, prevenció de riscos psicosocials). Reunions amb objectiu i seguiment; comunicació clara i bidireccional, combinant l'orientació a resultats amb l'atenció a les persones.
 
 ---
 
 ## Tema 81. Lideratge d’equips: Técniques de motivació, delegació de tasques i gestió o resolució de conflictes. Habilitats de comunicació: Comunicació assertiva. Recursos i tècniques de comunicació
 *Bloc 17 · Direcció, lideratge i habilitats directives*
 
-El lideratge d'equips comprèn les tècniques de motivació, de delegació de tasques i de gestió o resolució de conflictes, així com les habilitats de comunicació pròpies de qui dirigeix persones.
+El lideratge d'equips comprèn les tècniques de motivació, de delegació de tasques i de gestió de conflictes, així com les habilitats de comunicació pròpies de qui dirigeix persones.
 
 ### Motivació i estils de lideratge
 La motivació de l'equip s'afavoreix amb el reconeixement de la feina, la participació en les decisions, l'establiment d'objectius clars i assolibles i el desenvolupament professional de les persones. Hi ha diferents estils de lideratge (directiu, participatiu, delegatiu); el lideratge situacional recomana adaptar l'estil al grau de maduresa i competència de cada persona i a la naturalesa de la tasca.
@@ -3340,19 +3388,20 @@ La motivació de l'equip s'afavoreix amb el reconeixement de la feina, la partic
 La delegació eficaç consisteix a assignar tasques i responsabilitats donant l'autonomia necessària i fent-ne un seguiment, sense caure en el control excessiu ni en l'abandonament. Delegar allibera temps del comandament per a les funcions estratègiques i desenvolupa les capacitats de l'equip; requereix definir clarament l'objectiu, els recursos i els criteris de control.
 
 ### Gestió de conflictes i comunicació
-Els conflictes en els equips s'aborden preferentment amb tècniques de comunicació, negociació i mediació, abans de recórrer a mesures coercitives. Les habilitats de comunicació clau són l'escolta activa, l'assertivitat (expressar el propi punt de vista respectant els altres), l'empatia i la capacitat de donar i rebre retroacció (feedback) de manera constructiva.
+Els conflictes s'aborden preferentment amb tècniques de comunicació, negociació i mediació, abans de recórrer a mesures coercitives. Les habilitats de comunicació clau són l'escolta activa, l'assertivitat (expressar el propi punt de vista respectant els altres), l'empatia i la capacitat de donar i rebre retroacció (feedback) de manera constructiva.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Motivació**
   - Reconeixement, participació, objectius clars
-  - Lideratge situacional (adaptat a la persona i la tasca)
+  - Lideratge situacional (adaptat a persona i tasca)
 - **Delegació**
   - Autonomia + seguiment
+  - Definir objectiu, recursos i control
 - **Conflictes i comunicació**
   - Comunicació, negociació, mediació
-  - Escolta activa, assertivitat, empatia i feedback
+  - Escolta activa, assertivitat, empatia, feedback
 
-**Clau:** Lideratge d'equips: motivar (reconeixement, participació, objectius clars), delegar (autonomia + seguiment) i gestionar conflictes (comunicació, negociació, mediació). Habilitats: escolta activa, assertivitat, empatia i feedback. Lideratge situacional adaptat a la persona i la tasca.
+**Clau:** Lideratge d'equips: motivar (reconeixement, participació, objectius clars), delegar (autonomia + seguiment) i gestionar conflictes (comunicació, negociació, mediació). Habilitats de comunicació: escolta activa, assertivitat, empatia i feedback. Lideratge situacional adaptat a la maduresa de la persona i a la tasca.
 
 ---
 
@@ -3364,86 +3413,92 @@ Normes: **L19_2014** (Llei 19/2014 de transparència, accés a la informació i 
 La transparència en la gestió pública, el bon govern i el dret d'accés a la informació pública es regulen a Catalunya per la Llei 19/2014 i, en l'àmbit estatal, per la Llei 19/2013.
 
 ### Transparència (publicitat activa)
-La transparència obliga les administracions a fer pública, per iniciativa pròpia i de manera permanent i actualitzada, la informació rellevant sobre la seva organització i funcionament: informació institucional i organitzativa, de rellevància jurídica (normes, plans), sobre la gestió econòmica (pressupostos, comptes, retribucions), i sobre la contractació, els convenis i les subvencions. Aquesta informació es difon a través del portal de transparència.
+La transparència obliga les administracions a fer pública, per iniciativa pròpia i de manera permanent i actualitzada, la informació rellevant sobre la seva organització i funcionament: informació institucional i organitzativa, de rellevància jurídica (normes, plans), sobre la gestió econòmica (pressupostos, comptes, retribucions) i sobre la contractació, els convenis i les subvencions. Es difon a través del portal de transparència.
 
 ### Dret d'accés a la informació pública
-Qualsevol persona té dret a accedir a la informació pública (la que les administracions posseeixen i que ha estat elaborada o adquirida en l'exercici de les seves funcions), sense necessitat de motivar la sol·licitud ni d'acreditar cap interès. Aquest dret només es pot limitar pels límits taxats que estableix la llei (protecció de dades personals, seguretat pública, investigació, secrets, etc.), aplicats de manera restrictiva i, en el cas de les dades personals, prèvia ponderació entre l'interès públic en la divulgació i els drets afectats.
+Qualsevol persona té dret a accedir a la informació pública (la que les administracions posseeixen i que ha estat elaborada o adquirida en l'exercici de les seves funcions), sense necessitat de motivar la sol·licitud ni d'acreditar cap interès. Aquest dret només es pot limitar pels límits taxats que estableix la llei (protecció de dades personals, seguretat pública, investigació, secrets), aplicats de manera restrictiva i, en el cas de les dades personals, prèvia ponderació entre l'interès públic en la divulgació i els drets afectats.
 
 ### Silenci, garanties i bon govern
-La sol·licitud d'accés s'ha de resoldre en el termini d'un mes; el silenci té caràcter desestimatori (negatiu). Contra la denegació o el silenci, a Catalunya es pot presentar una reclamació davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP). El bon govern comporta l'exigència de principis ètics i de conducta als alts càrrecs i un règim d'incompatibilitats i de prevenció de conflictes d'interès.
+La sol·licitud d'accés s'ha de resoldre en el termini d'un mes; el silenci té caràcter estimatori, llevat que hi concorri un límit. Contra la denegació o el silenci, a Catalunya es pot presentar una reclamació davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP). El bon govern comporta l'exigència de principis ètics i de conducta als alts càrrecs i un règim d'incompatibilitats i de prevenció de conflictes d'interès.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Transparència (Llei 19/2014)**
   - Publicitat activa al portal de transparència
+  - Informació institucional, econòmica, de contractació
 - **Dret d'accés**
   - De qualsevol persona, sense motivar
   - Límits taxats i ponderació amb la protecció de dades
-  - Silenci negatiu; reclamació davant la GAIP
-- **Bon govern**
+- **Garanties i bon govern**
+  - Resolució en 1 mes; reclamació davant la GAIP
   - Principis ètics dels alts càrrecs
 
-**Clau:** Llei 19/2014: transparència (publicitat activa al portal), dret d'accés (de qualsevol persona, sense motivar; límits taxats i ponderació amb la protecció de dades; silenci negatiu i reclamació davant la GAIP) i bon govern (principis ètics dels alts càrrecs).
+**Clau:** Llei 19/2014: transparència (publicitat activa al portal: informació institucional, econòmica i de contractació), dret d'accés (de qualsevol persona, sense motivar; límits taxats i ponderació amb la protecció de dades; resolució en 1 mes i reclamació davant la GAIP) i bon govern (principis ètics i règim d'incompatibilitats dels alts càrrecs).
 
 ---
 
 ## Tema 83. Gestió per Objectius: Planificació estratègica i operativa, fixació d’indicadors i avaluació del desenvolupament
 *Bloc 17 · Direcció, lideratge i habilitats directives*
 
-La gestió per objectius (direcció per objectius, DPO) és un model de gestió que orienta l'organització cap a la consecució de resultats definits prèviament, mitjançant la planificació estratègica i operativa, la fixació d'indicadors i l'avaluació del desenvolupament.
+La gestió per objectius (direcció per objectius, DPO) és un model de direcció que orienta l'activitat de l'organització cap a la consecució de resultats definits prèviament, mitjançant la planificació, els indicadors i l'avaluació.
 
 ### Planificació estratègica i operativa
-La planificació estratègica defineix la missió, la visió i els objectius a llarg termini de l'organització, així com les línies d'acció prioritàries. La planificació operativa concreta aquests objectius en accions, projectes, recursos i terminis a curt termini. Hi ha d'haver alineació entre tots dos nivells: les accions operatives han de contribuir als objectius estratègics.
+La gestió per objectius parteix de la planificació estratègica, que fixa la missió, la visió i els objectius generals a llarg termini, i la concreta en la planificació operativa, que en desplega les accions, els recursos i els terminis a curt termini. Els objectius generals es despleguen en objectius d'àrea i, si escau, individuals, de manera que tots quedin alineats.
 
 ### Fixació d'objectius i indicadors
-Els objectius han de complir els criteris SMART: ser específics, mesurables, assolibles, rellevants i amb un horitzó temporal definit. Per a cada objectiu es fixen indicadors que en permeten mesurar el grau d'assoliment, i fites intermèdies que faciliten el seguiment. La participació de les persones en la definició dels objectius n'augmenta el compromís.
+Els objectius han de complir els criteris SMART (específics, mesurables, assolibles, rellevants i amb un horitzó temporal). Cal associar-hi indicadors que en permetin el seguiment i establir fites intermèdies. Un bon sistema d'indicadors, integrat en un quadre de comandament, facilita el seguiment i la presa de decisions.
 
 ### Avaluació del desenvolupament
-L'avaluació del desenvolupament o de l'acompliment compara els resultats obtinguts amb els objectius i els indicadors fixats, identifica les desviacions i les seves causes i estableix mesures de millora. Es vincula, si escau, amb l'avaluació de l'acompliment del personal (TREBEP, art. 20), que valora la conducta professional i el rendiment, amb efectes sobre la carrera, la formació i la retribució per productivitat.
+El sistema es tanca amb l'avaluació de l'assoliment i del desenvolupament o acompliment de les persones. L'Estatut bàsic de l'empleat públic preveu l'avaluació de l'acompliment (art. 20 TREBEP), que mesura la conducta professional i el rendiment o els resultats, amb efectes en la carrera, la formació, la provisió de llocs i la percepció de la productivitat. L'avaluació permet reconduir les desviacions i orientar la planificació següent.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Planificació**
-  - Estratègica (missió, visió, objectius a llarg) i operativa (accions i recursos a curt)
-  - Alineades
+  - Estratègica (missió, visió, llarg termini)
+  - Operativa (accions i recursos, curt termini)
+  - Objectius alineats (generals → àrea → individuals)
 - **Objectius i indicadors**
-  - SMART, amb fites de seguiment
+  - Criteris SMART
+  - Indicadors i quadre de comandament
 - **Avaluació**
-  - Del desenvolupament/acompliment (art. 20 TREBEP)
+  - De l'acompliment (art. 20 TREBEP)
   - Efectes en carrera i productivitat
 
-**Clau:** Gestió per objectius (DPO): planificació estratègica (missió, visió, objectius a llarg termini) i operativa (accions i recursos a curt), alineades. Objectius i indicadors SMART, amb fites de seguiment. Avaluació del desenvolupament/acompliment (TREBEP art. 20), amb efectes en carrera i productivitat.
+**Clau:** Gestió per objectius (DPO): planificació estratègica (missió, visió, objectius a llarg termini) i operativa (accions i recursos a curt termini), amb objectius alineats (generals, d'àrea i individuals). Objectius i indicadors SMART, amb quadre de comandament. Avaluació de l'acompliment (art. 20 TREBEP), que mesura conducta i rendiment amb efectes en la carrera i la productivitat, i permet reconduir desviacions.
 
 ---
 
 ## Tema 84. Presa de decisions: Anàlisi de problemes complexos i gestió del canvi en entorns públics
 *Bloc 17 · Direcció, lideratge i habilitats directives*
 
-La presa de decisions consisteix a triar, entre diverses alternatives, la més adequada per resoldre un problema o assolir un objectiu. En els entorns públics, sovint complexos, requereix mètode, anàlisi i una bona gestió del canvi.
+La presa de decisions és el procés d'elecció entre alternatives per resoldre problemes o aprofitar oportunitats. En els entorns públics inclou l'anàlisi de problemes complexos i la gestió del canvi.
 
 ### El procés de decisió
-Un procés estructurat de presa de decisions comprèn:
+La presa de decisions estructurada segueix unes fases:
 
-- Definir i delimitar el problema (identificant-ne les causes arrel, no només els símptomes)
-- Recollir i analitzar la informació rellevant
-- Generar diverses alternatives de solució
-- Avaluar cada alternativa segons criteris (eficàcia, cost, impacte, riscos, legalitat)
-- Triar i implementar la decisió
-- Fer-ne el seguiment per comprovar-ne els resultats i corregir si cal
+- Definir el problema i identificar-ne les causes arrel (no només els símptomes).
+- Recollir i analitzar la informació rellevant.
+- Generar alternatives de solució.
+- Avaluar les alternatives segons criteris objectius (eficàcia, cost, viabilitat, riscos) i decidir.
+- Implementar la decisió i fer-ne el seguiment per introduir-hi ajustos.
 
 ### Eines d'anàlisi de problemes complexos
-Per analitzar problemes complexos es poden emprar eines com l'anàlisi DAFO (debilitats, amenaces, fortaleses i oportunitats), l'arbre de problemes i d'objectius, l'anàlisi cost-benefici i les tècniques de participació i de consens. En entorns d'incertesa, és important valorar els riscos i preveure escenaris alternatius.
+Per als problemes complexos s'utilitzen eines d'anàlisi com la matriu DAFO (debilitats, amenaces, fortaleses i oportunitats), l'arbre de problemes (causes i efectes), l'anàlisi cost-benefici i les tècniques de priorització. En entorns públics, la decisió s'ha d'ajustar als principis de legalitat, objectivitat i interès general, i sovint requereix la participació de diversos actors.
 
 ### Gestió del canvi
-Moltes decisions impliquen canvis en l'organització, que solen generar resistències. La gestió del canvi requereix comunicar de manera clara els motius i els objectius del canvi, implicar i fer participar les persones afectades, acompanyar la transició amb formació i suport, i gestionar les resistències amb diàleg. Un canvi ben gestionat redueix la incertesa i augmenta les possibilitats d'èxit.
+Les decisions solen comportar canvis organitzatius que generen resistències. La gestió del canvi exigeix comunicar de manera clara els motius i els beneficis, implicar i fer participar les persones afectades, formar i acompanyar l'equip, i abordar les resistències amb diàleg i lideratge, per assegurar que el canvi s'implanti i es consolidi.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Procés de decisió**
-  - Definir el problema (causes arrel) → analitzar → generar alternatives → avaluar → decidir → seguiment
+- **Procés**
+  - Definir el problema (causes arrel)
+  - Analitzar → generar alternatives → avaluar → decidir
+  - Implementar i fer seguiment
 - **Eines**
   - DAFO, arbre de problemes, cost-benefici
+  - Legalitat, objectivitat i interès general
 - **Gestió del canvi**
-  - Comunicar, implicar, acompanyar i gestionar resistències
+  - Comunicar, implicar, acompanyar
+  - Gestionar resistències amb diàleg
 
-**Clau:** Presa de decisions: definir el problema (causes arrel) → analitzar informació → generar alternatives → avaluar (criteris i riscos) → decidir i implementar → seguiment. Eines: DAFO, arbre de problemes, cost-benefici. Gestió del canvi: comunicar, implicar, acompanyar i gestionar resistències.
+**Clau:** Presa de decisions: definir el problema (causes arrel) → analitzar la informació → generar alternatives → avaluar (criteris i riscos) → decidir → implementar i seguiment. Eines: DAFO, arbre de problemes, cost-benefici, amb subjecció a la legalitat, l'objectivitat i l'interès general. Gestió del canvi: comunicar, implicar, acompanyar i gestionar les resistències amb diàleg i lideratge.
 
 ---
 
