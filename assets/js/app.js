@@ -391,6 +391,30 @@ function estudi(){
 /* ===========================================================================
    VISTA: TEMA (resum)
    =========================================================================== */
+/* Concepte curt d'un tema per als menús de navegació. */
+function themeConcept(t){
+  let s = (t.title||'').split(/[:.]/)[0].trim();
+  if (s.length>36) s = s.slice(0,36).trim()+'…';
+  return s;
+}
+/* Barra de navegació entre temes: fletxes + desplegable de tots els temes per blocs. */
+function themeNavHtml(num){
+  const temari = DATA.temari.temari, blocks = DATA.temari.blocks;
+  const groups = {};
+  temari.forEach(t=>{ (groups[t.block] ||= []).push(t); });
+  let opts = '';
+  Object.keys(groups).sort((a,b)=>a-b).forEach(b=>{
+    opts += `<optgroup label="Bloc ${b} · ${esc(blocks[b])}">`;
+    groups[b].forEach(t=>{ opts += `<option value="${t.num}" ${t.num===num?'selected':''}>${t.num} · ${esc(themeConcept(t))}</option>`; });
+    opts += `</optgroup>`;
+  });
+  return `<div class="temanav">
+    ${num>1?`<a class="tnav-arrow" href="#/tema/${num-1}" title="Tema anterior">‹</a>`:`<span class="tnav-arrow disabled">‹</span>`}
+    <select id="temajump" class="tnav-select" aria-label="Salta a un tema">${opts}</select>
+    ${num<90?`<a class="tnav-arrow" href="#/tema/${num+1}" title="Tema següent">›</a>`:`<span class="tnav-arrow disabled">›</span>`}
+  </div>`;
+}
+
 function temaView(num){
   num = parseInt(num,10);
   const tema = DATA.temari.temari.find(t=>t.num===num);
@@ -412,6 +436,7 @@ function temaView(num){
   }
 
   view.innerHTML = `
+    ${themeNavHtml(num)}
     <a class="backlink" href="#/estudi">← Tornar al temari</a>
     <article class="summary card">
       <div class="eyebrow">Bloc ${tema.block} · ${esc(tema.blockName)}</div>
@@ -437,6 +462,8 @@ function temaView(num){
     e.target.textContent = now ? '✓ Repassat' : 'Marcar com a repassat';
     scheduleGistPush();
   });
+  const jump = byId('temajump');
+  if (jump) jump.addEventListener('change', e=>{ location.hash = '#/tema/' + e.target.value; });
 }
 
 function renderResum(r, tema){
@@ -484,6 +511,17 @@ function examenConfig(){
   const s = store.settings();
   const allThemes = temari.map(t=>t.num);
   const themesOfBlock = b => temari.filter(t=>String(t.block)===String(b)).map(t=>t.num);
+  const pending = store.pendingExam();
+  const pAns = pending ? (pending.answers||[]).filter(a=>a!==null).length : 0;
+  const pQ = pending ? (pending.qs||[]).length : 0;
+  const pC = pending ? (pending.cs||[]).length : 0;
+  const pendingBanner = pending ? `
+    <div class="card pendingcard">
+      <b>⏳ Tens un examen en procés</b>
+      <p class="muted" style="margin:.3em 0 .7em">${pAns} de ${pQ} preguntes contestades${pC?` · ${pC} cas(os)`:''}. Si en comences un de nou, aquest es perdrà.</p>
+      <div class="row"><button class="btn primary" id="resumeBtn">▶ Reprèn l'examen</button>
+      <button class="btn ghost" id="discardBtn">Descarta'l</button></div>
+    </div>` : '';
 
   // selecció inicial: un bloc si ve per paràmetre, si no tot el temari
   const sel = new Set(preBlock ? themesOfBlock(preBlock) : allThemes);
@@ -504,6 +542,7 @@ function examenConfig(){
   view.innerHTML = `
     <h1>Configura l'examen</h1>
     <p class="lead">Tria com vols practicar. La puntuació segueix la Base 7.7 de la convocatòria.</p>
+    ${pendingBanner}
     <div class="card">
       <div class="field"><span>Àmbit · pots triar diversos blocs o temes</span>
         <div class="row" style="gap:6px;flex-wrap:wrap;margin-bottom:8px">
@@ -582,8 +621,16 @@ function examenConfig(){
   byId('cfgTimer').addEventListener('change', e=>cfg.timer=+e.target.value);
   byId('startBtn').addEventListener('click', ()=>{
     if (!sel.size){ alert('Selecciona com a mínim un tema o un bloc.'); return; }
+    if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si en comences un de nou. Vols continuar?')) return;
+    store.clearPendingExam();
     startExam({ ...cfg, themes:[...sel] });
   });
+  if (pending){
+    byId('resumeBtn').addEventListener('click', resumeExam);
+    byId('discardBtn').addEventListener('click', ()=>{
+      if (confirm('Segur que vols descartar l\'examen en procés?')){ store.clearPendingExam(); render(); }
+    });
+  }
   refresh();
 }
 function segHandler(id, cb){
@@ -622,9 +669,36 @@ function startExam(cfg){
     started: Date.now(),
     deadline: cfg.timer ? Date.now()+cfg.timer*60000 : 0,
     submitted: false,
+    isExam: true,
   };
+  persistExam();
   examRunning();
 }
+
+/* Reprèn l'examen desat (des de la configuració o l'historial). */
+function resumeExam(){
+  const p = store.pendingExam();
+  if (!p){ location.hash = '#/examen'; return; }
+  examState = { ...p, isExam: true, submitted: false };
+  if (examState.paused === undefined) examState.paused = false;
+  if (examState.remaining === undefined) examState.remaining = 0;
+  examRunning();
+}
+
+/* Desa l'examen en curs perquè es pugui reprendre si es perd la pàgina. */
+function persistExam(){
+  if (!examState || !examState.isExam || examState.submitted) return;
+  const s = examState;
+  store.setPendingExam({
+    cfg: s.cfg, qs: s.qs, cs: s.cs,
+    answers: s.answers,
+    caseAnswers: (s.caseAnswers||[]).map(a=>({ text:a.text||'', checks:a.checks||{}, claude:null })),
+    started: s.started, deadline: s.deadline, submitted: false,
+    paused: !!s.paused, remaining: s.remaining||0, isExam: true,
+  });
+}
+let _persistT = null;
+function persistExamSoon(){ clearTimeout(_persistT); _persistT = setTimeout(persistExam, 500); }
 
 function themeLabel(n){
   const t = DATA.temari.temari.find(x=>x.num===Number(n));
@@ -677,6 +751,15 @@ function examRunning(){
   html += `<div class="sticky-bar"><button class="btn primary block lg" id="submitBtn">Corregir examen</button></div>`;
   view.innerHTML = html;
 
+  // restaura respostes i textos desats (en reprendre)
+  examState.answers.forEach((a,i)=>{
+    if (a!==null){ const b = view.querySelector(`.opt[data-q="${i}"][data-o="${a}"]`); if (b) b.classList.add('sel'); }
+  });
+  $$('textarea[data-case]').forEach(ta=>{
+    const v = examState.caseAnswers[+ta.dataset.case] && examState.caseAnswers[+ta.dataset.case].text;
+    if (v) ta.value = v;
+  });
+
   // handlers test
   $$('.opt').forEach(btn=>btn.addEventListener('click', ()=>{
     const qi=+btn.dataset.q, oi=+btn.dataset.o;
@@ -684,10 +767,12 @@ function examRunning(){
     view.querySelectorAll(`.opt[data-q="${qi}"]`).forEach(b=>b.classList.remove('sel'));
     if (examState.answers[qi]!==null) btn.classList.add('sel');
     updateProgress();
+    persistExam();
   }));
   // handlers casos
   $$('textarea[data-case]').forEach(ta=>ta.addEventListener('input', ()=>{
     examState.caseAnswers[+ta.dataset.case].text = ta.value;
+    persistExamSoon();
   }));
   byId('submitBtn').addEventListener('click', ()=>{
     const unanswered = examState.answers.filter(a=>a===null).length;
@@ -696,9 +781,18 @@ function examRunning(){
   });
   const pauseBtn = byId('pauseBtn');
   if (pauseBtn) pauseBtn.addEventListener('click', togglePause);
-  examState.paused = false; examState.remaining = 0;
+  if (examState.paused === undefined) examState.paused = false;
+  if (examState.remaining === undefined) examState.remaining = 0;
+  if (examState.paused && pauseBtn){          // reprèn amb el cronòmetre aturat
+    pauseBtn.textContent = '▶ Reprèn';
+    const el = byId('timer'); if (el){ el.classList.add('paused'); el.textContent = fmtClock(examState.remaining); }
+  }
   updateProgress();
   startTimer();
+}
+function fmtClock(ms){
+  const m = Math.max(0,Math.floor(ms/60000)), s = Math.max(0,Math.floor((ms%60000)/1000));
+  return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
 }
 
 function updateProgress(){
@@ -738,6 +832,7 @@ function togglePause(){
     if (btn) btn.textContent = '▶ Reprèn';
     if (el) el.classList.add('paused');
   }
+  persistExam();
 }
 
 /* ===========================================================================
@@ -746,6 +841,7 @@ function togglePause(){
 function finishExam(){
   clearInterval(timerInt);
   examState.submitted = true;
+  store.clearPendingExam();          // l'examen ja no està "en procés"
   const { qs, cs, answers } = examState;
   const n = qs.length;
   let correct=0, wrong=0, blank=0;
@@ -1046,6 +1142,18 @@ function historial(){
       <div class="progress" style="flex:1;max-width:240px"><i style="width:${Math.round(sd/90*100)}%"></i></div>
     </div></div>`;
 
+  const pending = store.pendingExam();
+  if (pending){
+    const pAns = (pending.answers||[]).filter(a=>a!==null).length;
+    const pQ = (pending.qs||[]).length, pC = (pending.cs||[]).length;
+    html += `<div class="card pendingcard">
+      <div class="between"><b>⏳ Examen en procés</b><span class="pill amber">en procés</span></div>
+      <p class="muted" style="margin:.3em 0 .7em">${pAns} de ${pQ} preguntes contestades${pC?` · ${pC} cas(os)`:''}.</p>
+      <div class="row"><button class="btn primary" id="histResume">▶ Reprèn l'examen</button>
+      <button class="btn ghost" id="histDiscard">Descarta'l</button></div>
+    </div>`;
+  }
+
   if (!exams.length){
     html += `<div class="card center"><p class="muted">Encara no has desat cap examen.</p>
       <a class="btn primary" href="#/examen">Fer el primer examen</a></div>`;
@@ -1093,6 +1201,10 @@ function historial(){
   const clr = byId('clearAll');
   if (clr) clr.addEventListener('click', ()=>{ if(confirm('Esborrar tot l\'historial?')){ store.clearExams(); render(); }});
   $$('[data-del]').forEach(b=>b.addEventListener('click', ()=>{ store.deleteExam(b.dataset.del); render(); }));
+  const hr = byId('histResume'); if (hr) hr.addEventListener('click', resumeExam);
+  const hd = byId('histDiscard'); if (hd) hd.addEventListener('click', ()=>{
+    if (confirm('Segur que vols descartar l\'examen en procés?')){ store.clearPendingExam(); render(); }
+  });
   setupSync();
 }
 
