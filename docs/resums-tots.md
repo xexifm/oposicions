@@ -55,7 +55,15 @@ Normes: **EAC2006** (Estatut d'autonomia de Catalunya (LO 6/2006)).
 L'Estatut d'autonomia de Catalunya (EAC) és la norma institucional bàsica de la Generalitat i forma part del bloc de constitucionalitat. L'EAC vigent és la Llei orgànica 6/2006.
 
 ### Naturalesa i estructura
-L'EAC és una llei orgànica de caràcter especial: l'elaboren i aproven el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols: drets, deures i principis rectors; les institucions; el poder judicial a Catalunya; les competències; les relacions institucionals; el finançament; i la reforma.
+L'EAC és una llei orgànica de caràcter especial: l'elaboren i aproven el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols:
+
+- Drets, deures i principis rectors
+- Les institucions
+- El poder judicial a Catalunya
+- Les competències
+- Les relacions institucionals
+- El finançament
+- La reforma
 
 ### La Generalitat: institucions
 La Generalitat és el sistema institucional en què s'organitza l'autogovern de Catalunya. La integren el Parlament (que representa el poble i exerceix la potestat legislativa), el president o presidenta de la Generalitat (la més alta representació) i el Govern (òrgan executiu). En formen part també altres institucions estatutàries: el Síndic de Greuges, la Sindicatura de Comptes i el Consell de Garanties Estatutàries.
@@ -184,46 +192,38 @@ El Ple es reuneix en sessions ordinàries (amb la periodicitat que fixa la llei 
 
 Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local); **DL2_2003** (DL 2/2003 (TR Llei municipal i de règim local de Catalunya)).
 
-Les competències municipals defineixen l'àmbit d'actuació del municipi. La LRBRL, reformada per la Llei 27/2013 (LRSAL), distingeix competències pròpies, delegades i altres activitats, amb un sistema de garanties (informes) per evitar duplicitats i assegurar la sostenibilitat financera. La legislació sectorial estatal i catalana concreta les matèries.
+Les competències municipals són el conjunt de matèries sobre les quals el municipi pot actuar. Es determinen per llei i es regeixen per la LRBRL i la legislació catalana de règim local (DL 2/2003).
 
-### Competències pròpies
-Són les atribuïdes per llei (estatal o autonòmica) i s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat (art. 7.2). La clàusula de l'art. 25.1 permet al municipi promoure activitats i prestar serveis públics que contribueixin a satisfer les necessitats de la comunitat veïnal. L'art. 25.2 enumera les matèries en què el municipi exercirà en tot cas competències pròpies:
+### Competències pròpies (art. 25 LRBRL)
+Són les atribuïdes per llei (estatal o autonòmica) i s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat. L'art. 25.2 enumera les matèries en què el municipi exercirà en tot cas competències pròpies: urbanisme, medi ambient urbà, abastament d'aigua i sanejament, residus, vies públiques, mobilitat, protecció civil, salubritat pública, cementiris, cultura, esport i promoció turística, entre altres.
 
-- Urbanisme
-- Medi ambient urbà
-- Abastament d'aigua i tractament d'aigües residuals
-- Residus
-- Infraestructura viària
-- Trànsit i mobilitat
-- Protecció civil i prevenció i extinció d'incendis
-- Protecció de la salubritat pública
-- Cementiris
-- Promoció de la cultura, l'esport i el turisme
-- Informació i promoció de l'activitat turística d'interès local, entre altres
+### Serveis mínims obligatoris (art. 26 LRBRL)
+Tots els municipis han de prestar uns serveis mínims, que augmenten per trams de població:
 
-### Serveis mínims obligatoris (art. 26)
-Tots els municipis han de prestar: enllumenat públic, cementiri, recollida de residus, neteja viària, abastament domiciliari d'aigua potable, clavegueram, accés als nuclis de població i pavimentació de les vies públiques. Els de més de 5.000 habitants, a més: parc públic, biblioteca pública i tractament de residus. Els de més de 20.000: protecció civil, avaluació i informació de situacions de necessitat social i atenció immediata a persones en risc d'exclusió, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic. Els de més de 50.000: transport col·lectiu urbà de viatgers i medi ambient urbà.
+- A tots: enllumenat públic, cementiri, recollida de residus, neteja viària, abastament d'aigua, clavegueram, accés als nuclis de població i pavimentació de les vies.
+- Als de més de 5.000 habitants: també parc públic, biblioteca pública i tractament de residus.
+- Als de més de 20.000 habitants: també protecció civil, avaluació i informació de situacions de necessitat social, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic.
+- Als de més de 50.000 habitants: també transport col·lectiu urbà i medi ambient urbà.
 
-### Competències delegades (art. 27)
-L'Estat i les comunitats autònomes poden delegar en els municipis l'exercici de competències pròpies, sempre que millori l'eficiència de la gestió pública, contribueixi a una utilització més econòmica dels serveis públics o s'asseguri una millor prestació. La delegació ha de determinar l'abast, el contingut i la durada (no inferior a cinc anys), i va acompanyada de la corresponent dotació pressupostària; pot preveure tècniques de direcció i control d'oportunitat i eficiència, i requereix l'acceptació del municipi.
+### Competències delegades (art. 27 LRBRL)
+L'Estat i les comunitats autònomes poden delegar competències en els municipis, per millorar l'eficàcia de la gestió pública. La delegació ha d'anar acompanyada de la dotació econòmica corresponent, pot preveure tècniques de direcció i control, i té una durada mínima de cinc anys.
 
-### Competències diferents de les pròpies i delegades (art. 7.4)
-El municipi només pot exercir competències diferents de les pròpies i de les delegades (sovint anomenades 'impròpies') quan no es posi en risc la sostenibilitat financera del conjunt de la hisenda municipal i no es produeixi una execució simultània del mateix servei públic amb una altra administració. Cal acreditar-ho amb dos informes previs i vinculants: un de l'Administració competent per raó de la matèria, que indiqui la inexistència de duplicitats, i un altre de l'Administració que tingui atribuïda la tutela financera, sobre la sostenibilitat de les noves competències.
-
-### Garantia institucional
-El sistema competencial és expressió de la garantia constitucional de l'autonomia local: la llei pot atribuir o modular competències, però no pot buidar de contingut la capacitat dels municipis de gestionar els assumptes que els afecten. Les diputacions coordinen i, en alguns casos, poden coordinar la prestació de serveis mínims dels municipis petits.
+### Competències diferents (impròpies) i garantia institucional
+El municipi pot exercir competències diferents de les pròpies i de les delegades (art. 7.4 LRBRL) quan no es posi en risc la sostenibilitat financera del conjunt de la hisenda i no s'incorri en duplicitats, amb els informes previs de l'administració competent i de la que té atribuïda la tutela financera. Tot el sistema es fonamenta en la garantia institucional de l'autonomia local.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Pròpies (art. 25 LRBRL)**
-  - Atribuïdes per llei, en règim d'autonomia
-- **Serveis mínims (art. 26 LRBRL)**
-  - Per trams de població: 5.000 / 20.000 / 50.000 hab.
-- **Delegades (art. 27 LRBRL)**
-  - Amb dotació econòmica i control; durada mínima 5 anys
-- **Diferents (impròpies, art. 7.4 LRBRL)**
-  - Cal informe de no-duplicitat i de sostenibilitat financera
+- **Pròpies (art. 25)**
+  - Per llei, en règim d'autonomia
+  - Matèries: urbanisme, aigua, residus, mobilitat…
+- **Serveis mínims (art. 26)**
+  - Per trams: 5.000 / 20.000 / 50.000 habitants
+- **Delegades (art. 27)**
+  - Amb dotació i control; mínim 5 anys
+- **Diferents (art. 7.4)**
+  - Sense duplicitats ni risc de sostenibilitat
+  - Informes previs; garantia institucional
 
-**Clau:** Competències: pròpies (per llei, en autonomia, art. 25), delegades (amb dotació i control, art. 27, mínim 5 anys) i diferents/impròpies (art. 7.4, amb informes de no-duplicitat i sostenibilitat). Serveis mínims per trams de població (art. 26): 5.000, 20.000 i 50.000 habitants.
+**Clau:** Competències municipals (LRBRL, DL 2/2003). Pròpies (art. 25): per llei, en règim d'autonomia (urbanisme, aigua, residus, mobilitat…). Serveis mínims obligatoris (art. 26) per trams de població (5.000, 20.000 i 50.000 habitants). Delegades (art. 27): amb dotació econòmica i control, durada mínima de 5 anys. Diferents o impròpies (art. 7.4): sense duplicitats ni risc per a la sostenibilitat financera, amb informes previs. Tot es fonamenta en la garantia institucional de l'autonomia local.
 
 ---
 
@@ -232,11 +232,16 @@ El sistema competencial és expressió de la garantia constitucional de l'autono
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 
-L'acte administratiu és tota declaració de voluntat, de judici, de coneixement o de desig dictada per una Administració pública en exercici d'una potestat administrativa diferent de la reglamentària. Es regeix per la Llei 39/2015. És clau diferenciar-lo del reglament: el reglament és una norma que s'integra a l'ordenament (té rang superior i vocació de permanència), mentre que l'acte aplica l'ordenament a un cas concret i s'esgota amb el seu compliment. Per això una resolució no pot vulnerar un reglament encara que la dicti un òrgan superior (inderogabilitat singular dels reglaments, art. 37 de la Llei 39/2015).
+L'acte administratiu és tota declaració de voluntat, de judici, de coneixement o de desig dictada per una administració en exercici d'una potestat administrativa diferent de la reglamentària. Es regeix per la Llei 39/2015.
+
+### Concepte i distinció del reglament
+L'acte administratiu aplica l'ordenament a un cas concret i s'esgota amb el seu compliment, mentre que el reglament és una norma que s'integra a l'ordenament, amb rang superior i vocació de permanència. Per això un acte, encara que el dicti un òrgan superior, no pot vulnerar un reglament (inderogabilitat singular dels reglaments, art. 37 de la Llei 39/2015).
 
 ### Classes d'actes
-- Segons la incidència: favorables (amplien la situació jurídica: llicències, subvencions) i de gravamen (la restringeixen: sancions, ordres). La distinció és rellevant perquè els de gravamen s'han de motivar i els favorables només es poden retirar per vies taxades.
-- Resolutoris (decideixen el fons) i de tràmit (impulsen el procediment). Només es poden recórrer separadament els actes de tràmit qualificats: els que decideixen directament o indirectament el fons, impedeixen continuar el procediment, produeixen indefensió o un perjudici irreparable (art. 112 de la Llei 39/2015).
+Els actes es classifiquen segons diversos criteris:
+
+- Segons la incidència: favorables (amplien la situació jurídica: llicències, subvencions) i de gravamen (la restringeixen: sancions, ordres).
+- Resolutoris (decideixen el fons) i de tràmit (impulsen el procediment); només es poden recórrer separadament els actes de tràmit qualificats (art. 112 de la Llei 39/2015).
 - Expressos i presumptes (produïts per silenci).
 - Que posen fi o no a la via administrativa; ferms o no ferms.
 
@@ -245,40 +250,29 @@ Un acte és vàlid si concorren:
 
 - L'element subjectiu (òrgan competent, vàlidament investit i sense causa d'abstenció)
 - L'element objectiu (contingut lícit, possible i determinat o determinable)
-- L'element causal o teleològic (adequació al fi d'interès públic previst per la norma; apartar-se'n és desviació de poder, causa d'anul·labilitat)
-- L'element formal (producció a través del procediment degut i amb la forma escaient, en general escrita i per mitjans electrònics)
+- L'element causal o teleològic (adequació al fi d'interès públic; apartar-se'n és desviació de poder, causa d'anul·labilitat)
+- L'element formal (producció a través del procediment degut i amb la forma escaient)
 
 ### La motivació
-La motivació és l'expressió de les raons de fet i de dret que fonamenten l'acte. L'art. 35 de la Llei 39/2015 la fa obligatòria, entre d'altres, en els actes que limiten drets subjectius o interessos legítims; els que resolen procediments de revisió, recursos administratius o arbitratge; els que se separen del criteri seguit en actuacions precedents o del dictamen d'òrgans consultius; els acords de suspensió i les mesures provisionals; els discrecionals; i els sancionadors. La falta o insuficiència de motivació pot generar indefensió i, per tant, anul·labilitat.
+La motivació és l'expressió de les raons de fet i de dret que fonamenten l'acte. L'art. 35 de la Llei 39/2015 la fa obligatòria, entre altres, en els actes que limiten drets, els que resolen recursos o procediments de revisió, els que se separen del criteri precedent o del dictamen d'òrgans consultius, els discrecionals i els sancionadors. La manca o la insuficiència de motivació pot generar indefensió i, per tant, anul·labilitat.
 
 ### El silenci administratiu
-Quan l'Administració incompleix el deure de resoldre i notificar dins el termini (art. 21 obliga sempre a resoldre), la llei atribueix un sentit a la inactivitat. En els procediments iniciats a sol·licitud de l'interessat, la regla general és el silenci POSITIU o estimatori: la sol·licitud s'entén estimada i això produeix un acte veritable (acte presumpte), invocable davant de tothom; un cop produït, l'Administració ja no pot resoldre en sentit contrari (art. 24.3.a). El silenci té sentit NEGATIU només en les excepcions previstes per una norma amb rang de llei o pel dret de la UE per raons imperioses d'interès general:
-
-- El dret de petició
-- Els procediments en què l'estimació transferiria al sol·licitant facultats sobre el domini públic o el servei públic
-- La responsabilitat patrimonial
-- Els procediments d'impugnació d'actes
-- Els relatius al medi ambient
-
-Un límit infranquejable: el silenci no permet adquirir mai facultats o drets contraris a l'ordenament jurídic (per això una llicència urbanística disconforme amb el planejament no s'adquireix mai per silenci, art. 11.3 TRLS).
-
-### Silenci en procediments iniciats d'ofici
-Si poden produir efectes desfavorables o de gravamen (per exemple, sancionadors), el transcurs del termini sense resolució produeix la caducitat del procediment i l'arxiu de les actuacions (art. 25). Si reconeixen o constitueixen drets, els interessats poden entendre desestimades les seves pretensions per silenci.
+Quan l'administració incompleix el deure de resoldre, opera el silenci. A instància de part, el silenci és, com a regla general, positiu (produeix un acte veritable), llevat de les excepcions taxades (per exemple, l'exercici del dret de petició o quan una norma amb rang de llei o de dret de la UE ho estableixi), i mai no atorga facultats contràries a l'ordenament. En els procediments iniciats d'ofici dels quals es puguin derivar efectes desfavorables, el silenci comporta la caducitat.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Acte ≠ reglament**
   - Acte: aplica l'ordenament a un cas i s'esgota
   - Inderogabilitat singular (art. 37 de la Llei 39/2015)
-- **Elements de validesa**
-  - Subjectiu (competència), objectiu (contingut/causa)
-  - Teleològic (fi; desviació de poder = anul·labilitat) i formal
-- **Motivació (art. 35 de la Llei 39/2015)**
-  - Obligatòria en actes de gravamen, discrecionals i sancionadors
-- **Silenci**
-  - A instància de part: positiu de regla; negatiu si excepció taxada
-  - D'ofici desfavorable: caducitat
+- **Classes**
+  - Favorables / de gravamen
+  - Resolutoris / de tràmit (qualificats: art. 112)
+- **Elements**
+  - Subjectiu, objectiu, teleològic (desviació de poder) i formal
+- **Motivació i silenci**
+  - Motivació obligatòria (art. 35): gravamen, discrecionals, sancionadors
+  - Silenci: positiu de regla; d'ofici desfavorable, caducitat
 
-**Clau:** Acte administratiu (Llei 39/2015). Elements: subjectiu (competència), objectiu (contingut/causa), teleològic (fi) i formal (procediment/forma). Motivació obligatòria (art. 35) en actes limitatius, discrecionals i sancionadors. Silenci a instància de part: positiu de regla (acte veritable), negatiu en excepcions taxades; mai facultats contràries a l'ordenament. D'ofici desfavorable: caducitat.
+**Clau:** Acte administratiu (Llei 39/2015): aplica l'ordenament a un cas concret (a diferència del reglament; inderogabilitat singular, art. 37). Classes: favorables/de gravamen; resolutoris/de tràmit (recurribles els qualificats, art. 112). Elements de validesa: subjectiu (competència), objectiu (contingut/causa), teleològic (fi; desviació de poder) i formal (procediment). Motivació obligatòria (art. 35) en actes de gravamen, discrecionals i sancionadors. Silenci a instància de part: positiu de regla, negatiu en excepcions taxades, mai facultats contra l'ordenament; d'ofici desfavorable, caducitat.
 
 ---
 
@@ -287,49 +281,41 @@ Si poden produir efectes desfavorables o de gravamen (per exemple, sancionadors)
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 
-L'eficàcia, l'executivitat i la invalidesa de l'acte administratiu es regulen als arts. 37 a 52 de la Llei 39/2015. Els actes administratius es presumeixen vàlids (presumpció de legalitat) i produeixen efectes des que es dicten, fet que els fa immediatament executius i permet a l'Administració dur-los a terme fins i tot contra la voluntat de l'obligat.
+L'eficàcia de l'acte administratiu és la seva aptitud per produir efectes jurídics. La Llei 39/2015 en regula l'eficàcia, la notificació, l'executivitat i els supòsits d'invalidesa.
 
 ### Eficàcia de l'acte
-Els actes són eficaços des de la data en què es dicten (art. 39.1), llevat que el seu contingut disposi una altra cosa. L'eficàcia queda demorada quan ho exigeix la notificació o la publicació, quan l'acte està supeditat a una aprovació superior o a una condició suspensiva. Excepcionalment, l'eficàcia pot ser retroactiva (art. 39.3): quan es dictin en substitució d'actes anul·lats, o quan produeixin efectes favorables a l'interessat, sempre que els supòsits de fet ja existissin en la data a què es retrotreu l'eficàcia i no es lesionin drets o interessos legítims de tercers.
+Els actes administratius es presumeixen vàlids i produeixen efectes des de la data en què es dicten, llevat que hi disposin una altra cosa (art. 39 de la Llei 39/2015). L'eficàcia es pot demorar quan així ho exigeix el contingut de l'acte o està supeditada a la notificació, la publicació o l'aprovació superior.
 
 ### Notificació i publicació
-La notificació s'ha de cursar dins el termini de deu dies a partir de la data en què l'acte s'ha dictat (art. 40), i ha de contenir el text íntegre de la resolució, si exhaureix o no la via administrativa, els recursos que escaiguin, l'òrgan davant el qual presentar-los i el termini. Es practiquen preferentment per mitjans electrònics. Una notificació defectuosa només produeix efectes des que l'interessat faci actuacions que suposin el coneixement del contingut o interposi el recurs procedent (art. 40.3). La publicació substitueix la notificació en els casos legalment previstos: destinataris indeterminats, actes integrants d'un procediment selectiu o de concurrència competitiva, o quan ho estableixi la norma (art. 45).
+Els actes s'han de notificar als interessats en el termini de deu dies des que es dicten (art. 40), amb indicació dels recursos procedents. La notificació s'ha de practicar preferentment per mitjans electrònics. La publicació substitueix la notificació en els casos legalment previstos (per exemple, quan els destinataris són indeterminats).
 
 ### Executivitat i execució forçosa
-Els actes són immediatament executius (art. 38), llevat dels supòsits de suspensió, dels que necessiten aprovació superior o quan una disposició estableixi el contrari. Si l'obligat no compleix voluntàriament, l'Administració pot procedir a l'execució forçosa, prèvia advertència, mitjançant els mitjans de l'art. 100: el constrenyiment sobre el patrimoni, l'execució subsidiària (a càrrec de l'obligat), la multa coercitiva (reiterable, diferent de la sanció) i la compulsió sobre les persones. Regeixen els principis de proporcionalitat i de menor restricció de la llibertat.
+Els actes són immediatament executius (art. 98) i gaudeixen de la presumpció de validesa i de l'autotutela: l'administració pot executar-los per si mateixa. L'execució forçosa (arts. 99-105) es fa a través dels mitjans taxats: constrenyiment sobre el patrimoni, execució subsidiària, multa coercitiva i compulsió sobre les persones, amb respecte del principi de proporcionalitat i amb advertiment previ.
 
-### Nul·litat de ple dret (art. 47)
-És la forma més greu d'invalidesa, reservada a supòsits taxats:
+### Nul·litat i anul·labilitat
+La invalidesa pot ser de dos graus:
 
-- Actes que lesionen drets i llibertats susceptibles d'empara constitucional
-- Dictats per òrgan manifestament incompetent per raó de la matèria o del territori
-- De contingut impossible
-- Constitutius d'infracció penal o dictats com a conseqüència d'aquesta
-- Dictats prescindint total i absolutament del procediment legalment establert o de les normes essencials de formació de la voluntat dels òrgans col·legiats
-- Actes contraris a l'ordenament pels quals s'adquireixen facultats o drets sense els requisits essencials
-- Els que estableixi una norma amb rang de llei
+- Nul·litat de ple dret (art. 47): supòsits taxats (actes que lesionen drets fonamentals, dictats per òrgan manifestament incompetent, de contingut impossible, constitutius d'infracció penal, dictats prescindint totalment del procediment); és radical, ex tunc, no convalidable i imprescriptible.
+- Anul·labilitat (art. 48): és la regla general per a qualsevol infracció de l'ordenament; el defecte de forma només invalida si impedeix assolir la finalitat de l'acte o causa indefensió; els actes anul·lables són convalidables (art. 52).
 
-Els seus efectes són ex tunc (des de l'origen), no és convalidable i pot declarar-se en qualsevol moment.
-
-### Anul·labilitat (art. 48)
-És la regla general: és anul·lable qualsevol acte que infringeixi l'ordenament jurídic, inclosa la desviació de poder. Ara bé, el defecte de forma només determina l'anul·labilitat quan l'acte no assoleix la seva finalitat o dona lloc a indefensió; en cas contrari és una mera irregularitat no invalidant. L'actuació fora del temps establert només invalida si ho imposa la naturalesa del termini. Els actes anul·lables són convalidables esmenant-ne els vicis (art. 52).
-
-### Conversió, conservació i vies de reacció
-Un acte nul o anul·lable que contingui els elements d'un altre de diferent en pot produir els efectes (conversió, art. 50); es conserven els actes i tràmits no afectats pel vici (art. 51). Per fer efectiva la invalidesa, l'Administració disposa de la revisió d'ofici dels actes nuls (art. 106, sense termini i amb dictamen del Consell consultiu) i de la declaració de lesivitat dels actes anul·lables favorables (art. 107, en el termini de quatre anys, seguida de la impugnació davant la jurisdicció contenciosa). Els interessats reaccionen mitjançant els recursos.
+### Vies de reacció
+L'administració pot revisar els seus propis actes: la revisió d'ofici dels actes nuls (art. 106), sense termini i amb dictamen consultiu, i la declaració de lesivitat dels actes anul·lables favorables (art. 107), dins de quatre anys, seguida de la impugnació davant la jurisdicció contenciosa.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Eficàcia**
-  - Vàlids i eficaços des que es dicten
-  - Notificació en 10 dies (art. 40 de la Llei 39/2015)
+  - Presumpció de validesa; efectes des que es dicten (art. 39)
+  - Notificació en 10 dies (art. 40)
 - **Executivitat**
-  - Execució forçosa (arts. 99-105 de la Llei 39/2015)
+  - Immediatament executius; autotutela
+  - Execució forçosa (arts. 99-105): constrenyiment, subsidiària, multa coercitiva
 - **Invalidesa**
   - Nul·litat (art. 47): taxada, ex tunc, imprescriptible
-  - Anul·labilitat (art. 48): regla; defecte de forma només si causa indefensió; convalidable (art. 52)
+  - Anul·labilitat (art. 48): regla; forma només si causa indefensió; convalidable (art. 52)
 - **Reacció**
-  - Revisió d'ofici (art. 106) i declaració de lesivitat (art. 107)
+  - Revisió d'ofici (art. 106)
+  - Declaració de lesivitat (art. 107, 4 anys)
 
-**Clau:** Actes vàlids i eficaços des que es dicten; notificació en 10 dies (art. 40); executius amb execució forçosa (99-105). Nul·litat (art. 47): taxada, ex tunc, no convalidable, imprescriptible. Anul·labilitat (art. 48): regla general; el defecte de forma només invalida si impedeix la finalitat o causa indefensió; convalidable (52). Revisió d'ofici (106) i lesivitat (107).
+**Clau:** Eficàcia de l'acte (Llei 39/2015): presumpció de validesa i efectes des que es dicten (art. 39); notificació en 10 dies (art. 40). Immediatament executius (autotutela); execució forçosa (arts. 99-105): constrenyiment, execució subsidiària, multa coercitiva i compulsió. Invalidesa: nul·litat de ple dret (art. 47, taxada, ex tunc, imprescriptible) i anul·labilitat (art. 48, regla general; el defecte de forma només invalida si causa indefensió; convalidable, art. 52). Reacció: revisió d'ofici (art. 106) i declaració de lesivitat (art. 107).
 
 ---
 
@@ -338,57 +324,37 @@ Un acte nul o anul·lable que contingui els elements d'un altre de diferent en p
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 
-El procediment administratiu és el conjunt ordenat de tràmits i actuacions a través dels quals es forma i s'exterioritza la voluntat de l'Administració. Compleix una doble funció: és garantia per a l'interessat (drets de defensa, contradicció) i garantia d'encert i objectivitat de la decisió administrativa. La Llei 39/2015 en regula el règim comú per a totes les administracions.
+El procediment administratiu és el conjunt ordenat de tràmits a través dels quals es produeix l'acte administratiu. És alhora una garantia dels interessats i de l'encert de la decisió. El regula la Llei 39/2015.
 
 ### Capacitat i interessats
-Tenen capacitat d'obrar davant les administracions les persones físiques i jurídiques que la tinguin conforme a la normativa civil, els menors per a l'exercici dels drets que l'ordenament els permet sense assistència, i els grups d'afectats, unions i entitats sense personalitat jurídica quan la llei ho prevegi (art. 3). Són interessats (art. 4):
+Tenen capacitat d'obrar davant les administracions les persones físiques i jurídiques que la tenen segons el dret civil i, quan la llei ho preveu, els menors i els grups sense personalitat (art. 3). Són interessats (art. 4) els qui promouen el procediment com a titulars de drets o interessos legítims, els qui, sense haver-lo iniciat, tenen drets que poden resultar afectats, i aquells l'interès legítim dels quals pugui resultar afectat i es personin abans de la resolució.
 
-- Els qui promoguin el procediment com a titulars de drets o interessos legítims
-- Els qui, sense haver-lo iniciat, tinguin drets que puguin resultar afectats per la decisió
-- Aquells els interessos legítims dels quals, individuals o col·lectius, puguin resultar afectats i es personin abans de la resolució
-
-### Drets de les persones en les seves relacions amb l'Administració
-Inclouen (arts. 13 i 53):
-
-- El dret a una bona administració (a ser tractat amb imparcialitat i a una resolució en termini raonable)
-- A conèixer l'estat de la tramitació i a accedir a l'expedient
-- A obtenir informació i orientació
-- A no presentar documents que ja estiguin en poder de les administracions o que hagi elaborat qualsevol administració (interoperabilitat)
-- A actuar assistit
-- A la protecció de dades
-
-L'interessat té, a més, drets específics com el de formular al·legacions, utilitzar els mitjans de defensa admesos i obtenir còpies.
+### Drets de les persones
+Les persones tenen, en les seves relacions amb les administracions, un ampli catàleg de drets (arts. 13 i 53): a comunicar-se electrònicament, a ser assistides, a conèixer l'estat de la tramitació i a accedir a l'expedient, a no aportar documents que ja estiguin en poder de les administracions, a una bona administració (que inclou la resolució en termini) i a la protecció de dades.
 
 ### Principis del procediment
-Regeixen l'oficialitat o impuls d'ofici (l'Administració impulsa el procediment en totes les fases), el caràcter contradictori, l'economia, la celeritat, l'eficàcia, la transparència i la cooperació entre administracions. L'expedient administratiu (art. 70) és el conjunt ordenat de documents i actuacions que serveixen d'antecedent i fonament de la resolució; té format electrònic, foliat i indexat.
+El procediment es regeix, entre altres, pels principis d'impuls d'ofici (l'administració l'ha d'impulsar en totes les fases), de contradicció (audiència i al·legacions de les parts), d'oficialitat en la prova, de celeritat i economia processal, i de transparència.
 
 ### Abstenció i recusació
-Les autoritats i el personal en qui concorri una causa d'abstenció s'han d'abstenir d'intervenir i comunicar-ho al seu superior (art. 23 Llei 40/2015). Són causes d'abstenció, entre altres:
+Per garantir la imparcialitat, les autoritats i el personal en qui concorri una causa d'abstenció (interès personal, parentiu, amistat o enemistat manifesta, relació de servei) s'han d'abstenir d'intervenir i comunicar-ho al superior; si no ho fan, els interessats en poden promoure la recusació (arts. 23 i 24 de la Llei 40/2015).
 
-- Tenir interès personal en l'assumpte
-- El parentiu de consanguinitat dins del quart grau o d'afinitat dins del segon
-- L'amistat íntima o l'enemistat manifesta
-- Haver intervingut com a perit o testimoni
-- O tenir una relació de servei amb una persona interessada
-
-Els interessats poden promoure la recusació en qualsevol moment (art. 24). La intervenció d'una autoritat en qui concorri causa d'abstenció no implica, per si sola, la invalidesa dels actes, però pot generar responsabilitat.
-
-### Principis de bona regulació (potestat normativa)
-Quan l'Administració exerceix la potestat reglamentària, ha d'actuar d'acord amb els principis de necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència (art. 129). Aquests principis obliguen a justificar l'interès general, a triar la regulació menys restrictiva, a garantir la coherència amb la resta de l'ordenament i a evitar càrregues administratives innecessàries.
+### Principis de bona regulació
+En l'exercici de la potestat normativa (reglaments), les administracions han d'actuar d'acord amb els principis de bona regulació de l'art. 129 de la Llei 39/2015: necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Subjectes**
-  - Interessats (art. 4 de la Llei 39/2015); capacitat (art. 3)
-- **Drets**
+  - Capacitat (art. 3); interessats (art. 4)
+- **Drets (arts. 13 i 53)**
   - Bona administració, accés a l'expedient
-  - No aportar documents en poder de l'AP (arts. 13 i 53)
+  - No aportar documents; protecció de dades
 - **Principis**
-  - Impuls d'ofici i contradicció
+  - Impuls d'ofici, contradicció, celeritat
   - Abstenció i recusació (arts. 23-24 de la Llei 40/2015)
 - **Bona regulació (art. 129)**
-  - Necessitat, proporcionalitat, seguretat jurídica, transparència i eficiència
+  - Necessitat, proporcionalitat, seguretat jurídica
+  - Transparència i eficiència
 
-**Clau:** Procediment = garantia de l'interessat i d'encert. Interessats (art. 4); capacitat (art. 3). Drets: bona administració, accés a l'expedient, no aportar documents (arts. 13 i 53). Impuls d'ofici i contradicció. Abstenció i recusació (arts. 23-24 Llei 40/2015). Bona regulació (art. 129): necessitat, proporcionalitat, seguretat jurídica, transparència i eficiència.
+**Clau:** Procediment administratiu (Llei 39/2015): garantia de l'interessat i de l'encert. Capacitat (art. 3) i interessats (art. 4). Drets de les persones (arts. 13 i 53): bona administració, accés a l'expedient, no aportar documents, protecció de dades. Principis: impuls d'ofici, contradicció i celeritat. Abstenció i recusació (arts. 23-24 de la Llei 40/2015) per garantir la imparcialitat. Bona regulació (art. 129): necessitat, proporcionalitat, seguretat jurídica, transparència i eficiència.
 
 ---
 
@@ -397,41 +363,43 @@ Quan l'Administració exerceix la potestat reglamentària, ha d'actuar d'acord a
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 
-El procediment administratiu comú s'estructura en quatre fases successives: iniciació, ordenació, instrucció i finalització (Títol IV de la Llei 39/2015). El termini màxim per resoldre i notificar és el que fixi la norma reguladora i, en defecte seu, tres mesos.
+El procediment administratiu s'estructura en fases successives, des de la iniciació fins a la finalització. Les regula la Llei 39/2015.
 
 ### Iniciació
-El procediment pot iniciar-se d'ofici o a sol·licitud de l'interessat (art. 54). S'inicia D'OFICI per acord de l'òrgan competent, adoptat per iniciativa pròpia o com a conseqüència d'una ordre superior, a petició raonada d'altres òrgans o per denúncia (art. 58). S'inicia a SOL·LICITUD de l'interessat mitjançant un escrit amb el contingut de l'art. 66. Si la sol·licitud no reuneix els requisits, es requereix l'interessat perquè, en el termini de deu dies, esmeni la falta o aporti els documents preceptius, amb l'advertiment que, si no ho fa, se'l tindrà per desistit (art. 68).
+El procediment s'inicia d'ofici (per acord de l'òrgan competent, per iniciativa pròpia, ordre superior, petició raonada o denúncia) o a instància de la persona interessada (mitjançant sol·licitud). Si la sol·licitud té defectes, es requereix l'interessat perquè els esmeni en el termini de deu dies, amb l'advertiment que, si no ho fa, se'l tindrà per desistit (art. 68). Es poden adoptar mesures provisionals.
 
 ### Ordenació
-L'òrgan competent impulsa el procediment d'ofici en totes les fases (art. 71), respectant l'ordre rigorós d'incoació en els assumptes de naturalesa homogènia i el principi de celeritat. Es poden acordar la concentració en un sol acte dels tràmits que admetin un impuls simultani (art. 72) i l'acumulació de procediments connexos.
+L'ordenació comprèn els actes d'impuls del procediment, que l'administració ha de dur a terme d'ofici. Regeixen els principis de celeritat i d'igualtat de tracte; els tràmits s'han de complir en els terminis establerts.
 
 ### Instrucció
-Comprèn els actes necessaris per determinar, conèixer i comprovar els fets sobre els quals s'ha de pronunciar la resolució:
-
-- Les al·legacions de l'interessat, que es poden formular en qualsevol moment anterior al tràmit d'audiència (art. 76)
-- La prova, quan l'Administració no tingui per certs els fets (arts. 77-78; els fets es poden acreditar per qualsevol mitjà admès en dret)
-- Els informes, preceptius o facultatius i, en general, no vinculants (arts. 79-80)
-- La informació pública, quan la naturalesa del procediment ho requereixi (art. 83)
-- El tràmit d'audiència, posterior a la instrucció i immediatament anterior a la redacció de la proposta de resolució (art. 82)
+La instrucció recull els actes necessaris per determinar i comprovar els fets: les al·legacions dels interessats, la prova (quan els fets no es tenen per certs), els informes (preceptius o facultatius) i el tràmit d'audiència (art. 82), que permet als interessats examinar l'expedient i formular al·legacions abans de la proposta de resolució.
 
 ### Finalització
-Posen fi al procediment la resolució (que ha de ser motivada i congruent amb les peticions, sense que pugui agreujar la situació inicial de l'interessat, principi de no reformatio in peius), el desistiment de la sol·licitud, la renúncia al dret, la declaració de caducitat i la impossibilitat material de continuar per causes sobrevingudes. També hi cap la terminació convencional, mitjançant acords, pactes o convenis que no siguin contraris a l'ordenament jurídic ni versin sobre matèries no susceptibles de transacció (art. 86).
+El procediment pot finalitzar per:
+
+- Resolució: és el mode normal; ha de ser motivada i congruent amb les peticions, i decidir totes les qüestions plantejades.
+- Desistiment (de la sol·licitud) o renúncia (al dret).
+- Caducitat (per paralització imputable a l'interessat en els procediments a instància de part, o per venciment del termini en els iniciats d'ofici que puguin produir efectes desfavorables).
+- Terminació convencional (acords, pactes o convenis, art. 86).
 
 ### Terminis per resoldre i silenci
-El termini màxim es compta, en els procediments iniciats d'ofici, des de la data de l'acord d'iniciació; en els iniciats a sol·licitud, des de l'entrada de la sol·licitud al registre electrònic de l'òrgan competent (art. 21). El termini supletori és de tres mesos. Es pot suspendre en els supòsits taxats de l'art. 22 (requeriment d'esmena, sol·licitud d'informes preceptius i determinants, pràctica de proves tècniques, etc.) i ampliar conforme a l'art. 23. El transcurs del termini sense resolució expressa determina els efectes del silenci administratiu o, si escau, la caducitat.
+L'administració té l'obligació de resoldre i notificar en el termini màxim fixat per la norma del procediment; si no en fixa cap, el termini supletori és de tres mesos (art. 21). El transcurs del termini sense resolució determina els efectes del silenci (positiu o negatiu) o la caducitat, segons el cas.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Iniciació**
   - D'ofici o a instància de part
-  - Esmena (art. 68 de la Llei 39/2015) en 10 dies → desistiment
+  - Esmena (art. 68) en 10 dies → desistiment
 - **Instrucció**
-  - Al·legacions, prova, informes i audiència (art. 82)
+  - Al·legacions, prova, informes
+  - Audiència (art. 82)
 - **Finalització**
-  - Resolució motivada i congruent; desistiment, renúncia, caducitat; convencional (art. 86)
+  - Resolució motivada i congruent
+  - Desistiment, renúncia, caducitat, convencional (art. 86)
 - **Terminis**
-  - Termini supletori per resoldre: 3 mesos (art. 21)
+  - Termini supletori: 3 mesos (art. 21)
+  - Silenci o caducitat segons el cas
 
-**Clau:** Fases: iniciació (ofici/instància; esmena art. 68 en 10 dies → desistit), ordenació (impuls d'ofici), instrucció (al·legacions, prova, informes, audiència art. 82) i finalització (resolució motivada i congruent, desistiment, renúncia, caducitat, convencional art. 86). Termini supletori per resoldre: 3 mesos (art. 21).
+**Clau:** Fases del procediment (Llei 39/2015). Iniciació d'ofici o a instància de part; esmena de la sol·licitud (art. 68) en 10 dies o desistiment. Ordenació (impuls d'ofici). Instrucció: al·legacions, prova, informes i audiència (art. 82). Finalització: resolució motivada i congruent, desistiment, renúncia, caducitat o terminació convencional (art. 86). Termini supletori per resoldre: 3 mesos (art. 21); el silenci (positiu o negatiu) o la caducitat operen segons el cas.
 
 ---
 
@@ -440,39 +408,40 @@ El termini màxim es compta, en els procediments iniciats d'ofici, des de la dat
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 
-El còmput dels terminis administratius i l'elaboració de les disposicions de caràcter general són dos aspectes pràctics fonamentals de la Llei 39/2015. Bona part dels errors en la tramitació deriven d'un mal càlcul dels terminis, que obliguen tant les autoritats com els interessats.
+Els terminis, l'obligació de resoldre i l'elaboració de les disposicions de caràcter general són aspectes clau del funcionament administratiu. Els regula la Llei 39/2015.
 
-### Còmput de terminis (arts. 29-30)
-Quan els terminis s'assenyalen en DIES, s'entenen hàbils i s'exclouen del còmput els dissabtes, els diumenges i els declarats festius; es compten a partir de l'endemà de la notificació o publicació de l'acte, o de l'endemà del dia en què es produeixin els efectes del silenci. Si el termini es fixa en MESOS o ANYS, es computa de data a data; si al mes de venciment no hi ha dia equivalent al de la notificació, el termini acaba l'últim dia del mes. Si l'últim dia del termini és inhàbil, s'entén prorrogat al primer dia hàbil següent. És inhàbil un dia que ho sigui al municipi o comunitat on resideix l'interessat i a la seu de l'òrgan, i a la inversa.
+### Còmput de terminis (arts. 29-30 de la Llei 39/2015)
+Les regles del còmput són:
+
+- Els terminis per dies s'entenen per dies hàbils, llevat que la norma o el dret de la UE indiqui dies naturals; s'exclouen els dissabtes, els diumenges i els festius.
+- El còmput per dies comença l'endemà d'aquell en què tingui lloc la notificació o publicació.
+- Si el termini es fixa en mesos o anys, es computa de data a data; si no hi ha dia equivalent, el termini acaba l'últim dia del mes.
+- Si l'últim dia és inhàbil, s'entén prorrogat al primer dia hàbil següent.
 
 ### Obligació de resoldre i efectes del temps
-L'Administració està obligada a dictar resolució expressa i a notificar-la en tots els procediments, sigui quina sigui la forma d'iniciació (art. 21), inclosos els que acabin per desistiment, renúncia, caducitat o impossibilitat material. L'incompliment del termini comporta responsabilitat disciplinària i, si escau, els efectes del silenci. La tramitació d'urgència (art. 33) redueix els terminis a la meitat, excepte els relatius a la presentació de sol·licituds i recursos; l'ampliació de terminis (art. 32) és possible d'ofici o a petició, fins a la meitat, si no es perjudiquen drets de tercers.
+L'administració està obligada a dictar resolució expressa i a notificar-la en tots els procediments (art. 21), fins i tot en els casos de silenci. El termini màxim el fixa la norma reguladora del procediment i, en defecte, és de tres mesos. En casos d'urgència es pot aplicar la tramitació d'urgència, que redueix a la meitat els terminis (art. 33). L'incompliment del termini pot generar responsabilitat.
 
 ### L'elaboració de les disposicions de caràcter general (reglaments)
-L'exercici de la potestat reglamentària segueix un procediment garantista:
-
-- Una consulta pública prèvia a la redacció (art. 133), perquè la ciutadania i les organitzacions afectades opinin sobre l'oportunitat i els problemes que es vol resoldre
-- La redacció del projecte acompanyada d'una memòria de l'anàlisi d'impacte normatiu (MAIN)
-- Els informes preceptius
-- El tràmit d'audiència als interessats i la informació pública
-- L'aprovació per l'òrgan competent
-- La publicació íntegra al diari oficial, requisit per a l'entrada en vigor
+L'exercici de la potestat reglamentària segueix un procediment amb garanties de participació i qualitat: la consulta pública prèvia (art. 133), la memòria de l'anàlisi d'impacte normatiu, els informes preceptius, el tràmit d'audiència i informació pública, i la publicació íntegra de la norma per a la seva entrada en vigor. Els plans anual i normatiu ordenen aquesta activitat.
 
 ### Principis i límits de la potestat normativa
-Els reglaments se subjecten als principis de bona regulació (art. 129) i a la jerarquia normativa: no poden vulnerar la llei ni regular matèries reservades a aquesta. Regeix la inderogabilitat singular (art. 37): les resolucions administratives de caràcter particular no poden vulnerar el que estableix una disposició general, encara que aquelles tinguin igual o superior rang que la norma reglamentària. Les administracions han de fer públic un pla anual normatiu (art. 132) i avaluar periòdicament l'aplicació de les normes vigents.
+La potestat reglamentària està sotmesa als principis de bona regulació (art. 129: necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència) i als límits de la jerarquia normativa (el reglament no pot contradir la llei), la reserva de llei, la irretroactivitat de les disposicions restrictives i la inderogabilitat singular dels reglaments (art. 37).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Còmput de terminis (arts. 29-30 de la Llei 39/2015)**
-  - Dies hàbils des de l'endemà
+- **Terminis (arts. 29-30)**
+  - Dies hàbils, des de l'endemà
   - Mesos/anys de data a data; últim dia inhàbil es prorroga
 - **Obligació de resoldre**
-  - Art. 21; la urgència redueix terminis a la meitat (art. 33)
+  - Sempre resolució expressa (art. 21); supletori 3 mesos
+  - Urgència: terminis a la meitat (art. 33)
 - **Reglaments**
-  - Consulta pública prèvia (art. 133) + MAIN + informació pública + publicació íntegra
-- **Límit**
+  - Consulta pública prèvia (art. 133) + MAIN
+  - Audiència, informació pública i publicació íntegra
+- **Límits**
+  - Bona regulació (art. 129); jerarquia i reserva de llei
   - Inderogabilitat singular (art. 37)
 
-**Clau:** Terminis (arts. 29-30): dies hàbils (des de l'endemà), mesos/anys de data a data, últim dia inhàbil es prorroga al primer hàbil. Obligació de resoldre (art. 21); urgència redueix a la meitat (33). Reglaments: consulta pública prèvia (133) + MAIN + informació pública + publicació íntegra. Inderogabilitat singular (37).
+**Clau:** Terminis (arts. 29-30 de la Llei 39/2015): per dies hàbils des de l'endemà; per mesos/anys, de data a data; l'últim dia inhàbil es prorroga. Obligació de resoldre sempre de manera expressa (art. 21); termini supletori de 3 mesos; tramitació d'urgència que redueix els terminis a la meitat (art. 33). Elaboració de reglaments: consulta pública prèvia (art. 133), memòria d'impacte, audiència, informació pública i publicació íntegra. Límits: bona regulació (art. 129), jerarquia, reserva de llei i inderogabilitat singular (art. 37).
 
 ---
 
@@ -481,49 +450,37 @@ Els reglaments se subjecten als principis de bona regulació (art. 129) i a la j
 
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú).
 
-Els recursos administratius són els mitjans d'impugnació mitjançant els quals els interessats demanen a la mateixa Administració que revisi un acte que consideren contrari a dret, abans (o en lloc) d'acudir a la jurisdicció contenciosa administrativa. Es regulen als arts. 112 a 126 de la Llei 39/2015.
+Els recursos administratius són els mitjans d'impugnació dels actes administratius davant la mateixa administració, com a garantia dels administrats i com a via prèvia a la jurisdicció contenciosa. Els regula la Llei 39/2015.
 
 ### Regles generals
-Són impugnables els actes definitius i els de tràmit qualificats (art. 112). El recurs es pot fonamentar en qualsevol motiu de nul·litat o anul·labilitat. La interposició no suspèn, per regla general, l'execució de l'acte; l'òrgan competent pot acordar la suspensió, d'ofici o a sol·licitud, ponderant el perjudici a l'interès públic i als tercers, quan l'execució pugui causar perjudicis de difícil o impossible reparació o quan la impugnació es fonamenti en una causa de nul·litat de ple dret (art. 117). Un error en la qualificació del recurs no n'impedeix la tramitació si se'n dedueix el veritable caràcter.
+Els recursos es fonamenten en la nul·litat o l'anul·labilitat de l'acte. Els pot interposar qui té la condició d'interessat. La interposició, com a regla general, no suspèn l'execució de l'acte impugnat, tot i que l'òrgan competent pot acordar-ne la suspensió (per exemple, si l'execució pot causar perjudicis de difícil reparació). L'error en la qualificació del recurs no n'impedeix la tramitació si es dedueix el seu caràcter veritable.
 
 ### Recurs d'alçada
-Procedeix contra els actes i les resolucions que NO posen fi a la via administrativa (art. 121). S'interposa davant l'òrgan que va dictar l'acte o davant el seu superior jeràrquic, que és qui l'ha de resoldre. El termini per interposar-lo és d'un mes si l'acte és exprés (si és presumpte, en qualsevol moment a partir de l'endemà que es produeixin els efectes del silenci). El termini per resoldre i notificar és de tres mesos; transcorregut sense resolució, el silenci és desestimatori, llevat del supòsit de doble silenci en què el recurs s'entén estimat.
+Procedeix contra els actes que NO posen fi a la via administrativa i s'interposa davant l'òrgan superior jeràrquic del que va dictar l'acte, en el termini d'un mes (si l'acte és exprés). El termini per resoldre és de tres mesos; transcorregut sense resolució, el silenci és desestimatori. Exhaureix la via administrativa.
 
 ### Recurs potestatiu de reposició
-Procedeix contra els actes que SÍ posen fi a la via administrativa (art. 123). És potestatiu: l'interessat pot interposar-lo davant el mateix òrgan que va dictar l'acte o anar directament a la via contenciosa. El termini d'interposició és d'un mes (acte exprés) i el de resolució, d'un mes; el silenci és desestimatori. No es pot interposar el recurs contenciós fins que la reposició s'hagi resolt expressament o per silenci, ni es pot tornar a interposar reposició contra la seva resolució.
+Procedeix contra els actes que exhaureixen la via administrativa i s'interposa davant el mateix òrgan que els va dictar. És potestatiu (es pot interposar o anar directament al contenciós), en el termini d'un mes, i el termini per resoldre és d'un mes (silenci desestimatori). No es pot interposar el contenciós fins que s'hagi resolt expressament o s'hagi produït el silenci.
 
 ### Recurs extraordinari de revisió
-S'interposa contra actes ferms en via administrativa, davant l'òrgan que els va dictar, només per les causes taxades de l'art. 125:
-
-- Que en dictar-los s'hagi incorregut en un error de fet que resulti dels mateixos documents incorporats a l'expedient
-- Que apareguin documents de valor essencial posteriors a l'acte o impossibles d'aportar abans
-- Que en l'acte hagin influït documents o testimonis declarats falsos per sentència ferma
-- O que s'hagi dictat com a conseqüència de prevaricació, suborn, violència o maquinació fraudulenta
-
-Els terminis són de quatre anys (error de fet) o de tres mesos (resta de causes).
+És un recurs excepcional contra actes ferms, que només procedeix per les causes taxades de l'art. 125 (error de fet, aparició de documents essencials, documents o testimonis declarats falsos, o prevaricació o suborn que hagin influït en l'acte). S'interposa davant l'òrgan que va dictar l'acte, amb terminis específics.
 
 ### Fi de la via administrativa i via judicial
-Posen fi a la via administrativa, entre d'altres (art. 114 i art. 52 LRBRL):
-
-- Les resolucions dels recursos d'alçada
-- Els actes dels òrgans que no tenen superior jeràrquic
-- En l'àmbit local, les resolucions de l'Alcalde, del Ple i de la Junta de Govern Local
-
-Exhaurida la via administrativa, queda oberta la jurisdicció contenciosa administrativa, davant la qual el recurs s'interposa en el termini de dos mesos si l'acte és exprés.
+Posen fi a la via administrativa, entre altres, les resolucions dels recursos d'alçada i els actes dels òrgans locals (Alcalde, Ple, Junta de Govern), d'acord amb l'art. 52 de la LRBRL. Esgotada la via administrativa, s'obre la jurisdicció contenciosa administrativa, amb un termini d'interposició de dos mesos.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Alçada**
-  - Actes que NO exhaureixen la via → òrgan superior
+  - Actes que NO exhaureixen la via → superior jeràrquic
   - 1 mes; resol en 3 mesos; silenci negatiu
 - **Reposició**
-  - Actes que exhaureixen la via → mateix òrgan; POTESTATIU; 1 mes
+  - Actes que exhaureixen la via → mateix òrgan
+  - POTESTATIU; 1 mes
 - **Extraordinari de revisió**
-  - Actes ferms; causes taxades (art. 125 de la Llei 39/2015)
-- **Vies**
-  - Fi de via: alçada i actes de l'Alcalde/Ple/JGL (art. 52 LRBRL)
+  - Actes ferms; causes taxades (art. 125)
+- **Fi de via**
+  - Alçada i actes de l'Alcalde/Ple/JGL (art. 52 LRBRL)
   - Contenciós: 2 mesos
 
-**Clau:** Recursos: alçada (actes que NO exhaureixen la via → superior jeràrquic, 1 mes; resol en 3 mesos, silenci negatiu); reposició (actes que exhaureixen la via → mateix òrgan, POTESTATIVA, 1 mes); extraordinari de revisió (actes ferms, causes taxades, art. 125). Fi de via: alçada i actes de l'Alcalde/Ple/JGL (52 LRBRL). Contenciós: 2 mesos.
+**Clau:** Recursos administratius (Llei 39/2015). Alçada: contra actes que NO exhaureixen la via, davant el superior jeràrquic, 1 mes; resol en 3 mesos, silenci negatiu; exhaureix la via. Reposició: contra actes que exhaureixen la via, davant el mateix òrgan, POTESTATIU, 1 mes. Extraordinari de revisió: contra actes ferms, per causes taxades (art. 125). Posen fi a la via administrativa l'alçada i els actes de l'Alcalde, el Ple i la Junta de Govern (art. 52 LRBRL). Contenciós: 2 mesos.
 
 ---
 
@@ -532,38 +489,41 @@ Exhaurida la via administrativa, queda oberta la jurisdicció contenciosa admini
 
 Normes: **TRLHL** (RDL 2/2004 (TR Llei reguladora de les hisendes locals)).
 
-La planificació de la gestió pública té en el pressupost el seu instrument fonamental de planificació, administració i gestió econòmica, i alhora un mecanisme general de coordinació. El règim pressupostari de les entitats locals es regula al text refós de la Llei reguladora de les hisendes locals (RDL 2/2004, TRLHL) i al RD 500/1990, dins el marc de la Llei orgànica 2/2012, d'estabilitat pressupostària i sostenibilitat financera.
+El pressupost és l'instrument central de la planificació de la gestió pública, que expressa la previsió d'ingressos i el límit de despeses per a l'exercici. En l'àmbit local es regeix pel TRLHL i el RD 500/1990.
 
 ### Concepte i naturalesa
-El pressupost general és l'expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat i els seus organismes, i dels drets que es preveuen liquidar durant l'exercici (art. 162 TRLHL). Té una doble naturalesa: respecte de les despeses, els crèdits tenen caràcter limitatiu (autoritzen un màxim de despesa, no obliguen a gastar); respecte dels ingressos, constitueixen una mera previsió. És, per tant, un acte d'autorització i de límit de la despesa pública.
+El pressupost general és l'expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat i dels drets que preveu liquidar durant l'exercici. Té una naturalesa jurídica dual: és una autorització (els crèdits de despesa són limitatius) i una previsió (dels ingressos). L'exercici coincideix amb l'any natural.
 
 ### Principis pressupostaris
-- Anualitat: l'exercici coincideix amb l'any natural.
-- Unitat i universalitat: un sol pressupost que reculli la totalitat dels ingressos i despeses.
-- Especialitat: els crèdits es destinen a la finalitat per a la qual s'autoritzen (qualitativa), sense superar-ne l'import (quantitativa) ni el temps (temporal).
-- No-afectació: els recursos es destinen a finançar el conjunt de les obligacions, llevat dels ingressos específicament afectats.
-- Unitat de caixa: centralització de tots els fons i valors en la tresoreria.
-- Estabilitat pressupostària i sostenibilitat financera (LO 2/2012).
+El pressupost s'ordena per un conjunt de principis:
+
+- Anualitat: es refereix a l'exercici (l'any natural).
+- Unitat i universalitat: un únic pressupost que recull tots els ingressos i despeses.
+- Especialitat: els crèdits s'apliquen a la finalitat concreta (qualitativa, quantitativa i temporal).
+- No-afectació: els ingressos financen globalment les despeses, amb excepcions.
+- Unitat de caixa: una tresoreria única.
 - Publicitat i transparència.
 
 ### Estabilitat, sostenibilitat i regla de despesa
-La LO 2/2012 imposa l'estabilitat pressupostària (situació d'equilibri o de superàvit estructural), la sostenibilitat financera (capacitat de finançar els compromisos presents i futurs dins els límits de dèficit i deute) i la regla de despesa (la despesa computable no pot créixer per sobre de la taxa de referència de creixement del PIB). L'incompliment d'aquests objectius obliga a formular un pla economicofinancer que permeti recuperar-los.
+La normativa d'estabilitat pressupostària (LO 2/2012) imposa l'estabilitat pressupostària (equilibri o superàvit estructural), la sostenibilitat financera (control del deute), la regla de despesa (límit al creixement de la despesa) i el principi de prudència financera. L'incompliment obliga a mesures correctores (plans economicofinancers).
 
 ### Contingut del pressupost general
-El pressupost general integra el pressupost de la pròpia entitat, els dels organismes autònoms dependents i els estats de previsió de despeses i ingressos de les societats mercantils de capital íntegrament local. S'hi adjunten les bases d'execució, que adapten les disposicions generals en matèria pressupostària a l'organització de l'entitat, i annexos com el pla d'inversions i el seu finançament, l'estat del deute i els annexos de personal i de beneficis fiscals.
+El pressupost general integra el pressupost propi de l'entitat, els dels organismes autònoms i els estats de previsió de les societats mercantils de capital íntegrament local. Comprèn l'estat de despeses (crèdits), l'estat d'ingressos (previsions), les bases d'execució i els annexos.
 
 ### 🧠 Repàs ràpid · esquema clau
 - **Concepte**
-  - Pressupost (TRLHL i RD 500/1990): planificació econòmica anual
-  - Crèdits limitatius (despeses) i previsió (ingressos)
+  - Previsió d'ingressos i límit de despeses (any natural)
+  - TRLHL + RD 500/1990
 - **Principis**
-  - Anualitat, unitat/universalitat, especialitat, no-afectació, unitat de caixa, publicitat
-- **Estabilitat**
-  - Estabilitat i sostenibilitat (LO 2/2012); regla de despesa
+  - Anualitat, unitat/universalitat, especialitat
+  - No-afectació, unitat de caixa, publicitat
+- **Estabilitat (LO 2/2012)**
+  - Estabilitat i sostenibilitat; regla de despesa
 - **Contingut**
   - Entitat + organismes autònoms + societats
+  - Estat de despeses, d'ingressos, bases i annexos
 
-**Clau:** Pressupost (TRLHL i RD 500/1990): instrument de planificació econòmica; crèdits limitatius (despeses) i previsió (ingressos). Principis: anualitat, unitat/universalitat, especialitat, no-afectació, unitat de caixa, estabilitat (LO 2/2012), publicitat. Integra entitat + organismes autònoms + societats.
+**Clau:** Pressupost (TRLHL, RD 500/1990): expressió xifrada de les obligacions màximes i dels drets a liquidar de l'exercici (any natural); autorització (crèdits limitatius) i previsió (ingressos). Principis: anualitat, unitat/universalitat, especialitat, no-afectació, unitat de caixa i publicitat. Estabilitat pressupostària i sostenibilitat financera, amb regla de despesa (LO 2/2012). Contingut del pressupost general: entitat + organismes autònoms + societats, amb estat de despeses, estat d'ingressos, bases d'execució i annexos.
 
 ---
 
@@ -676,39 +636,46 @@ Si a l'1 de gener no està aprovat el pressupost, es prorroga automàticament el
 
 Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local); **DL2_2003** (DL 2/2003 (TR Llei municipal i de règim local de Catalunya)).
 
-Les ordenances i els reglaments són l'expressió de la potestat normativa de les entitats locals (arts. 4 i 84 LRBRL), manifestació de la seva autonomia. A través seu el municipi regula matèries de la seva competència, amb subjecció a la llei i a la jerarquia normativa. El procediment d'aprovació es regula a l'art. 49 LRBRL i, a Catalunya, al DL 2/2003.
+Les ordenances i els reglaments són les normes que aproven les entitats locals en exercici de la seva potestat normativa. Les regula la LRBRL i la legislació catalana de règim local.
 
 ### Classes de normes locals
-- Reglament orgànic: regula l'autoorganització de l'ens (organització i funcionament dels òrgans complementaris i règim dels membres). La seva aprovació o modificació exigeix majoria absoluta del Ple.
-- Ordenances: regulen activitats i relacions amb la ciutadania. Entre elles, les ordenances fiscals (que regulen els tributs propis, amb el procediment específic dels arts. 15-19 TRLHL) i les ordenances de policia, convivència, urbanístiques o de serveis.
-- Reglaments de serveis o d'activitats.
-- Bans: els dicta l'Alcalde en l'àmbit de les seves competències, amb caràcter de recordatori del compliment de normes o per adoptar mesures en situacions de necessitat; no innoven l'ordenament.
+Les entitats locals aproven diverses classes de normes:
+
+- El reglament orgànic municipal (ROM): regula l'organització i el funcionament dels òrgans de govern; s'aprova per majoria absoluta.
+- Les ordenances: normes de contingut divers, entre les quals destaquen les ordenances fiscals (que regulen els tributs propis) i les ordenances de policia i bon govern.
+- Els bans de l'Alcalde: disposicions de caràcter executiu i circumstancial dictades per l'Alcalde en l'àmbit de les seves competències.
 
 ### Procediment d'aprovació (art. 49 LRBRL)
-La tramitació ordinària consta de tres passos:
+L'aprovació de les ordenances segueix un procediment amb garanties de participació:
 
-- Aprovació inicial pel Ple
-- Informació pública i audiència a les persones interessades durant un termini mínim de trenta dies, per a la presentació de reclamacions i suggeriments
-- Resolució de totes les reclamacions i suggeriments presentats i aprovació definitiva pel Ple
-
-Un cas important: si no es presenta cap reclamació ni suggeriment durant el període d'informació pública, l'acord d'aprovació inicial s'entén elevat a definitiu de manera automàtica, sense necessitat d'un nou acord.
+- Aprovació inicial pel Ple.
+- Informació pública i audiència als interessats per un termini mínim de trenta dies, per a la presentació de reclamacions i suggeriments.
+- Resolució de totes les reclamacions i suggeriments presentats i aprovació definitiva pel Ple.
+- Si no es presenta cap reclamació, l'acord inicial s'entén definitivament adoptat de manera automàtica.
 
 ### Publicació i entrada en vigor
-L'acord d'aprovació definitiva i el text íntegre de l'ordenança o reglament s'han de publicar al Butlletí Oficial de la Província (BOP). La norma entra en vigor un cop publicat completament el seu text i transcorregut el termini de quinze dies hàbils previst a l'art. 65.2 LRBRL (termini durant el qual l'Estat i la comunitat autònoma poden requerir l'anul·lació d'acords que considerin il·legals). Les ordenances fiscals segueixen el procediment propi del TRLHL (aprovació provisional, exposició al públic de trenta dies i aprovació definitiva).
+L'ordenança aprovada definitivament s'ha de publicar íntegrament al butlletí oficial de la província (BOP) i no entra en vigor fins que se n'hagi publicat el text complet i hagi transcorregut el termini de l'art. 65.2 de la LRBRL (quinze dies hàbils des de la recepció de la comunicació a l'Estat i la comunitat autònoma).
 
 ### Tràmits previs i límits
-Abans de l'aprovació inicial, l'exercici de la potestat normativa local incorpora els tràmits de participació de la Llei 39/2015, com la consulta pública prèvia (art. 133). Les ordenances no poden contenir preceptes oposats a les lleis (jerarquia normativa) ni regular matèries reservades a la llei. En matèria sancionadora, la potestat local s'exerceix dins els límits dels arts. 139-141 LRBRL quan no hi ha una llei sectorial específica que tipifiqui infraccions i sancions.
+Abans de l'aprovació, i seguint els principis de bona regulació, es poden fer la consulta pública prèvia i els informes preceptius. La potestat normativa local té els límits de la jerarquia (les ordenances s'han d'ajustar a la llei), la reserva de llei (per exemple, en matèria sancionadora, dins dels límits que fixa la legislació estatal) i el respecte de les competències.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Classes de normes locals**
+- **Classes**
   - Reglament orgànic (majoria absoluta)
-  - Ordenances (fiscals i altres) i bans de l'Alcalde
+  - Ordenances (fiscals i de policia)
+  - Bans de l'Alcalde
 - **Procediment (art. 49 LRBRL)**
-  - Aprovació inicial → informació pública mínim 30 dies → aprovació definitiva (automàtica sense reclamacions)
+  - Aprovació inicial pel Ple
+  - Informació pública mínim 30 dies
+  - Aprovació definitiva (automàtica si no hi ha reclamacions)
 - **Vigència**
-  - Publicació íntegra al BOP + 15 dies hàbils (art. 65.2 LRBRL)
+  - Publicació íntegra al BOP
+  - + termini de l'art. 65.2 LRBRL (15 dies hàbils)
+- **Límits**
+  - Jerarquia i reserva de llei
+  - Respecte de les competències
 
-**Clau:** Normes locals: reglament orgànic (majoria absoluta), ordenances (fiscals i altres) i bans de l'Alcalde. Procediment (art. 49): aprovació inicial → informació pública mínim 30 dies → aprovació definitiva (automàtica si no hi ha reclamacions) → publicació íntegra al BOP → vigència (art. 65.2, 15 dies hàbils).
+**Clau:** Normes locals (LRBRL). Classes: reglament orgànic (majoria absoluta), ordenances (fiscals i de policia) i bans de l'Alcalde. Procediment (art. 49 LRBRL): aprovació inicial pel Ple → informació pública i audiència mínim 30 dies → aprovació definitiva (automàtica si no hi ha reclamacions). Publicació íntegra al BOP i entrada en vigor un cop transcorregut el termini de l'art. 65.2 LRBRL (15 dies hàbils). Límits: jerarquia normativa, reserva de llei i respecte de les competències.
 
 ---
 
