@@ -102,8 +102,10 @@ function linkifyLaw(escaped, defaultLaw){
       out += ref ? anchorTag(ref, numM ? numM[0] : null, seg) : seg;
     }
   }
-  return out + escaped.slice(last);
+  return boldify(out + escaped.slice(last));
 }
+/* Marca en negreta el text entre **dobles asteriscs** (destaca termes clau i xifres). */
+function boldify(html){ return html.replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>'); }
 /* Primera norma esmentada en un text (per fixar la llei per defecte d'un apartat). */
 function pickLaw(text, fallback){
   NORM_RE.lastIndex = 0;
