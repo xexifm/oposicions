@@ -600,32 +600,102 @@ El pressupost general integra el pressupost de la pròpia entitat, els dels orga
 
 Normes: **TRLHL** (RDL 2/2004 (TR Llei reguladora de les hisendes locals)); **RD500_1990** (RD 500/1990 (pressupostos ens locals)).
 
-Les finalitats del pressupost (planificar l'activitat, autoritzar la despesa màxima, preveure els ingressos i permetre el control) es concreten en un procediment reglat d'elaboració i aprovació i en una estructura normalitzada, regulats al TRLHL.
+El pressupost general és l'expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat local i dels drets que preveu liquidar durant l'exercici, que coincideix amb l'any natural. Es regula al TRLHL (RDL 2/2004) i al RD 500/1990. Aquest tema en tracta les finalitats, el contingut i l'estructura —els estats de despeses i d'ingressos— i el procediment reglat d'elaboració i aprovació.
+
+### Les finalitats del pressupost
+El pressupost no és només un document comptable: compleix funcions jurídiques, econòmiques i de control.
+
+- Assignació i planificació: distribueix els recursos disponibles entre les diferents polítiques de despesa i concreta el pla d'actuació anual de la corporació.
+- Autorització i límit de la despesa: els crèdits de l'estat de despeses són limitatius i vinculants; fixen l'import màxim d'obligacions que es poden reconèixer (funció jurídica essencial).
+- Previsió dels ingressos: estima els recursos amb què s'ha de finançar la despesa; a diferència dels crèdits, les previsions d'ingressos no tenen caràcter limitatiu.
+- Control i retiment de comptes: permet el control intern (Intervenció) i extern (Ple, Sindicatura i Tribunal de Comptes) de la gestió econòmica.
+- Instrument de política econòmica i de transparència: reflecteix les prioritats del govern local i s'ha de fer públic.
+
+### Contingut del pressupost general
+El pressupost general integra, en un únic document (art. 164 TRLHL), el pressupost propi de l'entitat, els dels seus organismes autònoms i els estats de previsió de despeses i ingressos de les societats mercantils de capital íntegrament local. Cada pressupost que l'integra conté (art. 165):
+
+- L'estat de despeses, amb els crèdits necessaris per atendre les obligacions.
+- L'estat d'ingressos, amb les previsions dels drets a liquidar durant l'exercici.
+- Les bases d'execució, que adapten les disposicions generals en matèria pressupostària a l'organització i les circumstàncies de l'entitat.
+
+A més, s'hi uneixen com a annexos (art. 166) els plans i programes d'inversió i finançament, l'estat de previsió de moviments i la situació del deute, l'annex de personal i l'annex d'inversions, entre d'altres.
+
+### L'estat de despeses
+Recull els crèdits necessaris per atendre les obligacions de l'exercici. Els crèdits són limitatius: no es poden reconèixer obligacions per import superior al consignat. S'ordena segons tres classificacions (art. 167): per programes (objectius i finalitats), orgànica (òrgans o àrees de despesa) i econòmica. En la classificació econòmica, els capítols són:
+
+- Capítol 1. Despeses de personal.
+- Capítol 2. Despeses corrents en béns i serveis.
+- Capítol 3. Despeses financeres.
+- Capítol 4. Transferències corrents.
+- Capítol 5. Fons de contingència.
+- Capítol 6. Inversions reals.
+- Capítol 7. Transferències de capital.
+- Capítol 8. Actius financers.
+- Capítol 9. Passius financers.
+
+Els capítols 1 a 5 són operacions corrents; el 6 i el 7, operacions de capital; i el 8 i el 9, operacions financeres.
+
+### L'estat d'ingressos
+Recull les previsions dels drets que es preveu liquidar durant l'exercici. A diferència dels crèdits de despesa, les previsions d'ingressos no són limitatives. La classificació econòmica en capítols és:
+
+- Capítol 1. Impostos directes.
+- Capítol 2. Impostos indirectes.
+- Capítol 3. Taxes, preus públics i altres ingressos.
+- Capítol 4. Transferències corrents.
+- Capítol 5. Ingressos patrimonials.
+- Capítol 6. Alienació d'inversions reals.
+- Capítol 7. Transferències de capital.
+- Capítol 8. Actius financers.
+- Capítol 9. Passius financers.
+
+Igual que en les despeses, els capítols 1 a 5 són operacions corrents; el 6 i el 7, de capital; i el 8 i el 9, financeres.
 
 ### Procediment d'elaboració i aprovació
-El president de l'entitat (l'Alcalde) forma el pressupost general i l'eleva al Ple, acompanyat de l'informe econòmicofinancer, de l'informe de la Intervenció, de la liquidació de l'exercici anterior i l'avanç de la del corrent, i de la documentació annexa (art. 168). El Ple l'aprova inicialment; s'exposa al públic durant quinze dies hàbils, mitjançant anunci al BOP, perquè s'hi presentin reclamacions; resoltes aquestes, s'aprova definitivament (si no se'n presenta cap, l'acord inicial esdevé definitiu automàticament). Finalment es publica resumit per capítols al BOP i s'hi tramet còpia a l'Administració de l'Estat i a la comunitat autònoma.
+És un procediment reglat (arts. 168 i 169 TRLHL) amb aquestes fases:
 
-### Estructura del pressupost
-Els estats de despeses i d'ingressos s'estructuren segons tres classificacions: l'orgànica (per àrees o òrgans de despesa), la per programes (per objectius i activitats) i l'econòmica (per la naturalesa econòmica, agrupada en capítols). En les despeses, els capítols 1 a 7 són operacions no financeres (1 personal, 2 béns corrents i serveis, 3 despeses financeres, 4 transferències corrents, 5 fons de contingència, 6 inversions reals, 7 transferències de capital) i els capítols 8 i 9, operacions financeres. En els ingressos, els capítols 1 a 5 són operacions corrents i 6 a 9, de capital i financeres.
+- Formació: el president (l'Alcalde) forma el pressupost general i el tramet al Ple abans del 15 d'octubre, amb la documentació preceptiva: memòria explicativa, liquidació de l'exercici anterior i avanç de la del corrent, annex de personal, annex d'inversions, estat del deute i informe economicofinancer.
+- Aprovació inicial pel Ple, per majoria simple.
+- Informació pública: exposició mitjançant anunci al BOP durant quinze dies hàbils, perquè els interessats hi presentin reclamacions.
+- Reclamacions taxades: només s'admeten pels motius de l'art. 170.2 (no ajustar-se a la tramitació legal, omissió del crèdit necessari per complir obligacions exigibles, o ingressos i despeses manifestament insuficients).
+- Aprovació definitiva: un cop resoltes les reclamacions, abans del 31 de desembre; si no se'n presenta cap, l'aprovació inicial esdevé definitiva de manera automàtica.
+- Publicitat i entrada en vigor: publicació resumida per capítols al BOP, tramesa simultània d'una còpia a l'Administració de l'Estat i a la Generalitat, i entrada en vigor un cop publicat.
 
-### Aprovació i impugnació
-El pressupost s'aprova, en general, per majoria simple del Ple. Contra l'aprovació definitiva només es pot interposar directament recurs contenciós administratiu (no recurs administratiu previ), en el termini de dos mesos des de la publicació (art. 171). La interposició del recurs no suspèn, per si sola, l'aplicació del pressupost.
+### Impugnació
+Contra l'aprovació definitiva del pressupost només es pot interposar directament recurs contenciós administratiu, en el termini de dos mesos des de la publicació, sense recurs administratiu previ (art. 171 TRLHL). La interposició del recurs no suspèn, per si sola, l'aplicació del pressupost. Els motius d'impugnació coincideixen amb els taxats per a les reclamacions.
 
 ### La pròrroga del pressupost
-Si a l'inici de l'exercici econòmic no està aprovat el pressupost, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials, fins a l'entrada en vigor del nou (art. 169.6). De la pròrroga s'exclouen els crèdits destinats a serveis o programes que havien de finalitzar en l'exercici anterior. La pròrroga garanteix la continuïtat de la gestió econòmica mentre no s'aprova el nou pressupost.
+Si a l'1 de gener no està aprovat el pressupost, es prorroga automàticament el de l'exercici anterior, amb els seus crèdits inicials, fins a l'entrada en vigor del nou (art. 169.6 TRLHL). De la pròrroga s'exclouen els crèdits destinats a serveis o programes que havien de finalitzar en l'exercici anterior, i es pot ajustar a la baixa. Garanteix la continuïtat de la gestió econòmica mentre no s'aprova el nou pressupost.
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Elaboració i aprovació**
-  - El forma l'Alcalde; aprovació inicial del Ple
-  - Exposició pública 15 dies; definitiva i resum al BOP
-- **Estructura**
-  - Orgànica, per programes i econòmica (capítols 1-9)
-- **Impugnació**
-  - Directa al contenciós (art. 171 TRLHL)
-- **Pròrroga**
-  - Automàtica si no s'aprova (art. 169.6 TRLHL)
+- **Finalitats**
+  - Assignació i planificació dels recursos
+  - Autorització i límit de la despesa (crèdits limitatius)
+  - Previsió d'ingressos (no limitativa)
+  - Control i retiment de comptes
+  - Instrument de política econòmica i transparència
+- **Contingut (pressupost general, art. 164 TRLHL)**
+  - Entitat + organismes autònoms + societats de capital local
+  - Cada pressupost (art. 165):
+    - Estat de despeses (crèdits)
+    - Estat d'ingressos (previsions)
+    - Bases d'execució
+  - Annexos (art. 166): inversions, personal, deute…
+- **Estructura (art. 167 TRLHL)**
+  - Per programes, orgànica i econòmica
+  - Despeses: cap. 1-9 (corrents 1-5, capital 6-7, financeres 8-9)
+  - Ingressos: cap. 1-9 (corrents 1-5, capital 6-7, financeres 8-9)
+- **Procediment (arts. 168-169 TRLHL)**
+  - El forma l'Alcalde → al Ple abans del 15 d'octubre
+  - Aprovació inicial (majoria simple)
+  - Exposició pública: 15 dies hàbils al BOP
+  - Reclamacions taxades (art. 170.2)
+  - Aprovació definitiva abans del 31 de desembre
+  - Resum al BOP + tramesa a l'Estat i la Generalitat
+- **Impugnació i pròrroga**
+  - Recurs contenciós directe (art. 171 TRLHL), 2 mesos, no suspèn
+  - Pròrroga automàtica del pressupost anterior si no s'aprova (art. 169.6 TRLHL)
 
-**Clau:** El pressupost el forma l'Alcalde i l'aprova inicialment el Ple; exposició pública 15 dies; aprovació definitiva i publicació resumida al BOP. Estructura: orgànica, per programes i econòmica (capítols 1-9). Impugnació directa al contenciós (art. 171). Pròrroga automàtica si no s'aprova (169.6).
+**Clau:** Pressupost = previsió d'ingressos i límit màxim de despeses de l'exercici (any natural); TRLHL + RD 500/1990. Finalitats: assignar, autoritzar (crèdits limitatius), preveure ingressos i controlar. Contingut general (art. 164): entitat + organismes autònoms + societats; cada pressupost té estat de despeses, estat d'ingressos i bases d'execució (art. 165), més annexos (art. 166). Estructura (art. 167): per programes, orgànica i econòmica (capítols 1-9). Procediment: el forma l'Alcalde i el tramet al Ple abans del 15 d'octubre → aprovació inicial → 15 dies hàbils d'exposició → reclamacions taxades (art. 170.2) → aprovació definitiva abans del 31 de desembre → resum al BOP i tramesa a l'Estat i la Generalitat. Impugnació: recurs contenciós directe (art. 171), 2 mesos, sense suspensió. Pròrroga automàtica (art. 169.6).
 
 ---
 
