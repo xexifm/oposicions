@@ -292,6 +292,15 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
 /* targeta d'examen en procés */
 .pendingcard{border-color:#e3d3a6;background:var(--amber-bg)}
 
+/* taules comparatives dins dels resums */
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0}
+.tcap{font-size:.78rem;color:var(--crimson);font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.rtable{border-collapse:collapse;width:100%;min-width:460px;font-size:.86rem;background:var(--card)}
+.rtable th,.rtable td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;line-height:1.4}
+.rtable th{background:#f3ede3;font-weight:700;color:var(--crimson-deep);white-space:nowrap}
+.rtable tbody tr:nth-child(even){background:#faf7f1}
+.rtable td:first-child{font-weight:600}
+
 /* estat de la sincronització */
 .muted.ok{color:var(--green)}
 .muted.err{color:var(--red)}
