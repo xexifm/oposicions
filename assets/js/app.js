@@ -254,6 +254,11 @@ async function render(){
 }
 window.addEventListener('hashchange', render);
 window.addEventListener('DOMContentLoaded', render);
+// En cada càrrega de la pàgina oblidem l'oposició activa perquè, en entrar,
+// l'app sempre mostri el selector (no s'entra automàticament a cap oposició).
+// El progrés de cada oposició es desa per separat i no es perd; només es
+// reinicia el punter de l'oposició activa d'aquesta sessió.
+if (location.hash.replace(/^#\/?/, '').split('/')[0] !== 'tria') store.setMuni(null);
 render();
 setTimeout(initGistSync, 0);   // defer: espera que el mòdul acabi de carregar
 
