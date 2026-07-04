@@ -99,86 +99,6 @@
       ]
     },
     {
-      "id": "c07-classificacio-sol",
-      "theme": 44,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Classificació del sòl i concepte de solar",
-      "context": "Un propietari té una finca en una zona que disposa de xarxa viària pavimentada, subministrament d'aigua, evacuació d'aigües i energia elèctrica, i està integrada a la trama urbana. Demana saber si pot edificar-hi directament.",
-      "prompt": "Expliqueu la classificació del sòl segons el TRLUC, el concepte de sòl urbà i de solar, i si la finca és apta per edificar.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Classes de sòl: urbà, urbanitzable i no urbanitzable",
-          "weight": 11,
-          "keywords": [
-            [
-              "sol urba",
-              "urba"
-            ],
-            [
-              "urbanitzable"
-            ],
-            [
-              "no urbanitzable"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Concepte de sòl urbà: comptar amb serveis urbanístics bàsics o estar integrat en la trama urbana consolidada",
-          "weight": 12,
-          "keywords": [
-            [
-              "serveis urbanistics basics",
-              "serveis basics"
-            ],
-            [
-              "trama urbana",
-              "consolidat",
-              "integrat"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Concepte de solar: sòl urbà apte per edificar per reunir tots els serveis i tenir les obres d'urbanització necessàries / vialitat",
-          "weight": 12,
-          "keywords": [
-            [
-              "solar"
-            ],
-            [
-              "apte per edificar",
-              "reuneix els serveis",
-              "vialitat",
-              "urbanitzacio"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Conclou que la finca és sòl urbà i, en reunir els serveis, té condició de solar i pot edificar-se (amb llicència)",
-          "weight": 7,
-          "keywords": [
-            [
-              "es solar",
-              "condicio de solar",
-              "pot edificar"
-            ],
-            [
-              "llicencia"
-            ]
-          ]
-        }
-      ],
-      "model": "El TRLUC (DL 1/2010) classifica el sòl en tres classes: sòl urbà, sòl urbanitzable i sòl no urbanitzable.\nÉs sòl urbà el que compta amb els serveis urbanístics bàsics (xarxa viària amb un nivell de consolidació suficient, xarxes d'abastament d'aigua i de sanejament, i subministrament d'energia elèctrica) o el que està comprès en àrees consolidades per l'edificació integrades a la trama urbana. Dins seu es distingeix sòl urbà consolidat i no consolidat.\nÉs SOLAR el sòl urbà que reuneix les condicions per ser edificat: que disposi dels serveis (accés rodat, aigua, sanejament i electricitat amb les característiques adequades) i que tingui assenyalades alineacions i rasants, amb la urbanització bàsica executada o garantida.\nConclusió: la finca, amb vialitat pavimentada, aigua, sanejament i electricitat i integrada a la trama urbana, és sòl urbà i té la condició de solar; per tant és apta per edificar, amb la corresponent llicència urbanística i de conformitat amb el planejament.",
-      "sources": [
-        "TRLUC",
-        "TRLSRU"
-      ]
-    },
-    {
       "id": "c08-disciplina-restauracio",
       "theme": 73,
       "block": 12,
@@ -337,94 +257,6 @@
       "sources": [
         "L20_2009",
         "L39_2015"
-      ]
-    },
-    {
-      "id": "c14-credit-extraordinari",
-      "theme": 41,
-      "block": 3,
-      "maxPoints": 45,
-      "title": "Despesa urgent sense crèdit pressupostari",
-      "context": "A mitjan exercici, l'Ajuntament ha de fer front a una reparació urgent i inajornable d'un equipament per a la qual no existeix crèdit al pressupost vigent. Es disposa de romanent líquid de tresoreria per a despeses generals.",
-      "prompt": "Indiqueu quin tipus de modificació de crèdit és procedent, com es finança, el procediment d'aprovació i la seva entrada en vigor.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Identifica que cal un CRÈDIT EXTRAORDINARI (despesa específica sense crèdit) — o suplement si n'hi hagués d'insuficient",
-          "weight": 13,
-          "keywords": [
-            [
-              "credit extraordinari",
-              "extraordinari"
-            ],
-            [
-              "no existeix credit",
-              "sense credit",
-              "especific"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Finançament: amb romanent líquid de tresoreria, nous/majors ingressos o baixes de crèdits",
-          "weight": 11,
-          "keywords": [
-            [
-              "romanent",
-              "romanent de tresoreria"
-            ],
-            [
-              "baixes",
-              "nous ingressos",
-              "majors ingressos"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Aprovació pel Ple amb el mateix procediment que el pressupost (exposició 15 dies, reclamacions)",
-          "weight": 13,
-          "keywords": [
-            [
-              "ple"
-            ],
-            [
-              "exposicio",
-              "15 dies",
-              "quinze dies",
-              "informacio publica"
-            ],
-            [
-              "mateix procediment",
-              "com el pressupost"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Executivitat: després de la publicació; recurs contenciós; informe d'Intervenció",
-          "weight": 8,
-          "keywords": [
-            [
-              "publicacio",
-              "bop",
-              "entra en vigor"
-            ],
-            [
-              "intervencio",
-              "informe",
-              "contencios"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Com que es tracta d'una despesa específica i determinada per a la qual NO existeix crèdit, la modificació procedent és un CRÈDIT EXTRAORDINARI (art. 177 TRLHL). Si existís crèdit però insuficient, seria un suplement de crèdit.\nFinançament (art. 177.4 TRLHL): amb romanent líquid de tresoreria, amb nous o majors ingressos recaptats sobre els previstos, o amb baixes de crèdits d'altres partides no compromeses. En el cas, es pot finançar amb el romanent líquid de tresoreria per a despeses generals.\nProcediment: l'aprova el Ple, amb subjecció als mateixos tràmits que el pressupost (informe d'Intervenció, aprovació inicial, exposició pública de 15 dies per a reclamacions i aprovació definitiva). Si no hi ha reclamacions, l'acord inicial esdevé definitiu.\nEntrada en vigor: un cop publicat el resum al BOP; contra l'aprovació definitiva només es pot interposar recurs contenciós administratiu.",
-      "sources": [
-        "TRLHL"
       ]
     },
     {
@@ -935,634 +767,6 @@
       "sources": [
         "L31_1995",
         "RD171_2004"
-      ]
-    },
-    {
-      "id": "c42-fases-despesa",
-      "theme": 42,
-      "block": 3,
-      "maxPoints": 45,
-      "title": "Execució del pressupost de despeses",
-      "context": "L'Ajuntament ha d'adjudicar i pagar un contracte de subministrament. Es plantegen quines fases pressupostàries cal seguir i quins controls hi intervenen.",
-      "prompt": "Enumereu i expliqueu les fases d'execució de la despesa, i indiqueu el requisit de crèdit i el control que hi intervé.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Fases: autorització (A), disposició (D), reconeixement de l'obligació (O) i ordenació del pagament (P)",
-          "weight": 14,
-          "keywords": [
-            [
-              "autoritzacio"
-            ],
-            [
-              "disposicio",
-              "compromis"
-            ],
-            [
-              "reconeixement de l'obligacio",
-              "obligacio"
-            ],
-            [
-              "ordenacio del pagament",
-              "pagament"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Es poden acumular en un sol acte (ADO/ADOP)",
-          "weight": 8,
-          "keywords": [
-            [
-              "ado",
-              "adop",
-              "acumular"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Tota despesa requereix l'existència de crèdit adequat i suficient",
-          "weight": 12,
-          "keywords": [
-            [
-              "credit adequat",
-              "credit suficient",
-              "existencia de credit"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Fiscalització prèvia per la Intervenció (control intern)",
-          "weight": 10,
-          "keywords": [
-            [
-              "fiscalitzacio",
-              "intervencio"
-            ],
-            [
-              "control intern",
-              "previa"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'execució del pressupost de despeses segueix quatre fases successives: l'autorització (A), acte que aprova la realització d'una despesa per una quantia certa, reservant el crèdit; la disposició o compromís (D), acord ferm amb un tercer determinat per un import exactament determinat; el reconeixement de l'obligació (O), que declara l'existència d'un deute exigible després de l'acreditació de la prestació; i l'ordenació del pagament (P). Diverses fases es poden acumular en un sol acte administratiu (ADO o ADOP). Tota despesa requereix l'existència de crèdit adequat i suficient al pressupost (principi d'especialitat). A més, hi intervé el control intern de la Intervenció mitjançant la fiscalització prèvia, que comprova la legalitat de la despesa abans d'aprovar-la, sens perjudici del control financer i del control extern posterior (Sindicatura de Comptes).",
-      "sources": [
-        "TRLHL"
-      ]
-    },
-    {
-      "id": "c43-taxa-preu",
-      "theme": 43,
-      "block": 3,
-      "maxPoints": 45,
-      "title": "Taxa, preu públic o contribució especial",
-      "context": "L'Ajuntament vol finançar: (1) el servei de recollida de residus (de recepció obligatòria), (2) l'ús de la piscina municipal (que també ofereixen instal·lacions privades) i (3) la pavimentació d'un carrer que revaloritza les finques confrontants.",
-      "prompt": "Qualifiqueu cadascun dels tres recursos (taxa, preu públic o contribució especial) i justifiqueu-ho.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La recollida de residus (recepció obligatòria) es finança amb una TAXA",
-          "weight": 13,
-          "keywords": [
-            [
-              "taxa"
-            ],
-            [
-              "recollida de residus",
-              "recepcio obligatoria",
-              "obligatoria"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "La piscina (servei voluntari també prestat pel sector privat) es finança amb un PREU PÚBLIC",
-          "weight": 13,
-          "keywords": [
-            [
-              "preu public"
-            ],
-            [
-              "voluntaria",
-              "sector privat",
-              "piscina"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "La pavimentació que revaloritza les finques es finança amb una CONTRIBUCIÓ ESPECIAL",
-          "weight": 13,
-          "keywords": [
-            [
-              "contribucio especial"
-            ],
-            [
-              "benefici",
-              "augment de valor",
-              "obra publica",
-              "pavimentacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La taxa i la contribució especial són tributs; el preu públic no és un tribut",
-          "weight": 6,
-          "keywords": [
-            [
-              "tribut"
-            ],
-            [
-              "el preu public no es un tribut",
-              "no es tribut"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "(1) La recollida de residus és un servei de recepció obligatòria de competència local que es refereix i beneficia l'obligat, de manera que es finança mitjançant una TAXA (art. 20 TRLHL). (2) L'ús de la piscina municipal és un servei de recepció voluntària que també presta el sector privat; per tant es finança amb un PREU PÚBLIC (arts. 41-47 TRLHL), que no té naturalesa de tribut. (3) La pavimentació del carrer comporta per als propietaris confrontants un benefici especial o un augment de valor dels seus béns com a conseqüència d'una obra pública, de manera que es pot finançar mitjançant una CONTRIBUCIÓ ESPECIAL (arts. 28-37 TRLHL). La taxa i la contribució especial són tributs propis de l'entitat local; el preu públic, en canvi, no és un tribut.",
-      "sources": [
-        "TRLHL"
-      ]
-    },
-    {
-      "id": "c45-situacions-sol",
-      "theme": 45,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Situacions bàsiques del sòl i valoració",
-      "context": "S'ha d'expropiar una finca classificada pel planejament com a sòl urbanitzable, però en la qual encara no s'ha iniciat ni executat cap obra d'urbanització. El propietari reclama que se li valori com a sòl edificable.",
-      "prompt": "Determineu en quina situació bàsica es troba el sòl, com s'ha de valorar i per què no es computen les expectatives.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La valoració es regeix per la situació bàsica del sòl, no per la classificació",
-          "weight": 11,
-          "keywords": [
-            [
-              "situacio basica",
-              "situacio del sol"
-            ],
-            [
-              "no per la classificacio",
-              "independent de la classe"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Mentre no s'ha urbanitzat, el sòl es troba en situació bàsica de RURAL",
-          "weight": 13,
-          "keywords": [
-            [
-              "rural",
-              "situacio rural"
-            ],
-            [
-              "no s'ha urbanitzat",
-              "sense urbanitzar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Es valora per capitalització de la renda, sense computar expectatives urbanístiques",
-          "weight": 13,
-          "keywords": [
-            [
-              "capitalitzacio",
-              "renda"
-            ],
-            [
-              "sense expectatives",
-              "no es computen expectatives"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Conclou que no es valora com a edificable fins que s'hagi acabat la urbanització",
-          "weight": 8,
-          "keywords": [
-            [
-              "no es valora com a edificable",
-              "no edificable",
-              "fins que s'urbanitzi"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La valoració del sòl es regeix per la legislació estatal del sòl (TRLS) i depèn de la situació bàsica real del sòl, amb independència de la seva classificació urbanística. Encara que el planejament classifiqui la finca com a sòl urbanitzable, mentre no s'hagi acabat l'actuació d'urbanització el sòl es troba en situació bàsica de sòl RURAL (art. 21 TRLS). En conseqüència, s'ha de valorar per capitalització de la renda anual, real o potencial, de l'explotació, sense computar les expectatives derivades de l'assignació d'edificabilitats o usos pel planejament (art. 36 TRLS). Per tant, no es pot valorar com a sòl edificable: la pretensió del propietari no és procedent fins que el sòl assoleixi la situació d'urbanitzat (integrat de manera legal i efectiva a la malla urbana).",
-      "sources": [
-        "TRLSRU"
-      ]
-    },
-    {
-      "id": "c46-sistemes",
-      "theme": 46,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Sistemes urbanístics i estàndards",
-      "context": "En la tramitació d'un pla parcial d'un sector residencial, es discuteix quanta superfície s'ha de reservar per a zones verdes i equipaments i com s'obtindran aquests terrenys.",
-      "prompt": "Expliqueu què són els sistemes urbanístics, els estàndards de reserva i les formes d'obtenció dels sistemes.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Els sistemes urbanístics són terrenys d'ús públic (generals i locals)",
-          "weight": 11,
-          "keywords": [
-            [
-              "sistemes urbanistics",
-              "sistemes"
-            ],
-            [
-              "us public",
-              "generals",
-              "locals"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "El planejament ha de preveure reserves mínimes (estàndards) per a espais lliures i equipaments",
-          "weight": 13,
-          "keywords": [
-            [
-              "reserves minimes",
-              "estandards"
-            ],
-            [
-              "espais lliures",
-              "zones verdes",
-              "equipaments"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Els sistemes s'obtenen per cessió obligatòria i gratuïta en les actuacions",
-          "weight": 12,
-          "keywords": [
-            [
-              "cessio",
-              "cessio obligatoria",
-              "gratuita"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "També per expropiació o per ocupació directa",
-          "weight": 9,
-          "keywords": [
-            [
-              "expropiacio"
-            ],
-            [
-              "ocupacio directa"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Els sistemes urbanístics són els terrenys i les instal·lacions destinats a usos i serveis públics que estructuren el territori; es distingeixen els sistemes generals (abast municipal: xarxa viària bàsica, grans espais lliures, equipaments generals) i els locals (serveixen un sector o àmbit concret). El planejament ha de preveure unes reserves mínimes de sòl (estàndards urbanístics) per a espais lliures (zones verdes), equipaments i, segons el cas, habitatge de protecció pública, en proporció a l'edificabilitat o al nombre d'habitatges (art. 65 TRLUC). Els sistemes locals previstos en un sector s'obtenen, en l'actuació de transformació, per cessió obligatòria i gratuïta a l'Administració a través de la reparcel·lació; quan no estan inclosos en sectors, els sistemes (sobretot els generals) es poden obtenir per expropiació o per ocupació directa.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c47-aprofitament",
-      "theme": 47,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Aprofitament urbanístic i cessió",
-      "context": "En un sector de sòl urbanitzable, els propietaris discuteixen quina part de l'aprofitament poden fer seva i quina han de cedir a l'Administració, atès que el sector té usos residencials i comercials de valor desigual.",
-      "prompt": "Expliqueu el concepte d'aprofitament urbanístic, la seva ponderació i el deure de cessió a l'Administració.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "L'aprofitament és l'edificabilitat ponderada pels usos atribuïts pel planejament",
-          "weight": 12,
-          "keywords": [
-            [
-              "aprofitament"
-            ],
-            [
-              "edificabilitat"
-            ],
-            [
-              "usos",
-              "ponderada"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "La ponderació amb coeficients homogeneïtza usos i tipologies de valor desigual",
-          "weight": 12,
-          "keywords": [
-            [
-              "coeficients",
-              "ponderacio"
-            ],
-            [
-              "homogeneitzar",
-              "valor desigual",
-              "usos diferents"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "L'aprofitament mitjà permet l'equidistribució de beneficis i càrregues",
-          "weight": 11,
-          "keywords": [
-            [
-              "aprofitament mitja"
-            ],
-            [
-              "equidistribucio",
-              "beneficis i carregues"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "El propietari fa seu un percentatge i cedeix l'excés a l'Administració",
-          "weight": 10,
-          "keywords": [
-            [
-              "percentatge",
-              "susceptible d'apropiacio"
-            ],
-            [
-              "cedeix",
-              "cessio",
-              "excedent"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'aprofitament urbanístic és la mesura de les facultats d'ús i edificació que el planejament reconeix al sòl: resulta de ponderar l'edificabilitat (sostre) en funció dels usos i les tipologies previstes. Com que en el sector hi ha usos residencials i comercials de valor desigual, l'aprofitament es pondera mitjançant coeficients que homogeneïtzen els diferents usos i situacions, per poder comparar i repartir de manera equitativa. Es defineix un aprofitament mitjà del sector, que permet l'equidistribució dels beneficis (aprofitament) i les càrregues (cessions i urbanització) entre tots els propietaris. El propietari té dret a fer seu l'aprofitament susceptible d'apropiació privada (un percentatge de l'aprofitament mitjà fixat per la llei) i ha de cedir gratuïtament a l'Administració la diferència (l'excés d'aprofitament), juntament amb el sòl per a sistemes.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c48-deures-propietaris",
-      "theme": 48,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Deures de les persones propietàries i incompliment",
-      "context": "Una persona és propietària d'un solar en sòl urbà que no edifica des de fa anys, malgrat que el planejament n'estableix l'obligació, i a més no en manté les condicions de seguretat.",
-      "prompt": "Indiqueu els deures urbanístics dels propietaris i les conseqüències de l'incompliment dels deures d'edificar i de conservar.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Drets i deures: dret a l'aprofitament i deures de cessió, urbanització, conservació i edificació",
-          "weight": 12,
-          "keywords": [
-            [
-              "aprofitament"
-            ],
-            [
-              "cessio",
-              "urbanitzar",
-              "conservacio",
-              "edificar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Deure de conservació: mantenir l'immoble en condicions de seguretat, salubritat i ornament",
-          "weight": 12,
-          "keywords": [
-            [
-              "conservacio"
-            ],
-            [
-              "seguretat",
-              "salubritat",
-              "ornament"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Davant l'incompliment del deure de conservació: ordre d'execució i execució subsidiària o multes coercitives",
-          "weight": 11,
-          "keywords": [
-            [
-              "ordre d'execucio"
-            ],
-            [
-              "execucio subsidiaria",
-              "multes coercitives"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Incompliment del deure d'edificar: edificació forçosa o règim de venda/substitució forçosa",
-          "weight": 10,
-          "keywords": [
-            [
-              "edificacio forçosa",
-              "venda forçosa",
-              "substitucio forçosa"
-            ],
-            [
-              "incompliment del deure d'edificar"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les persones propietàries tenen dret a usar, gaudir i disposar del sòl conforme a la seva classificació i a fer seu l'aprofitament susceptible d'apropiació, però amb subjecció a uns deures: cedir sòl per a sistemes i aprofitament, costejar i executar la urbanització, conservar les construccions i edificar els solars dins de termini. El deure de conservació obliga a mantenir l'immoble en condicions de seguretat, salubritat i ornament públic; davant el seu incompliment, l'Administració pot dictar una ordre d'execució i, si no es compleix, procedir a l'execució subsidiària a càrrec de l'obligat o imposar multes coercitives. L'incompliment del deure d'edificar dins de termini pot comportar la inclusió de la finca en el règim d'edificació forçosa, amb la possibilitat de l'execució forçosa o de la venda o substitució forçosa del propietari incomplidor, i, en darrer terme, l'expropiació per incompliment de la funció social.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c49-usos-provisionals",
-      "theme": 49,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Autorització d'un ús provisional",
-      "context": "En un terreny classificat com a sòl urbanitzable, encara sense desenvolupar, una empresa vol instal·lar temporalment un aparcament en superfície fins que s'executi el planejament.",
-      "prompt": "Expliqueu el règim dels usos i obres provisionals: requisits, garanties i conseqüències en cessar.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Naturalesa precària i temporal; no han de dificultar l'execució del planejament",
-          "weight": 13,
-          "keywords": [
-            [
-              "precari",
-              "precaria",
-              "temporal"
-            ],
-            [
-              "no dificultar",
-              "execucio del planejament"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Requereixen llicència i l'acceptació expressa de les condicions",
-          "weight": 11,
-          "keywords": [
-            [
-              "llicencia"
-            ],
-            [
-              "acceptacio",
-              "condicions",
-              "compromis"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "S'inscriuen al Registre de la Propietat (i poden exigir-se garanties)",
-          "weight": 10,
-          "keywords": [
-            [
-              "registre de la propietat",
-              "inscripcio"
-            ],
-            [
-              "garantia",
-              "garanties"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "En cessar, no generen dret a indemnització",
-          "weight": 11,
-          "keywords": [
-            [
-              "sense indemnitzacio",
-              "no genera indemnitzacio",
-              "cap indemnitzacio"
-            ],
-            [
-              "cessar"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Els usos i les obres de caràcter provisional tenen una naturalesa precària i temporal, i només es poden autoritzar si no dificulten l'execució del planejament urbanístic (art. 53 TRLUC); per això s'admeten típicament en sòls amb una transformació prevista però encara no executada, com el cas. La seva autorització exigeix la corresponent llicència i l'acceptació expressa, per part del titular, del caràcter precari i del compromís de cessar en l'ús i retirar les obres quan l'Administració ho ordeni. Aquestes condicions s'han d'inscriure al Registre de la Propietat, i es poden exigir garanties econòmiques per assegurar el compliment del compromís de retirada o restitució. En cessar (quan ho ordeni l'Administració o es compleixi el termini o la condició), els usos i obres provisionals no generen cap dret a indemnització.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c50-pdu",
-      "theme": 50,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Pla director urbanístic i jerarquia del planejament",
-      "context": "La Generalitat aprova un pla director urbanístic que estableix determinacions sobre el sòl no urbanitzable i infraestructures d'abast supramunicipal que afecten el terme municipal. El POUM vigent en contradiu algunes previsions.",
-      "prompt": "Expliqueu què és un PDU, qui l'aprova, la seva posició en la jerarquia del planejament i què ha de fer el municipi davant la contradicció.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "El PDU és un instrument de planejament d'abast supramunicipal",
-          "weight": 12,
-          "keywords": [
-            [
-              "pla director",
-              "pdu"
-            ],
-            [
-              "supramunicipal",
-              "abast supramunicipal"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "L'aprova l'administració urbanística de la Generalitat",
-          "weight": 11,
-          "keywords": [
-            [
-              "generalitat"
-            ],
-            [
-              "aprova",
-              "administracio urbanistica"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "El PDU (i els plans territorials) prevalen sobre el planejament municipal",
-          "weight": 13,
-          "keywords": [
-            [
-              "prevalen",
-              "prevalencia",
-              "jerarquia"
-            ],
-            [
-              "planejament municipal",
-              "poum"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "El POUM s'hi ha d'ajustar (adaptar les previsions contradictòries)",
-          "weight": 9,
-          "keywords": [
-            [
-              "s'ha d'ajustar",
-              "adaptar",
-              "ajustar-se"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El pla director urbanístic (PDU) és una figura de planejament d'abast supramunicipal (art. 56 TRLUC), que pot establir directrius de coordinació, determinacions sobre el sòl no urbanitzable, mesures de protecció i previsions d'infraestructures i reserves de sòl. L'aprova l'administració urbanística de la Generalitat. En la jerarquia del planejament, els plans territorials i els plans directors urbanístics prevalen sobre el planejament urbanístic municipal (el POUM i el planejament derivat) en el seu àmbit. Per tant, davant la contradicció, el municipi ha d'ajustar el seu planejament a les determinacions del PDU: les previsions del POUM que el contradiguin queden desplaçades, i el municipi ha de tramitar, si escau, la modificació o l'adaptació del POUM perquè s'hi adeqüi.",
-      "sources": [
-        "TRLUC"
       ]
     },
     {
@@ -7323,6 +6527,801 @@
       "sources": [
         "TRLHL",
         "RD500_1990"
+      ]
+    },
+    {
+      "id": "c-t41-credits",
+      "theme": 41,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Vinculació jurídica i situació dels crèdits",
+      "context": "Un servei municipal ha exhaurit el crèdit d'una aplicació concreta, però dins la mateixa borsa de vinculació (àrea de despesa i capítol) queda crèdit en altres aplicacions. Es planteja si pot continuar gastant sense tramitar una modificació.",
+      "prompt": "Expliqueu: a) el caràcter dels crèdits i les vessants de l'especialitat; b) què és el nivell de vinculació jurídica i qui el fixa; c) si en aquest cas cal una modificació de crèdit.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica el caràcter limitatiu i vinculant i les vessants de l'especialitat (qualitativa, quantitativa, temporal)",
+          "weight": 12,
+          "keywords": [
+            [
+              "limitatiu",
+              "vinculant"
+            ],
+            [
+              "qualitativa",
+              "quantitativa",
+              "temporal"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Defineix el nivell de vinculació jurídica com el límit per gastar sense modificació, fixat per les bases d'execució",
+          "weight": 13,
+          "keywords": [
+            [
+              "nivell de vinculacio",
+              "vinculacio juridica"
+            ],
+            [
+              "bases d'execucio",
+              "limit",
+              "28"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que, si es gasta dins la borsa de vinculació, no cal modificació de crèdit",
+          "weight": 13,
+          "keywords": [
+            [
+              "dins la borsa",
+              "borsa de vinculacio",
+              "mateixa vinculacio"
+            ],
+            [
+              "no cal modificacio",
+              "sense modificacio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que fora de la borsa de vinculació caldria una transferència de crèdit",
+          "weight": 7,
+          "keywords": [
+            [
+              "transferencia de credit",
+              "modificacio"
+            ],
+            [
+              "fora",
+              "altra vinculacio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els crèdits de despesa tenen caràcter limitatiu i vinculant (art. 27 RD 500/1990): l'especialitat és qualitativa (finalitat), quantitativa (import) i temporal (exercici). b) El nivell de vinculació jurídica (art. 28) és el límit dins el qual l'òrgan gestor pot gastar amb flexibilitat sense necessitat de tramitar una modificació de crèdit; el fixen les bases d'execució de cada entitat, i com més ampli és (per exemple, a nivell d'àrea de despesa i capítol), més flexibilitat hi ha. c) En aquest cas, com que el crèdit exhaurit i el disponible pertanyen a la mateixa borsa de vinculació, es pot continuar gastant sense tramitar cap modificació de crèdit, ja que el límit rellevant és el conjunt de la borsa i no cada aplicació individual. Només caldria una modificació (transferència de crèdit) si es volgués gastar amb càrrec a una aplicació d'una borsa de vinculació diferent.",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "id": "c-t42-execucio",
+      "theme": 42,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Fases de la despesa i pagaments a justificar",
+      "context": "Un ajuntament ha d'adjudicar un contracte i, un cop executat, pagar-lo. A més, necessita disposar de fons per a petites despeses de representació d'un acte imminent per a les quals encara no té factures.",
+      "prompt": "Expliqueu: a) les fases d'execució de la despesa; b) com pot atendre les petites despeses sense factura prèvia; c) la diferència entre pagaments a justificar i bestretes de caixa fixa.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Enumera les fases A-D-O-P (autorització, disposició, reconeixement obligació, ordenació pagament)",
+          "weight": 13,
+          "keywords": [
+            [
+              "autoritzacio",
+              "disposicio",
+              "reconeixement",
+              "ordenacio"
+            ],
+            [
+              "fases",
+              "184",
+              "adop"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que pot fer servir pagaments a justificar per a despeses sense documentació prèvia (art. 190)",
+          "weight": 12,
+          "keywords": [
+            [
+              "pagaments a justificar"
+            ],
+            [
+              "sense factura",
+              "sense documentacio",
+              "190"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Precisa que els pagaments a justificar s'han de justificar en 3 mesos",
+          "weight": 10,
+          "keywords": [
+            [
+              "tres mesos",
+              "3 mesos"
+            ],
+            [
+              "justificar"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Distingeix les bestretes de caixa fixa (despeses menors, periòdiques o repetitives)",
+          "weight": 10,
+          "keywords": [
+            [
+              "bestretes de caixa fixa",
+              "caixa fixa"
+            ],
+            [
+              "menors",
+              "periodiques",
+              "repetitives"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'execució de la despesa segueix quatre fases (art. 184 TRLHL): autorització (A: destinar el crèdit a la despesa), disposició o compromís (D: acordar-la amb el contractista per import cert), reconeixement de l'obligació (O: declarar el deute líquid i exigible un cop feta la prestació) i ordenació del pagament (P); es poden acumular en un sol acte (AD, ADO, ADOP). b) Per a les petites despeses sense factura prèvia, l'ajuntament pot utilitzar la figura dels pagaments a justificar (art. 190), lliurant els fons amb l'obligació de justificar-los en el termini màxim de tres mesos. c) Els pagaments a justificar s'apliquen a despeses puntuals sense documentació prèvia; les bestretes de caixa fixa són provisions de fons per a despeses menors, periòdiques o repetitives (material, dietes) que es reposen al llarg de l'exercici.",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "id": "c-t43-recursos",
+      "theme": 43,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Recursos i tributs de la hisenda local",
+      "context": "Un ajuntament vol millorar els seus ingressos. Es planteja quins recursos té disponibles, quins impostos ha d'exigir obligatòriament i quins pot establir, i com pot fer servir els diners obtinguts per la venda d'un solar municipal.",
+      "prompt": "Expliqueu: a) els recursos de la hisenda local; b) la distinció entre impostos obligatoris i potestatius i entre taxa, impost i contribució especial; c) la limitació dels ingressos per alienació d'inversions.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Enumera els recursos de l'art. 2 (tributs, ingressos de dret privat, participació en tributs, subvencions, preus públics, crèdit...)",
+          "weight": 12,
+          "keywords": [
+            [
+              "tributs",
+              "ingressos de dret privat",
+              "participacio",
+              "subvencions"
+            ],
+            [
+              "preus publics",
+              "credit",
+              "recursos"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Distingeix impostos obligatoris (IBI, IAE, IVTM) de potestatius (ICIO, plusvàlua)",
+          "weight": 13,
+          "keywords": [
+            [
+              "ibi",
+              "iae",
+              "ivtm"
+            ],
+            [
+              "potestatius",
+              "icio",
+              "plusvalua"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Diferencia taxa (servei/domini públic), impost (capacitat econòmica) i contribució especial (benefici per obra)",
+          "weight": 12,
+          "keywords": [
+            [
+              "taxa",
+              "servei",
+              "domini public"
+            ],
+            [
+              "impost",
+              "contribucio especial",
+              "benefici"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que la venda del solar (alienació d'inversions) no pot finançar despesa corrent",
+          "weight": 8,
+          "keywords": [
+            [
+              "alienacio",
+              "venda",
+              "inversions"
+            ],
+            [
+              "no despesa corrent",
+              "inversio",
+              "amortitzacio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'art. 2 del TRLHL enumera com a recursos els ingressos de dret privat, els tributs propis (impostos, taxes i contribucions especials), els recàrrecs, la participació en tributs de l'Estat i de les CCAA, les subvencions, els preus públics, les operacions de crèdit i el producte de multes. b) Els impostos municipals obligatoris són l'IBI, l'IAE i l'IVTM; els potestatius, l'ICIO i la plusvàlua municipal. La taxa es paga per l'ús del domini públic o la prestació de serveis que afecten el subjecte; l'impost grava la capacitat econòmica sense contraprestació; i la contribució especial es basa en el benefici o l'augment de valor derivat d'una obra o servei públic. c) Els diners obtinguts per la venda del solar són ingressos per alienació d'inversions i no poden finançar despeses corrents: s'han de destinar a inversió o a l'amortització de deute (art. 5 TRLHL).",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c-t44-classificacio",
+      "theme": 44,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Classificació del sòl i concepte de solar",
+      "context": "Un tècnic ha d'informar sobre tres terrenys: un que disposa de tots els serveis i té alineacions assenyalades; un altre dins un sector que cal urbanitzar abans d'edificar; i un tercer preservat pel seu valor agrícola.",
+      "prompt": "Classifiqueu cada terreny i expliqueu: a) les classes de sòl; b) el concepte de solar i de serveis urbanístics bàsics; c) la diferència entre sòl urbà consolidat i no consolidat.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Classifica els tres terrenys (solar/urbà consolidat, urbà no consolidat o urbanitzable, no urbanitzable)",
+          "weight": 13,
+          "keywords": [
+            [
+              "solar",
+              "urba consolidat"
+            ],
+            [
+              "no consolidat",
+              "urbanitzable",
+              "no urbanitzable"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera els serveis urbanístics bàsics (viària, aigua, sanejament, energia)",
+          "weight": 12,
+          "keywords": [
+            [
+              "viaria",
+              "aigua",
+              "sanejament",
+              "energia"
+            ],
+            [
+              "serveis urbanistics basics"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Defineix el solar com a sòl urbà apte per edificar (serveis + alineacions i rasants)",
+          "weight": 12,
+          "keywords": [
+            [
+              "solar"
+            ],
+            [
+              "apte per edificar",
+              "alineacions",
+              "rasants"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Distingeix consolidat (edifica directament) de no consolidat (cal transformació i cessions)",
+          "weight": 8,
+          "keywords": [
+            [
+              "consolidat",
+              "directament"
+            ],
+            [
+              "no consolidat",
+              "transformacio",
+              "cessions"
+            ]
+          ]
+        }
+      ],
+      "model": "El primer terreny, que disposa de tots els serveis i té alineacions assenyalades, és un solar (sòl urbà consolidat apte per edificar). El segon, dins un sector que cal urbanitzar, és sòl urbà no consolidat (o urbanitzable), que necessita una transformació urbanística prèvia. El tercer, preservat pel seu valor agrícola, és sòl no urbanitzable. a) Les classes de sòl (art. 25 TRLUC) són urbà, urbanitzable i no urbanitzable. b) Els serveis urbanístics bàsics són la xarxa viària amb accés rodat, l'abastament d'aigua, el sanejament i el subministrament d'energia elèctrica; el solar és el sòl urbà apte per edificar perquè disposa d'aquests serveis i té assenyalades les alineacions i rasants. c) El sòl urbà consolidat és edificable directament perquè ja està urbanitzat; el no consolidat necessita completar la urbanització, fer cessions i participar en l'equidistribució abans d'edificar.",
+      "sources": [
+        "TRLUC",
+        "TRLSRU"
+      ]
+    },
+    {
+      "id": "c-t45-situacions",
+      "theme": 45,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Situació bàsica del sòl i valoració",
+      "context": "S'ha d'expropiar un terreny classificat pel planejament com a urbanitzable, però en què encara no s'ha iniciat cap obra d'urbanització. El propietari pretén que se li valori com si ja fos sòl urbà edificable, amb tota l'edificabilitat prevista.",
+      "prompt": "Determineu: a) la diferència entre classificació i situació bàsica; b) en quina situació bàsica es troba el terreny; c) com s'ha de valorar i per què no es poden computar les expectatives.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix classificació (autonòmica, urbanística) de situació bàsica (estatal, per a valoracions)",
+          "weight": 13,
+          "keywords": [
+            [
+              "classificacio",
+              "autonomica",
+              "urbanistica"
+            ],
+            [
+              "situacio basica",
+              "estatal",
+              "valoracio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conclou que el terreny està en situació de sòl RURAL perquè no s'ha urbanitzat",
+          "weight": 13,
+          "keywords": [
+            [
+              "rural",
+              "sol rural"
+            ],
+            [
+              "no urbanitzat",
+              "no s'ha iniciat",
+              "en transformacio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que es valora per capitalització de rendes (sòl rural), no pel mètode residual",
+          "weight": 11,
+          "keywords": [
+            [
+              "capitalitzacio",
+              "rendes"
+            ],
+            [
+              "rural",
+              "no residual"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Explica la prohibició de valorar expectatives urbanístiques no materialitzades",
+          "weight": 8,
+          "keywords": [
+            [
+              "expectatives",
+              "no materialitzades"
+            ],
+            [
+              "prohibit",
+              "no es valoren",
+              "edificabilitat futura"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La classificació del sòl (urbanitzable) és una decisió del planejament, competència autonòmica; la situació bàsica (rural o urbanitzat) la fixa la legislació estatal i respon a la realitat física del terreny, i s'utilitza per a les valoracions. b) Encara que estigui classificat com a urbanitzable, com que no s'ha iniciat ni completat cap obra d'urbanització, el terreny es troba en situació bàsica de sòl rural (art. 21.2 TRLSRU). c) Per tant, s'ha de valorar com a sòl rural, per capitalització de la renda real o potencial de l'explotació (més factors de localització), no pel mètode residual propi del sòl urbanitzat. La Llei del sòl prohibeix valorar les expectatives urbanístiques derivades d'una edificabilitat encara no materialitzada, de manera que la pretensió del propietari no és admissible.",
+      "sources": [
+        "TRLSRU",
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t46-sistemes",
+      "theme": 46,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Sistemes generals i locals i obtenció del sòl",
+      "context": "Un POUM preveu un gran parc urbà que serveix tot el municipi i uns jardins de barri dins d'un sector de sòl urbanitzable. Els propietaris del sector es pregunten si han de cedir el sòl i si en trauran aprofitament.",
+      "prompt": "Expliqueu: a) què són els sistemes urbanístics i la distinció general/local; b) com s'obté el sòl per a sistemes en sòl urbanitzable; c) si el sòl de sistemes genera aprofitament privat.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix els sistemes urbanístics i distingeix generals (tot el municipi) de locals (sector)",
+          "weight": 13,
+          "keywords": [
+            [
+              "sistemes urbanistics",
+              "sistemes"
+            ],
+            [
+              "generals",
+              "locals",
+              "municipi",
+              "sector"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que en sòl urbanitzable el sòl de sistemes s'obté per cessió gratuïta i obligatòria",
+          "weight": 13,
+          "keywords": [
+            [
+              "cessio gratuita",
+              "cessio obligatoria",
+              "cedir"
+            ],
+            [
+              "urbanitzable",
+              "propietaris"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Precisa que en sòl consolidat o sistemes generals no inclosos en àmbits s'obté per expropiació",
+          "weight": 11,
+          "keywords": [
+            [
+              "expropiacio",
+              "ocupacio directa"
+            ],
+            [
+              "consolidat",
+              "no inclosos"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que el sòl de sistemes no genera aprofitament privat",
+          "weight": 8,
+          "keywords": [
+            [
+              "no genera aprofitament",
+              "no aprofitament privat"
+            ],
+            [
+              "titularitat publica",
+              "sistemes"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els sistemes urbanístics (art. 34 TRLUC) són el conjunt de terrenys i instal·lacions destinats a usos i serveis públics col·lectius (comunicacions, espais lliures, equipaments, serveis tècnics). Els sistemes generals estructuren tot el municipi (com el gran parc urbà); els locals serveixen un sector concret (com els jardins de barri). b) En sòl urbanitzable (i en sòl urbà no consolidat), el sòl per a sistemes s'obté per cessió gratuïta i obligatòria dels propietaris de l'àmbit, com a deure urbanístic; en sòl consolidat o per a sistemes generals no inclosos en àmbits d'actuació, s'obté per expropiació, ocupació directa o permuta. c) El sòl de sistemes és de titularitat pública i no genera aprofitament privat patrimonialitzable, encara que pot admetre usos compatibles; per tant, els propietaris cedeixen el sòl però no n'obtenen aprofitament, que es concentra en les parcel·les edificables.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t47-aprofitament",
+      "theme": 47,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Aprofitament urbanístic i ponderació",
+      "context": "En un sector de sòl urbanitzable amb usos residencials i comercials, cal repartir l'aprofitament entre diversos propietaris i concretar quina part correspon a l'Administració. Els propietaris volen entendre com es fa aquest càlcul.",
+      "prompt": "Expliqueu: a) què és l'aprofitament urbanístic i quan es pot patrimonialitzar; b) per què calen els coeficients de ponderació; c) quin aprofitament correspon al propietari i quin a l'Administració.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix l'aprofitament com la capacitat d'edificar (edificabilitat + usos) que atorga el planejament",
+          "weight": 12,
+          "keywords": [
+            [
+              "aprofitament",
+              "edificabilitat",
+              "usos"
+            ],
+            [
+              "capacitat d'edificar",
+              "planejament"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica que només es patrimonialitza un cop complerts els deures urbanístics",
+          "weight": 11,
+          "keywords": [
+            [
+              "patrimonialitzar",
+              "complerts els deures",
+              "deures urbanistics"
+            ],
+            [
+              "urbanitzacio",
+              "cessions"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica la funció dels coeficients de ponderació (homogeneïtzar usos i intensitats)",
+          "weight": 13,
+          "keywords": [
+            [
+              "coeficients",
+              "ponderacio"
+            ],
+            [
+              "homogeneitzar",
+              "usos",
+              "comparar"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Indica que el propietari rep l'aprofitament menys la cessió a l'Administració (aprofitament públic)",
+          "weight": 9,
+          "keywords": [
+            [
+              "cessio",
+              "aprofitament public"
+            ],
+            [
+              "descomptar",
+              "propietari",
+              "10%"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'aprofitament urbanístic és la capacitat d'edificar i d'usar el sòl per a finalitats privades que atorga el planejament, mesurada per l'edificabilitat (m² de sostre) i els usos; el propietari només el pot fer seu (patrimonialitzar) un cop ha complert els deures urbanístics (urbanització, cessions i equidistribució). b) Com que usos diferents (residencial, comercial) tenen valors diferents, calen els coeficients de ponderació (d'usos i de situació) per homogeneïtzar-los i poder-los comparar i repartir; l'aprofitament ponderat resulta de multiplicar l'edificabilitat pels coeficients, expressat en unitats d'aprofitament. c) El propietari té dret a l'aprofitament resultant després de descomptar la cessió del percentatge que correspon a l'Administració (l'aprofitament públic), amb què es fa efectiva la participació de la comunitat en les plusvàlues urbanístiques.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t48-deures",
+      "theme": 48,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Deures dels propietaris i règim del subsol",
+      "context": "En un sector de sòl urbà no consolidat, un propietari vol edificar directament sense cedir res ni urbanitzar, al·legant que és titular del sòl i del subsol. L'Administració, a més, vol reservar el subsol per a un aparcament públic.",
+      "prompt": "Analitzeu: a) si el propietari pot edificar sense complir cap deure; b) els deures de cessió en sòl urbà no consolidat; c) el règim urbanístic del subsol.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Conclou que no pot edificar sense complir els deures: l'aprofitament està condicionat (art. 44)",
+          "weight": 13,
+          "keywords": [
+            [
+              "no pot edificar",
+              "condicionat",
+              "complir els deures"
+            ],
+            [
+              "aprofitament",
+              "expectativa",
+              "44"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera els deures de cessió en sòl urbà no consolidat (sistemes locals, generals, ~10% aprofitament urbanitzat)",
+          "weight": 13,
+          "keywords": [
+            [
+              "cessio",
+              "sistemes locals",
+              "aprofitament"
+            ],
+            [
+              "10%",
+              "urbanitzat",
+              "no consolidat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica que el planejament pot qualificar i reservar el subsol per a usos públics (arts. 39-40)",
+          "weight": 11,
+          "keywords": [
+            [
+              "subsol"
+            ],
+            [
+              "qualificar",
+              "reservar",
+              "interes public"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala que l'incompliment pot comportar expropiació o venda forçosa",
+          "weight": 8,
+          "keywords": [
+            [
+              "expropiacio",
+              "venda forçosa"
+            ],
+            [
+              "incompliment",
+              "funcio social"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El propietari no pot edificar directament sense complir els deures urbanístics: en sòl urbà no consolidat, l'aprofitament està condicionat a l'execució de la urbanització, la cessió del sòl obligatori i la participació en l'equidistribució; fins llavors és una mera expectativa (art. 44). b) Els deures de cessió en sòl urbà no consolidat inclouen cedir el sòl per a sistemes locals, participar en l'obtenció dels generals i cedir el sòl amb l'aprofitament urbanístic que correspon a l'Administració (com a regla, un 10%), ja urbanitzat, a més de costejar la urbanització. c) Pel que fa al subsol (arts. 39-40), el planejament el pot qualificar per a usos i aprofitaments i l'Administració pot reservar-ne l'ús per a finalitats públiques com un aparcament, ja que la titularitat privada del subsol està subordinada a les exigències de l'interès públic. L'incompliment dels deures pot comportar l'expropiació o la venda forçosa.",
+      "sources": [
+        "TRLUC",
+        "TRLSRU"
+      ]
+    },
+    {
+      "id": "c-t49-provisional",
+      "theme": 49,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Autorització d'un ús provisional",
+      "context": "Un particular vol instal·lar un aparcament en superfície en un solar que el planejament destina a un futur equipament que encara no s'ha executat. Demana autorització i vol saber quines condicions haurà d'acceptar.",
+      "prompt": "Expliqueu: a) què són els usos provisionals i els requisits; b) la condició essencial que ha d'acceptar; c) com es garanteix la constància d'aquesta condició.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix els usos provisionals com a temporals i revocables mentre no s'executa el pla (art. 53)",
+          "weight": 13,
+          "keywords": [
+            [
+              "provisional",
+              "temporal",
+              "revocable"
+            ],
+            [
+              "no s'executa",
+              "planejament",
+              "53"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera els requisits (no prohibits, no dificultar el pla, fàcilment desmuntables)",
+          "weight": 12,
+          "keywords": [
+            [
+              "no prohibits",
+              "no dificultar",
+              "desmuntables"
+            ],
+            [
+              "requisits"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica la condició essencial: cessar i enderrocar sense indemnització quan ho requereixi l'Administració",
+          "weight": 13,
+          "keywords": [
+            [
+              "sense indemnitzacio",
+              "cessar",
+              "enderrocar"
+            ],
+            [
+              "a precari",
+              "requereixi",
+              "54"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala la inscripció de les condicions al Registre de la Propietat",
+          "weight": 7,
+          "keywords": [
+            [
+              "registre de la propietat",
+              "inscripcio"
+            ],
+            [
+              "constancia",
+              "condicions"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els usos i obres de caràcter provisional (arts. 53-54 TRLUC) són actuacions temporals i revocables que s'autoritzen en terrenys destinats pel planejament a un ús futur encara no executat; han de complir que no estiguin prohibits, que no dificultin l'execució del planejament i que siguin fàcilment desmuntables (com l'aparcament en superfície proposat). b) La condició essencial que ha d'acceptar el propietari és el caràcter precari de l'autorització: es compromet a cessar l'ús i enderrocar les obres quan ho requereixi l'Administració, sense dret a cap indemnització. c) Aquesta condició es garanteix mitjançant la inscripció al Registre de la Propietat, de manera que consti davant tercers adquirents i quedi assegurat que l'ús provisional no consolida cap dret enfront de l'execució del planejament.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t50-pdu",
+      "theme": 50,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Jerarquia del planejament i plans directors",
+      "context": "La Generalitat vol coordinar el creixement urbanístic de diversos municipis d'una mateixa àrea i reservar sòl per a una gran infraestructura viària. Es planteja quina figura de planejament és l'adequada i com es relaciona amb els POUM municipals.",
+      "prompt": "Expliqueu: a) la jerarquia de les figures de planejament; b) què és un PDU i el seu objecte; c) qui l'aprova i quina relació té amb el planejament municipal.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix el planejament general (PDU, POUM, normes) del derivat (parcials, especials, millora urbana)",
+          "weight": 12,
+          "keywords": [
+            [
+              "general",
+              "derivat"
+            ],
+            [
+              "pdu",
+              "poum",
+              "plans parcials"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Defineix el PDU i el seu objecte (coordinació supramunicipal, infraestructures, sòl no urbanitzable)",
+          "weight": 13,
+          "keywords": [
+            [
+              "pla director",
+              "pdu"
+            ],
+            [
+              "supramunicipal",
+              "infraestructures",
+              "directrius"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que el formula i aprova la Generalitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "generalitat"
+            ],
+            [
+              "formula",
+              "aprova",
+              "departament"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que el PDU preval sobre el planejament municipal, que s'hi ha d'adaptar",
+          "weight": 8,
+          "keywords": [
+            [
+              "preval",
+              "prevalen"
+            ],
+            [
+              "municipal",
+              "s'hi ha d'adaptar",
+              "poum"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El planejament s'ordena jeràrquicament en planejament general (plans directors urbanístics, plans d'ordenació urbanística municipal i normes de planejament) i planejament derivat (plans parcials, especials i de millora urbana), que desplega el general. b) La figura adequada és el pla director urbanístic (art. 56 TRLUC), que estableix directrius de coordinació urbanística d'abast supramunicipal i pot concretar reserves de sòl per a grans infraestructures, com la viària projectada. c) El PDU el formula i aprova la Generalitat (departament competent en urbanisme), amb participació dels ajuntaments afectats, i preval sobre el planejament urbanístic municipal: els POUM i el planejament derivat s'hi han d'adaptar.",
+      "sources": [
+        "TRLUC"
       ]
     }
   ]
