@@ -799,6 +799,20 @@ Recull les previsions dels drets que es preveu liquidar durant l'exercici. A dif
 - Capítol 8. Actius financers.
 - Capítol 9. Passius financers.
 
+*Classificació econòmica: capítols 1-5 corrents, 6-9 de capital*
+
+| Capítol | Ingressos | Despeses |
+| --- | --- | --- |
+| 1 | Impostos directes | Despeses de personal |
+| 2 | Impostos indirectes | Béns corrents i serveis |
+| 3 | Taxes i altres ingressos | Despeses financeres |
+| 4 | Transferències corrents | Transferències corrents |
+| 5 | Ingressos patrimonials | Fons de contingència |
+| 6 | Alienació d'inversions reals | Inversions reals |
+| 7 | Transferències de capital | Transferències de capital |
+| 8 | Actius financers | Actius financers |
+| 9 | Passius financers | Passius financers |
+
 Igual que en les despeses, els capítols 1 a 5 són operacions corrents; el 6 i el 7, de capital; i el 8 i el 9, financeres.
 
 ### Procediment d'elaboració i aprovació
@@ -4728,39 +4742,57 @@ La integritat institucional es construeix amb una infraestructura ètica i s'apl
 Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Classes (art. 8 TREBEP)**
-  - Funcionari de carrera i interí
-  - Laboral i eventual (confiança)
-  - Potestats reservades a funcionaris (art. 9.2)
-- **Directiu (art. 13)**
-  - Funcions directives; mèrit, capacitat, idoneïtat
-  - Avaluació i responsabilitat per la gestió
+- **Marc**
+  - TREBEP (RDL 5/2015) + Llei 53/1984 d'incompatibilitats
+- **Classes (art. 8)**
+  - Funcionari (carrera/interí), laboral (fix/indefinit/temporal), directiu, eventual
+  - Potestats públiques → funcionaris (9.2)
 - **Incompatibilitats**
-  - Un sol lloc públic; no comprometre la imparcialitat
-  - Compatibilitat autoritzada amb límits
-- **Àmbit local**
-  - Habilitats nacionals (secretaria, intervenció-tresoreria)
+  - Un sol lloc públic (regla general); una sola remuneració
+  - Segon lloc públic → autorització de compatibilitat
+  - Factor d'incompatibilitat al complement específic
+- **Privades**
+  - Relacionades amb l'assumpte: incompatibles
+  - Altres: requereixen compatibilitat
+  - Exceptuades: patrimoni propi, docència ocasional
 
-El personal al servei de les administracions públiques comprèn diverses classes segons la seva vinculació i funcions. El regula el text refós de l'Estatut bàsic de l'empleat públic (TREBEP).
+El TREBEP (RDL 5/2015) classifica el personal al servei de les administracions públiques i n'estableix el règim. Aquest tema hi afegeix el règim d'incompatibilitats, regulat per la Llei 53/1984, que garanteix la dedicació i la imparcialitat dels empleats públics.
 
-### Classes de personal (art. 8 TREBEP)
-El personal al servei de les administracions es classifica en:
+### Classes de personal
+L'art. 8 del TREBEP distingeix quatre classes d'empleats públics:
 
-- Funcionaris de carrera: relació estatutària de dret públic per a l'exercici permanent de funcions retribuïdes.
-- Funcionaris interins: nomenats per raons de necessitat i urgència, amb caràcter temporal.
-- Personal laboral (fix, indefinit o temporal): vinculat per contracte de treball.
-- Personal eventual: funcions de confiança o assessorament especial, de lliure nomenament i cessament.
+*Classes de personal (art. 8 TREBEP)*
 
-Les funcions que impliquen l'exercici de potestats públiques o la salvaguarda dels interessos generals es reserven als funcionaris (art. 9.2 TREBEP).
+| Classe | Vincle | Nota |
+| --- | --- | --- |
+| Funcionari (carrera / interí) | Estatutari | El de carrera és permanent; l'interí, temporal (art. 10) |
+| Personal laboral (fix / indefinit / temporal) | Contracte de treball | Regit pel dret laboral amb especialitats |
+| Personal directiu professional | Segons designació | Funcions directives; avaluació per resultats (art. 13) |
+| Personal eventual | Nomenament de confiança | Assessorament especial; cessa lliurement (art. 12) |
 
-### El personal directiu professional
-El personal directiu professional (art. 13 TREBEP) és el que desenvolupa funcions directives en les administracions. La seva designació atén els principis de mèrit, capacitat i idoneïtat, mitjançant procediments que garanteixin la publicitat i la concurrència. Està subjecte a avaluació segons els criteris d'eficàcia, eficiència, responsabilitat per la gestió i control de resultats.
+Les funcions que impliquen exercici de potestats públiques o salvaguarda dels interessos generals estan reservades als funcionaris (art. 9.2).
 
-### Règim d'incompatibilitats
-El règim d'incompatibilitats parteix de la regla general que el personal al servei de les administracions no pot exercir més d'un lloc de treball públic ni activitats privades que comprometin la seva imparcialitat o independència, o que es relacionin amb els assumptes que gestiona. Les compatibilitats s'han d'autoritzar de manera expressa i tenen límits (per exemple, retributius).
+### El règim d'incompatibilitats
+La Llei 53/1984 estableix el principi general de dedicació a un sol lloc públic:
 
-### Particularitats a l'àmbit local
-En l'àmbit local, la funció pública s'ordena d'acord amb el TREBEP i la legislació catalana de règim local i de funció pública. Existeixen, a més, els funcionaris d'administració local amb habilitació de caràcter nacional (secretaria, intervenció-tresoreria), que exerceixen les funcions públiques necessàries reservades.
+- Regla general: no es pot ocupar més d'un lloc de treball al sector públic, tret dels casos excepcionals autoritzats.
+- El personal no pot percebre més d'una remuneració amb càrrec als pressupostos públics, llevat d'excepcions.
+- L'exercici d'un segon lloc o activitat pública requereix autorització expressa de compatibilitat.
+- El complement específic incorpora el factor d'incompatibilitat (retribueix la dedicació).
+
+### Compatibilitat amb activitats privades
+L'exercici d'activitats privades també està limitat:
+
+*Compatibilitat amb el sector privat*
+
+| Situació | Règim |
+| --- | --- |
+| Activitats privades relacionades amb l'assumpte que gestiona | Incompatibles (risc de conflicte d'interès) |
+| Altres activitats privades | Requereixen reconeixement previ de compatibilitat |
+| Administració del patrimoni personal o familiar | Exceptuada (compatible) |
+| Docència o participació ocasional en seminaris | Exceptuada dins els límits |
+
+La finalitat del règim d'incompatibilitats és garantir la dedicació, l'objectivitat i la imparcialitat, evitant conflictes d'interès entre la funció pública i altres activitats.
 
 ---
 
@@ -4770,26 +4802,48 @@ En l'àmbit local, la funció pública s'ordena d'acord amb el TREBEP i la legis
 Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Planificació de tasques**
-  - Distribució equitativa i transparent
-  - Funcions clares i terminis realistes
+- **Gestió de conflictes**
+  - Tipus: de tasca, de relació, de rol, de recursos
+  - Escoltar, separar persona del problema, buscar interessos comuns, mediar
+- **Planificació**
+  - Distribució equitativa de tasques i càrregues; funcions clares
 - **Clima laboral**
-  - Comunicació, reconeixement, conciliació
+  - Comunicació, reconeixement, participació, conciliació
+- **Incidències**
+  - Canals de comunicació, actuació ràpida i imparcial, seguiment dels acords
   - Prevenció de riscos psicosocials
-- **Conflictes i incidències**
-  - Escoltar, dialogar, negociar, mediar
-  - Agilitat, equitat i seguiment
 
-L'atenció al personal és una funció del comandament que comprèn la planificació de tasques, el manteniment d'un bon clima laboral i la gestió i resolució de conflictes i incidències.
+L'atenció al personal és una funció del comandament orientada a mantenir un bon clima laboral, planificar les tasques i resoldre els conflictes i incidències que sorgeixen en el treball. Complementa el lideratge d'equips amb una mirada de cura i de gestió quotidiana de les persones.
 
-### Planificació de tasques i organització
-Correspon al comandament planificar i distribuir la càrrega de treball de manera equitativa i transparent, amb funcions i responsabilitats clares, prioritzant les tasques i fixant terminis realistes. Una organització adequada evita greuges i sobrecàrregues i millora l'eficiència de l'equip.
+### Gestió de conflictes
+El conflicte és inevitable en tota organització; ben gestionat pot ser font de millora. Tipus i abordatge:
 
-### Clima laboral i motivació
-El bon clima laboral es construeix amb una comunicació fluida i bidireccional, el reconeixement de la feina, el tracte respectuós, la participació i la conciliació de la vida personal i laboral. Cal, a més, prevenir els riscos psicosocials (estrès, assetjament) i vetllar per la salut i el benestar de les persones.
+*Tipus de conflicte*
 
-### Gestió i resolució de conflictes i incidències
-Davant un conflicte, el comandament ha d'actuar amb promptitud i objectivitat: escoltar les parts, identificar les causes reals i cercar una solució mitjançant el diàleg, la negociació o la mediació, evitant prendre partit. Les incidències s'han de resoldre amb agilitat i equitat, documentar-les i fer-ne un seguiment, adoptant mesures preventives perquè no es repeteixin.
+| Tipus de conflicte | Origen |
+| --- | --- |
+| De tasca | Discrepàncies sobre com fer la feina o els objectius |
+| De relació (interpersonal) | Tensions personals, incompatibilitats de caràcter |
+| De rol | Ambigüitat o solapament de funcions i responsabilitats |
+| De recursos | Competència per mitjans, temps o reconeixement |
+
+L'abordatge passa per detectar-lo aviat, escoltar les parts, separar les persones del problema, buscar interessos comuns i acordar solucions; quan cal, s'hi pot incorporar la mediació.
+
+### Planificació de tasques i clima laboral
+Una bona organització del treball prevé molts conflictes:
+
+- Distribuir les tasques amb criteris clars i equitatius, equilibrant les càrregues de treball.
+- Definir amb precisió les funcions i responsabilitats de cada persona.
+- Fomentar un bon clima laboral: comunicació oberta, reconeixement, participació i tracte respectuós.
+- Cuidar les condicions de treball i la conciliació.
+
+### Resolució d'incidències i conflictes
+La gestió quotidiana requereix respondre a incidències i conflictes de manera àgil i justa:
+
+- Establir canals perquè el personal pugui plantejar problemes i suggeriments.
+- Actuar amb rapidesa i imparcialitat davant les incidències, buscant solucions i no culpables.
+- Documentar i fer seguiment dels acords per evitar que els conflictes es reprodueixin.
+- Prevenir situacions de risc psicosocial (assetjament, estrès) i derivar-les als canals adequats.
 
 ---
 
@@ -4799,31 +4853,50 @@ Davant un conflicte, el comandament ha d'actuar amb promptitud i objectivitat: e
 Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Faltes (art. 95 TREBEP)**
-  - Molt greus, greus i lleus
-  - Principis: legalitat, tipicitat, proporcionalitat
-- **Sancions (art. 96)**
-  - Separació del servei (només molt greus)
-  - Suspensió, trasllat forçós, advertiment
-- **Procediment**
-  - Expedient amb garanties (greus i molt greus)
-  - Prescripció (art. 97): 3 anys / 2 anys / 6 mesos
+- **Marc**
+  - TREBEP arts. 93-98; personal funcionari i laboral
+- **Principis**
+  - Legalitat, tipicitat, proporcionalitat, culpabilitat, non bis in idem
+- **Faltes (95)**
+  - Molt greus (taxades: fidelitat, discriminació, assetjament, abandó), greus, lleus
+- **Sancions (96)**
+  - Separació/acomiadament (màxima), suspensió, trasllat forçós, apercebiment
+  - No hi ha multes pecuniàries
+- **Prescripció (97)**
+  - Faltes: molt greus 3 anys, greus 2, lleus 6 mesos
+  - Procediment amb instrucció separada i audiència
 
-El règim disciplinari permet exigir responsabilitat als empleats públics per les faltes comeses en l'exercici de les seves funcions. El regulen els arts. 93 a 98 del TREBEP i la normativa de desplegament.
+El règim disciplinari permet a l'Administració sancionar el personal pel incompliment dels seus deures. El TREBEP (arts. 93-98) en fixa l'aplicació, les faltes, les sancions i les garanties, amb els principis propis de la potestat sancionadora.
 
-### Aplicació i classificació de les faltes
-La responsabilitat disciplinària s'exigeix respectant els principis de la potestat sancionadora (legalitat, tipicitat, proporcionalitat, presumpció d'innocència). Les faltes es classifiquen, segons la gravetat (art. 95 TREBEP), en molt greus, greus i lleus. Són molt greus, entre altres, l'incompliment del deure de fidelitat a la Constitució, l'abús d'autoritat, l'assetjament o l'abandonament del servei.
+### Aplicació i principis
+El règim disciplinari s'aplica al personal funcionari i laboral pels incompliments comesos en l'exercici de les seves funcions. Es regeix pels principis (art. 94):
 
-### Sancions
-Les sancions (art. 96 TREBEP) es gradúen segons la gravetat de la falta i poden consistir en:
+- Legalitat i tipicitat: les faltes i sancions han d'estar previstes en una norma.
+- Irretroactivitat de les disposicions desfavorables i retroactivitat de les favorables.
+- Proporcionalitat entre la falta i la sanció.
+- Culpabilitat (dol o negligència) i presumpció d'innocència.
+- Non bis in idem: no es pot sancionar dues vegades el mateix fet.
 
-- La separació del servei (reservada a les faltes molt greus).
-- La suspensió de funcions.
-- El trasllat forçós.
-- La demèrit (penalització en la carrera) o l'advertiment, per a les faltes de menor gravetat.
+### Faltes i sancions
+Les faltes es classifiquen per gravetat; les molt greus les tipifica directament el TREBEP (art. 95):
+
+*Faltes i sancions (arts. 95-96 TREBEP)*
+
+| Gravetat | Exemples de faltes | Sancions possibles (art. 96) |
+| --- | --- | --- |
+| Molt greus | Incompliment del deure de fidelitat a la Constitució, discriminació, assetjament, abandó del servei, obstaculitzar l'exercici de drets fonamentals | Separació del servei (funcionaris) / acomiadament (laborals); suspensió fins a 6 anys |
+| Greus | Les que fixin les lleis de funció pública i els convenis | Suspensió de funcions; trasllat forçós |
+| Lleus | Incompliments menors dels deures | Advertència / apercebiment; suspensió de curta durada |
+
+No existeixen sancions pecuniàries (multes) pròpiament dites; la més greu és la separació del servei o l'acomiadament, que extingeix la relació.
 
 ### Procediment i prescripció
-La imposició de sancions per faltes greus i molt greus requereix la tramitació d'un procediment disciplinari amb totes les garanties (dret d'audiència i de defensa, separació entre instrucció i resolució). Les infraccions prescriuen en els terminis de l'art. 97 TREBEP: tres anys les molt greus, dos anys les greus i sis mesos les lleus; les sancions prescriuen en terminis anàlegs.
+La imposició de sancions (tret de les lleus) exigeix un procediment disciplinari amb garanties:
+
+- Instrucció separada de l'òrgan que resol; dret d'audiència i de defensa de l'inculpat.
+- Possibilitat d'adoptar mesures provisionals (suspensió provisional de funcions).
+- Prescripció de les faltes (art. 97): molt greus als 3 anys, greus als 2 anys i lleus als 6 mesos; les sancions també prescriuen segons la gravetat.
+- Extinció de la responsabilitat per compliment de la sanció, prescripció, mort o indult.
 
 ---
 
@@ -4833,37 +4906,56 @@ La imposició de sancions per faltes greus i molt greus requereix la tramitació
 Normes: **L31_1995** (Llei 31/1995 de prevenció de riscos laborals).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Deure de protecció (art. 14 LPRL)**
-  - Protecció eficaç dels treballadors (Llei 31/1995)
-- **Acció preventiva (art. 15)**
-  - Evitar i avaluar; combatre en origen
-  - Protecció col·lectiva sobre la individual
-- **Instruments i drets**
-  - Avaluació de riscos + pla de prevenció
-  - Informació, formació, vigilància de la salut, EPI
-- **Participació**
-  - Delegats de prevenció
-  - Comitè de seguretat i salut
+- **Marc**
+  - Llei 31/1995 (LPRL) + RD 39/1997 (serveis de prevenció)
+- **Conceptes**
+  - Risc laboral, dany, prevenció, condicions de treball
+- **Acció preventiva (15)**
+  - Evitar → avaluar → combatre en origen → adaptar → substituir → col·lectiva abans d'individual → formar
+- **EPI vs col·lectiva**
+  - Col·lectiva (baranes, xarxes): preferent
+  - Individual (casc, guants): subsidiària
+- **Organització**
+  - Avaluació de riscos, pla de prevenció, formació, vigilància de la salut
+  - Serveis de prevenció, delegats, comitè de seguretat i salut
 
-La seguretat i salut en el treball té per objecte protegir els treballadors davant els riscos derivats de la feina. La regula la Llei 31/1995, de prevenció de riscos laborals (LPRL).
+La prevenció de riscos laborals té per objecte protegir la seguretat i la salut dels treballadors. La Llei 31/1995 de prevenció de riscos laborals (LPRL) i el seu reglament (RD 39/1997) estableixen els conceptes bàsics, els principis de l'acció preventiva i les mesures de protecció.
 
-### Conceptes bàsics i deure de protecció
-La LPRL parteix del dret dels treballadors a una protecció eficaç en matèria de seguretat i salut i del deure correlatiu de l'empresari de garantir-la (art. 14). El risc laboral és la possibilitat que un treballador pateixi un dany derivat del treball; la prevenció és el conjunt d'activitats o mesures adoptades per evitar-lo o reduir-lo.
+### Conceptes bàsics
+La LPRL defineix els conceptes fonamentals de la prevenció:
 
-### Principis de l'acció preventiva (art. 15 LPRL)
-L'empresari ha d'aplicar les mesures preventives d'acord amb uns principis ordenats:
+*Conceptes de la LPRL*
 
-- Evitar els riscos i avaluar els que no es puguin evitar.
+| Concepte | Definició |
+| --- | --- |
+| Risc laboral | Possibilitat que un treballador pateixi un dany derivat del treball |
+| Dany derivat del treball | Malalties, patologies o lesions per o durant el treball |
+| Prevenció | Conjunt d'activitats o mesures per evitar o disminuir els riscos |
+| Condicions de treball | Característiques del treball que poden influir en la seguretat i la salut |
+| Equip de treball | Qualsevol màquina, aparell, instrument o instal·lació utilitzat |
+
+### Principis de l'acció preventiva
+L'art. 15 de la LPRL estableix l'ordre de prioritat de les mesures preventives:
+
+- Evitar els riscos i avaluar els que no es poden evitar.
 - Combatre els riscos en el seu origen.
-- Adaptar el treball a la persona.
+- Adaptar el treball a la persona (llocs, equips, mètodes).
+- Substituir allò perillós per allò que comporti poc o cap perill.
 - Anteposar la protecció col·lectiva a la individual.
-- Donar les instruccions degudes als treballadors i planificar la prevenció.
+- Donar les degudes instruccions i formació als treballadors.
 
-### Instruments i drets
-Els instruments centrals són l'avaluació de riscos, la planificació de l'activitat preventiva i el pla de prevenció, integrat en la gestió de l'empresa. Els treballadors tenen dret a la informació, la formació, la consulta i la participació, a la vigilància de la salut i als equips de protecció individual (EPI) quan calgui. L'empresari pot organitzar la prevenció amb mitjans propis o amb serveis de prevenció aliens.
+### Equips de protecció i organització preventiva
+Les mesures de protecció es distingeixen segons a qui protegeixen:
 
-### Òrgans de participació
-La participació dels treballadors s'articula a través dels delegats de prevenció (representants amb funcions específiques en matèria preventiva) i del comitè de seguretat i salut (òrgan paritari de consulta i participació), en les empreses o centres amb el nombre de treballadors que fixa la llei.
+*Protecció col·lectiva vs individual*
+
+|  | Protecció col·lectiva | Protecció individual (EPI) |
+| --- | --- | --- |
+| Abast | Protegeix diverses persones alhora | Protegeix el treballador que el porta |
+| Prioritat | Preferent (art. 15) | Subsidiària, quan no n'hi ha prou amb la col·lectiva |
+| Exemples | Baranes, xarxes de seguretat, ventilació, senyalització, resguards | Casc, guants, ulleres, calçat de seguretat, arnès, protectors auditius |
+
+L'empresari ha d'avaluar els riscos, planificar l'activitat preventiva, informar i formar el personal i vigilar la salut. L'organització preventiva es fa mitjançant serveis de prevenció (propis o aliens), delegats de prevenció i el comitè de seguretat i salut. Els riscos específics depenen del lloc de treball (físics, químics, biològics, ergonòmics i psicosocials).
 
 ---
 
@@ -4873,29 +4965,42 @@ La participació dels treballadors s'articula a través dels delegats de prevenc
 Normes: **L31_1995** (Llei 31/1995 de prevenció de riscos laborals); **RD171_2004** (RD 171/2004 (coordinació d'activitats empresarials)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Objectiu (art. 24 LPRL + RD 171/2004)**
-  - Cooperació i informació recíproca entre empreses concurrents
+- **Marc**
+  - Art. 24 LPRL + RD 171/2004
+- **Deures**
+  - Cooperació: totes les empreses (informació recíproca)
+  - Informació i instrucció: empresari titular del centre
+  - Vigilància: empresari principal (pròpia activitat)
 - **Subjectes**
-  - Titular: informa i instrueix
-  - Principal: deure de vigilància
-  - Concurrents: informen i compleixen instruccions
-- **Mitjans**
-  - Reunions, instruccions, recursos preventius
-  - En obres: coordinador i pla de seguretat i salut
+  - Empresari titular del centre; empresari principal; empreses concurrents i autònoms
+- **Mitjans (11)**
+  - Intercanvi d'informació, reunions, instruccions, recursos preventius
+  - Coordinador d'activitats preventives (el més complet)
+- **Responsabilitat**
+  - Sancions per incompliment; responsabilitat solidària principal-contractista
 
-La coordinació d'activitats empresarials preveu les obligacions preventives quan en un mateix centre de treball concorren treballadors de diverses empreses. La regulen l'art. 24 de la Llei 31/1995 i el RD 171/2004.
+Quan en un mateix centre de treball concorren treballadors de diverses empreses, cal coordinar la prevenció de riscos per evitar que la interacció generi nous perills. Ho regulen l'art. 24 de la LPRL i el RD 171/2004.
 
-### Objectiu i deure de cooperació
-Quan en un mateix centre de treball desenvolupen activitats treballadors de dues o més empreses (o autònoms), totes elles tenen el deure de cooperar en l'aplicació de la normativa de prevenció, informant-se recíprocament dels riscos que la seva activitat pot generar per a les altres. L'objectiu és evitar que la concurrència d'empreses generi nous riscos o els agreugi.
+### Concepte i deures de coordinació
+La concurrència d'empreses en un mateix centre (contractes, subcontractes, treballadors autònoms) obliga a coordinar-se en matèria de prevenció. Els deures depenen de la posició de cada empresa:
 
-### Subjectes i obligacions
-El RD 171/2004 distingeix diferents posicions i obligacions:
+*Deures de coordinació (art. 24 LPRL)*
 
-- L'empresari titular del centre de treball ha d'informar i donar instruccions als altres empresaris sobre els riscos del centre i les mesures d'emergència.
-- L'empresari principal (que contracta obres o serveis de la seva pròpia activitat) té, a més, un deure de vigilància del compliment de la normativa preventiva pels contractistes i subcontractistes.
-- Cada empresari concurrent ha d'informar els seus treballadors i complir les instruccions rebudes.
+| Deure | Contingut | Qui l'assumeix |
+| --- | --- | --- |
+| Cooperació | Informar-se recíprocament dels riscos i coordinar l'activitat preventiva | Totes les empreses concurrents |
+| Informació i instrucció | Informar dels riscos del centre i donar instruccions | Empresari titular del centre |
+| Vigilància | Vigilar que els contractistes compleixin la normativa de prevenció | Empresari principal (contractes de la pròpia activitat) |
 
-### Mitjans de coordinació
-La coordinació es pot articular amb diversos mitjans: l'intercanvi d'informació i de comunicacions, les reunions de coordinació, les instruccions, la designació d'una persona o d'un equip de coordinació, o la presència de recursos preventius. En les obres de construcció, la coordinació s'instrumenta amb el coordinador de seguretat i salut i el pla de seguretat i salut.
+### Subjectes i mitjans de coordinació
+El RD 171/2004 concreta els subjectes i els mitjans:
+
+- Empresari titular del centre: qui té la capacitat de posar-lo a disposició i gestionar-lo.
+- Empresari principal: qui contracta o subcontracta obres o serveis de la seva pròpia activitat.
+- Mitjans de coordinació (art. 11): intercanvi d'informació i comunicacions, reunions de coordinació, impartició d'instruccions, mesures específiques, presència de recursos preventius.
+- El mitjà de coordinació més complet és la designació d'una persona o equip de coordinació d'activitats preventives.
+
+### Finalitat i responsabilitats
+La coordinació d'activitats empresarials té per finalitat garantir que la concurrència de diverses empreses no incrementi els riscos, aplicant coherentment els principis de l'acció preventiva entre totes. L'incompliment dels deures de coordinació genera responsabilitats administratives (sancions per infraccions en matèria de prevenció) i, si escau, responsabilitat solidària entre l'empresari principal i els contractistes pels danys derivats de la manca de coordinació.
 
 ---
