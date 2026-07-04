@@ -6,83 +6,6 @@
   },
   "cases": [
     {
-      "id": "c08-disciplina-restauracio",
-      "theme": 73,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Obres sense llicència i restauració de la legalitat",
-      "context": "Els serveis tècnics municipals detecten una construcció executada sense llicència en sòl urbà. Han transcorregut quatre anys des de l'acabament total de les obres. Les obres són legalitzables segons el planejament.",
-      "prompt": "Expliqueu el procediment de protecció de la legalitat urbanística, el termini de prescripció de l'acció de restauració i les conseqüències segons si les obres són o no legalitzables.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Procediment: ordre de paralització/suspensió i requeriment de legalització o restauració",
-          "weight": 11,
-          "keywords": [
-            [
-              "paralitzacio",
-              "suspensio",
-              "aturada"
-            ],
-            [
-              "legalitzacio",
-              "requeriment",
-              "restauracio"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Termini per restaurar la legalitat: 6 anys des de l'acabament total de les obres (no és aplicable a sòl no urbanitzable de protecció especial)",
-          "weight": 13,
-          "keywords": [
-            [
-              "sis anys",
-              "6 anys"
-            ],
-            [
-              "acabament",
-              "finalitzacio de les obres"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Conclou que amb 4 anys l'acció no ha prescrit (dins dels 6 anys)",
-          "weight": 9,
-          "keywords": [
-            [
-              "no ha prescrit",
-              "encara es pot",
-              "dins del termini",
-              "viable"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Si són legalitzables: requeriment per sol·licitar llicència; si no, enderroc/restauració de la realitat física",
-          "weight": 9,
-          "keywords": [
-            [
-              "legalitzable",
-              "sollicitar llicencia"
-            ],
-            [
-              "enderroc",
-              "restauracio",
-              "reposicio"
-            ]
-          ]
-        }
-      ],
-      "model": "Davant d'obres sense llicència, l'Ajuntament ha d'incoar el procediment de protecció de la legalitat urbanística (TRLUC). Si les obres estan en curs, s'ordena la paralització immediata; tant si han acabat com si no, s'obre expedient per restablir la legalitat.\nL'acció de restauració de la realitat física alterada i de l'ordre jurídic vulnerat prescriu, amb caràcter general, als SIS anys des de l'acabament total de les obres (en sòl no urbanitzable d'especial protecció no hi ha prescripció). Com que han transcorregut 4 anys, l'acció NO ha prescrit i l'Administració pot actuar.\nConseqüències segons legalitzabilitat: si les obres són legalitzables (conformes amb el planejament), es requereix la persona perquè sol·liciti la llicència corresponent i les legalitzi; si no ho són, s'ordena la restauració (enderroc o reposició al seu estat anterior). Tot això és independent de la incoació del corresponent expedient sancionador per la infracció urbanística comesa.",
-      "sources": [
-        "TRLUC",
-        "L11_2025"
-      ]
-    },
-    {
       "id": "c17-disciplinari",
       "theme": 88,
       "block": 7,
@@ -337,737 +260,6 @@
       "sources": [
         "L31_1995",
         "RD171_2004"
-      ]
-    },
-    {
-      "id": "c71-sancions-urbanistiques",
-      "theme": 71,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Imposició i graduació d'una multa urbanística",
-      "context": "Després d'una infracció greu, l'instructor ha de proposar la multa. El benefici que l'infractor ha obtingut amb l'obra il·legal és superior a la multa mínima prevista.",
-      "prompt": "Expliqueu com es determina la quantia de la sanció urbanística, la seva graduació i la relació amb la restauració.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Les sancions són multes segons la gravetat (sovint un percentatge del valor de l'obra)",
-          "weight": 12,
-          "keywords": [
-            [
-              "multa",
-              "sancio"
-            ],
-            [
-              "percentatge del valor",
-              "valor de l'obra",
-              "gravetat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "La sanció mai no pot suposar un benefici econòmic per a l'infractor",
-          "weight": 12,
-          "keywords": [
-            [
-              "benefici",
-              "no pot suposar un benefici"
-            ],
-            [
-              "incrementa",
-              "igualar el benefici"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Graduació per proporcionalitat: dany, culpabilitat, benefici, reincidència, conducta",
-          "weight": 11,
-          "keywords": [
-            [
-              "graduacio",
-              "proporcionalitat"
-            ],
-            [
-              "dany",
-              "reincidencia",
-              "culpabilitat",
-              "conducta"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La multa és compatible amb el deure de restaurar la legalitat",
-          "weight": 10,
-          "keywords": [
-            [
-              "compatible",
-              "independent"
-            ],
-            [
-              "restaurar",
-              "restauracio",
-              "enderroc"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les sancions urbanístiques consisteixen principalment en multes, la quantia de les quals es determina en funció de la gravetat de la infracció (lleu, greu o molt greu) i sovint es calcula com un percentatge del valor de l'obra, de la instal·lació o de l'actuació il·legal, o entre uns límits mínim i màxim. Un principi essencial és que la sanció mai no pot suposar un benefici econòmic per a l'infractor: si el benefici obtingut és superior a la multa, aquesta s'incrementa fins a igualar-lo com a mínim; per tant, en el cas plantejat, la multa s'ha d'elevar fins a absorbir el benefici obtingut. La graduació de la sanció respon al principi de proporcionalitat i pondera circumstàncies com la magnitud del dany causat a l'ordenació, el grau de culpabilitat, el benefici obtingut, la reincidència i la conducta de l'infractor (la legalització o restauració voluntàries poden actuar com a atenuants). Finalment, la multa és independent i compatible amb el deure de restaurar la realitat física alterada i l'ordre jurídic vulnerat: imposar la sanció no eximeix d'enderrocar o reposar, ni a la inversa.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c72-ordre-execucio",
-      "theme": 72,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Edifici en mal estat de conservació",
-      "context": "Els serveis tècnics constaten que la façana d'un edifici presenta despreniments i risc per als vianants. La propietat no actua.",
-      "prompt": "Expliqueu el deure de conservació, les ordres d'execució i les conseqüències del seu incompliment.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Deure de conservació: mantenir l'immoble en condicions de seguretat, salubritat i ornament",
-          "weight": 12,
-          "keywords": [
-            [
-              "deure de conservacio",
-              "conservacio"
-            ],
-            [
-              "seguretat",
-              "salubritat",
-              "ornament"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Hi ha un límit (deure normal de conservació); per sobre, pot obrir pas a la ruïna",
-          "weight": 9,
-          "keywords": [
-            [
-              "deure normal",
-              "limit"
-            ],
-            [
-              "ruina"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Ordre d'execució: determina les obres necessàries i el termini per fer-les",
-          "weight": 12,
-          "keywords": [
-            [
-              "ordre d'execucio"
-            ],
-            [
-              "obres necessaries",
-              "termini"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Incompliment: execució subsidiària a càrrec de l'obligat o multes coercitives",
-          "weight": 12,
-          "keywords": [
-            [
-              "execucio subsidiaria",
-              "subsidiaria"
-            ],
-            [
-              "multes coercitives",
-              "carrec de l'obligat"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les persones propietàries tenen el deure legal de conservació: han de mantenir els terrenys, les construccions i les instal·lacions en condicions de seguretat, salubritat i ornament públic, i conservar-ne les condicions objectives d'habitabilitat o d'ús. Aquest deure té un límit, el deure normal de conservació; les obres que el superen no són exigibles per simple ordre d'execució i poden obrir pas a la declaració de ruïna. Quan un immoble no reuneix les condicions adequades —com la façana amb despreniments del cas plantejat—, l'Administració dicta una ordre d'execució que determina les obres necessàries i el termini per executar-les, per raons de seguretat, salubritat o ornament; les administracions també poden establir la inspecció tècnica periòdica dels edificis (ITE). Si la persona obligada no compleix l'ordre dins el termini, l'Administració pot procedir a l'execució subsidiària de les obres a càrrec de l'obligat o imposar multes coercitives reiterades fins a aconseguir-ne el compliment. En cas de risc imminent, com el d'aquest supòsit, es poden adoptar mesures immediates de seguretat (apuntalament, tancament de la vorera o desallotjament).",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c74-revisio-llicencia",
-      "theme": 74,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Llicència atorgada contra el planejament",
-      "context": "L'Ajuntament detecta que ha atorgat una llicència que permet una edificabilitat contrària al planejament. Cal deixar-la sense efecte.",
-      "prompt": "Exposeu com es poden revisar les llicències il·legals segons si són nul·les o anul·lables i els efectes de la incoació.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Distingir actes nuls de ple dret i actes anul·lables",
-          "weight": 11,
-          "keywords": [
-            [
-              "nuls",
-              "nul·litat",
-              "ple dret"
-            ],
-            [
-              "anul·lables",
-              "anul·labilitat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Actes nuls: revisió d'ofici (art. 106), sense termini, amb dictamen del Consell consultiu",
-          "weight": 12,
-          "keywords": [
-            [
-              "revisio d'ofici",
-              "article 106"
-            ],
-            [
-              "sense termini",
-              "dictamen",
-              "consell consultiu",
-              "comissio juridica assessora"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Actes anul·lables favorables: declaració de lesivitat (art. 107, 4 anys) i contenciós",
-          "weight": 12,
-          "keywords": [
-            [
-              "declaracio de lesivitat",
-              "article 107"
-            ],
-            [
-              "quatre anys",
-              "contencios"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La incoació pot suspendre cautelarment els efectes de la llicència i les obres",
-          "weight": 10,
-          "keywords": [
-            [
-              "incoacio",
-              "suspensio cautelar"
-            ],
-            [
-              "suspendre",
-              "efectes",
-              "obres"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les llicències i la resta d'actes dictats amb infracció de l'ordenament urbanístic poden ser nuls de ple dret —si concorre un supòsit de l'article 47 de la Llei 39/2015, com l'adquisició de facultats urbanístiques contràries al planejament, que és el cas plantejat— o simplement anul·lables, per qualsevol altra infracció de l'ordenament. La via per deixar-los sense efecte depèn d'aquesta qualificació. Els actes nuls es revisen mitjançant la revisió d'ofici de l'article 106 de la Llei 39/2015, que es pot iniciar en qualsevol moment, sense subjecció a termini, i requereix el dictamen previ i favorable del Consell consultiu (a Catalunya, la Comissió Jurídica Assessora). Els actes anul·lables favorables per als interessats no es poden anul·lar directament d'ofici: l'Administració els ha de declarar lesius per a l'interès públic (declaració de lesivitat de l'article 107), dins el termini de quatre anys, i tot seguit impugnar-los davant la jurisdicció contenciosa administrativa. La incoació de l'expedient de revisió pot comportar mesures cautelars, com la suspensió dels efectes de la llicència i de les obres emparades, per evitar que es consolidi la il·legalitat.",
-      "sources": [
-        "L39_2015",
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c75-llei-habitatge",
-      "theme": 75,
-      "block": 15,
-      "maxPoints": 45,
-      "title": "Lloguer d'un habitatge i exigència de cèdula",
-      "context": "Un propietari vol llogar un habitatge i donar d'alta els subministraments. A més, l'Ajuntament vol fer reserves de sòl per a habitatge protegit en un nou sector.",
-      "prompt": "Exposeu el marc de la Llei 18/2007 (dret a l'habitatge): cèdula d'habitabilitat, habitatge protegit i competències.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La cèdula d'habitabilitat acredita les condicions mínimes d'habitabilitat",
-          "weight": 12,
-          "keywords": [
-            [
-              "cedula d'habitabilitat",
-              "cedula"
-            ],
-            [
-              "condicions minimes",
-              "habitabilitat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Cal per transmetre o llogar habitatges i donar d'alta subministraments",
-          "weight": 11,
-          "keywords": [
-            [
-              "llogar",
-              "transmetre"
-            ],
-            [
-              "subministraments",
-              "alta"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Habitatge protegit: preus limitats i Registre de sol·licitants; reserves de sòl",
-          "weight": 12,
-          "keywords": [
-            [
-              "habitatge protegit",
-              "proteccio oficial"
-            ],
-            [
-              "registre de sollicitants",
-              "reserves de sol"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Competència de la Generalitat amb participació municipal (planejament/plans locals)",
-          "weight": 10,
-          "keywords": [
-            [
-              "generalitat",
-              "competencia"
-            ],
-            [
-              "municipal",
-              "planejament",
-              "pla local d'habitatge"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La Llei 18/2007, del dret a l'habitatge, configura l'accés a un habitatge digne i adequat com un dret que els poders públics han de fer efectiu. La cèdula d'habitabilitat és el document que acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària, entre altres supòsits, per transmetre o llogar habitatges i per donar d'alta els subministraments (aigua, electricitat, gas). Per tant, el propietari del cas necessita la cèdula vigent per formalitzar el lloguer i les altes. La llei regula també l'habitatge amb protecció oficial (preus o rendes limitats i destinat a persones amb ingressos per sota d'uns llindars), que s'adjudica a través del Registre de sol·licitants d'habitatge amb protecció oficial per garantir la transparència i la igualtat; el planejament urbanístic ha de preveure reserves mínimes de sòl per a aquest habitatge, com vol fer l'Ajuntament en el nou sector. La competència en matèria d'habitatge correspon a la Generalitat, que la planifica i la regula, mentre que els municipis hi participen mitjançant el planejament urbanístic, els plans locals d'habitatge i les polítiques de proximitat.",
-      "sources": [
-        "L18_2007"
-      ]
-    },
-    {
-      "id": "c76-medi-ambient",
-      "theme": 76,
-      "block": 15,
-      "maxPoints": 45,
-      "title": "Activitat amb possible impacte ambiental",
-      "context": "Es vol implantar al municipi una activitat industrial que podria tenir efectes significatius sobre el medi. Cal saber quin instrument ambiental s'aplica.",
-      "prompt": "Exposeu el marc de les polítiques ambientals a Catalunya i l'avaluació ambiental (estratègica i d'impacte).",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Competència compartida: bases estatals i desenvolupament/gestió de la Generalitat (EAC)",
-          "weight": 10,
-          "keywords": [
-            [
-              "competencia compartida",
-              "bases estatals"
-            ],
-            [
-              "generalitat",
-              "desenvolupament",
-              "estatut"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Principis: precaució, prevenció, correcció en origen i qui contamina paga",
-          "weight": 10,
-          "keywords": [
-            [
-              "precaucio",
-              "prevencio"
-            ],
-            [
-              "qui contamina paga",
-              "correccio en origen"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Avaluació ambiental estratègica (plans i programes) vs d'impacte ambiental (projectes)",
-          "weight": 13,
-          "keywords": [
-            [
-              "avaluacio ambiental estrategica",
-              "plans i programes"
-            ],
-            [
-              "impacte ambiental",
-              "projectes"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "L'avaluació d'impacte conclou amb la declaració d'impacte ambiental (DIA)",
-          "weight": 12,
-          "keywords": [
-            [
-              "declaracio d'impacte ambiental",
-              "dia"
-            ],
-            [
-              "determinant",
-              "autoritzacio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les polítiques sobre el medi ambient a Catalunya s'inscriuen en un marc de competència compartida: l'Estat fixa la legislació bàsica i la Generalitat n'assumeix el desenvolupament legislatiu, la gestió i l'execució (art. 144 de l'Estatut d'autonomia), amb possibilitat d'establir normes addicionals de protecció. S'inspiren en els principis de precaució, prevenció, correcció en origen dels danys i 'qui contamina, paga', amb l'objectiu del desenvolupament sostenible. L'avaluació ambiental és l'instrument que valora els efectes significatius sobre el medi abans d'aprovar plans i programes o d'autoritzar projectes. Se'n distingeixen dues modalitats: l'avaluació ambiental estratègica, que recau sobre plans i programes (per exemple, el planejament urbanístic), i l'avaluació d'impacte ambiental, que recau sobre projectes concrets. En el cas plantejat, com que es tracta d'una activitat industrial concreta amb possibles efectes significatius, l'instrument aplicable és l'avaluació d'impacte ambiental, que conclou amb la declaració d'impacte ambiental (DIA), de caràcter determinant per a l'autorització del projecte. A més, la implantació de l'activitat resta subjecta a la prevenció i el control ambiental de la Llei 20/2009.",
-      "sources": [
-        "L20_2009",
-        "EAC2006"
-      ]
-    },
-    {
-      "id": "c77-admin-electronica",
-      "theme": 77,
-      "block": 16,
-      "maxPoints": 45,
-      "title": "Presentació de sol·licituds: paper o electrònic",
-      "context": "Una persona física i una empresa (societat mercantil) volen presentar sengles sol·licituds a l'Ajuntament. Pregunten si poden fer-ho en paper o si han de fer-ho electrònicament.",
-      "prompt": "Expliqueu el dret a relacionar-se electrònicament, els subjectes obligats i el paper de la signatura electrònica.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Les persones físiques poden triar el canal (electrònic o no), art. 14.1",
-          "weight": 12,
-          "keywords": [
-            [
-              "persones fisiques",
-              "triar"
-            ],
-            [
-              "article 14",
-              "14.1",
-              "poden escollir"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Estan obligades les persones jurídiques i entitats sense personalitat (art. 14.2)",
-          "weight": 13,
-          "keywords": [
-            [
-              "persones juridiques",
-              "obligats"
-            ],
-            [
-              "article 14.2",
-              "14.2",
-              "entitats sense personalitat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "També professionals col·legiats i empleats públics en les seves funcions",
-          "weight": 9,
-          "keywords": [
-            [
-              "professionals col·legiats",
-              "collegiacio"
-            ],
-            [
-              "empleats publics"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Signatura electrònica qualificada equival a la manuscrita per manifestar la voluntat",
-          "weight": 11,
-          "keywords": [
-            [
-              "signatura electronica",
-              "qualificada"
-            ],
-            [
-              "manuscrita",
-              "voluntat",
-              "mateix valor"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El règim de relació electrònica amb les administracions el fixa l'article 14 de la Llei 39/2015. Les persones físiques poden triar en tot moment si es comuniquen amb l'Administració per mitjans electrònics o no (art. 14.1); per tant, la persona física del cas pot presentar la sol·licitud en paper o electrònicament, com prefereixi. En canvi, estan obligats a relacionar-s'hi exclusivament per mitjans electrònics (art. 14.2), entre altres: les persones jurídiques, les entitats sense personalitat jurídica, els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria (en l'exercici de l'activitat), els qui representin un interessat obligat, i els empleats públics en l'exercici de les seves funcions. L'empresa del cas, com a societat mercantil (persona jurídica), està obligada a presentar la sol·licitud electrònicament. Per actuar electrònicament cal identificar-se amb els sistemes admesos i, per als tràmits que impliquen manifestar la voluntat (com presentar sol·licituds o recursos), signar electrònicament: la signatura electrònica qualificada té, respecte de les dades consignades en forma electrònica, el mateix valor jurídic que la signatura manuscrita.",
-      "sources": [
-        "L39_2015",
-        "L40_2015"
-      ]
-    },
-    {
-      "id": "c78-millora-qualitat",
-      "theme": 78,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Millora del servei d'atenció a la ciutadania",
-      "context": "L'àrea d'urbanisme rep moltes queixes per la lentitud i la manca d'informació en la tramitació de llicències. La direcció vol implantar un pla de millora de la qualitat.",
-      "prompt": "Proposeu instruments de millora de la qualitat i d'atenció a la ciutadania i expliqueu el cicle de millora contínua.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Cicle de millora contínua PDCA: planificar, fer, verificar i actuar",
-          "weight": 12,
-          "keywords": [
-            [
-              "millora continua",
-              "pdca"
-            ],
-            [
-              "planificar",
-              "verificar",
-              "actuar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Objectius: eficàcia, eficiència i satisfacció de les persones usuàries",
-          "weight": 10,
-          "keywords": [
-            [
-              "eficacia",
-              "eficiencia"
-            ],
-            [
-              "satisfaccio",
-              "usuaris"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Carta de serveis amb compromisos de qualitat (terminis, condicions)",
-          "weight": 12,
-          "keywords": [
-            [
-              "carta de serveis"
-            ],
-            [
-              "compromisos",
-              "terminis"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Indicadors, enquestes de satisfacció i sistema de queixes i suggeriments",
-          "weight": 11,
-          "keywords": [
-            [
-              "indicadors",
-              "enquestes de satisfaccio"
-            ],
-            [
-              "queixes",
-              "suggeriments"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La millora de la qualitat es basa en la millora contínua dels processos i en l'orientació del servei a la ciutadania. El marc de referència és el cicle PDCA (planificar, fer, verificar i actuar): es planifiquen els processos i els objectius, s'executen, es mesuren els resultats i es revisen per introduir-hi millores de manera iterativa, amb l'objectiu d'incrementar l'eficàcia (assolir els resultats), l'eficiència (amb el mínim de recursos) i la satisfacció de les persones usuàries. Per al cas de l'àrea d'urbanisme, es poden implantar diversos instruments: una carta de serveis que informi la ciutadania dels serveis prestats i fixi compromisos de qualitat (terminis de resolució, condicions, drets dels usuaris); indicadors de qualitat (temps de resposta, grau de satisfacció, taxa de resolució d'incidències); enquestes de satisfacció i un sistema de queixes i suggeriments com a fonts d'informació per a la millora; i mesures de simplificació administrativa i reducció de càrregues. Tot plegat orientat a una atenció accessible (presencial i electrònica), amb informació clara i comprensible, tracte correcte i resposta en terminis raonables, la qual cosa exigeix també formació del personal i ús eficient de les tecnologies.",
-      "sources": [
-        "L19_2014"
-      ]
-    },
-    {
-      "id": "c79-avaluacio-objectius",
-      "theme": 79,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Seguiment dels objectius de l'Àrea de Territori",
-      "context": "L'Àrea del Territori i Sostenibilitat s'ha fixat objectius anuals (reduir els terminis de tramitació de llicències i executar un pla d'obres). A mig any, alguns indicadors mostren desviacions.",
-      "prompt": "Exposeu les fases de l'avaluació de l'assoliment d'objectius i com reconduir les desviacions.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Fases: planificació, execució, seguiment/mesura i revisió (cicle retroalimentat)",
-          "weight": 13,
-          "keywords": [
-            [
-              "planificacio",
-              "execucio"
-            ],
-            [
-              "seguiment",
-              "mesura",
-              "revisio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Indicadors mesurables i vinculats als objectius (criteris SMART)",
-          "weight": 11,
-          "keywords": [
-            [
-              "indicadors",
-              "mesurables"
-            ],
-            [
-              "smart",
-              "vinculats als objectius"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Quadre de comandament per detectar a temps les desviacions",
-          "weight": 10,
-          "keywords": [
-            [
-              "quadre de comandament"
-            ],
-            [
-              "desviacions",
-              "detectar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Adopció de mesures correctores i vinculació amb el retiment de comptes",
-          "weight": 11,
-          "keywords": [
-            [
-              "mesures correctores",
-              "reconduccio",
-              "corregir"
-            ],
-            [
-              "retiment de comptes",
-              "transparencia"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'avaluació de l'assoliment d'objectius és el procés de seguiment dels resultats propis i de l'àrea per comprovar en quina mesura s'assoleixen els objectius fixats i introduir-hi millores. Segueix un cicle amb fases definides: la planificació (definició dels objectius i dels indicadors), l'execució (desplegament de les accions previstes), el seguiment i la mesura (recollida sistemàtica de dades sobre l'evolució) i la revisió (anàlisi de les desviacions respecte dels objectius i adopció de mesures correctores). Aquest cicle es retroalimenta: els resultats orienten la planificació següent. Els objectius s'han de poder mesurar amb indicadors rellevants, mesurables i vinculats als objectius (criteris SMART: específics, mesurables, assolibles, rellevants i amb horitzó temporal), integrats en un quadre de comandament que permet detectar a temps les desviacions. En el cas de l'Àrea del Territori, en constatar a mig any les desviacions en els terminis de tramitació i en el pla d'obres, cal analitzar-ne les causes i adoptar mesures correctores (reforç de recursos, reprogramació, simplificació de tràmits) per reconduir-les. L'avaluació es vincula al retiment de comptes i a la transparència, que reforcen la responsabilitat de la gestió i la confiança de la ciutadania.",
-      "sources": [
-        "L19_2014"
-      ]
-    },
-    {
-      "id": "c80-eines-comandament",
-      "theme": 80,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Sobrecàrrega de treball en un equip tècnic",
-      "context": "Un cap d'equip detecta que el seu equip està sobrecarregat, amb moltes interrupcions, reunions poc productives i signes d'estrès. Vol millorar l'organització del treball.",
-      "prompt": "Proposeu eines d'organització del treball i de gestió de l'estrès aplicables a la situació.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Organització: prioritzar (urgent/important), planificar i agrupar tasques",
-          "weight": 13,
-          "keywords": [
-            [
-              "prioritzar",
-              "urgent",
-              "important"
-            ],
-            [
-              "planificar",
-              "agrupar tasques"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Delegar adequadament i evitar interrupcions innecessàries",
-          "weight": 10,
-          "keywords": [
-            [
-              "delegar",
-              "delegacio"
-            ],
-            [
-              "interrupcions",
-              "evitar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Gestió de l'estrès: identificar fonts, càrrega realista, prevenció de riscos psicosocials",
-          "weight": 12,
-          "keywords": [
-            [
-              "estres",
-              "fonts",
-              "sobrecarrega"
-            ],
-            [
-              "riscos psicosocials",
-              "carrega realista",
-              "prevencio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Reunions eficaces (objectiu, ordre del dia, durada) i comunicació clara",
-          "weight": 10,
-          "keywords": [
-            [
-              "reunions",
-              "ordre del dia",
-              "objectiu"
-            ],
-            [
-              "comunicacio clara",
-              "seguiment"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les eines del comandament inclouen tècniques d'organització del treball i de gestió de l'estrès. Davant la situació descrita, una bona organització del treball passa per prioritzar, distingint el que és urgent del que és important (per exemple amb la matriu d'Eisenhower), planificar les tasques i els terminis, agrupar les tasques similars, evitar les interrupcions innecessàries i delegar adequadament, donant autonomia i fent seguiment. La planificació del temps i la fixació d'objectius diaris i setmanals ajuden a centrar l'esforç en el que aporta valor. Pel que fa a l'estrès, cal identificar-ne les fonts (sobrecàrrega, manca de control, conflictes), organitzar la càrrega de treball de manera realista, demanar suport i, des de l'organització, prevenir els riscos psicosocials; un nivell d'estrès gestionable millora el rendiment, però l'estrès crònic el deteriora i afecta la salut. Finalment, convé fer les reunions més eficaces (objectiu clar, ordre del dia, durada ajustada i seguiment dels acords) i mantenir una comunicació clara i bidireccional, combinant l'orientació a resultats amb l'atenció a les persones de l'equip.",
-      "sources": [
-        "L31_1995",
-        "TREBEP"
       ]
     },
     {
@@ -7269,6 +6461,789 @@
       "model": "a) L'actuació és una infracció urbanística: executar obres sense llicència i contra el planejament vulnera l'ordenament (art. 213 TRLUC). Com que afecta sòl no urbanitzable de protecció especial, es classifica com a infracció molt greu (art. 214). b) En poden ser responsables el promotor (qui impulsa l'actuació), el constructor o empresari (qui l'executa materialment) i el tècnic director (qui la dirigeix); també el propietari si li és imputable i les autoritats o funcionaris que haguessin atorgat llicències o ordres manifestament il·legals (art. 216). c) La gravetat es determina segons el tipus de sòl afectat i el perjudici a l'interès urbanístic: les que afecten sòl protegit, sistemes generals, zones verdes o béns catalogats són molt greus; les altres vulneracions són greus, i les de menor entitat i legalitzables, lleus.",
       "sources": [
         "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t71-sancions",
+      "theme": 71,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Quantia i graduació d'una sanció urbanística",
+      "context": "Un promotor ha obtingut un benefici important amb una edificació il·legal. L'ajuntament ha de sancionar-lo i, alhora, ordenar-li la restauració. El promotor al·lega que si l'enderroquen ja no cal multa.",
+      "prompt": "Expliqueu: a) com es fixa la quantia de la sanció i el principi que hi regeix; b) els criteris de graduació; c) la relació entre sanció i restauració.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que la sanció és una multa proporcional (% del valor/perjudici) que ha de superar el benefici",
+          "weight": 13,
+          "keywords": [
+            [
+              "multa proporcional",
+              "percentatge",
+              "valor"
+            ],
+            [
+              "superar el benefici",
+              "benefici"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera criteris de graduació (benefici, dany, reversibilitat, culpabilitat, reincidència)",
+          "weight": 13,
+          "keywords": [
+            [
+              "benefici",
+              "dany",
+              "reversibilitat"
+            ],
+            [
+              "culpabilitat",
+              "reincidencia",
+              "graduacio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que sanció i restauració són independents i compatibles",
+          "weight": 13,
+          "keywords": [
+            [
+              "independents",
+              "compatibles"
+            ],
+            [
+              "restauracio",
+              "no es substitueixen",
+              "alhora"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que la restauració voluntària pot reduir la multa",
+          "weight": 6,
+          "keywords": [
+            [
+              "reduccio",
+              "restauracio voluntaria",
+              "atenuant"
+            ],
+            [
+              "redueix"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La sanció és una multa proporcional, expressada habitualment com un percentatge del valor de l'obra o del perjudici causat, amb forquilles segons la gravetat; regeix el principi que la sanció ha de superar el benefici obtingut amb la infracció, perquè incomplir no resulti més rendible que complir. b) Per fixar la quantia dins la forquilla es ponderen el benefici obtingut, el dany causat i la seva reversibilitat, el grau de culpabilitat i la intencionalitat, la reincidència i la col·laboració en la restauració (art. 219). c) La sanció i la restauració són independents i compatibles: l'enderroc o la reposició no és una sanció, sinó una mesura de restabliment de la legalitat; per tant, l'al·legació del promotor no és correcta i es poden acumular la multa i l'ordre de restauració, si bé la restauració voluntària pot operar com a atenuant i reduir la multa.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t72-ordres",
+      "theme": 72,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Ordre d'execució i deure de conservació",
+      "context": "Un edifici presenta despreniments de façana que suposen un risc per als vianants. El propietari no fa cap actuació. L'ajuntament vol obligar-lo a reparar-lo i garantir la seguretat de la via pública.",
+      "prompt": "Expliqueu: a) el deure de conservació; b) l'ordre d'execució com a instrument; c) què pot fer l'Administració davant l'incompliment.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica el deure de conservació (seguretat, salubritat, ornament públic)",
+          "weight": 13,
+          "keywords": [
+            [
+              "deure de conservacio",
+              "conservacio"
+            ],
+            [
+              "seguretat",
+              "salubritat",
+              "ornament"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que l'ajuntament pot dictar una ordre d'execució amb termini",
+          "weight": 13,
+          "keywords": [
+            [
+              "ordre d'execucio",
+              "ordre"
+            ],
+            [
+              "obres",
+              "termini",
+              "imposa"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala l'execució subsidiària i les multes coercitives davant l'incompliment",
+          "weight": 13,
+          "keywords": [
+            [
+              "execucio subsidiaria",
+              "subsidiaria"
+            ],
+            [
+              "multes coercitives",
+              "coercitives"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Esmenta l'expropiació per incompliment com a mesura extrema o el límit del deure legal",
+          "weight": 6,
+          "keywords": [
+            [
+              "expropiacio",
+              "funcio social"
+            ],
+            [
+              "deure legal",
+              "limit"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els propietaris tenen el deure de conservar les construccions en condicions de seguretat, salubritat i ornament públic (art. 197 TRLUC); en aquest cas, els despreniments de façana incompleixen aquest deure i generen un risc per als vianants. b) Per fer-lo efectiu, l'ajuntament pot dictar una ordre d'execució, que imposa al propietari l'obligació de realitzar les obres concretes de reparació dins un termini determinat. c) Si el propietari no compleix l'ordre, l'Administració pot recórrer a l'execució subsidiària (fer les obres i repercutir-ne el cost al propietari), imposar multes coercitives reiterades per forçar el compliment i, en casos extrems, expropiar per incompliment de la funció social de la propietat; a més, davant un perill imminent, pot adoptar mesures immediates de seguretat (apuntalament, tancament).",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t73-prescripcio",
+      "theme": 73,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Prescripció de la restauració de la legalitat",
+      "context": "Es descobreixen dues obres il·legals acabades: una en sòl urbà fa set anys i una altra en sòl no urbanitzable de protecció especial fa deu anys. L'ajuntament vol saber si encara pot ordenar-ne la restauració.",
+      "prompt": "Analitzeu: a) el termini general de prescripció de l'acció de restauració; b) el règim en sòl no urbanitzable protegit; c) la situació de l'obra prescrita.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica el termini general de 6 anys des de l'acabament de les obres",
+          "weight": 13,
+          "keywords": [
+            [
+              "sis anys",
+              "6 anys"
+            ],
+            [
+              "acabament",
+              "prescripcio",
+              "227"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conclou que l'obra en sòl urbà (7 anys) ha prescrit i no es pot ordenar la restauració",
+          "weight": 12,
+          "keywords": [
+            [
+              "prescrit",
+              "ha prescrit"
+            ],
+            [
+              "sol urba",
+              "no es pot restaurar",
+              "7 anys"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que en sòl no urbanitzable protegit l'acció és imprescriptible i sí es pot restaurar",
+          "weight": 13,
+          "keywords": [
+            [
+              "imprescriptible",
+              "no prescriu"
+            ],
+            [
+              "no urbanitzable",
+              "protegit",
+              "es pot restaurar"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que l'obra prescrita queda en règim de fora d'ordenació (sense consolidació)",
+          "weight": 7,
+          "keywords": [
+            [
+              "fora d'ordenacio",
+              "fora ordenacio"
+            ],
+            [
+              "no consolidacio",
+              "assimilat"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'acció de restauració de la realitat física alterada prescriu, com a regla, als sis anys des de l'acabament total de les obres (art. 227 TRLUC). b) L'obra en sòl urbà, acabada fa set anys, ha superat el termini de sis anys: l'acció de restauració ha prescrit i l'ajuntament ja no pot ordenar-ne l'enderroc (l'edificació queda en règim de fora d'ordenació, sense poder-hi fer obres de consolidació). c) En canvi, l'obra en sòl no urbanitzable de protecció especial, tot i tenir deu anys, es troba en un terreny en què l'acció de restauració és imprescriptible (art. 227): per tant, l'ajuntament pot ordenar-ne la restauració en qualsevol moment. La prescripció de l'acció de restauració és, a més, independent de la prescripció de la infracció a efectes sancionadors.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t74-revisio",
+      "theme": 74,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Revisió d'una llicència il·legal",
+      "context": "Un ajuntament detecta que va atorgar una llicència d'obres el contingut de la qual és constitutiu d'una infracció urbanística molt greu (edificació en zona verda). L'edifici està acabat i el promotor demana la llicència de primera ocupació.",
+      "prompt": "Expliqueu: a) si es pot revisar la llicència i per quina via; b) l'efecte sobre la primera ocupació; c) per què cal revisar-la abans d'exigir la restauració.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Confirma que es pot revisar perquè el contingut és constitutiu d'infracció molt greu (arts. 201-202)",
+          "weight": 13,
+          "keywords": [
+            [
+              "revisar",
+              "revisio"
+            ],
+            [
+              "infraccio molt greu",
+              "greu",
+              "201"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica la via de revisió d'ofici (nul·litat) amb dictamen de l'òrgan consultiu, o lesivitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "revisio d'ofici",
+              "nul·litat"
+            ],
+            [
+              "dictamen",
+              "organ consultiu",
+              "lesivitat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala que la incoació pot suspendre els efectes de la llicència de primera ocupació",
+          "weight": 13,
+          "keywords": [
+            [
+              "suspendre",
+              "suspensio"
+            ],
+            [
+              "primera ocupacio",
+              "incoacio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Explica que cal anul·lar la llicència abans d'exigir la restauració",
+          "weight": 7,
+          "keywords": [
+            [
+              "anul·lar",
+              "revisar abans"
+            ],
+            [
+              "restauracio",
+              "empara"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'ajuntament pot revisar la llicència perquè el seu contingut és constitutiu d'una infracció urbanística molt greu (arts. 201-202 TRLUC); la via és la revisió d'ofici si la llicència és nul·la de ple dret (art. 106 de la Llei 39/2015, amb audiència i dictamen favorable de l'òrgan consultiu) o la declaració de lesivitat i posterior impugnació contenciosa si és anul·lable. b) La incoació de l'expedient de revisió pot comportar la suspensió dels efectes de la llicència de primera ocupació, de manera que s'impedeixi l'ocupació efectiva de l'edifici mentre es tramita la revisió. c) Cal revisar i anul·lar prèviament la llicència perquè, mentre és vàlida, empara formalment l'actuació; només un cop anul·lada es pot exigir la restauració de la legalitat (enderroc o reposició), de manera coordinada amb el procediment de protecció de la legalitat urbanística.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t75-habitatge",
+      "theme": 75,
+      "block": 15,
+      "maxPoints": 45,
+      "title": "Competències i control en matèria d'habitatge",
+      "context": "Un ajuntament vol impulsar la construcció d'habitatge protegit i actuar contra uns habitatges que un gran tenidor manté buits de manera injustificada. Es planteja quin és el marc competencial i quins instruments té.",
+      "prompt": "Expliqueu: a) el marc normatiu i competencial de l'habitatge a Catalunya; b) els instruments de planificació i de reserva de sòl; c) el règim de control davant els habitatges buits.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Situa la Llei 18/2007 i la competència exclusiva de la Generalitat (art. 137 EAC)",
+          "weight": 12,
+          "keywords": [
+            [
+              "llei 18/2007",
+              "18/2007"
+            ],
+            [
+              "generalitat",
+              "competencia exclusiva",
+              "137"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Esmenta els plans (territorial sectorial i local d'habitatge) i la reserva de sòl per a habitatge protegit",
+          "weight": 13,
+          "keywords": [
+            [
+              "pla local d'habitatge",
+              "pla territorial",
+              "planificacio"
+            ],
+            [
+              "reserva de sol",
+              "habitatge protegit"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Identifica que mantenir habitatges buits injustificadament és una infracció sancionable",
+          "weight": 13,
+          "keywords": [
+            [
+              "habitatges buits",
+              "desocupats",
+              "buits"
+            ],
+            [
+              "infraccio",
+              "sancio",
+              "sancionable"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala instruments de qualitat (cèdula d'habitabilitat, ITE)",
+          "weight": 7,
+          "keywords": [
+            [
+              "cedula d'habitabilitat",
+              "cedula"
+            ],
+            [
+              "ite",
+              "qualitat"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El dret a l'habitatge a Catalunya es regeix per la Llei 18/2007; la competència en matèria d'habitatge és exclusiva de la Generalitat (art. 137 EAC), amb competències de proximitat dels ens locals (planificació local, promoció i disciplina). b) La planificació s'articula amb el Pla territorial sectorial d'habitatge i els plans locals d'habitatge, que diagnostiquen les necessitats i programen les actuacions; a més, el planejament urbanístic ha de preveure reserves de sòl per a habitatge de protecció pública. c) Pel que fa als habitatges buits, la llei estableix un règim de control i sancionador: mantenir habitatges desocupats de manera injustificada és una infracció (molt greu en determinats casos, com els grans tenidors), amb multes graduades; l'ajuntament pot requerir-ne l'ocupació i, si escau, adoptar mesures. Els instruments de qualitat del parc (cèdula d'habitabilitat, inspecció tècnica dels edificis) completen el sistema.",
+      "sources": [
+        "L18_2007"
+      ]
+    },
+    {
+      "id": "c-t76-mediambient",
+      "theme": 76,
+      "block": 15,
+      "maxPoints": 45,
+      "title": "Polítiques i competències ambientals a Catalunya",
+      "context": "La Generalitat vol regular una matèria ambiental sobre la qual l'Estat ja ha dictat legislació bàsica, i un ajuntament ha d'aplicar la intervenció ambiental a una activitat industrial. Es plantegen dubtes sobre el repartiment competencial i els instruments.",
+      "prompt": "Expliqueu: a) el tipus de competència ambiental de la Generalitat i els principis; b) la normativa específica de control d'activitats; c) un instrument preventiu clau.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que la competència ambiental és compartida (bases estatals + desenvolupament i execució de la Generalitat)",
+          "weight": 13,
+          "keywords": [
+            [
+              "compartida"
+            ],
+            [
+              "bases",
+              "desenvolupament",
+              "execucio",
+              "144"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Cita els principis ambientals (prevenció, precaució, qui contamina paga, sostenibilitat)",
+          "weight": 12,
+          "keywords": [
+            [
+              "prevencio",
+              "precaucio",
+              "qui contamina paga"
+            ],
+            [
+              "sostenibilitat",
+              "principis"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Identifica la Llei 20/2009 (PCAA) com a norma de control de les activitats",
+          "weight": 13,
+          "keywords": [
+            [
+              "llei 20/2009",
+              "20/2009",
+              "pcaa"
+            ],
+            [
+              "control",
+              "activitats"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala l'avaluació ambiental com a instrument preventiu",
+          "weight": 7,
+          "keywords": [
+            [
+              "avaluacio ambiental"
+            ],
+            [
+              "preventiu",
+              "impacte"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La competència de la Generalitat en medi ambient és compartida (art. 144 EAC): l'Estat fixa la legislació bàsica i la Generalitat en fa el desenvolupament legislatiu i l'execució, i pot establir normes addicionals de protecció. Les polítiques ambientals s'inspiren en els principis de desenvolupament sostenible, prevenció, precaució, correcció en origen i qui contamina paga. b) El control ambiental de les activitats es regeix per la Llei 20/2009 (PCAA), que estableix els règims d'autorització (annex I), llicència (annex II) i comunicació ambiental (annex III) segons la incidència; l'activitat industrial se sotmetria al règim que li correspongui per la seva incidència. c) Un instrument preventiu clau és l'avaluació ambiental de plans, programes i projectes, que analitza els efectes ambientals abans d'autoritzar l'actuació.",
+      "sources": [
+        "L20_2009",
+        "EAC2006"
+      ]
+    },
+    {
+      "id": "c-t77-electronica",
+      "theme": 77,
+      "block": 16,
+      "maxPoints": 45,
+      "title": "Relacions electròniques amb l'Administració",
+      "context": "Una empresa (persona jurídica) presenta una sol·licitud en paper i al·lega que no vol relacionar-se electrònicament. A més, una persona física demana no haver d'aportar un document que ja va lliurar en un altre tràmit.",
+      "prompt": "Determineu: a) si l'empresa està obligada a relacionar-se electrònicament; b) el dret de la persona física a no reaportar documents; c) la diferència entre identificació i signatura electrònica.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Conclou que l'empresa (persona jurídica) està obligada a relacionar-se electrònicament (art. 14.2)",
+          "weight": 13,
+          "keywords": [
+            [
+              "persona juridica",
+              "empresa"
+            ],
+            [
+              "obligada",
+              "electronicament",
+              "14.2"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Confirma el dret de la persona física a no aportar documents ja en poder de l'Administració",
+          "weight": 12,
+          "keywords": [
+            [
+              "no aportar",
+              "no reaportar",
+              "ja en poder"
+            ],
+            [
+              "interoperabilitat",
+              "dret"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que la persona física pot triar el canal (no està obligada a l'electrònic)",
+          "weight": 11,
+          "keywords": [
+            [
+              "persona fisica",
+              "triar",
+              "escollir"
+            ],
+            [
+              "no obligada",
+              "canal"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Distingeix identificació (qui ets) de signatura (manifestar la voluntat)",
+          "weight": 9,
+          "keywords": [
+            [
+              "identificacio",
+              "qui ets",
+              "acredita"
+            ],
+            [
+              "signatura",
+              "voluntat",
+              "consentiment"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'empresa, en tant que persona jurídica, està obligada a relacionar-se electrònicament amb l'Administració (art. 14.2 de la Llei 39/2015), de manera que no pot exigir la tramitació en paper; una sol·licitud presentada en paper es podria requerir d'esmena perquè es presenti electrònicament. b) La persona física té dret a no aportar documents que ja estiguin en poder de l'Administració (principi d'interoperabilitat), de manera que l'Administració els ha de recuperar i no els hi pot tornar a exigir, tret que s'oposi expressament o una llei ho impedeixi. c) A més, la persona física pot triar el canal de relació (no està obligada a l'electrònic). Cal distingir la identificació (que acredita qui és la persona, mitjançant certificat o Cl@ve) de la signatura electrònica (que manifesta la voluntat i el consentiment, i només s'exigeix quan cal expressar-lo).",
+      "sources": [
+        "L39_2015",
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c-t78-qualitat",
+      "theme": 78,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Millora contínua d'un procés administratiu",
+      "context": "Un servei municipal rep moltes queixes per la lentitud en la tramitació d'un procediment. El responsable vol millorar-lo de manera sistemàtica i establir compromisos de qualitat davant la ciutadania.",
+      "prompt": "Expliqueu: a) com aplicar el cicle de millora contínua; b) el paper de les queixes i la gestió per processos; c) què és una carta de serveis.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Descriu el cicle PDCA (planificar, fer, verificar, actuar)",
+          "weight": 13,
+          "keywords": [
+            [
+              "pdca",
+              "planificar",
+              "fer",
+              "verificar",
+              "actuar"
+            ],
+            [
+              "millora continua",
+              "deming"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica la gestió per processos (identificar, mesurar, millorar)",
+          "weight": 12,
+          "keywords": [
+            [
+              "gestio per processos",
+              "processos"
+            ],
+            [
+              "identificar",
+              "mesurar",
+              "millorar"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que les queixes són font de millora",
+          "weight": 12,
+          "keywords": [
+            [
+              "queixes",
+              "suggeriments"
+            ],
+            [
+              "font de millora",
+              "detectar deficiencies"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Defineix la carta de serveis (compromisos de qualitat mesurables)",
+          "weight": 8,
+          "keywords": [
+            [
+              "carta de serveis"
+            ],
+            [
+              "compromisos",
+              "qualitat",
+              "mesurables"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Per millorar el procés de manera sistemàtica, s'aplica el cicle de millora contínua PDCA (Deming): Planificar (analitzar el procés i fixar objectius de reducció de terminis), Fer (implantar els canvis, sovint a escala pilot), Verificar (mesurar els resultats amb indicadors, com el temps de tramitació) i Actuar (estandarditzar la millora o corregir i tornar a començar). b) És clau la gestió per processos —identificar, mapar, mesurar i millorar el procés— i l'aprofitament de les queixes i suggeriments com a font d'informació per detectar les deficiències i orientar la millora, juntament amb la mesura de la satisfacció. c) Els compromisos de qualitat davant la ciutadania es poden formalitzar en una carta de serveis, document que informa dels serveis prestats i estableix compromisos de qualitat mesurables (per exemple, terminis màxims de resposta) amb mecanismes de seguiment.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t79-avaluacio",
+      "theme": 79,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Seguiment i avaluació d'objectius",
+      "context": "L'Àrea de Territori i Sostenibilitat s'ha fixat uns objectius anuals, però a meitat d'any es constata que alguns van molt endarrerits. El responsable ha de fer el seguiment, analitzar les desviacions i reconduir-les.",
+      "prompt": "Expliqueu: a) les fases del treball per resultats; b) el paper dels indicadors i el quadre de comandament; c) com reconduir les desviacions.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Enumera les fases (planificació, execució, seguiment, avaluació)",
+          "weight": 13,
+          "keywords": [
+            [
+              "planificacio",
+              "execucio",
+              "seguiment",
+              "avaluacio"
+            ],
+            [
+              "fases"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica els indicadors (procés, resultat, impacte) i el quadre de comandament",
+          "weight": 12,
+          "keywords": [
+            [
+              "indicadors",
+              "proces",
+              "resultat",
+              "impacte"
+            ],
+            [
+              "quadre de comandament"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que cal analitzar les causes i definir mesures correctores",
+          "weight": 13,
+          "keywords": [
+            [
+              "causes",
+              "analitzar"
+            ],
+            [
+              "mesures correctores",
+              "reconduir",
+              "desviacions"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala que s'avalua també la qualitat i s'incorpora l'aprenentatge",
+          "weight": 7,
+          "keywords": [
+            [
+              "qualitat",
+              "contribucio"
+            ],
+            [
+              "aprenentatge",
+              "planificacio seguent"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El treball orientat a resultats segueix quatre fases: planificació (fixar objectius i indicadors), execució (desenvolupar les accions), seguiment (mesurar l'avançament amb dades) i avaluació (comparar resultats amb objectius). b) Els indicadors —de procés, de resultat i d'impacte— són la base de l'avaluació objectiva, i el quadre de comandament els integra per fer-ne el seguiment periòdic i detectar a temps les desviacions. c) Davant les desviacions detectades, cal analitzar-ne les causes i definir mesures correctores per reconduir-les (reassignar recursos, ajustar terminis o revisar objectius); a més, cal avaluar no només la quantitat sinó també la qualitat dels resultats i la seva contribució als objectius de l'àrea, i incorporar l'aprenentatge a la planificació següent.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t80-comandament",
+      "theme": 80,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Organització del treball i gestió de l'estrès",
+      "context": "Un comandament se sent desbordat: dedica el dia a apagar focs urgents, no té temps per planificar i acumula estrès. Vol organitzar millor el seu treball i el del seu equip.",
+      "prompt": "Expliqueu: a) com pot organitzar el treball amb la matriu d'Eisenhower; b) com gestionar l'estrès; c) el paper de la delegació i el control dels lladres de temps.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica la matriu d'Eisenhower (urgent/important) i la zona clau (important no urgent)",
+          "weight": 13,
+          "keywords": [
+            [
+              "eisenhower",
+              "urgent",
+              "important"
+            ],
+            [
+              "planificar",
+              "zona clau"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica tècniques de gestió de l'estrès (gestió del temps, límits, relaxació)",
+          "weight": 13,
+          "keywords": [
+            [
+              "estres",
+              "gestio del temps"
+            ],
+            [
+              "limits",
+              "relaxacio",
+              "descans"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala la delegació de tasques com a eina d'organització",
+          "weight": 12,
+          "keywords": [
+            [
+              "delegar",
+              "delegacio"
+            ],
+            [
+              "tasques",
+              "alliberar temps"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Esmenta el control dels lladres de temps (interrupcions, reunions ineficaces)",
+          "weight": 7,
+          "keywords": [
+            [
+              "lladres de temps"
+            ],
+            [
+              "interrupcions",
+              "reunions",
+              "multitasca"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Per organitzar el treball, el comandament pot fer servir la matriu d'Eisenhower, que classifica les tasques segons la seva urgència i importància: les importants i urgents s'han de fer immediatament, les importants però no urgents s'han de planificar (és la zona clau del comandament, que cal cuidar per no viure sempre apagant focs), les no importants però urgents es poden delegar, i les ni importants ni urgents s'han d'eliminar o ajornar. b) Per gestionar l'estrès, ha d'identificar-ne les fonts (sobrecàrrega, ambigüitat de rol) i aplicar tècniques de gestió del temps, establiment de límits, descans i relaxació, així com prevenir els riscos psicosocials de l'equip. c) La delegació de tasques li permet alliberar temps per a les funcions pròpies del comandament, i el control dels lladres de temps (interrupcions, reunions ineficaces, multitasca) millora la productivitat.",
+      "sources": [
+        "L39_2015"
       ]
     }
   ]
