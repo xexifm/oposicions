@@ -516,171 +516,6 @@
       ]
     },
     {
-      "id": "c09-recursos",
-      "theme": 11,
-      "block": 2,
-      "maxPoints": 45,
-      "title": "Recursos administratius contra un acte municipal",
-      "context": "Un interessat rep la notificació d'una resolució dictada per l'Alcalde que posa fi a la via administrativa i amb què no està d'acord. Vol impugnar-la i pregunta quins recursos té i en quins terminis.",
-      "prompt": "Indiqueu quins recursos administratius pot interposar, davant de quin òrgan, els terminis i si l'opció per la via administrativa exclou o no la judicial.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Recurs potestatiu de reposició davant el mateix òrgan (1 mes si l'acte és exprés), per actes que exhaureixen la via administrativa",
-          "weight": 12,
-          "keywords": [
-            [
-              "reposicio",
-              "potestatiu"
-            ],
-            [
-              "mateix organ",
-              "un mes",
-              "1 mes"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Recurs d'alçada davant el superior jeràrquic per actes que no exhaureixen la via (1 mes); aquí no procedeix perquè l'acte ja la exhaureix",
-          "weight": 11,
-          "keywords": [
-            [
-              "alcada"
-            ],
-            [
-              "superior jerarquic"
-            ],
-            [
-              "no exhaureix",
-              "no posa fi"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Alternativa directa: recurs contenciós administratiu (2 mesos si exprés), sense necessitat de reposició",
-          "weight": 11,
-          "keywords": [
-            [
-              "contencios",
-              "contenciosa",
-              "via judicial",
-              "jurisdiccional"
-            ],
-            [
-              "dos mesos",
-              "2 mesos"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "No es pot interposar contenciós mentre estigui pendent el recurs potestatiu de reposició; recurs extraordinari de revisió per causes taxades",
-          "weight": 8,
-          "keywords": [
-            [
-              "no es pot",
-              "pendent",
-              "fins que es resolgui"
-            ],
-            [
-              "revisio",
-              "extraordinari"
-            ]
-          ]
-        }
-      ],
-      "model": "La resolució de l'Alcalde posa fi a la via administrativa (art. 52 LRBRL). Davant d'un acte que exhaureix la via:\n- Pot interposar-se, amb caràcter POTESTATIU, recurs de reposició davant el mateix òrgan que el va dictar (art. 123-124 Llei 39/2015), en el termini d'1 mes si l'acte és exprés (si és presumpte, segons regla aplicable). És potestatiu: l'interessat pot interposar-lo o anar directament a la via judicial.\n- No procedeix recurs d'alçada, perquè aquest només s'interposa contra actes que NO posen fi a la via administrativa, davant l'òrgan superior jeràrquic, en el termini d'1 mes.\n- Pot acudir directament a la jurisdicció contenciosa administrativa (recurs contenciós), en el termini de 2 mesos des de la notificació si l'acte és exprés.\nSi opta per la reposició, no podrà interposar el contenciós fins que aquell s'hagi resolt expressament o per silenci (desestimatori). Resta, finalment, el recurs extraordinari de revisió (art. 125) per a causes taxades (error de fet, documents nous, etc.).",
-      "sources": [
-        "L39_2015",
-        "LRBRL"
-      ]
-    },
-    {
-      "id": "c10-proteccio-dades",
-      "theme": 16,
-      "block": 6,
-      "maxPoints": 45,
-      "title": "Tractament de dades personals per l'Ajuntament",
-      "context": "Una àrea municipal vol publicar al web el llistat nominatiu de persones beneficiàries d'un ajut social, amb el seu DNI i dades de salut. Un veí, a més, sol·licita que se suprimeixin les seves dades d'un altre fitxer municipal.",
-      "prompt": "Analitzeu la licitud del tractament i la publicació proposada, la naturalesa de les dades i el dret exercit pel veí d'acord amb el RGPD i la LOPDGDD.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Principis del tractament: licitud, minimització de dades, finalitat i seguretat; base jurídica del tractament",
-          "weight": 12,
-          "keywords": [
-            [
-              "licitud",
-              "base juridica",
-              "base de legitimacio"
-            ],
-            [
-              "minimitzacio",
-              "finalitat",
-              "proporcionalitat"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Les dades de salut són categories especials (art. 9 RGPD), amb protecció reforçada; publicar DNI i salut és desproporcionat/il·lícit",
-          "weight": 13,
-          "keywords": [
-            [
-              "categories especials",
-              "dades sensibles",
-              "salut",
-              "article 9"
-            ],
-            [
-              "desproporcionat",
-              "illicit",
-              "no es pot publicar",
-              "prohibit"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "El dret exercit pel veí és el de supressió ('dret a l'oblit'), art. 17 RGPD, amb límits per obligacions legals",
-          "weight": 11,
-          "keywords": [
-            [
-              "supressio",
-              "dret a l'oblit",
-              "cancellacio"
-            ],
-            [
-              "17"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Garanties: informació, possible avaluació d'impacte, i que l'Ajuntament és responsable del tractament amb DPD",
-          "weight": 7,
-          "keywords": [
-            [
-              "responsable del tractament",
-              "delegat de proteccio",
-              "dpd"
-            ],
-            [
-              "avaluacio d'impacte",
-              "informacio"
-            ]
-          ]
-        }
-      ],
-      "model": "Tot tractament de dades ha de respectar els principis de l'art. 5 RGPD: licitud, lleialtat i transparència; limitació de la finalitat; minimització de dades; exactitud; limitació del termini de conservació; i integritat i confidencialitat. L'Ajuntament, com a responsable del tractament, necessita una base jurídica (art. 6 RGPD; típicament compliment d'una obligació legal o missió d'interès públic).\nLes dades de salut són CATEGORIES ESPECIALS de dades (art. 9 RGPD), amb prohibició general de tractament excepte excepcions taxades. Publicar al web un llistat nominatiu amb DNI i dades de salut de persones beneficiàries d'un ajut és desproporcionat i contrari als principis de minimització i seguretat: seria un tractament IL·LÍCIT. La publicitat dels ajuts s'ha de fer amb les garanties i limitacions previstes (p. ex. dades estrictament necessàries i mai categories especials).\nEl veí exerceix el dret de SUPRESSIÓ o 'dret a l'oblit' (art. 17 RGPD i LOPDGDD). L'Ajuntament l'ha d'atendre, llevat que el tractament sigui necessari per al compliment d'una obligació legal o per a l'exercici de poders públics (límits del propi art. 17).\nGaranties addicionals: deure d'informació, designació de Delegat de Protecció de Dades (obligatori al sector públic) i, si el tractament comporta alt risc, avaluació d'impacte (art. 35).",
-      "sources": [
-        "RGPD",
-        "LOPDGDD"
-      ]
-    },
-    {
       "id": "c11-subvencions",
       "theme": 35,
       "block": 8,
@@ -1022,92 +857,6 @@
       "model": "Els criteris d'adjudicació (art. 145 LCSP) han de ser objectius, estar vinculats a l'objecte del contracte i constar al plec; és admissible la pluralitat de criteris (preu i qualitat), que és el cas. Quan s'utilitzen criteris de judici de valor i fórmules, cal ponderar-los i, si escau, separar-ne l'avaluació.\nDavant una oferta presumptament anormal o desproporcionada (art. 149 LCSP), NO es pot rebutjar automàticament: cal requerir el licitador perquè justifiqui i desglossi la viabilitat de la seva oferta (costos, solució tècnica, condicions excepcionals…), amb audiència. La mesa/òrgan valora la justificació amb l'assessorament tècnic corresponent. Només si es conclou motivadament que l'oferta no pot ser complerta per ser anormalment baixa, s'exclou. Aquesta tramitació contradictòria és garantia del licitador.",
       "sources": [
         "LCSP"
-      ]
-    },
-    {
-      "id": "c16-funcio-publica-interi",
-      "theme": 17,
-      "block": 7,
-      "maxPoints": 45,
-      "title": "Nomenament d'un funcionari interí i procés selectiu",
-      "context": "Per cobrir una vacant urgent, l'Ajuntament vol nomenar un funcionari interí. Posteriorment, la plaça s'ha d'incloure en una oferta pública d'ocupació per cobrir-la de manera definitiva.",
-      "prompt": "Expliqueu els requisits i límits del nomenament d'interí, els principis del procés selectiu i el sistema de selecció.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Interí: per raons de necessitat i urgència justificades, en places de funcionari de carrera (art. 10 TREBEP)",
-          "weight": 12,
-          "keywords": [
-            [
-              "necessitat",
-              "urgencia"
-            ],
-            [
-              "justificad",
-              "motivad"
-            ],
-            [
-              "interi",
-              "10"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Selecció amb respecte de la igualtat, mèrit, capacitat i publicitat (art. 55 TREBEP)",
-          "weight": 13,
-          "keywords": [
-            [
-              "igualtat",
-              "merit",
-              "capacitat"
-            ],
-            [
-              "publicitat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Sistemes selectius: oposició, concurs-oposició o, excepcionalment, concurs (art. 61 TREBEP)",
-          "weight": 11,
-          "keywords": [
-            [
-              "oposicio",
-              "concurs-oposicio",
-              "concurs oposicio"
-            ],
-            [
-              "sistema selectiu",
-              "concurs"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La plaça s'inclou a l'OPO i s'ha de cobrir; el cessament de l'interí en proveir-se definitivament",
-          "weight": 9,
-          "keywords": [
-            [
-              "oferta publica",
-              "opo",
-              "oferta d'ocupacio"
-            ],
-            [
-              "cessament",
-              "cessa",
-              "cobrir definitivament"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El nomenament de funcionari interí (art. 10 TREBEP) només és possible per raons expressament justificades de necessitat i urgència, per a l'exercici de funcions pròpies de funcionaris de carrera, en els supòsits taxats (existència de places vacants, substitució transitòria, programes temporals o excés/acumulació de tasques). Cal justificar-ho.\nLa selecció (també de l'interí) ha de respectar els principis constitucionals i del TREBEP: igualtat, mèrit, capacitat i publicitat (art. 55), a més d'agilitat i transparència. \nEls sistemes selectius (art. 61) són l'oposició i el concurs-oposició com a ordinaris, i el concurs amb caràcter excepcional. \nLa plaça s'ha d'incloure a l'oferta pública d'ocupació (art. 70 TREBEP) i convocar-se per cobrir-la de manera definitiva; quan es proveeixi pel procediment ordinari, l'interí cessa. Les places ocupades per interins s'han d'incloure a l'OPO per evitar-ne la perpetuació.",
-      "sources": [
-        "TREBEP"
       ]
     },
     {
@@ -6720,6 +6469,826 @@
       "model": "a) Com que la normativa reguladora no fixa cap termini, el màxim per resoldre i notificar és de tres mesos (art. 21.3 de la Llei 39/2015), comptats des de l'entrada de la sol·licitud al registre de l'òrgan competent. b) En tractar-se d'un procediment iniciat a instància de part i no concórrer cap excepció legal, el silenci té sentit positiu o estimatori (art. 24): la sol·licitud s'entén estimada. c) El silenci positiu produeix un acte administratiu finalitzador veritable, que es pot fer valer davant l'Administració i acreditar mitjançant certificat d'acte presumpte (art. 24.4). L'Administració manté l'obligació de resoldre expressament, però una resolució posterior només pot ser confirmatòria del silenci estimatori, no contrària.",
       "sources": [
         "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t11-recursos",
+      "theme": 11,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Elecció del recurs administratiu procedent",
+      "context": "Un ciutadà rep una resolució d'un òrgan que té superior jeràrquic i que li denega una sol·licitud. Vol impugnar-la en via administrativa abans d'acudir als tribunals. En un altre cas, rep una resolució d'un recurs d'alçada que li és desfavorable.",
+      "prompt": "Determineu: a) quin recurs procedeix contra la primera resolució i davant quin òrgan; b) què pot fer contra la resolució del recurs d'alçada; c) els terminis d'interposició.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica que contra la primera resolució (no posa fi a la via) escau el recurs d'alçada davant l'òrgan superior",
+          "weight": 13,
+          "keywords": [
+            [
+              "alçada",
+              "alçada"
+            ],
+            [
+              "superior jerarquic",
+              "superior",
+              "no posa fi"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Reconeix que la resolució del recurs d'alçada posa fi a la via administrativa i obre la via contenciosa",
+          "weight": 12,
+          "keywords": [
+            [
+              "posa fi",
+              "exhaureix",
+              "via administrativa"
+            ],
+            [
+              "contenciosa",
+              "contencios",
+              "jurisdiccio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica el termini d'un mes per al recurs d'alçada (acte exprés)",
+          "weight": 12,
+          "keywords": [
+            [
+              "un mes",
+              "1 mes"
+            ],
+            [
+              "alçada",
+              "interposar"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que contra l'alçada no escau nou recurs administratiu ordinari (només contenciós o, si escau, extraordinari de revisió)",
+          "weight": 8,
+          "keywords": [
+            [
+              "no cap",
+              "no escau",
+              "cap recurs"
+            ],
+            [
+              "contencios",
+              "revisio",
+              "extraordinari"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Contra la primera resolució, que no posa fi a la via administrativa perquè l'òrgan té superior jeràrquic, escau el recurs d'alçada davant l'òrgan superior jeràrquic (art. 121 de la Llei 39/2015), en el termini d'un mes si l'acte és exprés. b) La resolució del recurs d'alçada posa fi a la via administrativa (art. 114); per tant, contra ella no cap un nou recurs administratiu ordinari, sinó el recurs contenciós administratiu davant els tribunals (o, excepcionalment, el recurs extraordinari de revisió si concorre algun dels motius taxats). c) El termini de l'alçada és d'un mes (acte exprés) o de tres mesos (acte presumpte); el de reposició, quan procedeix, és també d'un mes.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t12-pressupost",
+      "theme": 12,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Naturalesa i principis del pressupost",
+      "context": "Un ajuntament té consignat un crèdit de 50.000 € per a una finalitat concreta (manteniment de parcs) i vol destinar-ne una part a una altra finalitat no prevista. A més, arriba desembre i queden crèdits sense gastar.",
+      "prompt": "Expliqueu: a) el caràcter dels crèdits de despesa i les vessants del principi d'especialitat; b) si es pot canviar la finalitat del crèdit lliurement; c) què passa amb els crèdits no gastats a final d'exercici.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica el caràcter limitatiu i vinculant dels crèdits de despesa",
+          "weight": 12,
+          "keywords": [
+            [
+              "limitatiu",
+              "limit",
+              "vinculant"
+            ],
+            [
+              "credit",
+              "despesa"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Desenvolupa l'especialitat qualitativa, quantitativa i temporal",
+          "weight": 13,
+          "keywords": [
+            [
+              "qualitativa",
+              "quantitativa",
+              "temporal"
+            ],
+            [
+              "especialitat",
+              "finalitat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que no es pot canviar la finalitat lliurement: cal una modificació de crèdit (transferència)",
+          "weight": 12,
+          "keywords": [
+            [
+              "no lliurement",
+              "no es pot",
+              "modificacio de credit",
+              "transferencia"
+            ],
+            [
+              "finalitat",
+              "especialitat qualitativa"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Indica que els crèdits no gastats a 31-des queden com a romanents de crèdit i, com a regla, s'anul·len (excepte incorporació)",
+          "weight": 8,
+          "keywords": [
+            [
+              "romanent",
+              "no gastat"
+            ],
+            [
+              "s'anul·len",
+              "caduquen",
+              "incorporacio",
+              "temporal"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els crèdits de despesa tenen caràcter limitatiu i vinculant: fixen el màxim que es pot gastar. El principi d'especialitat té tres vessants: qualitativa (el crèdit es destina a la finalitat prevista), quantitativa (no se'n pot excedir l'import) i temporal (s'ha d'aplicar dins l'exercici). b) No es pot canviar la finalitat lliurement: fer-ho vulneraria l'especialitat qualitativa; cal tramitar una modificació de crèdit (una transferència de crèdit entre aplicacions), amb els límits legals. c) Els crèdits no gastats a 31 de desembre són romanents de crèdit que, com a regla, s'anul·len en tancar l'exercici (especialitat temporal), tret dels supòsits d'incorporació de romanents que preveu la normativa.",
+      "sources": [
+        "TRLHL"
+      ]
+    },
+    {
+      "id": "c-t13-tramitacio",
+      "theme": 13,
+      "block": 3,
+      "maxPoints": 45,
+      "title": "Tramitació i pròrroga del pressupost",
+      "context": "Un ajuntament arriba al 31 de desembre sense haver aprovat el pressupost de l'any següent perquè la tramitació s'ha endarrerit. El regidor d'hisenda pregunta si l'entitat es queda sense pressupost i què cal fer per aprovar-lo.",
+      "prompt": "Expliqueu: a) la tramitació ordinària d'aprovació del pressupost i els terminis clau; b) què passa si no s'aprova a temps; c) l'abast de la pròrroga.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Descriu la tramitació: formació pel president abans del 15-oct, aprovació inicial pel Ple, exposició pública 15 dies, aprovació definitiva i vigor l'1 de gener",
+          "weight": 13,
+          "keywords": [
+            [
+              "15 d'octubre",
+              "abans del 15",
+              "president"
+            ],
+            [
+              "aprovacio inicial",
+              "15 dies",
+              "exposicio",
+              "definitiva"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que, si no s'aprova a l'1 de gener, es prorroga automàticament el pressupost anterior (art. 169.6)",
+          "weight": 13,
+          "keywords": [
+            [
+              "prorroga",
+              "prorrogat"
+            ],
+            [
+              "automatica",
+              "exercici anterior",
+              "169"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Precisa que la pròrroga afecta els crèdits inicials i n'exclou els de serveis que finalitzaven",
+          "weight": 11,
+          "keywords": [
+            [
+              "credits inicials",
+              "inicials"
+            ],
+            [
+              "exclou",
+              "no els de serveis",
+              "finalitzats"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que l'entitat no es queda sense pressupost i pot continuar funcionant amb el prorrogat",
+          "weight": 8,
+          "keywords": [
+            [
+              "no es queda sense",
+              "continua",
+              "segueix"
+            ],
+            [
+              "prorrogat",
+              "funcionar"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La tramitació ordinària: el president forma el pressupost, informat per la Intervenció, i el tramet al Ple abans del 15 d'octubre; el Ple l'aprova inicialment; s'exposa al públic quinze dies al BOP per a reclamacions; resoltes aquestes (o si no n'hi ha), s'aprova definitivament i entra en vigor l'1 de gener (arts. 168-169 TRLHL). b) Si no s'aprova abans de l'1 de gener, no es queda sense pressupost: es prorroga automàticament el de l'exercici anterior (art. 169.6). c) La pròrroga abasta els crèdits inicials del pressupost anterior, però no els crèdits destinats a serveis o programes que finalitzaven en aquell exercici, i es manté fins a l'entrada en vigor del nou pressupost.",
+      "sources": [
+        "TRLHL",
+        "RD500_1990"
+      ]
+    },
+    {
+      "id": "c-t14-ordenanca",
+      "theme": 14,
+      "block": 4,
+      "maxPoints": 45,
+      "title": "Aprovació i vigència d'una ordenança",
+      "context": "Un ajuntament vol aprovar una nova ordenança de convivència ciutadana. El Ple l'aprova inicialment i, després del període d'informació pública, no es presenta cap reclamació.",
+      "prompt": "Expliqueu: a) les fases del procediment d'aprovació; b) què passa amb l'aprovació definitiva si no hi ha reclamacions; c) quan entra en vigor i com es pot impugnar.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Descriu les fases de l'art. 49: aprovació inicial, informació pública i audiència mínim 30 dies, aprovació definitiva",
+          "weight": 13,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "inicial"
+            ],
+            [
+              "informacio publica",
+              "30 dies",
+              "audiencia",
+              "49"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que, si no hi ha reclamacions, l'acord inicial esdevé definitiu automàticament sense nou acord",
+          "weight": 12,
+          "keywords": [
+            [
+              "automatica",
+              "sense nou acord",
+              "s'entén definitiva"
+            ],
+            [
+              "no reclamacions",
+              "cap reclamacio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Precisa l'entrada en vigor: publicació íntegra al BOP + 15 dies hàbils (art. 65.2)",
+          "weight": 12,
+          "keywords": [
+            [
+              "publicacio integra",
+              "integrament",
+              "bop"
+            ],
+            [
+              "15 dies",
+              "65.2",
+              "habils"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala que només cap recurs contenciós (no administratiu) contra l'ordenança",
+          "weight": 8,
+          "keywords": [
+            [
+              "contencios",
+              "contenciosa"
+            ],
+            [
+              "no administratiu",
+              "112.3",
+              "disposicio general"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El procediment (art. 49 LRBRL) té tres fases: aprovació inicial pel Ple, informació pública i audiència als interessats per un mínim de 30 dies per presentar reclamacions i suggeriments, i aprovació definitiva pel Ple després de resoldre-les. b) Com que no s'ha presentat cap reclamació durant la informació pública, l'acord d'aprovació inicial esdevé definitiu automàticament, sense necessitat d'un nou acord exprés. c) L'ordenança entra en vigor quan se'n publica íntegrament el text al BOP i transcorre el termini de quinze dies hàbils de l'art. 65.2. Contra l'ordenança no cap recurs administratiu (art. 112.3 de la Llei 39/2015), només el recurs contenciós administratiu, directe o indirecte.",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "id": "c-t15-fonts",
+      "theme": 15,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Règim aplicable i incidència del dret de la UE",
+      "context": "Un ajuntament ha de contractar un servei de valor estimat que supera clarament els llindars europeus. El responsable dubta de quina norma s'aplica, quines garanties addicionals hi ha i per què.",
+      "prompt": "Expliqueu: a) la norma aplicable i el seu origen; b) què significa que el contracte és SARA i quines conseqüències té; c) la incidència del dret de la UE en la contractació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica la LCSP (Llei 9/2017) com a norma aplicable, de transposició de les directives de la UE",
+          "weight": 12,
+          "keywords": [
+            [
+              "lcsp",
+              "llei 9/2017",
+              "9/2017"
+            ],
+            [
+              "directives",
+              "ue",
+              "europees",
+              "transposa"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica que és un contracte SARA per superar els llindars europeus",
+          "weight": 12,
+          "keywords": [
+            [
+              "sara",
+              "regulacio harmonitzada"
+            ],
+            [
+              "llindars",
+              "supera",
+              "europeus"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica les conseqüències: publicitat al DOUE i recurs especial en matèria de contractació",
+          "weight": 13,
+          "keywords": [
+            [
+              "doue",
+              "diari oficial ue",
+              "publicitat europea"
+            ],
+            [
+              "recurs especial",
+              "especial"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Relaciona els principis (transparència, igualtat, concurrència) amb el seu origen europeu",
+          "weight": 8,
+          "keywords": [
+            [
+              "principis",
+              "transparencia",
+              "igualtat",
+              "concurrencia"
+            ],
+            [
+              "ue",
+              "europeu",
+              "origen"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La norma aplicable és la Llei 9/2017 de contractes del sector públic (LCSP), que transposa les directives europees 2014/23/UE i 2014/24/UE; el dret de contractació pública té, doncs, un origen essencialment europeu. b) En superar els llindars europeus, el contracte està subjecte a regulació harmonitzada (SARA): això comporta garanties reforçades, com la publicitat de la licitació al Diari Oficial de la Unió Europea (DOUE) i la possibilitat d'interposar el recurs especial en matèria de contractació, de caràcter potestatiu i efectes suspensius. c) La incidència del dret de la UE és determinant: fixa els principis (llibertat d'accés, publicitat, transparència, no-discriminació i igualtat de tracte), els llindars SARA i els mecanismes de control, que la LCSP incorpora a l'ordenament intern.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t16-dades",
+      "theme": 16,
+      "block": 6,
+      "maxPoints": 45,
+      "title": "Aplicació dels principis i drets de protecció de dades",
+      "context": "Un ajuntament recull dades personals dels usuaris d'un servei. Un usuari demana accedir a les seves dades i que se n'esborrin algunes que ja no són necessàries. A més, es produeix una bretxa de seguretat que exposa dades de diversos ciutadans.",
+      "prompt": "Determineu: a) quina base de licitud empara el tractament municipal; b) quins drets exerceix l'usuari i si l'ajuntament els ha d'atendre; c) què ha de fer davant la bretxa de seguretat.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica la base de licitud: missió d'interès públic o exercici de poders públics (art. 6 RGPD)",
+          "weight": 12,
+          "keywords": [
+            [
+              "interes public",
+              "poders publics",
+              "obligacio legal"
+            ],
+            [
+              "base",
+              "licitud",
+              "6"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Reconeix el dret d'accés i el dret de supressió (dret a l'oblit) de l'usuari",
+          "weight": 13,
+          "keywords": [
+            [
+              "acces",
+              "dret d'acces"
+            ],
+            [
+              "supressio",
+              "oblit",
+              "esborrar"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que l'ajuntament ha d'atendre els drets en els terminis del RGPD (com a regla, un mes)",
+          "weight": 10,
+          "keywords": [
+            [
+              "atendre",
+              "respondre",
+              "facilitar"
+            ],
+            [
+              "un mes",
+              "termini",
+              "rgpd"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala la notificació de la bretxa a l'autoritat de control en 72 hores (art. 33) i, si el risc és alt, als afectats",
+          "weight": 10,
+          "keywords": [
+            [
+              "72 hores",
+              "72h",
+              "notificar"
+            ],
+            [
+              "autoritat",
+              "aepd",
+              "apdcat",
+              "afectats"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El tractament de dades pel municipi s'empara, com a regla, en el compliment d'una missió d'interès públic o l'exercici de poders públics (art. 6.1.e del RGPD), o bé en una obligació legal. b) L'usuari exerceix el dret d'accés (conèixer i obtenir còpia de les seves dades) i el dret de supressió o dret a l'oblit (que s'esborrin les dades que ja no són necessàries); l'ajuntament els ha d'atendre, en principi, en el termini d'un mes, tret que concorri una obligació de conservació que ho impedeixi. c) Davant la bretxa de seguretat, ha de notificar-la a l'autoritat de control (APDCAT/AEPD) sense dilació indeguda i com a màxim en 72 hores (art. 33) i, si comporta un risc alt per als drets de les persones, comunicar-la també als afectats (art. 34).",
+      "sources": [
+        "LOPDGDD",
+        "RGPD"
+      ]
+    },
+    {
+      "id": "c-t17-seleccio",
+      "theme": 17,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Accés a la funció pública i selecció",
+      "context": "Un ajuntament vol cobrir places vacants de tècnic. Aprova l'oferta pública d'ocupació i ha de decidir el sistema selectiu. Un aspirant supera el procés però es planteja des de quin moment és funcionari de carrera.",
+      "prompt": "Expliqueu: a) què és l'oferta pública d'ocupació i el seu termini d'execució; b) els sistemes selectius i els principis que han de garantir; c) els requisits per adquirir la condició de funcionari de carrera.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix l'OPO com l'instrument de necessitats de nou ingrés, amb execució màxima de 3 anys",
+          "weight": 12,
+          "keywords": [
+            [
+              "oferta publica",
+              "opo",
+              "nou ingres"
+            ],
+            [
+              "tres anys",
+              "3 anys",
+              "execucio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera els sistemes selectius (oposició, concurs-oposició, concurs excepcional)",
+          "weight": 12,
+          "keywords": [
+            [
+              "oposicio",
+              "concurs-oposicio",
+              "concurs"
+            ],
+            [
+              "sistema",
+              "selectiu"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Cita els principis d'igualtat, mèrit, capacitat i publicitat",
+          "weight": 11,
+          "keywords": [
+            [
+              "igualtat",
+              "merit",
+              "capacitat",
+              "publicitat"
+            ],
+            [
+              "principis"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Detalla els requisits d'adquisició (art. 62): procés + nomenament + jurament/promesa + presa de possessió",
+          "weight": 10,
+          "keywords": [
+            [
+              "nomenament",
+              "presa de possessio",
+              "jurament",
+              "promesa"
+            ],
+            [
+              "62",
+              "adquireix",
+              "procés selectiu"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'oferta pública d'ocupació és l'instrument que recull les necessitats de recursos humans amb dotació pressupostària que s'han de cobrir amb personal de nou ingrés; s'ha d'executar en el termini improrrogable de tres anys i està limitada per la taxa de reposició (art. 70 TREBEP). b) Els sistemes selectius són l'oposició, el concurs-oposició i, excepcionalment, el concurs (art. 61), i han de garantir els principis constitucionals d'igualtat, mèrit i capacitat, a més de la publicitat, la transparència i la imparcialitat dels òrgans de selecció. c) La condició de funcionari de carrera no s'adquireix per la mera superació del procés: cal, a més, el nomenament per l'òrgan competent, l'acatament de la Constitució i l'Estatut (jurament o promesa) i la presa de possessió dins el termini (art. 62). Fins que no es compleixen tots aquests requisits, l'aspirant no és funcionari de carrera.",
+      "sources": [
+        "TREBEP",
+        "DL2_2003"
+      ]
+    },
+    {
+      "id": "c-t18-situacions",
+      "theme": 18,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Retribucions i situacions administratives",
+      "context": "Un funcionari de carrera és nomenat per ocupar un càrrec de designació política en una altra administració. Es pregunta què passa amb la seva plaça i amb el còmput del temps. A més, vol entendre quins components integren la seva nòmina habitual.",
+      "prompt": "Expliqueu: a) en quina situació administrativa queda i quins efectes té; b) què passa amb la seva plaça d'origen; c) els components de les retribucions bàsiques i complementàries.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Determina que queda en situació de serveis especials (art. 87)",
+          "weight": 13,
+          "keywords": [
+            [
+              "serveis especials",
+              "87"
+            ],
+            [
+              "situacio administrativa",
+              "carrec"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que conserva la reserva del lloc i el còmput del temps a efectes d'antiguitat, carrera i drets passius",
+          "weight": 12,
+          "keywords": [
+            [
+              "reserva del lloc",
+              "reserva",
+              "conserva"
+            ],
+            [
+              "computa",
+              "antiguitat",
+              "carrera",
+              "drets passius"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Distingeix retribucions bàsiques (sou, triennis, pagues extres) de complementàries (destí, específic, productivitat, gratificacions)",
+          "weight": 12,
+          "keywords": [
+            [
+              "basiques",
+              "sou",
+              "triennis",
+              "pagues"
+            ],
+            [
+              "complementaries",
+              "desti",
+              "especific",
+              "productivitat"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que en serveis especials percep les retribucions del càrrec, no les del lloc d'origen",
+          "weight": 8,
+          "keywords": [
+            [
+              "retribucions del carrec",
+              "del carrec"
+            ],
+            [
+              "no del lloc",
+              "origen"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El funcionari queda en situació de serveis especials (art. 87 TREBEP), que es declara en accedir a càrrecs de designació política o de confiança. b) Conserva la condició de funcionari de carrera, té dret a la reserva del lloc de treball d'origen i se li computa el temps a efectes d'antiguitat, carrera i drets passius; mentre dura, percep les retribucions del càrrec que ocupa, no les del lloc d'origen. c) Les retribucions bàsiques són el sou (segons el grup/subgrup de classificació), els triennis (per antiguitat) i les pagues extraordinàries; les complementàries són el complement de destí (nivell del lloc), el complement específic (condicions del lloc), el complement de productivitat (rendiment) i les gratificacions per serveis extraordinaris.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c-t19-conveni",
+      "theme": 19,
+      "block": 8,
+      "maxPoints": 45,
+      "title": "Marc jurídic i límits d'un conveni",
+      "context": "Dos ajuntaments volen col·laborar per prestar conjuntament un servei d'interès comú i formalitzar-ho en un conveni. Es plantegen si poden cedir-se la competència, quina durada pot tenir i què han d'incloure.",
+      "prompt": "Expliqueu: a) el marc jurídic del conveni i la seva distinció del contracte; b) si poden cedir-se la titularitat de la competència; c) la durada màxima i el contingut mínim.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Situa el conveni en la Llei 40/2015 i el distingeix del contracte (exclòs de la LCSP, art. 6)",
+          "weight": 12,
+          "keywords": [
+            [
+              "llei 40/2015",
+              "40/2015",
+              "convenis"
+            ],
+            [
+              "no contracte",
+              "exclos",
+              "lcsp",
+              "6"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Aclareix que no es pot cedir la titularitat de la competència, però sí acordar-ne l'exercici conjunt",
+          "weight": 13,
+          "keywords": [
+            [
+              "no cessio",
+              "no es pot cedir",
+              "titularitat"
+            ],
+            [
+              "exercici conjunt",
+              "coordinat",
+              "col·laboracio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica la durada màxima de 4 anys prorrogables 4 més (art. 49)",
+          "weight": 12,
+          "keywords": [
+            [
+              "quatre anys",
+              "4 anys"
+            ],
+            [
+              "prorroga",
+              "49"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Enumera part del contingut mínim (subjectes, objecte, obligacions econòmiques, seguiment, extinció)",
+          "weight": 8,
+          "keywords": [
+            [
+              "subjectes",
+              "objecte",
+              "obligacions economiques"
+            ],
+            [
+              "seguiment",
+              "extincio",
+              "comissio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El conveni es regeix per la Llei 40/2015 (arts. 47-53) i queda exclòs de la LCSP (art. 6) sempre que no tingui per objecte prestacions pròpies dels contractes: és un acord de col·laboració amb efectes jurídics per a una finalitat comuna, no un negoci onerós de mercat. b) No poden cedir-se la titularitat de la competència, que ve atribuïda per la llei; el conveni només pot articular-ne l'exercici conjunt, coordinat o la col·laboració. c) La durada màxima és de quatre anys, prorrogables per quatre anys més (art. 49), i el contingut mínim ha d'incloure els subjectes i la seva competència, l'objecte, les obligacions econòmiques amb aplicació pressupostària, els mecanismes de seguiment (comissió mixta), la vigència i les causes d'extinció.",
+      "sources": [
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c-t20-procediments",
+      "theme": 20,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Elecció del procediment de contractació",
+      "context": "Un ajuntament ha de contractar unes obres per import de 2 milions d'euros. Alguns responsables proposen fraccionar-les en diversos contractes menors per agilitar la tramitació. També es dubta entre el procediment obert i el restringit.",
+      "prompt": "Analitzeu: a) si es poden fraccionar les obres en contractes menors; b) quin procediment és adequat i les diferències entre obert i restringit; c) els principis que s'han de respectar.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Conclou que NO es poden fraccionar les obres per eludir les regles generals (art. 99.2)",
+          "weight": 13,
+          "keywords": [
+            [
+              "no fraccionar",
+              "prohibit fraccionar",
+              "no es pot fraccionar"
+            ],
+            [
+              "eludir",
+              "99.2",
+              "concurrencia"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que cal un procediment ordinari (obert o restringit), atès l'import",
+          "weight": 11,
+          "keywords": [
+            [
+              "obert",
+              "restringit",
+              "ordinari"
+            ],
+            [
+              "import",
+              "2 milions",
+              "procediment"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Distingeix l'obert (qualsevol interessat) del restringit (selecció prèvia per solvència)",
+          "weight": 13,
+          "keywords": [
+            [
+              "obert",
+              "qualsevol interessat"
+            ],
+            [
+              "restringit",
+              "solvencia",
+              "seleccio previa"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Cita els principis de publicitat, transparència, igualtat i concurrència",
+          "weight": 8,
+          "keywords": [
+            [
+              "publicitat",
+              "transparencia",
+              "igualtat",
+              "concurrencia"
+            ],
+            [
+              "principis"
+            ]
+          ]
+        }
+      ],
+      "model": "a) No es poden fraccionar les obres en diversos contractes menors: l'art. 99.2 de la LCSP prohibeix expressament fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir les regles de publicitat i procediment. Per un import de 2 milions d'euros cal seguir un procediment ordinari. b) Els procediments ordinaris són l'obert i el restringit: en l'obert (art. 156) qualsevol empresari interessat pot presentar proposició; en el restringit (arts. 160-165) només poden presentar oferta els candidats prèviament seleccionats per l'òrgan segons la seva solvència. c) En tot cas s'han de respectar els principis de la contractació pública: llibertat d'accés, publicitat i transparència, no-discriminació i igualtat de tracte, i ús eficient dels fons públics.",
+      "sources": [
+        "LCSP"
       ]
     }
   ]
