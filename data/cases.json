@@ -99,93 +99,6 @@
       ]
     },
     {
-      "id": "c02-contracte-menor",
-      "theme": 30,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Tipus de contracte i contractació menor",
-      "context": "L'Ajuntament vol encarregar: (1) la redacció d'un projecte tècnic per import de 38.000 € (IVA exclòs) i (2) l'execució d'unes obres de millora de voreres per 35.000 € (IVA exclòs). Es planteja tramitar-ho com a contractes menors.",
-      "prompt": "Qualifiqueu cada prestació (tipus de contracte), indiqueu si poden ser contractes menors segons els llindars de la LCSP i quins requisits cal complir.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Qualifica la redacció del projecte com a contracte de SERVEIS i les voreres com a contracte d'OBRES",
-          "weight": 10,
-          "keywords": [
-            [
-              "serveis",
-              "servei"
-            ],
-            [
-              "obres",
-              "obra"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Aplica els llindars del contracte menor: < 15.000 € en serveis/subministraments i < 40.000 € en obres (IVA exclòs)",
-          "weight": 14,
-          "keywords": [
-            [
-              "15.000",
-              "15000"
-            ],
-            [
-              "40.000",
-              "40000"
-            ],
-            [
-              "iva excl",
-              "sense iva"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Conclou: el projecte (38.000 €) NO pot ser menor (supera 15.000); les obres (35.000 €) SÍ poden ser menors (< 40.000)",
-          "weight": 12,
-          "keywords": [
-            [
-              "no pot",
-              "supera",
-              "excedeix"
-            ],
-            [
-              "si pot",
-              "pot ser menor",
-              "es menor"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Requisits del menor: informe de necessitat/justificació, aprovació de la despesa, factura; i prohibició de fraccionar l'objecte per eludir llindars",
-          "weight": 9,
-          "keywords": [
-            [
-              "informe",
-              "justificacio",
-              "motivacio"
-            ],
-            [
-              "no fraccionar",
-              "fraccionament",
-              "eludir"
-            ],
-            [
-              "factura",
-              "aprovacio despesa"
-            ]
-          ]
-        }
-      ],
-      "model": "Tipologia: la redacció del projecte és un contracte de SERVEIS; l'execució de les voreres és un contracte d'OBRES (art. 13 i 17 LCSP).\nLlindars del contracte menor (art. 118 LCSP): són menors els d'import inferior a 40.000 € en obres i inferior a 15.000 € en subministraments i serveis (IVA exclòs).\nConclusió: (1) la redacció del projecte (38.000 €) NO pot tramitar-se com a contracte menor, perquè supera el llindar de 15.000 € dels serveis; caldrà un procediment ordinari (p. ex. obert simplificat). (2) Les obres de voreres (35.000 €) SÍ poden ser contracte menor, perquè no arriben als 40.000 €.\nRequisits del menor: informe de l'òrgan de contractació motivant la necessitat i que no s'altera l'objecte per evitar les regles de contractació, aprovació de la despesa i incorporació de la factura; en obres, a més, pressupost (i projecte/informe de supervisió si escau). Està prohibit el fraccionament de l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir els requisits.",
-      "sources": [
-        "LCSP"
-      ]
-    },
-    {
       "id": "c04-resp-patrimonial",
       "theme": 36,
       "block": 9,
@@ -275,87 +188,6 @@
       "sources": [
         "L40_2015",
         "L39_2015"
-      ]
-    },
-    {
-      "id": "c06-modificacio-contracte",
-      "theme": 24,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Modificació d'un contracte d'obres",
-      "context": "Durant l'execució d'un contracte d'obres apareixen necessitats noves no previstes als plecs que obliguen a incrementar les unitats d'obra en un 18% del preu inicial. Als plecs no es va preveure cap clàusula de modificació.",
-      "prompt": "Expliqueu el règim de la modificació dels contractes (modificacions previstes i no previstes), si aquesta modificació és possible i amb quins límits i conseqüències.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Distingeix modificacions previstes als plecs (art. 204) i no previstes (art. 205)",
-          "weight": 11,
-          "keywords": [
-            [
-              "previstes",
-              "previstes als plecs",
-              "204"
-            ],
-            [
-              "no previstes",
-              "imprevistes",
-              "205"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Modificacions no previstes: només per causes taxades (errors, circumstàncies imprevisibles, etc.) i límit del 50% del preu inicial",
-          "weight": 13,
-          "keywords": [
-            [
-              "imprevisibles",
-              "circumstancies sobrevingudes",
-              "causes taxades"
-            ],
-            [
-              "50%",
-              "cinquanta per cent"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Conclou que el 18% és possible si concorre causa de l'art. 205 i amb expedient i audiència del contractista",
-          "weight": 10,
-          "keywords": [
-            [
-              "es possible",
-              "procedent",
-              "admissible"
-            ],
-            [
-              "audiencia del contractista",
-              "expedient",
-              "tramit"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Caràcter obligatori per al contractista dins de límits i ius variandi de l'Administració",
-          "weight": 8,
-          "keywords": [
-            [
-              "obligatori",
-              "obligatories per al contractista"
-            ],
-            [
-              "ius variandi",
-              "prerrogativa",
-              "modificar"
-            ]
-          ]
-        }
-      ],
-      "model": "El règim de modificació (arts. 203-207 LCSP) distingeix dues vies. (1) Modificacions PREVISTES als plecs (art. 204): admissibles si el plec va detallar de forma clara, precisa i inequívoca les condicions, l'abast i els límits, sense superar el 20% del preu inicial. (2) Modificacions NO PREVISTES (art. 205): només procedeixen per causes taxades —obres/serveis addicionals necessaris no susceptibles de separació, circumstàncies sobrevingudes imprevisibles per a una Administració diligent, o esmena d'errors o omissions del projecte—, i amb el límit que, individualment o conjuntament, no superin el 50% del preu inicial del contracte.\nEn el cas plantejat no hi havia clàusula de modificació, de manera que cal acudir a l'art. 205: la modificació del 18% és possible si concorre alguna d'aquestes causes (típicament circumstàncies imprevisibles o errors del projecte) i no se supera el 50%. Cal tramitar l'expedient amb audiència del contractista i, si correspon, informe i fiscalització.\nLes modificacions acordades dins dels límits legals són obligatòries per al contractista (prerrogativa de modificació o ius variandi de l'Administració, art. 190), amb dret a l'equilibri econòmic.",
-      "sources": [
-        "LCSP"
       ]
     },
     {
@@ -770,93 +602,6 @@
       "model": "Com que es tracta d'una despesa específica i determinada per a la qual NO existeix crèdit, la modificació procedent és un CRÈDIT EXTRAORDINARI (art. 177 TRLHL). Si existís crèdit però insuficient, seria un suplement de crèdit.\nFinançament (art. 177.4 TRLHL): amb romanent líquid de tresoreria, amb nous o majors ingressos recaptats sobre els previstos, o amb baixes de crèdits d'altres partides no compromeses. En el cas, es pot finançar amb el romanent líquid de tresoreria per a despeses generals.\nProcediment: l'aprova el Ple, amb subjecció als mateixos tràmits que el pressupost (informe d'Intervenció, aprovació inicial, exposició pública de 15 dies per a reclamacions i aprovació definitiva). Si no hi ha reclamacions, l'acord inicial esdevé definitiu.\nEntrada en vigor: un cop publicat el resum al BOP; contra l'aprovació definitiva només es pot interposar recurs contenciós administratiu.",
       "sources": [
         "TRLHL"
-      ]
-    },
-    {
-      "id": "c15-criteris-adjudicacio",
-      "theme": 21,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Criteris d'adjudicació i oferta anormalment baixa",
-      "context": "En un contracte de serveis, el plec preveu adjudicar per preu (60%) i qualitat tècnica (40%). L'oferta més barata se situa molt per sota de la mitjana i del pressupost de licitació, i incorre en presumpció d'anormalitat segons el plec.",
-      "prompt": "Expliqueu com s'han de configurar els criteris d'adjudicació i com s'ha d'actuar davant l'oferta presumptament anormal.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Els criteris han de ser objectius, vinculats a l'objecte i fixats al plec; admissible la pluralitat preu+qualitat",
-          "weight": 12,
-          "keywords": [
-            [
-              "objectius",
-              "vinculats a l'objecte"
-            ],
-            [
-              "plec"
-            ],
-            [
-              "qualitat-preu",
-              "pluralitat",
-              "preu i qualitat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Davant l'oferta anormal: requeriment de justificació i audiència al licitador (art. 149)",
-          "weight": 14,
-          "keywords": [
-            [
-              "audiencia",
-              "requeriment",
-              "justificar",
-              "justificacio"
-            ],
-            [
-              "anormal",
-              "anormalment baixa",
-              "desproporcionada"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Valoració de la justificació amb assessorament tècnic; rebuig motivat si no es justifica la viabilitat",
-          "weight": 11,
-          "keywords": [
-            [
-              "rebutjar",
-              "exclusio",
-              "exclou",
-              "no justifica"
-            ],
-            [
-              "motivat",
-              "informe tecnic",
-              "assessorament"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "No es pot excloure automàticament una oferta per baixa sense el tràmit contradictori",
-          "weight": 8,
-          "keywords": [
-            [
-              "no automatic",
-              "no es pot excloure directament",
-              "sense tramit",
-              "contradictori"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Els criteris d'adjudicació (art. 145 LCSP) han de ser objectius, estar vinculats a l'objecte del contracte i constar al plec; és admissible la pluralitat de criteris (preu i qualitat), que és el cas. Quan s'utilitzen criteris de judici de valor i fórmules, cal ponderar-los i, si escau, separar-ne l'avaluació.\nDavant una oferta presumptament anormal o desproporcionada (art. 149 LCSP), NO es pot rebutjar automàticament: cal requerir el licitador perquè justifiqui i desglossi la viabilitat de la seva oferta (costos, solució tècnica, condicions excepcionals…), amb audiència. La mesa/òrgan valora la justificació amb l'assessorament tècnic corresponent. Només si es conclou motivadament que l'oferta no pot ser complerta per ser anormalment baixa, s'exclou. Aquesta tramitació contradictòria és garantia del licitador.",
-      "sources": [
-        "LCSP"
       ]
     },
     {
@@ -1620,411 +1365,6 @@
       "model": "La comunicació prèvia i la declaració responsable (art. 69 Llei 39/2015) són documents de l'interessat —no actes administratius— mitjançant els quals manifesta, sota la seva responsabilitat, que compleix els requisits exigits i posa en coneixement de l'Administració les dades per iniciar l'activitat. Permeten iniciar l'exercici del dret o activitat des del dia de la presentació.\nNo hi ha, per tant, una autorització prèvia: l'Administració exerceix un control a posteriori, comprovant la veracitat i el compliment (potestats d'inspecció).\nLa inexactitud, falsedat o omissió de caràcter essencial en les dades declarades, o la no-presentació de la documentació exigida, determina la impossibilitat de continuar amb l'exercici de l'activitat des del moment en què se'n tingui constància (art. 69.4), sens perjudici de les responsabilitats penals, civils o administratives que escaiguin. En el cas, en ser inexacta la documentació tècnica i incomplir-se una condició de seguretat, l'Ajuntament pot ordenar el cessament de l'activitat i, si escau, la reposició de la situació jurídica i l'exigència de responsabilitats.",
       "sources": [
         "L39_2015"
-      ]
-    },
-    {
-      "id": "c26-contracte-obres",
-      "theme": 25,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Preparació i inici d'un contracte d'obres",
-      "context": "L'Ajuntament vol licitar la construcció d'un nou pavelló esportiu. Disposa d'un projecte redactat per un tècnic extern. Es planteja com s'ha de preparar la licitació i quins actes són necessaris abans i en començar l'execució.",
-      "prompt": "Indiqueu: a) els requisits del projecte abans de licitar; b) què comprova el replanteig; c) quin acte habilita l'inici de les obres i quines obligacions de control hi ha durant l'execució.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Abans de licitar cal projecte degudament supervisat (si escau), aprovat i replantejat",
-          "weight": 12,
-          "keywords": [
-            [
-              "projecte"
-            ],
-            [
-              "supervisat",
-              "supervisio",
-              "aprovat"
-            ],
-            [
-              "replanteig",
-              "replantejat"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Contingut del projecte: memòria, plànols, plec de prescripcions tècniques i pressupost (i ESS)",
-          "weight": 10,
-          "keywords": [
-            [
-              "memoria"
-            ],
-            [
-              "planols"
-            ],
-            [
-              "plec",
-              "prescripcions"
-            ],
-            [
-              "pressupost"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "L'acta de comprovació del replanteig habilita l'inici de les obres",
-          "weight": 13,
-          "keywords": [
-            [
-              "acta de comprovacio",
-              "comprovacio del replanteig",
-              "acta de replanteig"
-            ],
-            [
-              "inici",
-              "comencar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Execució sota direcció facultativa amb certificacions d'obra periòdiques",
-          "weight": 10,
-          "keywords": [
-            [
-              "direccio facultativa"
-            ],
-            [
-              "certificacions",
-              "certificacio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "a) L'adjudicació d'un contracte d'obres requereix l'elaboració, la supervisió (preceptiva en obres de quantia elevada o que afectin l'estabilitat/seguretat), l'aprovació i el replanteig del projecte (arts. 231 i ss. LCSP). El projecte ha de contenir, com a mínim, la memòria, els plànols, el plec de prescripcions tècniques particulars, el pressupost i l'estudi de seguretat i salut.\nb) El replanteig comprova la realitat geomètrica de l'obra i la disponibilitat dels terrenys necessaris per a l'execució.\nc) Un cop formalitzat el contracte, s'estén l'acta de comprovació del replanteig (art. 237 LCSP), que habilita l'inici de les obres dins el termini fixat. Durant l'execució, l'obra es desenvolupa sota la direcció facultativa i es mesura mitjançant les certificacions d'obra periòdiques (en general mensuals), fins a la recepció i la liquidació.",
-      "sources": [
-        "LCSP"
-      ]
-    },
-    {
-      "id": "c27-concessio-obres",
-      "theme": 26,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Concessió d'obra pública i risc operacional",
-      "context": "L'Ajuntament vol construir i explotar un aparcament soterrani mitjançant un tercer, que es retribuiria amb les tarifes dels usuaris durant un nombre d'anys. Es dubta de quin tipus de contracte és i de quins riscos assumeix l'empresa.",
-      "prompt": "Determineu el tipus de contracte, l'element que el caracteritza, la durada màxima i en quins supòsits es pot restablir l'equilibri econòmic.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "És un contracte de concessió d'obres (construcció + explotació)",
-          "weight": 10,
-          "keywords": [
-            [
-              "concessio d'obres",
-              "concessio d'obra"
-            ],
-            [
-              "explotacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Element clau: transferència del risc operacional al concessionari",
-          "weight": 13,
-          "keywords": [
-            [
-              "risc operacional",
-              "risc de demanda",
-              "risc"
-            ],
-            [
-              "concessionari",
-              "transferencia"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Durada màxima fins a 40 anys segons la recuperació de les inversions",
-          "weight": 10,
-          "keywords": [
-            [
-              "40 anys",
-              "quaranta anys"
-            ],
-            [
-              "durada",
-              "amortitzacio",
-              "recuperacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Restabliment de l'equilibri econòmic: modificacions, factum principis i riscos imprevisibles",
-          "weight": 12,
-          "keywords": [
-            [
-              "equilibri economic",
-              "equilibri"
-            ],
-            [
-              "modificacions",
-              "factum principis",
-              "imprevisibles"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Es tracta d'un contracte de concessió d'obres (art. 14 LCSP): el concessionari construeix i explota l'aparcament, retribuint-se amb les tarifes. L'element que el caracteritza i el distingeix del contracte d'obres és la transferència al concessionari del risc operacional de l'explotació (de demanda o disponibilitat): en condicions normals, no té garantida la recuperació de les inversions. La durada és limitada en funció del període de recuperació de les inversions, amb un màxim de quaranta anys (art. 29). L'equilibri econòmic-financer es pot restablir en supòsits taxats (art. 270): modificacions imposades per l'Administració, factum principis (actuacions generals de l'Administració que afecten l'economia de la concessió) i causes de força major o riscos imprevisibles. En extingir-se, l'obra reverteix a l'Administració.",
-      "sources": [
-        "LCSP"
-      ]
-    },
-    {
-      "id": "c28-subministrament",
-      "theme": 27,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Contracte de subministrament amb lliurament successiu",
-      "context": "L'Ajuntament necessita material d'oficina durant un any, en quantitats que aniran variant segons les necessitats de cada departament, amb preus per unitat. Es planteja com s'ha de configurar el contracte.",
-      "prompt": "Qualifiqueu el contracte, expliqueu la possibilitat de no fixar la quantia total, i el règim de recepció i garantia.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "És un contracte de subministrament (béns mobles)",
-          "weight": 11,
-          "keywords": [
-            [
-              "subministrament"
-            ],
-            [
-              "bens mobles",
-              "productes"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Lliurament successiu per preu unitari, sense fixar la quantia total exacta",
-          "weight": 13,
-          "keywords": [
-            [
-              "lliurament successiu",
-              "successiu"
-            ],
-            [
-              "preu unitari",
-              "unitari"
-            ],
-            [
-              "sense fixar",
-              "necessitats"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Recepció de conformitat que obre el termini de garantia",
-          "weight": 11,
-          "keywords": [
-            [
-              "recepcio",
-              "conformitat"
-            ],
-            [
-              "garantia"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Es regeix pels procediments generals d'adjudicació",
-          "weight": 10,
-          "keywords": [
-            [
-              "procediment",
-              "obert",
-              "adjudicacio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El contracte té per objecte l'adquisició de béns mobles (material d'oficina), de manera que és un contracte de subministrament (art. 16 LCSP). Atès que el lliurament es fa de manera successiva i per preu unitari, en funció de les necessitats, es pot no fixar la quantia total en el moment de celebrar el contracte, vinculant-la a les necessitats reals (art. 16.3.a). S'adjudica pels procediments generals (obert, restringit, etc.). El lliurament dels béns es constata mitjançant un acte formal de recepció o conformitat, a partir del qual comença el termini de garantia, durant el qual el contractista respon dels vicis o defectes. L'Administració conserva les seves prerrogatives (modificació, suspensió i resolució).",
-      "sources": [
-        "LCSP"
-      ]
-    },
-    {
-      "id": "c29-contracte-serveis",
-      "theme": 28,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Contracte de serveis i límits",
-      "context": "L'Ajuntament vol externalitzar tasques de neteja d'edificis municipals i, alhora, la tramitació i la resolució d'expedients sancionadors. Es planteja si totes dues prestacions es poden contractar com a serveis.",
-      "prompt": "Qualifiqueu cada prestació, indiqueu el límit del contracte de serveis i el risc que cal evitar en la seva execució.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La neteja és una prestació de fer admissible com a contracte de serveis",
-          "weight": 11,
-          "keywords": [
-            [
-              "serveis",
-              "servei"
-            ],
-            [
-              "neteja",
-              "admissible",
-              "es pot contractar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "La tramitació i resolució d'expedients implica exercici d'autoritat: no es pot contractar",
-          "weight": 14,
-          "keywords": [
-            [
-              "exercici d'autoritat",
-              "autoritat",
-              "potestat publica"
-            ],
-            [
-              "no es pot",
-              "reservat",
-              "funcionari"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Cal evitar la cessió il·legal de treballadors (no donar ordres laborals directes)",
-          "weight": 11,
-          "keywords": [
-            [
-              "cessio illegal",
-              "cessio de treballadors"
-            ],
-            [
-              "ordres",
-              "direccio laboral"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Durada limitada amb pròrrogues previstes; desistiment de l'AP indemnitza",
-          "weight": 9,
-          "keywords": [
-            [
-              "durada",
-              "prorroga"
-            ],
-            [
-              "desistiment",
-              "indemnitza"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La neteja dels edificis és una prestació de fer (activitat material) que pot ser objecte d'un contracte de serveis (art. 17 LCSP). En canvi, la tramitació i, sobretot, la resolució d'expedients sancionadors impliquen l'exercici de l'autoritat inherent als poders públics, funció que es reserva al personal funcionari i que NO es pot contractar com a servei (arts. 17 LCSP i 9.2 TREBEP). En l'execució del contracte de neteja cal evitar que es produeixi una cessió il·legal de treballadors: l'Administració no pot exercir respecte del personal de l'empresa les facultats pròpies de l'empresari laboral (donar ordres directes, fixar horaris, etc.). La durada s'ajusta a la prestació amb les pròrrogues previstes al plec (art. 29), i el desistiment o la suspensió definitiva de l'Administració dona dret a la indemnització del contractista (art. 313).",
-      "sources": [
-        "LCSP",
-        "TREBEP"
-      ]
-    },
-    {
-      "id": "c30-concessio-serveis",
-      "theme": 29,
-      "block": 5,
-      "maxPoints": 45,
-      "title": "Concessió de serveis i potestats de l'Administració",
-      "context": "L'Ajuntament adjudica a una empresa la gestió del servei municipal d'escola bressol durant deu anys, retribuïda amb les quotes dels usuaris i una aportació municipal. Durant l'execució vol modificar les condicions de prestació per interès públic.",
-      "prompt": "Determineu el tipus de contracte, qui assumeix el risc, quines potestats conserva l'Administració i què passa amb l'equilibri econòmic en cas de modificació.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "És un contracte de concessió de serveis",
-          "weight": 10,
-          "keywords": [
-            [
-              "concessio de serveis",
-              "concessio del servei"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "El concessionari assumeix el risc operacional de l'explotació",
-          "weight": 12,
-          "keywords": [
-            [
-              "risc operacional",
-              "risc"
-            ],
-            [
-              "concessionari"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "L'Administració conserva la titularitat i les potestats d'ordenació, control i modificació (ius variandi)",
-          "weight": 12,
-          "keywords": [
-            [
-              "titularitat"
-            ],
-            [
-              "ordenacio",
-              "control",
-              "modificacio",
-              "ius variandi"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La modificació dona dret al restabliment de l'equilibri econòmic",
-          "weight": 11,
-          "keywords": [
-            [
-              "equilibri economic",
-              "equilibri"
-            ],
-            [
-              "restablir",
-              "restabliment"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Es tracta d'un contracte de concessió de serveis (art. 15 LCSP), atès que l'empresa gestiona un servei de titularitat municipal i assumeix el risc operacional de l'explotació, retribuint-se amb les quotes (i una aportació). L'Administració conserva la titularitat del servei i les potestats d'ordenació, control, inspecció i modificació per raons d'interès públic (ius variandi). Quan la modificació imposada per l'Administració alteri l'economia de la concessió, el concessionari té dret al restabliment de l'equilibri econòmic de la concessió, en els termes taxats per la llei. El concessionari ha de prestar el servei amb continuïtat, regularitat i igualtat, i admetre-hi els usuaris que compleixin els requisits. En extingir-se la concessió (per termini, rescat, caducitat...) es produeix la reversió del servei i, si escau, dels béns afectes.",
-      "sources": [
-        "LCSP"
       ]
     },
     {
@@ -7287,6 +6627,816 @@
         }
       ],
       "model": "a) No es poden fraccionar les obres en diversos contractes menors: l'art. 99.2 de la LCSP prohibeix expressament fraccionar l'objecte del contracte amb la finalitat de disminuir-ne la quantia i eludir les regles de publicitat i procediment. Per un import de 2 milions d'euros cal seguir un procediment ordinari. b) Els procediments ordinaris són l'obert i el restringit: en l'obert (art. 156) qualsevol empresari interessat pot presentar proposició; en el restringit (arts. 160-165) només poden presentar oferta els candidats prèviament seleccionats per l'òrgan segons la seva solvència. c) En tot cas s'han de respectar els principis de la contractació pública: llibertat d'accés, publicitat i transparència, no-discriminació i igualtat de tracte, i ús eficient dels fons públics.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t21-adjudicacio",
+      "theme": 21,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Valoració d'ofertes i oferta anormalment baixa",
+      "context": "En una licitació, una empresa presenta una oferta amb un preu molt inferior a la resta, que activa la presumpció d'anormalitat segons els plecs. L'òrgan de contractació vol saber com procedir i com valorar la resta de criteris.",
+      "prompt": "Expliqueu: a) sobre quina base s'adjudica i la diferència entre criteris automàtics i de judici de valor; b) què cal fer davant l'oferta anormalment baixa; c) els passos fins a l'adjudicació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que s'adjudica a la millor relació qualitat-preu amb criteris vinculats a l'objecte (art. 145)",
+          "weight": 12,
+          "keywords": [
+            [
+              "qualitat-preu",
+              "millor relacio",
+              "qualitat preu"
+            ],
+            [
+              "criteris",
+              "145",
+              "objecte"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Distingeix criteris automàtics (fórmules) de judici de valor (valoració tècnica), amb comitè d'experts si aquests predominen",
+          "weight": 12,
+          "keywords": [
+            [
+              "automatics",
+              "formules"
+            ],
+            [
+              "judici de valor",
+              "comite d'experts",
+              "tecnica"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica el procediment davant l'oferta anormal: audiència, justificació i rebuig si no es justifica (art. 149)",
+          "weight": 13,
+          "keywords": [
+            [
+              "audiencia",
+              "justificar",
+              "justificacio"
+            ],
+            [
+              "rebuig",
+              "rebutja",
+              "anormal",
+              "149"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Descriu els passos finals: classificació, requeriment de documentació (10 dies hàbils) i adjudicació",
+          "weight": 8,
+          "keywords": [
+            [
+              "classificacio",
+              "requeriment",
+              "10 dies"
+            ],
+            [
+              "adjudicacio",
+              "documentacio",
+              "150"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'adjudicació es fa a la proposició amb millor relació qualitat-preu (art. 145), avaluada amb criteris vinculats a l'objecte: automàtics o objectius (aplicables per fórmules, com el preu) i de judici de valor (que requereixen valoració tècnica, com la qualitat). Si els de judici de valor superen els automàtics, la valoració la fa un comitè d'experts (art. 146). b) Davant l'oferta anormalment baixa, l'òrgan ha de donar audiència al licitador perquè justifiqui el preu (art. 149); si no el justifica adequadament o s'aprecia que incompleix obligacions socials, laborals o ambientals, l'oferta es rebutja. c) Un cop valorades, les ofertes es classifiquen per ordre decreixent, es requereix el millor classificat perquè aporti la documentació en deu dies hàbils (art. 150) i, després, es dicta l'adjudicació motivada, que es notifica i publica.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t22-prerrogatives",
+      "theme": 22,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Demora i prerrogatives de l'Administració",
+      "context": "Un contractista d'obres s'endarrereix greument respecte dels terminis del contracte. A més, l'Administració vol introduir una modificació per raons d'interès públic que representa un 25% del preu inicial i el contractista s'hi oposa.",
+      "prompt": "Determineu: a) què pot fer l'Administració davant la demora; b) en què consisteix el ius variandi i els seus límits; c) quines garanties de procediment cal seguir per modificar el contracte.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que davant la demora l'Administració pot resoldre o imposar penalitats (art. 193)",
+          "weight": 12,
+          "keywords": [
+            [
+              "demora",
+              "mora"
+            ],
+            [
+              "resoldre",
+              "penalitats",
+              "193"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica el ius variandi: la potestat de modificar per interès públic dins els límits legals",
+          "weight": 12,
+          "keywords": [
+            [
+              "ius variandi",
+              "modificar",
+              "modificacio"
+            ],
+            [
+              "interes public",
+              "190",
+              "limits"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala que una modificació del 25% supera el llindar i exigeix dictamen del Consell d'Estat/òrgan consultiu",
+          "weight": 13,
+          "keywords": [
+            [
+              "dictamen",
+              "consell d'estat",
+              "organ consultiu"
+            ],
+            [
+              "25%",
+              "supera",
+              "20%"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Cita les garanties: audiència del contractista i informe del servei jurídic; executivitat immediata",
+          "weight": 8,
+          "keywords": [
+            [
+              "audiencia",
+              "informe juridic",
+              "servei juridic"
+            ],
+            [
+              "executiu",
+              "191"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Davant la demora del contractista, l'Administració pot optar (art. 193) entre resoldre el contracte o imposar penalitats per demora proporcionals al preu, sense necessitat d'intimació prèvia. b) El ius variandi és la prerrogativa de modificar el contracte per raons d'interès públic (art. 190), però està sotmès a límits: les modificacions no previstes al plec només s'admeten en els supòsits taxats (art. 205) i amb el límit del 50% del preu per supòsit. c) Com que la modificació supera el 20% del preu i el contractista s'hi oposa, l'exercici de la prerrogativa exigeix audiència del contractista, informe del servei jurídic i dictamen del Consell d'Estat o òrgan consultiu equivalent (art. 191); l'acord és immediatament executiu i posa fi a la via administrativa.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t23-cessio",
+      "theme": 23,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Cessió i subcontractació d'un contracte",
+      "context": "Un contractista que ha executat el 30% d'un contracte de serveis vol cedir-lo a una altra empresa. A més, vol subcontractar una part de les prestacions amb un tercer, que després reclama el pagament directament a l'Administració.",
+      "prompt": "Resoleu: a) si es pot cedir el contracte i amb quins requisits; b) si es pot subcontractar i qui respon davant l'Administració; c) si el subcontractista pot reclamar directament a l'Administració.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Confirma que es pot cedir perquè s'ha executat més del 20%, amb autorització prèvia i escriptura pública (art. 214)",
+          "weight": 13,
+          "keywords": [
+            [
+              "cedir",
+              "cessio"
+            ],
+            [
+              "20%",
+              "autoritzacio",
+              "escriptura",
+              "214"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que el cessionari se subroga en drets i obligacions i ha de tenir solvència",
+          "weight": 10,
+          "keywords": [
+            [
+              "subroga",
+              "subrogacio",
+              "drets i obligacions"
+            ],
+            [
+              "solvencia",
+              "capacitat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica que la subcontractació es permet, però el contractista principal és l'únic responsable davant l'Administració (art. 215)",
+          "weight": 13,
+          "keywords": [
+            [
+              "subcontractacio",
+              "subcontractar"
+            ],
+            [
+              "principal responsable",
+              "unic responsable",
+              "215"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que el subcontractista NO té acció directa contra l'Administració (art. 216)",
+          "weight": 9,
+          "keywords": [
+            [
+              "no accio directa",
+              "no pot reclamar",
+              "sense accio directa"
+            ],
+            [
+              "principal",
+              "216"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El contractista pot cedir el contracte perquè ha executat més del 20% de l'import exigit; a més, cal l'autorització prèvia i expressa de l'òrgan de contractació, que el cessionari tingui la capacitat i solvència requerides i no estigui en prohibició de contractar, i la formalització en escriptura pública (art. 214). El cessionari se subroga en tots els drets i obligacions. b) La subcontractació es permet (amb comunicació prèvia i dins els límits del plec), però el contractista principal continua sent l'únic responsable de l'execució davant l'Administració (art. 215). c) El subcontractista no té acció directa contra l'Administració (art. 216): ha de reclamar el pagament al contractista principal, si bé l'Administració pot comprovar que aquest compleix els terminis de pagament.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t24-modificacio",
+      "theme": 24,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Modificació i resolució del contracte",
+      "context": "Durant l'execució d'un contracte, l'Administració necessita introduir prestacions addicionals no previstes al plec que representen un 30% del preu. Més endavant, el contractista incompleix una obligació essencial i cal resoldre el contracte.",
+      "prompt": "Analitzeu: a) si es pot fer la modificació i amb quin límit; b) què passaria si la modificació superés el 50%; c) els efectes de la resolució per incompliment del contractista.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que la modificació no prevista (30%) és possible dins el límit del 50% i en circumstàncies taxades (art. 205)",
+          "weight": 13,
+          "keywords": [
+            [
+              "no prevista",
+              "205",
+              "addicionals"
+            ],
+            [
+              "50%",
+              "limit",
+              "30%"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica que si superés el 50% (o alterés substancialment el contracte) caldria una nova licitació",
+          "weight": 12,
+          "keywords": [
+            [
+              "nova licitacio",
+              "nou contracte"
+            ],
+            [
+              "50%",
+              "supera",
+              "substancial"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Identifica l'incompliment essencial com a causa de resolució (art. 211)",
+          "weight": 12,
+          "keywords": [
+            [
+              "incompliment",
+              "essencial"
+            ],
+            [
+              "resolucio",
+              "causa",
+              "211"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa els efectes: confiscació de la garantia i indemnització a l'Administració (art. 213)",
+          "weight": 8,
+          "keywords": [
+            [
+              "confiscacio",
+              "perd la garantia",
+              "incauta"
+            ],
+            [
+              "indemnitzacio",
+              "danys",
+              "213"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'Administració pot introduir la modificació encara que no estigui prevista al plec, perquè es tracta de prestacions addicionals dins d'una circumstància taxada (art. 205), sempre que no superi el 50% del preu inicial del contracte per aquest supòsit. b) Si la modificació superés el 50% o alterés substancialment la naturalesa o l'equilibri del contracte, no es podria tramitar com a modificació, sinó que caldria convocar una nova licitació. c) La resolució per incompliment d'una obligació essencial és una causa imputable al contractista (art. 211): comporta la confiscació de la garantia i la indemnització a l'Administració pels danys i perjudicis que excedeixin l'import de la garantia (art. 213), amb audiència prèvia i, en cas d'oposició, dictamen de l'òrgan consultiu.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t25-obres",
+      "theme": 25,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Actuacions preparatòries i execució d'una obra",
+      "context": "Un ajuntament vol executar una obra pública. Els serveis tècnics redacten el projecte i, un cop formalitzat el contracte, cal iniciar l'obra i gestionar-ne l'execució i la recepció.",
+      "prompt": "Expliqueu: a) el contingut del projecte i la supervisió; b) què és la comprovació del replanteig i quan es fa; c) com es paga l'obra i com es tanca (recepció i garantia).",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Enumera el contingut del projecte (memòria, plànols, plec tècnic, pressupost, seguretat i salut) i la supervisió",
+          "weight": 13,
+          "keywords": [
+            [
+              "memoria",
+              "planols",
+              "plec",
+              "pressupost",
+              "seguretat"
+            ],
+            [
+              "projecte",
+              "supervisio",
+              "233"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica la comprovació del replanteig dins el mes següent, que marca l'inici del termini (art. 237)",
+          "weight": 12,
+          "keywords": [
+            [
+              "comprovacio del replanteig",
+              "replanteig"
+            ],
+            [
+              "un mes",
+              "inici del termini",
+              "237"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que es paga per certificacions mensuals (abonaments a compte) sense recepció",
+          "weight": 12,
+          "keywords": [
+            [
+              "certificacions",
+              "mensuals",
+              "abonament a compte"
+            ],
+            [
+              "no recepcio",
+              "240",
+              "a compte"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Descriu la recepció formal i el termini de garantia mínim d'1 any + liquidació (art. 243)",
+          "weight": 8,
+          "keywords": [
+            [
+              "recepcio",
+              "243"
+            ],
+            [
+              "garantia",
+              "un any",
+              "liquidacio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El projecte (art. 233) ha de contenir la memòria, els plànols, el plec de prescripcions tècniques, el pressupost (amidaments i preus) i l'estudi de seguretat i salut; els projectes de pressupost elevat se sotmeten a supervisió per una oficina tècnica (art. 235). b) Un cop formalitzat el contracte, dins el mes següent es fa la comprovació del replanteig (art. 237), que verifica la realitat geomètrica de l'obra i la disponibilitat dels terrenys; l'acta favorable marca l'inici del termini d'execució. c) L'obra es paga mitjançant certificacions mensuals que acrediten l'obra executada i donen dret a abonaments a compte, sense implicar recepció (art. 240). En acabar, es fa la recepció formal de l'obra i comença el termini de garantia (mínim un any); transcorregut sense objeccions, es practiquen l'amidament general i la liquidació i s'allibera la garantia (art. 243).",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t26-concessio-obres",
+      "theme": 26,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Concessió d'obres i equilibri econòmic",
+      "context": "Un ajuntament vol construir i explotar un aparcament públic mitjançant un concessionari que n'assumeixi la inversió i el risc. Durant la concessió, l'ajuntament imposa una modificació que altera l'economia del contracte.",
+      "prompt": "Expliqueu: a) l'element definidor de la concessió d'obres i la seva durada màxima; b) el tràmit previ obligatori; c) què passa amb l'equilibri econòmic quan l'Administració modifica la concessió.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica el risc operacional com a element definidor i la contraprestació via tarifes",
+          "weight": 13,
+          "keywords": [
+            [
+              "risc operacional",
+              "risc"
+            ],
+            [
+              "tarifes",
+              "explotacio",
+              "contraprestacio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica la durada màxima de 40 anys (art. 29) i la reversió de l'obra en extingir-se",
+          "weight": 11,
+          "keywords": [
+            [
+              "40 anys",
+              "quaranta anys"
+            ],
+            [
+              "reversio",
+              "reverteix"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala l'estudi de viabilitat com a tràmit previ obligatori (art. 247)",
+          "weight": 11,
+          "keywords": [
+            [
+              "estudi de viabilitat",
+              "viabilitat"
+            ],
+            [
+              "previ",
+              "obligatori",
+              "247"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Explica el restabliment de l'equilibri econòmic per ius variandi (art. 270)",
+          "weight": 10,
+          "keywords": [
+            [
+              "equilibri economic",
+              "equilibri"
+            ],
+            [
+              "ius variandi",
+              "modificacio",
+              "270",
+              "restabliment"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'element definidor de la concessió d'obres és la transferència al concessionari del risc operacional de l'explotació (art. 14): el concessionari construeix i explota l'obra i es retribueix amb les tarifes dels usuaris (soles o acompanyades d'un preu). La durada màxima és de quaranta anys (art. 29) i, en extingir-se, l'obra reverteix a l'Administració. b) És tràmit previ i obligatori l'estudi de viabilitat (art. 247), que analitza la viabilitat econòmica, tècnica, jurídica i ambiental. c) Quan l'Administració modifica la concessió (ius variandi) i n'altera l'economia, s'ha de restablir l'equilibri econòmic de la concessió (art. 270), que també opera en els casos de factum principis i de força major o riscos imprevisibles, amb el repartiment previst a la concessió.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t27-subministrament",
+      "theme": 27,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Objecte i durada del contracte de subministrament",
+      "context": "Un ajuntament vol adquirir equips informàtics estàndard i, alhora, encarregar el desenvolupament d'un programa a mida per gestionar un servei. Es planteja com qualificar cada contracte i quina durada pot tenir el subministrament.",
+      "prompt": "Determineu: a) la qualificació de cada prestació (subministrament o serveis); b) les modalitats del contracte de subministrament; c) la durada màxima i com es tanca l'execució.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Qualifica l'adquisició d'equips estàndard com a subministrament i el programa a mida com a serveis",
+          "weight": 13,
+          "keywords": [
+            [
+              "subministrament",
+              "equips",
+              "estandard"
+            ],
+            [
+              "serveis",
+              "a mida",
+              "programa"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera les modalitats de subministrament (compra, arrendament, fabricació)",
+          "weight": 11,
+          "keywords": [
+            [
+              "compra",
+              "arrendament",
+              "fabricacio"
+            ],
+            [
+              "modalitats",
+              "subministrament",
+              "16"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica la durada màxima de 5 anys incloses pròrrogues (art. 29)",
+          "weight": 11,
+          "keywords": [
+            [
+              "cinc anys",
+              "5 anys"
+            ],
+            [
+              "prorrogues",
+              "29",
+              "durada"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Descriu el tancament: lliurament, recepció de conformitat i termini de garantia",
+          "weight": 10,
+          "keywords": [
+            [
+              "lliurament",
+              "recepcio"
+            ],
+            [
+              "garantia",
+              "conformitat",
+              "vicis"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'adquisició d'equips informàtics estàndard és un contracte de subministrament (art. 16), perquè té per objecte l'adquisició de béns mobles; en canvi, el desenvolupament d'un programa d'ordinador a mida es qualifica com a contracte de serveis, ja que la mateixa llei exclou el programari a mida de la noció de subministrament. b) El subministrament admet diverses modalitats: compra, arrendament (amb o sense opció de compra), adquisició successiva o per preu unitari i fabricació. c) La durada màxima general és de cinc anys incloses les pròrrogues (art. 29). L'execució es tanca amb el lliurament dels béns i la seva recepció de conformitat, i el contractista respon dels vicis durant el termini de garantia (arts. 298-300).",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t28-serveis",
+      "theme": 28,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Contracte de serveis i projecte d'obres",
+      "context": "Un ajuntament contracta amb una enginyeria la redacció del projecte d'una obra. Un cop executada l'obra, es constata que el pressupost real ha estat molt superior al del projecte per errors de càlcul del redactor.",
+      "prompt": "Expliqueu: a) què és el contracte de serveis i el seu límit respecte de les potestats públiques; b) l'especialitat del contracte d'elaboració de projectes; c) la responsabilitat del redactor pels errors del projecte.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix el contracte de serveis com a prestació de fer i el seu límit (no exercici d'autoritat pública)",
+          "weight": 12,
+          "keywords": [
+            [
+              "prestacio de fer",
+              "activitat",
+              "resultat"
+            ],
+            [
+              "no autoritat",
+              "potestats publiques",
+              "17"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que el projecte d'obres és una especialitat i es pot adjudicar per concurs de projectes",
+          "weight": 11,
+          "keywords": [
+            [
+              "projecte d'obres",
+              "elaboracio de projectes"
+            ],
+            [
+              "concurs de projectes",
+              "especialitat",
+              "314"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica la responsabilitat del redactor pels defectes/errors del projecte (art. 314)",
+          "weight": 13,
+          "keywords": [
+            [
+              "responsabilitat",
+              "respon"
+            ],
+            [
+              "errors",
+              "defectes",
+              "projecte",
+              "314"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa les indemnitzacions escalonades segons la desviació (20/30/40%)",
+          "weight": 9,
+          "keywords": [
+            [
+              "indemnitzacions",
+              "indemnitzacio"
+            ],
+            [
+              "desviacio",
+              "20%",
+              "30%",
+              "escalonades"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El contracte de serveis (art. 17) té per objecte prestacions de fer (una activitat o un resultat) diferents d'una obra o subministrament, i no pot implicar l'exercici de l'autoritat inherent als poders públics, reservada als funcionaris. b) L'elaboració de projectes d'obres és una especialitat del contracte de serveis (art. 314) que es pot adjudicar mitjançant concurs de projectes amb jurat. c) El redactor respon dels danys derivats de defectes o errors del projecte; quan el pressupost d'execució es desvia per aquests errors o omissions per sobre de determinats percentatges (20%, 30%, 40% del preu), s'apliquen indemnitzacions escalonades a càrrec del redactor (art. 314). Per tant, l'enginyeria hauria de respondre de la desviació imputable als seus errors de càlcul.",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t29-concessio-serveis",
+      "theme": 29,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Concessió de serveis vs contracte de serveis",
+      "context": "Un ajuntament vol externalitzar la gestió d'un servei públic. Es planteja dues opcions: pagar una empresa un preu per prestar el servei, o encarregar-li la gestió perquè es cobri directament dels usuaris i n'assumeixi el risc.",
+      "prompt": "Analitzeu: a) davant quin tipus de contracte estem en cada opció; b) l'element diferenciador; c) la durada màxima i el manteniment de l'equilibri econòmic en la concessió.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix el contracte de serveis (paga l'Administració) de la concessió de serveis (risc del concessionari)",
+          "weight": 13,
+          "keywords": [
+            [
+              "contracte de serveis",
+              "paga l'administracio"
+            ],
+            [
+              "concessio",
+              "risc operacional",
+              "usuaris"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Identifica el risc operacional com a element diferenciador (art. 15)",
+          "weight": 12,
+          "keywords": [
+            [
+              "risc operacional",
+              "risc"
+            ],
+            [
+              "diferenciador",
+              "15",
+              "transferencia"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica la durada màxima de la concessió de serveis (25 anys, o 40 amb obres)",
+          "weight": 12,
+          "keywords": [
+            [
+              "25 anys",
+              "vint-i-cinc"
+            ],
+            [
+              "40 anys",
+              "obres",
+              "durada"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Explica el manteniment de l'equilibri econòmic en supòsits taxats (art. 290)",
+          "weight": 8,
+          "keywords": [
+            [
+              "equilibri economic",
+              "equilibri"
+            ],
+            [
+              "ius variandi",
+              "factum principis",
+              "290"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Si l'ajuntament paga un preu a l'empresa per prestar el servei, estem davant d'un contracte de serveis; si li encarrega la gestió perquè es retribueixi amb les tarifes dels usuaris i n'assumeixi el risc, estem davant d'una concessió de serveis (art. 15). b) L'element diferenciador és el risc operacional: en la concessió es transfereix al concessionari (risc de demanda i/o oferta); en el contracte de serveis, no. c) La durada màxima de la concessió de serveis és de vint-i-cinc anys (quaranta si inclou l'execució d'obres), sense superar el temps raonable per recuperar les inversions (art. 29); durant la concessió es manté l'equilibri econòmic, que es restableix en supòsits taxats de ius variandi, factum principis i força major (art. 290).",
+      "sources": [
+        "LCSP"
+      ]
+    },
+    {
+      "id": "c-t30-menor",
+      "theme": 30,
+      "block": 5,
+      "maxPoints": 45,
+      "title": "Ús correcte del contracte menor",
+      "context": "Un servei municipal necessita contractar diverses actuacions de manteniment similars al llarg de l'any, cadascuna per import inferior a 15.000 €, però que sumades superen àmpliament aquest import. Es planteja tramitar-les totes com a contractes menors successius amb el mateix proveïdor.",
+      "prompt": "Analitzeu: a) els llindars i el procediment del contracte menor; b) si és correcte fraccionar les actuacions en menors successius; c) els límits de durada, garantia i publicitat.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica els llindars (obres <40.000 €, serveis/subministraments <15.000 €) i la tramitació simplificada",
+          "weight": 12,
+          "keywords": [
+            [
+              "40.000",
+              "15.000"
+            ],
+            [
+              "aprovacio de la despesa",
+              "factura",
+              "informe"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conclou que NO es pot fraccionar l'objecte per eludir les regles generals (art. 99.2)",
+          "weight": 13,
+          "keywords": [
+            [
+              "no fraccionar",
+              "prohibit fraccionar",
+              "no es pot"
+            ],
+            [
+              "eludir",
+              "99.2",
+              "concurrencia"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala que caldria un únic contracte pel procediment que correspongui a l'import global",
+          "weight": 12,
+          "keywords": [
+            [
+              "import global",
+              "conjunt",
+              "un sol contracte"
+            ],
+            [
+              "procediment ordinari",
+              "obert",
+              "licitacio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa els límits del menor: durada màx. 1 any, sense pròrroga, sense garantia, publicitat trimestral",
+          "weight": 8,
+          "keywords": [
+            [
+              "un any",
+              "no prorroga"
+            ],
+            [
+              "sense garantia",
+              "publicitat trimestral",
+              "perfil"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El contracte menor (art. 118) és el de valor estimat inferior a 40.000 € en obres i 15.000 € en subministraments i serveis (IVA exclòs); la tramitació és simplificada: aprovació de la despesa, factura i informe de necessitat. b) No és correcte tramitar-les com a menors successius: si les actuacions són del mateix objecte i, sumades, superen el llindar, fraccionar-les vulnera la prohibició de l'art. 99.2 (fraccionar per disminuir la quantia i eludir les regles generals). c) Caldria licitar un únic contracte pel procediment que correspongui a l'import global (per exemple, obert o obert simplificat). El contracte menor, a més, no pot durar més d'un any ni prorrogar-se, no exigeix garantia definitiva ni document contractual, i s'ha de publicar trimestralment al perfil del contractant.",
       "sources": [
         "LCSP"
       ]
