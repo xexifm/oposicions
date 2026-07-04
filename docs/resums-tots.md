@@ -3760,26 +3760,41 @@ Integren aquests patrimonis (art. 162):
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Marc**
+  - TRLUC + Llei 3/2009 de regularització i millora d'urbanitzacions (Catalunya)
 - **Concepte**
-  - Serveis urbanístics incomplets i cessions pendents
-  - Sovint d'origen irregular
-- **Regularització**
-  - Completar serveis i cessions; prioritat de seguretat
-  - Planejament + gestió
+  - Urbanitzacions antigues sense serveis bàsics o gestió incompleta
+  - Problema material (serveis) i jurídic (cessions/urbanització)
 - **Instruments**
-  - Plans especials o de millora urbana
-  - Reparcel·lació i urbanització; equidistribució
+  - Pla especial/millora urbana + reparcel·lació + projecte d'urbanització
+  - Entitats de conservació i convenis
+- **Costos**
+  - A càrrec dels propietaris beneficiats (equidistribució), amb suport públic
+  - Finalitat: assolir condició de sòl urbà
 
-Les urbanitzacions amb dèficits urbanístics són àmbits, sovint d'origen irregular, amb serveis incomplets o sense les cessions obligatòries. El TRLUC i la normativa específica en preveuen la regularització.
+Les urbanitzacions amb dèficits urbanístics són nuclis o urbanitzacions preexistents que no disposen dels serveis urbanístics bàsics o no van completar la gestió urbanística (cessions, urbanització, distribució de càrregues). El TRLUC i la Llei 3/2009 de regularització i millora d'urbanitzacions estableixen el règim per integrar-les.
 
-### Concepte i problemàtica
-Es tracta d'urbanitzacions, generalment desenvolupades de manera incompleta o al marge del planejament, que presenten dèficits d'urbanització (manca o insuficiència de vialitat, abastament d'aigua, sanejament o enllumenat) i, sovint, l'absència de les cessions de sòl per a sistemes. Aquesta situació genera problemes de serveis, de seguretat i d'integració urbana.
+### Concepte i origen
+Són àmbits residencials, sovint originats fa dècades, que presenten mancances urbanístiques: manca o insuficiència de vials, aigua, sanejament o enllumenat; absència de cessions; parcel·lació al marge del planejament.
 
-### Règim jurídic i objectius de la regularització
-L'objectiu és completar la urbanització, dotar els àmbits dels serveis bàsics i regularitzar-ne la situació jurídica i les cessions pendents, prioritzant sempre la seguretat de les persones. La regularització es fa mitjançant figures de planejament i de gestió, que distribueixen les càrregues d'urbanització entre els propietaris.
+- El problema és tant material (falten serveis) com jurídic (no es va completar la gestió).
+- L'objectiu de la regularització és dotar-les dels serveis bàsics i integrar-les en el teixit urbà.
+- Es regeixen per la Llei 3/2009 (Catalunya) i les disposicions específiques del TRLUC.
 
-### Instruments i finançament
-S'empren plans especials urbanístics o plans de millora urbana, juntament amb projectes de reparcel·lació i d'urbanització i, si escau, convenis. El finançament de les obres es reparteix entre els propietaris segons el principi d'equidistribució, amb possibles ajuts o aportacions públiques quan ho justifiqui l'interès general.
+### Règim jurídic i instruments
+La regularització i millora s'articula mitjançant instruments de planejament i gestió:
+
+*Instruments de regularització*
+
+| Instrument | Funció |
+| --- | --- |
+| Pla especial o de millora urbana | Ordena la regularització i completa les determinacions |
+| Projecte de reparcel·lació | Distribueix equitativament beneficis i càrregues i regularitza la propietat |
+| Projecte d'urbanització | Defineix i valora les obres per implantar els serveis que manquen |
+| Conveni i entitats de conservació | Reparteixen i garanteixen el finançament i el manteniment |
+
+### Distribució de costos i finalitat
+El cost de dotar l'urbanització dels serveis correspon, com a regla, als propietaris beneficiats, segons el principi d'equidistribució, amb la col·laboració i el suport que puguin aportar les administracions. La finalitat última és garantir que aquests àmbits assoleixin les condicions de sòl urbà i s'hi puguin prestar els serveis en condicions d'igualtat, corregint una situació d'irregularitat històrica.
 
 ---
 
@@ -3789,40 +3804,56 @@ S'empren plans especials urbanístics o plans de millora urbana, juntament amb p
 Normes: **LEF** (Llei de 16-12-1954 d'expropiació forçosa); **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Subjectes i causa**
-  - Expropiant, beneficiari, expropiat
-  - Causa: utilitat pública o interès social
-- **Procediment (LEF)**
-  - Utilitat pública → necessitat d'ocupació
-  - Just preu (acord o Jurat) → pagament i ocupació
-  - Urgència: art. 52
+- **Marc**
+  - LEF (1954) + reglament + TRLUC; art. 33.3 CE
+- **Subjectes**
+  - Expropiant (potestat), beneficiari (adquireix), expropiat (titular)
+- **Causa**
+  - Utilitat pública o interès social (s'ha de declarar)
+- **Procediment**
+  - Utilitat pública → necessitat d'ocupació → preu just (jurat) → pagament i ocupació
+  - Premi d'afecció 5%
 - **Garanties**
-  - Premi d'afecció 5% (art. 47) i interessos
-  - Dret de reversió
-- **Jurisdicció**
-  - Impugnació davant el contenciós
-  - Protecció davant la via de fet
+  - Reversió (54) si no s'executa l'obra
+  - Urgència (52): ocupació prèvia + dipòsit
+  - Contra via de fet: contenciós
 
-L'expropiació forçosa és la privació singular de la propietat o de drets patrimonials legítims per causa d'utilitat pública o interès social, mitjançant una indemnització (just preu). Es regeix per la Llei d'expropiació forçosa de 1954 (LEF) i, en l'àmbit urbanístic, pel TRLUC.
+L'expropiació forçosa és la privació singular de la propietat o de drets patrimonials, acordada imperativament per l'Administració per causa d'utilitat pública o interès social, mitjançant una indemnització (preu just). Es regeix per la Llei d'expropiació forçosa de 1954 (LEF), el seu reglament i, en l'àmbit urbanístic, el TRLUC. Té fonament a l'art. 33.3 de la Constitució.
 
 ### Subjectes, objecte i causa
-Hi intervenen tres subjectes: l'expropiant (l'administració titular de la potestat), el beneficiari (qui adquireix el bé o assumeix l'obligació de pagar el just preu, que pot ser un tercer, com un concessionari) i l'expropiat (titular del bé o dret). L'objecte pot ser qualsevol bé o dret patrimonial. La causa és la utilitat pública o l'interès social, que ha d'estar declarada.
+Elements essencials de l'expropiació:
+
+*Subjectes, objecte i causa*
+
+| Element | Contingut |
+| --- | --- |
+| Expropiant | Titular de la potestat: Estat, comunitat autònoma o ens local |
+| Beneficiari | Qui adquireix el bé o es beneficia de l'expropiació (pot ser un tercer) |
+| Expropiat | Titular del bé o dret que se sacrifica |
+| Objecte | La propietat i qualsevol dret o interès patrimonial legítim |
+| Causa | Utilitat pública o interès social, que s'ha de declarar |
 
 ### El procediment general
-El procediment ordinari de la LEF comprèn:
+El procediment ordinari (LEF) segueix quatre fases:
 
-- La declaració d'utilitat pública o interès social.
-- La declaració de la necessitat d'ocupació dels béns concrets.
-- La determinació del just preu, mitjançant els fulls d'apreuament de cada part i, si no hi ha acord, la fixació pel Jurat d'Expropiació.
-- El pagament i l'ocupació del bé.
+*Fases del procediment general*
 
-En matèria urbanística, l'aprovació dels instruments de planejament comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns afectats. Existeix també el procediment d'urgència (art. 52 LEF), que permet l'ocupació prèvia a la fixació definitiva del just preu.
+| Fase | Contingut |
+| --- | --- |
+| Declaració d'utilitat pública o interès social | Legitima l'expropiació (pot ser implícita en plans i projectes) |
+| Necessitat d'ocupació | Concreta els béns i drets afectats (relació i informació pública) |
+| Preu just | Fixació de la indemnització: fulls d'apreuament i, si no hi ha acord, jurat d'expropiació |
+| Pagament i presa de possessió | Pagament (o dipòsit) i ocupació del bé |
 
-### Garanties: premi d'afecció i reversió
-El just preu inclou un premi d'afecció del 5% sobre el valor del bé (art. 47 LEF) i merita interessos de demora si es retarda la fixació o el pagament. La reversió és el dret de l'expropiat (o dels seus successors) a recuperar el bé si no s'executa l'obra o el servei que va motivar l'expropiació o si desapareix la causa.
+El preu just inclou el premi d'afecció del 5%. Contra la valoració del jurat es pot interposar recurs contenciós-administratiu.
 
-### Garanties jurisdiccionals
-L'expropiat disposa de garanties davant l'excés o la desviació de la potestat: pot impugnar els acords (per exemple, la valoració del Jurat) davant la jurisdicció contenciosa administrativa, i la via de fet (l'ocupació sense el procediment degut) obre la protecció dels tribunals per restablir la possessió i indemnitzar els danys.
+### Reversió, urgència i garanties
+Institucions de tancament i garantia:
+
+- Reversió (art. 54 de la LEF): dret de l'expropiat (o els seus successors) a recuperar el bé si no s'executa l'obra que va motivar l'expropiació o desapareix la causa.
+- Tramitació d'urgència (art. 52): inverteix l'ordre; permet l'ocupació immediata prèvia consignació d'un dipòsit, i el preu just es fixa després.
+- Garanties jurisdiccionals: recurs contenciós-administratiu i la protecció davant la via de fet (ocupació sense procediment o sense títol habilitant).
+- Procediments especials per a supòsits concrets (zones, projectes d'infraestructures, etc.).
 
 ---
 
@@ -3832,29 +3863,54 @@ L'expropiat disposa de garanties davant l'excés o la desviació de la potestat:
 Normes: **TRLSRU** (RDL 7/2015 (TR Llei de sòl i rehabilitació urbana)); **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Sòl (TRLSRU)**
-  - Rural: capitalització de la renda (sense expectatives, factor de localització)
-  - Urbanitzat: edificabilitat × valor de repercussió (residual)
+- **Marc**
+  - TRLSRU arts. 34-43 + RD 1492/2011 (Reglament de valoracions)
+- **Sòl**
+  - Rural: capitalització de rendes + localització
+  - Urbanitzat: mètode residual (repercussió per edificabilitat)
+  - Sense expectatives urbanístiques no materialitzades
 - **Construccions**
-  - Cost de reposició depreciat
-  - Sòl edificat: el valor superior
-- **Indemnitzacions**
-  - Extinció de drets, despeses d'urbanització
-  - Trasllat o cessament d'activitats
+  - Cost de reposició depreciat per antiguitat i estat
+- **Drets**
+  - Segons naturalesa i durada; + trasllat i pèrdua d'activitat
+- **Premi d'afecció**
+  - 5% addicional sobre el valor del bé
 
-Les valoracions determinen el valor del sòl, les construccions i els drets a l'efecte d'expropiacions, reparcel·lacions i altres operacions. Es regeixen per la legislació estatal de sòl (TRLSRU), competència exclusiva de l'Estat.
+Les valoracions determinen el valor del sòl, les construccions i els drets a efectes d'expropiacions, reparcel·lacions i responsabilitat patrimonial. Es regeixen pel TRLSRU (RDL 7/2015, arts. 34-43) i el Reglament de valoracions (RD 1492/2011), amb la regla essencial que el sòl es valora segons la seva situació bàsica real, sense expectatives urbanístiques.
 
-### Criteris segons la situació bàsica del sòl
-La valoració del sòl depèn de la seva situació bàsica:
+### Valoració del sòl segons la situació bàsica
+El mètode de valoració depèn de la situació bàsica del sòl (tema 45):
 
-- El sòl rural es valora per capitalització de la renda anual, real o potencial, de l'explotació, segons el seu estat i ús, sense computar expectatives derivades de l'assignació futura d'edificabilitats o usos; s'hi pot aplicar un factor de correcció per localització.
-- El sòl urbanitzat es valora aplicant a l'edificabilitat i l'ús atribuïts el valor de repercussió del sòl, obtingut pel mètode residual.
+*Valoració del sòl (TRLSRU)*
 
-### Construccions, instal·lacions i sòl edificat
-Les construccions, edificacions i instal·lacions ajustades a la legalitat es valoren conjuntament amb el sòl, pel mètode del cost de reposició, depreciat en funció de l'antiguitat i l'estat de conservació. En el sòl urbanitzat edificat, el valor és el superior entre el del sòl segons l'edificabilitat i el de la taxació conjunta del sòl i l'edificació existent.
+| Situació | Mètode de valoració |
+| --- | --- |
+| Sòl rural | Capitalització de la renda real o potencial de l'explotació, corregida per factors de localització |
+| Sòl urbanitzat sense edificar | Mètode residual: valor de repercussió del sòl segons l'edificabilitat i l'ús atribuïts |
+| Sòl urbanitzat edificat | El major valor entre el del sòl i el del conjunt sòl + construcció |
 
-### Indemnitzacions per altres conceptes
-Les valoracions incorporen també les indemnitzacions per l'extinció de drets (arrendaments, concessions afectats), per les despeses d'urbanització ja realitzades, per la iniciativa i la promoció d'actuacions no executades, i pel trasllat o el cessament d'activitats, en els termes i amb els límits del TRLSRU.
+Regla clau: no es poden valorar les expectatives derivades de l'assignació d'edificabilitats o usos per un planejament que encara no s'ha materialitzat.
+
+### Valoració de construccions, instal·lacions i edificacions
+Les construccions es valoren pel cost de reposició:
+
+- Es calcula el cost de reposició a nou de la construcció.
+- Se'n dedueix la depreciació segons l'antiguitat i l'estat de conservació.
+- Es valoren conjuntament amb el sòl quan són conformes amb l'ordenació (sòl urbanitzat edificat).
+
+### Valoració de drets i indemnitzacions complementàries
+A més del sòl i les construccions, es valoren els drets constituïts sobre els béns i s'afegeixen indemnitzacions:
+
+*Drets i indemnitzacions*
+
+| Concepte | Valoració / indemnització |
+| --- | --- |
+| Drets reals i arrendaments | Segons la seva naturalesa, contingut i durada |
+| Concessions i altres drets | Pel valor econòmic que representen |
+| Trasllat i pèrdua d'activitat | Indemnització de despeses i danys derivats |
+| Premi d'afecció | 5% addicional sobre el valor del bé expropiat |
+
+La data de referència de la valoració és, en general, la d'iniciació de l'expedient (o la que correspongui segons la finalitat), per garantir l'objectivitat del càlcul.
 
 ---
 
@@ -3864,37 +3920,45 @@ Les valoracions incorporen també les indemnitzacions per l'extinció de drets (
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú); **L40_2015** (Llei 40/2015 de règim jurídic del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Principis (Llei 40/2015)**
-  - Legalitat i tipicitat
-  - Irretroactivitat (excepte favorable), responsabilitat
-  - Proporcionalitat i non bis in idem
+- **Marc**
+  - Llei 40/2015 (25-31, principis) + Llei 39/2015 (procediment)
+  - Deriva del ius puniendi
+- **Principis**
+  - Legalitat (25), irretroactivitat (26), tipicitat (27), responsabilitat (28), proporcionalitat (29), prescripció (30)
 - **Garanties**
-  - Presumpció d'innocència (prova de l'AP)
-  - Separació instrucció/resolució; dret de defensa
-- **Mesures i límits**
-  - Multes i altres; mai privació de llibertat
-  - Prescripció i caducitat; potestat sancionadora local per ordenança
+  - Non bis in idem, presumpció d'innocència, motivació
+  - Separació instrucció/resolució
+- **Procediment**
+  - D'ofici; reduccions per reconeixement o pagament voluntari
+- **Local**
+  - Ordenances poden tipificar (139-141 LRBRL) amb límits per trams
 
-La potestat sancionadora és la facultat de l'administració d'imposar sancions per la comissió d'infraccions administratives. Els seus principis substantius són als arts. 25-31 de la Llei 40/2015 i les especialitats del procediment als arts. 53 i següents de la Llei 39/2015.
+La potestat sancionadora és la facultat de l'Administració d'imposar sancions davant les infraccions administratives. Els seus principis substantius es regulen a la Llei 40/2015 (arts. 25-31) i el procediment a la Llei 39/2015. Deriva del mateix ius puniendi de l'Estat que el dret penal, amb garanties equivalents.
 
-### Concepte i significat
-La potestat sancionadora permet a l'administració reprimir les conductes tipificades com a infracció, com a manifestació del ius puniendi de l'Estat en l'àmbit administratiu. El seu exercici està limitat per un conjunt de principis i garanties, en paral·lel als de l'ordre penal, per protegir els drets dels ciutadans.
+### Concepte i principis de l'exercici
+La sanció és un mal infligit per l'Administració com a conseqüència d'una conducta il·lícita. L'exercici de la potestat sancionadora es regeix per uns principis garantistes (Llei 40/2015):
 
-### Principis substantius (Llei 40/2015)
-L'exercici de la potestat sancionadora s'ajusta als principis següents:
+*Principis (Llei 40/2015)*
 
-- Legalitat: exigeix una norma amb rang de llei (reserva de llei).
-- Tipicitat: només són sancionables les infraccions previstes, amb prohibició de l'analogia.
-- Irretroactivitat: no s'apliquen retroactivament, llevat que siguin favorables.
-- Responsabilitat: cal dol o culpa.
-- Proporcionalitat: adequació entre la gravetat del fet i la sanció.
-- Non bis in idem: no es pot sancionar dos cops els mateixos fets amb idèntic fonament.
+| Principi | Contingut | Article |
+| --- | --- | --- |
+| Legalitat | Reserva de llei per a infraccions i sancions | 25 |
+| Irretroactivitat | Tret de les disposicions més favorables | 26 |
+| Tipicitat | Infraccions i sancions definides; prohibició d'analogia | 27 |
+| Responsabilitat | Cal dol o culpa; no responsabilitat objectiva | 28 |
+| Proporcionalitat | Adequació entre infracció i sanció; criteris de graduació | 29 |
+| Prescripció | De les infraccions i de les sancions segons la gravetat | 30 |
 
-### Garanties del procediment
-El procediment sancionador ha de respectar la presumpció d'innocència (la càrrega de la prova correspon a l'administració), el dret de defensa i d'audiència, el dret a ser informat de l'acusació i la separació entre la fase instructora i la resolutòria, que han de correspondre a òrgans diferents. Els fets constatats per funcionaris amb condició d'autoritat tenen valor probatori.
+### Garanties i mesures sancionadores
+Altres garanties i tipus de sancions:
 
-### Mesures, prescripció i potestat local
-Les sancions poden consistir en multes i altres mesures (inhabilitacions, clausures), però no en penes privatives de llibertat. Les infraccions i les sancions prescriuen en els terminis de les lleis (supletòriament, art. 30 de la Llei 40/2015), i el procediment caduca si no es resol dins el termini. En l'àmbit local, els ens locals poden tipificar infraccions i sancions per ordenança dins dels límits de la legislació de règim local.
+- Non bis in idem: no es pot sancionar dues vegades el mateix fet amb el mateix fonament.
+- Presumpció d'innocència i dret a no declarar contra un mateix.
+- Mesures: multes pecuniàries i altres (revocació d'autoritzacions, inhabilitacions, comís), sempre que la llei les prevegi.
+- La resolució ha de ser motivada i respectar la separació entre l'òrgan instructor i el que resol.
+
+### El procediment i la potestat sancionadora local
+El procediment sancionador (Llei 39/2015) s'inicia sempre d'ofici, amb separació entre instrucció i resolució; l'inculpat té dret a al·legar, proposar prova i a la presumpció d'innocència. El reconeixement de responsabilitat o el pagament voluntari poden comportar reduccions. En l'àmbit local, els arts. 139-141 de la LRBRL habiliten les ordenances per tipificar infraccions i sancions, amb límits de quantia segons trams (molt greus, greus i lleus), quan no hi ha una llei sectorial específica.
 
 ---
 
@@ -3904,33 +3968,52 @@ Les sancions poden consistir en multes i altres mesures (inhabilitacions, clausu
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Classificació**
-  - Lleus, greus i molt greus
-  - Molt greus: sòl no urbanitzable protegit
-- **Conductes**
-  - Obres/usos sense títol o contra les condicions
-  - Parcel·lacions il·legals; incompliment d'ordres
-- **Responsables**
-  - Promotor, constructor i tècnic director
-  - Propietaris i titulars; responsabilitat solidària
+- **Marc**
+  - TRLUC arts. 213 i ss.
+- **Actuacions**
+  - Obres sense/contra llicència, parcel·lacions il·legals, incompliment de deures i d'ordres
+- **Classificació (214)**
+  - Molt greus: sòl no urbanitzable protegit, sistemes, zones verdes, catalogats
+  - Greus: la resta de vulneracions
+  - Lleus: menor entitat, legalitzables
+- **Responsables (216)**
+  - Promotor, constructor, tècnic director, propietari
+  - Autoritats/funcionaris que atorguen llicències il·legals
 
-Les infraccions urbanístiques són les accions o omissions tipificades que vulneren l'ordenament urbanístic. El TRLUC les classifica segons la gravetat i n'identifica les persones responsables.
+Les infraccions urbanístiques són les accions o omissions que vulneren l'ordenament urbanístic i estan tipificades com a tals. El TRLUC (arts. 213 i següents) les classifica per gravetat i determina les persones responsables.
+
+### Concepte i actuacions que vulneren l'ordenament
+Constitueixen infracció urbanística les vulneracions de les determinacions del planejament i de la legislació urbanística. Actuacions típiques (art. 213):
+
+- Executar obres sense llicència o comunicació, o contra les seves condicions.
+- Fer parcel·lacions urbanístiques il·legals.
+- Incomplir els deures urbanístics (urbanitzar, cedir, conservar).
+- Vulnerar el règim del sòl no urbanitzable.
+- Desatendre les ordres d'execució o de restauració.
 
 ### Classificació de les infraccions
-Les infraccions urbanístiques es classifiquen, segons la gravetat, en lleus, greus i molt greus, en funció de l'afectació que produeixen a l'ordenació urbanística i del tipus de sòl. Es qualifiquen, en general, de molt greus les que afecten el sòl no urbanitzable d'especial protecció o les que comporten una vulneració que impedeix o dificulta de manera rellevant l'execució del planejament; de greus, les vulneracions importants (legalitzables o no); i de lleus, les de menor entitat.
+Es classifiquen en tres graus segons la gravetat (art. 214):
 
-### Actuacions que vulneren l'ordenament
-Constitueixen infracció, entre altres:
+*Classificació (art. 214 TRLUC)*
 
-- L'execució d'obres o l'ús del sòl sense la llicència o el títol habilitant, o contravenint-ne les condicions.
-- Les parcel·lacions urbanístiques il·legals.
-- L'incompliment de les ordres de suspensió o de restauració.
-- Les actuacions que impedeixen o dificulten les funcions d'inspecció.
-
-La conformitat o no de l'actuació amb el planejament (que sigui legalitzable o no) influeix en la qualificació de la infracció.
+| Grau | Supòsits característics |
+| --- | --- |
+| Molt greus | Les que afecten sòl no urbanitzable protegit, sistemes generals, zones verdes, espais lliures o béns catalogats |
+| Greus | Vulneracions de l'ordenament que no són ni molt greus ni lleus |
+| Lleus | Les de menor entitat, legalitzables i amb escàs perjudici a l'interès urbanístic |
 
 ### Persones responsables
-Són responsables de la infracció totes les persones que hi intervenen: el promotor, el constructor o l'empresari de les obres i el tècnic director (cadascun en l'àmbit de la seva actuació) i, segons el cas, els propietaris dels terrenys i les persones titulars o promotores de les activitats. Quan el compliment correspon conjuntament a diverses persones, responen de manera solidària, en els termes de la llei.
+Poden ser responsables de la infracció (art. 216):
+
+*Persones responsables (art. 216 TRLUC)*
+
+| Responsable | Per què |
+| --- | --- |
+| Promotor | Impulsa o decideix l'actuació il·legal |
+| Constructor o empresari | Executa materialment les obres |
+| Tècnic director | Dirigeix l'obra il·legal |
+| Propietari | En els casos en què li és imputable |
+| Autoritats i funcionaris | Que atorguen llicències o ordres manifestament il·legals |
 
 ---
 
@@ -3940,32 +4023,43 @@ Són responsables de la infracció totes les persones que hi intervenen: el prom
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Marc**
+  - TRLUC arts. 217-224
 - **Quantia**
-  - Multes segons la gravetat (% del valor de l'obra)
-  - Mai un benefici per a l'infractor
-- **Graduació**
-  - Dany, culpabilitat, benefici
-  - Reincidència, conducta (legalització/restauració)
-- **Compatibilitat**
-  - Independent i compatible amb la restauració
-  - Non bis in idem
+  - Multes proporcionals (% del valor de l'obra/perjudici) segons gravetat
+  - La multa ha de superar el benefici de la infracció
+- **Graduació (219)**
+  - Benefici, dany, reversibilitat, culpabilitat, reincidència
+- **Restauració**
+  - Sanció ≠ restauració (enderroc no és sanció); són compatibles
+  - Reduccions per legalització/restauració voluntària
 
-Les sancions urbanístiques són les conseqüències punitives de les infraccions. El TRLUC en fixa la quantia i els criteris de graduació, amb respecte dels principis de la potestat sancionadora.
+Un cop provada la infracció urbanística, s'imposa la sanció corresponent. El TRLUC (arts. 217-224) en fixa la quantia i els criteris de graduació, amb el principi que la infracció mai no ha de resultar més beneficiosa que el compliment.
 
 ### Quantia de les sancions
-Les sancions consisteixen, principalment, en multes, la quantia de les quals es determina en funció de la gravetat de la infracció (lleu, greu o molt greu) i sovint es calcula com un percentatge del valor de l'obra, de la instal·lació o de l'actuació il·legal, o entre uns límits mínim i màxim establerts per a cada tipus. La sanció no pot suposar mai un benefici econòmic per a l'infractor: si el benefici obtingut és superior, la multa s'incrementa fins a igualar-lo com a mínim.
+Les sancions urbanístiques són multes proporcionals, expressades habitualment com un percentatge del valor de l'obra, la instal·lació o el perjudici causat, amb forquilles segons la gravetat:
+
+*Quantia segons gravetat*
+
+| Grau de la infracció | Quantia de la multa (referència) |
+| --- | --- |
+| Molt greu | Percentatge alt del valor de l'obra o del perjudici (forquilla superior) |
+| Greu | Percentatge mitjà del valor |
+| Lleu | Percentatge baix del valor / import mínim |
+
+El principi rector és que l'import de la sanció ha de superar el benefici obtingut amb la infracció, per evitar que incomplir sigui rendible.
 
 ### Graduació de les sancions
-La graduació atén el principi de proporcionalitat i pondera circumstàncies com:
+Per fixar la quantia dins la forquilla es ponderen circumstàncies (art. 219):
 
-- La gravetat del fet i la magnitud del dany causat a l'ordenació o als béns protegits.
-- El grau de culpabilitat.
 - El benefici obtingut amb la infracció.
-- La reincidència.
-- La conducta de l'infractor respecte de la legalització o la restauració voluntàries (que poden actuar com a circumstàncies atenuants).
+- El dany causat i la reversibilitat o irreversibilitat de la situació.
+- El grau de culpabilitat i la intencionalitat.
+- La reincidència i la reiteració.
+- La col·laboració en la restauració o la legalització (com a atenuant).
 
-### Compatibilitat amb la restauració
-La sanció (multa) és independent i compatible amb el deure de restaurar la realitat física alterada i l'ordre jurídic vulnerat: imposar una multa no eximeix d'enderrocar o reposar, i a la inversa. En canvi, no és admissible la doble sanció pels mateixos fets amb idèntic fonament (non bis in idem).
+### Relació amb la restauració i reduccions
+La sanció és independent i compatible amb el deure de restaurar la realitat física alterada (l'enderroc o la reposició no és una sanció, sinó una mesura de restabliment). A més, la legalització o la restauració voluntària de la legalitat pot comportar reduccions de la multa, com a incentiu perquè l'infractor esmeni la situació. Les sancions imposades prescriuen en els terminis que fixa la llei segons la gravetat.
 
 ---
 
@@ -3975,26 +4069,39 @@ La sanció (multa) és independent i compatible amb el deure de restaurar la rea
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Deure de conservació**
-  - Seguretat, salubritat i ornament
-  - Límit: deure normal (per sobre, ruïna)
-- **Ordres i inspecció**
-  - Determinen obres i termini
-  - Inspecció tècnica d'edificis (ITE)
+- **Marc**
+  - TRLUC arts. 197-198
+- **Deure (197)**
+  - Seguretat, salubritat, ornament públic (+ habitabilitat/accessibilitat/energia)
+  - Límit: deure legal de conservació
+- **Instruments**
+  - Ordre d'execució (obres amb termini) + inspecció tècnica (ITE)
 - **Incompliment**
-  - Execució subsidiària a càrrec de l'obligat
-  - Multes coercitives; mesures per risc imminent
+  - Execució subsidiària + multes coercitives + expropiació
 
-Les ordres d'execució són els actes pels quals l'administració imposa als propietaris el compliment del deure de conservació dels immobles. Es relacionen amb el deure de conservació i rehabilitació i amb la inspecció de l'estat dels edificis (TRLUC).
+El deure de conservació obliga els propietaris a mantenir els béns en bones condicions. Quan no ho fan, l'Administració pot dictar ordres d'execució per imposar les obres necessàries. Ho regula el TRLUC (arts. 197-198).
 
-### El deure de conservació
-Les persones propietàries han de mantenir els terrenys, les construccions i les instal·lacions en condicions de seguretat, salubritat i ornament públic, i conservar-ne les condicions objectives d'habitabilitat o d'ús. Aquest deure té un límit (el deure normal de conservació); les obres que el superen no són exigibles per simple ordre d'execució i poden obrir pas a la declaració de ruïna.
+### Deure de conservació i rehabilitació
+Els propietaris de terrenys, construccions i instal·lacions tenen el deure de conservar-los (art. 197 del TRLUC):
 
-### Ordres d'execució i inspecció
-Quan un immoble no reuneix les condicions adequades, l'administració dicta una ordre d'execució que determina les obres necessàries i el termini per fer-les, per raons de seguretat, salubritat o ornament. Les administracions poden establir la inspecció tècnica periòdica dels edificis (ITE) per comprovar-ne l'estat de conservació i exigir, si escau, les obres pertinents.
+- Mantenir-los en condicions de seguretat, salubritat i ornament públic.
+- Complir, quan escaigui, les exigències d'habitabilitat, accessibilitat i eficiència energètica.
+- El deure té com a límit el deure legal de conservació; les obres que el superin poden donar lloc a la declaració de ruïna o a ajuts públics.
 
-### Incompliment i execució forçosa
-Si la persona obligada no compleix l'ordre d'execució dins el termini, l'administració pot procedir a l'execució subsidiària de les obres a càrrec de l'obligat o imposar multes coercitives reiterades fins a aconseguir-ne el compliment. En els casos de risc imminent, es poden adoptar mesures immediates de seguretat (apuntalament, desallotjament).
+### Ordres d'execució i inspeccions
+Instruments de l'Administració per fer efectiu el deure de conservació:
+
+*Ordres d'execució i control*
+
+| Instrument | Contingut |
+| --- | --- |
+| Ordre d'execució | Acte que imposa al propietari obres concretes de conservació o adaptació, amb termini |
+| Inspecció tècnica | Comprovació periòdica de l'estat dels edificis (inspecció tècnica d'edificis, ITE) |
+| Execució subsidiària | Si el propietari no compleix, l'Administració executa les obres al seu càrrec |
+| Multes coercitives | Per forçar el compliment de l'ordre |
+
+### Incompliment i conseqüències
+Davant l'incompliment de les ordres d'execució, l'Administració disposa de mitjans d'execució forçosa: l'execució subsidiària (fa les obres i en repercuteix el cost), les multes coercitives reiterades i, en casos extrems, l'expropiació per incompliment de la funció social de la propietat. Les ordres d'execució tenen també per finalitat prevenir riscos per a les persones i garantir la seguretat de la via pública.
 
 ---
 
@@ -4004,24 +4111,40 @@ Si la persona obligada no compleix l'ordre d'execució dins el termini, l'admini
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Marc**
+  - TRLUC arts. 227-228
 - **Acció de restauració**
-  - 6 anys des de l'acabament total
-  - Imprescriptible en sòl no urbanitzable protegit
-- **Efectes**
-  - No legalitza; situació assimilada a fora d'ordenació
-- **Ordre de restauració**
-  - Distinció: prescripció de l'acció vs de l'ordre dictada
+  - Prescriu als 6 ANYS des de l'acabament de les obres
+  - Prescrita → fora d'ordenació (sense consolidació)
+- **Imprescriptible**
+  - Sòl no urbanitzable, sistemes generals, zones verdes, domini públic, béns catalogats
+- **Dos moments**
+  - Prescripció de l'ACCIÓ (iniciar) vs de l'ORDRE dictada (executar)
+  - Independent de la prescripció de la infracció (sanció)
 
-La prescripció en matèria de disciplina urbanística determina el temps de què disposa l'administració per reaccionar davant les infraccions i executar les ordres de restauració. La regula el TRLUC.
+La prescripció fixa el temps màxim en què l'Administració pot reaccionar davant les il·legalitats urbanístiques. El TRLUC (arts. 227-228) distingeix la prescripció de l'acció de restauració i la de l'ordre de restauració ja dictada, amb supòsits d'imprescriptibilitat.
 
 ### Prescripció de l'acció de restauració
-L'acció de l'administració per restablir la realitat física alterada i l'ordre jurídic vulnerat per obres o usos il·legals prescriu, amb caràcter general, al cap de sis anys comptats des de l'acabament total de les obres o des de la finalització de l'actuació il·legal. Aquest termini no s'aplica al sòl no urbanitzable d'especial protecció, on l'acció de restauració és imprescriptible.
+L'acció per restaurar la realitat física alterada i l'ordre jurídic vulnerat prescriu, com a regla, als 6 anys des de l'acabament total de les obres o de l'actuació il·legal (art. 227 del TRLUC):
 
-### Còmput i efectes
-El termini es computa des de l'acabament total i efectiu de les obres. Transcorregut sense que l'administració hagi actuat, l'acció de restauració prescriu i les construccions queden en una situació assimilada a la de fora d'ordenació (amb limitacions a les obres permeses), però sense legalitzar-se: la prescripció no atorga la conformitat amb el planejament, sinó que només impedeix l'exercici de l'acció de restauració.
+- Un cop transcorregut el termini, l'Administració ja no pot ordenar la restauració (l'enderroc).
+- L'edificació il·legal però prescrita queda en règim de fora d'ordenació o assimilat, sense poder-hi fer obres de consolidació.
+- La prescripció de l'acció de restauració és independent de la prescripció de la infracció a efectes sancionadors.
+
+### Supòsits d'imprescriptibilitat
+En determinats terrenys, l'acció de restauració NO prescriu mai (art. 227):
+
+*Supòsits d'imprescriptibilitat*
+
+| Sòl / bé | Prescripció |
+| --- | --- |
+| Sòl no urbanitzable i urbanitzable no delimitat | Imprescriptible |
+| Sistemes generals, espais lliures i zones verdes | Imprescriptible |
+| Béns de domini públic | Imprescriptible |
+| Béns catalogats o d'especial protecció | Imprescriptible |
 
 ### Prescripció de l'ordre de restauració
-Un cop dictada l'ordre de restauració (o de demolició), aquesta també té un termini per executar-se; el seu incompliment i la inactivitat de l'administració poden donar lloc a la prescripció de l'ordre. Cal distingir, doncs, la prescripció de l'acció (per dictar l'ordre) de la prescripció de l'ordre ja dictada (per executar-la).
+Cal distingir dos moments (art. 228): la prescripció de l'acció (el dret d'iniciar el procediment) i la prescripció o caducitat de l'ordre de restauració ja dictada (el dret d'executar-la). Un cop dictada l'ordre de restauració, si no s'executa en el termini legal, també pot prescriure el dret a fer-la efectiva, sens perjudici de la possibilitat d'execució forçosa (execució subsidiària, multes coercitives) mentre estigui vigent.
 
 ---
 
@@ -4031,25 +4154,39 @@ Un cop dictada l'ordre de restauració (o de demolició), aquesta també té un 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Qualificació**
-  - Nul·les (art. 47) o anul·lables
-- **Procediments**
-  - Nul·les: revisió d'ofici (art. 106, sense termini, dictamen)
-  - Anul·lables favorables: lesivitat (art. 107, 4 anys) + contenciós
-- **Incoació i revocació**
-  - Suspensió cautelar dels efectes
-  - Revocació per oportunitat (pot indemnitzar)
+- **Marc**
+  - TRLUC arts. 201-202 + Llei 39/2015 arts. 106-111
+- **Supòsits**
+  - Llicències/ordres de contingut constitutiu d'infracció greu o molt greu
+  - Revisió d'ofici (nul·litat) o declaració de lesivitat (anul·labilitat)
+- **Primera ocupació**
+  - La incoació de la revisió pot suspendre els efectes de la llicència de primera ocupació
+- **Coordinació**
+  - Cal revisar la llicència abans d'exigir la restauració
+  - Garanties: audiència + dictamen consultiu (nul·litat)
 
-La revisió de les llicències i de les ordres d'execució il·legals es fa pels procediments de revisió d'ofici i de declaració de lesivitat de la Llei 39/2015, amb les especialitats urbanístiques del TRLUC.
+Les llicències i ordres d'execució de contingut il·legal es poden deixar sense efecte mitjançant la revisió. El TRLUC (arts. 201-202) i els arts. 106-111 de la Llei 39/2015 (revisió d'ofici) regulen els supòsits i els efectes, especialment sobre la primera ocupació dels edificis.
 
-### Llicències nul·les i anul·lables
-Les llicències i la resta d'actes dictats amb infracció de l'ordenament urbanístic poden ser nuls de ple dret (si concorre un supòsit de l'art. 47 de la Llei 39/2015, com l'adquisició de facultats urbanístiques contràries al planejament) o anul·lables (per qualsevol altra infracció de l'ordenament). La via per deixar-los sense efecte depèn d'aquesta qualificació.
+### Supòsits de revisió
+Es poden revisar les llicències i ordres d'execució el contingut de les quals sigui constitutiu d'infracció urbanística greu o molt greu:
 
-### Procediments de revisió
-Els actes nuls es revisen mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment, sense termini, i requereix el dictamen favorable de l'òrgan consultiu (a Catalunya, la Comissió Jurídica Assessora). Els actes anul·lables favorables es deixen sense efecte mitjançant la declaració de lesivitat per a l'interès públic (art. 107), que l'administració ha de dictar dins el termini de quatre anys i que va seguida de la impugnació de l'acte davant la jurisdicció contenciosa administrativa.
+*Vies de revisió*
 
-### Efectes de la incoació i revocació
-La incoació d'un expedient de revisió d'una llicència pot comportar l'adopció de mesures cautelars, com la suspensió dels efectes de la llicència i de les obres emparades, per evitar la consolidació de la il·legalitat, especialment en la primera ocupació dels edificis. A més de la revisió, l'administració pot revocar les llicències per raons d'oportunitat o per canvi dels criteris d'apreciació; la revocació de llicències vàlides pot generar dret a indemnització.
+| Via | Quan | Base |
+| --- | --- | --- |
+| Revisió d'ofici (nul·litat) | Actes nuls de ple dret (art. 47 de la Llei 39/2015) | Art. 106 Llei 39/2015 |
+| Declaració de lesivitat | Actes anul·lables lesius per a l'interès públic | Art. 107 Llei 39/2015 |
+| Revisió urbanística | Llicències/ordres de contingut constitutiu d'infracció greu o molt greu | Arts. 201-202 TRLUC |
+
+### Efectes sobre la primera ocupació
+La incoació d'un expedient de revisió d'una llicència pot tenir efectes suspensius rellevants, especialment sobre la primera ocupació dels edificis i construccions:
+
+- La incoació de l'expedient de revisió pot comportar la suspensió dels efectes de la llicència de primera ocupació.
+- Això impedeix o condiciona l'ocupació efectiva de l'edifici mentre es tramita la revisió.
+- Es tracta d'evitar que es consolidin situacions derivades d'una llicència possiblement il·legal.
+
+### Coordinació amb la protecció de la legalitat
+La revisió de la llicència és el pressupòsit per poder actuar contra unes obres emparades formalment en un títol: mentre la llicència és vàlida, protegeix l'actuació; un cop revisada i anul·lada, es pot exigir la restauració de la legalitat. Per això la revisió s'articula de manera coordinada amb els procediments de protecció de la legalitat urbanística (restauració i sanció), respectant les garanties del procediment (audiència, dictamen del òrgan consultiu en la revisió d'ofici per nul·litat).
 
 ---
 
@@ -4059,32 +4196,48 @@ La incoació d'un expedient de revisió d'una llicència pot comportar l'adopci�
 Normes: **L18_2007** (Llei 18/2007 del dret a l'habitatge (Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Dret i competències**
-  - L'habitatge com a dret (Llei 18/2007)
-  - Generalitat + participació municipal (planejament, plans locals)
-- **Habitatge protegit**
-  - Preus limitats; Registre de sol·licitants
-  - Reserves de sòl al planejament
-- **Qualitat del parc**
-  - Cèdula d'habitabilitat (transmetre, llogar, subministraments)
-  - Conservació i rehabilitació
-- **Protecció i sanció**
-  - Consumidors; contra la desocupació injustificada i l'assetjament
-  - Règim sancionador
+- **Marc**
+  - Llei 18/2007 del dret a l'habitatge (Catalunya)
+  - Competència exclusiva de la Generalitat (art. 137 EAC)
+- **Planificació**
+  - Pla territorial sectorial d'habitatge + plans locals d'habitatge
+  - Reserva de sòl per a habitatge protegit (~30%)
+- **Qualitat**
+  - Cèdula d'habitabilitat, ITE, deure de conservació
+  - Actuació contra habitatges buits i sobreocupació
+- **Protecció usuari**
+  - Informació, publicitat veraç, arres
+- **Sancionador**
+  - Infraccions molt greus/greus/lleus (assetjament, buits, sobreocupació)
+  - Multes graduades; principis del tema 69
 
-La Llei 18/2007, del dret a l'habitatge, és la norma cabdal de la política d'habitatge a Catalunya. Configura l'habitatge com un dret i estableix les competències, la planificació i les mesures per garantir-lo.
+La Llei 18/2007, de 28 de desembre, del dret a l'habitatge, és la norma de referència en matèria d'habitatge a Catalunya. Configura l'habitatge com un dret, regula la planificació, la reserva de sòl, la qualitat del parc, la protecció dels usuaris i el règim sancionador.
 
-### El dret a l'habitatge i les competències
-La Llei 18/2007 configura l'accés a un habitatge digne i adequat com un dret que els poders públics han de fer efectiu. La competència en habitatge correspon a la Generalitat (que la planifica i regula), mentre que els municipis hi participen mitjançant el planejament urbanístic (reserves de sòl per a habitatge protegit), els plans locals d'habitatge i la gestió de polítiques de proximitat.
+### Competències i planificació
+La Generalitat té competència exclusiva en habitatge (art. 137 de l'Estatut), i els ens locals hi tenen competències de proximitat:
 
-### Planificació i habitatge protegit
-La planificació territorial i la programació ordenen l'oferta d'habitatge. La llei regula l'habitatge amb protecció oficial (preus o rendes limitats i destinació a persones amb ingressos per sota d'uns llindars), que s'adjudica a través del Registre de sol·licitants d'habitatge amb protecció oficial, garantint la transparència i la igualtat. El planejament ha de preveure reserves mínimes de sòl per a aquest habitatge.
+- Instruments de planificació: el Pla territorial sectorial d'habitatge i els plans locals d'habitatge.
+- Els municipis elaboren el pla local d'habitatge, que diagnostica les necessitats i programa les actuacions.
+- L'habitatge en el planejament urbanístic: reserves de sòl per a habitatge de protecció pública (com a regla, el 30% del sostre residencial de nova implantació en sòl urbanitzable i sòl urbà no consolidat).
 
-### Qualitat del parc i cèdula d'habitabilitat
-La cèdula d'habitabilitat és el document que acredita que un habitatge compleix les condicions mínimes d'habitabilitat per ser destinat a residència de persones; és necessària, entre altres, per transmetre o llogar habitatges i per donar d'alta els subministraments. La llei estableix també deures de conservació i rehabilitació i mesures per garantir la qualitat del parc immobiliari.
+### Qualitat del parc i protecció dels usuaris
+La llei vetlla per la qualitat i el bon ús del parc immobiliari:
 
-### Protecció dels consumidors i règim sancionador
-La llei protegeix els consumidors i usuaris d'habitatges en el mercat immobiliari (informació, transparència en la comercialització) i preveu mesures contra la desocupació permanent i injustificada dels habitatges i contra l'assetjament immobiliari. Estableix un règim de control i un procediment sancionador per a les infraccions en matèria d'habitatge.
+*Qualitat i protecció*
+
+| Àmbit | Instrument |
+| --- | --- |
+| Habitabilitat | Cèdula d'habitabilitat per ocupar i transmetre habitatges |
+| Conservació | Inspecció tècnica dels edificis (ITE) i deure de conservació i rehabilitació |
+| Ús anòmal | Actuació contra els habitatges buits o desocupats permanentment i la sobreocupació |
+| Protecció de l'usuari | Informació en la transmissió i el lloguer, publicitat veraç, regulació de les arres |
+
+### Règim de control i procediment sancionador
+La llei estableix un règim d'inspecció i sanció per garantir-ne el compliment:
+
+- Les infraccions es classifiquen en molt greus, greus i lleus (per exemple, l'assetjament immobiliari, la sobreocupació, mantenir habitatges desocupats de manera injustificada o falsejar la informació).
+- Les sancions són multes graduades segons la gravetat, els perjudicis i el benefici obtingut.
+- El procediment sancionador segueix els principis generals de la potestat sancionadora (tema 69), amb inspecció prèvia i garanties de l'inculpat.
 
 ---
 
