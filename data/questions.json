@@ -6,111 +6,6 @@
   },
   "questions": [
     {
-      "theme": 67,
-      "block": 11,
-      "q": "Quina és la primera fase del procediment expropiatori general segons la Llei d'expropiació forçosa?",
-      "options": [
-        "La fixació del just preu mitjançant l'acord directe amb la persona expropiada",
-        "La declaració d'utilitat pública o d'interès social de l'obra o la finalitat",
-        "El pagament i la presa de possessió material del bé per part del beneficiari",
-        "La inscripció del bé expropiat al Registre de la Propietat a favor de l'Estat"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'ordre del procediment expropiatori. Correcta (b): el procediment s'inicia amb la declaració d'utilitat pública o interès social; segueixen la necessitat d'ocupació, la determinació del just preu i el pagament i l'ocupació. Per què no: (a) i (c) el just preu i el pagament són fases posteriors; (d) la inscripció registral no és la primera fase. Base: Llei d'expropiació forçosa (1954).",
-      "source": "LEF",
-      "article": "Llei d'expropiació forçosa"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "Quan no hi ha acord entre l'Administració i la persona expropiada sobre el preu, qui fixa el just preu?",
-      "options": [
-        "L'Alcalde de l'ajuntament expropiant, mitjançant un decret degudament motivat",
-        "El Jurat d'Expropiació, en una peça separada del procediment",
-        "El registrador de la propietat del districte on se situa la finca afectada",
-        "La persona expropiada, que el fixa de manera unilateral en el seu full d'apreuament"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta qui fixa el just preu sense acord. Correcta (b): a falta d'acord, el just preu el fixa el Jurat d'Expropiació (òrgan col·legiat) en peça separada; la seva decisió exhaureix la via administrativa. Per què no: (a) no el fixa l'Alcalde; (c) tampoc el registrador; (d) cada part formula el seu full d'apreuament, però no el fixa unilateralment l'expropiat. Base: Llei d'expropiació forçosa.",
-      "source": "LEF",
-      "article": "Llei d'expropiació forçosa"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "Quina legislació estableix els criteris de valoració del sòl a efectes d'expropiacions i reparcel·lacions?",
-      "options": [
-        "Una ordenança fiscal específica aprovada per cada ajuntament en el seu àmbit",
-        "La legislació estatal del sòl (TRLS), de competència exclusiva de l'Estat",
-        "El TRLUC de Catalunya, de manera exclusiva i amb total independència de l'Estat",
-        "La normativa cadastral, que fixa directament el valor de mercat de cada finca"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta quina norma fixa les valoracions. Correcta (b): les valoracions del sòl es regeixen per la legislació estatal del sòl (TRLS, RDL 7/2015), competència exclusiva de l'Estat. Per què no: (a) no es fixen per ordenança municipal; (c) la valoració no és competència autonòmica exclusiva; (d) el valor cadastral no determina la valoració urbanística. Base: TRLS (RDL 7/2015).",
-      "source": "TRLSRU",
-      "article": "RDL 7/2015 (TRLS)"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "Segons el principi de tipicitat de la potestat sancionadora, només es poden sancionar:",
-      "options": [
-        "Els fets que l'òrgan competent consideri contraris a l'interès general del municipi",
-        "Les infraccions previstes per una norma i amb les sancions que aquesta estableix",
-        "Els fets greus, encara que no estiguin expressament tipificats per cap norma legal",
-        "Les conductes que el reglament municipal qualifiqui per analogia com a infraccions"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el principi de tipicitat. Correcta (b): només són sancionables les accions o omissions tipificades com a infracció per una norma, amb les sancions que aquesta determini, i resta prohibida l'analogia (art. 27 Llei 40/2015). Per què no: (a) no depèn del criteri de l'òrgan; (c) sense tipificació no hi pot haver sanció; (d) l'analogia in malam partem està prohibida. Base: art. 27 Llei 40/2015.",
-      "source": "L40_2015",
-      "article": "art. 27 Llei 40/2015"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "En el procediment sancionador, la càrrega de provar els fets imputats correspon a:",
-      "options": [
-        "La persona presumptament infractora, que ha de demostrar la seva innocència",
-        "L'Administració, en virtut del principi de presumpció d'innocència",
-        "Els testimonis que hagin presenciat directament els fets denunciats",
-        "L'òrgan instructor i l'òrgan que resol de manera conjunta i indistinta"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta sobre la presumpció d'innocència. Correcta (b): regeix la presumpció d'innocència, de manera que la càrrega de la prova de càrrec correspon a l'Administració (art. 28 i 53 Llei 40/2015). Per què no: (a) el presumpte infractor no ha de provar la seva innocència; (c) els testimonis aporten prova, però la càrrega és de l'Administració; (d) la instrucció i la resolució corresponen a òrgans diferents (separació de fases). Base: art. 53 Llei 40/2015.",
-      "source": "L40_2015",
-      "article": "art. 53 Llei 40/2015"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Com es classifiquen les infraccions urbanístiques?",
-      "options": [
-        "En infraccions de caràcter civil, penal i administratiu segons la jurisdicció",
-        "En infraccions lleus, greus i molt greus",
-        "En infraccions tipificades i no tipificades segons la conducta de l'infractor",
-        "En infraccions prescriptibles i imprescriptibles segons el tipus de sòl afectat"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la classificació de les infraccions urbanístiques. Correcta (b): el TRLUC les classifica en lleus, greus i molt greus, segons l'afectació a l'ordenació i el tipus de sòl. Per què no: (a) barreja jurisdiccions, no és la classificació; (c) totes les infraccions han d'estar tipificades; (d) la prescripció és una altra qüestió, no la classificació. Base: art. 213 TRLUC.",
-      "source": "TRLUC",
-      "article": "art. 213 TRLUC"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Qui pot ser responsable d'una infracció urbanística per unes obres il·legals?",
-      "options": [
-        "Únicament la persona propietària dels terrenys on materialment s'executen les obres il·legals",
-        "El promotor, el constructor i el tècnic director, cadascun en el seu àmbit",
-        "Exclusivament l'empresa constructora que materialment executa les obres",
-        "Només l'ajuntament, per no haver impedit a temps l'execució de les obres"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta qui respon de la infracció. Correcta (b): responen de la infracció totes les persones que hi intervenen: el promotor, el constructor o empresari de les obres i el tècnic director, cadascun en el seu àmbit, i si escau els propietaris. Per què no: (a) i (c) no es limita a un sol subjecte; (d) l'ajuntament és qui exerceix la disciplina, no el responsable de la infracció. Base: art. 215 TRLUC.",
-      "source": "TRLUC",
-      "article": "art. 215 TRLUC"
-    },
-    {
       "theme": 71,
       "block": 12,
       "q": "Un criteri que es té en compte per graduar la quantia de les sancions urbanístiques és:",
@@ -184,111 +79,6 @@
       "explain": "Es pregunta la via per anul·lar una llicència nul·la. Correcta (b): els actes nuls de ple dret es deixen sense efecte mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment i requereix el dictamen favorable del Consell consultiu. Per què no: (a) no es pot fer per una revocació verbal; (c) la caducitat no és la via per a la il·legalitat; (d) la sanció no anul·la la llicència. Base: art. 106 Llei 39/2015.",
       "source": "L39_2015",
       "article": "art. 106 Llei 39/2015"
-    },
-    {
-      "theme": 61,
-      "block": 14,
-      "q": "Quin és el contingut mínim d'un projecte d'obres?",
-      "options": [
-        "Únicament el pressupost amb els amidaments i els quadres de preus de l'obra",
-        "Memòria, plànols, plec de prescripcions tècniques i pressupost",
-        "Només la memòria descriptiva i els plànols de situació i emplaçament",
-        "L'acta de replanteig previ i les certificacions mensuals de l'obra executada"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el contingut del projecte d'obres. Correcta (b): el projecte comprèn, com a mínim, la memòria, els plànols, el plec de prescripcions tècniques particulars i el pressupost (a més de l'estudi de seguretat i salut quan escaigui) (art. 233 LCSP). Per què no: (a) i (c) són parts incompletes; (d) el replanteig i les certificacions són actes de l'execució, no del projecte. Base: art. 233 LCSP.",
-      "source": "LCSP",
-      "article": "art. 233 LCSP"
-    },
-    {
-      "theme": 62,
-      "block": 14,
-      "q": "Quins són els requisits bàsics de l'edificació segons la Llei d'ordenació de l'edificació (LOE)?",
-      "options": [
-        "Economia, durabilitat i rapidesa en l'execució material de l'obra",
-        "Funcionalitat, seguretat i habitabilitat",
-        "Estètica, integració paisatgística i respecte al patrimoni històric",
-        "Rendibilitat econòmica i revaloració del bé per al promotor"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta els requisits bàsics de la LOE. Correcta (b): els requisits bàsics són la funcionalitat, la seguretat (estructural, en cas d'incendi i d'utilització) i l'habitabilitat (art. 3 LOE), desenvolupats pel Codi tècnic de l'edificació. Per què no: (a), (c) i (d) no són els requisits bàsics legals de l'edificació. Base: art. 3 LOE.",
-      "source": "LOE",
-      "article": "art. 3 LOE"
-    },
-    {
-      "theme": 62,
-      "block": 14,
-      "q": "Quin és el termini de garantia per danys que afecten l'estabilitat i la seguretat estructural d'un edifici (LOE)?",
-      "options": [
-        "Un any des de la recepció de l'obra acabada",
-        "Deu anys",
-        "Tres anys per a qualsevol tipus de defecte constructiu",
-        "Quinze anys, igual que la responsabilitat per ruïna del contractista"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el termini de garantia estructural de la LOE. Correcta (b): la LOE estableix una garantia de deu anys per als danys materials causats per vicis o defectes que afectin l'estabilitat i la seguretat estructural (art. 17 LOE); d'un any per als d'acabament i de tres per als d'habitabilitat. Per què no: (a) un any és per als acabats; (c) tres anys per a l'habitabilitat; (d) la ruïna de la LCSP (15 anys) és una altra figura. Base: art. 17 LOE.",
-      "source": "LOE",
-      "article": "art. 17 LOE"
-    },
-    {
-      "theme": 63,
-      "block": 14,
-      "q": "Com es pot executar una obra local, segons la LCSP?",
-      "options": [
-        "Únicament mitjançant un contracte d'obres adjudicat per procediment obert",
-        "Mitjançant contracte o per la pròpia Administració amb mitjans propis",
-        "Exclusivament per la pròpia Administració amb el seu personal i mitjans",
-        "Sempre per concessió d'obres, amb explotació posterior pel constructor"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta les formes d'execució d'obres. Correcta (b): les obres es poden executar mitjançant contracte (regla general) o per la pròpia Administració amb mitjans propis, en els supòsits taxats de l'art. 30 LCSP. Per què no: (a) el contracte no es limita al procediment obert; (c) l'execució per mitjans propis no és l'única via; (d) no sempre és per concessió. Base: art. 30 LCSP.",
-      "source": "LCSP",
-      "article": "art. 30 LCSP"
-    },
-    {
-      "theme": 64,
-      "block": 14,
-      "q": "Quan és obligatòria la coordinació de seguretat i salut en una obra de construcció?",
-      "options": [
-        "Sempre, fins i tot quan hi intervé una sola empresa contractista",
-        "Quan en l'execució de l'obra intervé més d'una empresa",
-        "Únicament en les obres de pressupost superior a un milió d'euros",
-        "Només quan ho sol·licita expressament el promotor de l'obra"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta quan cal coordinador de seguretat i salut. Correcta (b): la designació d'un coordinador de seguretat i salut és obligatòria quan en l'execució de l'obra intervé més d'una empresa (RD 1627/1997). Per què no: (a) amb una sola empresa no cal coordinador (sí altres obligacions); (c) no depèn d'un llindar de pressupost; (d) no depèn de la sol·licitud del promotor. Base: RD 1627/1997.",
-      "source": "RD171_2004",
-      "article": "RD 1627/1997"
-    },
-    {
-      "theme": 65,
-      "block": 11,
-      "q": "Quina és una finalitat dels patrimonis públics de sòl i d'habitatge?",
-      "options": [
-        "Generar rendes per finançar les despeses corrents ordinàries del municipi",
-        "Fer efectiu el dret a l'habitatge i regular el mercat de sòl",
-        "Substituir el pressupost municipal en matèria d'inversions urbanístiques",
-        "Adjudicar directament solars a les empreses constructores del municipi"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la finalitat dels patrimonis públics de sòl. Correcta (b): s'afecten a regular el mercat de sòl, executar el planejament i fer efectiu el dret a un habitatge digne (habitatge protegit). Per què no: (a) els ingressos s'afecten a aquestes finalitats, no a despeses corrents; (c) no substitueixen el pressupost; (d) no s'adjudiquen directament a constructores. Base: art. 160 TRLUC.",
-      "source": "TRLUC",
-      "article": "art. 160 TRLUC"
-    },
-    {
-      "theme": 66,
-      "block": 11,
-      "q": "Quin és l'objectiu de la regularització de les urbanitzacions amb dèficits urbanístics?",
-      "options": [
-        "Demolir-les íntegrament per restaurar el sòl al seu estat natural originari",
-        "Completar la urbanització i dotar-les dels serveis bàsics, regularitzant les cessions",
-        "Privatitzar-ne la gestió i transferir-ne la titularitat a una empresa concessionària",
-        "Eximir els propietaris de qualsevol càrrega derivada de l'execució urbanística"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'objectiu de la regularització. Correcta (b): es tracta de completar la urbanització, dotar els àmbits dels serveis bàsics i regularitzar les cessions pendents, prioritzant la seguretat, amb repartiment de càrregues entre els propietaris. Per què no: (a) no es busca la demolició íntegra; (c) no és una privatització; (d) els propietaris assumeixen les càrregues (equidistribució). Base: normativa urbanística (TRLUC i disposicions específiques).",
-      "source": "TRLUC",
-      "article": "DA i normativa específica"
     },
     {
       "theme": 75,
@@ -606,51 +396,6 @@
       "article": "art. 24 LPRL; RD 171/2004"
     },
     {
-      "theme": 67,
-      "block": 11,
-      "q": "En el procediment expropiatori, què comporta l'aprovació d'un instrument de planejament urbanístic?",
-      "options": [
-        "La fixació automàtica i definitiva del just preu dels béns afectats",
-        "La declaració d'utilitat pública i la necessitat d'ocupació dels béns afectats",
-        "La transmissió immediata de la propietat dels béns a l'Administració",
-        "L'obligació del propietari de renunciar a qualsevol indemnització"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'efecte expropiatori del planejament. Correcta (b): l'aprovació dels instruments de planejament que prevegin obres o actuacions comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns i drets afectats. Per què no: (a) el just preu es fixa després; (c) la transmissió requereix el pagament i l'ocupació; (d) no implica renúncia a la indemnització. Base: art. 109 TRLUC.",
-      "source": "TRLUC",
-      "article": "art. 109 TRLUC"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "Com es valora, segons la legislació estatal, el sòl en situació urbanitzada?",
-      "options": [
-        "Per capitalització de la renda real o potencial de l'explotació agrària",
-        "Aplicant a l'edificabilitat i l'ús atribuïts el valor de repercussió del sòl",
-        "Pel valor cadastral vigent, sense cap mena de correcció ni actualització",
-        "Pel preu lliurement pactat entre l'Administració i la persona propietària"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la valoració del sòl urbanitzat. Correcta (b): el sòl urbanitzat es valora aplicant a l'edificabilitat i l'ús atribuïts el valor de repercussió del sòl (mètode residual); si està edificat, el major entre aquest i la taxació conjunta. Per què no: (a) la capitalització de rendes és per al sòl rural; (c) el valor cadastral no determina la valoració; (d) no és un preu lliurement pactat. Base: art. 37 TRLS.",
-      "source": "TRLSRU",
-      "article": "art. 37 TRLS"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Quan es qualifica, en general, una infracció urbanística com a MOLT GREU?",
-      "options": [
-        "Quan afecta una obra menor legalitzable en sòl urbà consolidat",
-        "Quan afecta sòl no urbanitzable d'especial protecció o impedeix l'execució del planejament",
-        "Quan es comet per primera vegada, sense que hi hagi reincidència",
-        "Quan la persona infractora no compareix al tràmit d'audiència del procediment"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la qualificació de molt greu. Correcta (b): es qualifiquen de molt greus, en general, les infraccions que afecten el sòl no urbanitzable d'especial protecció o que impedeixen o dificulten de manera rellevant l'execució del planejament. Per què no: (a) una obra menor legalitzable sol ser lleu; (c) i (d) no determinen la qualificació de molt greu. Base: art. 214 TRLUC.",
-      "source": "TRLUC",
-      "article": "art. 214 TRLUC"
-    },
-    {
       "theme": 72,
       "block": 12,
       "q": "Mitjançant les ordres d'execució, l'Administració imposa als propietaris:",
@@ -724,51 +469,6 @@
       "explain": "Es pregunta la classificació de les faltes disciplinàries. Correcta (b): les faltes disciplinàries es classifiquen en molt greus, greus i lleus (art. 95 TREBEP). Per què no: (a), (c) i (d) no són la classificació legal de les faltes disciplinàries. Base: art. 95 TREBEP.",
       "source": "TREBEP",
       "article": "art. 95 TREBEP"
-    },
-    {
-      "theme": 61,
-      "block": 14,
-      "q": "Qui pot redactar els projectes d'obres locals?",
-      "options": [
-        "Exclusivament empreses constructores especialitzades en obra pública",
-        "Els serveis tècnics municipals o tècnics competents contractats a aquest efecte",
-        "Únicament tècnics funcionaris de la diputació provincial corresponent",
-        "Qualsevol persona, atès que el projecte no requereix titulació tècnica"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta qui redacta els projectes d'obres locals. Correcta (b): els projectes els redacten els serveis tècnics de la pròpia entitat o, si no disposa de mitjans, tècnics competents contractats (contracte de serveis). Per què no: (a) no es reserva a constructores; (c) no es reserva a la diputació; (d) requereix titulació tècnica competent. Base: ROAS i LCSP.",
-      "source": "ROAS",
-      "article": "D 179/1995"
-    },
-    {
-      "theme": 62,
-      "block": 14,
-      "q": "Quin és el termini de garantia per als danys que afecten l'habitabilitat d'un edifici (LOE)?",
-      "options": [
-        "Un any des de la recepció de l'obra acabada",
-        "Tres anys",
-        "Deu anys, com els danys que afecten l'estabilitat estructural",
-        "Quinze anys, igual que la responsabilitat per ruïna"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el termini de garantia d'habitabilitat. Correcta (b): la LOE estableix una garantia de tres anys per als danys que afecten l'habitabilitat (art. 17); d'un any per als d'acabament i de deu per als estructurals. Per què no: (a) un any és per als acabats; (c) deu anys és per a l'estabilitat; (d) quinze és la ruïna de la LCSP. Base: art. 17 LOE.",
-      "source": "LOE",
-      "article": "art. 17 LOE"
-    },
-    {
-      "theme": 64,
-      "block": 14,
-      "q": "Quan diverses empreses concorren en una obra municipal, és preceptiu, en matèria de seguretat:",
-      "options": [
-        "Que cada empresa actuï de manera independent sense coordinar-se amb les altres",
-        "Designar un coordinador de seguretat i salut i disposar d'un pla de seguretat",
-        "Que l'ajuntament assumeixi directament l'execució de tota l'obra",
-        "Suspendre l'obra fins que només hi quedi una única empresa contractista"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la seguretat en obres amb diverses empreses. Correcta (b): quan hi intervé més d'una empresa, cal designar un coordinador de seguretat i salut i disposar del pla de seguretat i salut (RD 1627/1997). Per què no: (a) precisament cal coordinar-se; (c) no cal que l'ajuntament executi l'obra; (d) no s'ha de suspendre. Base: RD 1627/1997.",
-      "source": "RD171_2004",
-      "article": "RD 1627/1997"
     },
     {
       "theme": 75,
@@ -921,51 +621,6 @@
       "article": "art. 10 RD 171/2004"
     },
     {
-      "theme": 63,
-      "block": 14,
-      "q": "L'execució d'obres locals per la pròpia Administració amb mitjans propis:",
-      "options": [
-        "És la regla general per a qualsevol obra municipal de qualsevol import",
-        "Només procedeix en els supòsits taxats que estableix la LCSP",
-        "Està prohibida en tot cas per la legislació de contractes vigent",
-        "Requereix sempre la prèvia adjudicació d'una concessió d'obres"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'execució per mitjans propis. Correcta (b): l'execució d'obres per la pròpia Administració només procedeix en els supòsits taxats de l'art. 30 LCSP (mitjans propis adequats, emergència, etc.); la regla general és l'execució per contracte. Per què no: (a) no és la regla general; (c) no està prohibida; (d) no requereix concessió. Base: art. 30 LCSP.",
-      "source": "LCSP",
-      "article": "art. 30 LCSP"
-    },
-    {
-      "theme": 65,
-      "block": 11,
-      "q": "Els ingressos obtinguts de la gestió del patrimoni públic de sòl:",
-      "options": [
-        "Es poden destinar lliurement a finançar despeses corrents del municipi",
-        "S'han d'afectar a les finalitats pròpies del patrimoni (urbanisme i habitatge)",
-        "Reverteixen íntegrament a la comunitat autònoma de Catalunya",
-        "Es reparteixen entre els propietaris de sòl de l'àmbit d'actuació"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el destí dels ingressos del patrimoni públic de sòl. Correcta (b): els béns i els ingressos del patrimoni públic de sòl s'han d'afectar a les seves finalitats (actuacions urbanístiques i polítiques d'habitatge protegit). Per què no: (a) no es poden destinar a despeses corrents alienes; (c) no reverteixen a la CA; (d) no es reparteixen entre propietaris. Base: art. 163 TRLUC.",
-      "source": "TRLUC",
-      "article": "art. 163 TRLUC"
-    },
-    {
-      "theme": 66,
-      "block": 11,
-      "q": "Les urbanitzacions amb dèficits urbanístics es regularitzen, en general, mitjançant:",
-      "options": [
-        "La demolició íntegra de totes les edificacions existents a l'àmbit",
-        "Instruments de planejament i de gestió que completin serveis i cessions",
-        "La simple inscripció de les finques al Registre de la Propietat",
-        "L'exempció dels propietaris de tota càrrega d'urbanització pendent"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la regularització de les urbanitzacions amb dèficits. Correcta (b): es regularitzen amb instruments de planejament (plans especials o de millora urbana) i de gestió (reparcel·lació) que completin la urbanització i les cessions. Per què no: (a) no es busca la demolició; (c) la inscripció no regularitza els dèficits; (d) els propietaris assumeixen les càrregues. Base: TRLUC i normativa específica.",
-      "source": "TRLUC",
-      "article": "normativa específica"
-    },
-    {
       "theme": 71,
       "block": 12,
       "q": "La quantia d'una sanció urbanística:",
@@ -1039,411 +694,6 @@
       "explain": "Es pregunta la planificació operativa. Correcta (b): la planificació operativa concreta els objectius en accions, recursos i terminis a curt termini, alineats amb l'estratègia. Per què no: (a) la missió i la visió a llarg termini són de la planificació estratègica; (c) requereix indicadors; (d) no correspon en exclusiva al nivell polític. Base: gestió per objectius.",
       "source": "L19_2014",
       "article": "gestió per objectius"
-    },
-    {
-      "theme": 61,
-      "block": 14,
-      "q": "El contingut mínim d'un projecte d'obres locals comprèn:",
-      "options": [
-        "Memòria, plànols, plec de prescripcions tècniques i pressupost",
-        "Únicament una memòria descriptiva sense plànols ni pressupost ni cap altre document tècnic complementari",
-        "Només el pressupost",
-        "Exclusivament l'estudi de seguretat"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el contingut del projecte. Correcta (a): memòria, plànols, plec de prescripcions i pressupost (amb amidaments). Per què no: (b), (c) i (d) són incomplets. Base: ROAS/LCSP.",
-      "source": "ROAS",
-      "article": "Contingut projecte"
-    },
-    {
-      "theme": 61,
-      "block": 14,
-      "q": "La memòria valorada s'admet, en l'àmbit local, per a:",
-      "options": [
-        "Obres de menor entitat, de reparació menor o de manteniment",
-        "Grans obres de nova planta que requereixen projecte tècnic complet amb totes les seves parts",
-        "Qualsevol obra, sense límit",
-        "Cap supòsit"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la memòria valorada. Correcta (a): document simplificat per a obres de menor entitat o manteniment. Per què no: (b) requereix projecte complet; (c) i (d) són incorrectes. Base: ROAS.",
-      "source": "ROAS",
-      "article": "Memòria valorada"
-    },
-    {
-      "theme": 61,
-      "block": 14,
-      "q": "La tramitació d'aprovació d'un projecte d'obres locals segueix, amb caràcter general, les fases de:",
-      "options": [
-        "Aprovació inicial, informació pública i aprovació definitiva",
-        "Adjudicació directa sense cap aprovació prèvia del document tècnic ni cap tràmit d'informació pública",
-        "Sorteig entre projectes",
-        "Referèndum veïnal"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la tramitació. Correcta (a): aprovació inicial, informació pública i aprovació definitiva. Per què no: (b), (c) i (d) són incorrectes. Base: ROAS.",
-      "source": "ROAS",
-      "article": "Tramitació projecte"
-    },
-    {
-      "theme": 62,
-      "block": 14,
-      "q": "Els requisits bàsics de l'edificació que estableix la LOE s'agrupen en:",
-      "options": [
-        "Funcionalitat, seguretat i habitabilitat",
-        "Rendibilitat econòmica, estètica i representativitat institucional de l'edifici davant la ciutadania",
-        "Només seguretat estructural",
-        "Únicament accessibilitat"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta els requisits bàsics. Correcta (a): funcionalitat, seguretat i habitabilitat (LOE). Per què no: (b), (c) i (d) són incorrectes o incomplets. Base: LOE.",
-      "source": "LOE",
-      "article": "Requisits bàsics"
-    },
-    {
-      "theme": 62,
-      "block": 14,
-      "q": "El Codi Tècnic de l'Edificació (CTE) concreta les exigències bàsiques mitjançant:",
-      "options": [
-        "Els documents bàsics (DB), com el DB-SI o el DB-HE",
-        "Un únic article general sense desenvolupament tècnic ni solucions concretes per a cada exigència",
-        "Les ordenances fiscals municipals",
-        "Els plecs de contractació"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el CTE. Correcta (a): es desplega en documents bàsics (DB) per a cada exigència. Per què no: (b), (c) i (d) són incorrectes. Base: CTE.",
-      "source": "CTE",
-      "article": "Documents bàsics"
-    },
-    {
-      "theme": 63,
-      "block": 14,
-      "q": "En l'execució d'una obra local per contracte, la direcció de l'obra correspon a:",
-      "options": [
-        "El director de l'obra, integrant de la direcció facultativa",
-        "El mateix contractista, que dirigeix, executa i controla unilateralment la totalitat dels treballs",
-        "La intervenció municipal",
-        "La mesa de contractació"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la direcció de l'obra. Correcta (a): el director de l'obra, dins la direcció facultativa. Per què no: (b), (c) i (d) són incorrectes. Base: LCSP/LOE.",
-      "source": "LCSP",
-      "article": "Direcció facultativa"
-    },
-    {
-      "theme": 63,
-      "block": 14,
-      "q": "Les certificacions d'obra, en l'execució d'un contracte d'obres, tenen per funció:",
-      "options": [
-        "Documentar periòdicament l'obra executada i servir de base per als pagaments a compte",
-        "Substituir de manera definitiva l'acta de recepció i la liquidació final del contracte d'obres",
-        "Atorgar la llicència d'obres",
-        "Aprovar el projecte"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta les certificacions. Correcta (a): documenten l'obra executada (normalment mensual) i fonamenten els pagaments a compte. Per què no: (b), (c) i (d) són incorrectes. Base: LCSP.",
-      "source": "LCSP",
-      "article": "Certificacions"
-    },
-    {
-      "theme": 63,
-      "block": 14,
-      "q": "La recepció de l'obra, un cop finalitzada, comporta:",
-      "options": [
-        "L'inici del termini de garantia durant el qual el contractista respon dels defectes",
-        "L'extinció immediata de tota responsabilitat del contractista sobre els vicis o defectes de l'obra",
-        "La devolució del projecte",
-        "La represa del replanteig"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la recepció. Correcta (a): inicia el termini de garantia. Per què no: (b) la responsabilitat es manté durant la garantia; (c) i (d) són incorrectes. Base: LCSP.",
-      "source": "LCSP",
-      "article": "Recepció"
-    },
-    {
-      "theme": 64,
-      "block": 14,
-      "q": "En la planificació de les obres municipals, la priorització de les actuacions ha d'atendre:",
-      "options": [
-        "La urgència, l'interès públic i la disponibilitat pressupostària",
-        "Exclusivament l'ordre alfabètic dels carrers afectats per les actuacions previstes per als serveis tècnics",
-        "Només la voluntat del contractista",
-        "L'antiguitat dels expedients"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la priorització. Correcta (a): urgència (seguretat), interès públic i disponibilitat pressupostària. Per què no: (b), (c) i (d) són incorrectes. Base: organització d'obres.",
-      "source": "ROAS",
-      "article": "Priorització"
-    },
-    {
-      "theme": 64,
-      "block": 14,
-      "q": "En l'organització de les obres municipals, el seguiment i el control de l'execució serveixen per:",
-      "options": [
-        "Detectar desviacions de termini, cost o qualitat i reconduir-les a temps",
-        "Substituir la fase de planificació inicial i la priorització de les actuacions que s'han de desenvolupar",
-        "Eliminar la direcció facultativa",
-        "Suprimir el pressupost"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el seguiment. Correcta (a): detectar i corregir desviacions. Per què no: (b), (c) i (d) són incorrectes. Base: organització d'obres.",
-      "source": "ROAS",
-      "article": "Seguiment"
-    },
-    {
-      "theme": 64,
-      "block": 14,
-      "q": "L'execució de les obres municipals es pot dur a terme:",
-      "options": [
-        "Mitjançant contracte amb un tercer o per mitjans propis municipals",
-        "Únicament i en tot cas mitjançant l'encàrrec obligatori a empreses externes prèviament classificades",
-        "Només pels veïns afectats",
-        "Sense cap projecte ni direcció"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta les vies d'execució. Correcta (a): per contracte o per mitjans propis. Per què no: (b), (c) i (d) són incorrectes. Base: ROAS/LCSP.",
-      "source": "ROAS",
-      "article": "Execució obres"
-    },
-    {
-      "theme": 65,
-      "block": 11,
-      "q": "El patrimoni públic de sòl i habitatge es configura com:",
-      "options": [
-        "Un patrimoni separat afectat a finalitats urbanístiques i d'habitatge",
-        "Un conjunt de béns de lliure disposició que es poden destinar a qualsevol despesa corrent de l'entitat",
-        "Un bé de propietat privada",
-        "Un tribut municipal"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la naturalesa. Correcta (a): patrimoni separat afectat a les seves finalitats. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Patrimoni de sòl"
-    },
-    {
-      "theme": 65,
-      "block": 11,
-      "q": "Els ingressos obtinguts de l'alienació de béns del patrimoni públic de sòl s'han de destinar a:",
-      "options": [
-        "Les finalitats pròpies del patrimoni, especialment l'habitatge protegit",
-        "Qualsevol despesa corrent que decideixi lliurement l'entitat local en funció de les seves necessitats",
-        "El pagament de sancions",
-        "La compra de mobiliari d'oficina"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la destinació dels ingressos. Correcta (a): a les finalitats pròpies (habitatge protegit, actuacions urbanístiques). Per què no: (b), (c) i (d) vulneren l'afectació. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Afectació"
-    },
-    {
-      "theme": 65,
-      "block": 11,
-      "q": "S'integra en el patrimoni públic de sòl, entre altres béns:",
-      "options": [
-        "El sòl obtingut per la cessió de l'aprofitament urbanístic",
-        "El mobiliari de les dependències administratives municipals destinat a l'ús quotidià dels empleats",
-        "Els vehicles de la policia local",
-        "El material informàtic"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la integració de béns. Correcta (a): el sòl de cessió d'aprofitament, l'adquirit per expropiació o tanteig, etc. Per què no: (b), (c) i (d) no s'hi integren. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Integració"
-    },
-    {
-      "theme": 66,
-      "block": 11,
-      "q": "Les urbanitzacions amb dèficits urbanístics es caracteritzen per:",
-      "options": [
-        "Tenir serveis urbanístics incomplets i, sovint, cessions pendents",
-        "Disposar de tots els serveis i les cessions fetes, però amb un excés d'equipaments respecte dels estàndards",
-        "Ser sempre de titularitat pública",
-        "No admetre cap regularització"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el concepte. Correcta (a): serveis incomplets i cessions pendents. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Dèficits urbanístics"
-    },
-    {
-      "theme": 66,
-      "block": 11,
-      "q": "La regularització d'una urbanització amb dèficits s'instrumenta mitjançant:",
-      "options": [
-        "Plans especials o de millora urbana i projectes de reparcel·lació i urbanització",
-        "La simple inscripció registral de les finques, sense necessitat de cap instrument de planejament ni de gestió",
-        "Un contracte de subministrament",
-        "Una ordenança fiscal"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta els instruments. Correcta (a): planejament (pla especial/de millora) i gestió (reparcel·lació, urbanització). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Regularització"
-    },
-    {
-      "theme": 66,
-      "block": 11,
-      "q": "El finançament de les obres de regularització d'una urbanització amb dèficits es reparteix:",
-      "options": [
-        "Entre les persones propietàries, segons el principi d'equidistribució",
-        "Íntegrament i en exclusiva a càrrec dels pressupostos generals de l'Estat, sense aportació dels propietaris",
-        "Sense cap criteri",
-        "A càrrec només dels nous compradors"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el finançament. Correcta (a): es reparteix entre els propietaris (equidistribució), amb possibles ajuts públics. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Equidistribució"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "En l'expropiació forçosa, el beneficiari és:",
-      "options": [
-        "Qui adquireix el bé o assumeix l'obligació de pagar el just preu, i pot ser un tercer",
-        "Sempre i en tot cas l'administració expropiant, sense que mai pugui ser-ho un concessionari o un particular",
-        "El titular del bé expropiat",
-        "El jutge"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el beneficiari. Correcta (a): qui adquireix el bé o paga el just preu (pot ser un tercer, com un concessionari). Per què no: (b) pot ser un tercer; (c) és l'expropiat; (d) és incorrecte. Base: LEF.",
-      "source": "LEF",
-      "article": "Beneficiari"
-    },
-    {
-      "theme": 67,
-      "block": 11,
-      "q": "El just preu de l'expropiació inclou, a més del valor del bé:",
-      "options": [
-        "Un premi d'afecció del 5 per cent",
-        "Un recàrrec del 50 per cent sobre el valor total del bé com a compensació pels perjudicis morals",
-        "Una taxa del 10 per cent",
-        "Cap concepte addicional"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el premi d'afecció. Correcta (a): el just preu incorpora un premi d'afecció del 5% (art. 47 LEF). Per què no: (b), (c) i (d) són incorrectes. Base: art. 47 LEF.",
-      "source": "LEF",
-      "article": "Premi d'afecció"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "El sòl rural es valora, segons la legislació estatal de sòl, per:",
-      "options": [
-        "Capitalització de la renda de l'explotació, sense expectatives urbanístiques",
-        "Aplicació de l'edificabilitat futura que el planejament li pugui arribar a atribuir en un moment posterior",
-        "El valor cadastral",
-        "Subhasta pública"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la valoració del sòl rural. Correcta (a): per capitalització de la renda, sense expectatives. Per què no: (b) descriu el sòl urbanitzat; (c) i (d) són incorrectes. Base: TRLS.",
-      "source": "TRLSRU",
-      "article": "Sòl rural"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "El sòl urbanitzat es valora aplicant a l'edificabilitat i l'ús atribuïts:",
-      "options": [
-        "El valor de repercussió del sòl, obtingut pel mètode residual",
-        "Un coeficient fix idèntic per a tot el territori de l'Estat amb independència de la localització concreta",
-        "El valor en renda agrària",
-        "El cost de l'arrendament"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la valoració del sòl urbanitzat. Correcta (a): edificabilitat × valor de repercussió (mètode residual). Per què no: (b), (c) i (d) són incorrectes. Base: TRLS.",
-      "source": "TRLSRU",
-      "article": "Sòl urbanitzat"
-    },
-    {
-      "theme": 68,
-      "block": 11,
-      "q": "Les construccions i edificacions ajustades a la legalitat es valoren pel mètode de:",
-      "options": [
-        "Cost de reposició depreciat segons l'antiguitat i l'estat de conservació",
-        "Capitalització de la renda agrària potencial del terreny on s'assenten les edificacions concretes",
-        "Valor d'afecció",
-        "Subhasta"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la valoració de construccions. Correcta (a): cost de reposició depreciat. Per què no: (b), (c) i (d) són incorrectes. Base: TRLS.",
-      "source": "TRLSRU",
-      "article": "Construccions"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "El principi de tipicitat en la potestat sancionadora exigeix que:",
-      "options": [
-        "Les infraccions i sancions estiguin previstes prèviament, sense aplicació analògica",
-        "L'administració pugui crear noves infraccions a partir de conductes semblants no previstes expressament",
-        "Les sancions siguin sempre privatives de llibertat",
-        "No calgui norma habilitant"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la tipicitat. Correcta (a): exigeix previsió prèvia de la infracció i la sanció, sense analogia. Per què no: (b) prohibeix l'analogia; (c) l'AP no imposa penes de presó; (d) cal llei. Base: art. 27 Llei 40/2015.",
-      "source": "L40_2015",
-      "article": "Tipicitat"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "En el procediment sancionador, la presumpció d'innocència implica que:",
-      "options": [
-        "La càrrega de provar els fets correspon a l'administració",
-        "És la persona expedientada qui ha de demostrar que no ha comès cap mena d'infracció administrativa",
-        "No cal practicar cap prova",
-        "Els fets es presumeixen certs sempre"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la presumpció d'innocència. Correcta (a): la càrrega de la prova és de l'administració. Per què no: (b), (c) i (d) la contradiuen. Base: art. 28 i 53 Llei 39-40/2015.",
-      "source": "L40_2015",
-      "article": "Presumpció d'innocència"
-    },
-    {
-      "theme": 69,
-      "block": 12,
-      "q": "Una garantia essencial del procediment sancionador és:",
-      "options": [
-        "La separació entre la fase instructora i la fase resolutòria",
-        "L'acumulació en un sol òrgan de la instrucció i la resolució per agilitar al màxim la tramitació",
-        "La supressió del tràmit d'audiència",
-        "La irrecurribilitat de la sanció"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta una garantia. Correcta (a): la separació entre instrucció i resolució (òrgans diferents). Per què no: (b), (c) i (d) vulneren les garanties. Base: art. 63 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "Separació de fases"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Les infraccions urbanístiques es classifiquen, segons la seva gravetat, en:",
-      "options": [
-        "Lleus, greus i molt greus",
-        "Simples, qualificades i extraordinàries, en funció del valor econòmic de l'obra il·legalment executada",
-        "Públiques i privades",
-        "Doloses i culposes"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la classificació. Correcta (a): lleus, greus i molt greus. Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Classificació infraccions"
-    },
-    {
-      "theme": 70,
-      "block": 12,
-      "q": "Són responsables d'una infracció urbanística, entre altres:",
-      "options": [
-        "El promotor, el constructor i el tècnic director de les obres",
-        "Únicament i en exclusiva el propietari registral del terreny, amb independència de qui hagi executat l'obra",
-        "Només l'ajuntament",
-        "Cap persona física"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta els responsables. Correcta (a): promotor, constructor i tècnic director (i si escau propietaris). Per què no: (b), (c) i (d) són incorrectes. Base: TRLUC.",
-      "source": "TRLUC",
-      "article": "Responsables"
     },
     {
       "theme": 71,
@@ -6754,6 +6004,756 @@
       "explain": "Correcta (a): quan un espectacle o activitat recreativa també té incidència ambiental (per exemple, per sorolls o emissions), el règim de la Llei 11/2009 es coordina amb la intervenció ambiental de la Llei 20/2009, de manera que es respectin les dues normatives. També es coordina amb la normativa de facilitació de l'activitat econòmica.",
       "source": "L11_2009",
       "article": "Llei 11/2009"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "Qui pot redactar els projectes d'obres locals?",
+      "options": [
+        "Els serveis tècnics municipals o equips externs contractats mitjançant un contracte de serveis",
+        "Únicament l'alcalde",
+        "Només empreses estrangeres",
+        "Exclusivament la Generalitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): els projectes d'obres locals els poden redactar els serveis tècnics municipals (redacció interna, quan l'entitat disposa de mitjans) o equips externs contractats mitjançant un contracte de serveis d'elaboració de projectes (redacció externa).",
+      "source": "LCSP",
+      "article": "art. 231 LCSP"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "Què ha de contenir el projecte d'obres (art. 233 LCSP)?",
+      "options": [
+        "Memòria, plànols, plec de prescripcions tècniques, pressupost i estudi de seguretat i salut",
+        "Únicament el pressupost",
+        "Només la memòria",
+        "La nòmina del personal"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el projecte ha de contenir la memòria (descripció i justificació), els plànols, el plec de prescripcions tècniques particulars, el pressupost (amidaments i preus), l'estudi de seguretat i salut i, si escau, l'estudi geotècnic. És el document que defineix completament l'obra.",
+      "source": "LCSP",
+      "article": "art. 233 LCSP"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "Què és una memòria valorada?",
+      "options": [
+        "Un document tècnic simplificat per a obres menors o de conservació que no requereixen projecte complet",
+        "El projecte més complet possible",
+        "El pressupost general de l'ajuntament",
+        "Un informe jurídic"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la memòria valorada és un document tècnic simplificat, sense el rang de projecte complet, que s'utilitza per a obres menors, de conservació o de reparació que no requereixen projecte; conté una descripció i una valoració suficients per aprovar i contractar l'obra.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "Quan és obligatòria la supervisió del projecte (art. 235 LCSP)?",
+      "options": [
+        "Per als projectes de pressupost base de licitació igual o superior a 500.000 euros (obres de grup)",
+        "Mai és obligatòria",
+        "Per a qualsevol projecte, per petit que sigui",
+        "Només si ho demana el contractista"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 235 exigeix la supervisió del projecte per una oficina o unitat tècnica quan la quantia del projecte és igual o superior a 500.000 euros, i sempre que afectin l'estabilitat, seguretat o estanquitat de l'obra. La supervisió verifica que s'han tingut en compte les disposicions generals i la normativa tècnica.",
+      "source": "LCSP",
+      "article": "art. 235 LCSP"
+    },
+    {
+      "theme": 61,
+      "block": 14,
+      "q": "Què és el replanteig previ del projecte (art. 236 LCSP)?",
+      "options": [
+        "La comprovació de la realitat geomètrica de l'obra i la disponibilitat dels terrenys, abans de licitar",
+        "El pagament de la primera certificació",
+        "La recepció de l'obra acabada",
+        "La liquidació final"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el replanteig previ (art. 236), que s'aprova amb el projecte i abans de licitar, comprova la realitat geomètrica de l'obra i la disponibilitat dels terrenys necessaris per a la seva execució. Es distingeix de la comprovació del replanteig (art. 237), posterior a la formalització.",
+      "source": "LCSP",
+      "article": "art. 236 LCSP"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Quins són els requisits bàsics de l'edificació (art. 3 LOE)?",
+      "options": [
+        "Funcionalitat, seguretat i habitabilitat",
+        "Economia, rapidesa i estètica",
+        "Publicitat, transparència i concurrència",
+        "Legalitat, jerarquia i competència"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 3 de la LOE agrupa els requisits bàsics en tres blocs: funcionalitat (utilització, accessibilitat, telecomunicacions), seguretat (estructural, en cas d'incendi i d'utilització) i habitabilitat (higiene i salut, protecció contra el soroll, estalvi d'energia i aïllament tèrmic).",
+      "source": "LOE",
+      "article": "art. 3 LOE"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Què és el Codi Tècnic de l'Edificació (CTE)?",
+      "options": [
+        "El marc normatiu que estableix les exigències bàsiques de qualitat dels edificis, estructurat en documents bàsics (DB)",
+        "El registre de la propietat",
+        "El codi civil aplicat als edificis",
+        "Un manual d'estil arquitectònic sense valor normatiu"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el CTE (RD 314/2006) és el marc normatiu que concreta les exigències bàsiques de qualitat que han de complir els edificis per satisfer els requisits de la LOE, mitjançant els documents bàsics (DB): SE (seguretat estructural), SI (incendi), SUA (utilització i accessibilitat), HS (salubritat), HR (soroll) i HE (estalvi d'energia).",
+      "source": "CTE",
+      "article": "RD 314/2006"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Quin document bàsic del CTE regula la seguretat en cas d'incendi?",
+      "options": [
+        "El DB-SI",
+        "El DB-HE",
+        "El DB-HR",
+        "El DB-HS"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el DB-SI regula la seguretat en cas d'incendi. Els altres: DB-SE (seguretat estructural), DB-SUA (seguretat d'utilització i accessibilitat), DB-HS (salubritat), DB-HR (protecció davant el soroll) i DB-HE (estalvi d'energia).",
+      "source": "CTE",
+      "article": "CTE"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Quins terminis de garantia per danys materials preveu la LOE?",
+      "options": [
+        "Deu anys (danys estructurals), tres anys (habitabilitat) i un any (acabats)",
+        "Un any per a tot",
+        "Vint anys per a tot",
+        "No hi ha cap garantia"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la LOE estableix la responsabilitat civil dels agents amb terminis de garantia de deu anys per als danys materials que afectin elements estructurals, tres anys per als danys que afectin l'habitabilitat i un any per als danys que afectin els elements d'acabat.",
+      "source": "LOE",
+      "article": "art. 17 LOE"
+    },
+    {
+      "theme": 62,
+      "block": 14,
+      "q": "Què fomenta la normativa d'ecoeficiència en els edificis (Decret 21/2006)?",
+      "options": [
+        "L'estalvi d'aigua, d'energia i de materials i la gestió dels residus, amb la certificació energètica",
+        "L'ús exclusiu de materials importats",
+        "La construcció sense cap límit ambiental",
+        "L'eliminació de l'aïllament tèrmic"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el Decret 21/2006 d'ecoeficiència en els edificis (Catalunya) fixa paràmetres d'estalvi d'aigua, energia i materials i de gestió de residus; es complementa amb la certificació d'eficiència energètica dels edificis, que informa del consum energètic.",
+      "source": "CTE",
+      "article": "Decret 21/2006"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "De quines maneres es pot executar una obra local?",
+      "options": [
+        "Mitjançant contracte d'obres o mitjançant mitjans propis municipals (execució per l'Administració)",
+        "Únicament per contracte",
+        "Únicament pels veïns",
+        "Sense cap forma d'execució"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'obra local es pot executar mitjançant un contracte d'obres adjudicat a un contractista (regla general) o mitjançant mitjans propis municipals (execució per l'Administració, art. 30 LCSP), quan l'entitat disposa de mitjans o concorren els supòsits taxats.",
+      "source": "LCSP",
+      "article": "art. 30 LCSP"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "Quan és exigible la classificació del contractista d'obres (art. 77 LCSP)?",
+      "options": [
+        "Per als contractes d'obres de valor estimat igual o superior a 500.000 euros",
+        "Per a qualsevol contracte, per petit que sigui",
+        "Mai és exigible",
+        "Només per a contractes menors"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la classificació del contractista és exigible per als contractes d'obres de valor estimat igual o superior a 500.000 euros (art. 77 LCSP); acredita la solvència mitjançant grups, subgrups i categories. Per sota d'aquest import, la classificació és potestativa i s'acredita la solvència per altres mitjans.",
+      "source": "LCSP",
+      "article": "art. 77 LCSP"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "Quins agents intervenen en la direcció de l'obra?",
+      "options": [
+        "El director de l'obra, el director de l'execució de l'obra i el coordinador de seguretat i salut",
+        "Únicament l'alcalde",
+        "Només el contractista",
+        "Exclusivament la Intervenció"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): en l'execució de l'obra intervenen el director de l'obra (dirigeix el desenvolupament), el director de l'execució de l'obra (control material, amidaments i qualitat) i el coordinador de seguretat i salut (RD 1627/1997, coordina la prevenció de riscos laborals durant l'execució).",
+      "source": "LCSP",
+      "article": "RD 1627/1997"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "Què són les certificacions d'obra?",
+      "options": [
+        "Documents mensuals que acrediten l'obra executada i donen dret a l'abonament a compte, sense implicar recepció",
+        "El projecte tècnic de l'obra",
+        "La recepció final",
+        "Les factures dels subcontractistes"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): les certificacions d'obra són documents que, com a regla mensual, acrediten l'obra executada i donen dret a l'abonament a compte al contractista; tenen caràcter provisional i a bon compte, sense implicar la recepció ni l'aprovació definitiva de les unitats certificades.",
+      "source": "LCSP",
+      "article": "art. 240 LCSP"
+    },
+    {
+      "theme": 63,
+      "block": 14,
+      "q": "Què és la recepció de l'obra (art. 243 LCSP)?",
+      "options": [
+        "L'acte formal i positiu de conformitat amb què s'entén complerta l'obra i s'inicia el termini de garantia (mínim un any)",
+        "La primera certificació mensual",
+        "El replanteig previ",
+        "La redacció del projecte"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la recepció (art. 243) és l'acte formal i positiu de conformitat amb l'obra executada; a partir d'ella comença el termini de garantia (mínim un any). Transcorregut aquest sense objeccions, es practiquen l'amidament general i la liquidació i s'allibera la garantia.",
+      "source": "LCSP",
+      "article": "art. 243 LCSP"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "Què comprèn la planificació de les obres municipals?",
+      "options": [
+        "La definició d'objectius i abast, la descomposició en tasques, la programació temporal i la previsió de recursos",
+        "Únicament la firma del contracte",
+        "Només el pagament de factures",
+        "La designació de personal eventual"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la planificació d'una obra comprèn la definició d'objectius, abast i requisits, la descomposició en tasques amb responsables i recursos, la programació temporal (cronogrames, diagrames de Gantt) amb fites i dependències, i la previsió pressupostària i de mitjans.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "Quina eina s'utilitza habitualment per programar temporalment una obra?",
+      "options": [
+        "El diagrama de Gantt (cronograma amb tasques, fites i dependències)",
+        "El balanç de situació",
+        "El padró d'habitants",
+        "L'acta de recepció"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el diagrama de Gantt és una eina de programació temporal que representa les tasques al llarg del temps, amb les seves fites i dependències, i permet fer el seguiment de l'avançament de l'obra respecte del previst. És bàsica per a la gestió de projectes.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "Quines àrees municipals cal coordinar en una obra?",
+      "options": [
+        "Els serveis tècnics, la contractació, la intervenció/hisenda i els serveis afectats (via pública, mobilitat, subministraments)",
+        "Únicament l'alcaldia",
+        "Només la policia local",
+        "Cap; l'obra la fa una sola persona"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): les obres municipals impliquen diverses àrees que cal coordinar: els serveis tècnics/urbanisme (projectes i direcció), la contractació (licitació i contracte), la intervenció/hisenda (fiscalització i crèdit) i els serveis afectats (via pública, mobilitat, subministraments). La coordinació és clau per a l'eficàcia.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "Com es fa el seguiment de l'execució d'una obra?",
+      "options": [
+        "Mitjançant la direcció facultativa, el llibre d'ordres, les reunions de coordinació i el control de l'avançament respecte del programa",
+        "Sense cap seguiment",
+        "Només amb la factura final",
+        "Amb un referèndum popular"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el seguiment es fa a través de la direcció facultativa, el llibre d'ordres, les reunions de coordinació i el control de l'avançament respecte del programa de treball, adoptant mesures correctores davant les desviacions de termini, cost o qualitat.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 64,
+      "block": 14,
+      "q": "Quins criteris permeten prioritzar les actuacions d'obra municipal?",
+      "options": [
+        "La urgència, la seguretat, l'impacte social i la disponibilitat pressupostària",
+        "L'ordre alfabètic",
+        "El color dels edificis",
+        "La proximitat a l'ajuntament"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la priorització de les obres es fa segons criteris objectius com la urgència, la seguretat (riscos per a les persones), l'impacte social i la disponibilitat pressupostària. La planificació ha de ser flexible per adaptar-se a imprevistos sense perdre de vista els objectius de termini, cost i qualitat.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "Què són els patrimonis públics de sòl i habitatge (art. 160 TRLUC)?",
+      "options": [
+        "Conjunts de béns i recursos afectats a finalitats d'interès social relacionades amb l'habitatge i l'ordenació",
+        "Béns privats de renda alta",
+        "El patrimoni personal de l'alcalde",
+        "Els béns de domini públic viari"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): els patrimonis públics de sòl i habitatge (art. 160 TRLUC) són conjunts de béns i recursos afectats a finalitats d'interès social: preveure, ordenar i executar actuacions públiques d'habitatge, regular el mercat de sòl, facilitar l'execució del planejament i fer efectiu el dret a l'habitatge (art. 47 CE).",
+      "source": "TRLUC",
+      "article": "art. 160 TRLUC"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "Quina naturalesa tenen els patrimonis públics de sòl i habitatge (art. 161 TRLUC)?",
+      "options": [
+        "De patrimoni separat: els béns i recursos estan afectats i tenen comptabilitat i gestió diferenciades",
+        "De patrimoni lliure sense afectació",
+        "De béns privats disponibles",
+        "De domini públic viari"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): tenen la naturalesa de patrimoni separat (art. 161): els béns i recursos estan vinculats a les finalitats legals, amb comptabilitat i gestió diferenciades de la resta del patrimoni de l'ens, i no es poden desviar de la finalitat social; els ingressos obtinguts s'han de reinvertir en el mateix patrimoni.",
+      "source": "TRLUC",
+      "article": "art. 161 TRLUC"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "Quin d'aquests béns integra el patrimoni públic de sòl (art. 162 TRLUC)?",
+      "options": [
+        "El sòl obtingut per la cessió obligatòria de l'aprofitament urbanístic",
+        "Els vehicles de la policia local",
+        "El mobiliari de les oficines",
+        "Els diners de la caixa fixa"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): integren el patrimoni públic de sòl, entre d'altres, el sòl obtingut per la cessió obligatòria de l'aprofitament urbanístic, els béns adquirits amb els recursos del mateix patrimoni i les reserves de sòl per a habitatge de protecció pública.",
+      "source": "TRLUC",
+      "article": "art. 162 TRLUC"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "A què s'han de destinar els béns del patrimoni públic de sòl i habitatge?",
+      "options": [
+        "A la construcció d'habitatge protegit, actuacions de millora urbana i altres finalitats d'interès social previstes legalment",
+        "A finançar despeses corrents ordinàries",
+        "A qualsevol finalitat lliurement",
+        "A la venda a preu de mercat sense reinversió"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): els béns del patrimoni públic de sòl i habitatge s'han de destinar a la construcció d'habitatge de protecció pública, a actuacions de millora urbana, a l'obtenció de sòl per a sistemes i a altres finalitats d'interès social previstes legalment. La seva desviació a altres fins vulneraria l'afectació.",
+      "source": "TRLUC",
+      "article": "art. 163 TRLUC"
+    },
+    {
+      "theme": 65,
+      "block": 11,
+      "q": "Què passa amb els ingressos obtinguts del patrimoni públic de sòl?",
+      "options": [
+        "S'han de reinvertir en el mateix patrimoni, per la seva naturalesa de patrimoni separat",
+        "Es poden gastar en qualsevol despesa municipal",
+        "Passen al patrimoni personal dels regidors",
+        "Es retornen a l'Estat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): pel caràcter de patrimoni separat, els ingressos obtinguts de la gestió del patrimoni públic de sòl (per exemple, per l'alienació de béns) s'han de reinvertir en el mateix patrimoni, per garantir la continuïtat de les finalitats socials d'habitatge i ordenació.",
+      "source": "TRLUC",
+      "article": "art. 161 TRLUC"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "Què són les urbanitzacions amb dèficits urbanístics?",
+      "options": [
+        "Nuclis o urbanitzacions preexistents que no disposen dels serveis urbanístics bàsics o no van completar la gestió urbanística",
+        "Urbanitzacions de nova creació perfectament acabades",
+        "Edificis d'habitatge protegit",
+        "Zones verdes municipals"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): les urbanitzacions amb dèficits urbanístics són àmbits residencials preexistents (sovint d'origen antic) que presenten mancances: manca o insuficiència de serveis (vials, aigua, sanejament, enllumenat), absència de cessions o parcel·lació al marge del planejament. El problema és material i jurídic.",
+      "source": "TRLUC",
+      "article": "Llei 3/2009"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "Quina és la finalitat de la regularització d'aquestes urbanitzacions?",
+      "options": [
+        "Dotar-les dels serveis urbanístics bàsics i integrar-les en el teixit urbà, corregint una situació d'irregularitat històrica",
+        "Enderrocar-les totes",
+        "Mantenir-les sense serveis",
+        "Convertir-les en sòl no urbanitzable"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la finalitat de la regularització (Llei 3/2009 i TRLUC) és dotar aquestes urbanitzacions dels serveis urbanístics bàsics i integrar-les perquè assoleixin les condicions de sòl urbà, corregint una situació d'irregularitat històrica i garantint els serveis en condicions d'igualtat.",
+      "source": "TRLUC",
+      "article": "Llei 3/2009"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "Amb quins instruments s'articula la regularització?",
+      "options": [
+        "Plans especials o de millora urbana, projectes de reparcel·lació i projectes d'urbanització per completar els serveis",
+        "Únicament amb bans de l'alcalde",
+        "Sense cap instrument",
+        "Amb ordenances fiscals exclusivament"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la regularització s'articula mitjançant instruments de planejament i gestió: plans especials o de millora urbana (per ordenar la regularització), projectes de reparcel·lació (per distribuir beneficis i càrregues i regularitzar la propietat) i projectes d'urbanització (per implantar els serveis que manquen).",
+      "source": "TRLUC",
+      "article": "Llei 3/2009"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "A qui correspon, com a regla, el cost de dotar l'urbanització dels serveis?",
+      "options": [
+        "Als propietaris beneficiats, segons el principi d'equidistribució, amb el suport que puguin aportar les administracions",
+        "Íntegrament a l'Estat",
+        "A ningú; els serveis són gratuïts",
+        "Exclusivament a la Generalitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el cost de dotar l'urbanització dels serveis correspon, com a regla, als propietaris beneficiats, segons el principi d'equidistribució (justa distribució de beneficis i càrregues), amb la col·laboració i el suport que puguin aportar les administracions públiques.",
+      "source": "TRLUC",
+      "article": "Llei 3/2009"
+    },
+    {
+      "theme": 66,
+      "block": 11,
+      "q": "Quin és l'objectiu final de la regularització quant a la classe de sòl?",
+      "options": [
+        "Que aquests àmbits assoleixin les condicions de sòl urbà i s'hi puguin prestar els serveis en condicions d'igualtat",
+        "Convertir-los en sòl rústic",
+        "Deixar-los sense classificar",
+        "Fer-los desaparèixer"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'objectiu últim és que aquests àmbits, un cop dotats dels serveis i regularitzats jurídicament, assoleixin les condicions de sòl urbà i s'hi puguin prestar els serveis en condicions d'igualtat amb la resta del municipi, integrant-los plenament.",
+      "source": "TRLUC",
+      "article": "Llei 3/2009"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "Què és l'expropiació forçosa?",
+      "options": [
+        "La privació singular de la propietat o de drets patrimonials per causa d'utilitat pública o interès social, mitjançant indemnització",
+        "La confiscació sense indemnització de béns",
+        "Una sanció administrativa",
+        "Un impost sobre el patrimoni"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'expropiació forçosa (art. 33.3 CE i LEF) és la privació singular de la propietat privada o de drets o interessos patrimonials legítims, acordada imperativament per l'Administració, per causa d'utilitat pública o interès social, mitjançant la corresponent indemnització (preu just).",
+      "source": "LEF",
+      "article": "art. 1 LEF"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "Qui és el beneficiari en l'expropiació forçosa?",
+      "options": [
+        "El subjecte que adquireix el bé o es beneficia de l'expropiació, que pot ser un tercer",
+        "Sempre l'expropiat",
+        "Únicament l'Estat",
+        "El jutge"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): en l'expropiació es distingeixen l'expropiant (titular de la potestat: Estat, CCAA, ens local), el beneficiari (qui adquireix el bé o es beneficia de l'expropiació, que pot ser un tercer, com un concessionari) i l'expropiat (titular del bé o dret que se sacrifica).",
+      "source": "LEF",
+      "article": "art. 2-3 LEF"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "Quines són les fases del procediment expropiatori ordinari?",
+      "options": [
+        "Declaració d'utilitat pública, necessitat d'ocupació, determinació del preu just i pagament i presa de possessió",
+        "Sol·licitud, informe i arxivament",
+        "Iniciació, instrucció i recurs",
+        "Subhasta i adjudicació"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el procediment ordinari (LEF) segueix quatre fases: declaració d'utilitat pública o interès social, declaració de necessitat d'ocupació (relació de béns), determinació del preu just (fulls d'apreuament i, si no hi ha acord, jurat d'expropiació) i pagament i presa de possessió.",
+      "source": "LEF",
+      "article": "LEF"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "Què és el dret de reversió (art. 54 LEF)?",
+      "options": [
+        "El dret de l'expropiat a recuperar el bé si no s'executa l'obra que va motivar l'expropiació o desapareix la causa",
+        "El dret a una segona indemnització",
+        "El dret a ocupar un altre bé",
+        "El dret a no pagar impostos"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la reversió (art. 54 LEF) és el dret de l'expropiat (o els seus successors) a recuperar el bé expropiat quan no s'executa l'obra o el servei que va motivar l'expropiació, o quan desapareix la seva afectació a aquesta finalitat, amb la restitució de la indemnització actualitzada.",
+      "source": "LEF",
+      "article": "art. 54 LEF"
+    },
+    {
+      "theme": 67,
+      "block": 11,
+      "q": "En què consisteix la tramitació d'urgència de l'expropiació (art. 52 LEF)?",
+      "options": [
+        "Inverteix l'ordre i permet l'ocupació immediata prèvia consignació d'un dipòsit, i el preu just es fixa després",
+        "Elimina la indemnització",
+        "Suprimeix la declaració d'utilitat pública",
+        "Allarga el procediment indefinidament"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la tramitació d'urgència (art. 52) inverteix l'ordre del procediment: permet l'ocupació immediata del bé prèvia consignació d'un dipòsit i el pagament de les indemnitzacions per ràpida ocupació, i el preu just es determina posteriorment. És un procediment excepcional que requereix una declaració d'urgència.",
+      "source": "LEF",
+      "article": "art. 52 LEF"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Segons quina situació es valora el sòl (TRLSRU)?",
+      "options": [
+        "Segons la seva situació bàsica: el sòl rural per capitalització de rendes i el sòl urbanitzat pel mètode residual",
+        "Sempre pel preu de mercat lliure",
+        "Segons la classificació urbanística futura",
+        "Segons el que decideixi el propietari"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el mètode de valoració depèn de la situació bàsica del sòl: el sòl rural es valora per capitalització de la renda real o potencial de l'explotació (més factors de localització); el sòl urbanitzat, pel mètode residual segons l'edificabilitat i l'ús atribuïts. No es valoren expectatives urbanístiques no materialitzades.",
+      "source": "TRLSRU",
+      "article": "art. 36 TRLSRU"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Com es valoren les construccions, instal·lacions i edificacions?",
+      "options": [
+        "Pel cost de reposició a nou, deduint la depreciació segons l'antiguitat i l'estat de conservació",
+        "Sempre pel seu valor cadastral",
+        "Pel preu de compra original sense actualitzar",
+        "No es valoren mai"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): les construccions es valoren pel cost de reposició a nou, del qual es dedueix la depreciació segons l'antiguitat i l'estat de conservació. Quan són conformes amb l'ordenació, es valoren conjuntament amb el sòl (en el sòl urbanitzat edificat).",
+      "source": "TRLSRU",
+      "article": "art. 35 TRLSRU"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Es poden valorar les expectatives urbanístiques no materialitzades?",
+      "options": [
+        "No; la Llei del sòl prohibeix valorar expectatives derivades d'edificabilitats o usos no materialitzats",
+        "Sí, sempre s'han de valorar",
+        "Sí, però només la meitat",
+        "Depèn de la voluntat de l'Administració"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la Llei del sòl (TRLSRU) prohibeix valorar les expectatives urbanístiques derivades de l'assignació d'edificabilitats o usos per un planejament que encara no s'ha materialitzat: el sòl es valora segons la seva situació bàsica real, no segons classificacions o edificabilitats futures.",
+      "source": "TRLSRU",
+      "article": "art. 36 TRLSRU"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Què és el premi d'afecció en les valoracions expropiatòries?",
+      "options": [
+        "Un 5% addicional sobre el valor del bé expropiat",
+        "Un descompte del 10% sobre el valor",
+        "Una taxa que paga l'expropiat",
+        "Una sanció"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el premi d'afecció és un 5% addicional que s'afegeix al valor del bé expropiat, en concepte de compensació pel sacrifici forçós de la propietat. S'aplica sobre el valor del bé, no sobre les indemnitzacions complementàries per trasllat o pèrdua d'activitat.",
+      "source": "LEF",
+      "article": "art. 47 LEF"
+    },
+    {
+      "theme": 68,
+      "block": 11,
+      "q": "Quina és la data de referència de la valoració, com a regla?",
+      "options": [
+        "La d'iniciació de l'expedient (o la que correspongui segons la finalitat), per garantir l'objectivitat",
+        "La data de construcció de l'edifici",
+        "La data actual sempre",
+        "La data de naixement del propietari"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la data de referència de la valoració és, en general, la d'iniciació de l'expedient (o la que correspongui segons la finalitat de la valoració), per garantir l'objectivitat del càlcul i evitar que fluctuacions posteriors n'alterin el resultat.",
+      "source": "TRLSRU",
+      "article": "art. 34 TRLSRU"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Quin principi exigeix que les infraccions i sancions estiguin previstes en una norma amb rang de llei?",
+      "options": [
+        "El principi de legalitat (art. 25 Llei 40/2015)",
+        "El principi de celeritat",
+        "El principi de gratuïtat",
+        "El principi dispositiu"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el principi de legalitat (art. 25 de la Llei 40/2015) exigeix que la potestat sancionadora s'exerceixi quan hagi estat expressament reconeguda per una norma amb rang de llei, i que les infraccions i sancions estiguin previstes en normes amb aquest rang (reserva de llei). Deriva de l'art. 25 de la Constitució.",
+      "source": "L40_2015",
+      "article": "art. 25 Llei 40/2015"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Què implica el principi de tipicitat (art. 27 Llei 40/2015)?",
+      "options": [
+        "Que només constitueixen infraccions i sancions les previstes com a tals; es prohibeix l'analogia",
+        "Que qualsevol conducta es pot sancionar lliurement",
+        "Que les sancions són sempre les mateixes",
+        "Que no cal definir les infraccions"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la tipicitat (art. 27) exigeix que les conductes constitutives d'infracció i les sancions estiguin definides de manera precisa en la norma; es prohibeix l'aplicació analògica de les normes sancionadores i la interpretació extensiva en perjudici del presumpte infractor.",
+      "source": "L40_2015",
+      "article": "art. 27 Llei 40/2015"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Es pot sancionar sense dol ni culpa (responsabilitat objectiva)?",
+      "options": [
+        "No; el principi de responsabilitat (art. 28) exigeix dol o culpa; no hi ha responsabilitat objectiva en el dret sancionador",
+        "Sí, sempre es pot sancionar objectivament",
+        "Sí, en tots els casos",
+        "Depèn de l'import de la multa"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el principi de responsabilitat o culpabilitat (art. 28) exigeix que hi hagi dol o culpa (encara que sigui simple negligència): no s'admet la responsabilitat objectiva en el dret administratiu sancionador. Cal, doncs, un element subjectiu de reprotxabilitat.",
+      "source": "L40_2015",
+      "article": "art. 28 Llei 40/2015"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Què significa el principi non bis in idem?",
+      "options": [
+        "Que no es pot sancionar dues vegades el mateix fet amb el mateix fonament (identitat de subjecte, fet i fonament)",
+        "Que sempre s'imposen dues sancions",
+        "Que la sanció es duplica en cas de reincidència",
+        "Que no hi ha límit de sancions"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el principi non bis in idem prohibeix la doble sanció (penal i administrativa, o dues d'administratives) pels mateixos fets quan hi ha identitat de subjecte, fet i fonament. És una garantia derivada dels principis de legalitat i tipicitat.",
+      "source": "L40_2015",
+      "article": "art. 31 Llei 40/2015"
+    },
+    {
+      "theme": 69,
+      "block": 12,
+      "q": "Poden les ordenances locals tipificar infraccions i sancions?",
+      "options": [
+        "Sí, dins els límits dels arts. 139-141 de la LRBRL, quan no hi ha una llei sectorial específica",
+        "No, en cap cas",
+        "Sí, sense cap límit",
+        "Només si ho autoritza l'Estat cas per cas"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): els arts. 139-141 de la LRBRL habiliten les ordenances locals per tipificar infraccions i sancions en matèries de competència municipal quan no hi ha una llei sectorial específica, amb límits de quantia segons trams (molt greus, greus i lleus). És una modulació del principi de legalitat en l'àmbit local.",
+      "source": "L40_2015",
+      "article": "arts. 139-141 LRBRL"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Com es classifiquen les infraccions urbanístiques (art. 214 TRLUC)?",
+      "options": [
+        "En molt greus, greus i lleus",
+        "En penals i civils",
+        "En majors i menors",
+        "En fiscals i administratives"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): les infraccions urbanístiques es classifiquen segons la seva gravetat en molt greus, greus i lleus (art. 214 TRLUC). Les molt greus són les que afecten sòl no urbanitzable protegit, sistemes generals, zones verdes o béns catalogats; les lleus, les de menor entitat i legalitzables.",
+      "source": "TRLUC",
+      "article": "art. 214 TRLUC"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Quina d'aquestes és una infracció urbanística molt greu?",
+      "options": [
+        "La que afecta sòl no urbanitzable de protecció especial, sistemes generals, espais lliures o béns catalogats",
+        "Una obra menor sense llicència en un solar edificable",
+        "Un retard en la comunicació prèvia",
+        "Un error en un plànol"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): són molt greus les infraccions que afecten sòl no urbanitzable de protecció especial, sistemes generals, espais lliures, zones verdes o béns catalogats, o que suposen parcel·lacions il·legals en aquest sòl. Les greus són les altres vulneracions de l'ordenament, i les lleus, les de menor entitat i legalitzables.",
+      "source": "TRLUC",
+      "article": "art. 214 TRLUC"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Quina d'aquestes és una actuació que vulnera l'ordenament urbanístic (art. 213 TRLUC)?",
+      "options": [
+        "Executar obres sense llicència o contra les seves condicions, o fer parcel·lacions il·legals",
+        "Sol·licitar una llicència",
+        "Presentar una comunicació prèvia correcta",
+        "Conservar un edifici en bon estat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): constitueixen infracció, entre d'altres, executar obres sense llicència o comunicació o contra les seves condicions, fer parcel·lacions urbanístiques il·legals, incomplir els deures urbanístics i desatendre les ordres d'execució o de restauració (art. 213 TRLUC).",
+      "source": "TRLUC",
+      "article": "art. 213 TRLUC"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Qui pot ser responsable d'una infracció urbanística (art. 216 TRLUC)?",
+      "options": [
+        "El promotor, el constructor o empresari, el tècnic director i, si escau, el propietari i les autoritats que atorguen llicències il·legals",
+        "Únicament el propietari del sòl",
+        "Només l'alcalde",
+        "Ningú"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): poden ser responsables el promotor (qui impulsa l'actuació), el constructor o empresari (qui l'executa), el tècnic director (qui la dirigeix), el propietari en els casos que li és imputable, i les autoritats i funcionaris que atorguen llicències o ordres manifestament il·legals (art. 216 TRLUC).",
+      "source": "TRLUC",
+      "article": "art. 216 TRLUC"
+    },
+    {
+      "theme": 70,
+      "block": 12,
+      "q": "Les infraccions lleus, quina característica tenen?",
+      "options": [
+        "Són les de menor entitat, legalitzables i amb escàs perjudici a l'interès urbanístic",
+        "Són les més greus de totes",
+        "Afecten sempre el domini públic",
+        "No es poden sancionar"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): les infraccions lleus són les de menor entitat, generalment legalitzables i que causen un escàs perjudici a l'interès urbanístic. Es distingeixen de les greus (vulneracions de l'ordenament que no són ni molt greus ni lleus) i de les molt greus (sòl protegit, sistemes, catalogats).",
+      "source": "TRLUC",
+      "article": "art. 214 TRLUC"
     }
   ]
 }
