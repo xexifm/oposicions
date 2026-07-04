@@ -51,8 +51,30 @@ img{max-width:100%}
 }
 .topbar-inner{max-width:920px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;gap:12px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);min-width:0}
-.brand .crest{width:34px;height:34px;border-radius:8px;background:var(--crimson);color:#fff;
-  display:grid;place-items:center;font-family:var(--serif);font-weight:900;flex:0 0 auto}
+.brand .crest{width:34px;height:34px;border-radius:8px;background:var(--crest-color,var(--crimson));color:#fff;
+  display:grid;place-items:center;font-family:var(--serif);font-weight:900;flex:0 0 auto;overflow:hidden}
+.brand .crest img{width:100%;height:100%;object-fit:contain;background:#fff}
+
+/* --- capçal de municipi (a la pantalla d'inici) --- */
+.munibar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;
+  margin-bottom:14px;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.munilabel{font-size:.95rem}
+.btn.sm{padding:5px 10px;font-size:.85rem}
+
+/* --- selector d'oposició --- */
+.trialist{display:grid;gap:14px;max-width:560px;margin:8px auto 0}
+.triacard{display:flex;align-items:center;gap:14px;width:100%;text-align:left;cursor:pointer;
+  padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:inherit;
+  font:inherit;transition:border-color .15s,transform .05s}
+.triacard:hover{border-color:var(--crest-color,var(--crimson))}
+.triacard:active{transform:translateY(1px)}
+.triacrest{width:52px;height:52px;border-radius:12px;background:var(--crest-color,var(--crimson));color:#fff;
+  display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:1.5rem;flex:0 0 auto;overflow:hidden}
+.triacrest img{width:100%;height:100%;object-fit:contain;background:#fff}
+.triatxt{flex:1 1 auto;display:flex;flex-direction:column;gap:2px}
+.triatxt b{font-family:var(--serif);font-size:1.15rem;font-weight:600}
+.triatxt small{color:var(--ink-soft);font-size:.88rem}
+.triacard .tgo{font-size:1.3rem;color:var(--ink-faint)}
 .brand b{font-family:var(--serif);font-weight:600;font-size:1rem;line-height:1.1}
 .brand small{display:block;color:var(--ink-faint);font-size:.72rem;font-weight:500}
 .spacer{flex:1}

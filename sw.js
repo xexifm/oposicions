@@ -6,7 +6,7 @@
    - Dades (/data/): network-first amb còpia per a offline.
    - Icones/manifest: cache-first.
    El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v58';
+const CACHE = 'montornes-oposicio-v59';
 const ASSETS = [
   './',
   './index.html',
@@ -16,10 +16,14 @@ const ASSETS = [
   './assets/js/grader.js',
   './assets/js/sync.js',
   './assets/js/gist.js',
-  './data/temari.json',
-  './data/resums.json',
-  './data/questions.json',
-  './data/cases.json',
+  './data/montornes/temari.json',
+  './data/montornes/resums.json',
+  './data/montornes/questions.json',
+  './data/montornes/cases.json',
+  './data/cornella/temari.json',
+  './data/cornella/resums.json',
+  './data/cornella/questions.json',
+  './data/cornella/cases.json',
   './manifest.webmanifest',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
