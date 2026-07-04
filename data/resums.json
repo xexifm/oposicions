@@ -5,36 +5,88 @@
   },
   "resums": {
     "1": {
-      "intro": "La Constitució espanyola (CE) de 1978 és la norma suprema de l'ordenament jurídic, a la qual se subordinen totes les altres normes i que el Tribunal Constitucional garanteix. Va ser ratificada en referèndum el 6 de desembre de 1978. Aquest tema en tracta l'estructura, els principis del títol preliminar i els drets fonamentals.",
+      "intro": "La Constitució espanyola (CE) de 1978 és la norma suprema de l'ordenament jurídic, a la qual se subordinen totes les altres normes i que garanteix el Tribunal Constitucional. Va ser ratificada en referèndum el 6 de desembre de 1978. El tema en tracta l'estructura, els principis del títol preliminar, els drets fonamentals i la reforma.",
       "sections": [
         {
-          "h": "Estructura",
-          "p": "La CE consta d'un preàmbul, un títol preliminar (arts. 1-9) i deu títols numerats, amb un total de 169 articles, més disposicions addicionals, transitòries, derogatòria i final. Es distingeix una part dogmàtica (el títol preliminar i el títol I, sobre valors i drets) i una part orgànica (que regula la Corona, les Corts Generals, el Govern, el poder judicial, l'organització territorial, el Tribunal Constitucional i la reforma)."
-        },
-        {
-          "h": "Títol preliminar: principis generals",
-          "p": "El títol preliminar recull els principis bàsics:",
+          "h": "1. Estructura",
+          "p": "La CE consta d'un preàmbul, un títol preliminar (arts. 1-9) i deu títols numerats, amb 169 articles, més 4 disposicions addicionals, 9 transitòries, 1 derogatòria i 1 final. Es distingeixen dues parts:",
           "list": [
-            "Espanya es constitueix en un Estat social i democràtic de dret (art. 1.1), amb els valors superiors de la llibertat, la justícia, la igualtat i el pluralisme polític.",
-            "La sobirania nacional resideix en el poble (art. 1.2) i la forma política de l'Estat és la monarquia parlamentària (art. 1.3).",
-            "Es fonamenta en la unitat de la nació i reconeix el dret a l'autonomia de les nacionalitats i regions (art. 2).",
-            "L'art. 9.3 garanteix el principi de legalitat, la jerarquia normativa, la publicitat de les normes, la irretroactivitat de les disposicions sancionadores no favorables, la seguretat jurídica, la responsabilitat i la interdicció de l'arbitrarietat dels poders públics."
+            "Part dogmàtica: el títol preliminar i el Títol I (valors, drets i deures).",
+            "Part orgànica: la Corona (II), les Corts Generals (III), el Govern i l'Administració (IV), les relacions Govern-Corts (V), el poder judicial (VI), l'economia i la hisenda (VII), l'organització territorial (VIII), el Tribunal Constitucional (IX) i la reforma (X)."
           ]
         },
         {
-          "h": "Drets fonamentals i nivells de protecció",
-          "p": "El títol I regula els drets i deures, amb la dignitat de la persona com a fonament (art. 10). La intensitat de la protecció depèn de la ubicació del dret: la màxima correspon a l'art. 14 (igualtat) i als drets de la Secció 1a del Capítol II (arts. 15-29) i a l'objecció de consciència (art. 30.2), que es regulen per llei orgànica i gaudeixen del recurs d'empara davant el Tribunal Constitucional i d'un procediment preferent i sumari."
+          "h": "2. Títol preliminar: principis generals",
+          "p": "Recull els principis bàsics de l'Estat:",
+          "list": [
+            "Art. 1.1: Estat social i democràtic de dret; valors superiors: llibertat, justícia, igualtat i pluralisme polític.",
+            "Art. 1.2: la sobirania nacional resideix en el poble. Art. 1.3: monarquia parlamentària.",
+            "Art. 2: unitat de la nació i dret a l'autonomia de nacionalitats i regions.",
+            "Art. 9.3: garanteix el principi de legalitat, la jerarquia normativa, la publicitat de les normes, la irretroactivitat de les disposicions sancionadores no favorables, la seguretat jurídica, la responsabilitat i la interdicció de l'arbitrarietat."
+          ]
         },
         {
-          "h": "Garanties i reforma",
-          "p": "L'art. 53 estableix les garanties dels drets i l'art. 54 crea el Defensor del Poble. La reforma es fa per dos procediments: l'ordinari (art. 167), per la resta del text, i l'agreujat (art. 168), per a la revisió total o la que afecti el títol preliminar, els drets fonamentals o la Corona, que exigeix majories qualificades, la dissolució de les Corts i un referèndum obligatori."
+          "h": "3. Drets fonamentals i nivells de protecció",
+          "p": "El Títol I regula els drets i deures (la dignitat de la persona n'és el fonament, art. 10). La intensitat de la protecció depèn de la ubicació del dret:",
+          "table": {
+            "headers": [
+              "Drets",
+              "Ubicació",
+              "Protecció"
+            ],
+            "rows": [
+              [
+                "Igualtat i drets fonamentals i llibertats públiques",
+                "Art. 14 i arts. 15-29 (+ objecció, 30.2)",
+                "Llei orgànica; procediment preferent i sumari; recurs d'empara davant el TC"
+              ],
+              [
+                "Resta de drets i deures",
+                "Arts. 30-38",
+                "Reserva de llei; vinculen els poders públics; sense empara"
+              ],
+              [
+                "Principis rectors (política social i econòmica)",
+                "Capítol III (arts. 39-52)",
+                "Informen la legislació; al·legables segons les lleis que els desenvolupin"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "4. Garanties i reforma",
+          "p": "L'art. 53 estableix les garanties dels drets i l'art. 54 crea el Defensor del Poble. Hi ha dos procediments de reforma:",
+          "table": {
+            "headers": [
+              "",
+              "Ordinari (art. 167)",
+              "Agreujat (art. 168)"
+            ],
+            "rows": [
+              [
+                "S'aplica a",
+                "La resta del text constitucional",
+                "Revisió total, o del títol preliminar, els drets fonamentals (Secció 1a) o la Corona"
+              ],
+              [
+                "Majoria",
+                "3/5 de cada cambra",
+                "2/3 de cada cambra"
+              ],
+              [
+                "Especialitats",
+                "Referèndum si el demana 1/10 dels membres d'una cambra",
+                "Dissolució de les Corts + ratificació per les noves cambres + referèndum obligatori"
+              ]
+            ]
+          }
         }
       ],
       "keypoints": [
         {
           "h": "Estructura",
           "p": [
-            "Preàmbul + títol preliminar + 10 títols; 169 articles",
+            "Títol preliminar + 10 títols; 169 articles",
             "Part dogmàtica (drets) i orgànica (poders)"
           ]
         },
@@ -42,22 +94,22 @@
           "h": "Principis (títol preliminar)",
           "p": [
             "Estat social i democràtic de dret (art. 1.1)",
-            "Sobirania popular (art. 1.2); monarquia parlamentària (art. 1.3)",
+            "Sobirania popular (1.2); monarquia parlamentària (1.3)",
             "Garanties de l'art. 9.3"
           ]
         },
         {
           "h": "Drets",
           "p": [
-            "Màxima protecció: art. 14 i arts. 15-29 (+30.2)",
-            "Llei orgànica i recurs d'empara"
+            "Màxima protecció: art. 14 i arts. 15-29 (+30.2) → empara",
+            "Resta: reserva de llei; principis rectors: informen"
           ]
         },
         {
           "h": "Reforma",
           "p": [
-            "Ordinària (art. 167)",
-            "Agreujada (art. 168): dissolució + referèndum"
+            "Ordinària (art. 167): 3/5",
+            "Agreujada (art. 168): 2/3 + dissolució + referèndum"
           ]
         }
       ]
@@ -66,34 +118,46 @@
       "intro": "L'Estatut d'autonomia de Catalunya (EAC) és la norma institucional bàsica de la Generalitat i forma part del bloc de constitucionalitat. L'EAC vigent és la Llei orgànica 6/2006.",
       "sections": [
         {
-          "h": "Naturalesa i estructura",
-          "p": "L'EAC és una llei orgànica de caràcter especial: l'elaboren i aproven el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum del poble de Catalunya. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols:",
+          "h": "1. Naturalesa i estructura",
+          "p": "L'EAC és una llei orgànica de caràcter especial: l'elaboren i aproven el Parlament de Catalunya i les Corts Generals, i la seva reforma requereix, en general, referèndum. S'estructura en un títol preliminar (Catalunya, símbols, llengua, capital) i set títols: drets, deures i principis rectors; les institucions; el poder judicial a Catalunya; les competències; les relacions institucionals; el finançament; i la reforma."
+        },
+        {
+          "h": "2. La Generalitat: institucions",
+          "p": "La Generalitat és el sistema institucional de l'autogovern de Catalunya. La integren:",
           "list": [
-            "Drets, deures i principis rectors",
-            "Les institucions",
-            "El poder judicial a Catalunya",
-            "Les competències",
-            "Les relacions institucionals",
-            "El finançament",
-            "La reforma"
+            "El Parlament: representa el poble i exerceix la potestat legislativa.",
+            "El president o presidenta de la Generalitat: la més alta representació.",
+            "El Govern: òrgan executiu i de direcció política.",
+            "Altres institucions estatutàries: el Síndic de Greuges, la Sindicatura de Comptes i el Consell de Garanties Estatutàries."
           ]
         },
         {
-          "h": "La Generalitat: institucions",
-          "p": "La Generalitat és el sistema institucional en què s'organitza l'autogovern de Catalunya. La integren el Parlament (que representa el poble i exerceix la potestat legislativa), el president o presidenta de la Generalitat (la més alta representació) i el Govern (òrgan executiu). En formen part també altres institucions estatutàries: el Síndic de Greuges, la Sindicatura de Comptes i el Consell de Garanties Estatutàries."
-        },
-        {
-          "h": "Les competències",
+          "h": "3. Les competències",
           "p": "L'EAC classifica les competències de la Generalitat en tres tipus:",
-          "list": [
-            "Exclusives (art. 110): corresponen íntegrament a la Generalitat, que hi exerceix la potestat legislativa, la reglamentària i l'executiva.",
-            "Compartides (art. 111): la Generalitat exerceix el desenvolupament legislatiu i l'execució, en el marc de les bases que fixa l'Estat.",
-            "Executives (art. 112): la Generalitat exerceix la funció executiva, inclosa la potestat reglamentària d'organització."
-          ]
+          "table": {
+            "headers": [
+              "Tipus",
+              "Potestats de la Generalitat"
+            ],
+            "rows": [
+              [
+                "Exclusives (art. 110)",
+                "Potestat legislativa, reglamentària i executiva íntegres, amb dret propi preferent"
+              ],
+              [
+                "Compartides (art. 111)",
+                "Desenvolupament legislatiu i execució, en el marc de les bases que fixa l'Estat"
+              ],
+              [
+                "Executives (art. 112)",
+                "Funció executiva, inclosa la potestat reglamentària d'organització"
+              ]
+            ]
+          }
         },
         {
-          "h": "Matèries municipals i reforma",
-          "p": "L'EAC atribueix a la Generalitat competències rellevants per a l'àmbit municipal (règim local, urbanisme, habitatge, medi ambient) i configura els ens locals propis de Catalunya (municipi, comarca, vegueria). La reforma de l'Estatut segueix els procediments dels seus darrers articles, amb l'aprovació pel Parlament i les Corts Generals i, si escau, el referèndum."
+          "h": "4. Matèries municipals i reforma",
+          "p": "L'EAC atribueix a la Generalitat competències rellevants per a l'àmbit municipal (règim local, urbanisme, habitatge, medi ambient) i configura els ens locals propis de Catalunya (municipi, comarca, vegueria). La reforma es tramita amb l'aprovació pel Parlament i les Corts Generals i, si escau, referèndum."
         }
       ],
       "keypoints": [
@@ -123,7 +187,7 @@
           "h": "Àmbit local",
           "p": [
             "Règim local, urbanisme, habitatge",
-            "Ens locals propis: municipi, comarca, vegueria"
+            "Ens propis: municipi, comarca, vegueria"
           ]
         }
       ]
@@ -132,27 +196,44 @@
       "intro": "L'organització territorial de l'Estat inclou l'Administració local, integrada per diverses entitats. La regula la legislació bàsica de règim local (LRBRL) i, a Catalunya, el text refós de la Llei municipal i de règim local (DL 2/2003).",
       "sections": [
         {
-          "h": "Entitats que integren l'Administració local",
-          "p": "L'art. 3 de la LRBRL distingeix dos grups. Tenen caràcter d'entitats locals TERRITORIALS (amb autonomia plena per gestionar els seus interessos) el municipi, la província i l'illa (als arxipèlags). Són ALTRES entitats locals:",
+          "h": "1. Entitats que integren l'Administració local",
+          "p": "L'art. 3 de la LRBRL distingeix les entitats locals territorials (amb autonomia plena) de la resta:",
+          "table": {
+            "headers": [
+              "Grup",
+              "Entitats"
+            ],
+            "rows": [
+              [
+                "Territorials (art. 3.1)",
+                "Municipi, província i illa (als arxipèlags)"
+              ],
+              [
+                "Altres entitats locals (art. 3.2)",
+                "Comarca, àrea metropolitana, mancomunitat de municipis i entitat d'àmbit territorial inferior al municipi (EATIM)"
+              ],
+              [
+                "Pròpies de Catalunya (EAC)",
+                "Municipi, comarca i vegueria (a més d'àrees metropolitanes i mancomunitats)"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "2. El municipi",
+          "p": "El municipi és l'entitat local bàsica, amb personalitat jurídica pròpia, integrada per tres elements: el territori (terme municipal), la població (veïns) i l'organització. És el cauce immediat de participació ciutadana i presta els serveis públics de proximitat."
+        },
+        {
+          "h": "3. La província",
+          "p": "La província és una entitat local determinada per l'agrupació de municipis (art. 141 CE), amb personalitat jurídica pròpia. La seva finalitat principal és assistir i cooperar amb els municipis, sobretot els de menor capacitat (art. 36 LRBRL). A Catalunya, la vegueria és l'ens en què s'organitza el govern intermedi."
+        },
+        {
+          "h": "4. Principis del règim local",
+          "p": "El règim local es fonamenta en dos principis bàsics:",
           "list": [
-            "La comarca i les agrupacions de municipis que creïn les comunitats autònomes.",
-            "Les àrees metropolitanes.",
-            "Les mancomunitats de municipis.",
-            "Les entitats d'àmbit territorial inferior al municipi (EATIM)."
-          ],
-          "p2": "A Catalunya, l'Estatut configura com a ens locals propis el municipi, la comarca i la vegueria, a més de les àrees metropolitanes i les mancomunitats."
-        },
-        {
-          "h": "El municipi",
-          "p": "El municipi és l'entitat local bàsica, amb personalitat jurídica pròpia, integrada pel territori (terme municipal), la població (veïns) i l'organització. És el cauce immediat de participació ciutadana i presta els serveis públics de proximitat."
-        },
-        {
-          "h": "La província",
-          "p": "La província és una entitat local determinada per l'agrupació de municipis (art. 141 CE), amb personalitat jurídica pròpia. La seva finalitat principal és assistir i cooperar amb els municipis, especialment els de menor capacitat (art. 36 LRBRL), i garantir la prestació dels serveis municipals. A Catalunya, la vegueria és l'ens en què s'organitza territorialment el govern intermedi."
-        },
-        {
-          "h": "Principis del règim local",
-          "p": "El règim local es fonamenta en l'autonomia local (garantida per la CE i la Carta Europea d'Autonomia Local), que és el dret de les entitats locals a ordenar i gestionar una part important dels assumptes públics, i en la suficiència financera (art. 142 CE), que garanteix els mitjans econòmics per exercir les seves competències."
+            "Autonomia local: dret de les entitats locals a ordenar i gestionar una part important dels assumptes públics (garantida per la CE i la Carta Europea d'Autonomia Local).",
+            "Suficiència financera (art. 142 CE): els mitjans econòmics han de ser suficients per a l'exercici de les competències."
+          ]
         }
       ],
       "keypoints": [
@@ -187,33 +268,71 @@
       ]
     },
     "4": {
-      "intro": "El municipi s'organitza a través d'uns òrgans de govern i representació, elegits democràticament. Ho regulen la LRBRL, la legislació catalana de règim local (DL 2/2003) i el reglament orgànic municipal (a Montornès del Vallès, el ROM propi).",
+      "intro": "El municipi s'organitza a través d'uns òrgans de govern elegits democràticament. Ho regulen la LRBRL, el DL 2/2003 i el reglament orgànic municipal (a Montornès del Vallès, el ROM propi).",
       "sections": [
         {
-          "h": "Designació dels membres i elecció de l'Alcalde",
-          "p": "Els regidors s'elegeixen per sufragi universal, lliure, igual, directe i secret, mitjançant llistes en un sistema proporcional. L'Alcalde l'elegeixen els regidors d'entre ells en la sessió constitutiva; si cap candidat no obté la majoria absoluta, és proclamat alcalde el regidor que encapçala la llista més votada."
+          "h": "1. Designació dels membres i elecció de l'Alcalde",
+          "p": "Els regidors s'elegeixen per sufragi universal, lliure, igual, directe i secret, en llistes i sistema proporcional. L'Alcalde l'elegeixen els regidors d'entre ells en la sessió constitutiva; si cap candidat no obté la majoria absoluta, és proclamat alcalde el regidor que encapçala la llista més votada."
         },
         {
-          "h": "Òrgans necessaris",
-          "p": "Existeixen sempre:",
-          "list": [
-            "L'Alcalde o alcaldessa, que dirigeix el govern i l'administració municipal.",
-            "Els tinents d'alcalde, que substitueixen l'Alcalde i són nomenats i cessats lliurement per aquest entre els membres de la Junta de Govern Local.",
-            "El Ple, integrat per tots els regidors i presidit per l'Alcalde."
-          ],
-          "p2": "La Junta de Govern Local (l'Alcalde i un nombre de regidors no superior a un terç) és òrgan necessari als municipis de més de 5.000 habitants. La Comissió Especial de Comptes és també obligatòria."
+          "h": "2. Òrgans municipals",
+          "p": "Es distingeixen òrgans necessaris (existeixen sempre o per llei) i complementaris:",
+          "table": {
+            "headers": [
+              "Òrgan",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Alcalde/essa",
+                "Dirigeix el govern i l'administració municipal (necessari)"
+              ],
+              [
+                "Tinents d'alcalde",
+                "Substitueixen l'Alcalde; nomenats i cessats per ell entre membres de la Junta de Govern Local"
+              ],
+              [
+                "Ple",
+                "Tots els regidors, presidits per l'Alcalde (necessari)"
+              ],
+              [
+                "Junta de Govern Local",
+                "Alcalde + regidors (≤ 1/3); necessària si > 5.000 habitants"
+              ],
+              [
+                "Comissió Especial de Comptes",
+                "Obligatòria a tots els municipis"
+              ],
+              [
+                "Complementaris",
+                "Comissions informatives, consells sectorials, grups municipals (per reglament orgànic)"
+              ]
+            ]
+          }
         },
         {
-          "h": "Òrgans complementaris",
-          "p": "Els reglaments orgànics poden crear òrgans complementaris, com les comissions informatives (que dictaminen els assumptes del Ple), els consells sectorials, les juntes de districte i els grups polítics municipals."
+          "h": "3. Competències del Ple i de l'Alcalde",
+          "p": "El repartiment de competències entre els dos òrgans clau:",
+          "table": {
+            "headers": [
+              "Òrgan",
+              "Competències destacades"
+            ],
+            "rows": [
+              [
+                "Ple (art. 22 LRBRL)",
+                "Aprovar pressupostos, ordenances i el planejament general; plantilla i relació de llocs de treball; formes de gestió dels serveis; alteració del terme (moltes indelegables)"
+              ],
+              [
+                "Alcalde (art. 21 LRBRL)",
+                "Dirigir el govern i l'administració; direcció del personal; contractació i atorgament de llicències (segons quantia)"
+              ]
+            ]
+          }
         },
         {
-          "h": "Competències del Ple i de l'Alcalde",
-          "p": "El Ple (art. 22 LRBRL) exerceix les atribucions de major rellevància, moltes indelegables: aprovar els pressupostos i les ordenances, el planejament general, la plantilla de personal i la determinació de les formes de gestió dels serveis. L'Alcalde (art. 21 LRBRL) dirigeix el govern i l'administració, i té atribuïdes la direcció del personal, la contractació i l'atorgament de llicències, entre altres."
-        },
-        {
-          "h": "Règim de sessions i acords",
-          "p": "El Ple es reuneix en sessions ordinàries (amb la periodicitat que fixa la llei segons la població) i extraordinàries. Els acords s'adopten, com a regla general, per majoria simple dels membres presents; determinats assumptes taxats requereixen majoria absoluta del nombre legal de membres."
+          "h": "4. Règim de sessions i acords",
+          "p": "El Ple es reuneix en sessions ordinàries (amb la periodicitat que fixa la llei segons la població) i extraordinàries. Els acords s'adopten, com a regla general, per majoria simple dels presents; determinats assumptes taxats exigeixen majoria absoluta del nombre legal de membres."
         }
       ],
       "keypoints": [
@@ -221,13 +340,13 @@
           "h": "Elecció",
           "p": [
             "Regidors: sufragi universal (proporcional)",
-            "Alcalde: elegit pels regidors; si no, cap de la llista més votada"
+            "Alcalde: pels regidors; si no, cap de la llista més votada"
           ]
         },
         {
           "h": "Òrgans necessaris",
           "p": [
-            "Alcalde, tinents d'alcalde i Ple",
+            "Alcalde, tinents d'alcalde, Ple",
             "Junta de Govern Local (>5.000 hab.); Comissió Especial de Comptes"
           ]
         },
@@ -241,36 +360,66 @@
         {
           "h": "Acords",
           "p": [
-            "Majoria simple (regla)",
-            "Majoria absoluta en assumptes taxats"
+            "Majoria simple (regla); absoluta en assumptes taxats"
           ]
         }
       ]
     },
     "5": {
-      "intro": "Les competències municipals són el conjunt de matèries sobre les quals el municipi pot actuar. Es determinen per llei i es regeixen per la LRBRL i la legislació catalana de règim local (DL 2/2003).",
+      "intro": "Les competències municipals són el conjunt de matèries sobre les quals el municipi pot actuar. Es determinen per llei i es regeixen per la LRBRL i el DL 2/2003.",
       "sections": [
         {
-          "h": "Competències pròpies (art. 25 LRBRL)",
+          "h": "1. Competències pròpies (art. 25 LRBRL)",
           "p": "Són les atribuïdes per llei (estatal o autonòmica) i s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat. L'art. 25.2 enumera les matèries en què el municipi exercirà en tot cas competències pròpies: urbanisme, medi ambient urbà, abastament d'aigua i sanejament, residus, vies públiques, mobilitat, protecció civil, salubritat pública, cementiris, cultura, esport i promoció turística, entre altres."
         },
         {
-          "h": "Serveis mínims obligatoris (art. 26 LRBRL)",
-          "p": "Tots els municipis han de prestar uns serveis mínims, que augmenten per trams de població:",
-          "list": [
-            "A tots: enllumenat públic, cementiri, recollida de residus, neteja viària, abastament d'aigua, clavegueram, accés als nuclis de població i pavimentació de les vies.",
-            "Als de més de 5.000 habitants: també parc públic, biblioteca pública i tractament de residus.",
-            "Als de més de 20.000 habitants: també protecció civil, avaluació i informació de situacions de necessitat social, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic.",
-            "Als de més de 50.000 habitants: també transport col·lectiu urbà i medi ambient urbà."
-          ]
+          "h": "2. Serveis mínims obligatoris (art. 26 LRBRL)",
+          "p": "Tots els municipis han de prestar uns serveis mínims, que s'incrementen per trams de població:",
+          "table": {
+            "headers": [
+              "Població",
+              "Serveis mínims (s'hi afegeixen als del tram anterior)"
+            ],
+            "rows": [
+              [
+                "Tots",
+                "Enllumenat públic, cementiri, recollida de residus, neteja viària, abastament d'aigua, clavegueram, accés als nuclis i pavimentació de les vies"
+              ],
+              [
+                "> 5.000 hab.",
+                "Parc públic, biblioteca pública i tractament de residus"
+              ],
+              [
+                "> 20.000 hab.",
+                "Protecció civil, serveis socials, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic"
+              ],
+              [
+                "> 50.000 hab.",
+                "Transport col·lectiu urbà i medi ambient urbà"
+              ]
+            ]
+          }
         },
         {
-          "h": "Competències delegades (art. 27 LRBRL)",
-          "p": "L'Estat i les comunitats autònomes poden delegar competències en els municipis, per millorar l'eficàcia de la gestió pública. La delegació ha d'anar acompanyada de la dotació econòmica corresponent, pot preveure tècniques de direcció i control, i té una durada mínima de cinc anys."
-        },
-        {
-          "h": "Competències diferents (impròpies) i garantia institucional",
-          "p": "El municipi pot exercir competències diferents de les pròpies i de les delegades (art. 7.4 LRBRL) quan no es posi en risc la sostenibilitat financera del conjunt de la hisenda i no s'incorri en duplicitats, amb els informes previs de l'administració competent i de la que té atribuïda la tutela financera. Tot el sistema es fonamenta en la garantia institucional de l'autonomia local."
+          "h": "3. Competències delegades i diferents",
+          "p": "A més de les pròpies, el municipi pot exercir:",
+          "table": {
+            "headers": [
+              "Tipus",
+              "Règim"
+            ],
+            "rows": [
+              [
+                "Delegades (art. 27)",
+                "L'Estat o la CA li deleguen competències; cal dotació econòmica, poden preveure control i durada mínima de 5 anys"
+              ],
+              [
+                "Diferents / impròpies (art. 7.4)",
+                "Només si no hi ha duplicitat i no es posa en risc la sostenibilitat financera, amb informes previs"
+              ]
+            ]
+          },
+          "p2": "Tot el sistema es fonamenta en la garantia institucional de l'autonomia local."
         }
       ],
       "keypoints": [
@@ -521,173 +670,505 @@
       ]
     },
     "8": {
-      "intro": "El procediment administratiu és el conjunt ordenat de tràmits a través dels quals es produeix l'acte administratiu. És alhora una garantia dels interessats i de l'encert de la decisió. El regula la Llei 39/2015.",
+      "intro": "El procediment administratiu és el conjunt ordenat de tràmits i actuacions a través dels quals l'Administració prepara i dicta els seus actes. Té una doble funció: garantia dels drets dels ciutadans (que poden intervenir i defensar-se) i garantia de l'encert i legalitat de la decisió. El regula la Llei 39/2015, d'1 d'octubre, del procediment administratiu comú de les administracions públiques (LPACAP), que deroga la Llei 30/1992 i implanta un procediment íntegrament electrònic.",
       "sections": [
         {
-          "h": "Capacitat i interessats",
-          "p": "Tenen capacitat d'obrar davant les administracions les persones físiques i jurídiques que la tenen segons el dret civil i, quan la llei ho preveu, els menors i els grups sense personalitat (art. 3). Són interessats (art. 4) els qui promouen el procediment com a titulars de drets o interessos legítims, els qui, sense haver-lo iniciat, tenen drets que poden resultar afectats, i aquells l'interès legítim dels quals pugui resultar afectat i es personin abans de la resolució."
+          "h": "Concepte i regulació",
+          "p": "La Llei 39/2015 regula el procediment comú aplicable a totes les administracions; la Llei 40/2015 en regula el règim jurídic i l'organització. El procediment és formal (es documenta en un expedient) i electrònic per defecte.",
+          "list": [
+            "Fonament constitucional: art. 105 de la Constitució (audiència de l'interessat i procediment).",
+            "Principi antiformalista: prevalen el fons i els drets sobre els defectes formals esmenables.",
+            "Un únic procediment comú, amb especialitats només quan una llei ho justifiqui (procediment sancionador i de responsabilitat patrimonial integrats)."
+          ]
         },
         {
-          "h": "Drets de les persones",
-          "p": "Les persones tenen, en les seves relacions amb les administracions, un ampli catàleg de drets (arts. 13 i 53): a comunicar-se electrònicament, a ser assistides, a conèixer l'estat de la tramitació i a accedir a l'expedient, a no aportar documents que ja estiguin en poder de les administracions, a una bona administració (que inclou la resolució en termini) i a la protecció de dades."
+          "h": "Els interessats i la capacitat d'obrar",
+          "p": "Són interessats (art. 4 de la Llei 39/2015) els titulars de drets o interessos legítims que promouen el procediment, els que sense haver-lo iniciat tenen drets que poden resultar afectats, i els que tenen interessos legítims que poden resultar afectats i s'hi personen abans de la resolució.",
+          "table": {
+            "headers": [
+              "Concepte",
+              "Regla (Llei 39/2015)"
+            ],
+            "rows": [
+              [
+                "Capacitat d'obrar (art. 3)",
+                "La del dret civil, i a més els menors per a l'exercici de drets sense assistència, i els grups d'afectats o unions sense personalitat quan la llei ho reconegui"
+              ],
+              [
+                "Interessat (art. 4)",
+                "Titular de dret/interès legítim; personal o per representant"
+              ],
+              [
+                "Representació (art. 5)",
+                "Es presumeix per actes de tràmit; cal acreditar-la per formular sol·licituds, interposar recursos, desistir o renunciar"
+              ],
+              [
+                "Identificació (arts. 9-11)",
+                "Sistemes d'identificació i signatura electrònica; el registre electrònic d'apoderaments (art. 6) inscriu les representacions"
+              ]
+            ],
+            "cap": "Qui pot actuar en el procediment"
+          }
+        },
+        {
+          "h": "Drets de les persones i de l'interessat",
+          "p": "Cal distingir els drets generals de qualsevol persona en les seves relacions amb l'Administració (art. 13) dels drets específics de qui és interessat en un procediment concret (art. 53).",
+          "table": {
+            "headers": [
+              "Drets de les persones (art. 13)",
+              "Drets de l'interessat (art. 53)"
+            ],
+            "rows": [
+              [
+                "Comunicar-se electrònicament",
+                "Conèixer l'estat de la tramitació i obtenir còpies"
+              ],
+              [
+                "No aportar documents ja en poder de l'Administració",
+                "Identificar les autoritats i el personal responsable"
+              ],
+              [
+                "Tracte respectuós i assistència en l'ús de mitjans electrònics",
+                "No presentar documents originals si no s'exigeix"
+              ],
+              [
+                "Protecció de dades personals",
+                "Formular al·legacions i aportar documents en qualsevol fase abans del tràmit d'audiència"
+              ]
+            ],
+            "cap": "Art. 13 (tothom) vs art. 53 (part del procediment)"
+          }
         },
         {
           "h": "Principis del procediment",
-          "p": "El procediment es regeix, entre altres, pels principis d'impuls d'ofici (l'administració l'ha d'impulsar en totes les fases), de contradicció (audiència i al·legacions de les parts), d'oficialitat en la prova, de celeritat i economia processal, i de transparència."
+          "p": "El procediment s'inspira en principis que n'orienten la tramitació:",
+          "list": [
+            "Oficialitat / impuls d'ofici (art. 71): l'Administració impulsa el procediment en totes les fases.",
+            "Celeritat i economia procedimental: acumulació de tràmits (art. 72) i simplificació.",
+            "Contradicció i audiència: l'interessat pot al·legar i ser escoltat abans de resoldre.",
+            "Obligació de resoldre expressament (art. 21) en tots els casos.",
+            "In dubio pro actione: interpretació favorable a l'exercici del dret.",
+            "Transparència, publicitat i gratuïtat (com a regla)."
+          ]
         },
         {
           "h": "Abstenció i recusació",
-          "p": "Per garantir la imparcialitat, les autoritats i el personal en qui concorri una causa d'abstenció (interès personal, parentiu, amistat o enemistat manifesta, relació de servei) s'han d'abstenir d'intervenir i comunicar-ho al superior; si no ho fan, els interessats en poden promoure la recusació (arts. 23 i 24 de la Llei 40/2015)."
+          "p": "Garanteixen la imparcialitat de qui tramita o resol. Concorren les mateixes causes (art. 23.2): interès personal en l'assumpte, parentiu de consanguinitat fins al 4t grau o afinitat fins al 2n, amistat íntima o enemistat manifesta, haver intervingut com a perit o testimoni, o relació de servei o de dependència amb un interessat.",
+          "table": {
+            "headers": [
+              "",
+              "Abstenció (art. 23)",
+              "Recusació (art. 24)"
+            ],
+            "rows": [
+              [
+                "Qui la promou",
+                "La mateixa autoritat o personal que concorre la causa",
+                "L'interessat"
+              ],
+              [
+                "Quan",
+                "Tan aviat com es coneix la causa",
+                "En qualsevol moment del procediment"
+              ],
+              [
+                "Efecte",
+                "S'absté i ho comunica al superior, que resol",
+                "El superior resol en 3 dies, previ informe"
+              ],
+              [
+                "Si no s'actua",
+                "Genera responsabilitat; però la no-abstenció no invalida per si sola l'acte",
+                "—"
+              ]
+            ],
+            "cap": "Dues cares de la mateixa garantia d'imparcialitat"
+          }
         },
         {
           "h": "Principis de bona regulació",
-          "p": "En l'exercici de la potestat normativa (reglaments), les administracions han d'actuar d'acord amb els principis de bona regulació de l'art. 129 de la Llei 39/2015: necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència."
+          "p": "Encara que pròpiament s'apliquen a l'elaboració de normes (tema 10), l'art. 129 de la Llei 39/2015 fixa els principis que ha de respectar tota actuació normativa: necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència."
         }
       ],
       "keypoints": [
         {
-          "h": "Subjectes",
+          "h": "Marc",
           "p": [
-            "Capacitat (art. 3); interessats (art. 4)"
+            "Llei 39/2015 (procediment comú) + Llei 40/2015 (règim jurídic); deroguen la Llei 30/1992",
+            "Procediment electrònic per defecte; fonament: art. 105 CE"
           ]
         },
         {
-          "h": "Drets (arts. 13 i 53)",
+          "h": "Subjectes",
           "p": [
-            "Bona administració, accés a l'expedient",
-            "No aportar documents; protecció de dades"
+            {
+              "t": "Capacitat d'obrar (art. 3): civil + menors + grups sense personalitat",
+              "sub": []
+            },
+            {
+              "t": "Interessat (art. 4): titular de dret o interès legítim",
+              "sub": []
+            },
+            {
+              "t": "Representació (art. 5): presumida per tràmits; acreditada per actes rellevants",
+              "sub": []
+            }
+          ]
+        },
+        {
+          "h": "Drets",
+          "p": [
+            "Persones: art. 13 (electrònic, no reaportar, protecció de dades)",
+            "Interessat: art. 53 (estat, còpies, al·legacions)"
           ]
         },
         {
           "h": "Principis",
           "p": [
-            "Impuls d'ofici, contradicció, celeritat",
-            "Abstenció i recusació (arts. 23-24 de la Llei 40/2015)"
+            "Oficialitat (art. 71), celeritat, contradicció, obligació de resoldre (art. 21), in dubio pro actione"
           ]
         },
         {
-          "h": "Bona regulació (art. 129)",
+          "h": "Imparcialitat",
           "p": [
-            "Necessitat, proporcionalitat, seguretat jurídica",
-            "Transparència i eficiència"
+            "Abstenció (art. 23) i recusació (art. 24): mateixes causes; recusació la resol el superior en 3 dies"
           ]
         }
       ]
     },
     "9": {
-      "intro": "El procediment administratiu s'estructura en fases successives, des de la iniciació fins a la finalització. Les regula la Llei 39/2015.",
+      "intro": "El procediment administratiu s'estructura en quatre fases successives regulades per la Llei 39/2015: iniciació, ordenació, instrucció i finalització. Cada fase té tràmits propis i garanteix tant l'impuls d'ofici com la participació de l'interessat.",
       "sections": [
         {
-          "h": "Iniciació",
-          "p": "El procediment s'inicia d'ofici (per acord de l'òrgan competent, per iniciativa pròpia, ordre superior, petició raonada o denúncia) o a instància de la persona interessada (mitjançant sol·licitud). Si la sol·licitud té defectes, es requereix l'interessat perquè els esmeni en el termini de deu dies, amb l'advertiment que, si no ho fa, se'l tindrà per desistit (art. 68). Es poden adoptar mesures provisionals."
+          "h": "Iniciació (arts. 54-69)",
+          "p": "El procediment pot iniciar-se d'ofici o a sol·licitud de l'interessat.",
+          "table": {
+            "headers": [
+              "",
+              "D'ofici (art. 58)",
+              "A sol·licitud de l'interessat (art. 66)"
+            ],
+            "rows": [
+              [
+                "Origen",
+                "Pròpia iniciativa, ordre superior, petició raonada d'altres òrgans o denúncia",
+                "Sol·licitud de la persona interessada"
+              ],
+              [
+                "Acte inicial",
+                "Acord d'iniciació",
+                "Instància amb el contingut de l'art. 66"
+              ],
+              [
+                "Tràmits previs",
+                "Informació o actuacions prèvies (art. 55) per decidir si s'inicia",
+                "Esmena de defectes en 10 dies (art. 68)"
+              ],
+              [
+                "Denúncia (art. 62)",
+                "No atorga per si sola la condició d'interessat",
+                "—"
+              ]
+            ],
+            "cap": "Dues vies d'inici"
+          },
+          "p2": "Es poden adoptar mesures provisionals (art. 56) per assegurar l'eficàcia de la resolució, fins i tot abans d'iniciar (mesures provisionalíssimes). L'art. 57 permet l'acumulació de procediments connexos."
         },
         {
-          "h": "Ordenació",
-          "p": "L'ordenació comprèn els actes d'impuls del procediment, que l'administració ha de dur a terme d'ofici. Regeixen els principis de celeritat i d'igualtat de tracte; els tràmits s'han de complir en els terminis establerts."
-        },
-        {
-          "h": "Instrucció",
-          "p": "La instrucció recull els actes necessaris per determinar i comprovar els fets: les al·legacions dels interessats, la prova (quan els fets no es tenen per certs), els informes (preceptius o facultatius) i el tràmit d'audiència (art. 82), que permet als interessats examinar l'expedient i formular al·legacions abans de la proposta de resolució."
-        },
-        {
-          "h": "Finalització",
-          "p": "El procediment pot finalitzar per:",
+          "h": "Ordenació (arts. 70-74)",
+          "p": "Ordena la tramitació sota el principi d'impuls d'ofici i celeritat.",
           "list": [
-            "Resolució: és el mode normal; ha de ser motivada i congruent amb les peticions, i decidir totes les qüestions plantejades.",
-            "Desistiment (de la sol·licitud) o renúncia (al dret).",
-            "Caducitat (per paralització imputable a l'interessat en els procediments a instància de part, o per venciment del termini en els iniciats d'ofici que puguin produir efectes desfavorables).",
-            "Terminació convencional (acords, pactes o convenis, art. 86)."
+            "L'expedient administratiu (art. 70) és el conjunt ordenat de documents; format electrònic i foliat.",
+            "Els tràmits s'impulsen d'ofici simultàniament quan és possible (art. 72).",
+            "Les qüestions incidentals no suspenen la tramitació, llevat de la recusació (art. 74).",
+            "Termini per complir tràmits per l'interessat: 10 dies si no s'indica un altre (art. 73)."
           ]
         },
         {
+          "h": "Instrucció (arts. 75-83)",
+          "p": "Reuneix les dades necessàries per resoldre. Els actes d'instrucció es realitzen d'ofici, sens perjudici del dret dels interessats a proposar-los.",
+          "table": {
+            "headers": [
+              "Tràmit",
+              "Article",
+              "Regla clau"
+            ],
+            "rows": [
+              [
+                "Al·legacions",
+                "76",
+                "En qualsevol moment abans del tràmit d'audiència"
+              ],
+              [
+                "Prova",
+                "77-78",
+                "Període de 10 a 30 dies; l'Administració pot rebutjar proves improcedents motivadament"
+              ],
+              [
+                "Informes",
+                "79-81",
+                "Facultatius o preceptius; no vinculants tret que la llei ho digui; termini 10 dies"
+              ],
+              [
+                "Audiència",
+                "82",
+                "Vista de l'expedient; termini de 10 a 15 dies; es pot ometre si no hi ha altres fets que els aportats"
+              ],
+              [
+                "Informació pública",
+                "83",
+                "Facultativa; obertura a tothom; no atorga condició d'interessat"
+              ]
+            ],
+            "cap": "Tràmits d'instrucció"
+          }
+        },
+        {
+          "h": "Finalització (arts. 84-95)",
+          "p": "El procediment pot acabar de diverses maneres:",
+          "table": {
+            "headers": [
+              "Forma",
+              "Article",
+              "En què consisteix"
+            ],
+            "rows": [
+              [
+                "Resolució",
+                "88",
+                "Decisió de fons; congruent, motivada (art. 35) i que decideix totes les qüestions"
+              ],
+              [
+                "Desistiment",
+                "94",
+                "L'interessat abandona la sol·licitud (pot tornar a instar-la)"
+              ],
+              [
+                "Renúncia",
+                "94",
+                "L'interessat abandona el dret, quan és renunciable"
+              ],
+              [
+                "Caducitat",
+                "95",
+                "Paralització 3 mesos per causa imputable a l'interessat (procediments a instància)"
+              ],
+              [
+                "Terminació convencional",
+                "86",
+                "Acords, pactes o convenis que no siguin contraris a l'ordenament"
+              ],
+              [
+                "Impossibilitat material",
+                "84.2",
+                "Causa sobrevinguda que impedeix continuar"
+              ]
+            ],
+            "cap": "Modes de finalització"
+          },
+          "p2": "La resolució ha de ser congruent amb les peticions (sense agreujar la situació inicial, prohibició de reformatio in peius) i no pot abstenir-se de resoldre al·legant silenci o insuficiència normativa (art. 88.5)."
+        },
+        {
           "h": "Terminis per resoldre i silenci",
-          "p": "L'administració té l'obligació de resoldre i notificar en el termini màxim fixat per la norma del procediment; si no en fixa cap, el termini supletori és de tres mesos (art. 21). El transcurs del termini sense resolució determina els efectes del silenci (positiu o negatiu) o la caducitat, segons el cas."
+          "p": "L'òrgan ha de resoldre i notificar en el termini màxim fixat per la norma i, si no n'hi ha, en 3 mesos (art. 21). El venciment sense resolució expressa produeix silenci administratiu, els efectes del qual s'estudien al tema 10."
         }
       ],
       "keypoints": [
         {
+          "h": "Quatre fases",
+          "p": [
+            "Iniciació → Ordenació → Instrucció → Finalització (Llei 39/2015)"
+          ]
+        },
+        {
           "h": "Iniciació",
           "p": [
-            "D'ofici o a instància de part",
-            "Esmena (art. 68) en 10 dies → desistiment"
+            {
+              "t": "D'ofici (art. 58): iniciativa, ordre superior, petició raonada, denúncia",
+              "sub": [
+                "Denúncia (art. 62) no fa interessat"
+              ]
+            },
+            {
+              "t": "A instància (art. 66): sol·licitud; esmena en 10 dies (art. 68)",
+              "sub": []
+            },
+            {
+              "t": "Mesures provisionals (art. 56), fins i tot provisionalíssimes",
+              "sub": []
+            }
+          ]
+        },
+        {
+          "h": "Ordenació",
+          "p": [
+            "Impuls d'ofici (art. 71-72); incidentals no suspenen (excepte recusació); tràmits 10 dies (art. 73)"
           ]
         },
         {
           "h": "Instrucció",
           "p": [
-            "Al·legacions, prova, informes",
-            "Audiència (art. 82)"
+            "Al·legacions (76), prova 10-30 dies (77), informes 10 dies (80), audiència 10-15 dies (82), informació pública (83)"
           ]
         },
         {
           "h": "Finalització",
           "p": [
-            "Resolució motivada i congruent",
-            "Desistiment, renúncia, caducitat, convencional (art. 86)"
-          ]
-        },
-        {
-          "h": "Terminis",
-          "p": [
-            "Termini supletori: 3 mesos (art. 21)",
-            "Silenci o caducitat segons el cas"
+            "Resolució (88), desistiment/renúncia (94), caducitat 3 mesos (95), convencional (86)",
+            "Congruent i sense reformatio in peius"
           ]
         }
       ]
     },
     "10": {
-      "intro": "Els terminis, l'obligació de resoldre i l'elaboració de les disposicions de caràcter general són aspectes clau del funcionament administratiu. Els regula la Llei 39/2015.",
+      "intro": "Els terminis, l'obligació de resoldre amb els efectes del silenci, i l'elaboració de les disposicions administratives de caràcter general (reglaments) són tres eixos del funcionament administratiu regulats per la Llei 39/2015.",
       "sections": [
         {
-          "h": "Còmput de terminis (arts. 29-30 de la Llei 39/2015)",
-          "p": "Les regles del còmput són:",
+          "h": "Còmput de terminis (arts. 29-32)",
+          "p": "Els terminis obliguen tant l'Administració com els interessats (art. 29). Regles de còmput (art. 30):",
+          "table": {
+            "headers": [
+              "Unitat",
+              "Regla de còmput"
+            ],
+            "rows": [
+              [
+                "Per hores",
+                "Hàbils (les d'un dia hàbil); de moment a moment; els que no superin 24 h s'expressen en hores"
+              ],
+              [
+                "Per dies",
+                "Hàbils si la norma no diu res; s'exclouen dissabtes, diumenges i festius"
+              ],
+              [
+                "Per dies naturals",
+                "Només quan ho indica la llei o el dret de la UE; es fa constar a la notificació"
+              ],
+              [
+                "Per mesos o anys",
+                "De data a data (art. 30.4); si no hi ha dia equivalent, l'últim dia del mes"
+              ],
+              [
+                "Inici del còmput",
+                "L'endemà de la notificació o publicació"
+              ],
+              [
+                "Venciment en inhàbil",
+                "Es prorroga al primer dia hàbil següent (art. 30.5)"
+              ]
+            ],
+            "cap": "Novetat 39/2015: els dissabtes són inhàbils"
+          },
+          "p2": "El termini es pot ampliar fins a la meitat si les circumstàncies ho aconsellen i no es perjudiquen drets de tercers (art. 32; decisió irrecurrible). En canvi, la tramitació d'urgència (art. 33) redueix a la meitat els terminis del procediment, excepte els de presentació de sol·licituds i recursos."
+        },
+        {
+          "h": "Obligació de resoldre i silenci",
+          "p": "L'Administració està obligada a dictar resolució expressa i a notificar-la en tots els procediments (art. 21). El termini màxim és el que fixi la norma reguladora i, en defecte, 3 mesos. Si venç sense resolució, opera el silenci administratiu:",
+          "table": {
+            "headers": [
+              "Situació",
+              "Sentit del silenci",
+              "Article"
+            ],
+            "rows": [
+              [
+                "A instància (regla general)",
+                "POSITIU (estimatori): acte administratiu veritable",
+                "24.1"
+              ],
+              [
+                "A instància: dret de petició, domini públic, medi ambient, impugnació",
+                "NEGATIU (desestimatori)",
+                "24.1"
+              ],
+              [
+                "Recurs d'alçada contra desestimació presumpta",
+                "Es pot entendre ESTIMAT per silenci",
+                "24.1 in fine"
+              ],
+              [
+                "D'ofici, efectes favorables",
+                "NEGATIU (desestimació)",
+                "25.1.a"
+              ],
+              [
+                "D'ofici, desfavorables o sancionadors",
+                "CADUCITAT",
+                "25.1.b"
+              ]
+            ],
+            "cap": "El silenci positiu és la regla general a instància"
+          },
+          "p2": "El silenci positiu equival a un acte finalitzador; el negatiu és una ficció legal que només obre la via d'impugnació. El certificat de silenci (art. 24.4) l'acredita."
+        },
+        {
+          "h": "Elaboració de les disposicions de caràcter general",
+          "p": "Els reglaments són normes dictades per l'Administració amb rang inferior a la llei. La Llei 39/2015 en fixa els principis i tràmits de participació (títol VI):",
           "list": [
-            "Els terminis per dies s'entenen per dies hàbils, llevat que la norma o el dret de la UE indiqui dies naturals; s'exclouen els dissabtes, els diumenges i els festius.",
-            "El còmput per dies comença l'endemà d'aquell en què tingui lloc la notificació o publicació.",
-            "Si el termini es fixa en mesos o anys, es computa de data a data; si no hi ha dia equivalent, el termini acaba l'últim dia del mes.",
-            "Si l'últim dia és inhàbil, s'entén prorrogat al primer dia hàbil següent."
+            "Potestat reglamentària i jerarquia normativa (art. 128): els reglaments no poden vulnerar la llei ni tipificar delictes/infraccions ni establir penes.",
+            "Principis de bona regulació (art. 129): necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència.",
+            "Planificació normativa (art. 132): Pla Anual Normatiu.",
+            "Consulta pública prèvia (art. 133): abans de redactar, s'obre consulta als possibles destinataris; després, audiència i informació pública.",
+            "Avaluació normativa ex post (art. 130): revisió periòdica de l'adequació de les normes vigents."
           ]
         },
         {
-          "h": "Obligació de resoldre i efectes del temps",
-          "p": "L'administració està obligada a dictar resolució expressa i a notificar-la en tots els procediments (art. 21), fins i tot en els casos de silenci. El termini màxim el fixa la norma reguladora del procediment i, en defecte, és de tres mesos. En casos d'urgència es pot aplicar la tramitació d'urgència, que redueix a la meitat els terminis (art. 33). L'incompliment del termini pot generar responsabilitat."
-        },
-        {
-          "h": "L'elaboració de les disposicions de caràcter general (reglaments)",
-          "p": "L'exercici de la potestat reglamentària segueix un procediment amb garanties de participació i qualitat: la consulta pública prèvia (art. 133), la memòria de l'anàlisi d'impacte normatiu, els informes preceptius, el tràmit d'audiència i informació pública, i la publicació íntegra de la norma per a la seva entrada en vigor. Els plans anual i normatiu ordenen aquesta activitat."
-        },
-        {
-          "h": "Principis i límits de la potestat normativa",
-          "p": "La potestat reglamentària està sotmesa als principis de bona regulació (art. 129: necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència) i als límits de la jerarquia normativa (el reglament no pot contradir la llei), la reserva de llei, la irretroactivitat de les disposicions restrictives i la inderogabilitat singular dels reglaments (art. 37)."
+          "h": "Procediment i límits de la potestat normativa",
+          "p": "En l'àmbit estatal, el procediment el detalla la Llei 50/1997 (art. 26): iniciativa, memòria de l'anàlisi d'impacte normatiu (MAIN), informes preceptius i, si escau, dictamen del Consell d'Estat. Límits comuns: reserva de llei, jerarquia, irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets, i inderogabilitat singular dels reglaments (art. 37)."
         }
       ],
       "keypoints": [
         {
-          "h": "Terminis (arts. 29-30)",
+          "h": "Terminis (arts. 29-33)",
           "p": [
-            "Dies hàbils, des de l'endemà",
-            "Mesos/anys de data a data; últim dia inhàbil es prorroga"
+            {
+              "t": "Dies: hàbils per defecte; dissabtes INHÀBILS",
+              "sub": []
+            },
+            {
+              "t": "Mesos/anys: de data a data (art. 30.4)",
+              "sub": []
+            },
+            {
+              "t": "Inici l'endemà; venciment inhàbil → 1r hàbil",
+              "sub": []
+            },
+            {
+              "t": "Ampliació fins a la meitat (32); urgència redueix a la meitat (33)",
+              "sub": []
+            }
           ]
         },
         {
           "h": "Obligació de resoldre",
           "p": [
-            "Sempre resolució expressa (art. 21); supletori 3 mesos",
-            "Urgència: terminis a la meitat (art. 33)"
+            "Termini de la norma o 3 mesos (art. 21)",
+            "Còmput: d'ofici des de l'acord; a instància des de l'entrada al registre de l'òrgan competent"
+          ]
+        },
+        {
+          "h": "Silenci",
+          "p": [
+            {
+              "t": "A instància: POSITIU (regla), NEGATIU en excepcions (petició, domini públic, medi ambient)",
+              "sub": []
+            },
+            {
+              "t": "D'ofici: favorables → desestimació; desfavorables → caducitat",
+              "sub": []
+            }
           ]
         },
         {
           "h": "Reglaments",
           "p": [
-            "Consulta pública prèvia (art. 133) + MAIN",
-            "Audiència, informació pública i publicació íntegra"
+            "Jerarquia (128); bona regulació (129); pla anual (132); consulta pública prèvia (133); avaluació ex post (130)"
           ]
         },
         {
           "h": "Límits",
           "p": [
-            "Bona regulació (art. 129); jerarquia i reserva de llei",
-            "Inderogabilitat singular (art. 37)"
+            "Reserva de llei, jerarquia, irretroactivitat desfavorable, inderogabilitat singular (37)"
           ]
         }
       ]
@@ -776,59 +1257,188 @@
       ]
     },
     "12": {
-      "intro": "El pressupost és l'instrument central de la planificació de la gestió pública, que expressa la previsió d'ingressos i el límit de despeses per a l'exercici. En l'àmbit local es regeix pel TRLHL i el RD 500/1990.",
+      "intro": "La planificació de la gestió pública fixa objectius i assigna recursos per assolir-los. El pressupost n'és l'instrument central: és alhora un pla econòmic anual, una autorització de despesa i un mecanisme de coordinació. En l'àmbit local es regeix pel Text refós de la Llei reguladora de les hisendes locals (TRLHL, RDL 2/2004) i per la LO 2/2012 d'estabilitat pressupostària.",
       "sections": [
         {
-          "h": "Concepte i naturalesa",
-          "p": "El pressupost general és l'expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat i dels drets que preveu liquidar durant l'exercici. Té una naturalesa jurídica dual: és una autorització (els crèdits de despesa són limitatius) i una previsió (dels ingressos). L'exercici coincideix amb l'any natural."
-        },
-        {
-          "h": "Principis pressupostaris",
-          "p": "El pressupost s'ordena per un conjunt de principis:",
+          "h": "Concepte i naturalesa del pressupost",
+          "p": "El pressupost general (art. 162 del TRLHL) és l'expressió xifrada, conjunta i sistemàtica de les obligacions que com a màxim es poden reconèixer i dels drets que es preveuen liquidar durant l'exercici.",
           "list": [
-            "Anualitat: es refereix a l'exercici (l'any natural).",
-            "Unitat i universalitat: un únic pressupost que recull tots els ingressos i despeses.",
-            "Especialitat: els crèdits s'apliquen a la finalitat concreta (qualitativa, quantitativa i temporal).",
-            "No-afectació: els ingressos financen globalment les despeses, amb excepcions.",
-            "Unitat de caixa: una tresoreria única.",
-            "Publicitat i transparència."
+            "És un pla financer anual (coincideix amb l'any natural, art. 163).",
+            "És una autorització: el límit de despeses és vinculant; la previsió d'ingressos és estimativa.",
+            "El pressupost general (art. 164) integra el de l'entitat, el dels organismes autònoms i els estats de previsió de les societats mercantils de capital íntegrament local."
           ]
         },
         {
-          "h": "Estabilitat, sostenibilitat i regla de despesa",
-          "p": "La normativa d'estabilitat pressupostària (LO 2/2012) imposa l'estabilitat pressupostària (equilibri o superàvit estructural), la sostenibilitat financera (control del deute), la regla de despesa (límit al creixement de la despesa) i el principi de prudència financera. L'incompliment obliga a mesures correctores (plans economicofinancers)."
+          "h": "Principis pressupostaris",
+          "p": "Regeixen l'elaboració i l'execució:",
+          "table": {
+            "headers": [
+              "Principi",
+              "Contingut"
+            ],
+            "rows": [
+              [
+                "Unitat i universalitat",
+                "Un únic pressupost que recull tots els ingressos i despeses per l'import íntegr (pressupost brut)"
+              ],
+              [
+                "Especialitat",
+                "Els crèdits s'apliquen a la finalitat (qualitativa), l'import (quantitativa) i l'exercici (temporal) previstos"
+              ],
+              [
+                "Anualitat",
+                "Coincideix amb l'any natural (art. 163)"
+              ],
+              [
+                "No afectació / unitat de caixa",
+                "Els ingressos financen globalment les despeses, tret d'afectacions legals"
+              ],
+              [
+                "Equilibri pressupostari",
+                "S'aprova sense dèficit inicial (art. 165.4)"
+              ],
+              [
+                "Estabilitat i sostenibilitat",
+                "LO 2/2012: equilibri estructural i límit de deute"
+              ]
+            ],
+            "cap": "Principis clàssics + d'estabilitat"
+          }
         },
         {
-          "h": "Contingut del pressupost general",
-          "p": "El pressupost general integra el pressupost propi de l'entitat, els dels organismes autònoms i els estats de previsió de les societats mercantils de capital íntegrament local. Comprèn l'estat de despeses (crèdits), l'estat d'ingressos (previsions), les bases d'execució i els annexos."
+          "h": "Estabilitat, sostenibilitat i regla de despesa",
+          "p": "La LO 2/2012 d'estabilitat pressupostària i sostenibilitat financera imposa:",
+          "list": [
+            "Estabilitat pressupostària: situació d'equilibri o superàvit estructural.",
+            "Sostenibilitat financera: capacitat de finançar compromisos dins els límits de dèficit i deute.",
+            "Regla de despesa: la variació de la despesa computable no pot superar la taxa de referència de creixement del PIB.",
+            "Principis de plurianualitat, transparència, eficiència i responsabilitat.",
+            "En cas d'incompliment: pla economicofinancer per corregir la desviació."
+          ]
+        },
+        {
+          "h": "Estructura i contingut del pressupost",
+          "p": "L'estructura la fixa l'Ordre EHA/3565/2008: classificació per programes, econòmica i (potestativa) orgànica. La classificació econòmica ordena els crèdits en capítols:",
+          "table": {
+            "headers": [
+              "Capítol",
+              "Ingressos",
+              "Despeses"
+            ],
+            "rows": [
+              [
+                "1",
+                "Impostos directes",
+                "Despeses de personal"
+              ],
+              [
+                "2",
+                "Impostos indirectes",
+                "Béns corrents i serveis"
+              ],
+              [
+                "3",
+                "Taxes i altres ingressos",
+                "Despeses financeres"
+              ],
+              [
+                "4",
+                "Transferències corrents",
+                "Transferències corrents"
+              ],
+              [
+                "5",
+                "Ingressos patrimonials",
+                "Fons de contingència"
+              ],
+              [
+                "6",
+                "Alienació d'inversions reals",
+                "Inversions reals"
+              ],
+              [
+                "7",
+                "Transferències de capital",
+                "Transferències de capital"
+              ],
+              [
+                "8",
+                "Actius financers",
+                "Actius financers"
+              ],
+              [
+                "9",
+                "Passius financers",
+                "Passius financers"
+              ]
+            ],
+            "cap": "Capítols 1-5 corrents; 6-9 de capital"
+          },
+          "p2": "El pressupost general s'acompanya de l'estat de despeses, l'estat d'ingressos, les bases d'execució, els annexos (inversions, personal) i la documentació complementària (memòria, informe economicofinancer, liquidació de l'exercici anterior)."
+        },
+        {
+          "h": "Elaboració, aprovació i pròrroga (arts. 168-169)",
+          "p": "Tramitació anual del pressupost local:",
+          "list": [
+            "Formació: el president forma el pressupost i el tramet, informat per la Intervenció, al Ple abans del 15 d'octubre.",
+            "Aprovació inicial pel Ple (majoria simple).",
+            "Exposició pública 15 dies al BOP per a reclamacions; si no n'hi ha, s'entén definitivament aprovat.",
+            "Aprovació definitiva i publicació resumida per capítols al BOP.",
+            "Entrada en vigor l'1 de gener; si no s'aprova a temps, es prorroga automàticament el de l'exercici anterior (art. 169.6)."
+          ]
+        },
+        {
+          "h": "Modificacions de crèdit",
+          "p": "Durant l'execució, els crèdits es poden modificar (arts. 177 i següents del TRLHL): crèdits extraordinaris i suplements de crèdit (per despeses no previstes o insuficients, finançats amb romanent o nous ingressos), ampliacions, transferències de crèdit, generacions de crèdit, incorporació de romanents i baixes per anul·lació."
         }
       ],
       "keypoints": [
         {
-          "h": "Concepte",
+          "h": "Marc",
           "p": [
-            "Previsió d'ingressos i límit de despeses (any natural)",
-            "TRLHL + RD 500/1990"
+            "TRLHL (RDL 2/2004) + LO 2/2012 d'estabilitat; estructura Ordre EHA/3565/2008"
+          ]
+        },
+        {
+          "h": "Pressupost (art. 162)",
+          "p": [
+            "Expressió xifrada de despeses (límit màxim) i ingressos (previsió)",
+            "Anual = any natural (163); general integra entitat + OOAA + societats (164)"
           ]
         },
         {
           "h": "Principis",
           "p": [
-            "Anualitat, unitat/universalitat, especialitat",
-            "No-afectació, unitat de caixa, publicitat"
+            "Unitat, universalitat, especialitat (qual./quant./temporal), anualitat, no afectació, equilibri (165.4)"
           ]
         },
         {
           "h": "Estabilitat (LO 2/2012)",
           "p": [
-            "Estabilitat i sostenibilitat; regla de despesa"
+            "Estabilitat + sostenibilitat + regla de despesa (≤ referència PIB)",
+            "Incompliment → pla economicofinancer"
           ]
         },
         {
-          "h": "Contingut",
+          "h": "Estructura",
           "p": [
-            "Entitat + organismes autònoms + societats",
-            "Estat de despeses, d'ingressos, bases i annexos"
+            {
+              "t": "Ingressos: 1-5 corrents, 6-9 capital",
+              "sub": []
+            },
+            {
+              "t": "Despeses: 1-4 corrents + 5 contingència, 6-9 capital",
+              "sub": [
+                "Cap.1 personal, cap.2 béns i serveis, cap.6 inversions"
+              ]
+            }
+          ]
+        },
+        {
+          "h": "Tramitació (168-169)",
+          "p": [
+            "Ple abans 15-oct → aprovació inicial → 15 dies BOP → definitiva → vigor 1-gener",
+            "No aprovat → pròrroga automàtica (169.6)"
           ]
         }
       ]
@@ -965,65 +1575,170 @@
       ]
     },
     "14": {
-      "intro": "Les ordenances i els reglaments són les normes que aproven les entitats locals en exercici de la seva potestat normativa. Les regula la LRBRL i la legislació catalana de règim local.",
+      "intro": "Les ordenances i els reglaments són les normes que aproven les entitats locals en exercici de la seva potestat normativa (art. 4 de la LRBRL). Permeten regular les matèries de la seva competència amb rang reglamentari, sotmeses a la llei. Es regeixen per la LRBRL i, a Catalunya, pel Text refós de la Llei municipal i de règim local (DL 2/2003) i el ROAS.",
       "sections": [
         {
-          "h": "Classes de normes locals",
-          "p": "Les entitats locals aproven diverses classes de normes:",
+          "h": "La potestat normativa local",
+          "p": "Els ens locals territorials tenen reconeguda la potestat reglamentària i d'autoorganització (art. 4.1.a de la LRBRL), manifestació de l'autonomia local garantida per l'art. 140 de la Constitució.",
           "list": [
-            "El reglament orgànic municipal (ROM): regula l'organització i el funcionament dels òrgans de govern; s'aprova per majoria absoluta.",
-            "Les ordenances: normes de contingut divers, entre les quals destaquen les ordenances fiscals (que regulen els tributs propis) i les ordenances de policia i bon govern.",
-            "Els bans de l'Alcalde: disposicions de caràcter executiu i circumstancial dictades per l'Alcalde en l'àmbit de les seves competències."
+            "És una potestat derivada: subordinada a la llei i sense reserva material pròpia.",
+            "Habilita per regular serveis, activitats i la pròpia organització.",
+            "Límits: reserva de llei, jerarquia normativa, irretroactivitat desfavorable i principis de bona regulació (art. 129 de la Llei 39/2015)."
           ]
         },
         {
-          "h": "Procediment d'aprovació (art. 49 LRBRL)",
-          "p": "L'aprovació de les ordenances segueix un procediment amb garanties de participació:",
+          "h": "Classes de normes locals",
+          "p": "Segons el contingut i el procediment:",
+          "table": {
+            "headers": [
+              "Norma",
+              "Objecte",
+              "Nota"
+            ],
+            "rows": [
+              [
+                "Reglament orgànic (ROM)",
+                "Organització i funcionament de l'ens",
+                "Prevalença en autoorganització; aprovació per majoria absoluta (art. 47.2)"
+              ],
+              [
+                "Ordenances",
+                "Regulació d'activitats, convivència, ús de serveis i béns",
+                "Poden tipificar infraccions i sancions (arts. 139-141 LRBRL)"
+              ],
+              [
+                "Ordenances fiscals",
+                "Regulació dels tributs propis",
+                "Procediment especial del TRLHL (arts. 15-19)"
+              ],
+              [
+                "Reglaments",
+                "Organització i prestació de serveis",
+                "P. ex. reglament d'un servei municipal"
+              ],
+              [
+                "Bans",
+                "Ordres i crides de l'alcalde",
+                "NO són reglament; no innoven l'ordenament"
+              ]
+            ],
+            "cap": "Tipologia de normes locals"
+          }
+        },
+        {
+          "h": "Procediment d'aprovació (art. 49 de la LRBRL)",
+          "p": "Les ordenances i reglaments segueixen un procediment de tres fases:",
           "list": [
-            "Aprovació inicial pel Ple.",
-            "Informació pública i audiència als interessats per un termini mínim de trenta dies, per a la presentació de reclamacions i suggeriments.",
-            "Resolució de totes les reclamacions i suggeriments presentats i aprovació definitiva pel Ple.",
-            "Si no es presenta cap reclamació, l'acord inicial s'entén definitivament adoptat de manera automàtica."
+            "1. Aprovació inicial pel Ple (majoria simple, o absoluta per al ROM i altres casos de l'art. 47.2/3).",
+            "2. Informació pública i audiència als interessats per un termini mínim de 30 dies per presentar reclamacions i suggeriments.",
+            "3. Resolució de totes les reclamacions i aprovació definitiva pel Ple. Si no s'ha presentat cap reclamació, l'acord inicial esdevé definitiu sense necessitat de nou acord.",
+            "Prèviament (art. 133 de la Llei 39/2015): consulta pública a través del portal web."
           ]
         },
         {
           "h": "Publicació i entrada en vigor",
-          "p": "L'ordenança aprovada definitivament s'ha de publicar íntegrament al butlletí oficial de la província (BOP) i no entra en vigor fins que se n'hagi publicat el text complet i hagi transcorregut el termini de l'art. 65.2 de la LRBRL (quinze dies hàbils des de la recepció de la comunicació a l'Estat i la comunitat autònoma)."
+          "p": "L'ordenança o reglament no produeix efectes fins que es compleixen dos requisits acumulatius:",
+          "list": [
+            "Publicació íntegra del text al Butlletí Oficial de la Província (BOP).",
+            "Transcurs del termini de 15 dies hàbils de l'art. 65.2 de la LRBRL (període de possible requeriment o impugnació per l'Estat o la Generalitat)."
+          ]
         },
         {
-          "h": "Tràmits previs i límits",
-          "p": "Abans de l'aprovació, i seguint els principis de bona regulació, es poden fer la consulta pública prèvia i els informes preceptius. La potestat normativa local té els límits de la jerarquia (les ordenances s'han d'ajustar a la llei), la reserva de llei (per exemple, en matèria sancionadora, dins dels límits que fixa la legislació estatal) i el respecte de les competències."
+          "h": "Especialitat de les ordenances fiscals i impugnació",
+          "p": "Les ordenances fiscals segueixen un procediment paral·lel amb terminis propis:",
+          "table": {
+            "headers": [
+              "Fase",
+              "Ordenança / reglament general",
+              "Ordenança fiscal (TRLHL)"
+            ],
+            "rows": [
+              [
+                "Aprovació inicial",
+                "Ple, majoria simple",
+                "Ple, aprovació provisional (art. 17)"
+              ],
+              [
+                "Informació pública",
+                "Mínim 30 dies",
+                "30 dies (edicte al BOP i tauler)"
+              ],
+              [
+                "Aprovació definitiva",
+                "Ple; automàtica si no hi ha reclamacions",
+                "Ple; automàtica si no hi ha reclamacions"
+              ],
+              [
+                "Publicació",
+                "Text íntegre al BOP",
+                "Text íntegre de les modificacions al BOP"
+              ]
+            ],
+            "cap": "Regla general (art. 49) vs ordenança fiscal (arts. 15-19)"
+          },
+          "p2": "Contra els reglaments i ordenances no cap recurs administratiu (art. 112.3 de la Llei 39/2015); només el recurs contenciós-administratiu directe o indirecte, i la qüestió d'il·legalitat."
         }
       ],
       "keypoints": [
         {
-          "h": "Classes",
+          "h": "Marc",
           "p": [
-            "Reglament orgànic (majoria absoluta)",
-            "Ordenances (fiscals i de policia)",
-            "Bans de l'Alcalde"
+            "Potestat normativa: art. 4 LRBRL; autonomia local (art. 140 CE)",
+            "A Catalunya: DL 2/2003 (TRLMC) i ROAS"
           ]
         },
         {
-          "h": "Procediment (art. 49 LRBRL)",
+          "h": "Classes",
           "p": [
-            "Aprovació inicial pel Ple",
-            "Informació pública mínim 30 dies",
-            "Aprovació definitiva (automàtica si no hi ha reclamacions)"
+            {
+              "t": "ROM (orgànic): organització; majoria absoluta (47.2)",
+              "sub": []
+            },
+            {
+              "t": "Ordenances: activitats i convivència; poden tipificar sancions (139-141)",
+              "sub": []
+            },
+            {
+              "t": "Ordenances fiscals: tributs (TRLHL 15-19)",
+              "sub": []
+            },
+            {
+              "t": "Bans: ordres de l'alcalde, NO reglament",
+              "sub": []
+            }
+          ]
+        },
+        {
+          "h": "Procediment (art. 49)",
+          "p": [
+            {
+              "t": "1. Aprovació inicial (Ple)",
+              "sub": []
+            },
+            {
+              "t": "2. Informació pública i audiència: mínim 30 dies",
+              "sub": []
+            },
+            {
+              "t": "3. Aprovació definitiva; automàtica si no hi ha reclamacions",
+              "sub": []
+            },
+            {
+              "t": "Consulta pública prèvia (art. 133 L39/2015)",
+              "sub": []
+            }
           ]
         },
         {
           "h": "Vigència",
           "p": [
-            "Publicació íntegra al BOP",
-            "+ termini de l'art. 65.2 LRBRL (15 dies hàbils)"
+            "Publicació ÍNTEGRA al BOP + 15 dies hàbils (art. 65.2 LRBRL)"
           ]
         },
         {
-          "h": "Límits",
+          "h": "Impugnació",
           "p": [
-            "Jerarquia i reserva de llei",
-            "Respecte de les competències"
+            "No cap recurs administratiu (art. 112.3); només contenciós (directe/indirecte) i qüestió d'il·legalitat"
           ]
         }
       ]
