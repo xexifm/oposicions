@@ -7,7 +7,44 @@ import { encryptBundle, decryptBundle } from './sync.js';
 import { findGist, createGist, readGist, writeGist } from './gist.js';
 
 const view = document.getElementById('view');
-const DATA = { temari:null, resums:null, questions:null, cases:null };
+const DATA = { temari:null, resums:null, questions:null, cases:null, _muni:null };
+
+/* ---------- municipis (oposicions) ---------- */
+const MUNIS = {
+  montornes: {
+    id:'montornes', dir:'montornes',
+    name:'Montornès del Vallès', short:'Montornès',
+    role:'Tècnic/a superior · arquitectura/enginyeria',
+    crest:'M', color:'#9e1632', shield:null,
+    web:'https://www.montornes.cat',
+  },
+  cornella: {
+    id:'cornella', dir:'cornella',
+    name:'Cornellà de Llobregat', short:'Cornellà',
+    role:'Oposició · temari en preparació',
+    crest:'C', color:'#0069b4', shield:null,  // TODO: escut SVG oficial quan estigui disponible
+    web:'https://www.cornella.cat',
+  },
+};
+const DEFAULT_MUNI = 'montornes';
+function activeMuni(){ return MUNIS[store.muni()] || null; }
+function muniConf(){ return activeMuni() || MUNIS[DEFAULT_MUNI]; }
+function contentReady(){ return !!(DATA.temari && DATA.temari.temari && DATA.temari.temari.length); }
+
+/* Actualitza la marca (escut + títol) de la barra superior segons el municipi. */
+function paintBrand(){
+  const m = activeMuni();
+  const crestEl = byId('crest'), titEl = byId('brandtitle'), subEl = byId('brandsub');
+  if (!crestEl) return;
+  if (!m){ crestEl.textContent = '·'; crestEl.style.removeProperty('--crest-color');
+    if (titEl) titEl.textContent = 'Simulador d\'oposicions'; if (subEl) subEl.textContent = 'Tria l\'oposició';
+    return; }
+  crestEl.style.setProperty('--crest-color', m.color);
+  crestEl.innerHTML = m.shield ? `<img src="${m.shield}" alt="${esc(m.short)}">` : esc(m.crest);
+  if (titEl) titEl.textContent = 'Oposició ' + m.short;
+  if (subEl) subEl.textContent = m.role;
+  document.documentElement.style.setProperty('--brand', m.color);
+}
 
 /* ---------- utilitats ---------- */
 const esc = s => (s==null?'':String(s)).replace(/[&<>"']/g, c => (
@@ -29,17 +66,21 @@ const $$ = sel => Array.from(view.querySelectorAll(sel));
 function scrollTop(){ window.scrollTo({top:0,behavior:'instant'}); }
 
 async function loadData(){
-  if (DATA.temari) return;
+  const muni = muniConf();
+  if (DATA.temari && DATA._muni === muni.id) return;
   const base = location.pathname.replace(/index\.html$/,'');
-  const get = f => fetch(base + 'data/' + f, {cache:'no-cache'}).then(r=>r.json());
+  const dir = 'data/' + muni.dir + '/';
+  const get = f => fetch(base + dir + f, {cache:'no-cache'}).then(r=>r.json());
   const [temari, resums, questions, cases] = await Promise.all([
-    get('temari.json'), get('resums.json').catch(()=>({})),
+    get('temari.json').catch(()=>({blocks:{},temari:[],norms:{}})),
+    get('resums.json').catch(()=>({})),
     get('questions.json').catch(()=>[]), get('cases.json').catch(()=>[]),
   ]);
-  DATA.temari = temari;
+  DATA.temari = temari && temari.temari ? temari : {blocks:{},temari:[],norms:{}};
   DATA.resums = resums.resums || resums || {};
   DATA.questions = questions.questions || questions || [];
   DATA.cases = cases.cases || cases || [];
+  DATA._muni = muni.id;
 }
 
 function normRef(key){
@@ -179,17 +220,29 @@ const routes = {
   '': home, 'home': home,
   'estudi': estudi, 'tema': temaView,
   'examen': examenConfig, 'casos': casosList, 'cas': casView,
-  'historial': historial, 'fonts': fonts,
+  'historial': historial, 'fonts': fonts, 'tria': triaView,
 };
 let examState = null;
 
 async function render(){
-  await loadData();
+  paintBrand();
   const hash = location.hash.replace(/^#\/?/, '');
   const [route, param] = hash.split('/');
+  // Sense municipi triat (o a la pantalla de tria): mostra el selector d'oposició.
+  if (!store.muni() || route === 'tria'){
+    view.innerHTML = '';
+    triaView();
+    document.querySelectorAll('[data-route]').forEach(a=>a.classList.remove('active'));
+    scrollTop();
+    return;
+  }
+  await loadData();
   const fn = routes[route] || home;
   view.innerHTML = '';
-  fn(param);
+  // Municipi sense temari carregat encara: les vistes de contingut mostren "en preparació".
+  const needsContent = ['estudi','tema','examen','casos','cas','fonts'].includes(route);
+  if (needsContent && !contentReady()) prepView();
+  else fn(param);
   // marcar navegació activa
   const active = route || 'home';
   document.querySelectorAll('[data-route]').forEach(a=>{
@@ -288,20 +341,76 @@ async function initGistSync(){
   if (r && r.changed) render();
 }
 
+/* Vista "en preparació" per a un municipi encara sense temari. */
+function prepView(){
+  const m = muniConf();
+  view.innerHTML = `
+    <a class="backlink" href="#/">← Inici</a>
+    <section class="hero">
+      <div class="eyebrow">Oposició · ${esc(m.short)}</div>
+      <h1>Temari en preparació</h1>
+      <p class="lead">El contingut de l'oposició de <b>${esc(m.name)}</b> (resums, preguntes i casos) encara
+      s'està preparant. Torna-hi ben aviat. Mentrestant pots preparar-te l'altra oposició disponible.</p>
+      <div class="row" style="margin-top:14px">
+        <a class="btn primary lg" href="#/tria">Canvia d'oposició</a>
+      </div>
+    </section>`;
+}
+
+/* ===========================================================================
+   VISTA: TRIA D'OPOSICIÓ (selector de municipi)
+   =========================================================================== */
+function triaView(){
+  const cur = store.muni();
+  const card = m => {
+    const crest = m.shield ? `<img src="${m.shield}" alt="${esc(m.short)}">` : esc(m.crest);
+    return `<button class="triacard" data-muni="${m.id}" style="--crest-color:${m.color}">
+        <span class="triacrest">${crest}</span>
+        <span class="triatxt"><b>${esc(m.name)}</b><small>${esc(m.role)}</small></span>
+        ${cur===m.id?'<span class="pill green">Actual</span>':'<span class="tgo">→</span>'}
+      </button>`;
+  };
+  view.innerHTML = `
+    <section class="hero" style="text-align:center">
+      <div class="eyebrow">Simulador d'oposicions</div>
+      <h1>Tria l'oposició</h1>
+      <p class="lead" style="margin-inline:auto">Selecciona a quina oposició et vols preparar. El progrés (temes
+      repassats i exàmens) es desa per separat per a cada oposició, però la sincronització entre dispositius ho puja tot.</p>
+    </section>
+    <div class="trialist">
+      ${card(MUNIS.montornes)}
+      ${card(MUNIS.cornella)}
+    </div>`;
+  $$('[data-muni]').forEach(b=>b.addEventListener('click', ()=>{
+    const id = b.dataset.muni;
+    if (store.muni() !== id){ store.setMuni(id); DATA.temari = null; DATA._muni = null; }
+    location.hash = '#/';
+    render();
+  }));
+}
+
 /* ===========================================================================
    VISTA: INICI
    =========================================================================== */
 function home(){
+  const m = muniConf();
   const exams = store.exams();
   const studied = Object.keys(store.studied()).length;
   const last = exams[0];
-  view.innerHTML = `
+  const ready = contentReady();
+
+  const muniBar = `
+    <div class="munibar">
+      <span class="munilabel">Oposició: <b>${esc(m.name)}</b></span>
+      <a class="btn ghost sm" href="#/tria">Canvia d'oposició</a>
+    </div>`;
+
+  const heroReady = `
   <section class="hero">
-    <div class="eyebrow">Concurs-oposició lliure · OPO 2024 · BOPB 18-3-2026</div>
-    <h1>Prepara't l'oposició de tècnic/a superior</h1>
-    <p class="lead">Simulador d'examen segons la <b>Base 7.7</b> de les bases específiques: prova
-    tipus test (25 punts) i prova teòric-pràctica (45 punts). Amb resums dels 90 temes,
-    correcció automàtica i historial. Funciona al PC i al mòbil, fins i tot sense connexió.</p>
+    <div class="eyebrow">Concurs-oposició · ${esc(m.short)}</div>
+    <h1>Prepara't l'oposició de ${esc(m.role.split('·')[0].trim().toLowerCase())}</h1>
+    <p class="lead">Simulador d'examen amb resums de tot el temari, correcció automàtica i historial.
+    Funciona al PC i al mòbil, fins i tot sense connexió.</p>
     <div class="row" style="margin-top:14px">
       <a class="btn primary lg" href="#/examen">📝 Començar examen</a>
       <a class="btn lg" href="#/estudi">📚 Estudiar temari</a>
@@ -309,7 +418,7 @@ function home(){
   </section>
 
   <div class="home-tiles">
-    <a class="tile" href="#/estudi"><span class="ic">📚</span><b>Resums dels 90 temes</b>
+    <a class="tile" href="#/estudi"><span class="ic">📚</span><b>Resums del temari</b>
       <span>Esquemes i punts clau de tot el temari, organitzats per blocs. ${studied} temes repassats.</span></a>
     <a class="tile" href="#/examen"><span class="ic">📝</span><b>Examen tipus test</b>
       <span>${DATA.questions.length} preguntes amb correcció instantània i penalització −25% per errada.</span></a>
@@ -317,25 +426,26 @@ function home(){
       <span>${DATA.cases.length} supòsits amb correcció per criteris (i opció de correcció amb Claude).</span></a>
     <a class="tile" href="#/historial"><span class="ic">🕓</span><b>Historial i progrés</b>
       <span>${exams.length} exàmens desats.${last?` Últim: ${last.apte?'apte ✓':'no apte'} (${fmt(last.total)}/70).`:''}</span></a>
-  </div>
+  </div>`;
 
+  const heroPrep = `
+  <section class="hero">
+    <div class="eyebrow">Oposició · ${esc(m.short)}</div>
+    <h1>Temari en preparació</h1>
+    <p class="lead">Els resums i les preguntes de l'oposició de <b>${esc(m.name)}</b> encara s'estan preparant.
+    Ben aviat hi haurà el temari complet, l'examen tipus test i els casos pràctics. Mentrestant, pots activar la
+    sincronització i preparar-te l'altra oposició disponible.</p>
+    <div class="row" style="margin-top:14px">
+      <a class="btn primary lg" href="#/tria">Canvia d'oposició</a>
+    </div>
+  </section>`;
+
+  view.innerHTML = muniBar + (ready ? heroReady : heroPrep) + syncCardHtml() + `
   <div class="card" style="margin-top:18px">
-    <div class="between">
-      <div><h3 style="margin:0">Format oficial de l'examen</h3>
-      <p class="muted" style="margin:.3em 0 0">Segons la Base 7.7 de la convocatòria.</p></div>
-      <a class="btn ghost" href="#/fonts">Fonts oficials →</a>
-    </div>
-    <div class="grid cols-2" style="margin-top:12px">
-      <div class="scorebox"><span class="pill crimson">Prova 1 · Test</span>
-        <p style="margin:.6em 0 0">Examen tipus test, 4 respostes. Errades: <b>−25%</b> d'un encert.
-        No contestades no resten. <b>Màx. 25 punts</b>, mín. 12,5 per no quedar exclòs.</p></div>
-      <div class="scorebox"><span class="pill crimson">Prova 2 · Teòric-pràctica</span>
-        <p style="margin:.6em 0 0">Supòsits pràctics. Es valora correcció, profunditat, sistemàtica,
-        claredat i anàlisi. <b>Màx. 45 punts</b>, mín. 22,5.</p></div>
-    </div>
-    <p class="muted" style="margin:.8em 0 0;font-size:.85rem">⚠️ Les preguntes i casos són material d'estudi
+    <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes i els casos són material d'estudi
     generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
   </div>`;
+  setupSync();
 }
 
 /* ===========================================================================
@@ -1196,15 +1306,27 @@ function historial(){
         </div></div>`;
     }).join('');
   }
-  // --- Sincronització entre dispositius (Gist privat de GitHub) ---
-  html += `
+  view.innerHTML = html;
+  const clr = byId('clearAll');
+  if (clr) clr.addEventListener('click', ()=>{ if(confirm('Esborrar tot l\'historial d\'aquesta oposició?')){ store.clearExams(); render(); }});
+  $$('[data-del]').forEach(b=>b.addEventListener('click', ()=>{ store.deleteExam(b.dataset.del); render(); }));
+  const hr = byId('histResume'); if (hr) hr.addEventListener('click', resumeExam);
+  const hd = byId('histDiscard'); if (hd) hd.addEventListener('click', ()=>{
+    if (confirm('Segur que vols descartar l\'examen en procés?')){ store.clearPendingExam(); render(); }
+  });
+}
+
+/* Targeta de sincronització (a la pantalla d'inici). El PIN i el token es
+   comparteixen entre municipis; la sincronització puja/baixa el progrés de TOTS. */
+function syncCardHtml(){
+  return `
     <div class="card" id="synccard" style="margin-top:18px">
       <h2 style="margin:0 0 4px">🔄 Sincronitza entre dispositius</h2>
-      <p class="muted" style="margin:0 0 10px">El progrés (temes repassats i exàmens) es desa a cada
-      dispositiu. Amb aquesta opció es puja i es baixa <b>automàticament</b> a un Gist <b>privat</b> del teu
+      <p class="muted" style="margin:0 0 10px">El progrés (temes repassats i exàmens de <b>totes</b> les oposicions)
+      es desa a cada dispositiu. Amb aquesta opció es puja i es baixa <b>automàticament</b> a un Gist <b>privat</b> del teu
       compte de GitHub, xifrat amb un <b>PIN</b>. Ningú no hi té accés sense el PIN i el token es desa només
       en aquest dispositiu. Passos: 1) crea un token de GitHub
-      <a href="https://github.com/settings/tokens/new?scopes=gist&description=Oposici%C3%B3%20Montorn%C3%A8s" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>;
+      <a href="https://github.com/settings/tokens/new?scopes=gist&description=Simulador%20oposicions" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>;
       2) posa un PIN i el token i activa-ho. Al segon dispositiu, fes servir <b>el mateix PIN</b> i el seu token.</p>
       <label class="field"><span>PIN (mínim 4 caràcters · el mateix a tots els dispositius)</span>
         <input id="syncpin" type="password" inputmode="numeric" autocomplete="off" placeholder="El teu PIN"></label>
@@ -1217,20 +1339,11 @@ function historial(){
       </div>
       <p id="ghstatus" class="muted" style="margin:.7em 0 0"></p>
     </div>`;
-
-  view.innerHTML = html;
-  const clr = byId('clearAll');
-  if (clr) clr.addEventListener('click', ()=>{ if(confirm('Esborrar tot l\'historial?')){ store.clearExams(); render(); }});
-  $$('[data-del]').forEach(b=>b.addEventListener('click', ()=>{ store.deleteExam(b.dataset.del); render(); }));
-  const hr = byId('histResume'); if (hr) hr.addEventListener('click', resumeExam);
-  const hd = byId('histDiscard'); if (hd) hd.addEventListener('click', ()=>{
-    if (confirm('Segur que vols descartar l\'examen en procés?')){ store.clearPendingExam(); render(); }
-  });
-  setupSync();
 }
 
 function setupSync(){
   const pinEl = byId('syncpin');
+  if (!pinEl || !byId('ghActivate')) return;   // no hi ha targeta de sincronització a la vista
   const getPin = ()=>{
     const p = (pinEl.value||'').trim();
     if (p.length<4){ gistStatus('Escriu un PIN de com a mínim 4 caràcters.', 'err'); pinEl.focus(); return null; }
