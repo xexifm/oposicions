@@ -14,6 +14,16 @@ const esc = s => (s==null?'':String(s)).replace(/[&<>"']/g, c => (
   {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = n => (Math.round(n*100)/100).toLocaleString('ca-ES',{minimumFractionDigits:0,maximumFractionDigits:2});
 const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+// Barreja les opcions d'una pregunta i recol·loca l'índex de la correcta, perquè
+// la resposta bona no surti sempre a la mateixa posició (i variï entre exàmens).
+function shuffleOptions(q){
+  if (!Array.isArray(q.options) || typeof q.correct !== 'number') return q;
+  const order = q.options.map((_, i) => i);
+  for (let i=order.length-1; i>0; i--){ const j=Math.floor(Math.random()*(i+1)); [order[i],order[j]]=[order[j],order[i]]; }
+  q.options = order.map(i => q.options[i]);
+  q.correct = order.indexOf(q.correct);
+  return q;
+}
 const byId = id => document.getElementById(id);
 const $$ = sel => Array.from(view.querySelectorAll(sel));
 function scrollTop(){ window.scrollTo({top:0,behavior:'instant'}); }
@@ -670,7 +680,7 @@ function poolCases(themes){
    =========================================================================== */
 function startExam(cfg){
   const set = cfg.themes ? new Set(cfg.themes) : null;
-  const qs = shuffle(poolQuestions(set)).slice(0, cfg.n).map(q=>({...q}));
+  const qs = shuffle(poolQuestions(set)).slice(0, cfg.n).map(q=>shuffleOptions({...q, options:[...q.options]}));
   const cs = shuffle(poolCases(set)).slice(0, cfg.cases).map(c=>({...c}));
   if (qs.length===0 && cs.length===0){ alert('No hi ha contingut per a aquesta selecció.'); return; }
   examState = {
