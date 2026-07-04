@@ -1,7 +1,7 @@
 {
-  "name": "Simulador oposició · Montornès del Vallès",
-  "short_name": "Oposició Montornès",
-  "description": "Simulador d'examen, casos pràctics i resums dels 90 temes per a l'oposició de tècnic/a superior en arquitectura/enginyeria.",
+  "name": "Simulador d'oposicions",
+  "short_name": "Oposicions",
+  "description": "Simulador d'examen, casos pràctics i resums del temari per a oposicions municipals (Montornès del Vallès i Cornellà de Llobregat), amb sincronització entre dispositius.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
