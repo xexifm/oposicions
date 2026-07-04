@@ -6,756 +6,6 @@
   },
   "questions": [
     {
-      "theme": 51,
-      "block": 11,
-      "q": "Què és el pla d'ordenació urbanística municipal (POUM)?",
-      "options": [
-        "L'instrument d'ordenació urbanística integral del territori municipal, que classifica el sòl i defineix el model urbà",
-        "Un pla derivat que ordena una sola parcel·la",
-        "El pressupost d'inversions de l'ajuntament",
-        "Un reglament de personal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el POUM (art. 57 TRLUC) és l'instrument d'ordenació urbanística integral del municipi: classifica el sòl en urbà, urbanitzable i no urbanitzable, defineix el model d'ordenació i l'estructura general (sistemes generals), i estableix l'ordenació detallada del sòl urbà i els sectors de desenvolupament.",
-      "source": "TRLUC",
-      "article": "art. 57 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "Quin d'aquests documents forma part del POUM (art. 59 TRLUC)?",
-      "options": [
-        "La memòria, els plànols d'informació i d'ordenació, les normes urbanístiques, el catàleg de béns protegits i l'agenda i avaluació econòmica i financera",
-        "Únicament un plànol general",
-        "El padró d'habitants",
-        "La nòmina del personal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el POUM s'integra pels documents de l'art. 59: memòria i estudis justificatius, plànols d'informació i d'ordenació, normes urbanístiques, catàleg de béns protegits, agenda i avaluació econòmica i financera, informe ambiental, memòria social i el programa d'actuació urbanística municipal.",
-      "source": "TRLUC",
-      "article": "art. 59 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "Quin efecte té acordar la formulació o revisió del POUM sobre les llicències (arts. 73-74 TRLUC)?",
-      "options": [
-        "Es pot suspendre l'atorgament de llicències a les àrees afectades, per un màxim d'un any (prorrogable fins a dos)",
-        "Obliga a atorgar totes les llicències pendents",
-        "No té cap efecte sobre les llicències",
-        "Suspèn les llicències indefinidament"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en acordar la formulació o revisió del POUM, es pot suspendre l'atorgament de llicències a les àrees afectades on les noves determinacions comportin modificació del règim urbanístic, per un termini màxim d'un any, prorrogable fins a un màxim de dos anys en total (arts. 73-74). És una mesura cautelar per no comprometre el nou planejament.",
-      "source": "TRLUC",
-      "article": "arts. 73-74 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "Qui aprova definitivament el POUM?",
-      "options": [
-        "La comissió territorial d'urbanisme de la Generalitat, després de l'aprovació inicial i provisional per l'ajuntament",
-        "L'alcalde tot sol",
-        "Els particulars propietaris",
-        "L'Estat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el POUM el formula l'ajuntament, que l'aprova inicialment i provisionalment (el Ple, per majoria absoluta), amb informació pública i informes; l'aprovació definitiva correspon a la comissió territorial d'urbanisme de la Generalitat, que en controla la legalitat i l'adequació als instruments superiors.",
-      "source": "TRLUC",
-      "article": "art. 79-80 TRLUC"
-    },
-    {
-      "theme": 51,
-      "block": 11,
-      "q": "Què és el programa d'actuació urbanística municipal (PAUM)?",
-      "options": [
-        "L'instrument que concreta les previsions de desplegament i gestió del POUM, amb una vigència aproximada de sis anys",
-        "El pressupost anual de l'ajuntament",
-        "Un pla de recursos humans",
-        "El catàleg de béns protegits"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el PAUM (art. 60) concreta les previsions de desplegament i gestió del planejament (prioritats, terminis), amb una vigència aproximada de sis anys. Les normes de planejament urbanístic (art. 62), en canvi, supleixen o complementen el planejament en municipis sense POUM.",
-      "source": "TRLUC",
-      "article": "art. 60 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Què ordenen els plans parcials urbanístics (arts. 65-66 TRLUC)?",
-      "options": [
-        "El sòl urbanitzable, detalladament, perquè es pugui executar",
-        "El sòl no urbanitzable protegit",
-        "Tot el terme municipal de manera integral",
-        "Els pressupostos municipals"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els plans parcials urbanístics ordenen detalladament un sector de sòl urbanitzable delimitat pel POUM (els plans parcials de delimitació ho fan sobre sòl urbanitzable no delimitat), amb la qualificació del sòl, els sistemes locals, els paràmetres d'edificació i la divisió en polígons.",
-      "source": "TRLUC",
-      "article": "art. 65 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Per a què serveixen els plans especials urbanístics (arts. 67-68 TRLUC)?",
-      "options": [
-        "Per desenvolupar determinacions del planejament general per a finalitats específiques (infraestructures, protecció del patrimoni, subsol...)",
-        "Per classificar tot el sòl del municipi",
-        "Per aprovar el pressupost",
-        "Per nomenar personal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els plans especials desenvolupen previsions del planejament general per a finalitats concretes: infraestructures i serveis tècnics, protecció del patrimoni i del paisatge, protecció del medi rural, ordenació del subsol, concreció d'equipaments, etc. Els plans de millora urbana (art. 70) actuen en sòl urbà per completar-lo o reformar-lo.",
-      "source": "TRLUC",
-      "article": "art. 67 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Qui aprova, com a regla, definitivament els plans parcials i especials?",
-      "options": [
-        "La comissió territorial d'urbanisme, o el mateix ajuntament en municipis amb POUM en determinats casos",
-        "Sempre l'alcalde tot sol",
-        "L'Estat",
-        "Els particulars"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els plans derivats s'aproven inicialment i provisionalment per l'ajuntament, amb informació pública mínima d'un mes; l'aprovació definitiva correspon a la comissió territorial d'urbanisme, si bé en municipis amb POUM i per a determinats plans derivats la pot fer el mateix ajuntament, segons els casos.",
-      "source": "TRLUC",
-      "article": "arts. 85-89 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Quina diferència hi ha entre la modificació i la revisió d'un pla?",
-      "options": [
-        "La modificació canvia determinacions concretes pel mateix procediment; la revisió replanteja els criteris del pla i equival a formar-ne un de nou",
-        "Són el mateix",
-        "La modificació és més profunda que la revisió",
-        "La revisió no requereix cap procediment"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la modificació altera determinacions puntuals del pla i segueix el mateix procediment que la formació; la revisió comporta un replantejament dels criteris i objectius del pla (per l'adopció de nous criteris o l'esgotament del model) i equival a formar un pla nou.",
-      "source": "TRLUC",
-      "article": "art. 96-97 TRLUC"
-    },
-    {
-      "theme": 52,
-      "block": 11,
-      "q": "Què són els plans de millora urbana (art. 70 TRLUC)?",
-      "options": [
-        "Plans que actuen en sòl urbà per completar-ne el teixit o dur a terme operacions de reforma, renovació o rehabilitació",
-        "Plans que classifiquen el sòl no urbanitzable",
-        "Plans que ordenen el sòl urbanitzable de nova creació",
-        "Plans directors supramunicipals"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els plans de millora urbana (art. 70) actuen en sòl urbà per completar el teixit urbà o dur a terme operacions de transformació (reforma interior, renovació, rehabilitació, millora urbana), amb les cessions i càrregues corresponents al sòl urbà no consolidat.",
-      "source": "TRLUC",
-      "article": "art. 70 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "Quines figures de planejament poden formular i presentar els particulars?",
-      "options": [
-        "El planejament derivat (plans parcials, de millora urbana, especials), especialment els propietaris de l'àmbit",
-        "El POUM i els plans directors",
-        "Cap figura; el planejament és sempre públic",
-        "Únicament les ordenances fiscals"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la formulació del planejament general (POUM, PDU) és d'iniciativa pública, però el planejament derivat (plans parcials, de millora urbana, especials) pot ser formulat i presentat per particulars, especialment els propietaris de l'àmbit, que ho instal·len presentant el projecte a l'administració competent perquè el tramiti (arts. 101-102).",
-      "source": "TRLUC",
-      "article": "art. 101 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "Què ha d'aportar el particular que formula un pla derivat per iniciativa privada?",
-      "options": [
-        "A més de la documentació general, l'estructura de la propietat i els compromisos assumits (garanties de la urbanització i, si escau, conveni)",
-        "Només el seu DNI",
-        "Res; presenta una simple sol·licitud verbal",
-        "El pressupost municipal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: quan un particular formula un pla derivat, ha d'aportar, a més de la documentació general del pla, la informació sobre l'estructura de la propietat i els compromisos que assumeix (garanties de la urbanització i, si escau, un conveni urbanístic), perquè l'administració pugui valorar-ne la viabilitat i tramitar-lo.",
-      "source": "TRLUC",
-      "article": "art. 102 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "Qui aprova el pla derivat presentat per iniciativa privada?",
-      "options": [
-        "L'administració competent, seguint el procediment ordinari (aprovació inicial, provisional i definitiva)",
-        "El mateix particular que el presenta",
-        "Ningú; s'aplica automàticament",
-        "Una notaria"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la iniciativa privada només afecta la formulació i presentació del pla; la tramitació i aprovació segueixen el procediment ordinari (aprovació inicial, provisional i definitiva pels òrgans competents), amb informació pública. El particular no aprova el pla, només el promou.",
-      "source": "TRLUC",
-      "article": "arts. 101-102 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "Quins instruments garanteixen el dret d'informació urbanística dels particulars?",
-      "options": [
-        "La consulta prèvia, els certificats de règim urbanístic i la cèdula urbanística",
-        "El padró municipal",
-        "El pressupost participatiu",
-        "El registre civil"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el dret d'informació urbanística es materialitza en la consulta prèvia, els certificats de règim urbanístic i la cèdula urbanística, documents que informen del règim aplicable a una finca (classificació, qualificació, paràmetres). Complementen la col·laboració entre particulars i Administració en el planejament.",
-      "source": "TRLUC",
-      "article": "art. 105 TRLUC"
-    },
-    {
-      "theme": 53,
-      "block": 11,
-      "q": "Com es garanteix la participació ciutadana en la tramitació del planejament?",
-      "options": [
-        "Amb la informació pública obligatòria i els programes de participació ciutadana",
-        "Prohibint qualsevol intervenció dels ciutadans",
-        "Amb un referèndum vinculant en tots els casos",
-        "Sense cap mecanisme de participació"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la participació ciutadana en el planejament es garanteix amb la informació pública obligatòria (durant la tramitació, perquè qualsevol pugui presentar al·legacions) i amb els programes de participació ciutadana que acompanyen la formulació dels plans, especialment el POUM.",
-      "source": "TRLUC",
-      "article": "art. 8 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "Què cal per fer executiu el planejament urbanístic (art. 100 i 106 TRLUC)?",
-      "options": [
-        "La publicació de l'acord d'aprovació definitiva i del text íntegre de les normes urbanístiques al diari oficial",
-        "La simple aprovació inicial",
-        "Res; és executiu des que es redacta",
-        "L'autorització d'un notari"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el planejament esdevé executiu amb la publicació de l'acord d'aprovació definitiva i del text íntegre de les normes urbanístiques al diari oficial (DOGC o BOP). Fins que no es publiquen les normes urbanístiques, el pla no és executiu ni obliga.",
-      "source": "TRLUC",
-      "article": "art. 106 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "Quin efecte té l'aprovació del planejament sobre les construccions disconformes amb el nou pla?",
-      "options": [
-        "Queden en règim de fora d'ordenació o disconformitat, amb limitacions per fer-hi obres",
-        "S'han d'enderrocar immediatament totes",
-        "No tenen cap efecte",
-        "Es converteixen en legals automàticament"
-      ],
-      "correct": 0,
-      "explain": "Correcta: les construccions existents disconformes amb el nou planejament queden en règim de fora d'ordenació (o de disconformitat), que en limita les obres possibles (com a regla, només conservació i, si escau, les que fixi el pla), sense obligar necessàriament a l'enderroc immediat.",
-      "source": "TRLUC",
-      "article": "art. 108 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "Què són els convenis urbanístics (art. 104 TRLUC)?",
-      "options": [
-        "Acords de planejament o de gestió subjectes a publicitat obligatòria, que no poden vulnerar la llei ni substituir les potestats públiques",
-        "Contractes secrets entre l'alcalde i els promotors",
-        "Sancions urbanístiques",
-        "Llicències d'obres"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els convenis urbanístics (art. 104) poden ser de planejament (per preparar-ne modificacions) o de gestió (per executar-lo); estan subjectes a publicitat obligatòria (informació pública i registre) i no poden vulnerar la llei ni substituir les potestats públiques d'ordenació, que són indisponibles.",
-      "source": "TRLUC",
-      "article": "art. 104 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "El planejament urbanístic és públic?",
-      "options": [
-        "Sí; qualsevol persona pot consultar-lo, obtenir-ne informació i demanar certificats de règim urbanístic",
-        "No; és secret i reservat",
-        "Només el poden consultar els propietaris",
-        "Només es pot consultar previ pagament d'una taxa prohibitiva"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el planejament urbanístic és públic (art. 103 TRLUC): qualsevol persona pot consultar-lo, obtenir-ne informació i demanar certificats de règim urbanístic i la cèdula urbanística d'una finca. La publicitat és una garantia de transparència i seguretat jurídica.",
-      "source": "TRLUC",
-      "article": "art. 103 TRLUC"
-    },
-    {
-      "theme": 54,
-      "block": 11,
-      "q": "Quin altre efecte comporta l'aprovació del planejament pel que fa a les expropiacions?",
-      "options": [
-        "La declaració d'utilitat pública i la necessitat d'ocupació dels terrenys destinats a sistemes o actuacions previstes",
-        "La prohibició de qualsevol expropiació",
-        "L'obligació de vendre tots els terrenys",
-        "Cap efecte expropiatori"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'aprovació del planejament comporta la declaració implícita d'utilitat pública i la necessitat d'ocupació dels terrenys i les instal·lacions necessaris per executar les actuacions previstes (sistemes, dotacions), a efectes de la seva expropiació. És un efecte legitimador de l'expropiació urbanística.",
-      "source": "TRLUC",
-      "article": "art. 108 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "Quins són els sistemes d'actuació urbanística (art. 121 TRLUC)?",
-      "options": [
-        "La reparcel·lació (en modalitats de compensació i cooperació) i l'expropiació",
-        "Únicament l'expropiació",
-        "La subhasta i el concurs",
-        "La donació i la permuta"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'execució del planejament s'articula mitjançant un sistema d'actuació (art. 121): la reparcel·lació, en les modalitats de compensació (bàsica o per concertació, executen els propietaris) i de cooperació (executa l'Administració), i l'expropiació (l'Administració adquireix els terrenys).",
-      "source": "TRLUC",
-      "article": "art. 121 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "Què és el principi d'equidistribució?",
-      "options": [
-        "La justa distribució dels beneficis i les càrregues derivats del planejament entre tots els propietaris de l'àmbit",
-        "El repartiment igual del pressupost municipal",
-        "La distribució de l'aigua entre els veïns",
-        "La divisió del terme municipal en districtes"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'equidistribució garanteix que tots els propietaris d'un àmbit rebin un aprofitament proporcional i suportin les càrregues (cessions, costos d'urbanització) també proporcionalment. S'articula mitjançant les àrees de repartiment, les unitats d'execució i la reparcel·lació.",
-      "source": "TRLUC",
-      "article": "art. 37 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "Què és una àrea de repartiment?",
-      "options": [
-        "L'àmbit al qual es refereix el càlcul de l'aprofitament per homogeneïtzar els drets dels propietaris",
-        "Un districte electoral",
-        "Una zona de recollida de residus",
-        "Un barri residencial"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'àrea de repartiment és l'àmbit als efectes del càlcul de l'aprofitament (l'aprofitament mitjà), que permet homogeneïtzar els drets dels propietaris. La unitat d'execució (o polígon) és, en canvi, l'àmbit territorial de gestió on s'aplica el sistema d'actuació.",
-      "source": "TRLUC",
-      "article": "art. 37 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "Què és l'aprofitament urbanístic mitjà?",
-      "options": [
-        "L'edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment, que determina l'aprofitament de cada propietari",
-        "El benefici mitjà de les empreses constructores",
-        "La mitjana d'alçada dels edificis",
-        "El nombre mitjà d'habitants per parcel·la"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'aprofitament urbanístic mitjà (o tipus) és l'edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment; determina l'aprofitament que correspon a cada propietari (proporcional a la seva superfície) i el que se cedeix a l'Administració. És la clau de l'equidistribució.",
-      "source": "TRLUC",
-      "article": "art. 37 TRLUC"
-    },
-    {
-      "theme": 55,
-      "block": 11,
-      "q": "Què és el projecte d'urbanització (art. 72 TRLUC)?",
-      "options": [
-        "El projecte d'obres que defineix i valora les obres d'urbanització (vials, xarxes de serveis, zones verdes) per executar-les materialment",
-        "El projecte de reparcel·lació que adjudica les finques",
-        "El pla que classifica el sòl",
-        "El pressupost municipal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el projecte d'urbanització (art. 72) és un projecte d'obres que defineix i valora tècnicament les obres d'urbanització (vials, xarxes de serveis, enllumenat, zones verdes) per executar-les materialment. Es distingeix del projecte de reparcel·lació, que fa la redistribució jurídica de finques i càrregues.",
-      "source": "TRLUC",
-      "article": "art. 72 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Quina és la naturalesa de la llicència urbanística (art. 187 TRLUC)?",
-      "options": [
-        "Un acte administratiu reglat que autoritza actes de transformació o ús del sòl un cop comprovada la conformitat amb l'ordenament",
-        "Un acte discrecional que atorga drets nous",
-        "Un contracte administratiu",
-        "Una sanció"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la llicència urbanística és un acte reglat: si el projecte s'ajusta a l'ordenament, s'ha d'atorgar. Autoritza actes de transformació o utilització del sòl (parcel·lacions, obres, canvi d'ús, primera ocupació...) prèvia comprovació de la conformitat amb el planejament i la legislació.",
-      "source": "TRLUC",
-      "article": "art. 187 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Quin és el sentit del silenci en les llicències urbanístiques, com a regla?",
-      "options": [
-        "Positiu, tret que amb ell s'adquireixin facultats o drets contraris a l'ordenament o al planejament",
-        "Negatiu en tot cas",
-        "No produeix cap efecte",
-        "Positiu sense cap excepció"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el silenci en les llicències és, com a regla, positiu; però mai s'adquireixen per silenci facultats o drets contraris a l'ordenament urbanístic o al planejament (art. 5.2 TRLUC i legislació estatal del sòl). Si el que se sol·licita és disconforme, no s'obté la llicència encara que passi el termini.",
-      "source": "TRLUC",
-      "article": "art. 5.2 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "En què consisteix el deure de conservació dels propietaris (art. 197 TRLUC)?",
-      "options": [
-        "A mantenir els terrenys i construccions en condicions de seguretat, salubritat i ornament públic",
-        "A construir sempre l'edificabilitat màxima",
-        "A cedir els béns a l'Administració",
-        "A pagar un impost anual"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els propietaris tenen el deure de conservar els terrenys, urbanitzacions, edificis i instal·lacions en condicions de seguretat, salubritat i ornament públic (art. 197); l'Administració pot dictar ordres d'execució per obligar-hi. El deure té com a límit el deure legal de conservació.",
-      "source": "TRLUC",
-      "article": "art. 197 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Quan es declara la ruïna econòmica d'un edifici (art. 198 TRLUC)?",
-      "options": [
-        "Quan el cost de la reparació supera el 50% del valor de l'edifici (exclòs el sòl)",
-        "Quan l'edifici té més de cent anys",
-        "Quan el propietari ho demana lliurement",
-        "Quan l'edifici està llogat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la ruïna econòmica es declara quan el cost de les obres de reparació necessàries supera el 50% del valor actual de l'edifici o construcció (exclòs el valor del sòl). Hi ha també la ruïna tècnica (danys que comprometen la seguretat, no reparables per mitjans normals) i la urbanística.",
-      "source": "TRLUC",
-      "article": "art. 198 TRLUC"
-    },
-    {
-      "theme": 56,
-      "block": 12,
-      "q": "Quins actes menors se subjecten, en lloc de llicència, a comunicació prèvia?",
-      "options": [
-        "Determinats actes de poca entitat que la normativa exceptua de llicència (art. 187 bis TRLUC)",
-        "Les obres de nova planta",
-        "Les grans parcel·lacions",
-        "Tots els actes sense excepció"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la normativa (art. 187 bis TRLUC i RLUC) subjecta determinats actes menors o de poca entitat a comunicació prèvia en lloc de llicència, en aplicació dels principis de simplificació i proporcionalitat, reservant la llicència per als actes de més transcendència urbanística.",
-      "source": "TRLUC",
-      "article": "art. 187 bis TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "Què és una parcel·lació urbanística (art. 191 TRLUC)?",
-      "options": [
-        "Tota divisió de terrenys en dos o més lots quan pugui donar lloc a la constitució d'un nucli de població",
-        "Qualsevol divisió registral d'una finca",
-        "La compra d'un solar",
-        "La construcció d'un habitatge"
-      ],
-      "correct": 0,
-      "explain": "Correcta: és parcel·lació urbanística tota divisió simultània o successiva de terrenys en dos o més lots quan, per les seves característiques, pugui donar lloc a la constitució d'un nucli de població (art. 191). Cal distingir-la de la simple divisió registral o agrària. Requereix llicència o declaració d'innecessarietat.",
-      "source": "TRLUC",
-      "article": "art. 191 TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "Què estableix la presumpció de parcel·lació urbanística (art. 191.2 TRLUC)?",
-      "options": [
-        "Que hi ha parcel·lació quan s'aprecien indicis de formació d'un nucli de població (lots, vials, serveis, publicitat de venda), encara que es dissimuli",
-        "Que mai hi ha parcel·lació sense títol exprés",
-        "Que tota finca rústica és urbana",
-        "Que les parcel·lacions són sempre legals"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la presumpció (art. 191.2) permet combatre les parcel·lacions encobertes: es considera que hi ha parcel·lació urbanística quan s'aprecien indicis de formació d'un nucli de població (divisió en lots, obertura de vials, implantació de serveis, publicitat de venda), encara que es dissimuli sota altres negocis (com comunitats de béns proindivís sobre finques rústiques).",
-      "source": "TRLUC",
-      "article": "art. 191.2 TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "Quan és indivisible una parcel·la (art. 195 TRLUC)?",
-      "options": [
-        "Quan té una dimensió inferior o igual a la mínima, o inferior al doble de la mínima, entre altres supòsits",
-        "Quan té més de 1.000 m²",
-        "Quan està edificada",
-        "Sempre; cap parcel·la es pot dividir"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 195 declara indivisibles les parcel·les de dimensió inferior o igual a la mínima, les de dimensió inferior al doble de la mínima (la divisió deixaria un lot per sota del mínim), les d'edificabilitat esgotada o vinculada a una construcció, i les finques de sòl no urbanitzable per sota de la unitat mínima de conreu.",
-      "source": "TRLUC",
-      "article": "art. 195 TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "Quin control es fa sobre els actes de parcel·lació?",
-      "options": [
-        "Requereixen llicència urbanística o declaració d'innecessarietat; les contràries al planejament són nul·les",
-        "No estan subjectes a cap control",
-        "Només es comuniquen verbalment",
-        "Els autoritza l'Estat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els actes de parcel·lació requereixen llicència urbanística o, si escau, declaració d'innecessarietat. Les parcel·lacions contràries al planejament són nul·les i no s'inscriuen al Registre de la Propietat, com a mecanisme de control per evitar assentaments il·legals.",
-      "source": "TRLUC",
-      "article": "art. 187 TRLUC"
-    },
-    {
-      "theme": 57,
-      "block": 12,
-      "q": "Com es dissimulen sovint les parcel·lacions urbanístiques il·legals?",
-      "options": [
-        "Mitjançant la constitució de comunitats de béns o proindivisos sobre finques rústiques amb assignació d'ús exclusiu de lots",
-        "Amb l'atorgament d'una llicència d'obres",
-        "Amb la publicació al BOP",
-        "No es dissimulen mai"
-      ],
-      "correct": 0,
-      "explain": "Correcta: una forma habitual de dissimular parcel·lacions il·legals és constituir comunitats de béns o proindivisos sobre finques rústiques amb assignació de l'ús exclusiu de lots concrets a cada comuner, cosa que materialment equival a una parcel·lació. La presumpció de l'art. 191.2 permet combatre aquestes pràctiques.",
-      "source": "TRLUC",
-      "article": "art. 191 TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "A qui correspon principalment la protecció de la legalitat urbanística?",
-      "options": [
-        "Als municipis (inspecció, disciplina, llicències), amb intervenció autonòmica subsidiària i en determinats casos",
-        "Exclusivament a l'Estat",
-        "Únicament als tribunals",
-        "Als particulars"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la protecció de la legalitat correspon principalment als municipis (inspecció, disciplina, llicències, ordres de restauració i sanció), amb intervenció de la Generalitat amb caràcter subsidiari i en supòsits com el sòl no urbanitzable o els interessos supramunicipals.",
-      "source": "TRLUC",
-      "article": "art. 199 TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "Quins dos procediments s'obren davant unes obres il·legals?",
-      "options": [
-        "El de restauració de la realitat física i l'ordre jurídic, i el sancionador, independents i compatibles",
-        "Únicament el sancionador",
-        "Únicament el de restauració",
-        "Cap procediment"
-      ],
-      "correct": 0,
-      "explain": "Correcta: davant obres o usos il·legals s'obren dos procediments independents i compatibles: el de restauració de la realitat física alterada i de l'ordre jurídic vulnerat (legalització o enderroc), i el sancionador (multa per la infracció). La restauració no és una sanció, sinó un restabliment de la legalitat.",
-      "source": "TRLUC",
-      "article": "art. 199-206 TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "Què cal fer davant unes obres sense llicència però legalitzables?",
-      "options": [
-        "Requerir l'interessat perquè sol·liciti la llicència en un termini (habitualment dos mesos)",
-        "Enderrocar-les immediatament sense cap tràmit",
-        "Ignorar-les",
-        "Atorgar-li una indemnització"
-      ],
-      "correct": 0,
-      "explain": "Correcta: si les obres sense llicència són legalitzables (conformes a l'ordenament), es requereix l'interessat perquè sol·liciti la llicència en el termini corresponent (habitualment dos mesos); si les legalitza, es tanca l'expedient; si no ho fa o no són legalitzables, s'ordena la restauració (enderroc o reposició).",
-      "source": "TRLUC",
-      "article": "art. 205 TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "Quin valor tenen les actes d'inspecció urbanística?",
-      "options": [
-        "Tenen valor de document públic i gaudeixen de presumpció de veracitat",
-        "No tenen cap valor probatori",
-        "Són secretes",
-        "Només valen si les signa el jutge"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la inspecció urbanística és la potestat de comprovar el compliment de la legalitat; les actes que estenen els inspectors tenen valor de document públic i gaudeixen de presumpció de veracitat quant als fets que hi consten, sens perjudici de la prova en contra.",
-      "source": "TRLUC",
-      "article": "art. 203 TRLUC"
-    },
-    {
-      "theme": 58,
-      "block": 12,
-      "q": "En quins terrenys l'acció de restauració de la legalitat NO prescriu?",
-      "options": [
-        "En sòl no urbanitzable protegit, sistemes generals, zones verdes i domini públic",
-        "En tot el sòl urbà",
-        "En cap terreny; sempre prescriu",
-        "Només en els solars edificables"
-      ],
-      "correct": 0,
-      "explain": "Correcta: com a regla, l'acció de restauració prescriu als sis anys, però és imprescriptible en sòl no urbanitzable i urbanitzable no delimitat, en sistemes generals, espais lliures i zones verdes, en domini públic i en béns catalogats. En aquests terrenys, l'Administració pot ordenar la restauració en qualsevol moment.",
-      "source": "TRLUC",
-      "article": "art. 227 TRLUC"
-    },
-    {
-      "theme": 59,
-      "block": 13,
-      "q": "Com gradua la Llei 20/2009 (PCAA) la intervenció sobre les activitats?",
-      "options": [
-        "Segons la incidència ambiental, en règims classificats per annexos: autorització (I), llicència (II) i comunicació (III)",
-        "Segons la mida de l'empresa exclusivament",
-        "Segons el nombre de treballadors",
-        "Sense cap criteri"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la Llei 20/2009 gradua el control segons la incidència ambiental de l'activitat: annex I (autorització ambiental, atorgada per la Generalitat, alta incidència), annex II (llicència ambiental, atorgada per l'ajuntament, incidència mitjana) i annex III (comunicació ambiental, baixa incidència).",
-      "source": "L20_2009",
-      "article": "Llei 20/2009"
-    },
-    {
-      "theme": 59,
-      "block": 13,
-      "q": "Qui atorga la llicència ambiental (annex II de la Llei 20/2009)?",
-      "options": [
-        "L'ajuntament, amb informació pública i veïnal i informes preceptius",
-        "La Generalitat",
-        "L'Estat",
-        "El Consell Comarcal en tot cas"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la llicència ambiental (annex II), per a activitats d'incidència mitjana, l'atorga l'ajuntament, amb informació pública i veïnal i informes preceptius, i està sotmesa a controls periòdics. L'autorització ambiental (annex I) l'atorga la Generalitat.",
-      "source": "L20_2009",
-      "article": "Llei 20/2009"
-    },
-    {
-      "theme": 59,
-      "block": 13,
-      "q": "Què integra l'autorització ambiental (annex I)?",
-      "options": [
-        "Tots els aspectes ambientals de l'activitat (emissions, abocaments, residus, sorolls) i, si escau, l'avaluació d'impacte ambiental",
-        "Únicament els sorolls",
-        "Només els aspectes laborals",
-        "El pressupost de l'empresa"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'autorització ambiental (annex I) és el règim més exigent i integra en un sol acte tots els aspectes ambientals de l'activitat (emissions a l'atmosfera, abocaments, residus, sorolls) i, quan l'activitat hi està sotmesa, l'avaluació d'impacte ambiental. L'atorga la Generalitat.",
-      "source": "L20_2009",
-      "article": "Llei 20/2009"
-    },
-    {
-      "theme": 59,
-      "block": 13,
-      "q": "Què és l'informe urbanístic en el procediment d'intervenció ambiental?",
-      "options": [
-        "Un tràmit previ i preceptiu que acredita la compatibilitat de l'activitat amb el planejament urbanístic",
-        "El pressupost de l'activitat",
-        "La llicència d'obres",
-        "El certificat energètic"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'informe urbanístic (art. 60 de la Llei 20/2009) és un tràmit previ que acredita la compatibilitat de l'activitat projectada amb el planejament urbanístic; és preceptiu abans de sol·licitar l'autorització o la llicència ambiental, per garantir que l'emplaçament és adequat.",
-      "source": "L20_2009",
-      "article": "art. 60 Llei 20/2009"
-    },
-    {
-      "theme": 59,
-      "block": 13,
-      "q": "Quin règim s'aplica a les activitats de baixa incidència ambiental (annex III)?",
-      "options": [
-        "La comunicació ambiental, que permet iniciar l'activitat amb la simple comunicació i control posterior",
-        "L'autorització ambiental de la Generalitat",
-        "La prohibició total",
-        "Cap règim"
-      ],
-      "correct": 0,
-      "explain": "Correcta: les activitats de baixa incidència (annex III) se subjecten a comunicació ambiental: l'interessat comunica l'inici de l'activitat i pot començar a exercir-la des de la presentació, sens perjudici de la comprovació i inspecció posteriors. És el règim menys intens de control.",
-      "source": "L20_2009",
-      "article": "Llei 20/2009"
-    },
-    {
-      "theme": 60,
-      "block": 13,
-      "q": "Quina norma regula els espectacles públics i les activitats recreatives a Catalunya?",
-      "options": [
-        "La Llei 11/2009 i el seu reglament (Decret 112/2010)",
-        "La Llei 20/2009 exclusivament",
-        "El Codi penal",
-        "La Llei 39/2015 únicament"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els espectacles públics i les activitats recreatives a Catalunya es regeixen per la Llei 11/2009, de regulació administrativa dels espectacles públics i les activitats recreatives, i pel seu reglament (Decret 112/2010), que estableixen els règims d'intervenció, les condicions de seguretat i la protecció del públic.",
-      "source": "L11_2009",
-      "article": "Llei 11/2009"
-    },
-    {
-      "theme": 60,
-      "block": 13,
-      "q": "Quan s'exigeix llicència d'establiment obert al públic (Llei 11/2009)?",
-      "options": [
-        "Per a establiments amb aforament o risc significatius o instal·lacions no permanents desmuntables",
-        "Per a qualsevol activitat, per petita que sigui",
-        "Mai; totes les activitats són lliures",
-        "Només per a activitats a l'aire lliure"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la llicència d'establiment obert al públic s'exigeix per a establiments amb aforament o risc significatius i per a determinades instal·lacions no permanents desmuntables. Les activitats de menor risc en establiments ja habilitats se subjecten a comunicació prèvia, i les innòcues a comunicació o declaració responsable.",
-      "source": "L11_2009",
-      "article": "Llei 11/2009"
-    },
-    {
-      "theme": 60,
-      "block": 13,
-      "q": "Com es controlen les activitats innòcues?",
-      "options": [
-        "Mitjançant comunicació prèvia o declaració responsable, que permeten iniciar-les des de la presentació",
-        "Amb autorització ambiental de la Generalitat",
-        "Amb prohibició total",
-        "Amb llicència d'obres major"
-      ],
-      "correct": 0,
-      "explain": "Correcta: les activitats innòcues (de molt baixa incidència, sense molèsties ni riscos rellevants) se subjecten a comunicació prèvia o declaració responsable, que permeten iniciar l'activitat des de la presentació del document, sens perjudici de la comprovació posterior. És el règim més simplificat.",
-      "source": "L11_2009",
-      "article": "Llei 11/2009"
-    },
-    {
-      "theme": 60,
-      "block": 13,
-      "q": "Quins aspectes regula el règim dels espectacles i activitats recreatives?",
-      "options": [
-        "L'aforament, els horaris, les condicions de seguretat, els plans d'autoprotecció, l'admissió de persones i la protecció de menors",
-        "Únicament el preu de les entrades",
-        "El nomenament del personal municipal",
-        "El pressupost de l'ajuntament"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el règim inclou determinacions sobre l'aforament, els horaris, les condicions de seguretat, els plans d'autoprotecció, les condicions d'admissió de persones i la protecció de menors, per garantir la seguretat i els drets del públic i la convivència.",
-      "source": "L11_2009",
-      "article": "Llei 11/2009"
-    },
-    {
-      "theme": 60,
-      "block": 13,
-      "q": "Com es coordina la Llei 11/2009 amb la intervenció ambiental?",
-      "options": [
-        "Quan l'activitat també té incidència ambiental, es coordina amb la Llei 20/2009",
-        "S'exclouen mútuament",
-        "La Llei 11/2009 deroga la Llei 20/2009",
-        "No hi ha cap relació possible"
-      ],
-      "correct": 0,
-      "explain": "Correcta: quan un espectacle o activitat recreativa també té incidència ambiental (per exemple, per sorolls o emissions), el règim de la Llei 11/2009 es coordina amb la intervenció ambiental de la Llei 20/2009, de manera que es respectin les dues normatives. També es coordina amb la normativa de facilitació de l'activitat econòmica.",
-      "source": "L11_2009",
-      "article": "Llei 11/2009"
-    },
-    {
       "theme": 61,
       "block": 14,
       "q": "Qui pot redactar els projectes d'obres locals?",
@@ -6754,6 +6004,756 @@
       "explain": "Correcta: entre els objectes possibles d'un PDU hi ha la delimitació i ordenació d'àrees residencials estratègiques, la concreció de reserves de sòl per a grans infraestructures, les directrius de coordinació supramunicipal i les mesures de protecció del sòl no urbanitzable.",
       "source": "TRLUC",
       "article": "art. 56 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "Què és el pla d'ordenació urbanística municipal (POUM)?",
+      "options": [
+        "L'instrument d'ordenació urbanística integral del territori municipal, que classifica el sòl i defineix el model urbà",
+        "Un pla derivat que es limita a ordenar de manera detallada una única parcel·la de sòl urbà consolidat",
+        "El document pressupostari que recull la previsió d'inversions en infraestructures per als propers exercicis",
+        "Un reglament que regula el règim disciplinari i les situacions del personal al servei de l'àrea d'urbanisme"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el POUM (art. 57 TRLUC) és l'instrument d'ordenació urbanística integral del municipi: classifica el sòl, defineix el model d'ordenació i l'estructura general (sistemes generals), i estableix l'ordenació detallada del sòl urbà i els sectors de desenvolupament.",
+      "source": "TRLUC",
+      "article": "art. 57 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "Quin d'aquests documents forma part del POUM (art. 59 TRLUC)?",
+      "options": [
+        "Únicament un plànol general del terme municipal amb la delimitació dels diferents districtes i barris",
+        "La memòria, els plànols d'informació i ordenació, les normes urbanístiques, el catàleg de béns i l'agenda economicofinancera",
+        "El padró municipal d'habitants amb la relació de veïns inscrits i la seva distribució per edats i sexes",
+        "La relació de llocs de treball i la plantilla del personal al servei de l'ajuntament durant l'exercici"
+      ],
+      "correct": 1,
+      "explain": "Correcta: el POUM s'integra pels documents de l'art. 59: memòria i estudis justificatius, plànols d'informació i d'ordenació, normes urbanístiques, catàleg de béns protegits, agenda i avaluació econòmica i financera, informe ambiental, memòria social i programa d'actuació urbanística.",
+      "source": "TRLUC",
+      "article": "art. 59 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "Quin efecte té acordar la formulació o revisió del POUM sobre les llicències (arts. 73-74)?",
+      "options": [
+        "Obliga a atorgar de manera immediata totes les llicències que estiguin pendents de resolució en aquell moment",
+        "No té cap efecte sobre les llicències, que es continuen atorgant amb normalitat mentre es tramita el nou pla",
+        "Es pot suspendre l'atorgament de llicències a les àrees afectades, per un màxim d'un any prorrogable fins a dos",
+        "Suspèn de manera indefinida l'atorgament de qualsevol llicència a tot el terme municipal fins que s'aprovi el pla"
+      ],
+      "correct": 2,
+      "explain": "Correcta: en acordar la formulació o revisió del POUM, es pot suspendre l'atorgament de llicències a les àrees afectades on les noves determinacions comportin modificació del règim urbanístic, per un màxim d'un any, prorrogable fins a dos anys en total (arts. 73-74). És una mesura cautelar.",
+      "source": "TRLUC",
+      "article": "arts. 73-74 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "Qui aprova definitivament el POUM?",
+      "options": [
+        "L'alcalde de la corporació de manera individual, mitjançant un decret motivat de l'alcaldia que el fa executiu",
+        "Els particulars propietaris dels terrenys afectats pel pla, que en ratifiquen el contingut en assemblea",
+        "L'Estat, a través del ministeri competent en matèria d'ordenació del territori i d'urbanisme del país",
+        "La comissió territorial d'urbanisme de la Generalitat, després de l'aprovació inicial i provisional per l'ajuntament"
+      ],
+      "correct": 3,
+      "explain": "Correcta: el POUM el formula l'ajuntament, que l'aprova inicialment i provisionalment (el Ple, per majoria absoluta), amb informació pública i informes; l'aprovació definitiva correspon a la comissió territorial d'urbanisme de la Generalitat, que en controla la legalitat.",
+      "source": "TRLUC",
+      "article": "art. 79-80 TRLUC"
+    },
+    {
+      "theme": 51,
+      "block": 11,
+      "q": "Què és el programa d'actuació urbanística municipal (PAUM)?",
+      "options": [
+        "L'instrument que concreta les previsions de desplegament i gestió del POUM, amb una vigència aproximada de sis anys",
+        "El pressupost anual d'inversions de l'ajuntament, que es renova cada exercici mitjançant l'aprovació del pressupost",
+        "El pla de recursos humans de l'àrea d'urbanisme, amb la previsió de necessitats de personal per als propers anys",
+        "El catàleg de béns protegits del municipi, que recull els elements arquitectònics i naturals que cal preservar"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el PAUM (art. 60) concreta les previsions de desplegament i gestió del planejament (prioritats, terminis), amb una vigència aproximada de sis anys. Les normes de planejament urbanístic (art. 62), en canvi, supleixen o complementen el planejament en municipis sense POUM.",
+      "source": "TRLUC",
+      "article": "art. 60 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Què ordenen els plans parcials urbanístics (arts. 65-66 TRLUC)?",
+      "options": [
+        "El sòl no urbanitzable de protecció especial, per preservar-ne els valors agrícoles, forestals i paisatgístics",
+        "El sòl urbanitzable, de manera detallada, perquè es pugui executar el desenvolupament del sector delimitat",
+        "La totalitat del terme municipal de manera integral, classificant tot el sòl i definint el model urbà global",
+        "Els pressupostos anuals i les inversions en infraestructures que ha d'executar l'ajuntament durant el mandat"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els plans parcials urbanístics ordenen detalladament un sector de sòl urbanitzable delimitat pel POUM (els de delimitació ho fan sobre sòl urbanitzable no delimitat), amb la qualificació del sòl, els sistemes locals, els paràmetres d'edificació i la divisió en polígons.",
+      "source": "TRLUC",
+      "article": "art. 65 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Per a què serveixen els plans especials urbanístics (arts. 67-68 TRLUC)?",
+      "options": [
+        "Per classificar tot el sòl del municipi en urbà, urbanitzable i no urbanitzable, com a instrument d'ordenació integral",
+        "Per aprovar el pressupost general de l'entitat i les seves modificacions de crèdit durant l'exercici pressupostari",
+        "Per desenvolupar determinacions del planejament general per a finalitats específiques (infraestructures, patrimoni, subsol)",
+        "Per nomenar i cessar el personal directiu i el personal eventual al servei de l'administració urbanística municipal"
+      ],
+      "correct": 2,
+      "explain": "Correcta: els plans especials desenvolupen previsions del planejament general per a finalitats concretes: infraestructures, protecció del patrimoni i del paisatge, ordenació del subsol, etc. Els plans de millora urbana (art. 70) actuen en sòl urbà per completar-lo o reformar-lo.",
+      "source": "TRLUC",
+      "article": "art. 67 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Qui aprova, com a regla, definitivament els plans parcials i especials?",
+      "options": [
+        "Sempre l'alcalde de manera individual, mitjançant un decret motivat de l'alcaldia que en aprova el contingut",
+        "L'Estat, a través del ministeri competent en matèria d'ordenació del territori i d'urbanisme del conjunt del país",
+        "Els particulars propietaris dels terrenys afectats, que en ratifiquen el contingut mitjançant un acord unànime",
+        "La comissió territorial d'urbanisme, o el mateix ajuntament en municipis amb POUM en determinats casos"
+      ],
+      "correct": 3,
+      "explain": "Correcta: els plans derivats s'aproven inicialment i provisionalment per l'ajuntament, amb informació pública mínima d'un mes; l'aprovació definitiva correspon a la comissió territorial d'urbanisme, si bé en municipis amb POUM la pot fer el mateix ajuntament, segons els casos.",
+      "source": "TRLUC",
+      "article": "arts. 85-89 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Quina diferència hi ha entre la modificació i la revisió d'un pla?",
+      "options": [
+        "La modificació canvia determinacions concretes pel mateix procediment; la revisió replanteja els criteris i equival a un pla nou",
+        "Són exactament el mateix, ja que tots dos termes descriuen la manera d'introduir canvis en un pla ja aprovat",
+        "La modificació és un canvi més profund i estructural que la revisió, que només afecta aspectes de detall del pla",
+        "La revisió no requereix cap procediment ni tramitació, mentre que la modificació segueix el procediment ordinari"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la modificació altera determinacions puntuals del pla i segueix el mateix procediment que la formació; la revisió comporta un replantejament dels criteris i objectius del pla (per l'adopció de nous criteris o l'esgotament del model) i equival a formar un pla nou.",
+      "source": "TRLUC",
+      "article": "art. 96-97 TRLUC"
+    },
+    {
+      "theme": 52,
+      "block": 11,
+      "q": "Què són els plans de millora urbana (art. 70 TRLUC)?",
+      "options": [
+        "Plans que classifiquen el sòl no urbanitzable i n'estableixen el règim de protecció per raó dels seus valors",
+        "Plans que actuen en sòl urbà per completar-ne el teixit o dur a terme operacions de reforma, renovació o rehabilitació",
+        "Plans que ordenen el sòl urbanitzable de nova creació perquè es pugui transformar i incorporar al nucli urbà",
+        "Plans directors d'abast supramunicipal que coordinen l'ordenació urbanística de diversos municipis d'una àrea"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els plans de millora urbana (art. 70) actuen en sòl urbà per completar el teixit urbà o dur a terme operacions de transformació (reforma interior, renovació, rehabilitació, millora urbana), amb les cessions i càrregues corresponents al sòl urbà no consolidat.",
+      "source": "TRLUC",
+      "article": "art. 70 TRLUC"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Quines figures de planejament poden formular i presentar els particulars?",
+      "options": [
+        "El planejament general (POUM i plans directors), que poden redactar i aprovar directament els propietaris",
+        "Cap figura de planejament, ja que la formulació de tot el planejament és competència exclusiva de l'Administració",
+        "El planejament derivat (plans parcials, de millora urbana, especials), especialment els propietaris de l'àmbit",
+        "Únicament les ordenances fiscals reguladores dels tributs que graven els terrenys de la seva propietat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la formulació del planejament general (POUM, PDU) és d'iniciativa pública, però el planejament derivat (plans parcials, de millora urbana, especials) pot ser formulat i presentat per particulars, especialment els propietaris de l'àmbit, que ho instal·len presentant el projecte (arts. 101-102).",
+      "source": "TRLUC",
+      "article": "art. 101 TRLUC"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Què ha d'aportar el particular que formula un pla derivat per iniciativa privada?",
+      "options": [
+        "Únicament el seu document nacional d'identitat i una sol·licitud verbal adreçada a l'òrgan competent de l'ajuntament",
+        "Res, ja que n'hi ha prou amb presentar una simple sol·licitud verbal perquè l'Administració tramiti tot el pla",
+        "El pressupost general de l'ajuntament i les seves bases d'execució per a l'exercici en què presenta el pla",
+        "A més de la documentació general, l'estructura de la propietat i els compromisos assumits, amb garanties i conveni"
+      ],
+      "correct": 3,
+      "explain": "Correcta: quan un particular formula un pla derivat, ha d'aportar, a més de la documentació general del pla, la informació sobre l'estructura de la propietat i els compromisos que assumeix (garanties de la urbanització i, si escau, un conveni urbanístic), perquè l'Administració en valori la viabilitat.",
+      "source": "TRLUC",
+      "article": "art. 102 TRLUC"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Qui aprova el pla derivat presentat per iniciativa privada?",
+      "options": [
+        "L'administració competent, seguint el procediment ordinari d'aprovació inicial, provisional i definitiva",
+        "El mateix particular que el presenta, ja que la iniciativa privada comporta també la potestat d'aprovar-lo",
+        "Ningú, ja que el pla presentat per iniciativa privada s'aplica de manera automàtica sense necessitat d'aprovació",
+        "Una notaria, que dona fe pública del contingut del pla i el converteix en un instrument executiu i obligatori"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la iniciativa privada només afecta la formulació i presentació del pla; la tramitació i aprovació segueixen el procediment ordinari (aprovació inicial, provisional i definitiva pels òrgans competents), amb informació pública. El particular no aprova el pla, només el promou.",
+      "source": "TRLUC",
+      "article": "arts. 101-102 TRLUC"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Quins instruments garanteixen el dret d'informació urbanística dels particulars?",
+      "options": [
+        "El padró municipal d'habitants i el cens electoral, que recullen les dades personals dels veïns del municipi",
+        "La consulta prèvia, els certificats de règim urbanístic i la cèdula urbanística, que informen del règim d'una finca",
+        "El pressupost participatiu, que permet als veïns decidir la destinació d'una part de les inversions municipals",
+        "El registre civil, on s'inscriuen els actes relatius a l'estat civil de les persones físiques del terme municipal"
+      ],
+      "correct": 1,
+      "explain": "Correcta: el dret d'informació urbanística es materialitza en la consulta prèvia, els certificats de règim urbanístic i la cèdula urbanística, documents que informen del règim aplicable a una finca (classificació, qualificació, paràmetres). Complementen la col·laboració en el planejament.",
+      "source": "TRLUC",
+      "article": "art. 105 TRLUC"
+    },
+    {
+      "theme": 53,
+      "block": 11,
+      "q": "Com es garanteix la participació ciutadana en la tramitació del planejament?",
+      "options": [
+        "Prohibint qualsevol intervenció dels ciutadans, que no poden presentar al·legacions durant la tramitació del pla",
+        "Amb un referèndum vinculant entre tots els veïns del municipi per a cada figura de planejament que es tramiti",
+        "Amb la informació pública obligatòria i els programes de participació ciutadana que acompanyen la formulació",
+        "Sense cap mecanisme de participació, ja que el planejament és una decisió tècnica reservada a l'Administració"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la participació ciutadana es garanteix amb la informació pública obligatòria (durant la tramitació, perquè qualsevol pugui presentar al·legacions) i amb els programes de participació ciutadana que acompanyen la formulació dels plans, especialment el POUM.",
+      "source": "TRLUC",
+      "article": "art. 8 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Què cal per fer executiu el planejament urbanístic (arts. 100 i 106 TRLUC)?",
+      "options": [
+        "La simple aprovació inicial pel Ple de la corporació, amb què el pla ja desplega tots els seus efectes jurídics",
+        "Res en especial, ja que el planejament és executiu des del moment mateix en què l'equip tècnic el redacta",
+        "L'autorització d'un notari, que ha de donar fe pública del contingut del pla perquè aquest esdevingui obligatori",
+        "La publicació de l'acord d'aprovació definitiva i del text íntegre de les normes urbanístiques al diari oficial"
+      ],
+      "correct": 3,
+      "explain": "Correcta: el planejament esdevé executiu amb la publicació de l'acord d'aprovació definitiva i del text íntegre de les normes urbanístiques al diari oficial (DOGC o BOP). Fins que no es publiquen les normes urbanístiques, el pla no és executiu ni obliga.",
+      "source": "TRLUC",
+      "article": "art. 106 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Quin efecte té l'aprovació del planejament sobre les construccions disconformes amb el nou pla?",
+      "options": [
+        "Queden en règim de fora d'ordenació o disconformitat, amb limitacions per fer-hi obres de consolidació",
+        "S'han d'enderrocar totes de manera immediata, sense dret a cap indemnització per als seus propietaris",
+        "No tenen cap efecte, de manera que les construccions disconformes continuen amb el mateix règim d'abans",
+        "Es converteixen automàticament en construccions plenament legals i conformes al nou planejament aprovat"
+      ],
+      "correct": 0,
+      "explain": "Correcta: les construccions existents disconformes amb el nou planejament queden en règim de fora d'ordenació (o disconformitat), que en limita les obres possibles (com a regla, només conservació), sense obligar necessàriament a l'enderroc immediat.",
+      "source": "TRLUC",
+      "article": "art. 108 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Què són els convenis urbanístics (art. 104 TRLUC)?",
+      "options": [
+        "Contractes de caràcter secret i reservat que subscriuen l'alcalde i els promotors al marge de qualsevol control",
+        "Acords de planejament o de gestió subjectes a publicitat obligatòria, que no poden vulnerar la llei ni les potestats públiques",
+        "Sancions urbanístiques que s'imposen als propietaris que incompleixen els deures que els atribueix el planejament",
+        "Llicències d'obres que autoritzen la construcció en sòl urbà un cop comprovat el compliment dels requisits legals"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els convenis urbanístics (art. 104) poden ser de planejament (per preparar-ne modificacions) o de gestió (per executar-lo); estan subjectes a publicitat obligatòria i no poden vulnerar la llei ni substituir les potestats públiques d'ordenació, que són indisponibles.",
+      "source": "TRLUC",
+      "article": "art. 104 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "El planejament urbanístic és públic?",
+      "options": [
+        "No: el planejament té caràcter secret i reservat, i només hi poden accedir els òrgans tècnics de l'ajuntament",
+        "Només el poden consultar els propietaris dels terrenys directament afectats per les determinacions del pla",
+        "Sí: qualsevol persona pot consultar-lo, obtenir-ne informació i demanar certificats de règim urbanístic",
+        "Només es pot consultar prèvia sol·licitud i pagament d'una taxa d'import elevat que en dificulta l'accés efectiu"
+      ],
+      "correct": 2,
+      "explain": "Correcta: el planejament urbanístic és públic (art. 103 TRLUC): qualsevol persona pot consultar-lo, obtenir-ne informació i demanar certificats de règim urbanístic i la cèdula urbanística d'una finca. La publicitat és una garantia de transparència i seguretat jurídica.",
+      "source": "TRLUC",
+      "article": "art. 103 TRLUC"
+    },
+    {
+      "theme": 54,
+      "block": 11,
+      "q": "Quin altre efecte comporta l'aprovació del planejament pel que fa a les expropiacions?",
+      "options": [
+        "La prohibició de dur a terme qualsevol expropiació dins de l'àmbit territorial ordenat pel planejament aprovat",
+        "L'obligació de l'Administració d'adquirir per compravenda tots els terrenys inclosos en l'àmbit del planejament",
+        "Cap efecte de tipus expropiatori, ja que l'expropiació requereix sempre una llei específica que l'habiliti en cada cas",
+        "La declaració d'utilitat pública i la necessitat d'ocupació dels terrenys destinats a sistemes o actuacions previstes"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'aprovació del planejament comporta la declaració implícita d'utilitat pública i la necessitat d'ocupació dels terrenys i les instal·lacions necessaris per executar les actuacions previstes (sistemes, dotacions), a efectes de la seva expropiació.",
+      "source": "TRLUC",
+      "article": "art. 108 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "Quins són els sistemes d'actuació urbanística (art. 121 TRLUC)?",
+      "options": [
+        "La reparcel·lació (en modalitats de compensació i cooperació) i l'expropiació dels terrenys per l'Administració",
+        "Únicament l'expropiació forçosa dels terrenys, ja que és l'única via per executar materialment el planejament",
+        "La subhasta pública i el concurs, com a procediments per adjudicar l'execució de les obres d'urbanització",
+        "La donació i la permuta de terrenys entre els propietaris i l'Administració per obtenir el sòl de sistemes"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'execució del planejament s'articula mitjançant un sistema d'actuació (art. 121): la reparcel·lació, en modalitats de compensació (executen els propietaris) i de cooperació (executa l'Administració), i l'expropiació (l'Administració adquireix els terrenys).",
+      "source": "TRLUC",
+      "article": "art. 121 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "Què és el principi d'equidistribució?",
+      "options": [
+        "El repartiment igualitari del pressupost municipal entre tots els districtes i barris del terme municipal",
+        "La justa distribució dels beneficis i les càrregues derivats del planejament entre tots els propietaris de l'àmbit",
+        "La distribució equitativa de l'aigua potable i dels altres serveis públics entre tots els veïns del municipi",
+        "La divisió del terme municipal en districtes i seccions per organitzar-ne l'administració i la gestió dels serveis"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'equidistribució garanteix que tots els propietaris d'un àmbit rebin un aprofitament proporcional i suportin les càrregues (cessions, costos d'urbanització) també proporcionalment. S'articula mitjançant les àrees de repartiment, les unitats d'execució i la reparcel·lació.",
+      "source": "TRLUC",
+      "article": "art. 37 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "Què és una àrea de repartiment?",
+      "options": [
+        "Un districte electoral en què es divideix el municipi per organitzar la celebració de les eleccions locals",
+        "Una zona en què es divideix el municipi per organitzar el servei de recollida i tractament dels residus urbans",
+        "L'àmbit al qual es refereix el càlcul de l'aprofitament per homogeneïtzar els drets dels propietaris",
+        "Un barri residencial de característiques homogènies delimitat pel planejament dins del sòl urbà consolidat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'àrea de repartiment és l'àmbit als efectes del càlcul de l'aprofitament (l'aprofitament mitjà), que permet homogeneïtzar els drets dels propietaris. La unitat d'execució (o polígon) és, en canvi, l'àmbit territorial de gestió on s'aplica el sistema d'actuació.",
+      "source": "TRLUC",
+      "article": "art. 37 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "Què és l'aprofitament urbanístic mitjà?",
+      "options": [
+        "El benefici econòmic mitjà que obtenen les empreses constructores per l'execució de les obres d'urbanització",
+        "La mitjana d'alçada dels edificis d'un sector, que el planejament fixa per garantir-ne l'homogeneïtat estètica",
+        "El nombre mitjà d'habitants per parcel·la que el planejament preveu en un sector un cop desenvolupat i edificat",
+        "L'edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment, que determina l'aprofitament de cada propietari"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'aprofitament urbanístic mitjà (o tipus) és l'edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment; determina l'aprofitament que correspon a cada propietari (proporcional a la seva superfície) i el que se cedeix a l'Administració.",
+      "source": "TRLUC",
+      "article": "art. 37 TRLUC"
+    },
+    {
+      "theme": 55,
+      "block": 11,
+      "q": "Què és el projecte d'urbanització (art. 72 TRLUC)?",
+      "options": [
+        "El projecte d'obres que defineix i valora les obres d'urbanització (vials, xarxes de serveis, zones verdes) per executar-les",
+        "El projecte de reparcel·lació que adjudica les finques resultants i reparteix les càrregues entre els propietaris",
+        "El pla que classifica el sòl del municipi en urbà, urbanitzable i no urbanitzable segons les seves característiques",
+        "El pressupost general de l'ajuntament amb la previsió d'ingressos i despeses per a l'exercici pressupostari"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el projecte d'urbanització (art. 72) és un projecte d'obres que defineix i valora tècnicament les obres d'urbanització (vials, xarxes de serveis, enllumenat, zones verdes) per executar-les materialment. Es distingeix del projecte de reparcel·lació, que fa la redistribució jurídica.",
+      "source": "TRLUC",
+      "article": "art. 72 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Quina és la naturalesa de la llicència urbanística (art. 187 TRLUC)?",
+      "options": [
+        "Un acte administratiu discrecional que atorga drets urbanístics nous segons el criteri d'oportunitat de l'òrgan",
+        "Un acte administratiu reglat que autoritza actes de transformació o ús del sòl un cop comprovada la conformitat amb l'ordenament",
+        "Un contracte administratiu que subscriuen l'ajuntament i el promotor per autoritzar l'execució d'unes obres",
+        "Una sanció administrativa que s'imposa al propietari que executa obres sense disposar del títol habilitant"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la llicència urbanística és un acte reglat: si el projecte s'ajusta a l'ordenament, s'ha d'atorgar. Autoritza actes de transformació o utilització del sòl (parcel·lacions, obres, canvi d'ús, primera ocupació) prèvia comprovació de la conformitat amb el planejament.",
+      "source": "TRLUC",
+      "article": "art. 187 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Quin és el sentit del silenci en les llicències urbanístiques, com a regla?",
+      "options": [
+        "Negatiu en tot cas, ja que en matèria urbanística no opera mai el silenci de sentit positiu o estimatori",
+        "Sense cap efecte, de manera que la llicència no s'entén atorgada fins que l'òrgan dicta una resolució expressa",
+        "Positiu, tret que amb ell s'adquireixin facultats o drets contraris a l'ordenament urbanístic o al planejament",
+        "Positiu sense cap excepció, de manera que sempre s'obté la llicència un cop transcorregut el termini per resoldre"
+      ],
+      "correct": 2,
+      "explain": "Correcta: el silenci en les llicències és, com a regla, positiu; però mai s'adquireixen per silenci facultats o drets contraris a l'ordenament o al planejament (art. 5.2 TRLUC). Si el que se sol·licita és disconforme, no s'obté la llicència encara que passi el termini.",
+      "source": "TRLUC",
+      "article": "art. 5.2 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "En què consisteix el deure de conservació dels propietaris (art. 197 TRLUC)?",
+      "options": [
+        "A construir sempre l'edificabilitat màxima que el planejament atribueix al terreny en el termini que fixi",
+        "A cedir de manera gratuïta els béns i les construccions a l'Administració un cop transcorregut un termini",
+        "A pagar un impost anual pel manteniment de les condicions urbanístiques dels seus terrenys i construccions",
+        "A mantenir els terrenys i construccions en condicions de seguretat, salubritat i ornament públic adequades"
+      ],
+      "correct": 3,
+      "explain": "Correcta: els propietaris tenen el deure de conservar els terrenys, urbanitzacions, edificis i instal·lacions en condicions de seguretat, salubritat i ornament públic (art. 197); l'Administració pot dictar ordres d'execució per obligar-hi. El deure té com a límit el deure legal de conservació.",
+      "source": "TRLUC",
+      "article": "art. 197 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Quan es declara la ruïna econòmica d'un edifici (art. 198 TRLUC)?",
+      "options": [
+        "Quan el cost de les obres de reparació necessàries supera el 50% del valor actual de l'edifici, exclòs el sòl",
+        "Quan l'edifici té una antiguitat superior als cent anys, amb independència del seu estat de conservació real",
+        "Quan el propietari de l'edifici ho sol·licita lliurement perquè li interessa enderrocar-lo i construir de nou",
+        "Quan l'edifici està llogat i el propietari no es posa d'acord amb els arrendataris sobre les obres a executar"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la ruïna econòmica es declara quan el cost de les obres de reparació necessàries supera el 50% del valor actual de l'edifici (exclòs el sòl). Hi ha també la ruïna tècnica (danys que comprometen la seguretat, no reparables per mitjans normals) i la urbanística.",
+      "source": "TRLUC",
+      "article": "art. 198 TRLUC"
+    },
+    {
+      "theme": 56,
+      "block": 12,
+      "q": "Quins actes menors se subjecten, en lloc de llicència, a comunicació prèvia?",
+      "options": [
+        "Les obres de nova planta i les de gran rehabilitació integral d'edificis, per la seva escassa transcendència",
+        "Determinats actes de poca entitat que la normativa exceptua de la llicència per raons de simplificació i proporcionalitat",
+        "Les grans parcel·lacions urbanístiques i les segregacions de finques en sòl urbà i urbanitzable delimitat",
+        "Tots els actes de transformació o ús del sòl sense excepció, ja que la llicència ha estat suprimida del tot"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la normativa (art. 187 bis TRLUC i RLUC) subjecta determinats actes menors o de poca entitat a comunicació prèvia en lloc de llicència, en aplicació dels principis de simplificació i proporcionalitat, reservant la llicència per als actes de més transcendència urbanística.",
+      "source": "TRLUC",
+      "article": "art. 187 bis TRLUC"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "Què és una parcel·lació urbanística (art. 191 TRLUC)?",
+      "options": [
+        "Qualsevol divisió registral d'una finca en dues o més parts, amb independència de la seva finalitat i ubicació",
+        "La compra d'un solar en sòl urbà per part d'un particular amb la finalitat d'edificar-hi un habitatge unifamiliar",
+        "Tota divisió de terrenys en dos o més lots quan, per les seves característiques, pugui donar lloc a un nucli de població",
+        "La construcció d'un habitatge de nova planta en una parcel·la de sòl urbà consolidat prèvia obtenció de llicència"
+      ],
+      "correct": 2,
+      "explain": "Correcta: és parcel·lació urbanística tota divisió simultània o successiva de terrenys en dos o més lots quan, per les seves característiques, pugui donar lloc a la constitució d'un nucli de població (art. 191). Cal distingir-la de la simple divisió registral o agrària. Requereix llicència.",
+      "source": "TRLUC",
+      "article": "art. 191 TRLUC"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "Què estableix la presumpció de parcel·lació urbanística (art. 191.2 TRLUC)?",
+      "options": [
+        "Que mai hi ha parcel·lació urbanística mentre no existeixi un títol exprés que la declari de manera formal",
+        "Que qualsevol finca de naturalesa rústica té la consideració automàtica de sòl urbà a tots els efectes legals",
+        "Que totes les parcel·lacions es presumeixen legals mentre l'Administració no en declari expressament la nul·litat",
+        "Que hi ha parcel·lació quan s'aprecien indicis de formació d'un nucli (lots, vials, serveis, publicitat), encara que es dissimuli"
+      ],
+      "correct": 3,
+      "explain": "Correcta: la presumpció (art. 191.2) permet combatre les parcel·lacions encobertes: es considera que hi ha parcel·lació quan s'aprecien indicis de formació d'un nucli (divisió en lots, obertura de vials, serveis, publicitat de venda), encara que es dissimuli sota altres negocis.",
+      "source": "TRLUC",
+      "article": "art. 191.2 TRLUC"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "Quan és indivisible una parcel·la (art. 195 TRLUC)?",
+      "options": [
+        "Quan té una dimensió inferior o igual a la mínima, o inferior al doble de la mínima, entre altres supòsits taxats",
+        "Quan la seva superfície supera els mil metres quadrats, per evitar la concentració excessiva de la propietat",
+        "Quan hi ha alguna construcció edificada, ja que llavors el sòl queda vinculat de manera permanent a l'edifici",
+        "Sempre, en tot cas, ja que cap parcel·la de sòl urbà ni urbanitzable es pot dividir en cap circumstància"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 195 declara indivisibles les parcel·les de dimensió inferior o igual a la mínima, les de dimensió inferior al doble de la mínima, les d'edificabilitat esgotada o vinculada a una construcció, i les finques de sòl no urbanitzable per sota de la unitat mínima de conreu.",
+      "source": "TRLUC",
+      "article": "art. 195 TRLUC"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "Quin control es fa sobre els actes de parcel·lació?",
+      "options": [
+        "No estan subjectes a cap tipus de control administratiu, ja que la divisió de finques és una qüestió de dret privat",
+        "Requereixen llicència urbanística o declaració d'innecessarietat; les contràries al planejament són nul·les",
+        "Només cal comunicar-los verbalment a l'ajuntament, sense necessitat de cap document ni tramitació formal",
+        "Els autoritza l'Estat, a través del ministeri competent, mitjançant una resolució prèvia a la seva inscripció"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els actes de parcel·lació requereixen llicència urbanística o, si escau, declaració d'innecessarietat. Les parcel·lacions contràries al planejament són nul·les i no s'inscriuen al Registre de la Propietat, com a mecanisme de control per evitar assentaments il·legals.",
+      "source": "TRLUC",
+      "article": "art. 187 TRLUC"
+    },
+    {
+      "theme": 57,
+      "block": 12,
+      "q": "Com es dissimulen sovint les parcel·lacions urbanístiques il·legals?",
+      "options": [
+        "Mitjançant l'atorgament d'una llicència d'obres per a la construcció d'un habitatge unifamiliar aïllat",
+        "Mitjançant la publicació de l'acord de parcel·lació al Butlletí Oficial de la Província corresponent",
+        "Mitjançant comunitats de béns o proindivisos sobre finques rústiques amb assignació d'ús exclusiu de lots",
+        "No es dissimulen mai, ja que les parcel·lacions il·legals sempre es formalitzen de manera oberta i pública"
+      ],
+      "correct": 2,
+      "explain": "Correcta: una forma habitual de dissimular parcel·lacions il·legals és constituir comunitats de béns o proindivisos sobre finques rústiques amb assignació de l'ús exclusiu de lots concrets a cada comuner, cosa que materialment equival a una parcel·lació. La presumpció de l'art. 191.2 ho combat.",
+      "source": "TRLUC",
+      "article": "art. 191 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "A qui correspon principalment la protecció de la legalitat urbanística?",
+      "options": [
+        "Exclusivament a l'Estat, a través del ministeri competent en matèria d'ordenació del territori i d'urbanisme",
+        "Únicament als jutjats i tribunals de la jurisdicció contenciosa administrativa, sense intervenció de l'Administració",
+        "Als particulars afectats, que han d'exercir les accions de defensa de la legalitat davant els tribunals civils",
+        "Als municipis (inspecció, disciplina, llicències), amb intervenció autonòmica subsidiària i en determinats casos"
+      ],
+      "correct": 3,
+      "explain": "Correcta: la protecció de la legalitat correspon principalment als municipis (inspecció, disciplina, llicències, ordres de restauració i sanció), amb intervenció de la Generalitat amb caràcter subsidiari i en supòsits com el sòl no urbanitzable o els interessos supramunicipals.",
+      "source": "TRLUC",
+      "article": "art. 199 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "Quins dos procediments s'obren davant unes obres il·legals?",
+      "options": [
+        "El de restauració de la realitat física i l'ordre jurídic, i el sancionador, que són independents i compatibles",
+        "Únicament el procediment sancionador, que castiga la infracció amb una multa proporcional al valor de l'obra",
+        "Únicament el procediment de restauració, que ordena l'enderroc o la reposició sense imposar cap tipus de sanció",
+        "Cap procediment, ja que davant unes obres il·legals l'Administració ha d'esperar que prescrigui la infracció"
+      ],
+      "correct": 0,
+      "explain": "Correcta: davant obres o usos il·legals s'obren dos procediments independents i compatibles: el de restauració de la realitat física alterada i de l'ordre jurídic (legalització o enderroc), i el sancionador (multa per la infracció). La restauració no és una sanció.",
+      "source": "TRLUC",
+      "article": "art. 199-206 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "Què cal fer davant unes obres sense llicència però legalitzables?",
+      "options": [
+        "Enderrocar-les de manera immediata sense cap tràmit previ, ja que s'han executat sense el títol habilitant",
+        "Requerir l'interessat perquè sol·liciti la llicència en un termini (habitualment dos mesos) i legalitzi les obres",
+        "Ignorar-les completament, ja que si són legalitzables no cal iniciar cap actuació de protecció de la legalitat",
+        "Atorgar al propietari una indemnització per les molèsties ocasionades durant la tramitació de l'expedient"
+      ],
+      "correct": 1,
+      "explain": "Correcta: si les obres sense llicència són legalitzables (conformes a l'ordenament), es requereix l'interessat perquè sol·liciti la llicència en el termini corresponent; si les legalitza, es tanca l'expedient; si no ho fa o no són legalitzables, s'ordena la restauració (enderroc o reposició).",
+      "source": "TRLUC",
+      "article": "art. 205 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "Quin valor tenen les actes d'inspecció urbanística?",
+      "options": [
+        "No tenen cap valor probatori, de manera que els fets que hi consten s'han d'acreditar per altres mitjans de prova",
+        "Tenen caràcter secret i reservat, i només hi poden accedir els òrgans tècnics de l'administració urbanística",
+        "Tenen valor de document públic i gaudeixen de presumpció de veracitat quant als fets que hi consten",
+        "Només tenen validesa i eficàcia si les signa i les ratifica un jutge de la jurisdicció contenciosa administrativa"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la inspecció urbanística és la potestat de comprovar el compliment de la legalitat; les actes que estenen els inspectors tenen valor de document públic i gaudeixen de presumpció de veracitat quant als fets que hi consten, sens perjudici de la prova en contra.",
+      "source": "TRLUC",
+      "article": "art. 203 TRLUC"
+    },
+    {
+      "theme": 58,
+      "block": 12,
+      "q": "En quins terrenys l'acció de restauració de la legalitat NO prescriu?",
+      "options": [
+        "En tot el sòl urbà del municipi, ja que en aquesta classe de sòl la protecció de la legalitat és permanent",
+        "En cap terreny, ja que l'acció de restauració sempre prescriu transcorregut el termini general de sis anys",
+        "Únicament en els solars edificables situats dins del nucli urbà consolidat del terme municipal corresponent",
+        "En sòl no urbanitzable protegit, sistemes generals, espais lliures, zones verdes i domini públic"
+      ],
+      "correct": 3,
+      "explain": "Correcta: com a regla, l'acció de restauració prescriu als sis anys, però és imprescriptible en sòl no urbanitzable i urbanitzable no delimitat, en sistemes generals, espais lliures i zones verdes, en domini públic i en béns catalogats. En aquests terrenys, es pot ordenar la restauració sempre.",
+      "source": "TRLUC",
+      "article": "art. 227 TRLUC"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "Com gradua la Llei 20/2009 (PCAA) la intervenció sobre les activitats?",
+      "options": [
+        "Segons la incidència ambiental, en règims per annexos: autorització (I), llicència (II) i comunicació (III)",
+        "Segons la mida i el volum de facturació de l'empresa que promou l'activitat, amb independència de la seva incidència",
+        "Segons el nombre de treballadors que ocupa l'activitat, de manera que les grans plantilles tenen un règim més exigent",
+        "Sense cap criteri objectiu, de manera que l'òrgan competent decideix el règim aplicable en cada cas concret"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la Llei 20/2009 gradua el control segons la incidència ambiental: annex I (autorització ambiental, Generalitat, alta incidència), annex II (llicència ambiental, ajuntament, incidència mitjana) i annex III (comunicació ambiental, baixa incidència).",
+      "source": "L20_2009",
+      "article": "Llei 20/2009"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "Qui atorga la llicència ambiental (annex II de la Llei 20/2009)?",
+      "options": [
+        "La Generalitat, a través del departament competent en matèria de medi ambient i sostenibilitat del territori",
+        "L'ajuntament, amb informació pública i veïnal i informes preceptius, i sotmesa a controls periòdics posteriors",
+        "L'Estat, a través del ministeri competent en matèria de medi ambient i de transició ecològica del conjunt del país",
+        "El consell comarcal en tot cas, per delegació que li fa l'ajuntament del terme on s'ubica l'activitat classificada"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la llicència ambiental (annex II), per a activitats d'incidència mitjana, l'atorga l'ajuntament, amb informació pública i veïnal i informes preceptius, i està sotmesa a controls periòdics. L'autorització ambiental (annex I) l'atorga la Generalitat.",
+      "source": "L20_2009",
+      "article": "Llei 20/2009"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "Què integra l'autorització ambiental (annex I)?",
+      "options": [
+        "Únicament el control dels sorolls i les vibracions que genera l'activitat, sense abastar cap altre aspecte ambiental",
+        "Només els aspectes laborals i de prevenció de riscos del personal que treballa a l'activitat classificada",
+        "Tots els aspectes ambientals de l'activitat (emissions, abocaments, residus, sorolls) i, si escau, l'avaluació d'impacte",
+        "El pressupost i el pla econòmic i financer de l'empresa que promou l'activitat sotmesa a autorització ambiental"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'autorització ambiental (annex I) és el règim més exigent i integra en un sol acte tots els aspectes ambientals de l'activitat (emissions, abocaments, residus, sorolls) i, quan l'activitat hi està sotmesa, l'avaluació d'impacte ambiental. L'atorga la Generalitat.",
+      "source": "L20_2009",
+      "article": "Llei 20/2009"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "Què és l'informe urbanístic en el procediment d'intervenció ambiental?",
+      "options": [
+        "El pressupost detallat de la inversió que ha de fer l'empresa per implantar l'activitat sotmesa a intervenció",
+        "La llicència d'obres que autoritza la construcció de les instal·lacions on s'ha de desenvolupar l'activitat",
+        "El certificat d'eficiència energètica de les instal·lacions on es desenvoluparà l'activitat classificada projectada",
+        "Un tràmit previ i preceptiu que acredita la compatibilitat de l'activitat amb el planejament urbanístic vigent"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'informe urbanístic (art. 60 de la Llei 20/2009) és un tràmit previ que acredita la compatibilitat de l'activitat projectada amb el planejament urbanístic; és preceptiu abans de sol·licitar l'autorització o la llicència ambiental, per garantir que l'emplaçament és adequat.",
+      "source": "L20_2009",
+      "article": "art. 60 Llei 20/2009"
+    },
+    {
+      "theme": 59,
+      "block": 13,
+      "q": "Quin règim s'aplica a les activitats de baixa incidència ambiental (annex III)?",
+      "options": [
+        "La comunicació ambiental, que permet iniciar l'activitat amb la simple comunicació i el control posterior",
+        "L'autorització ambiental que atorga la Generalitat, per tractar-se d'activitats que requereixen un control intens",
+        "La prohibició total, ja que les activitats amb qualsevol incidència ambiental no es poden autoritzar en cap cas",
+        "Cap règim d'intervenció, ja que les activitats de baixa incidència queden totalment al marge del control ambiental"
+      ],
+      "correct": 0,
+      "explain": "Correcta: les activitats de baixa incidència (annex III) se subjecten a comunicació ambiental: l'interessat comunica l'inici de l'activitat i pot començar a exercir-la des de la presentació, sens perjudici de la comprovació i inspecció posteriors. És el règim menys intens de control.",
+      "source": "L20_2009",
+      "article": "Llei 20/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Quina norma regula els espectacles públics i les activitats recreatives a Catalunya?",
+      "options": [
+        "La Llei 20/2009 de prevenció i control ambiental de les activitats, de manera exclusiva i sense cap altra norma",
+        "La Llei 11/2009 i el seu reglament, el Decret 112/2010, que en regulen els règims i les condicions de seguretat",
+        "El Codi penal, que tipifica com a delictes les conductes relacionades amb els espectacles públics de risc",
+        "La Llei 39/2015 del procediment administratiu comú, que regula de manera íntegra aquesta matèria específica"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els espectacles públics i les activitats recreatives a Catalunya es regeixen per la Llei 11/2009 i pel seu reglament (Decret 112/2010), que estableixen els règims d'intervenció, les condicions de seguretat i la protecció del públic.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Quan s'exigeix llicència d'establiment obert al públic (Llei 11/2009)?",
+      "options": [
+        "Per a qualsevol activitat, per petita i innòcua que sigui, ja que totes requereixen el control previ de la llicència",
+        "Mai, ja que totes les activitats recreatives i tots els espectacles públics són lliures i no requereixen cap títol",
+        "Per a establiments amb aforament o risc significatius o per a instal·lacions no permanents desmuntables",
+        "Únicament per a les activitats que es desenvolupen a l'aire lliure, i mai per a les que es fan en local tancat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la llicència d'establiment obert al públic s'exigeix per a establiments amb aforament o risc significatius i per a determinades instal·lacions no permanents desmuntables. Les activitats de menor risc en establiments ja habilitats se subjecten a comunicació prèvia.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Com es controlen les activitats innòcues?",
+      "options": [
+        "Amb autorització ambiental de la Generalitat, per tractar-se d'activitats que requereixen un control especialment intens",
+        "Amb la prohibició total, ja que les activitats innòcues no encaixen en cap dels règims previstos per la Llei 11/2009",
+        "Amb llicència d'obres major, que autoritza la construcció de les instal·lacions on es desenvolupa l'activitat innòcua",
+        "Mitjançant comunicació prèvia o declaració responsable, que permeten iniciar-les des de la presentació del document"
+      ],
+      "correct": 3,
+      "explain": "Correcta: les activitats innòcues (de molt baixa incidència, sense molèsties ni riscos rellevants) se subjecten a comunicació prèvia o declaració responsable, que permeten iniciar l'activitat des de la presentació del document, sens perjudici de la comprovació posterior.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Quins aspectes regula el règim dels espectacles i activitats recreatives?",
+      "options": [
+        "L'aforament, els horaris, les condicions de seguretat, els plans d'autoprotecció, l'admissió i la protecció de menors",
+        "Únicament el preu màxim de les entrades que es poden cobrar al públic assistent a l'espectacle o l'activitat",
+        "El nomenament i el cessament del personal municipal encarregat de la vigilància dels espectacles públics",
+        "El pressupost general de l'ajuntament i les inversions que ha de fer en instal·lacions per a espectacles públics"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el règim inclou determinacions sobre l'aforament, els horaris, les condicions de seguretat, els plans d'autoprotecció, les condicions d'admissió de persones i la protecció de menors, per garantir la seguretat i els drets del públic i la convivència.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
+    },
+    {
+      "theme": 60,
+      "block": 13,
+      "q": "Com es coordina la Llei 11/2009 amb la intervenció ambiental?",
+      "options": [
+        "S'exclouen mútuament, de manera que una activitat mai pot estar subjecta alhora a totes dues normatives sectorials",
+        "Quan l'activitat també té incidència ambiental, el seu règim es coordina amb el de la Llei 20/2009 de control ambiental",
+        "La Llei 11/2009 deroga la Llei 20/2009 en tot allò que afecti els espectacles públics i les activitats recreatives",
+        "No hi ha cap relació possible entre totes dues normes, que regulen matèries completament separades i independents"
+      ],
+      "correct": 1,
+      "explain": "Correcta: quan un espectacle o activitat recreativa també té incidència ambiental (per exemple, per sorolls o emissions), el règim de la Llei 11/2009 es coordina amb la intervenció ambiental de la Llei 20/2009, de manera que es respectin les dues normatives.",
+      "source": "L11_2009",
+      "article": "Llei 11/2009"
     }
   ]
 }
