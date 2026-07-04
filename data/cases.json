@@ -6,99 +6,6 @@
   },
   "cases": [
     {
-      "id": "c01-silenci-llicencia",
-      "theme": 56,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Llicència d'obres i silenci administratiu",
-      "context": "Una persona sol·licita llicència d'obres majors per construir un habitatge unifamiliar. Transcorren més de tres mesos sense que l'Ajuntament dicti i notifiqui cap resolució. El projecte presentat és, però, disconforme amb el planejament urbanístic vigent (excedeix l'edificabilitat permesa).",
-      "prompt": "Determineu: a) el sentit del silenci administratiu en les llicències urbanístiques; b) si en aquest cas s'adquireix la llicència per silenci; c) quines actuacions pot fer l'Ajuntament.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Identifica que en les llicències urbanístiques el silenci és, amb caràcter general, positiu (estimatori)",
-          "weight": 9,
-          "keywords": [
-            [
-              "silenci positiu",
-              "silenci estimatori",
-              "positiu"
-            ],
-            [
-              "llicencia",
-              "autoritzacio"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Aplica l'excepció: no s'adquireixen per silenci facultats contràries a la legislació o al planejament urbanístic (art. 11.3 TRLS / TRLUC)",
-          "weight": 14,
-          "keywords": [
-            [
-              "contraries",
-              "disconforme",
-              "contrari",
-              "vulnera"
-            ],
-            [
-              "planejament",
-              "ordenacio",
-              "legalitat"
-            ],
-            [
-              "no s'adquireix",
-              "no es pot adquirir",
-              "mai"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Conclou que en aquest cas NO s'adquireix la llicència per silenci perquè el projecte és disconforme amb el planejament",
-          "weight": 12,
-          "keywords": [
-            [
-              "no s'adquireix",
-              "no obte",
-              "no es pot",
-              "nul"
-            ],
-            [
-              "excedeix",
-              "disconforme",
-              "edificabilitat"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Indica actuacions municipals: dictar resolució expressa denegatòria i, si s'ha executat obra, protecció de la legalitat urbanística",
-          "weight": 10,
-          "keywords": [
-            [
-              "resolucio expressa",
-              "denegar",
-              "denegatoria",
-              "resoldre"
-            ],
-            [
-              "legalitat urbanistica",
-              "restauracio",
-              "ordre",
-              "disciplina"
-            ]
-          ]
-        }
-      ],
-      "model": "a) En matèria de llicències urbanístiques el silenci administratiu té, amb caràcter general, sentit POSITIU (estimatori): transcorregut el termini màxim per resoldre sense notificació, la sol·licitud s'entén estimada (art. 24 Llei 39/2015, en relació amb la normativa urbanística).\nb) Ara bé, opera el límit de l'art. 11.3 del TRLS estatal (RDL 7/2015) i de la normativa urbanística catalana: EN CAP CAS no es poden adquirir per silenci facultats o drets contraris a l'ordenament jurídic urbanístic ni al planejament. Com que el projecte excedeix l'edificabilitat permesa, és disconforme amb el planejament i, per tant, NO s'adquireix la llicència per silenci, encara que hagi passat el termini.\nc) L'Ajuntament ha de dictar resolució expressa (que serà denegatòria per la disconformitat). Si l'interessat ha començat les obres emparant-se en un suposat silenci, l'Administració ha d'incoar el procediment de protecció de la legalitat urbanística (ordre de paralització i, si escau, de restauració de la realitat física alterada).",
-      "sources": [
-        "TRLUC",
-        "TRLSRU",
-        "L39_2015"
-      ]
-    },
-    {
       "id": "c08-disciplina-restauracio",
       "theme": 73,
       "block": 12,
@@ -173,90 +80,6 @@
       "sources": [
         "TRLUC",
         "L11_2025"
-      ]
-    },
-    {
-      "id": "c12-activitat-ambiental",
-      "theme": 59,
-      "block": 13,
-      "maxPoints": 45,
-      "title": "Intervenció administrativa en una activitat",
-      "context": "Una persona vol obrir un taller amb incidència ambiental moderada. Pregunta quin règim d'intervenció li correspon i si pot començar amb una comunicació prèvia o necessita autorització/llicència ambiental.",
-      "prompt": "Expliqueu els règims d'intervenció administrativa de les activitats segons la seva incidència ambiental i diferencieu autorització, llicència, declaració responsable i comunicació prèvia.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Règim segons incidència ambiental: autorització ambiental (alta), llicència ambiental (mitjana) i règim de comunicació (baixa)",
-          "weight": 13,
-          "keywords": [
-            [
-              "autoritzacio ambiental"
-            ],
-            [
-              "llicencia ambiental"
-            ],
-            [
-              "comunicacio",
-              "regim de comunicacio",
-              "incidencia ambiental"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Defineix declaració responsable i comunicació prèvia (art. 69 Llei 39/2015): permeten iniciar l'activitat des de la presentació, sotmeses a control posterior",
-          "weight": 12,
-          "keywords": [
-            [
-              "declaracio responsable",
-              "comunicacio previa"
-            ],
-            [
-              "iniciar",
-              "des de la presentacio",
-              "control posterior",
-              "a posteriori"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Conclou: incidència moderada/mitjana → típicament llicència ambiental (control previ), no n'hi ha prou amb comunicació",
-          "weight": 10,
-          "keywords": [
-            [
-              "llicencia ambiental",
-              "control previ"
-            ],
-            [
-              "no n'hi ha prou",
-              "previa a l'inici",
-              "necessita"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Inexactitud o falsedat en la declaració/comunicació determina la impossibilitat de continuar, sens perjudici de responsabilitats",
-          "weight": 6,
-          "keywords": [
-            [
-              "inexactitud",
-              "falsedat",
-              "omissio"
-            ],
-            [
-              "impossibilitat de continuar",
-              "cessament",
-              "responsabilitats"
-            ]
-          ]
-        }
-      ],
-      "model": "La intervenció administrativa de les activitats es gradua segons la seva incidència ambiental (Llei 20/2009, de prevenció i control ambiental de les activitats, i normativa concordant): activitats d'alta incidència → autorització ambiental; de mitjana incidència → llicència ambiental (control previ municipal); de baixa incidència → règim de comunicació.\nInstruments de l'art. 69 Llei 39/2015: la declaració responsable és el document en què l'interessat manifesta, sota la seva responsabilitat, que compleix els requisits; la comunicació prèvia posa en coneixement de l'Administració les dades per iniciar una activitat. Tots dos permeten iniciar l'activitat des de la presentació (o la data que indiquin), i se sotmeten a control a posteriori, no a una autorització prèvia.\nEn el cas d'un taller amb incidència ambiental MODERADA, el règim típic és el de LLICÈNCIA AMBIENTAL: cal obtenir el control/llicència municipal prèvia abans d'iniciar l'activitat, de manera que NO n'hi ha prou amb una simple comunicació prèvia (aquesta es reserva a activitats de baixa incidència).\nLa inexactitud, falsedat o omissió en una declaració responsable o comunicació, o la no presentació, determina la impossibilitat de continuar amb l'activitat des que se'n tingui constància, sens perjudici de les responsabilitats que se'n derivin.",
-      "sources": [
-        "L20_2009",
-        "L39_2015"
       ]
     },
     {
@@ -433,171 +256,6 @@
       ]
     },
     {
-      "id": "c20-reparcellacio",
-      "theme": 55,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Elecció del sistema d'actuació urbanística",
-      "context": "Un sector de sòl urbà no consolidat s'ha de desenvolupar. Els propietaris, majoritàriament, volen impulsar ells mateixos la urbanització i la distribució de beneficis i càrregues.",
-      "prompt": "Expliqueu els sistemes d'actuació urbanística, el principi d'equidistribució i quin sistema s'adequa al cas.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Sistemes: reparcel·lació (modalitats compensació, cooperació…) i expropiació",
-          "weight": 12,
-          "keywords": [
-            [
-              "reparcellacio",
-              "reparcel·lacio"
-            ],
-            [
-              "expropiacio"
-            ],
-            [
-              "compensacio",
-              "cooperacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Principi d'equidistribució: repartiment just de beneficis i càrregues entre propietaris",
-          "weight": 13,
-          "keywords": [
-            [
-              "equidistribucio",
-              "beneficis i carregues",
-              "just repartiment"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Modalitat de compensació: els propietaris executen la urbanització i es reparteixen",
-          "weight": 11,
-          "keywords": [
-            [
-              "compensacio"
-            ],
-            [
-              "propietaris executen",
-              "iniciativa privada",
-              "ells mateixos"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Deures: cessions de sòl (sistemes i aprofitament) i costejar la urbanització",
-          "weight": 9,
-          "keywords": [
-            [
-              "cessio",
-              "cessions"
-            ],
-            [
-              "urbanitzacio",
-              "costejar",
-              "sufragar"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'execució del planejament es fa per sistemes d'actuació urbanística (TRLUC): el de REPARCEL·LACIÓ (amb modalitats de compensació bàsica, compensació per concertació, cooperació, etc.) i el d'EXPROPIACIÓ. L'elecció del sistema correspon a l'Administració, atenent les circumstàncies.\nTot sistema s'inspira en el principi d'EQUIDISTRIBUCIÓ: el repartiment equitatiu dels beneficis (aprofitament) i les càrregues (cessions i costos d'urbanització) entre les persones propietàries de l'àmbit.\nCom que els propietaris volen impulsar ells mateixos la transformació, el sistema adequat és la reparcel·lació en la modalitat de COMPENSACIÓ: els propietaris s'agrupen, aporten els terrenys, executen al seu càrrec les obres d'urbanització i es distribueixen les finques resultants segons l'aprofitament. En tot cas, han de complir els deures de cessió de sòl per a sistemes i de l'aprofitament que correspongui a l'Administració, i costejar la urbanització.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c21-poum",
-      "theme": 51,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Tramitació d'un POUM",
-      "context": "L'Ajuntament vol aprovar un nou Pla d'ordenació urbanística municipal (POUM). Es pregunta sobre la documentació, el procediment d'aprovació i qui té la competència per a l'aprovació definitiva.",
-      "prompt": "Descriviu el contingut documental bàsic del POUM, les fases d'aprovació (inicial, provisional i definitiva) i l'òrgan competent per a l'aprovació definitiva.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Documentació: memòria (i memòria social), normes urbanístiques, plànols, agenda/avaluació econòmica, informe de sostenibilitat ambiental",
-          "weight": 12,
-          "keywords": [
-            [
-              "memoria",
-              "memoria social"
-            ],
-            [
-              "normes urbanistiques",
-              "planols"
-            ],
-            [
-              "avaluacio economica",
-              "sostenibilitat ambiental"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Aprovació INICIAL i informació pública (amb informes sectorials)",
-          "weight": 12,
-          "keywords": [
-            [
-              "aprovacio inicial",
-              "inicial"
-            ],
-            [
-              "informacio publica",
-              "exposicio",
-              "informes sectorials"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Aprovació PROVISIONAL pel Ple municipal",
-          "weight": 10,
-          "keywords": [
-            [
-              "aprovacio provisional",
-              "provisional"
-            ],
-            [
-              "ple"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Aprovació DEFINITIVA per la Comissió Territorial d'Urbanisme / conseller (Generalitat)",
-          "weight": 11,
-          "keywords": [
-            [
-              "aprovacio definitiva",
-              "definitiva"
-            ],
-            [
-              "comissio territorial",
-              "ctu",
-              "generalitat",
-              "conseller"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El POUM (arts. 57-59 TRLUC) ha de contenir, com a documentació bàsica: la memòria (amb la memòria social que justifica les determinacions d'habitatge), les normes urbanístiques, els plànols d'informació i d'ordenació, el catàleg de béns protegits si escau, l'agenda i l'avaluació econòmica i financera, i la documentació ambiental (informe/avaluació ambiental estratègica).\nProcediment (arts. 79-80 TRLUC): 1) aprovació INICIAL per l'Ajuntament i informació pública (mínim un mes/45 dies segons el cas), amb sol·licitud d'informes als organismes afectats; 2) resolució d'al·legacions i aprovació PROVISIONAL pel Ple; 3) tramesa a l'administració urbanística de la Generalitat per a l'aprovació DEFINITIVA.\nLa competència per a l'aprovació definitiva correspon, amb caràcter general, a la Comissió Territorial d'Urbanisme (o al conseller, segons la població del municipi), no a l'Ajuntament. La publicació de l'acord i de les normes urbanístiques al diari oficial determina l'executivitat del pla.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
       "id": "c22-transparencia",
       "theme": 82,
       "block": 16,
@@ -767,473 +425,6 @@
       "sources": [
         "L31_1995",
         "RD171_2004"
-      ]
-    },
-    {
-      "id": "c52-pla-parcial",
-      "theme": 52,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Desenvolupament del sòl urbanitzable mitjançant pla parcial",
-      "context": "Un sector de sòl urbanitzable delimitat pel POUM s'ha de desenvolupar per fer-lo apte per a l'edificació. Es planteja quina figura de planejament cal i com es tramita.",
-      "prompt": "Indiqueu la figura de planejament procedent, el seu objecte i la tramitació i aprovació.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La figura procedent és el pla parcial urbanístic",
-          "weight": 12,
-          "keywords": [
-            [
-              "pla parcial"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Objecte: ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació",
-          "weight": 13,
-          "keywords": [
-            [
-              "ordenar detalladament",
-              "ordenacio detallada"
-            ],
-            [
-              "apte per a l'edificacio",
-              "edificacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Tramitació: aprovació inicial i provisional municipal amb informació pública",
-          "weight": 12,
-          "keywords": [
-            [
-              "aprovacio inicial",
-              "aprovacio provisional"
-            ],
-            [
-              "informacio publica"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Aprovació definitiva (municipal o de la Generalitat segons el cas)",
-          "weight": 8,
-          "keywords": [
-            [
-              "aprovacio definitiva"
-            ],
-            [
-              "municipi",
-              "generalitat"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Per desenvolupar un sector de sòl urbanitzable delimitat cal un pla parcial urbanístic, que té per objecte ordenar detalladament el sòl urbanitzable per fer-lo apte per a l'edificació: estableix la qualificació detallada, els sistemes locals, els paràmetres d'edificació i ús i les determinacions de gestió (arts. 65-70 TRLUC). La tramitació consisteix en l'aprovació inicial per l'Ajuntament, seguida d'informació pública (i sol·licitud d'informes als organismes afectats), la resolució de les al·legacions i l'aprovació provisional, i finalment l'aprovació definitiva, que correspon al mateix municipi (quan deriva d'un planejament general adaptat i el municipi en té la competència) o a la Generalitat, segons el cas. La publicació de l'acord i de les normes urbanístiques en determina l'executivitat.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c53-iniciativa-privada",
-      "theme": 53,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Iniciativa privada en el planejament",
-      "context": "Una promotora redacta i presenta a l'Ajuntament un pla de millora urbana per a un àmbit de sòl urbà, i sosté que l'Ajuntament està obligat a aprovar-lo en els termes proposats.",
-      "prompt": "Valoreu si la iniciativa privada és possible, si vincula l'Administració i quins límits hi ha.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La iniciativa privada en el planejament derivat és possible",
-          "weight": 11,
-          "keywords": [
-            [
-              "iniciativa privada"
-            ],
-            [
-              "es possible",
-              "poden formular",
-              "particulars"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Es presenta a l'Ajuntament, que la tramita i la resol de manera motivada",
-          "weight": 11,
-          "keywords": [
-            [
-              "ajuntament"
-            ],
-            [
-              "tramita",
-              "resol",
-              "motivada"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "La proposta NO vincula l'Administració (potestat de planejament pública i indisponible)",
-          "weight": 14,
-          "keywords": [
-            [
-              "no vincula",
-              "no obliga"
-            ],
-            [
-              "potestat publica",
-              "indisponible",
-              "ius variandi"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "L'Administració pot acceptar, modificar o denegar la proposta",
-          "weight": 9,
-          "keywords": [
-            [
-              "acceptar",
-              "modificar",
-              "denegar"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La iniciativa privada en la formulació del planejament derivat és possible: els particulars poden redactar i promoure figures com els plans de millora urbana i presentar-les a l'Ajuntament (arts. 101-102 TRLUC). Ara bé, la proposta NO vincula l'Administració: la potestat de planejament és pública i indisponible, i l'Administració conserva l'ius variandi (la potestat de decidir l'ordenació en interès públic). Per tant, l'Ajuntament tramita la proposta conforme al procediment d'aprovació i la resol de manera motivada, podent acceptar-la, modificar-la o denegar-la; no està obligat a aprovar-la en els termes proposats per la promotora. Els convenis urbanístics que acompanyin la iniciativa tampoc no poden substituir el procediment ni alterar el règim legal del sòl.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c54-efectes-planejament",
-      "theme": 54,
-      "block": 11,
-      "maxPoints": 45,
-      "title": "Efectes de l'aprovació del planejament i fora d'ordenació",
-      "context": "Un nou POUM qualifica com a zona verda uns terrenys on hi ha una nau industrial en funcionament, que esdevé disconforme amb la nova ordenació. El propietari pregunta quins efectes té l'aprovació del pla sobre la seva edificació.",
-      "prompt": "Expliqueu els efectes de l'aprovació del planejament i el règim de la construcció que esdevé disconforme.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "L'aprovació definitiva i la publicació fan el pla executiu i obligatori per a tothom",
-          "weight": 12,
-          "keywords": [
-            [
-              "executiu",
-              "executivitat"
-            ],
-            [
-              "obligatori",
-              "publicacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "L'aprovació legitima les expropiacions necessàries per executar el pla",
-          "weight": 10,
-          "keywords": [
-            [
-              "legitima",
-              "expropiacio",
-              "utilitat publica"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "La nau disconforme queda en situació de fora d'ordenació (o volum disconforme)",
-          "weight": 14,
-          "keywords": [
-            [
-              "fora d'ordenacio",
-              "volum disconforme"
-            ],
-            [
-              "disconforme"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "En fora d'ordenació, les obres permeses són limitades (no consolidació)",
-          "weight": 9,
-          "keywords": [
-            [
-              "obres limitades",
-              "limitacions",
-              "nomes obres de"
-            ],
-            [
-              "no consolidacio",
-              "no s'augmenta"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'aprovació definitiva i la publicació de les normes urbanístiques fan el planejament executiu i obligatori per a les administracions i els particulars (art. 106 TRLUC), i en legitimen les expropiacions necessàries per executar-lo (amb la corresponent declaració d'utilitat pública). Pel que fa a la nau industrial preexistent que esdevé disconforme amb la nova qualificació de zona verda, queda en situació de fora d'ordenació (si és totalment incompatible amb el pla) o de volum disconforme (si només és parcialment disconforme). En situació de fora d'ordenació, les obres autoritzables són molt limitades (en general, només les de conservació, higiene i seguretat estrictament necessàries, sense consolidar ni augmentar el volum ni l'aprofitament), atès que el destí previst és l'adequació a la nova ordenació.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c57-parcellacio",
-      "theme": 57,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Parcel·lació en sòl no urbanitzable",
-      "context": "En sòl no urbanitzable, una persona ha dividit una finca i ha obert camins i implantat serveis bàsics a cada lot, sense sol·licitar cap llicència. L'Ajuntament ho detecta.",
-      "prompt": "Expliqueu el règim de les parcel·lacions urbanístiques en sòl no urbanitzable, la presumpció de parcel·lació i les conseqüències.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "En sòl no urbanitzable les parcel·lacions urbanístiques estan prohibides",
-          "weight": 13,
-          "keywords": [
-            [
-              "prohibides",
-              "prohibicio"
-            ],
-            [
-              "parcel·lacio urbanistica",
-              "parcellacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Opera la presumpció de parcel·lació davant indicis materials (camins, serveis)",
-          "weight": 13,
-          "keywords": [
-            [
-              "presumpcio",
-              "presumpcio de parcellacio"
-            ],
-            [
-              "indicis",
-              "camins",
-              "serveis"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "L'actuació és il·legal i activa la protecció de la legalitat urbanística",
-          "weight": 11,
-          "keywords": [
-            [
-              "illegal",
-              "legalitat urbanistica",
-              "restauracio",
-              "disciplina"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Control notarial i registral (cal llicència o declaració d'innecessarietat)",
-          "weight": 8,
-          "keywords": [
-            [
-              "notari",
-              "registre",
-              "registral"
-            ],
-            [
-              "llicencia",
-              "innecessarietat"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "En sòl no urbanitzable resten prohibides les parcel·lacions urbanístiques (art. 188 TRLUC), és a dir, les divisions de terrenys que puguin donar lloc a la implantació d'usos urbans o a la formació de nous nuclis de població. La llei estableix una presumpció de parcel·lació urbanística quan, en aquesta classe de sòl, s'observen indicis materials —com l'obertura de camins, la implantació de serveis o la disposició d'edificacions— que pressuposen una transformació urbana, com passa en el cas. Per tant, l'actuació és il·legal: l'Ajuntament ha d'incoar el procediment de protecció de la legalitat urbanística (restauració de la realitat alterada) i el corresponent expedient sancionador. A més, els notaris i registradors exigeixen l'acreditació de la llicència de parcel·lació o de la declaració d'innecessarietat per autoritzar o inscriure divisions o segregacions.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c58-proteccio-legalitat",
-      "theme": 58,
-      "block": 12,
-      "maxPoints": 45,
-      "title": "Protecció de la legalitat: obres en curs sense llicència",
-      "context": "Els serveis tècnics detecten que s'estan executant unes obres sense llicència en sòl urbà. Les obres semblen conformes amb el planejament i, per tant, legalitzables.",
-      "prompt": "Expliqueu les actuacions de protecció de la legalitat urbanística (inspecció, suspensió, legalització o restauració) i la seva relació amb la sanció.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "La inspecció urbanística comprova la legalitat (agents de l'autoritat)",
-          "weight": 10,
-          "keywords": [
-            [
-              "inspeccio urbanistica",
-              "inspeccio"
-            ],
-            [
-              "agents de l'autoritat",
-              "comprovar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Obres en curs sense llicència: ordre de suspensió immediata (mesura cautelar)",
-          "weight": 13,
-          "keywords": [
-            [
-              "suspensio",
-              "suspensio immediata",
-              "paralitzacio"
-            ],
-            [
-              "cautelar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Si són legalitzables: requeriment per sol·licitar la llicència; si no, restauració",
-          "weight": 12,
-          "keywords": [
-            [
-              "legalitzable",
-              "sollicitar llicencia"
-            ],
-            [
-              "restauracio",
-              "enderroc"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La restauració i la sanció són independents i compatibles",
-          "weight": 10,
-          "keywords": [
-            [
-              "independents",
-              "compatibles"
-            ],
-            [
-              "sancio",
-              "restauracio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Davant d'unes obres en curs sense llicència, l'Ajuntament exerceix la protecció de la legalitat urbanística (TRLUC). La inspecció urbanística, el personal de la qual té la condició d'agent de l'autoritat, comprova els fets i aixeca acta. Com que les obres estan en curs, s'ordena la seva suspensió immediata com a mesura cautelar. A continuació, atès que les obres semblen conformes amb el planejament (legalitzables), es requereix la persona perquè, en el termini corresponent, sol·liciti la llicència i les legalitzi; si no fossin legalitzables, s'ordenaria la restauració de la realitat física alterada (enderroc o reposició). Aquestes actuacions de restabliment de la legalitat són independents i compatibles amb la incoació del corresponent procediment sancionador per la infracció comesa: la imposició de la multa no eximeix del deure de legalitzar o restaurar, i a la inversa.",
-      "sources": [
-        "TRLUC"
-      ]
-    },
-    {
-      "id": "c60-establiment-obert",
-      "theme": 60,
-      "block": 13,
-      "maxPoints": 45,
-      "title": "Obertura d'un bar musical i d'una perruqueria",
-      "context": "Una persona vol obrir un bar musical (amb ambientació musical) en un local i, en un altre, una perruqueria. Pregunta a l'Ajuntament quin règim d'intervenció s'aplica a cada cas.",
-      "prompt": "Distingiu el règim d'intervenció (llicència, comunicació prèvia o declaració responsable) aplicable a cada activitat i justifiqueu-ho amb la normativa.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "El bar musical és espectacle/activitat recreativa subjecta a la Llei 11/2009",
-          "weight": 12,
-          "keywords": [
-            [
-              "activitat recreativa",
-              "espectacle",
-              "bar musical"
-            ],
-            [
-              "llei 11/2009",
-              "11/2009"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Segons aforament/risc: llicència d'establiment obert o comunicació prèvia",
-          "weight": 13,
-          "keywords": [
-            [
-              "llicencia",
-              "establiment obert"
-            ],
-            [
-              "comunicacio previa",
-              "aforament",
-              "risc"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "La perruqueria és activitat innòcua: comunicació prèvia o declaració responsable",
-          "weight": 12,
-          "keywords": [
-            [
-              "innocua",
-              "perruqueria"
-            ],
-            [
-              "comunicacio previa",
-              "declaracio responsable"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "La comunicació/declaració habilita des de la presentació, amb control posterior",
-          "weight": 8,
-          "keywords": [
-            [
-              "des de la presentacio",
-              "habilita",
-              "immediat"
-            ],
-            [
-              "control posterior",
-              "comprovacio",
-              "inspeccio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El bar musical és una activitat recreativa/espectacle públic regulada per la Llei 11/2009, de l'11 de novembre, de regulació administrativa dels espectacles públics i les activitats recreatives. El règim d'intervenció depèn de l'aforament i del risc: els establiments oberts al públic de més entitat resten subjectes a llicència municipal d'establiment obert al públic, mentre que els de menor aforament i risc poden quedar subjectes a comunicació prèvia. La perruqueria, en canvi, és una activitat innòcua (sense incidència ambiental o de seguretat rellevant), que se subjecta a comunicació prèvia o a declaració responsable d'activitat innòcua. Tant la comunicació prèvia com la declaració responsable habiliten per iniciar l'activitat des del moment de la presentació, sens perjudici de les facultats de comprovació, control i inspecció posterior de l'Ajuntament, que pot ordenar el cessament si es constata l'incompliment dels requisits.",
-      "sources": [
-        "L11_2009",
-        "ROAS"
       ]
     },
     {
@@ -7322,6 +6513,796 @@
       "model": "a) El planejament s'ordena jeràrquicament en planejament general (plans directors urbanístics, plans d'ordenació urbanística municipal i normes de planejament) i planejament derivat (plans parcials, especials i de millora urbana), que desplega el general. b) La figura adequada és el pla director urbanístic (art. 56 TRLUC), que estableix directrius de coordinació urbanística d'abast supramunicipal i pot concretar reserves de sòl per a grans infraestructures, com la viària projectada. c) El PDU el formula i aprova la Generalitat (departament competent en urbanisme), amb participació dels ajuntaments afectats, i preval sobre el planejament urbanístic municipal: els POUM i el planejament derivat s'hi han d'adaptar.",
       "sources": [
         "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t51-poum",
+      "theme": 51,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Formulació i efectes del POUM",
+      "context": "Un ajuntament inicia la revisió del seu POUM. Mentre es tramita, arriben sol·licituds de llicència en àrees que canviaran de règim urbanístic. Es planteja si les pot suspendre i qui aprovarà finalment el pla.",
+      "prompt": "Expliqueu: a) què és el POUM i la seva documentació essencial; b) l'efecte de la revisió sobre les llicències; c) el procediment d'aprovació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix el POUM com a instrument d'ordenació integral que classifica el sòl (art. 57)",
+          "weight": 12,
+          "keywords": [
+            [
+              "poum",
+              "ordenacio integral"
+            ],
+            [
+              "classifica el sol",
+              "model",
+              "57"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera part de la documentació (memòria, plànols, normes urbanístiques, catàleg, agenda economicofinancera)",
+          "weight": 11,
+          "keywords": [
+            [
+              "memoria",
+              "planols",
+              "normes urbanistiques"
+            ],
+            [
+              "cataleg",
+              "agenda",
+              "59"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que es pot suspendre l'atorgament de llicències màx. 1 any (+1) a les àrees afectades",
+          "weight": 13,
+          "keywords": [
+            [
+              "suspendre",
+              "suspensio"
+            ],
+            [
+              "llicencies",
+              "un any",
+              "73"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa l'aprovació: inicial i provisional per l'ajuntament, definitiva per la comissió territorial d'urbanisme",
+          "weight": 9,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "provisional",
+              "ajuntament"
+            ],
+            [
+              "definitiva",
+              "comissio territorial",
+              "generalitat"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El POUM (art. 57 TRLUC) és l'instrument d'ordenació urbanística integral del municipi: classifica el sòl, defineix el model i l'estructura general, i estableix l'ordenació detallada del sòl urbà i els sectors de desenvolupament. La seva documentació (art. 59) inclou la memòria, els plànols d'informació i ordenació, les normes urbanístiques, el catàleg de béns protegits, l'agenda i avaluació econòmica i financera, l'informe ambiental, la memòria social i el PAUM. b) En acordar la revisió, l'ajuntament pot suspendre l'atorgament de llicències a les àrees afectades on canviï el règim urbanístic, per un màxim d'un any prorrogable fins a dos (arts. 73-74), com a mesura cautelar per no comprometre el nou pla. c) El POUM s'aprova inicialment i provisionalment pel Ple (per majoria absoluta), amb informació pública i informes, i l'aprovació definitiva correspon a la comissió territorial d'urbanisme de la Generalitat.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t52-derivat",
+      "theme": 52,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Planejament de desenvolupament",
+      "context": "Un ajuntament ha de desplegar un sector de sòl urbanitzable delimitat pel POUM i, alhora, protegir un conjunt d'edificis d'interès patrimonial en sòl urbà. Es planteja quines figures de planejament derivat ha d'emprar en cada cas.",
+      "prompt": "Determineu: a) quina figura correspon al desplegament del sòl urbanitzable; b) quina figura protegeix el patrimoni; c) el procediment d'aprovació i la diferència entre modificació i revisió.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica el pla parcial per ordenar el sòl urbanitzable delimitat",
+          "weight": 13,
+          "keywords": [
+            [
+              "pla parcial",
+              "parcial"
+            ],
+            [
+              "urbanitzable",
+              "delimitat",
+              "sector"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Identifica el pla especial (de protecció del patrimoni) per als edificis d'interès",
+          "weight": 13,
+          "keywords": [
+            [
+              "pla especial",
+              "especial"
+            ],
+            [
+              "patrimoni",
+              "proteccio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Descriu l'aprovació (inicial i provisional per l'ajuntament, definitiva per la comissió territorial o l'ajuntament amb POUM)",
+          "weight": 11,
+          "keywords": [
+            [
+              "aprovacio inicial",
+              "provisional"
+            ],
+            [
+              "comissio territorial",
+              "definitiva",
+              "ajuntament"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Distingeix modificació (canvis puntuals) de revisió (nou model, pla nou)",
+          "weight": 8,
+          "keywords": [
+            [
+              "modificacio",
+              "puntual"
+            ],
+            [
+              "revisio",
+              "nou model",
+              "pla nou"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Per desplegar el sector de sòl urbanitzable delimitat pel POUM cal un pla parcial urbanístic (arts. 65-66 TRLUC), que n'ordena detalladament el sòl (qualificació, sistemes locals, paràmetres d'edificació, divisió en polígons) perquè es pugui executar. b) Per protegir els edificis d'interès patrimonial en sòl urbà cal un pla especial urbanístic (arts. 67-68), figura idònia per a finalitats específiques com la protecció del patrimoni. c) Tots dos s'aproven inicialment i provisionalment per l'ajuntament, amb informació pública mínima d'un mes, i l'aprovació definitiva correspon a la comissió territorial d'urbanisme (o al mateix ajuntament amb POUM en determinats casos). La modificació altera determinacions puntuals pel mateix procediment, mentre que la revisió replanteja els criteris del pla i equival a formar-ne un de nou.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t53-iniciativa",
+      "theme": 53,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Iniciativa privada en el planejament derivat",
+      "context": "Els propietaris d'un sector de sòl urbanitzable volen impulsar-ne el desenvolupament presentant ells mateixos el pla parcial, en lloc d'esperar que ho faci l'ajuntament. Es pregunten si poden fer-ho i com es tramitarà.",
+      "prompt": "Expliqueu: a) si els particulars poden formular planejament i quines figures; b) què han d'aportar; c) qui aprova el pla i el paper de la participació ciutadana.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Confirma que els particulars poden formular planejament derivat (plans parcials, especials, millora urbana)",
+          "weight": 13,
+          "keywords": [
+            [
+              "particulars",
+              "iniciativa privada"
+            ],
+            [
+              "planejament derivat",
+              "plans parcials",
+              "formular"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que han d'aportar l'estructura de la propietat i els compromisos/garanties",
+          "weight": 12,
+          "keywords": [
+            [
+              "estructura de la propietat",
+              "compromisos"
+            ],
+            [
+              "garanties",
+              "conveni",
+              "102"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Precisa que l'administració tramita i aprova pel procediment ordinari",
+          "weight": 12,
+          "keywords": [
+            [
+              "administracio",
+              "aprova"
+            ],
+            [
+              "procediment ordinari",
+              "inicial",
+              "definitiva"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala la informació pública i la participació ciutadana",
+          "weight": 8,
+          "keywords": [
+            [
+              "informacio publica",
+              "participacio ciutadana"
+            ],
+            [
+              "al·legacions",
+              "tramitacio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els propietaris sí que poden formular el pla parcial: encara que el planejament general és d'iniciativa pública, el planejament derivat (plans parcials, de millora urbana i especials) pot ser formulat i presentat per particulars, especialment els propietaris de l'àmbit (arts. 101-102 TRLUC). b) Han d'aportar, a més de la documentació general del pla, la informació sobre l'estructura de la propietat i els compromisos que assumeixen, incloent-hi les garanties de la urbanització i, si escau, un conveni urbanístic. c) La iniciativa privada només afecta la formulació: la tramitació i aprovació (inicial, provisional i definitiva) corresponen a l'administració competent pel procediment ordinari, amb informació pública obligatòria i els programes de participació ciutadana que garanteixen la intervenció de la ciutadania.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t54-efectes",
+      "theme": 54,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Efectes de l'aprovació del planejament",
+      "context": "Un ajuntament aprova definitivament un pla que qualifica com a zona verda un solar on hi ha una nau industrial en funcionament. El propietari es pregunta quan serà executiu el pla, en quina situació queda la nau i si es pot expropiar el solar.",
+      "prompt": "Expliqueu: a) què cal per fer executiu el pla; b) en quin règim queda la nau industrial; c) l'efecte del pla sobre l'expropiació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que cal publicar l'acord d'aprovació definitiva i el text íntegre de les normes urbanístiques",
+          "weight": 13,
+          "keywords": [
+            [
+              "publicacio",
+              "publicar"
+            ],
+            [
+              "normes urbanistiques",
+              "aprovacio definitiva",
+              "diari oficial"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica que la nau queda en règim de fora d'ordenació (disconforme amb el nou pla)",
+          "weight": 13,
+          "keywords": [
+            [
+              "fora d'ordenacio",
+              "fora ordenacio"
+            ],
+            [
+              "disconforme",
+              "limitacions",
+              "obres"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala la declaració d'utilitat pública i necessitat d'ocupació per a l'expropiació",
+          "weight": 11,
+          "keywords": [
+            [
+              "utilitat publica",
+              "necessitat d'ocupacio"
+            ],
+            [
+              "expropiacio",
+              "sistemes"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Recorda que el planejament és públic i executiu i obliga particulars i Administració",
+          "weight": 8,
+          "keywords": [
+            [
+              "public",
+              "executiu"
+            ],
+            [
+              "obliga",
+              "obligatorietat"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El pla esdevé executiu amb la publicació de l'acord d'aprovació definitiva i del text íntegre de les normes urbanístiques al diari oficial (art. 106 TRLUC); fins llavors no és executiu ni obliga. b) Com que la nau industrial és disconforme amb el nou planejament (que qualifica el solar de zona verda), queda en règim de fora d'ordenació, que en limita les obres possibles (com a regla, només conservació), sense obligar necessàriament a un enderroc immediat. c) L'aprovació del pla comporta la declaració d'utilitat pública i la necessitat d'ocupació dels terrenys destinats a sistemes (com la zona verda), la qual cosa legitima l'expropiació del solar per obtenir-lo. A més, el planejament és públic, executiu i obligatori tant per als particulars com per a l'Administració.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t55-gestio",
+      "theme": 55,
+      "block": 11,
+      "maxPoints": 45,
+      "title": "Sistemes d'actuació i equidistribució",
+      "context": "S'ha d'executar un sector de sòl urbanitzable amb diversos propietaris. Cal repartir equitativament els beneficis (aprofitament) i les càrregues (cessions i urbanització) i decidir com es materialitza l'execució.",
+      "prompt": "Expliqueu: a) els sistemes d'actuació urbanística; b) el principi d'equidistribució i les seves tècniques; c) què és l'aprofitament mitjà i el projecte d'urbanització.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Enumera els sistemes d'actuació (reparcel·lació —compensació i cooperació— i expropiació)",
+          "weight": 13,
+          "keywords": [
+            [
+              "reparcel·lacio",
+              "compensacio",
+              "cooperacio"
+            ],
+            [
+              "expropiacio",
+              "sistemes d'actuacio",
+              "121"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica l'equidistribució com la justa distribució de beneficis i càrregues",
+          "weight": 13,
+          "keywords": [
+            [
+              "equidistribucio",
+              "justa distribucio"
+            ],
+            [
+              "beneficis",
+              "carregues"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Distingeix àrees de repartiment (càlcul) i unitats d'execució (gestió) i defineix l'aprofitament mitjà",
+          "weight": 11,
+          "keywords": [
+            [
+              "arees de repartiment",
+              "aprofitament mitja"
+            ],
+            [
+              "unitats d'execucio",
+              "poligons"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Defineix el projecte d'urbanització com el projecte d'obres per executar la urbanització",
+          "weight": 8,
+          "keywords": [
+            [
+              "projecte d'urbanitzacio"
+            ],
+            [
+              "obres",
+              "vials",
+              "serveis",
+              "72"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'execució s'articula mitjançant un sistema d'actuació (art. 121 TRLUC): la reparcel·lació, en modalitats de compensació (executen els propietaris) o de cooperació (executa l'Administració), i l'expropiació (l'Administració adquireix els terrenys). b) El principi d'equidistribució garanteix la justa distribució dels beneficis (aprofitament) i les càrregues (cessions i costos d'urbanització) entre tots els propietaris de l'àmbit, mitjançant les àrees de repartiment (per calcular l'aprofitament), les unitats d'execució o polígons (àmbits de gestió) i la reparcel·lació (redistribució de finques). c) L'aprofitament urbanístic mitjà és l'edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment, que determina l'aprofitament de cada propietari i la cessió a l'Administració; el projecte d'urbanització (art. 72) és el projecte d'obres que defineix i valora les obres d'urbanització per executar-les materialment.",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t56-ruina",
+      "theme": 56,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Llicència, silenci i declaració de ruïna",
+      "context": "Una persona sol·licita llicència d'obres per rehabilitar un edifici, però el projecte excedeix l'edificabilitat permesa. Passen més de tres mesos sense resposta. En un altre edifici del mateix propietari, el cost de reparació supera el 60% del seu valor.",
+      "prompt": "Determineu: a) el sentit del silenci en llicències i si s'adquireix la llicència en aquest cas; b) què pot fer l'Administració; c) quin tipus de ruïna concorre en el segon edifici i els seus efectes.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que el silenci en llicències és positiu, però no s'adquireixen facultats contràries a l'ordenament (art. 5.2)",
+          "weight": 13,
+          "keywords": [
+            [
+              "silenci positiu",
+              "positiu"
+            ],
+            [
+              "no s'adquireixen",
+              "contraries",
+              "ordenament",
+              "planejament"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conclou que NO s'obté la llicència perquè el projecte és disconforme amb el planejament",
+          "weight": 12,
+          "keywords": [
+            [
+              "no s'obte",
+              "no s'adquireix",
+              "no"
+            ],
+            [
+              "disconforme",
+              "excedeix",
+              "edificabilitat"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala que l'Administració ha de dictar resolució expressa denegatòria",
+          "weight": 10,
+          "keywords": [
+            [
+              "resolucio expressa",
+              "denegar",
+              "denegatoria"
+            ],
+            [
+              "resoldre"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Qualifica el segon cas de ruïna econòmica (cost >50% del valor) amb obligació de rehabilitar o enderrocar",
+          "weight": 10,
+          "keywords": [
+            [
+              "ruina economica",
+              "50%",
+              "econòmica"
+            ],
+            [
+              "rehabilitar",
+              "enderrocar",
+              "198"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El silenci en les llicències urbanístiques és, com a regla, positiu; però en cap cas s'adquireixen per silenci facultats o drets contraris a l'ordenament o al planejament (art. 5.2 TRLUC). Com que el projecte excedeix l'edificabilitat permesa, és disconforme amb el planejament i, per tant, no s'adquireix la llicència encara que hagin passat més de tres mesos. b) L'Administració ha de dictar una resolució expressa, que serà denegatòria per la disconformitat; si s'haguessin iniciat obres emparant-se en un suposat silenci, hauria d'incoar el procediment de protecció de la legalitat urbanística. c) En el segon edifici, com que el cost de reparació supera el 50% del valor, concorre la ruïna econòmica (art. 198), que comporta l'obligació de rehabilitar o enderrocar, amb audiència prèvia dels interessats.",
+      "sources": [
+        "TRLUC",
+        "RLUC"
+      ]
+    },
+    {
+      "id": "c-t57-parcel",
+      "theme": 57,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Presumpció de parcel·lació urbanística",
+      "context": "En sòl no urbanitzable, diverses persones constitueixen una comunitat de béns sobre una gran finca rústica i s'assignen l'ús exclusiu de parcel·les concretes, on comencen a obrir camins i portar serveis. Anuncien la venda de participacions com si fossin parcel·les.",
+      "prompt": "Analitzeu: a) el concepte de parcel·lació urbanística; b) si es pot apreciar una parcel·lació encoberta i com; c) les conseqüències.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix la parcel·lació urbanística (divisió que pot donar lloc a un nucli de població)",
+          "weight": 12,
+          "keywords": [
+            [
+              "parcel·lacio urbanistica",
+              "divisio"
+            ],
+            [
+              "nucli de poblacio",
+              "lots",
+              "191"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Aplica la presumpció de parcel·lació pels indicis (comunitat de béns, camins, serveis, publicitat de venda)",
+          "weight": 13,
+          "keywords": [
+            [
+              "presumpcio",
+              "indicis"
+            ],
+            [
+              "comunitat de bens",
+              "proindivis",
+              "vials",
+              "venda"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que és una parcel·lació encoberta il·legal en sòl no urbanitzable",
+          "weight": 12,
+          "keywords": [
+            [
+              "encoberta",
+              "il·legal",
+              "dissimulada"
+            ],
+            [
+              "no urbanitzable",
+              "parcel·lacio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala les conseqüències: nul·litat, no inscripció registral i protecció de la legalitat",
+          "weight": 8,
+          "keywords": [
+            [
+              "nul·litat",
+              "nul",
+              "no inscripcio"
+            ],
+            [
+              "legalitat",
+              "restauracio",
+              "sancio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) És parcel·lació urbanística tota divisió de terrenys en dos o més lots quan pugui donar lloc a la constitució d'un nucli de població (art. 191 TRLUC). b) Encara que formalment s'hagi constituït una comunitat de béns sobre una finca rústica, s'ha d'apreciar una parcel·lació urbanística encoberta en aplicació de la presumpció de l'art. 191.2: hi concorren indicis clars de formació d'un nucli de població (assignació d'ús exclusiu de lots, obertura de camins, implantació de serveis i publicitat de venda de participacions com si fossin parcel·les). c) Com que es tracta d'una parcel·lació contrària al planejament en sòl no urbanitzable, és nul·la, no s'ha d'inscriure al Registre de la Propietat i l'Administració ha d'actuar mitjançant la protecció de la legalitat urbanística (restauració i, si escau, sanció).",
+      "sources": [
+        "TRLUC"
+      ]
+    },
+    {
+      "id": "c-t58-legalitat",
+      "theme": 58,
+      "block": 12,
+      "maxPoints": 45,
+      "title": "Protecció de la legalitat davant obres il·legals",
+      "context": "Un inspector municipal detecta unes obres en execució sense llicència en sòl urbà. Les obres podrien ser conformes al planejament. En un altre indret, es descobreixen obres acabades sense llicència en sòl no urbanitzable protegit fa vuit anys.",
+      "prompt": "Determineu: a) quins procediments s'obren i la seva compatibilitat; b) com actuar davant les obres legalitzables en curs; c) si es pot actuar contra les obres del sòl no urbanitzable malgrat el temps transcorregut.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix el procediment de restauració i el sancionador, independents i compatibles",
+          "weight": 13,
+          "keywords": [
+            [
+              "restauracio",
+              "sancionador"
+            ],
+            [
+              "independents",
+              "compatibles",
+              "dos procediments"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que davant les obres en curs es pot suspendre i requerir la legalització (2 mesos)",
+          "weight": 12,
+          "keywords": [
+            [
+              "suspendre",
+              "suspensio",
+              "paralitzacio"
+            ],
+            [
+              "legalitzacio",
+              "dos mesos",
+              "requerir"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Conclou que en sòl no urbanitzable protegit l'acció NO prescriu i es pot ordenar la restauració",
+          "weight": 13,
+          "keywords": [
+            [
+              "imprescriptible",
+              "no prescriu"
+            ],
+            [
+              "no urbanitzable",
+              "protegit",
+              "restauracio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala que l'acta d'inspecció té valor de document públic i presumpció de veracitat",
+          "weight": 7,
+          "keywords": [
+            [
+              "acta d'inspeccio",
+              "document public"
+            ],
+            [
+              "presumpcio de veracitat",
+              "inspeccio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Davant les obres il·legals s'obren dos procediments independents i compatibles: el de restauració de la realitat física i l'ordre jurídic (legalització o enderroc) i el sancionador (multa per la infracció). b) Com que les obres en sòl urbà estan en curs i podrien ser legalitzables, se'n pot ordenar la suspensió immediata i requerir l'interessat perquè sol·liciti la llicència (habitualment en dos mesos); si les legalitza, es tanca l'expedient de restauració; si no ho fa o no són legalitzables, s'ordena l'enderroc. c) Respecte de les obres acabades fa vuit anys en sòl no urbanitzable protegit, encara que hagi transcorregut el termini general de sis anys, l'acció de restauració és imprescriptible en aquest tipus de sòl (art. 227), de manera que l'Administració pot ordenar-ne la restauració en qualsevol moment. Les actes d'inspecció tenen valor de document públic i presumpció de veracitat.",
+      "sources": [
+        "TRLUC",
+        "L11_2025"
+      ]
+    },
+    {
+      "id": "c-t59-ambiental",
+      "theme": 59,
+      "block": 13,
+      "maxPoints": 45,
+      "title": "Règim d'intervenció d'una activitat ambiental",
+      "context": "Una empresa vol implantar una activitat industrial amb emissions i abocaments significatius. Un petit taller amb incidència mitjana també vol obrir, i un despatx professional sense cap incidència ambiental rellevant.",
+      "prompt": "Determineu, per a cada cas, el règim d'intervenció ambiental aplicable segons la Llei 20/2009, l'òrgan competent i el tràmit previ comú.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Situa l'activitat industrial d'alta incidència en l'autorització ambiental (annex I, Generalitat)",
+          "weight": 13,
+          "keywords": [
+            [
+              "autoritzacio ambiental",
+              "annex i"
+            ],
+            [
+              "generalitat",
+              "alta incidencia"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Situa el taller d'incidència mitjana en la llicència ambiental (annex II, ajuntament)",
+          "weight": 13,
+          "keywords": [
+            [
+              "llicencia ambiental",
+              "annex ii"
+            ],
+            [
+              "ajuntament",
+              "mitjana"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Situa el despatx sense incidència en la comunicació ambiental (annex III)",
+          "weight": 11,
+          "keywords": [
+            [
+              "comunicacio ambiental",
+              "annex iii"
+            ],
+            [
+              "baixa incidencia",
+              "comunicacio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala l'informe urbanístic previ com a tràmit comú de compatibilitat amb el planejament",
+          "weight": 8,
+          "keywords": [
+            [
+              "informe urbanistic"
+            ],
+            [
+              "previ",
+              "compatibilitat",
+              "planejament",
+              "60"
+            ]
+          ]
+        }
+      ],
+      "model": "Segons la Llei 20/2009, el règim depèn de la incidència ambiental: l'activitat industrial amb emissions i abocaments significatius (alta incidència, annex I) requereix autorització ambiental, que atorga la Generalitat i que integra tots els aspectes ambientals i, si escau, l'avaluació d'impacte. El petit taller d'incidència mitjana (annex II) requereix llicència ambiental, que atorga l'ajuntament amb informació pública i veïnal i controls periòdics. El despatx professional sense incidència rellevant (annex III) se subjecta a comunicació ambiental, que permet iniciar l'activitat des de la presentació amb control posterior. En tots els casos, amb caràcter previ, cal l'informe urbanístic (art. 60) que acredita la compatibilitat de l'activitat amb el planejament urbanístic.",
+      "sources": [
+        "L20_2009"
+      ]
+    },
+    {
+      "id": "c-t60-espectacles",
+      "theme": 60,
+      "block": 13,
+      "maxPoints": 45,
+      "title": "Règim dels espectacles i activitats recreatives",
+      "context": "Una empresa vol obrir una sala de concerts amb aforament elevat. Un bar musical de barri, ja habilitat, vol organitzar actuacions de petit format. I una llibreria vol fer presentacions de llibres sense cap risc especial.",
+      "prompt": "Determineu el règim d'intervenció aplicable a cada cas segons la Llei 11/2009 i els aspectes que cal garantir.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Situa la sala de concerts d'aforament elevat en la llicència d'establiment obert al públic",
+          "weight": 13,
+          "keywords": [
+            [
+              "llicencia",
+              "establiment obert al public"
+            ],
+            [
+              "aforament",
+              "risc",
+              "concerts"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Situa el bar musical ja habilitat en la comunicació prèvia",
+          "weight": 12,
+          "keywords": [
+            [
+              "comunicacio previa",
+              "comunicacio"
+            ],
+            [
+              "ja habilitat",
+              "menor risc",
+              "bar"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Situa les presentacions de la llibreria com a activitat innòcua (comunicació o declaració responsable)",
+          "weight": 12,
+          "keywords": [
+            [
+              "innocua",
+              "innòcua"
+            ],
+            [
+              "declaracio responsable",
+              "comunicacio previa",
+              "baixa incidencia"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala els aspectes a garantir (aforament, seguretat, autoprotecció, protecció de menors)",
+          "weight": 8,
+          "keywords": [
+            [
+              "aforament",
+              "seguretat",
+              "autoproteccio"
+            ],
+            [
+              "proteccio de menors",
+              "horaris"
+            ]
+          ]
+        }
+      ],
+      "model": "Segons la Llei 11/2009, el règim depèn del risc i l'aforament: la sala de concerts amb aforament elevat requereix llicència d'establiment obert al públic, atès l'aforament i el risc significatius. El bar musical de barri ja habilitat que vol fer actuacions de petit format se subjecta a comunicació prèvia, en tractar-se d'activitats de menor risc en un establiment ja habilitat. Les presentacions de llibres de la llibreria, sense risc especial, són una activitat innòcua i se subjecten a comunicació prèvia o declaració responsable, que permeten iniciar-les des de la presentació. En tots els casos cal garantir els aspectes de seguretat: aforament, horaris, plans d'autoprotecció, condicions d'admissió i protecció de menors; i, si l'activitat té incidència ambiental, es coordina amb la Llei 20/2009.",
+      "sources": [
+        "L11_2009"
       ]
     }
   ]
