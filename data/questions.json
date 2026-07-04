@@ -6,756 +6,6 @@
   },
   "questions": [
     {
-      "theme": 21,
-      "block": 5,
-      "q": "Sobre quina base s'adjudiquen els contractes segons l'art. 145 de la LCSP?",
-      "options": [
-        "A la millor relació qualitat-preu, avaluada segons criteris vinculats a l'objecte del contracte",
-        "Sempre al preu més baix, sense excepció",
-        "A la lliure elecció de l'òrgan sense criteris previs",
-        "Al primer licitador que presenti oferta"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 145 estableix que l'adjudicació es fa a la proposició amb millor relació qualitat-preu, avaluada amb criteris vinculats a l'objecte, que poden ser un o diversos. El preu més baix no és l'únic criteri possible; s'hi poden ponderar la qualitat, els aspectes ambientals i socials, etc.",
-      "source": "LCSP",
-      "article": "art. 145 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "Com es diferencien els criteris d'adjudicació automàtics dels de judici de valor?",
-      "options": [
-        "Els automàtics s'apliquen mitjançant fórmules o xifres; els de judici de valor requereixen una valoració tècnica",
-        "No hi ha cap diferència entre ells",
-        "Els automàtics els fixa el licitador i els de judici de valor l'òrgan",
-        "Els de judici de valor s'apliquen amb fórmules matemàtiques"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els criteris automàtics o objectius s'avaluen mitjançant fórmules o xifres (preu, termini, garantia); els de judici de valor requereixen una apreciació tècnica (qualitat, memòria). Quan els de judici de valor superen els automàtics, la valoració la fa un comitè d'experts (art. 146).",
-      "source": "LCSP",
-      "article": "arts. 145-146 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "Què ha de fer l'òrgan de contractació davant una oferta incursa en presumpció d'anormalitat (art. 149 LCSP)?",
-      "options": [
-        "Donar audiència al licitador perquè justifiqui el preu i, si no ho fa, rebutjar l'oferta",
-        "Excloure-la automàticament sense cap tràmit",
-        "Adjudicar-li el contracte directament",
-        "Ignorar-la i continuar amb la resta"
-      ],
-      "correct": 0,
-      "explain": "Correcta: davant una oferta anormalment baixa (art. 149), l'òrgan ha de requerir el licitador perquè justifiqui el preu (estalvis del procés, solucions tècniques, condicions favorables); si no ho justifica o s'aprecia incompliment d'obligacions socials o ambientals, l'oferta es rebutja. No es pot excloure sense audiència.",
-      "source": "LCSP",
-      "article": "art. 149 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "Un cop classificades les ofertes, quin termini té el licitador millor classificat per aportar la documentació requerida (art. 150 LCSP)?",
-      "options": [
-        "Deu dies hàbils des de la tramesa del requeriment",
-        "Tres mesos",
-        "Vint-i-quatre hores",
-        "Un any"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 150 preveu que, classificades les ofertes per ordre decreixent, es requereix el licitador millor classificat perquè, en el termini de deu dies hàbils, aporti la documentació justificativa. Si no ho fa, s'entén que retira l'oferta i es requereix el següent.",
-      "source": "LCSP",
-      "article": "art. 150 LCSP"
-    },
-    {
-      "theme": 21,
-      "block": 5,
-      "q": "En els contractes SARA, quan es pot formalitzar el contracte després de notificar l'adjudicació (art. 153 LCSP)?",
-      "options": [
-        "Un cop transcorreguts quinze dies hàbils des de la tramesa de la notificació, per permetre el recurs especial",
-        "Immediatament, el mateix dia de l'adjudicació",
-        "Al cap d'un any",
-        "Sense necessitat de cap termini ni formalització"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en els contractes susceptibles de recurs especial (SARA), la formalització no es pot produir abans que transcorrin quinze dies hàbils des de la tramesa de la notificació de l'adjudicació, termini durant el qual es pot interposar el recurs especial, que té efectes suspensius.",
-      "source": "LCSP",
-      "article": "art. 153 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "Sota quin principi s'executa el contracte administratiu segons l'art. 197 de la LCSP?",
-      "options": [
-        "A risc i ventura del contractista",
-        "A risc exclusiu de l'Administració",
-        "Sense cap risc per a cap de les parts",
-        "A risc compartit al 50% en tot cas"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 197 estableix que l'execució es fa a risc i ventura del contractista: aquest assumeix el resultat econòmic de l'execució, tret dels supòsits de força major en el contracte d'obres (art. 239) i dels casos d'equilibri econòmic en les concessions.",
-      "source": "LCSP",
-      "article": "art. 197 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "Què pot fer l'Administració si el contractista incorre en demora en l'execució (art. 193 LCSP)?",
-      "options": [
-        "Optar entre resoldre el contracte o imposar penalitats per demora, sense necessitat d'intimació prèvia",
-        "Únicament esperar indefinidament",
-        "Pagar-li una indemnització per la demora",
-        "Prorrogar automàticament el termini sense conseqüències"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 193 permet a l'Administració, quan el contractista incorre en mora (sense necessitat d'intimació prèvia), optar entre la resolució del contracte o la imposició de penalitats per demora, proporcionals al preu. Quan les penalitats arriben a un determinat percentatge, pot resoldre o acordar la continuïtat amb noves penalitats.",
-      "source": "LCSP",
-      "article": "art. 193 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "Què estableix l'art. 202 de la LCSP sobre les condicions especials d'execució?",
-      "options": [
-        "L'òrgan ha d'establir almenys una condició especial d'execució de tipus social, ètic, mediambiental o d'innovació",
-        "Estan prohibides en tot cas",
-        "Són sempre facultatives i mai obligatòries",
-        "Només es poden imposar en contractes menors"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 202 obliga a establir en el plec almenys una condició especial d'execució de caràcter social, ètic, mediambiental o d'innovació (per exemple, foment de l'ocupació de qualitat, igualtat, eficiència energètica). El seu incompliment pot ser causa de penalitat o, si es configura com a essencial, de resolució.",
-      "source": "LCSP",
-      "article": "art. 202 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "Quina és una prerrogativa de l'Administració en els contractes administratius (art. 190 LCSP)?",
-      "options": [
-        "Modificar el contracte per raons d'interès públic (ius variandi), dins els límits legals",
-        "Incomplir lliurement les seves obligacions de pagament",
-        "Renunciar a tota potestat de control",
-        "Cedir el contracte sense el consentiment de ningú"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 190 reconeix a l'Administració les prerrogatives d'interpretar el contracte, modificar-lo per raons d'interès públic (ius variandi), resoldre'l, declarar-ne la nul·litat i acordar-ne la suspensió i inspecció. Són potestats exorbitants en defensa de l'interès públic.",
-      "source": "LCSP",
-      "article": "art. 190 LCSP"
-    },
-    {
-      "theme": 22,
-      "block": 5,
-      "q": "Quan cal el dictamen del Consell d'Estat o òrgan consultiu equivalent en l'exercici de les prerrogatives (art. 191 LCSP)?",
-      "options": [
-        "En els casos d'oposició del contractista a la resolució i en les modificacions superiors al 20% del preu, entre d'altres",
-        "En cap cas és necessari cap dictamen",
-        "Sempre, per a qualsevol acte de tràmit",
-        "Només quan ho demani el contractista per escrit"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 191 exigeix, en l'exercici de les prerrogatives, l'audiència del contractista i l'informe del servei jurídic, i el dictamen del Consell d'Estat o òrgan consultiu equivalent en supòsits com la interpretació, nul·litat i resolució quan hi ha oposició del contractista, o les modificacions superiors al 20% del preu. Els acords són immediatament executius.",
-      "source": "LCSP",
-      "article": "art. 191 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "Quin requisit s'exigeix, com a regla, per cedir un contracte (art. 214 LCSP)?",
-      "options": [
-        "Que el cedent hagi executat almenys un 20% de l'import del contracte (o explotat 1/5 del temps en concessions), amb autorització prèvia de l'òrgan",
-        "Que el cedent no hagi executat res encara",
-        "Cap requisit; la cessió és sempre lliure",
-        "Que el cessionari sigui una administració pública"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la cessió (art. 214) exigeix autorització prèvia i expressa de l'òrgan, que el cedent hagi executat almenys un 20% de l'import (o explotat una cinquena part del termini en concessions), que el cessionari tingui capacitat i solvència, i la formalització en escriptura pública. El requisit del 20% no s'aplica en cas d'insolvència o concurs.",
-      "source": "LCSP",
-      "article": "art. 214 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "Qui respon davant l'Administració de les prestacions subcontractades (art. 215 LCSP)?",
-      "options": [
-        "El contractista principal, que és l'únic responsable de l'execució davant l'Administració",
-        "El subcontractista directament",
-        "Ningú, perquè la subcontractació extingeix la responsabilitat",
-        "L'òrgan de contractació"
-      ],
-      "correct": 0,
-      "explain": "Correcta: encara que es permeti la subcontractació (art. 215), el contractista principal continua sent l'únic responsable de l'execució davant l'Administració; la relació de l'Administració és amb ell, no amb el subcontractista. Cal comunicar prèviament la subcontractació i respectar els límits dels plecs.",
-      "source": "LCSP",
-      "article": "art. 215 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "Té el subcontractista acció directa contra l'Administració per cobrar (art. 216 LCSP)?",
-      "options": [
-        "No; la relació del subcontractista és amb el contractista principal, no amb l'Administració",
-        "Sí, sempre pot reclamar directament a l'Administració",
-        "Sí, però només en contractes d'obres",
-        "Sí, mitjançant la via de constrenyiment"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el subcontractista no té acció directa contra l'Administració; el contractista principal és qui li ha de pagar dins els terminis de la normativa de morositat (Llei 3/2004). L'Administració pot comprovar el compliment d'aquests pagaments i adoptar mesures, però no substitueix la relació contractual principal.",
-      "source": "LCSP",
-      "article": "art. 216 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "Es pot subcontractar qualsevol part del contracte?",
-      "options": [
-        "No; els plecs poden prohibir-ho o reservar tasques crítiques que ha d'executar directament el contractista principal",
-        "Sí, sempre es pot subcontractar la totalitat sense límit",
-        "No, la subcontractació està sempre prohibida",
-        "Sí, però només amb autorització judicial"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la subcontractació es permet amb caràcter general, però els plecs poden fixar-hi límits (percentatge màxim) o reservar les tasques crítiques perquè les executi directament el contractista principal. Cal, a més, comunicar-la prèviament per escrit a l'Administració.",
-      "source": "LCSP",
-      "article": "art. 215 LCSP"
-    },
-    {
-      "theme": 23,
-      "block": 5,
-      "q": "Què comporta la cessió d'un contracte per al cessionari?",
-      "options": [
-        "Que se subroga en tots els drets i obligacions del cedent i queda vinculat pel contracte com si en fos el titular original",
-        "Que només assumeix els drets, però no les obligacions",
-        "Que pot renegociar lliurement totes les condicions",
-        "Que queda exempt de les garanties del contracte"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la cessió transmet la posició contractual: el cessionari se subroga en tots els drets i obligacions del cedent (art. 214) i queda vinculat pel contracte en els mateixos termes. Per això s'exigeix que tingui la capacitat i la solvència requerides i que no estigui en prohibició de contractar.",
-      "source": "LCSP",
-      "article": "art. 214 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "Quan s'entén complert un contracte (art. 210 LCSP)?",
-      "options": [
-        "Quan el contractista ha realitzat la totalitat de la prestació a satisfacció de l'Administració, amb un acte formal i positiu de recepció",
-        "Quan ha transcorregut el termini, encara que no s'hagi executat res",
-        "Quan el contractista ho declara unilateralment",
-        "Quan es paga la primera factura"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 210 estableix que el contracte s'entén complert quan el contractista ha realitzat la totalitat de la prestació d'acord amb els seus termes i a satisfacció de l'Administració, cosa que requereix un acte formal i positiu de recepció o conformitat dins el mes següent al lliurament. Després comença el termini de garantia.",
-      "source": "LCSP",
-      "article": "art. 210 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "Quin és el límit de les modificacions no previstes al plec (art. 205 LCSP)?",
-      "options": [
-        "Fins al 50% del preu inicial del contracte per a cada supòsit, i només en les circumstàncies taxades",
-        "Fins al 100% del preu inicial",
-        "No hi ha cap límit",
-        "Fins al 5% del preu inicial"
-      ],
-      "correct": 0,
-      "explain": "Correcta: les modificacions no previstes (art. 205) només s'admeten en circumstàncies sobrevingudes i taxades (prestacions addicionals, imprevistos, modificacions no substancials), amb el límit del 50% del preu inicial per cada supòsit. Les previstes al plec (art. 204) tenen el límit del 20%.",
-      "source": "LCSP",
-      "article": "art. 205 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "Quina és una causa de resolució del contracte (art. 211 LCSP)?",
-      "options": [
-        "L'incompliment de les obligacions contractuals essencials",
-        "El compliment normal del contracte",
-        "El pagament puntual de les factures",
-        "La bona execució de les prestacions"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 211 enumera com a causes de resolució la mort o incapacitat del contractista, el concurs o la insolvència, el mutu acord, la demora en el compliment, l'incompliment d'obligacions contractuals essencials, la impossibilitat d'executar per modificacions successives i el desistiment de l'Administració, entre d'altres.",
-      "source": "LCSP",
-      "article": "art. 211 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "Quins efectes té la resolució del contracte per causa imputable al contractista (art. 213 LCSP)?",
-      "options": [
-        "La confiscació de la garantia i la indemnització a l'Administració pels danys i perjudicis en allò que excedeixi la garantia",
-        "La indemnització al contractista",
-        "La devolució íntegra de la garantia al contractista",
-        "Cap efecte econòmic"
-      ],
-      "correct": 0,
-      "explain": "Correcta: quan la resolució és per causa imputable al contractista, aquest perd la garantia (confiscació) i ha d'indemnitzar l'Administració pels danys i perjudicis en allò que excedeixi l'import de la garantia (art. 213). Si la resolució és per causa de l'Administració, aquesta ha d'indemnitzar el contractista.",
-      "source": "LCSP",
-      "article": "art. 213 LCSP"
-    },
-    {
-      "theme": 24,
-      "block": 5,
-      "q": "Les modificacions contractuals que superen els límits legals o alteren substancialment el contracte:",
-      "options": [
-        "Exigeixen una nova licitació, perquè es considera un contracte diferent",
-        "Es poden aprovar igualment sense cap conseqüència",
-        "Les decideix lliurement el contractista",
-        "No requereixen cap publicitat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: quan la modificació supera els límits legals o altera substancialment la naturalesa o l'equilibri econòmic del contracte, no es pot tramitar com a modificació, sinó que cal una nova licitació. Les modificacions vàlides s'han de formalitzar i publicar al perfil del contractant (i al DOUE si el contracte és SARA).",
-      "source": "LCSP",
-      "article": "arts. 203-207 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "Què és el projecte en el contracte d'obres i què ha de contenir (art. 233 LCSP)?",
-      "options": [
-        "El document tècnic que defineix l'obra: memòria, plànols, plec de prescripcions tècniques, pressupost i estudi de seguretat i salut",
-        "Un simple pressupost sense més documentació",
-        "Únicament els plànols de l'obra",
-        "La factura final de l'obra"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 233 exigeix que el projecte contingui la memòria, els plànols, el plec de prescripcions tècniques particulars, el pressupost (amidaments i preus), l'estudi de seguretat i salut i, si escau, l'estudi geotècnic. Els projectes de pressupost elevat se sotmeten a supervisió (art. 235).",
-      "source": "LCSP",
-      "article": "art. 233 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "Què és la comprovació del replanteig en el contracte d'obres (art. 237 LCSP)?",
-      "options": [
-        "L'acte, dins el mes següent a la formalització, que comprova la realitat geomètrica de l'obra i marca l'inici del termini d'execució",
-        "El pagament de la primera certificació",
-        "La recepció final de l'obra",
-        "La redacció del projecte modificat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la comprovació del replanteig (art. 237) es fa dins el mes següent a la formalització del contracte i verifica la realitat geomètrica de l'obra i la disponibilitat dels terrenys; se n'aixeca acta i, si és favorable, marca l'inici del termini d'execució de l'obra.",
-      "source": "LCSP",
-      "article": "art. 237 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "Què són les certificacions d'obra (art. 240 LCSP)?",
-      "options": [
-        "Documents mensuals que acrediten l'obra executada i donen dret a l'abonament a compte, sense que impliquin recepció",
-        "El document final de recepció de l'obra",
-        "Les factures dels subcontractistes",
-        "El projecte tècnic de l'obra"
-      ],
-      "correct": 0,
-      "explain": "Correcta: les certificacions d'obra són documents que, com a regla mensual, acrediten l'obra executada i donen dret a l'abonament a compte al contractista. Tenen caràcter provisional i a bon compte: no impliquen la recepció ni l'aprovació definitiva de les unitats certificades.",
-      "source": "LCSP",
-      "article": "art. 240 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "Quin és el termini de garantia mínim en el contracte d'obres i què passa un cop transcorregut (art. 243 LCSP)?",
-      "options": [
-        "Un any com a mínim; transcorregut sense objeccions, es fa l'amidament general i la liquidació i s'allibera la garantia",
-        "Cinc anys, sense liquidació posterior",
-        "No hi ha termini de garantia en les obres",
-        "Sis mesos, amb devolució immediata de la garantia"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 243 fixa un termini de garantia mínim d'un any (llevat que el plec en prevegi un altre). Durant aquest període, el contractista respon dels vicis; un cop transcorregut sense objeccions, es practica l'amidament general i la liquidació del contracte i s'allibera la garantia.",
-      "source": "LCSP",
-      "article": "art. 243 LCSP"
-    },
-    {
-      "theme": 25,
-      "block": 5,
-      "q": "En quins supòsits té dret el contractista d'obres a indemnització per força major (art. 239 LCSP)?",
-      "options": [
-        "En casos taxats com incendis per electricitat atmosfèrica, fenòmens naturals d'efectes catastròfics (inundacions, terratrèmols) o destrosses per actes de terrorisme",
-        "En qualsevol contratemps, per petit que sigui",
-        "Mai, perquè l'execució és a risc i ventura sense excepcions",
-        "Només si ho pacten expressament les parts"
-      ],
-      "correct": 0,
-      "explain": "Correcta: tot i que l'execució es fa a risc i ventura, l'art. 239 reconeix, en el contracte d'obres, el dret a indemnització en casos taxats de força major: incendis per electricitat atmosfèrica, fenòmens naturals d'efectes catastròfics (inundacions, terratrèmols, esllavissades), i destrosses per actes de terrorisme o guerra.",
-      "source": "LCSP",
-      "article": "art. 239 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "Quin és l'element definidor del contracte de concessió d'obres (art. 14 LCSP)?",
-      "options": [
-        "La transferència al concessionari del risc operacional de l'explotació de l'obra",
-        "El pagament d'un preu fix per l'Administració sense cap risc per al concessionari",
-        "L'absència de qualsevol explotació de l'obra",
-        "La titularitat privada definitiva de l'obra"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en la concessió d'obres, el concessionari construeix i explota (o només explota) l'obra i assumeix el risc operacional (de demanda i/o oferta); la contraprestació és el dret a explotar-la (tarifes), sol o acompanyat d'un preu. Aquesta transferència del risc la distingeix del contracte d'obres.",
-      "source": "LCSP",
-      "article": "art. 14 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "Quin document és obligatori i previ per a la concessió d'obres (art. 247 LCSP)?",
-      "options": [
-        "L'estudi de viabilitat, que analitza la viabilitat econòmica, tècnica, jurídica i ambiental",
-        "La factura final de l'obra",
-        "El certificat d'última ocupació",
-        "El projecte de reparcel·lació"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 247 exigeix, amb caràcter previ, un estudi de viabilitat que analitzi la viabilitat econòmica-financera, tècnica, jurídica i ambiental de la concessió. És un tràmit essencial atès el llarg abast temporal i el volum d'inversió de la concessió.",
-      "source": "LCSP",
-      "article": "art. 247 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "En quins supòsits es restableix l'equilibri econòmic de la concessió (art. 270 LCSP)?",
-      "options": [
-        "Per ius variandi, per factum principis i per força major o riscos imprevisibles, segons els termes de la concessió",
-        "En qualsevol cas de pèrdua del concessionari",
-        "Mai; el risc és sempre íntegrament del concessionari",
-        "Només si ho decideix unilateralment el concessionari"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 270 preveu el restabliment de l'equilibri econòmic en supòsits taxats: quan l'Administració modifica la concessió (ius variandi), quan actuacions de l'Administració n'alteren l'economia (factum principis) i en casos de força major o riscos imprevisibles, amb el repartiment previst. No cobreix el risc operacional ordinari.",
-      "source": "LCSP",
-      "article": "art. 270 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "Quina és la durada màxima de la concessió d'obres (art. 29 LCSP)?",
-      "options": [
-        "Quaranta anys",
-        "Cinc anys",
-        "Deu anys",
-        "Indefinida"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 29 fixa en quaranta anys la durada màxima de les concessions d'obres (i de les que combinen obres i explotació de serveis). La durada s'ha de fixar en funció del temps necessari per recuperar les inversions i obtenir un rendiment raonable.",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 26,
-      "block": 5,
-      "q": "Què passa amb l'obra quan s'extingeix la concessió d'obres?",
-      "options": [
-        "Reverteix a l'Administració en l'estat de conservació pactat",
-        "Passa a ser propietat privada del concessionari",
-        "S'ha d'enderrocar obligatòriament",
-        "Queda abandonada sense titular"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en extingir-se la concessió (per compliment del termini, resolució, rescat, etc.), l'obra reverteix a l'Administració en les condicions de conservació establertes. La reversió és una nota característica de la concessió, coherent amb la titularitat pública de l'obra.",
-      "source": "LCSP",
-      "article": "arts. 279-282 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "Què és el contracte de subministrament (art. 16 LCSP)?",
-      "options": [
-        "El que té per objecte l'adquisició de productes o béns mobles (compra, arrendament, arrendament amb opció de compra o fabricació)",
-        "El que té per objecte l'execució d'una obra",
-        "El que té per objecte la gestió d'un servei públic",
-        "El que té per objecte la redacció d'un projecte"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 16 defineix el subministrament com l'adquisició de productes o béns mobles, i inclou la compra, l'arrendament (amb o sense opció de compra) i la fabricació. No es consideren subministrament els programes d'ordinador desenvolupats a mida (que són serveis).",
-      "source": "LCSP",
-      "article": "art. 16 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "Quina és la durada màxima general del contracte de subministrament (art. 29 LCSP)?",
-      "options": [
-        "Cinc anys, incloses les pròrrogues",
-        "Quaranta anys",
-        "Un any improrrogable",
-        "Vint-i-cinc anys"
-      ],
-      "correct": 0,
-      "explain": "Correcta: com a regla general, els contractes de subministrament i de serveis tenen una durada màxima de cinc anys, incloses les pròrrogues (art. 29), tret d'excepcions justificades. L'arrendament pot tenir un règim de durada diferent segons les circumstàncies.",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "Quina tècnica de racionalització s'utilitza sovint per als subministraments recurrents?",
-      "options": [
-        "Els acords marc i els sistemes dinàmics d'adquisició, així com la contractació centralitzada",
-        "El contracte menor sense límit",
-        "L'adjudicació directa sense concurrència",
-        "La subhasta inversa il·limitada"
-      ],
-      "correct": 0,
-      "explain": "Correcta: per a subministraments recurrents s'utilitzen tècniques de racionalització com els acords marc, els sistemes dinàmics d'adquisició i la contractació centralitzada (centrals de compres), que permeten agilitzar i optimitzar les adquisicions repetitives amb garanties de concurrència.",
-      "source": "LCSP",
-      "article": "arts. 219-228 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "Es consideren subministrament els programes d'ordinador desenvolupats a mida?",
-      "options": [
-        "No; es consideren contractes de serveis",
-        "Sí, sempre són subministrament",
-        "Sí, però només si s'instal·len en equips",
-        "No es poden contractar de cap manera"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 16 exclou expressament de la noció de subministrament els programes d'ordinador desenvolupats a mida, que es qualifiquen com a contractes de serveis. En canvi, l'adquisició de programari estàndard sí que pot ser subministrament.",
-      "source": "LCSP",
-      "article": "art. 16 LCSP"
-    },
-    {
-      "theme": 27,
-      "block": 5,
-      "q": "Com es tanca l'execució del contracte de subministrament?",
-      "options": [
-        "Amb el lliurament dels béns i la seva recepció de conformitat, i el contractista respon dels vicis durant el termini de garantia",
-        "Amb la simple emissió de la primera factura",
-        "Sense cap acte de recepció",
-        "Amb la construcció d'una obra"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el contractista ha de lliurar els béns en el temps i lloc pactats; l'Administració els rep i en comprova la conformitat (arts. 298-300). Durant el termini de garantia, el contractista respon dels vicis o defectes dels béns subministrats.",
-      "source": "LCSP",
-      "article": "arts. 298-300 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "Què és el contracte de serveis (art. 17 LCSP)?",
-      "options": [
-        "El que té per objecte prestacions de fer consistents en el desenvolupament d'una activitat o dirigides a obtenir un resultat diferent d'una obra o subministrament",
-        "El que té per objecte l'adquisició de béns mobles",
-        "El que té per objecte la construcció d'una obra",
-        "El que transfereix el risc operacional d'un servei públic"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 17 defineix el contracte de serveis com el que té per objecte prestacions de fer (una activitat o un resultat) diferents d'una obra o subministrament. No pot implicar l'exercici de l'autoritat inherent als poders públics. Si es transfereix el risc operacional, seria una concessió de serveis.",
-      "source": "LCSP",
-      "article": "art. 17 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "Quina és la durada màxima general del contracte de serveis (art. 29 LCSP)?",
-      "options": [
-        "Cinc anys, incloses les pròrrogues, tret d'excepcions justificades",
-        "Quaranta anys",
-        "Vint-i-cinc anys",
-        "Indefinida"
-      ],
-      "correct": 0,
-      "explain": "Correcta: com a regla general, el contracte de serveis té una durada màxima de cinc anys incloses les pròrrogues (art. 29). Es poden establir durades superiors quan ho justifiquin les característiques de la prestació o l'amortització d'inversions.",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "Quina especialitat té el contracte d'elaboració de projectes d'obres (art. 314 LCSP)?",
-      "options": [
-        "El contractista respon dels danys per defectes o errors del projecte, amb indemnitzacions escalonades segons el percentatge de desviació del pressupost",
-        "No té cap responsabilitat pels errors del projecte",
-        "Es pot adjudicar sempre com a contracte menor",
-        "No es pot adjudicar mitjançant concurs de projectes"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 314 estableix que el redactor respon dels danys derivats de defectes o errors del projecte; si el pressupost d'execució es desvia per aquests errors per sobre de determinats percentatges (20%, 30%, 40%), s'apliquen indemnitzacions escalonades. Aquests contractes es poden adjudicar mitjançant concurs de projectes amb jurat.",
-      "source": "LCSP",
-      "article": "art. 314 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "Pot el contracte de serveis implicar l'exercici de potestats públiques?",
-      "options": [
-        "No; el contracte de serveis no pot implicar l'exercici de l'autoritat inherent als poders públics",
-        "Sí, sempre que ho pacti l'Administració",
-        "Sí, en tots els casos",
-        "Sí, si el contractista és funcionari"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el contracte de serveis no pot tenir per objecte prestacions que impliquin l'exercici de l'autoritat inherent als poders públics, que resten reservades als funcionaris. El contractista respon de la qualitat tècnica dels treballs i de les conseqüències per a l'Administració.",
-      "source": "LCSP",
-      "article": "art. 17 LCSP"
-    },
-    {
-      "theme": 28,
-      "block": 5,
-      "q": "Quina d'aquestes és una causa de resolució específica del contracte de serveis (art. 313 LCSP)?",
-      "options": [
-        "El desistiment o la suspensió del contracte per un termini superior al previst, a més de les causes generals",
-        "El compliment puntual de les prestacions",
-        "El pagament anticipat de les factures",
-        "La bona qualitat dels treballs"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 313 preveu, a més de les causes generals de resolució, causes específiques del contracte de serveis com el desistiment abans d'iniciar la prestació o la suspensió per un termini superior al previst per causa imputable a l'Administració. Els efectes es determinen segons el règim general.",
-      "source": "LCSP",
-      "article": "art. 313 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "Què distingeix la concessió de serveis del contracte de serveis (art. 15 LCSP)?",
-      "options": [
-        "En la concessió es transfereix al concessionari el risc operacional i la retribució prové de l'explotació; en el contracte de serveis no hi ha aquesta transferència i paga l'Administració",
-        "No hi ha cap diferència entre tots dos",
-        "En la concessió sempre paga l'Administració un preu fix",
-        "El contracte de serveis transfereix el risc operacional"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la clau és el risc operacional. En la concessió de serveis (art. 15), el concessionari gestiona el servei assumint-ne el risc i es retribueix amb les tarifes (soles o amb preu); en el contracte de serveis, l'Administració paga el preu i no hi ha transferència del risc operacional.",
-      "source": "LCSP",
-      "article": "art. 15 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "Quina és la durada màxima de la concessió de serveis que no inclou obres (art. 29 LCSP)?",
-      "options": [
-        "Vint-i-cinc anys",
-        "Cinc anys",
-        "Quaranta anys en tot cas",
-        "Indefinida"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 29 fixa en vint-i-cinc anys la durada màxima de les concessions de serveis que no comprenen l'execució d'obres (si inclouen obres, el màxim és de quaranta anys), sense superar el temps raonable per recuperar les inversions.",
-      "source": "LCSP",
-      "article": "art. 29 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "La concessió de serveis va substituir quina figura de la legislació anterior?",
-      "options": [
-        "El contracte de gestió de serveis públics",
-        "El contracte d'obres",
-        "El contracte de subministrament",
-        "El conveni de col·laboració"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la LCSP de 2017 va reconduir l'antic contracte de gestió de serveis públics cap a la concessió de serveis, adaptant-se a les directives europees i posant l'accent en la transferència del risc operacional com a element distintiu.",
-      "source": "LCSP",
-      "article": "art. 15 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "Es manté l'equilibri econòmic en la concessió de serveis?",
-      "options": [
-        "Sí; es restableix en supòsits taxats (ius variandi, factum principis, força major), igual que en la concessió d'obres",
-        "No; el concessionari assumeix sempre tot el risc sense compensació",
-        "Sí, però només si ho demana l'Administració",
-        "No existeix aquest concepte en les concessions"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 290 preveu el manteniment de l'equilibri econòmic de la concessió de serveis en els mateixos supòsits que la d'obres: modificacions imposades per l'Administració (ius variandi), factum principis i força major o riscos imprevisibles, amb el repartiment previst.",
-      "source": "LCSP",
-      "article": "art. 290 LCSP"
-    },
-    {
-      "theme": 29,
-      "block": 5,
-      "q": "Quines actuacions preparatòries requereix la concessió d'un servei públic?",
-      "options": [
-        "L'establiment previ del servei i la memòria justificativa del règim, i estudi de viabilitat si comporta obres",
-        "Cap actuació prèvia",
-        "Únicament la factura del primer mes",
-        "El projecte de reparcel·lació"
-      ],
-      "correct": 0,
-      "explain": "Correcta: quan es tracta d'un servei públic, cal l'establiment previ del servei (assumpció de la titularitat i règim jurídic) i la memòria justificativa; si la concessió comporta l'execució d'obres, també cal un estudi de viabilitat. Aquestes actuacions preparatòries fonamenten la concessió.",
-      "source": "LCSP",
-      "article": "arts. 284-285 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "Quins són els llindars del contracte menor (art. 118 LCSP)?",
-      "options": [
-        "Inferior a 40.000 € en obres i inferior a 15.000 € en subministraments i serveis, IVA exclòs",
-        "Inferior a 60.000 € en tots els casos",
-        "Inferior a 15.000 € en obres i 40.000 € en serveis",
-        "No hi ha cap llindar"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el contracte menor (art. 118) és el de valor estimat inferior a 40.000 € en obres i inferior a 15.000 € en subministraments i serveis, IVA exclòs. És una adjudicació directa simplificada.",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "Quina és la durada màxima del contracte menor?",
-      "options": [
-        "No pot superar un any ni ser objecte de pròrroga",
-        "Cinc anys prorrogables",
-        "Deu anys",
-        "No té límit de durada"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el contracte menor no pot tenir una durada superior a un any ni ser objecte de pròrroga (art. 29.8 en relació amb l'art. 118). Aquesta limitació temporal reforça el seu caràcter excepcional i puntual.",
-      "source": "LCSP",
-      "article": "arts. 29 i 118 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "Quina documentació essencial exigeix la tramitació del contracte menor?",
-      "options": [
-        "L'aprovació de la despesa, la incorporació de la factura i un informe que justifiqui la necessitat i que no s'altera l'objecte per defugir les regles generals",
-        "Un projecte tècnic supervisat en tots els casos",
-        "La classificació del contractista",
-        "La publicació al DOUE"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la tramitació del contracte menor exigeix l'aprovació de la despesa, la incorporació de la factura corresponent i un informe de l'òrgan de contractació que justifiqui la necessitat i que no s'està alterant l'objecte del contracte per eludir les regles generals (prohibició de fraccionament). En obres, també el pressupost i, si escau, el projecte.",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "Quina obligació de publicitat té el contracte menor?",
-      "options": [
-        "La publicació trimestral al perfil del contractant",
-        "La publicació diària al DOUE",
-        "Cap publicitat",
-        "La publicació al BOE"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els contractes menors s'han de publicar, com a mínim trimestralment, al perfil del contractant, amb indicació de l'objecte, la durada, l'import i el contractista. És una garantia de transparència malgrat l'agilitat del procediment.",
-      "source": "LCSP",
-      "article": "art. 63 LCSP"
-    },
-    {
-      "theme": 30,
-      "block": 5,
-      "q": "Exigeix el contracte menor garantia definitiva i formalització en document contractual?",
-      "options": [
-        "No; no cal garantia definitiva ni document contractual, n'hi ha prou amb la factura",
-        "Sí, sempre cal garantia i escriptura pública",
-        "Sí, cal formalitzar-lo en document administratiu",
-        "Sí, cal garantia però no formalització"
-      ],
-      "correct": 0,
-      "explain": "Correcta: pel seu caràcter simplificat, el contracte menor no exigeix garantia definitiva ni la formalització en un document contractual: n'hi ha prou amb l'aprovació de la despesa i la factura. Aquesta simplicitat és la seva raó de ser, sempre dins els llindars i sense fraccionament.",
-      "source": "LCSP",
-      "article": "art. 118 LCSP"
-    },
-    {
       "theme": 31,
       "block": 14,
       "q": "Quina és la naturalesa jurídica de la llicència urbanística o d'activitats?",
@@ -6754,6 +6004,756 @@
       "explain": "Correcta: l'art. 99.2 prohibeix fraccionar l'objecte del contracte per rebaixar-ne la quantia i eludir els requisits de publicitat o de procediment. És la garantia essencial que impedeix abusar de la figura del contracte menor.",
       "source": "LCSP",
       "article": "art. 99 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Sobre quina base s'adjudiquen els contractes segons l'art. 145 de la LCSP?",
+      "options": [
+        "A la millor relació qualitat-preu, avaluada segons criteris vinculats a l'objecte del contracte",
+        "Sempre al preu més baix de tots els oferts, sense possibilitat de valorar cap altre criteri de l'oferta",
+        "A la lliure elecció de l'òrgan de contractació, sense necessitat de fixar criteris de valoració previs",
+        "Al primer licitador que presenti la seva oferta dins del termini establert per la convocatòria"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 145 estableix que l'adjudicació es fa a la proposició amb millor relació qualitat-preu, avaluada amb criteris vinculats a l'objecte, que poden ser un o diversos. El preu més baix no és l'únic criteri; s'hi poden ponderar la qualitat i els aspectes ambientals i socials.",
+      "source": "LCSP",
+      "article": "art. 145 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Com es diferencien els criteris d'adjudicació automàtics dels de judici de valor?",
+      "options": [
+        "No hi ha cap diferència entre ells, ja que tots dos s'apliquen mitjançant fórmules matemàtiques objectives",
+        "Els automàtics s'apliquen mitjançant fórmules o xifres; els de judici de valor requereixen una valoració tècnica",
+        "Els automàtics els proposa el licitador en la seva oferta i els de judici de valor els fixa l'òrgan després",
+        "Els de judici de valor s'apliquen amb fórmules matemàtiques i els automàtics requereixen valoració subjectiva"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els criteris automàtics o objectius s'avaluen mitjançant fórmules o xifres (preu, termini, garantia); els de judici de valor requereixen una apreciació tècnica (qualitat, memòria). Quan els de judici de valor superen els automàtics, la valoració la fa un comitè d'experts (art. 146).",
+      "source": "LCSP",
+      "article": "arts. 145-146 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Què ha de fer l'òrgan davant una oferta incursa en presumpció d'anormalitat (art. 149)?",
+      "options": [
+        "Excloure-la de manera automàtica del procediment, sense necessitat de cap tràmit d'audiència previ",
+        "Adjudicar-li directament el contracte, ja que un preu baix beneficia els interessos econòmics públics",
+        "Donar audiència al licitador perquè justifiqui el preu i, si no ho fa satisfactòriament, rebutjar l'oferta",
+        "Ignorar aquesta oferta i continuar valorant la resta de proposicions com si aquella no s'hagués presentat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: davant una oferta anormalment baixa (art. 149), l'òrgan ha de requerir el licitador perquè justifiqui el preu; si no ho justifica o s'aprecia incompliment d'obligacions socials o ambientals, l'oferta es rebutja. No es pot excloure sense audiència prèvia.",
+      "source": "LCSP",
+      "article": "art. 149 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "Un cop classificades les ofertes, quin termini té el millor classificat per aportar la documentació (art. 150)?",
+      "options": [
+        "Tres mesos comptats des de l'obertura de les ofertes, per garantir-li temps suficient de preparació",
+        "Vint-i-quatre hores des de la notificació de la seva classificació com a millor oferta del procediment",
+        "Un any des de l'adjudicació provisional del contracte, prorrogable si concorren causes justificades",
+        "Deu dies hàbils des de la tramesa del requeriment per aportar la documentació justificativa exigida"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 150 preveu que, classificades les ofertes per ordre decreixent, es requereix el millor classificat perquè, en deu dies hàbils, aporti la documentació justificativa. Si no ho fa, s'entén que retira l'oferta i es requereix el següent.",
+      "source": "LCSP",
+      "article": "art. 150 LCSP"
+    },
+    {
+      "theme": 21,
+      "block": 5,
+      "q": "En els contractes SARA, quan es pot formalitzar el contracte després de notificar l'adjudicació (art. 153)?",
+      "options": [
+        "Un cop transcorreguts quinze dies hàbils des de la tramesa de la notificació, per permetre el recurs especial",
+        "De manera immediata, el mateix dia en què es notifica l'adjudicació als licitadors que han participat",
+        "Al cap d'un any comptat des de la notificació de l'adjudicació a l'empresa que ha resultat adjudicatària",
+        "Sense necessitat de respectar cap termini ni de formalitzar el contracte en cap document administratiu"
+      ],
+      "correct": 0,
+      "explain": "Correcta: en els contractes susceptibles de recurs especial (SARA), la formalització no es pot produir abans que transcorrin quinze dies hàbils des de la tramesa de la notificació de l'adjudicació, termini durant el qual es pot interposar el recurs especial, amb efectes suspensius.",
+      "source": "LCSP",
+      "article": "art. 153 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "Sota quin principi s'executa el contracte administratiu segons l'art. 197 de la LCSP?",
+      "options": [
+        "A risc exclusiu de l'Administració contractant, que respon de qualsevol contratemps que sorgeixi",
+        "A risc i ventura del contractista, que assumeix el resultat econòmic de l'execució del contracte",
+        "Sense cap risc per a cap de les dues parts, ja que tots els imprevistos es reparteixen per igual",
+        "A risc compartit al cinquanta per cent entre l'Administració i el contractista en tots els casos"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 197 estableix que l'execució es fa a risc i ventura del contractista: aquest assumeix el resultat econòmic de l'execució, tret dels supòsits de força major en el contracte d'obres (art. 239) i dels casos d'equilibri econòmic en les concessions.",
+      "source": "LCSP",
+      "article": "art. 197 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "Què pot fer l'Administració si el contractista incorre en demora en l'execució (art. 193)?",
+      "options": [
+        "Únicament esperar de manera indefinida que el contractista compleixi, sense adoptar cap mesura al respecte",
+        "Pagar una indemnització al contractista per compensar-lo de les dificultats que hagi tingut en l'execució",
+        "Optar entre resoldre el contracte o imposar penalitats per demora, sense necessitat d'intimació prèvia",
+        "Prorrogar automàticament el termini d'execució sense cap conseqüència ni penalització per al contractista"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'art. 193 permet a l'Administració, quan el contractista incorre en mora, optar entre la resolució del contracte o la imposició de penalitats per demora, proporcionals al preu. Quan les penalitats arriben a un cert percentatge, pot resoldre o acordar la continuïtat amb noves penalitats.",
+      "source": "LCSP",
+      "article": "art. 193 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "Què estableix l'art. 202 de la LCSP sobre les condicions especials d'execució?",
+      "options": [
+        "Que les condicions especials d'execució estan prohibides en tot cas per no restringir la concurrència",
+        "Que aquestes condicions són sempre facultatives i que l'òrgan no està mai obligat a establir-ne cap",
+        "Que només es poden imposar condicions especials d'execució en els contractes menors de poc import",
+        "L'òrgan ha d'establir almenys una condició especial d'execució de tipus social, ètic, mediambiental o d'innovació"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 202 obliga a establir en el plec almenys una condició especial d'execució de caràcter social, ètic, mediambiental o d'innovació. El seu incompliment pot ser causa de penalitat o, si es configura com a essencial, de resolució del contracte.",
+      "source": "LCSP",
+      "article": "art. 202 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "Quina és una prerrogativa de l'Administració en els contractes administratius (art. 190)?",
+      "options": [
+        "Modificar el contracte per raons d'interès públic (ius variandi), dins els límits que fixa la llei",
+        "Incomplir lliurement les seves obligacions de pagament al contractista sense cap conseqüència jurídica",
+        "Renunciar a qualsevol potestat de control i de direcció sobre l'execució del contracte adjudicat",
+        "Cedir el contracte a un tercer sense el consentiment del contractista ni cap altra formalitat prèvia"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 190 reconeix a l'Administració les prerrogatives d'interpretar el contracte, modificar-lo per interès públic (ius variandi), resoldre'l, declarar-ne la nul·litat i acordar-ne la suspensió i inspecció. Són potestats exorbitants en defensa de l'interès públic.",
+      "source": "LCSP",
+      "article": "art. 190 LCSP"
+    },
+    {
+      "theme": 22,
+      "block": 5,
+      "q": "Quan cal el dictamen del Consell d'Estat o òrgan consultiu en l'exercici de les prerrogatives (art. 191)?",
+      "options": [
+        "En cap cas, ja que l'exercici de les prerrogatives no requereix mai cap informe ni dictamen extern",
+        "En els casos d'oposició del contractista a la resolució i en les modificacions superiors al 20% del preu",
+        "Sempre i en tot cas, per a qualsevol acte de tràmit que es dicti durant l'execució del contracte",
+        "Únicament quan ho sol·liciti expressament i per escrit el contractista afectat per la decisió"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 191 exigeix, en l'exercici de les prerrogatives, l'audiència del contractista i l'informe del servei jurídic, i el dictamen del Consell d'Estat o òrgan consultiu equivalent en supòsits com la resolució amb oposició del contractista o les modificacions superiors al 20% del preu.",
+      "source": "LCSP",
+      "article": "art. 191 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "Quin requisit s'exigeix, com a regla, per cedir un contracte (art. 214)?",
+      "options": [
+        "Que el cedent encara no hagi iniciat l'execució del contracte, per no traslladar cap càrrega al cessionari",
+        "Cap requisit especial, ja que la cessió del contracte és sempre lliure per al contractista adjudicatari",
+        "Que el cedent hagi executat almenys un 20% de l'import, amb autorització prèvia de l'òrgan de contractació",
+        "Que el cessionari que se subroga en el contracte sigui necessàriament una altra administració pública"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la cessió (art. 214) exigeix autorització prèvia de l'òrgan, que el cedent hagi executat almenys un 20% de l'import (o explotat una cinquena part en concessions), que el cessionari tingui solvència i la formalització en escriptura pública. El 20% no s'exigeix en cas d'insolvència.",
+      "source": "LCSP",
+      "article": "art. 214 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "Qui respon davant l'Administració de les prestacions subcontractades (art. 215)?",
+      "options": [
+        "El subcontractista de manera directa, ja que és qui executa materialment la part subcontractada de l'obra",
+        "Ningú, perquè la subcontractació de part de les prestacions extingeix la responsabilitat pel que fa a aquestes",
+        "L'òrgan de contractació que va autoritzar prèviament i de manera expressa la subcontractació al tercer",
+        "El contractista principal, que continua sent l'únic responsable de l'execució davant l'Administració"
+      ],
+      "correct": 3,
+      "explain": "Correcta: encara que es permeti la subcontractació (art. 215), el contractista principal continua sent l'únic responsable de l'execució davant l'Administració; la relació de l'Administració és amb ell, no amb el subcontractista. Cal comunicar prèviament la subcontractació.",
+      "source": "LCSP",
+      "article": "art. 215 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "Té el subcontractista acció directa contra l'Administració per cobrar (art. 216)?",
+      "options": [
+        "No: la relació del subcontractista és amb el contractista principal, no directament amb l'Administració",
+        "Sí, sempre pot reclamar directament a l'Administració l'import dels treballs que hagi executat i no cobrat",
+        "Sí, però únicament en els contractes d'obres i no en els de subministrament ni en els de serveis",
+        "Sí, mitjançant la via de constrenyiment administratiu adreçada contra el patrimoni de l'ens contractant"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el subcontractista no té acció directa contra l'Administració; el contractista principal és qui li ha de pagar dins els terminis de la normativa de morositat (Llei 3/2004). L'Administració pot comprovar el compliment d'aquests pagaments, però no substitueix la relació principal.",
+      "source": "LCSP",
+      "article": "art. 216 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "Es pot subcontractar qualsevol part del contracte?",
+      "options": [
+        "Sí, sempre es pot subcontractar la totalitat del contracte sense cap límit ni comunicació prèvia a l'òrgan",
+        "No: els plecs poden prohibir-ho o reservar les tasques crítiques perquè les executi el contractista principal",
+        "No, ja que la subcontractació està absolutament prohibida en tots els contractes del sector públic",
+        "Sí, però únicament amb l'autorització prèvia d'un jutjat de la jurisdicció contenciosa administrativa"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la subcontractació es permet amb caràcter general, però els plecs poden fixar-hi límits (percentatge màxim) o reservar les tasques crítiques perquè les executi directament el contractista principal. Cal, a més, comunicar-la prèviament per escrit a l'Administració.",
+      "source": "LCSP",
+      "article": "art. 215 LCSP"
+    },
+    {
+      "theme": 23,
+      "block": 5,
+      "q": "Què comporta la cessió d'un contracte per al cessionari?",
+      "options": [
+        "Que només assumeix els drets del contracte, però queda alliberat de complir les obligacions del cedent",
+        "Que pot renegociar lliurement totes les condicions del contracte cedit amb l'òrgan de contractació",
+        "Que se subroga en tots els drets i les obligacions del cedent i queda vinculat pel contracte com el titular",
+        "Que queda exempt de constituir i mantenir les garanties que exigia el contracte al cedent originari"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la cessió transmet la posició contractual: el cessionari se subroga en tots els drets i obligacions del cedent (art. 214) i queda vinculat pel contracte en els mateixos termes. Per això s'exigeix que tingui la capacitat i la solvència requerides.",
+      "source": "LCSP",
+      "article": "art. 214 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Quan s'entén complert un contracte (art. 210)?",
+      "options": [
+        "Quan ha transcorregut el termini d'execució previst, encara que no s'hagi executat efectivament la prestació",
+        "Quan el mateix contractista ho declara de manera unilateral en finalitzar els treballs contractats",
+        "Quan l'Administració paga la primera de les certificacions o factures que expedeix el contractista",
+        "Quan el contractista ha realitzat la totalitat de la prestació a satisfacció de l'Administració, amb recepció formal"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 210 estableix que el contracte s'entén complert quan el contractista ha realitzat la totalitat de la prestació a satisfacció de l'Administració, cosa que requereix un acte formal i positiu de recepció dins el mes següent al lliurament. Després comença el termini de garantia.",
+      "source": "LCSP",
+      "article": "art. 210 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Quin és el límit de les modificacions no previstes al plec (art. 205)?",
+      "options": [
+        "Fins al 50% del preu inicial del contracte per a cada supòsit, i només en circumstàncies taxades i sobrevingudes",
+        "Fins al 100% del preu inicial del contracte, sempre que ho justifiqui l'interès públic i ho aprovi l'òrgan",
+        "No hi ha cap límit legal per a les modificacions no previstes, que es poden acordar segons la necessitat",
+        "Fins a un màxim del 5% del preu inicial del contracte, per no alterar substancialment l'objecte pactat"
+      ],
+      "correct": 0,
+      "explain": "Correcta: les modificacions no previstes (art. 205) només s'admeten en circumstàncies sobrevingudes i taxades, amb el límit del 50% del preu inicial per cada supòsit. Les previstes al plec (art. 204) tenen el límit del 20%.",
+      "source": "LCSP",
+      "article": "art. 205 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Quina és una causa de resolució del contracte (art. 211)?",
+      "options": [
+        "El compliment normal i puntual de totes les prestacions previstes en el contracte per part del contractista",
+        "L'incompliment de les obligacions contractuals essencials per part del contractista adjudicatari",
+        "El pagament dins de termini de totes les factures i certificacions expedides durant l'execució del contracte",
+        "La bona execució de les prestacions contractades a plena satisfacció de l'Administració contractant"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 211 enumera com a causes de resolució la mort o incapacitat del contractista, el concurs o insolvència, el mutu acord, la demora en el compliment, l'incompliment d'obligacions essencials, la impossibilitat d'executar per modificacions i el desistiment de l'Administració.",
+      "source": "LCSP",
+      "article": "art. 211 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Quins efectes té la resolució del contracte per causa imputable al contractista (art. 213)?",
+      "options": [
+        "La indemnització al contractista pels perjudicis que la resolució del contracte li hagi pogut ocasionar",
+        "La devolució íntegra i immediata de la garantia definitiva que el contractista havia constituït en el seu dia",
+        "La confiscació de la garantia i la indemnització a l'Administració pels danys que excedeixin l'import de la garantia",
+        "Cap efecte de tipus econòmic, ja que la resolució simplement posa fi al contracte sense cap conseqüència"
+      ],
+      "correct": 2,
+      "explain": "Correcta: quan la resolució és per causa imputable al contractista, aquest perd la garantia (confiscació) i ha d'indemnitzar l'Administració pels danys que excedeixin l'import de la garantia (art. 213). Si la resolució és per causa de l'Administració, aquesta indemnitza el contractista.",
+      "source": "LCSP",
+      "article": "art. 213 LCSP"
+    },
+    {
+      "theme": 24,
+      "block": 5,
+      "q": "Què passa amb les modificacions que superen els límits legals o alteren substancialment el contracte?",
+      "options": [
+        "Es poden aprovar igualment sense cap conseqüència, sempre que ho justifiqui l'interès públic concurrent",
+        "Les decideix lliurement el contractista, atès que és qui coneix millor les necessitats de l'execució",
+        "No requereixen cap tipus de publicitat ni de tramitació, ja que es tracta de simples ajustos tècnics",
+        "Exigeixen una nova licitació, perquè es considera que es tracta d'un contracte diferent de l'inicial"
+      ],
+      "correct": 3,
+      "explain": "Correcta: quan la modificació supera els límits legals o altera substancialment la naturalesa o l'equilibri econòmic del contracte, no es pot tramitar com a modificació, sinó que cal una nova licitació. Les modificacions vàlides s'han de formalitzar i publicar al perfil del contractant.",
+      "source": "LCSP",
+      "article": "arts. 203-207 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "Què és el projecte en el contracte d'obres i què ha de contenir (art. 233)?",
+      "options": [
+        "El document tècnic que defineix l'obra: memòria, plànols, plec de prescripcions tècniques, pressupost i estudi de seguretat",
+        "Un simple pressupost amb l'import total de l'obra, sense necessitat de cap altra documentació tècnica",
+        "Únicament els plànols que representen gràficament l'obra que s'ha d'executar en el terreny disponible",
+        "La factura final que emet el contractista un cop ha acabat completament l'execució de tota l'obra"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 233 exigeix que el projecte contingui la memòria, els plànols, el plec de prescripcions tècniques, el pressupost (amidaments i preus), l'estudi de seguretat i salut i, si escau, l'estudi geotècnic. Els projectes de pressupost elevat se sotmeten a supervisió (art. 235).",
+      "source": "LCSP",
+      "article": "art. 233 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "Què és la comprovació del replanteig en el contracte d'obres (art. 237)?",
+      "options": [
+        "El pagament de la primera de les certificacions mensuals que expedeix la direcció facultativa de l'obra",
+        "L'acte, dins el mes següent a la formalització, que comprova la realitat geomètrica de l'obra i n'inicia el termini",
+        "La recepció final de l'obra un cop el contractista ha acabat tots els treballs que tenia contractats",
+        "La redacció del projecte modificat quan durant l'execució sorgeix la necessitat d'introduir-hi canvis"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la comprovació del replanteig (art. 237) es fa dins el mes següent a la formalització i verifica la realitat geomètrica de l'obra i la disponibilitat dels terrenys; se n'aixeca acta i, si és favorable, marca l'inici del termini d'execució de l'obra.",
+      "source": "LCSP",
+      "article": "art. 237 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "Què són les certificacions d'obra (art. 240)?",
+      "options": [
+        "El document final de recepció de l'obra que el contractista ha executat de manera completa i satisfactòria",
+        "Les factures que els subcontractistes emeten al contractista principal per les parts d'obra que executen",
+        "Documents mensuals que acrediten l'obra executada i donen dret a l'abonament a compte, sense implicar recepció",
+        "El projecte tècnic de l'obra amb la memòria, els plànols i el pressupost que serveix de base a la licitació"
+      ],
+      "correct": 2,
+      "explain": "Correcta: les certificacions d'obra són documents que, com a regla mensual, acrediten l'obra executada i donen dret a l'abonament a compte; tenen caràcter provisional i a bon compte, sense implicar la recepció ni l'aprovació definitiva de les unitats certificades.",
+      "source": "LCSP",
+      "article": "art. 240 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "Quin és el termini de garantia mínim en el contracte d'obres i què passa un cop transcorregut (art. 243)?",
+      "options": [
+        "Cinc anys de garantia mínima, sense necessitat de fer cap liquidació posterior un cop transcorregut el termini",
+        "No hi ha cap termini de garantia en el contracte d'obres, ja que la recepció posa fi a tota responsabilitat",
+        "Sis mesos de garantia, amb devolució immediata i automàtica de la garantia el mateix dia de la recepció",
+        "Un any com a mínim; transcorregut sense objeccions, es fa l'amidament general i la liquidació i s'allibera la garantia"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 243 fixa un termini de garantia mínim d'un any (llevat que el plec en prevegi un altre). Durant aquest període el contractista respon dels vicis; un cop transcorregut sense objeccions, es practiquen l'amidament general i la liquidació i s'allibera la garantia.",
+      "source": "LCSP",
+      "article": "art. 243 LCSP"
+    },
+    {
+      "theme": 25,
+      "block": 5,
+      "q": "En quins supòsits té dret el contractista d'obres a indemnització per força major (art. 239)?",
+      "options": [
+        "En casos taxats com incendis per electricitat atmosfèrica, inundacions, terratrèmols o actes de terrorisme",
+        "En qualsevol contratemps que sorgeixi durant l'execució de l'obra, per petit i previsible que sigui",
+        "Mai, perquè l'execució de l'obra es fa a risc i ventura del contractista sense cap tipus d'excepció",
+        "Únicament quan les dues parts ho hagin pactat expressament i per escrit en el plec del contracte d'obres"
+      ],
+      "correct": 0,
+      "explain": "Correcta: tot i que l'execució es fa a risc i ventura, l'art. 239 reconeix, en el contracte d'obres, el dret a indemnització en casos taxats de força major: incendis per electricitat atmosfèrica, fenòmens naturals d'efectes catastròfics i destrosses per actes de terrorisme o guerra.",
+      "source": "LCSP",
+      "article": "art. 239 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "Quin és l'element definidor del contracte de concessió d'obres (art. 14)?",
+      "options": [
+        "El pagament d'un preu fix i cert per part de l'Administració, sense que el concessionari assumeixi cap risc",
+        "La transferència al concessionari del risc operacional derivat de l'explotació de l'obra construïda",
+        "L'absència de qualsevol explotació de l'obra, que reverteix a l'Administració immediatament un cop acabada",
+        "L'adquisició per part del concessionari de la titularitat privada i definitiva de l'obra que ha construït"
+      ],
+      "correct": 1,
+      "explain": "Correcta: en la concessió d'obres, el concessionari construeix i explota (o només explota) l'obra i assumeix el risc operacional; la contraprestació és el dret a explotar-la (tarifes), sol o acompanyat d'un preu. Aquesta transferència del risc la distingeix del contracte d'obres.",
+      "source": "LCSP",
+      "article": "art. 14 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "Quin document és obligatori i previ per a la concessió d'obres (art. 247)?",
+      "options": [
+        "La factura final de l'obra que expedeix el concessionari un cop ha acabat completament els treballs previstos",
+        "El certificat d'última ocupació de l'obra que emet l'ajuntament del terme on s'ubica la construcció",
+        "L'estudi de viabilitat, que analitza la viabilitat econòmica, tècnica, jurídica i ambiental de la concessió",
+        "El projecte de reparcel·lació que redistribueix les finques i les càrregues entre els propietaris de l'àmbit"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'art. 247 exigeix, amb caràcter previ, un estudi de viabilitat que analitzi la viabilitat econòmica-financera, tècnica, jurídica i ambiental de la concessió. És un tràmit essencial atès el llarg abast temporal i el volum d'inversió de la concessió.",
+      "source": "LCSP",
+      "article": "art. 247 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "En quins supòsits es restableix l'equilibri econòmic de la concessió (art. 270)?",
+      "options": [
+        "En qualsevol cas en què el concessionari registri pèrdues econòmiques durant l'explotació ordinària de l'obra",
+        "Mai, ja que el risc de l'explotació és sempre i íntegrament a càrrec del concessionari sense excepció",
+        "Només quan ho decideixi de manera unilateral el mateix concessionari en funció dels seus interessos",
+        "Per ius variandi, per factum principis i per força major o riscos imprevisibles, segons els termes de la concessió"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 270 preveu el restabliment de l'equilibri econòmic en supòsits taxats: quan l'Administració modifica la concessió (ius variandi), quan actuacions de l'Administració n'alteren l'economia (factum principis) i en casos de força major o riscos imprevisibles.",
+      "source": "LCSP",
+      "article": "art. 270 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "Quina és la durada màxima de la concessió d'obres (art. 29)?",
+      "options": [
+        "Quaranta anys, fixats en funció del temps necessari per recuperar les inversions i obtenir un rendiment raonable",
+        "Cinc anys de durada màxima, prorrogables per un únic període addicional de la mateixa durada com a màxim",
+        "Deu anys com a màxim, sense possibilitat de pròrroga per garantir la rotació dels concessionaris del servei",
+        "Durada indefinida, mentre el concessionari mantingui l'obra en condicions adequades de conservació i ús"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 29 fixa en quaranta anys la durada màxima de les concessions d'obres (i de les que combinen obres i explotació de serveis). La durada s'ha de fixar en funció del temps necessari per recuperar les inversions i obtenir un rendiment raonable.",
+      "source": "LCSP",
+      "article": "art. 29 LCSP"
+    },
+    {
+      "theme": 26,
+      "block": 5,
+      "q": "Què passa amb l'obra quan s'extingeix la concessió d'obres?",
+      "options": [
+        "Passa a ser propietat privada i definitiva del concessionari, que l'ha construïda amb els seus recursos",
+        "Reverteix a l'Administració en l'estat de conservació que s'hagi pactat en el contracte de concessió",
+        "S'ha d'enderrocar de manera obligatòria, ja que la concessió només autoritzava un ús temporal de l'obra",
+        "Queda abandonada i sense titular fins que una nova licitació n'adjudiqui l'explotació a un altre concessionari"
+      ],
+      "correct": 1,
+      "explain": "Correcta: en extingir-se la concessió (per compliment del termini, resolució, rescat, etc.), l'obra reverteix a l'Administració en les condicions de conservació establertes. La reversió és una nota característica de la concessió, coherent amb la titularitat pública de l'obra.",
+      "source": "LCSP",
+      "article": "arts. 279-282 LCSP"
+    },
+    {
+      "theme": 27,
+      "block": 5,
+      "q": "Què és el contracte de subministrament (art. 16)?",
+      "options": [
+        "El que té per objecte l'execució d'una obra o d'algun dels treballs enumerats a l'annex de la llei",
+        "El que té per objecte la gestió d'un servei públic amb transferència del risc operacional a l'empresari",
+        "El que té per objecte l'adquisició de productes o béns mobles (compra, arrendament o fabricació)",
+        "El que té per objecte la redacció d'un projecte tècnic o la prestació d'una activitat intel·lectual"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'art. 16 defineix el subministrament com l'adquisició de productes o béns mobles, i inclou la compra, l'arrendament (amb o sense opció de compra) i la fabricació. No es consideren subministrament els programes d'ordinador desenvolupats a mida (que són serveis).",
+      "source": "LCSP",
+      "article": "art. 16 LCSP"
+    },
+    {
+      "theme": 27,
+      "block": 5,
+      "q": "Quina és la durada màxima general del contracte de subministrament (art. 29)?",
+      "options": [
+        "Quaranta anys de durada màxima, com correspon als contractes de gran volum d'inversió i llarga amortització",
+        "Un any de durada màxima improrrogable, per garantir la renovació periòdica del subministrament contractat",
+        "Vint-i-cinc anys de durada màxima, en atenció al temps necessari per recuperar les inversions realitzades",
+        "Cinc anys incloses les pròrrogues, tret d'excepcions justificades per la naturalesa de la prestació"
+      ],
+      "correct": 3,
+      "explain": "Correcta: com a regla general, els contractes de subministrament i de serveis tenen una durada màxima de cinc anys incloses les pròrrogues (art. 29), tret d'excepcions justificades. L'arrendament pot tenir un règim de durada diferent segons les circumstàncies.",
+      "source": "LCSP",
+      "article": "art. 29 LCSP"
+    },
+    {
+      "theme": 27,
+      "block": 5,
+      "q": "Quina tècnica de racionalització s'utilitza sovint per als subministraments recurrents?",
+      "options": [
+        "Els acords marc i els sistemes dinàmics d'adquisició, així com la contractació centralitzada per centrals de compres",
+        "El contracte menor sense cap límit d'import, per agilitar l'adquisició dels béns necessaris de manera recurrent",
+        "L'adjudicació directa sense concurrència ni publicitat a un proveïdor de confiança de l'entitat contractant",
+        "La subhasta inversa il·limitada en què els licitadors van rebaixant el preu fins que en queda un de sol"
+      ],
+      "correct": 0,
+      "explain": "Correcta: per a subministraments recurrents s'utilitzen tècniques de racionalització com els acords marc, els sistemes dinàmics d'adquisició i la contractació centralitzada (centrals de compres), que permeten agilitzar i optimitzar les adquisicions repetitives amb garanties de concurrència.",
+      "source": "LCSP",
+      "article": "arts. 219-228 LCSP"
+    },
+    {
+      "theme": 27,
+      "block": 5,
+      "q": "Es consideren subministrament els programes d'ordinador desenvolupats a mida?",
+      "options": [
+        "Sí, es consideren sempre subministrament perquè tenen per objecte l'adquisició d'un producte informàtic",
+        "No: es consideren contractes de serveis, ja que impliquen el desenvolupament d'una activitat intel·lectual",
+        "Sí, però únicament quan el programari es lliura instal·lat en equips físics adquirits per la mateixa entitat",
+        "No es poden contractar de cap manera per les administracions, que han de fer servir programari lliure existent"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 16 exclou expressament de la noció de subministrament els programes d'ordinador desenvolupats a mida, que es qualifiquen com a contractes de serveis. En canvi, l'adquisició de programari estàndard sí que pot ser subministrament.",
+      "source": "LCSP",
+      "article": "art. 16 LCSP"
+    },
+    {
+      "theme": 27,
+      "block": 5,
+      "q": "Com es tanca l'execució del contracte de subministrament?",
+      "options": [
+        "Amb la simple emissió de la primera factura per part del contractista, sense necessitat de cap comprovació",
+        "Sense cap acte formal de recepció, ja que els béns s'entenen acceptats pel sol fet de ser lliurats a l'entitat",
+        "Amb el lliurament dels béns i la seva recepció de conformitat, i el contractista respon dels vicis en la garantia",
+        "Amb la construcció d'una obra que doni suport físic al subministrament dels béns objecte del contracte"
+      ],
+      "correct": 2,
+      "explain": "Correcta: el contractista ha de lliurar els béns en el temps i lloc pactats; l'Administració els rep i en comprova la conformitat (arts. 298-300). Durant el termini de garantia, el contractista respon dels vicis o defectes dels béns subministrats.",
+      "source": "LCSP",
+      "article": "arts. 298-300 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Què és el contracte de serveis (art. 17)?",
+      "options": [
+        "El que té per objecte l'adquisició de productes o de béns mobles per part de l'entitat contractant",
+        "El que té per objecte l'execució d'una obra pública o d'algun dels treballs enumerats a l'annex de la llei",
+        "El que transfereix el risc operacional de la gestió d'un servei públic a l'empresari adjudicatari del contracte",
+        "El que té per objecte prestacions de fer consistents en una activitat o en un resultat diferent d'una obra o subministrament"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 17 defineix el contracte de serveis com el que té per objecte prestacions de fer (una activitat o un resultat) diferents d'una obra o subministrament. No pot implicar l'exercici de l'autoritat inherent als poders públics. Si es transfereix el risc, seria una concessió de serveis.",
+      "source": "LCSP",
+      "article": "art. 17 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Quina és la durada màxima general del contracte de serveis (art. 29)?",
+      "options": [
+        "Cinc anys incloses les pròrrogues, tret d'excepcions justificades per les característiques de la prestació",
+        "Quaranta anys de durada màxima, en atenció al gran volum d'inversió que solen requerir aquests contractes",
+        "Vint-i-cinc anys de durada màxima, com correspon al temps necessari per amortitzar les inversions inicials",
+        "Durada indefinida mentre l'Administració necessiti la prestació del servei objecte del contracte adjudicat"
+      ],
+      "correct": 0,
+      "explain": "Correcta: com a regla general, el contracte de serveis té una durada màxima de cinc anys incloses les pròrrogues (art. 29). Es poden establir durades superiors quan ho justifiquin les característiques de la prestació o l'amortització d'inversions.",
+      "source": "LCSP",
+      "article": "art. 29 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Quina especialitat té el contracte d'elaboració de projectes d'obres (art. 314)?",
+      "options": [
+        "El contractista redactor no té cap responsabilitat pels defectes o errors que pugui contenir el projecte",
+        "El contractista respon dels errors del projecte, amb indemnitzacions escalonades segons la desviació del pressupost",
+        "Es pot adjudicar sempre com a contracte menor, amb independència del pressupost de l'obra projectada",
+        "No es pot adjudicar mai mitjançant un concurs de projectes amb la intervenció d'un jurat especialitzat"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 314 estableix que el redactor respon dels danys derivats de defectes o errors del projecte; si el pressupost d'execució es desvia per aquests errors per sobre de determinats percentatges (20%, 30%, 40%), s'apliquen indemnitzacions escalonades. Es pot adjudicar per concurs de projectes.",
+      "source": "LCSP",
+      "article": "art. 314 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Pot el contracte de serveis implicar l'exercici de potestats públiques?",
+      "options": [
+        "Sí, sempre que l'Administració ho pacti expressament amb el contractista en el plec del contracte de serveis",
+        "Sí, en tots els casos, ja que el contractista actua per compte i en nom de l'Administració contractant",
+        "No: el contracte de serveis no pot tenir per objecte prestacions que impliquin l'exercici de l'autoritat pública",
+        "Sí, però únicament quan el contractista adjudicatari sigui una persona amb la condició de funcionari públic"
+      ],
+      "correct": 2,
+      "explain": "Correcta: el contracte de serveis no pot tenir per objecte prestacions que impliquin l'exercici de l'autoritat inherent als poders públics, que resten reservades als funcionaris. El contractista respon de la qualitat tècnica dels treballs i de les seves conseqüències.",
+      "source": "LCSP",
+      "article": "art. 17 LCSP"
+    },
+    {
+      "theme": 28,
+      "block": 5,
+      "q": "Quina és una causa de resolució específica del contracte de serveis (art. 313)?",
+      "options": [
+        "El compliment puntual i satisfactori de totes les prestacions que integren l'objecte del contracte de serveis",
+        "El pagament anticipat i íntegre de totes les factures abans de l'inici de la prestació dels serveis contractats",
+        "La bona qualitat tècnica dels treballs realitzats pel contractista durant l'execució del contracte de serveis",
+        "El desistiment o la suspensió del contracte per un termini superior al previst, a més de les causes generals"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 313 preveu, a més de les causes generals de resolució, causes específiques del contracte de serveis com el desistiment abans d'iniciar la prestació o la suspensió per un termini superior al previst per causa imputable a l'Administració.",
+      "source": "LCSP",
+      "article": "art. 313 LCSP"
+    },
+    {
+      "theme": 29,
+      "block": 5,
+      "q": "Què distingeix la concessió de serveis del contracte de serveis (art. 15)?",
+      "options": [
+        "En la concessió es transfereix el risc operacional al concessionari, que es retribueix amb les tarifes de l'explotació",
+        "No hi ha cap diferència rellevant entre tots dos contractes, que es regeixen exactament pel mateix règim jurídic",
+        "En la concessió de serveis l'Administració paga sempre un preu fix i cert a l'empresari per la prestació del servei",
+        "En el contracte de serveis es transfereix el risc operacional a l'empresari, cosa que no passa en la concessió"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la clau és el risc operacional. En la concessió de serveis (art. 15), el concessionari gestiona el servei assumint-ne el risc i es retribueix amb les tarifes; en el contracte de serveis, l'Administració paga el preu i no hi ha transferència del risc operacional.",
+      "source": "LCSP",
+      "article": "art. 15 LCSP"
+    },
+    {
+      "theme": 29,
+      "block": 5,
+      "q": "Quina és la durada màxima de la concessió de serveis que no inclou obres (art. 29)?",
+      "options": [
+        "Cinc anys de durada màxima, incloses les pròrrogues, com en el contracte ordinari de serveis a preu cert",
+        "Vint-i-cinc anys, sense superar el temps raonable per recuperar les inversions realitzades pel concessionari",
+        "Quaranta anys en tot cas, amb independència que la concessió inclogui o no l'execució d'obres complementàries",
+        "Durada indefinida mentre el concessionari presti el servei amb continuïtat, regularitat i en condicions d'igualtat"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 29 fixa en vint-i-cinc anys la durada màxima de les concessions de serveis que no comprenen l'execució d'obres (si inclouen obres, el màxim és de quaranta anys), sense superar el temps raonable per recuperar les inversions.",
+      "source": "LCSP",
+      "article": "art. 29 LCSP"
+    },
+    {
+      "theme": 29,
+      "block": 5,
+      "q": "La concessió de serveis va substituir quina figura de la legislació anterior?",
+      "options": [
+        "El contracte d'obres, que abans incloïa també la gestió i l'explotació posterior de la infraestructura construïda",
+        "El contracte de subministrament, que abans comprenia tant l'adquisició de béns com la prestació de serveis",
+        "El contracte de gestió de serveis públics, que la LCSP de 2017 va reconduir cap a la concessió de serveis",
+        "El conveni de col·laboració interadministrativa, que abans s'utilitzava per gestionar serveis d'interès comú"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la LCSP de 2017 va reconduir l'antic contracte de gestió de serveis públics cap a la concessió de serveis, adaptant-se a les directives europees i posant l'accent en la transferència del risc operacional com a element distintiu.",
+      "source": "LCSP",
+      "article": "art. 15 LCSP"
+    },
+    {
+      "theme": 29,
+      "block": 5,
+      "q": "Es manté l'equilibri econòmic en la concessió de serveis?",
+      "options": [
+        "No: el concessionari assumeix sempre i íntegrament tot el risc de l'explotació sense cap compensació possible",
+        "Sí, però únicament quan ho sol·liciti expressament l'Administració concedent en funció del seu interès",
+        "No existeix el concepte d'equilibri econòmic en les concessions, que es regeixen només pel risc i ventura",
+        "Sí: es restableix en supòsits taxats (ius variandi, factum principis, força major), igual que en la concessió d'obres"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 290 preveu el manteniment de l'equilibri econòmic de la concessió de serveis en els mateixos supòsits que la d'obres: modificacions imposades per l'Administració (ius variandi), factum principis i força major o riscos imprevisibles.",
+      "source": "LCSP",
+      "article": "art. 290 LCSP"
+    },
+    {
+      "theme": 29,
+      "block": 5,
+      "q": "Quines actuacions preparatòries requereix la concessió d'un servei públic?",
+      "options": [
+        "L'establiment previ del servei i la memòria justificativa del règim, i estudi de viabilitat si comporta obres",
+        "Cap actuació preparatòria, ja que n'hi ha prou amb l'acord d'adjudicació a favor del concessionari escollit",
+        "Únicament l'expedició de la factura del primer mes d'explotació del servei objecte de la concessió",
+        "El projecte de reparcel·lació de l'àmbit i el projecte d'urbanització de les obres que s'hi han d'executar"
+      ],
+      "correct": 0,
+      "explain": "Correcta: quan es tracta d'un servei públic, cal l'establiment previ del servei (assumpció de la titularitat i règim jurídic) i la memòria justificativa; si la concessió comporta l'execució d'obres, també cal un estudi de viabilitat. Aquestes actuacions fonamenten la concessió.",
+      "source": "LCSP",
+      "article": "arts. 284-285 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Quins són els llindars del contracte menor (art. 118)?",
+      "options": [
+        "Inferior a 60.000 € en qualsevol tipus de contracte, ja siguin obres, subministraments o serveis, IVA inclòs",
+        "Inferior a 40.000 € en obres i inferior a 15.000 € en subministraments i serveis, sempre amb l'IVA exclòs",
+        "Inferior a 15.000 € en les obres i inferior a 40.000 € en els subministraments i en els serveis contractats",
+        "No hi ha cap llindar econòmic per als contractes menors, que es defineixen només per la seva durada màxima"
+      ],
+      "correct": 1,
+      "explain": "Correcta: el contracte menor (art. 118) és el de valor estimat inferior a 40.000 € en obres i inferior a 15.000 € en subministraments i serveis, IVA exclòs. És una adjudicació directa simplificada.",
+      "source": "LCSP",
+      "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Quina és la durada màxima del contracte menor?",
+      "options": [
+        "Cinc anys de durada màxima, prorrogables per períodes addicionals sempre que ho justifiqui la necessitat",
+        "Deu anys de durada màxima, com correspon als contractes de tracte successiu i de caràcter recurrent",
+        "No pot tenir una durada superior a un any ni pot ser objecte de pròrroga un cop transcorregut aquest termini",
+        "No té cap límit de durada, de manera que es pot mantenir mentre subsisteixi la necessitat que el va motivar"
+      ],
+      "correct": 2,
+      "explain": "Correcta: el contracte menor no pot tenir una durada superior a un any ni ser objecte de pròrroga (art. 29.8 en relació amb l'art. 118). Aquesta limitació temporal reforça el seu caràcter excepcional i puntual.",
+      "source": "LCSP",
+      "article": "arts. 29 i 118 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Quina documentació essencial exigeix la tramitació del contracte menor?",
+      "options": [
+        "Un projecte tècnic supervisat per una oficina tècnica en tots els casos, sigui quin sigui l'objecte del contracte",
+        "La classificació prèvia del contractista adjudicatari en el grup i la categoria que corresponguin a l'objecte",
+        "La publicació de la licitació al Diari Oficial de la Unió Europea abans de procedir a l'adjudicació directa",
+        "L'aprovació de la despesa, la factura i un informe que justifiqui la necessitat i que no s'altera l'objecte per defugir les regles"
+      ],
+      "correct": 3,
+      "explain": "Correcta: la tramitació del contracte menor exigeix l'aprovació de la despesa, la incorporació de la factura i un informe de l'òrgan que justifiqui la necessitat i que no s'està alterant l'objecte per eludir les regles generals. En obres, també el pressupost i, si escau, el projecte.",
+      "source": "LCSP",
+      "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Quina obligació de publicitat té el contracte menor?",
+      "options": [
+        "La publicació, com a mínim trimestralment, al perfil del contractant, amb l'objecte, la durada i l'adjudicatari",
+        "La publicació diària de tots els contractes menors adjudicats al Diari Oficial de la Unió Europea (DOUE)",
+        "Cap obligació de publicitat, ja que el contracte menor és una adjudicació directa de caràcter reservat",
+        "La publicació íntegra del contracte al Butlletí Oficial de l'Estat abans de la seva formalització definitiva"
+      ],
+      "correct": 0,
+      "explain": "Correcta: els contractes menors s'han de publicar, com a mínim trimestralment, al perfil del contractant, amb indicació de l'objecte, la durada, l'import i el contractista. És una garantia de transparència malgrat l'agilitat del procediment.",
+      "source": "LCSP",
+      "article": "art. 63 LCSP"
+    },
+    {
+      "theme": 30,
+      "block": 5,
+      "q": "Exigeix el contracte menor garantia definitiva i formalització en document contractual?",
+      "options": [
+        "Sí, cal sempre constituir una garantia definitiva i formalitzar el contracte en escriptura pública notarial",
+        "No: no cal garantia definitiva ni document contractual, ja que n'hi ha prou amb l'aprovació de la despesa i la factura",
+        "Sí, s'ha de formalitzar en un document administratiu, tot i que no cal constituir cap garantia definitiva",
+        "Sí, cal constituir una garantia definitiva, encara que no és necessària la formalització en cap document"
+      ],
+      "correct": 1,
+      "explain": "Correcta: pel seu caràcter simplificat, el contracte menor no exigeix garantia definitiva ni la formalització en un document contractual: n'hi ha prou amb l'aprovació de la despesa i la factura. Aquesta simplicitat és la seva raó de ser, dins els llindars i sense fraccionament.",
+      "source": "LCSP",
+      "article": "art. 118 LCSP"
     }
   ]
 }
