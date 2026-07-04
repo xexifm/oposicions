@@ -22,7 +22,7 @@ const MUNIS = {
     id:'cornella', dir:'cornella',
     name:'Cornellà de Llobregat', short:'Cornellà',
     role:'Oposició · temari en preparació',
-    crest:'C', color:'#0069b4', shield:null,  // TODO: escut SVG oficial quan estigui disponible
+    crest:'C', color:'#a61a2f', shield:'assets/icons/cornella-escut.svg',
     web:'https://www.cornella.cat',
   },
 };
