@@ -2760,35 +2760,50 @@ Aquesta distinció és clau en les expropiacions i responsabilitats patrimonials
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Generals i locals**
-  - Generals: estructuren tot el municipi o una part important
-  - Locals: serveixen un sector o àmbit
-- **Qualificació**
-  - Assigna usos i intensitat (sistema o zona)
-  - Compatibilitat entre usos
-- **Estàndards**
-  - Reserves mínimes: zones verdes, equipaments, habitatge protegit
+- **Marc**
+  - TRLUC (DL 1/2010), art. 34 i ss.
+- **Tipus**
+  - Comunicacions, espais lliures, equipaments, serveis tècnics, habitatge dotacional
+- **Generals**
+  - Estructuren tot el municipi (parc urbà, viària bàsica, gran equipament)
+- **Locals**
+  - Serveixen un sector concret (jardí de barri, equipament de barri)
 - **Obtenció**
-  - Cessió obligatòria i gratuïta
-  - Expropiació
-  - Ocupació directa
+  - Cessió gratuïta (urbà no consolidat/urbanitzable) o expropiació (consolidat)
+  - No generen aprofitament privat
 
-Els sistemes urbanístics són els terrenys i les instal·lacions destinats a usos i serveis públics que estructuren el territori (vials, zones verdes, equipaments, infraestructures). El TRLUC en regula les reserves i la distinció entre sistemes generals i locals.
+Els sistemes urbanístics són el conjunt de terrenys, construccions i instal·lacions destinats a usos i serveis públics col·lectius que estructuren el territori. El TRLUC (DL 1/2010) els distingeix en generals i locals segons el seu abast, i en regula la compatibilitat amb els aprofitaments privats.
+
+### Concepte i tipus de sistemes
+Segons l'art. 34 del TRLUC, els sistemes urbanístics comprenen els terrenys reservats per a les xarxes i dotacions públiques. Es classifiquen per l'ús:
+
+*Tipus de sistemes (art. 34 TRLUC)*
+
+| Tipus de sistema | Contingut |
+| --- | --- |
+| Comunicacions | Xarxa viària, ferroviària, portuària, aeroportuària, aparcaments |
+| Espais lliures | Parcs, jardins i zones verdes públiques |
+| Equipaments comunitaris | Docents, sanitaris, assistencials, culturals, esportius, administratius |
+| Serveis tècnics | Abastament d'aigua, sanejament, energia, telecomunicacions, residus |
+| Habitatge dotacional públic | Allotjament de col·lectius amb necessitats específiques |
 
 ### Sistemes generals i locals
-Els sistemes urbanístics es classifiquen, segons el seu abast, en:
+La distinció es basa en l'àmbit al qual serveixen:
 
-- Sistemes generals: els que estructuren l'organització del territori i asseguren la vertebració del conjunt del municipi o d'una part important (grans vials, parcs urbans, equipaments comunitaris, infraestructures de serveis).
-- Sistemes locals: els que serveixen un àmbit o sector concret (vialitat interior, espais lliures i equipaments de proximitat).
+*Generals vs locals*
 
-### Compatibilitat i qualificació
-La qualificació urbanística assigna a cada terreny un ús i una intensitat (sistema o zona), amb independència de la classificació del sòl. Els sistemes poden ser de titularitat pública o, excepcionalment, privada quan la seva naturalesa ho permet. El planejament ha de garantir la compatibilitat entre els usos dels sistemes i els de les zones confrontants.
+|  | Sistemes generals | Sistemes locals |
+| --- | --- | --- |
+| Funció | Estructuren el territori i el desenvolupament del municipi | Serveixen un sector o àmbit concret |
+| Exemple | Gran parc urbà, xarxa viària bàsica, hospital | Jardí de barri, escola bressol de sector |
+| Àmbit | Tot el municipi o supramunicipal | L'àmbit d'actuació o sector |
 
-### Estàndards i reserves mínimes
-El planejament ha de preveure unes reserves mínimes de sòl per a sistemes que garanteixin uns estàndards de qualitat urbana: espais lliures i zones verdes, equipaments públics i, quan escau, sòl per a habitatge de protecció pública. Aquests estàndards asseguren la proporció adequada entre l'edificació i les dotacions.
+### Obtenció del sòl i compatibilitat amb l'aprofitament privat
+El sòl destinat a sistemes és de titularitat pública i, en principi, no genera aprofitament privat. La seva obtenció depèn de la classe de sòl:
 
-### Obtenció del sòl per a sistemes
-El sòl destinat a sistemes de titularitat pública s'obté per diferents vies: la cessió obligatòria i gratuïta en el marc de l'execució del planejament (en sòl subjecte a actuacions de transformació), l'expropiació (especialment per als sistemes generals en sòl no subjecte a cessió) i l'ocupació directa (a canvi de l'aprofitament que correspongui al propietari en un altre àmbit).
+- En sòl urbà no consolidat i urbanitzable: per cessió gratuïta i obligatòria dels propietaris de l'àmbit (sistemes locals i part dels generals).
+- En sòl urbà consolidat o sistemes generals no inclosos en àmbits d'actuació: per expropiació, ocupació directa o permuta.
+- Els terrenys de sistemes poden admetre usos compatibles (per exemple, aparcament sota una zona verda), sense que això generi aprofitament patrimonialitzable pels particulars.
 
 ---
 
@@ -2798,31 +2813,40 @@ El sòl destinat a sistemes de titularitat pública s'obté per diferents vies: 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Marc**
+  - TRLUC; participació de la comunitat en les plusvàlues (art. 47 CE)
 - **Concepte**
-  - Edificabilitat + usos atribuïts pel planejament
-  - Contingut econòmic de la propietat
+  - Edificabilitat (m² sostre) + usos que atorga el planejament
+  - Patrimonialitzable només un cop complerts els deures
 - **Ponderació**
-  - Coeficients homogeneïtzen usos de valor diferent
-  - Aprofitament ponderat en una unitat comuna
-- **Aprofitament mitjà**
-  - Mitjana ponderada de l'àmbit
-  - Fa possible l'equidistribució
-- **Cessió**
-  - El propietari fa seu l'aprofitament menys el % de cessió a l'AP
+  - Coeficients d'usos i de situació homogeneïtzen aprofitaments diferents
+  - Aprofitament ponderat = edificabilitat × coeficients
+- **Del propietari**
+  - El total menys la cessió d'aprofitament a l'Administració (aprofitament públic)
 
-L'aprofitament urbanístic és la capacitat d'edificació i d'ús que el planejament reconeix a un terreny. El TRLUC en regula el concepte i la ponderació, claus per a l'equidistribució de beneficis i càrregues.
+L'aprofitament urbanístic és la capacitat d'edificar i d'usar el sòl per a finalitats privades que atorga el planejament. La seva ponderació permet comparar i repartir equitativament aprofitaments d'usos i intensitats diferents. El regula el TRLUC.
 
-### Concepte
-L'aprofitament urbanístic és el conjunt de l'edificabilitat (sostre edificable) i dels usos que el planejament atribueix a un sòl. No és un simple dret abstracte: és la mesura del contingut econòmic de la propietat urbanística, que el propietari fa seu en la part que li correspon un cop complerts els deures urbanístics.
+### Concepte d'aprofitament urbanístic
+L'aprofitament urbanístic és el resultat de referir l'edificabilitat (el sostre edificable, en m²) i els usos que el planejament atribueix a un terreny. Mesura, en termes homogenis, el contingut econòmic del dret d'edificar.
+
+- Es defineix per dos paràmetres: l'edificabilitat (quantitat de sostre) i l'ús (residencial, comercial, industrial…).
+- No tot el sòl té aprofitament privat: els sistemes i el sòl no urbanitzable no en generen (o molt limitat).
+- El propietari només el pot fer seu (patrimonialitzar) un cop complerts els deures urbanístics.
 
 ### La ponderació de l'aprofitament
-Com que els diferents usos i tipologies tenen valors de mercat diferents, per poder comparar i repartir l'aprofitament cal homogeneïtzar-lo mitjançant coeficients de ponderació (per exemple, coeficients d'ús i de situació). El resultat és l'aprofitament ponderat o homogeneïtzat, expressat en una unitat comuna, que permet tractar de manera equitativa propietaris amb terrenys de destinació diferent.
+Com que un metre de sostre residencial no val el mateix que un d'industrial, el planejament utilitza coeficients per homogeneïtzar-los i poder-los comparar i repartir:
 
-### Aprofitament mitjà i equidistribució
-En els àmbits d'actuació, el planejament fixa un aprofitament mitjà (la mitjana ponderada dels aprofitaments de l'àmbit). Aquest concepte fa possible el principi d'equidistribució de beneficis i càrregues: tots els propietaris tenen dret al mateix aprofitament per unitat de superfície, amb independència de la qualificació concreta de la seva finca.
+*Coeficients de ponderació*
 
-### Cessió de l'aprofitament
-El propietari s'apropia de l'aprofitament urbanístic un cop descomptat el percentatge d'aprofitament que ha de cedir gratuïtament a l'administració actuant (la participació de la comunitat en les plusvàlues que genera el planejament) i un cop assumits els deures de cessió de sòl per a sistemes i d'urbanització.
+| Coeficient | Funció |
+| --- | --- |
+| Coeficient de ponderació d'usos | Iguala el valor dels diferents usos (habitatge lliure, protegit, comercial…) |
+| Coeficient de situació o localització | Ajusta segons la posició dins l'àmbit |
+
+L'aprofitament ponderat s'obté multiplicant l'edificabilitat pels coeficients corresponents, expressant-lo en una unitat comuna (unitats d'aprofitament). Això és imprescindible per a l'equidistribució entre propietaris amb usos i intensitats diferents.
+
+### L'aprofitament que correspon al propietari
+El TRLUC distingeix l'aprofitament urbanístic total d'un àmbit del que finalment correspon als propietaris. En sòl urbà no consolidat i urbanitzable, els propietaris tenen dret a l'aprofitament resultant després de descomptar la cessió del percentatge d'aprofitament que correspon a l'Administració (l'aprofitament públic). Aquest mecanisme fa efectiva la participació de la comunitat en les plusvàlues generades per l'acció urbanística (art. 47 de la Constitució).
 
 ---
 
@@ -2832,36 +2856,47 @@ El propietari s'apropia de l'aprofitament urbanístic un cop descomptat el perce
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)); **TRLSRU** (RDL 7/2015 (TR Llei de sòl i rehabilitació urbana)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Drets**
-  - Usar, gaudir i disposar segons el planejament
-  - Fer seu l'aprofitament susceptible d'apropiació
-- **Deures**
-  - Cessió, urbanització
-  - Conservació i edificació dins terminis
-- **Subsol**
-  - Usos compatibles amb la superfície i el planejament
-- **Incompliment**
-  - Edificació/rehabilitació forçosa
-  - Venda o substitució forçosa; expropiació
+- **Marc**
+  - TRLUC + TRLSRU; funció social de la propietat
+- **Subsol (39-40)**
+  - Es pot qualificar per a usos/aprofitaments propis
+  - Titularitat privada fins on ho requereix l'aprofitament; reserva pública possible
+- **Limitacions**
+  - Aprofitament patrimonialitzable només un cop complerts els deures
+  - Incompliment → expropiació o venda forçosa
+- **Cessió**
+  - Urbà consolidat: vials; no aprofitament
+  - Urbà no consolidat: sistemes + ~10% aprofitament urbanitzat
+  - Urbanitzable: sistemes + fins 15% aprofitament + urbanitzar
 
-L'estatut de la propietat del sòl és el conjunt de drets i deures que la funció social de la propietat imposa a les persones propietàries. El regulen el TRLUC i la legislació estatal de sòl (TRLSRU).
+El dret de propietat del sòl té una funció social: el seu contingut (facultats i deures) el delimita la legislació urbanística segons la classe i situació del sòl. Aquest tema tracta el règim del subsol, les limitacions de l'aprofitament i els deures de cessió. Es regeix pel TRLUC i el TRLSRU.
 
-### Drets de les persones propietàries
-El dret de propietat del sòl comprèn les facultats d'usar, gaudir i disposar dels terrenys d'acord amb la seva classificació i qualificació urbanística. Inclou el dret a fer seu l'aprofitament urbanístic susceptible d'apropiació, un cop complerts els deures. La propietat, però, no atorga un dret il·limitat a edificar: el seu contingut el delimita el planejament (funció social).
+### Facultats i règim del subsol
+El dret d'aprofitament s'exerceix dins els límits del planejament. Pel que fa al subsol (arts. 39-40 del TRLUC):
 
-### Deures
-Els propietaris tenen, segons la classe de sòl, els deures urbanístics de:
+- El planejament pot qualificar el subsol per a usos i aprofitaments (aparcaments, serveis, equipaments) diferents dels del sòl.
+- La titularitat privada del subsol s'estén fins on ho requereix l'aprofitament possible; l'Administració pot reservar-ne l'ús per a finalitats públiques.
+- El subsol està subordinat a les exigències de l'interès públic i a la prestació de serveis.
 
-- Cessió de sòl per a sistemes i de l'aprofitament que correspon a l'administració.
-- Urbanització (costejar i, si escau, executar les obres d'urbanització).
-- Conservació dels terrenys i les construccions en condicions de seguretat, salubritat i ornament.
-- Edificació dels solars i rehabilitació dins els terminis fixats.
+### Limitacions del dret d'aprofitament
+El propietari no adquireix l'aprofitament pel sol fet de ser titular del sòl: la patrimonialització està condicionada al compliment dels deures urbanístics.
 
-### Règim del subsol
-El règim urbanístic del subsol s'ajusta al de la superfície: el propietari pot fer del subsol els usos que li permeti el planejament (per exemple, aparcaments), però l'aprofitament del subsol es limita al que sigui compatible amb els usos autoritzats en superfície i amb la protecció del patrimoni, els recursos i les infraestructures.
+- Cal executar la urbanització, cedir el sòl obligatori i participar en l'equidistribució.
+- Fins que no es compleixen els deures, l'aprofitament és una expectativa, no un dret consolidat.
+- L'incompliment dels deures pot comportar l'expropiació o la venda forçosa.
 
-### Conseqüències de l'incompliment dels deures
-L'incompliment dels deures urbanístics habilita l'administració per reaccionar: pot ordenar l'execució forçosa (edificació o rehabilitació forçoses), acordar la venda o la substitució forçosa del propietari incomplidor (perquè un tercer assumeixi els deures) o, en darrer terme, expropiar la finca. Aquestes mesures garanteixen que la propietat compleixi la seva funció social.
+### El deure de cessió segons el tipus de sòl
+Els deures de cessió varien segons la classe de sòl:
+
+*Deures de cessió (TRLUC)*
+
+| Classe de sòl | Deures de cessió |
+| --- | --- |
+| Urbà consolidat | Cessió del sòl per a vials i eixamplaments que resultin de l'alineació; en general, no cessió d'aprofitament |
+| Urbà no consolidat | Cessió de sòl per a sistemes locals + participació en generals + cessió d'aprofitament urbanístic (com a regla, 10%), ja urbanitzat |
+| Urbanitzable | Cessió de sòl per a sistemes + cessió d'aprofitament (fins al 15% segons el sector), a més de la urbanització |
+
+A més de cedir, els propietaris tenen els deures de costejar i executar la urbanització, edificar en els terminis fixats i conservar les obres i edificacions.
 
 ---
 
@@ -2871,36 +2906,40 @@ L'incompliment dels deures urbanístics habilita l'administració per reaccionar
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Caracterització**
-  - Usos/obres temporals i precaris
-  - Desmuntables; no dificulten el planejament
-- **Requisits**
-  - No prohibits pel pla
-  - No dificultar-ne l'execució
-  - Provisionals i desmuntables
-- **Procediment**
-  - Acceptació expressa de les condicions
-  - Inscripció al Registre; possible garantia per a l'enderroc
-- **Efectes**
-  - Cessament sense indemnització quan ho requereix l'AP
+- **Marc**
+  - TRLUC arts. 53-54; usos temporals mentre no s'executa el pla
+- **Requisits (53)**
+  - No prohibits + no dificultar el pla + fàcilment desmuntables
+  - Ex.: aparcaments, lleure, hivernacles, mercats
+- **Procediment (54)**
+  - Sol·licitud → informes → acceptació de condicions → inscripció registral → autorització a precari
+- **Clau**
+  - Provisionalitat: cessament sense indemnització quan ho requereixi l'Administració
 
-El règim d'ús provisional del sòl permet autoritzar usos i obres de caràcter temporal que no dificultin l'execució del planejament. El regula el TRLUC.
+Mentre no s'executa el planejament, el TRLUC (arts. 53-54) permet autoritzar usos i obres de caràcter provisional sobre terrenys destinats a un ús futur, sempre que no dificultin l'execució del pla i s'acceptin les condicions de provisionalitat.
 
-### Caracterització
-Els usos i les obres de caràcter provisional són els que, tot i no estar prohibits pel planejament, no s'hi ajusten com a usos definitius, i s'admeten amb caràcter temporal i precari. Han de ser fàcilment desmuntables o traslladables i no poden requerir obres o instal·lacions de caràcter permanent que en dificultin l'execució.
+### Usos i obres de caràcter provisional
+Són actuacions que s'autoritzen amb caràcter temporal i revocable en terrenys que el planejament destina a un altre ús encara no materialitzat. Requisits (art. 53):
 
-### Requisits materials
-Perquè es puguin autoritzar, cal que:
+- Que no siguin usos o obres expressament prohibits per la legislació o el planejament.
+- Que no dificultin l'execució del planejament vigent.
+- Que es tracti d'usos i obres fàcilment desmuntables o traslladables (no consoliden situacions).
+- Exemples: aparcaments, activitats de lleure, hivernacles, mercats, magatzems temporals.
 
-- No estiguin expressament prohibits per la legislació o el planejament.
-- No dificultin l'execució dels instruments de planejament.
-- Siguin usos o obres provisionals i desmuntables, sense consolidar-se com a definitius.
+### Procediment d'autorització
+L'autorització (art. 54) segueix aquests passos:
 
-### Procediment per a l'autorització
-L'autorització d'un ús provisional requereix la tramitació d'un procediment que inclou, entre altres, la comprovació que es compleixen els requisits materials i l'acceptació expressa, per part del propietari, de les condicions (especialment del deure de cessar l'ús i desmuntar les obres quan ho requereixi l'administració). L'autorització s'ha d'inscriure al Registre de la Propietat i es pot exigir la prestació d'una garantia per assegurar l'enderroc.
+*Procediment (art. 54 TRLUC)*
 
-### Efectes i extinció
-L'autorització provisional no genera cap dret a la permanència: el titular ha de cessar l'ús i desmuntar les obres, sense dret a percebre cap indemnització, quan l'administració ho ordeni per aplicar el planejament. Aquest caràcter precari és la nota essencial del règim.
+| Pas | Contingut |
+| --- | --- |
+| Sol·licitud | La persona interessada demana l'autorització d'ús o obra provisional |
+| Informes | Es comprova que no es dificulta l'execució del planejament |
+| Acceptació de condicions | El propietari accepta cessar l'ús i enderrocar les obres quan ho requereixi l'Administració, sense dret a indemnització |
+| Constància registral | Les condicions s'inscriuen al Registre de la Propietat |
+| Resolució i publicació | S'atorga l'autorització, que és a precari (revocable) |
+
+El caràcter essencial és la precarietat: l'autorització es concedeix a risc del titular, que renuncia a qualsevol indemnització pel cessament, ja que l'ús provisional no consolida cap dret enfront de l'execució del planejament.
 
 ---
 
@@ -2910,26 +2949,42 @@ L'autorització provisional no genera cap dret a la permanència: el titular ha 
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Marc**
+  - TRLUC art. 56; nivell superior del planejament general
 - **Jerarquia**
-  - Territorial i PDU (supramunicipals)
-  - POUM (general) → derivat (parcials, especials, millora urbana)
-- **PDU**
-  - Abast supramunicipal (Generalitat)
-  - Coordinen planejament, sòl no urbanitzable i infraestructures
-  - Sectors d'interès supramunicipal
-- **Efectes**
-  - Prevalen sobre el POUM, que s'hi adapta
+  - General: PDU, POUM, normes de planejament
+  - Derivat: plans parcials, especials, de millora urbana
+- **PDU: objecte**
+  - Directrius supramunicipals, sòl no urbanitzable, grans infraestructures, àrees residencials estratègiques
+- **Tramitació**
+  - Els formula i aprova la GENERALITAT
+  - Prevalen sobre el planejament municipal
 
-El planejament urbanístic s'organitza de manera jeràrquica. En el nivell supramunicipal, els plans directors urbanístics (PDU) coordinen l'ordenació de territoris amplis. El regula el TRLUC.
+El planejament urbanístic s'ordena jeràrquicament. En el nivell superior del planejament general de Catalunya se situen els plans directors urbanístics (PDU), instruments de coordinació supramunicipal regulats pel TRLUC (art. 56).
 
 ### Jerarquia del planejament
-El planejament urbanístic s'ordena en nivells: en l'àmbit territorial i supramunicipal, els plans territorials i els plans directors urbanístics; en l'àmbit municipal, el planejament general (el POUM) i, dins d'aquest, el planejament derivat (plans parcials, plans especials i plans de millora urbana). Cada instrument s'ha d'ajustar als de rang superior.
+El TRLUC ordena les figures de planejament en dos grans nivells:
 
-### Plans directors urbanístics
-Els PDU són instruments d'ordenació d'abast supramunicipal que la Generalitat aprova per coordinar el planejament de diversos municipis o per ordenar aspectes concrets del territori. Poden establir directrius per coordinar l'ordenació urbanística, determinacions sobre el desenvolupament urbanístic sostenible, la mobilitat i les infraestructures, mesures de protecció del sòl no urbanitzable, i la delimitació i l'ordenació de sectors d'interès supramunicipal.
+*Jerarquia de figures*
 
-### Aprovació i efectes
-Els PDU els tramita i aprova l'administració de la Generalitat. Un cop aprovats i publicats, prevalen sobre el planejament municipal, que s'hi ha d'adaptar. Constitueixen, per tant, un instrument de coordinació territorial que vincula els POUM i la resta d'instruments de rang inferior.
+| Nivell | Figures |
+| --- | --- |
+| Planejament general | Plans directors urbanístics (PDU), plans d'ordenació urbanística municipal (POUM), normes de planejament |
+| Planejament derivat | Plans parcials, plans especials, plans de millora urbana |
+
+### Els plans directors urbanístics (PDU)
+Els PDU (art. 56 del TRLUC) estableixen determinacions d'abast supramunicipal o directrius per coordinar l'ordenació urbanística. El seu objecte pot ser:
+
+- Les directrius per coordinar l'ordenació urbanística d'un territori d'abast supramunicipal.
+- Les determinacions sobre el desenvolupament urbanístic sostenible i la mobilitat.
+- Mesures de protecció del sòl no urbanitzable i criteris per a les estructures generals del territori.
+- La concreció i delimitació de les reserves de sòl per a grans infraestructures (xarxes viàries, ferroviàries, hidràuliques, energètiques…).
+- La delimitació i ordenació d'àrees residencials estratègiques i altres actuacions d'interès supramunicipal.
+
+### Formulació, aprovació i efectes
+Els PDU els formula i tramita la Generalitat (a través del departament competent en urbanisme), amb informació pública i participació dels ajuntaments afectats; els aprova definitivament el conseller o el Govern.
+
+Els PDU prevalen sobre el planejament urbanístic municipal: els POUM i el planejament derivat s'hi han d'adaptar. Són, per tant, un instrument d'articulació entre l'ordenació territorial i la urbanística.
 
 ---
 
@@ -2939,40 +2994,54 @@ Els PDU els tramita i aprova l'administració de la Generalitat. Un cop aprovats
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
+- **Marc**
+  - TRLUC arts. 57-59; ordenació integral del municipi
 - **Objecte**
-  - Planejament general: classifica el sòl i fixa el model
-  - Determinacions estructurals i, si escau, detallades
-- **Documentació**
-  - Memòria i memòria social; normes; plànols
-  - Catàleg; avaluació econòmica i ambiental; programa d'actuació
-- **Programa d'actuació**
-  - Prioritats i terminis de desenvolupament
-  - Determinacions sobre habitatge protegit
-- **Tramitació**
-  - Inicial i provisional (Ajuntament)
-  - Definitiva (Generalitat) → publicació → executiu
+  - Classifica el sòl, defineix el model, ordena el sòl urbà, delimita sectors
+- **Documentació (59)**
+  - Memòria, plànols, normes urbanístiques, catàleg, agenda economicofinancera, informe ambiental, memòria social, PAUM
+- **Connexos**
+  - PAUM (60): gestió, ~6 anys
+  - Normes de planejament (62): municipis sense POUM
+  - Suspensió de llicències (73-74): màx. 1 any (+1)
+- **Aprovació**
+  - Inicial i provisional: Ple (majoria absoluta)
+  - Definitiva: comissió territorial d'urbanisme (Generalitat)
 
-El pla d'ordenació urbanística municipal (POUM) és l'instrument d'ordenació urbanística integral del municipi. El regula el TRLUC. Aquest tema en tracta l'objecte, la documentació i el programa d'actuació.
+El pla d'ordenació urbanística municipal (POUM) és l'instrument bàsic d'ordenació integral del territori d'un municipi: classifica el sòl, defineix el model urbà i estableix les determinacions estructurals i detallades. El regula el TRLUC (arts. 57-59).
 
-### Objecte i determinacions
-El POUM és el planejament general que classifica el sòl del municipi, en defineix el model d'ordenació urbanística sostenible i estableix les determinacions estructurals (classificació, sistemes generals, usos globals) i, si escau, l'ordenació detallada del sòl urbà. Ha d'incorporar els objectius de desenvolupament sostenible, la mobilitat, l'habitatge i la protecció del medi.
+### Objecte i contingut del POUM
+El POUM (art. 57) ordena urbanísticament la totalitat del terme municipal. Les seves determinacions principals:
 
-### Documentació
-El POUM s'integra pels documents següents:
+- Classifica el sòl en urbà, urbanitzable i no urbanitzable.
+- Defineix el model d'ordenació i l'estructura general (sistemes generals).
+- Estableix l'ordenació detallada del sòl urbà i delimita els sectors de desenvolupament (planejament derivat).
+- Fixa els paràmetres d'ús i edificabilitat i les reserves per a habitatge protegit.
 
-- La memòria i la memòria social (necessitats d'habitatge).
-- Les normes urbanístiques.
-- Els plànols d'informació i d'ordenació.
-- El catàleg de béns a protegir.
-- L'agenda i l'avaluació econòmica i financera de les actuacions.
-- L'informe ambiental (avaluació ambiental estratègica).
-- El programa d'actuació urbanística municipal.
+### Documentació del POUM
+El POUM s'integra pels documents de l'art. 59:
 
-### El programa d'actuació
-El programa d'actuació urbanística municipal preveu i temporitza el desenvolupament del POUM: estableix les previsions i les prioritats per executar els sectors i les actuacions, els terminis i les circumstàncies del desenvolupament, i les determinacions relatives a l'habitatge protegit. Té una vigència limitada i es pot revisar de manera autònoma.
+*Documentació (art. 59 TRLUC)*
 
-### Tramitació i aprovació
-La tramitació comprèn l'aprovació inicial i la provisional per l'Ajuntament (amb informació pública i informes sectorials) i l'aprovació definitiva per l'administració de la Generalitat (la comissió territorial d'urbanisme o el conseller, segons la població). Un cop publicat, el POUM és executiu i obligatori.
+| Document | Contingut |
+| --- | --- |
+| Memòria i estudis justificatius | Justificació de l'ordenació i diagnosi |
+| Plànols d'informació i d'ordenació | Representació gràfica de l'estat i de les propostes |
+| Normes urbanístiques | Regulació escrita de règims i paràmetres |
+| Catàleg de béns protegits | Elements a preservar |
+| Agenda i avaluació econòmica i financera | Prioritats i viabilitat |
+| Informe ambiental i memòria social | Sostenibilitat i habitatge/cohesió |
+| Programa d'actuació urbanística municipal | Previsions de gestió i desplegament |
+
+### PAUM, normes de planejament i suspensió de llicències
+Instruments i mecanismes connexos:
+
+- El programa d'actuació urbanística municipal (PAUM, art. 60) concreta les previsions de desplegament i gestió; té una vigència aproximada de 6 anys.
+- Les normes de planejament urbanístic (art. 62) supleixen o complementen el planejament en municipis que no disposen de POUM.
+- En acordar la formulació o revisió del POUM es pot suspendre l'atorgament de llicències (arts. 73-74) a les àrees afectades, per un termini màxim d'1 any (prorrogable fins a 2).
+
+### Formulació i aprovació
+El POUM el formula l'ajuntament. La tramitació preveu l'aprovació inicial i la provisional pel Ple (per majoria absoluta), amb informació pública i informes sectorials; l'aprovació definitiva correspon a la comissió territorial d'urbanisme de la Generalitat, que controla la legalitat i l'adequació als instruments superiors.
 
 ---
 
@@ -2982,27 +3051,53 @@ La tramitació comprèn l'aprovació inicial i la provisional per l'Ajuntament (
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Plans parcials**
-  - Ordenen detalladament el sòl urbanitzable (un sector)
-  - De delimitació si el sòl no és delimitat
-- **Especials i de millora urbana**
-  - Especials: finalitats concretes (patrimoni, infraestructures), sense classificar sòl
-  - Millora urbana: sòl urbà (reforma, renovació)
+- **Marc**
+  - TRLUC arts. 65-97; desplega el planejament general
+- **Plans parcials (65-66)**
+  - Ordenen el sòl urbanitzable delimitat
+  - De delimitació: per al no delimitat
+- **Plans especials (67-68)**
+  - Finalitats concretes: infraestructures, patrimoni, subsol
+  - Millora urbana (70): reforma en sòl urbà
 - **Tramitació**
-  - Inicial i provisional (Ajuntament)
-  - Definitiva (Ajuntament o Generalitat)
-  - Modificació i revisió pel mateix procediment
+  - Aprovació inicial i provisional: ajuntament
+  - Definitiva: comissió territorial (o ajuntament amb POUM)
+  - Modificació = mateix procediment; revisió = pla nou
 
-El planejament derivat o de desenvolupament concreta les determinacions del planejament general en àmbits més reduïts. El TRLUC regula els plans parcials, els plans especials i els plans de millora urbana.
+El planejament derivat o de desenvolupament desplega les previsions del planejament general per a àmbits concrets. Les figures principals són els plans parcials (sòl urbanitzable) i els plans especials, regulats pel TRLUC.
 
 ### Plans parcials urbanístics
-Els plans parcials tenen per objecte desenvolupar i ordenar detalladament el sòl urbanitzable delimitat per un sector: n'estableixen l'ordenació detallada (usos, alineacions, edificabilitat, xarxes) amb vista a la seva transformació. Quan el sòl urbanitzable no és delimitat, el pla parcial de delimitació delimita el sector i n'estableix l'ordenació.
+Els plans parcials (arts. 65-66 del TRLUC) ordenen detalladament el sòl urbanitzable perquè es pugui executar:
+
+*Plans parcials*
+
+| Tipus | Àmbit |
+| --- | --- |
+| Pla parcial urbanístic | Ordena un sector de sòl urbanitzable delimitat pel POUM |
+| Pla parcial de delimitació | Delimita i ordena un sector de sòl urbanitzable no delimitat |
+
+Contenen la qualificació del sòl, els sistemes locals, els paràmetres d'edificació, la divisió en polígons i l'avaluació economicofinancera.
 
 ### Plans especials i plans de millora urbana
-Els plans especials urbanístics tenen finalitats concretes de desenvolupament o de protecció (protecció del patrimoni, ordenació del sòl no urbanitzable, implantació d'infraestructures o equipaments), sense classificar sòl. Els plans de millora urbana operen en sòl urbà per completar-ne o reformar-ne l'ordenació (renovació, reforma interior, rehabilitació, transformació d'usos).
+Els plans especials urbanístics (arts. 67-68) desenvolupen determinacions del planejament general per a finalitats específiques:
+
+- Infraestructures, serveis tècnics i mobilitat.
+- Protecció del patrimoni i del paisatge; protecció del medi rural.
+- Ordenació del subsol i concreció d'equipaments.
+- Els plans de millora urbana (art. 70) actuen en sòl urbà per completar-ne el teixit o dur a terme operacions de reforma, renovació o rehabilitació.
 
 ### Elaboració, aprovació, modificació i revisió
-El planejament derivat el pot formular l'administració o els particulars. La tramitació general comprèn l'aprovació inicial i la provisional per l'Ajuntament (amb informació pública mínima d'un mes i informes sectorials) i l'aprovació definitiva, que correspon a l'Ajuntament o a la Generalitat segons el cas. La modificació segueix el mateix procediment que la formació; la revisió és l'adopció de nous criteris que comporta substituir l'instrument.
+Els plans derivats segueixen un procediment similar (arts. 85-97):
+
+*Tramitació dels plans derivats*
+
+| Fase | Òrgan / regla |
+| --- | --- |
+| Aprovació inicial | Ajuntament (òrgan competent), amb informació pública mínima d'1 mes |
+| Aprovació provisional | Ajuntament, un cop resoltes les al·legacions |
+| Aprovació definitiva | Comissió territorial d'urbanisme (o el mateix ajuntament en municipis amb POUM i planejament derivat, segons els casos) |
+| Modificació | Mateix procediment que la formació |
+| Revisió | Quan es replantegen els criteris; equival a formar un pla nou |
 
 ---
 
@@ -3012,26 +3107,44 @@ El planejament derivat el pot formular l'administració o els particulars. La tr
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Iniciativa privada**
-  - Els particulars formulen planejament derivat
-  - L'Ajuntament el tramita i el resol
-- **Límit**
-  - Potestat de planejament: pública i indisponible
-  - Ius variandi; no hi ha dret a l'aprovació
-- **Participació**
-  - Informació pública i programes de participació
-  - Transparència i publicitat
+- **Marc**
+  - TRLUC arts. 101-102; iniciativa pública i privada
+- **Iniciativa**
+  - General (POUM, PDU): pública
+  - Derivat: pot ser d'iniciativa privada (propietaris)
+- **Especialitats**
+  - Documentació d'estructura de la propietat + compromisos i garanties
+  - L'Administració tramita i aprova pel procediment ordinari
+- **Col·laboració**
+  - Informació urbanística (cèdula, certificats); participació ciutadana obligatòria
 
-La iniciativa i la col·laboració dels particulars en el planejament urbanístic permeten que els propietaris i altres agents impulsin instruments de planejament, dins dels límits de la potestat pública. Ho regula el TRLUC.
+El planejament urbanístic pot ser d'iniciativa pública o privada. El TRLUC (arts. 101-102) reconeix la col·laboració dels particulars, especialment en la formulació del planejament derivat, amb especialitats de tramitació.
 
-### Iniciativa privada en la formulació
-Els particulars poden formular figures de planejament derivat (plans parcials, especials i de millora urbana) i presentar-les a l'Ajuntament perquè les tramiti. També poden formular avanços de planejament i participar en els processos de consulta. Aquesta iniciativa és una manifestació del principi de participació ciutadana en l'urbanisme.
+### Iniciativa pública i privada
+La formulació del planejament correspon a les administracions, però els particulars hi poden col·laborar:
 
-### Límits: la potestat pública de planejament
-La potestat de planejament és una funció pública indisponible: correspon a l'administració, que no pot renunciar-hi ni cedir-la. Per això, encara que un particular formuli un pla, l'administració conserva l'ius variandi (la potestat de decidir motivadament sobre l'ordenació) i pot aprovar-lo, modificar-lo o denegar-lo segons l'interès general. Els particulars no tenen un dret a l'aprovació del que proposen.
+- El planejament general (POUM, PDU) és d'iniciativa pública; els particulars poden instar-ne la modificació o fer-hi suggeriments.
+- El planejament derivat (plans parcials, de millora urbana, especials) pot ser formulat i presentat per particulars, especialment els propietaris de l'àmbit.
+- La iniciativa privada s'exerceix presentant el projecte de pla a l'administració competent perquè el tramiti.
 
-### Garanties de participació
-La col·laboració privada es completa amb les garanties de participació de tota la ciutadania: la informació pública dels instruments, els programes de participació ciutadana, l'accés a la documentació i la publicitat del planejament. L'objectiu és conjugar la iniciativa privada amb la transparència i el control públic.
+### Especialitats de la tramitació per iniciativa privada
+Quan un particular formula un pla derivat (art. 101-102):
+
+*Iniciativa privada (arts. 101-102 TRLUC)*
+
+| Aspecte | Regla |
+| --- | --- |
+| Documentació | A més de la general, l'estructura de la propietat i els compromisos assumits |
+| Compromisos | Garanties de la urbanització i, si escau, conveni urbanístic |
+| Terminis | L'administració ha de resoldre sobre la tramitació en el termini establert; el silenci té efectes taxats |
+| Aprovació | Segueix el procediment ordinari (inicial, provisional, definitiva) |
+
+### Col·laboració, informació i participació
+La relació entre particulars i Administració en el planejament es basa en la col·laboració i la transparència:
+
+- Dret d'informació urbanística: consulta prèvia, certificats de règim urbanístic i cèdula urbanística.
+- Deure de col·laborar amb l'Administració en la formulació i execució.
+- Participació ciutadana: informació pública obligatòria i programes de participació ciutadana en la tramitació del planejament.
 
 ---
 
@@ -3041,32 +3154,46 @@ La col·laboració privada es completa amb les garanties de participació de tot
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Efectes**
-  - Executiu i obligatori (AP i particulars)
-  - Declaració d'utilitat pública i necessitat d'ocupació
-- **Publicitat**
-  - Publicació de l'acord i les normes al diari oficial
-  - Planejament públic i consultable
-- **Fora d'ordenació**
-  - Disconformitats sobrevingudes
-  - Fora d'ordenació o volum/ús disconforme (obres limitades)
-- **Convenis urbanístics**
-  - Respecten el planejament i la legalitat
-  - Transparència: informació pública i registre
+- **Marc**
+  - TRLUC arts. 100-107
+- **Publicitat (103)**
+  - Planejament públic; consulta i certificats
+  - Cal publicar l'acord + normes urbanístiques al DOGC/BOP per ser executiu
+- **Efectes (100)**
+  - Executivitat, obligatorietat (particulars i Administració)
+  - Utilitat pública (expropiacions), règim de fora d'ordenació
+- **Convenis (104)**
+  - De planejament o de gestió; publicitat obligatòria; no vulneren la llei
+- **Certificats**
+  - Certificat de règim urbanístic / cèdula: acrediten el règim d'una finca
 
-L'aprovació de les figures de planejament produeix efectes jurídics rellevants sobre el territori i sobre els drets. El TRLUC en regula els efectes, la publicitat i les situacions de fora d'ordenació, així com les obligacions dels convenis urbanístics.
+L'aprovació definitiva i la publicació del planejament en despleguen els efectes jurídics: publicitat, executivitat i obligatorietat. El TRLUC (arts. 100-107) regula aquests efectes, els convenis urbanístics i els certificats de règim urbanístic.
 
-### Efectes de l'aprovació del planejament
-Un cop aprovat definitivament i publicat, el planejament és executiu i obligatori: vincula tant l'administració com els particulars, que hi han d'ajustar les seves actuacions. A més, l'aprovació comporta la declaració d'utilitat pública i la necessitat d'ocupació dels béns i drets afectats per a l'execució de les obres i actuacions previstes (legitima les expropiacions).
+### Publicitat del planejament
+El planejament urbanístic és públic (art. 103 del TRLUC): qualsevol persona pot consultar-lo, obtenir-ne informació i demanar certificats. La seva eficàcia està condicionada a la publicació:
 
-### Publicitat i executivitat
-Perquè el planejament produeixi efectes cal la publicació de l'acord d'aprovació definitiva i de les normes urbanístiques al diari oficial corresponent. El planejament és públic: qualsevol persona pot consultar-lo i obtenir-ne informació. La manca de publicació en priva l'eficàcia.
+- Cal la publicació de l'acord d'aprovació definitiva i del text íntegre de les normes urbanístiques al diari oficial (DOGC o BOP).
+- Fins que no es publiquen les normes urbanístiques, el pla no és executiu.
+- La publicitat inclou l'accés telemàtic als instruments de planejament.
 
-### Situacions de fora d'ordenació
-Les construccions i els usos que, en aprovar-se un nou planejament, resulten disconformes amb les noves determinacions queden en situació de fora d'ordenació (si són incompatibles i previstos per a l'expropiació o l'enderroc, amb obres molt limitades) o de volum o ús disconforme (si són compatibles, amb un règim d'obres més ampli). No comporta l'enderroc immediat, però sí limitacions a les obres autoritzables.
+### Executivitat i obligatorietat
+Un cop publicat, el planejament (art. 100):
 
-### Convenis urbanístics
-Els convenis urbanístics són acords entre l'administració i particulars sobre el planejament o la gestió. Han de respectar el planejament i la legalitat (no poden substituir la potestat de planejament ni alterar el règim del sòl) i estan sotmesos a obligacions de transparència: se n'ha de garantir la publicitat, mitjançant la informació pública durant la tramitació i la inscripció en un registre o portal accessible.
+*Efectes de l'aprovació (art. 100 TRLUC)*
+
+| Efecte | Contingut |
+| --- | --- |
+| Executivitat | El pla és immediatament aplicable des de la publicació de les normes |
+| Obligatorietat | Vincula tant els particulars com les administracions |
+| Utilitat pública | Legitima les expropiacions previstes (declaració implícita) |
+| Fora d'ordenació | Les construccions disconformes amb el nou pla queden en règim de fora d'ordenació o disconformitat |
+
+### Convenis urbanístics i certificats de règim urbanístic
+Instruments complementaris:
+
+- Convenis urbanístics (art. 104): de planejament (per preparar modificacions) o de gestió (per executar-lo). Estan subjectes a publicitat obligatòria (informació pública i registre); no poden vulnerar la llei ni substituir les potestats públiques.
+- Certificat de règim urbanístic i cèdula urbanística: documents que acrediten el règim urbanístic aplicable a una finca (classificació, qualificació, paràmetres), amb valor informatiu.
+- L'aprovació del planejament també comporta l'obligació de l'Administració de fer efectives les seves previsions en els terminis fixats.
 
 ---
 
@@ -3076,34 +3203,51 @@ Els convenis urbanístics són acords entre l'administració i particulars sobre
 Normes: **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Modalitats**
-  - Actuació aïllada (sòl urbà consolidat)
-  - Actuació integrada (polígons/sectors, per sistema)
-- **Sistemes**
-  - Reparcel·lació: compensació i cooperació
-  - Expropiació
-- **Elecció**
-  - La fa l'administració (planejament o delimitació)
+- **Marc**
+  - TRLUC; execució del planejament
+- **Sistemes (121)**
+  - Reparcel·lació: compensació (propietaris) o cooperació (Administració)
+  - Expropiació: l'Administració adquireix els terrenys
 - **Equidistribució**
-  - Repartiment equitatiu de beneficis i càrregues
-  - Materialitzat per la reparcel·lació
+  - Justa distribució de beneficis i càrregues
+  - Àrees de repartiment (càlcul) + unitats d'execució (gestió) + reparcel·lació
+- **Aprofitament mitjà**
+  - Edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment
+  - Determina el que correspon a cada propietari i la cessió pública
+- **Instruments**
+  - Projecte de reparcel·lació (adjudica) + projecte d'urbanització (obres, art. 72)
 
-La gestió urbanística és el conjunt de procediments per executar el planejament i transformar el sòl. El TRLUC regula els sistemes d'actuació, la seva elecció i el principi d'equidistribució.
+La gestió urbanística és el conjunt de procediments per executar el planejament, transformant material i jurídicament el sòl. Comprèn l'elecció d'un sistema d'actuació, l'aplicació del principi d'equidistribució i l'execució de la urbanització. El regula el TRLUC.
 
-### Concepte i modalitats d'execució
-La gestió urbanística fa efectiu el planejament: urbanitza el sòl, reparteix beneficis i càrregues i obté les cessions. Es distingeix l'actuació aïllada (en sòl urbà consolidat, sense necessitat de repartir càrregues) de l'actuació integrada o sistemàtica (en polígons o sectors, mitjançant un sistema d'actuació urbanística).
+### Els sistemes d'actuació urbanística
+L'execució s'articula mitjançant un sistema d'actuació (art. 121 del TRLUC):
 
-### Els sistemes d'actuació
-En l'actuació integrada, el TRLUC preveu dos sistemes d'actuació urbanística:
+*Sistemes d'actuació (art. 121 TRLUC)*
 
-- Reparcel·lació, en les modalitats de: compensació bàsica i compensació per concertació (iniciativa dels propietaris, agrupats en junta), i cooperació (l'administració executa la urbanització i els propietaris n'assumeixen el cost).
-- Expropiació: l'administració adquireix la totalitat del sòl de l'àmbit i n'executa la urbanització, indemnitzant els propietaris.
+| Sistema | Modalitats | Qui executa |
+| --- | --- | --- |
+| Reparcel·lació | Compensació bàsica, compensació per concertació, cooperació, sectors d'urbanització prioritària | Els propietaris (compensació) o l'Administració (cooperació) |
+| Expropiació | — | L'Administració o el beneficiari, adquirint els terrenys |
 
-### Elecció del sistema
-L'elecció del sistema d'actuació correspon a l'administració, que la fa en el planejament o en la delimitació del polígon, atenent les necessitats, els mitjans disponibles, la col·laboració de la iniciativa privada i l'interès públic. El sistema es pot canviar mitjançant el procediment corresponent.
+L'elecció del sistema la fa el planejament o l'Administració actuant, atenent la iniciativa dels propietaris, les necessitats de l'actuació i els mitjans disponibles.
 
-### El principi d'equidistribució
-Tota la gestió s'inspira en el principi d'equidistribució (o distribució equitativa) de beneficis i càrregues: els propietaris d'un àmbit han de participar en els beneficis (aprofitament) i en les càrregues (cessions i costos d'urbanització) en proporció a la seva aportació. La reparcel·lació és l'instrument que materialitza aquest repartiment, agrupant les finques i adjudicant-ne de noves ajustades al planejament.
+### El principi d'equidistribució i les seves tècniques
+L'equidistribució garanteix la justa distribució dels beneficis i les càrregues derivats del planejament entre tots els propietaris d'un àmbit. S'articula mitjançant:
+
+*Tècniques d'equidistribució*
+
+| Tècnica | Funció |
+| --- | --- |
+| Àrees de repartiment | Àmbits als quals es refereix el càlcul de l'aprofitament, per homogeneïtzar drets |
+| Unitats d'execució (polígons) | Àmbits territorials de gestió on s'aplica el sistema d'actuació |
+| Reparcel·lació | Operació jurídica que redistribueix finques i adjudica aprofitaments i càrregues |
+
+### Aprofitament mitjà i instruments d'execució
+L'aprofitament urbanístic mitjà (o tipus) és l'edificabilitat homogeneïtzada per unitat de superfície d'una àrea de repartiment; determina l'aprofitament que correspon a cada propietari i el que se cedeix a l'Administració. Els instruments d'execució material i jurídica:
+
+- El projecte de reparcel·lació: adjudica les finques resultants i reparteix càrregues i beneficis.
+- El projecte d'urbanització (art. 72): projecte d'obres que defineix i valora les obres d'urbanització (vials, xarxes de serveis, enllumenat, zones verdes) per executar-les materialment.
+- El programa d'actuació urbanística (o l'instrument de gestió equivalent) fixa els terminis i les condicions de desenvolupament.
 
 ---
 
