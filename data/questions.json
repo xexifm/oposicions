@@ -2,429 +2,9 @@
   "_meta": {
     "info": "Banc de preguntes tipus test (Prova 1, Base 7.7.a). 4 opcions, una de correcta (índex 0-3). Material d'estudi generat amb IA: contrasta amb la normativa vigent abans de l'examen.",
     "objectiu_total": 1000,
-    "fase": "Tots els 90 temes coberts · 476 preguntes (objectiu 1000)"
+    "fase": "Migracio a 5 preguntes/tema (nivell resums nous). Temes 1-10 fets."
   },
   "questions": [
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "Una persona presenta una sol·licitud de llicència i l'Administració no resol ni la notifica dins del termini màxim. Amb caràcter general, quin és el sentit del silenci en els procediments iniciats a sol·licitud de l'interessat?",
-      "options": [
-        "Estimatori, tret de les excepcions que prevegi una llei o el dret de la UE",
-        "Desestimatori en tot cas, atès que així es protegeix millor l'interès públic",
-        "No produeix cap efecte fins que l'òrgan dicti i notifiqui una resolució expressa",
-        "Estimatori sempre i sense cap excepció possible"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el sentit del silenci quan el ciutadà inicia el procediment i l'Administració incompleix el deure de resoldre en termini (art. 21). Correcta (a): la regla general és el silenci POSITIU, que constitueix un acte veritable; el negatiu només opera en les excepcions previstes per llei o pel dret de la UE. Per què no: (b) el negatiu és l'excepció, no la regla, i és una ficció legal, no un acte; (c) el silenci SÍ produeix efectes sense resolució expressa (confon silenci i obligació de resoldre); (d) sí que hi ha excepcions taxades (dret de petició, domini públic, responsabilitat patrimonial, recursos). Base: art. 24 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 24 Llei 39/2015"
-    },
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "En quin dels casos següents el silenci administratiu té sentit DESESTIMATORI (negatiu)?",
-      "options": [
-        "En una sol·licitud de subvenció en règim de concurrència competitiva",
-        "En els procediments de responsabilitat patrimonial",
-        "En una sol·licitud d'accés a l'ús d'un servei municipal",
-        "En una llicència d'obres de poca entitat"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta una de les excepcions al silenci positiu. Correcta (b): la Llei 39/2015 fixa el silenci negatiu, entre altres, en la responsabilitat patrimonial, el dret de petició, quan s'adquiririen facultats sobre el domini públic o el servei públic, i en la impugnació d'actes. Per què no: (a), (c) i (d) són procediments ordinaris a instància de part on regeix la regla general del silenci positiu. Base: art. 24.1 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 24 Llei 39/2015"
-    },
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "Quin d'aquests NO és un element de validesa de l'acte administratiu?",
-      "options": [
-        "L'oportunitat política de la decisió adoptada",
-        "La competència de l'òrgan que el dicta",
-        "El procediment seguit i la forma de l'acte",
-        "La causa o el fi d'interès públic que es persegueix"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta quins són els elements de l'acte (subjectiu, objectiu, causal i formal). Correcta (a): l'oportunitat política NO és un element de validesa; els actes es controlen per la seva legalitat, no per oportunitat. Per què no: (b) la competència és l'element subjectiu; (c) el procediment i la forma són l'element formal; (d) la causa/fi és l'element teleològic (apartar-se'n és desviació de poder). Base: arts. 34-36 i 47-48 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "arts. 34-36 Llei 39/2015"
-    },
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "La motivació de l'acte administratiu és exigible, en tot cas, en:",
-      "options": [
-        "Tots els actes de tràmit que es dictin durant el procediment",
-        "Els actes que limiten drets i els sancionadors",
-        "Únicament els actes dictats per òrgans col·legiats",
-        "Cap acte, llevat que ho demani expressament l'interessat"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta quan és obligatòria la motivació. Correcta (b): l'art. 35 imposa motivar, entre d'altres, els actes que limiten drets o interessos legítims, els discrecionals, els sancionadors, els que resolen recursos i els que se separen del criteri precedent. Per què no: (a) els actes de tràmit ordinaris no s'han de motivar sempre; (c) no depèn del tipus d'òrgan; (d) la motivació és una garantia que no depèn que es demani. Base: art. 35 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 35 Llei 39/2015"
-    },
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "Una llicència sol·licitada per a un projecte clarament disconforme amb el planejament no es resol en termini. Es pot entendre atorgada per silenci?",
-      "options": [
-        "Sí, perquè en matèria urbanística el silenci sempre és positiu i estimatori",
-        "No, perquè el silenci no atorga mai facultats contràries a l'ordenament",
-        "Sí, pel sol fet que ja han transcorregut més de tres mesos",
-        "No, perquè en matèria urbanística el silenci té sempre sentit negatiu"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el límit del silenci positiu. Correcta (b): encara que el silenci en llicències sigui positiu, EN CAP CAS s'adquireixen per silenci facultats o drets contraris a la legislació o al planejament (art. 11.3 TRLS). Per què no: (a) el silenci positiu té aquest límit infranquejable; (c) el transcurs del termini no sana la il·legalitat; (d) en urbanisme el silenci és, de regla, positiu, amb el límit indicat. Base: art. 11.3 TRLS i art. 24 Llei 39/2015.",
-      "source": "TRLSRU",
-      "article": "art. 11.3 TRLS; art. 24 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "Un acte administratiu dictat per un òrgan manifestament incompetent per raó de la matèria és:",
-      "options": [
-        "Anul·lable únicament si arriba a causar indefensió",
-        "Nul de ple dret",
-        "Vàlid si posteriorment l'òrgan competent el convalida",
-        "Una simple irregularitat que no afecta la validesa"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la conseqüència de la incompetència manifesta. Correcta (b): és un supòsit taxat de nul·litat de ple dret (art. 47.1.b): incompetència manifesta per raó de la matèria o del territori; efectes ex tunc i imprescriptible. Per què no: (a) l'anul·labilitat és per a infraccions menys greus; (c) la nul·litat de ple dret NO és convalidable; (d) no és una irregularitat menor sinó el vici més greu. Base: art. 47 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 47 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "Un acte té un defecte de forma, però assoleix la seva finalitat i no genera cap indefensió. Quina és la conseqüència?",
-      "options": [
-        "És nul de ple dret amb efectes des de l'origen",
-        "És anul·lable en tot cas per infracció de l'ordenament",
-        "És una irregularitat no invalidant i l'acte és vàlid",
-        "Obliga l'Administració a declarar-lo lesiu"
-      ],
-      "correct": 2,
-      "explain": "Es pregunta l'efecte d'un defecte formal no rellevant. Correcta (c): el defecte de forma només determina anul·labilitat quan l'acte no assoleix la finalitat o causa indefensió (art. 48.2); si no, és una mera irregularitat i l'acte és vàlid. Per què no: (a) la nul·litat és per als supòsits taxats de l'art. 47; (b) no tot defecte de forma anul·la; (d) la lesivitat és la via per anul·lar actes favorables anul·lables, que aquí no s'aplica. Base: art. 48.2 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 48 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "A partir de quin moment són eficaços, amb caràcter general, els actes administratius?",
-      "options": [
-        "Des de la publicació íntegra al diari oficial corresponent, sense cap excepció",
-        "Des que es dicten, tret que se'n demori l'eficàcia per notificació o aprovació",
-        "Al cap de tres mesos d'haver-se dictat, si abans no s'han notificat",
-        "Quan l'interessat hi presta la seva conformitat de manera expressa"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el règim d'eficàcia. Correcta (b): els actes produeixen efectes des de la data en què es dicten, tret que el seu contingut disposi una altra cosa o que la seva eficàcia quedi demorada per notificació, publicació o aprovació superior (art. 39). Per què no: (a) la publicació només és necessària en casos taxats; (c) no hi ha cap demora general de tres mesos; (d) l'eficàcia no depèn de la conformitat de l'interessat. Base: art. 39 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 39 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "Dins de quin termini s'ha de cursar la notificació d'una resolució a l'interessat?",
-      "options": [
-        "Deu dies a comptar de la data en què es dicta l'acte",
-        "Un mes complet a comptar de la data en què es dicta l'acte",
-        "Tres dies hàbils com a màxim en tots els casos",
-        "No hi ha cap termini fixat legalment per fer-ho"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el termini per notificar. Correcta (a): tota notificació s'ha de cursar dins del termini de deu dies a partir de la data en què l'acte s'ha dictat (art. 40), i ha de contenir el text íntegre, els recursos, l'òrgan i el termini. Per què no: (b), (c) i (d) no es corresponen amb el termini legal. Una notificació defectuosa té efectes des que l'interessat es dóna per assabentat. Base: art. 40 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 40 Llei 39/2015"
-    },
-    {
-      "theme": 8,
-      "block": 2,
-      "q": "Qui té la consideració d'interessat en un procediment administratiu?",
-      "options": [
-        "Únicament la persona que ha iniciat el procediment amb la seva sol·licitud",
-        "Qualsevol veí del municipi pel sol fet de residir-hi, sense més requisit",
-        "Els titulars de drets o interessos legítims que la resolució pugui afectar",
-        "Únicament les persones jurídiques directament afectades per la decisió"
-      ],
-      "correct": 2,
-      "explain": "Es pregunta el concepte d'interessat. Correcta (c): són interessats els que promoguin el procediment com a titulars de drets o interessos legítims, els que tinguin drets que puguin resultar afectats, i aquells els interessos legítims dels quals puguin resultar afectats i es personin (art. 4). Per què no: (a) no només qui inicia; (b) la mera veïnatge no atorga la condició (cal un interès legítim); (d) també persones físiques i entitats sense personalitat. Base: art. 4 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 4 Llei 39/2015"
-    },
-    {
-      "theme": 8,
-      "block": 2,
-      "q": "Un funcionari té un familiar de segon grau amb interès directe en l'assumpte que ha de resoldre. Què ha de fer?",
-      "options": [
-        "Pot intervenir si considera que actuarà amb plena imparcialitat",
-        "Abstenir-se i comunicar-ho al seu superior",
-        "Sol·licitar el permís previ de la persona interessada",
-        "Res, perquè el parentiu mai no constitueix causa d'abstenció"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el deure d'abstenció. Correcta (b): qui concorri en una causa d'abstenció —parentiu de consanguinitat dins del quart grau o interès personal en l'assumpte— s'ha d'abstenir i comunicar-ho al superior (art. 23 Llei 40/2015). Per què no: (a) la causa és objectiva; (c) no és l'interessat qui dispensa; (d) el parentiu dins del quart grau SÍ és causa d'abstenció. Els interessats poden promoure la recusació (art. 24). Base: art. 23 Llei 40/2015.",
-      "source": "L40_2015",
-      "article": "art. 23 Llei 40/2015"
-    },
-    {
-      "theme": 8,
-      "block": 2,
-      "q": "Quins són els principis de bona regulació que ha de respectar la potestat reglamentària?",
-      "options": [
-        "Jerarquia normativa, competència, publicitat, legalitat i interdicció de l'arbitrarietat",
-        "Necessitat, proporcionalitat, seguretat jurídica, transparència i eficiència",
-        "Celeritat, oficialitat, contradicció i economia en la tramitació",
-        "Igualtat, mèrit, capacitat i publicitat en l'accés a la funció"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta els principis de bona regulació. Correcta (b): l'art. 129 enumera necessitat, eficàcia, proporcionalitat, seguretat jurídica, transparència i eficiència. Per què no: (a) són principis de l'ordenament (art. 9.3 CE), no els de bona regulació; (c) són principis del procediment, no de la regulació; (d) són principis d'accés a la funció pública. Base: art. 129 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 129 Llei 39/2015"
-    },
-    {
-      "theme": 8,
-      "block": 2,
-      "q": "Una resolució singular d'un òrgan superior pot deixar sense efecte, per a un cas concret, el que estableix un reglament?",
-      "options": [
-        "Sí, sempre que l'òrgan sigui jeràrquicament superior al que va aprovar el reglament",
-        "No: opera la inderogabilitat singular dels reglaments",
-        "Sí, a condició que la resolució es motivi degudament",
-        "Només quan ho autoritzi expressament la persona interessada"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la relació entre acte i reglament. Correcta (b): les resolucions de caràcter particular no poden vulnerar el que estableix una disposició general, encara que tinguin igual o superior rang (inderogabilitat singular, art. 37). Per què no: (a) i (c) el rang de l'òrgan o la motivació no permeten contravenir el reglament; (d) l'interessat no pot disposar de la legalitat. Base: art. 37 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 37 Llei 39/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "Quines són les fases del procediment administratiu comú?",
-      "options": [
-        "Al·legacions, pràctica de la prova i interposició de recursos",
-        "Iniciació, ordenació, instrucció i finalització",
-        "Incoació, audiència prèvia i imposició de la sanció",
-        "Sol·licitud, emissió d'informe i ordenació del pagament"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'estructura del procediment. Correcta (b): el Títol IV de la Llei 39/2015 l'estructura en iniciació, ordenació, instrucció i finalització. Per què no: (a) l'al·legació, la prova i els informes són actes DINS de la instrucció; (c) la sanció no és una fase del procediment comú; (d) descriu actuacions concretes, no l'estructura. Base: Títol IV Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "arts. 54-95 Llei 39/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "Una sol·licitud no reuneix tots els requisits exigits. Què ha de fer l'Administració i amb quin termini?",
-      "options": [
-        "Arxivar-la directament sense cap altre tràmit",
-        "Requerir-ne l'esmena en un termini de deu dies",
-        "Resoldre-la desestimant-la per defecte de forma",
-        "Concedir un termini de tres mesos per esmenar-la"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el tràmit d'esmena. Correcta (b): cal requerir l'interessat perquè, en deu dies, esmeni la falta o aporti els documents preceptius, amb l'advertiment que si no ho fa se'l tindrà per desistit (art. 68). Per què no: (a) no es pot arxivar sense requerir l'esmena; (c) no escau desestimar sense donar l'oportunitat d'esmenar; (d) el termini és de 10 dies (ampliables fins a 15), no de 3 mesos. Base: art. 68 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 68 Llei 39/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "Si la persona requerida per esmenar una sol·licitud no ho fa dins del termini, l'efecte és que:",
-      "options": [
-        "La sol·licitud s'entén estimada per silenci administratiu",
-        "Se la té per desistida, amb la corresponent resolució",
-        "El procediment queda paralitzat fins que l'interessat decideixi reprendre'l",
-        "S'obre directament la via judicial contenciosa"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la conseqüència de no esmenar. Correcta (b): es dicta resolució que té l'interessat per desistit de la seva petició (arts. 68 i 21). Per què no: (a) la inactivitat de l'interessat no genera estimació; (c) l'Administració ha de resoldre, no paralitzar; (d) no s'obre cap via judicial automàtica. Base: arts. 68 i 21 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "arts. 68 i 21 Llei 39/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "En defecte de norma específica, quin és el termini màxim per resoldre i notificar un procediment?",
-      "options": [
-        "Trenta dies",
-        "Tres mesos",
-        "Sis mesos",
-        "Dotze mesos"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el termini supletori per resoldre. Correcta (b): quan les normes reguladores no fixin el termini màxim, serà de tres mesos (art. 21.3). Per què no: (a), (c) i (d) no són el termini supletori (alguns procediments, com la responsabilitat patrimonial, tenen 6 mesos per norma pròpia, però la regla general són 3 mesos). Base: art. 21 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 21 Llei 39/2015"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Segons l'article 1.1 de la Constitució, com es constitueix Espanya?",
-      "options": [
-        "En una monarquia parlamentària de caràcter representatiu",
-        "En un Estat social i democràtic de dret",
-        "En un Estat federal i descentralitzat políticament",
-        "En una república parlamentària amb autonomies"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la definició bàsica de l'Estat. Correcta (b): l'art. 1.1 proclama que Espanya es constitueix en un Estat social i democràtic de dret, que propugna com a valors superiors la llibertat, la justícia, la igualtat i el pluralisme polític. Per què no: (a) la monarquia parlamentària és la FORMA POLÍTICA (art. 1.3), no la definició de l'Estat; (c) i (d) Espanya no és un Estat federal ni una república. Base: art. 1 CE.",
-      "source": "CE1978",
-      "article": "art. 1 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "En quina part de la Constitució se situen els drets que gaudeixen de recurs d'empara davant el Tribunal Constitucional?",
-      "options": [
-        "Al Capítol III del Títol I, entre els principis rectors de la política social i econòmica",
-        "A la Secció 1a del Capítol II del Títol I (arts. 15-29) i l'art. 14",
-        "Al Títol preliminar, entre els principis generals",
-        "A qualsevol article del Títol I sense distinció"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el nivell de protecció dels drets. Correcta (b): tenen la màxima protecció (llei orgànica, procediment preferent i sumari i recurs d'empara) l'art. 14 i els de la Secció 1a del Cap. II (arts. 15-29), més l'objecció de consciència (30.2). Per què no: (a) els principis rectors del Cap. III NO tenen empara; (c) el títol preliminar conté principis, no drets emparables; (d) no tots els drets del Títol I tenen empara. Base: arts. 53 i 161 CE.",
-      "source": "CE1978",
-      "article": "arts. 14-29 i 53 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "La reforma de la Constitució que afecta el Títol preliminar o la regulació de la Corona exigeix, entre altres requisits:",
-      "options": [
-        "Una majoria simple del Congrés i el Senat",
-        "Una majoria de tres cinquens de cada cambra i la posterior ratificació en referèndum",
-        "L'aprovació per dos terços de cada cambra, dissolució de les Corts i referèndum",
-        "Un decret llei ratificat posteriorment per les Corts"
-      ],
-      "correct": 2,
-      "explain": "Es pregunta el procediment de reforma agreujat. Correcta (c): l'art. 168 exigeix, per al títol preliminar, la Secció 1a del Cap. II o la Corona, l'aprovació per 2/3 de cada cambra, la dissolució immediata de les Corts, la ratificació per les noves cambres i un referèndum obligatori. Per què no: (a) i (b) corresponen a la reforma ordinària (art. 167); (d) un decret llei no pot reformar la Constitució. Base: art. 168 CE.",
-      "source": "CE1978",
-      "article": "art. 168 CE"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "Quina norma és l'Estatut d'autonomia de Catalunya actualment vigent?",
-      "options": [
-        "La Llei orgànica 4/1979, de 18 de desembre",
-        "La Llei orgànica 6/2006, de 19 de juliol",
-        "Una llei ordinària aprovada pel Parlament de Catalunya",
-        "El Decret legislatiu 2/2003, de règim local"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la identificació de l'Estatut vigent. Correcta (b): l'EAC vigent és la LO 6/2006, de 19 de juliol, que va reformar el de 1979. Per què no: (a) la LO 4/1979 és l'Estatut anterior, ja substituït; (c) l'Estatut és una llei orgànica, no ordinària, i requereix l'aprovació de les Corts Generals; (d) el DL 2/2003 és el text refós de la Llei municipal i de règim local, no l'Estatut. Base: LO 6/2006.",
-      "source": "EAC2006",
-      "article": "LO 6/2006"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "Quin tipus de competència permet a la Generalitat exercir la potestat legislativa, la reglamentària i la funció executiva de manera íntegra sobre una matèria?",
-      "options": [
-        "La competència compartida amb l'Estat",
-        "La competència executiva",
-        "La competència exclusiva",
-        "La competència concurrent amb els ens locals"
-      ],
-      "correct": 2,
-      "explain": "Es pregunta la tipologia competencial de l'Estatut. Correcta (c): en les competències exclusives correspon a la Generalitat de manera íntegra la potestat legislativa, la reglamentària i la funció executiva, amb dret propi preferent (art. 110 EAC). Per què no: (a) en la compartida l'Estat fixa les bases i la Generalitat el desenvolupament (art. 111); (b) en l'executiva la Generalitat només executa (art. 112); (d) la 'concurrent amb ens locals' no és una categoria de l'EAC. Base: arts. 110-112 EAC.",
-      "source": "EAC2006",
-      "article": "arts. 110-112 EAC"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "Quines són les entitats locals de caràcter territorial segons la legislació bàsica de règim local?",
-      "options": [
-        "Únicament el municipi",
-        "Les comarques, les mancomunitats i els consorcis",
-        "El municipi, la província i l'illa",
-        "Les àrees metropolitanes i les vegueries"
-      ],
-      "correct": 2,
-      "explain": "Es pregunta quines entitats locals són territorials. Correcta (c): l'art. 3.1 LRBRL atribueix caràcter territorial (i autonomia plena) al municipi, la província i l'illa. Per què no: (a) no és només el municipi; (b) comarques, mancomunitats i consorcis són altres entitats, no territorials; (d) les àrees metropolitanes i vegueries no tenen, en aquest precepte, la condició d'entitats territorials bàsiques. Base: art. 3 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 3 LRBRL"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "Com defineix la Constitució la província?",
-      "options": [
-        "Com una simple divisió administrativa de l'Estat, sense personalitat jurídica ni autonomia pròpia",
-        "Com una entitat local amb personalitat jurídica pròpia, formada per l'agrupació de municipis",
-        "Com un òrgan perifèric de l'Administració de l'Estat",
-        "Com una entitat dependent de la comunitat autònoma"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la naturalesa de la província. Correcta (b): la província és una entitat local amb personalitat jurídica pròpia, determinada per l'agrupació de municipis, i divisió territorial per al compliment de les activitats de l'Estat (art. 141 CE); té autonomia per gestionar els seus interessos. Per què no: (a) sí que té autonomia; (c) i (d) no és un mer òrgan estatal ni depèn de la CA. Base: art. 141 CE i LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 141 CE; art. 31 LRBRL"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "En els municipis de règim comú, quins són òrgans de govern necessaris?",
-      "options": [
-        "L'Alcalde, els tinents d'alcalde i el Ple",
-        "Únicament l'Alcalde i el Ple municipal",
-        "La Junta de Govern Local en tots els municipis",
-        "Les comissions informatives i la Comissió de Comptes"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta quins òrgans existeixen sempre. Correcta (a): són òrgans necessaris l'Alcalde, els tinents d'alcalde i el Ple (art. 20 LRBRL). Per què no: (b) també hi ha els tinents d'alcalde; (c) la Junta de Govern Local només és obligatòria a municipis de més de 5.000 habitants o quan ho acordi el Ple; (d) les comissions informatives són complementàries (tot i que la Comissió Especial de Comptes és obligatòria). Base: art. 20 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 20 LRBRL"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "A quin òrgan municipal correspon l'aprovació del pressupost i de les ordenances?",
-      "options": [
-        "A l'Alcalde, mitjançant decret",
-        "A la Junta de Govern Local",
-        "Al Ple de la corporació",
-        "A la Comissió Especial de Comptes"
-      ],
-      "correct": 2,
-      "explain": "Es pregunta la competència sobre pressupost i ordenances. Correcta (c): l'aprovació del pressupost i de les ordenances (i del planejament general) és competència indelegable del Ple (art. 22 LRBRL). Per què no: (a) l'Alcalde dirigeix el govern però no aprova el pressupost; (b) la Junta de Govern Local exerceix competències delegades, no aquesta; (d) la Comissió de Comptes només informa els comptes. Base: art. 22 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 22 LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Com s'exerceixen les competències pròpies del municipi?",
-      "options": [
-        "Sota la direcció i el control de l'Estat o la comunitat autònoma",
-        "En règim d'autonomia i sota la pròpia responsabilitat",
-        "Prèvia autorització de la comunitat autònoma en cada cas",
-        "Únicament si ho permet la diputació provincial"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el règim d'exercici de les competències pròpies. Correcta (b): les competències pròpies s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat (art. 7.2 LRBRL). Per què no: (a) la direcció i el control de l'administració delegant és propi de les competències DELEGADES (art. 27), no de les pròpies; (c) i (d) no requereixen autorització prèvia de la CA ni de la diputació. Base: arts. 7 i 25 LRBRL.",
-      "source": "LRBRL",
-      "article": "arts. 7 i 25 LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Per exercir competències diferents de les pròpies i de les delegades, l'article 7.4 de la LRBRL exigeix:",
-      "options": [
-        "Una simple comunicació prèvia adreçada a la comunitat autònoma corresponent",
-        "Informes previs de no-duplicitat i de sostenibilitat financera",
-        "L'acord favorable de la majoria del veïnat afectat",
-        "La inclusió expressa de la competència a l'Estatut"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el requisit de les competències 'impròpies'. Correcta (b): l'art. 7.4 LRBRL només permet exercir competències diferents de les pròpies i delegades si no hi ha duplicitat amb una altra administració i no es posa en risc la sostenibilitat financera, fet que cal acreditar amb informes previs i vinculants. Per què no: (a) no n'hi ha prou amb una comunicació; (c) no es requereix cap consulta veïnal; (d) no cal previsió estatutària expressa. Base: art. 7.4 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 7.4 LRBRL"
-    },
     {
       "theme": 15,
       "block": 5,
@@ -1369,51 +949,6 @@
       "explain": "Es pregunta la via per anul·lar una llicència nul·la. Correcta (b): els actes nuls de ple dret es deixen sense efecte mitjançant la revisió d'ofici (art. 106 de la Llei 39/2015), que es pot iniciar en qualsevol moment i requereix el dictamen favorable del Consell consultiu. Per què no: (a) no es pot fer per una revocació verbal; (c) la caducitat no és la via per a la il·legalitat; (d) la sanció no anul·la la llicència. Base: art. 106 Llei 39/2015.",
       "source": "L39_2015",
       "article": "art. 106 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "Quan un termini s'assenyala en dies i la norma no indica res més, s'entén que són:",
-      "options": [
-        "Dies naturals, comptant dissabtes, diumenges i festius des de la notificació",
-        "Dies hàbils, i s'exclouen del còmput els dissabtes, diumenges i festius",
-        "Dies laborables segons el calendari laboral de la província corresponent",
-        "Dies del calendari escolar vigent al municipi on resideix la persona interessada"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el còmput de terminis en dies. Correcta (b): si els terminis s'assenyalen en dies, s'entenen hàbils i s'exclouen del còmput els dissabtes, els diumenges i els festius (art. 30.2). Per què no: (a) la regla general no són dies naturals; (c) i (d) no es computen per calendari laboral ni escolar. Base: art. 30.2 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 30.2 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "Si l'últim dia d'un termini administratiu és inhàbil (per exemple, una festa local), el termini:",
-      "options": [
-        "Venç igualment aquell mateix dia inhàbil, sense cap mena de pròrroga possible",
-        "S'entén prorrogat al primer dia hàbil següent",
-        "Es redueix automàticament fins al darrer dia hàbil anterior al venciment",
-        "Queda en suspens fins que la persona interessada en demani la represa expressa"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el venciment en dia inhàbil. Correcta (b): quan l'últim dia del termini és inhàbil, s'entén prorrogat al primer dia hàbil següent (art. 30.5). Per què no: (a) no venç el dia inhàbil; (c) no es redueix al dia hàbil anterior; (d) no queda en suspens a petició de l'interessat. Base: art. 30.5 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 30.5 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "L'elaboració d'un reglament municipal exigeix, abans de redactar-ne el text, amb caràcter general:",
-      "options": [
-        "L'aprovació prèvia del projecte pel conseller competent de la Generalitat",
-        "Una consulta pública prèvia perquè la ciutadania i les entitats hi opinin",
-        "La publicació íntegra del text al Diari Oficial de la Generalitat de Catalunya",
-        "L'informe vinculant del Consell de Garanties Estatutàries sobre el projecte"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta un tràmit previ dels reglaments. Correcta (b): amb caràcter previ a l'elaboració, se substancia una consulta pública prèvia perquè la ciutadania i les organitzacions afectades opinin sobre l'oportunitat i els problemes a resoldre (art. 133). Per què no: (a) no cal aprovació prèvia del conseller; (c) la publicació és el tràmit final, no el previ; (d) no intervé el Consell de Garanties en l'elaboració d'un reglament municipal. Base: art. 133 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 133 Llei 39/2015"
     },
     {
       "theme": 11,
@@ -2496,111 +2031,6 @@
       "article": "art. 24 LPRL; RD 171/2004"
     },
     {
-      "theme": 6,
-      "block": 2,
-      "q": "Quina diferència essencial hi ha entre un acte administratiu i un reglament?",
-      "options": [
-        "El reglament l'aprova el Ple i l'acte sempre el dicta l'Alcalde en exclusiva",
-        "El reglament és una norma que s'integra a l'ordenament; l'acte aplica l'ordenament a un cas",
-        "No hi ha cap diferència rellevant des del punt de vista jurídic entre tots dos",
-        "L'acte té sempre rang superior al reglament en la jerarquia de les fonts del dret"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la distinció acte/reglament. Correcta (b): el reglament és una norma que s'integra a l'ordenament (vocació de permanència, rang superior); l'acte aplica l'ordenament a un cas concret i s'esgota amb el compliment. Per què no: (a) la distinció no depèn de l'òrgan; (c) sí que hi ha diferència; (d) el reglament té rang superior a l'acte (inderogabilitat singular). Base: arts. 34-37 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "arts. 34-37 Llei 39/2015"
-    },
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "Quan el silenci administratiu és positiu, la resolució expressa que es dicti després:",
-      "options": [
-        "Pot revocar lliurement l'acte que s'havia produït per silenci estimatori",
-        "Només pot ser confirmatòria de l'acte estimatori produït per silenci",
-        "Pot tenir qualsevol sentit, també desestimatori, segons l'interès públic",
-        "No es pot dictar mai un cop transcorregut el termini màxim per resoldre"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'abast de la resolució posterior al silenci positiu. Correcta (b): quan el silenci és estimatori, la resolució expressa posterior només pot ser confirmatòria (art. 24.3.a). Per què no: (a) no es pot revocar lliurement l'acte estimatori; (c) si fos desestimatori, no seria confirmatori (només es pot dictar de qualsevol sentit quan el silenci és negatiu); (d) l'Administració sempre ha de resoldre. Base: art. 24.3 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 24.3 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "La revisió d'ofici dels actes nuls de ple dret (art. 106):",
-      "options": [
-        "Té un termini de prescripció de quatre anys des que es dicta l'acte nul",
-        "Es pot fer en qualsevol moment, amb el dictamen favorable del Consell consultiu",
-        "Només la pot instar la persona interessada mitjançant un recurs ordinari",
-        "La resol directament la jurisdicció contenciosa sense intervenció de l'Administració"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la revisió d'ofici d'actes nuls. Correcta (b): la revisió d'ofici dels actes nuls de ple dret es pot fer en qualsevol moment, sense termini, i requereix el dictamen favorable del Consell consultiu (art. 106). Per què no: (a) no té termini de prescripció; (c) la pot iniciar l'Administració d'ofici o a sol·licitud; (d) la resol l'Administració. Base: art. 106 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 106 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "Per anul·lar un acte declaratiu de drets que és anul·lable, l'Administració ha de:",
-      "options": [
-        "Revocar-lo directament d'ofici sense cap més tràmit en qualsevol moment",
-        "Declarar-lo lesiu per a l'interès públic i impugnar-lo davant el contenciós",
-        "Imposar una sanció a la persona beneficiària de l'acte que es vol anul·lar",
-        "Esperar que prescrigui el dret al cap d'un any des que es va dictar l'acte"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la via per anul·lar actes favorables anul·lables. Correcta (b): l'Administració ha de declarar l'acte lesiu per a l'interès públic (en el termini de quatre anys) i després impugnar-lo davant la jurisdicció contenciosa (art. 107). Per què no: (a) no es pot revocar directament un acte favorable anul·lable; (c) la sanció no és la via; (d) no s'anul·la per simple transcurs del temps. Base: art. 107 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 107 Llei 39/2015"
-    },
-    {
-      "theme": 8,
-      "block": 2,
-      "q": "Els interessats poden promoure la recusació d'una autoritat o personal:",
-      "options": [
-        "Únicament en el moment d'iniciar-se el procediment administratiu corresponent",
-        "En qualsevol moment de la tramitació, quan concorri una causa d'abstenció",
-        "Només després que s'hagi dictat la resolució que posa fi al procediment",
-        "Exclusivament davant la jurisdicció contenciosa administrativa competent"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el moment de la recusació. Correcta (b): els interessats poden promoure la recusació en qualsevol moment de la tramitació del procediment, quan concorri una causa d'abstenció (art. 24 Llei 40/2015). Per què no: (a) no es limita a l'inici; (c) no és després de la resolució; (d) es planteja davant l'Administració, no el contenciós. Base: art. 24 Llei 40/2015.",
-      "source": "L40_2015",
-      "article": "art. 24 Llei 40/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "El tràmit d'audiència a l'interessat es practica:",
-      "options": [
-        "A l'inici del procediment, abans de qualsevol actuació d'instrucció",
-        "Un cop instruït el procediment i immediatament abans de la proposta de resolució",
-        "Després de dictar-se la resolució, per si l'interessat vol al·legar-hi",
-        "Només quan ho sol·licita expressament la persona interessada per escrit"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el moment de l'audiència. Correcta (b): el tràmit d'audiència es practica un cop instruït el procediment i immediatament abans de redactar la proposta de resolució (art. 82). Per què no: (a) no és a l'inici; (c) no és després de la resolució; (d) és preceptiu (amb les excepcions legals), no a petició. Base: art. 82 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 82 Llei 39/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "Com es computen els terminis fixats en mesos o en anys?",
-      "options": [
-        "Sumant els dies hàbils que conté cada mes, excloent dissabtes i festius",
-        "De data a data; si al mes de venciment no hi ha dia equivalent, l'últim dia del mes",
-        "Comptant trenta dies naturals per cada mes, amb independència del calendari",
-        "Des de la data de l'acte, sense comptar mai el mes en què es notifica"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el còmput en mesos o anys. Correcta (b): els terminis fixats en mesos o anys es computen de data a data; si al mes de venciment no hi ha dia equivalent al de la notificació, el termini acaba l'últim dia del mes (art. 30.4). Per què no: (a) els mesos no es compten per dies hàbils; (c) no són 30 dies fixos; (d) no exclou el mes de notificació. Base: art. 30.4 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 30.4 Llei 39/2015"
-    },
-    {
       "theme": 11,
       "block": 2,
       "q": "Quin és el termini per resoldre i notificar un recurs d'alçada, i quin efecte té el silenci?",
@@ -2614,21 +2044,6 @@
       "explain": "Es pregunta el termini i el silenci de l'alçada. Correcta (b): el termini per resoldre i notificar l'alçada és de tres mesos; transcorregut sense resolució, el silenci és, en general, desestimatori (art. 122). Per què no: (a), (c) i (d) no s'ajusten al termini ni al sentit del silenci. Base: art. 122 Llei 39/2015.",
       "source": "L39_2015",
       "article": "art. 122 Llei 39/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "Quan es produeix la caducitat d'un procediment iniciat d'ofici?",
-      "options": [
-        "Quan la persona interessada deixa de tenir cap interès legítim en la resolució del procediment",
-        "Quan, en procediments que poden produir efectes desfavorables, venç el termini sense resoldre",
-        "Sempre que transcorrin tres mesos des de l'inici, en qualsevol procediment",
-        "Quan l'Administració decideix arxivar voluntàriament les actuacions"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la caducitat dels procediments d'ofici. Correcta (b): en els procediments iniciats d'ofici susceptibles de produir efectes desfavorables o de gravamen, el venciment del termini màxim sense resolució produeix la caducitat i l'arxiu (art. 25). Per què no: (a) no depèn de l'interès de l'interessat; (c) no és un termini fix de 3 mesos per a tots; (d) no és un arxiu voluntari. Base: art. 25 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 25 Llei 39/2015"
     },
     {
       "theme": 11,
@@ -3034,81 +2449,6 @@
       "explain": "Es pregunta la prescripció en sòl protegit. Correcta (b): en sòl no urbanitzable d'especial protecció, l'acció de restauració de la legalitat és imprescriptible. Per què no: (a) el termini de sis anys és el general, però no s'aplica aquí; (c) no és de dos anys; (d) sí que es pot exercir (de fet, sense límit temporal). Base: art. 207 TRLUC.",
       "source": "TRLUC",
       "article": "art. 207 TRLUC"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Quina és la forma política de l'Estat espanyol segons l'article 1.3 de la Constitució?",
-      "options": [
-        "La república parlamentària de caràcter federal",
-        "La monarquia parlamentària",
-        "L'Estat autonòmic de caràcter confederal",
-        "La democràcia presidencialista"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la forma política de l'Estat. Correcta (b): l'art. 1.3 CE estableix que la forma política de l'Estat espanyol és la monarquia parlamentària. Per què no: (a), (c) i (d) no es corresponen amb la definició constitucional. Base: art. 1.3 CE.",
-      "source": "CE1978",
-      "article": "art. 1.3 CE"
-    },
-    {
-      "theme": 1,
-      "block": 1,
-      "q": "Quin òrgan és l'intèrpret suprem de la Constitució?",
-      "options": [
-        "El Tribunal Suprem, com a òrgan superior de la jurisdicció ordinària",
-        "El Tribunal Constitucional",
-        "El Consell General del Poder Judicial",
-        "El Consell d'Estat com a òrgan consultiu suprem del Govern"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta l'intèrpret de la Constitució. Correcta (b): el Tribunal Constitucional (Títol IX CE) és l'intèrpret suprem de la Constitució, independent dels altres òrgans constitucionals. Per què no: (a) el Tribunal Suprem és l'òrgan superior de la jurisdicció ordinària; (c) i (d) tenen altres funcions. Base: arts. 159-165 CE.",
-      "source": "CE1978",
-      "article": "arts. 159-165 CE"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "La província, en l'organització territorial de l'Estat, és:",
-      "options": [
-        "Un mer òrgan perifèric de l'Administració general de l'Estat sense autonomia",
-        "Una entitat local amb personalitat jurídica pròpia i autonomia",
-        "Una divisió administrativa dependent de la comunitat autònoma",
-        "Una agrupació voluntària de municipis sense personalitat pròpia"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la naturalesa de la província. Correcta (b): la província és una entitat local amb personalitat jurídica pròpia, determinada per l'agrupació de municipis, amb autonomia per gestionar els seus interessos (art. 141 CE). Per què no: (a) sí que té autonomia; (c) no depèn de la CA; (d) no és voluntària ni manca de personalitat. Base: art. 141 CE.",
-      "source": "LRBRL",
-      "article": "art. 141 CE"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "Quina majoria s'exigeix, en general, per a l'aprovació del reglament orgànic municipal?",
-      "options": [
-        "Majoria simple del nombre de regidors presents a la sessió del Ple",
-        "Majoria absoluta del nombre legal de membres del Ple",
-        "Unanimitat de tots els membres de la corporació local",
-        "Majoria de dos terços del nombre legal de membres del Ple"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la majoria per al reglament orgànic. Correcta (b): l'aprovació o modificació del reglament orgànic, com altres assumptes de l'art. 47.2 LRBRL, exigeix la majoria absoluta del nombre legal de membres del Ple. Per què no: (a) no n'hi ha prou amb la majoria simple; (c) no cal unanimitat; (d) no s'exigeix la majoria de dos terços. Base: art. 47.2 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 47.2 LRBRL"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Quins serveis ha de prestar, com a mínim, tot municipi sigui quina sigui la seva població?",
-      "options": [
-        "Transport col·lectiu urbà de viatgers i protecció del medi ambient urbà",
-        "Enllumenat públic, cementiri, recollida de residus, aigua potable i clavegueram",
-        "Biblioteca pública, parc públic i instal·lacions esportives d'ús públic",
-        "Serveis socials, protecció civil i prevenció i extinció d'incendis"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta els serveis mínims de tots els municipis. Correcta (b): tots els municipis han de prestar enllumenat públic, cementiri, recollida de residus, neteja viària, abastament d'aigua potable, clavegueram, accés als nuclis i pavimentació de vies (art. 26.1.a). Per què no: (a) és per a >50.000 hab.; (c) per a >5.000 hab. (parc i biblioteca) i >20.000 (esportives); (d) per a >20.000 hab. Base: art. 26 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 26 LRBRL"
     },
     {
       "theme": 16,
@@ -3561,66 +2901,6 @@
       "article": "art. 16 Llei 31/1995"
     },
     {
-      "theme": 4,
-      "block": 1,
-      "q": "La Junta de Govern Local és un òrgan necessari:",
-      "options": [
-        "En tots els municipis, sigui quina sigui la seva població de dret",
-        "Als municipis de més de 5.000 habitants i, en els altres, quan ho acordi el Ple",
-        "Únicament als municipis de més de 50.000 habitants o capitals de província",
-        "Només quan el reglament orgànic municipal en prevegi expressament l'existència"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta quan és necessària la Junta de Govern Local. Correcta (b): la JGL és òrgan necessari als municipis de més de 5.000 habitants i, en la resta, quan ho disposi el reglament orgànic o ho acordi el Ple (art. 20 LRBRL). Per què no: (a) no és a tots; (c) no es limita als de 50.000; (d) també ho és per llei a partir de 5.000 hab. Base: art. 20 LRBRL.",
-      "source": "LRBRL",
-      "article": "art. 20 LRBRL"
-    },
-    {
-      "theme": 6,
-      "block": 2,
-      "q": "Quan és obligatòria la motivació d'un acte administratiu?",
-      "options": [
-        "Sempre, en qualsevol acte de tràmit que es dicti durant el procediment",
-        "En els actes que limiten drets, els discrecionals i els sancionadors, entre d'altres",
-        "Únicament en els actes que dicta un òrgan col·legiat per majoria",
-        "Mai, llevat que la persona interessada en demani expressament la motivació"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta quan cal motivar. Correcta (b): l'art. 35 imposa motivar, entre d'altres, els actes que limiten drets o interessos legítims, els discrecionals, els sancionadors, els que resolen recursos i els que se separen del criteri precedent. Per què no: (a) no tots els actes de tràmit; (c) no depèn del tipus d'òrgan; (d) la motivació no depèn que es demani. Base: art. 35 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 35 Llei 39/2015"
-    },
-    {
-      "theme": 7,
-      "block": 2,
-      "q": "Els actes administratius es presumeixen:",
-      "options": [
-        "Nuls fins que un òrgan superior en confirmi expressament la validesa",
-        "Vàlids i produeixen efectes des de la data en què es dicten",
-        "Eficaços només a partir de la seva inscripció en un registre públic",
-        "Provisionals fins que transcorri el termini per interposar-hi recursos"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la presumpció de validesa. Correcta (b): els actes administratius es presumeixen vàlids i produeixen efectes des de la data en què es dicten, llevat de demora de l'eficàcia (art. 38 i 39). Per què no: (a) no es presumeixen nuls; (c) l'eficàcia no depèn d'una inscripció registral; (d) no són provisionals fins al termini de recurs. Base: arts. 38-39 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "arts. 38-39 Llei 39/2015"
-    },
-    {
-      "theme": 9,
-      "block": 2,
-      "q": "Quina és, en defecte de norma específica, la durada del termini per resoldre un procediment?",
-      "options": [
-        "Quinze dies hàbils des de l'entrada de la sol·licitud al registre",
-        "Tres mesos",
-        "Sis mesos en tots els procediments iniciats a sol·licitud de l'interessat",
-        "Un any des de l'acord d'incoació del procediment d'ofici"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el termini supletori. Correcta (b): quan les normes reguladores no fixin el termini màxim, aquest serà de tres mesos (art. 21.3). Per què no: (a) no són quinze dies; (c) sis mesos és per a procediments concrets (p. ex. responsabilitat patrimonial); (d) no és un any. Base: art. 21 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 21 Llei 39/2015"
-    },
-    {
       "theme": 20,
       "block": 5,
       "q": "Quina és la regla general d'utilització dels procediments obert i restringit segons la LCSP?",
@@ -3724,66 +3004,6 @@
       "explain": "Es pregunta el dret de vaga. Correcta (b): els funcionaris tenen dret a l'exercici de la vaga, amb la garantia del manteniment dels serveis essencials de la comunitat (art. 15 TREBEP). Per què no: (a) sí que existeix; (c) no és il·limitat (cal garantir serveis essencials); (d) no es limita a l'àmbit local. Base: art. 15 TREBEP.",
       "source": "TREBEP",
       "article": "art. 15 TREBEP"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "El Consell de Garanties Estatutàries de Catalunya té com a funció:",
-      "options": [
-        "Resoldre els recursos d'empara dels ciutadans davant les administracions catalanes",
-        "Dictaminar sobre l'adequació de projectes normatius a l'Estatut i a la Constitució",
-        "Fiscalitzar els comptes i la gestió econòmica del sector públic català",
-        "Jutjar les causes penals contra els membres del Govern de la Generalitat"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la funció del CGE. Correcta (b): el Consell de Garanties Estatutàries dictamina sobre l'adequació a l'Estatut i a la Constitució dels projectes i proposicions normatives. Per què no: (a) l'empara és del TC; (c) és funció de la Sindicatura de Comptes; (d) no jutja causes penals. Base: art. 76 EAC.",
-      "source": "EAC2006",
-      "article": "art. 76 EAC"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "A Catalunya, quins ens locals propis preveu l'Estatut, a més del municipi?",
-      "options": [
-        "La província i la mancomunitat de municipis exclusivament",
-        "La comarca i la vegueria",
-        "El consorci i la societat municipal de capital públic",
-        "El districte i l'entitat metropolitana de transport"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta els ens locals propis de Catalunya. Correcta (b): l'Estatut configura com a ens locals propis, a més del municipi, la comarca i la vegueria (a més de les àrees metropolitanes i mancomunitats). Per què no: (a) és incompleta i no recull la vegueria; (c) el consorci i la societat no són ens locals territorials propis; (d) no són les categories estatutàries. Base: art. 83 i ss. EAC.",
-      "source": "EAC2006",
-      "article": "art. 83 EAC"
-    },
-    {
-      "theme": 8,
-      "block": 2,
-      "q": "Quan ha d'abstenir-se una autoritat o personal al servei de l'Administració?",
-      "options": [
-        "Sempre que la persona interessada en el procediment li ho sol·liciti per escrit",
-        "Quan concorri una causa d'abstenció, com l'interès personal o el parentiu proper",
-        "Únicament quan ho ordeni expressament el seu superior jeràrquic directe",
-        "Només en els procediments de caràcter sancionador o de responsabilitat patrimonial"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta el deure d'abstenció. Correcta (b): qui concorri en una causa d'abstenció (interès personal, parentiu dins del quart grau, amistat íntima o enemistat, etc.) s'ha d'abstenir i comunicar-ho al superior (art. 23 Llei 40/2015). Per què no: (a) no depèn de la petició de l'interessat; (c) no cal una ordre del superior; (d) no es limita a sancionadors o responsabilitat. Base: art. 23 Llei 40/2015.",
-      "source": "L40_2015",
-      "article": "art. 23 Llei 40/2015"
-    },
-    {
-      "theme": 10,
-      "block": 2,
-      "q": "La tramitació d'urgència d'un procediment administratiu comporta:",
-      "options": [
-        "L'eliminació del tràmit d'audiència a la persona interessada",
-        "La reducció a la meitat dels terminis establerts per al procediment ordinari",
-        "La resolució immediata sense necessitat de cap instrucció prèvia",
-        "L'ampliació automàtica dels terminis fins al doble de la seva durada"
-      ],
-      "correct": 1,
-      "explain": "Es pregunta la tramitació d'urgència. Correcta (b): la tramitació d'urgència redueix a la meitat els terminis establerts per al procediment ordinari (excepte els relatius a la presentació de sol·licituds i recursos) (art. 33 Llei 39/2015). Per què no: (a) no elimina l'audiència; (c) no suprimeix la instrucció; (d) no amplia els terminis, els redueix. Base: art. 33 Llei 39/2015.",
-      "source": "L39_2015",
-      "article": "art. 33 Llei 39/2015"
     },
     {
       "theme": 22,
@@ -4116,21 +3336,6 @@
       "article": "gestió per objectius"
     },
     {
-      "theme": 2,
-      "block": 1,
-      "q": "El títol I de l'Estatut d'autonomia de Catalunya regula:",
-      "options": [
-        "Els drets, deures i principis rectors",
-        "El finançament de la Unió Europea",
-        "El règim electoral general de l'Estat",
-        "La planificació urbanística municipal"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el contingut del títol I de l'EAC. Correcta (a): el títol I recull els drets, deures i principis rectors. Per què no: (b) i (c) no són matèria estatutària catalana; (d) l'urbanisme es regula en la legislació sectorial. Base: estructura de l'EAC.",
-      "source": "EAC2006",
-      "article": "Títol I"
-    },
-    {
       "theme": 12,
       "block": 3,
       "q": "El pressupost de les entitats locals té caràcter:",
@@ -4249,96 +3454,6 @@
       "explain": "Es pregunta el risc operacional. Correcta (a): el tret distintiu de les concessions és que el concessionari assumeix el risc operacional (de demanda o disponibilitat). Per què no: (b) si el risc fos de l'administració no seria concessió; (c) sí que existeix; (d) no necessàriament a parts iguals. Base: art. 14 LCSP.",
       "source": "LCSP",
       "article": "Risc operacional"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "L'Estatut d'autonomia de Catalunya de 2006 es va aprovar finalment mitjançant:",
-      "options": [
-        "Llei orgànica de les Corts Generals i ratificació en referèndum del poble de Catalunya",
-        "Un acord adoptat exclusivament pel Parlament de Catalunya sense intervenció estatal",
-        "Un decret aprovat pel Govern de la Generalitat amb informe del Consell de Garanties",
-        "Una sentència interpretativa dictada pel Tribunal Constitucional sobre l'autonomia"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta com s'aprova l'Estatut. Correcta (a): l'EAC és llei orgànica de les Corts Generals ratificada en referèndum pel poble de Catalunya (art. 147 CE). Per què no: (b) cal l'aval estatal i el referèndum; (c) no és un decret; (d) el TC no aprova estatuts. Base: art. 147 CE.",
-      "source": "EAC2006",
-      "article": "Aprovació"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "Segons l'Estatut, la Generalitat de Catalunya com a sistema institucional està integrada per:",
-      "options": [
-        "El Parlament, la Presidència de la Generalitat, el Govern i les altres institucions estatutàries",
-        "Únicament pel Govern i el president, que concentren tota la representació institucional",
-        "De manera exclusiva pel Parlament, en tant que òrgan de representació del poble",
-        "Els ajuntaments i les diputacions provincials del territori de Catalunya"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la composició de la Generalitat. Correcta (a): s'integra pel Parlament, la Presidència, el Govern i la resta d'institucions estatutàries. Per què no: (b) i (c) són parcials; (d) els ens locals no formen part de la Generalitat-institució. Base: EAC, sistema institucional.",
-      "source": "EAC2006",
-      "article": "Institucions"
-    },
-    {
-      "theme": 2,
-      "block": 1,
-      "q": "Dins l'estructura de l'Estatut d'autonomia de Catalunya, el títol I està dedicat a regular:",
-      "options": [
-        "Els drets, els deures i els principis rectors aplicables en l'àmbit de Catalunya",
-        "El finançament i els fons estructurals procedents de la Unió Europea",
-        "El règim electoral general aplicable al conjunt de l'Estat espanyol",
-        "La planificació urbanística i les competències dels municipis catalans"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el contingut del títol I de l'EAC. Correcta (a): el títol I recull els drets, deures i principis rectors. Per què no: (b) i (c) no són matèria estatutària catalana; (d) l'urbanisme es regula en lleis sectorials. Base: estructura de l'EAC.",
-      "source": "EAC2006",
-      "article": "Títol I"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Les competències pròpies dels municipis es determinen, d'acord amb la Llei de bases de règim local:",
-      "options": [
-        "Per llei estatal o autonòmica, garantint la participació del municipi en els assumptes que l'afecten",
-        "Lliurement per cada alcalde mitjançant un decret motivat de la seva pròpia autoritat",
-        "De manera exclusiva i directa pel text de la Constitució espanyola de 1978",
-        "Mitjançant els convenis de col·laboració subscrits amb la diputació provincial"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta com es determinen les competències pròpies. Correcta (a): per llei (estatal o autonòmica) amb garantia de participació (art. 25 LRBRL). Per què no: (b) l'alcalde no s'autoatribueix competències; (c) la CE garanteix l'autonomia però no les detalla; (d) els convenis no atribueixen competències pròpies. Base: art. 25 LRBRL.",
-      "source": "LRBRL",
-      "article": "Art. 25"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Les competències que un municipi exerceix per delegació d'una altra administració pública:",
-      "options": [
-        "S'exerceixen en els termes que fixa la delegació, que pot preveure tècniques de direcció i control",
-        "Esdevenen pròpies del municipi de manera definitiva i ja no es poden revocar mai",
-        "No necessiten que l'administració delegant aporti el finançament corresponent",
-        "Eximeixen completament el municipi de qualsevol mena de responsabilitat per la gestió"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el règim de les competències delegades. Correcta (a): s'exerceixen segons la delegació, amb control de l'administració delegant (art. 27 LRBRL). Per què no: (b) no esdevenen pròpies; (c) cal el finançament; (d) no eximeix de responsabilitat. Base: art. 27 LRBRL.",
-      "source": "LRBRL",
-      "article": "Art. 27"
-    },
-    {
-      "theme": 5,
-      "block": 1,
-      "q": "Les competències diferents de les pròpies i de les delegades que un municipi vulgui exercir requereixen:",
-      "options": [
-        "Que no posin en risc la sostenibilitat financera ni generin duplicitats amb una altra administració",
-        "En tot cas l'autorització prèvia i expressa del ministeri estatal que sigui competent",
-        "La seva aprovació mitjançant un referèndum convocat entre el veïnat del municipi",
-        "La cessió formal i prèvia de la titularitat per part de la diputació provincial"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta el règim de les competències impròpies. Correcta (a): l'art. 7.4 LRBRL exigeix que no hi hagi duplicitats i que no es posi en risc la sostenibilitat financera. Per què no: (b), (c) i (d) no són els requisits legals. Base: art. 7.4 LRBRL.",
-      "source": "LRBRL",
-      "article": "Art. 7.4"
     },
     {
       "theme": 12,
@@ -4699,66 +3814,6 @@
       "explain": "Es pregunta la posició de l'administració. Correcta (a): manté la titularitat i els poders de control. Per què no: (b) la gestió material la fa el concessionari; (c) el risc és del concessionari; (d) no és usuària. Base: LCSP, concessió.",
       "source": "LCSP",
       "article": "Concessió"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "Tenen la condició d'entitats locals territorials, segons la Llei de bases de règim local:",
-      "options": [
-        "El municipi, la província i l'illa en els arxipèlags balear i canari",
-        "Únicament el municipi i les mancomunitats de municipis voluntàries",
-        "Les comarques, les àrees metropolitanes i les entitats d'àmbit inferior",
-        "Els consorcis i les societats mercantils de capital íntegrament públic"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta les entitats locals territorials. Correcta (a): són el municipi, la província i l'illa (art. 3.1 LRBRL). Per què no: (b), (c) tenen la condició d'entitats locals però no territorials en sentit estricte; (d) no són entitats locals territorials. Base: art. 3 LRBRL.",
-      "source": "LRBRL",
-      "article": "Art. 3"
-    },
-    {
-      "theme": 3,
-      "block": 1,
-      "q": "La província es defineix, a la Llei de bases de règim local, com:",
-      "options": [
-        "Una entitat local amb personalitat jurídica pròpia i agrupació de municipis",
-        "Una mera circumscripció electoral sense personalitat jurídica de cap mena",
-        "Un òrgan desconcentrat de l'Administració general de l'Estat al territori",
-        "Una divisió exclusivament estadística sense competències administratives"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la naturalesa de la província. Correcta (a): és entitat local determinada per l'agrupació de municipis, amb personalitat jurídica pròpia (art. 31 LRBRL). Per què no: (b) és també entitat local, no només circumscripció; (c) i (d) no la defineixen. Base: art. 31 LRBRL.",
-      "source": "LRBRL",
-      "article": "Art. 31"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "L'alcalde, en el sistema d'organització municipal, és elegit:",
-      "options": [
-        "Pels regidors d'entre ells mateixos, o bé esdevé alcalde el cap de la llista més votada",
-        "Directament per la ciutadania en una votació separada de la dels regidors",
-        "Per la junta de govern local d'entre els seus membres designats",
-        "Pel ple a proposta vinculant de la diputació provincial corresponent"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta l'elecció de l'alcalde. Correcta (a): l'elegeixen els regidors d'entre ells; si cap no obté majoria absoluta, és alcalde el cap de la llista més votada (LOREG). Per què no: (b) no és elecció directa separada; (c) i (d) són incorrectes. Base: règim electoral local.",
-      "source": "LRBRL",
-      "article": "Alcalde"
-    },
-    {
-      "theme": 4,
-      "block": 1,
-      "q": "El ple de l'ajuntament està integrat per:",
-      "options": [
-        "L'alcalde i la totalitat dels regidors del municipi",
-        "Únicament els regidors amb delegacions de l'alcalde",
-        "L'alcalde i els membres de la junta de govern local",
-        "Els regidors i els representants dels grups veïnals"
-      ],
-      "correct": 0,
-      "explain": "Es pregunta la composició del ple. Correcta (a): el ple l'integren l'alcalde i tots els regidors (art. 22 LRBRL). Per què no: (b) i (c) són parcials; (d) els veïns no en formen part. Base: art. 22 LRBRL.",
-      "source": "LRBRL",
-      "article": "Art. 22"
     },
     {
       "theme": 18,
@@ -7144,6 +6199,756 @@
       "explain": "Es pregunta el coordinador. Correcta (a): el coordinador de seguretat i salut. Per què no: (b), (c) i (d) són incorrectes. Base: normativa d'obres de construcció.",
       "source": "L31_1995",
       "article": "Coordinador SS"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Quin procediment de reforma constitucional (agreujat, art. 168 CE) s'aplica si es vol revisar el títol preliminar, els drets fonamentals de la secció 1a del capítol II del títol I o la Corona?",
+      "options": [
+        "Aprovació per majoria de 2/3 de cada cambra, dissolució de les Corts, ratificació per les noves cambres per 2/3 i referèndum obligatori",
+        "Aprovació per majoria absoluta del Congrés i referèndum facultatiu si ho demana 1/10 dels diputats",
+        "Aprovació per 3/5 de cada cambra i referèndum només si ho demanen 35 diputats o senadors",
+        "N'hi ha prou amb una llei orgànica aprovada per majoria absoluta del Congrés"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 168 preveu el procediment agreujat per a la revisió total o de les parts més protegides (títol preliminar, drets fonamentals de la secció 1a i Corona): 2/3 de cada cambra, dissolució, noves eleccions, ratificació per 2/3 i referèndum SEMPRE obligatori. (c) descriu el procediment ordinari de l'art. 167 (3/5 i referèndum facultatiu). (b) i (d) són inventats.",
+      "source": "CE1978",
+      "article": "art. 168 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Segons l'art. 1.1 de la Constitució, quins són els valors superiors de l'ordenament jurídic?",
+      "options": [
+        "La llibertat, la justícia, la igualtat i el pluralisme polític",
+        "La sobirania, la unitat, la solidaritat i l'autonomia",
+        "La dignitat, la seguretat, la propietat i la família",
+        "La legalitat, la jerarquia, la publicitat i la irretroactivitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 1.1 proclama com a valors superiors la llibertat, la justícia, la igualtat i el pluralisme polític. (d) enumera principis de l'art. 9.3 (garanties de l'ordenament), no valors superiors. (b) i (c) barregen conceptes d'altres articles.",
+      "source": "CE1978",
+      "article": "art. 1.1 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Quins drets gaudeixen del màxim nivell de protecció (recurs d'empara davant el Tribunal Constitucional i reserva de llei orgànica)?",
+      "options": [
+        "Els drets fonamentals i les llibertats públiques (arts. 14 a 29) i l'objecció de consciència (art. 30)",
+        "Tots els drets i deures del capítol II del títol I sense distinció",
+        "Els principis rectors de la política social i econòmica del capítol III",
+        "Únicament els drets de l'àmbit econòmic i laboral"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la màxima protecció (empara constitucional, tutela judicial preferent i sumària, reserva de llei orgànica) es reserva als arts. 14 a 29 i a l'objecció de consciència (art. 30.2). Els principis rectors (c) només es poden al·legar segons les lleis que els despleguin i no tenen empara.",
+      "source": "CE1978",
+      "article": "arts. 53 i 161 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Com defineix l'art. 1 de la Constitució la forma política de l'Estat espanyol?",
+      "options": [
+        "Una monarquia parlamentària, en el marc d'un Estat social i democràtic de dret",
+        "Una república parlamentària de caràcter federal",
+        "Una monarquia constitucional amb sobirania compartida entre el Rei i les Corts",
+        "Un Estat autonòmic de naturalesa confederal"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 1.3 estableix que la forma política de l'Estat és la monarquia parlamentària, i l'art. 1.1 el defineix com a Estat social i democràtic de dret. La sobirania nacional resideix en el poble espanyol (art. 1.2), no és compartida (descarta c).",
+      "source": "CE1978",
+      "article": "art. 1 CE"
+    },
+    {
+      "theme": 1,
+      "block": 1,
+      "q": "Quan es poden suspendre determinats drets fonamentals amb caràcter general?",
+      "options": [
+        "En els estats d'excepció i de setge, amb els límits i garanties que fixa l'art. 55.1",
+        "Per decisió lliure del Govern sempre que ho consideri necessari per a l'ordre públic",
+        "Mai; els drets fonamentals són absoluts i no admeten cap suspensió",
+        "Només mitjançant una reforma constitucional pel procediment agreujat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 55.1 permet la suspensió general de determinats drets en els estats d'excepció i de setge (declarats segons l'art. 116 i la LO 4/1981). També hi ha una suspensió individual (art. 55.2) per a investigacions de bandes armades/terrorisme. (c) és fals: no són absoluts.",
+      "source": "CE1978",
+      "article": "art. 55 CE"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "Segons l'Estatut d'autonomia de Catalunya (2006), en què consisteixen les competències exclusives de la Generalitat (art. 110)?",
+      "options": [
+        "Corresponen a la Generalitat de manera íntegra la potestat legislativa, la reglamentària i la funció executiva",
+        "La Generalitat només té la funció executiva i l'Estat es reserva tota la legislació",
+        "La Generalitat desplega per reglament la legislació bàsica de l'Estat",
+        "Es reparteixen sempre a parts iguals entre l'Estat i la Generalitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): en les competències exclusives (art. 110) corresponen a la Generalitat de forma íntegra la potestat legislativa, la reglamentària i la funció executiva; el dret propi és aplicable de manera preferent. (c) descriu les compartides (art. 111) i (b) les executives (art. 112).",
+      "source": "EAC2006",
+      "article": "art. 110 EAC"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "En les competències compartides (art. 111 EAC), quin és el paper de la Generalitat?",
+      "options": [
+        "La legislació de desenvolupament i l'execució, dins el marc de la legislació bàsica de l'Estat",
+        "Únicament l'execució de la normativa estatal",
+        "La potestat legislativa íntegra sense cap límit estatal",
+        "Cap paper, perquè les exerceix exclusivament l'Estat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): en les competències compartides, l'Estat fixa les bases (principis o mínim comú normatiu) i la Generalitat hi exerceix la legislació de desenvolupament i l'execució. En les executives (art. 112), en canvi, només li correspon la funció executiva (incloent-hi la potestat reglamentària d'organització).",
+      "source": "EAC2006",
+      "article": "art. 111 EAC"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "Què és la Generalitat de Catalunya segons l'Estatut?",
+      "options": [
+        "El sistema institucional en què s'organitza l'autogovern de Catalunya, integrat pel Parlament, la Presidència, el Govern i altres institucions",
+        "Exclusivament el Govern i la seva Administració",
+        "Únicament el Parlament de Catalunya",
+        "Un ens local de caràcter supramunicipal"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la Generalitat és el sistema institucional de l'autogovern, integrat pel Parlament, la Presidència de la Generalitat, el Govern, i també altres institucions que estableix l'Estatut (Consell de Garanties Estatutàries, Síndic de Greuges, Sindicatura de Comptes...).",
+      "source": "EAC2006",
+      "article": "art. 2 EAC"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "Quina majoria es requereix per a la reforma de l'Estatut d'autonomia de Catalunya?",
+      "options": [
+        "L'aprovació pel Parlament per majoria de dos terços, l'aprovació de les Corts Generals per llei orgànica i el referèndum del poble de Catalunya",
+        "Només la majoria simple del Parlament de Catalunya",
+        "Una llei ordinària de les Corts Generals, sense referèndum",
+        "Un decret del Govern de la Generalitat ratificat pel Congrés"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la reforma estatutària exigeix majoria qualificada del Parlament (dos terços), l'aprovació de les Corts Generals mitjançant llei orgànica i, finalment, la ratificació en referèndum pel poble de Catalunya. És un procediment rígid, coherent amb la naturalesa de l'Estatut com a norma institucional bàsica.",
+      "source": "EAC2006",
+      "article": "arts. 222-223 EAC"
+    },
+    {
+      "theme": 2,
+      "block": 1,
+      "q": "L'Estatut d'autonomia de Catalunya de 2006, dins l'ordenament jurídic, és:",
+      "options": [
+        "La norma institucional bàsica de Catalunya, aprovada com a llei orgànica de l'Estat",
+        "Un reglament del Govern de la Generalitat",
+        "Una llei ordinària del Parlament de Catalunya",
+        "Un tractat internacional subscrit amb l'Estat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'Estatut és la norma institucional bàsica de la comunitat autònoma (art. 147 CE) i s'aprova i es reforma per llei orgànica de les Corts Generals; per això té una posició reforçada respecte de la resta de lleis autonòmiques.",
+      "source": "EAC2006",
+      "article": "art. 1 EAC / art. 147 CE"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "Quines entitats tenen la condició d'ens locals territorials segons l'art. 3.1 de la LRBRL?",
+      "options": [
+        "El municipi, la província i l'illa (als arxipèlags)",
+        "La comarca, la mancomunitat i l'àrea metropolitana",
+        "Únicament el municipi",
+        "El municipi, la comarca i la vegueria"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 3.1 reconeix com a ens locals territorials el municipi, la província i l'illa. Les comarques, àrees metropolitanes, mancomunitats i entitats d'àmbit territorial inferior al municipi són altres entitats locals (art. 3.2), no territorials en sentit estricte.",
+      "source": "LRBRL",
+      "article": "art. 3 LRBRL"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "Quines entitats enumera l'art. 3.2 de la LRBRL com a altres entitats locals (no territorials)?",
+      "options": [
+        "Les comarques, les àrees metropolitanes, les mancomunitats de municipis i les entitats d'àmbit territorial inferior al municipi",
+        "El municipi, la província i l'illa",
+        "La Generalitat i les diputacions provincials",
+        "Els consorcis i les fundacions públiques"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 3.2 esmenta les comarques o altres entitats que agrupin municipis, les àrees metropolitanes, les mancomunitats de municipis i les entitats d'àmbit territorial inferior al municipi. Els consorcis (d) no són ens locals sinó entitats de cooperació.",
+      "source": "LRBRL",
+      "article": "art. 3.2 LRBRL"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "A Catalunya, l'organització territorial pròpia inclou:",
+      "options": [
+        "El municipi, la comarca i la vegueria com a ens locals de base territorial",
+        "Únicament el municipi i la província",
+        "Només les diputacions provincials",
+        "Exclusivament les mancomunitats"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'Estatut i la legislació catalana de règim local (DL 2/2003) configuren l'organització territorial de Catalunya sobre el municipi, la comarca i la vegueria, a més d'altres ens (àrees metropolitanes, mancomunitats, entitats municipals descentralitzades).",
+      "source": "DL2_2003",
+      "article": "art. 2 DL 2/2003"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "Quina és una manifestació essencial de l'autonomia local garantida per la Constitució (art. 137 i 140)?",
+      "options": [
+        "La gestió dels interessos propis de la col·lectivitat local per òrgans propis i sota la seva responsabilitat",
+        "La independència absoluta respecte de l'Estat i la comunitat autònoma",
+        "La potestat de dictar lleis en matèries de la seva competència",
+        "La facultat de recaptar qualsevol tribut sense límit legal"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'autonomia local és el dret i la capacitat efectiva de gestionar una part important dels assumptes públics, en interès de la col·lectivitat i sota la pròpia responsabilitat. No és sobirania (no poden dictar lleis, descarta c) ni independència absoluta (b): estan subjectes a la llei.",
+      "source": "LRBRL",
+      "article": "arts. 137 i 140 CE"
+    },
+    {
+      "theme": 3,
+      "block": 1,
+      "q": "Quines potestats reconeix l'art. 4 de la LRBRL als municipis, les províncies i les illes?",
+      "options": [
+        "Entre d'altres, la reglamentària i d'autoorganització, la tributària i financera, la de programació i la d'execució forçosa i sancionadora",
+        "Únicament la potestat sancionadora",
+        "Cap potestat pública, ja que depenen de la comunitat autònoma",
+        "La potestat legislativa i la jurisdiccional"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 4.1 atribueix als ens locals territorials un feix de potestats públiques: reglamentària i d'autoorganització, tributària i financera, de programació o planificació, expropiatòria, d'investigació i recuperació de béns, de presumpció de legalitat i executivitat, d'execució forçosa i sancionadora, entre d'altres. Mai la legislativa ni la jurisdiccional (d).",
+      "source": "LRBRL",
+      "article": "art. 4 LRBRL"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "Quins són els elements essencials del municipi segons la LRBRL?",
+      "options": [
+        "El territori, la població i l'organització",
+        "El pressupost, el personal i el patrimoni",
+        "L'alcalde, el Ple i la Junta de Govern",
+        "La comarca, la província i l'Estat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el municipi és l'entitat local bàsica, definida per tres elements: el territori (terme municipal), la població (veïns inscrits al padró) i l'organització (òrgans de govern). (c) enumera òrgans, que formen part de l'element organitzatiu, però no són els tres elements.",
+      "source": "LRBRL",
+      "article": "art. 11 LRBRL"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "Quin òrgan municipal exerceix competències com l'aprovació dels pressupostos, les ordenances i els plans d'ordenació urbanística?",
+      "options": [
+        "El Ple",
+        "L'alcalde",
+        "La Junta de Govern Local",
+        "La Comissió Especial de Comptes"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 22 de la LRBRL atribueix al Ple, entre d'altres, l'aprovació inicial del planejament, les ordenances i reglaments, els pressupostos, la plantilla, l'alteració del terme, l'aprovació de les formes de gestió dels serveis i les operacions financeres rellevants. L'alcalde (b) té la direcció del govern i l'administració ordinària (art. 21).",
+      "source": "LRBRL",
+      "article": "art. 22 LRBRL"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "Quina de les següents és una competència pròpia de l'alcalde segons l'art. 21 de la LRBRL?",
+      "options": [
+        "Dirigir el govern i l'administració municipal i dictar bans",
+        "Aprovar el pressupost general de l'entitat",
+        "Aprovar les ordenances fiscals",
+        "Aprovar la plantilla de personal"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'alcalde dirigeix el govern i l'administració municipal, representa l'ajuntament, convoca i presideix les sessions, dicta bans i exerceix la prefectura del personal, entre d'altres (art. 21). L'aprovació del pressupost, les ordenances i la plantilla corresponen al Ple (art. 22).",
+      "source": "LRBRL",
+      "article": "art. 21 LRBRL"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "Com es pot exigir la responsabilitat política de l'alcalde durant el mandat?",
+      "options": [
+        "Mitjançant una moció de censura, que ha de ser subscrita per la majoria absoluta i incloure un candidat alternatiu",
+        "Per decisió unilateral del Ple per majoria simple sense candidat alternatiu",
+        "Únicament en les eleccions municipals ordinàries",
+        "Per resolució del delegat del Govern"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la moció de censura és constructiva: l'ha de subscriure la majoria absoluta dels regidors i ha d'incloure un candidat a l'alcaldia, que resulta elegit si prospera. També existeix la qüestió de confiança que planteja el mateix alcalde vinculada a determinats assumptes.",
+      "source": "LRBRL",
+      "article": "art. 22 LRBRL / LOREG"
+    },
+    {
+      "theme": 4,
+      "block": 1,
+      "q": "Quina és la naturalesa de la Junta de Govern Local?",
+      "options": [
+        "Òrgan d'assistència a l'alcalde, integrat per regidors nomenats i cessats lliurement per ell, obligatori en municipis de més de 5.000 habitants",
+        "Òrgan de representació de tots els grups polítics escollit pel Ple",
+        "Òrgan de control extern dels comptes municipals",
+        "Òrgan jurisdiccional que resol els recursos dels veïns"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la Junta de Govern Local assisteix l'alcalde i exerceix les competències que li deleguin l'alcalde o el Ple. La integren l'alcalde i un nombre de regidors no superior a un terç, nomenats i separats lliurement per l'alcalde. És obligatòria en municipis de més de 5.000 habitants (i on ho disposi el ROM).",
+      "source": "LRBRL",
+      "article": "art. 23 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "Quina diferència hi ha entre competències pròpies i competències delegades dels municipis?",
+      "options": [
+        "Les pròpies s'exerceixen en règim d'autonomia i sota la pròpia responsabilitat; les delegades s'exerceixen segons la direcció i el control de l'administració delegant",
+        "No hi ha cap diferència: totes s'exerceixen igual",
+        "Les pròpies les fixa l'alcalde i les delegades el Ple",
+        "Les delegades no requereixen finançament de cap tipus"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): segons l'art. 7 de la LRBRL, les competències pròpies s'exerceixen en règim d'autonomia; les delegades, sota la direcció i el control de l'administració titular, i han d'anar acompanyades del finançament corresponent i tenir una durada mínima.",
+      "source": "LRBRL",
+      "article": "art. 7 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "Segons l'art. 26 de la LRBRL, quins serveis han de prestar TOTS els municipis, sigui quina sigui la població?",
+      "options": [
+        "Enllumenat públic, cementiri, recollida de residus, neteja viària, abastament d'aigua potable, clavegueram, accés als nuclis i pavimentació de les vies",
+        "Transport col·lectiu urbà i protecció del medi ambient",
+        "Parc públic, biblioteca i tractament de residus",
+        "Protecció civil i instal·lacions esportives d'ús públic"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 26.1.a exigeix a tots els municipis, amb independència de la població, els serveis d'enllumenat públic, cementiri, recollida de residus, neteja viària, abastament domiciliari d'aigua potable, clavegueram, accés als nuclis de població i pavimentació de les vies públiques. La resta d'opcions són serveis exigibles a partir de determinats trams de població.",
+      "source": "LRBRL",
+      "article": "art. 26 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "A partir de quina població és obligatori el servei de transport col·lectiu urbà de viatgers segons l'art. 26 de la LRBRL?",
+      "options": [
+        "Més de 50.000 habitants",
+        "Més de 5.000 habitants",
+        "Més de 20.000 habitants",
+        "A tots els municipis"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): el transport col·lectiu urbà de viatgers és exigible en municipis de més de 50.000 habitants, juntament amb el medi ambient urbà. En els de més de 5.000: parc públic, biblioteca i tractament de residus; en els de més de 20.000: protecció civil, serveis socials, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic.",
+      "source": "LRBRL",
+      "article": "art. 26 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "L'art. 25 de la LRBRL enumera matèries en què el municipi ha d'exercir competències pròpies. Quina n'és una?",
+      "options": [
+        "L'urbanisme, incloent-hi el planejament, la gestió i la disciplina urbanística",
+        "La defensa nacional",
+        "L'administració de justícia",
+        "La política monetària"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 25.2 relaciona les matèries de competència municipal (urbanisme, medi ambient urbà, abastament d'aigua, infraestructura viària, serveis socials, protecció de la salubritat pública, etc.). La defensa, la justícia i la política monetària són competències exclusives de l'Estat.",
+      "source": "LRBRL",
+      "article": "art. 25 LRBRL"
+    },
+    {
+      "theme": 5,
+      "block": 1,
+      "q": "Què és la reserva de serveis a favor de les entitats locals (art. 86.2 LRBRL)?",
+      "options": [
+        "La declaració de reserva a favor de les entitats locals d'activitats o serveis essencials com l'abastament d'aigua, la recollida i tractament de residus o el transport públic",
+        "La prohibició que els municipis prestin cap servei econòmic",
+        "L'obligació de privatitzar tots els serveis públics",
+        "La reserva de places de personal funcionari"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 86.2 declara la reserva a favor de les entitats locals de determinades activitats o serveis essencials (abastament domiciliari i depuració d'aigües, recollida i tractament de residus, transport públic de viatgers...), que poden prestar en règim de monopoli amb l'aprovació corresponent.",
+      "source": "LRBRL",
+      "article": "art. 86 LRBRL"
+    },
+    {
+      "theme": 6,
+      "block": 2,
+      "q": "Quins són els elements subjectiu, objectiu i formal de l'acte administratiu?",
+      "options": [
+        "L'òrgan competent, el contingut lícit i determinat (i la causa i el fi), i el procediment i la forma",
+        "El silenci, la notificació i la publicació",
+        "La motivació, la firma i el segell",
+        "El recurs, el termini i la caducitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'acte administratiu requereix un element subjectiu (l'òrgan administratiu competent, correctament investit), un element objectiu (contingut lícit, possible i determinat, amb una causa i un fi d'interès públic) i un element formal (el procediment degut i la forma d'exteriorització). Els altres conceptes són aspectes de l'eficàcia o de la impugnació.",
+      "source": "L39_2015",
+      "article": "art. 34 Llei 39/2015"
+    },
+    {
+      "theme": 6,
+      "block": 2,
+      "q": "En quin dels casos següents és obligatòria la motivació de l'acte administratiu (art. 35 Llei 39/2015)?",
+      "options": [
+        "En els actes que limiten drets subjectius, els que resolen recursos, els que se separen del criteri seguit en actuacions precedents i els discrecionals",
+        "Només en els actes favorables al ciutadà",
+        "En cap cas, perquè la motivació és sempre facultativa",
+        "Únicament en els actes verbals"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 35 exigeix motivació, entre d'altres, en els actes que limiten drets subjectius o interessos legítims, els que resolen procediments de recurs o revisió, els que se separen del criteri seguit en actuacions precedents, els discrecionals i els que posen fi als procediments selectius i de concurrència. La motivació és garantia de control i de defensa.",
+      "source": "L39_2015",
+      "article": "art. 35 Llei 39/2015"
+    },
+    {
+      "theme": 6,
+      "block": 2,
+      "q": "Segons l'art. 47 de la Llei 39/2015, un acte administratiu és nul de ple dret quan:",
+      "options": [
+        "Lesiona drets i llibertats susceptibles d'empara constitucional, o el dicta un òrgan manifestament incompetent per raó de la matèria o del territori, entre altres supòsits taxats",
+        "Té qualsevol defecte de forma, encara que sigui menor",
+        "S'ha dictat fora del termini màxim per resoldre",
+        "El signa un funcionari en lloc de l'alcalde"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): la nul·litat de ple dret és excepcional i taxada (art. 47): lesió de drets emparables, incompetència manifesta per matèria o territori, contingut impossible, actes constitutius d'infracció penal, prescindir totalment del procediment, etc. Els defectes de forma menors (b) o l'incompliment de terminis (c) generen, com a molt, anul·labilitat o cap invalidesa.",
+      "source": "L39_2015",
+      "article": "art. 47 Llei 39/2015"
+    },
+    {
+      "theme": 6,
+      "block": 2,
+      "q": "Quin és el règim general dels defectes de forma en el dret administratiu?",
+      "options": [
+        "Només determinen l'anul·labilitat si l'acte manca dels requisits formals indispensables per assolir el seu fi o generen indefensió (art. 48.2)",
+        "Comporten sempre la nul·litat de ple dret de l'acte",
+        "No tenen mai cap conseqüència jurídica",
+        "Obliguen a iniciar de nou tot el procediment en tots els casos"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 48.2 estableix que el defecte de forma només comporta anul·labilitat quan l'acte no reuneix els requisits formals indispensables per assolir el seu fi o produeix indefensió als interessats. La resta de defectes formals són irregularitats no invalidants, subsanables.",
+      "source": "L39_2015",
+      "article": "art. 48 Llei 39/2015"
+    },
+    {
+      "theme": 6,
+      "block": 2,
+      "q": "Com es classifiquen els actes administratius segons si posen fi o no a un procediment?",
+      "options": [
+        "En actes de tràmit (impulsen el procediment) i actes resolutoris o definitius (el resolen)",
+        "En actes expressos i actes presumptes exclusivament",
+        "En actes favorables i actes de gravamen únicament",
+        "En actes ferms i actes consentits únicament"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): segons la seva funció en el procediment, els actes es distingeixen en actes de tràmit (que l'impulsen i preparen la decisió) i actes resolutoris o definitius (que decideixen el fons). Els actes de tràmit qualificats (que decideixen el fons de manera indirecta, impedeixen continuar o causen indefensió) també són recurribles.",
+      "source": "L39_2015",
+      "article": "art. 34-36 Llei 39/2015"
+    },
+    {
+      "theme": 7,
+      "block": 2,
+      "q": "Què estableix l'art. 39 de la Llei 39/2015 sobre l'eficàcia dels actes administratius?",
+      "options": [
+        "Els actes es presumeixen vàlids i produeixen efectes des de la data en què es dicten, tret que el seu contingut disposi el contrari",
+        "Els actes no produeixen mai efectes fins que són ferms",
+        "Els actes només són eficaços després de ser revisats per un jutge",
+        "Els actes desfavorables tenen efectes retroactius en tot cas"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 39 recull la presumpció de validesa i l'eficàcia immediata dels actes des que es dicten, si bé l'eficàcia es pot demorar quan ho exigeix el contingut de l'acte o està supeditada a la notificació, publicació o aprovació superior. La retroactivitat és excepcional (art. 39.3).",
+      "source": "L39_2015",
+      "article": "art. 39 Llei 39/2015"
+    },
+    {
+      "theme": 7,
+      "block": 2,
+      "q": "Dins de quin termini s'ha de practicar la notificació d'una resolució?",
+      "options": [
+        "En el termini de deu dies a partir de la data en què l'acte s'hagi dictat",
+        "En el termini de tres mesos en tot cas",
+        "No hi ha cap termini per notificar",
+        "En el termini d'un any"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 40.2 estableix que tota notificació s'ha de cursar dins el termini de deu dies a partir de la data en què l'acte s'hagi dictat, i ha de contenir el text íntegre de la resolució, si posa fi a la via administrativa, els recursos que escaiguin i l'òrgan i el termini per interposar-los.",
+      "source": "L39_2015",
+      "article": "art. 40 Llei 39/2015"
+    },
+    {
+      "theme": 7,
+      "block": 2,
+      "q": "Quin principi regeix l'execució forçosa dels actes administratius?",
+      "options": [
+        "L'Administració pot procedir a l'execució forçosa dels actes a través dels mitjans taxats a la llei, prèvia advertència, respectant el principi de proporcionalitat",
+        "L'Administració necessita sempre una autorització judicial prèvia per executar qualsevol acte",
+        "L'execució forçosa està prohibida en el dret administratiu",
+        "L'execució només es pot fer si el ciutadà hi consent"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): els actes són immediatament executius (autotutela executiva) i l'Administració els pot executar forçosament pels mitjans de l'art. 100 (constrenyiment sobre el patrimoni, execució subsidiària, multa coercitiva, compliment forçós i compulsió sobre les persones), amb respecte a la proporcionalitat i prèvia advertència. No cal, com a regla, autorització judicial prèvia.",
+      "source": "L39_2015",
+      "article": "arts. 99-100 Llei 39/2015"
+    },
+    {
+      "theme": 7,
+      "block": 2,
+      "q": "Quins són els mitjans d'execució forçosa que preveu l'art. 100 de la Llei 39/2015?",
+      "options": [
+        "El constrenyiment sobre el patrimoni, l'execució subsidiària, la multa coercitiva i la compulsió sobre les persones",
+        "L'embargament judicial, la presó i el comís",
+        "La revocació, la revisió d'ofici i la nul·litat",
+        "La notificació, la publicació i la caducitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 100 enumera com a mitjans d'execució forçosa el constrenyiment sobre el patrimoni (deutes de dret públic), l'execució subsidiària (obligacions no personalíssimes), la multa coercitiva (reiterada per vèncer la resistència) i la compulsió sobre les persones (obligacions personalíssimes de no fer o suportar, amb respecte als drets fonamentals).",
+      "source": "L39_2015",
+      "article": "art. 100 Llei 39/2015"
+    },
+    {
+      "theme": 7,
+      "block": 2,
+      "q": "Quan es pot dotar d'eficàcia retroactiva un acte administratiu (art. 39.3)?",
+      "options": [
+        "Quan es dicti en substitució d'un acte anul·lat o quan produeixi efectes favorables a l'interessat, si els supòsits de fet ja existien i no es lesionen drets de tercers",
+        "Sempre que ho decideixi l'Administració, sense cap límit",
+        "Només en els actes sancionadors",
+        "Mai; els actes administratius no poden ser retroactius"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 39.3 admet excepcionalment la retroactivitat quan l'acte es dicti en substitució d'un d'anul·lat o quan produeixi efectes favorables a l'interessat, sempre que els supòsits de fet necessaris ja existissin en la data a què es retrotreu i això no lesioni drets o interessos legítims d'altres persones.",
+      "source": "L39_2015",
+      "article": "art. 39 Llei 39/2015"
+    },
+    {
+      "theme": 8,
+      "block": 2,
+      "q": "Qui té la condició d'interessat en el procediment administratiu segons l'art. 4 de la Llei 39/2015?",
+      "options": [
+        "Els titulars de drets o interessos legítims que promoguin el procediment, els que sense haver-lo iniciat tinguin drets que puguin resultar afectats, i els titulars d'interessos legítims que s'hi personin abans de la resolució",
+        "Únicament la persona que presenta la sol·licitud inicial",
+        "Qualsevol ciutadà, sense necessitat de tenir cap interès",
+        "Només les administracions públiques"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 4 reconeix la condició d'interessat als qui promoguin el procediment com a titulars de drets o interessos legítims, als qui tinguin drets que puguin resultar afectats per la decisió encara que no l'hagin iniciat, i als titulars d'interessos legítims (individuals o col·lectius) que s'hi personin mentre no s'hagi dictat resolució.",
+      "source": "L39_2015",
+      "article": "art. 4 Llei 39/2015"
+    },
+    {
+      "theme": 8,
+      "block": 2,
+      "q": "Qui té capacitat d'obrar davant les administracions públiques segons l'art. 3 de la Llei 39/2015?",
+      "options": [
+        "A més dels qui la tenen segons el dret civil, els menors per a l'exercici de drets permesos sense assistència i els grups d'afectats o unions sense personalitat quan la llei ho reconegui",
+        "Únicament les persones majors d'edat i les persones jurídiques",
+        "Solament les persones físiques amb domicili a Espanya",
+        "Cap menor pot tenir mai capacitat d'obrar"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 3 amplia la capacitat d'obrar respecte del dret civil, i la reconeix als menors d'edat per a l'exercici i la defensa dels drets que l'ordenament els permet sense assistència, i als grups d'afectats, unions i entitats sense personalitat jurídica i patrimonis independents quan la llei ho declari expressament.",
+      "source": "L39_2015",
+      "article": "art. 3 Llei 39/2015"
+    },
+    {
+      "theme": 8,
+      "block": 2,
+      "q": "Quan ha d'abstenir-se una autoritat o el personal al servei de l'Administració (art. 23 Llei 40/2015)?",
+      "options": [
+        "Quan hi concorre alguna causa com tenir interès personal en l'assumpte, parentiu amb els interessats, amistat íntima o enemistat manifesta, o relació de servei",
+        "Únicament quan ho demani expressament l'interessat",
+        "Mai, perquè l'abstenció no existeix en el dret administratiu",
+        "Només quan es tracti d'expedients sancionadors"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 23 de la Llei 40/2015 obliga a abstenir-se qui concorre alguna causa: interès personal, parentiu de consanguinitat fins al quart grau o afinitat fins al segon, amistat íntima o enemistat manifesta, haver intervingut com a perit o testimoni, o tenir relació de servei o dependència amb un interessat. Si no s'absté, l'interessat el pot recusar (art. 24).",
+      "source": "L40_2015",
+      "article": "art. 23 Llei 40/2015"
+    },
+    {
+      "theme": 8,
+      "block": 2,
+      "q": "Quan cal acreditar la representació davant l'Administració (art. 5 Llei 39/2015)?",
+      "options": [
+        "Per formular sol·licituds, presentar declaracions responsables o comunicacions, interposar recursos, desistir d'accions i renunciar a drets",
+        "Per a qualsevol actuació, inclosos els actes de mer tràmit",
+        "Mai, perquè la representació no s'admet",
+        "Només davant els tribunals de justícia"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 5 presumeix la representació per als actes i gestions de mer tràmit, però exigeix acreditar-la per formular sol·licituds, presentar declaracions responsables o comunicacions, interposar recursos, desistir d'accions i renunciar a drets en nom d'una altra persona. La manca o insuficiència es pot esmenar en 10 dies.",
+      "source": "L39_2015",
+      "article": "art. 5 Llei 39/2015"
+    },
+    {
+      "theme": 8,
+      "block": 2,
+      "q": "Quin principi obliga l'Administració a impulsar el procediment en totes les fases sense necessitat que ho demani l'interessat?",
+      "options": [
+        "El principi d'oficialitat o impuls d'ofici (art. 71 Llei 39/2015)",
+        "El principi dispositiu",
+        "El principi de rogació",
+        "El principi de subsidiarietat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 71 estableix que el procediment se sotmet al principi de celeritat i s'impulsa d'ofici en totes les seves fases. A diferència del procés civil (regit pel principi dispositiu), en el procediment administratiu l'Administració té el deure d'impulsar-lo i de resoldre, en garantia de l'interès públic.",
+      "source": "L39_2015",
+      "article": "art. 71 Llei 39/2015"
+    },
+    {
+      "theme": 9,
+      "block": 2,
+      "q": "De quines maneres es pot iniciar d'ofici un procediment administratiu (art. 58 Llei 39/2015)?",
+      "options": [
+        "Per pròpia iniciativa, com a conseqüència d'ordre superior, a petició raonada d'altres òrgans o per denúncia",
+        "Únicament per denúncia d'un particular",
+        "Només per ordre d'un jutge",
+        "Exclusivament a sol·licitud de l'interessat"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 58 estableix que els procediments s'inicien d'ofici per acord de l'òrgan competent, bé per pròpia iniciativa, bé com a conseqüència d'ordre superior, a petició raonada d'altres òrgans o per denúncia. La denúncia (art. 62) no atorga per si sola la condició d'interessat al denunciant.",
+      "source": "L39_2015",
+      "article": "art. 58 Llei 39/2015"
+    },
+    {
+      "theme": 9,
+      "block": 2,
+      "q": "Quin termini té l'interessat per esmenar la seva sol·licitud si no reuneix els requisits exigits (art. 68 Llei 39/2015)?",
+      "options": [
+        "Deu dies, amb l'advertència que si no ho fa se'l tindrà per desistit",
+        "Tres mesos improrrogables",
+        "Vint-i-quatre hores",
+        "Un any des de la presentació"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 68 preveu que, si la sol·licitud no reuneix els requisits, es requereix l'interessat perquè l'esmeni en el termini de deu dies, amb indicació que, si no ho fa, es considerarà que ha desistit de la seva petició, prèvia resolució que ho declari.",
+      "source": "L39_2015",
+      "article": "art. 68 Llei 39/2015"
+    },
+    {
+      "theme": 9,
+      "block": 2,
+      "q": "Quina és la naturalesa dels informes en la fase d'instrucció, si res no s'indica (art. 80 Llei 39/2015)?",
+      "options": [
+        "Facultatius i no vinculants, tret que una disposició expressa estableixi el contrari",
+        "Preceptius i vinculants en tot cas",
+        "Sempre vinculants encara que la llei no ho digui",
+        "Prohibits durant la instrucció"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 80 estableix que, llevat que una disposició expressa disposi el contrari, els informes són facultatius i no vinculants. Es poden sol·licitar els que es considerin necessaris i s'evacuen, com a regla, en deu dies. La instrucció també inclou al·legacions, prova (art. 77-78) i el tràmit d'audiència (art. 82).",
+      "source": "L39_2015",
+      "article": "art. 80 Llei 39/2015"
+    },
+    {
+      "theme": 9,
+      "block": 2,
+      "q": "Què és la caducitat com a forma de finalització del procediment (art. 95 Llei 39/2015)?",
+      "options": [
+        "La terminació per paralització del procediment durant tres mesos per causa imputable a l'interessat, en procediments iniciats a sol·licitud seva",
+        "L'estimació automàtica de la sol·licitud per silenci positiu",
+        "La finalització per acord entre les parts",
+        "La resolució sobre el fons de l'assumpte"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): en els procediments iniciats a sol·licitud de l'interessat, la paralització per causa imputable a ell durant tres mesos produeix la caducitat, prèvia advertència, amb l'arxivament de les actuacions. No s'ha de confondre amb la caducitat dels procediments d'ofici desfavorables per venciment del termini per resoldre (art. 25.1.b).",
+      "source": "L39_2015",
+      "article": "art. 95 Llei 39/2015"
+    },
+    {
+      "theme": 9,
+      "block": 2,
+      "q": "Quin és el termini general del tràmit d'audiència als interessats (art. 82 Llei 39/2015)?",
+      "options": [
+        "No inferior a deu dies ni superior a quinze",
+        "Sempre de tres mesos",
+        "Vint-i-quatre hores",
+        "Un mes en tot cas"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 82 fixa el tràmit d'audiència, previ a la proposta de resolució, per un termini no inferior a deu dies ni superior a quinze, en què els interessats poden al·legar i presentar documents. Es pot prescindir de l'audiència quan no figuren en el procediment ni són tinguts en compte altres fets que els adduïts per l'interessat.",
+      "source": "L39_2015",
+      "article": "art. 82 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Com es computen els terminis assenyalats per dies segons l'art. 30 de la Llei 39/2015?",
+      "options": [
+        "Per dies hàbils si no s'indica el contrari, i s'exclouen del còmput els dissabtes, els diumenges i els declarats festius",
+        "Sempre per dies naturals, incloent-hi festius",
+        "Per dies hàbils, però comptant els dissabtes com a hàbils",
+        "Per setmanes senceres en tot cas"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 30.2 disposa que, quan els terminis s'assenyalen per dies, s'entén que són hàbils tret que la norma indiqui que són naturals, i s'exclouen del còmput els dissabtes, els diumenges i els festius (novetat respecte de la Llei 30/1992, que comptava els dissabtes com a hàbils).",
+      "source": "L39_2015",
+      "article": "art. 30 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Com es computen els terminis fixats per mesos o anys (art. 30.4 Llei 39/2015)?",
+      "options": [
+        "De data a data; si en el mes de venciment no hi ha dia equivalent al de la notificació, el termini acaba l'últim dia del mes",
+        "Comptant sempre 30 dies per mes",
+        "Excloent tots els dies festius del mes",
+        "Fins al primer dia hàbil del mes següent en tot cas"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 30.4 estableix que els terminis expressats en mesos o anys es computen de data a data, a partir de l'endemà de la notificació o publicació; si en el mes de venciment no hi ha un dia equivalent a l'inicial, s'entén que el termini expira l'últim dia del mes. Si l'últim dia és inhàbil, es prorroga al primer dia hàbil següent.",
+      "source": "L39_2015",
+      "article": "art. 30 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Amb caràcter general, quin és el sentit del silenci administratiu en els procediments iniciats a sol·licitud de l'interessat (art. 24 Llei 39/2015)?",
+      "options": [
+        "Estimatori (positiu), tret de les excepcions previstes per una norma amb rang de llei o pel dret de la UE",
+        "Desestimatori en tots els casos",
+        "No produeix cap efecte",
+        "Estimatori sense cap excepció possible"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 24 estableix com a regla general el silenci positiu en els procediments a instància de part, llevat que una norma amb rang de llei o el dret de la UE prevegin el contrari (per exemple, dret de petició, activitats sobre el domini públic, medi ambient o procediments d'impugnació d'actes).",
+      "source": "L39_2015",
+      "article": "art. 24 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Quins efectes té el venciment del termini per resoldre en els procediments iniciats d'ofici (art. 25 Llei 39/2015)?",
+      "options": [
+        "Si poden produir efectes desfavorables o de gravamen, es produeix la caducitat; si dels quals es pogués reconèixer o constituir un dret, la desestimació per silenci",
+        "Sempre l'estimació per silenci positiu",
+        "No té cap efecte, el procediment continua indefinidament",
+        "L'arxivament automàtic amb estimació de totes les pretensions"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 25 distingeix: en els procediments d'ofici dels quals es pugui derivar el reconeixement o la constitució de drets, el silenci és desestimatori; en els que puguin produir efectes desfavorables o de gravamen (per exemple, sancionadors), el venciment produeix la caducitat i l'arxivament.",
+      "source": "L39_2015",
+      "article": "art. 25 Llei 39/2015"
+    },
+    {
+      "theme": 10,
+      "block": 2,
+      "q": "Quin és el termini màxim per resoldre i notificar si la norma reguladora no en fixa cap (art. 21 Llei 39/2015)?",
+      "options": [
+        "Tres mesos",
+        "Sis mesos",
+        "Un mes",
+        "Un any"
+      ],
+      "correct": 0,
+      "explain": "Correcta (a): l'art. 21 imposa a l'Administració l'obligació de resoldre expressament i notificar en el termini màxim fixat per la norma del procediment, que no pot excedir de sis mesos llevat de norma amb rang de llei o dret de la UE; quan la norma no en fixa cap, el termini màxim és de tres mesos.",
+      "source": "L39_2015",
+      "article": "art. 21 Llei 39/2015"
     }
   ]
 }

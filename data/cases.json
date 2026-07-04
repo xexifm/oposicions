@@ -2,7 +2,7 @@
   "_meta": {
     "info": "Casos teòrico-pràctics (Prova 2, Base 7.7.b). Cada cas porta una rúbrica de criteris amb pesos i paraules clau per a la correcció automàtica, més una resposta model. Material d'estudi generat amb IA: contrasta amb la normativa vigent.",
     "objectiu_total": 90,
-    "fase": "Tots els 90 temes amb cas · 75 casos (objectiu 50+)"
+    "fase": "Migracio a 1 cas/tema (nivell resums nous). Temes 1-10 fets."
   },
   "cases": [
     {
@@ -186,90 +186,6 @@
       ]
     },
     {
-      "id": "c03-esmena-termini",
-      "theme": 9,
-      "block": 2,
-      "maxPoints": 45,
-      "title": "Sol·licitud incompleta i còmput de terminis",
-      "context": "Una persona presenta una sol·licitud a la qual falta un document preceptiu. L'Administració vol requerir-la perquè esmeni el defecte. El darrer dia del termini d'esmena coincideix amb una festa local al municipi.",
-      "prompt": "Indiqueu: a) com s'ha d'actuar davant la sol·licitud incompleta i el termini d'esmena; b) les conseqüències de no esmenar; c) el còmput del termini quan el darrer dia és inhàbil.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Requeriment d'esmena de l'art. 68 Llei 39/2015, amb termini de 10 dies",
-          "weight": 10,
-          "keywords": [
-            [
-              "esmena",
-              "esmenar",
-              "subsanacio"
-            ],
-            [
-              "10 dies",
-              "deu dies"
-            ],
-            [
-              "68"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Conseqüència de no esmenar: es té per desistit de la sol·licitud, amb resolució expressa",
-          "weight": 11,
-          "keywords": [
-            [
-              "desistit",
-              "desistiment",
-              "te per desistit"
-            ],
-            [
-              "resolucio expressa",
-              "arxiu"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Còmput: si el darrer dia és inhàbil, el termini es trasllada al primer dia hàbil següent (art. 30.5)",
-          "weight": 12,
-          "keywords": [
-            [
-              "inhabil",
-              "festiu",
-              "festa local"
-            ],
-            [
-              "primer dia habil",
-              "habil seguent",
-              "es trasllada",
-              "prorroga"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Els festius locals són inhàbils als efectes de còmput; terminis en dies hàbils exclouen dissabtes, diumenges i festius",
-          "weight": 7,
-          "keywords": [
-            [
-              "dies habils",
-              "habils"
-            ],
-            [
-              "dissabtes",
-              "diumenges",
-              "festius"
-            ]
-          ]
-        }
-      ],
-      "model": "a) Davant d'una sol·licitud que no reuneix els requisits o a la qual falta documentació, l'òrgan ha de requerir l'interessat perquè, en el termini de 10 dies, esmeni la falta o aporti els documents preceptius (art. 68.1 Llei 39/2015), amb indicació que si no ho fa se'l tindrà per desistit.\nb) Si no esmena dins de termini, es dicta resolució que el té per desistit de la seva petició i s'arxiva (arts. 68.1 i 21 Llei 39/2015).\nc) Còmput: els terminis assenyalats en dies hàbils exclouen dissabtes, diumenges i festius (art. 30.2). Si el darrer dia del termini és inhàbil —com una festa local—, s'entén prorrogat al primer dia hàbil següent (art. 30.5). Per tant, l'interessat encara pot esmenar el primer dia hàbil posterior a la festa local.",
-      "sources": [
-        "L39_2015"
-      ]
-    },
-    {
       "id": "c04-resp-patrimonial",
       "theme": 36,
       "block": 9,
@@ -358,88 +274,6 @@
       "model": "a) La responsabilitat patrimonial (arts. 32 i ss. Llei 40/2015) exigeix: una lesió real, efectiva, avaluable econòmicament i individualitzada; que sigui antijurídica (que el particular no tingui el deure jurídic de suportar-la); imputable a l'Administració pel funcionament normal o anormal d'un servei públic; i un nexe causal entre l'actuació administrativa (vorera mal conservada/sense senyalitzar) i el dany. La responsabilitat és objectiva.\nb) El dret a reclamar prescriu a l'any (art. 67 Llei 39/2015), computat des del fet o, en danys físics, des de la curació o la determinació de l'abast de les seqüeles.\nc) Han passat 14 mesos: en principi la reclamació seria extemporània (prescrita), llevat que l'interessat acrediti que les seqüeles es van estabilitzar dins de l'any anterior a la reclamació (en aquest cas el termini compta des d'aleshores).\nd) Cal provar el nexe causal. L'Administració queda exonerada en casos de força major (no el cas fortuït). La culpa o distracció de la víctima pot trencar o modular el nexe i reduir la indemnització (concurrència de causes).",
       "sources": [
         "L40_2015",
-        "L39_2015"
-      ]
-    },
-    {
-      "id": "c05-nullitat-anullabilitat",
-      "theme": 7,
-      "block": 2,
-      "maxPoints": 45,
-      "title": "Nul·litat de ple dret i anul·labilitat",
-      "context": "Un ajuntament dicta una resolució prescindint totalment del procediment legalment establert i, a més, l'òrgan que la dicta és manifestament incompetent per raó de la matèria. En un altre expedient, un acte té un defecte de forma que no impedeix assolir-ne la finalitat ni genera indefensió.",
-      "prompt": "Distingiu nul·litat de ple dret i anul·labilitat, qualifiqueu cada supòsit i expliqueu-ne els efectes i la possibilitat de convalidació.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Defineix la nul·litat de ple dret i n'enumera supòsits (art. 47): incompetència manifesta per matèria/territori, prescindir totalment del procediment, etc.",
-          "weight": 13,
-          "keywords": [
-            [
-              "nullitat de ple dret",
-              "nul de ple dret",
-              "47"
-            ],
-            [
-              "incompetencia manifesta",
-              "prescindir totalment del procediment"
-            ]
-          ]
-        },
-        {
-          "id": "c2",
-          "label": "Defineix l'anul·labilitat (art. 48): qualsevol infracció de l'ordenament; els defectes de forma només invaliden si impedeixen la finalitat o causen indefensió",
-          "weight": 12,
-          "keywords": [
-            [
-              "anullabilitat",
-              "anullable",
-              "48"
-            ],
-            [
-              "defecte de forma",
-              "indefensio",
-              "finalitat"
-            ]
-          ]
-        },
-        {
-          "id": "c3",
-          "label": "Qualifica: el primer supòsit és nul de ple dret; el segon és una mera irregularitat no invalidant",
-          "weight": 11,
-          "keywords": [
-            [
-              "nul de ple dret",
-              "nullitat"
-            ],
-            [
-              "irregularitat no invalidant",
-              "no invalida",
-              "valid"
-            ]
-          ]
-        },
-        {
-          "id": "c4",
-          "label": "Efectes: la nul·litat és ex tunc, no convalidable i imprescriptible; l'anul·labilitat és convalidable",
-          "weight": 7,
-          "keywords": [
-            [
-              "ex tunc",
-              "des de l'origen",
-              "no convalidable",
-              "imprescriptible"
-            ],
-            [
-              "convalidar",
-              "convalidacio",
-              "esmenar"
-            ]
-          ]
-        }
-      ],
-      "model": "Nul·litat de ple dret (art. 47 Llei 39/2015): és la invalidesa més greu; opera per als supòsits taxats, com ara els actes dictats per òrgan manifestament incompetent per raó de la matèria o del territori, els dictats prescindint total i absolutament del procediment, els de contingut impossible, els constitutius d'infracció penal, els que lesionen drets susceptibles d'emparament, etc. Efectes ex tunc (des de l'origen), no és convalidable i pot declarar-se en qualsevol moment (revisió d'ofici, art. 106).\nAnul·labilitat (art. 48): qualsevol infracció de l'ordenament jurídic, inclosa la desviació de poder. Els defectes de forma només determinen anul·labilitat si l'acte no assoleix la seva finalitat o genera indefensió; en cas contrari són meres irregularitats no invalidants. És convalidable (art. 52).\nQualificació: el primer cas (incompetència manifesta per matèria + prescindir totalment del procediment) és NUL DE PLE DRET. El segon (defecte de forma que no impedeix la finalitat ni causa indefensió) és una irregularitat NO invalidant; l'acte és vàlid.",
-      "sources": [
         "L39_2015"
       ]
     },
@@ -1013,91 +847,6 @@
       "sources": [
         "L20_2009",
         "L39_2015"
-      ]
-    },
-    {
-      "id": "c13-abstencio",
-      "theme": 8,
-      "block": 2,
-      "maxPoints": 45,
-      "title": "Abstenció i recusació en un procediment de contractació",
-      "context": "En la mesa de contractació d'un concurs, un dels vocals té un familiar de segon grau que és administrador d'una de les empreses licitadores. El vocal no ho comunica i participa en la valoració. Una altra empresa licitadora ho descobreix.",
-      "prompt": "Determineu: a) si concorre causa d'abstenció; b) què havia d'haver fet el vocal; c) què pot fer l'empresa que ho ha detectat i quins efectes té sobre l'acte.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Identifica la causa d'abstenció per parentiu/interès personal (art. 23 Llei 40/2015)",
-          "weight": 12,
-          "keywords": [
-            [
-              "abstencio",
-              "abstenir"
-            ],
-            [
-              "parentiu",
-              "familiar",
-              "interes personal"
-            ],
-            [
-              "23"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "El vocal havia de comunicar-ho i abstenir-se d'intervenir",
-          "weight": 11,
-          "keywords": [
-            [
-              "comunicar",
-              "posar en coneixement"
-            ],
-            [
-              "abstenir",
-              "no intervenir",
-              "apartar-se"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "L'empresa pot promoure la recusació (art. 24 Llei 40/2015)",
-          "weight": 11,
-          "keywords": [
-            [
-              "recusacio",
-              "recusar"
-            ],
-            [
-              "24"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Efectes: la no-abstenció no implica necessàriament la invalidesa, però sí si ha estat determinant; possible responsabilitat",
-          "weight": 11,
-          "keywords": [
-            [
-              "no implica",
-              "no determina sempre",
-              "nomes si determinant",
-              "podria invalidar"
-            ],
-            [
-              "responsabilitat",
-              "determinant"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "a) Concorre causa d'abstenció: l'art. 23 de la Llei 40/2015 obliga a abstenir-se a qui tingui parentiu dins del quart grau o interès personal en l'assumpte; un familiar de segon grau administrador d'una licitadora és causa clara.\nb) El vocal havia de comunicar la circumstància al seu superior i abstenir-se d'intervenir en la valoració.\nc) L'empresa que ho ha detectat pot promoure la recusació (art. 24 Llei 40/2015), per escrit i en qualsevol moment, expressant la causa. L'òrgan ha de resoldre.\nEfectes: l'actuació d'una autoritat en qui concorre causa d'abstenció no implica, necessàriament, la invalidesa dels actes (art. 23.4), però sí que poden ser anul·lables si la seva intervenció ha estat determinant del resultat. A més, pot generar responsabilitat de qui no es va abstenir.",
-      "sources": [
-        "L40_2015"
       ]
     },
     {
@@ -6147,6 +5896,830 @@
       "model": "La seguretat i salut en el treball es regeix per la Llei 31/1995, de prevenció de riscos laborals. El risc laboral és la possibilitat que un treballador pateixi un dany derivat del treball, i la prevenció és el conjunt d'activitats adoptades per evitar-lo o reduir-lo; l'instrument central és l'avaluació de riscos, que identifica els perills (en el cas, caigudes d'altura, atropellaments, soroll i pols) i determina les mesures. Un principi essencial és la jerarquia de l'acció preventiva: cal evitar i combatre els riscos en origen i, sobretot, anteposar la protecció col·lectiva a la individual (per exemple, baranes, xarxes, senyalització i delimitació de zones de pas). Només quan el risc no es pot eliminar o reduir suficientment amb mesures col·lectives s'utilitzen els equips de protecció individual (EPI), com el casc, el calçat de seguretat, l'arnès anticaigudes, la protecció auditiva i les mascaretes, que han de ser adequats, certificats i d'ús obligatori. A més, l'empresari ha de garantir la informació i la formació dels treballadors sobre els riscos i les mesures, la vigilància de la salut i la coordinació d'activitats empresarials quan concorren diverses empreses a l'obra.",
       "sources": [
         "L31_1995"
+      ]
+    },
+    {
+      "id": "c-t1-drets",
+      "theme": 1,
+      "block": 1,
+      "maxPoints": 45,
+      "title": "Nivells de protecció dels drets constitucionals",
+      "context": "Un ciutadà considera que una resolució administrativa ha vulnerat el seu dret a la igualtat (art. 14 CE) i, alhora, el seu dret a la protecció de la salut (art. 43 CE). Vol saber quins mecanismes de defensa té a l'abast per a cadascun.",
+      "prompt": "Determineu: a) el nivell de protecció de cada dret segons la Constitució; b) quines vies de defensa pot fer servir per a cada dret; c) què vol dir que un és un dret fonamental i l'altre un principi rector.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Situa l'art. 14 (igualtat) entre els drets amb màxima protecció i l'art. 43 (salut) entre els principis rectors del capítol III",
+          "weight": 12,
+          "keywords": [
+            [
+              "igualtat",
+              "art. 14",
+              "14"
+            ],
+            [
+              "principi rector",
+              "capitol iii",
+              "salut",
+              "43"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Identifica que els drets fonamentals gaudeixen de recurs d'empara, tutela preferent i sumària i reserva de llei orgànica",
+          "weight": 13,
+          "keywords": [
+            [
+              "empara",
+              "emparament"
+            ],
+            [
+              "tutela",
+              "preferent",
+              "sumaria",
+              "llei organica"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica que els principis rectors només es poden al·legar davant la jurisdicció ordinària segons les lleis que els despleguin (art. 53.3)",
+          "weight": 12,
+          "keywords": [
+            [
+              "nomes",
+              "segons les lleis",
+              "desplegament",
+              "desenvolupen"
+            ],
+            [
+              "jurisdiccio ordinaria",
+              "no empara",
+              "53.3",
+              "al·legar"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou amb la diferència pràctica: l'art. 14 és directament exigible i emparable; l'art. 43 requereix desplegament legal",
+          "weight": 8,
+          "keywords": [
+            [
+              "directament",
+              "exigible",
+              "invocable"
+            ],
+            [
+              "requereix",
+              "desplegament",
+              "llei"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'art. 14 (igualtat) és un dret amb la màxima protecció constitucional (encapçala la secció que gaudeix d'empara); l'art. 43 (protecció de la salut) és un principi rector de la política social i econòmica (capítol III del títol I). b) Per a l'art. 14 es pot fer servir la tutela judicial preferent i sumària i, exhaurida la via, el recurs d'empara davant el Tribunal Constitucional; a més, la seva regulació és reserva de llei orgànica. Per a l'art. 43 només es pot acudir a la jurisdicció ordinària i d'acord amb el que disposin les lleis que el despleguin (art. 53.3), sense empara constitucional. c) El dret fonamental vincula tots els poders, és directament exigible i emparable; el principi rector informa l'actuació dels poders públics però només és invocable en els termes del seu desplegament legal.",
+      "sources": [
+        "CE1978"
+      ]
+    },
+    {
+      "id": "c-t2-competencies",
+      "theme": 2,
+      "block": 1,
+      "maxPoints": 45,
+      "title": "Classificació de competències estatutàries",
+      "context": "El Govern de la Generalitat vol regular tres matèries: (1) l'organització de la seva pròpia Administració, (2) una matèria en què l'Estat ha dictat legislació bàsica, i (3) l'execució de la legislació laboral de l'Estat.",
+      "prompt": "Determineu, per a cada supòsit, davant quin tipus de competència ens trobem (exclusiva, compartida o executiva) i quin abast té la Generalitat en cada cas.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica el supòsit (1) com a competència exclusiva: legislació, reglament i execució íntegres per la Generalitat (art. 110)",
+          "weight": 12,
+          "keywords": [
+            [
+              "exclusiva",
+              "exclusiva",
+              "integra"
+            ],
+            [
+              "organitzacio",
+              "autoorganitzacio",
+              "110"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Identifica el supòsit (2) com a competència compartida: bases estatals + desenvolupament legislatiu i execució de la Generalitat (art. 111)",
+          "weight": 13,
+          "keywords": [
+            [
+              "compartida"
+            ],
+            [
+              "bases",
+              "basica",
+              "desenvolupament",
+              "111"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Identifica el supòsit (3) com a competència executiva: només funció executiva, inclosa la potestat reglamentària organitzativa (art. 112)",
+          "weight": 12,
+          "keywords": [
+            [
+              "executiva"
+            ],
+            [
+              "funcio executiva",
+              "nomes execucio",
+              "112",
+              "laboral"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Relaciona correctament l'abast de la potestat legislativa en cada tipus",
+          "weight": 8,
+          "keywords": [
+            [
+              "legislativa",
+              "legislacio"
+            ],
+            [
+              "abast",
+              "integra",
+              "desenvolupament",
+              "nomes execucio"
+            ]
+          ]
+        }
+      ],
+      "model": "El supòsit (1), organització de la pròpia Administració, és una competència exclusiva (art. 110): la Generalitat exerceix íntegrament la potestat legislativa, la reglamentària i la funció executiva. El supòsit (2), matèria amb legislació bàsica estatal, és una competència compartida (art. 111): l'Estat fixa les bases i la Generalitat n'exerceix el desenvolupament legislatiu i l'execució. El supòsit (3), execució de la legislació laboral, és una competència executiva (art. 112): la Generalitat només té la funció executiva (aplicació, inspecció, sanció) i la potestat reglamentària d'organització interna, però no la legislativa, que correspon a l'Estat.",
+      "sources": [
+        "EAC2006"
+      ]
+    },
+    {
+      "id": "c-t3-enslocals",
+      "theme": 3,
+      "block": 1,
+      "maxPoints": 45,
+      "title": "Naturalesa dels ens locals",
+      "context": "Un tècnic ha de preparar un informe sobre l'organització territorial i li plantegen si una comarca, un municipi i una mancomunitat tenen la mateixa naturalesa jurídica i el mateix grau d'autonomia.",
+      "prompt": "Expliqueu: a) la distinció entre ens locals territorials i altres entitats locals; b) on encaixa cadascun dels tres ens esmentats; c) què significa l'autonomia local i el seu límit.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix els ens locals territorials (municipi, província, illa) de les altres entitats locals (art. 3 LRBRL)",
+          "weight": 12,
+          "keywords": [
+            [
+              "territorial",
+              "territorials"
+            ],
+            [
+              "municipi",
+              "provincia",
+              "illa",
+              "3.1"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Situa la comarca i la mancomunitat com a altres entitats locals (art. 3.2) i el municipi com a ens territorial",
+          "weight": 12,
+          "keywords": [
+            [
+              "comarca",
+              "mancomunitat"
+            ],
+            [
+              "3.2",
+              "altres entitats",
+              "no territorial"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica l'autonomia local com a gestió dels interessos propis sota la pròpia responsabilitat (art. 137/140 CE)",
+          "weight": 13,
+          "keywords": [
+            [
+              "autonomia local"
+            ],
+            [
+              "interessos propis",
+              "responsabilitat",
+              "gestio"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa el límit: no és sobirania, estan subjectes a la llei i al control de legalitat",
+          "weight": 8,
+          "keywords": [
+            [
+              "no es sobirania",
+              "subjectes a la llei",
+              "limit",
+              "legalitat"
+            ],
+            [
+              "control",
+              "llei"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'art. 3 de la LRBRL distingeix els ens locals territorials —municipi, província i illa—, que tenen plenitud d'autonomia i el conjunt de potestats de l'art. 4, de les altres entitats locals (comarques, àrees metropolitanes, mancomunitats i entitats d'àmbit inferior al municipi), que tenen les potestats que els reconeguin les lleis que les creen. b) El municipi és un ens local territorial; la comarca i la mancomunitat són altres entitats locals (art. 3.2). c) L'autonomia local és el dret a gestionar els interessos propis de la col·lectivitat per òrgans propis i sota la pròpia responsabilitat (arts. 137 i 140 CE), però no equival a sobirania: els ens locals estan plenament subjectes a la llei i al control de legalitat.",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "id": "c-t4-organs",
+      "theme": 4,
+      "block": 1,
+      "maxPoints": 45,
+      "title": "Repartiment de competències entre òrgans municipals",
+      "context": "En un ajuntament es plantegen tres decisions: (1) aprovar el pressupost general de l'exercici, (2) dictar un ban sobre l'ús de l'espai públic durant la festa major, i (3) atorgar una llicència d'obres menors de tràmit ordinari.",
+      "prompt": "Indiqueu quin òrgan és competent en cada cas i justifiqueu-ho amb la distribució de competències de la LRBRL.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Atribueix l'aprovació del pressupost al Ple (art. 22)",
+          "weight": 13,
+          "keywords": [
+            [
+              "ple"
+            ],
+            [
+              "pressupost",
+              "22"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Atribueix el ban a l'alcalde (art. 21)",
+          "weight": 12,
+          "keywords": [
+            [
+              "alcalde"
+            ],
+            [
+              "ban",
+              "21"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Situa l'atorgament de llicències en l'àmbit de l'administració ordinària (alcalde o Junta/òrgan per delegació)",
+          "weight": 12,
+          "keywords": [
+            [
+              "alcalde",
+              "junta de govern",
+              "delegacio"
+            ],
+            [
+              "llicencia",
+              "administracio ordinaria"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Explica la lògica: el Ple decideix els assumptes de rellevància normativa i pressupostària; l'alcalde dirigeix el govern i l'administració ordinària",
+          "weight": 8,
+          "keywords": [
+            [
+              "ple",
+              "normativa",
+              "pressupostaria"
+            ],
+            [
+              "alcalde",
+              "administracio ordinaria",
+              "direccio"
+            ]
+          ]
+        }
+      ],
+      "model": "(1) L'aprovació del pressupost general correspon al Ple (art. 22 LRBRL), que reserva els assumptes de major rellevància normativa, organitzativa i pressupostària. (2) El ban sobre l'ús de l'espai públic el dicta l'alcalde (art. 21), a qui correspon la direcció del govern i l'administració i la potestat de dictar bans. (3) L'atorgament d'una llicència d'obres és un acte d'administració ordinària que correspon a l'alcalde, si bé habitualment es delega en la Junta de Govern Local o en un regidor o òrgan tècnic. La clau és que el Ple decideix les grans decisions (pressupost, ordenances, planejament) i l'alcalde i la Junta gestionen l'activitat ordinària.",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "id": "c-t5-serveis",
+      "theme": 5,
+      "block": 1,
+      "maxPoints": 45,
+      "title": "Serveis mínims obligatoris segons la població",
+      "context": "Un municipi de 22.000 habitants revisa si compleix els serveis mínims que li exigeix la llei. Actualment presta enllumenat, aigua, clavegueram, recollida de residus, parc públic i biblioteca, però es planteja quins serveis més ha de garantir.",
+      "prompt": "Determineu: a) quins serveis ha de prestar per ser un municipi de més de 20.000 habitants; b) quins ja té coberts per aplicar-se també als trams inferiors; c) la diferència entre competència pròpia i servei mínim obligatori.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica els serveis del tram >20.000: protecció civil, serveis socials, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic",
+          "weight": 13,
+          "keywords": [
+            [
+              "proteccio civil",
+              "serveis socials",
+              "incendis",
+              "instal·lacions esportives",
+              "esportives"
+            ],
+            [
+              "20.000",
+              "mes de 20000",
+              "tram"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Reconeix que ja té els serveis de tots els municipis i els del tram >5.000 (parc, biblioteca, tractament de residus)",
+          "weight": 12,
+          "keywords": [
+            [
+              "tots els municipis",
+              "5.000",
+              "parc",
+              "biblioteca"
+            ],
+            [
+              "enllumenat",
+              "aigua",
+              "residus"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Distingeix competència pròpia (àmbit material, art. 25) de servei mínim obligatori (prestació exigible, art. 26)",
+          "weight": 12,
+          "keywords": [
+            [
+              "competencia propia",
+              "art. 25",
+              "25"
+            ],
+            [
+              "servei minim",
+              "obligatori",
+              "art. 26",
+              "26"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que els serveis mínims són exigibles i poden reclamar-se; si no es poden prestar, cap la dispensa o la cooperació provincial",
+          "weight": 8,
+          "keywords": [
+            [
+              "exigible",
+              "reclamar",
+              "dispensa"
+            ],
+            [
+              "cooperacio",
+              "provincia",
+              "assistencia"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Com a municipi de més de 20.000 habitants, a més dels serveis comuns, ha de prestar protecció civil, serveis socials, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic (art. 26.1.c LRBRL). b) Ja té coberts els serveis exigibles a tots els municipis (enllumenat, aigua, clavegueram, recollida de residus...) i els del tram de més de 5.000 habitants (parc públic, biblioteca pública i tractament de residus). c) La competència pròpia (art. 25) defineix les matèries en què el municipi actua en règim d'autonomia; el servei mínim obligatori (art. 26) és la prestació concreta que la llei exigeix segons la població i que els veïns poden reclamar; quan el municipi no el pot prestar per si sol, cap la dispensa o l'assistència i la cooperació de la diputació.",
+      "sources": [
+        "LRBRL",
+        "DL2_2003"
+      ]
+    },
+    {
+      "id": "c-t6-invalidesa",
+      "theme": 6,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Nul·litat i anul·labilitat d'un acte",
+      "context": "Un òrgan manifestament incompetent per raó de la matèria dicta una resolució. En un altre expedient, es dicta una resolució amb un petit defecte de forma que no ha causat cap indefensió i s'ha assolit igualment la finalitat de l'acte.",
+      "prompt": "Analitzeu, per a cada supòsit, quin tipus d'invalidesa concorre (nul·litat de ple dret, anul·labilitat o irregularitat no invalidant) i quins efectes té.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Qualifica el primer acte de nul de ple dret per incompetència manifesta per raó de la matèria (art. 47)",
+          "weight": 13,
+          "keywords": [
+            [
+              "nul de ple dret",
+              "nul·litat",
+              "nul"
+            ],
+            [
+              "incompetencia manifesta",
+              "materia",
+              "47"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica que la nul·litat produeix efectes ex tunc (des de l'origen) i no és esmenable ni convalidable",
+          "weight": 10,
+          "keywords": [
+            [
+              "ex tunc",
+              "des de l'origen",
+              "desde el origen",
+              "origen"
+            ],
+            [
+              "no esmenable",
+              "no convalidable",
+              "radical"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Qualifica el segon supòsit d'irregularitat no invalidant, perquè no hi ha indefensió ni es frustra el fi (art. 48.2)",
+          "weight": 13,
+          "keywords": [
+            [
+              "irregularitat no invalidant",
+              "no invalidant",
+              "no invalida"
+            ],
+            [
+              "sense indefensio",
+              "assoleix el fi",
+              "48"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou distingint els efectes: el primer és nul; el segon manté la validesa i és esmenable",
+          "weight": 9,
+          "keywords": [
+            [
+              "nul",
+              "invalid"
+            ],
+            [
+              "valid",
+              "esmenable",
+              "conserva"
+            ]
+          ]
+        }
+      ],
+      "model": "El primer acte, dictat per un òrgan manifestament incompetent per raó de la matèria, és nul de ple dret (art. 47.1.b de la Llei 39/2015). La nul·litat és la invalidesa màxima: produeix efectes des de l'origen (ex tunc), no es pot esmenar ni convalidar i es pot declarar en qualsevol moment mitjançant la revisió d'ofici. El segon supòsit és un defecte de forma que no ha causat indefensió ni ha impedit que l'acte assolís la seva finalitat; per tant, no comporta ni nul·litat ni anul·labilitat, sinó que és una irregularitat no invalidant (art. 48.2 a sensu contrario), esmenable i que no afecta la validesa de l'acte.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t7-execucio",
+      "theme": 7,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Executivitat i execució forçosa",
+      "context": "Un ajuntament ordena a un particular que enderroqui una tanca il·legal en un termini determinat. El particular no recorre l'acte ni el compleix. L'ajuntament es planteja com fer efectiu el seu acte.",
+      "prompt": "Expliqueu: a) què vol dir que l'acte és executiu i la presumpció de validesa; b) quins mitjans d'execució forçosa pot emprar l'Administració; c) quin és el més adequat en aquest cas i amb quines garanties.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica la presumpció de validesa i l'executivitat immediata dels actes (autotutela), art. 38-39",
+          "weight": 12,
+          "keywords": [
+            [
+              "presumpcio de validesa",
+              "valid",
+              "autotutela"
+            ],
+            [
+              "executiu",
+              "eficac",
+              "39"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Enumera els mitjans d'execució forçosa de l'art. 100",
+          "weight": 13,
+          "keywords": [
+            [
+              "constrenyiment",
+              "execucio subsidiaria",
+              "multa coercitiva",
+              "compulsio"
+            ],
+            [
+              "100",
+              "mitjans"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Tria l'execució subsidiària (o multa coercitiva) com a mitjà idoni per a una obligació no personalíssima com l'enderroc, a càrrec de l'obligat",
+          "weight": 12,
+          "keywords": [
+            [
+              "execucio subsidiaria",
+              "subsidiaria"
+            ],
+            [
+              "a carrec",
+              "cost",
+              "obligat",
+              "enderroc"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Indica les garanties: advertència prèvia, proporcionalitat i respecte al procediment",
+          "weight": 8,
+          "keywords": [
+            [
+              "advertencia",
+              "apercebiment",
+              "previa"
+            ],
+            [
+              "proporcionalitat",
+              "garanties",
+              "procediment"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Els actes administratius es presumeixen vàlids i són immediatament executius des que es dicten (arts. 38 i 39 de la Llei 39/2015): l'Administració gaudeix d'autotutela i no necessita acudir prèviament als tribunals per fer-los complir. b) Els mitjans d'execució forçosa (art. 100) són el constrenyiment sobre el patrimoni, l'execució subsidiària, la multa coercitiva i la compulsió sobre les persones. c) Com que l'enderroc d'una tanca és una obligació no personalíssima, el mitjà idoni és l'execució subsidiària: l'Administració fa l'obra (directament o per un tercer) a càrrec de l'obligat; alternativament o prèviament pot imposar multes coercitives reiterades. En tots els casos cal advertència prèvia, respecte al principi de proporcionalitat i que l'acte sigui executiu.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t8-abstencio",
+      "theme": 8,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Deure d'abstenció i condició d'interessat",
+      "context": "En un procediment de contractació, un dels tècnics que ha d'informar la proposta és cunyat del gerent de l'empresa licitadora. A més, una associació de veïns vol intervenir en el procediment al·legant que la decisió afectarà interessos col·lectius.",
+      "prompt": "Resoleu: a) si el tècnic ha d'abstenir-se i per què; b) què passa si no ho fa; c) si l'associació de veïns pot tenir la condició d'interessada.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Aprecia una causa d'abstenció per parentiu per afinitat (cunyat) amb un interessat (art. 23)",
+          "weight": 13,
+          "keywords": [
+            [
+              "abstencio",
+              "abstenir"
+            ],
+            [
+              "parentiu",
+              "afinitat",
+              "cunyat",
+              "23"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Indica que el tècnic s'ha d'abstenir i comunicar-ho al superior; si no ho fa, l'interessat el pot recusar (art. 24)",
+          "weight": 12,
+          "keywords": [
+            [
+              "comunicar",
+              "superior",
+              "s'absté"
+            ],
+            [
+              "recusar",
+              "recusacio",
+              "24"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Precisa que la no-abstenció genera responsabilitat però no invalida per si sola l'acte, tret que hagi estat determinant",
+          "weight": 10,
+          "keywords": [
+            [
+              "responsabilitat"
+            ],
+            [
+              "no invalida",
+              "no comporta la nul·litat",
+              "per si sola"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Reconeix la condició d'interessada de l'associació com a titular d'interessos legítims col·lectius que s'hi persona (art. 4)",
+          "weight": 10,
+          "keywords": [
+            [
+              "interessada",
+              "interessat",
+              "legitimacio"
+            ],
+            [
+              "interessos col·lectius",
+              "associacio",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El tècnic ha d'abstenir-se: ser cunyat del gerent de l'empresa licitadora és una causa d'abstenció per parentiu per afinitat dins del segon grau amb un interessat (art. 23 de la Llei 40/2015), que compromet la seva imparcialitat. b) Ha de comunicar la causa al seu superior, que resoldrà; si no s'absté, l'interessat el pot recusar en qualsevol moment (art. 24). La no-abstenció genera responsabilitat disciplinària, però no comporta necessàriament la invalidesa de l'acte, llevat que la intervenció hagi estat determinant. c) L'associació de veïns pot tenir la condició d'interessada com a titular d'interessos legítims col·lectius (art. 4), sempre que es personi en el procediment abans que es dicti la resolució.",
+      "sources": [
+        "L39_2015",
+        "L40_2015"
+      ]
+    },
+    {
+      "id": "c-t9-fases",
+      "theme": 9,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Tramitació d'un procediment a instància de part",
+      "context": "Una persona presenta una sol·licitud a la qual li manca un document essencial. L'Administració la requereix per esmenar-la, però la persona no respon i el procediment queda aturat durant més de tres mesos per aquesta causa.",
+      "prompt": "Expliqueu: a) què ha de fer l'Administració davant la sol·licitud incompleta; b) quines conseqüències té la inactivitat de l'interessat; c) diferencieu la caducitat del desistiment.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica el requeriment d'esmena de 10 dies amb advertència de desistiment (art. 68)",
+          "weight": 12,
+          "keywords": [
+            [
+              "esmena",
+              "esmenar",
+              "requeriment"
+            ],
+            [
+              "10 dies",
+              "deu dies",
+              "68"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Aprecia que la paralització per causa de l'interessat durant 3 mesos produeix la caducitat i l'arxivament (art. 95)",
+          "weight": 13,
+          "keywords": [
+            [
+              "caducitat",
+              "caduca"
+            ],
+            [
+              "tres mesos",
+              "3 mesos",
+              "paralitzacio",
+              "arxiu"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Distingeix la caducitat (per inactivitat, arxiva) del desistiment (abandó voluntari de la sol·licitud)",
+          "weight": 12,
+          "keywords": [
+            [
+              "caducitat",
+              "inactivitat"
+            ],
+            [
+              "desistiment",
+              "abandó",
+              "voluntari"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que la caducitat no impedeix tornar a iniciar el procediment si no ha prescrit el dret",
+          "weight": 8,
+          "keywords": [
+            [
+              "no impedeix",
+              "es pot tornar",
+              "nova sol·licitud"
+            ],
+            [
+              "prescrit",
+              "prescripcio",
+              "dret"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Davant la sol·licitud incompleta, l'Administració ha de requerir l'interessat perquè l'esmeni en el termini de deu dies, amb l'advertència que, si no ho fa, se'l tindrà per desistit (art. 68 de la Llei 39/2015). b) Com que la persona no respon i el procediment queda aturat més de tres mesos per causa que li és imputable, es produeix la caducitat del procediment, que s'arxiva prèvia resolució que la declari (art. 95). c) La caducitat deriva de la inactivitat de l'interessat i comporta l'arxivament de les actuacions; el desistiment és l'abandó voluntari i exprés de la sol·licitud. En tots dos casos, l'arxivament no impedeix tornar a instar el procediment més endavant si el dret no ha prescrit.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t10-silenci",
+      "theme": 10,
+      "block": 2,
+      "maxPoints": 45,
+      "title": "Còmput de terminis i silenci administratiu",
+      "context": "Una persona presenta una sol·licitud de subvenció (procediment iniciat a instància de part) el dia 3 de març. La normativa reguladora no fixa termini per resoldre ni sentit del silenci específic. Transcorren més de tres mesos sense resposta.",
+      "prompt": "Determineu: a) el termini màxim que tenia l'Administració per resoldre; b) el sentit del silenci; c) què pot fer l'interessat davant la manca de resolució expressa.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Estableix que, en no fixar-se termini, el màxim per resoldre és de 3 mesos (art. 21)",
+          "weight": 12,
+          "keywords": [
+            [
+              "tres mesos",
+              "3 mesos"
+            ],
+            [
+              "resoldre",
+              "termini maxim",
+              "21"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conclou que el silenci és positiu (estimatori) en tractar-se d'un procediment a instància de part sense excepció legal (art. 24)",
+          "weight": 13,
+          "keywords": [
+            [
+              "positiu",
+              "estimatori",
+              "estimat"
+            ],
+            [
+              "a instancia",
+              "24",
+              "sol·licitud"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que el silenci positiu equival a un acte administratiu veritable, oposable i acreditable amb certificat (art. 24.4)",
+          "weight": 12,
+          "keywords": [
+            [
+              "acte",
+              "veritable",
+              "estimat"
+            ],
+            [
+              "certificat",
+              "acredita",
+              "oposable"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Precisa que subsisteix l'obligació de resoldre, però la resolució tardana ha de ser confirmatòria del silenci positiu",
+          "weight": 8,
+          "keywords": [
+            [
+              "obligacio de resoldre",
+              "resoldre igualment"
+            ],
+            [
+              "confirmatoria",
+              "no pot desdir",
+              "posterior"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Com que la normativa reguladora no fixa cap termini, el màxim per resoldre i notificar és de tres mesos (art. 21.3 de la Llei 39/2015), comptats des de l'entrada de la sol·licitud al registre de l'òrgan competent. b) En tractar-se d'un procediment iniciat a instància de part i no concórrer cap excepció legal, el silenci té sentit positiu o estimatori (art. 24): la sol·licitud s'entén estimada. c) El silenci positiu produeix un acte administratiu finalitzador veritable, que es pot fer valer davant l'Administració i acreditar mitjançant certificat d'acte presumpte (art. 24.4). L'Administració manté l'obligació de resoldre expressament, però una resolució posterior només pot ser confirmatòria del silenci estimatori, no contrària.",
+      "sources": [
+        "L39_2015"
       ]
     }
   ]
