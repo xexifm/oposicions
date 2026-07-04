@@ -2,837 +2,9 @@
   "_meta": {
     "info": "Casos teòrico-pràctics (Prova 2, Base 7.7.b). Cada cas porta una rúbrica de criteris amb pesos i paraules clau per a la correcció automàtica, més una resposta model. Material d'estudi generat amb IA: contrasta amb la normativa vigent.",
     "objectiu_total": 90,
-    "fase": "Migracio a 1 cas/tema (nivell resums nous). Temes 1-10 fets."
+    "fase": "Casos homogeneitzats: 1 cas per tema als 90 temes (nivell resums nous)."
   },
   "cases": [
-    {
-      "id": "c17-disciplinari",
-      "theme": 88,
-      "block": 7,
-      "maxPoints": 45,
-      "title": "Règim disciplinari d'un funcionari",
-      "context": "Un funcionari acumula absències injustificades i ha comès una desobediència oberta a les instruccions del seu superior. L'Ajuntament es planteja sancionar-lo i dubta sobre el procediment i la possible sanció.",
-      "prompt": "Classifiqueu les possibles faltes, indiqueu les garanties del procediment disciplinari i les sancions aplicables, i la prescripció.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Classificació de faltes en molt greus, greus i lleus (art. 95 TREBEP)",
-          "weight": 11,
-          "keywords": [
-            [
-              "molt greus",
-              "greus",
-              "lleus"
-            ],
-            [
-              "95",
-              "classificacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Procediment disciplinari amb garanties: instrucció separada, audiència, presumpció d'innocència",
-          "weight": 13,
-          "keywords": [
-            [
-              "procediment",
-              "expedient"
-            ],
-            [
-              "audiencia",
-              "presumpcio d'innocencia",
-              "instructor",
-              "garanties"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Sancions proporcionades (des d'advertiment fins a separació del servei segons gravetat)",
-          "weight": 12,
-          "keywords": [
-            [
-              "sancio",
-              "sancions"
-            ],
-            [
-              "separacio del servei",
-              "suspensio",
-              "proporciona"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Prescripció de faltes (3 anys molt greus, 2 greus, 6 mesos lleus) i de sancions",
-          "weight": 9,
-          "keywords": [
-            [
-              "prescripcio",
-              "prescriuen"
-            ],
-            [
-              "3 anys",
-              "tres anys",
-              "6 mesos"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Les faltes es classifiquen en molt greus, greus i lleus (art. 95 TREBEP). L'abandonament del servei o la desobediència oberta poden ser molt greus o greus segons la intensitat; les absències injustificades, segons la reiteració, poden ser greus o lleus.\nEl procediment disciplinari per faltes greus i molt greus exigeix expedient amb totes les garanties: separació entre instructor i òrgan que resol, dret d'audiència i de defensa, prova, presumpció d'innocència i resolució motivada (arts. 94 i 98 TREBEP; principis dels arts. 53 i ss. Llei 40/2015).\nLes sancions (art. 96) van des de l'advertiment o suspensió de funcions fins al trasllat forçós o la separació del servei (aquesta, reservada a faltes molt greus), sempre amb proporcionalitat.\nPrescripció (art. 97): les infraccions molt greus prescriuen als 3 anys; les greus, als 2 anys; les lleus, als 6 mesos. Les sancions també prescriuen en terminis anàlegs.",
-      "sources": [
-        "TREBEP",
-        "L40_2015"
-      ]
-    },
-    {
-      "id": "c22-transparencia",
-      "theme": 82,
-      "block": 16,
-      "maxPoints": 45,
-      "title": "Sol·licitud de dret d'accés a la informació pública",
-      "context": "Una persona sol·licita a l'Ajuntament còpia de tots els contractes adjudicats el darrer any, amb els imports i els adjudicataris. Una part de la documentació conté dades personals d'alguns empleats.",
-      "prompt": "Analitzeu el dret d'accés, els seus límits, com s'ha de resoldre la sol·licitud i el règim del silenci.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "El dret d'accés correspon a qualsevol persona, sense necessitat de motivar la sol·licitud",
-          "weight": 11,
-          "keywords": [
-            [
-              "qualsevol persona",
-              "tothom"
-            ],
-            [
-              "sense motivar",
-              "no cal motivar",
-              "sense justificar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Límits taxats i ponderació (protecció de dades personals, entre d'altres)",
-          "weight": 13,
-          "keywords": [
-            [
-              "limits"
-            ],
-            [
-              "proteccio de dades",
-              "dades personals"
-            ],
-            [
-              "ponderacio",
-              "ponderar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Solució: accés (la informació de contractes és publicitat activa), amb anonimització de les dades personals no necessàries",
-          "weight": 12,
-          "keywords": [
-            [
-              "acces",
-              "facilitar",
-              "lliurar"
-            ],
-            [
-              "anonimitzar",
-              "dissociar",
-              "ometre dades",
-              "esborrar dades"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Silenci negatiu i possibilitat de reclamació davant la GAIP",
-          "weight": 9,
-          "keywords": [
-            [
-              "silenci negatiu",
-              "desestimatori"
-            ],
-            [
-              "gaip",
-              "reclamacio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El dret d'accés a la informació pública (Llei 19/2014) el té qualsevol persona, sense necessitat de motivar la sol·licitud i sense que l'interès personal en sigui condició. La informació sobre contractes (objecte, import i adjudicatari) és, a més, objecte de publicitat activa.\nL'accés només es pot limitar pels límits taxats (seguretat, investigació, secrets, etc.) i, especialment, per la protecció de dades personals, que exigeix una ponderació entre l'interès públic en la divulgació i els drets dels afectats. \nSolució: s'ha de facilitar l'accés als contractes, imports i adjudicataris (informació de rellevància pública). Pel que fa a les dades personals d'empleats que no siguin necessàries (p. ex. dades de contacte particulars), s'han d'anonimitzar o ometre; les dades merament identificatives lligades a l'exercici del càrrec solen prevaler a favor de la transparència.\nLa sol·licitud s'ha de resoldre en el termini d'un mes; el silenci té caràcter desestimatori (negatiu), i contra la denegació es pot reclamar davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP).",
-      "sources": [
-        "L19_2014",
-        "LOPDGDD"
-      ]
-    },
-    {
-      "id": "c23-coordinacio-prl",
-      "theme": 90,
-      "block": 18,
-      "maxPoints": 45,
-      "title": "Coordinació d'activitats empresarials en obra municipal",
-      "context": "En una obra municipal hi concorren l'empresa contractista, dues subcontractistes i un treballador autònom. L'Ajuntament és el promotor i titular del centre de treball.",
-      "prompt": "Expliqueu els deures de coordinació d'activitats empresarials, el paper de cada subjecte i els mitjans de coordinació adequats.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Deure de cooperació i d'informació recíproca entre totes les empreses concurrents (inclòs l'autònom)",
-          "weight": 13,
-          "keywords": [
-            [
-              "cooperacio",
-              "cooperar"
-            ],
-            [
-              "informacio reciproca",
-              "informar-se",
-              "intercanvi"
-            ],
-            [
-              "autonom",
-              "concurrents"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "L'empresari titular del centre informa i dóna instruccions",
-          "weight": 11,
-          "keywords": [
-            [
-              "titular del centre",
-              "titular"
-            ],
-            [
-              "informa",
-              "instruccions"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "L'empresari principal té el deure de vigilància del compliment",
-          "weight": 12,
-          "keywords": [
-            [
-              "principal"
-            ],
-            [
-              "vigilancia",
-              "vigilar"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Mitjans de coordinació i, en obra de construcció, coordinador de seguretat i salut + pla",
-          "weight": 9,
-          "keywords": [
-            [
-              "mitjans de coordinacio",
-              "reunions",
-              "recursos preventius"
-            ],
-            [
-              "coordinador de seguretat",
-              "pla de seguretat"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "Quan en un mateix centre concorren treballadors de diverses empreses (i autònoms), s'apliquen els deures de coordinació d'activitats empresarials (art. 24 LPRL i RD 171/2004).\nDeure general: totes les empreses concurrents —i el treballador autònom— han de cooperar i informar-se recíprocament sobre els riscos de les seves activitats que puguin afectar els altres, i tenir-ho en compte en l'avaluació i la planificació.\nPapers: l'empresari TITULAR del centre de treball (aquí l'Ajuntament-promotor) ha d'informar i donar instruccions a les empreses concurrents sobre els riscos del centre i les mesures d'emergència. L'empresari PRINCIPAL (qui contracta obres o serveis de la pròpia activitat) té, a més, el deure de vigilar el compliment de la normativa preventiva pels contractistes i subcontractistes.\nMitjans de coordinació: intercanvi d'informació, reunions, instruccions, mesures específiques i, quan els riscos ho exigeixin, la presència de recursos preventius. En les obres de construcció, a més, cal designar un coordinador de seguretat i salut i disposar del pla de seguretat i salut (RD 1627/1997).",
-      "sources": [
-        "L31_1995",
-        "RD171_2004"
-      ]
-    },
-    {
-      "id": "c81-lideratge-equips",
-      "theme": 81,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Conflicte i desmotivació en un equip",
-      "context": "En un equip hi ha un conflicte entre dues persones i una baixada general de motivació. El comandament ha de reconduir la situació i recuperar la implicació de l'equip.",
-      "prompt": "Proposeu tècniques de motivació, delegació i resolució del conflicte, i les habilitats de comunicació necessàries.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Motivar: reconeixement, participació, objectius clars i desenvolupament professional",
-          "weight": 12,
-          "keywords": [
-            [
-              "motivacio",
-              "reconeixement"
-            ],
-            [
-              "participacio",
-              "objectius clars",
-              "desenvolupament"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Lideratge situacional: adaptar l'estil a la maduresa i la tasca",
-          "weight": 9,
-          "keywords": [
-            [
-              "lideratge situacional",
-              "adaptar l'estil"
-            ],
-            [
-              "maduresa",
-              "competencia"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Resoldre el conflicte amb comunicació, negociació i mediació",
-          "weight": 12,
-          "keywords": [
-            [
-              "conflicte",
-              "negociacio",
-              "mediacio"
-            ],
-            [
-              "comunicacio",
-              "dialeg"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Habilitats: escolta activa, assertivitat, empatia i feedback constructiu",
-          "weight": 12,
-          "keywords": [
-            [
-              "escolta activa",
-              "assertivitat"
-            ],
-            [
-              "empatia",
-              "feedback",
-              "retroaccio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El lideratge d'equips combina tècniques de motivació, de delegació i de gestió de conflictes amb habilitats de comunicació. Per recuperar la motivació de l'equip, el comandament pot reforçar el reconeixement de la feina, fomentar la participació en les decisions, establir objectius clars i assolibles i afavorir el desenvolupament professional de les persones; el lideratge situacional recomana adaptar l'estil (directiu, participatiu o delegatiu) al grau de maduresa i competència de cada persona i a la naturalesa de la tasca. Davant el conflicte entre dues persones, cal abordar-lo preferentment amb tècniques de comunicació, negociació i mediació, abans de recórrer a mesures coercitives: escoltar les dues parts, identificar els interessos reals i cercar una solució acceptada per ambdues. Les habilitats de comunicació clau són l'escolta activa, l'assertivitat (expressar el propi punt de vista respectant els altres), l'empatia i la capacitat de donar i rebre retroacció (feedback) de manera constructiva. Una delegació eficaç de tasques, amb autonomia i seguiment, també contribueix a implicar l'equip i a desenvolupar-ne les capacitats.",
-      "sources": [
-        "TREBEP"
-      ]
-    },
-    {
-      "id": "c83-gestio-objectius",
-      "theme": 83,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Implantació de la gestió per objectius en una àrea",
-      "context": "La direcció vol implantar un sistema de gestió per objectius a l'àrea, alineant la planificació estratègica amb l'operativa i avaluant l'acompliment del personal.",
-      "prompt": "Exposeu els elements de la gestió per objectius: planificació estratègica i operativa, indicadors i avaluació.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Planificació estratègica (objectius a llarg termini) i operativa (accions concretes)",
-          "weight": 13,
-          "keywords": [
-            [
-              "planificacio estrategica",
-              "llarg termini"
-            ],
-            [
-              "operativa",
-              "accions",
-              "curt termini"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Despleg dels objectius generals en objectius d'àrea i individuals",
-          "weight": 10,
-          "keywords": [
-            [
-              "desplegar",
-              "objectius generals"
-            ],
-            [
-              "objectius d'area",
-              "individuals",
-              "alineacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Fixació d'indicadors mesurables per al seguiment",
-          "weight": 11,
-          "keywords": [
-            [
-              "indicadors",
-              "mesurables"
-            ],
-            [
-              "seguiment",
-              "fixacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Avaluació de l'acompliment i reconducció de desviacions",
-          "weight": 11,
-          "keywords": [
-            [
-              "avaluacio de l'acompliment",
-              "avaluacio del desenvolupament"
-            ],
-            [
-              "desviacions",
-              "reconduccio",
-              "retroalimentacio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La gestió per objectius és un model de direcció que orienta l'activitat de l'organització cap a la consecució de resultats prèviament definits. Parteix de la planificació estratègica, que fixa els objectius generals a llarg termini i les línies prioritàries, i la concreta en la planificació operativa, que en desplega les accions concretes, els recursos i els terminis a curt termini. Els objectius generals de l'organització es despleguen en objectius d'àrea i, si escau, individuals, de manera que tots quedin alineats i cada unitat i persona sàpiga com contribueix als resultats. Per poder-ne fer el seguiment, cal fixar indicadors mesurables (criteris SMART), que permeten comprovar el grau d'assoliment i detectar desviacions. Finalment, el sistema es tanca amb l'avaluació de l'acompliment (que en l'àmbit públic preveu el TREBEP), que mesura la conducta professional i el rendiment respecte dels objectius i permet reconduir les desviacions i orientar la planificació següent. La gestió per objectius afavoreix la transparència, la responsabilitat i la millora contínua de la gestió pública.",
-      "sources": [
-        "TREBEP",
-        "L19_2014"
-      ]
-    },
-    {
-      "id": "c84-presa-decisions",
-      "theme": 84,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Decisió davant un problema complex i un canvi organitzatiu",
-      "context": "L'àrea ha d'afrontar un problema complex (reorganitzar un servei amb recursos escassos i resistències del personal) i implantar un canvi en els processos de treball.",
-      "prompt": "Exposeu un mètode d'anàlisi i presa de decisions i com gestionar el canvi en un entorn públic.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Anàlisi del problema: definir-lo, recollir informació i identificar causes",
-          "weight": 12,
-          "keywords": [
-            [
-              "definir el problema",
-              "analisi"
-            ],
-            [
-              "informacio",
-              "causes"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Generar i avaluar alternatives segons criteris i decidir",
-          "weight": 12,
-          "keywords": [
-            [
-              "alternatives",
-              "opcions"
-            ],
-            [
-              "avaluar",
-              "criteris",
-              "decidir"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Implantar la decisió i avaluar-ne els resultats",
-          "weight": 9,
-          "keywords": [
-            [
-              "implantar",
-              "executar"
-            ],
-            [
-              "avaluar resultats",
-              "seguiment"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Gestió del canvi: comunicació, participació i superació de resistències",
-          "weight": 12,
-          "keywords": [
-            [
-              "gestio del canvi",
-              "canvi"
-            ],
-            [
-              "comunicacio",
-              "participacio",
-              "resistencies"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La presa de decisions davant problemes complexos requereix un mètode estructurat. Primer, cal analitzar el problema: definir-lo amb precisió, recollir informació rellevant i identificar-ne les causes reals (no només els símptomes). A continuació, es generen diverses alternatives de solució i s'avaluen segons criteris objectius (eficàcia, cost, viabilitat, impacte i riscos), tenint en compte els recursos disponibles, per seleccionar la més adequada. Un cop presa la decisió, s'implanta mitjançant un pla d'acció amb responsables i terminis, i se n'avaluen els resultats per comprovar si resol el problema i introduir-hi ajustos. En entorns públics, la decisió sovint comporta un canvi organitzatiu que genera resistències; per això cal gestionar el canvi: comunicar de manera clara els motius i els beneficis, implicar i fer participar les persones afectades, formar i acompanyar l'equip, i abordar les resistències amb diàleg i lideratge. La transparència del procés i el respecte als principis de legalitat i objectivitat reforcen la legitimitat de la decisió i n'afavoreixen l'acceptació.",
-      "sources": [
-        "TREBEP"
-      ]
-    },
-    {
-      "id": "c85-etica-publica",
-      "theme": 85,
-      "block": 17,
-      "maxPoints": 45,
-      "title": "Aplicació dels principis ètics en la direcció diària",
-      "context": "Un comandament s'enfronta a situacions quotidianes que afecten la integritat: un possible conflicte d'interès en un expedient i pressions per agilitar un tràmit a favor d'un conegut.",
-      "prompt": "Exposeu els principis d'ètica pública i de conducta aplicables i com s'han de resoldre aquestes situacions.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Principis ètics: integritat, objectivitat, imparcialitat i servei a la ciutadania",
-          "weight": 13,
-          "keywords": [
-            [
-              "integritat",
-              "objectivitat"
-            ],
-            [
-              "imparcialitat",
-              "servei a la ciutadania"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Codi ètic / de conducta dels empleats públics (TREBEP) i bon govern",
-          "weight": 10,
-          "keywords": [
-            [
-              "codi etic",
-              "codi de conducta"
-            ],
-            [
-              "bon govern",
-              "trebep",
-              "empleats publics"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Abstenció en cas de conflicte d'interès",
-          "weight": 12,
-          "keywords": [
-            [
-              "conflicte d'interes",
-              "abstencio"
-            ],
-            [
-              "abstenir-se",
-              "abstenir"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Rebuig de favoritismes i tracte igual; transparència i legalitat",
-          "weight": 10,
-          "keywords": [
-            [
-              "favoritisme",
-              "tracte igual",
-              "igualtat"
-            ],
-            [
-              "transparencia",
-              "legalitat",
-              "rebutjar"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'ètica pública exigeix que l'actuació del personal i dels càrrecs s'ajusti a uns principis i valors que garanteixin el servei objectiu a l'interès general. Els principis ètics i de conducta —recollits, entre altres, al codi de conducta dels empleats públics del TREBEP i a la normativa de bon govern— inclouen la integritat, l'objectivitat, la imparcialitat, la professionalitat, la transparència i el servei a la ciutadania. En la direcció diària, aquests principis es tradueixen en conductes concretes. Davant el possible conflicte d'interès en l'expedient, el comandament té el deure d'abstenir-se d'intervenir-hi i de comunicar-ho, perquè un altre òrgan o persona el tramiti, preservant així la imparcialitat. Davant les pressions per agilitar un tràmit a favor d'un conegut, ha de rebutjar el favoritisme i garantir el tracte igual i el respecte a l'ordre de tramitació i a la legalitat, sense atorgar avantatges indeguts. L'aplicació coherent d'aquests valors, juntament amb la transparència en les decisions, reforça la confiança de la ciutadania i la legitimitat de l'Administració.",
-      "sources": [
-        "TREBEP",
-        "L19_2014"
-      ]
-    },
-    {
-      "id": "c86-personal-ap",
-      "theme": 86,
-      "block": 7,
-      "maxPoints": 45,
-      "title": "Selecció del tipus de vinculació per a un lloc",
-      "context": "L'Ajuntament ha de cobrir un lloc que implica l'exercici de potestats públiques i, per altra banda, vol nomenar una persona de confiança per a tasques d'assessorament del càrrec electe.",
-      "prompt": "Distingiu les classes de personal al servei de les administracions públiques i el règim d'incompatibilitats.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Funcionaris de carrera: exerceixen potestats públiques i tasques reservades",
-          "weight": 13,
-          "keywords": [
-            [
-              "funcionari de carrera",
-              "funcionaris"
-            ],
-            [
-              "potestats publiques",
-              "reservades"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Personal laboral per a llocs no reservats a funcionaris",
-          "weight": 10,
-          "keywords": [
-            [
-              "personal laboral",
-              "laboral"
-            ],
-            [
-              "no reservats",
-              "conveni"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Personal eventual (confiança/assessorament) i personal directiu professional",
-          "weight": 12,
-          "keywords": [
-            [
-              "personal eventual",
-              "confianca",
-              "assessorament"
-            ],
-            [
-              "personal directiu",
-              "directiu professional"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Règim d'incompatibilitats: regla general d'un sol lloc públic",
-          "weight": 9,
-          "keywords": [
-            [
-              "incompatibilitats",
-              "incompatibilitat"
-            ],
-            [
-              "un sol lloc",
-              "compatibilitat"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "El TREBEP distingeix diverses classes de personal al servei de les administracions públiques. Els funcionaris de carrera estan vinculats per una relació estatutària de dret públic per a l'exercici permanent de funcions professionals retribuïdes; l'exercici de potestats públiques i les funcions que impliquen la salvaguarda dels interessos generals estan reservats al personal funcionari, de manera que el lloc del cas que comporta l'exercici de potestats l'ha d'ocupar un funcionari. Els funcionaris interins són nomenats per raons justificades de necessitat i urgència per a funcions pròpies de funcionaris, amb caràcter temporal. El personal laboral (fix, indefinit o temporal) ocupa els llocs que no estiguin reservats a funcionaris, en règim de dret laboral. El personal eventual exerceix funcions expressament qualificades de confiança o assessorament especial, és de lliure nomenament i cessament i cessa amb l'autoritat a qui presta servei: és la figura adequada per a la persona d'assessorament del càrrec electe. El personal directiu professional desenvolupa funcions directives amb subjecció a avaluació i responsabilitat per la gestió. Finalment, el règim d'incompatibilitats parteix de la regla general que el personal al servei de les administracions no pot exercir més d'un lloc de treball públic ni activitats privades que comprometin la seva imparcialitat o independència, llevat de les compatibilitats autoritzades en els termes legals.",
-      "sources": [
-        "TREBEP"
-      ]
-    },
-    {
-      "id": "c87-atencio-personal",
-      "theme": 87,
-      "block": 7,
-      "maxPoints": 45,
-      "title": "Incidència i conflicte en un equip de treball",
-      "context": "En un equip s'ha produït un conflicte entre dos treballadors que afecta el clima laboral i el repartiment de tasques. El comandament ha de resoldre la incidència i recuperar un bon clima.",
-      "prompt": "Proposeu com gestionar el conflicte, planificar les tasques i mantenir un bon clima laboral.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Gestió del conflicte: escoltar les parts, dialogar, negociar o mediar",
-          "weight": 13,
-          "keywords": [
-            [
-              "conflicte",
-              "escoltar",
-              "dialeg"
-            ],
-            [
-              "negociar",
-              "mediacio"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Planificació i repartiment equitatiu de tasques, amb funcions clares",
-          "weight": 11,
-          "keywords": [
-            [
-              "planificacio de tasques",
-              "repartiment"
-            ],
-            [
-              "equitatiu",
-              "funcions clares"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Bon clima laboral: comunicació, reconeixement i respecte",
-          "weight": 11,
-          "keywords": [
-            [
-              "bon clima",
-              "clima laboral"
-            ],
-            [
-              "comunicacio",
-              "reconeixement",
-              "respecte"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Resolució d'incidències amb seguiment i prevenció de noves situacions",
-          "weight": 10,
-          "keywords": [
-            [
-              "resolucio d'incidencies",
-              "seguiment"
-            ],
-            [
-              "prevenir",
-              "prevencio"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "L'atenció al personal és una funció clau del comandament que comprèn la gestió de conflictes, la planificació de les tasques, el manteniment d'un bon clima laboral i la resolució d'incidències. Davant el conflicte entre els dos treballadors, el comandament ha d'actuar amb promptitud i objectivitat: escoltar per separat i conjuntament les parts, identificar les causes reals, i cercar una solució mitjançant el diàleg, la negociació o, si cal, la mediació, evitant prendre partit i centrant-se en els fets i en l'interès del servei. Pel que fa al repartiment de tasques, cal planificar-les i distribuir-les de manera equitativa i transparent, amb funcions i responsabilitats clares, per evitar greuges i sobrecàrregues. El bon clima laboral es construeix amb una comunicació fluida i bidireccional, el reconeixement de la feina, el tracte respectuós i la participació de l'equip. Finalment, la resolució de la incidència s'ha de documentar i fer-ne seguiment per comprovar que el conflicte s'ha tancat i adoptar mesures preventives (clarificació de processos, normes de convivència, formació) que evitin que es repeteixin situacions similars.",
-      "sources": [
-        "TREBEP"
-      ]
-    },
-    {
-      "id": "c89-seguretat-salut",
-      "theme": 89,
-      "block": 18,
-      "maxPoints": 45,
-      "title": "Prevenció de riscos en una visita d'obra",
-      "context": "Un tècnic municipal ha de fer visites a obres i emplaçaments amb riscos (caigudes d'altura, atropellaments, exposició a soroll i pols). Cal establir les mesures de prevenció.",
-      "prompt": "Exposeu els conceptes bàsics de seguretat i salut, la jerarquia de mesures i els equips de protecció.",
-      "criteria": [
-        {
-          "id": "c1",
-          "label": "Conceptes: risc laboral, prevenció i avaluació de riscos",
-          "weight": 11,
-          "keywords": [
-            [
-              "risc laboral",
-              "prevencio"
-            ],
-            [
-              "avaluacio de riscos",
-              "perill"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c2",
-          "label": "Prioritat de la protecció col·lectiva sobre la individual",
-          "weight": 13,
-          "keywords": [
-            [
-              "proteccio collectiva",
-              "col·lectiva"
-            ],
-            [
-              "prioritat",
-              "prioritaria",
-              "abans"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c3",
-          "label": "Equips de protecció individual (EPI) quan el risc no s'elimina d'altra manera",
-          "weight": 12,
-          "keywords": [
-            [
-              "equips de proteccio individual",
-              "epi"
-            ],
-            [
-              "casc",
-              "arnes",
-              "individual"
-            ]
-          ],
-          "threshold": 0.5
-        },
-        {
-          "id": "c4",
-          "label": "Informació, formació i vigilància de la salut dels treballadors",
-          "weight": 9,
-          "keywords": [
-            [
-              "informacio",
-              "formacio"
-            ],
-            [
-              "vigilancia de la salut",
-              "salut"
-            ]
-          ],
-          "threshold": 0.5
-        }
-      ],
-      "model": "La seguretat i salut en el treball es regeix per la Llei 31/1995, de prevenció de riscos laborals. El risc laboral és la possibilitat que un treballador pateixi un dany derivat del treball, i la prevenció és el conjunt d'activitats adoptades per evitar-lo o reduir-lo; l'instrument central és l'avaluació de riscos, que identifica els perills (en el cas, caigudes d'altura, atropellaments, soroll i pols) i determina les mesures. Un principi essencial és la jerarquia de l'acció preventiva: cal evitar i combatre els riscos en origen i, sobretot, anteposar la protecció col·lectiva a la individual (per exemple, baranes, xarxes, senyalització i delimitació de zones de pas). Només quan el risc no es pot eliminar o reduir suficientment amb mesures col·lectives s'utilitzen els equips de protecció individual (EPI), com el casc, el calçat de seguretat, l'arnès anticaigudes, la protecció auditiva i les mascaretes, que han de ser adequats, certificats i d'ús obligatori. A més, l'empresari ha de garantir la informació i la formació dels treballadors sobre els riscos i les mesures, la vigilància de la salut i la coordinació d'activitats empresarials quan concorren diverses empreses a l'obra.",
-      "sources": [
-        "L31_1995"
-      ]
-    },
     {
       "id": "c-t1-drets",
       "theme": 1,
@@ -7244,6 +6416,787 @@
       "model": "a) Per organitzar el treball, el comandament pot fer servir la matriu d'Eisenhower, que classifica les tasques segons la seva urgència i importància: les importants i urgents s'han de fer immediatament, les importants però no urgents s'han de planificar (és la zona clau del comandament, que cal cuidar per no viure sempre apagant focs), les no importants però urgents es poden delegar, i les ni importants ni urgents s'han d'eliminar o ajornar. b) Per gestionar l'estrès, ha d'identificar-ne les fonts (sobrecàrrega, ambigüitat de rol) i aplicar tècniques de gestió del temps, establiment de límits, descans i relaxació, així com prevenir els riscos psicosocials de l'equip. c) La delegació de tasques li permet alliberar temps per a les funcions pròpies del comandament, i el control dels lladres de temps (interrupcions, reunions ineficaces, multitasca) millora la productivitat.",
       "sources": [
         "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t81-lideratge",
+      "theme": 81,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Lideratge, motivació i gestió de conflictes",
+      "context": "Un cap d'equip té col·laboradors amb graus de competència molt diferents i s'ha generat un conflicte entre dos membres per la distribució de tasques. Vol motivar l'equip, delegar millor i resoldre el conflicte de manera constructiva.",
+      "prompt": "Expliqueu: a) quin estil de lideratge i quins factors de motivació pot aplicar; b) com delegar; c) com abordar el conflicte de manera constructiva i amb comunicació assertiva.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica el lideratge situacional (adaptar l'estil a la maduresa) i factors motivadors (Herzberg/Maslow)",
+          "weight": 13,
+          "keywords": [
+            [
+              "situacional",
+              "adaptar l'estil",
+              "maduresa"
+            ],
+            [
+              "motivacio",
+              "herzberg",
+              "maslow"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Descriu la delegació amb objectius clars i seguiment",
+          "weight": 12,
+          "keywords": [
+            [
+              "delegar",
+              "delegacio"
+            ],
+            [
+              "objectius",
+              "seguiment"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Aplica un estil col·laboratiu de resolució de conflictes (benefici mutu)",
+          "weight": 13,
+          "keywords": [
+            [
+              "col·laboratiu",
+              "col·laborar",
+              "thomas-kilmann"
+            ],
+            [
+              "benefici mutu",
+              "interessos"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala la comunicació assertiva i l'escolta activa",
+          "weight": 7,
+          "keywords": [
+            [
+              "assertiva",
+              "assertivitat"
+            ],
+            [
+              "escolta activa"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Com que els col·laboradors tenen graus de competència diferents, el cap pot aplicar un lideratge situacional, adaptant l'estil (dirigir, orientar, donar suport o delegar) al grau de maduresa de cada persona per a cada tasca; per motivar, ha d'actuar sobre els factors motivadors (reconeixement, responsabilitat, desenvolupament) segons Herzberg, més enllà dels factors d'higiene. b) Per delegar bé, ha d'assignar les tasques amb l'autoritat necessària, objectius clars i un seguiment adequat, evitant tant la microgestió com l'abandó, especialment als col·laboradors més competents. c) Per resoldre el conflicte, l'estil més constructiu és el col·laboratiu (model de Thomas-Kilmann), que busca una solució de benefici mutu integrant els interessos dels dos membres; cal fer-ho amb comunicació assertiva (expressar-se amb claredat i respecte) i escolta activa.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t82-transparencia",
+      "theme": 82,
+      "block": 16,
+      "maxPoints": 45,
+      "title": "Publicitat activa i dret d'accés",
+      "context": "Un ciutadà demana a un ajuntament informació sobre els contractes adjudicats l'any anterior, sense dir per què la vol. L'ajuntament dubta si l'ha de facilitar i si aquesta informació ja hauria d'estar publicada.",
+      "prompt": "Determineu: a) si la informació de contractes s'ha de publicar proactivament; b) si el ciutadà pot accedir-hi sense motivar la sol·licitud; c) què pot fer si li deneguen l'accés.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que la informació de contractes és objecte de publicitat activa al portal de transparència",
+          "weight": 13,
+          "keywords": [
+            [
+              "publicitat activa",
+              "proactivament"
+            ],
+            [
+              "contractes",
+              "portal de transparencia"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Confirma que qualsevol persona pot accedir-hi sense motivar la sol·licitud",
+          "weight": 13,
+          "keywords": [
+            [
+              "qualsevol persona",
+              "sense motivar"
+            ],
+            [
+              "dret d'acces",
+              "no cal motivar"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Assenyala els límits proporcionats (protecció de dades, etc.) i el termini de resolució (1 mes)",
+          "weight": 11,
+          "keywords": [
+            [
+              "limits",
+              "proteccio de dades"
+            ],
+            [
+              "un mes",
+              "proporcionat"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Indica que pot reclamar davant la GAIP",
+          "weight": 8,
+          "keywords": [
+            [
+              "gaip",
+              "comissio de garantia"
+            ],
+            [
+              "reclamacio",
+              "reclamar"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La informació sobre els contractes adjudicats és objecte de publicitat activa: la Llei 19/2014 obliga a publicar-la proactivament al portal de transparència (objecte, import, adjudicatari, durada), de manera que hauria d'estar accessible sense necessitat de sol·licitar-la. b) A més, el ciutadà pot exercir el dret d'accés a la informació pública sense necessitat de motivar la sol·licitud ni acreditar cap interès; l'ajuntament li ha de facilitar la informació, amb els límits proporcionats que escaiguin (per exemple, protecció de dades personals) i, com a regla, en el termini d'un mes. c) Si li deneguen l'accés o no li responen, pot interposar una reclamació davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP), òrgan independent, sens perjudici de la via contenciosa administrativa.",
+      "sources": [
+        "L19_2014"
+      ]
+    },
+    {
+      "id": "c-t83-objectius",
+      "theme": 83,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Planificació i gestió per objectius",
+      "context": "Una àrea municipal vol implantar la gestió per objectius. Ha de definir la seva estratègia a llarg termini i concretar objectius anuals mesurables per als equips, amb indicadors de seguiment.",
+      "prompt": "Expliqueu: a) la diferència entre planificació estratègica i operativa; b) com han de ser els objectius (SMART); c) com es fa el seguiment i l'avaluació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Distingeix planificació estratègica (llarg termini, missió/visió, DAFO) d'operativa (curt termini, plans d'acció)",
+          "weight": 13,
+          "keywords": [
+            [
+              "estrategica",
+              "llarg termini",
+              "missio",
+              "dafo"
+            ],
+            [
+              "operativa",
+              "curt termini",
+              "plans d'accio"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica els objectius SMART (específics, mesurables, assolibles, rellevants, temporals)",
+          "weight": 13,
+          "keywords": [
+            [
+              "smart",
+              "especifics",
+              "mesurables"
+            ],
+            [
+              "assolibles",
+              "rellevants",
+              "temporals"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica el seguiment amb indicadors i l'avaluació de l'acompliment",
+          "weight": 12,
+          "keywords": [
+            [
+              "indicadors",
+              "seguiment"
+            ],
+            [
+              "avaluacio",
+              "acompliment"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala que l'avaluació retroalimenta la planificació següent",
+          "weight": 7,
+          "keywords": [
+            [
+              "retroalimenta",
+              "aprenentatge"
+            ],
+            [
+              "planificacio seguent",
+              "millora"
+            ]
+          ]
+        }
+      ],
+      "model": "a) La planificació estratègica és a llarg termini: defineix la missió, la visió, els valors i els objectius estratègics de l'àrea, sovint a partir d'una anàlisi DAFO (debilitats, amenaces, fortaleses i oportunitats); la planificació operativa és a curt termini (anual) i concreta els plans d'acció, les tasques i els recursos. b) Els objectius han de ser SMART: específics, mesurables (amb indicadors), assolibles amb els recursos disponibles, rellevants (alineats amb l'estratègia) i amb un termini definit. c) El cicle es tanca amb el seguiment mitjançant indicadors i l'avaluació de l'acompliment, que valora la contribució de les persones i els equips als resultats i retroalimenta la planificació de l'exercici següent, tancant així el cicle de millora.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t84-decisions",
+      "theme": 84,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Anàlisi de problemes i gestió del canvi",
+      "context": "Un servei presenta retards recurrents i queixes. El responsable ha de decidir com resoldre el problema de fons i, per fer-ho, ha d'introduir canvis en la manera de treballar de l'equip, que mostra resistències.",
+      "prompt": "Expliqueu: a) el procés racional per analitzar el problema; b) tècniques d'anàlisi de causes i de suport a la decisió; c) com gestionar el canvi i les resistències.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Descriu el procés (definir problema, analitzar causes, alternatives, decidir, implantar/revisar)",
+          "weight": 13,
+          "keywords": [
+            [
+              "definir el problema",
+              "causes",
+              "alternatives"
+            ],
+            [
+              "decidir",
+              "implantar"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Cita tècniques d'anàlisi de causes (Ishikawa, 5 per què) i de decisió (cost-benefici, arbres)",
+          "weight": 12,
+          "keywords": [
+            [
+              "ishikawa",
+              "5 per que"
+            ],
+            [
+              "cost-benefici",
+              "arbres de decisio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Explica un model de gestió del canvi (Lewin o Kotter)",
+          "weight": 13,
+          "keywords": [
+            [
+              "lewin",
+              "kotter"
+            ],
+            [
+              "gestio del canvi",
+              "descongelar",
+              "passos"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Indica que les resistències es gestionen amb comunicació i participació",
+          "weight": 7,
+          "keywords": [
+            [
+              "resistencies",
+              "resistencia"
+            ],
+            [
+              "comunicacio",
+              "participacio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El procés racional comença per definir bé el problema (separant els símptomes —retards i queixes— de les causes reals); després s'analitzen les causes, es generen alternatives de solució, s'avaluen i es decideix, i finalment s'implanta la decisió i se'n revisen els resultats. b) Per analitzar les causes es poden fer servir el diagrama d'Ishikawa (causa-efecte) i els 5 per què; per avaluar les alternatives, tècniques com l'anàlisi cost-benefici, els arbres de decisió o les matrius de decisió. c) Com que la solució implica canviar la manera de treballar, cal gestionar el canvi amb un model com el de Lewin (descongelar, canviar, recongelar) o el de Kotter, i abordar les resistències de l'equip (por, hàbits) amb comunicació transparent i participació de les persones afectades, per generar confiança i implicació.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t85-etica",
+      "theme": 85,
+      "block": 17,
+      "maxPoints": 45,
+      "title": "Ètica i integritat en la direcció",
+      "context": "Un comandament ha de resoldre un assumpte en què un dels afectats és un familiar seu. A més, un proveïdor li ofereix un regal de valor per agilitar un tràmit. Vol actuar amb integritat i d'acord amb els valors del servei públic.",
+      "prompt": "Expliqueu: a) què és l'ètica pública i els seus valors; b) on es recullen els principis de conducta; c) com ha d'actuar davant el conflicte d'interès i el regal.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Defineix l'ètica pública i els seus valors (integritat, objectivitat, servei a la ciutadania)",
+          "weight": 12,
+          "keywords": [
+            [
+              "etica publica"
+            ],
+            [
+              "integritat",
+              "objectivitat",
+              "servei"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Situa els principis ètics i de conducta al TREBEP (arts. 52-54) i codis de bon govern",
+          "weight": 12,
+          "keywords": [
+            [
+              "trebep",
+              "52",
+              "codi de conducta"
+            ],
+            [
+              "bon govern",
+              "principis etics"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que ha d'abstenir-se davant el conflicte d'interès (familiar)",
+          "weight": 13,
+          "keywords": [
+            [
+              "abstenir",
+              "abstencio"
+            ],
+            [
+              "conflicte d'interes",
+              "familiar"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Conclou que ha de rebutjar el regal (integritat, prevenció de la corrupció)",
+          "weight": 8,
+          "keywords": [
+            [
+              "rebutjar",
+              "no acceptar"
+            ],
+            [
+              "regal",
+              "integritat",
+              "corrupcio"
+            ]
+          ]
+        }
+      ],
+      "model": "a) L'ètica pública és el conjunt de principis i valors (integritat, objectivitat, imparcialitat, servei a la ciutadania, transparència i responsabilitat) que han de guiar l'actuació dels servidors públics, més enllà del mer compliment de la legalitat i orientats a l'interès general. b) Els principis ètics i de conducta es recullen en el codi de conducta del TREBEP (arts. 52-54) i en els codis de bon govern (Llei 19/2014). c) Davant l'assumpte en què és afectat un familiar, el comandament ha d'abstenir-se (concorre una causa d'abstenció per parentiu), comunicant-ho al superior perquè un altre resolgui; i ha de rebutjar el regal del proveïdor, que constitueix un intent d'influir en la seva actuació i vulneraria la integritat i les normes de prevenció de la corrupció. Actuant així, defensa l'interès general i la confiança de la ciutadania.",
+      "sources": [
+        "L39_2015"
+      ]
+    },
+    {
+      "id": "c-t86-incompatibilitats",
+      "theme": 86,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Règim d'incompatibilitats d'un empleat públic",
+      "context": "Un funcionari municipal vol exercir, a més, una activitat privada d'assessorament urbanístic a particulars del mateix municipi, i alhora impartir un curs ocasional en una universitat. Es planteja què pot fer.",
+      "prompt": "Determineu: a) el principi general del règim d'incompatibilitats; b) si l'assessorament urbanístic és compatible; c) el règim del curs ocasional.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica el principi de dedicació a un sol lloc públic (Llei 53/1984)",
+          "weight": 12,
+          "keywords": [
+            [
+              "dedicacio",
+              "un sol lloc"
+            ],
+            [
+              "llei 53/1984",
+              "incompatibilitats"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Conclou que l'assessorament urbanístic al mateix municipi és incompatible (relació amb l'assumpte que gestiona)",
+          "weight": 13,
+          "keywords": [
+            [
+              "incompatible",
+              "relacionada"
+            ],
+            [
+              "assumpte",
+              "imparcialitat",
+              "urbanistic"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que altres activitats privades requereixen reconeixement de compatibilitat",
+          "weight": 12,
+          "keywords": [
+            [
+              "compatibilitat",
+              "reconeixement previ"
+            ],
+            [
+              "autoritzacio",
+              "activitat privada"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala que la docència ocasional pot estar exceptuada dins els límits",
+          "weight": 8,
+          "keywords": [
+            [
+              "docencia",
+              "curs ocasional"
+            ],
+            [
+              "exceptuada",
+              "seminaris"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El principi general del règim d'incompatibilitats (Llei 53/1984) és la dedicació a un sol lloc de treball públic: no es pot ocupar més d'un lloc ni percebre més d'una remuneració pública, i l'exercici d'activitats privades està limitat. b) L'activitat d'assessorament urbanístic a particulars del mateix municipi és incompatible, perquè es relaciona directament amb els assumptes que gestiona el funcionari i compromet la seva imparcialitat i objectivitat; per tant, no es podria autoritzar. c) El curs ocasional a la universitat, en canvi, és una activitat de docència de caràcter ocasional que pot estar exceptuada o ser compatible dins els límits legals, previ reconeixement de compatibilitat si escau. En tot cas, l'exercici de qualsevol segona activitat requereix la resolució prèvia de compatibilitat.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c-t87-atencio",
+      "theme": 87,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Gestió d'un conflicte i clima laboral",
+      "context": "En un equip han sorgit tensions entre dos membres per la distribució desigual de la feina, i el clima s'ha deteriorat. El responsable vol resoldre el conflicte i millorar l'ambient de treball.",
+      "prompt": "Expliqueu: a) els tipus de conflicte i com abordar-lo; b) com prevenir conflictes amb la planificació de tasques; c) com millorar el clima laboral.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Identifica el tipus de conflicte (de tasca/recursos per la distribució de feina)",
+          "weight": 12,
+          "keywords": [
+            [
+              "conflicte",
+              "tasca",
+              "recursos"
+            ],
+            [
+              "distribucio",
+              "tipus"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica l'abordatge constructiu (escoltar, separar persona del problema, solucions)",
+          "weight": 13,
+          "keywords": [
+            [
+              "escoltar",
+              "separar",
+              "persones del problema"
+            ],
+            [
+              "solucions",
+              "mediacio"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica la prevenció amb distribució clara i equitativa de tasques i funcions definides",
+          "weight": 13,
+          "keywords": [
+            [
+              "distribucio",
+              "equitativa",
+              "clara"
+            ],
+            [
+              "funcions",
+              "carregues"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala mesures de clima laboral (comunicació, reconeixement, participació)",
+          "weight": 7,
+          "keywords": [
+            [
+              "comunicacio",
+              "reconeixement",
+              "participacio"
+            ],
+            [
+              "clima laboral",
+              "respectuos"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El conflicte plantejat és, principalment, de tasca i de recursos (la distribució desigual de la feina), amb impacte en les relacions. Per abordar-lo de manera constructiva, el responsable ha de detectar-lo aviat, escoltar les dues parts, separar les persones del problema (centrar-se en els interessos i no en les posicions) i buscar una solució de benefici mutu, recorrent a la mediació si cal. b) Molts conflictes es prevenen amb una bona planificació: distribuir les tasques amb criteris clars i equitatius, equilibrar les càrregues de treball i definir amb precisió les funcions i responsabilitats de cada persona. c) Per millorar el clima laboral, cal fomentar la comunicació oberta, el reconeixement de la feina, la participació en les decisions i el tracte respectuós, i resoldre les incidències amb rapidesa i imparcialitat, fent seguiment dels acords perquè no es reprodueixin.",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c-t88-disciplinari",
+      "theme": 88,
+      "block": 7,
+      "maxPoints": 45,
+      "title": "Aplicació del règim disciplinari",
+      "context": "Un funcionari abandona el seu lloc de treball durant diversos dies sense justificació i, a més, hi ha indicis que ha assetjat una companya. L'ajuntament vol depurar responsabilitats disciplinàries.",
+      "prompt": "Expliqueu: a) els principis i l'aplicació del règim disciplinari; b) la qualificació de les faltes i les sancions possibles; c) les garanties del procediment i la prescripció.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que s'aplica al personal funcionari i laboral amb els principis sancionadors",
+          "weight": 12,
+          "keywords": [
+            [
+              "funcionari",
+              "laboral"
+            ],
+            [
+              "principis",
+              "legalitat",
+              "tipicitat"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Qualifica l'abandó del servei i l'assetjament com a faltes molt greus (art. 95)",
+          "weight": 13,
+          "keywords": [
+            [
+              "molt greus",
+              "abandó del servei",
+              "assetjament"
+            ],
+            [
+              "95"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica les sancions possibles (separació del servei, suspensió, trasllat forçós)",
+          "weight": 12,
+          "keywords": [
+            [
+              "separacio del servei",
+              "suspensio",
+              "trasllat forçós"
+            ],
+            [
+              "sancio",
+              "96"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Assenyala el procediment amb garanties i la prescripció (molt greus 3 anys)",
+          "weight": 8,
+          "keywords": [
+            [
+              "procediment",
+              "instructor",
+              "audiencia"
+            ],
+            [
+              "prescripcio",
+              "tres anys",
+              "3 anys"
+            ]
+          ]
+        }
+      ],
+      "model": "a) El règim disciplinari (arts. 93-98 TREBEP) s'aplica al personal funcionari i laboral pels incompliments comesos en l'exercici de les funcions, amb els principis propis de la potestat sancionadora (legalitat, tipicitat, proporcionalitat, culpabilitat i non bis in idem). b) L'abandó del servei i l'assetjament són faltes molt greus tipificades directament a l'art. 95; per a les faltes molt greus, les sancions poden arribar a la separació del servei (funcionaris) o l'acomiadament disciplinari (laborals), a més de la suspensió de funcions o el trasllat forçós (art. 96). c) La imposició d'aquestes sancions exigeix un procediment disciplinari amb garanties: separació entre l'instructor i l'òrgan que resol, dret d'audiència i de defensa, i possibilitat de suspensió provisional de funcions com a mesura cautelar. Les faltes molt greus prescriuen als tres anys (art. 97).",
+      "sources": [
+        "TREBEP"
+      ]
+    },
+    {
+      "id": "c-t89-prl",
+      "theme": 89,
+      "block": 18,
+      "maxPoints": 45,
+      "title": "Prevenció de riscos en un lloc de treball",
+      "context": "En un servei municipal, uns treballadors fan tasques en alçada amb risc de caiguda. El responsable ha de garantir la seguretat, decidint quines mesures de protecció aplicar i quines obligacions té l'Administració com a ocupadora.",
+      "prompt": "Expliqueu: a) els conceptes bàsics i els principis de l'acció preventiva; b) la diferència entre protecció col·lectiva i individual i quina prioritzar; c) les obligacions de l'ocupadora.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Explica els conceptes (risc laboral, prevenció) i cita principis de l'acció preventiva (art. 15)",
+          "weight": 12,
+          "keywords": [
+            [
+              "risc laboral",
+              "prevencio"
+            ],
+            [
+              "accio preventiva",
+              "evitar",
+              "avaluar",
+              "15"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Distingeix protecció col·lectiva (baranes, xarxes) d'individual (EPI: arnès, casc)",
+          "weight": 13,
+          "keywords": [
+            [
+              "col·lectiva",
+              "baranes",
+              "xarxes"
+            ],
+            [
+              "individual",
+              "epi",
+              "arnes",
+              "casc"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Indica que cal prioritzar la protecció col·lectiva sobre la individual",
+          "weight": 13,
+          "keywords": [
+            [
+              "prioritzar la col·lectiva",
+              "col·lectiva abans",
+              "anteposar"
+            ],
+            [
+              "col·lectiva",
+              "individual"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Enumera obligacions de l'ocupadora (avaluació, formació, EPI, vigilància de la salut)",
+          "weight": 7,
+          "keywords": [
+            [
+              "avaluacio de riscos",
+              "formacio",
+              "informacio"
+            ],
+            [
+              "epi",
+              "vigilancia de la salut"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Un risc laboral és la possibilitat que un treballador pateixi un dany derivat del treball; la prevenció és el conjunt de mesures per evitar-lo o reduir-lo. L'art. 15 de la LPRL fixa els principis de l'acció preventiva: evitar els riscos, avaluar els inevitables, combatre'ls en origen, adaptar el treball a la persona, substituir el perillós, anteposar la protecció col·lectiva a la individual i formar i informar. b) La protecció col·lectiva protegeix diverses persones alhora (baranes, xarxes de seguretat en el treball en alçada) i té preferència; els equips de protecció individual (EPI, com l'arnès, el casc o el calçat de seguretat) protegeixen el treballador que els porta i tenen caràcter subsidiari. Per tant, cal implantar primer les mesures col·lectives i, complementàriament, els EPI. c) L'Administració, com a ocupadora, ha d'avaluar els riscos, planificar l'activitat preventiva, informar i formar el personal, facilitar els EPI adequats i vigilar la salut, organitzant la prevenció mitjançant els serveis de prevenció, els delegats de prevenció i el comitè de seguretat i salut.",
+      "sources": [
+        "L31_1995"
+      ]
+    },
+    {
+      "id": "c-t90-coordinacio",
+      "theme": 90,
+      "block": 18,
+      "maxPoints": 45,
+      "title": "Coordinació d'activitats empresarials en una obra",
+      "context": "En una obra municipal concorren el contractista principal, dues empreses subcontractades i un treballador autònom, tots en el mateix centre de treball. Cal organitzar la prevenció de riscos entre totes les empreses.",
+      "prompt": "Expliqueu: a) quan cal la coordinació i el deure de cooperació; b) els deures de l'empresari titular i del principal; c) els mitjans de coordinació.",
+      "criteria": [
+        {
+          "id": "c1",
+          "label": "Indica que cal coordinació perquè concorren treballadors de diverses empreses (art. 24)",
+          "weight": 13,
+          "keywords": [
+            [
+              "coordinacio",
+              "concorren",
+              "diverses empreses"
+            ],
+            [
+              "mateix centre",
+              "24"
+            ]
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Explica el deure de cooperació (informació recíproca) de totes les empreses",
+          "weight": 12,
+          "keywords": [
+            [
+              "cooperacio",
+              "informacio reciproca"
+            ],
+            [
+              "totes les empreses",
+              "concurrents"
+            ]
+          ]
+        },
+        {
+          "id": "c3",
+          "label": "Distingeix els deures de l'empresari titular (informar/instruir) i del principal (vigilar)",
+          "weight": 13,
+          "keywords": [
+            [
+              "titular",
+              "informar",
+              "instruccions"
+            ],
+            [
+              "principal",
+              "vigilar",
+              "vigilancia"
+            ]
+          ]
+        },
+        {
+          "id": "c4",
+          "label": "Cita els mitjans de coordinació (reunions, recursos preventius, coordinador d'activitats)",
+          "weight": 7,
+          "keywords": [
+            [
+              "mitjans de coordinacio",
+              "reunions",
+              "recursos preventius"
+            ],
+            [
+              "coordinador"
+            ]
+          ]
+        }
+      ],
+      "model": "a) Cal la coordinació d'activitats empresarials perquè en el mateix centre de treball concorren treballadors de diverses empreses (el contractista principal, les subcontractades i l'autònom), segons l'art. 24 de la LPRL i el RD 171/2004. Totes les empreses concurrents assumeixen el deure de cooperació: informar-se recíprocament dels riscos de les seves activitats i coordinar l'activitat preventiva. b) L'empresari titular del centre té, a més, el deure d'informar i donar instruccions als altres empresaris sobre els riscos del centre i les mesures d'emergència; l'empresari principal (que contracta obres de la seva pròpia activitat) té el deure de vigilar que els contractistes i subcontractistes compleixin la normativa de prevenció. c) Els mitjans de coordinació inclouen l'intercanvi d'informació, les reunions, la impartició d'instruccions i la presència de recursos preventius; el més complet és la designació d'una o més persones encarregades de la coordinació d'activitats preventives, recomanable en una obra amb concurrència de diverses empreses.",
+      "sources": [
+        "L31_1995",
+        "RD171_2004"
       ]
     }
   ]
