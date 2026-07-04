@@ -8166,458 +8166,853 @@
       ]
     },
     "76": {
-      "intro": "Les polítiques sobre el medi ambient a Catalunya es fonamenten en l'Estatut d'autonomia i en una àmplia normativa sectorial, amb l'avaluació ambiental com a instrument transversal de prevenció.",
+      "intro": "Les polítiques de medi ambient a Catalunya s'emmarquen en les competències que reconeix l'Estatut d'autonomia de 2006 i es despleguen mitjançant una normativa àmplia (avaluació ambiental, activitats, aigües, residus, canvi climàtic). La peça central del control de les activitats és la Llei 20/2009 (PCAA).",
       "sections": [
         {
           "h": "Marc competencial i principis",
-          "p": "La competència en medi ambient és compartida: l'Estat fixa la legislació bàsica i la Generalitat el desenvolupament legislatiu, la gestió i l'execució (art. 144 EAC), amb la possibilitat d'establir normes addicionals de protecció. Les polítiques ambientals s'inspiren en els principis de precaució, prevenció, correcció en origen dels danys i 'qui contamina paga', i en l'objectiu del desenvolupament sostenible."
-        },
-        {
-          "h": "L'avaluació ambiental",
-          "p": "L'avaluació ambiental valora els efectes significatius sobre el medi abans d'aprovar plans i programes o d'autoritzar projectes. Se'n distingeixen dues modalitats:",
+          "p": "L'Estatut d'autonomia de 2006 (art. 144) atribueix a la Generalitat competències en medi ambient, compartides amb l'Estat, que fixa la legislació bàsica; la Generalitat en fa el desenvolupament legislatiu i l'execució. Les polítiques ambientals s'inspiren en:",
           "list": [
-            "L'avaluació ambiental estratègica, que recau sobre plans i programes (per exemple, el planejament urbanístic).",
-            "L'avaluació d'impacte ambiental, que recau sobre projectes concrets i que conclou amb la declaració d'impacte ambiental (DIA), determinant per a l'autorització del projecte."
+            "El desenvolupament sostenible i la integració ambiental en totes les polítiques.",
+            "Els principis de prevenció, precaució i correcció en origen.",
+            "El principi qui contamina paga.",
+            "La participació i l'accés a la informació ambiental."
           ]
         },
         {
-          "h": "Regulació de les activitats amb impacte ambiental",
-          "p": "La intervenció ambiental de les activitats a Catalunya es regeix per la Llei 20/2009, de prevenció i control ambiental de les activitats (PCAA), que gradua el control (autorització, llicència o comunicació) segons la incidència ambiental. Es completa amb la normativa sectorial de residus, protecció de l'atmosfera, contaminació acústica i lumínica, aigua i espais naturals, coordinada amb l'urbanisme i la intervenció municipal."
+          "h": "La regulació específica de les activitats amb impacte ambiental",
+          "p": "Catalunya disposa d'un cos normatiu propi per a la protecció ambiental:",
+          "table": {
+            "headers": [
+              "Àmbit",
+              "Norma de referència"
+            ],
+            "rows": [
+              [
+                "Control d'activitats",
+                "Llei 20/2009 de prevenció i control ambiental de les activitats (PCAA)"
+              ],
+              [
+                "Avaluació ambiental",
+                "Avaluació d'impacte de projectes i avaluació ambiental de plans i programes"
+              ],
+              [
+                "Canvi climàtic",
+                "Llei 16/2017 del canvi climàtic"
+              ],
+              [
+                "Residus",
+                "Legislació de residus i Agència de Residus de Catalunya"
+              ],
+              [
+                "Aigua",
+                "Planificació hidrològica i Agència Catalana de l'Aigua"
+              ]
+            ],
+            "cap": "Normativa ambiental catalana"
+          }
+        },
+        {
+          "h": "Instruments i organització",
+          "p": "Les polítiques ambientals es materialitzen a través d'instruments preventius i organitzatius:",
+          "list": [
+            "La intervenció administrativa de les activitats (autorització, llicència i comunicació ambiental, tema 59).",
+            "L'avaluació ambiental de plans, programes i projectes com a instrument preventiu.",
+            "Els espais naturals protegits i la protecció de la biodiversitat.",
+            "Els organismes ambientals (departament competent, agències de l'aigua i de residus) i la fiscalitat ambiental."
+          ]
         }
       ],
       "keypoints": [
         {
-          "h": "Competències (art. 144 EAC)",
+          "h": "Marc",
           "p": [
-            "Compartida: bases estatals + desenvolupament autonòmic",
-            "Principis: precaució, prevenció, qui contamina paga"
+            "EAC 2006 (art. 144): competència compartida",
+            "Legislació bàsica estatal + desenvolupament i execució de la Generalitat"
           ]
         },
         {
-          "h": "Avaluació ambiental",
+          "h": "Principis",
           "p": [
-            "Estratègica (plans/programes)",
-            "D'impacte (projectes, amb DIA)"
+            "Sostenibilitat, prevenció, precaució, qui contamina paga, integració"
           ]
         },
         {
-          "h": "Activitats i sectors",
+          "h": "Normativa",
           "p": [
-            "Llei 20/2009 (PCAA): autorització/llicència/comunicació",
-            "Residus, atmosfera, soroll, aigua"
-          ]
-        }
-      ]
-    },
-    "77": {
-      "intro": "L'administració electrònica és el model de relació entre les administracions i la ciutadania basat en l'ús dels mitjans electrònics. El regulen la Llei 39/2015 (procediment) i la Llei 40/2015 (funcionament i relacions interadministratives).",
-      "sections": [
-        {
-          "h": "Drets i subjectes obligats",
-          "p": "Les persones físiques poden triar en tot moment si es comuniquen amb les administracions per mitjans electrònics o no (art. 14.1 de la Llei 39/2015). En canvi, estan obligats a relacionar-s'hi exclusivament per mitjans electrònics (art. 14.2):",
-          "list": [
-            "Les persones jurídiques.",
-            "Les entitats sense personalitat jurídica.",
-            "Els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria.",
-            "Els qui representin un interessat obligat.",
-            "Els empleats públics en l'exercici de les seves funcions."
-          ]
-        },
-        {
-          "h": "Identificació i signatura electrònica",
-          "p": "Per actuar electrònicament, els interessats es poden identificar amb els sistemes admesos (certificats electrònics qualificats, sistemes de clau concertada com Cl@ve). Per als tràmits que requereixen manifestar la voluntat (presentar sol·licituds, interposar recursos) cal, a més, la signatura electrònica. La signatura electrònica qualificada té el mateix valor jurídic que la signatura manuscrita."
-        },
-        {
-          "h": "Eines de l'administració electrònica",
-          "p": "El model es materialitza en un conjunt d'eines:",
-          "list": [
-            "La seu electrònica: adreça electrònica de titularitat i responsabilitat d'una administració, amb garanties d'integritat i actualització.",
-            "El registre electrònic general, per a l'entrada i sortida de documents, accessible tots els dies de l'any.",
-            "L'arxiu electrònic únic dels documents de procediments finalitzats.",
-            "Les notificacions electròniques i el punt d'accés general electrònic."
-          ]
-        },
-        {
-          "h": "Drets derivats",
-          "p": "Els ciutadans tenen dret a no aportar documents que ja estiguin en poder de les administracions (interoperabilitat), a conèixer l'estat de la tramitació i a relacionar-se a través d'un punt d'accés general, amb les mesures de seguretat adequades."
-        }
-      ],
-      "keypoints": [
-        {
-          "h": "Subjectes (art. 14 de la Llei 39/2015)",
-          "p": [
-            "Persones físiques: trien el canal (art. 14.1)",
-            "Obligats a l'electrònic (art. 14.2): jurídiques, professionals col·legiats, empleats públics"
-          ]
-        },
-        {
-          "h": "Identificació i signatura",
-          "p": [
-            "Certificats i clau concertada (Cl@ve)",
-            "Signatura qualificada = manuscrita"
-          ]
-        },
-        {
-          "h": "Eines",
-          "p": [
-            "Seu electrònica, registre electrònic, arxiu únic",
-            "Notificacions electròniques i punt d'accés general"
-          ]
-        },
-        {
-          "h": "Drets derivats",
-          "p": [
-            "No aportar documents (interoperabilitat)",
-            "Conèixer l'estat de la tramitació"
-          ]
-        }
-      ]
-    },
-    "78": {
-      "intro": "La millora de la qualitat consisteix en la millora contínua dels processos administratius i en l'orientació del servei públic a la ciutadania. És un objectiu transversal de la gestió pública, vinculat al bon govern i a la transparència.",
-      "sections": [
-        {
-          "h": "Millora contínua i cicle de millora",
-          "p": "La millora contínua es basa en el cicle PDCA (planificar, fer, verificar i actuar): es planifiquen els processos i els objectius, s'executen, es mesuren els resultats i es revisen per introduir-hi millores de manera iterativa. L'objectiu és incrementar l'eficàcia (assolir els resultats), l'eficiència (amb el mínim de recursos) i la satisfacció de les persones usuàries."
-        },
-        {
-          "h": "Instruments de qualitat",
-          "p": "La millora de la qualitat es val de diversos instruments:",
-          "list": [
-            "Les cartes de serveis: documents que informen la ciutadania dels serveis prestats i dels compromisos de qualitat assumits (terminis, condicions) i dels drets dels usuaris.",
-            "Les enquestes de satisfacció i els sistemes de queixes i suggeriments, com a fonts d'informació per a la millora.",
-            "Els indicadors de qualitat (temps de resposta, grau de satisfacció, taxa de resolució d'incidències).",
-            "La simplificació administrativa i la reducció de càrregues per facilitar les relacions amb la ciutadania."
-          ]
-        },
-        {
-          "h": "Atenció a la ciutadania",
-          "p": "La qualitat del servei públic se centra en l'atenció a la ciutadania: accessibilitat (presencial i electrònica), informació clara i comprensible, tracte correcte i imparcial, i resposta en terminis raonables. La millora de l'atenció exigeix la formació del personal, la simplificació dels tràmits i l'ús eficient de les tecnologies."
-        }
-      ],
-      "keypoints": [
-        {
-          "h": "Millora contínua",
-          "p": [
-            "Cicle PDCA (planificar-fer-verificar-actuar)",
-            "Eficàcia, eficiència i satisfacció"
+            "Llei 20/2009 (PCAA), avaluació ambiental, Llei 16/2017 canvi climàtic, residus, aigua"
           ]
         },
         {
           "h": "Instruments",
           "p": [
-            "Cartes de serveis (compromisos de qualitat)",
-            "Enquestes, queixes i suggeriments, indicadors",
-            "Simplificació administrativa"
+            "Intervenció d'activitats, avaluació ambiental, espais protegits, fiscalitat ambiental"
+          ]
+        }
+      ]
+    },
+    "77": {
+      "intro": "L'administració electrònica és la prestació de serveis i la tramitació per mitjans electrònics. Les lleis 39/2015 i 40/2015 (que integren l'antiga Llei 11/2007) la configuren com la forma ordinària de funcionament de les administracions, amb drets per als ciutadans i obligacions per a determinats subjectes.",
+      "sections": [
+        {
+          "h": "Drets i deures dels ciutadans",
+          "p": "La Llei 39/2015 reconeix als ciutadans, en les seves relacions electròniques amb l'Administració:",
+          "list": [
+            "El dret a comunicar-se electrònicament i a escollir el canal (per a qui no està obligat a fer-ho electrònicament).",
+            "El dret a no aportar documents que ja estiguin en poder de l'Administració (interoperabilitat).",
+            "El dret a la protecció de dades i a la seguretat de les comunicacions.",
+            "El dret a l'assistència en l'ús de mitjans electrònics."
+          ]
+        },
+        {
+          "h": "Subjectes obligats a relacionar-se electrònicament",
+          "p": "L'art. 14.2 de la Llei 39/2015 obliga a relacionar-se electrònicament determinats subjectes:",
+          "table": {
+            "headers": [
+              "Obligats (art. 14.2)",
+              "Voluntaris"
+            ],
+            "rows": [
+              [
+                "Persones jurídiques",
+                "Persones físiques (poden triar el canal)"
+              ],
+              [
+                "Entitats sense personalitat jurídica",
+                "—"
+              ],
+              [
+                "Professionals col·legiats (per als tràmits del seu exercici)",
+                "—"
+              ],
+              [
+                "Representants de subjectes obligats",
+                "—"
+              ],
+              [
+                "Empleats públics (per als tràmits com a tals)",
+                "—"
+              ]
+            ],
+            "cap": "Subjectes obligats vs voluntaris"
+          }
+        },
+        {
+          "h": "Identificació, signatura i mitjans electrònics",
+          "p": "Cal distingir la identificació (acreditar qui ets) de la signatura (manifestar la voluntat):",
+          "table": {
+            "headers": [
+              "Funció",
+              "Sistemes admesos"
+            ],
+            "rows": [
+              [
+                "Identificació (arts. 9-11)",
+                "Certificat electrònic, sistemes de clau concertada (Cl@ve), altres admesos"
+              ],
+              [
+                "Signatura",
+                "Signatura amb certificat qualificat, segell electrònic; només s'exigeix quan cal manifestar voluntat"
+              ]
+            ],
+            "cap": "Identificació vs signatura"
+          },
+          "p2": "El funcionament electrònic es basa en la seu electrònica, el registre electrònic, les notificacions electròniques (arts. 41-43), l'arxiu electrònic únic i l'expedient electrònic. La Llei 40/2015 regula l'actuació administrativa automatitzada, el segell electrònic de l'Administració, la interoperabilitat i l'Esquema Nacional de Seguretat."
+        }
+      ],
+      "keypoints": [
+        {
+          "h": "Marc",
+          "p": [
+            "Lleis 39/2015 i 40/2015 (integren la Llei 11/2007)"
+          ]
+        },
+        {
+          "h": "Drets",
+          "p": [
+            "Comunicar-se electrònicament, no reaportar documents, protecció de dades, assistència"
+          ]
+        },
+        {
+          "h": "Obligats (14.2)",
+          "p": [
+            "Persones jurídiques, entitats sense personalitat, col·legiats, representants, empleats públics",
+            "Persones físiques: voluntari"
+          ]
+        },
+        {
+          "h": "Identificació/signatura",
+          "p": [
+            "Identificació: certificat, Cl@ve",
+            "Signatura: només per manifestar voluntat"
+          ]
+        },
+        {
+          "h": "Eines",
+          "p": [
+            "Seu electrònica, registre, notificacions (41-43), expedient i arxiu electrònic únic"
+          ]
+        }
+      ]
+    },
+    "78": {
+      "intro": "La millora de la qualitat és un procés continu orientat a satisfer les necessitats i expectatives de la ciutadania i a fer més eficients els processos administratius. Es fonamenta en la gestió per processos i la millora contínua, amb models de referència del sector públic.",
+      "sections": [
+        {
+          "h": "Qualitat del servei públic i millora contínua",
+          "p": "La qualitat en el servei públic és el grau en què el servei prestat respon a les necessitats i expectatives de la ciutadania. La millora contínua s'articula habitualment amb el cicle PDCA (o cicle de Deming):",
+          "table": {
+            "headers": [
+              "Fase",
+              "Contingut"
+            ],
+            "rows": [
+              [
+                "Plan (planificar)",
+                "Identificar el procés a millorar i fixar objectius"
+              ],
+              [
+                "Do (fer)",
+                "Implantar els canvis, sovint a escala pilot"
+              ],
+              [
+                "Check (verificar)",
+                "Mesurar els resultats amb indicadors"
+              ],
+              [
+                "Act (actuar)",
+                "Estandarditzar la millora o corregir i tornar a començar"
+              ]
+            ],
+            "cap": "Cicle PDCA (Deming)"
+          }
+        },
+        {
+          "h": "Gestió per processos i models de qualitat",
+          "p": "La millora es basa a entendre l'organització com un conjunt de processos que aporten valor:",
+          "list": [
+            "Gestió per processos: identificar, mapar, mesurar i millorar els processos clau.",
+            "Models de referència: EFQM (excel·lència), ISO 9001 (sistemes de gestió de qualitat) i CAF (Common Assessment Framework, específic del sector públic).",
+            "Cartes de serveis: documents que informen dels serveis i estableixen compromisos de qualitat mesurables."
           ]
         },
         {
           "h": "Atenció a la ciutadania",
+          "p": "L'atenció a la ciutadania és la cara visible de la qualitat:",
+          "list": [
+            "Orientació a l'usuari: accessibilitat, multicanalitat (presencial, telefònica, electrònica), llenguatge clar.",
+            "Gestió de queixes i suggeriments com a font de millora.",
+            "Mesura de la satisfacció (enquestes) i indicadors d'atenció (temps d'espera, resolució).",
+            "Simplificació administrativa i reducció de càrregues per a la ciutadania."
+          ]
+        }
+      ],
+      "keypoints": [
+        {
+          "h": "Concepte",
           "p": [
-            "Accessibilitat, informació clara, tracte correcte",
-            "Formació i tecnologies"
+            "Qualitat = resposta a necessitats i expectatives de la ciutadania",
+            "Millora contínua i gestió per processos"
+          ]
+        },
+        {
+          "h": "PDCA",
+          "p": [
+            "Planificar → Fer → Verificar → Actuar (cicle de Deming)"
+          ]
+        },
+        {
+          "h": "Models",
+          "p": [
+            "EFQM, ISO 9001, CAF (sector públic)",
+            "Cartes de serveis: compromisos mesurables"
+          ]
+        },
+        {
+          "h": "Atenció",
+          "p": [
+            "Orientació a l'usuari, multicanalitat, queixes com a millora, mesura de satisfacció"
           ]
         }
       ]
     },
     "79": {
-      "intro": "L'avaluació de l'assoliment d'objectius és el procés de seguiment dels resultats propis i de l'àrea (l'Àrea del Territori i Sostenibilitat) per comprovar en quina mesura s'aconsegueixen els objectius fixats i introduir-hi millores.",
+      "intro": "L'avaluació de l'assoliment d'objectius mesura si els resultats obtinguts s'ajusten al que s'havia planificat, tant a escala individual com de l'Àrea de Territori i Sostenibilitat. Permet detectar desviacions i reconduir-les.",
       "sections": [
         {
-          "h": "Fases de l'avaluació",
-          "p": "L'avaluació segueix un cicle amb fases definides:",
-          "list": [
-            "La planificació: definició dels objectius i dels indicadors.",
-            "L'execució: desplegament de les accions previstes.",
-            "El seguiment i la mesura: recollida sistemàtica de dades sobre l'evolució.",
-            "La revisió: anàlisi de les desviacions respecte dels objectius i adopció de mesures correctores."
-          ],
-          "p2": "El cicle es retroalimenta: els resultats orienten la planificació següent."
+          "h": "Les fases de treball",
+          "p": "La gestió orientada a resultats segueix un cicle:",
+          "table": {
+            "headers": [
+              "Fase",
+              "Contingut"
+            ],
+            "rows": [
+              [
+                "Planificació",
+                "Fixar objectius i resultats esperats, amb indicadors"
+              ],
+              [
+                "Execució",
+                "Desenvolupar les accions previstes"
+              ],
+              [
+                "Seguiment",
+                "Recollir dades i mesurar l'avançament amb indicadors"
+              ],
+              [
+                "Avaluació",
+                "Comparar resultats amb objectius i valorar l'acompliment"
+              ]
+            ],
+            "cap": "Fases del treball per resultats"
+          }
         },
         {
-          "h": "Indicadors i quadre de comandament",
-          "p": "Els objectius s'han de poder mesurar mitjançant indicadors, que han de ser rellevants, mesurables i vinculats als objectius (criteris SMART: específics, mesurables, assolibles, rellevants i amb un horitzó temporal). El quadre de comandament integra els indicadors clau per facilitar-ne el seguiment i la presa de decisions, i permet detectar a temps les desviacions."
+          "h": "Indicadors i seguiment dels resultats",
+          "p": "Els indicadors són la base de l'avaluació objectiva:",
+          "list": [
+            "Indicadors de procés (activitat realitzada), de resultat (efecte immediat) i d'impacte (efecte a mitjà i llarg termini).",
+            "El quadre de comandament integra els indicadors clau per fer-ne el seguiment.",
+            "El seguiment ha de ser periòdic per permetre reaccionar a temps."
+          ]
         },
         {
           "h": "Qualitat dels resultats i reconducció de desviacions",
-          "p": "Quan el seguiment detecta desviacions respecte dels objectius (per exemple, en els terminis de tramitació de llicències o en l'execució d'obres), cal analitzar-ne les causes i adoptar mesures correctores (reforç de recursos, reprogramació, simplificació). L'avaluació es vincula al retiment de comptes i a la transparència, que reforcen la responsabilitat de la gestió i la confiança de la ciutadania."
+          "p": "L'avaluació no és un fi en si mateixa, sinó una eina per millorar:",
+          "list": [
+            "S'analitzen les desviacions entre el que estava previst i el que s'ha assolit, i les seves causes.",
+            "Es defineixen mesures correctores per reconduir les desviacions (ajustar recursos, terminis o objectius).",
+            "S'avalua la qualitat dels resultats (no només la quantitat) i la seva contribució als objectius de l'àrea.",
+            "L'aprenentatge s'incorpora a la planificació següent (millora contínua)."
+          ]
         }
       ],
       "keypoints": [
         {
           "h": "Fases",
           "p": [
-            "Planificació → execució → seguiment/mesura → revisió",
-            "Cicle retroalimentat"
+            "Planificació → Execució → Seguiment → Avaluació"
           ]
         },
         {
           "h": "Indicadors",
           "p": [
-            "SMART i vinculats als objectius",
-            "Quadre de comandament (detecta desviacions)"
+            "De procés, de resultat i d'impacte",
+            "Quadre de comandament per al seguiment periòdic"
           ]
         },
         {
-          "h": "Reconducció",
+          "h": "Desviacions",
           "p": [
-            "Mesures correctores de les desviacions",
-            "Retiment de comptes i transparència"
+            "Analitzar diferència previst/assolit i causes",
+            "Mesures correctores; aprenentatge cap a la planificació següent"
+          ]
+        },
+        {
+          "h": "Qualitat",
+          "p": [
+            "Avaluar la qualitat dels resultats, no només la quantitat"
           ]
         }
       ]
     },
     "80": {
-      "intro": "Les eines del comandament inclouen les tècniques d'organització del treball i de gestió de l'estrès que permeten al directiu i a l'equip millorar el rendiment i el benestar.",
+      "intro": "El comandament ha de gestionar-se a si mateix per poder dirigir els altres. Dues eines essencials són la gestió de l'estrès i l'organització del treball, que li permeten mantenir l'eficàcia i l'equilibri personal.",
       "sections": [
         {
-          "h": "Organització del treball",
-          "p": "Una bona organització del treball es basa en:",
+          "h": "Gestió de l'estrès",
+          "p": "L'estrès és una resposta a demandes percebudes com a excessives. Gestionar-lo implica:",
           "list": [
-            "Prioritzar, distingint el que és urgent del que és important (per exemple, amb la matriu d'Eisenhower).",
-            "Planificar les tasques i els terminis, i fixar objectius diaris i setmanals.",
-            "Agrupar les tasques similars i evitar les interrupcions innecessàries.",
-            "Delegar adequadament, donant autonomia i fent-ne el seguiment."
+            "Identificar-ne les fonts (sobrecàrrega, ambigüitat de rol, conflictes, manca de control).",
+            "Aplicar tècniques de prevenció: gestió del temps, priorització, establiment de límits, descans.",
+            "Tècniques personals: respiració, relaxació, activitat física, hàbits saludables.",
+            "En l'organització: prevenció dels riscos psicosocials i suport a l'equip."
           ]
         },
         {
-          "h": "Gestió de l'estrès",
-          "p": "La gestió de l'estrès implica identificar-ne les fonts (sobrecàrrega, manca de control, conflictes), adoptar hàbits saludables, organitzar la càrrega de treball de manera realista, demanar suport i, des de l'organització, prevenir els riscos psicosocials. Un nivell d'estrès gestionable millora el rendiment; un estrès crònic el deteriora i afecta la salut."
+          "h": "Organització del treball",
+          "p": "Organitzar el treball és clau per a l'eficàcia del comandament. Una eina de referència és la matriu d'Eisenhower, que prioritza segons urgència i importància:",
+          "table": {
+            "headers": [
+              "",
+              "Urgent",
+              "No urgent"
+            ],
+            "rows": [
+              [
+                "Important",
+                "Fer-ho immediatament",
+                "Planificar-ho (zona clau del comandament)"
+              ],
+              [
+                "No important",
+                "Delegar-ho",
+                "Eliminar-ho o ajornar-ho"
+              ]
+            ],
+            "cap": "Matriu d'Eisenhower"
+          }
         },
         {
-          "h": "Reunions i comunicació eficaces",
-          "p": "Les reunions han de tenir un objectiu clar, un ordre del dia, una durada ajustada i un seguiment dels acords. La comunicació eficaç (clara, concreta i bidireccional) evita malentesos i facilita la coordinació. El comandament ha de combinar l'orientació als resultats amb l'atenció a les persones de l'equip."
+          "h": "Gestió del temps i eficàcia",
+          "p": "Complementen l'organització del treball:",
+          "list": [
+            "Planificar la jornada i la setmana, concentrant les tasques que requereixen atenció.",
+            "Delegar les tasques que altres poden fer, alliberant temps per a les pròpies del comandament.",
+            "Identificar i controlar els lladres de temps (interrupcions, reunions ineficaces, multitasca).",
+            "Fer reunions eficaces: ordre del dia, durada acotada, acords i seguiment."
+          ]
         }
       ],
       "keypoints": [
         {
-          "h": "Organització del treball",
-          "p": [
-            "Prioritzar (urgent/important)",
-            "Planificar, agrupar tasques, delegar"
-          ]
-        },
-        {
           "h": "Gestió de l'estrès",
           "p": [
-            "Identificar fonts; càrrega realista",
-            "Prevenció de riscos psicosocials"
+            "Identificar fonts (sobrecàrrega, rol, conflictes)",
+            "Tècniques: gestió del temps, límits, relaxació, prevenció de riscos psicosocials"
           ]
         },
         {
-          "h": "Reunions i comunicació",
+          "h": "Organització",
           "p": [
-            "Objectiu, ordre del dia, seguiment",
-            "Comunicació clara i bidireccional"
+            "Matriu d'Eisenhower: urgent/important",
+            "Zona clau: important + no urgent (planificar)"
+          ]
+        },
+        {
+          "h": "Gestió del temps",
+          "p": [
+            "Planificar, delegar, controlar lladres de temps, reunions eficaces"
           ]
         }
       ]
     },
     "81": {
-      "intro": "El lideratge d'equips comprèn les tècniques de motivació, de delegació de tasques i de gestió de conflictes, així com les habilitats de comunicació pròpies de qui dirigeix persones.",
+      "intro": "El lideratge d'equips és la capacitat d'influir en un grup per assolir objectius comuns. Requereix motivar, delegar, gestionar conflictes i comunicar-se de manera assertiva.",
       "sections": [
         {
-          "h": "Motivació i estils de lideratge",
-          "p": "La motivació de l'equip s'afavoreix amb el reconeixement de la feina, la participació en les decisions, l'establiment d'objectius clars i assolibles i el desenvolupament professional de les persones. Hi ha diferents estils de lideratge (directiu, participatiu, delegatiu); el lideratge situacional recomana adaptar l'estil al grau de maduresa i competència de cada persona i a la naturalesa de la tasca."
+          "h": "Estils de lideratge i motivació",
+          "p": "No hi ha un únic estil vàlid: el lideratge situacional adapta l'estil (dirigir, orientar, donar suport, delegar) al grau de maduresa de l'equip. La motivació es fonamenta en teories clàssiques:",
+          "table": {
+            "headers": [
+              "Teoria",
+              "Idea clau"
+            ],
+            "rows": [
+              [
+                "Maslow",
+                "Jerarquia de necessitats (de les bàsiques a l'autorealització)"
+              ],
+              [
+                "Herzberg",
+                "Factors d'higiene (eviten la insatisfacció) i motivadors (generen satisfacció)"
+              ],
+              [
+                "McGregor",
+                "Teoria X (control) vs teoria Y (confiança i autonomia)"
+              ]
+            ],
+            "cap": "Teories de la motivació"
+          }
         },
         {
-          "h": "Delegació de tasques",
-          "p": "La delegació eficaç consisteix a assignar tasques i responsabilitats donant l'autonomia necessària i fent-ne un seguiment, sense caure en el control excessiu ni en l'abandonament. Delegar allibera temps del comandament per a les funcions estratègiques i desenvolupa les capacitats de l'equip; requereix definir clarament l'objectiu, els recursos i els criteris de control."
+          "h": "Delegació i resolució de conflictes",
+          "p": "Dues competències directives essencials:",
+          "list": [
+            "Delegació: assignar tasques i autoritat a col·laboradors, amb objectius clars i seguiment, sense caure en el control excessiu ni l'abandó.",
+            "Gestió de conflictes: segons el model de Thomas-Kilmann, hi ha cinc estils (competir, col·laborar, transigir, evitar i cedir); l'estil col·laboratiu busca solucions de benefici mutu.",
+            "La negociació permet arribar a acords quan hi ha interessos contraposats."
+          ]
         },
         {
-          "h": "Gestió de conflictes i comunicació",
-          "p": "Els conflictes s'aborden preferentment amb tècniques de comunicació, negociació i mediació, abans de recórrer a mesures coercitives. Les habilitats de comunicació clau són l'escolta activa, l'assertivitat (expressar el propi punt de vista respectant els altres), l'empatia i la capacitat de donar i rebre retroacció (feedback) de manera constructiva."
+          "h": "Habilitats de comunicació: assertivitat",
+          "p": "La comunicació és l'eina bàsica del lideratge. L'assertivitat és l'estil que expressa opinions i necessitats de manera clara i respectuosa:",
+          "table": {
+            "headers": [
+              "Estil",
+              "Característica"
+            ],
+            "rows": [
+              [
+                "Passiu",
+                "No expressa les pròpies necessitats; cedeix sempre"
+              ],
+              [
+                "Agressiu",
+                "Imposa; vulnera els drets dels altres"
+              ],
+              [
+                "Assertiu",
+                "Expressa amb claredat i respecte; equilibri entre els propis drets i els dels altres"
+              ]
+            ],
+            "cap": "Estils de comunicació"
+          },
+          "p2": "Complementen l'assertivitat l'escolta activa, el feedback constructiu i l'atenció a la comunicació no verbal."
         }
       ],
       "keypoints": [
         {
+          "h": "Lideratge",
+          "p": [
+            "Situacional: adaptar l'estil a la maduresa de l'equip"
+          ]
+        },
+        {
           "h": "Motivació",
           "p": [
-            "Reconeixement, participació, objectius clars",
-            "Lideratge situacional (adaptat a persona i tasca)"
+            "Maslow (necessitats), Herzberg (higiene/motivadors), McGregor (X/Y)"
           ]
         },
         {
           "h": "Delegació",
           "p": [
-            "Autonomia + seguiment",
-            "Definir objectiu, recursos i control"
+            "Assignar tasques i autoritat amb objectius i seguiment"
           ]
         },
         {
-          "h": "Conflictes i comunicació",
+          "h": "Conflictes",
           "p": [
-            "Comunicació, negociació, mediació",
-            "Escolta activa, assertivitat, empatia, feedback"
+            "Thomas-Kilmann: competir, col·laborar, transigir, evitar, cedir",
+            "Col·laborar = benefici mutu"
+          ]
+        },
+        {
+          "h": "Comunicació",
+          "p": [
+            "Assertiva (vs passiva/agressiva) + escolta activa + feedback"
           ]
         }
       ]
     },
     "82": {
-      "intro": "La transparència en la gestió pública, el bon govern i el dret d'accés a la informació pública es regulen a Catalunya per la Llei 19/2014 i, en l'àmbit estatal, per la Llei 19/2013.",
+      "intro": "La transparència, l'accés a la informació pública i el bon govern són pilars de la qualitat democràtica. A Catalunya els regula la Llei 19/2014, de transparència, accés a la informació pública i bon govern, complementària de la Llei estatal 19/2013.",
       "sections": [
         {
-          "h": "Transparència (publicitat activa)",
-          "p": "La transparència obliga les administracions a fer pública, per iniciativa pròpia i de manera permanent i actualitzada, la informació rellevant sobre la seva organització i funcionament: informació institucional i organitzativa, de rellevància jurídica (normes, plans), sobre la gestió econòmica (pressupostos, comptes, retribucions) i sobre la contractació, els convenis i les subvencions. Es difon a través del portal de transparència."
+          "h": "Transparència: publicitat activa",
+          "p": "La transparència obliga les administracions a fer pública proactivament la informació rellevant, sense necessitat que ningú la demani (publicitat activa), a través del portal de transparència:",
+          "list": [
+            "Informació institucional i organitzativa (organigrama, funcions, personal).",
+            "Informació econòmica: pressupostos, comptes, retribucions dels càrrecs.",
+            "Contractes, convenis i subvencions.",
+            "Informació de rellevància jurídica (normativa, plans)."
+          ]
         },
         {
-          "h": "Dret d'accés a la informació pública",
-          "p": "Qualsevol persona té dret a accedir a la informació pública (la que les administracions posseeixen i que ha estat elaborada o adquirida en l'exercici de les seves funcions), sense necessitat de motivar la sol·licitud ni d'acreditar cap interès. Aquest dret només es pot limitar pels límits taxats que estableix la llei (protecció de dades personals, seguretat pública, investigació, secrets), aplicats de manera restrictiva i, en el cas de les dades personals, prèvia ponderació entre l'interès públic en la divulgació i els drets afectats."
+          "h": "El dret d'accés a la informació pública",
+          "p": "Complementa la publicitat activa amb el dret de qualsevol persona a sol·licitar informació:",
+          "table": {
+            "headers": [
+              "Element",
+              "Regla"
+            ],
+            "rows": [
+              [
+                "Titular",
+                "Qualsevol persona, a partir dels 16 anys, sense necessitat de motivar la sol·licitud"
+              ],
+              [
+                "Objecte",
+                "La informació elaborada o en poder de l'Administració"
+              ],
+              [
+                "Límits",
+                "Protecció de dades, seguretat, investigació, secrets legalment establerts (aplicats de manera proporcionada)"
+              ],
+              [
+                "Termini",
+                "Resolució en 1 mes (prorrogable); el silenci és, en general, estimatori a Catalunya"
+              ],
+              [
+                "Garantia",
+                "Reclamació davant la GAIP (Comissió de Garantia del Dret d'Accés a la Informació Pública)"
+              ]
+            ],
+            "cap": "Dret d'accés (Llei 19/2014)"
+          }
         },
         {
-          "h": "Silenci, garanties i bon govern",
-          "p": "La sol·licitud d'accés s'ha de resoldre en el termini d'un mes; el silenci té caràcter estimatori, llevat que hi concorri un límit. Contra la denegació o el silenci, a Catalunya es pot presentar una reclamació davant la Comissió de Garantia del Dret d'Accés a la Informació Pública (GAIP). El bon govern comporta l'exigència de principis ètics i de conducta als alts càrrecs i un règim d'incompatibilitats i de prevenció de conflictes d'interès."
+          "h": "Bon govern i govern obert",
+          "p": "La llei estableix també els principis de bon govern i els instruments de participació:",
+          "list": [
+            "Codi de conducta dels alts càrrecs i principis d'actuació (integritat, objectivitat, retiment de comptes).",
+            "Registre de grups d'interès (lobbies) i regulació dels conflictes d'interès.",
+            "Govern obert: participació ciutadana, dades obertes i col·laboració.",
+            "Règim sancionador per a les infraccions en matèria de transparència i bon govern."
+          ]
         }
       ],
       "keypoints": [
         {
-          "h": "Transparència (Llei 19/2014)",
+          "h": "Marc",
           "p": [
-            "Publicitat activa al portal de transparència",
-            "Informació institucional, econòmica, de contractació"
+            "Llei 19/2014 (Catalunya) + Llei 19/2013 (estatal)"
+          ]
+        },
+        {
+          "h": "Publicitat activa",
+          "p": [
+            "Publicar proactivament: organització, economia, contractes, subvencions, normativa",
+            "Portal de transparència"
           ]
         },
         {
           "h": "Dret d'accés",
           "p": [
-            "De qualsevol persona, sense motivar",
-            "Límits taxats i ponderació amb la protecció de dades"
+            "Qualsevol persona, sense motivar",
+            "Límits proporcionats; resol 1 mes; silenci estimatori (Catalunya)",
+            "Reclamació davant la GAIP"
           ]
         },
         {
-          "h": "Garanties i bon govern",
+          "h": "Bon govern",
           "p": [
-            "Resolució en 1 mes; reclamació davant la GAIP",
-            "Principis ètics dels alts càrrecs"
+            "Codi de conducta d'alts càrrecs, registre de grups d'interès, govern obert, dades obertes"
           ]
         }
       ]
     },
     "83": {
-      "intro": "La gestió per objectius (direcció per objectius, DPO) és un model de direcció que orienta l'activitat de l'organització cap a la consecució de resultats definits prèviament, mitjançant la planificació, els indicadors i l'avaluació.",
+      "intro": "La gestió per objectius (o direcció per objectius, DPO) és un model de direcció que orienta l'organització cap a resultats mesurables, fixats de manera consensuada. Integra la planificació estratègica i operativa amb indicadors i avaluació.",
       "sections": [
         {
           "h": "Planificació estratègica i operativa",
-          "p": "La gestió per objectius parteix de la planificació estratègica, que fixa la missió, la visió i els objectius generals a llarg termini, i la concreta en la planificació operativa, que en desplega les accions, els recursos i els terminis a curt termini. Els objectius generals es despleguen en objectius d'àrea i, si escau, individuals, de manera que tots quedin alineats."
+          "p": "La gestió per objectius es desplega en dos nivells de planificació:",
+          "table": {
+            "headers": [
+              "",
+              "Planificació estratègica",
+              "Planificació operativa"
+            ],
+            "rows": [
+              [
+                "Horitzó",
+                "Llarg termini",
+                "Curt termini (anual)"
+              ],
+              [
+                "Contingut",
+                "Missió, visió, valors i objectius estratègics",
+                "Plans d'acció, tasques i recursos"
+              ],
+              [
+                "Eina d'anàlisi",
+                "DAFO (debilitats, amenaces, fortaleses, oportunitats)",
+                "Programació d'activitats"
+              ],
+              [
+                "Responsable",
+                "Direcció",
+                "Comandaments i equips"
+              ]
+            ],
+            "cap": "Estratègica vs operativa"
+          }
         },
         {
           "h": "Fixació d'objectius i indicadors",
-          "p": "Els objectius han de complir els criteris SMART (específics, mesurables, assolibles, rellevants i amb un horitzó temporal). Cal associar-hi indicadors que en permetin el seguiment i establir fites intermèdies. Un bon sistema d'indicadors, integrat en un quadre de comandament, facilita el seguiment i la presa de decisions."
+          "p": "Els objectius han de ser clars i mesurables. Un criteri de referència és el model SMART:",
+          "list": [
+            "Specific (específic): concret i ben definit.",
+            "Measurable (mesurable): amb indicadors quantificables.",
+            "Achievable (assolible): realista amb els recursos disponibles.",
+            "Relevant (rellevant): alineat amb l'estratègia.",
+            "Time-bound (temporal): amb un termini definit."
+          ]
         },
         {
           "h": "Avaluació del desenvolupament",
-          "p": "El sistema es tanca amb l'avaluació de l'assoliment i del desenvolupament o acompliment de les persones. L'Estatut bàsic de l'empleat públic preveu l'avaluació de l'acompliment (art. 20 TREBEP), que mesura la conducta professional i el rendiment o els resultats, amb efectes en la carrera, la formació, la provisió de llocs i la percepció de la productivitat. L'avaluació permet reconduir les desviacions i orientar la planificació següent."
+          "p": "El cicle es tanca amb el seguiment i l'avaluació de l'acompliment:",
+          "list": [
+            "Els indicadors permeten mesurar el grau d'assoliment dels objectius.",
+            "L'avaluació de l'acompliment valora la contribució de les persones i els equips als resultats.",
+            "Els resultats de l'avaluació retroalimenten la planificació següent i poden vincular-se al reconeixement (carrera, productivitat).",
+            "Avantatges: alineació, motivació i retiment de comptes; riscos: rigidesa o objectius mal definits."
+          ]
         }
       ],
       "keypoints": [
         {
-          "h": "Planificació",
+          "h": "Concepte",
           "p": [
-            "Estratègica (missió, visió, llarg termini)",
-            "Operativa (accions i recursos, curt termini)",
-            "Objectius alineats (generals → àrea → individuals)"
+            "Direcció per objectius (Drucker): resultats mesurables i consensuats"
           ]
         },
         {
-          "h": "Objectius i indicadors",
+          "h": "Planificació",
           "p": [
-            "Criteris SMART",
-            "Indicadors i quadre de comandament"
+            "Estratègica (llarg termini, missió/visió, DAFO)",
+            "Operativa (curt termini, plans d'acció)"
+          ]
+        },
+        {
+          "h": "Objectius SMART",
+          "p": [
+            "Específics, Mesurables, Assolibles, Rellevants, Temporals"
           ]
         },
         {
           "h": "Avaluació",
           "p": [
-            "De l'acompliment (art. 20 TREBEP)",
-            "Efectes en carrera i productivitat"
+            "Indicadors + avaluació de l'acompliment → retroalimenta la planificació"
           ]
         }
       ]
     },
     "84": {
-      "intro": "La presa de decisions és el procés d'elecció entre alternatives per resoldre problemes o aprofitar oportunitats. En els entorns públics inclou l'anàlisi de problemes complexos i la gestió del canvi.",
+      "intro": "La presa de decisions és una funció central de la direcció, especialment davant problemes complexos i processos de canvi en entorns públics. Requereix mètode, anàlisi i gestió de les persones afectades.",
       "sections": [
         {
-          "h": "El procés de decisió",
-          "p": "La presa de decisions estructurada segueix unes fases:",
+          "h": "Anàlisi de problemes complexos",
+          "p": "Decidir bé comença per entendre bé el problema. Un procés racional de decisió inclou:",
+          "table": {
+            "headers": [
+              "Pas",
+              "Contingut"
+            ],
+            "rows": [
+              [
+                "Definir el problema",
+                "Delimitar-lo amb precisió, separant símptomes de causes"
+              ],
+              [
+                "Analitzar causes",
+                "Tècniques com el diagrama d'Ishikawa (causa-efecte) o els 5 per què"
+              ],
+              [
+                "Generar alternatives",
+                "Identificar diverses opcions de solució"
+              ],
+              [
+                "Avaluar i decidir",
+                "Comparar alternatives (cost-benefici, arbres de decisió) i escollir"
+              ],
+              [
+                "Implantar i revisar",
+                "Executar la decisió i avaluar-ne els resultats"
+              ]
+            ],
+            "cap": "Procés de decisió"
+          }
+        },
+        {
+          "h": "Tipus de decisions i tècniques",
+          "p": "Les decisions varien segons el seu abast i grau d'estructuració:",
           "list": [
-            "Definir el problema i identificar-ne les causes arrel (no només els símptomes).",
-            "Recollir i analitzar la informació rellevant.",
-            "Generar alternatives de solució.",
-            "Avaluar les alternatives segons criteris objectius (eficàcia, cost, viabilitat, riscos) i decidir.",
-            "Implementar la decisió i fer-ne el seguiment per introduir-hi ajustos."
+            "Programades (rutinàries, amb procediment establert) vs no programades (noves, complexes).",
+            "Estratègiques, tàctiques i operatives, segons el nivell.",
+            "Tècniques de suport: anàlisi cost-benefici, DAFO, matrius de decisió, arbres de decisió.",
+            "Cal tenir presents la incertesa, la informació disponible i els biaixos cognitius."
           ]
         },
         {
-          "h": "Eines d'anàlisi de problemes complexos",
-          "p": "Per als problemes complexos s'utilitzen eines d'anàlisi com la matriu DAFO (debilitats, amenaces, fortaleses i oportunitats), l'arbre de problemes (causes i efectes), l'anàlisi cost-benefici i les tècniques de priorització. En entorns públics, la decisió s'ha d'ajustar als principis de legalitat, objectivitat i interès general, i sovint requereix la participació de diversos actors."
-        },
-        {
-          "h": "Gestió del canvi",
-          "p": "Les decisions solen comportar canvis organitzatius que generen resistències. La gestió del canvi exigeix comunicar de manera clara els motius i els beneficis, implicar i fer participar les persones afectades, formar i acompanyar l'equip, i abordar les resistències amb diàleg i lideratge, per assegurar que el canvi s'implanti i es consolidi."
+          "h": "Gestió del canvi en entorns públics",
+          "p": "Moltes decisions impliquen canvis organitzatius que cal gestionar:",
+          "list": [
+            "Models de referència: el de Lewin (descongelar, canviar, recongelar) i el de Kotter (crear urgència, coalició, visió, comunicar, actuar, consolidar).",
+            "Les resistències al canvi (por, hàbits, interessos) s'han de preveure i gestionar amb comunicació i participació.",
+            "En el sector públic, el canvi topa amb rigideses normatives i culturals: cal lideratge, transparència i implicació dels equips.",
+            "La gestió del canvi busca que les decisions es tradueixin en millores reals i sostenibles."
+          ]
         }
       ],
       "keypoints": [
         {
           "h": "Procés",
           "p": [
-            "Definir el problema (causes arrel)",
-            "Analitzar → generar alternatives → avaluar → decidir",
-            "Implementar i fer seguiment"
+            "Definir problema → analitzar causes (Ishikawa, 5 per què) → alternatives → decidir → implantar/revisar"
           ]
         },
         {
-          "h": "Eines",
+          "h": "Tipus",
           "p": [
-            "DAFO, arbre de problemes, cost-benefici",
-            "Legalitat, objectivitat i interès general"
+            "Programades vs no programades; estratègiques/tàctiques/operatives",
+            "Tècniques: cost-benefici, DAFO, arbres de decisió"
           ]
         },
         {
           "h": "Gestió del canvi",
           "p": [
-            "Comunicar, implicar, acompanyar",
-            "Gestionar resistències amb diàleg"
+            "Lewin (descongelar-canviar-recongelar), Kotter (8 passos)",
+            "Gestionar resistències amb comunicació i participació"
           ]
         }
       ]
     },
     "85": {
-      "intro": "L'ètica pública és el conjunt de principis i valors que han d'orientar l'actuació de les persones al servei de les administracions per garantir el servei objectiu a l'interès general. Es concreta en codis ètics i de conducta (TREBEP i normativa de bon govern).",
+      "intro": "L'ètica pública és el conjunt de principis i valors que han de guiar l'actuació dels servidors públics per garantir la integritat i el servei a la ciutadania. Es concreta en codis ètics i de conducta i s'aplica en la direcció diària.",
       "sections": [
         {
-          "h": "Principis ètics i de conducta",
-          "p": "L'actuació dels empleats públics s'ha d'ajustar als principis ètics i de conducta dels arts. 52 a 54 del TREBEP: objectivitat, integritat, imparcialitat, neutralitat, responsabilitat, professionalitat, transparència, exemplaritat, austeritat, accessibilitat, eficàcia i, sobretot, servei a l'interès general i a la ciutadania. Aquests principis informen la interpretació i l'aplicació del règim disciplinari."
+          "h": "Concepte i valors del servei públic",
+          "p": "L'ètica pública va més enllà del compliment de la legalitat: exigeix una actuació íntegra i orientada a l'interès general. Valors fonamentals:",
+          "list": [
+            "Integritat i honradesa en la gestió dels recursos públics.",
+            "Objectivitat i imparcialitat en les decisions.",
+            "Servei a la ciutadania i vocació de servei públic.",
+            "Transparència, responsabilitat i retiment de comptes.",
+            "Eficàcia i eficiència en l'ús dels mitjans."
+          ]
         },
         {
-          "h": "El codi ètic i de bon govern",
-          "p": "Els codis ètics i de bon govern concreten aquests valors en pautes de conducta i mesures de prevenció: la gestió dels conflictes d'interès i el deure d'abstenció, el règim d'incompatibilitats, la limitació en l'acceptació de regals i d'avantatges, i la transparència en l'actuació. El bon govern (Llei 19/2014) exigeix als alts càrrecs uns principis d'actuació i un règim de responsabilitat."
+          "h": "El codi ètic i de conducta",
+          "p": "Els valors es formalitzen en codis que orienten el comportament:",
+          "table": {
+            "headers": [
+              "Instrument",
+              "Contingut"
+            ],
+            "rows": [
+              [
+                "Codi de conducta del TREBEP (arts. 52-54)",
+                "Principis ètics i de conducta dels empleats públics"
+              ],
+              [
+                "Codis de bon govern",
+                "Compromisos dels alts càrrecs (Llei 19/2014)"
+              ],
+              [
+                "Codis ètics institucionals",
+                "Valors i pautes propis de cada organització"
+              ]
+            ],
+            "cap": "Codis ètics i de conducta"
+          }
         },
         {
-          "h": "Integritat i exemplaritat en la direcció",
-          "p": "En la direcció diària, l'aplicació de l'ètica pública es tradueix en conductes concretes: abstenir-se en els casos de conflicte d'interès, rebutjar el favoritisme i garantir el tracte igual, respectar la legalitat i l'ordre de tramitació, i actuar amb transparència. La integritat i l'exemplaritat dels comandaments són eines fonamentals de prevenció de la corrupció i de reforç de la confiança de la ciutadania."
+          "h": "Integritat i aplicació en la direcció diària",
+          "p": "La integritat institucional es construeix amb una infraestructura ètica i s'aplica en el dia a dia:",
+          "list": [
+            "Prevenció de la corrupció: gestió dels conflictes d'interès, incompatibilitats i regals.",
+            "Infraestructura ètica: codis, formació, canals de denúncia (bústies) i òrgans de control com l'Oficina Antiffrau de Catalunya.",
+            "En la direcció diària: predicar amb l'exemple, decidir amb transparència i motivació, tractar les persones amb equitat i defensar l'interès general per damunt dels interessos particulars.",
+            "L'ètica pública reforça la confiança de la ciutadania en les institucions."
+          ]
         }
       ],
       "keypoints": [
         {
-          "h": "Principis (arts. 52-54 TREBEP)",
+          "h": "Concepte",
           "p": [
-            "Objectivitat, integritat, imparcialitat",
-            "Transparència, exemplaritat, servei a l'interès general"
+            "Principis i valors que guien el servidor públic, més enllà de la legalitat"
           ]
         },
         {
-          "h": "Codi ètic i bon govern",
+          "h": "Valors",
           "p": [
-            "Conflictes d'interès i abstenció; incompatibilitats",
-            "Regals; transparència (Llei 19/2014)"
+            "Integritat, objectivitat, servei a la ciutadania, transparència, responsabilitat, eficàcia"
           ]
         },
         {
-          "h": "Direcció",
+          "h": "Codis",
           "p": [
-            "Abstenir-se; rebutjar favoritismes; tracte igual",
-            "Integritat i exemplaritat contra la corrupció"
+            "TREBEP arts. 52-54 (empleats), codis de bon govern (Llei 19/2014), codis institucionals"
+          ]
+        },
+        {
+          "h": "Integritat",
+          "p": [
+            "Conflictes d'interès, incompatibilitats, canals de denúncia, Oficina Antiffrau",
+            "Direcció diària: exemple, transparència, equitat, interès general"
           ]
         }
       ]
