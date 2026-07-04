@@ -1697,37 +1697,47 @@ Regles específiques del contracte d'obres:
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Element diferenciador (art. 14)**
-  - Contraprestació: dret d'explotació (± preu)
-  - Transferència del RISC operacional al concessionari
+- **Marc**
+  - LCSP arts. 247-283; concepte a l'art. 14
+- **Clau**
+  - Construcció + explotació; risc operacional al concessionari
+  - Contraprestació = tarifes (o tarifa + preu); durada màx. 40 anys (29)
 - **Preparació**
-  - Estudi de viabilitat previ
-  - Durada fins a 40 anys (art. 29)
-- **Construcció i explotació**
-  - Construcció: regles del contracte d'obres
-  - Explotació: manteniment + tarifes/peatge
-- **Equilibri econòmic (art. 270)**
-  - Ius variandi, factum principis, riscos imprevisibles
-- **Extinció**
-  - Termini, resolució, rescat, caducitat
-  - Reversió de l'obra a l'administració
+  - Estudi de viabilitat OBLIGATORI (247) + projecte (248)
+- **Equilibri (270)**
+  - Es restableix: ius variandi, factum principis, força major/riscos imprevisibles
+- **Extinció (279)**
+  - Termini, resolució, rescat, segrest, caducitat → reversió de l'obra
 
-El contracte de concessió d'obres té per objecte la construcció i l'explotació d'una obra, o només la seva explotació, amb transferència del risc operacional al concessionari. Es regeix per la Llei 9/2017 (LCSP). Aquest tema en tracta el concepte, les actuacions preparatòries, la construcció, els drets i prerrogatives i l'extinció.
+El contracte de concessió d'obres (arts. 247-283 de la LCSP) permet que un particular construeixi i exploti una obra pública, assumint-ne el risc operacional. Es diferencia del contracte d'obres perquè la contraprestació no és un preu, sinó el dret a explotar l'obra (tarifes), sol o acompanyat d'un preu.
 
-### Concepte i element diferenciador (art. 14 LCSP)
-En la concessió d'obres, la contraprestació del concessionari consisteix en el dret a explotar l'obra, o en aquest dret acompanyat d'un preu. El tret que la distingeix del contracte d'obres és que el concessionari assumeix el risc operacional (de demanda, de disponibilitat o de tots dos): no té garantida la recuperació de la inversió i de les despeses en condicions normals de mercat.
+### Concepte i element definidor: el risc operacional
+Segons l'art. 14 de la LCSP, la concessió d'obres té per objecte la construcció i explotació (o només l'explotació) d'una obra. El tret essencial és la transferència al concessionari del risc operacional (risc de demanda, d'oferta o tots dos): el concessionari no té garantida la recuperació de les inversions en condicions normals de mercat.
 
-### Actuacions preparatòries
-Com que és un contracte de llarga durada i alta inversió, exigeix un estudi de viabilitat previ (econòmica, tècnica i mediambiental) i, si escau, un avantprojecte i un projecte. La durada es fixa en funció del temps necessari per recuperar la inversió i obtenir un rendiment raonable, amb un màxim de quaranta anys (art. 29 LCSP).
+- Contraprestació: dret a explotar l'obra i percebre tarifes dels usuaris, o aquest dret acompanyat d'un preu.
+- Durada màxima (art. 29): 40 anys per a concessions d'obres.
+- L'obra reverteix a l'Administració en extingir-se la concessió.
 
-### Construcció i explotació
-La fase de construcció se subjecta a les regles del contracte d'obres. Un cop construïda, s'inicia l'explotació, durant la qual el concessionari manté i conserva l'obra i en presta el servei o l'ús, percebent les tarifes o el peatge (eventualment amb aportacions públiques).
+### Actuacions preparatòries i construcció
+Abans de licitar cal justificar la viabilitat i el projecte:
 
-### Drets, prerrogatives i equilibri econòmic
-El concessionari té dret a explotar l'obra i a mantenir l'equilibri econòmic de la concessió. L'administració conserva les prerrogatives (interpretar, modificar, etc.) i pot alterar les condicions per interès públic. El restabliment de l'equilibri econòmic (art. 270 LCSP) procedeix quan l'administració modifica la concessió (ius variandi), quan actua un factum principis, o davant riscos imprevisibles aliens al risc operacional que assumeix el concessionari.
+- Estudi de viabilitat (art. 247): obligatori i previ; analitza la viabilitat econòmica, tècnica, jurídica i ambiental.
+- Avantprojecte i projecte de construcció (art. 248) i plec de clàusules.
+- La construcció es fa segons el projecte, amb possibilitat de modificacions i el règim de força major propi de les obres.
 
-### Extinció i reversió
-La concessió s'extingeix per compliment (transcurs del termini), per resolució (per incompliment de qualsevol de les parts), per rescat (represa anticipada per l'administració per interès públic), per caducitat o per altres causes. En extingir-se, l'obra reverteix a l'administració en les condicions previstes.
+### Drets, obligacions i equilibri econòmic
+El concessionari té dret a explotar l'obra i a percebre'n la retribució, i el deure de prestar el servei amb continuïtat i conservar l'obra. La clau és el manteniment de l'equilibri econòmic de la concessió (art. 270), que es restableix en supòsits taxats:
+
+*Equilibri econòmic (art. 270)*
+
+| Causa de desequilibri | Efecte |
+| --- | --- |
+| Ius variandi (modificació per l'Administració) | Compensació al concessionari |
+| Factum principis (actuacions de l'Administració que incideixen) | Restabliment de l'equilibri |
+| Força major o riscos imprevisibles | Repartiment segons els termes de la concessió |
+
+### Prerrogatives i extinció
+L'Administració concedent conserva les prerrogatives generals i, a més, pot segrestar o intervenir la concessió temporalment (art. 263) en cas d'incompliment greu. L'extinció (arts. 279-282) es produeix per compliment del termini, resolució, rescat (recuperació anticipada per interès públic), segrest definitiu o caducitat; en tots els casos, l'obra reverteix a l'Administració en l'estat de conservació pactat.
 
 ---
 
@@ -1737,32 +1747,44 @@ La concessió s'extingeix per compliment (transcurs del termini), per resolució
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Concepte (art. 16)**
-  - Adquisició, arrendament o lísing de béns mobles
-  - Successiu per preu unitari; béns a fabricar
-- **Procediments i durada**
-  - Procediments generals; pròrrogues (art. 29)
-  - Acords marc i sistemes dinàmics per a compres repetitives
-- **Arrendament**
-  - Precisar manteniment i condicions
-  - Programari a mida = contracte de serveis
+- **Marc**
+  - LCSP arts. 298-307; concepte art. 16
+- **Modalitats**
+  - Compra, arrendament (amb/sense opció de compra), adquisició successiva, fabricació
+  - Programari a mida = serveis, no subministrament
+- **Adjudicació**
+  - Procediments generals + acords marc, sistemes dinàmics, contractació centralitzada
+- **Durada**
+  - Màx. 5 anys amb pròrrogues (art. 29)
 - **Execució**
-  - Lliurament + recepció (comprovació tècnica) → garantia
-  - Resolució: causes generals i específiques
+  - Lliurament, recepció i termini de garantia
+  - Resolució (306): desistiment o suspensió + causes generals
 
-El contracte de subministrament té per objecte l'adquisició de béns mobles. Es regeix per la Llei 9/2017 (LCSP). Aquest tema en tracta el concepte, els procediments d'adjudicació, la durada, l'arrendament i l'execució i resolució.
+El contracte de subministrament (arts. 298-307 de la LCSP) té per objecte l'adquisició de productes o béns mobles. És un dels contractes típics més freqüents a les administracions locals.
 
-### Concepte i supòsits (art. 16 LCSP)
-El contracte de subministrament té per objecte l'adquisició, l'arrendament (financer o no) o l'adquisició per arrendament financer de productes o béns mobles. Es consideren també subministrament, entre altres: l'adquisició successiva de béns per preu unitari sense fixar-ne el nombre total (en funció de les necessitats), i el subministrament de béns que s'han de fabricar segons les característiques fixades per l'administració.
+### Concepte i modalitats
+L'art. 16 defineix el subministrament com el contracte que té per objecte l'adquisició de productes o béns mobles, i inclou diverses modalitats:
 
-### Procediments d'adjudicació i durada
-S'adjudica pels procediments generals (obert, restringit, etc.). La durada és la que fixi el plec, amb les pròrrogues previstes (art. 29 LCSP); pot recórrer a tècniques de racionalització de la contractació, com els acords marc i els sistemes dinàmics d'adquisició, especialment adequats per a compres repetitives.
+*Art. 16 de la LCSP*
 
-### Arrendament
-Quan l'objecte és l'arrendament de béns, el plec ha de precisar si inclou el manteniment i les condicions de la seva contractació. En l'arrendament financer, la titularitat del bé s'adquireix a la fi. No es considera subministrament l'adquisició de programari a mida, que és un contracte de serveis.
+| Modalitat | Descripció |
+| --- | --- |
+| Compra | Adquisició de béns amb pagament del preu |
+| Arrendament | Lloguer de béns mobles, amb o sense opció de compra |
+| Adquisició successiva / per preu unitari | Lliuraments repetits sense fixar el nombre total |
+| Fabricació | Els béns es fabriquen segons les característiques fixades per l'Administració |
 
-### Execució, recepció i resolució
-El contractista lliura els béns en el termini i el lloc pactats; l'administració els rep prèvia comprovació que s'ajusten a les prescripcions tècniques, i s'inicia el termini de garantia. La resolució es regeix per les causes generals (art. 211) i per les específiques del subministrament, com la suspensió del lliurament per un termini superior al fixat.
+No es consideren subministrament els programes d'ordinador desenvolupats a mida (són contractes de serveis).
+
+### Procediments i durada
+S'adjudica pels procediments generals (obert, restringit, etc.) i, per raons d'eficiència, sovint mitjançant tècniques de racionalització:
+
+- Acords marc i sistemes dinàmics d'adquisició.
+- Contractació centralitzada (centrals de compres).
+- Durada (art. 29): com a regla, màxim 5 anys incloses les pròrrogues; l'arrendament pot tenir un règim de durada diferent.
+
+### Execució i resolució
+El contractista ha de lliurar els béns en el temps i lloc pactats (art. 298-300). L'Administració els rep i en comprova la conformitat; durant el termini de garantia respon dels vicis o defectes. Les causes de resolució específiques (art. 306) inclouen el desistiment o la suspensió del subministrament per un termini superior al previst, a més de les causes generals de resolució dels contractes.
 
 ---
 
@@ -1772,31 +1794,45 @@ El contractista lliura els béns en el termini i el lloc pactats; l'administraci
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Concepte (art. 17)**
-  - Prestacions de fer (activitat o resultat)
-  - No funcions d'autoritat; evitar cessió il·legal de treballadors
+- **Marc**
+  - LCSP arts. 308-315; concepte art. 17
+- **Concepte**
+  - Prestacions de fer; no exercici d'autoritat pública
+  - Adjudicació: procediments generals + obert simplificat
 - **Durada**
-  - General: 5 anys amb pròrrogues (art. 29)
-- **Extinció**
-  - Compliment o resolució
-  - Desistiment/suspensió de l'AP: indemnitza (art. 313)
-- **Projectes d'obres**
-  - Responsabilitat per defectes i errors del projecte
-  - Penalitats per desviació del pressupost
+  - Màx. 5 anys amb pròrrogues (art. 29)
+- **Resolució (313)**
+  - Desistiment, suspensió, incompliment + causes generals
+- **Projectes d'obres (314)**
+  - Concurs de projectes amb jurat
+  - Responsabilitat per errors; indemnitzacions escalonades segons desviació (20/30/40%)
 
-El contracte de serveis té per objecte prestacions de fer consistents en el desenvolupament d'una activitat. Es regeix per la Llei 9/2017 (LCSP). Aquest tema en tracta els procediments d'adjudicació, la durada, l'extinció, la modificació i la resolució, i l'especialitat dels contractes d'elaboració de projectes d'obres.
+El contracte de serveis (arts. 308-315 de la LCSP) té per objecte prestacions de fer diferents d'una obra o subministrament. Aquest tema en tracta els procediments, la durada, l'extinció i les especialitats dels contractes d'elaboració de projectes d'obres.
 
-### Concepte i límits (art. 17 LCSP)
-El contracte de serveis té per objecte prestacions de fer consistents en el desenvolupament d'una activitat o adreçades a l'obtenció d'un resultat diferent d'una obra o un subministrament. No pot tenir per objecte funcions que impliquin l'exercici de l'autoritat inherent als poders públics, i cal evitar que en la seva execució es produeixi una cessió il·legal de treballadors.
+### Concepte i procediments
+L'art. 17 defineix els serveis com els contractes l'objecte dels quals són prestacions de fer consistents en el desenvolupament d'una activitat o dirigides a l'obtenció d'un resultat diferent d'una obra o subministrament. S'adjudiquen pels procediments generals, incloent l'obert simplificat per als de menor import.
 
-### Procediments i durada
-S'adjudica pels procediments generals. La durada, amb caràcter general, no pot superar els cinc anys, incloses les pròrrogues (art. 29 LCSP), amb excepcions justificades. Els plecs han de precisar l'objecte, els mitjans i la manera de prestar el servei, evitant qualsevol confusió amb una relació laboral.
+- No poden implicar l'exercici de l'autoritat inherent als poders públics.
+- El contractista respon de la qualitat tècnica dels treballs i de les conseqüències per a l'Administració.
 
-### Execució, modificació i extinció
-El contracte s'executa sota el control de l'administració i es pot modificar en els supòsits generals. En els contractes de serveis, el desistiment o la suspensió acordats per l'administració donen dret a indemnitzar el contractista (art. 313 LCSP). L'extinció es produeix per compliment o per resolució.
+### Durada, execució i resolució
+Regles pròpies del contracte de serveis:
 
-### Especialitat: elaboració de projectes d'obres
-Quan el contracte de serveis té per objecte l'elaboració d'un projecte d'obres, el contractista respon dels danys derivats dels defectes i els errors del projecte (art. 314 i seg. LCSP), amb penalitats i responsabilitat si el pressupost s'ha desviat per damunt d'un percentatge determinat a causa d'errors o omissions imputables al projectista.
+*Durada i règim del contracte de serveis*
+
+| Aspecte | Regla (LCSP) |
+| --- | --- |
+| Durada | Màxim 5 anys incloses pròrrogues (art. 29), tret d'excepcions justificades |
+| Execució | El contractista respon de la qualitat i corregeix defectes (art. 311) |
+| Determinació del preu | Per unitats, tant alçat o preus unitaris |
+| Resolució | Desistiment, suspensió o incompliment, a més de les causes generals (art. 313) |
+
+### Especialitats del contracte d'elaboració de projectes d'obres
+L'art. 314 regula els contractes que tenen per objecte redactar el projecte d'una obra:
+
+- Es poden adjudicar mitjançant concurs de projectes amb intervenció d'un jurat.
+- El contractista respon dels danys per defectes o errors del projecte.
+- Si el pressupost d'execució es desvia per errors o omissions del projecte per sobre de determinats percentatges (20%, 30%, 40%), s'estableixen indemnitzacions escalonades a càrrec del redactor.
 
 ---
 
@@ -1806,32 +1842,37 @@ Quan el contracte de serveis té per objecte l'elaboració d'un projecte d'obres
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Concepte (art. 15)**
-  - Gestió indirecta amb risc operacional del concessionari
-  - Titularitat i potestats de l'AP
-- **Preparació**
-  - Règim jurídic del servei + estudi de viabilitat
-  - Tarifes i drets dels usuaris
+- **Marc**
+  - LCSP arts. 284-297; concepte art. 15; substitueix la gestió de serveis públics
+- **Clau**
+  - Gestió d'un servei amb risc operacional al concessionari
+  - Retribució = tarifes (± preu)
+- **Vs contracte de serveis**
+  - Concessió: risc transferit, paga l'usuari
+  - Serveis: sense risc, paga l'Administració
 - **Durada**
-  - Segons la inversió; màxims de l'art. 29
-  - Continuïtat i qualitat garantides
-- **Extinció**
-  - Termini, resolució, rescat, caducitat, supressió
-  - Ius variandi i equilibri econòmic
+  - Màx. 25 anys (serveis) / 40 (amb obres)
+- **Execució**
+  - Equilibri econòmic (290); prerrogatives; reversió de béns afectes
 
-El contracte de concessió de serveis és una forma de gestió indirecta en què el concessionari presta un servei assumint-ne el risc operacional. Es regeix per la Llei 9/2017 (LCSP). Aquest tema en tracta el concepte, les actuacions preparatòries, els procediments, la durada i l'execució, modificació i resolució.
+El contracte de concessió de serveis (arts. 284-297 de la LCSP) encomana a un empresari la gestió d'un servei transferint-li el risc operacional. Va substituir l'antic contracte de gestió de serveis públics.
 
-### Concepte (art. 15 LCSP)
-En la concessió de serveis, l'administració encomana a un concessionari la gestió d'un servei de la seva titularitat o competència, i la contraprestació consisteix en el dret a explotar-lo (o aquest dret amb un preu). El tret distintiu enfront del contracte de serveis és la transferència del risc operacional al concessionari; l'administració en conserva la titularitat i les potestats.
+### Concepte i diferència amb el contracte de serveis
+Segons l'art. 15, en la concessió de serveis un o més poders adjudicadors encomanen a un empresari la gestió d'un servei la prestació del qual és responsabilitat seva. La contraprestació és el dret a explotar el servei (tarifes) o aquest dret acompanyat d'un preu.
 
-### Actuacions preparatòries
-Requereix l'establiment previ del règim jurídic del servei (el seu caràcter, l'abast de les prestacions als usuaris) i un estudi de viabilitat quan comporta obres o inversions. Els plecs regulen les tarifes, les obligacions del concessionari i els drets dels usuaris.
+*Art. 15 vs art. 17 de la LCSP*
 
-### Procediments i durada
-S'adjudica pels procediments generals. La durada es limita en funció de la inversió i del temps raonable per recuperar-la, amb els màxims de l'art. 29 LCSP (fins a 40 anys si inclou obres; 25 anys en serveis, amb matisos). Ha de garantir la continuïtat i la qualitat del servei.
+|  | Concessió de serveis | Contracte de serveis |
+| --- | --- | --- |
+| Risc operacional | Transferit al concessionari | No es transfereix (el pren l'Administració) |
+| Retribució | Tarifes dels usuaris (± preu) | Preu pagat per l'Administració |
+| Objecte | Gestió d'un servei | Prestació d'una activitat concreta |
 
-### Execució, equilibri i extinció
-El concessionari presta el servei de manera continuada i regular; l'administració exerceix el ius variandi i garanteix, si escau, el manteniment de l'equilibri econòmic. La concessió s'extingeix per compliment del termini, per resolució, per rescat, per caducitat o per supressió del servei per raons d'interès públic.
+### Actuacions preparatòries i procediments
+Quan es tracta d'un servei públic, cal l'establiment previ del servei i la memòria justificativa del règim; si comporta obres, també estudi de viabilitat. S'adjudica pels procediments generals. La durada (art. 29) és de màxim 25 anys per a serveis (40 si inclou obres), sense superar el temps raonable per recuperar les inversions.
+
+### Execució, modificació i resolució
+El concessionari presta el servei amb continuïtat, igualtat i regularitat. Es manté l'equilibri econòmic de la concessió (art. 290) en els mateixos supòsits que la concessió d'obres (ius variandi, factum principis, força major). L'Administració conserva prerrogatives (modificació, fiscalització, segrest). En extingir-se, els béns afectes reverteixen a l'Administració.
 
 ---
 
@@ -1841,37 +1882,50 @@ El concessionari presta el servei de manera continuada i regular; l'administraci
 Normes: **LCSP** (Llei 9/2017 de contractes del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Quanties (art. 118)**
-  - Obres < 40.000 €
-  - Serveis i subministraments < 15.000 € (IVA exclòs)
+- **Marc**
+  - LCSP art. 118; excepció a la concurrència
+- **Quanties**
+  - Obres <40.000 €; subministraments/serveis <15.000 € (IVA exclòs)
+- **Procediment**
+  - Aprovació de la despesa + factura + informe de necessitat
+  - Adjudicació directa a empresari capacitat
 - **Límits**
-  - Durada ≤ 1 any, no prorrogable (art. 29.8)
-  - Prohibit fraccionar per eludir els llindars
-- **Expedient**
-  - Aprovació de la despesa + factura
-  - Obres: també pressupost
-  - Informe de necessitat (excepte < 5.000 € per bestreta)
-- **Publicitat**
-  - Publicació trimestral al perfil del contractant
+  - Durada màx. 1 any, no prorrogable; sense garantia; publicació trimestral
+  - Prohibició de fraccionament (99.2)
 
-La contractació menor és un procediment simplificat per a contractes de petita quantia, pensat per agilitar la satisfacció de necessitats puntuals. Es regula a la Llei 9/2017 (LCSP). Aquest tema en tracta les quanties i el procediment.
+La contractació menor (art. 118 de la LCSP) és un procediment d'adjudicació directa simplificat, previst per a contractes de poc import, que agilita la despesa corrent mantenint garanties mínimes de control.
 
-### Concepte i quanties (art. 118 LCSP)
-Es consideren contractes menors, per raó de la quantia, els d'obres de valor estimat inferior a 40.000 euros i els de subministrament o de serveis inferiors a 15.000 euros (IVA exclòs). Són contractes d'adjudicació directa, sense necessitat de licitació, que faciliten l'atenció de necessitats concretes i no recurrents.
+### Quanties
+Es qualifiquen de menors els contractes de valor estimat inferior als llindars següents (IVA exclòs):
 
-### Durada i límits
-El contracte menor no pot tenir una durada superior a un any ni és prorrogable (art. 29.8 LCSP). Un mateix contractista pot ser adjudicatari de diversos contractes menors, però no es poden emprar per fraccionar l'objecte i eludir els llindars o les regles de publicitat i concurrència (prohibició de fraccionament).
+*Llindars del contracte menor (art. 118)*
 
-### Procediment i expedient
-La tramitació de l'expedient exigeix:
+| Tipus de contracte | Import màxim (IVA exclòs) |
+| --- | --- |
+| Obres | < 40.000 € |
+| Subministraments i serveis | < 15.000 € |
 
-- L'aprovació de la despesa.
-- La incorporació de la factura corresponent.
-- En els contractes d'obres, a més, el pressupost (i el projecte i l'informe de supervisió quan escaigui).
-- Un informe de l'òrgan de contractació que motivi la necessitat del contracte i que no s'altera l'objecte per evitar els llindars (aquest informe no cal en els contractes de valor estimat inferior a 5.000 euros pagats per bestreta de caixa fixa).
+### Procediment i límits
+La tramitació és simplificada però subjecta a controls:
 
-### Publicitat i control
-Els contractes menors s'han de publicar de manera agregada, amb periodicitat almenys trimestral, al perfil del contractant, amb indicació de l'objecte, l'import i l'adjudicatari, per garantir la transparència i el control.
+- Aprovació de la despesa i incorporació de la factura corresponent.
+- En obres: pressupost i, quan escaigui, projecte i informe de supervisió.
+- Informe de l'òrgan de contractació que justifiqui la necessitat i que no s'està alterant l'objecte per defugir les regles generals d'adjudicació (prohibició de fraccionament, art. 99.2).
+- Adjudicació directa a qualsevol empresari amb capacitat d'obrar i habilitació, que no estigui en prohibició de contractar.
+
+### Durada, garanties i publicitat
+Trets característics del contracte menor:
+
+*Especialitats del contracte menor*
+
+| Aspecte | Regla |
+| --- | --- |
+| Durada | No pot superar 1 any ni ser prorrogat |
+| Garantia | No s'exigeix garantia definitiva |
+| Formalització | No cal document contractual; n'hi ha prou amb la factura |
+| Publicitat | Publicació trimestral al perfil del contractant |
+
+La contractació menor és una excepció al principi de concurrència; per això la LCSP insisteix en la prohibició de fraccionar l'objecte del contracte per rebaixar-ne l'import per sota dels llindars.
 
 ---
 
@@ -1881,37 +1935,45 @@ Els contractes menors s'han de publicar de manera agregada, amb periodicitat alm
 Normes: **L39_2015** (Llei 39/2015 del procediment administratiu comú); **TRLUC** (DL 1/2010 (TR Llei d'urbanisme de Catalunya)); **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Llicència / autorització**
-  - Control previ; acte reglat
-  - Salvant el dret de propietat i de tercers
-- **Declaració responsable i comunicació prèvia (art. 69)**
-  - Control posterior
-  - Inici des de la presentació
-- **Inexactitud o falsedat (art. 69.4)**
-  - Impossibilitat de continuar des que es constata
-  - Responsabilitats penals, civils o administratives
-- **Àmbit local i urbanístic**
-  - Obres majors i parcel·lacions: llicència (art. 187 TRLUC)
-  - Actes menors: comunicació prèvia (ROAS)
+- **Marc**
+  - Llei 39/2015 (art. 69) + LRBRL (art. 84) + TRLUC + ROAS
+  - Directiva de serveis 2006/123 (Bolkestein)
+- **Llicència/autorització**
+  - Acte reglat que remou un obstacle a un dret preexistent
+  - Silenci positiu (24), amb excepcions (medi ambient, domini públic, urbanisme)
+- **Declaració responsable (69.1)**
+  - Declara que compleix requisits i té la documentació
+  - Exercici des de la presentació; control posterior
+- **Comunicació prèvia (69.2)**
+  - Posa en coneixement dades i inici d'activitat
+  - Exercici des de la presentació; control posterior
+- **Principi**
+  - Necessitat i proporcionalitat: la mesura menys restrictiva
+  - Falsedat → impossibilitat de continuar + responsabilitats
 
-Les llicències, les autoritzacions, la comunicació prèvia i la declaració responsable són els títols mitjançant els quals l'administració controla l'exercici de drets i activitats dels particulars. Es regeixen per la Llei 39/2015 i, en l'àmbit local i urbanístic, pel TRLUC i el ROAS.
+L'Administració intervé en l'activitat dels ciutadans mitjançant tècniques de control preventiu. Les clàssiques són la llicència i l'autorització; les modernes, la comunicació prèvia i la declaració responsable (art. 69 de la Llei 39/2015), que desplacen el control a un moment posterior a l'inici de l'activitat. En l'àmbit local intervenen també el TRLUC i el ROAS.
 
-### Autoritzacions i llicències
-L'autorització (o llicència) és l'acte administratiu de control previ pel qual l'administració remou els límits a l'exercici d'un dret o una activitat, un cop comprovat que compleix la legalitat. És, en general, un acte reglat (s'ha d'atorgar si es compleixen els requisits) i s'atorga salvant el dret de propietat i sense perjudici de tercers. Segons la intensitat del control, es distingeixen llicències simplement declaratives (de comprovació) i operatives o de funcionament.
+### Formes d'intervenció i llicències
+L'art. 84 de la LRBRL enumera els mitjans d'intervenció: ordenances i bans, sotmetiment a llicència o autorització, sotmetiment a comunicació prèvia o declaració responsable, i ordres individuals. La llicència (o autorització) és un acte administratiu reglat que remou un obstacle per exercir un dret preexistent, prèvia comprovació que es compleixen els requisits.
 
-### Declaració responsable i comunicació prèvia (art. 69 de la Llei 39/2015)
-Substitueixen el control previ pel control posterior:
+- Classes: d'obres, d'activitats, urbanístiques, ambientals, d'ocupació del domini públic.
+- És reglada: si es compleixen els requisits, s'ha d'atorgar.
+- El silenci en llicències és, com a regla, positiu (art. 24), tret d'excepcions per llei (medi ambient, domini públic, adquisició de facultats urbanístiques contra l'ordenament).
 
-- La declaració responsable: document en què l'interessat manifesta, sota la seva responsabilitat, que compleix els requisits, que disposa de la documentació que ho acredita i que es compromet a mantenir-ne el compliment.
-- La comunicació prèvia: document mitjançant el qual l'interessat posa en coneixement de l'administració les seves dades i l'inici d'una activitat.
+### Comunicació prèvia i declaració responsable
+La Directiva de serveis 2006/123/CE i l'art. 69 de la Llei 39/2015 promouen substituir el control previ per aquestes figures, que permeten iniciar l'activitat des de la presentació:
 
-Totes dues permeten iniciar l'activitat des del moment de la presentació, sens perjudici de les facultats de comprovació, control i inspecció de l'administració.
+*Art. 69 de la Llei 39/2015*
 
-### Efectes de la inexactitud o falsedat
-La inexactitud, la falsedat o l'omissió de caràcter essencial en una declaració responsable o comunicació, o la manca de presentació de la documentació requerida, determinen la impossibilitat de continuar l'exercici del dret o l'activitat des del moment en què es constatin, sens perjudici de les responsabilitats penals, civils o administratives (art. 69.4 de la Llei 39/2015).
+|  | Declaració responsable (69.1) | Comunicació prèvia (69.2) |
+| --- | --- | --- |
+| Contingut | Manifestació que es compleixen els requisits i es disposa de la documentació | Posada en coneixement de dades i inici d'una activitat |
+| Efecte | Permet exercir el dret o l'activitat des de la presentació | Permet exercir des de la presentació (o data indicada) |
+| Control | Posterior: comprovació, inspecció i verificació | Posterior: comprovació i inspecció |
+| Inexactitud/falsedat | Impedeix continuar l'activitat des que es coneix, amb possibles responsabilitats | Igual |
 
-### Aplicació en l'àmbit local i urbanístic
-La normativa de simplificació ha estès la comunicació prèvia i la declaració responsable a molts àmbits (activitats innòcues, obres menors). En urbanisme, els actes de més entitat (obres majors, parcel·lacions) resten subjectes a llicència urbanística (art. 187 TRLUC), mentre que els de menor entitat se subjecten a comunicació prèvia; el ROAS regula els procediments d'intervenció dels ens locals.
+### Principis i límits
+La intervenció ha de respectar els principis de necessitat i proporcionalitat (art. 4 de la LRJSP): s'ha d'escollir la mesura menys restrictiva. Per això la llicència queda reservada als casos justificats per raons imperioses d'interès general (seguretat, salut pública, medi ambient), i la resta d'activitats es tramiten preferentment per declaració responsable o comunicació prèvia. Aquestes no atorguen facultats contra l'ordenament ni legitimen actuacions il·legals.
 
 ---
 
@@ -1921,43 +1983,54 @@ La normativa de simplificació ha estès la comunicació prèvia i la declaraci�
 Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local); **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Concepte**
-  - Gestió indirecta: titularitat pública, gestió privada al risc del concessionari
-- **Elements**
-  - Subjectiu, objectiu (servei explotable) i causal
-  - Sense exercici d'autoritat
-- **Potestats de l'AP**
-  - Ordenar i modificar (ius variandi)
-  - Fiscalitzar, imposar tarifes
-  - Segrestar/intervenir, rescatar i sancionar
-- **Concessionari i usuaris**
-  - Retribució i equilibri econòmic
-  - Prestació regular; igualtat d'usuaris; tarifes aprovades
+- **Marc**
+  - LRBRL + ROAS + LCSP; titularitat pública, gestió privada
+- **Formes**
+  - Directa: entitat, OOAA, EPE, societat de capital íntegrament públic
+  - Indirecta: concessió, gestió interessada, concert, societat mixta
+- **Concessió**
+  - L'Administració conserva titularitat; concessionari al seu risc
+  - Elements: subjectes, servei, equilibri econòmic
+- **Potestats**
+  - Modificar (ius variandi), fiscalitzar, sancionar, segrestar, rescatar, suprimir
 - **Extinció**
-  - Termini (amb reversió), rescat, caducitat, resolució, supressió
+  - Termini (reversió), rescat, supressió, caducitat, mutu acord
 
-La concessió de serveis públics és la principal forma de gestió indirecta, en què l'administració, conservant-ne la titularitat, encomana la gestió d'un servei a un concessionari que actua al seu propi risc. Es regeix per la legislació de règim local (LRBRL) i el ROAS, en connexió amb la LCSP.
+Els serveis públics locals es poden gestionar de forma directa (per la mateixa entitat o ens instrumentals) o indirecta (per particulars). La concessió és la forma indirecta paradigmàtica: l'Administració manté la titularitat del servei i encomana la gestió a un concessionari que n'assumeix el risc. Es regeix per la LRBRL, el ROAS i la LCSP.
 
-### Concepte i naturalesa
-La concessió és el contracte pel qual l'administració transfereix a un particular la gestió d'un servei públic de la seva titularitat, durant un termini determinat, a canvi del dret a explotar-lo. L'administració no es desprèn de la titularitat ni de la responsabilitat última: només n'externalitza la gestió, que el concessionari assumeix al seu risc i ventura.
+### Formes de gestió dels serveis públics
+Cal distingir la gestió directa de la indirecta:
 
-### Elements
-Hi concorren tres elements: subjectiu (l'administració titular i el concessionari), objectiu (el servei públic, que ha de ser susceptible d'explotació econòmica) i causal (l'interès públic en una prestació regular i continuada). El servei s'ha d'haver publificat prèviament i no pot implicar l'exercici d'autoritat, que resta reservat a la gestió directa.
+*Formes de gestió (LRBRL / ROAS)*
 
-### Potestats de l'administració
-L'administració concedent conserva potestats exorbitants sobre el servei:
+| Gestió directa | Gestió indirecta |
+| --- | --- |
+| Per la mateixa entitat local | Concessió de serveis |
+| Organisme autònom local | Gestió interessada |
+| Entitat pública empresarial local | Concert |
+| Societat mercantil de capital íntegrament públic | Societat d'economia mixta |
 
-- Ordenar i regular el servei i introduir-hi modificacions per interès públic (ius variandi).
-- Fiscalitzar i controlar la gestió del concessionari.
-- Imposar les tarifes i revisar-les.
-- Segrestar o intervenir el servei si el concessionari no el presta correctament, i rescatar-lo.
-- Sancionar els incompliments.
+### La concessió: concepte i elements
+En la concessió, l'Administració conserva la titularitat i la potestat d'ordenació del servei, i el concessionari el gestiona al seu risc a canvi d'una retribució (tarifes). Elements:
 
-### Drets del concessionari i relacions amb els usuaris
-El concessionari té dret a percebre la retribució pactada (tarifes dels usuaris i, si escau, aportacions) i al manteniment de l'equilibri econòmic de la concessió. Ha de prestar el servei de manera regular i continuada, admetre-hi tots els usuaris en condicions d'igualtat i respectar les tarifes aprovades.
+- Subjectes: Administració concedent, concessionari i persones usuàries.
+- Objecte: la prestació d'un servei públic de titularitat local.
+- Equilibri econòmic financer de la concessió, que s'ha de mantenir.
 
-### Extinció de la concessió
-La concessió s'extingeix per compliment del termini (amb la reversió dels béns afectes a l'administració), per rescat (represa anticipada per interès públic, amb indemnització), per caducitat (per incompliment greu del concessionari), per resolució i per supressió del servei.
+### Potestats de l'Administració i drets del concessionari
+La concessió és una relació de subjecció especial en què l'Administració exerceix potestats exorbitants:
+
+*Equilibri de posicions en la concessió*
+
+| Potestats de l'Administració | Drets/obligacions del concessionari |
+| --- | --- |
+| Ordenar modificacions (ius variandi) | Dret a percebre les tarifes i a l'equilibri econòmic |
+| Fiscalitzar i inspeccionar el servei | Obligació de prestar el servei amb continuïtat i igualtat |
+| Imposar sancions per incompliment | Obligació de conservar les obres i instal·lacions |
+| Segrestar/intervenir, rescatar o suprimir | Dret a indemnització en cas de rescat o supressió |
+
+### Relacions amb els usuaris i extinció
+Les persones usuàries tenen dret a rebre el servei en condicions d'igualtat i a satisfer la contraprestació (tarifa o preu públic). La concessió s'extingeix (ROAS i LCSP) per transcurs del termini (amb reversió dels béns afectes a l'Administració), rescat, supressió del servei, caducitat per incompliment o mutu acord.
 
 ---
 
@@ -1967,31 +2040,38 @@ La concessió s'extingeix per compliment del termini (amb la reversió dels bén
 Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local); **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Formes de gestió**
-  - Directa (entitat, OA, EPE, societat 100% pública)
-  - Indirecta (concessió, gestió interessada, economia mixta)
-  - Autoritat → només gestió directa
+- **Marc**
+  - ROAS: formes de gestió indirecta alternatives a la concessió
 - **Gestió interessada**
-  - Administració i empresari comparteixen resultats i risc
-- **Economia mixta**
-  - Societat o cooperativa amb capital públic i privat
+  - Gestió conjunta; repartiment de resultats segons escala
+  - Risc compartit (no íntegrament del particular)
+- **Concert**
+  - Amb qui ja presta serveis anàlegs; aprofita mitjans existents
+  - Habitual en serveis socials/sanitaris
+- **Societat mixta**
+  - Capital públic + privat (SA/SL o cooperativa)
   - Soci privat seleccionat per licitació
-- **Elecció**
-  - Memòria de sostenibilitat i eficiència (art. 85.2 LRBRL)
 
-A més de la concessió, la gestió indirecta dels serveis públics pot adoptar altres formes, com la gestió interessada i les societats d'economia mixta. Es regeixen per la legislació de règim local (LRBRL) i el ROAS.
+A més de la concessió, la legislació de règim local (ROAS) preveu altres formes de gestió indirecta dels serveis públics: la gestió interessada, el concert i les societats o cooperatives de capital mixt. Totes comparteixen que la prestació material del servei recau, totalment o parcialment, en un particular.
 
-### Formes de gestió dels serveis públics
-Els serveis públics locals es poden gestionar de manera directa (per la mateixa entitat, un organisme autònom, una entitat pública empresarial o una societat mercantil de capital íntegrament públic) o indirecta, mitjançant les modalitats contractuals previstes a la legislació de contractes. Els serveis que impliquen exercici d'autoritat només es poden gestionar de manera directa.
+### Gestió interessada
+En la gestió interessada, l'Administració i l'empresari gestionen conjuntament el servei i participen en els resultats econòmics segons una escala prèviament fixada. A diferència de la concessió, el risc no recau íntegrament en el particular: hi ha un interès compartit en el resultat (repartiment de beneficis i, si escau, de pèrdues).
 
-### La gestió interessada
-En la gestió interessada, l'administració i un empresari participen conjuntament en els resultats de l'explotació del servei en la proporció que s'estableixi, de manera que tots dos assumeixen part del risc i comparteixen els beneficis o les pèrdues. És una figura intermèdia entre la gestió directa i la concessió pura.
+### Concert
+El concert consisteix a gestionar el servei mitjançant una persona natural o jurídica que ja presta serveis anàlegs als usuaris. Aprofita mitjans i instal·lacions ja existents del concertat, sense necessitat de crear una nova organització; és habitual en serveis socials, sanitaris o educatius.
 
-### Societats mercantils i cooperatives de capital mixt
-La societat d'economia mixta és una societat mercantil (o una cooperativa) en el capital de la qual participen conjuntament l'administració i capital privat. L'entitat pública comparteix la gestió i el risc amb el soci privat, sovint seleccionat mitjançant una licitació. Combina el control públic amb l'aportació de recursos i la iniciativa privada.
+### Societats i cooperatives de capital mixt
+En aquesta forma, l'Administració participa en el capital d'una societat mercantil (SA o SL) o d'una cooperativa juntament amb capital privat, per gestionar el servei.
 
-### Elecció de la forma de gestió
-L'elecció de la forma de gestió no és lliure: exigeix una memòria justificativa que acrediti que la forma triada és més sostenible i eficient que les alternatives, especialment davant la gestió directa mitjançant entitat pública (art. 85.2 LRBRL). L'administració conserva sempre la titularitat i les potestats de control.
+*Capital públic vs capital mixt*
+
+|  | Societat de capital íntegrament públic | Societat d'economia mixta |
+| --- | --- | --- |
+| Capital | 100% públic | Públic i privat |
+| Gestió | Directa | Indirecta |
+| Soci privat | No n'hi ha | Seleccionat mitjançant licitació |
+
+La LCSP ha reconduït bona part d'aquestes figures cap al contracte de concessió de serveis, però el ROAS les manté com a modalitats de gestió indirecta.
 
 ---
 
@@ -2001,35 +2081,41 @@ L'elecció de la forma de gestió no és lliure: exigeix una memòria justificat
 Normes: **L40_2015** (Llei 40/2015 de règim jurídic del sector públic).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Naturalesa**
-  - Entitat de dret públic associativa, personalitat pròpia
-  - Diverses AP (o amb entitats privades sense ànim de lucre)
-- **Creació**
-  - Conveni + estatuts
-  - Estatuts: adscripció, òrgans, règim, aportacions
-- **Adscripció (art. 120)**
-  - A una AP segons control i finançament
-  - Determina règim pressupostari, comptable i de personal
-- **Funcionament**
-  - Estatuts + Llei 40/2015 (i règim local)
-  - Personal propi o adscrit; dissolució i liquidació
+- **Marc**
+  - Llei 40/2015 arts. 118-127; entitat de dret públic amb personalitat pròpia
+- **Composició**
+  - Diverses administracions + entitats públiques/privades sense ànim de lucre
+  - Finalitat: activitats d'interès comú
+- **Adscripció (120)**
+  - A una administració segons control/aportacions
+  - Determina règim pressupostari, comptable, de control i de personal
+- **Creació (123)**
+  - Conveni + estatuts (adscripció, funcions, òrgans, règim)
+- **Extinció**
+  - Dret de separació (125) → dissolució i liquidació (126-127)
 
-Els consorcis són entitats de dret públic de caràcter associatiu, creades per diverses administracions o amb entitats privades sense ànim de lucre per gestionar finalitats d'interès comú. Es regeixen pels arts. 118 a 127 de la Llei 40/2015.
+Els consorcis són entitats de dret públic dotades de personalitat jurídica pròpia, creades per diverses administracions o entitats públiques (i, si escau, entitats privades sense ànim de lucre) per gestionar activitats d'interès comú. Els regula la Llei 40/2015, de règim jurídic del sector públic (arts. 118-127).
 
-### Naturalesa i activitat
-El consorci és una entitat de dret públic, amb personalitat jurídica pròpia i diferenciada, creada per diverses administracions públiques o organismes (entre si o amb la participació d'entitats privades sense ànim de lucre) per desenvolupar activitats d'interès comú dins l'àmbit de les seves competències. Pot dur a terme activitats de foment, prestacionals o de gestió comuna de serveis.
+### Concepte i marc legal
+Segons l'art. 118 de la Llei 40/2015, el consorci és una entitat de dret públic amb personalitat jurídica pròpia i diferenciada, per a la realització en comú d'activitats o serveis. Poden participar-hi administracions públiques i entitats públiques o privades sense ànim de lucre amb finalitats concurrents. Es regeix pels seus estatuts, per la Llei 40/2015 i per la resta de l'ordenament administratiu.
 
-### Creació i estatuts
-El consorci es crea mitjançant un conveni entre les administracions participants, acompanyat dels estatuts. Els estatuts n'han de determinar l'administració d'adscripció, les seves finalitats, els òrgans de govern, el règim orgànic, funcional i financer i les aportacions dels membres.
+### Adscripció i règim jurídic
+Cada consorci s'adscriu, en cada exercici i segons els criteris de l'art. 120 (control efectiu, aportacions, nombre de vots, finançament), a una de les administracions participants. L'adscripció determina el règim aplicable:
 
-### Adscripció (art. 120 de la Llei 40/2015)
-Cada consorci queda adscrit a una de les administracions participants, d'acord amb criteris de control i finançament (per exemple, qui té el control efectiu, qui hi aporta més o qui en va tenir la iniciativa). L'adscripció determina el règim pressupostari, comptable i de control, i el règim del seu personal, que es regeix per la normativa de l'administració d'adscripció.
+*Efectes de l'adscripció (art. 120)*
 
-### Funcionament, personal i dissolució
-El consorci es regeix pels seus estatuts i, supletòriament, per la legislació de règim jurídic del sector públic i, si escau, de règim local. El seu personal pot procedir de les administracions participants o ser propi, dins dels límits legals. Es dissol per acord dels membres o per les causes previstes; la liquidació determina la quota de cada participant.
+| Àmbit | Règim segons l'administració d'adscripció |
+| --- | --- |
+| Pressupostari i comptable | El de l'administració d'adscripció |
+| Control econòmic i financer | Òrgan de control de l'administració d'adscripció |
+| Personal | Funcionari o laboral procedent de les administracions participants; règim de l'adscripció |
 
-### Separació i responsabilitat
-Els membres es poden separar del consorci en els termes previstos. La separació i la dissolució es regulen (arts. 125-127) per garantir la continuïtat dels serveis i el repartiment de l'actiu o del passiu resultant entre els membres.
+### Creació, funcionament i extinció
+La creació d'un consorci (art. 123) requereix un conveni entre les parts i l'aprovació dels seus estatuts, que han de determinar l'administració d'adscripció, les funcions, els òrgans de govern i el règim orgànic, funcional i financer.
+
+- Òrgans: els que fixin els estatuts, amb participació de totes les entitats consorciades.
+- Els membres poden exercir el dret de separació (art. 125) quan una entitat incompleix o quan ho permeten els estatuts.
+- La separació pot comportar la dissolució i liquidació del consorci (arts. 126-127), amb repartiment de l'actiu.
 
 ---
 
@@ -2039,39 +2125,50 @@ Els membres es poden separar del consorci en els termes previstos. La separació
 Normes: **L38_2003** (Llei 38/2003 general de subvencions).
 
 ### 🧠 Repàs ràpid · esquema clau
-- **Concepte**
-  - Disposició dinerària sense contraprestació
-  - Per a una finalitat d'utilitat pública o interès social
-- **Principis**
-  - Publicitat, transparència, concurrència
-  - Objectivitat, igualtat, eficàcia i eficiència
-- **Planificació i procediment**
-  - Pla estratègic de subvencions (art. 8)
-  - Concurrència competitiva (regla)
-  - Concessió directa taxada (art. 22.2): nominatives, per llei, interès públic
-- **Reintegrament (art. 37)**
-  - Per incompliment o falta de justificació
-  - Amb interès de demora i proporcionalitat
-- **Nominatives i convenis**
-  - Previstes als pressupostos amb beneficiari
-  - Convenis que instrumenten subvencions (LGS, no contracte)
+- **Marc**
+  - Llei 38/2003 (LGS) + reglament
+- **Concepte (art. 2)**
+  - Lliurament de fons sense contraprestació + subjecte a objectiu + finalitat d'interès públic
+- **Principis (8)**
+  - Publicitat, transparència, concurrència, objectivitat, igualtat, eficàcia
+- **Pla estratègic**
+  - Instrument previ obligatori (objectius, costos, finançament)
+- **Concessió (22)**
+  - Concurrència competitiva (regla general)
+  - Directa: nominatives, per llei, excepcionals
+- **Gestió**
+  - Bases → convocatòria → valoració → resolució → justificació (compte justificatiu)
+- **Reintegrament (37)**
+  - Incompliment, falta de justificació, no reunir requisits → tornar + interès de demora
 
-Les subvencions són disposicions dineràries a favor de persones públiques o privades per fomentar una activitat d'utilitat pública o interès social, sense contraprestació directa. Es regeixen per la Llei 38/2003, general de subvencions (LGS), i el seu reglament. Aquest tema en tracta el pla estratègic, els procediments de concessió i gestió, el reintegrament, les subvencions nominatives i els convenis.
+Les subvencions són lliuraments de fons públics sense contraprestació directa per fomentar activitats d'interès públic. Les regula la Llei 38/2003, general de subvencions (LGS), i el seu reglament. Aquest tema tracta el pla estratègic, els procediments de concessió, la gestió, el reintegrament i les subvencions nominatives.
 
 ### Concepte i principis
-És subvenció tota disposició dinerària que compleix tres notes: que es fa sense contraprestació directa del beneficiari, que està subjecta al compliment d'una finalitat o l'execució d'un projecte, i que té per objecte el foment d'una activitat d'utilitat pública o interès social. La gestió es regeix pels principis de publicitat, transparència, concurrència, objectivitat, igualtat, no-discriminació, eficàcia i eficiència.
+Segons l'art. 2 de la LGS, s'entén per subvenció tota disposició dinerària feta a favor de persones públiques o privades que compleixi tres requisits: que es faci sense contraprestació directa, que estigui subjecta al compliment d'un objectiu, projecte o conducta, i que tingui per finalitat el foment d'una activitat d'utilitat pública o interès social. La gestió es regeix pels principis de l'art. 8: publicitat, transparència, concurrència, objectivitat, igualtat, no-discriminació, eficàcia i eficiència.
 
-### El pla estratègic de subvencions
-Amb caràcter previ a l'establiment de subvencions, l'òrgan competent ha d'aprovar un pla estratègic de subvencions (art. 8 LGS), que concreta els objectius i els efectes que es pretenen, el termini, els costos previsibles i les fonts de finançament. És un instrument de planificació i de control de l'eficàcia.
+### Pla estratègic i procediments de concessió
+Amb caràcter previ, cada administració ha d'aprovar un pla estratègic de subvencions (art. 8.1) que concreti objectius, costos i fonts de finançament. La concessió es pot fer per dos procediments:
 
-### Procediments de concessió
-El procediment ordinari de concessió és el de concurrència competitiva: es comparen les sol·licituds presentades segons els criteris de valoració fixats a les bases i s'estableix una prelació. Excepcionalment, la concessió pot ser directa (art. 22.2 LGS) en els casos de subvencions previstes nominativament als pressupostos, les imposades per una norma amb rang de llei, o quan concorren raons d'interès públic, social, econòmic o humanitari degudament justificades.
+*Procediments de concessió (art. 22)*
 
-### Gestió, justificació i reintegrament
-El beneficiari ha de complir l'objectiu, justificar-ne la realització i el cost, sotmetre's a les actuacions de comprovació i comunicar l'obtenció d'altres subvencions. Procedeix el reintegrament (art. 37 LGS) de les quantitats percebudes, amb l'interès de demora, quan s'obté la subvenció sense reunir els requisits, s'incompleix la finalitat o l'obligació de justificar, o es resisteix a les actuacions de control; el reintegrament s'aplica amb criteris de proporcionalitat.
+| Procediment | Quan s'aplica | Article |
+| --- | --- | --- |
+| Concurrència competitiva | Regla general: comparació de sol·licituds segons criteris de valoració | 22.1 |
+| Concessió directa (nominatives) | Previstes nominativament als pressupostos | 22.2.a |
+| Concessió directa (per llei) | Imposades per una norma amb rang de llei | 22.2.b |
+| Concessió directa (excepcional) | Raons d'interès públic, social, econòmic o humanitari | 22.2.c |
 
-### Subvencions nominatives i convenis
-Les subvencions nominatives són les previstes expressament als pressupostos amb indicació del beneficiari; s'articulen sovint mitjançant un conveni que en fixa l'objecte, les obligacions i la justificació. Aquest conveni no és un contracte: instrumenta una subvenció i se subjecta a la LGS.
+### Gestió i justificació
+El procediment de concurrència es desplega en fases:
+
+- Bases reguladores (aprovades i publicades) que fixen requisits i criteris.
+- Convocatòria pública i presentació de sol·licituds.
+- Instrucció, valoració per un òrgan col·legiat i proposta de resolució.
+- Resolució de concessió, notificació i publicitat (Base de Dades Nacional de Subvencions).
+- Justificació pel beneficiari (compte justificatiu) i pagament (previ a la justificació o, excepcionalment, anticipat amb garanties).
+
+### Reintegrament, subvencions nominatives i convenis
+El reintegrament (art. 37) obliga a tornar la subvenció, més l'interès de demora, en supòsits com l'obtenció sense reunir els requisits, l'incompliment de la finalitat o de l'obligació de justificar, o la resistència a les actuacions de control. Les subvencions nominatives són les previstes expressament als pressupostos i s'instrumenten sovint mitjançant un conveni entre l'administració i el beneficiari, que fa les funcions de bases i resolució. La Intervenció exerceix el control financer i el títol IV tipifica infraccions i sancions.
 
 ---
 
