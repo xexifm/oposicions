@@ -6,7 +6,7 @@
    - Dades (/data/): network-first amb còpia per a offline.
    - Icones/manifest: cache-first.
    El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v59';
+const CACHE = 'montornes-oposicio-v60';
 const ASSETS = [
   './',
   './index.html',
@@ -28,6 +28,7 @@ const ASSETS = [
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/favicon.png',
+  './assets/icons/cornella-escut.svg',
 ];
 
 // Precàrrega robusta i SENSE memòria cau HTTP (cache:'reload'), perquè no es
