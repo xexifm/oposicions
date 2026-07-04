@@ -6,756 +6,6 @@
   },
   "questions": [
     {
-      "theme": 31,
-      "block": 14,
-      "q": "Quina és la naturalesa jurídica de la llicència urbanística o d'activitats?",
-      "options": [
-        "Un acte administratiu reglat que remou un obstacle per a l'exercici d'un dret preexistent, prèvia comprovació dels requisits",
-        "Un acte discrecional que atorga un dret nou de manera lliure",
-        "Un contracte administratiu",
-        "Una disposició de caràcter general"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la llicència és un acte administratiu reglat: comprova que l'activitat o obra compleix els requisits i, si és així, remou l'obstacle per a l'exercici d'un dret que el particular ja té. No atorga drets nous ni és discrecional: si es compleixen els requisits, s'ha d'atorgar.",
-      "source": "L39_2015",
-      "article": "art. 84 LRBRL"
-    },
-    {
-      "theme": 31,
-      "block": 14,
-      "q": "Què és la declaració responsable (art. 69.1 Llei 39/2015)?",
-      "options": [
-        "El document en què l'interessat manifesta, sota la seva responsabilitat, que compleix els requisits, que disposa de la documentació i que es compromet a mantenir-ho",
-        "Una autorització expressa de l'Administració",
-        "Un contracte entre el ciutadà i l'Administració",
-        "Una sanció administrativa"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la declaració responsable (art. 69.1) és el document subscrit per l'interessat en què declara que compleix els requisits establerts, que disposa de la documentació que ho acredita i que es compromet a mantenir-ne el compliment. Permet iniciar l'activitat des de la presentació, sens perjudici del control posterior.",
-      "source": "L39_2015",
-      "article": "art. 69 Llei 39/2015"
-    },
-    {
-      "theme": 31,
-      "block": 14,
-      "q": "Quin efecte tenen la comunicació prèvia i la declaració responsable?",
-      "options": [
-        "Permeten l'exercici del dret o de l'activitat des de la presentació, sens perjudici de les facultats de comprovació i inspecció posteriors",
-        "Suspenen l'activitat fins que l'Administració resol expressament",
-        "Equivalen a una denegació automàtica",
-        "Obliguen a esperar tres mesos abans d'actuar"
-      ],
-      "correct": 0,
-      "explain": "Correcta: tant la comunicació prèvia (art. 69.2) com la declaració responsable (art. 69.1) permeten iniciar l'activitat des del moment de la presentació, i traslladen el control a un moment posterior (comprovació, inspecció i verificació). No hi ha resolució expressa prèvia habilitant.",
-      "source": "L39_2015",
-      "article": "art. 69 Llei 39/2015"
-    },
-    {
-      "theme": 31,
-      "block": 14,
-      "q": "Quina conseqüència té la inexactitud o falsedat en una declaració responsable o comunicació prèvia?",
-      "options": [
-        "La impossibilitat de continuar l'activitat des del moment que es coneix, sens perjudici de les responsabilitats que escaiguin",
-        "Cap conseqüència, perquè no es comproven mai",
-        "L'atorgament automàtic d'una llicència",
-        "Una simple advertència sense efectes"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 69.4 estableix que la inexactitud, falsedat o omissió de dades essencials, o la no-presentació de la documentació, determina la impossibilitat de continuar l'activitat des del moment que es coneix, amb possibles responsabilitats penals, civils o administratives, i l'obligació de restituir la situació jurídica.",
-      "source": "L39_2015",
-      "article": "art. 69 Llei 39/2015"
-    },
-    {
-      "theme": 31,
-      "block": 14,
-      "q": "Quin principi orienta l'elecció entre llicència i comunicació prèvia/declaració responsable?",
-      "options": [
-        "Els principis de necessitat i proporcionalitat: cal escollir la mesura menys restrictiva i reservar la llicència als casos justificats per raons imperioses d'interès general",
-        "La lliure elecció de l'Administració sense cap criteri",
-        "La preferència sempre per la llicència en tots els casos",
-        "La prohibició d'utilitzar la declaració responsable"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la Directiva de serveis 2006/123/CE i l'art. 4 de la Llei 40/2015 imposen els principis de necessitat i proporcionalitat: la llicència (control previ) es reserva als casos justificats per raons imperioses d'interès general, i la resta d'activitats es tramiten preferentment per declaració responsable o comunicació prèvia.",
-      "source": "L39_2015",
-      "article": "art. 4 Llei 40/2015"
-    },
-    {
-      "theme": 32,
-      "block": 8,
-      "q": "Quines són les formes de gestió directa dels serveis públics locals?",
-      "options": [
-        "La gestió per la mateixa entitat, per organisme autònom, per entitat pública empresarial o per societat mercantil de capital íntegrament públic",
-        "La concessió i la gestió interessada",
-        "El concert i la societat mixta",
-        "Únicament la concessió"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la gestió directa es fa per la mateixa entitat local, per un organisme autònom local, per una entitat pública empresarial local o per una societat mercantil de capital íntegrament públic. La concessió, la gestió interessada, el concert i la societat mixta són formes de gestió indirecta.",
-      "source": "LRBRL",
-      "article": "art. 85 LRBRL"
-    },
-    {
-      "theme": 32,
-      "block": 8,
-      "q": "Qui conserva la titularitat del servei en la concessió (gestió indirecta)?",
-      "options": [
-        "L'Administració, que manté la titularitat i les potestats d'ordenació, mentre el concessionari el gestiona al seu risc",
-        "El concessionari, que n'adquireix la titularitat definitiva",
-        "Els usuaris del servei",
-        "Ningú, perquè el servei deixa de ser públic"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en la concessió, l'Administració conserva la titularitat del servei i les potestats d'ordenació, fiscalització i control; el concessionari només en gestiona la prestació al seu risc, a canvi d'una retribució (tarifes). Per això pot exercir prerrogatives i, en extingir-se, els béns reverteixen.",
-      "source": "LRBRL",
-      "article": "art. 84 ROAS"
-    },
-    {
-      "theme": 32,
-      "block": 8,
-      "q": "Quina és una potestat de l'Administració en la concessió de serveis públics?",
-      "options": [
-        "Ordenar modificacions (ius variandi), fiscalitzar el servei, imposar sancions i, si escau, rescatar o segrestar la concessió",
-        "Renunciar a tot control sobre el servei",
-        "Cedir la titularitat al concessionari",
-        "Prohibir l'accés dels usuaris al servei"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'Administració concedent conserva potestats exorbitants: ordenar modificacions per interès públic (ius variandi), fiscalitzar i inspeccionar, imposar sancions per incompliment, i segrestar/intervenir, rescatar o suprimir el servei. Aquestes potestats garanteixen la continuïtat i la qualitat del servei públic.",
-      "source": "LRBRL",
-      "article": "ROAS"
-    },
-    {
-      "theme": 32,
-      "block": 8,
-      "q": "Quin dret té el concessionari d'un servei públic?",
-      "options": [
-        "Percebre les tarifes i al manteniment de l'equilibri econòmic de la concessió",
-        "Prestar el servei sense cap obligació de continuïtat",
-        "Modificar lliurement les condicions del servei",
-        "Adquirir la titularitat del servei"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el concessionari té dret a percebre les tarifes com a contraprestació i al manteniment de l'equilibri econòmic de la concessió; a canvi, té l'obligació de prestar el servei amb continuïtat, regularitat i igualtat per als usuaris, i de conservar les obres i instal·lacions.",
-      "source": "LRBRL",
-      "article": "ROAS"
-    },
-    {
-      "theme": 32,
-      "block": 8,
-      "q": "Com s'extingeix la concessió d'un servei públic?",
-      "options": [
-        "Per transcurs del termini (amb reversió dels béns), rescat, supressió del servei, caducitat per incompliment o mutu acord",
-        "Únicament per voluntat del concessionari",
-        "Mai; les concessions són perpètues",
-        "Només per sentència penal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la concessió s'extingeix pel transcurs del termini (amb reversió a l'Administració dels béns afectes), pel rescat (recuperació anticipada per interès públic amb indemnització), per la supressió del servei, per caducitat per incompliment greu del concessionari o per mutu acord.",
-      "source": "LRBRL",
-      "article": "ROAS"
-    },
-    {
-      "theme": 33,
-      "block": 8,
-      "q": "En què consisteix la gestió interessada?",
-      "options": [
-        "L'Administració i l'empresari gestionen conjuntament el servei i participen en els resultats econòmics segons una escala prèviament fixada",
-        "L'empresari assumeix tot el risc sense participació de l'Administració",
-        "L'Administració presta el servei directament sense cap tercer",
-        "Els usuaris gestionen el servei"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en la gestió interessada, l'Administració i l'empresari gestionen el servei conjuntament i comparteixen els resultats econòmics (beneficis i, si escau, pèrdues) segons una escala prefixada. A diferència de la concessió, el risc no recau íntegrament en el particular.",
-      "source": "ROAS",
-      "article": "ROAS"
-    },
-    {
-      "theme": 33,
-      "block": 8,
-      "q": "Què caracteritza el concert com a forma de gestió indirecta?",
-      "options": [
-        "Gestionar el servei mitjançant una persona natural o jurídica que ja presta serveis anàlegs als usuaris, aprofitant-ne els mitjans existents",
-        "Crear una empresa nova de capital íntegrament públic",
-        "Prestar el servei directament per l'ajuntament",
-        "Transferir la titularitat del servei a un particular"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el concert consisteix a gestionar el servei a través d'una persona (natural o jurídica) que ja disposa de mitjans i presta serveis anàlegs (per exemple, en l'àmbit sanitari, social o educatiu), sense necessitat de crear una nova organització. És habitual quan ja existeix una oferta adequada.",
-      "source": "ROAS",
-      "article": "ROAS"
-    },
-    {
-      "theme": 33,
-      "block": 8,
-      "q": "Què és una societat d'economia mixta?",
-      "options": [
-        "Una societat en què l'Administració participa en el capital juntament amb capital privat per gestionar el servei",
-        "Una societat de capital íntegrament públic",
-        "Una societat exclusivament privada sense participació pública",
-        "Una fundació sense ànim de lucre"
-      ],
-      "correct": 0,
-      "explain": "Correcta: en la societat d'economia mixta, l'Administració participa en el capital d'una societat mercantil (o cooperativa) juntament amb capital privat, per gestionar el servei de manera indirecta. El soci privat se selecciona mitjançant licitació. Es distingeix de la societat de capital íntegrament públic, que és gestió directa.",
-      "source": "ROAS",
-      "article": "ROAS"
-    },
-    {
-      "theme": 33,
-      "block": 8,
-      "q": "Quina diferència essencial hi ha entre la societat de capital íntegrament públic i la societat d'economia mixta?",
-      "options": [
-        "La primera té capital 100% públic i és gestió directa; la segona té capital públic i privat i és gestió indirecta",
-        "No hi ha cap diferència",
-        "Totes dues són gestió indirecta",
-        "La primera és privada i la segona pública"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la societat de capital íntegrament públic (100% públic) és una forma de gestió directa; la societat d'economia mixta (capital públic i privat, amb soci privat seleccionat per licitació) és una forma de gestió indirecta. La composició del capital i la naturalesa de la gestió les diferencien.",
-      "source": "ROAS",
-      "article": "ROAS"
-    },
-    {
-      "theme": 33,
-      "block": 8,
-      "q": "On s'ha reconduït bona part d'aquestes formes de gestió indirecta amb la LCSP?",
-      "options": [
-        "Cap al contracte de concessió de serveis, tot i que el ROAS les manté com a modalitats",
-        "Cap al contracte d'obres",
-        "Cap al contracte de subministrament",
-        "Cap als convenis"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la LCSP de 2017 ha reconduït bona part de les formes tradicionals de gestió indirecta cap al contracte de concessió de serveis (que posa l'accent en la transferència del risc operacional), si bé la legislació de règim local (ROAS) manté les modalitats clàssiques com a formes de gestió.",
-      "source": "ROAS",
-      "article": "LCSP"
-    },
-    {
-      "theme": 34,
-      "block": 8,
-      "q": "Què és un consorci segons l'art. 118 de la Llei 40/2015?",
-      "options": [
-        "Una entitat de dret públic amb personalitat jurídica pròpia, creada per diverses administracions o entitats públiques i, si escau, privades sense ànim de lucre, per a activitats d'interès comú",
-        "Una societat mercantil privada",
-        "Un òrgan sense personalitat jurídica",
-        "Un contracte administratiu"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 118 defineix el consorci com una entitat de dret públic, amb personalitat jurídica pròpia i diferenciada, creada per diverses administracions públiques o entitats de dret públic (i, si escau, entitats privades sense ànim de lucre amb finalitats concurrents) per gestionar activitats o serveis d'interès comú.",
-      "source": "L40_2015",
-      "article": "art. 118 Llei 40/2015"
-    },
-    {
-      "theme": 34,
-      "block": 8,
-      "q": "A què serveix l'adscripció del consorci a una administració (art. 120 Llei 40/2015)?",
-      "options": [
-        "A determinar el règim pressupostari, comptable, de control econòmic i de personal aplicable al consorci",
-        "A dissoldre el consorci automàticament",
-        "A privar-lo de personalitat jurídica",
-        "A convertir-lo en una societat privada"
-      ],
-      "correct": 0,
-      "explain": "Correcta: cada consorci s'adscriu, segons els criteris de l'art. 120 (control, aportacions, finançament, nombre de vots), a una de les administracions participants; l'adscripció determina el règim pressupostari, comptable, de control econòmic i financer, i de personal aplicable.",
-      "source": "L40_2015",
-      "article": "art. 120 Llei 40/2015"
-    },
-    {
-      "theme": 34,
-      "block": 8,
-      "q": "Com es crea un consorci (art. 123 Llei 40/2015)?",
-      "options": [
-        "Mitjançant un conveni entre les parts i l'aprovació dels seus estatuts, que fixen l'adscripció, les funcions i els òrgans",
-        "Per decret unilateral d'una sola administració",
-        "Sense cap formalitat escrita",
-        "Per contracte de compravenda"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la creació d'un consorci requereix un conveni subscrit per les administracions i entitats participants i l'aprovació dels seus estatuts, que han de determinar l'administració d'adscripció, les funcions, els òrgans de govern i el règim orgànic, funcional i financer (art. 123).",
-      "source": "L40_2015",
-      "article": "art. 123 Llei 40/2015"
-    },
-    {
-      "theme": 34,
-      "block": 8,
-      "q": "Quin dret tenen els membres d'un consorci en cas d'incompliment o segons els estatuts (art. 125 Llei 40/2015)?",
-      "options": [
-        "El dret de separació del consorci",
-        "El dret a dissoldre'l unilateralment sense cap procediment",
-        "Cap dret; la pertinença és perpètua",
-        "El dret a apropiar-se de tot l'actiu"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 125 reconeix el dret de separació dels membres del consorci quan una entitat incompleix les seves obligacions (especialment les d'aportació al fons patrimonial) o quan ho permeten els estatuts. L'exercici del dret de separació pot comportar, si escau, la dissolució i liquidació del consorci.",
-      "source": "L40_2015",
-      "article": "art. 125 Llei 40/2015"
-    },
-    {
-      "theme": 34,
-      "block": 8,
-      "q": "De quin dret es regeix el consorci?",
-      "options": [
-        "Del dret administratiu, pels seus estatuts i per la Llei 40/2015",
-        "Exclusivament del dret privat",
-        "Del dret penal",
-        "Del dret internacional"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el consorci és una entitat de dret públic i es regeix pels seus estatuts, per la Llei 40/2015 i per la resta de l'ordenament administratiu (règim de l'administració d'adscripció en matèria pressupostària, comptable i de personal).",
-      "source": "L40_2015",
-      "article": "art. 119 Llei 40/2015"
-    },
-    {
-      "theme": 35,
-      "block": 8,
-      "q": "Què s'entén per subvenció segons l'art. 2 de la Llei 38/2003?",
-      "options": [
-        "Una disposició dinerària sense contraprestació directa, subjecta al compliment d'un objectiu i amb finalitat de foment d'una activitat d'interès públic o social",
-        "Un pagament a canvi d'un servei prestat a l'Administració",
-        "Un préstec amb interès de mercat",
-        "Una sanció econòmica"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 2 de la Llei general de subvencions exigeix tres requisits: que sigui una disposició dinerària sense contraprestació directa del beneficiari, que estigui subjecta al compliment d'un objectiu, projecte o conducta, i que tingui finalitat de foment d'una activitat d'utilitat pública o interès social. Es distingeix del contracte (contraprestació) i del préstec.",
-      "source": "L38_2003",
-      "article": "art. 2 Llei 38/2003"
-    },
-    {
-      "theme": 35,
-      "block": 8,
-      "q": "Quin és el procediment ordinari de concessió de subvencions (art. 22 Llei 38/2003)?",
-      "options": [
-        "La concurrència competitiva, mitjançant la comparació de les sol·licituds segons criteris de valoració",
-        "La concessió directa a qui ho demani primer",
-        "El sorteig entre els sol·licitants",
-        "L'adjudicació verbal sense procediment"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 22 estableix la concurrència competitiva com a procediment ordinari: es comparen les sol·licituds presentades i es prelacionen segons els criteris de valoració fixats a les bases, per adjudicar dins el crèdit disponible. La concessió directa és excepcional.",
-      "source": "L38_2003",
-      "article": "art. 22 Llei 38/2003"
-    },
-    {
-      "theme": 35,
-      "block": 8,
-      "q": "En quins casos es pot concedir una subvenció de manera directa (art. 22.2 Llei 38/2003)?",
-      "options": [
-        "Les previstes nominativament als pressupostos, les imposades per una norma amb rang de llei i les de caràcter excepcional per raons d'interès públic o social",
-        "En qualsevol cas que decideixi l'òrgan lliurement",
-        "Mai; totes són per concurrència",
-        "Només per a empreses privades"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 22.2 admet la concessió directa en tres supòsits taxats: subvencions previstes nominativament als pressupostos, les imposades per una norma amb rang de llei, i les que, amb caràcter excepcional, es justifiquen per raons d'interès públic, social, econòmic o humanitari que dificultin la convocatòria pública.",
-      "source": "L38_2003",
-      "article": "art. 22.2 Llei 38/2003"
-    },
-    {
-      "theme": 35,
-      "block": 8,
-      "q": "Què és el pla estratègic de subvencions (art. 8 Llei 38/2003)?",
-      "options": [
-        "L'instrument previ de planificació que concreta els objectius, els efectes, els costos i les fonts de finançament de les subvencions",
-        "El document que justifica la despesa un cop feta",
-        "La sol·licitud del beneficiari",
-        "El recurs contra la denegació"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 8.1 exigeix que, amb caràcter previ, cada administració aprovi un pla estratègic de subvencions que concreti els objectius i efectes que es pretenen, el termini, els costos previsibles i les fonts de finançament. És una manifestació dels principis d'eficàcia i eficiència.",
-      "source": "L38_2003",
-      "article": "art. 8 Llei 38/2003"
-    },
-    {
-      "theme": 35,
-      "block": 8,
-      "q": "En quins casos procedeix el reintegrament d'una subvenció (art. 37 Llei 38/2003)?",
-      "options": [
-        "Quan s'obté sense reunir els requisits, s'incompleix la finalitat o l'obligació de justificar, o hi ha resistència a les actuacions de control, amb l'interès de demora",
-        "Sempre, encara que s'hagi complert la finalitat",
-        "Mai, un cop concedida",
-        "Només si ho decideix el beneficiari"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 37 obliga a reintegrar la subvenció, més l'interès de demora, en supòsits com l'obtenció sense reunir els requisits, l'incompliment total o parcial de la finalitat o de l'obligació de justificar, o la resistència a les actuacions de comprovació i control. El reintegrament restitueix els fons quan la finalitat de foment no s'ha assolit.",
-      "source": "L38_2003",
-      "article": "art. 37 Llei 38/2003"
-    },
-    {
-      "theme": 36,
-      "block": 9,
-      "q": "Quin és el fonament i la naturalesa de la responsabilitat patrimonial de l'Administració?",
-      "options": [
-        "Deriva de l'art. 106.2 CE i és una responsabilitat directa i objectiva pel funcionament normal o anormal dels serveis públics",
-        "És subsidiària i només opera si hi ha culpa provada",
-        "Només opera en cas de funcionament anormal",
-        "És una responsabilitat penal"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la responsabilitat patrimonial (art. 106.2 CE i art. 32 de la Llei 40/2015) és directa (respon l'Administració) i objectiva (cobreix tant el funcionament normal com l'anormal, sense necessitat de culpa), sempre que hi hagi una lesió antijurídica que el particular no tingui el deure de suportar.",
-      "source": "L40_2015",
-      "article": "art. 32 Llei 40/2015"
-    },
-    {
-      "theme": 36,
-      "block": 9,
-      "q": "Quins requisits ha de reunir el dany per ser indemnitzable (art. 32 i 34 Llei 40/2015)?",
-      "options": [
-        "Ha de ser efectiu, avaluable econòmicament i individualitzat, i el particular no ha de tenir el deure jurídic de suportar-lo",
-        "Pot ser eventual o futur i indeterminat",
-        "Ha de ser un dany moral genèric sense concreció",
-        "N'hi ha prou amb la mera molèstia"
-      ],
-      "correct": 0,
-      "explain": "Correcta: perquè neixi el dret a la indemnització, el dany ha de ser efectiu (real i actual), avaluable econòmicament i individualitzat respecte d'una persona o grup; a més, ha de ser antijurídic (el particular no té el deure jurídic de suportar-lo) i existir relació de causalitat amb el funcionament del servei, sense força major.",
-      "source": "L40_2015",
-      "article": "art. 34 Llei 40/2015"
-    },
-    {
-      "theme": 36,
-      "block": 9,
-      "q": "Quin és el termini de prescripció de l'acció de responsabilitat patrimonial?",
-      "options": [
-        "Un any des del fet o des de la manifestació de l'efecte lesiu; en danys físics o psíquics, des de la curació o la determinació de les seqüeles",
-        "Cinc anys en tot cas",
-        "No prescriu mai",
-        "Trenta dies"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'acció prescriu a l'any del fet o de la manifestació de l'efecte lesiu. En cas de danys físics o psíquics a les persones, el termini es computa des de la curació o des de la determinació de l'abast de les seqüeles.",
-      "source": "L40_2015",
-      "article": "art. 67 Llei 39/2015"
-    },
-    {
-      "theme": 36,
-      "block": 9,
-      "q": "Quin és el termini per resoldre el procediment de responsabilitat patrimonial i el sentit del silenci?",
-      "options": [
-        "Sis mesos, i el silenci és desestimatori (negatiu)",
-        "Tres mesos, amb silenci positiu",
-        "Un any, amb silenci positiu",
-        "No hi ha termini"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el termini per resoldre i notificar és de sis mesos; transcorregut sense resolució expressa, el silenci és desestimatori (negatiu), i l'interessat pot entendre desestimada la reclamació i acudir a la via contenciosa. Quan la indemnització supera el llindar legal, cal dictamen preceptiu de l'òrgan consultiu.",
-      "source": "L39_2015",
-      "article": "art. 91 Llei 39/2015"
-    },
-    {
-      "theme": 36,
-      "block": 9,
-      "q": "Són indemnitzables els danys derivats de fets imprevisibles segons l'estat de la ciència (riscos del desenvolupament)?",
-      "options": [
-        "No; l'art. 34 exclou els danys que no s'hagin pogut preveure o evitar segons l'estat dels coneixements de la ciència o de la tècnica",
-        "Sí, sempre s'indemnitzen",
-        "Sí, però només la meitat del dany",
-        "Depèn de la voluntat de l'Administració"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 34.1 exclou de la indemnització els danys derivats de fets o circumstàncies que no s'haguessin pogut preveure o evitar segons l'estat dels coneixements de la ciència o de la tècnica existents en el moment de la producció (els anomenats riscos del desenvolupament).",
-      "source": "L40_2015",
-      "article": "art. 34 Llei 40/2015"
-    },
-    {
-      "theme": 37,
-      "block": 9,
-      "q": "Contra qui ha d'exigir el particular la responsabilitat patrimonial (art. 36.1 Llei 40/2015)?",
-      "options": [
-        "Directament contra l'Administració, no contra l'autoritat o el personal al seu servei",
-        "Directament contra el funcionari causant del dany",
-        "Contra l'asseguradora del funcionari",
-        "Contra el jutge que va conèixer el cas"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 36.1 estableix que els particulars han d'exigir la responsabilitat patrimonial directament a l'Administració corresponent, no a l'autoritat o personal al seu servei. Aquest sistema protegeix el ciutadà (té sempre un patrimoni solvent al davant) i el funcionari (no s'exposa a demandes directes).",
-      "source": "L40_2015",
-      "article": "art. 36 Llei 40/2015"
-    },
-    {
-      "theme": 37,
-      "block": 9,
-      "q": "Quan pot l'Administració exigir responsabilitat al seu personal (acció de regrés, art. 36.2)?",
-      "options": [
-        "Quan hagi indemnitzat el particular i el personal hagi actuat amb dol, culpa o negligència greus",
-        "Sempre, per qualsevol error, encara que sigui lleu",
-        "Mai; el personal no respon en cap cas",
-        "Només si ho demana el particular"
-      ],
-      "correct": 0,
-      "explain": "Correcta: un cop indemnitzat el lesionat, l'Administració ha d'exigir d'ofici al seu personal la responsabilitat en què hagi incorregut per dol, culpa o negligència greus (art. 36.2), mitjançant l'acció de regrés. La negligència lleu no genera aquesta responsabilitat de regrés.",
-      "source": "L40_2015",
-      "article": "art. 36 Llei 40/2015"
-    },
-    {
-      "theme": 37,
-      "block": 9,
-      "q": "Quins criteris es ponderen per exigir l'acció de regrés al personal (art. 36.3)?",
-      "options": [
-        "El resultat danyós, l'existència o no d'intencionalitat, la responsabilitat professional i la relació amb la producció del resultat",
-        "Únicament l'antiguitat del funcionari",
-        "El sou del funcionari",
-        "El nombre d'anys que resten per a la jubilació"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'art. 36.3 estableix que, per exigir la responsabilitat de regrés, es ponderen, entre altres criteris, el resultat danyós produït, l'existència o no d'intencionalitat, la responsabilitat professional del personal i la seva relació amb la producció del resultat lesiu. El procediment dona audiència a l'interessat.",
-      "source": "L40_2015",
-      "article": "art. 36 Llei 40/2015"
-    },
-    {
-      "theme": 37,
-      "block": 9,
-      "q": "Com respon l'Administració quan el dany deriva d'un delicte comès pel seu personal?",
-      "options": [
-        "Amb caràcter subsidiari, si el responsable penal és insolvent, en els termes de la legislació penal",
-        "No respon en cap cas",
-        "Amb caràcter principal i exclusiu sempre",
-        "Únicament el funcionari, mai l'Administració"
-      ],
-      "correct": 0,
-      "explain": "Correcta: quan el dany deriva d'un delicte comès pel personal, l'Administració respon amb caràcter subsidiari (segons el Codi penal) si el responsable penal directe és insolvent. Això coexisteix amb la responsabilitat patrimonial general i amb les responsabilitats disciplinària i comptable.",
-      "source": "L40_2015",
-      "article": "art. 36 Llei 40/2015"
-    },
-    {
-      "theme": 37,
-      "block": 9,
-      "q": "Pot el particular dirigir-se alhora contra l'Administració i contra el funcionari en via administrativa?",
-      "options": [
-        "No; en via administrativa la reclamació es dirigeix a l'Administració, que després, si escau, repeteix contra el personal",
-        "Sí, sempre pot demandar tots dos alhora",
-        "Sí, però només contra el funcionari",
-        "No pot reclamar a ningú"
-      ],
-      "correct": 0,
-      "explain": "Correcta: el sistema és de responsabilitat directa de l'Administració: el particular reclama a l'Administració (art. 36.1) i és aquesta la que, un cop ha indemnitzat, exigeix la responsabilitat al seu personal mitjançant l'acció de regrés (art. 36.2). El ciutadà no dirigeix la reclamació administrativa contra el funcionari.",
-      "source": "L40_2015",
-      "article": "art. 36 Llei 40/2015"
-    },
-    {
-      "theme": 38,
-      "block": 10,
-      "q": "Com es classifiquen els béns de les entitats locals segons la seva afectació?",
-      "options": [
-        "En béns de domini públic (demanials), béns comunals i béns patrimonials (de propis)",
-        "En béns mobles i immobles exclusivament",
-        "En béns nous i béns vells",
-        "En béns urbans i rústics únicament"
-      ],
-      "correct": 0,
-      "explain": "Correcta: segons l'afectació, els béns es classifiquen en béns de domini públic o demanials (destinats a l'ús o servei públic), béns comunals (aprofitament del comú dels veïns) i béns patrimonials o de propis (no afectes, regits pel dret privat amb especialitats).",
-      "source": "L33_2003",
-      "article": "art. 4-5 LPAP"
-    },
-    {
-      "theme": 38,
-      "block": 10,
-      "q": "Quin règim tenen els béns de domini públic?",
-      "options": [
-        "Són inalienables, imprescriptibles i inembargables",
-        "Es poden vendre lliurement com qualsevol bé privat",
-        "Prescriuen als cinc anys",
-        "Es poden embargar per deutes"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els béns de domini públic (i els comunals) són inalienables (no es poden vendre sense desafectar-los prèviament), imprescriptibles (no s'adquireixen per usucapió) i inembargables (no es poden embargar). Aquest règim especial els protegeix mentre estan afectes a l'ús o servei públic.",
-      "source": "L33_2003",
-      "article": "art. 132 CE"
-    },
-    {
-      "theme": 38,
-      "block": 10,
-      "q": "Què és la desafectació d'un bé?",
-      "options": [
-        "El canvi de qualificació d'un bé de domini públic a bé patrimonial",
-        "El canvi d'un bé patrimonial a domini públic",
-        "La destrucció del bé",
-        "La venda d'un bé demanial sense cap tràmit"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la desafectació és l'alteració de la qualificació jurídica per la qual un bé de domini públic passa a ser patrimonial (perd l'afectació a l'ús o servei públic). L'operació inversa és l'afectació (patrimonial a demanial), i el canvi de destinació dins els demanials és la mutació demanial. Requereixen expedient amb informació pública.",
-      "source": "D336_1988",
-      "article": "art. 8 LPAP"
-    },
-    {
-      "theme": 38,
-      "block": 10,
-      "q": "Com es poden alienar els béns patrimonials, com a regla general?",
-      "options": [
-        "Mitjançant subhasta pública, com a procediment ordinari, garantint la publicitat i la concurrència",
-        "Per adjudicació directa lliure sense cap tràmit",
-        "No es poden alienar mai",
-        "Només per donació obligatòria"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els béns patrimonials es poden alienar, permutar o cedir, i l'alienació es fa, com a regla, per subhasta pública (procediment que garanteix publicitat i concurrència), tret dels casos en què s'admet l'adjudicació directa. Els béns demanials, en canvi, són inalienables mentre no es desafecten.",
-      "source": "D336_1988",
-      "article": "LPAP"
-    },
-    {
-      "theme": 38,
-      "block": 10,
-      "q": "Quins usos del domini públic es distingeixen segons la seva intensitat?",
-      "options": [
-        "Ús comú general (lliure), ús comú especial (subjecte a llicència) i ús privatiu (subjecte a concessió)",
-        "Ús diürn i ús nocturn",
-        "Ús gratuït i ús de pagament únicament",
-        "Ús interior i ús exterior"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'ús del domini públic es gradua en ús comú general (lliure i igual per a tothom, com passejar per un carrer), ús comú especial (concorre una intensitat, perillositat o rendiment especial, subjecte a llicència, com una terrassa) i ús privatiu (ocupació que limita o exclou l'ús pels altres, subjecte a concessió, com un quiosc).",
-      "source": "D336_1988",
-      "article": "LPAP"
-    },
-    {
-      "theme": 39,
-      "block": 10,
-      "q": "Quina és una prerrogativa de les entitats locals per a la defensa dels seus béns (art. 41 LPAP)?",
-      "options": [
-        "La recuperació d'ofici de la possessió: en qualsevol moment per als béns demanials i en el termini d'un any per als patrimonials",
-        "L'embargament dels béns dels veïns",
-        "La imposició de tributs il·limitats",
-        "La suspensió de drets fonamentals"
-      ],
-      "correct": 0,
-      "explain": "Correcta: entre les prerrogatives de defensa dels béns hi ha la investigació, la delimitació (partió), la recuperació d'ofici de la possessió (en qualsevol moment per als demanials, imprescriptibles; en el termini d'un any per als patrimonials), el desnonament administratiu i la potestat sancionadora.",
-      "source": "L33_2003",
-      "article": "art. 41 LPAP"
-    },
-    {
-      "theme": 39,
-      "block": 10,
-      "q": "Què són els béns comunals?",
-      "options": [
-        "Béns de domini públic l'aprofitament dels quals correspon al comú dels veïns",
-        "Béns patrimonials que generen renda per a l'entitat",
-        "Béns privats de l'alcalde",
-        "Béns de l'Estat cedits temporalment"
-      ],
-      "correct": 0,
-      "explain": "Correcta: els béns comunals són una categoria de béns de domini públic l'aprofitament dels quals correspon al comú dels veïns (per exemple, pastures, boscos comunals). Són inalienables, imprescriptibles i inembargables, i el seu aprofitament es regeix per l'ordenança local o el costum.",
-      "source": "D336_1988",
-      "article": "art. 132 CE"
-    },
-    {
-      "theme": 39,
-      "block": 10,
-      "q": "Què és l'inventari de béns de l'entitat local?",
-      "options": [
-        "La relació detallada, valorada i individualitzada de tots els béns i drets, que aprova el Ple i s'actualitza anualment",
-        "El registre de la propietat de l'Estat",
-        "Un simple llistat sense valor administratiu",
-        "El pressupost de l'entitat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'inventari és la relació detallada, valorada i individualitzada de tots els béns i drets de l'entitat; el forma i l'aprova el Ple, s'actualitza contínuament, es rectifica anualment i es comprova en renovar-se la corporació. És un instrument de constància i protecció, però no prova la propietat (per això, a més, s'inscriuen al Registre de la Propietat).",
-      "source": "D336_1988",
-      "article": "art. 86 ROAS"
-    },
-    {
-      "theme": 39,
-      "block": 10,
-      "q": "Els béns patrimonials afectes a un servei públic, es poden embargar?",
-      "options": [
-        "No; els béns i drets patrimonials afectes a un servei públic o a l'exercici de funcions públiques són inembargables",
-        "Sí, sempre es poden embargar sense límit",
-        "Sí, però només per deutes tributaris",
-        "Sí, en tots els casos"
-      ],
-      "correct": 0,
-      "explain": "Correcta: tot i que els béns patrimonials es regeixen pel dret privat, els que estan afectes materialment a un servei públic o a l'exercici de funcions públiques són inembargables, en garantia de la continuïtat del servei. La resta de béns patrimonials sí que poden ser objecte d'execució.",
-      "source": "L33_2003",
-      "article": "art. 30 LPAP"
-    },
-    {
-      "theme": 39,
-      "block": 10,
-      "q": "En què consisteix la potestat d'investigació sobre els béns?",
-      "options": [
-        "En la facultat d'esbrinar la situació dels béns i drets que es presumeixen de la seva titularitat",
-        "En la facultat d'expropiar qualsevol bé lliurement",
-        "En la facultat de recaptar impostos",
-        "En la facultat de sancionar delictes"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la potestat d'investigació permet a l'entitat local esbrinar la situació dels béns i drets que presumeix de la seva titularitat, per determinar-ne la titularitat quan no consta. Es complementa amb la delimitació (partió) amb finques confrontants i la recuperació d'ofici de la possessió.",
-      "source": "L33_2003",
-      "article": "art. 45 LPAP"
-    },
-    {
-      "theme": 40,
-      "block": 3,
-      "q": "Quines classificacions estructuren el pressupost de despeses (Ordre EHA/3565/2008)?",
-      "options": [
-        "Per programes (finalitat), econòmica (naturalesa) i, potestativament, orgànica (òrgan)",
-        "Alfabètica i cronològica",
-        "Per colors i per zones",
-        "Únicament econòmica"
-      ],
-      "correct": 0,
-      "explain": "Correcta: l'estructura pressupostària es basa en tres classificacions: per programes (en què es gasta, la finalitat), econòmica (com es gasta, la naturalesa) i orgànica (qui gasta, l'òrgan o servei), aquesta última potestativa. Ordenen les aplicacions pressupostàries.",
-      "source": "TRLHL",
-      "article": "art. 167 TRLHL"
-    },
-    {
-      "theme": 40,
-      "block": 3,
-      "q": "Què són les bases d'execució del pressupost (art. 165.1 TRLHL)?",
-      "options": [
-        "Les normes pròpies de cada entitat que adapten les disposicions generals a la seva organització (nivells de vinculació, modificacions, reconeixement d'obligacions...)",
-        "El text de la llei de pressupostos de l'Estat",
-        "El llistat de proveïdors de l'entitat",
-        "El calendari de festes locals"
-      ],
-      "correct": 0,
-      "explain": "Correcta: les bases d'execució (art. 165.1) són les normes que aprova cada entitat, juntament amb el pressupost, per adaptar les disposicions generals a la seva organització: nivells de vinculació jurídica dels crèdits, règim de modificacions, reconeixement d'obligacions, pagaments a justificar, etc.",
-      "source": "TRLHL",
-      "article": "art. 165 TRLHL"
-    },
-    {
-      "theme": 40,
-      "block": 3,
-      "q": "Quines magnituds s'obtenen de la liquidació del pressupost (arts. 191-193 TRLHL)?",
-      "options": [
-        "El resultat pressupostari, el romanent de tresoreria i els romanents de crèdit",
-        "El PIB municipal i la taxa d'atur",
-        "El nombre d'habitants i el padró",
-        "El valor cadastral dels immobles"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la liquidació (que aprova el president abans de l'1 de març) determina el resultat pressupostari (diferència entre drets i obligacions reconeguts), el romanent de tresoreria (recursos líquids disponibles, indicador de salut financera) i els romanents de crèdit (crèdits no gastats).",
-      "source": "TRLHL",
-      "article": "arts. 191-193 TRLHL"
-    },
-    {
-      "theme": 40,
-      "block": 3,
-      "q": "Quan es prorroga el pressupost i què comprèn la pròrroga (art. 169.6 TRLHL)?",
-      "options": [
-        "Si no s'aprova abans de l'1 de gener, es prorroga el de l'exercici anterior amb els crèdits inicials, sense els destinats a serveis que finalitzaven",
-        "No existeix la pròrroga; l'entitat es queda sense pressupost",
-        "Es prorroguen totes les modificacions de l'exercici anterior",
-        "Es prorroga el pressupost de l'Estat"
-      ],
-      "correct": 0,
-      "explain": "Correcta: si a l'1 de gener no hi ha pressupost aprovat, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials (no les modificacions), i n'exclou els crèdits destinats a serveis o programes que finalitzaven, fins a l'entrada en vigor del nou.",
-      "source": "TRLHL",
-      "article": "art. 169.6 TRLHL"
-    },
-    {
-      "theme": 40,
-      "block": 3,
-      "q": "A qui correspon aprovar la liquidació del pressupost i en quin termini?",
-      "options": [
-        "Al president de l'entitat, abans de l'1 de març de l'exercici següent, amb coneixement posterior del Ple",
-        "Al Ple, abans del 15 d'octubre",
-        "Al Tribunal de Comptes",
-        "A la comunitat autònoma"
-      ],
-      "correct": 0,
-      "explain": "Correcta: la liquidació del pressupost l'aprova el president de l'entitat, previ informe de la Intervenció, abans de l'1 de març de l'exercici següent, i se'n dona compte al Ple. Reflecteix el tancament de l'exercici i les magnituds financeres resultants.",
-      "source": "TRLHL",
-      "article": "art. 191 TRLHL"
-    },
-    {
       "theme": 41,
       "block": 3,
       "q": "Quin caràcter tenen els crèdits del pressupost de despeses (art. 27 RD 500/1990)?",
@@ -6754,6 +6004,756 @@
       "explain": "Correcta: pel seu caràcter simplificat, el contracte menor no exigeix garantia definitiva ni la formalització en un document contractual: n'hi ha prou amb l'aprovació de la despesa i la factura. Aquesta simplicitat és la seva raó de ser, dins els llindars i sense fraccionament.",
       "source": "LCSP",
       "article": "art. 118 LCSP"
+    },
+    {
+      "theme": 31,
+      "block": 14,
+      "q": "Quina és la naturalesa jurídica de la llicència urbanística o d'activitats?",
+      "options": [
+        "Un acte administratiu reglat que remou un obstacle per a l'exercici d'un dret preexistent, prèvia comprovació dels requisits",
+        "Un acte administratiu discrecional que atorga un dret completament nou al seu titular de manera lliure i graciosa",
+        "Un contracte administratiu que l'Administració subscriu amb el particular per autoritzar una determinada activitat",
+        "Una disposició administrativa de caràcter general que regula amb caràcter abstracte l'exercici d'una activitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la llicència és un acte reglat: comprova que l'activitat o obra compleix els requisits i, si és així, remou l'obstacle per a l'exercici d'un dret que el particular ja té. No atorga drets nous ni és discrecional: si es compleixen els requisits, s'ha d'atorgar.",
+      "source": "L39_2015",
+      "article": "art. 84 LRBRL"
+    },
+    {
+      "theme": 31,
+      "block": 14,
+      "q": "Què és la declaració responsable (art. 69.1 Llei 39/2015)?",
+      "options": [
+        "Una autorització administrativa expressa que l'òrgan competent dicta un cop comprovats tots els requisits legals",
+        "El document en què l'interessat manifesta, sota la seva responsabilitat, que compleix els requisits i disposa de la documentació",
+        "Un contracte que el ciutadà subscriu amb l'Administració i en què s'obliga a complir determinades condicions",
+        "Una sanció administrativa que s'imposa a qui exerceix una activitat sense disposar del títol habilitant necessari"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la declaració responsable (art. 69.1) és el document subscrit per l'interessat en què declara que compleix els requisits, que disposa de la documentació que ho acredita i que es compromet a mantenir-ne el compliment. Permet iniciar l'activitat des de la presentació.",
+      "source": "L39_2015",
+      "article": "art. 69 Llei 39/2015"
+    },
+    {
+      "theme": 31,
+      "block": 14,
+      "q": "Quin efecte tenen la comunicació prèvia i la declaració responsable?",
+      "options": [
+        "Suspenen l'exercici de l'activitat fins que l'Administració dicti una resolució expressa que l'autoritzi de manera formal",
+        "Equivalen a una denegació automàtica de l'activitat mentre no es dicti una resolució expressa favorable de l'òrgan",
+        "Permeten l'exercici del dret o de l'activitat des de la presentació, sens perjudici de la comprovació posterior",
+        "Obliguen l'interessat a esperar un termini de tres mesos abans de poder iniciar l'activitat que ha comunicat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: tant la comunicació prèvia (art. 69.2) com la declaració responsable (art. 69.1) permeten iniciar l'activitat des del moment de la presentació, i traslladen el control a un moment posterior (comprovació, inspecció i verificació). No hi ha resolució expressa prèvia habilitant.",
+      "source": "L39_2015",
+      "article": "art. 69 Llei 39/2015"
+    },
+    {
+      "theme": 31,
+      "block": 14,
+      "q": "Quina conseqüència té la inexactitud o falsedat en una declaració responsable?",
+      "options": [
+        "Cap conseqüència en la pràctica, ja que aquestes declaracions no se solen comprovar mai per part de l'Administració",
+        "L'atorgament automàtic d'una llicència que legalitza l'activitat un cop transcorregut el termini de comprovació",
+        "Una simple advertència de l'Administració sense cap efecte sobre la continuïtat de l'activitat ni responsabilitats",
+        "La impossibilitat de continuar l'activitat des del moment que es coneix, sens perjudici de les responsabilitats que escaiguin"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 69.4 estableix que la inexactitud, falsedat o omissió de dades essencials determina la impossibilitat de continuar l'activitat des del moment que es coneix, amb possibles responsabilitats penals, civils o administratives, i l'obligació de restituir la situació.",
+      "source": "L39_2015",
+      "article": "art. 69 Llei 39/2015"
+    },
+    {
+      "theme": 31,
+      "block": 14,
+      "q": "Quin principi orienta l'elecció entre llicència i comunicació prèvia o declaració responsable?",
+      "options": [
+        "Els principis de necessitat i proporcionalitat: cal escollir la mesura menys restrictiva del dret dels ciutadans",
+        "La lliure elecció de l'Administració, que pot exigir la llicència o la comunicació segons el seu criteri d'oportunitat",
+        "La preferència sempre per la llicència en tots els casos, per garantir un control previ més intens de l'activitat",
+        "La prohibició absoluta d'utilitzar la declaració responsable, que ha estat substituïda per la comunicació prèvia"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la Directiva de serveis 2006/123 i l'art. 4 de la Llei 40/2015 imposen els principis de necessitat i proporcionalitat: la llicència es reserva als casos justificats per raons imperioses d'interès general, i la resta d'activitats es tramiten per declaració responsable o comunicació.",
+      "source": "L39_2015",
+      "article": "art. 4 Llei 40/2015"
+    },
+    {
+      "theme": 32,
+      "block": 8,
+      "q": "Quines són les formes de gestió directa dels serveis públics locals?",
+      "options": [
+        "La concessió, la gestió interessada, el concert i la societat d'economia mixta amb participació de capital privat",
+        "Per la mateixa entitat, per organisme autònom, per entitat pública empresarial o per societat de capital íntegrament públic",
+        "El concert amb entitats privades i la societat mixta constituïda amb un soci privat seleccionat per licitació",
+        "Únicament la concessió a un tercer que assumeix el risc de l'explotació a canvi de percebre les tarifes"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la gestió directa es fa per la mateixa entitat local, per un organisme autònom, per una entitat pública empresarial o per una societat de capital íntegrament públic. La concessió, la gestió interessada, el concert i la societat mixta són formes de gestió indirecta.",
+      "source": "LRBRL",
+      "article": "art. 85 LRBRL"
+    },
+    {
+      "theme": 32,
+      "block": 8,
+      "q": "Qui conserva la titularitat del servei en la concessió (gestió indirecta)?",
+      "options": [
+        "El concessionari, que n'adquireix la titularitat definitiva un cop formalitzat el contracte de concessió del servei",
+        "Les persones usuàries del servei, que en són titulars col·lectives mentre dura el període de la concessió atorgada",
+        "L'Administració, que manté la titularitat i les potestats d'ordenació, mentre el concessionari el gestiona al seu risc",
+        "Ningú, ja que el servei deixa de ser públic i passa a regir-se íntegrament per les normes del dret privat comú"
+      ],
+      "correct": 2,
+      "explain": "Correcta: en la concessió, l'Administració conserva la titularitat del servei i les potestats d'ordenació, fiscalització i control; el concessionari només en gestiona la prestació al seu risc, a canvi d'una retribució (tarifes). Per això, en extingir-se, els béns reverteixen.",
+      "source": "LRBRL",
+      "article": "art. 84 ROAS"
+    },
+    {
+      "theme": 32,
+      "block": 8,
+      "q": "Quina és una potestat de l'Administració en la concessió de serveis públics?",
+      "options": [
+        "Renunciar a qualsevol control sobre el servei un cop l'ha adjudicat, per respectar l'autonomia del concessionari",
+        "Cedir la titularitat del servei al concessionari perquè l'exploti de manera definitiva i sense reversió posterior",
+        "Prohibir l'accés de les persones usuàries al servei quan ho consideri convenient per als seus interessos econòmics",
+        "Ordenar modificacions (ius variandi), fiscalitzar el servei, imposar sancions i, si escau, rescatar o segrestar la concessió"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'Administració concedent conserva potestats exorbitants: ordenar modificacions per interès públic (ius variandi), fiscalitzar i inspeccionar, imposar sancions, i segrestar/intervenir, rescatar o suprimir el servei. Garanteixen la continuïtat i la qualitat del servei públic.",
+      "source": "LRBRL",
+      "article": "ROAS"
+    },
+    {
+      "theme": 32,
+      "block": 8,
+      "q": "Quin dret té el concessionari d'un servei públic?",
+      "options": [
+        "Percebre les tarifes com a contraprestació i al manteniment de l'equilibri econòmic de la concessió atorgada",
+        "Prestar el servei sense cap obligació de continuïtat, ajustant-lo lliurement als seus interessos empresarials",
+        "Modificar lliurement les condicions de prestació del servei sense necessitat d'autorització de l'Administració",
+        "Adquirir la titularitat del servei públic un cop transcorregut un determinat període d'explotació sense incidències"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el concessionari té dret a percebre les tarifes com a contraprestació i al manteniment de l'equilibri econòmic; a canvi, té l'obligació de prestar el servei amb continuïtat, regularitat i igualtat per als usuaris, i de conservar les obres i instal·lacions.",
+      "source": "LRBRL",
+      "article": "ROAS"
+    },
+    {
+      "theme": 32,
+      "block": 8,
+      "q": "Com s'extingeix la concessió d'un servei públic?",
+      "options": [
+        "Únicament per voluntat unilateral del concessionari, que pot renunciar a la concessió quan li convingui",
+        "Per transcurs del termini (amb reversió dels béns), rescat, supressió del servei, caducitat per incompliment o mutu acord",
+        "Mai, ja que les concessions de serveis públics tenen caràcter perpetu un cop atorgades pel Ple de la corporació",
+        "Només mitjançant una sentència penal ferma que condemni el concessionari per la comissió d'un delicte"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la concessió s'extingeix pel transcurs del termini (amb reversió a l'Administració dels béns afectes), pel rescat (recuperació anticipada per interès públic amb indemnització), per la supressió del servei, per caducitat per incompliment greu o per mutu acord.",
+      "source": "LRBRL",
+      "article": "ROAS"
+    },
+    {
+      "theme": 33,
+      "block": 8,
+      "q": "En què consisteix la gestió interessada?",
+      "options": [
+        "L'empresari assumeix tot el risc de l'explotació sense cap participació de l'Administració en els resultats",
+        "L'Administració presta el servei directament amb els seus propis mitjans, sense la intervenció de cap tercer",
+        "L'Administració i l'empresari gestionen conjuntament el servei i participen en els resultats segons una escala prefixada",
+        "Les persones usuàries s'organitzen per gestionar el servei de manera autònoma sota la supervisió de l'entitat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: en la gestió interessada, l'Administració i l'empresari gestionen el servei conjuntament i comparteixen els resultats econòmics (beneficis i, si escau, pèrdues) segons una escala prefixada. A diferència de la concessió, el risc no recau íntegrament en el particular.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 33,
+      "block": 8,
+      "q": "Què caracteritza el concert com a forma de gestió indirecta?",
+      "options": [
+        "Crear una societat mercantil nova de capital íntegrament públic per prestar el servei objecte del concert",
+        "Prestar el servei directament per l'ajuntament amb el seu propi personal i les seves pròpies instal·lacions",
+        "Transferir la titularitat definitiva del servei a un particular perquè el presti pel seu compte i risc exclusiu",
+        "Gestionar el servei mitjançant una persona que ja presta serveis anàlegs als usuaris, aprofitant-ne els mitjans existents"
+      ],
+      "correct": 3,
+      "explain": "Correcta: el concert consisteix a gestionar el servei a través d'una persona (natural o jurídica) que ja disposa de mitjans i presta serveis anàlegs (per exemple, en l'àmbit sanitari, social o educatiu), sense necessitat de crear una nova organització.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 33,
+      "block": 8,
+      "q": "Què és una societat d'economia mixta?",
+      "options": [
+        "Una societat en què l'Administració participa en el capital juntament amb capital privat per gestionar el servei",
+        "Una societat mercantil de capital íntegrament públic constituïda per l'Administració per prestar el servei",
+        "Una societat exclusivament privada, sense cap participació de capital públic en la seva estructura accionarial",
+        "Una fundació sense ànim de lucre creada per l'Administració per gestionar serveis d'interès social i general"
+      ],
+      "correct": 0,
+      "explain": "Correcta: en la societat d'economia mixta, l'Administració participa en el capital d'una societat mercantil (o cooperativa) juntament amb capital privat, per gestionar el servei de manera indirecta. El soci privat se selecciona mitjançant licitació.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 33,
+      "block": 8,
+      "q": "Quina diferència hi ha entre societat de capital íntegrament públic i societat d'economia mixta?",
+      "options": [
+        "No hi ha cap diferència rellevant entre totes dues, ja que ambdues es consideren formes de gestió directa del servei",
+        "La primera té capital cent per cent públic i és gestió directa; la segona té capital públic i privat i és gestió indirecta",
+        "Totes dues són formes de gestió indirecta del servei, i es diferencien només pel volum del capital social aportat",
+        "La primera és una societat de naturalesa privada i la segona una societat de naturalesa íntegrament pública"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la societat de capital íntegrament públic (100% públic) és una forma de gestió directa; la societat d'economia mixta (capital públic i privat, amb soci privat seleccionat per licitació) és una forma de gestió indirecta. La composició del capital i la naturalesa de la gestió les diferencien.",
+      "source": "ROAS",
+      "article": "ROAS"
+    },
+    {
+      "theme": 33,
+      "block": 8,
+      "q": "On s'ha reconduït bona part d'aquestes formes de gestió indirecta amb la LCSP?",
+      "options": [
+        "Cap al contracte d'obres, que ara inclou també la gestió i l'explotació posterior de la infraestructura",
+        "Cap al contracte de subministrament, que ara comprèn tant l'adquisició de béns com la prestació de serveis",
+        "Cap al contracte de concessió de serveis, tot i que el ROAS les manté com a modalitats de gestió indirecta",
+        "Cap als convenis interadministratius, que ara permeten gestionar qualsevol servei públic d'interès comú"
+      ],
+      "correct": 2,
+      "explain": "Correcta: la LCSP de 2017 ha reconduït bona part de les formes tradicionals de gestió indirecta cap al contracte de concessió de serveis (que posa l'accent en la transferència del risc operacional), si bé la legislació de règim local (ROAS) manté les modalitats clàssiques.",
+      "source": "ROAS",
+      "article": "LCSP"
+    },
+    {
+      "theme": 34,
+      "block": 8,
+      "q": "Què és un consorci segons l'art. 118 de la Llei 40/2015?",
+      "options": [
+        "Una societat mercantil de caràcter privat constituïda per diverses administracions públiques amb ànim de lucre",
+        "Un òrgan col·legiat sense personalitat jurídica pròpia, integrat per representants de diverses administracions",
+        "Un contracte administratiu de col·laboració que subscriuen dues o més administracions per a una finalitat comuna",
+        "Una entitat de dret públic amb personalitat jurídica pròpia, creada per diverses administracions per a activitats d'interès comú"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 118 defineix el consorci com una entitat de dret públic, amb personalitat jurídica pròpia i diferenciada, creada per diverses administracions públiques (i, si escau, entitats privades sense ànim de lucre) per gestionar activitats o serveis d'interès comú.",
+      "source": "L40_2015",
+      "article": "art. 118 Llei 40/2015"
+    },
+    {
+      "theme": 34,
+      "block": 8,
+      "q": "A què serveix l'adscripció del consorci a una administració (art. 120)?",
+      "options": [
+        "A determinar el règim pressupostari, comptable, de control econòmic i de personal que li és aplicable",
+        "A dissoldre automàticament el consorci un cop assolida la finalitat d'interès comú que va motivar la seva creació",
+        "A privar el consorci de la seva personalitat jurídica pròpia i diferenciada de la de les entitats que l'integren",
+        "A convertir el consorci en una societat mercantil privada sotmesa íntegrament al dret mercantil i civil comú"
+      ],
+      "correct": 0,
+      "explain": "Correcta: cada consorci s'adscriu, segons els criteris de l'art. 120 (control, aportacions, finançament, nombre de vots), a una de les administracions participants; l'adscripció determina el règim pressupostari, comptable, de control econòmic i financer, i de personal aplicable.",
+      "source": "L40_2015",
+      "article": "art. 120 Llei 40/2015"
+    },
+    {
+      "theme": 34,
+      "block": 8,
+      "q": "Com es crea un consorci (art. 123 Llei 40/2015)?",
+      "options": [
+        "Per decret unilateral d'una sola de les administracions participants, que assumeix la direcció del consorci",
+        "Mitjançant un conveni entre les parts i l'aprovació dels seus estatuts, que fixen l'adscripció, les funcions i els òrgans",
+        "Sense cap formalitat escrita, per simple acord verbal entre els representants de les administracions interessades",
+        "Mitjançant un contracte de compravenda entre les administracions que aporten béns i recursos al nou consorci"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la creació d'un consorci requereix un conveni subscrit per les administracions i entitats participants i l'aprovació dels seus estatuts, que han de determinar l'administració d'adscripció, les funcions, els òrgans de govern i el règim orgànic, funcional i financer (art. 123).",
+      "source": "L40_2015",
+      "article": "art. 123 Llei 40/2015"
+    },
+    {
+      "theme": 34,
+      "block": 8,
+      "q": "Quin dret tenen els membres d'un consorci en cas d'incompliment o segons els estatuts (art. 125)?",
+      "options": [
+        "El dret a dissoldre unilateralment el consorci sense necessitat de cap procediment ni acord dels altres membres",
+        "Cap dret de sortida, ja que la pertinença al consorci té caràcter perpetu un cop constituït i inscrit legalment",
+        "El dret de separació del consorci, que pot comportar, si escau, la seva dissolució i posterior liquidació",
+        "El dret a apropiar-se de la totalitat de l'actiu del consorci en el moment en què decideixin abandonar-lo"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'art. 125 reconeix el dret de separació dels membres quan una entitat incompleix les seves obligacions (especialment les d'aportació al fons) o quan ho permeten els estatuts. L'exercici del dret de separació pot comportar la dissolució i liquidació del consorci.",
+      "source": "L40_2015",
+      "article": "art. 125 Llei 40/2015"
+    },
+    {
+      "theme": 34,
+      "block": 8,
+      "q": "De quin dret es regeix el consorci?",
+      "options": [
+        "Exclusivament del dret privat, com qualsevol altra societat mercantil constituïda entre particulars i empreses",
+        "Del dret penal, atès que exerceix funcions públiques que impliquen l'exercici de potestats de coacció",
+        "Del dret internacional públic, per la seva naturalesa d'entitat que agrupa administracions de diferents nivells",
+        "Del dret administratiu, pels seus estatuts i per la Llei 40/2015, com a entitat de dret públic que és"
+      ],
+      "correct": 3,
+      "explain": "Correcta: el consorci és una entitat de dret públic i es regeix pels seus estatuts, per la Llei 40/2015 i per la resta de l'ordenament administratiu (règim de l'administració d'adscripció en matèria pressupostària, comptable i de personal).",
+      "source": "L40_2015",
+      "article": "art. 119 Llei 40/2015"
+    },
+    {
+      "theme": 35,
+      "block": 8,
+      "q": "Què s'entén per subvenció segons l'art. 2 de la Llei 38/2003?",
+      "options": [
+        "Una disposició dinerària sense contraprestació directa, subjecta a un objectiu i amb finalitat de foment d'interès públic",
+        "Un pagament que fa l'Administració a canvi d'un servei o d'una prestació que li presta el beneficiari",
+        "Un préstec que l'Administració concedeix al beneficiari amb un interès de mercat i amb obligació de retorn",
+        "Una sanció econòmica que s'imposa a qui incompleix la normativa reguladora d'una determinada activitat"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 2 exigeix tres requisits: que sigui una disposició dinerària sense contraprestació directa, que estigui subjecta al compliment d'un objectiu, projecte o conducta, i que tingui finalitat de foment d'una activitat d'utilitat pública o interès social.",
+      "source": "L38_2003",
+      "article": "art. 2 Llei 38/2003"
+    },
+    {
+      "theme": 35,
+      "block": 8,
+      "q": "Quin és el procediment ordinari de concessió de subvencions (art. 22)?",
+      "options": [
+        "La concessió directa a la primera entitat que presenti la sol·licitud dins del termini establert per la convocatòria",
+        "La concurrència competitiva, mitjançant la comparació i prelació de les sol·licituds segons criteris de valoració",
+        "El sorteig aleatori entre totes les entitats sol·licitants que reuneixin els requisits mínims exigits per les bases",
+        "L'adjudicació verbal a les entitats que l'òrgan gestor consideri més adequades, sense procediment formal previ"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 22 estableix la concurrència competitiva com a procediment ordinari: es comparen les sol·licituds i es prelacionen segons els criteris de valoració fixats a les bases, per adjudicar dins el crèdit disponible. La concessió directa és excepcional.",
+      "source": "L38_2003",
+      "article": "art. 22 Llei 38/2003"
+    },
+    {
+      "theme": 35,
+      "block": 8,
+      "q": "En quins casos es pot concedir una subvenció de manera directa (art. 22.2)?",
+      "options": [
+        "En qualsevol cas en què l'òrgan gestor ho decideixi lliurement, sense necessitat de justificar-ho de cap manera",
+        "Mai, ja que totes les subvencions s'han de concedir necessàriament pel procediment de concurrència competitiva",
+        "Les previstes nominativament als pressupostos, les imposades per llei i les excepcionals per interès públic o social",
+        "Únicament quan la subvenció es destini a empreses privades i no a entitats sense ànim de lucre ni a particulars"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'art. 22.2 admet la concessió directa en tres supòsits taxats: subvencions previstes nominativament als pressupostos, les imposades per una norma amb rang de llei, i les que, amb caràcter excepcional, es justifiquen per raons d'interès públic, social, econòmic o humanitari.",
+      "source": "L38_2003",
+      "article": "art. 22.2 Llei 38/2003"
+    },
+    {
+      "theme": 35,
+      "block": 8,
+      "q": "Què és el pla estratègic de subvencions (art. 8)?",
+      "options": [
+        "El document que el beneficiari presenta per justificar la despesa un cop ha rebut i executat la subvenció",
+        "La sol·licitud que presenta l'entitat interessada per accedir a la subvenció convocada per l'Administració",
+        "El recurs administratiu que el sol·licitant pot interposar contra la resolució que li denega la subvenció demanada",
+        "L'instrument previ de planificació que concreta els objectius, els efectes, els costos i les fonts de finançament"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'art. 8.1 exigeix que, amb caràcter previ, cada administració aprovi un pla estratègic de subvencions que concreti els objectius i efectes que es pretenen, el termini, els costos previsibles i les fonts de finançament. És una manifestació dels principis d'eficàcia i eficiència.",
+      "source": "L38_2003",
+      "article": "art. 8 Llei 38/2003"
+    },
+    {
+      "theme": 35,
+      "block": 8,
+      "q": "En quins casos procedeix el reintegrament d'una subvenció (art. 37)?",
+      "options": [
+        "Quan s'obté sense reunir els requisits, s'incompleix la finalitat o l'obligació de justificar, amb l'interès de demora",
+        "Sempre, en tots els casos, un cop el beneficiari ha executat i justificat correctament l'activitat subvencionada",
+        "Mai, ja que un cop concedida i pagada la subvenció, aquesta esdevé definitiva i no es pot exigir-ne la devolució",
+        "Únicament quan ho decideixi de manera voluntària el mateix beneficiari, que pot retornar la subvenció quan vulgui"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 37 obliga a reintegrar la subvenció, més l'interès de demora, en supòsits com l'obtenció sense reunir els requisits, l'incompliment total o parcial de la finalitat o de l'obligació de justificar, o la resistència a les actuacions de comprovació i control.",
+      "source": "L38_2003",
+      "article": "art. 37 Llei 38/2003"
+    },
+    {
+      "theme": 36,
+      "block": 9,
+      "q": "Quin és el fonament i la naturalesa de la responsabilitat patrimonial de l'Administració?",
+      "options": [
+        "És una responsabilitat subsidiària que només opera si es prova la culpa concreta d'un funcionari determinat",
+        "Deriva de l'art. 106.2 CE i és una responsabilitat directa i objectiva pel funcionament normal o anormal dels serveis",
+        "És una responsabilitat que només neix en els casos de funcionament anormal o defectuós dels serveis públics",
+        "És una responsabilitat de naturalesa penal que exigeix la comissió prèvia d'un delicte per part del personal"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la responsabilitat patrimonial (art. 106.2 CE i art. 32 de la Llei 40/2015) és directa (respon l'Administració) i objectiva (cobreix el funcionament normal i l'anormal, sense culpa), sempre que hi hagi una lesió antijurídica que el particular no tingui el deure de suportar.",
+      "source": "L40_2015",
+      "article": "art. 32 Llei 40/2015"
+    },
+    {
+      "theme": 36,
+      "block": 9,
+      "q": "Quins requisits ha de reunir el dany per ser indemnitzable (arts. 32 i 34)?",
+      "options": [
+        "Pot ser un dany eventual o futur i de caràcter indeterminat, sempre que sigui possible que arribi a produir-se",
+        "Ha de ser un dany moral de caràcter genèric, sense necessitat que es pugui concretar ni avaluar econòmicament",
+        "Ha de ser efectiu, avaluable econòmicament i individualitzat, i el particular no ha de tenir el deure de suportar-lo",
+        "N'hi ha prou amb una simple molèstia o incomoditat derivada del funcionament ordinari dels serveis públics"
+      ],
+      "correct": 2,
+      "explain": "Correcta: perquè neixi el dret a la indemnització, el dany ha de ser efectiu (real i actual), avaluable econòmicament i individualitzat; a més, ha de ser antijurídic (el particular no té el deure de suportar-lo) i existir relació de causalitat amb el servei, sense força major.",
+      "source": "L40_2015",
+      "article": "art. 34 Llei 40/2015"
+    },
+    {
+      "theme": 36,
+      "block": 9,
+      "q": "Quin és el termini de prescripció de l'acció de responsabilitat patrimonial?",
+      "options": [
+        "Cinc anys en tot cas, comptats des del moment en què es va produir el fet que ha ocasionat el dany al particular",
+        "No prescriu mai, de manera que el particular pot reclamar en qualsevol moment amb independència del temps transcorregut",
+        "Trenta dies hàbils comptats des de la data en què el particular va tenir coneixement del dany patit i del seu abast",
+        "Un any des del fet o de la manifestació de l'efecte lesiu; en danys físics, des de la curació o determinació de seqüeles"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'acció prescriu a l'any del fet o de la manifestació de l'efecte lesiu. En cas de danys físics o psíquics, el termini es computa des de la curació o des de la determinació de l'abast de les seqüeles.",
+      "source": "L40_2015",
+      "article": "art. 67 Llei 39/2015"
+    },
+    {
+      "theme": 36,
+      "block": 9,
+      "q": "Quin és el termini per resoldre el procediment de responsabilitat patrimonial i el sentit del silenci?",
+      "options": [
+        "Sis mesos, i el silenci és desestimatori (negatiu), de manera que l'interessat pot acudir a la via contenciosa",
+        "Tres mesos, amb silenci de sentit positiu, de manera que la reclamació s'entén estimada un cop transcorregut el termini",
+        "Un any, amb silenci positiu, atès que es tracta d'un procediment iniciat a instància de la persona interessada",
+        "No hi ha cap termini fixat per resoldre, de manera que el procediment pot romandre obert de manera indefinida"
+      ],
+      "correct": 0,
+      "explain": "Correcta: el termini per resoldre és de sis mesos; transcorregut sense resolució expressa, el silenci és desestimatori (negatiu), i l'interessat pot entendre desestimada la reclamació. Quan la indemnització supera el llindar legal, cal dictamen preceptiu de l'òrgan consultiu.",
+      "source": "L39_2015",
+      "article": "art. 91 Llei 39/2015"
+    },
+    {
+      "theme": 36,
+      "block": 9,
+      "q": "Són indemnitzables els danys derivats de fets imprevisibles segons l'estat de la ciència?",
+      "options": [
+        "Sí, sempre s'indemnitzen aquests danys, ja que la responsabilitat patrimonial de l'Administració és objectiva",
+        "No: l'art. 34 exclou els danys que no s'hagin pogut preveure o evitar segons l'estat de la ciència o de la tècnica",
+        "Sí, però únicament s'indemnitza la meitat del dany patit, en atenció al caràcter imprevisible del fet causant",
+        "Depèn en cada cas de la voluntat discrecional de l'Administració, que decideix si els indemnitza o no els indemnitza"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'art. 34.1 exclou de la indemnització els danys derivats de fets o circumstàncies que no s'haguessin pogut preveure o evitar segons l'estat dels coneixements de la ciència o de la tècnica existents en el moment de la producció (els riscos del desenvolupament).",
+      "source": "L40_2015",
+      "article": "art. 34 Llei 40/2015"
+    },
+    {
+      "theme": 37,
+      "block": 9,
+      "q": "Contra qui ha d'exigir el particular la responsabilitat patrimonial (art. 36.1)?",
+      "options": [
+        "Directament contra el funcionari concret que va causar el dany amb la seva actuació en l'exercici del càrrec",
+        "Contra l'entitat asseguradora amb què el funcionari causant del dany hagi contractat una pòlissa de responsabilitat",
+        "Directament contra l'Administració, i no contra l'autoritat o el personal al seu servei que va causar el dany",
+        "Contra el jutge o el tribunal que va conèixer prèviament de l'assumpte relacionat amb el dany reclamat"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'art. 36.1 estableix que els particulars han d'exigir la responsabilitat directament a l'Administració, no a l'autoritat o personal al seu servei. Aquest sistema protegeix el ciutadà (té un patrimoni solvent al davant) i el funcionari (no s'exposa a demandes directes).",
+      "source": "L40_2015",
+      "article": "art. 36 Llei 40/2015"
+    },
+    {
+      "theme": 37,
+      "block": 9,
+      "q": "Quan pot l'Administració exigir responsabilitat al seu personal (acció de regrés, art. 36.2)?",
+      "options": [
+        "Sempre, per qualsevol error o falta que hagi comès el personal, encara que es tracti d'una negligència lleu",
+        "Mai, ja que el personal al servei de l'Administració no respon en cap cas dels danys que causa en l'exercici",
+        "Únicament quan ho sol·liciti expressament i per escrit el particular que ha estat indemnitzat per l'Administració",
+        "Quan hagi indemnitzat el particular i el personal hagi actuat amb dol, culpa o negligència de caràcter greu"
+      ],
+      "correct": 3,
+      "explain": "Correcta: un cop indemnitzat el lesionat, l'Administració ha d'exigir d'ofici al seu personal la responsabilitat en què hagi incorregut per dol, culpa o negligència greus (art. 36.2), mitjançant l'acció de regrés. La negligència lleu no genera aquesta responsabilitat de regrés.",
+      "source": "L40_2015",
+      "article": "art. 36 Llei 40/2015"
+    },
+    {
+      "theme": 37,
+      "block": 9,
+      "q": "Quins criteris es ponderen per exigir l'acció de regrés al personal (art. 36.3)?",
+      "options": [
+        "El resultat danyós, l'existència o no d'intencionalitat, la responsabilitat professional i la relació amb el resultat",
+        "Únicament l'antiguitat que el funcionari acumuli en el moment en què es va produir l'actuació causant del dany",
+        "El sou i les retribucions que percep el funcionari, per graduar l'import de la quantitat que se li ha de reclamar",
+        "El nombre d'anys que resten al funcionari per accedir a la jubilació en el moment d'exercir l'acció de regrés"
+      ],
+      "correct": 0,
+      "explain": "Correcta: l'art. 36.3 estableix que, per exigir la responsabilitat de regrés, es ponderen el resultat danyós produït, l'existència o no d'intencionalitat, la responsabilitat professional del personal i la seva relació amb la producció del resultat lesiu. El procediment dona audiència.",
+      "source": "L40_2015",
+      "article": "art. 36 Llei 40/2015"
+    },
+    {
+      "theme": 37,
+      "block": 9,
+      "q": "Com respon l'Administració quan el dany deriva d'un delicte comès pel seu personal?",
+      "options": [
+        "No respon en cap cas, ja que la responsabilitat pel delicte recau exclusivament sobre el funcionari que el va cometre",
+        "Amb caràcter subsidiari, si el responsable penal directe és insolvent, en els termes de la legislació penal",
+        "Amb caràcter principal i exclusiu sempre, de manera que el funcionari queda alliberat de tota responsabilitat penal",
+        "Únicament el funcionari respon del dany, sense que l'Administració hagi de respondre en cap concepte ni de forma"
+      ],
+      "correct": 1,
+      "explain": "Correcta: quan el dany deriva d'un delicte comès pel personal, l'Administració respon amb caràcter subsidiari (segons el Codi penal) si el responsable penal directe és insolvent. Això coexisteix amb la responsabilitat patrimonial general i amb les responsabilitats disciplinària i comptable.",
+      "source": "L40_2015",
+      "article": "art. 36 Llei 40/2015"
+    },
+    {
+      "theme": 37,
+      "block": 9,
+      "q": "Pot el particular dirigir-se alhora contra l'Administració i contra el funcionari en via administrativa?",
+      "options": [
+        "Sí, sempre pot reclamar de manera simultània contra l'Administració i contra el funcionari causant del dany",
+        "Sí, però únicament pot dirigir la seva reclamació contra el funcionari, mai contra l'Administració ocupadora",
+        "No: en via administrativa la reclamació es dirigeix a l'Administració, que després, si escau, repeteix contra el personal",
+        "No pot reclamar contra ningú en via administrativa, sinó que ha d'acudir directament a la jurisdicció penal"
+      ],
+      "correct": 2,
+      "explain": "Correcta: el sistema és de responsabilitat directa de l'Administració: el particular reclama a l'Administració (art. 36.1) i és aquesta la que, un cop ha indemnitzat, exigeix la responsabilitat al seu personal mitjançant l'acció de regrés (art. 36.2).",
+      "source": "L40_2015",
+      "article": "art. 36 Llei 40/2015"
+    },
+    {
+      "theme": 38,
+      "block": 10,
+      "q": "Com es classifiquen els béns de les entitats locals segons la seva afectació?",
+      "options": [
+        "En béns mobles i béns immobles, segons la seva naturalesa física i la possibilitat o no de traslladar-los",
+        "En béns nous i béns vells, segons l'antiguitat que tinguin i l'estat de conservació en què es trobin",
+        "En béns urbans i béns rústics, segons la classe de sòl en què estiguin situats dins del terme municipal",
+        "En béns de domini públic (demanials), béns comunals i béns patrimonials o de propis, segons a què estiguin afectes"
+      ],
+      "correct": 3,
+      "explain": "Correcta: segons l'afectació, els béns es classifiquen en béns de domini públic o demanials (destinats a l'ús o servei públic), béns comunals (aprofitament del comú dels veïns) i béns patrimonials o de propis (no afectes, regits pel dret privat amb especialitats).",
+      "source": "L33_2003",
+      "article": "art. 4-5 LPAP"
+    },
+    {
+      "theme": 38,
+      "block": 10,
+      "q": "Quin règim tenen els béns de domini públic?",
+      "options": [
+        "Són inalienables, imprescriptibles i inembargables mentre estan afectes a l'ús o al servei públic",
+        "Es poden vendre lliurement en el mercat com qualsevol bé de propietat privada, sense cap tràmit especial",
+        "Prescriuen als cinc anys a favor de qui els posseeixi de bona fe durant aquest període de manera continuada",
+        "Es poden embargar per deutes de l'entitat local davant els seus creditors, igual que la resta de béns"
+      ],
+      "correct": 0,
+      "explain": "Correcta: els béns de domini públic (i els comunals) són inalienables (no es poden vendre sense desafectar-los), imprescriptibles (no s'adquireixen per usucapió) i inembargables. Aquest règim especial els protegeix mentre estan afectes a l'ús o servei públic.",
+      "source": "L33_2003",
+      "article": "art. 132 CE"
+    },
+    {
+      "theme": 38,
+      "block": 10,
+      "q": "Què és la desafectació d'un bé?",
+      "options": [
+        "El canvi de qualificació pel qual un bé patrimonial passa a tenir la condició de bé de domini públic",
+        "El canvi de qualificació jurídica pel qual un bé de domini públic passa a tenir la condició de bé patrimonial",
+        "La destrucció física del bé un cop ha deixat de ser útil per a l'ús o el servei públic a què estava destinat",
+        "La venda d'un bé de domini públic a un particular sense necessitat de cap tràmit ni procediment previ"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la desafectació és l'alteració de la qualificació per la qual un bé de domini públic passa a ser patrimonial (perd l'afectació a l'ús o servei públic). L'operació inversa és l'afectació, i el canvi de destinació dins els demanials és la mutació demanial.",
+      "source": "D336_1988",
+      "article": "art. 8 LPAP"
+    },
+    {
+      "theme": 38,
+      "block": 10,
+      "q": "Com es poden alienar els béns patrimonials, com a regla general?",
+      "options": [
+        "Per adjudicació directa i lliure a qualsevol interessat, sense cap tràmit de publicitat ni de concurrència",
+        "No es poden alienar mai, ja que tots els béns de les entitats locals tenen caràcter inalienable per llei",
+        "Mitjançant subhasta pública com a procediment ordinari, per garantir la publicitat i la concurrència d'ofertes",
+        "Únicament mitjançant una donació obligatòria a favor d'una altra administració pública que ho sol·liciti"
+      ],
+      "correct": 2,
+      "explain": "Correcta: els béns patrimonials es poden alienar, permutar o cedir, i l'alienació es fa, com a regla, per subhasta pública (que garanteix publicitat i concurrència), tret dels casos en què s'admet l'adjudicació directa. Els béns demanials són inalienables mentre no es desafecten.",
+      "source": "D336_1988",
+      "article": "LPAP"
+    },
+    {
+      "theme": 38,
+      "block": 10,
+      "q": "Quins usos del domini públic es distingeixen segons la seva intensitat?",
+      "options": [
+        "Ús diürn i ús nocturn, segons la franja horària en què es faci servir el bé de domini públic corresponent",
+        "Ús gratuït i ús de pagament, segons si l'aprofitament del bé demanial comporta o no la satisfacció d'una taxa",
+        "Ús interior i ús exterior, segons si el bé de domini públic es troba dins o fora dels límits del nucli urbà",
+        "Ús comú general (lliure), ús comú especial (subjecte a llicència) i ús privatiu (subjecte a concessió)"
+      ],
+      "correct": 3,
+      "explain": "Correcta: l'ús del domini públic es gradua en ús comú general (lliure i igual per a tothom), ús comú especial (concorre intensitat o rendiment especial, subjecte a llicència, com una terrassa) i ús privatiu (ocupació que limita o exclou l'ús pels altres, subjecte a concessió, com un quiosc).",
+      "source": "D336_1988",
+      "article": "LPAP"
+    },
+    {
+      "theme": 39,
+      "block": 10,
+      "q": "Quina és una prerrogativa de les entitats locals per a la defensa dels seus béns (art. 41 LPAP)?",
+      "options": [
+        "La recuperació d'ofici de la possessió: en qualsevol moment per als demanials i en el termini d'un any per als patrimonials",
+        "L'embargament dels béns dels veïns que ocupin de manera indeguda un bé de domini públic de l'entitat local",
+        "La imposició de tributs sense límit als qui facin un aprofitament especial dels béns de domini públic municipal",
+        "La suspensió dels drets fonamentals de les persones que causin danys als béns de titularitat de l'entitat local"
+      ],
+      "correct": 0,
+      "explain": "Correcta: entre les prerrogatives de defensa hi ha la investigació, la delimitació (partió), la recuperació d'ofici de la possessió (en qualsevol moment per als demanials; en un any per als patrimonials), el desnonament administratiu i la potestat sancionadora.",
+      "source": "L33_2003",
+      "article": "art. 41 LPAP"
+    },
+    {
+      "theme": 39,
+      "block": 10,
+      "q": "Què són els béns comunals?",
+      "options": [
+        "Béns patrimonials que generen una renda o un rendiment econòmic a favor de l'entitat local titular",
+        "Béns de domini públic l'aprofitament dels quals correspon al comú dels veïns del municipi o de l'entitat",
+        "Béns de propietat privada de l'alcalde o dels regidors que integren la corporació municipal en cada moment",
+        "Béns de titularitat de l'Estat que han estat cedits temporalment a l'entitat local per a un ús determinat"
+      ],
+      "correct": 1,
+      "explain": "Correcta: els béns comunals són una categoria de béns de domini públic l'aprofitament dels quals correspon al comú dels veïns (per exemple, pastures o boscos comunals). Són inalienables, imprescriptibles i inembargables, i el seu aprofitament es regeix per l'ordenança local o el costum.",
+      "source": "D336_1988",
+      "article": "art. 132 CE"
+    },
+    {
+      "theme": 39,
+      "block": 10,
+      "q": "Què és l'inventari de béns de l'entitat local?",
+      "options": [
+        "El registre públic de la propietat de l'Estat on s'inscriuen obligatòriament tots els béns de l'entitat local",
+        "Un simple llistat informatiu sense cap valor administratiu ni efecte jurídic sobre la titularitat dels béns",
+        "La relació detallada, valorada i individualitzada de tots els béns i drets, que aprova el Ple i s'actualitza anualment",
+        "El document pressupostari que recull la previsió d'ingressos i despeses de l'entitat per a cada exercici"
+      ],
+      "correct": 2,
+      "explain": "Correcta: l'inventari és la relació detallada, valorada i individualitzada de tots els béns i drets de l'entitat; el forma i l'aprova el Ple, s'actualitza contínuament i es rectifica anualment. És un instrument de constància i protecció, però no prova la propietat.",
+      "source": "D336_1988",
+      "article": "art. 86 ROAS"
+    },
+    {
+      "theme": 39,
+      "block": 10,
+      "q": "Els béns patrimonials afectes a un servei públic, es poden embargar?",
+      "options": [
+        "Sí, sempre es poden embargar sense cap límit, ja que els béns patrimonials es regeixen íntegrament pel dret privat",
+        "Sí, però únicament es poden embargar per deutes de naturalesa tributària de l'entitat local davant altres administracions",
+        "Sí, en tots els casos, ja que només els béns de domini públic gaudeixen de la garantia de la inembargabilitat",
+        "No: els béns i drets patrimonials afectes a un servei públic o a l'exercici de funcions públiques són inembargables"
+      ],
+      "correct": 3,
+      "explain": "Correcta: tot i que els béns patrimonials es regeixen pel dret privat, els que estan afectes materialment a un servei públic o a l'exercici de funcions públiques són inembargables, en garantia de la continuïtat del servei. La resta de béns patrimonials sí que poden ser objecte d'execució.",
+      "source": "L33_2003",
+      "article": "art. 30 LPAP"
+    },
+    {
+      "theme": 39,
+      "block": 10,
+      "q": "En què consisteix la potestat d'investigació sobre els béns?",
+      "options": [
+        "En la facultat d'esbrinar la situació dels béns i drets que es presumeixen de la titularitat de l'entitat local",
+        "En la facultat d'expropiar qualsevol bé de propietat privada lliurement i sense necessitat de causa d'utilitat pública",
+        "En la facultat de recaptar impostos i taxes sobre els béns immobles situats dins del terme municipal de l'entitat",
+        "En la facultat de sancionar penalment els delictes que es cometin contra els béns de titularitat de l'entitat local"
+      ],
+      "correct": 0,
+      "explain": "Correcta: la potestat d'investigació permet a l'entitat local esbrinar la situació dels béns i drets que presumeix de la seva titularitat, per determinar-ne la titularitat quan no consta. Es complementa amb la delimitació (partió) i la recuperació d'ofici de la possessió.",
+      "source": "L33_2003",
+      "article": "art. 45 LPAP"
+    },
+    {
+      "theme": 40,
+      "block": 3,
+      "q": "Quines classificacions estructuren el pressupost de despeses (Ordre EHA/3565/2008)?",
+      "options": [
+        "Alfabètica pel nom del concepte i cronològica per l'ordre en què es preveu efectuar cadascuna de les despeses",
+        "Per programes (finalitat), econòmica (naturalesa) i, amb caràcter potestatiu, orgànica (òrgan que gasta)",
+        "Per colors segons la urgència de la despesa i per zones segons el districte del municipi on s'ha d'aplicar",
+        "Únicament econòmica, ja que la classificació per programes i l'orgànica no s'apliquen en l'àmbit local"
+      ],
+      "correct": 1,
+      "explain": "Correcta: l'estructura pressupostària es basa en tres classificacions: per programes (en què es gasta), econòmica (com es gasta) i orgànica (qui gasta), aquesta última potestativa. Ordenen les aplicacions pressupostàries de despesa.",
+      "source": "TRLHL",
+      "article": "art. 167 TRLHL"
+    },
+    {
+      "theme": 40,
+      "block": 3,
+      "q": "Què són les bases d'execució del pressupost (art. 165.1)?",
+      "options": [
+        "El text de la llei de pressupostos generals de l'Estat que s'aplica de manera supletòria a les entitats locals",
+        "El llistat de tots els proveïdors i creditors de l'entitat que han de rebre pagaments durant l'exercici pressupostari",
+        "Les normes pròpies de cada entitat que adapten les disposicions generals a la seva organització i gestió",
+        "El calendari oficial de festes locals i dies inhàbils que s'ha de tenir en compte en la tramitació dels expedients"
+      ],
+      "correct": 2,
+      "explain": "Correcta: les bases d'execució (art. 165.1) són les normes que aprova cada entitat, juntament amb el pressupost, per adaptar les disposicions generals a la seva organització: nivells de vinculació dels crèdits, règim de modificacions, reconeixement d'obligacions, pagaments a justificar, etc.",
+      "source": "TRLHL",
+      "article": "art. 165 TRLHL"
+    },
+    {
+      "theme": 40,
+      "block": 3,
+      "q": "Quines magnituds s'obtenen de la liquidació del pressupost (arts. 191-193)?",
+      "options": [
+        "El producte interior brut del municipi i la taxa d'atur registrada entre la població activa del terme municipal",
+        "El nombre total d'habitants inscrits al padró municipal i la seva distribució per edats i per districtes",
+        "El valor cadastral del conjunt dels immobles situats dins del terme municipal de l'entitat local corresponent",
+        "El resultat pressupostari, el romanent de tresoreria i els romanents de crèdit no gastats a final d'exercici"
+      ],
+      "correct": 3,
+      "explain": "Correcta: la liquidació (que aprova el president abans de l'1 de març) determina el resultat pressupostari (diferència entre drets i obligacions reconeguts), el romanent de tresoreria (recursos líquids disponibles) i els romanents de crèdit (crèdits no gastats).",
+      "source": "TRLHL",
+      "article": "arts. 191-193 TRLHL"
+    },
+    {
+      "theme": 40,
+      "block": 3,
+      "q": "Quan es prorroga el pressupost i què comprèn la pròrroga (art. 169.6)?",
+      "options": [
+        "Si no s'aprova abans de l'1 de gener, es prorroga el de l'exercici anterior amb els crèdits inicials",
+        "No existeix la figura de la pròrroga, de manera que l'entitat es queda sense pressupost fins que n'aprova un de nou",
+        "Es prorroguen automàticament totes les modificacions de crèdit que s'havien aprovat durant l'exercici anterior",
+        "Es prorroga el pressupost general de l'Estat, ajustat al nombre d'habitants del municipi corresponent"
+      ],
+      "correct": 0,
+      "explain": "Correcta: si a l'1 de gener no hi ha pressupost aprovat, es prorroga automàticament el de l'exercici anterior amb els seus crèdits inicials (no les modificacions), i n'exclou els crèdits destinats a serveis que finalitzaven, fins a l'entrada en vigor del nou.",
+      "source": "TRLHL",
+      "article": "art. 169.6 TRLHL"
+    },
+    {
+      "theme": 40,
+      "block": 3,
+      "q": "A qui correspon aprovar la liquidació del pressupost i en quin termini?",
+      "options": [
+        "Al Ple de la corporació, que l'ha d'aprovar abans del 15 d'octubre de l'exercici a què es refereix la liquidació",
+        "Al president de l'entitat, abans de l'1 de març de l'exercici següent, amb coneixement posterior del Ple",
+        "Al Tribunal de Comptes, com a òrgan de control extern encarregat de fiscalitzar els comptes de l'entitat local",
+        "A la comunitat autònoma, en exercici de la seva funció de tutela financera sobre les entitats locals del territori"
+      ],
+      "correct": 1,
+      "explain": "Correcta: la liquidació del pressupost l'aprova el president de l'entitat, previ informe de la Intervenció, abans de l'1 de març de l'exercici següent, i se'n dona compte al Ple. Reflecteix el tancament de l'exercici i les magnituds financeres resultants.",
+      "source": "TRLHL",
+      "article": "art. 191 TRLHL"
     }
   ]
 }
