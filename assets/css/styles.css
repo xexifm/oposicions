@@ -314,6 +314,17 @@ textarea{min-height:140px;resize:vertical;line-height:1.5}
 /* targeta d'examen en procés */
 .pendingcard{border-color:#e3d3a6;background:var(--amber-bg)}
 .mistcard{border-color:#e6c2bd;background:var(--red-bg)}
+.duecard{border-color:#e3d3a6;background:var(--amber-bg)}
+.duelink{display:block;padding:7px 0;border-bottom:1px dashed var(--line);color:var(--ink);text-decoration:none}
+.duelink:last-of-type{border-bottom:0}
+.duelink:hover{color:var(--crimson)}
+
+/* historial: gràfic de tendència i temes a reforçar */
+.trend{width:100%;height:auto;display:block;margin-top:6px}
+.weakrow{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px dashed var(--line);flex-wrap:wrap}
+.weakrow:last-child{border-bottom:0}
+.weakrow>a:first-child{flex:1;min-width:180px;color:var(--ink);text-decoration:none}
+.weakrow>a:first-child:hover{color:var(--crimson)}
 
 /* casella "prioritza els temes febles" a la configuració de l'examen */
 label.field.weakfield{display:flex;align-items:flex-start;gap:10px;cursor:pointer}

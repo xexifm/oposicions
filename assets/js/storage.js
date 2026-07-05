@@ -103,12 +103,28 @@ export const store = {
   },
 
   // --- progrés d'estudi (temes repassats, per municipi) ---
+  // Valor per tema: número (format antic, timestamp) o {t, n} on t és l'últim
+  // repàs i n el nombre de repassos (per al repàs espaiat: 7 dies el 1r cop,
+  // 30 dies a partir del 2n).
   studied(){ return this.get('studied', {}); },
+  studiedInfo(num){
+    const v = this.studied()[num];
+    if (!v) return null;
+    return typeof v === 'number' ? { t:v, n:1 } : { t:v.t||0, n:v.n||1 };
+  },
   toggleStudied(num){
     const s = this.studied();
-    if (s[num]) delete s[num]; else s[num] = Date.now();
+    if (s[num]) delete s[num]; else s[num] = { t:Date.now(), n:1 };
     this.set('studied', s);
     return !!s[num];
+  },
+  // "Repassat avui": actualitza la data de l'últim repàs i suma un repàs.
+  touchStudied(num){
+    const s = this.studied();
+    if (!s[num]) return;
+    const i = typeof s[num]==='number' ? { t:s[num], n:1 } : s[num];
+    s[num] = { t:Date.now(), n:(i.n||1)+1 };
+    this.set('studied', s);
   },
   // --- config de l'usuari (GLOBAL, compartida entre municipis) ---
   settings(){ return read().settings; },
@@ -137,9 +153,16 @@ export const store = {
       (local.exams||[]).forEach(e=>{ if(e&&e.id) byId[e.id]=e; });
       (rm.exams||[]).forEach(e=>{ if(e&&e.id && !byId[e.id]) byId[e.id]=e; });
       local.exams = Object.values(byId).sort((a,b)=>(b.date||0)-(a.date||0)).slice(0,200);
-      // Temes repassats: unió
+      // Temes repassats: unió; si el tema és als dos costats, es queda la data
+      // i el nombre de repassos més alts (compatible amb el format antic, número).
       const s = local.studied || (local.studied = {});
-      Object.entries(rm.studied||{}).forEach(([k,v])=>{ if(!s[k]) s[k]=v; });
+      const normSt = x => typeof x==='number' ? { t:x, n:1 } : { t:x.t||0, n:x.n||1 };
+      Object.entries(rm.studied||{}).forEach(([k,v])=>{
+        if (!v) return;
+        if (!s[k]){ s[k] = v; return; }
+        const a = normSt(s[k]), b = normSt(v);
+        s[k] = { t:Math.max(a.t,b.t), n:Math.max(a.n,b.n) };
+      });
       // Banc d'errades: fusió conservadora (màxim d'errades, mínim d'encerts
       // seguits) perquè una pregunta no surti del banc si en un dispositiu
       // encara falla.
