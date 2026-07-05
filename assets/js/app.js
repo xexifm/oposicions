@@ -398,6 +398,24 @@ function triaView(){
 /* ===========================================================================
    VISTA: INICI
    =========================================================================== */
+/* ---------- repàs espaiat ---------- */
+const DAY = 86400000;
+/* Un tema "toca" repassar-lo als 7 dies del primer repàs i cada 30 dies a
+   partir del segon. Retorna els temes vençuts, el més antic primer. */
+function studiedDueInfo(num){
+  const i = store.studiedInfo(num);
+  if (!i) return null;
+  const days = Math.floor((Date.now()-i.t)/DAY);
+  const interval = i.n<=1 ? 7 : 30;
+  return { days, due: days >= interval };
+}
+function dueThemes(){
+  return Object.keys(store.studied())
+    .map(k=>{ const d = studiedDueInfo(k); return d && d.due ? { num:+k, days:d.days } : null; })
+    .filter(Boolean)
+    .sort((a,b)=>b.days-a.days);
+}
+
 function home(){
   const m = muniConf();
   const exams = store.exams();
@@ -412,6 +430,21 @@ function home(){
       <p class="muted" style="margin:.3em 0 .7em">Preguntes que has fallat en exàmens. Amb 2 encerts seguits
       surten del banc. Repassar-les és la manera més ràpida de pujar nota.</p>
       <a class="btn primary" href="#/errades">Repassa les errades →</a>
+    </div>` : '';
+
+  const due = ready ? dueThemes() : [];
+  const tOf = n => (DATA.temari.temari||[]).find(x=>x.num===n);
+  const dueCard = due.length ? `
+    <div class="card duecard" style="margin-top:18px">
+      <div class="between"><b>📅 Et toca repassar</b><span class="pill amber">${due.length} tema(es)</span></div>
+      <p class="muted" style="margin:.3em 0 .5em">Repàs espaiat: als 7 dies del primer repàs i cada 30 després.
+      Quan els repassis, toca «Repassat avui» dins del tema.</p>
+      ${due.slice(0,5).map(d=>{
+        const t = tOf(d.num);
+        return `<a class="duelink" href="#/tema/${d.num}"><b>${d.num}.</b> ${esc(t?t.title:'')}
+          <span class="muted">· fa ${d.days} dies</span></a>`;
+      }).join('')}
+      ${due.length>5?`<p class="muted" style="margin:.5em 0 0;font-size:.85rem">…i ${due.length-5} més (mira'ls a Estudi).</p>`:''}
     </div>` : '';
 
   const muniBar = `
@@ -455,7 +488,7 @@ function home(){
     </div>
   </section>`;
 
-  view.innerHTML = muniBar + (ready ? heroReady : heroPrep) + mistCard + syncCardHtml() + `
+  view.innerHTML = muniBar + (ready ? heroReady : heroPrep) + dueCard + mistCard + syncCardHtml() + `
   <div class="card" style="margin-top:18px">
     <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes i els casos són material d'estudi
     generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
@@ -509,10 +542,14 @@ function estudi(){
       groups[b].forEach(t=>{
         const done = studied[t.num];
         const hasResum = DATA.resums[t.num];
+        const d = done ? studiedDueInfo(t.num) : null;
+        const doneBadge = !done ? '' : (d && d.due
+          ? `<span class="tstat mid" title="Toca tornar-lo a repassar">🔁 repassat fa ${d.days} dies</span>`
+          : '<span class="tstat done">✓ repassat</span>');
         html += `<a class="tema-item" href="#/tema/${t.num}">
           <span class="tn">${t.num}</span>
           <span class="tmid"><span class="tt">${esc(t.title)}</span>
-            <span class="tstats">${done?'<span class="tstat done">✓ repassat</span>':''}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
+            <span class="tstats">${doneBadge}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
           </span>
         </a>`;
       });
@@ -558,6 +595,7 @@ function temaView(num){
   if (!tema){ view.innerHTML = '<p>Tema no trobat.</p>'; return; }
   const resum = DATA.resums[num];
   const studied = !!store.studied()[num];
+  const dueInfo = studied ? studiedDueInfo(num) : null;
   const srcChips = tema.sources.map(k=>{
     const n = normRef(k);
     return `<a class="srcchip" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">${esc(n.name)} ↗</a>`;
@@ -585,6 +623,7 @@ function temaView(num){
       <div class="divider"></div>
       <div class="row">
         <button class="btn ${studied?'primary':''}" id="markbtn">${studied?'✓ Repassat':'Marcar com a repassat'}</button>
+        ${dueInfo && dueInfo.due ? `<button class="btn" id="touchbtn" title="Actualitza la data de l'últim repàs">🔁 Repassat avui (fa ${dueInfo.days} dies)</button>` : ''}
         <a class="btn primary" href="#/quiz/${tema.num}">⚡ Quiz d'aquest tema (5 preguntes)</a>
         <a class="btn ghost" href="#/examen?block=${tema.block}">Practicar aquest bloc →</a>
       </div>
@@ -599,6 +638,12 @@ function temaView(num){
     e.target.classList.toggle('primary', now);
     e.target.textContent = now ? '✓ Repassat' : 'Marcar com a repassat';
     scheduleGistPush();
+  });
+  const tb = byId('touchbtn');
+  if (tb) tb.addEventListener('click', ()=>{
+    store.touchStudied(num);
+    scheduleGistPush();
+    render();
   });
   const jump = byId('temajump');
   if (jump) jump.addEventListener('change', e=>{ location.hash = '#/tema/' + e.target.value; });
@@ -1415,6 +1460,64 @@ function casView(id){
 /* ===========================================================================
    VISTA: HISTORIAL
    =========================================================================== */
+/* Gràfic de tendència (SVG inline, sense llibreries): percentatge de cada
+   examen desat sobre el seu màxim (així un quiz de 5 preguntes i un examen
+   complet són comparables), del més antic al més recent. Línia de referència
+   al 50%, el mínim de cada prova per ser apte. */
+function trendChartHtml(exams){
+  const list = exams.slice(0, 20).slice().reverse();
+  if (list.length < 2) return '';
+  const pct = e => {
+    const max = (e.n?25:0) + (e.cases?45:0);
+    return max ? Math.max(0, Math.min(100, (e.total||0)/max*100)) : 0;
+  };
+  const W=340, H=130, PX=12, PY=14;
+  const xs = i => PX + i*(W-2*PX)/(list.length-1);
+  const ys = p => H-PY - p*(H-2*PY)/100;
+  const pts = list.map((e,i)=>`${xs(i).toFixed(1)},${ys(pct(e)).toFixed(1)}`).join(' ');
+  const dots = list.map((e,i)=>
+    `<circle cx="${xs(i).toFixed(1)}" cy="${ys(pct(e)).toFixed(1)}" r="3.4" fill="${e.apte?'#2e7d4f':'#b3402a'}"><title>${Math.round(pct(e))}%</title></circle>`).join('');
+  return `<div class="card">
+    <div class="between"><h2 style="margin:0">📈 Evolució</h2>
+      <span class="muted" style="font-size:.82rem">últims ${list.length} exàmens</span></div>
+    <svg viewBox="0 0 ${W} ${H}" class="trend" role="img" aria-label="Evolució de la nota dels exàmens">
+      <line x1="${PX}" y1="${ys(50).toFixed(1)}" x2="${W-PX}" y2="${ys(50).toFixed(1)}" stroke="#c9a227" stroke-dasharray="4 3" stroke-width="1"/>
+      <text x="${W-PX}" y="${(ys(50)-4).toFixed(1)}" text-anchor="end" font-size="9" fill="#c9a227">50% (mínim)</text>
+      <polyline points="${pts}" fill="none" stroke="#9e1632" stroke-width="2" stroke-linejoin="round"/>
+      ${dots}
+    </svg>
+    <p class="muted" style="margin:.4em 0 0;font-size:.82rem">Percentatge de la nota sobre el màxim de cada examen
+    (verd: apte · vermell: no apte).</p>
+  </div>`;
+}
+
+/* Top de temes més fluixos segons les estadístiques acumulades (mínim 3
+   preguntes contestades del tema perquè el percentatge digui alguna cosa). */
+function weakThemesHtml(){
+  const stats = store.themeStats();
+  const rows = Object.entries(stats)
+    .filter(([,v])=>v.qTot>=3)
+    .map(([k,v])=>({ num:+k, pct:Math.round(v.qOk/v.qTot*100), tot:v.qTot }))
+    .filter(r=>r.pct<80)
+    .sort((a,b)=>a.pct-b.pct)
+    .slice(0,5);
+  if (!rows.length) return '';
+  const tOf = n => (DATA.temari.temari||[]).find(x=>x.num===n);
+  return `<div class="card">
+    <h2 style="margin:0 0 4px">🎯 Temes a reforçar</h2>
+    <p class="muted" style="margin:0 0 8px;font-size:.85rem">Els temes on falles més al test (mínim 3 preguntes contestades).</p>
+    ${rows.map(r=>{
+      const t = tOf(r.num);
+      const cls = r.pct>=75?'good':r.pct>=50?'mid':'bad';
+      return `<div class="weakrow">
+        <a href="#/tema/${r.num}"><b>${r.num}.</b> ${esc(t?t.title:'')}</a>
+        <span class="tstat ${cls}">test ${r.pct}%</span>
+        <a class="pill" href="#/quiz/${r.num}">⚡ quiz</a>
+      </div>`;
+    }).join('')}
+  </div>`;
+}
+
 function historial(){
   const exams = store.exams();
   const studied = store.studied();
@@ -1424,6 +1527,8 @@ function historial(){
       <div><b>${sd} / 90</b> temes repassats</div>
       <div class="progress" style="flex:1;max-width:240px"><i style="width:${Math.round(sd/90*100)}%"></i></div>
     </div></div>`;
+  html += trendChartHtml(exams);
+  html += weakThemesHtml();
 
   const pending = store.pendingExam();
   if (pending){
