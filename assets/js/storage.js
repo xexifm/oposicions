@@ -1,6 +1,6 @@
 /* Persistència local (localStorage). 100% al navegador, sense servidor.
    Estructura (multi-municipi):
-     { settings:{...GLOBAL...}, munis:{ <id>:{ exams:[], studied:{}, pendingExam } } }
+     { settings:{...GLOBAL...}, munis:{ <id>:{ exams:[], studied:{}, mistakes:{}, pendingExam } } }
    - settings és GLOBAL (token/PIN de sincronització, clau d'API, municipi actiu).
    - el progrés (exams, temes repassats, examen en procés) es desa PER MUNICIPI.
    - la sincronització puja/baixa el progrés de TOTS els municipis alhora. */
@@ -78,6 +78,30 @@ export const store = {
     });
     return ts;
   },
+  // --- banc d'errades (per municipi): preguntes fallades en exàmens ---
+  // { <qid>: {fails, lastFail, streak} } — streak = encerts seguits des de
+  // l'última errada; amb 2 encerts seguits la pregunta surt del banc.
+  mistakes(){ return this.get('mistakes', {}); },
+  mistakeCount(){ return Object.keys(this.mistakes()).length; },
+  // Registra en bloc el resultat de cada pregunta d'un examen: [{id, ok}].
+  // ok=true suma un encert (2 seguits treuen la pregunta del banc);
+  // ok=false registra una errada. Les preguntes en blanc no s'hi passen.
+  recordAnswers(list){
+    const m = this.mistakes();
+    for (const {id, ok} of list||[]){
+      if (!id) continue;
+      if (ok){
+        if (!m[id]) continue;
+        m[id].streak = (m[id].streak||0) + 1;
+        if (m[id].streak >= 2) delete m[id];   // dominada: fora del banc
+      } else {
+        const e = m[id] || (m[id] = { fails:0, lastFail:0, streak:0 });
+        e.fails++; e.lastFail = Date.now(); e.streak = 0;
+      }
+    }
+    this.set('mistakes', m);
+  },
+
   // --- progrés d'estudi (temes repassats, per municipi) ---
   studied(){ return this.get('studied', {}); },
   toggleStudied(num){
@@ -97,7 +121,7 @@ export const store = {
     const all = read();
     const munis = {};
     for (const [id, b] of Object.entries(all.munis||{})){
-      munis[id] = { exams: b.exams||[], studied: b.studied||{} };
+      munis[id] = { exams: b.exams||[], studied: b.studied||{}, mistakes: b.mistakes||{} };
     }
     return { v:2, ts:Date.now(), munis };
   },
@@ -116,6 +140,19 @@ export const store = {
       // Temes repassats: unió
       const s = local.studied || (local.studied = {});
       Object.entries(rm.studied||{}).forEach(([k,v])=>{ if(!s[k]) s[k]=v; });
+      // Banc d'errades: fusió conservadora (màxim d'errades, mínim d'encerts
+      // seguits) perquè una pregunta no surti del banc si en un dispositiu
+      // encara falla.
+      const mk = local.mistakes || (local.mistakes = {});
+      Object.entries(rm.mistakes||{}).forEach(([k,v])=>{
+        if (!v) return;
+        if (!mk[k]) { mk[k] = v; return; }
+        mk[k] = {
+          fails: Math.max(mk[k].fails||0, v.fails||0),
+          lastFail: Math.max(mk[k].lastFail||0, v.lastFail||0),
+          streak: Math.min(mk[k].streak||0, v.streak||0),
+        };
+      });
     }
     writeAll(all);
     const cur = muniBucket(all);

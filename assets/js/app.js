@@ -221,6 +221,7 @@ const routes = {
   'estudi': estudi, 'tema': temaView,
   'examen': examenConfig, 'casos': casosList, 'cas': casView,
   'historial': historial, 'fonts': fonts, 'tria': triaView,
+  'quiz': quizRoute, 'errades': erradesRoute,
 };
 let examState = null;
 
@@ -240,7 +241,7 @@ async function render(){
   const fn = routes[route] || home;
   view.innerHTML = '';
   // Municipi sense temari carregat encara: les vistes de contingut mostren "en preparació".
-  const needsContent = ['estudi','tema','examen','casos','cas','fonts'].includes(route);
+  const needsContent = ['estudi','tema','examen','casos','cas','fonts','quiz','errades'].includes(route);
   if (needsContent && !contentReady()) prepView();
   else fn(param);
   // marcar navegació activa
@@ -403,6 +404,15 @@ function home(){
   const studied = Object.keys(store.studied()).length;
   const last = exams[0];
   const ready = contentReady();
+  const nMist = store.mistakeCount();
+
+  const mistCard = (ready && nMist) ? `
+    <div class="card mistcard" style="margin-top:18px">
+      <div class="between"><b>🔁 Banc d'errades</b><span class="pill amber">${nMist} pendents</span></div>
+      <p class="muted" style="margin:.3em 0 .7em">Preguntes que has fallat en exàmens. Amb 2 encerts seguits
+      surten del banc. Repassar-les és la manera més ràpida de pujar nota.</p>
+      <a class="btn primary" href="#/errades">Repassa les errades →</a>
+    </div>` : '';
 
   const muniBar = `
     <div class="munibar">
@@ -445,7 +455,7 @@ function home(){
     </div>
   </section>`;
 
-  view.innerHTML = muniBar + (ready ? heroReady : heroPrep) + syncCardHtml() + `
+  view.innerHTML = muniBar + (ready ? heroReady : heroPrep) + mistCard + syncCardHtml() + `
   <div class="card" style="margin-top:18px">
     <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes i els casos són material d'estudi
     generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
@@ -575,6 +585,7 @@ function temaView(num){
       <div class="divider"></div>
       <div class="row">
         <button class="btn ${studied?'primary':''}" id="markbtn">${studied?'✓ Repassat':'Marcar com a repassat'}</button>
+        <a class="btn primary" href="#/quiz/${tema.num}">⚡ Quiz d'aquest tema (5 preguntes)</a>
         <a class="btn ghost" href="#/examen?block=${tema.block}">Practicar aquest bloc →</a>
       </div>
     </article>
@@ -659,6 +670,15 @@ function examenConfig(){
       <button class="btn ghost" id="discardBtn">Descarta'l</button></div>
     </div>` : '';
 
+  const nMist = store.mistakeCount();
+  const mistCard = nMist ? `
+    <div class="card mistcard">
+      <b>🔁 Banc d'errades</b>
+      <p class="muted" style="margin:.3em 0 .7em">Tens <b>${nMist}</b> pregunta(es) fallades pendents de dominar
+      (surten del banc amb 2 encerts seguits). Repassar-les és la manera més ràpida de pujar nota.</p>
+      <a class="btn primary" href="#/errades">Repassa les errades →</a>
+    </div>` : '';
+
   // selecció inicial: un bloc si ve per paràmetre, si no tot el temari
   const sel = new Set(preBlock ? themesOfBlock(preBlock) : allThemes);
 
@@ -679,6 +699,7 @@ function examenConfig(){
     <h1>Configura l'examen</h1>
     <p class="lead">Tria com vols practicar. La puntuació segueix la Base 7.7 de la convocatòria.</p>
     ${pendingBanner}
+    ${mistCard}
     <div class="card">
       <div class="field"><span>Àmbit · pots triar diversos blocs o temes</span>
         <div class="row" style="gap:6px;flex-wrap:wrap;margin-bottom:8px">
@@ -701,6 +722,12 @@ function examenConfig(){
           ${[0,1,2,3].map(n=>`<button data-v="${n}" class="${(s.cases??1)===n?'on':''}">${n===0?'Cap':n}</button>`).join('')}
         </div></div>
 
+      <label class="field weakfield">
+        <input type="checkbox" id="cfgWeak" ${s.weak?'checked':''}>
+        <span><b>Prioritza els temes febles</b> — més preguntes dels temes on falles més
+        (segons els teus resultats) i del banc d'errades.</span>
+      </label>
+
       <label class="field"><span>Cronòmetre</span>
         <select id="cfgTimer">
           <option value="0">Sense límit</option>
@@ -713,7 +740,7 @@ function examenConfig(){
       <p class="muted" id="avail" style="margin:.7em 0 0;font-size:.85rem"></p>
     </div>`;
 
-  let cfg = { n:(s.n||20), cases:(s.cases??1), timer:60 };
+  let cfg = { n:(s.n||20), cases:(s.cases??1), timer:60, weak: !!s.weak };
   const themeCbs = ()=>$$('input[data-theme]');
   const blockCbs = ()=>$$('input[data-block]');
 
@@ -755,6 +782,7 @@ function examenConfig(){
   segHandler('cfgN', v=>{cfg.n=+v; store.setSetting('n',+v);});
   segHandler('cfgCases', v=>{cfg.cases=+v; store.setSetting('cases',+v);});
   byId('cfgTimer').addEventListener('change', e=>cfg.timer=+e.target.value);
+  byId('cfgWeak').addEventListener('change', e=>{ cfg.weak = e.target.checked; store.setSetting('weak', e.target.checked); });
   byId('startBtn').addEventListener('click', ()=>{
     if (!sel.size){ alert('Selecciona com a mínim un tema o un bloc.'); return; }
     if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si en comences un de nou. Vols continuar?')) return;
@@ -793,9 +821,55 @@ function poolCases(themes){
 /* ===========================================================================
    EXAMEN EN CURS
    =========================================================================== */
+/* Mostreig ponderat cap als temes febles: cada pregunta pesa més si el seu
+   tema té una taxa d'error alta (estadístiques dels exàmens desats) o si és
+   al banc d'errades. Sense dades, pes neutre (equival a l'atzar). Per no fer
+   un examen monotemàtic, cap tema pot superar ~20% de les preguntes quan la
+   selecció té prou temes; si el límit deixa l'examen curt, s'omple a l'atzar. */
+function weakWeightedPick(pool, n){
+  const stats = store.themeStats();
+  const bank = store.mistakes();
+  const w = pool.map(q=>{
+    const st = stats[q.theme];
+    let weight = 1;
+    if (st && st.qTot >= 3) weight += 2 * (1 - st.qOk/st.qTot);
+    if (q.id && bank[q.id]) weight += 1.5;
+    return weight;
+  });
+  const nThemes = new Set(pool.map(q=>q.theme)).size;
+  const cap = nThemes >= 5 ? Math.max(2, Math.ceil(n*0.2)) : Infinity;
+  const perTheme = {}, out = [];
+  const idx = pool.map((_,i)=>i);
+  while (out.length < n && idx.length){
+    let tot = 0;
+    for (const i of idx) tot += w[i];
+    if (tot <= 0) break;
+    let r = Math.random()*tot, pos = 0;
+    for (; pos < idx.length-1; pos++){ r -= w[idx[pos]]; if (r <= 0) break; }
+    const q = pool[idx[pos]];
+    idx.splice(pos, 1);
+    if ((perTheme[q.theme]||0) >= cap) continue;   // tema ple: descarta
+    perTheme[q.theme] = (perTheme[q.theme]||0) + 1;
+    out.push(q);
+  }
+  if (out.length < n){
+    const chosen = new Set(out);
+    for (const q of shuffle(pool)){ if (out.length>=n) break; if (!chosen.has(q)) out.push(q); }
+  }
+  return shuffle(out);
+}
+
 function startExam(cfg){
   const set = cfg.themes ? new Set(cfg.themes) : null;
-  const qs = shuffle(poolQuestions(set)).slice(0, cfg.n).map(q=>shuffleOptions({...q, options:[...q.options]}));
+  let pool = poolQuestions(set);
+  if (cfg.mistakesOnly){
+    // Mode "banc d'errades": només preguntes fallades pendents de dominar.
+    const bank = store.mistakes();
+    pool = pool.filter(q => q.id && bank[q.id]);
+    cfg = { ...cfg, n: Math.min(pool.length, 60), cases: 0 };
+  }
+  const picked = cfg.weak && !cfg.mistakesOnly ? weakWeightedPick(pool, cfg.n) : shuffle(pool).slice(0, cfg.n);
+  const qs = picked.map(q=>shuffleOptions({...q, options:[...q.options]}));
   const cs = shuffle(poolCases(set)).slice(0, cfg.cases).map(c=>({...c}));
   if (qs.length===0 && cs.length===0){ alert('No hi ha contingut per a aquesta selecció.'); return; }
   examState = {
@@ -809,6 +883,28 @@ function startExam(cfg){
   };
   persistExam();
   examRunning();
+}
+
+/* Ruta #/quiz/N: quiz ràpid de 5 preguntes d'un sol tema (sense casos ni temps).
+   Es desa a l'historial com un examen normal, així alimenta les estadístiques. */
+function quizRoute(num){
+  num = Number(num);
+  if (!num){ location.hash = '#/examen'; return; }
+  if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si comences aquest quiz. Vols continuar?')){
+    location.hash = '#/tema/' + num; return;
+  }
+  store.clearPendingExam();
+  startExam({ themes:[num], n:5, cases:0, timer:0, quick:true });
+}
+
+/* Ruta #/errades: examen només amb les preguntes del banc d'errades. */
+function erradesRoute(){
+  if (!store.mistakeCount()){ location.hash = '#/examen'; return; }
+  if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà. Vols continuar?')){
+    location.hash = '#/examen'; return;
+  }
+  store.clearPendingExam();
+  startExam({ mistakesOnly:true, n:0, cases:0, timer:0 });
 }
 
 /* Reprèn l'examen desat (des de la configuració o l'historial). */
@@ -989,6 +1085,12 @@ function finishExam(){
   const perQ = n ? 25/n : 0;
   const scoreA = n ? Math.max(0, correct*perQ - wrong*perQ*0.25) : null;
 
+  // Banc d'errades: registra el resultat de les contestades (les errades hi
+  // entren; 2 encerts seguits en treuen la pregunta).
+  store.recordAnswers(qs
+    .map((q,i)=> answers[i]===null ? null : {id:q.id, ok:answers[i]===q.correct})
+    .filter(Boolean));
+
   // Part B: prepuntuar amb el motor de criteris
   const caseResults = cs.map((c,i)=>{
     const ans = examState.caseAnswers[i];
@@ -1051,6 +1153,14 @@ function renderResults(R){
       ${scoreB!==null&&scoreB<22.5?'<br>⚠️ La prova 2 no arriba a 22,5 (eliminatòria).':''}</p>
     </div>`;
 
+  html += themeBreakdownHtml();
+
+  const nMist = store.mistakeCount();
+  if (nMist){
+    html += `<div class="notice" style="margin-top:14px">🔁 Tens <b>${nMist}</b> pregunta(es) al banc d'errades.
+      <a href="#/errades">Repassa-les ara →</a> (amb 2 encerts seguits surten del banc.)</div>`;
+  }
+
   // Detall Part A
   if (examState.qs.length){
     html += `<h2 style="margin-top:22px">Correcció del test</h2><div id="reviewA"></div>`;
@@ -1078,7 +1188,11 @@ function renderResults(R){
     const total2 = (scoreA||0)+(scoreB2||0);
     const nThemes = (examState.cfg.themes||[]).length;
     const totalThemes = DATA.temari.temari.length;
-    const label = (!nThemes || nThemes===totalThemes) ? 'all' : `${nThemes} temes`;
+    let label;
+    if (examState.cfg.mistakesOnly) label = 'errades';
+    else if (nThemes===1) label = 'tema ' + examState.cfg.themes[0];
+    else if (!nThemes || nThemes===totalThemes) label = 'all';
+    else label = `${nThemes} temes`;
     // estadístiques per tema: encerts test (sobre les contestades) i punts de casos
     const qPerf = {};
     examState.qs.forEach((q,i)=>{
@@ -1097,7 +1211,7 @@ function renderResults(R){
     });
     store.saveExam({
       id:'ex_'+Date.now(), date:Date.now(),
-      block: label, n: examState.qs.length, cases: caseResults.length,
+      block: label, quiz: !!examState.cfg.quick, n: examState.qs.length, cases: caseResults.length,
       correct, wrong, blank,
       scoreA: scoreA, scoreB: scoreB2, total: total2,
       apte: (scoreA===null||scoreA>=12.5) && (scoreB2===null||scoreB2>=22.5) && (scoreA!==null||scoreB2!==null),
@@ -1106,6 +1220,39 @@ function renderResults(R){
     e.target.textContent = '✓ Desat'; e.target.disabled = true;
     scheduleGistPush();
   });
+}
+
+/* Taula de rendiment per tema d'aquest examen, de pitjor a millor. Només es
+   mostra si l'examen cobreix més d'un tema (en un quiz d'un tema no aporta res). */
+function themeBreakdownHtml(){
+  const { qs, answers } = examState;
+  const per = {};
+  qs.forEach((q,i)=>{
+    const p = per[q.theme] || (per[q.theme] = {tot:0, ok:0, blank:0});
+    if (answers[i]===null) p.blank++;
+    else { p.tot++; if (answers[i]===q.correct) p.ok++; }
+  });
+  const themes = Object.keys(per);
+  if (themes.length < 2) return '';
+  const rows = themes
+    .map(th=>({ th:+th, ...per[th], rate: per[th].tot ? per[th].ok/per[th].tot : 0 }))
+    .sort((a,b)=>a.rate-b.rate || b.tot-a.tot);
+  const tOf = n => DATA.temari.temari.find(x=>x.num===n);
+  return `<h2 style="margin-top:22px">Rendiment per tema</h2>
+    <p class="muted" style="margin:.2em 0 .6em;font-size:.88rem">De pitjor a millor. Toca un tema per repassar-ne el resum, o fes-ne un quiz ràpid.</p>
+    <div class="tablewrap"><table class="rtable">
+      <thead><tr><th>Tema</th><th>Encerts</th><th>%</th><th></th></tr></thead><tbody>
+      ${rows.map(r=>{
+        const ti = tOf(r.th);
+        const pct = r.tot ? Math.round(100*r.ok/r.tot) : null;
+        const cls = pct===null ? 'none' : pct>=75?'good':pct>=50?'mid':'bad';
+        return `<tr>
+          <td><a href="#/tema/${r.th}">${r.th}. ${esc(ti?ti.title:'')}</a></td>
+          <td>${r.ok} de ${r.tot}${r.blank?` <span class="muted">(+${r.blank} en blanc)</span>`:''}</td>
+          <td><span class="tstat ${cls}">${pct===null?'—':pct+'%'}</span></td>
+          <td><a href="#/quiz/${r.th}">Quiz →</a></td></tr>`;
+      }).join('')}
+    </tbody></table></div>`;
 }
 
 function renderReviewA(){
@@ -1308,6 +1455,8 @@ function historial(){
         <div class="row" style="margin-top:8px;font-size:.88rem">
           ${e.n?`<span class="pill">Test: ${fmt(e.scoreA)}/25 · ${e.correct}✓ ${e.wrong}✗ ${e.blank}○</span>`:''}
           ${e.cases?`<span class="pill">Pràctica: ${fmt(e.scoreB)}/45 · ${e.cases} cas(os)</span>`:''}
+          ${e.quiz?'<span class="pill">⚡ quiz</span>':''}
+          ${e.block&&e.block!=='all'?`<span class="pill">${esc(e.block)}</span>`:''}
         </div></div>`;
     }).join('');
   }
