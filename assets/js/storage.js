@@ -102,6 +102,17 @@ export const store = {
     this.set('mistakes', m);
   },
 
+  // --- intents de casos pràctics (per municipi): detall per tema ---
+  // { <theme>: [{date, caseId, pts, max, missed:[etiquetes de criteris fallats]}] }
+  caseAttempts(){ return this.get('caseAttempts', {}); },
+  addCaseAttempt(theme, attempt){
+    const all = this.caseAttempts();
+    const list = all[theme] || (all[theme] = []);
+    list.push(attempt);
+    if (list.length > 20) all[theme] = list.slice(-20);   // guarda els 20 últims
+    this.set('caseAttempts', all);
+  },
+
   // --- progrés d'estudi (temes repassats, per municipi) ---
   // Valor per tema: número (format antic, timestamp) o {t, n} on t és l'últim
   // repàs i n el nombre de repassos (per al repàs espaiat: 7 dies el 1r cop,
@@ -137,7 +148,7 @@ export const store = {
     const all = read();
     const munis = {};
     for (const [id, b] of Object.entries(all.munis||{})){
-      munis[id] = { exams: b.exams||[], studied: b.studied||{}, mistakes: b.mistakes||{} };
+      munis[id] = { exams: b.exams||[], studied: b.studied||{}, mistakes: b.mistakes||{}, caseAttempts: b.caseAttempts||{} };
     }
     return { v:2, ts:Date.now(), munis };
   },
@@ -175,6 +186,15 @@ export const store = {
           lastFail: Math.max(mk[k].lastFail||0, v.lastFail||0),
           streak: Math.min(mk[k].streak||0, v.streak||0),
         };
+      });
+      // Intents de casos: unió per data (evita duplicats), 20 últims per tema.
+      const ca = local.caseAttempts || (local.caseAttempts = {});
+      Object.entries(rm.caseAttempts||{}).forEach(([th, list])=>{
+        const mine = ca[th] || (ca[th] = []);
+        const seen = new Set(mine.map(a=>a.date));
+        (list||[]).forEach(a=>{ if (a && !seen.has(a.date)) mine.push(a); });
+        mine.sort((a,b)=>(a.date||0)-(b.date||0));
+        if (mine.length > 20) ca[th] = mine.slice(-20);
       });
     }
     writeAll(all);
