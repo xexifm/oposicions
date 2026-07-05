@@ -8004,6 +8004,806 @@
    "explain": "L'art. 24.1 Llei 39/2015 exceptua del silenci positiu, entre d'altres, els procediments que impliquin l'exercici d'activitats que puguin danyar el medi ambient i els relatius a transferència de facultats sobre domini públic o servei públic: silenci negatiu.",
    "source": "L39_2015",
    "article": "Art. 24.1 Llei 39/2015"
+  },
+  {
+   "id": "t11q6",
+   "theme": 11,
+   "block": 2,
+   "q": "Quins terminis regeixen la interposició del recurs d'alçada (art. 122 de la Llei 39/2015)?",
+   "options": [
+    "Un mes si l'acte és exprés; si no ho és, es pot interposar en qualsevol moment a partir de l'endemà del dia en què es produeixin els efectes del silenci administratiu",
+    "Quinze dies hàbils si l'acte és exprés i tres mesos si és presumpte, comptats en tots dos casos des de l'endemà de la notificació o de la producció del silenci corresponent",
+    "Dos mesos en tot cas, comptats des de la publicació de l'acte al butlletí oficial corresponent o, si no s'ha publicat, des que l'interessat en tingui coneixement material",
+    "Un mes si l'acte és exprés i sis mesos si és presumpte, transcorreguts els quals l'acte esdevé ferm i consentit a tots els efectes administratius i jurisdiccionals"
+   ],
+   "correct": 0,
+   "explain": "L'art. 122.1: alçada en 1 mes contra actes expressos; contra els presumptes, en qualsevol moment des de l'endemà dels efectes del silenci. El termini per resoldre i notificar l'alçada és de 3 mesos.",
+   "source": "L39_2015",
+   "article": "Art. 122 Llei 39/2015"
+  },
+  {
+   "id": "t11q7",
+   "theme": 11,
+   "block": 2,
+   "q": "Què passa si transcorren tres mesos sense resolució d'un recurs d'alçada interposat contra la desestimació per silenci d'una sol·licitud?",
+   "options": [
+    "El recurs s'entén desestimat i queda expedita la via contenciosa administrativa, com en la resta de supòsits de silenci en via de recurs administratiu ordinari",
+    "El recurs s'entén estimat: és l'únic cas de doble silenci amb efecte positiu que preveu expressament la llei del procediment comú",
+    "El recurs queda en suspens fins que l'òrgan competent per resoldre dicti la resolució expressa, sense que el silenci produeixi cap efecte jurídic per a l'interessat",
+    "Es produeix la caducitat del recurs i l'arxivament de les actuacions, amb la possibilitat de tornar-lo a interposar mentre no hagi prescrit el dret material subjacent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 24.1, paràgraf 2n: en l'alçada contra la desestimació per silenci, si en arribar el termini de resolució (3 mesos) no s'ha dictat resolució expressa, el recurs s'entén ESTIMAT (doble silenci).",
+   "source": "L39_2015",
+   "article": "Arts. 24.1 i 122 Llei 39/2015"
+  },
+  {
+   "id": "t11q8",
+   "theme": 11,
+   "block": 2,
+   "q": "Quins terminis té el recurs potestatiu de reposició (art. 124 de la Llei 39/2015)?",
+   "options": [
+    "Quinze dies per interposar-lo i tres mesos per resoldre'l i notificar-lo, transcorreguts els quals s'entén desestimat per silenci negatiu",
+    "Dos mesos per interposar-lo si l'acte és exprés i sis mesos per dictar-ne la resolució, que pot ser objecte d'un nou recurs de reposició",
+    "Un mes per interposar-lo si l'acte és exprés, i un mes com a termini màxim per dictar-ne i notificar-ne la resolució",
+    "Un mes per interposar-lo i tres mesos per resoldre'l, prorrogables per tres mesos més si la complexitat de l'expedient ho justifica degudament"
+   ],
+   "correct": 2,
+   "explain": "L'art. 124: reposició en 1 mes (acte exprés) o en qualsevol moment si és presumpte; termini màxim per resoldre i notificar: 1 mes. Contra la resolució d'una reposició no es pot tornar a interposar reposició.",
+   "source": "L39_2015",
+   "article": "Art. 124 Llei 39/2015"
+  },
+  {
+   "id": "t11q9",
+   "theme": 11,
+   "block": 2,
+   "q": "En quin termini es pot demanar la revisió (recurs extraordinari) per error de fet que resulti dels mateixos documents de l'expedient?",
+   "options": [
+    "Dins de l'any següent a la fermesa de l'acte en tots els supòsits legals, comptat des de l'endemà de la notificació o publicació de la resolució administrativa corresponent",
+    "En qualsevol moment, atès que el caràcter extraordinari del recurs el fa imprescriptible mentre subsisteixi l'error de fet en l'expedient administratiu de referència",
+    "Dins dels sis mesos següents a la notificació en el cas d'error de fet, i dins dels trenta dies en els supòsits de documents essencials o de sentència penal ferma",
+    "Dins dels quatre anys següents a la data de la notificació de la resolució impugnada; en la resta de supòsits, el termini és de tres mesos des del coneixement dels documents o la fermesa de la sentència"
+   ],
+   "correct": 3,
+   "explain": "L'art. 125.2: la circumstància 1a (error de fet) permet el recurs dins dels 4 anys següents a la notificació; en les altres tres circumstàncies, el termini és de 3 mesos.",
+   "source": "L39_2015",
+   "article": "Art. 125.2 Llei 39/2015"
+  },
+  {
+   "id": "t11q10",
+   "theme": 11,
+   "block": 2,
+   "q": "Quan s'entén suspesa l'execució de l'acte impugnat si l'òrgan no resol la sol·licitud de suspensió en via de recurs?",
+   "options": [
+    "Quan transcorre un mes des que la sol·licitud de suspensió va tenir entrada al registre electrònic de l'administració competent sense que s'hagi dictat i notificat resolució expressa",
+    "Quan transcorren deu dies hàbils des de la interposició del recurs administratiu corresponent, sempre que l'interessat hagi al·legat una causa de nul·litat de ple dret",
+    "Mai: la manca de resolució expressa de la sol·licitud de suspensió equival en tot cas a la seva desestimació presumpta i l'acte continua sent immediatament executiu",
+    "Quan ho declara el jutjat contenciós administratiu en la peça separada de mesures cautelars, única via per obtenir la suspensió de l'executivitat dels actes administratius"
+   ],
+   "correct": 0,
+   "explain": "L'art. 117.3: l'execució s'entén suspesa si transcorregut 1 mes des que la sol·licitud de suspensió va entrar al registre electrònic de l'Administració competent, l'òrgan no ha dictat i notificat resolució expressa.",
+   "source": "L39_2015",
+   "article": "Art. 117.3 Llei 39/2015"
+  },
+  {
+   "id": "t12q6",
+   "theme": 12,
+   "block": 3,
+   "q": "Què estableix el principi de no afectació (universalitat) dels ingressos pressupostaris locals?",
+   "options": [
+    "Cada ingrés pressupostari ha de finançar la despesa concreta que el genera, de manera que tota despesa nova exigeixi la creació simultània d'un ingrés nou equivalent",
+    "Els recursos de l'entitat local es destinen a satisfer el conjunt de les obligacions, llevat dels ingressos específics afectats a fins determinats",
+    "Els ingressos tributaris només poden finançar despesa corrent i els ingressos patrimonials i d'endeutament només poden finançar operacions de capital i inversions reals",
+    "Cap ingrés no es pot recaptar si no figura prèviament quantificat amb exactitud en les previsions inicials del pressupost aprovat definitivament per l'entitat local"
+   ],
+   "correct": 1,
+   "explain": "L'art. 165.2 TRLHL recull el principi de no afectació: els recursos s'apliquen al conjunt d'obligacions, excepte els ingressos afectats (contribucions especials, quotes d'urbanització, subvencions finalistes, alienació de patrimoni...).",
+   "source": "TRLHL",
+   "article": "Art. 165.2 TRLHL"
+  },
+  {
+   "id": "t12q7",
+   "theme": 12,
+   "block": 3,
+   "q": "Què implica el caràcter limitatiu dels crèdits del pressupost de despeses (art. 173 TRLHL)?",
+   "options": [
+    "Els crèdits inicials es poden sobrepassar lliurement fins a un màxim del deu per cent sempre que la desviació es regularitzi en la liquidació del mateix exercici pressupostari",
+    "Els crèdits del pressupost tenen caràcter merament estimatiu, com les previsions d'ingressos, i el seu excés només genera responsabilitat comptable si hi ha dol o culpa greu",
+    "No es poden adquirir compromisos de despesa per un import superior al crèdit autoritzat, i els acords que infringeixin aquesta regla són nuls de ple dret",
+    "Cada crèdit únicament es pot executar mitjançant pagaments efectius dins de l'exercici, quedant prohibida qualsevol modalitat de compromís de despesa de caràcter pluriennal"
+   ],
+   "correct": 2,
+   "explain": "L'art. 173.5 TRLHL: no es poden adquirir compromisos per quantia superior al crèdit autoritzat; els acords, resolucions i actes que ho infringeixin són nuls de ple dret (crèdits limitatius i vinculants segons les bases).",
+   "source": "TRLHL",
+   "article": "Art. 173.5 TRLHL"
+  },
+  {
+   "id": "t12q8",
+   "theme": 12,
+   "block": 3,
+   "q": "Com defineix la LO 2/2012 la sostenibilitat financera de les administracions públiques?",
+   "options": [
+    "La situació d'equilibri o superàvit estructural computada en termes de comptabilitat nacional al llarg d'un cicle econòmic complet de referència",
+    "L'obligació que la variació de la despesa computable no superi la taxa de referència de creixement del producte interior brut de mitjà termini",
+    "La prohibició absoluta de concertar operacions d'endeutament a llarg termini, llevat de les destinades a finançar inversions financerament sostenibles",
+    "La capacitat per finançar compromisos de despesa presents i futurs dins dels límits de dèficit, deute públic i morositat del deute comercial"
+   ],
+   "correct": 3,
+   "explain": "L'art. 4 LO 2/2012 defineix la sostenibilitat financera com la capacitat per finançar compromisos presents i futurs dins dels límits de dèficit, deute públic i morositat del deute comercial (PMP).",
+   "source": "TRLHL",
+   "article": "Art. 4 LO 2/2012"
+  },
+  {
+   "id": "t12q9",
+   "theme": 12,
+   "block": 3,
+   "q": "A què s'ha de destinar, amb caràcter general, el superàvit pressupostari de les entitats locals segons la LO 2/2012?",
+   "options": [
+    "A reduir l'endeutament net, amb les excepcions de la disposició addicional sisena, que permet destinar-lo a inversions financerament sostenibles si es compleixen determinats requisits",
+    "A incrementar les retribucions del personal i la despesa corrent dels serveis públics essencials, amb l'autorització prèvia de l'òrgan de tutela financera corresponent",
+    "A la constitució obligatòria d'un fons de contingència per un import equivalent al cinc per cent de les despeses no financeres del pressupost de l'exercici següent",
+    "Al finançament de qualsevol modificació de crèdit de l'exercici corrent, sense cap limitació material, sempre que el ple ho aprovi per majoria absoluta dels seus membres"
+   ],
+   "correct": 0,
+   "explain": "L'art. 32 LO 2/2012: el superàvit es destina a reduir l'endeutament net; la DA 6a permet, per a entitats complidores, aplicar-lo a inversions financerament sostenibles (quan les lleis de pressupostos ho habiliten).",
+   "source": "TRLHL",
+   "article": "Art. 32 i DA 6a LO 2/2012"
+  },
+  {
+   "id": "t12q10",
+   "theme": 12,
+   "block": 3,
+   "q": "Quin paper té el pressupost com a instrument de planificació de la gestió pública local?",
+   "options": [
+    "Substitueix qualsevol altre instrument de planificació municipal, atès que la legislació d'hisendes locals prohibeix aprovar plans estratègics o programes d'actuació paral·lels",
+    "Tradueix anualment en crèdits i previsions els objectius dels plans i programes de l'entitat, i permet l'assignació de recursos, la direcció per objectius i el control de la gestió",
+    "Té una funció exclusivament comptable de registre de cobraments i pagaments efectius, sense cap relació amb la planificació d'objectius ni amb l'avaluació de resultats de la gestió",
+    "Es limita a autoritzar l'endeutament anual de la corporació i a fixar la política fiscal, mentre que la planificació de la despesa correspon íntegrament als plans sectorials estatals"
+   ],
+   "correct": 1,
+   "explain": "El pressupost és l'instrument central de planificació anual: assigna recursos a objectius (classificació per programes), és pla d'administració (execució i gestió) i eina de control intern i extern de l'activitat econòmica.",
+   "source": "TRLHL",
+   "article": "Arts. 162-165 TRLHL"
+  },
+  {
+   "id": "t13q6",
+   "theme": 13,
+   "block": 3,
+   "q": "Què són i què regulen les bases d'execució del pressupost local?",
+   "options": [
+    "Els annexos informatius sobre els plans i programes d'inversió i els estats de previsió de les societats mercantils, que acompanyen el pressupost general sense valor normatiu",
+    "Les instruccions internes de la intervenció municipal sobre fiscalització prèvia de la despesa, aprovades per resolució de l'alcaldia i no publicables al butlletí oficial",
+    "Les normes que l'entitat aprova amb el pressupost per adaptar les disposicions generals en matèria pressupostària a la seva organització i circumstàncies, incloent-hi els nivells de vinculació jurídica dels crèdits",
+    "El conjunt de les ordenances fiscals vigents que quantifiquen les previsions d'ingressos tributaris del pressupost i les tarifes dels preus públics de l'exercici corresponent"
+   ],
+   "correct": 2,
+   "explain": "L'art. 165.1 TRLHL i l'art. 9 del RD 500/1990: el pressupost inclou les bases d'execució, que adapten la normativa pressupostària a l'entitat (vinculació jurídica, modificacions, procediments d'execució de la despesa...).",
+   "source": "RD500_1990",
+   "article": "Art. 165 TRLHL; art. 9 RD 500/1990"
+  },
+  {
+   "id": "t13q7",
+   "theme": 13,
+   "block": 3,
+   "q": "Qui pot presentar reclamacions contra el pressupost aprovat inicialment i durant quin termini?",
+   "options": [
+    "Qualsevol persona física o jurídica, resident o no al municipi, durant el termini de trenta dies hàbils i per qualsevol motiu d'oportunitat o de conveniència de la despesa pública prevista",
+    "Únicament els regidors de la corporació que haguessin votat en contra de l'aprovació inicial, durant els deu dies següents a la sessió plenària i per motius estrictament de legalitat",
+    "Els creditors de l'entitat local i les administracions amb tutela financera, durant vint dies naturals i exclusivament per l'omissió del crèdit necessari per complir obligacions exigibles",
+    "Els legitimats de l'art. 170 TRLHL (habitants del territori, afectats directes, col·legis i sindicats, entre d'altres), durant els quinze dies d'exposició pública, i només per les causes taxades de l'art. 170.2"
+   ],
+   "correct": 3,
+   "explain": "L'art. 169.1 TRLHL: exposició pública 15 dies després de l'aprovació inicial; l'art. 170 fixa els legitimats i les causes taxades (elaboració amb defectes de procediment, omissió de crèdit per obligacions exigibles, insuficiència manifesta d'ingressos).",
+   "source": "TRLHL",
+   "article": "Arts. 169-170 TRLHL"
+  },
+  {
+   "id": "t13q8",
+   "theme": 13,
+   "block": 3,
+   "q": "Com s'ha de publicar el pressupost general definitivament aprovat?",
+   "options": [
+    "Resumit per capítols de cadascun dels pressupostos que l'integren, al butlletí oficial de la província, i entra en vigor un cop feta aquesta publicació",
+    "Íntegrament, amb tots els seus annexos i les bases d'execució completes, al tauler d'edictes electrònic municipal, sense necessitat d'inserció en cap butlletí oficial",
+    "Mitjançant un anunci de referència al DOGC que indiqui el lloc de consulta de l'expedient, entrant en vigor l'endemà mateix de l'aprovació definitiva pel ple de la corporació",
+    "Només al portal de transparència de l'entitat local, dins del primer trimestre de l'exercici, juntament amb la liquidació del pressupost de l'exercici immediatament anterior"
+   ],
+   "correct": 0,
+   "explain": "L'art. 169.3 TRLHL: el pressupost definitiu es publica al BOP resumit per capítols; entra en vigor, en l'exercici corresponent, un cop publicat (i cal trametre'n còpia a l'Estat i a la comunitat autònoma).",
+   "source": "TRLHL",
+   "article": "Art. 169.3 i 169.5 TRLHL"
+  },
+  {
+   "id": "t13q9",
+   "theme": 13,
+   "block": 3,
+   "q": "Quina condició d'equilibri imposa l'art. 165.4 del TRLHL al pressupost local?",
+   "options": [
+    "El pressupost s'ha d'aprovar amb un superàvit inicial mínim equivalent al fons de contingència regulat a la normativa d'estabilitat pressupostària",
+    "Cadascun dels pressupostos que integren el pressupost general s'ha d'aprovar sense dèficit inicial",
+    "Les despeses corrents no poden superar en cap cas els ingressos corrents, ni les despeses de capital poden superar els ingressos de capital de l'exercici",
+    "El deute viu total no pot excedir el setanta-cinc per cent dels ingressos corrents liquidats en l'exercici anterior, llevat d'autorització de tutela financera"
+   ],
+   "correct": 1,
+   "explain": "L'art. 165.4 TRLHL: cada pressupost del pressupost general s'aprova sense dèficit inicial (equilibri o superàvit). A més, la LO 2/2012 exigeix el compliment de l'objectiu d'estabilitat en termes SEC.",
+   "source": "TRLHL",
+   "article": "Art. 165.4 TRLHL"
+  },
+  {
+   "id": "t13q10",
+   "theme": 13,
+   "block": 3,
+   "q": "Quins nivells té la classificació per programes de l'estat de despeses (Ordre EHA/3565/2008)?",
+   "options": [
+    "Capítol, article, concepte i subconcepte, seguint la mateixa codificació numèrica que la classificació econòmica de les despeses",
+    "Secció, servei i unitat gestora, en funció de l'estructura organitzativa aprovada per cada entitat local en el seu reglament orgànic",
+    "Àrea de despesa, política de despesa i grup de programes, amb la possibilitat de desagregar en programes i subprogrames",
+    "Funció, subfunció i partida final, d'acord amb la classificació funcional europea de les administracions públiques (COFOG) adaptada"
+   ],
+   "correct": 2,
+   "explain": "L'estructura per programes (Ordre EHA/3565/2008, modificada per HAP/419/2014) s'ordena en àrees de despesa (1 dígit), polítiques de despesa (2) i grups de programes (3), desagregables en programes (4) i subprogrames (5).",
+   "source": "TRLHL",
+   "article": "Ordre EHA/3565/2008"
+  },
+  {
+   "id": "t14q6",
+   "theme": 14,
+   "block": 4,
+   "q": "Quan es pot prescindir de la consulta pública prèvia en l'elaboració d'una ordenança (art. 133.4 de la Llei 39/2015)?",
+   "options": [
+    "Únicament quan l'ordenança es tramiti per la via d'urgència aprovada pel ple per majoria absoluta, cas en què tots els tràmits d'audiència i informació pública queden reduïts a la meitat del temps",
+    "Mai: la consulta pública prèvia és un tràmit essencial la manca del qual determina en tot cas la nul·litat de ple dret de la disposició general que s'aprovi sense haver-la substanciat degudament",
+    "Sempre que l'entitat local tingui una població inferior a cinc mil habitants i la norma projectada es limiti a transposar literalment la legislació bàsica estatal o autonòmica aplicable",
+    "En normes pressupostàries o organitzatives, quan concorrin raons greus d'interès públic, o quan la proposta no tingui impacte significatiu en l'activitat econòmica, no imposi obligacions rellevants o reguli aspectes parcials d'una matèria"
+   ],
+   "correct": 3,
+   "explain": "L'art. 133.4: es pot prescindir de consulta i/o audiència en normes pressupostàries o organitzatives, per raons greus d'interès públic, i de la consulta prèvia quan la norma no té impacte significatiu, no imposa obligacions rellevants o regula aspectes parcials.",
+   "source": "L39_2015",
+   "article": "Art. 133.4 Llei 39/2015"
+  },
+  {
+   "id": "t14q7",
+   "theme": 14,
+   "block": 4,
+   "q": "Quin procediment segueixen les ordenances fiscals (arts. 15-17 del TRLHL)?",
+   "options": [
+    "Aprovació provisional pel ple, exposició pública mínima de trenta dies amb audiència dels interessats, resolució de reclamacions i aprovació definitiva (automàtica si no n'hi ha), amb publicació del text íntegre",
+    "Aprovació inicial per la junta de govern local, informe preceptiu de la direcció general de tributs de la Generalitat i ratificació final pel ple per majoria absoluta dels membres de dret",
+    "Aprovació única pel ple amb el quòrum de dos terços, publicació d'un extracte al butlletí oficial i comunicació al Ministeri d'Hisenda dins dels quinze dies següents a l'acord plenari",
+    "El mateix procediment que el pressupost general, incloent-hi la possibilitat de pròrroga automàtica de les ordenances de l'exercici anterior si no s'aproven abans del trenta-u de desembre"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 15-17 TRLHL: acord provisional (majoria simple), exposició mínima de 30 dies (butlletí i diaris si escau), resolució de reclamacions i aprovació definitiva —automàtica si no hi ha reclamacions—, amb publicació del text íntegre abans de l'entrada en vigor.",
+   "source": "TRLHL",
+   "article": "Arts. 15-17 TRLHL"
+  },
+  {
+   "id": "t14q8",
+   "theme": 14,
+   "block": 4,
+   "q": "Quins imports màxims fixa l'art. 141 de la LRBRL per a les multes per infracció d'ordenances locals, si la llei sectorial no en preveu d'altres?",
+   "options": [
+    "Fins a 6.000 euros les molt greus, fins a 3.000 les greus i fins a 1.500 les lleus, actualitzables anualment segons l'índex de preus de consum",
+    "Fins a 3.000 euros les infraccions molt greus, fins a 1.500 les greus i fins a 750 les lleus",
+    "Fins a 1.500 euros les molt greus, fins a 750 les greus i fins a 300 les lleus, amb possibilitat de duplicar-les en cas de reincidència acreditada",
+    "Fins a 30.000 euros les molt greus, fins a 15.000 les greus i fins a 3.000 les lleus, prèvia habilitació expressa en l'ordenança corresponent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 141 LRBRL (títol XI, introduït per la Llei 57/2003): llevat de previsió legal diferent, les multes per infracció d'ordenances no poden superar 3.000 € (molt greus), 1.500 € (greus) i 750 € (lleus).",
+   "source": "LRBRL",
+   "article": "Art. 141 LRBRL"
+  },
+  {
+   "id": "t14q9",
+   "theme": 14,
+   "block": 4,
+   "q": "Quina funció compleix el termini de quinze dies de l'art. 65.2 de la LRBRL en l'entrada en vigor de les ordenances?",
+   "options": [
+    "És el període de vacatio legis general de totes les normes locals, durant el qual els ciutadans poden interposar el recurs potestatiu de reposició contra el text definitivament aprovat",
+    "És el termini perquè la delegació del Govern informi favorablement el text de l'ordenança, sense el qual la publicació al butlletí oficial de la província no produeix cap efecte jurídic",
+    "És el termini de què disposen l'Estat i la comunitat autònoma, des de la recepció de l'acord, per requerir l'anul·lació de l'acte o acord que consideren contrari a l'ordenament abans d'impugnar-lo",
+    "És el termini de què disposa el ple per resoldre les reclamacions presentades durant la informació pública, transcorregut el qual s'entenen desestimades per silenci administratiu negatiu"
+   ],
+   "correct": 2,
+   "explain": "L'art. 70.2 LRBRL vincula l'entrada en vigor de les ordenances a la publicació íntegra al BOP i al transcurs del termini de l'art. 65.2: 15 dies des que Estat i CA reben l'acord, perquè puguin formular el requeriment previ d'anul·lació.",
+   "source": "LRBRL",
+   "article": "Arts. 65.2 i 70.2 LRBRL"
+  },
+  {
+   "id": "t14q10",
+   "theme": 14,
+   "block": 4,
+   "q": "Què diferencia el reglament orgànic municipal de la resta d'ordenances i reglaments locals?",
+   "options": [
+    "Té rang de llei formal en l'àmbit del municipi, atès que desplega directament l'autonomia local constitucionalment garantida, i només és impugnable davant del Tribunal Constitucional",
+    "L'aprova la junta de govern local per delegació expressa del ple i no requereix informació pública, per tractar-se d'una norma domèstica sense efectes davant de terceres persones",
+    "No pot regular els drets dels regidors ni el funcionament del ple, matèries reservades a la legislació electoral general i a la legislació bàsica estatal de règim local respectivament",
+    "Regula l'organització i el funcionament interns de la corporació en exercici de la potestat d'autoorganització, exigeix majoria absoluta i preval sobre la normativa supletòria estatal (ROF)"
+   ],
+   "correct": 3,
+   "explain": "El ROM és la norma d'autoorganització (arts. 20 i 47.2.f LRBRL): majoria absoluta, mateixa tramitació de l'art. 49; en allò organitzatiu preval sobre el ROF estatal, que és supletori del reglament propi de cada corporació.",
+   "source": "LRBRL",
+   "article": "Arts. 20, 47.2.f i 49 LRBRL"
+  },
+  {
+   "id": "t15q6",
+   "theme": 15,
+   "block": 5,
+   "q": "Com es calcula el valor estimat d'un contracte (art. 101 LCSP)?",
+   "options": [
+    "Import total sense IVA, incloent-hi qualsevol forma d'opció, les pròrrogues previstes, les modificacions previstes als plecs i les primes o pagaments als candidats o licitadors",
+    "Import de licitació amb l'IVA inclòs, més els imports de les pròrrogues ja acordades i el valor de les modificacions aprovades durant l'execució del contracte administratiu",
+    "Pressupost base de licitació sense els tributs indirectes, excloent-ne en tot cas les pròrrogues, les opcions i qualsevol modificació que es pugui preveure en els plecs reguladors",
+    "Cost efectiu final del contracte una vegada liquidat, incloent-hi les revisions de preus meritades i els interessos de demora abonats al contractista durant l'execució material"
+   ],
+   "correct": 0,
+   "explain": "L'art. 101 LCSP: el valor estimat és l'import total pagador sense IVA, computant opcions, pròrrogues, modificacions previstes, primes i, en serveis i subministraments, les regles específiques dels apartats següents.",
+   "source": "LCSP",
+   "article": "Art. 101 LCSP"
+  },
+  {
+   "id": "t15q7",
+   "theme": 15,
+   "block": 5,
+   "q": "Quina durada màxima tenen els contractes de serveis i de subministraments de tracte successiu (art. 29 LCSP)?",
+   "options": [
+    "Quatre anys de durada inicial més dos anys de pròrrogues com a màxim, sempre que la pròrroga s'acordi de mutu acord entre les parts abans de la finalització del contracte",
+    "Cinc anys incloent-hi les possibles pròrrogues, llevat de les excepcions que la mateixa llei estableix per a supòsits determinats",
+    "Tres anys improrrogables, transcorreguts els quals cal licitar novament el contracte mitjançant procediment obert o restringit amb publicitat al perfil de contractant",
+    "Deu anys incloent-hi les pròrrogues quan el contracte estigui subjecte a regulació harmonitzada, i sis anys en la resta de casos, comptats des de la formalització corresponent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 29.4 LCSP: serveis i subministraments de prestació successiva, màxim 5 anys incloses les pròrrogues. La pròrroga s'acorda per l'òrgan de contractació i és obligatòria per al contractista amb preavís mínim de 2 mesos.",
+   "source": "LCSP",
+   "article": "Art. 29 LCSP"
+  },
+  {
+   "id": "t15q8",
+   "theme": 15,
+   "block": 5,
+   "q": "Quin caràcter té la divisió en lots de l'objecte del contracte a la LCSP?",
+   "options": [
+    "És una opció excepcional reservada als contractes d'obres d'import superior als llindars de la regulació harmonitzada, amb l'autorització prèvia de la junta consultiva competent",
+    "És obligatòria únicament en els contractes de subministraments quan hi concorrin almenys tres empreses licitadores de dimensió petita o mitjana en el mateix procediment",
+    "És la regla general: sempre que la naturalesa o l'objecte ho permetin, cal preveure lots, i la no divisió s'ha de justificar motivadament a l'expedient",
+    "Està prohibida quan pugui restringir la lliure competència entre els licitadors, per la qual cosa exigeix l'informe previ i vinculant de l'autoritat de competència corresponent"
+   ],
+   "correct": 2,
+   "explain": "L'art. 99.3 LCSP inverteix la regla anterior: la divisió en lots és la norma general (per afavorir les PIME) i la decisió de NO dividir s'ha de justificar a l'expedient (motius vàlids: dificultat d'execució correcta, restricció de competència...).",
+   "source": "LCSP",
+   "article": "Art. 99.3 LCSP"
+  },
+  {
+   "id": "t15q9",
+   "theme": 15,
+   "block": 5,
+   "q": "Què és el perfil de contractant (art. 63 LCSP)?",
+   "options": [
+    "El registre oficial d'empreses licitadores i classificades del sector públic, on s'inscriuen les dades de solvència econòmica i tècnica dels operadors que volen contractar",
+    "El document europeu únic de contractació que presenta cada licitador com a declaració responsable del compliment dels requisits previs per participar en la licitació",
+    "L'informe anual que cada òrgan de contractació tramet al Tribunal de Comptes amb la relació de tots els contractes adjudicats durant l'exercici pressupostari anterior",
+    "L'espai de difusió a internet de l'activitat contractual de l'òrgan de contractació, allotjat a la Plataforma de contractació del sector públic, on es publiquen anuncis, plecs i adjudicacions"
+   ],
+   "correct": 3,
+   "explain": "L'art. 63 LCSP: el perfil de contractant difon per internet l'activitat contractual (memòries, anuncis, plecs, adjudicacions, formalitzacions, contractes menors trimestralment...); s'allotja obligatòriament a la Plataforma de contractació.",
+   "source": "LCSP",
+   "article": "Art. 63 LCSP"
+  },
+  {
+   "id": "t15q10",
+   "theme": 15,
+   "block": 5,
+   "q": "Quines conseqüències té la manca de publicació al perfil de contractant de la informació relativa als contractes menors?",
+   "options": [
+    "La llei obliga a publicar-los almenys trimestralment (objecte, durada, import, adjudicatari), com a garantia de transparència, i la seva omissió és fiscalitzable pels òrgans de control",
+    "Cap: la publicació dels contractes menors al perfil de contractant és voluntària per als ajuntaments de menys de vint mil habitants segons la disposició addicional segona de la llei",
+    "La nul·litat de ple dret automàtica de tots els contractes menors adjudicats durant el trimestre corresponent, amb l'obligació de restituir recíprocament les prestacions executades",
+    "La conversió automàtica del contracte menor en un contracte subjecte a regulació harmonitzada, amb l'obligació de publicar-ne l'anunci al Diari Oficial de la Unió Europea"
+   ],
+   "correct": 0,
+   "explain": "L'art. 63.4 LCSP: publicació almenys trimestral dels contractes menors (número d'expedient, objecte, durada, import amb IVA, adjudicatari), exceptuats els inferiors a 5.000 € pagats per sistema d'avançament de caixa fixa.",
+   "source": "LCSP",
+   "article": "Art. 63.4 LCSP"
+  },
+  {
+   "id": "t16q6",
+   "theme": 16,
+   "block": 6,
+   "q": "Quan és obligatori designar un delegat de protecció de dades segons el RGPD i la LOPDGDD?",
+   "options": [
+    "Únicament quan l'entitat tracta categories especials de dades a gran escala amb finalitats comercials i disposa d'una plantilla superior a dos-cents cinquanta treballadors",
+    "Sempre que el tractament el dugui a terme una autoritat o organisme públic, entre altres supòsits de l'art. 37 RGPD i de la llista de l'art. 34 LOPDGDD",
+    "Només en les empreses del sector privat que fan seguiment habitual i sistemàtic de persones, mentre que les administracions públiques en queden dispensades per la seva naturalesa",
+    "Quan ho ordena expressament l'autoritat de control després d'una inspecció, com a mesura correctiva substitutiva de la multa administrativa que altrament corresponia imposar"
+   ],
+   "correct": 1,
+   "explain": "L'art. 37.1.a RGPD obliga a designar DPD quan el tractament el fa una autoritat o organisme públic (els ajuntaments sempre); l'art. 34 LOPDGDD hi afegeix una llista d'entitats privades obligades.",
+   "source": "RGPD",
+   "article": "Art. 37 RGPD; art. 34 LOPDGDD"
+  },
+  {
+   "id": "t16q7",
+   "theme": 16,
+   "block": 6,
+   "q": "En quin termini ha de respondre el responsable les sol·licituds d'exercici de drets (accés, rectificació, supressió...)?",
+   "options": [
+    "En el termini de deu dies hàbils improrrogables, transcorregut el qual la sol·licitud s'entén estimada i el responsable resta obligat a executar materialment el dret exercit",
+    "En el termini de tres mesos si la sol·licitud es presenta presencialment i d'un mes si es presenta per mitjans electrònics a través de la seu del responsable del tractament",
+    "En el termini d'un mes des de la recepció de la sol·licitud, prorrogable dos mesos més ateses la complexitat i el nombre de sol·licituds, amb informació a l'interessat de la pròrroga",
+    "No hi ha termini legal: cada responsable el fixa en la seva política de privacitat, amb el límit general de sis mesos que estableix la normativa de procediment administratiu"
+   ],
+   "correct": 2,
+   "explain": "L'art. 12.3 RGPD: resposta sense dilació indeguda i, en tot cas, en 1 mes, prorrogable 2 mesos més per complexitat o volum (informant l'interessat dins del primer mes). Si no respon: reclamació a l'autoritat de control.",
+   "source": "RGPD",
+   "article": "Art. 12.3 RGPD"
+  },
+  {
+   "id": "t16q8",
+   "theme": 16,
+   "block": 6,
+   "q": "Quin règim sancionador s'aplica a les administracions públiques que infringeixen el RGPD segons la LOPDGDD?",
+   "options": [
+    "Se'ls imposen les mateixes multes administratives que al sector privat, de fins a vint milions d'euros o el quatre per cent del pressupost anual consolidat de l'entitat infractora",
+    "Únicament responen per via de la responsabilitat patrimonial davant dels afectats, sense que l'autoritat de control pugui dictar cap resolució declarativa de la infracció comesa",
+    "La sanció consisteix en la suspensió automàtica de tots els tractaments de dades de l'entitat fins que l'autoritat de control verifiqui la implantació de les mesures correctores",
+    "Es dicta resolució que sanciona amb apercebiment, sense multa administrativa, amb mesures a adoptar, i es pot proposar la incoació d'actuacions disciplinàries contra els responsables"
+   ],
+   "correct": 3,
+   "explain": "L'art. 77 LOPDGDD: a autoritats i organismes públics, resolució amb apercebiment (no multa), fixació de mesures, possible proposta d'actuacions disciplinàries i publicació de la resolució; el DPD n'és informat.",
+   "source": "LOPDGDD",
+   "article": "Art. 77 LOPDGDD"
+  },
+  {
+   "id": "t16q9",
+   "theme": 16,
+   "block": 6,
+   "q": "Què és el registre de les activitats de tractament (art. 30 RGPD i 31 LOPDGDD)?",
+   "options": [
+    "L'inventari que responsables i encarregats han de mantenir amb les finalitats, categories de dades i destinataris de cada tractament; en les administracions és públic i accessible per mitjans electrònics",
+    "El fitxer que cada entitat ha d'inscriure prèviament a l'Agència Espanyola de Protecció de Dades abans d'iniciar qualsevol tractament de dades de caràcter personal",
+    "El llibre d'incidències de seguretat on es consignen totes les violacions de dades i les mesures adoptades, que s'ha de trametre anualment a l'autoritat de control competent",
+    "La relació de persones autoritzades a accedir als sistemes d'informació, amb els seus perfils i contrasenyes, custodiada pel delegat de protecció de dades de l'entitat"
+   ],
+   "correct": 0,
+   "explain": "L'art. 30 RGPD exigeix el registre d'activitats de tractament (substitueix l'antiga inscripció de fitxers); l'art. 31.2 LOPDGDD obliga les administracions a publicar-ne l'inventari accessible per mitjans electrònics.",
+   "source": "RGPD",
+   "article": "Art. 30 RGPD; art. 31 LOPDGDD"
+  },
+  {
+   "id": "t16q10",
+   "theme": 16,
+   "block": 6,
+   "q": "Quina autoritat de control és competent respecte dels tractaments de dades dels ens locals de Catalunya?",
+   "options": [
+    "Exclusivament l'Agència Espanyola de Protecció de Dades, atès que la protecció de dades és una competència estatal plena no susceptible de descentralització autonòmica",
+    "L'Autoritat Catalana de Protecció de Dades, per als tractaments de la Generalitat, els ens locals catalans i els seus organismes, sens perjudici de les competències de l'AEPD",
+    "El Síndic de Greuges de Catalunya, que exerceix les funcions d'autoritat de control independent sobre el sector públic català des de l'entrada en vigor del reglament europeu",
+    "La Comissió de Garantia del Dret d'Accés a la Informació Pública, que unifica el control de la transparència i de la protecció de dades en l'àmbit del sector públic de Catalunya"
+   ],
+   "correct": 1,
+   "explain": "L'APDCAT (Llei 32/2010) és l'autoritat de control dels tractaments de la Generalitat, els ens locals de Catalunya, les universitats i els ens que en depenen; l'AEPD conserva competències sobre el sector privat i àmbits estatals.",
+   "source": "LOPDGDD",
+   "article": "Llei 32/2010 (APDCAT); art. 57 LOPDGDD"
+  },
+  {
+   "id": "t17q6",
+   "theme": 17,
+   "block": 7,
+   "q": "En quins supòsits es poden nomenar funcionaris interins (art. 10 TREBEP)?",
+   "options": [
+    "Únicament per cobrir places vacants mentre es resol el procés selectiu corresponent, amb un límit màxim improrrogable de dotze mesos des de la data del nomenament de la persona interina",
+    "Per a qualsevol necessitat del servei apreciada lliurement per l'òrgan competent en matèria de personal, amb l'únic requisit de la consignació pressupostària adequada i suficient",
+    "Places vacants que no es puguin cobrir per funcionaris de carrera, substitució transitòria dels titulars, execució de programes temporals (màxim 3 anys) i excés o acumulació de tasques (màxim 9 mesos dins de 18)",
+    "Exclusivament per substituir funcionaris en situació d'incapacitat temporal o de permís per naixement, així com per reforçar serveis essencials durant els períodes de vacances"
+   ],
+   "correct": 2,
+   "explain": "L'art. 10.1 TREBEP (redacció Llei 20/2021): vacant (màx. 3 anys), substitució transitòria, programes temporals (màx. 3 anys, ampliable 12 mesos per llei autonòmica) i excés de tasques (9 mesos en 18). Selecció amb celeritat i principis d'igualtat, mèrit i capacitat.",
+   "source": "TREBEP",
+   "article": "Art. 10 TREBEP"
+  },
+  {
+   "id": "t17q7",
+   "theme": 17,
+   "block": 7,
+   "q": "Com es classifiquen els cossos i escales de funcionaris segons la titulació d'accés (art. 76 TREBEP)?",
+   "options": [
+    "Grups I a V segons el conveni col·lectiu únic aplicable, en funció de la complexitat de les tasques i de l'experiència professional acreditada en el moment de l'ingrés corresponent",
+    "Grup A: doctorat o màster universitari oficial; grup B: grau universitari; grup C: batxillerat; grup D: graduat escolar, i grup E: certificat d'escolaritat o equivalent formatiu",
+    "Categories primera, segona i tercera segons el nivell de responsabilitat del lloc de treball ocupat, revisables cada tres anys mitjançant el procediment d'avaluació de l'acompliment",
+    "Grup A (subgrups A1 i A2): títol universitari de grau; grup B: tècnic superior; grup C (subgrups C1 i C2): batxiller o tècnic, i graduat en ESO respectivament"
+   ],
+   "correct": 3,
+   "explain": "L'art. 76 TREBEP: grup A (A1/A2, grau universitari, diferenciats pel nivell de responsabilitat i les proves), grup B (tècnic superior de FP) i grup C (C1 batxiller o tècnic; C2 graduat en ESO). Les agrupacions professionals (DA 6a) no exigeixen titulació.",
+   "source": "TREBEP",
+   "article": "Art. 76 TREBEP"
+  },
+  {
+   "id": "t17q8",
+   "theme": 17,
+   "block": 7,
+   "q": "Quins requisits imposa l'art. 60 del TREBEP als òrgans de selecció?",
+   "options": [
+    "Han de ser col·legiats, amb composició ajustada a la paritat entre dones i homes; no en poden formar part el personal d'elecció o designació política, els funcionaris interins ni el personal eventual, i la pertinença és sempre a títol individual",
+    "Han d'estar formats per un mínim de set membres titulars amb els seus suplents, tots funcionaris de carrera del mateix cos o escala de la plaça convocada i amb destinació a la mateixa entitat local convocant",
+    "Han d'incloure necessàriament un representant de cada organització sindical present a la mesa de negociació, un representant de la comunitat autònoma i el secretari de la corporació com a president nat",
+    "Han de ser unipersonals en les convocatòries de personal laboral temporal i col·legiats en la resta de casos, amb la presidència reservada en tot cas al regidor competent en matèria de recursos humans"
+   ],
+   "correct": 0,
+   "explain": "L'art. 60 TREBEP: òrgans col·legiats, tendents a la paritat; exclosos els càrrecs polítics, els interins i el personal eventual; pertinença a títol individual (no en representació de ningú). La STC i la jurisprudència exigeixen imparcialitat i professionalitat.",
+   "source": "TREBEP",
+   "article": "Art. 60 TREBEP"
+  },
+  {
+   "id": "t17q9",
+   "theme": 17,
+   "block": 7,
+   "q": "Quines són les formes de provisió de llocs de treball dels funcionaris de carrera (art. 78 TREBEP)?",
+   "options": [
+    "Exclusivament el concurs oposició i la promoció interna vertical, atès que la lliure designació està reservada al personal eventual de confiança i assessorament especial de les corporacions",
+    "Els procediments normals són el concurs (valoració de mèrits i capacitats) i la lliure designació amb convocatòria pública; les lleis poden preveure mobilitat, permutes, comissions de serveis i altres sistemes",
+    "L'adscripció directa per resolució de l'òrgan competent en matèria de personal, el contracte d'alta direcció i el nomenament provisional per millora d'ocupació previst a la legislació autonòmica",
+    "El torn de trasllats obligatori biennal i la redistribució d'efectius, com a sistemes ordinaris, i el concurs específic com a sistema excepcional per als llocs singularitzats de comandament"
+   ],
+   "correct": 1,
+   "explain": "L'art. 78 TREBEP: provisió pels procediments de concurs (sistema normal, valoració de mèrits) i lliure designació amb convocatòria pública (llocs de especial responsabilitat i confiança); a més, mobilitat, comissió de serveis, adscripció provisional...",
+   "source": "TREBEP",
+   "article": "Arts. 78-81 TREBEP"
+  },
+  {
+   "id": "t17q10",
+   "theme": 17,
+   "block": 7,
+   "q": "Què és la promoció interna segons el TREBEP?",
+   "options": [
+    "El dret de tot funcionari de carrera a ascendir automàticament de subgrup cada cinc anys de serveis efectius, amb la superació prèvia d'un curs de formació impartit per l'escola d'administració pública competent",
+    "La millora retributiva progressiva dins del mateix lloc de treball mitjançant el reconeixement de graus personals consolidats, sense necessitat de participar en cap procés selectiu ni de canviar de lloc",
+    "L'ascens des d'un cos o escala d'un subgrup a un altre de superior (vertical) o l'accés a cossos del mateix subgrup (horitzontal), mitjançant processos selectius que garanteixin igualtat, mèrit i capacitat, amb dos anys de serveis efectius",
+    "L'adjudicació preferent de llocs de comandament als funcionaris amb més antiguitat reconeguda a l'entitat, dins del respecte a les relacions de llocs de treball aprovades pel ple de la corporació"
+   ],
+   "correct": 2,
+   "explain": "Els arts. 16.3 i 18 TREBEP: promoció interna vertical (subgrup superior) i horitzontal (mateix subgrup), amb requisits de titulació, 2 anys de serveis efectius i superació de les proves; és una via de carrera professional.",
+   "source": "TREBEP",
+   "article": "Arts. 16 i 18 TREBEP"
+  },
+  {
+   "id": "t18q6",
+   "theme": 18,
+   "block": 7,
+   "q": "Quantes hores i dies de vacances i permisos bàsics reconeix el TREBEP als funcionaris?",
+   "options": [
+    "Vacances de trenta dies naturals ampliables per antiguitat fins a un màxim de trenta-vuit, i deu dies d'assumptes propis per any natural distribuïts per trimestres vençuts",
+    "Vacances d'un mes natural improrrogable gaudides necessàriament entre juny i setembre, i quatre dies de lliure disposició condicionats a les necessitats del servei apreciades",
+    "Vint dies laborables de vacances i tres dies d'assumptes particulars, que es perden si no s'han gaudit abans del trenta-u de desembre de l'any natural corresponent",
+    "Vacances de vint-i-dos dies hàbils per any complet de serveis (o part proporcional), i els permisos dels arts. 48 i 49, com ara sis dies d'assumptes particulars per any"
+   ],
+   "correct": 3,
+   "explain": "L'art. 50 TREBEP: 22 dies hàbils de vacances per any complet de servei; l'art. 48.k: 6 dies d'assumptes particulars l'any (els addicionals per antiguitat deriven de la normativa de desplegament i acords).",
+   "source": "TREBEP",
+   "article": "Arts. 48 i 50 TREBEP"
+  },
+  {
+   "id": "t18q7",
+   "theme": 18,
+   "block": 7,
+   "q": "Quan prescriuen les faltes disciplinàries molt greus, greus i lleus (art. 97 TREBEP)?",
+   "options": [
+    "Les molt greus als tres anys, les greus als dos anys i les lleus als sis mesos, comptats des que la falta s'hagués comès o des del cessament de la comissió continuada",
+    "Les molt greus als cinc anys, les greus als tres anys i les lleus a l'any, comptats sempre des de la data en què l'òrgan competent en matèria disciplinària en tingui coneixement",
+    "Les molt greus als deu anys, les greus als cinc anys i les lleus als dos anys, d'acord amb els mateixos terminis de prescripció que estableix el Codi penal per als delictes",
+    "Totes les faltes prescriuen a l'any si no s'ha incoat l'expedient disciplinari corresponent, llevat de les constitutives d'assetjament, que resulten imprescriptibles legalment"
+   ],
+   "correct": 0,
+   "explain": "L'art. 97 TREBEP: infraccions molt greus 3 anys, greus 2 anys, lleus 6 mesos; les sancions imposades per faltes molt greus 3 anys, greus 2 anys i lleus 1 any.",
+   "source": "TREBEP",
+   "article": "Art. 97 TREBEP"
+  },
+  {
+   "id": "t18q8",
+   "theme": 18,
+   "block": 7,
+   "q": "Quina sanció disciplinària només es pot imposar per la comissió de faltes molt greus?",
+   "options": [
+    "La suspensió ferma de funcions i de retribucions per un període superior a quinze dies i inferior a sis mesos, amb pèrdua del lloc de treball obtingut per concurs",
+    "La separació del servei dels funcionaris (i l'acomiadament disciplinari del personal laboral, que comporta la inhabilitació per ser titular d'un nou contracte)",
+    "El trasllat forçós amb canvi de localitat de residència i la demèrit consistent en la penalització a efectes de carrera durant un període màxim de dos anys naturals",
+    "L'apercebiment per escrit amb anotació a l'expedient personal i la pèrdua de fins a tres nivells del grau personal consolidat pel funcionari en la seva carrera administrativa"
+   ],
+   "correct": 1,
+   "explain": "L'art. 96.1 TREBEP: la separació del servei (i l'acomiadament disciplinari del laboral) només per faltes MOLT greus. La resta de sancions (suspensió fins a 6 anys, trasllat, demèrit, apercebiment...) segons la gravetat.",
+   "source": "TREBEP",
+   "article": "Art. 96 TREBEP"
+  },
+  {
+   "id": "t18q9",
+   "theme": 18,
+   "block": 7,
+   "q": "Què estableix la Llei 53/1984 sobre la segona activitat dels empleats públics?",
+   "options": [
+    "Permet lliurement qualsevol activitat privada fora de la jornada laboral sempre que no coincideixi amb l'horari del lloc públic ni utilitzi mitjans materials de l'Administració",
+    "Prohibeix únicament la segona activitat en el sector públic, mentre que les activitats privades només s'han de comunicar al registre de personal sense necessitat d'autorització",
+    "Regeix el principi d'incompatibilitat amb qualsevol segona activitat pública o privada, llevat de les excepcions legals i de l'autorització o el reconeixement previs de compatibilitat",
+    "S'aplica exclusivament al personal directiu i als funcionaris amb habilitació de caràcter nacional, restant la resta del personal subjecte al que disposin els convenis col·lectius"
+   ],
+   "correct": 2,
+   "explain": "La Llei 53/1984 parteix de la dedicació a un sol lloc: cal autorització (segona activitat pública, supòsits taxats) o reconeixement de compatibilitat (privada), amb límits retributius i prohibicions absolutes (assumptes en què intervé l'Administració).",
+   "source": "TREBEP",
+   "article": "Llei 53/1984, d'incompatibilitats"
+  },
+  {
+   "id": "t18q10",
+   "theme": 18,
+   "block": 7,
+   "q": "En quins àmbits és objecte de negociació col·lectiva les condicions de treball dels funcionaris (art. 37 TREBEP)?",
+   "options": [
+    "Totes les matèries de personal sense excepció, incloent-hi la determinació de la plantilla i de l'oferta pública d'ocupació, que requereixen l'acord previ i vinculant de la mesa general de negociació",
+    "Únicament les retribucions complementàries variables i el calendari laboral anual, atès que la resta de condicions de treball dels funcionaris estan reservades a la llei i als reglaments estatals",
+    "Exclusivament la prevenció de riscos laborals i la formació contínua, perquè el règim estatutari dels funcionaris queda fora de la negociació col·lectiva per imperatiu constitucional exprés",
+    "Entre d'altres: retribucions (dins dels límits legals), plans d'ocupació, jornada i horaris, permisos, mobilitat, criteris de carrera i promoció, i propostes sobre drets sindicals; en queden excloses les potestats d'organització sense repercussió en condicions de treball"
+   ],
+   "correct": 3,
+   "explain": "L'art. 37.1 TREBEP llista les matèries negociables (retribucions dins dels límits, jornada, permisos, carrera, mobilitat...); el 37.2 exclou les potestats d'organització (llevat de repercussió en condicions de treball), l'exercici de drets ciutadans i el procediment d'accés (només criteris generals).",
+   "source": "TREBEP",
+   "article": "Art. 37 TREBEP"
+  },
+  {
+   "id": "t19q6",
+   "theme": 19,
+   "block": 8,
+   "q": "Quins tràmits preceptius exigeix la Llei 40/2015 abans de subscriure un conveni (art. 50)?",
+   "options": [
+    "Una memòria justificativa que analitzi la necessitat i oportunitat, l'impacte econòmic, el caràcter no contractual de l'activitat i el compliment de la llei",
+    "Un dictamen previ i vinculant del Consell d'Estat o de l'òrgan consultiu autonòmic equivalent, sigui quin sigui l'import econòmic del conveni que es pretén subscriure",
+    "L'autorització expressa del ministeri o la conselleria d'hisenda corresponent i la fiscalització prèvia del Tribunal de Comptes quan hi participin entitats locals",
+    "La publicació d'un anunci previ d'informació pública durant un termini mínim de vint dies hàbils al butlletí oficial que correspongui a cadascuna de les parts signants"
+   ],
+   "correct": 0,
+   "explain": "L'art. 50.1 Llei 40/2015: cal acompanyar el conveni d'una memòria justificativa (necessitat i oportunitat, impacte econòmic, caràcter no contractual, compliment legal). En l'àmbit local: informes de secretaria i intervenció.",
+   "source": "L40_2015",
+   "article": "Art. 50 Llei 40/2015"
+  },
+  {
+   "id": "t19q7",
+   "theme": 19,
+   "block": 8,
+   "q": "Quina relació hi ha entre els convenis interadministratius i la legislació de contractes del sector públic?",
+   "options": [
+    "Els convenis són una modalitat de contracte administratiu especial que es regeix supletòriament per la LCSP en tot allò no previst per la Llei 40/2015, inclosos els recursos en matèria de contractació",
+    "Els convenis amb prestacions pròpies dels contractes queden exclosos de la figura del conveni: la LCSP (art. 6) només n'exclou els que no tenen objecte contractual, i el seu contingut no pot ser el propi d'un contracte",
+    "Qualsevol prestació es pot articular indistintament per conveni o per contracte segons l'opció discrecional de les administracions, sempre que quedi garantida la publicitat de l'acord subscrit",
+    "Els convenis substitueixen el contracte quan l'import de la prestació és inferior al llindar del contracte menor, com a mecanisme simplificat de cooperació entre administracions públiques"
+   ],
+   "correct": 1,
+   "explain": "L'art. 47.1 Llei 40/2015: els convenis no poden tenir per objecte prestacions pròpies dels contractes; en aquest cas, la seva naturalesa i règim s'ajusta a la LCSP. L'art. 6 LCSP exclou els convenis només si no tenen objecte contractual (cooperació horitzontal amb requisits).",
+   "source": "L40_2015",
+   "article": "Art. 47 Llei 40/2015; art. 6 LCSP"
+  },
+  {
+   "id": "t19q8",
+   "theme": 19,
+   "block": 8,
+   "q": "Què passa amb les actuacions en curs quan es resol un conveni (art. 52 de la Llei 40/2015)?",
+   "options": [
+    "Queden automàticament extingides sense cap possibilitat de continuïtat, i les aportacions econòmiques pendents es reintegren íntegrament al tresor de cada administració signant",
+    "Continuen executant-se indefinidament fins al seu acabament material complet, encara que el conveni s'hagi resolt per incompliment greu d'alguna de les parts signants",
+    "Les parts, a proposta de la comissió de seguiment, poden acordar la continuació i finalització de les actuacions en curs, fixant un termini improrrogable per acabar-les",
+    "Se subroguen necessàriament en un nou conveni que les parts han de subscriure dins dels tres mesos següents a la resolució, amb els mateixos termes econòmics que l'anterior"
+   ],
+   "correct": 2,
+   "explain": "L'art. 52.3 Llei 40/2015: malgrat la resolució, les parts (a proposta de la comissió de seguiment) poden acordar la continuació de les actuacions en curs amb un termini improrrogable; després, liquidació (52.2) amb reintegrament d'excessos.",
+   "source": "L40_2015",
+   "article": "Art. 52 Llei 40/2015"
+  },
+  {
+   "id": "t19q9",
+   "theme": 19,
+   "block": 8,
+   "q": "Quan produeixen efectes els convenis subscrits per l'Administració General de l'Estat, i què il·lustra això per a la resta?",
+   "options": [
+    "Tots els convenis de qualsevol administració requereixen la publicació al BOE i al butlletí de la província com a requisit constitutiu d'eficàcia, sense el qual són nuls de ple dret",
+    "Els convenis produeixen efectes des de la signatura en tot cas, i qualsevol requisit registral té efectes merament informatius sense incidència en la seva validesa ni eficàcia",
+    "L'eficàcia dels convenis queda diferida a l'aprovació definitiva per les Corts Generals o el parlament autonòmic quan comprometin despesa pluriennal de qualsevol import",
+    "Els estatals resulten eficaços un cop inscrits al Registre Electrònic estatal d'Òrgans i Instruments de Cooperació i publicats al BOE; en l'àmbit local, la transparència exigeix la publicació al portal corresponent"
+   ],
+   "correct": 3,
+   "explain": "L'art. 48.8 Llei 40/2015 (redacció actual): els convenis estatals són eficaços amb la inscripció al REOICO i la publicació al BOE. Per als locals regeixen la Llei 19/2013 i la Llei 19/2014 catalana (publicitat activa al portal de transparència i tramesa al registre de convenis).",
+   "source": "L40_2015",
+   "article": "Art. 48.8 Llei 40/2015"
+  },
+  {
+   "id": "t19q10",
+   "theme": 19,
+   "block": 8,
+   "q": "Quins convenis s'han de trametre al Tribunal de Comptes segons l'art. 53 de la Llei 40/2015?",
+   "options": [
+    "Els convenis amb compromisos econòmics assumits superiors a 600.000 euros, dins dels tres mesos següents a la subscripció, sens perjudici de les competències dels òrgans autonòmics equivalents",
+    "Tots els convenis subscrits per qualsevol administració pública, sigui quin sigui el seu import, dins del mes següent a la signatura i abans que produeixin cap mena d'efecte jurídic",
+    "Únicament els convenis subscrits amb entitats de dret privat quan superin els tres milions d'euros de valor estimat total, incloses les pròrrogues previstes en el text subscrit",
+    "Els convenis de durada superior a quatre anys, sigui quin sigui l'import, per tal que el Tribunal en fiscalitzi la justificació de la durada excepcional acordada per les parts"
+   ],
+   "correct": 0,
+   "explain": "L'art. 53 Llei 40/2015: tramesa al Tribunal de Comptes (o òrgan extern autonòmic, a Catalunya la Sindicatura) dels convenis amb compromisos econòmics superiors a 600.000 €, dins dels 3 mesos següents; també comunicació de modificacions, pròrrogues i extincions.",
+   "source": "L40_2015",
+   "article": "Art. 53 Llei 40/2015"
+  },
+  {
+   "id": "t20q6",
+   "theme": 20,
+   "block": 5,
+   "q": "En quins supòsits es pot utilitzar el procediment negociat sense publicitat (art. 168 LCSP)?",
+   "options": [
+    "Sempre que el valor estimat del contracte no superi els llindars de la regulació harmonitzada i l'òrgan de contractació ho justifiqui per raons d'eficiència administrativa i celeritat en l'expedient",
+    "Entre d'altres: quan no s'hagi presentat cap oferta adequada en un procediment obert o restringit previ, per raons d'exclusivitat tècnica o artística, o per urgència imperiosa per esdeveniments imprevisibles no imputables a l'òrgan",
+    "Quan l'objecte del contracte sigui la prestació de serveis a les persones, com els sanitaris o socials, amb independència del seu import i amb la simple consulta prèvia a tres empreses del sector",
+    "En els contractes d'obres de conservació i manteniment d'infraestructures existents, sempre que el projecte hagi estat aprovat dins dels dotze mesos anteriors a l'inici de la licitació corresponent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 168 LCSP taxa els supòsits: manca d'ofertes adequades en licitació prèvia (sense modificar condicions), exclusivitat (única empresa: art única, tècnica o drets exclusius), urgència imperiosa, subministraments complementaris, obres/serveis repetits, entre d'altres.",
+   "source": "LCSP",
+   "article": "Art. 168 LCSP"
+  },
+  {
+   "id": "t20q7",
+   "theme": 20,
+   "block": 5,
+   "q": "Com s'identifica una oferta anormalment baixa i què s'ha de fer (art. 149 LCSP)?",
+   "options": [
+    "Tota oferta que sigui inferior en més d'un deu per cent a la mitjana aritmètica de les presentades queda exclosa automàticament de la licitació sense cap tràmit d'audiència addicional al licitador afectat",
+    "L'òrgan de contractació aprecia lliurement l'anormalitat i pot rebutjar l'oferta de manera discrecional, sense que la seva decisió requereixi motivació ni sigui susceptible de recurs especial en matèria de contractació",
+    "Segons els paràmetres objectius dels plecs; cal donar audiència al licitador perquè justifiqui l'oferta, demanar assessorament tècnic i només excloure-la si la justificació no explica satisfactòriament el baix nivell de preus",
+    "Només es consideren anormals les ofertes que incompleixin el salari mínim interprofessional, cas en què s'imposa al licitador una penalitat econòmica equivalent al cinc per cent del pressupost de licitació"
+   ],
+   "correct": 2,
+   "explain": "L'art. 149 LCSP: identificació segons paràmetres objectius dels plecs (mai exclusió automàtica sense audiència); tràmit de justificació (estalvi, solucions tècniques, condicions favorables...), informe tècnic i exclusió motivada si no s'explica satisfactòriament o incompleix obligacions laborals o ambientals.",
+   "source": "LCSP",
+   "article": "Art. 149 LCSP"
+  },
+  {
+   "id": "t20q8",
+   "theme": 20,
+   "block": 5,
+   "q": "Sobre què han de versar els criteris d'adjudicació dels contractes (art. 145 LCSP)?",
+   "options": [
+    "Exclusivament sobre el preu més baix ofert pels licitadors, atès que qualsevol altre criteri d'adjudicació introdueix discrecionalitat contrària als principis de la contractació pública",
+    "Sobre la solvència econòmica i financera de les empreses licitadores, la seva experiència acumulada en contractes similars i el nombre de treballadors fixos de la seva plantilla",
+    "Sobre els mitjans personals i materials adscrits per cada licitador i la proximitat geogràfica de les seves instal·lacions al lloc d'execució material de les prestacions contractades",
+    "Sobre la millor relació qualitat-preu, avaluada amb criteris econòmics i qualitatius, que poden incloure aspectes mediambientals o socials vinculats a l'objecte del contracte"
+   ],
+   "correct": 3,
+   "explain": "L'art. 145 LCSP: adjudicació amb criteris de millor relació qualitat-preu (econòmics i qualitatius, incloent-hi ambientals i socials vinculats a l'objecte); la solvència és requisit d'aptitud, no criteri d'adjudicació.",
+   "source": "LCSP",
+   "article": "Arts. 145-146 LCSP"
+  },
+  {
+   "id": "t20q9",
+   "theme": 20,
+   "block": 5,
+   "q": "Qui integra la mesa de contractació de les entitats locals (DA 2a LCSP)?",
+   "options": [
+    "La presideix un membre de la corporació o un funcionari, i en formen part el secretari i l'interventor (o qui tingui les funcions de control econòmic) i els vocals que es designin; el personal eventual no en pot formar part",
+    "Tots els regidors de la corporació constituïts en comissió informativa especial de contractació, presidida necessàriament per l'alcalde i assistida pel secretari com a fedatari públic de l'acte",
+    "Tres tècnics municipals designats per sorteig entre el personal funcionari de carrera del grup A1, amb exclusió expressa dels habilitats nacionals per garantir la separació de funcions",
+    "Representants de les empreses licitadores en nombre proporcional a les ofertes presentades, sota la presidència del regidor delegat de l'àrea gestora del contracte objecte de licitació"
+   ],
+   "correct": 0,
+   "explain": "La DA 2a.7 LCSP: mesa presidida per un membre de la corporació o funcionari; vocals: el secretari i l'interventor (o funcions equivalents) i els que es designin; el personal eventual NO en pot formar part i el funcionari interí només si no hi ha funcionaris de carrera qualificats.",
+   "source": "LCSP",
+   "article": "DA 2a LCSP"
+  },
+  {
+   "id": "t20q10",
+   "theme": 20,
+   "block": 5,
+   "q": "Què és l'associació per a la innovació (arts. 177-182 LCSP)?",
+   "options": [
+    "Un conveni de col·laboració amb universitats i centres tecnològics exclòs de la llei de contractes, destinat al foment de la recerca bàsica sense finalitat d'adquisició posterior",
+    "El procediment per desenvolupar productes, serveis o obres innovadors no disponibles al mercat i adquirir-ne després els resultats, articulat en fases successives amb socis seleccionats",
+    "La tècnica de racionalització consistent a centralitzar les compres de material tecnològic de diverses administracions en una central de contractació d'àmbit estatal o autonòmic",
+    "El contracte menor especial per a l'adquisició de prototips i solucions emergents fins a cinquanta mil euros, adjudicable directament a empreses de base tecnològica acreditades"
+   ],
+   "correct": 1,
+   "explain": "Els arts. 177-182 LCSP regulen l'associació per a la innovació: recerca i desenvolupament de solucions no disponibles al mercat i adquisició posterior dels resultats, amb negociació per fases i possibilitat de diversos socis.",
+   "source": "LCSP",
+   "article": "Arts. 177-182 LCSP"
   }
  ]
 }

@@ -6,7 +6,7 @@
    - Dades (/data/): network-first amb còpia per a offline.
    - Icones/manifest: cache-first.
    El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v65';
+const CACHE = 'montornes-oposicio-v66';
 const ASSETS = [
   './',
   './index.html',
