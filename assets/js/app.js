@@ -217,49 +217,73 @@ function renderKeypoints(kp, fallback){
    ROUTER
    =========================================================================== */
 const routes = {
-  '': home, 'home': home,
-  'estudi': estudi, 'tema': temaView,
-  'examen': examenConfig, 'casos': casosList, 'cas': casView,
-  'historial': historial, 'fonts': fonts, 'tria': triaView,
+  '': estudi, 'estudi': estudi, 'tema': temaView,
+  'examen': examenConfig,
+  'historial': historial, 'fonts': fonts,
   'quiz': quizRoute, 'errades': erradesRoute,
+  'casquiz': casquizRoute, 'temahist': temahistView,
 };
 let examState = null;
 
+/* Rutes amb l'oposició a l'URL: #/<muni>/<vista>/<param>
+   (p. ex. #/montornes/tema/10). Així els enllaços són autosuficients i es
+   poden obrir en pestanyes noves o compartir sense perdre l'oposició.
+   Les rutes velles sense municipi (#/tema/10) es redirigeixen a la forma
+   canònica amb l'oposició activa. */
 async function render(){
-  paintBrand();
   const hash = location.hash.replace(/^#\/?/, '');
-  const [route, param] = hash.split('/');
-  // Sense municipi triat (o a la pantalla de tria): mostra el selector d'oposició.
-  if (!store.muni() || route === 'tria'){
+  const segs = hash.split('/');
+  const muniSeg = MUNIS[segs[0]] ? segs.shift() : null;
+  const route = (segs[0] || '').split('?')[0];
+  const param = segs[1];
+
+  if (!muniSeg){
+    // Rutes globals (sense oposició): selector i configuració.
+    if (route === 'config'){
+      paintBrand();
+      view.innerHTML = '';
+      configView();
+      document.querySelectorAll('[data-route]').forEach(a=>a.classList.remove('active'));
+      scrollTop();
+      return;
+    }
+    // Ruta vella amb vista coneguda i oposició activa → redirecció canònica.
+    const m = store.muni();
+    if (m && MUNIS[m] && route && route !== 'tria' && routes[route]){
+      location.replace('#/' + m + '/' + hash);
+      return;
+    }
+    // Selector d'oposició.
+    paintBrand();
     view.innerHTML = '';
     triaView();
     document.querySelectorAll('[data-route]').forEach(a=>a.classList.remove('active'));
     scrollTop();
     return;
   }
+
+  // Oposició de l'URL: apunta el bucket de progrés i la marca.
+  if (store.muni() !== muniSeg) store.setMuni(muniSeg);
+  paintBrand();
   await loadData();
-  const fn = routes[route] || home;
+  const fn = routes[route] || estudi;
   view.innerHTML = '';
   // Municipi sense temari carregat encara: les vistes de contingut mostren "en preparació".
-  const needsContent = ['estudi','tema','examen','casos','cas','fonts','quiz','errades'].includes(route);
+  const needsContent = ['','estudi','tema','examen','fonts','quiz','errades','casquiz','temahist'].includes(route);
   if (needsContent && !contentReady()) prepView();
   else fn(param);
-  // marcar navegació activa
-  const active = route || 'home';
+  // navegació: prefixa l'oposició als enllaços i marca l'actiu
+  const active = route || 'estudi';
   document.querySelectorAll('[data-route]').forEach(a=>{
+    a.href = '#/' + muniSeg + '/' + a.dataset.route;
     a.classList.toggle('active', a.dataset.route === active ||
-      (active==='tema' && a.dataset.route==='estudi') ||
-      (active==='cas' && a.dataset.route==='casos'));
+      (['tema','quiz','casquiz','temahist'].includes(active) && a.dataset.route==='estudi') ||
+      (active==='errades' && a.dataset.route==='examen'));
   });
   scrollTop();
 }
 window.addEventListener('hashchange', render);
 window.addEventListener('DOMContentLoaded', render);
-// En cada càrrega de la pàgina oblidem l'oposició activa perquè, en entrar,
-// l'app sempre mostri el selector (no s'entra automàticament a cap oposició).
-// El progrés de cada oposició es desa per separat i no es perd; només es
-// reinicia el punter de l'oposició activa d'aquesta sessió.
-if (location.hash.replace(/^#\/?/, '').split('/')[0] !== 'tria') store.setMuni(null);
 render();
 setTimeout(initGistSync, 0);   // defer: espera que el mòdul acabi de carregar
 
@@ -358,7 +382,7 @@ function prepView(){
       <p class="lead">El contingut de l'oposició de <b>${esc(m.name)}</b> (resums, preguntes i casos) encara
       s'està preparant. Torna-hi ben aviat. Mentrestant pots preparar-te l'altra oposició disponible.</p>
       <div class="row" style="margin-top:14px">
-        <a class="btn primary lg" href="#/tria">Canvia d'oposició</a>
+        <a class="btn primary lg" href="#/">Canvia d'oposició</a>
       </div>
     </section>`;
 }
@@ -386,13 +410,31 @@ function triaView(){
     <div class="trialist">
       ${card(MUNIS.montornes)}
       ${card(MUNIS.cornella)}
+    </div>
+    <div class="row" style="justify-content:center;margin-top:18px">
+      <a class="btn ghost" href="#/config">⚙️ Configuració (sincronització i clau API)</a>
     </div>`;
   $$('[data-muni]').forEach(b=>b.addEventListener('click', ()=>{
     const id = b.dataset.muni;
     if (store.muni() !== id){ store.setMuni(id); DATA.temari = null; DATA._muni = null; }
-    location.hash = '#/';
-    render();
+    location.hash = '#/' + id + '/estudi';
   }));
+}
+
+/* ===========================================================================
+   VISTA: CONFIGURACIÓ GLOBAL (sincronització; clau API a la fase següent)
+   =========================================================================== */
+function configView(){
+  view.innerHTML = `
+    <a class="backlink" href="#/">← Tria d'oposició</a>
+    <h1>Configuració</h1>
+    <p class="lead">Aquests ajustos són globals: valen per a totes les oposicions i es desen en aquest dispositiu.</p>
+    ${syncCardHtml()}
+    <div class="card" style="margin-top:18px">
+      <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes, els resums i els casos són material
+      d'estudi generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
+    </div>`;
+  setupSync();
 }
 
 /* ===========================================================================
@@ -416,96 +458,45 @@ function dueThemes(){
     .sort((a,b)=>b.days-a.days);
 }
 
-function home(){
-  const m = muniConf();
-  const exams = store.exams();
-  const studied = Object.keys(store.studied()).length;
-  const last = exams[0];
-  const ready = contentReady();
-  const nMist = store.mistakeCount();
-
-  const mistCard = (ready && nMist) ? `
-    <div class="card mistcard" style="margin-top:18px">
-      <div class="between"><b>🔁 Banc d'errades</b><span class="pill amber">${nMist} pendents</span></div>
-      <p class="muted" style="margin:.3em 0 .7em">Preguntes que has fallat en exàmens. Amb 2 encerts seguits
-      surten del banc. Repassar-les és la manera més ràpida de pujar nota.</p>
-      <a class="btn primary" href="#/errades">Repassa les errades →</a>
-    </div>` : '';
-
-  const due = ready ? dueThemes() : [];
-  const tOf = n => (DATA.temari.temari||[]).find(x=>x.num===n);
-  const dueCard = due.length ? `
-    <div class="card duecard" style="margin-top:18px">
-      <div class="between"><b>📅 Et toca repassar</b><span class="pill amber">${due.length} tema(es)</span></div>
-      <p class="muted" style="margin:.3em 0 .5em">Repàs espaiat: als 7 dies del primer repàs i cada 30 després.
-      Quan els repassis, toca «Repassat avui» dins del tema.</p>
-      ${due.slice(0,5).map(d=>{
-        const t = tOf(d.num);
-        return `<a class="duelink" href="#/tema/${d.num}"><b>${d.num}.</b> ${esc(t?t.title:'')}
-          <span class="muted">· fa ${d.days} dies</span></a>`;
-      }).join('')}
-      ${due.length>5?`<p class="muted" style="margin:.5em 0 0;font-size:.85rem">…i ${due.length-5} més (mira'ls a Estudi).</p>`:''}
-    </div>` : '';
-
-  const muniBar = `
-    <div class="munibar">
-      <span class="munilabel">Oposició: <b>${esc(m.name)}</b></span>
-      <a class="btn ghost sm" href="#/tria">Canvia d'oposició</a>
-    </div>`;
-
-  const heroReady = `
-  <section class="hero">
-    <div class="eyebrow">Concurs-oposició · ${esc(m.short)}</div>
-    <h1>Prepara't l'oposició de ${esc(m.role.split('·')[0].trim().toLowerCase())}</h1>
-    <p class="lead">Simulador d'examen amb resums de tot el temari, correcció automàtica i historial.
-    Funciona al PC i al mòbil, fins i tot sense connexió.</p>
-    <div class="row" style="margin-top:14px">
-      <a class="btn primary lg" href="#/examen">📝 Començar examen</a>
-      <a class="btn lg" href="#/estudi">📚 Estudiar temari</a>
-    </div>
-  </section>
-
-  <div class="home-tiles">
-    <a class="tile" href="#/estudi"><span class="ic">📚</span><b>Resums del temari</b>
-      <span>Esquemes i punts clau de tot el temari, organitzats per blocs. ${studied} temes repassats.</span></a>
-    <a class="tile" href="#/examen"><span class="ic">📝</span><b>Examen tipus test</b>
-      <span>${DATA.questions.length} preguntes amb correcció instantània i penalització −25% per errada.</span></a>
-    <a class="tile" href="#/casos"><span class="ic">⚖️</span><b>Casos teòrico-pràctics</b>
-      <span>${DATA.cases.length} supòsits amb correcció per criteris (i opció de correcció amb Claude).</span></a>
-    <a class="tile" href="#/historial"><span class="ic">🕓</span><b>Historial i progrés</b>
-      <span>${exams.length} exàmens desats.${last?` Últim: ${last.apte?'apte ✓':'no apte'} (${fmt(last.total)}/70).`:''}</span></a>
-  </div>`;
-
-  const heroPrep = `
-  <section class="hero">
-    <div class="eyebrow">Oposició · ${esc(m.short)}</div>
-    <h1>Temari en preparació</h1>
-    <p class="lead">Els resums i les preguntes de l'oposició de <b>${esc(m.name)}</b> encara s'estan preparant.
-    Ben aviat hi haurà el temari complet, l'examen tipus test i els casos pràctics. Mentrestant, pots activar la
-    sincronització i preparar-te l'altra oposició disponible.</p>
-    <div class="row" style="margin-top:14px">
-      <a class="btn primary lg" href="#/tria">Canvia d'oposició</a>
-    </div>
-  </section>`;
-
-  view.innerHTML = muniBar + (ready ? heroReady : heroPrep) + dueCard + mistCard + syncCardHtml() + `
-  <div class="card" style="margin-top:18px">
-    <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes i els casos són material d'estudi
-    generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
-  </div>`;
-  setupSync();
-}
-
 /* ===========================================================================
-   VISTA: ESTUDI (llistat de temes)
+   VISTA: ESTUDI (pantalla principal de l'oposició)
    =========================================================================== */
 function estudi(){
   const studied = store.studied();
   const blocks = DATA.temari.blocks;
   const temari = DATA.temari.temari;
+  const m = muniConf();
+  const nMist = store.mistakeCount();
+  const tOf = n => temari.find(x=>x.num===n);
+
+  const mistCard = nMist ? `
+    <div class="card mistcard compact">
+      <div class="between"><b>🔁 Banc d'errades</b><span class="pill amber">${nMist} pendents</span></div>
+      <p class="muted" style="margin:.3em 0 .6em">Preguntes fallades: amb 2 encerts seguits surten del banc.</p>
+      <a class="btn primary sm" href="#/errades">Repassa les errades →</a>
+    </div>` : '';
+
+  const due = dueThemes();
+  const dueCard = due.length ? `
+    <div class="card duecard compact">
+      <div class="between"><b>📅 Et toca repassar</b><span class="pill amber">${due.length} tema(es)</span></div>
+      ${due.slice(0,5).map(d=>{
+        const t = tOf(d.num);
+        return `<a class="duelink" href="#/tema/${d.num}"><b>${d.num}.</b> ${esc(t?t.title:'')}
+          <span class="muted">· fa ${d.days} dies</span></a>`;
+      }).join('')}
+      ${due.length>5?`<p class="muted" style="margin:.5em 0 0;font-size:.85rem">…i ${due.length-5} més, marcats a la llista.</p>`:''}
+    </div>` : '';
+
   view.innerHTML = `
+    <div class="munibar">
+      <span class="munilabel">Oposició: <b>${esc(m.name)}</b></span>
+      <a class="btn ghost sm" href="#/">Canvia d'oposició</a>
+    </div>
+    ${dueCard}${mistCard}
     <h1>Estudi del temari</h1>
-    <p class="lead">Els 90 temes de l'Annex I, agrupats en blocs. Toca un tema per veure'n el resum amb esquemes.</p>
+    <p class="lead">Els ${temari.length} temes, agrupats en blocs. Toca un tema per estudiar-ne el resum, o
+    practica'l directament amb el quiz (test) i el cas pràctic. Toca els percentatges per veure en què falles.</p>
     <div class="search" style="margin:14px 0 6px">
       <span class="mag">🔎</span>
       <input id="q" type="text" placeholder="Cerca un tema, una llei, un concepte…" autocomplete="off">
@@ -520,9 +511,9 @@ function estudi(){
     const ts = stats[num];
     let html='';
     if (ts && ts.qTot){ const p=Math.round(ts.qOk/ts.qTot*100);
-      html+=`<span class="tstat ${pctClass(p)}" title="${ts.qOk} encerts de ${ts.qTot} preguntes contestades">test ${p}%</span>`; }
+      html+=`<a class="tstat ${pctClass(p)}" href="#/temahist/${num}" title="${ts.qOk} encerts de ${ts.qTot} preguntes contestades — toca per veure l'historial">test ${p}%</a>`; }
     if (ts && ts.cMax){ const p=Math.round(ts.cPts/ts.cMax*100);
-      html+=`<span class="tstat ${pctClass(p)}" title="punts de casos acumulats">casos ${p}%</span>`; }
+      html+=`<a class="tstat ${pctClass(p)}" href="#/temahist/${num}" title="punts de casos acumulats — toca per veure l'historial">casos ${p}%</a>`; }
     if (!html) html='<span class="tstat none">sense dades</span>';
     return html;
   }
@@ -546,12 +537,17 @@ function estudi(){
         const doneBadge = !done ? '' : (d && d.due
           ? `<span class="tstat mid" title="Toca tornar-lo a repassar">🔁 repassat fa ${d.days} dies</span>`
           : '<span class="tstat done">✓ repassat</span>');
-        html += `<a class="tema-item" href="#/tema/${t.num}">
-          <span class="tn">${t.num}</span>
-          <span class="tmid"><span class="tt">${esc(t.title)}</span>
+        html += `<div class="tema-item">
+          <a class="tn" href="#/tema/${t.num}">${t.num}</a>
+          <span class="tmid">
+            <a class="tt" href="#/tema/${t.num}">${esc(t.title)}</a>
             <span class="tstats">${doneBadge}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
           </span>
-        </a>`;
+          <span class="tactions">
+            <a class="pill practbtn" href="#/quiz/${t.num}" title="Quiz de 5 preguntes d'aquest tema">⚡ Quiz</a>
+            <a class="pill practbtn" href="#/casquiz/${t.num}" title="Cas pràctic d'aquest tema">⚖️ Cas</a>
+          </span>
+        </div>`;
       });
     });
     listEl.innerHTML = html || '<p class="muted">Cap tema coincideix amb la cerca.</p>';
@@ -625,7 +621,7 @@ function temaView(num){
         <button class="btn ${studied?'primary':''}" id="markbtn">${studied?'✓ Repassat':'Marcar com a repassat'}</button>
         ${dueInfo && dueInfo.due ? `<button class="btn" id="touchbtn" title="Actualitza la data de l'últim repàs">🔁 Repassat avui (fa ${dueInfo.days} dies)</button>` : ''}
         <a class="btn primary" href="#/quiz/${tema.num}">⚡ Quiz d'aquest tema (5 preguntes)</a>
-        <a class="btn ghost" href="#/examen?block=${tema.block}">Practicar aquest bloc →</a>
+        <a class="btn primary" href="#/casquiz/${tema.num}">⚖️ Cas d'aquest tema</a>
       </div>
     </article>
     <div class="row" style="margin-top:14px;justify-content:space-between">
@@ -646,7 +642,7 @@ function temaView(num){
     render();
   });
   const jump = byId('temajump');
-  if (jump) jump.addEventListener('change', e=>{ location.hash = '#/tema/' + e.target.value; });
+  if (jump) jump.addEventListener('change', e=>{ location.hash = '#/' + store.muni() + '/tema/' + e.target.value; });
 }
 
 function renderResum(r, tema){
@@ -759,7 +755,7 @@ function examenConfig(){
 
       <div class="field"><span>Preguntes tipus test (Prova 1)</span>
         <div class="seg" id="cfgN">
-          ${[10,20,40,50,60].map(n=>`<button data-v="${n}" class="${(s.n||20)===n?'on':''}">${n}</button>`).join('')}
+          ${[0,10,20,40,50,60].map(n=>`<button data-v="${n}" class="${(s.n??20)===n?'on':''}">${n===0?'Cap':n}</button>`).join('')}
         </div></div>
 
       <div class="field"><span>Casos teòrico-pràctics (Prova 2)</span>
@@ -773,19 +769,22 @@ function examenConfig(){
         (segons els teus resultats) i del banc d'errades.</span>
       </label>
 
-      <label class="field"><span>Cronòmetre</span>
-        <select id="cfgTimer">
-          <option value="0">Sense límit</option>
-          <option value="30">30 minuts</option>
-          <option value="60" selected>60 minuts</option>
-          <option value="90">90 minuts</option>
-        </select></label>
+      <label class="field weakfield">
+        <input type="checkbox" id="cfgNoTimer" ${s.noTimer?'checked':''}>
+        <span><b>Sense límit de temps</b> — si no el marques, el cronòmetre es calcula sol:
+        1 minut per pregunta de test i 10 minuts per cas pràctic (<span id="timerCalc"></span>).</span>
+      </label>
 
       <button class="btn primary block lg" id="startBtn" style="margin-top:8px">Començar examen →</button>
       <p class="muted" id="avail" style="margin:.7em 0 0;font-size:.85rem"></p>
     </div>`;
 
-  let cfg = { n:(s.n||20), cases:(s.cases??1), timer:60, weak: !!s.weak };
+  let cfg = { n:(s.n??20), cases:(s.cases??1), noTimer: !!s.noTimer, weak: !!s.weak };
+  function autoMinutes(){ return cfg.n*1 + cfg.cases*10; }
+  function updateTimerCalc(){
+    const el = byId('timerCalc'); if (!el) return;
+    el.textContent = `ara: ${autoMinutes()} minuts`;
+  }
   const themeCbs = ()=>$$('input[data-theme]');
   const blockCbs = ()=>$$('input[data-block]');
 
@@ -824,15 +823,16 @@ function examenConfig(){
   });
   if (preBlock) byId('themepick').open = true;
 
-  segHandler('cfgN', v=>{cfg.n=+v; store.setSetting('n',+v);});
-  segHandler('cfgCases', v=>{cfg.cases=+v; store.setSetting('cases',+v);});
-  byId('cfgTimer').addEventListener('change', e=>cfg.timer=+e.target.value);
+  segHandler('cfgN', v=>{cfg.n=+v; store.setSetting('n',+v); updateTimerCalc();});
+  segHandler('cfgCases', v=>{cfg.cases=+v; store.setSetting('cases',+v); updateTimerCalc();});
+  byId('cfgNoTimer').addEventListener('change', e=>{ cfg.noTimer = e.target.checked; store.setSetting('noTimer', e.target.checked); });
   byId('cfgWeak').addEventListener('change', e=>{ cfg.weak = e.target.checked; store.setSetting('weak', e.target.checked); });
   byId('startBtn').addEventListener('click', ()=>{
     if (!sel.size){ alert('Selecciona com a mínim un tema o un bloc.'); return; }
+    if (!cfg.n && !cfg.cases){ alert('Tria com a mínim preguntes de test o un cas pràctic.'); return; }
     if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si en comences un de nou. Vols continuar?')) return;
     store.clearPendingExam();
-    startExam({ ...cfg, themes:[...sel] });
+    startExam({ ...cfg, timer: cfg.noTimer ? 0 : autoMinutes(), themes:[...sel] });
   });
   if (pending){
     byId('resumeBtn').addEventListener('click', resumeExam);
@@ -841,6 +841,7 @@ function examenConfig(){
     });
   }
   refresh();
+  updateTimerCalc();
 }
 function segHandler(id, cb){
   byId(id).addEventListener('click', e=>{
@@ -934,19 +935,34 @@ function startExam(cfg){
    Es desa a l'historial com un examen normal, així alimenta les estadístiques. */
 function quizRoute(num){
   num = Number(num);
-  if (!num){ location.hash = '#/examen'; return; }
+  if (!num){ location.hash = '#/' + store.muni() + '/examen'; return; }
   if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si comences aquest quiz. Vols continuar?')){
-    location.hash = '#/tema/' + num; return;
+    location.hash = '#/' + store.muni() + '/tema/' + num; return;
   }
   store.clearPendingExam();
-  startExam({ themes:[num], n:5, cases:0, timer:0, quick:true });
+  startExam({ themes:[num], n:5, cases:0, timer:5, quick:true });
+}
+
+/* Ruta #/casquiz/N: pràctica d'un cas pràctic d'un sol tema (sense test). */
+function casquizRoute(num){
+  num = Number(num);
+  if (!num){ location.hash = '#/' + store.muni() + '/estudi'; return; }
+  if (!poolCases(new Set([num])).length){
+    alert('Aquest tema encara no té cas pràctic disponible.');
+    location.hash = '#/' + store.muni() + '/tema/' + num; return;
+  }
+  if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si comences aquest cas. Vols continuar?')){
+    location.hash = '#/' + store.muni() + '/tema/' + num; return;
+  }
+  store.clearPendingExam();
+  startExam({ themes:[num], n:0, cases:1, timer:10, quick:true });
 }
 
 /* Ruta #/errades: examen només amb les preguntes del banc d'errades. */
 function erradesRoute(){
-  if (!store.mistakeCount()){ location.hash = '#/examen'; return; }
+  if (!store.mistakeCount()){ location.hash = '#/' + store.muni() + '/examen'; return; }
   if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà. Vols continuar?')){
-    location.hash = '#/examen'; return;
+    location.hash = '#/' + store.muni() + '/examen'; return;
   }
   store.clearPendingExam();
   startExam({ mistakesOnly:true, n:0, cases:0, timer:0 });
@@ -955,7 +971,7 @@ function erradesRoute(){
 /* Reprèn l'examen desat (des de la configuració o l'historial). */
 function resumeExam(){
   const p = store.pendingExam();
-  if (!p){ location.hash = '#/examen'; return; }
+  if (!p){ location.hash = '#/' + store.muni() + '/examen'; return; }
   examState = { ...p, isExam: true, submitted: false };
   if (examState.paused === undefined) examState.paused = false;
   if (examState.remaining === undefined) examState.remaining = 0;
@@ -1253,6 +1269,9 @@ function renderResults(R){
         : scoreFromChecks(c.criteria||[], ans.checks, caseMax).points;
       const k = c.theme; (casePerf[k] ||= {pts:0,max:0});
       casePerf[k].pts += pts; casePerf[k].max += caseMax;
+      // Detall de l'intent per a l'historial del tema: criteris no coberts.
+      const missed = (c.criteria||[]).filter(cr=>!ans.checks[cr.id]).map(cr=>cr.label);
+      store.addCaseAttempt(k, { date: Date.now(), caseId: c.id, pts: +pts.toFixed(2), max: caseMax, missed });
     });
     store.saveExam({
       id:'ex_'+Date.now(), date:Date.now(),
@@ -1407,54 +1426,85 @@ function renderClaude(res, caseMax){
 }
 
 /* ===========================================================================
-   VISTA: CASOS (catàleg per practicar individualment)
+   VISTA: HISTORIAL D'UN TEMA (què has fallat al test i als casos)
    =========================================================================== */
-function casosList(){
-  const cs = DATA.cases;
-  view.innerHTML = `
-    <h1>Casos teòrico-pràctics</h1>
-    <p class="lead">${cs.length} supòsits per practicar la Prova 2. Pots fer-ne un de sol amb correcció per
-    criteris, o incloure'ls en un examen complet des d'<a href="#/examen">Examen</a>.</p>
-    <div id="caselist">${cs.map(c=>`
-      <a class="tema-item" href="#/cas/${esc(c.id)}">
-        <span class="tn">${c.theme}</span>
-        <span><span class="tt">${esc(c.title)}</span><br><span class="muted" style="font-size:.85rem">${esc((c.context||'').slice(0,90))}…</span></span>
-      </a>`).join('') || '<p class="muted">Encara no hi ha casos.</p>'}</div>`;
-}
+function temahistView(num){
+  num = parseInt(num,10);
+  const t = DATA.temari.temari.find(x=>x.num===num);
+  if (!t){ view.innerHTML='<p>Tema no trobat.</p>'; return; }
+  const stats = store.themeStats()[num];
+  const pctQ = stats && stats.qTot ? Math.round(stats.qOk/stats.qTot*100) : null;
+  const pctC = stats && stats.cMax ? Math.round(stats.cPts/stats.cMax*100) : null;
+  const cls = p => p>=75?'good':p>=50?'mid':'bad';
 
-function casView(id){
-  const c = DATA.cases.find(x=>x.id===id);
-  if (!c){ view.innerHTML='<p>Cas no trobat.</p>'; return; }
-  examState = { cfg:{block:'all'}, qs:[], cs:[c],
-    answers:[], caseAnswers:[{text:'',checks:{},claude:null}],
-    started:Date.now(), deadline:0, submitted:false };
-  const t = DATA.temari.temari.find(x=>x.num===c.theme);
+  // Evolució del tema als exàmens desats (del més antic al més recent).
+  const evo = store.exams().slice().reverse()
+    .map(e=>{
+      const q = e.themePerf && e.themePerf.q && e.themePerf.q[num];
+      const c = e.themePerf && e.themePerf.c && e.themePerf.c[num];
+      if (!q && !c) return null;
+      return { date: e.date, q, c };
+    }).filter(Boolean);
+
+  // Preguntes del tema actualment al banc d'errades.
+  const bank = store.mistakes();
+  const failed = DATA.questions
+    .filter(q => q.theme === num && q.id && bank[q.id])
+    .map(q => ({ q, info: bank[q.id] }));
+
+  // Intents de casos amb els criteris fallats.
+  const attempts = (store.caseAttempts()[num] || []).slice().reverse();
+
+  const evoHtml = evo.length ? `<div class="card"><h2 style="margin:0 0 6px">📈 Evolució en aquest tema</h2>
+    ${evo.map(x=>{
+      const d = new Date(x.date);
+      const ds = d.toLocaleDateString('ca-ES',{day:'2-digit',month:'short',year:'numeric'});
+      const parts = [];
+      if (x.q) parts.push(`test ${x.q.ok}/${x.q.tot}`);
+      if (x.c) parts.push(`cas ${fmt(x.c.pts)}/${fmt(x.c.max)} punts`);
+      return `<div class="histrow"><span class="muted">${ds}</span><span>${parts.join(' · ')}</span></div>`;
+    }).join('')}</div>` : '';
+
+  const failedHtml = failed.length ? `<div class="card">
+    <h2 style="margin:0 0 6px">❌ Preguntes que tens pendents de dominar</h2>
+    <p class="muted" style="margin:0 0 10px;font-size:.85rem">Són al banc d'errades: 2 encerts seguits les treuen.</p>
+    ${failed.map(({q,info})=>`
+      <div class="failq">
+        <p style="margin:0 0 4px;font-weight:500">${esc(q.q)} <span class="pill amber">${info.fails} errada(es)</span></p>
+        <p style="margin:0 0 4px" class="okline">✓ ${esc(q.options[q.correct])}</p>
+        <p class="muted" style="margin:0;font-size:.85rem">${esc(q.explain||'')}${q.article?` <i>(${esc(q.article)})</i>`:''}</p>
+      </div>`).join('')}
+    </div>` : '';
+
+  const attemptsHtml = attempts.length ? `<div class="card">
+    <h2 style="margin:0 0 6px">⚖️ Intents de casos pràctics</h2>
+    ${attempts.map(a=>{
+      const d = new Date(a.date);
+      const ds = d.toLocaleDateString('ca-ES',{day:'2-digit',month:'short',year:'numeric'});
+      const p = a.max ? Math.round(a.pts/a.max*100) : 0;
+      return `<div class="failq">
+        <p style="margin:0 0 4px"><span class="muted">${ds}</span> · <b>${fmt(a.pts)}/${fmt(a.max)}</b>
+          <span class="tstat ${cls(p)}">${p}%</span></p>
+        ${a.missed && a.missed.length
+          ? `<p style="margin:0;font-size:.9rem">Criteris fallats: ${a.missed.map(esc).join(' · ')}</p>`
+          : '<p class="muted" style="margin:0;font-size:.9rem">Tots els criteris coberts.</p>'}
+      </div>`;
+    }).join('')}</div>` : '';
+
   view.innerHTML = `
-    <a class="backlink" href="#/casos">← Tots els casos</a>
-    <div class="eyebrow">Tema ${c.theme}${t?' · '+esc(t.blockName):''}</div>
-    <h1>${esc(c.title)}</h1>
-    <div class="card">
-      <p><b>Context.</b> ${esc(c.context)}</p>
-      <p><b>Es demana.</b> ${esc(c.prompt)}</p>
-      <label class="field"><span>La teva resposta</span>
-        <textarea id="caseta" placeholder="Redacta la teva resposta jurídica i raonada…"></textarea></label>
-      <button class="btn primary block lg" id="corrBtn">Corregir aquest cas</button>
-    </div>`;
-  byId('caseta').addEventListener('input', e=>examState.caseAnswers[0].text=e.target.value);
-  byId('corrBtn').addEventListener('click', ()=>{
-    const ans = examState.caseAnswers[0];
-    const auto = autoMatch(ans.text, c.criteria||[]);
-    const checks={}; (c.criteria||[]).forEach(cr=>checks[cr.id]=auto[cr.id]?.matched||false);
-    ans.checks=checks; ans.auto=auto;
-    const caseResults=[{c,ans}];
-    view.innerHTML = `<a class="backlink" href="#/casos">← Tots els casos</a>
-      <h1>Correcció · ${esc(c.title)}</h1>
-      <div class="notice">Nota orientativa segons els criteris detectats. Ajusta les caselles o demana la
-      correcció amb Claude.</div><div id="reviewB"></div>
-      <div class="row" style="margin-top:16px"><a class="btn ghost" href="#/cas/${esc(c.id)}">Repetir</a>
-      <a class="btn ghost" href="#/casos">Altres casos</a></div>`;
-    renderReviewB(caseResults, 45);
-  });
+    <a class="backlink" href="#/estudi">← Tornar al temari</a>
+    <div class="eyebrow">Tema ${num} · ${esc(t.blockName||'')}</div>
+    <h1 style="font-size:1.5rem">${esc(t.title)}</h1>
+    <div class="row" style="margin:10px 0 16px;gap:8px;flex-wrap:wrap">
+      ${pctQ!==null?`<span class="tstat ${cls(pctQ)}">test ${pctQ}% (${stats.qOk}/${stats.qTot})</span>`:'<span class="tstat none">test: sense dades</span>'}
+      ${pctC!==null?`<span class="tstat ${cls(pctC)}">casos ${pctC}%</span>`:'<span class="tstat none">casos: sense dades</span>'}
+      <a class="pill practbtn" href="#/quiz/${num}">⚡ Quiz</a>
+      <a class="pill practbtn" href="#/casquiz/${num}">⚖️ Cas</a>
+      <a class="pill" href="#/tema/${num}">📖 Resum</a>
+    </div>
+    ${evoHtml}${failedHtml}${attemptsHtml}
+    ${!evo.length && !failed.length && !attempts.length
+      ? '<div class="card center"><p class="muted">Encara no has practicat aquest tema. Fes-ne un quiz o un cas!</p></div>' : ''}`;
 }
 
 /* ===========================================================================
