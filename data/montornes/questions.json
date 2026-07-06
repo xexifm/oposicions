@@ -13604,6 +13604,806 @@
    "explain": "GESTIÓ DE CONFLICTES: intervenir AVIAT (el conflicte latent escala), ESCOLTAR activament totes les parts, separar PERSONES de PROBLEMES i posicions d'INTERESSOS (Harvard), buscar solucions guanyar-guanyar, acordar compromisos concrets i fer-ne SEGUIMENT; si cal, mediació formal.",
    "source": "Habilitats directives",
    "article": "Gestió de conflictes"
+  },
+  {
+   "id": "t81q6",
+   "theme": 81,
+   "block": 17,
+   "q": "Què distingeix la piràmide de necessitats de Maslow com a teoria de la motivació?",
+   "options": [
+    "Sosté que l'única motivació real dels treballadors és la retribució econòmica variable lligada a la productivitat",
+    "Ordena les necessitats en nivells: les superiors (estima, autorealització) motiven quan les inferiors estan cobertes",
+    "Classifica els empleats en vuit tipus de personalitat i assigna a cadascun una recompensa estandarditzada",
+    "Defensa que la por a la sanció disciplinària és el motor principal del rendiment en el sector públic"
+   ],
+   "correct": 1,
+   "explain": "MASLOW: jerarquia de necessitats (fisiològiques → seguretat → socials/pertinença → estima/reconeixement → AUTOREALITZACIÓ); les necessitats satisfetes deixen de motivar i les d'ordre superior només operen amb les bàsiques cobertes; complementa Herzberg (higiene vs motivadors).",
+   "source": "Teories de la motivació",
+   "article": "Maslow; Herzberg"
+  },
+  {
+   "id": "t81q7",
+   "theme": 81,
+   "block": 17,
+   "q": "Què és l'escolta activa?",
+   "options": [
+    "Respondre immediatament a cada frase de l'interlocutor amb la pròpia opinió per demostrar coneixement del tema",
+    "Gravar totes les converses de treball per poder revisar-les posteriorment i utilitzar-les en cas de conflicte",
+    "Escoltar amb atenció plena per comprendre (no per respondre), amb parafraseig i preguntes de clarificació",
+    "Deixar parlar l'interlocutor mentre es consulta el correu electrònic, assentint de tant en tant amb el cap"
+   ],
+   "correct": 2,
+   "explain": "L'ESCOLTA ACTIVA: atenció plena a l'interlocutor (verbal i no verbal), sense interrompre ni jutjar, amb PARAFRASEIG ('si t'he entès bé...'), reflex emocional i preguntes obertes; és la base de la comunicació directiva, la gestió de conflictes i les entrevistes.",
+   "source": "Habilitats de comunicació",
+   "article": "Escolta activa"
+  },
+  {
+   "id": "t81q8",
+   "theme": 81,
+   "block": 17,
+   "q": "Quina tècnica assertiva serveix per fer una crítica constructiva?",
+   "options": [
+    "El retret públic davant de tot l'equip, perquè la vergonya és el mecanisme més eficaç de correcció de conductes",
+    "La ironia i el sarcasme continuats, que transmeten el missatge sense necessitat d'afrontar la conversa difícil",
+    "L'acumulació de greuges durant mesos per presentar-los tots junts a l'avaluació anual de l'acompliment",
+    "El missatge en primera persona (fets + efecte + petició de canvi), centrat en la conducta i no en la persona"
+   ],
+   "correct": 3,
+   "explain": "La crítica constructiva ASSERTIVA: en privat, sobre FETS concrets (no etiquetes), amb MISSATGES JO ('quan passa X, l'efecte és Y, et demano Z'), reconeixent el positiu (tècnica del sandvitx) i acordant el canvi; altres tècniques: disc ratllat, banc de boira, ajornament assertiu.",
+   "source": "Comunicació assertiva",
+   "article": "Tècniques assertives"
+  },
+  {
+   "id": "t81q9",
+   "theme": 81,
+   "block": 17,
+   "q": "Quins estils de comunicació es distingeixen habitualment i quin és el desitjable?",
+   "options": [
+    "Passiu, agressiu i assertiu (equilibra els drets propis i els dels altres): el desitjable és l'assertiu",
+    "Formal, informal i protocol·lari, i el desitjable és sempre el protocol·lari en qualsevol context organitzatiu",
+    "Escrit, oral i gestual, i el desitjable és l'escrit perquè deixa constància documental de totes les converses",
+    "Ascendent, descendent i horitzontal, i el desitjable és el descendent perquè reforça la cadena de comandament"
+   ],
+   "correct": 0,
+   "explain": "Estils: PASSIU (evita el conflicte, no expressa necessitats: frustració), AGRESSIU (imposa, desqualifica: deteriora relacions) i ASSERTIU (expressa opinions i límits amb respecte): l'assertivitat és l'estil eficaç per dirigir, dir que no i demanar canvis.",
+   "source": "Habilitats de comunicació",
+   "article": "Estils de comunicació"
+  },
+  {
+   "id": "t81q10",
+   "theme": 81,
+   "block": 17,
+   "q": "Què aporta el feedback (retorn) regular als col·laboradors?",
+   "options": [
+    "Serveix bàsicament per documentar expedients disciplinaris futurs amb proves escrites de les converses mantingudes",
+    "Orientació sobre el rendiment (reforç i correcció), motivació i desenvolupament professional de la persona",
+    "És un tràmit anual obligatori sense efectes pràctics que es limita a omplir el formulari d'avaluació corporatiu",
+    "Ha de reservar-se exclusivament per comunicar errors greus, perquè lloar la feina ben feta relaxa el rendiment"
+   ],
+   "correct": 1,
+   "explain": "El FEEDBACK regular (no només anual): RECONEIX la feina ben feta (reforç, motivació intrínseca) i CORREGEIX aviat les desviacions (concret, sobre conductes, amb propostes); alimenta el desenvolupament i evita sorpreses a l'avaluació; el reconeixement és un motivador de primer ordre (Herzberg).",
+   "source": "Habilitats directives",
+   "article": "Feedback i reconeixement"
+  },
+  {
+   "id": "t82q6",
+   "theme": 82,
+   "block": 16,
+   "q": "Quina informació ha de publicar activament un ajuntament segons la Llei 19/2014?",
+   "options": [
+    "Només el pressupost inicial de cada exercici, publicat al butlletí oficial de la província abans de l'1 de gener",
+    "Les dades personals dels empleats municipals, incloent-hi domicilis i telèfons, per facilitar el control ciutadà",
+    "Organització i càrrecs, retribucions, contractes, subvencions, pressupostos i comptes, i planejament urbanístic",
+    "Exclusivament les actes del ple, perquè la resta de la documentació municipal està protegida pel secret administratiu"
+   ],
+   "correct": 2,
+   "explain": "La PUBLICITAT ACTIVA (Llei 19/2014, títol II) obliga a publicar al PORTAL DE TRANSPARÈNCIA: organització institucional, alts càrrecs i retribucions, contractació (perfil), convenis i subvencions, gestió econòmica i pressupostària, plans i programes, planejament urbanístic i informació jurídica rellevant, de manera clara i reutilitzable.",
+   "source": "Llei 19/2014",
+   "article": "Títol II Llei 19/2014"
+  },
+  {
+   "id": "t82q7",
+   "theme": 82,
+   "block": 16,
+   "q": "Quins límits té el dret d'accés a la informació pública?",
+   "options": [
+    "Cap: el dret d'accés és absolut i cap circumstància no permet denegar la informació sol·licitada per un ciutadà",
+    "Els que decideixi discrecionalment cada alcalde per decret, atenent l'ús que el sol·licitant pensi fer de les dades",
+    "Només el pagament previ de la taxa corresponent, que legitima l'accés a qualsevol document sense cap altra restricció",
+    "Els taxats legalment (seguretat, investigacions, secrets, dades personals), aplicats de manera restrictiva i ponderada"
+   ],
+   "correct": 3,
+   "explain": "Els LÍMITS (arts. 20-25 Llei 19/2014): seguretat pública, investigacions sancionadores o penals, secret professional i propietat intel·lectual, interessos econòmics i comercials, igualtat de parts en processos... i DADES PERSONALS (ponderació; les dades especialment protegides exigeixen consentiment); s'apliquen restrictivament, amb proporcionalitat i possibilitat d'ACCÉS PARCIAL.",
+   "source": "Llei 19/2014",
+   "article": "Arts. 20-25 Llei 19/2014"
+  },
+  {
+   "id": "t82q8",
+   "theme": 82,
+   "block": 16,
+   "q": "En quin termini s'ha de resoldre una sol·licitud d'accés a la informació pública (Llei 19/2014)?",
+   "options": [
+    "Un mes, prorrogable per la meitat en casos de complexitat; el silenci és POSITIU amb els límits legals",
+    "Sis mesos improrrogables, amb silenci negatiu en tot cas, com qualsevol procediment iniciat a instància de part",
+    "Deu dies hàbils amb silenci negatiu; si no es respon, cal reiterar la sol·licitud davant el Síndic de Greuges",
+    "No hi ha termini: l'administració respon quan les seves disponibilitats de personal i servei ho permeten"
+   ],
+   "correct": 0,
+   "explain": "L'art. 33 Llei 19/2014: resolució i notificació en UN MES (prorrogable per la meitat amb justificació); el SILENCI és ESTIMATORI (positiu) llevat que un límit legal ho impedeixi; contra la denegació: recurs potestatiu de reposició i RECLAMACIÓ GRATUÏTA davant la GAIP.",
+   "source": "Llei 19/2014",
+   "article": "Arts. 33-42 Llei 19/2014"
+  },
+  {
+   "id": "t82q9",
+   "theme": 82,
+   "block": 16,
+   "q": "Què és el Registre de grups d'interès?",
+   "options": [
+    "El cens electoral especial de les entitats veïnals amb dret de vot ponderat en els processos participatius locals",
+    "El registre on s'inscriuen les persones i organitzacions que fan activitats d'influència en normes i polítiques",
+    "La llista d'empreses sancionades amb la prohibició de contractar amb les administracions públiques catalanes",
+    "L'inventari de béns immobles de les associacions declarades d'utilitat pública amb exempcions fiscals municipals"
+   ],
+   "correct": 1,
+   "explain": "El REGISTRE DE GRUPS D'INTERÈS (Llei 19/2014, títol IV): inscripció obligatòria de qui fa activitats d'INFLUÈNCIA (lobby) davant les administracions catalanes; comporta acceptar un codi de conducta i publicitat de les actuacions (agenda pública dels alts càrrecs amb grups d'interès).",
+   "source": "Llei 19/2014",
+   "article": "Títol IV Llei 19/2014"
+  },
+  {
+   "id": "t82q10",
+   "theme": 82,
+   "block": 16,
+   "q": "Quines conseqüències té l'incompliment de les obligacions de transparència?",
+   "options": [
+    "Cap conseqüència jurídica: la transparència és una simple recomanació de bones pràctiques sense força vinculant",
+    "La dissolució automàtica de la corporació local i la convocatòria d'eleccions anticipades al municipi afectat",
+    "Un règim sancionador específic (infraccions molt greus, greus i lleus) per a alts càrrecs i personal",
+    "Únicament la publicació del nom de l'ens incomplidor en una llista negra europea sense cap altre efecte jurídic"
+   ],
+   "correct": 2,
+   "explain": "La Llei 19/2014 (títol VII) tipifica INFRACCIONS en matèria de transparència, accés i bon govern (molt greus, greus, lleus) amb SANCIONS per a alts càrrecs (multes, destitució, inhabilitació) i personal (règim disciplinari); el control l'exerceixen també la GAIP, el Síndic i l'Oficina Antifrau.",
+   "source": "Llei 19/2014",
+   "article": "Títol VII Llei 19/2014"
+  },
+  {
+   "id": "t83q6",
+   "theme": 83,
+   "block": 17,
+   "q": "Quins elements defineixen la missió, la visió i els valors d'una organització?",
+   "options": [
+    "La missió és el pressupost anual; la visió, l'organigrama de comandaments, i els valors, el catàleg de llocs de treball",
+    "Són tres denominacions successives del mateix document estratègic segons la moda de gestió de cada dècada",
+    "La missió la fixa l'Estat, la visió la comunitat autònoma i els valors cada regidoria segons el seu programa electoral",
+    "La missió és la raó de ser; la visió, on vol arribar; els valors, els principis que guien l'actuació"
+   ],
+   "correct": 3,
+   "explain": "En planificació estratègica: MISSIÓ (raó de ser: què fem, per a qui), VISIÓ (imatge de futur desitjada) i VALORS (principis compartits que guien les conductes); d'aquests es deriven els EIXOS i objectius estratègics, que es despleguen en objectius operatius i plans d'acció.",
+   "source": "Planificació estratègica",
+   "article": "Missió, visió i valors"
+  },
+  {
+   "id": "t83q7",
+   "theme": 83,
+   "block": 17,
+   "q": "Com es despleguen els objectius estratègics en una organització (alineament en cascada)?",
+   "options": [
+    "Els objectius estratègics es tradueixen en operatius per àrees i en individuals, tots alineats i amb indicadors",
+    "Cada empleat fixa lliurement els seus objectius sense cap relació amb els de l'àrea ni amb el pla de mandat vigent",
+    "Els objectius es despleguen només en anys electorals, i la resta del mandat l'organització treballa sense fites",
+    "El desplegament consisteix a repartir el pressupost a parts iguals entre totes les regidories de la corporació"
+   ],
+   "correct": 0,
+   "explain": "El DESPLEGAMENT EN CASCADA: pla estratègic (mandat) → objectius d'ÀREA → objectius de SERVEI/unitat → objectius INDIVIDUALS; cada nivell contribueix al superior, amb indicadors i responsables; l'alineament evita esforços dispersos i permet avaluar la contribució de cadascú.",
+   "source": "Gestió per objectius",
+   "article": "Desplegament d'objectius"
+  },
+  {
+   "id": "t83q8",
+   "theme": 83,
+   "block": 17,
+   "q": "Què és un pla d'acció dins de la planificació operativa?",
+   "options": [
+    "El calendari de festes locals i actes institucionals que aprova la junta de govern local per a l'exercici següent",
+    "El document que concreta per a cada objectiu les accions, responsables, terminis, recursos i indicadors",
+    "Un informe jurídic preceptiu de la secretaria sobre la legalitat de les actuacions previstes al pressupost municipal",
+    "El protocol d'emergències que activa el centre de comandament davant episodis meteorològics adversos al municipi"
+   ],
+   "correct": 1,
+   "explain": "El PLA D'ACCIÓ operativitza l'estratègia: per a cada objectiu operatiu detalla ACCIONS concretes, RESPONSABLE, TERMINI, RECURSOS (humans, econòmics) i INDICADORS amb valors esperats; és l'instrument de seguiment quotidià (sovint anual, lligat al pressupost).",
+   "source": "Planificació operativa",
+   "article": "Plans d'acció"
+  },
+  {
+   "id": "t83q9",
+   "theme": 83,
+   "block": 17,
+   "q": "Quines qualitats ha de tenir un bon indicador?",
+   "options": [
+    "Ha de ser secret, conegut només per la direcció, per evitar que els serveis adaptin el seu comportament a la mesura",
+    "Com més indicadors millor: l'ideal és mesurar-ho absolutament tot encara que ningú no analitzi després les dades",
+    "Rellevant per a l'objectiu, mesurable amb dades fiables, comprensible, comparable i econòmic d'obtenir",
+    "Ha de canviar cada mes de definició i de fórmula per mantenir l'atenció dels comandaments sobre les novetats"
+   ],
+   "correct": 2,
+   "explain": "Un bon INDICADOR: RELLEVANT (mesura allò que importa de l'objectiu), FIABLE i factible (dades disponibles, fórmula clara, font i responsable), COMPRENSIBLE, COMPARABLE (sèrie temporal estable, benchmarking) i ECONÒMIC d'obtenir; pocs i bons (quadre de comandament) millor que molts i inútils.",
+   "source": "Gestió per objectius",
+   "article": "Disseny d'indicadors"
+  },
+  {
+   "id": "t83q10",
+   "theme": 83,
+   "block": 17,
+   "q": "Què aporta l'avaluació de l'acompliment (art. 20 TREBEP) a la gestió per objectius?",
+   "options": [
+    "És un examen anual de coneixements teòrics que decideix la pèrdua de la condició de funcionari en cas de suspens",
+    "Un sorteig anual entre el personal per repartir la productivitat de manera aleatòria i evitar greuges comparatius",
+    "Una enquesta anònima de clima laboral sense cap efecte sobre les persones ni sobre l'organització del treball",
+    "Mesura la conducta professional i el rendiment, amb efectes en la carrera, la formació i les retribucions"
+   ],
+   "correct": 3,
+   "explain": "L'art. 20 TREBEP: les administracions han d'establir sistemes d'AVALUACIÓ DE L'ACOMPLIMENT (conducta professional + rendiment/resultats) amb criteris de transparència, objectivitat, imparcialitat i no-discriminació; efectes: carrera horitzontal, formació, provisió i retribucions complementàries (productivitat).",
+   "source": "TREBEP",
+   "article": "Art. 20 TREBEP"
+  },
+  {
+   "id": "t84q6",
+   "theme": 84,
+   "block": 17,
+   "q": "Quines fases segueix el procés racional de presa de decisions?",
+   "options": [
+    "Definir el problema, fixar criteris, generar alternatives, avaluar-les, decidir, implantar i avaluar resultats",
+    "Intuïció inicial, consulta astrològica, decisió immediata i cerca posterior d'arguments que la justifiquin davant tercers",
+    "Delegació sistemàtica de tota decisió en el superior jeràrquic fins arribar a l'alcalde, que decideix per intuïció",
+    "Votació a mà alçada de tot el personal de l'àrea per a qualsevol qüestió, incloses les tècniques i les jurídiques"
+   ],
+   "correct": 0,
+   "explain": "El PROCÉS RACIONAL: 1) DEFINIR el problema (símptomes vs causes); 2) criteris i objectius de la decisió; 3) GENERAR alternatives; 4) AVALUAR-LES (cost-benefici, riscos, matrius); 5) DECIDIR; 6) IMPLANTAR (pla, comunicació); 7) AVALUAR resultats i aprendre; amb els límits de la racionalitat (informació, temps, biaixos).",
+   "source": "Presa de decisions",
+   "article": "Procés de decisió"
+  },
+  {
+   "id": "t84q7",
+   "theme": 84,
+   "block": 17,
+   "q": "Què són els biaixos cognitius en la presa de decisions i com es contraresten?",
+   "options": [
+    "Malalties professionals reconegudes a la seguretat social que donen dret a la jubilació anticipada del personal directiu",
+    "Errors sistemàtics de judici (confirmació, ancoratge, excés de confiança); es contraresten amb dades i mètode",
+    "Preferències polítiques dels tècnics municipals que el TREBEP obliga a declarar en un registre públic d'interessos",
+    "Errors aritmètics dels fulls de càlcul que es corregeixen instal·lant les actualitzacions del programari ofimàtic"
+   ],
+   "correct": 1,
+   "explain": "Els BIAIXOS: CONFIRMACIÓ (només veure el que confirma la idea prèvia), ANCORATGE (pes excessiu de la primera dada), STATU QUO, excés de confiança, efecte grup (groupthink)... Es mitiguen amb DADES i criteris explícits, advocat del diable, decisions col·legiades amb debat i revisió posterior.",
+   "source": "Presa de decisions",
+   "article": "Biaixos cognitius"
+  },
+  {
+   "id": "t84q8",
+   "theme": 84,
+   "block": 17,
+   "q": "Quins són els vuit passos del model de gestió del canvi de Kotter?",
+   "options": [
+    "Planificar, organitzar, dirigir i controlar, repetits dues vegades consecutives per assegurar-ne la interiorització",
+    "Descongelar, congelar, refredar, escalfar, ventilar, assecar, pintar i inaugurar, aplicats a qualsevol organització",
+    "Urgència, coalició, visió i estratègia, comunicació, facilitar l'acció, èxits a curt termini, consolidar i ancorar a la cultura",
+    "Diagnosticar, pressupostar, licitar, adjudicar, executar, certificar, recepcionar i liquidar el projecte de canvi"
+   ],
+   "correct": 2,
+   "explain": "KOTTER (8 passos): 1) sentit d'URGÈNCIA; 2) COALICIÓ rectora; 3) VISIÓ i estratègia; 4) COMUNICAR la visió; 5) empoderar i eliminar obstacles; 6) ÈXITS A CURT TERMINI (quick wins); 7) consolidar i aprofundir; 8) ANCORAR el canvi a la cultura. Complementa Lewin (descongelar-canviar-recongelar).",
+   "source": "Gestió del canvi",
+   "article": "Model de Kotter"
+  },
+  {
+   "id": "t84q9",
+   "theme": 84,
+   "block": 17,
+   "q": "Per què fracassen sovint els processos de canvi a les organitzacions públiques?",
+   "options": [
+    "Perquè el canvi organitzatiu està prohibit per la legislació de funció pública, que congela les estructures per llei",
+    "Perquè la ciutadania s'oposa per referèndum a qualsevol modificació del funcionament intern dels serveis municipals",
+    "Perquè els sindicats han de dissenyar íntegrament el projecte de canvi abans que la direcció el pugui conèixer",
+    "Per manca de lideratge i comunicació, resistències no gestionades i no consolidar els nous hàbits"
+   ],
+   "correct": 3,
+   "explain": "Causes de FRACÀS del canvi: manca de LIDERATGE compromès i de COMUNICACIÓ (rumors), no gestionar les RESISTÈNCIES (por, hàbits, pèrdua d'estatus: cal participació i formació), manca d'urgència, victòria declarada massa aviat i NO ANCORAR els nous processos (recaiguda); el canvi és procés, no acte.",
+   "source": "Gestió del canvi",
+   "article": "Resistències al canvi"
+  },
+  {
+   "id": "t84q10",
+   "theme": 84,
+   "block": 17,
+   "q": "Què és una matriu de decisió multicriteri?",
+   "options": [
+    "La taula que puntua cada alternativa contra criteris ponderats, per comparar opcions de manera estructurada",
+    "El document comptable que recull les fases d'autorització, disposició i reconeixement de l'obligació de despesa",
+    "L'organigrama de delegacions de signatura entre l'alcalde, els tinents d'alcalde i els regidors de govern",
+    "Un test psicotècnic de selecció de personal directiu basat en la rapidesa de càlcul mental sota pressió"
+   ],
+   "correct": 0,
+   "explain": "La MATRIU MULTICRITERI: es defineixen CRITERIS rellevants (cost, termini, risc, impacte, viabilitat jurídica), es PONDEREN, es puntua cada ALTERNATIVA i es comparen els totals; estructura la decisió, la fa TRANSPARENT i defensable, i explicita els judicis de valor; útil amb arbres de decisió i anàlisi cost-benefici.",
+   "source": "Presa de decisions",
+   "article": "Matrius de decisió"
+  },
+  {
+   "id": "t85q6",
+   "theme": 85,
+   "block": 17,
+   "q": "Quins principis ÈTICS recull l'art. 53 del TREBEP?",
+   "options": [
+    "Puntualitat, higiene personal, vestimenta formal i ús correcte del material d'oficina assignat a cada empleat públic",
+    "Objectivitat, integritat, neutralitat, imparcialitat, confidencialitat, transparència i exemplaritat, entre d'altres",
+    "Fidelitat personal a l'alcalde i al partit de govern, obediència cega i reserva absoluta sobre tota l'activitat municipal",
+    "Productivitat, competitivitat, agressivitat comercial i orientació al benefici econòmic de la corporació local"
+   ],
+   "correct": 1,
+   "explain": "L'art. 53 TREBEP (principis ÈTICS): respecte a la CE i l'ordenament, interès general per sobre de l'interès particular, OBJECTIVITAT, INTEGRITAT, neutralitat, IMPARCIALITAT, confidencialitat, dedicació, transparència, EXEMPLARITAT, austeritat, accessibilitat, eficàcia, honradesa i respecte a la igualtat.",
+   "source": "TREBEP",
+   "article": "Art. 53 TREBEP"
+  },
+  {
+   "id": "t85q7",
+   "theme": 85,
+   "block": 17,
+   "q": "Què és un conflicte d'interessos i com s'ha de gestionar?",
+   "options": [
+    "Una discrepància tècnica entre dos departaments municipals que resol el secretari mitjançant un informe jurídic",
+    "La rivalitat esportiva entre penyes locals que obliga a reforçar la policia municipal els dies de partit al camp",
+    "La col·lisió entre l'interès públic del càrrec i els privats de la persona; es gestiona amb abstenció i recusació",
+    "El desacord entre l'oposició i el govern municipal sobre l'ordre del dia de les sessions plenàries ordinàries"
+   ],
+   "correct": 2,
+   "explain": "CONFLICTE D'INTERESSOS: quan interessos PRIVATS (propis, familiars, econòmics) poden influir en l'exercici imparcial de la funció. Gestió: PREVENIR (declaracions d'activitats i béns, incompatibilitats), ABSTENIR-SE (art. 23 Llei 40/2015) i RECUSACIÓ (art. 24); el seu incompliment genera responsabilitat.",
+   "source": "Llei 40/2015 i integritat",
+   "article": "Arts. 23-24 Llei 40/2015"
+  },
+  {
+   "id": "t85q8",
+   "theme": 85,
+   "block": 17,
+   "q": "Què han d'incloure els sistemes d'integritat institucional (plans antifrau)?",
+   "options": [
+    "Únicament la contractació d'una assegurança de responsabilitat civil que cobreixi les indemnitzacions per corrupció",
+    "La videovigilància permanent de tots els despatxos i el control biomètric de les converses del personal municipal",
+    "Un jurament solemne anual de tots els empleats davant la bandera del municipi en audiència pública al saló de plens",
+    "Codi ètic, avaluació de riscos de corrupció, canals d'alerta amb protecció de l'informant, formació i seguiment"
+   ],
+   "correct": 3,
+   "explain": "Un SISTEMA D'INTEGRITAT: CODI ÈTIC o de conducta amb òrgan de seguiment, MAPA DE RISCOS (contractació, subvencions, urbanisme), CANALS D'ALERTA interna amb protecció de la persona informant (Llei 2/2023), formació, declaracions d'interessos i mesures de resposta; els plans antifrau són obligatoris per gestionar fons europeus.",
+   "source": "Integritat pública",
+   "article": "Llei 2/2023; plans antifrau"
+  },
+  {
+   "id": "t85q9",
+   "theme": 85,
+   "block": 17,
+   "q": "Quina protecció té la persona que alerta d'una infracció (Llei 2/2023)?",
+   "options": [
+    "La prohibició de represàlies, la confidencialitat de la identitat i mesures de suport, pels canals interns o externs",
+    "Cap: qui denuncia irregularitats del seu propi ajuntament comet deslleialtat i pot ser sancionat disciplinàriament",
+    "Una recompensa econòmica equivalent al 50% de l'import de les sancions que s'imposin gràcies a la seva denúncia",
+    "L'ascens automàtic a la primera vacant de comandament i dos anys de permís retribuït fora del lloc de treball"
+   ],
+   "correct": 0,
+   "explain": "La LLEI 2/2023 (protecció de l'informant): canals INTERNS obligatoris (també ens locals de més de 10.000 habitants), CONFIDENCIALITAT, PROHIBICIÓ DE REPRESÀLIES (nul·litat de les mesures adoptades) i suport; a Catalunya, l'Oficina Antifrau actua com a autoritat externa de protecció.",
+   "source": "Llei 2/2023",
+   "article": "Llei 2/2023"
+  },
+  {
+   "id": "t85q10",
+   "theme": 85,
+   "block": 17,
+   "q": "Com aplica un comandament la integritat en la direcció diària?",
+   "options": [
+    "Aplicant els criteris amb flexibilitat segons la simpatia personal i l'afinitat de cada membre de l'equip de treball",
+    "Amb l'exemplaritat, la transparència de les decisions, l'equitat en el tracte i la resposta ferma davant les males pràctiques",
+    "Delegant totes les decisions sensibles en subordinats perquè n'assumeixin la responsabilitat davant dels tribunals",
+    "Evitant deixar constància escrita de les decisions per protegir-se de futures auditories o comissions d'investigació"
+   ],
+   "correct": 1,
+   "explain": "INTEGRITAT DIÀRIA del comandament: EXEMPLARITAT (es lidera amb la conducta), decisions MOTIVADES i transparents, EQUITAT (mateixos criteris per a tothom), ús responsable de recursos i informació, rebuig actiu de regals i tractes de favor, i reacció davant les irregularitats (no mirar cap a una altra banda).",
+   "source": "Ètica pública",
+   "article": "Integritat directiva"
+  },
+  {
+   "id": "t86q6",
+   "theme": 86,
+   "block": 7,
+   "q": "Quines classes de personal preveu l'art. 8 del TREBEP?",
+   "options": [
+    "Únicament funcionaris de carrera i personal laboral fix, perquè la temporalitat està prohibida al sector públic",
+    "Personal de plantilla, personal de confiança política i becaris, segons la naturalesa del vincle pressupostari",
+    "Funcionaris de carrera, funcionaris interins, personal laboral (fix, indefinit o temporal) i personal eventual",
+    "Alts càrrecs, mitjans càrrecs i baixos càrrecs, segons el nivell de complement de destinació assignat al lloc"
+   ],
+   "correct": 2,
+   "explain": "L'art. 8 TREBEP: FUNCIONARIS DE CARRERA (vincle estatutari permanent), FUNCIONARIS INTERINS (necessitats transitòries: vacant, substitució, programes, acumulació), PERSONAL LABORAL (fix, indefinit no fix o temporal) i PERSONAL EVENTUAL (confiança i assessorament especial); a banda, el personal DIRECTIU professional (art. 13).",
+   "source": "TREBEP",
+   "article": "Art. 8 TREBEP"
+  },
+  {
+   "id": "t86q7",
+   "theme": 86,
+   "block": 7,
+   "q": "Què caracteritza el personal eventual (art. 12 TREBEP)?",
+   "options": [
+    "Accés per oposició lliure i permanència vitalícia en el lloc, amb reserva de plaça en cas de dedicar-se a la política",
+    "Contractació per empreses de treball temporal per cobrir les puntes estacionals de feina dels serveis municipals",
+    "Personal jubilat que col·labora voluntàriament i gratuïtament en tasques de suport a l'arxiu i la biblioteca municipal",
+    "Nomenament i cessament lliures per a funcions de confiança o assessorament; cessa quan cessa l'autoritat"
+   ],
+   "correct": 3,
+   "explain": "El PERSONAL EVENTUAL (art. 12): funcions de CONFIANÇA O ASSESSORAMENT ESPECIAL (no tasques ordinàries), nomenament i cessament LLIURES (cessa automàticament amb l'autoritat), retribucions públiques; el nombre i condicions els fixa el ple en l'àmbit local; no constitueix mèrit per a l'accés.",
+   "source": "TREBEP",
+   "article": "Art. 12 TREBEP"
+  },
+  {
+   "id": "t86q8",
+   "theme": 86,
+   "block": 7,
+   "q": "Què defineix el personal directiu professional (art. 13 TREBEP)?",
+   "options": [
+    "Exerceix funcions directives amb designació per mèrit, capacitat i idoneïtat, subjecte a avaluació per resultats",
+    "És el personal eventual de confiança política que dirigeix les campanyes institucionals de comunicació de l'alcaldia",
+    "Qualsevol funcionari del subgrup A1 amb més de vint anys d'antiguitat, que hi accedeix automàticament per edat",
+    "El personal laboral d'alta direcció de les empreses privades concessionàries dels serveis públics municipals"
+   ],
+   "correct": 0,
+   "explain": "El PERSONAL DIRECTIU (art. 13 TREBEP): desenvolupa funcions DIRECTIVES professionals; designació per MÈRIT, CAPACITAT i IDONEÏTAT amb publicitat i concurrència; subjecte a AVALUACIÓ per eficàcia i resultats; condicions no negociables col·lectivament; en règim laboral: contracte d'alta direcció.",
+   "source": "TREBEP",
+   "article": "Art. 13 TREBEP"
+  },
+  {
+   "id": "t86q9",
+   "theme": 86,
+   "block": 7,
+   "q": "Quan es pot autoritzar la compatibilitat amb una SEGONA activitat pública (Llei 53/1984)?",
+   "options": [
+    "Sempre que els horaris no coincideixin físicament, sense cap altra condició ni autorització administrativa prèvia",
+    "Excepcionalment, en supòsits taxats (professor universitari associat, sanitat), amb autorització i límits legals",
+    "Mai: la llei prohibeix de manera absoluta ocupar dos llocs públics, sense excepcions de cap mena en cap sector",
+    "Lliurement per als grups C1 i C2, que poden acumular fins a tres llocs de treball públics amb jornada completa"
+   ],
+   "correct": 1,
+   "explain": "La Llei 53/1984 (art. 3 i seg.): REGLA: un sol lloc públic; EXCEPCIONS taxades de segona activitat pública (professor universitari ASSOCIAT a temps parcial, activitats sanitàries determinades, recerca) amb AUTORITZACIÓ expressa, límits d'horari i de retribucions conjuntes.",
+   "source": "Llei 53/1984",
+   "article": "Arts. 3-7 Llei 53/1984"
+  },
+  {
+   "id": "t86q10",
+   "theme": 86,
+   "block": 7,
+   "q": "Quines activitats privades estan sempre prohibides al personal públic (Llei 53/1984)?",
+   "options": [
+    "Totes les activitats esportives, culturals o de lleure remunerades, incloses les fetes en cap de setmana o vacances",
+    "Qualsevol activitat de voluntariat en entitats sense ànim de lucre inscrites als registres públics d'associacions",
+    "Les relacionades amb els assumptes en què intervé o ha intervingut els darrers 2 anys, i les que comprometin la imparcialitat",
+    "L'administració del patrimoni personal i familiar i la producció literària, artística o científica ocasional"
+   ],
+   "correct": 2,
+   "explain": "L'art. 11-12 Llei 53/1984: PROHIBIDES les activitats privades relacionades amb els assumptes en què el funcionari INTERVINGUI o hagi intervingut EN ELS DARRERS 2 ANYS o hagi d'informar; EXEMPTES (art. 19): patrimoni personal/familiar, producció literària i científica, seminaris ocasionals... La resta d'activitats privades exigeixen RECONEIXEMENT de compatibilitat.",
+   "source": "Llei 53/1984",
+   "article": "Arts. 11-19 Llei 53/1984"
+  },
+  {
+   "id": "t87q6",
+   "theme": 87,
+   "block": 7,
+   "q": "Què és el clima laboral i com es mesura?",
+   "options": [
+    "La temperatura i la humitat relatives de les oficines, mesurades amb termòmetres homologats pel servei de prevenció",
+    "El nombre de dies de vaga convocats per any, únic paràmetre objectiu reconegut per mesurar l'ambient de treball",
+    "L'opinió exclusiva del regidor de recursos humans formada en les seves visites protocol·làries a les dependències",
+    "La percepció compartida de l'entorn de treball; es mesura amb enquestes periòdiques i indicadors com l'absentisme"
+   ],
+   "correct": 3,
+   "explain": "El CLIMA LABORAL: percepció col·lectiva sobre lideratge, comunicació, reconeixement, desenvolupament, càrrega i condicions; es mesura amb ENQUESTES de clima (anònimes, periòdiques) i senyals indirectes: absentisme, rotació, conflictivitat, queixes; els resultats exigeixen PLA D'ACCIÓ i retorn a l'equip.",
+   "source": "Gestió d'equips",
+   "article": "Clima laboral"
+  },
+  {
+   "id": "t87q7",
+   "theme": 87,
+   "block": 7,
+   "q": "Quin paper té la mediació en els conflictes interns d'un equip?",
+   "options": [
+    "Un tercer imparcial ajuda les parts a trobar una solució pròpia; és voluntària i confidencial",
+    "El mediador dicta una sentència vinculant i imposa sancions disciplinàries a la part que consideri culpable del conflicte",
+    "Serveix per documentar el conflicte davant la inspecció de treball i traslladar tota la responsabilitat a l'empresa",
+    "Substitueix el comandament en totes les seves funcions directives mentre duri el desacord entre els treballadors"
+   ],
+   "correct": 0,
+   "explain": "La MEDIACIÓ: un tercer IMPARCIAL (intern o extern) facilita el diàleg perquè les PARTS construeixin l'acord (no l'imposa); voluntària, CONFIDENCIAL i orientada al futur de la relació; útil quan el conflicte s'ha enquistat o hi ha desequilibri; l'acord es documenta i se'n fa seguiment.",
+   "source": "Gestió de conflictes",
+   "article": "Mediació"
+  },
+  {
+   "id": "t87q8",
+   "theme": 87,
+   "block": 7,
+   "q": "Com ha d'actuar l'organització davant d'un cas d'assetjament laboral?",
+   "options": [
+    "Esperar que les parts ho resolguin privadament, perquè l'assetjament pertany a l'esfera de les relacions personals",
+    "Aplicar el protocol: mesures cautelars, investigació confidencial i ràpida, i disciplinari si es confirma",
+    "Traslladar preventivament la víctima a un altre servei amb pèrdua de complements per apartar-la del problema",
+    "Arxivar la queixa si l'assetjador és un bon professional amb bons resultats i molta antiguitat a la casa"
+   ],
+   "correct": 1,
+   "explain": "Davant l'ASSETJAMENT (moral, sexual, discriminatori): activar el PROTOCOL obligatori: mesures CAUTELARS (separació, sense perjudicar la víctima), INVESTIGACIÓ confidencial, cèlere i amb garanties per a totes les parts, i si es confirma: règim DISCIPLINARI (falta molt greu, art. 95 TREBEP), reparació i prevenció; l'assetjament també és risc psicosocial (LPRL).",
+   "source": "Protocols d'assetjament",
+   "article": "Art. 95 TREBEP; LPRL"
+  },
+  {
+   "id": "t87q9",
+   "theme": 87,
+   "block": 7,
+   "q": "Què ha de fer el comandament amb les incidències quotidianes (absències, retards, queixes)?",
+   "options": [
+    "Ignorar-les totes per evitar conflictes i deixar que s'acumulin fins a l'expedient disciplinari de final de carrera",
+    "Comentar-les públicament a les reunions d'equip perquè la pressió del grup corregeixi els comportaments individuals",
+    "Tractar-les aviat i en privat amb la persona, amb criteris iguals per a tothom, documentant les rellevants",
+    "Enviar-les sistemàticament a recursos humans sense parlar mai amb la persona afectada per mantenir la distància"
+   ],
+   "correct": 2,
+   "explain": "Les INCIDÈNCIES es gestionen AVIAT i EN PRIVAT amb la persona (fets, escolta, acord), amb EQUITAT (mateixos criteris), deixant CONSTÀNCIA de les rellevants i escalant (RRHH, disciplinari) només les reiterades o greus; la gestió primerenca evita que degradin el clima i el servei.",
+   "source": "Gestió d'equips",
+   "article": "Gestió d'incidències"
+  },
+  {
+   "id": "t87q10",
+   "theme": 87,
+   "block": 7,
+   "q": "Quines pràctiques enforteixen la cohesió i el bon clima d'un equip?",
+   "options": [
+    "El secretisme informatiu, la competència interna per les retribucions i la rotació forçosa mensual de llocs de treball",
+    "La prohibició de converses personals durant la jornada i el control horari amb geolocalització contínua del personal",
+    "Els rànquings públics setmanals de productivitat individual amb fotografia dels tres últims classificats al taulell",
+    "Objectius compartits, reunions participatives, reconeixement, desenvolupament, equitat i celebració dels èxits"
+   ],
+   "correct": 3,
+   "explain": "COHESIÓ i bon clima: OBJECTIUS compartits i rols clars, comunicació transparent i reunions participatives, RECONEIXEMENT regular, oportunitats de FORMACIÓ i desenvolupament, EQUITAT en càrregues i condicions, gestió ràpida dels conflictes, i celebrar els èxits col·lectius; el comandament n'és el primer responsable.",
+   "source": "Gestió d'equips",
+   "article": "Cohesió i clima"
+  },
+  {
+   "id": "t88q6",
+   "theme": 88,
+   "block": 7,
+   "q": "Quines sancions preveu l'art. 96 del TREBEP?",
+   "options": [
+    "Separació del servei o acomiadament, suspensió ferma (màxim 6 anys), trasllat forçós, demèrit i apercebiment",
+    "Únicament multes econòmiques d'entre 100 i 3.000 euros descomptades de la nòmina en un màxim de dotze mensualitats",
+    "Treballs en benefici de la comunitat durant els caps de setmana i la retirada temporal del carnet de conduir",
+    "La pèrdua de l'antiguitat acumulada i la degradació al grup de titulació immediatament inferior a l'actual"
+   ],
+   "correct": 0,
+   "explain": "L'art. 96 TREBEP: SEPARACIÓ DEL SERVEI (funcionaris; interins: revocació) i ACOMIADAMENT disciplinari (laborals) per faltes molt greus; SUSPENSIÓ ferma de funcions i retribucions (màxim 6 ANYS); TRASLLAT FORÇÓS amb o sense canvi de localitat; DEMÈRIT (penalització en carrera i provisió); APERCEBIMENT i les que estableixin les lleis.",
+   "source": "TREBEP",
+   "article": "Art. 96 TREBEP"
+  },
+  {
+   "id": "t88q7",
+   "theme": 88,
+   "block": 7,
+   "q": "Quines mesures provisionals es poden adoptar durant l'expedient disciplinari?",
+   "options": [
+    "La retenció del passaport i la prohibició de sortir del terme municipal mentre duri la instrucció de l'expedient",
+    "La suspensió provisional de funcions (amb límits retributius i de durada) i altres per assegurar la instrucció",
+    "L'embargament preventiu del sou íntegre i dels béns immobles de l'expedientat fins a la resolució definitiva",
+    "Cap: la presumpció d'innocència impedeix qualsevol mesura fins que la sanció sigui ferma en via judicial"
+   ],
+   "correct": 1,
+   "explain": "L'art. 98 TREBEP: en incoar-se el procediment es poden adoptar MESURES PROVISIONALS per assegurar-ne l'eficàcia: la principal, la SUSPENSIÓ PROVISIONAL (en general màxim 6 mesos, amb retribucions bàsiques); si després no hi ha sanció o és menor, es compensa; també reassignacions funcionals temporals.",
+   "source": "TREBEP",
+   "article": "Art. 98 TREBEP"
+  },
+  {
+   "id": "t88q8",
+   "theme": 88,
+   "block": 7,
+   "q": "Qui és competent per incoar i resoldre els expedients disciplinaris en un ajuntament?",
+   "options": [
+    "El ple municipal en tot cas i per unanimitat, amb ratificació posterior del consell comarcal corresponent",
+    "El jutjat social del partit judicial, tant per al personal funcionari com per al personal laboral de la corporació",
+    "L'alcalde (prefectura superior de personal, delegable); la separació dels habilitats nacionals es reserva a l'Estat",
+    "El delegat sindical més antic de la corporació, com a garant de la imparcialitat del procediment disciplinari"
+   ],
+   "correct": 2,
+   "explain": "En l'àmbit local, la competència disciplinària correspon a l'ALCALDE (art. 21.1.h LRBRL: prefectura superior de personal), delegable; la SEPARACIÓ DEL SERVEI dels funcionaris d'HABILITACIÓ NACIONAL la resol l'administració estatal (i la sanció de faltes molt greus segueix el règim específic).",
+   "source": "LRBRL i TREBEP",
+   "article": "Art. 21.1.h LRBRL"
+  },
+  {
+   "id": "t88q9",
+   "theme": 88,
+   "block": 7,
+   "q": "Què passa si durant l'expedient disciplinari els fets poden ser delicte?",
+   "options": [
+    "No passa res: les vies penal i disciplinària són totalment independents i mai no s'interfereixen entre elles",
+    "L'expedient disciplinari s'arxiva definitivament i només queda la via penal, sense possible sanció administrativa",
+    "El funcionari queda automàticament separat del servei des del moment de la primera citació judicial com a investigat",
+    "Es comunica al ministeri fiscal; el disciplinari pot suspendre's i els fets provats de la sentència penal vinculen l'administració"
+   ],
+   "correct": 3,
+   "explain": "Si els fets poden ser DELICTE: comunicació al MINISTERI FISCAL; el procediment disciplinari es pot SUSPENDRE fins a la resolució penal quan hi ha identitat (non bis in idem); els FETS DECLARATS PROVATS per la sentència penal VINCULEN l'administració; la condemna penal no impedeix la sanció disciplinària si el fonament és diferent.",
+   "source": "TREBEP i Llei 40/2015",
+   "article": "Arts. 94 TREBEP i 31 Llei 40/2015"
+  },
+  {
+   "id": "t88q10",
+   "theme": 88,
+   "block": 7,
+   "q": "Quines faltes tipifica com a GREUS la normativa disciplinària (en defecte de llei autonòmica, RD 33/1986)?",
+   "options": [
+    "La desobediència, l'abús d'autoritat, les faltes reiterades d'assistència i la negligència greu, entre d'altres",
+    "Únicament el retard inferior a deu minuts en l'entrada a la feina quan es produeix més de tres cops el mateix mes",
+    "Qualsevol crítica pública a la corporació, incloent-hi les opinions emeses fora de la jornada en xarxes personals",
+    "L'ús del telèfon corporatiu per a trucades personals urgents relacionades amb la salut dels familiars directes"
+   ],
+   "correct": 0,
+   "explain": "Les faltes GREUS (desplegament reglamentari: RD 33/1986 supletori; a Catalunya, Decret 243/1995 i normativa pròpia): desobediència, abús d'autoritat, pertorbació del servei, faltes REITERADES d'assistència o puntualitat, negligència greu en la cura de documents i mitjans...; el TREBEP (art. 95) reserva a la llei les MOLT GREUS.",
+   "source": "TREBEP i reglaments",
+   "article": "Art. 95.3 TREBEP; RD 33/1986"
+  },
+  {
+   "id": "t89q6",
+   "theme": 89,
+   "block": 18,
+   "q": "Quines especialitats preventives integren un servei de prevenció?",
+   "options": [
+    "Dret administratiu, comptabilitat pública, urbanisme i arxivística, com a matèries transversals de tot servei públic",
+    "Seguretat en el treball, higiene industrial, ergonomia i psicosociologia aplicada, i medicina del treball",
+    "Primers auxilis, extinció d'incendis, salvament aquàtic i conducció d'ambulàncies del servei d'emergències local",
+    "Psicologia clínica, psiquiatria forense, fisioteràpia esportiva i nutrició, prestades per la mútua col·laboradora"
+   ],
+   "correct": 1,
+   "explain": "Les 4 ESPECIALITATS (RD 39/1997, Reglament dels serveis de prevenció): SEGURETAT en el treball (accidents), HIGIENE industrial (agents físics, químics, biològics: malalties professionals), ERGONOMIA I PSICOSOCIOLOGIA (càrrega física i mental, organització) i MEDICINA DEL TREBALL (vigilància de la salut).",
+   "source": "RD 39/1997",
+   "article": "RD 39/1997"
+  },
+  {
+   "id": "t89q7",
+   "theme": 89,
+   "block": 18,
+   "q": "Quins òrgans de participació dels treballadors preveu la LPRL?",
+   "options": [
+    "El consell d'administració laboral i l'assemblea general de treballadors amb dret de veto sobre la producció",
+    "La junta de personal exclusivament, que absorbeix totes les funcions preventives sense òrgans especialitzats",
+    "Els delegats de prevenció i el comitè de seguretat i salut (paritari, a partir de 50 treballadors)",
+    "El defensor del treballador municipal, elegit per sufragi universal entre els empleats jubilats de la corporació"
+   ],
+   "correct": 2,
+   "explain": "PARTICIPACIÓ (arts. 33-40 LPRL): DELEGATS DE PREVENCIÓ (designats per i entre els representants del personal, en nombre segons plantilla) amb competències de consulta, informació i vigilància; COMITÈ DE SEGURETAT I SALUT: òrgan PARITARI (empresa-delegats) obligatori a partir de 50 TREBALLADORS.",
+   "source": "LPRL",
+   "article": "Arts. 33-40 LPRL"
+  },
+  {
+   "id": "t89q8",
+   "theme": 89,
+   "block": 18,
+   "q": "Quins requisits han de complir els equips de protecció individual (EPI)?",
+   "options": [
+    "Ser adquirits per cada treballador al seu càrrec i renovats com a màxim cada deu anys segons el conveni col·lectiu",
+    "Únicament tenir un color d'alta visibilitat homologat, sense cap altre requisit tècnic ni de certificació europea",
+    "Estar fabricats amb materials reciclats i disposar de l'etiqueta ecològica europea de producte sostenible",
+    "Ser adequats al risc, ajustar-se a la persona, tenir marcatge CE i lliurar-se gratuïtament amb formació d'ús"
+   ],
+   "correct": 3,
+   "explain": "Els EPI (RD 773/1997): ÚLTIM recurs (quan els riscos no s'han pogut evitar ni limitar amb mesures col·lectives o organitzatives); requisits: adequats al risc, ergonòmics, compatibles entre si, amb MARCATGE CE; l'empresari els proporciona GRATUÏTAMENT amb informació i formació; el treballador té el deure d'usar-los i cuidar-los.",
+   "source": "RD 773/1997",
+   "article": "RD 773/1997; art. 17 LPRL"
+  },
+  {
+   "id": "t89q9",
+   "theme": 89,
+   "block": 18,
+   "q": "Quins riscos específics té el lloc de tècnic municipal amb visites d'obra?",
+   "options": [
+    "Els de l'oficina (pantalles, postures) més els de l'obra: caigudes, cops, atropellaments, pols i soroll (cal EPI)",
+    "Cap: les visites d'obra dels tècnics municipals estan exemptes de la normativa de prevenció per la seva brevetat",
+    "Únicament els riscos psicosocials derivats del tracte amb els contractistes i la ciutadania en període d'al·legacions",
+    "Radiacions ionitzants i risc biològic de nivell 4, propis de les instal·lacions nuclears i els laboratoris de seguretat"
+   ],
+   "correct": 0,
+   "explain": "El lloc de TÈCNIC amb treball de camp combina: OFICINA (PVD: pantalles, postures estàtiques, fatiga visual, càrrega mental) i VISITES D'OBRA: caigudes al mateix i a DIFERENT NIVELL, cops i atrapaments, atropellament per maquinària, pols, soroll, intempèrie: cal casc, calçat de seguretat, armilla d'alta visibilitat i seguir les instruccions del recinte.",
+   "source": "Avaluació de riscos",
+   "article": "Riscos del lloc de treball"
+  },
+  {
+   "id": "t89q10",
+   "theme": 89,
+   "block": 18,
+   "q": "Què s'ha de fer davant d'un risc greu i imminent (art. 21 LPRL)?",
+   "options": [
+    "Continuar treballant fins que la inspecció de treball autoritzi per escrit la paralització de l'activitat afectada",
+    "Informar-ne els treballadors i, si cal, interrompre l'activitat i abandonar el lloc, sense perjudici per al treballador",
+    "Convocar el comitè de seguretat i salut amb quinze dies d'antelació per debatre les mesures que cal adoptar",
+    "Traslladar el risc als treballadors amb menys antiguitat, que tenen el deure d'assumir les tasques més perilloses"
+   ],
+   "correct": 1,
+   "explain": "L'art. 21 LPRL (RISC GREU I IMMINENT): l'empresari ha d'INFORMAR, adoptar mesures i ordenar si cal la INTERRUPCIÓ i l'evacuació; el TREBALLADOR pot interrompre la seva activitat i abandonar el lloc sense patir cap perjudici; els representants poden acordar la paralització (majoria); la inspecció també pot paralitzar treballs.",
+   "source": "LPRL",
+   "article": "Art. 21 LPRL"
+  },
+  {
+   "id": "t90q6",
+   "theme": 90,
+   "block": 18,
+   "q": "Quins mitjans de coordinació preveu el RD 171/2004?",
+   "options": [
+    "Únicament un tauler d'anuncis compartit al vestíbul del centre on cada empresa penja les seves normes internes",
+    "La fusió obligatòria dels serveis de prevenció de totes les empreses concurrents en un de sol mentre duri l'obra",
+    "Intercanvi d'informació, reunions, instruccions, recursos preventius i persones encarregades de la coordinació",
+    "La contractació d'una assegurança col·lectiva que cobreixi solidàriament els accidents de totes les empreses"
+   ],
+   "correct": 2,
+   "explain": "El RD 171/2004 (art. 11): mitjans de coordinació: INTERCANVI D'INFORMACIÓ i comunicacions, REUNIONS periòdiques i conjuntes amb els comitès, IMPARTICIÓ D'INSTRUCCIONS, presència de RECURSOS PREVENTIUS i la designació de PERSONES ENCARREGADES de la coordinació (el mitjà preferent en activitats perilloses o complexes).",
+   "source": "RD 171/2004",
+   "article": "Arts. 11-14 RD 171/2004"
+  },
+  {
+   "id": "t90q7",
+   "theme": 90,
+   "block": 18,
+   "q": "Què és el recurs preventiu i quan és obligatòria la seva presència?",
+   "options": [
+    "El pressupost mínim que cada empresa ha de destinar a prevenció, fixat en el 2% de la seva facturació anual",
+    "El servei mèdic d'empresa que passa consulta al centre de treball almenys una vegada per setmana en horari laboral",
+    "La farmaciola i els extintors que tot centre de treball ha de tenir a disposició del personal en llocs visibles",
+    "La persona designada per vigilar el compliment de les mesures preventives en activitats de risc especial (alçada, espais confinats)"
+   ],
+   "correct": 3,
+   "explain": "El RECURS PREVENTIU (art. 32 bis LPRL): persona designada (treballador capacitat o membre del servei de prevenció) que ha de ser PRESENT quan: els riscos es poden agreujar per la CONCURRÈNCIA d'operacions, es fan activitats PERILLOSES reglamentàries (alçada, confinats, màquines sense marcatge...) o ho requereix la Inspecció; VIGILA el compliment de les mesures.",
+   "source": "LPRL",
+   "article": "Art. 32 bis LPRL"
+  },
+  {
+   "id": "t90q8",
+   "theme": 90,
+   "block": 18,
+   "q": "Quines responsabilitats té l'ajuntament quan actua com a promotor d'obres amb empreses concurrents?",
+   "options": [
+    "Les del promotor (RD 1627/1997): designar coordinador de seguretat i exigir l'estudi i el pla de seguretat",
+    "Cap: la condició d'administració pública eximeix l'ajuntament de tota la normativa de prevenció de riscos laborals",
+    "Només pagar les certificacions d'obra; tota la prevenció és responsabilitat exclusiva del contractista principal",
+    "Les mateixes que un treballador autònom sense personal al seu càrrec: cooperar quan li ho demanin les empreses"
+   ],
+   "correct": 0,
+   "explain": "L'ajuntament PROMOTOR (RD 1627/1997): designa els COORDINADORS de seguretat i salut (projecte i execució), fa elaborar l'ESTUDI de seguretat, exigeix i aprova (via coordinador) el PLA de seguretat, dona l'avís previ i vetlla pel compliment; com a TITULAR del centre: informació i instruccions (art. 24 LPRL i RD 171/2004).",
+   "source": "RD 1627/1997",
+   "article": "RD 1627/1997; art. 24 LPRL"
+  },
+  {
+   "id": "t90q9",
+   "theme": 90,
+   "block": 18,
+   "q": "Quina responsabilitat té l'empresari principal per l'incompliment preventiu dels seus contractistes (mateixa activitat)?",
+   "options": [
+    "Cap responsabilitat: cada empresa respon només dels seus treballadors sense cap comunicació de responsabilitats",
+    "Respon SOLIDÀRIAMENT amb contractistes i subcontractistes de les obligacions de prevenció durant la contracta",
+    "Una responsabilitat merament moral que es tradueix en una carta de disculpa als treballadors afectats per l'accident",
+    "La pèrdua automàtica de la personalitat jurídica i la inhabilitació perpètua per contractar amb el sector públic"
+   ],
+   "correct": 1,
+   "explain": "L'EMPRESARI PRINCIPAL (art. 24.3 LPRL i art. 42 LISOS): quan contracta obres o serveis de la SEVA PRÒPIA ACTIVITAT que es fan al seu centre, ha de VIGILAR el compliment preventiu i respon SOLIDÀRIAMENT de les obligacions imposades per la llei en relació amb els treballadors de contractes i subcontractes durant la vigència de la contracta.",
+   "source": "LPRL i LISOS",
+   "article": "Art. 24.3 LPRL; art. 42 LISOS"
+  },
+  {
+   "id": "t90q10",
+   "theme": 90,
+   "block": 18,
+   "q": "Com s'articula la coordinació quan diversos serveis municipals i empreses externes comparteixen un equipament?",
+   "options": [
+    "No cal cap coordinació si totes les empreses tenen els seus propis plans de prevenció aprovats pels seus serveis",
+    "N'hi ha prou que cada empresa pengi el seu pla de prevenció a la seva intranet corporativa per a consulta interna",
+    "L'ajuntament titular informa dels riscos del centre i dona instruccions; les empreses s'informen recíprocament",
+    "La coordinació només és exigible en obres de construcció, mai en equipaments administratius, esportius o culturals"
+   ],
+   "correct": 2,
+   "explain": "En equipaments compartits (edificis administratius amb neteja, vigilància, manteniment externs; escoles; pavellons): l'ajuntament TITULAR informa dels RISCOS DEL CENTRE i de les mesures d'emergència i dona INSTRUCCIONS; les empreses concurrents COOPEREN (informació recíproca dels seus riscos) i s'estableixen mitjans de coordinació proporcionats (art. 24 LPRL i RD 171/2004): la CAE s'aplica a TOT centre de treball, no només a les obres.",
+   "source": "RD 171/2004",
+   "article": "Art. 24 LPRL; RD 171/2004"
   }
  ]
 }
