@@ -150,7 +150,11 @@ export const store = {
     for (const [id, b] of Object.entries(all.munis||{})){
       munis[id] = { exams: b.exams||[], studied: b.studied||{}, mistakes: b.mistakes||{}, caseAttempts: b.caseAttempts||{} };
     }
-    return { v:2, ts:Date.now(), munis };
+    // La clau API viatja dins del bundle (que va XIFRAT amb el PIN al Gist),
+    // perquè no calgui escriure-la a cada dispositiu.
+    const settings = {};
+    if (all.settings.apiKey) settings.apiKey = all.settings.apiKey;
+    return { v:2, ts:Date.now(), munis, settings };
   },
   importBundle(b){
     if (!b || typeof b!=='object') throw new Error('Dades no vàlides.');
@@ -196,6 +200,10 @@ export const store = {
         mine.sort((a,b)=>(a.date||0)-(b.date||0));
         if (mine.length > 20) ca[th] = mine.slice(-20);
       });
+    }
+    // Adopta la clau API remota si aquí no n'hi ha cap (mai sobreescriu la local).
+    if (b.settings && b.settings.apiKey && !all.settings.apiKey){
+      all.settings.apiKey = b.settings.apiKey;
     }
     writeAll(all);
     const cur = muniBucket(all);

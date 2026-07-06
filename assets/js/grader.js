@@ -92,8 +92,8 @@ Avalua la resposta de l'aspirant. Retorna aquest JSON exacte:
       'anthropic-dangerous-direct-browser-access': 'true',
     },
     body: JSON.stringify({
-      model: model || 'claude-sonnet-4-6',
-      max_tokens: 1200,
+      model: model || 'claude-sonnet-5',
+      max_tokens: 3000,
       system: sys,
       messages: [{ role:'user', content: user }],
     }),
@@ -103,6 +103,7 @@ Avalua la resposta de l'aspirant. Retorna aquest JSON exacte:
     throw new Error('Error de l\'API ('+res.status+'): '+t.slice(0,200));
   }
   const data = await res.json();
+  if (data.stop_reason === 'max_tokens') throw new Error('Resposta de l\'API tallada (massa llarga).');
   const txt = (data.content || []).map(b => b.text || '').join('');
   const m = txt.match(/\{[\s\S]*\}/);
   if (!m) throw new Error('Resposta inesperada de l\'API.');
