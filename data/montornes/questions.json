@@ -12804,6 +12804,806 @@
    "explain": "L'art. 227 TRLUC: PRESCRIPCIÓ de les infraccions: MOLT GREUS 6 anys, GREUS 4 anys, LLEUS 2 anys, des de la consumació (en les contínues, des del cessament). Les SANCIONS prescriuen als 3 anys (molt greus), 2 (greus) i 1 (lleus). No confondre amb l'acció de RESTAURACIÓ (6 anys, art. 207).",
    "source": "TRLUC",
    "article": "Art. 227 TRLUC"
+  },
+  {
+   "id": "t71q6",
+   "theme": 71,
+   "block": 12,
+   "q": "Quines quanties màximes de multa fixa l'art. 219 TRLUC?",
+   "options": [
+    "Fins a 3.000 € les lleus, fins a 150.000 € les greus i fins a 1.500.000 € les molt greus",
+    "Fins a 750 € les lleus, fins a 1.500 € les greus i fins a 3.000 € les molt greus, com les ordenances locals",
+    "Fins a 6.000 € les lleus, fins a 60.000 € les greus i fins a 600.000 € les molt greus, actualitzables per decret",
+    "Un percentatge fix del 10% del valor de l'obra il·legal, sigui quina sigui la gravetat de la infracció comesa"
+   ],
+   "correct": 0,
+   "explain": "L'art. 219 TRLUC: multes de fins a 3.000 € (LLEUS), fins a 150.000 € (GREUS) i fins a 1.500.000 € (MOLT GREUS); l'import concret es gradua amb els criteris legals i mai no pot deixar la infracció més beneficiosa que el compliment.",
+   "source": "TRLUC",
+   "article": "Art. 219 TRLUC"
+  },
+  {
+   "id": "t71q7",
+   "theme": 71,
+   "block": 12,
+   "q": "Quines circumstàncies AGREUGEN la responsabilitat en les infraccions urbanístiques (art. 220)?",
+   "options": [
+    "L'edat avançada de l'infractor, el desconeixement de la norma i l'absència de títol acadèmic en matèria urbanística",
+    "Prevaler-se d'un càrrec públic, la reincidència, obstaculitzar la inspecció o persistir després de l'ordre de suspensió",
+    "Actuar en dies festius o en horari nocturn, i utilitzar maquinària pesant de potència superior a la declarada",
+    "La legalització posterior de les obres, la reparació voluntària del dany i la col·laboració amb la inspecció"
+   ],
+   "correct": 1,
+   "explain": "El TRLUC (arts. 220-221) preveu agreujants com prevaler-se d'un càrrec públic, cometre la infracció amb reincidència, obstaculitzar la tasca inspectora o persistir malgrat l'ordre de suspensió; les atenuants inclouen la reparació voluntària i la col·laboració.",
+   "source": "TRLUC",
+   "article": "Arts. 220-222 TRLUC"
+  },
+  {
+   "id": "t71q8",
+   "theme": 71,
+   "block": 12,
+   "q": "Com opera la reducció de la multa per restauració voluntària (art. 222 TRLUC)?",
+   "options": [
+    "La multa s'ajorna fins a deu anys sense interessos, però el seu import nominal es manté invariable en tot cas",
+    "Només s'aplica a les infraccions molt greus comeses en sòl no urbanitzable de protecció especial o zones verdes",
+    "Si l'infractor restaura la realitat física o jurídica abans que la sanció sigui ferma, la multa es redueix (fins al 80%)",
+    "La reducció requereix el pagament previ del triple del benefici obtingut i la renúncia expressa a tots els recursos"
+   ],
+   "correct": 2,
+   "explain": "L'art. 222 TRLUC incentiva l'esmena: la restauració VOLUNTÀRIA de la realitat física o jurídica alterada abans de la fermesa de la sanció comporta una reducció substancial de la multa (80%); el pagament immediat també pot comportar reduccions addicionals.",
+   "source": "TRLUC",
+   "article": "Art. 222 TRLUC"
+  },
+  {
+   "id": "t71q9",
+   "theme": 71,
+   "block": 12,
+   "q": "A qui corresponen els imports de les multes urbanístiques i a què s'han de destinar?",
+   "options": [
+    "A l'Estat en tot cas, que els redistribueix entre municipis segons la població de dret de cada padró municipal",
+    "Al denunciant particular com a premi per la col·laboració ciutadana amb la disciplina urbanística municipal",
+    "Es reparteixen a parts iguals entre totes les administracions amb competència concurrent sobre el territori",
+    "A l'administració que sanciona, destinats a finalitats urbanístiques (patrimoni públic de sòl, protecció de la legalitat)"
+   ],
+   "correct": 3,
+   "explain": "Els ingressos per multes urbanístiques corresponen a l'administració actuant i queden AFECTATS a finalitats de la mateixa política urbanística (patrimoni públic de sòl i habitatge, gestió i disciplina), no a despesa general.",
+   "source": "TRLUC",
+   "article": "Art. 224 TRLUC"
+  },
+  {
+   "id": "t71q10",
+   "theme": 71,
+   "block": 12,
+   "q": "Qui és competent per imposar les sancions urbanístiques municipals i amb quins llindars intervé la Generalitat?",
+   "options": [
+    "L'alcalde (delegable); la Generalitat en supòsits qualificats, especialment en SNU i quanties superiors",
+    "Sempre la comissió territorial d'urbanisme, perquè els municipis no tenen potestat sancionadora en matèria urbanística",
+    "El jutjat contenciós administratiu del partit judicial, previ informe vinculant del ministeri fiscal de medi ambient",
+    "El ple municipal per majoria absoluta en tot cas, sense possibilitat de delegació en cap altre òrgan de la corporació"
+   ],
+   "correct": 0,
+   "explain": "La competència sancionadora ordinària és MUNICIPAL (alcalde, delegable); la Generalitat exerceix la potestat en els supòsits legals qualificats (SNU, infraccions molt greus segons llindars) i subsidiàriament davant la inactivitat municipal, previ requeriment.",
+   "source": "TRLUC",
+   "article": "Arts. 217-218 TRLUC"
+  },
+  {
+   "id": "t72q6",
+   "theme": 72,
+   "block": 12,
+   "q": "Quin contingut ha de tenir una ordre d'execució?",
+   "options": [
+    "Únicament la referència cadastral de la finca i l'import de la taxa per l'expedició del document administratiu",
+    "Les obres concretes exigides, el termini per complir-les i l'advertiment de les conseqüències, amb audiència prèvia",
+    "Una simple recomanació tècnica sense termini, perquè el deure de conservació és voluntari per als propietaris",
+    "La declaració de ruïna de l'immoble i l'ordre de desallotjament immediat de tots els seus ocupants legals"
+   ],
+   "correct": 1,
+   "explain": "L'ordre d'execució, dictada amb AUDIÈNCIA prèvia i informe tècnic, ha de concretar LES OBRES exigides (seguretat, salubritat, ornament), el TERMINI d'inici i acabament i l'advertiment de les mesures davant l'incompliment (execució subsidiària, multes coercitives).",
+   "source": "TRLUC i RLUC",
+   "article": "Art. 197 TRLUC"
+  },
+  {
+   "id": "t72q7",
+   "theme": 72,
+   "block": 12,
+   "q": "Amb quins límits es poden imposar multes coercitives per incompliment d'una ordre d'execució?",
+   "options": [
+    "Només se'n pot imposar una per expedient i el seu import es descompta de la multa sancionadora que finalment s'imposi",
+    "Es poden imposar sense cap límit d'import, fins i tot superant el valor de mercat de l'immoble afectat per l'ordre",
+    "Es poden reiterar fins al compliment, amb els imports i periodicitat legals, i són compatibles amb la sanció",
+    "Estan prohibides en l'àmbit local: només la Generalitat pot utilitzar mitjans d'execució forçosa sobre els particulars"
+   ],
+   "correct": 2,
+   "explain": "Les MULTES COERCITIVES (art. 225 TRLUC; art. 103 Llei 39/2015) són mitjans d'EXECUCIÓ FORÇOSA: reiterables per lapses de temps suficients fins al compliment, dins dels imports legals, i NO tenen caràcter de sanció (compatibles amb la multa sancionadora).",
+   "source": "TRLUC",
+   "article": "Art. 225 TRLUC"
+  },
+  {
+   "id": "t72q8",
+   "theme": 72,
+   "block": 12,
+   "q": "Quins edificis estan subjectes a la inspecció tècnica obligatòria (ITE) a Catalunya?",
+   "options": [
+    "Només els edificis catalogats com a béns culturals d'interès nacional i els inclosos en catàlegs municipals de patrimoni",
+    "Tots els immobles del municipi cada 5 anys, incloent-hi naus industrials, aparcaments i construccions agrícoles",
+    "Els edificis d'oficines i comercials de més de 3 plantes, quedant-ne exclosos els residencials de qualsevol antiguitat",
+    "Els edificis plurifamiliars d'habitatges de més de 45 anys (i els unifamiliars en els termes del Decret 67/2015)"
+   ],
+   "correct": 3,
+   "explain": "El Decret 67/2015: la ITE és obligatòria per als edificis d'HABITATGES (plurifamiliars de més de 45 ANYS i unifamiliars amb les particularitats del decret): informe tècnic sobre l'estat de conservació i, si escau, certificat d'aptitud; és pressupòsit per a ajuts de rehabilitació.",
+   "source": "Decret 67/2015",
+   "article": "Decret 67/2015 (ITE)"
+  },
+  {
+   "id": "t72q9",
+   "theme": 72,
+   "block": 12,
+   "q": "Què passa si el cost de les obres ordenades supera el límit del deure de conservació?",
+   "options": [
+    "L'excés no és exigible al propietari: s'obren les vies dels ajuts públics o de la declaració de ruïna",
+    "El propietari ha d'assumir-lo sempre íntegrament, perquè el deure de conservació és absolut i sense cap límit econòmic",
+    "L'edifici passa automàticament a titularitat municipal per abandonament, sense indemnització ni procediment previ",
+    "Les obres queden prohibides i l'edifici s'ha de precintar fins que el mercat n'absorbeixi el cost de reparació"
+   ],
+   "correct": 0,
+   "explain": "El deure de conservació té un LÍMIT (el contingut normal del deure legal, referit al 50% del valor de reposició): per sobre, l'excés no és exigible: s'obren les vies dels AJUTS públics, de l'execució amb finançament compartit o, si l'edifici no es pot mantenir, de la RUÏNA.",
+   "source": "TRLUC",
+   "article": "Arts. 197-198 TRLUC"
+  },
+  {
+   "id": "t72q10",
+   "theme": 72,
+   "block": 12,
+   "q": "Quines facultats té la inspecció urbanística en les seves visites (art. 200 TRLUC)?",
+   "options": [
+    "Detenir persones i precintar comptes bancaris dels presumptes infractors, prèvia autorització del secretari municipal",
+    "Accedir a finques i obres, examinar documentació, aixecar actes amb presumpció de veracitat i requerir col·laboració",
+    "Imposar directament les sancions sobre el terreny mitjançant butlletes de denúncia de pagament immediat en efectiu",
+    "Enderrocar preventivament les obres presumptament il·legals en el mateix acte de la inspecció, sense expedient"
+   ],
+   "correct": 1,
+   "explain": "Els INSPECTORS tenen la condició d'AGENTS DE L'AUTORITAT: poden accedir a finques i obres (amb les garanties del domicili), examinar documents, obtenir mostres i aixecar ACTES que gaudeixen de PRESUMPCIÓ DE VERACITAT; l'entrada al domicili exigeix consentiment o autorització judicial.",
+   "source": "TRLUC",
+   "article": "Art. 200 TRLUC"
+  },
+  {
+   "id": "t73q6",
+   "theme": 73,
+   "block": 12,
+   "q": "Des de quan es compta el termini de prescripció de l'acció de restauració?",
+   "options": [
+    "Des de la data de la llicència d'obres inicial, encara que l'actuació executada no s'hi ajusti en absolut",
+    "Des que l'ajuntament té coneixement formal de la infracció mitjançant una denúncia registrada d'un particular",
+    "Des de l'acabament TOTAL de les obres o el cessament de l'ús; si l'obra és inacabada, el termini no comença a córrer",
+    "Des de la primera anotació de l'obra al cadastre immobiliari o, si no n'hi ha, des de la seva escripturació notarial"
+   ],
+   "correct": 2,
+   "explain": "El dies a quo de l'acció de restauració (art. 207 TRLUC) és l'ACABAMENT TOTAL de les obres (o el cessament de l'ús): mentre l'obra és inacabada o l'ús persisteix, el termini de 6 anys NO comença; la càrrega de provar la data d'acabament és de qui al·lega la prescripció.",
+   "source": "TRLUC",
+   "article": "Art. 207 TRLUC"
+  },
+  {
+   "id": "t73q7",
+   "theme": 73,
+   "block": 12,
+   "q": "Un cop dictada l'ordre de restauració, en quin termini s'ha d'executar (art. 223 TRLUC)?",
+   "options": [
+    "L'ordre caduca automàticament al cap de sis mesos si el particular no la compleix voluntàriament dins d'aquest termini",
+    "Es converteix en una servitud personal a favor de l'ajuntament que s'extingeix amb la mort del propietari infractor",
+    "Només es pot executar dins de l'any natural en què es va dictar, per raons de vinculació al pressupost municipal",
+    "L'administració l'ha d'executar (subsidiàriament si cal) dins dels terminis legals; la passivitat no consolida la il·legalitat"
+   ],
+   "correct": 3,
+   "explain": "Dictada l'ordre de restauració, l'administració ha de fer-la efectiva: multes coercitives o EXECUCIÓ SUBSIDIÀRIA a càrrec de l'obligat. La jurisprudència tracta l'execució com a obligació de l'administració; el TRLUC fixa terminis per a l'inici de l'execució forçosa i evita que la passivitat consolidi la il·legalitat.",
+   "source": "TRLUC",
+   "article": "Arts. 223 i 225 TRLUC"
+  },
+  {
+   "id": "t73q8",
+   "theme": 73,
+   "block": 12,
+   "q": "Pot legalitzar-se una obra quan l'acció de restauració ja ha prescrit?",
+   "options": [
+    "No: l'obra queda en fora d'ordenació o situació assimilada, sense dret a consolidació ni a més valor expropiatori",
+    "Sí: la prescripció equival a una llicència atorgada per silenci administratiu positiu amb tots els seus efectes",
+    "Sí, sempre que el propietari pagui una taxa de legalització equivalent al 4% del valor cadastral de la construcció",
+    "No: l'obra s'ha d'enderrocar igualment, perquè la prescripció només impedeix la multa però no la restauració física"
+   ],
+   "correct": 0,
+   "explain": "La prescripció de l'acció de restauració NO legalitza ni atorga cap dret: la construcció resta en FORA D'ORDENACIÓ o situació assimilada (només reparacions de salubritat i seguretat, cap consolidació ni augment de valor); una legalització exigiria llicència conforme al planejament.",
+   "source": "TRLUC",
+   "article": "Arts. 108 i 207 TRLUC"
+  },
+  {
+   "id": "t73q9",
+   "theme": 73,
+   "block": 12,
+   "q": "Com afecta la prescripció el sòl no urbanitzable ordinari (no protegit)?",
+   "options": [
+    "Tot el sòl no urbanitzable és imprescriptible, sense distincions entre el de protecció especial i l'ordinari",
+    "S'hi aplica el termini general de 6 anys; la imprescriptibilitat es reserva al SNU de protecció especial i equiparats",
+    "En SNU ordinari el termini es redueix a 2 anys per afavorir la consolidació dels usos agraris preexistents",
+    "La prescripció en SNU ordinari només corre si l'obra disposa de projecte tècnic visat pel col·legi professional"
+   ],
+   "correct": 1,
+   "explain": "La IMPRESCRIPTIBILITAT (art. 207) afecta el SNU de PROTECCIÓ ESPECIAL, les zones verdes, els espais lliures i el domini públic; en el SNU ORDINARI regeix el termini GENERAL de 6 anys (sens perjudici que la infracció pugui ser molt greu i de les limitacions del fora d'ordenació).",
+   "source": "TRLUC",
+   "article": "Art. 207 TRLUC"
+  },
+  {
+   "id": "t73q10",
+   "theme": 73,
+   "block": 12,
+   "q": "Quina diferència hi ha entre prescripció i caducitat en la protecció de la legalitat?",
+   "options": [
+    "Són termes sinònims que la legislació utilitza indistintament per referir-se a l'extinció de les responsabilitats",
+    "La caducitat només s'aplica als procediments iniciats a instància de part i la prescripció als iniciats d'ofici",
+    "La prescripció extingeix l'acció no exercida en termini; la caducitat mata el procediment concret, reiniciable si l'acció viu",
+    "La prescripció la declara el jutge civil i la caducitat l'alcalde, segons la naturalesa privada o pública del dret"
+   ],
+   "correct": 2,
+   "explain": "PRESCRIPCIÓ: extinció de l'ACCIÓ (restauradora o sancionadora) per no exercir-la en termini. CADUCITAT: mort del PROCEDIMENT concret per excedir el termini màxim de resolució; el procediment caducat es pot tornar a incoar si l'acció encara no ha prescrit (amb conservació limitada d'actes).",
+   "source": "Llei 39/2015 i TRLUC",
+   "article": "Arts. 25 i 95 Llei 39/2015"
+  },
+  {
+   "id": "t74q6",
+   "theme": 74,
+   "block": 12,
+   "q": "Per quina via es deixa sense efecte una llicència ANUL·LABLE (infracció no constitutiva de nul·litat)?",
+   "options": [
+    "Per simple decret d'alcaldia que revoqui la llicència sense procediment, atès que els actes propis són lliurement revocables",
+    "Per la revisió d'ofici de l'art. 106, que permet a l'ajuntament anul·lar directament els actes anul·lables sense jutge",
+    "Per denúncia davant el ministeri fiscal, que insta la nul·litat davant la sala civil del Tribunal Superior de Justícia",
+    "Per la declaració de lesivitat (4 anys) i la impugnació posterior davant la jurisdicció contenciosa (art. 107 Llei 39/2015)"
+   ],
+   "correct": 3,
+   "explain": "Els actes ANUL·LABLES declaratius de drets no es poden revisar directament: cal la DECLARACIÓ DE LESIVITAT (4 anys des del dictat, audiència dels interessats) i l'ulterior recurs contenciós administratiu de l'administració contra el seu propi acte (art. 107 Llei 39/2015).",
+   "source": "Llei 39/2015",
+   "article": "Art. 107 Llei 39/2015"
+  },
+  {
+   "id": "t74q7",
+   "theme": 74,
+   "block": 12,
+   "q": "Quan és NUL·LA de ple dret una llicència urbanística?",
+   "options": [
+    "En les causes de l'art. 47 Llei 39/2015; en particular, si atorga facultats contràries a l'ordenament en zones verdes o SNU protegit",
+    "Sempre que un veí la impugni dins del termini d'un mes des de la publicació de l'acord d'atorgament al tauler",
+    "Quan l'obra emparada no s'inicia en el termini de sis mesos des de la notificació de l'acte d'atorgament",
+    "Només quan ho declara el ple municipal per unanimitat de tots els seus membres en sessió extraordinària"
+   ],
+   "correct": 0,
+   "explain": "Són NUL·LES (art. 47 Llei 39/2015) les llicències dictades per òrgan manifestament incompetent, amb contingut impossible, prescindint totalment del procediment o contràries a l'ordenament quan atorguen facultats sense els requisits essencials; el TRLUC qualifica els supòsits de zones verdes i SNU protegit.",
+   "source": "Llei 39/2015 i TRLUC",
+   "article": "Art. 47 Llei 39/2015"
+  },
+  {
+   "id": "t74q8",
+   "theme": 74,
+   "block": 12,
+   "q": "Quin òrgan consultiu ha de dictaminar la revisió d'ofici d'una llicència a Catalunya?",
+   "options": [
+    "El Consell de Garanties Estatutàries, competent per dictaminar sobre l'adequació a l'Estatut de les normes locals",
+    "La Comissió Jurídica Assessora, amb dictamen preceptiu i favorable per poder declarar la nul·litat de la llicència",
+    "La Sindicatura de Comptes, en la seva funció de control de legalitat dels actes de contingut econòmic dels ens locals",
+    "El Síndic de Greuges, com a defensor dels drets dels ciutadans davant l'actuació de les administracions catalanes"
+   ],
+   "correct": 1,
+   "explain": "La revisió d'ofici per NUL·LITAT (art. 106 Llei 39/2015) exigeix el dictamen PRECEPTIU I FAVORABLE de l'òrgan consultiu: a Catalunya, la COMISSIÓ JURÍDICA ASSESSORA; sense dictamen favorable no es pot declarar la nul·litat de la llicència.",
+   "source": "Llei 39/2015",
+   "article": "Art. 106 Llei 39/2015; Llei 5/2005 CJA"
+  },
+  {
+   "id": "t74q9",
+   "theme": 74,
+   "block": 12,
+   "q": "Poden suspendre's els efectes d'una llicència mentre es tramita la seva revisió?",
+   "options": [
+    "No: la presumpció de validesa dels actes administratius impedeix qualsevol suspensió fins a la resolució ferma",
+    "Només el jutge contenciós pot suspendre els efectes d'una llicència, mai la mateixa administració que la va atorgar",
+    "Sí: es pot suspendre l'acte si la seva execució pot causar perjudicis d'impossible o difícil reparació (art. 108 Llei 39/2015)",
+    "La suspensió és automàtica per ministeri de la llei amb la simple incoació de l'expedient de revisió d'ofici"
+   ],
+   "correct": 2,
+   "explain": "L'art. 108 Llei 39/2015 permet, iniciat el procediment de revisió d'ofici, SUSPENDRE l'execució de l'acte quan pugui causar perjudicis d'impossible o difícil reparació: en llicències d'obres, evitar que l'obra avanci; en primera ocupació, impedir la consolidació de l'ús.",
+   "source": "Llei 39/2015",
+   "article": "Art. 108 Llei 39/2015"
+  },
+  {
+   "id": "t74q10",
+   "theme": 74,
+   "block": 12,
+   "q": "Quines conseqüències econòmiques té l'anul·lació d'una llicència per a l'ajuntament?",
+   "options": [
+    "Cap: l'anul·lació d'un acte administratiu mai no dona dret a indemnització, per definició legal expressa i taxativa",
+    "L'ajuntament ha de readquirir l'immoble pel doble del seu valor de mercat com a sanció per la seva mala gestió",
+    "La Generalitat assumeix automàticament totes les indemnitzacions derivades d'actes municipals anul·lats judicialment",
+    "Pot generar responsabilitat patrimonial envers el titular de bona fe que va confiar en la llicència anul·lada"
+   ],
+   "correct": 3,
+   "explain": "L'anul·lació de llicències pot comportar RESPONSABILITAT PATRIMONIAL (art. 48 TRLSRU): el titular de BONA FE que va confiar en la llicència i pateix la demolició o la pèrdua de drets pot ser indemnitzat, llevat que hi hagi dol, culpa o negligència greu seva.",
+   "source": "TRLSRU",
+   "article": "Art. 48 TRLSRU"
+  },
+  {
+   "id": "t75q6",
+   "theme": 75,
+   "block": 15,
+   "q": "Què és la solidaritat urbana segons la Llei 18/2007 (art. 73)?",
+   "options": [
+    "Que els municipis de més de 5.000 habitants i capitals de comarca assoleixin en 20 anys un 15% d'habitatge per a polítiques socials",
+    "Un impost municipal sobre els habitatges buits la recaptació del qual es destina íntegrament als serveis socials",
+    "El deure dels promotors de cedir gratuïtament el 30% de cada promoció a l'ajuntament per a lloguer assequible",
+    "Un programa de voluntariat veïnal per rehabilitar els habitatges de les persones grans amb pocs recursos econòmics"
+   ],
+   "correct": 0,
+   "explain": "L'art. 73 Llei 18/2007 (SOLIDARITAT URBANA): els municipis de MÉS DE 5.000 habitants i les capitals de comarca han d'assolir, en 20 anys, un parc mínim d'habitatge destinat a POLÍTIQUES SOCIALS del 15% dels habitatges principals.",
+   "source": "Llei 18/2007",
+   "article": "Art. 73 Llei 18/2007"
+  },
+  {
+   "id": "t75q7",
+   "theme": 75,
+   "block": 15,
+   "q": "Quines situacions defineix la Llei 18/2007 com a utilització anòmala d'un habitatge?",
+   "options": [
+    "El lloguer turístic legalitzat, la cessió a familiars de primer grau i l'ús com a segona residència de temporada",
+    "La desocupació permanent injustificada (més de 2 anys), la sobreocupació dels habitatges i l'infrahabitatge",
+    "Els habitatges de protecció oficial ocupats pels seus titulars legítims durant més de trenta anys consecutius",
+    "La instal·lació de despatxos professionals en pisos residencials amb el consentiment de la comunitat de propietaris"
+   ],
+   "correct": 1,
+   "explain": "L'art. 41 Llei 18/2007: són UTILITZACIONS ANÒMALES la DESOCUPACIÓ PERMANENT injustificada (habitatge buit més de 2 anys sense causa), la SOBREOCUPACIÓ (excés d'ocupants sobre els estàndards) i l'INFRAHABITATGE (immoble sense condicions per ser habitatge); habiliten mesures de foment i, si escau, sancionadores.",
+   "source": "Llei 18/2007",
+   "article": "Arts. 3 i 41 Llei 18/2007"
+  },
+  {
+   "id": "t75q8",
+   "theme": 75,
+   "block": 15,
+   "q": "Quina reserva mínima per a habitatge protegit exigeix la Llei 18/2007 en el planejament?",
+   "options": [
+    "El 50% del sostre total de qualsevol classe de sòl, incloent-hi el sòl urbà consolidat i els nuclis antics protegits",
+    "El 10% del nombre d'habitatges de cada llicència d'obres concedida en qualsevol classe de sòl residencial del municipi",
+    "El 30% del sostre residencial de nova implantació en sòl urbà no consolidat i urbanitzable (20% + 10% segons règims)",
+    "Cap reserva concreta: la llei ho remet íntegrament a la lliure decisió de cada ajuntament en el seu pla local d'habitatge"
+   ],
+   "correct": 2,
+   "explain": "L'art. 17.3 Llei 18/2007 (en relació amb el TRLUC): reserva mínima per a habitatge PROTEGIT del 30% del sostre residencial de nova implantació (sòl urbà no consolidat i sòl urbanitzable): 20% per a règim general i especial + 10% per a altres règims protegits (amb les modulacions legals).",
+   "source": "Llei 18/2007",
+   "article": "Art. 17 Llei 18/2007"
+  },
+  {
+   "id": "t75q9",
+   "theme": 75,
+   "block": 15,
+   "q": "Quines multes màximes preveu la Llei 18/2007 segons la gravetat de la infracció?",
+   "options": [
+    "Fins a 1.500.000 € les molt greus, fins a 150.000 € les greus i fins a 3.000 € les lleus, com en matèria urbanística",
+    "Fins a 100.000 € les molt greus, fins a 50.000 € les greus i fins a 10.000 € les lleus, revisables cada any per llei",
+    "Un màxim únic de 60.000 € per a qualsevol infracció, graduable segons la capacitat econòmica del subjecte infractor",
+    "Fins a 900.000 € les molt greus, fins a 90.000 € les greus i fins a 9.000 € les lleus"
+   ],
+   "correct": 3,
+   "explain": "L'art. 118 Llei 18/2007: multes de fins a 9.000 € (LLEUS), fins a 90.000 € (GREUS) i fins a 900.000 € (MOLT GREUS); els ingressos es destinen a polítiques d'habitatge. Molt greus: assetjament immobiliari, incompliment de la funció social qualificat, falsejar la qualificació...",
+   "source": "Llei 18/2007",
+   "article": "Art. 118 Llei 18/2007"
+  },
+  {
+   "id": "t75q10",
+   "theme": 75,
+   "block": 15,
+   "q": "Què protegeix la Llei 18/2007 en la transmissió i l'arrendament d'habitatges (consumidors)?",
+   "options": [
+    "El dret a la informació (oferta i publicitat vinculants), els requisits d'habitabilitat i el lliurament de la cèdula i el certificat energètic",
+    "Únicament el preu màxim de venda dels habitatges lliures, que fixa anualment el departament competent en habitatge",
+    "La reserva del 50% de cada promoció privada per a veïns empadronats al municipi durant un mínim de deu anys",
+    "L'obligació de vendre els habitatges exclusivament mitjançant agents de la propietat immobiliària col·legiats"
+   ],
+   "correct": 0,
+   "explain": "La Llei 18/2007 (títol VI) protegeix els CONSUMIDORS: publicitat i oferta VINCULANTS, informació i documentació precontractual completa, requisits d'HABITABILITAT, lliurament de la CÈDULA (i certificació energètica), garanties de quantitats a compte i regulació de la intermediació.",
+   "source": "Llei 18/2007",
+   "article": "Títol VI Llei 18/2007"
+  },
+  {
+   "id": "t76q6",
+   "theme": 76,
+   "block": 15,
+   "q": "Què estableix l'art. 46 de l'Estatut sobre el medi ambient?",
+   "options": [
+    "La competència exclusiva de l'Estat sobre tots els espais naturals protegits situats en territori de Catalunya",
+    "Els principis rectors: desenvolupament sostenible, protecció del medi i utilització racional dels recursos naturals",
+    "El dret de propietat privada il·limitat sobre els recursos naturals dels terrenys de titularitat particular",
+    "L'obligació de referèndum previ per a qualsevol norma ambiental que afecti més d'una comarca del territori català"
+   ],
+   "correct": 1,
+   "explain": "L'art. 46 EAC (principis rectors) mana als poders públics la protecció del MEDI AMBIENT amb el DESENVOLUPAMENT SOSTENIBLE, la utilització racional dels recursos i el principi 'qui contamina paga'; l'art. 27 recull els DRETS ambientals de les persones (informació, participació).",
+   "source": "EAC 2006",
+   "article": "Arts. 27 i 46 EAC"
+  },
+  {
+   "id": "t76q7",
+   "theme": 76,
+   "block": 15,
+   "q": "Com es reparteixen les competències ambientals entre l'Estat i la Generalitat (art. 144 EAC)?",
+   "options": [
+    "La Generalitat té competència exclusiva i excloent, sense que cap norma estatal pugui aplicar-se al territori català",
+    "Tot el medi ambient és competència exclusiva de l'Estat i la Generalitat només hi actua per delegació expressa anual",
+    "L'Estat dicta la legislació bàsica (art. 149.1.23 CE) i la Generalitat desenvolupa, executa i pot fixar normes addicionals de protecció",
+    "Les competències corresponen íntegrament als municipis en virtut del principi constitucional d'autonomia local"
+   ],
+   "correct": 2,
+   "explain": "El repartiment: l'ESTAT dicta la LEGISLACIÓ BÀSICA (art. 149.1.23 CE); la GENERALITAT (art. 144 EAC) té competència COMPARTIDA en medi ambient (desenvolupament legislatiu i execució) i pot establir NORMES ADDICIONALS DE PROTECCIÓ (més exigents, mai menys).",
+   "source": "CE i EAC",
+   "article": "Art. 149.1.23 CE; art. 144 EAC"
+  },
+  {
+   "id": "t76q8",
+   "theme": 76,
+   "block": 15,
+   "q": "Quina norma regula l'avaluació ambiental de plans i programes (avaluació ambiental estratègica)?",
+   "options": [
+    "El Decret 112/2010, del reglament d'espectacles públics i activitats recreatives, en la seva disposició final quarta",
+    "La Llei 11/2009, que sotmet tots els plans urbanístics a la llicència municipal d'establiments oberts al públic",
+    "Cap: els plans i programes públics estan exempts d'avaluació ambiental per raó de l'interès general que persegueixen",
+    "La Llei estatal 21/2013 d'avaluació ambiental (bàsica), amb les especialitats catalanes de la Llei 6/2009"
+   ],
+   "correct": 3,
+   "explain": "L'AVALUACIÓ AMBIENTAL ESTRATÈGICA de PLANS I PROGRAMES (i la d'impacte de PROJECTES) es regeix per la LLEI 21/2013 estatal (bàsica), amb el desplegament català (Llei 6/2009 d'avaluació de plans i programes, en el que resti vigent): ordinària o simplificada segons els efectes.",
+   "source": "Llei 21/2013",
+   "article": "Llei 21/2013; Llei 6/2009"
+  },
+  {
+   "id": "t76q9",
+   "theme": 76,
+   "block": 15,
+   "q": "Quins objectius fixa la Llei 16/2017 del canvi climàtic de Catalunya?",
+   "options": [
+    "Reduir les emissions i la vulnerabilitat, avançar cap a la neutralitat de carboni, amb instruments com el Fons Climàtic",
+    "Prohibir immediatament tota activitat industrial amb emissions de CO2 i tancar les centrals de cicle combinat en un any",
+    "Transferir a l'Estat totes les competències catalanes en matèria d'energia i qualitat de l'aire per unificar la gestió",
+    "Crear un impost sobre l'aigua embotellada i destinar-ne la recaptació a la promoció turística de les zones de muntanya"
+   ],
+   "correct": 0,
+   "explain": "La Llei 16/2017 fixa objectius de MITIGACIÓ (reducció d'emissions per assolir la neutralitat), d'ADAPTACIÓ (reduir la vulnerabilitat) i instruments: pressupostos de carboni, FONS CLIMÀTIC, impost sobre emissions dels vehicles, perspectiva climàtica en plans i pressupostos.",
+   "source": "Llei 16/2017",
+   "article": "Llei 16/2017 del canvi climàtic"
+  },
+  {
+   "id": "t76q10",
+   "theme": 76,
+   "block": 15,
+   "q": "Quin paper tenen els ens locals en la política ambiental catalana?",
+   "options": [
+    "Cap: la política ambiental és competència exclusiva de la Generalitat i els municipis només executen ordres superiors",
+    "Competències pròpies (residus, sorolls, llicències ambientals) i ordenances més exigents, i participen en la planificació",
+    "Només recapten els impostos ambientals autonòmics a canvi d'una comissió de gestió sobre la recaptació obtinguda",
+    "Es limiten a designar un regidor de medi ambient amb funcions honorífiques i de representació protocol·lària"
+   ],
+   "correct": 1,
+   "explain": "Els ENS LOCALS: competències en residus municipals, contaminació acústica i lumínica, aigües residuals urbanes, intervenció d'activitats (llicència ambiental annex II, comunicacions annex III), inspecció i sanció; ORDENANCES ambientals (normes addicionals) i participació en plans.",
+   "source": "LRBRL i legislació sectorial",
+   "article": "Art. 25 LRBRL; Llei 20/2009"
+  },
+  {
+   "id": "t77q6",
+   "theme": 77,
+   "block": 16,
+   "q": "Quins sistemes de signatura admeten les administracions per als interessats (art. 10 Llei 39/2015)?",
+   "options": [
+    "Exclusivament el DNI electrònic amb lector físic homologat; qualsevol altre certificat digital està legalment prohibit",
+    "Només la signatura manuscrita digitalitzada mitjançant tauletes tàctils instal·lades a les oficines d'assistència",
+    "Certificats qualificats de signatura i de segell, i altres sistemes que les administracions considerin vàlids (claus concertades)",
+    "El número de telèfon mòbil verificat amb una simple trucada perduda al servei automatitzat de la seu electrònica"
+   ],
+   "correct": 2,
+   "explain": "L'art. 10 Llei 39/2015: sistemes admesos: signatura electrònica QUALIFICADA i avançada (certificats qualificats), SEGELL electrònic qualificat i avançat, i QUALSEVOL ALTRE sistema que les administracions considerin vàlid (claus concertades: l'ecosistema idCAT Mòbil / Cl@ve), amb registre previ.",
+   "source": "Llei 39/2015",
+   "article": "Arts. 9-10 Llei 39/2015"
+  },
+  {
+   "id": "t77q7",
+   "theme": 77,
+   "block": 16,
+   "q": "Què és la seu electrònica d'una administració?",
+   "options": [
+    "El domicili social de l'empresa tecnològica adjudicatària del contracte de manteniment del web institucional",
+    "El compte oficial de l'administració a les xarxes socials on es publiquen les notes de premsa i les convocatòries",
+    "L'arxiu físic municipal digitalitzat on es custodien les còpies autèntiques dels expedients en paper anteriors al 2015",
+    "L'adreça electrònica de titularitat de l'administració, responsable de la integritat, veracitat i actualització dels seus continguts"
+   ],
+   "correct": 3,
+   "explain": "La SEU ELECTRÒNICA (art. 38 Llei 40/2015): adreça electrònica de titularitat d'una administració, amb RESPONSABILITAT sobre integritat, veracitat i actualització; s'hi accedeix als serveis, al registre, al tauler d'edictes i a les notificacions; requereix comunicació segura (certificat de seu).",
+   "source": "Llei 40/2015",
+   "article": "Art. 38 Llei 40/2015"
+  },
+  {
+   "id": "t77q8",
+   "theme": 77,
+   "block": 16,
+   "q": "Què és l'actuació administrativa automatitzada (art. 41 Llei 40/2015)?",
+   "options": [
+    "L'acte produït íntegrament per mitjans electrònics sense intervenció directa d'un empleat públic, signat amb segell electrònic o CSV",
+    "Qualsevol tràmit que el ciutadà fa des de casa seva mitjançant el formulari disponible a la seu electrònica municipal",
+    "La delegació de la signatura de l'alcalde en el regidor de nova tecnologia per als expedients de menor quantia",
+    "Els avisos publicitaris que l'administració envia massivament per correu electrònic als ciutadans subscrits al butlletí"
+   ],
+   "correct": 0,
+   "explain": "L'ACTUACIÓ AUTOMATITZADA (art. 41 Llei 40/2015): actes produïts per un sistema d'informació SENSE intervenció directa d'empleat públic (liquidacions massives, registres, certificats); cal definir l'òrgan responsable i signar amb SEGELL ELECTRÒNIC o CODI SEGUR DE VERIFICACIÓ (CSV).",
+   "source": "Llei 40/2015",
+   "article": "Arts. 41-42 Llei 40/2015"
+  },
+  {
+   "id": "t77q9",
+   "theme": 77,
+   "block": 16,
+   "q": "Com han de fer les notificacions les administracions quan l'interessat no està obligat a la via electrònica?",
+   "options": [
+    "Sempre en paper mitjançant agents notificadors municipals, perquè la via electrònica és exclusiva de les empreses",
+    "L'interessat pot triar el mitjà (paper o electrònic) i modificar la tria en qualsevol moment del procediment",
+    "Només mitjançant la publicació al BOE, que substitueix qualsevol notificació personal des de la reforma del 2015",
+    "Per burofax amb justificant de recepció en tot cas, a càrrec econòmic de la persona interessada en el procediment"
+   ],
+   "correct": 1,
+   "explain": "L'art. 41 Llei 39/2015: les persones FÍSIQUES no obligades poden TRIAR el mitjà de notificació i CANVIAR-LO en qualsevol moment; les notificacions en paper es complementen amb l'accés electrònic (posada a disposició a la seu); els obligats (art. 14.2) reben només notificació electrònica.",
+   "source": "Llei 39/2015",
+   "article": "Arts. 41-43 Llei 39/2015"
+  },
+  {
+   "id": "t77q10",
+   "theme": 77,
+   "block": 16,
+   "q": "Quines funcions tenen les oficines d'assistència en matèria de registres (OAMR)?",
+   "options": [
+    "Substituir els jutjats de pau en la certificació d'actes de conciliació civil entre veïns del mateix terme municipal",
+    "Vendre certificats electrònics qualificats a preu de mercat i gestionar les altes del cadastre immobiliari rústic",
+    "Assistir els ciutadans: digitalitzar documents, expedir còpies autèntiques, ajudar en la identificació i signatura i notificar per compareixença",
+    "Custodiar els llibres d'actes del ple i estendre les diligències d'obertura i tancament de cada mandat corporatiu"
+   ],
+   "correct": 2,
+   "explain": "Les OAMR (Llei 39/2015): DIGITALITZEN la documentació presentada presencialment (registre electrònic general), expedeixen CÒPIES AUTÈNTIQUES, ASSISTEIXEN en identificació i signatura els no obligats (funcionari habilitat), i canalitzen l'apoderament apud acta i les notificacions per compareixença.",
+   "source": "Llei 39/2015",
+   "article": "Arts. 12, 16 i 27 Llei 39/2015"
+  },
+  {
+   "id": "t78q6",
+   "theme": 78,
+   "block": 17,
+   "q": "Quins són els nou criteris del model EFQM/CAF d'excel·lència?",
+   "options": [
+    "Els tres pilars del desenvolupament sostenible: l'economia, el medi ambient i la cohesió social del territori",
+    "Els sis barrets del pensament creatiu aplicats a la gestió de les reunions dels equips directius de l'organització",
+    "Els deu manaments de la nova gestió pública aprovats per l'OCDE en la declaració ministerial de París de 1997",
+    "Cinc criteris agents (lideratge, estratègia, persones, aliances i recursos, processos) i quatre de resultats (persones, ciutadania, societat, clau)"
+   ],
+   "correct": 3,
+   "explain": "El model EFQM (i la seva adaptació pública CAF) s'estructura en criteris AGENTS o facilitadors (lideratge, estratègia/planificació, persones, aliances i recursos, processos) i criteris de RESULTATS (persones, ciutadania/clients, societat, resultats clau): l'autoavaluació detecta punts forts i àrees de millora.",
+   "source": "Models de qualitat",
+   "article": "EFQM / CAF"
+  },
+  {
+   "id": "t78q7",
+   "theme": 78,
+   "block": 17,
+   "q": "Quins elements ha de contenir una carta de serveis?",
+   "options": [
+    "Els serveis oferts, els compromisos de qualitat amb indicadors, els drets dels usuaris, les vies de queixa i les mesures d'esmena",
+    "El pressupost detallat de l'àrea, l'organigrama complet amb noms i cognoms i les retribucions de tots els empleats",
+    "Únicament l'horari d'atenció al públic i els telèfons de contacte de les diferents dependències municipals",
+    "La relació de contractes vigents amb les empreses de serveis i les seves pròrrogues previstes per als propers anys"
+   ],
+   "correct": 0,
+   "explain": "La CARTA DE SERVEIS declara els SERVEIS que es presten, els COMPROMISOS de qualitat (quantificats i mesurables amb indicadors: temps màxims, disponibilitat), els DRETS de les persones usuàries, les vies de participació i QUEIXA i les mesures de compensació o esmena; s'ha de revisar periòdicament.",
+   "source": "Gestió de qualitat",
+   "article": "Cartes de serveis"
+  },
+  {
+   "id": "t78q8",
+   "theme": 78,
+   "block": 17,
+   "q": "Què mesura una enquesta de satisfacció ciutadana i com s'ha d'utilitzar?",
+   "options": [
+    "El grau de coneixement dels ciutadans sobre la normativa local vigent, a efectes de planificar campanyes de multes",
+    "La percepció dels usuaris sobre el servei; els resultats alimenten el cicle de millora i el quadre d'indicadors",
+    "La intenció de vot dels veïns abans de cada procés electoral municipal, per orientar el pla de comunicació de l'alcaldia",
+    "El nivell d'ingressos de les famílies usuàries per fixar les taxes i preus públics de l'exercici pressupostari següent"
+   ],
+   "correct": 1,
+   "explain": "Les ENQUESTES DE SATISFACCIÓ mesuren la PERCEPCIÓ del servei (accessibilitat, tracte, temps, resolució) contra les expectatives; juntament amb queixes i suggeriments, alimenten el cicle PDCA: detectar desviacions, prioritzar millores i verificar-ne l'efecte.",
+   "source": "Gestió de qualitat",
+   "article": "Avaluació de la satisfacció"
+  },
+  {
+   "id": "t78q9",
+   "theme": 78,
+   "block": 17,
+   "q": "Què és un diagrama de flux i per a què serveix en la millora de processos?",
+   "options": [
+    "Un gràfic de barres amb l'evolució mensual de la despesa corrent de cada servei municipal durant l'exercici",
+    "El plànol de circulació de vehicles dins del recinte de la deixalleria municipal en hores punta de servei",
+    "La representació gràfica de la seqüència d'un procés, que permet detectar duplicitats, colls d'ampolla i passos sense valor",
+    "L'esquema unifilar de la instal·lació elèctrica de l'edifici consistorial exigit pel reglament de baixa tensió"
+   ],
+   "correct": 2,
+   "explain": "El DIAGRAMA DE FLUX descriu gràficament les activitats, decisions i fluxos d'un procés: és l'eina bàsica per ANALITZAR-LO (qui fa què, on s'atura, què es duplica, què no aporta valor) abans de SIMPLIFICAR-LO o digitalitzar-lo; es complementa amb fitxes de procés i indicadors.",
+   "source": "Gestió per processos",
+   "article": "Eines de millora"
+  },
+  {
+   "id": "t78q10",
+   "theme": 78,
+   "block": 17,
+   "q": "Quins principis regeixen l'atenció a la ciutadania en un servei públic de qualitat?",
+   "options": [
+    "La preferència de les persones que paguen més tributs, ateses abans mitjançant un carril ràpid de tramitació",
+    "L'atenció exclusivament telemàtica per a tota la població, amb la supressió total dels canals presencials i telefònics",
+    "La derivació sistemàtica de totes les consultes al síndic de greuges per garantir la imparcialitat de les respostes",
+    "Accessibilitat i igualtat, llenguatge entenedor, resposta en terminis, multicanalitat, proactivitat i tracte respectuós"
+   ],
+   "correct": 3,
+   "explain": "L'ATENCIÓ CIUTADANA de qualitat: ACCESSIBILITAT (física, horària, cognitiva) i igualtat, MULTICANALITAT (presencial, telefònica, electrònica) amb assistència als no digitals, llenguatge CLAR, terminis de resposta, proactivitat (avisos, cita prèvia) i tracte respectuós; tot mesurat amb indicadors.",
+   "source": "Atenció ciutadana",
+   "article": "Qualitat del servei públic"
+  },
+  {
+   "id": "t79q6",
+   "theme": 79,
+   "block": 17,
+   "q": "Què caracteritza un objectiu ben formulat (criteris SMART)?",
+   "options": [
+    "És específic, mesurable, assolible, rellevant i acotat en el temps",
+    "És genèric i flexible perquè qualsevol resultat obtingut es pugui considerar un èxit de l'organització en la memòria",
+    "El fixa individualment cada empleat sense coordinació amb l'estratègia ni coneixement del seu superior jeràrquic",
+    "És confidencial i només el coneix la direcció, per evitar que els treballadors relaxin el seu rendiment habitual"
+   ],
+   "correct": 0,
+   "explain": "Un objectiu SMART: eSpecífic (què, qui, com), Mesurable (indicador i valor esperat), Assolible (realista amb els recursos), Rellevant (alineat amb l'estratègia) i acotat en el Temps (termini); és la base per poder-ne avaluar l'assoliment.",
+   "source": "Gestió per objectius",
+   "article": "Criteris SMART"
+  },
+  {
+   "id": "t79q7",
+   "theme": 79,
+   "block": 17,
+   "q": "Quina diferència hi ha entre eficàcia i eficiència en l'avaluació de resultats?",
+   "options": [
+    "Són conceptes idèntics: tots dos mesuren la velocitat de tramitació dels expedients administratius de l'àrea",
+    "L'eficàcia mesura l'assoliment dels objectius; l'eficiència relaciona els resultats amb els recursos emprats",
+    "L'eficàcia només s'aplica al sector privat i l'eficiència al sector públic, per mandat constitucional exprés",
+    "L'eficiència mesura la satisfacció del personal i l'eficàcia el clima laboral segons les enquestes internes anuals"
+   ],
+   "correct": 1,
+   "explain": "EFICÀCIA: assolir els OBJECTIUS previstos (resultat vs fita). EFICIÈNCIA: assolir-los amb el mínim de RECURSOS (resultat vs cost/mitjans). S'hi afegeix l'ECONOMIA (adquisició de recursos al menor cost) i l'EFECTIVITAT o impacte real; l'art. 103 CE exigeix l'eficàcia a l'administració.",
+   "source": "Gestió pública",
+   "article": "Art. 103 CE; indicadors"
+  },
+  {
+   "id": "t79q8",
+   "theme": 79,
+   "block": 17,
+   "q": "Què és un quadre de comandament integral (Kaplan i Norton)?",
+   "options": [
+    "Un tauler lluminós instal·lat al vestíbul que mostra en temps real el nombre de persones que esperen ser ateses",
+    "El llibre major comptable de l'organisme autònom local amb el detall diari de tots els assentaments pressupostaris",
+    "L'eina que desplega l'estratègia en indicadors equilibrats: perspectives financera, ciutadania, processos i aprenentatge",
+    "La relació de llocs de treball de l'àrea amb la identificació dels comandaments i les seves retribucions complementàries"
+   ],
+   "correct": 2,
+   "explain": "El QUADRE DE COMANDAMENT INTEGRAL (balanced scorecard) desplega l'estratègia en objectius, indicadors, fites i iniciatives en QUATRE PERSPECTIVES equilibrades (financera, client/ciutadania, processos interns, aprenentatge i creixement), amb relacions causa-efecte (mapa estratègic).",
+   "source": "Gestió estratègica",
+   "article": "Kaplan i Norton"
+  },
+  {
+   "id": "t79q9",
+   "theme": 79,
+   "block": 17,
+   "q": "Com s'ha de fer el seguiment periòdic dels resultats d'una àrea com Territori i Sostenibilitat?",
+   "options": [
+    "Únicament amb la memòria anual d'activitats que es publica al web municipal un cop tancat l'exercici pressupostari",
+    "Mitjançant inspeccions per sorpresa del regidor a les dependències per comprovar la puntualitat del personal adscrit",
+    "Amb la comparació exclusiva del nombre d'expedients oberts respecte de l'any anterior, sense cap altre indicador",
+    "Amb indicadors amb valors objectiu, informes periòdics, reunions de seguiment i anàlisi de desviacions amb mesures correctores"
+   ],
+   "correct": 3,
+   "explain": "El SEGUIMENT eficaç: INDICADORS amb línia de base, valor objectiu i llindars; PERIODICITAT definida (mensual/trimestral); REUNIONS de seguiment amb actes i responsables; ANÀLISI DE DESVIACIONS (causa arrel) i PLANS D'ACCIÓ correctors amb responsable i termini, revisats al cicle següent.",
+   "source": "Gestió per resultats",
+   "article": "Seguiment i control"
+  },
+  {
+   "id": "t79q10",
+   "theme": 79,
+   "block": 17,
+   "q": "Què cal fer si una desviació respecte dels objectius té causes externes no controlables?",
+   "options": [
+    "Documentar-la, replantejar l'objectiu o el termini si escau, activar mitigacions i informar-ne la direcció",
+    "Ocultar-la als informes de seguiment fins que es corregeixi per si sola amb el pas del temps i la inèrcia del servei",
+    "Sancionar disciplinàriament l'equip de treball, atès que tota desviació és sempre imputable al personal adscrit",
+    "Anul·lar retroactivament l'objectiu de tots els documents de planificació per fer coincidir la previsió amb la realitat"
+   ],
+   "correct": 0,
+   "explain": "Les desviacions per CAUSES EXTERNES (normativa sobrevinguda, licitacions desertes, meteorologia) s'han de DOCUMENTAR i comunicar amb transparència: replanificació justificada (objectius, terminis o recursos), mesures de MITIGACIÓ i lliçons per a la planificació següent; mai ocultar-les.",
+   "source": "Gestió per resultats",
+   "article": "Gestió de desviacions"
+  },
+  {
+   "id": "t80q6",
+   "theme": 80,
+   "block": 17,
+   "q": "Quina diferència hi ha entre delegar i simplement repartir feina?",
+   "options": [
+    "Delegar consisteix a desprendre's de les tasques desagradables i de la responsabilitat sobre el seu resultat final",
+    "Delegar transfereix la tasca amb l'autoritat i els recursos per fer-la, mantenint la responsabilitat última i el seguiment",
+    "Són el mateix: qualsevol assignació de tasques és jurídicament una delegació de competències administratives",
+    "Repartir feina exigeix decret d'alcaldia publicat al butlletí oficial, mentre que delegar és un simple acte verbal"
+   ],
+   "correct": 1,
+   "explain": "DELEGAR bé: triar la tasca i la persona adequades, transferir AUTORITAT i mitjans, definir el resultat esperat i els punts de CONTROL, i donar retorn; el comandament conserva la responsabilitat última (la delegació desenvolupa l'equip i allibera temps per a l'important).",
+   "source": "Habilitats directives",
+   "article": "Delegació"
+  },
+  {
+   "id": "t80q7",
+   "theme": 80,
+   "block": 17,
+   "q": "Quins són els factors psicosocials de risc laboral més habituals?",
+   "options": [
+    "El soroll de la maquinària pesant, les vibracions, els agents químics i les radiacions ionitzants dels equips de treball",
+    "L'excés de llum natural als despatxos, la temperatura estable i la disponibilitat de mobiliari ergonòmic certificat",
+    "La sobrecàrrega i el ritme, la manca d'autonomia i de suport, la indefinició de rols i les relacions conflictives",
+    "Els desplaçaments en missió amb vehicle oficial i l'ús obligatori dels equips de protecció individual homologats"
+   ],
+   "correct": 2,
+   "explain": "Els RISCOS PSICOSOCIALS (LPRL): càrrega i ritme de treball, manca d'AUTONOMIA i de participació, ROL ambigu o conflictiu, manca de SUPORT social, lideratge inadequat, inseguretat laboral i dificultats de CONCILIACIÓ; s'avaluen (mètodes com FPSICO o CoPsoQ) i es corregeixen amb mesures organitzatives.",
+   "source": "LPRL",
+   "article": "Riscos psicosocials"
+  },
+  {
+   "id": "t80q8",
+   "theme": 80,
+   "block": 17,
+   "q": "Què és la síndrome d'esgotament professional (burnout)?",
+   "options": [
+    "Una malaltia infecciosa estacional que es transmet entre companys que comparteixen espais de treball tancats",
+    "La incompatibilitat sobrevinguda per exercir un segon lloc de treball al sector privat sense autorització prèvia",
+    "L'obsolescència de les competències digitals del personal de més edat davant la implantació de noves aplicacions",
+    "L'esgotament emocional, la despersonalització i la baixa realització personal derivats de l'estrès laboral crònic"
+   ],
+   "correct": 3,
+   "explain": "El BURNOUT (reconegut per l'OMS com a fenomen ocupacional): ESGOTAMENT emocional, DESPERSONALITZACIÓ (cinisme, distància) i baixa REALITZACIÓ personal, per estrès laboral CRÒNIC mal gestionat; es prevé amb mesures organitzatives (càrrega, rol, suport) i personals (desconnexió, límits).",
+   "source": "Salut laboral",
+   "article": "Burnout (OMS)"
+  },
+  {
+   "id": "t80q9",
+   "theme": 80,
+   "block": 17,
+   "q": "Quina tècnica d'organització del treball proposa blocs de temps sense interrupcions?",
+   "options": [
+    "El treball per blocs (time blocking) i tècniques com la pomodoro, que alternen concentració i pauses programades",
+    "La tramitació simultània de tots els expedients oberts en paral·lel per avançar-los tots una mica cada dia laborable",
+    "La regla de respondre cada correu electrònic en el mateix instant en què arriba, per mantenir la bústia sempre buida",
+    "L'allargament sistemàtic de la jornada laboral fins a acabar tota la feina pendent, sense pauses ni descansos"
+   ],
+   "correct": 0,
+   "explain": "Per protegir la CONCENTRACIÓ: TIME BLOCKING (reservar blocs d'agenda per a tasques importants), tècnica POMODORO (25' de focus + pausa), agrupar tasques similars (batching), tancar notificacions i definir franges per al correu; la multitasca i les interrupcions són els grans lladres de temps.",
+   "source": "Productivitat",
+   "article": "Organització del temps"
+  },
+  {
+   "id": "t80q10",
+   "theme": 80,
+   "block": 17,
+   "q": "Com ha d'actuar un comandament davant d'un conflicte entre membres del seu equip?",
+   "options": [
+    "Ignorar-lo sistemàticament, perquè els conflictes laborals sempre es resolen sols amb el pas del temps i la rutina",
+    "Abordar-lo aviat, escoltar les parts, centrar-se en fets i interessos (no en persones) i acordar solucions amb seguiment",
+    "Traslladar immediatament les dues persones a serveis diferents sense escoltar-les, per eliminar el problema d'arrel",
+    "Convocar una votació de tot el departament perquè la majoria decideixi quina de les dues parts té la raó"
+   ],
+   "correct": 1,
+   "explain": "GESTIÓ DE CONFLICTES: intervenir AVIAT (el conflicte latent escala), ESCOLTAR activament totes les parts, separar PERSONES de PROBLEMES i posicions d'INTERESSOS (Harvard), buscar solucions guanyar-guanyar, acordar compromisos concrets i fer-ne SEGUIMENT; si cal, mediació formal.",
+   "source": "Habilitats directives",
+   "article": "Gestió de conflictes"
   }
  ]
 }
