@@ -422,19 +422,72 @@ function triaView(){
 }
 
 /* ===========================================================================
-   VISTA: CONFIGURACIÓ GLOBAL (sincronització; clau API a la fase següent)
+   VISTA: CONFIGURACIÓ GLOBAL (clau API de Claude i sincronització)
    =========================================================================== */
 function configView(){
+  const s = store.settings();
   view.innerHTML = `
     <a class="backlink" href="#/">← Tria d'oposició</a>
     <h1>Configuració</h1>
     <p class="lead">Aquests ajustos són globals: valen per a totes les oposicions i es desen en aquest dispositiu.</p>
+
+    <div class="card" id="apicard">
+      <h2 style="margin:0 0 4px">🤖 Correcció dels casos amb Claude</h2>
+      <p class="muted" style="margin:0 0 10px">Amb una clau API d'Anthropic, els casos pràctics es corregeixen
+      automàticament amb Claude (nota, criteris i retroacció redactada). Si l'API no respon (sense connexió,
+      sense crèdit…), s'aplica la correcció local per criteris. La clau es desa en aquest dispositiu i, si tens
+      la sincronització activa, viatja <b>xifrada amb el teu PIN</b> als altres dispositius.</p>
+      <label class="field"><span>Clau API d'Anthropic (sk-ant-…)</span>
+        <input id="cfgApiKey" type="password" autocomplete="off" placeholder="sk-ant-api03-…" value="${esc(s.apiKey||'')}"></label>
+      <label class="field weakfield">
+        <input type="checkbox" id="showKey"><span>Mostra la clau</span>
+      </label>
+      <div class="row" style="gap:8px">
+        <button class="btn primary" id="apiSave">Desa la clau</button>
+        <button class="btn ghost" id="apiTest">Prova la connexió</button>
+        <button class="btn ghost" id="apiClear" ${s.apiKey?'':'hidden'}>Esborra-la</button>
+      </div>
+      <p id="apistatus" class="muted" style="margin:.7em 0 0"></p>
+    </div>
+
     ${syncCardHtml()}
     <div class="card" style="margin-top:18px">
       <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes, els resums i els casos són material
       d'estudi generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
     </div>`;
   setupSync();
+
+  const keyEl = byId('cfgApiKey');
+  const st = (msg, cls)=>{ const el=byId('apistatus'); el.textContent=msg; el.className='muted '+(cls||''); };
+  byId('showKey').addEventListener('change', e=>{ keyEl.type = e.target.checked ? 'text' : 'password'; });
+  byId('apiSave').addEventListener('click', ()=>{
+    const k = keyEl.value.trim();
+    if (!k.startsWith('sk-ant-')){ st('La clau ha de començar per sk-ant-…', 'err'); return; }
+    store.setSetting('apiKey', k);
+    byId('apiClear').hidden = false;
+    st('Clau desada ✓ Els casos es corregiran amb Claude.', 'ok');
+    scheduleGistPush();
+  });
+  byId('apiTest').addEventListener('click', async ()=>{
+    const k = keyEl.value.trim() || s.apiKey;
+    if (!k){ st('Primer escriu la clau.', 'err'); return; }
+    st('Provant la connexió…');
+    try{
+      const r = await fetch('https://api.anthropic.com/v1/models', {
+        headers: { 'x-api-key': k, 'anthropic-version': '2023-06-01',
+                   'anthropic-dangerous-direct-browser-access': 'true' },
+      });
+      if (r.ok) st('Connexió correcta ✓ La clau funciona.', 'ok');
+      else if (r.status === 401) st('La clau no és vàlida (error 401).', 'err');
+      else st('L\'API ha respost amb l\'error ' + r.status + '.', 'err');
+    }catch(e){ st('No s\'ha pogut connectar amb l\'API (sense connexió?).', 'err'); }
+  });
+  byId('apiClear').addEventListener('click', ()=>{
+    store.setSetting('apiKey', '');
+    keyEl.value = '';
+    byId('apiClear').hidden = true;
+    st('Clau esborrada. Es farà servir la correcció local.', '');
+  });
 }
 
 /* ===========================================================================
@@ -1152,7 +1205,7 @@ function finishExam(){
     .map((q,i)=> answers[i]===null ? null : {id:q.id, ok:answers[i]===q.correct})
     .filter(Boolean));
 
-  // Part B: prepuntuar amb el motor de criteris
+  // Part B: prepuntuar amb el motor de criteris (base local, sempre disponible)
   const caseResults = cs.map((c,i)=>{
     const ans = examState.caseAnswers[i];
     const auto = autoMatch(ans.text, c.criteria||[]);
@@ -1163,7 +1216,50 @@ function finishExam(){
   });
   const caseMax = cs.length ? 45/cs.length : 0;
 
-  renderResults({ correct, wrong, blank, scoreA, perQ, caseResults, caseMax });
+  const R = { correct, wrong, blank, scoreA, perQ, caseResults, caseMax };
+  renderResults(R);
+  autoGradeWithClaude(R);   // corregeix amb Claude si hi ha clau; si falla, queda la correcció local
+}
+
+/* Correcció automàtica dels casos amb Claude (si hi ha clau API configurada).
+   La correcció local per criteris ja s'ha fet i es mostra de seguida; quan
+   Claude respon, la nota i la retroacció es substitueixen. Si l'API falla
+   (sense connexió, sense crèdit, error), es manté la correcció local i
+   s'avisa. */
+async function autoGradeWithClaude(R){
+  const s = store.settings();
+  const key = s.apiKey;
+  const answered = R.caseResults.filter(({ans}) => (ans.text||'').trim().length > 0);
+  if (!key || !answered.length) return;
+  R.claudeState = 'running';
+  paintClaudeBanner(R);
+  let failed = null;
+  for (const {c, ans} of answered){
+    try {
+      ans.claude = await gradeWithClaude({ apiKey:key, model: s.apiModel, kase:c, answer:ans.text });
+    } catch(e){
+      failed = (e && e.message) ? e.message : 'error desconegut';
+    }
+  }
+  R.claudeState = failed ? 'error' : 'done';
+  R.claudeError = failed;
+  // Torna a pintar els resultats només si l'usuari encara els està veient.
+  if (examState && examState.submitted && byId('reviewB')) renderResults(R);
+}
+
+function claudeBannerHtml(R){
+  if (!R.caseResults.length || !store.settings().apiKey) return '';
+  if (R.claudeState === 'running')
+    return `<div class="notice" id="claudeBanner">⏳ <b>Corregint els casos amb Claude…</b> La nota provisional de sota és la correcció local; s'actualitzarà sola en uns segons.</div>`;
+  if (R.claudeState === 'done')
+    return `<div class="notice" id="claudeBanner" style="border-color:#bcd6c1;background:var(--green-bg)">✅ <b>Casos corregits amb Claude.</b> La nota i la retroacció dels casos són de Claude; pots ajustar igualment les caselles de la rúbrica.</div>`;
+  if (R.claudeState === 'error')
+    return `<div class="notice" id="claudeBanner" style="border-color:#e6c2bd;background:var(--red-bg)">⚠️ <b>Claude no disponible</b> (${esc(R.claudeError||'error')}). S'ha aplicat la <b>correcció local per criteris</b>: revisa les caselles de la rúbrica manualment.</div>`;
+  return `<div id="claudeBanner" hidden></div>`;
+}
+function paintClaudeBanner(R){
+  const el = byId('claudeBanner');
+  if (el) el.outerHTML = claudeBannerHtml(R);
 }
 
 function partBTotal(caseResults, caseMax){
@@ -1228,15 +1324,17 @@ function renderResults(R){
   }
   // Detall Part B
   if (caseResults.length){
+    const hasKey = !!store.settings().apiKey;
     html += `<h2 style="margin-top:22px">Correcció dels casos</h2>
-      <div class="notice">La nota dels casos és <b>orientativa</b>: el motor ha marcat els criteris que ha
-      detectat a la teva resposta. Revisa i ajusta les caselles, compara amb la resposta model, o demana
-      la correcció amb Claude (necessita clau API). El tribunal valora correcció, profunditat, sistemàtica,
-      claredat i anàlisi.</div>
+      ${claudeBannerHtml(R)}
+      ${hasKey ? '' : `<div class="notice">La nota dels casos és <b>orientativa</b>: el motor local ha marcat els
+      criteris que ha detectat a la teva resposta. Per a una correcció redactada de debò, configura la clau API
+      de Claude a <a href="#/config">⚙️ Configuració</a>. El tribunal valora correcció, profunditat, sistemàtica,
+      claredat i anàlisi.</div>`}
       <div id="reviewB"></div>`;
   }
   html += `<div class="row" style="margin-top:18px">
-      <button class="btn primary" id="saveBtn">💾 Desar a l'historial</button>
+      <button class="btn primary" id="saveBtn" ${R.saved?'disabled':''}>${R.saved?'✓ Desat':'💾 Desar a l\'historial'}</button>
       <a class="btn ghost" href="#/examen">Nou examen</a>
     </div>`;
   view.innerHTML = html;
@@ -1245,6 +1343,8 @@ function renderResults(R){
   if (caseResults.length) renderReviewB(caseResults, caseMax);
 
   byId('saveBtn').addEventListener('click', e=>{
+    if (R.saved) return;
+    R.saved = true;
     const scoreB2 = partBTotal(caseResults, caseMax);
     const total2 = (scoreA||0)+(scoreB2||0);
     const nThemes = (examState.cfg.themes||[]).length;
@@ -1269,8 +1369,11 @@ function renderResults(R){
         : scoreFromChecks(c.criteria||[], ans.checks, caseMax).points;
       const k = c.theme; (casePerf[k] ||= {pts:0,max:0});
       casePerf[k].pts += pts; casePerf[k].max += caseMax;
-      // Detall de l'intent per a l'historial del tema: criteris no coberts.
-      const missed = (c.criteria||[]).filter(cr=>!ans.checks[cr.id]).map(cr=>cr.label);
+      // Detall de l'intent per a l'historial del tema: criteris no coberts
+      // (de Claude si ha corregit; si no, de la rúbrica local).
+      const missed = (ans.claude && Array.isArray(ans.claude.criteria))
+        ? ans.claude.criteria.filter(cr=>!cr.covered).map(cr=>cr.label)
+        : (c.criteria||[]).filter(cr=>!ans.checks[cr.id]).map(cr=>cr.label);
       store.addCaseAttempt(k, { date: Date.now(), caseId: c.id, pts: +pts.toFixed(2), max: caseMax, missed });
     });
     store.saveExam({
@@ -1373,7 +1476,7 @@ function renderReviewB(caseResults, caseMax){
         <label class="field"><span>Clau API (sk-ant-…)</span>
           <input type="password" class="apikey" placeholder="sk-ant-..." value="${esc(store.settings().apiKey||'')}"></label>
         <label class="field"><span>Model</span>
-          <input type="text" class="apimodel" value="${esc(store.settings().apiModel||'claude-sonnet-4-6')}"></label>
+          <input type="text" class="apimodel" value="${esc(store.settings().apiModel||'claude-sonnet-5')}"></label>
         <button class="btn" data-claude="${i}">Corregir aquest cas amb Claude</button>
         <div class="claudeout" style="margin-top:10px"></div>
       </details>
@@ -1381,11 +1484,27 @@ function renderReviewB(caseResults, caseMax){
 
   function recalc(){
     caseResults.forEach(({c,ans},i)=>{
-      const sc = scoreFromChecks(c.criteria||[], ans.checks, caseMax);
       const badge = wrap.querySelector(`[data-pts="${i}"]`);
-      if (badge) badge.textContent = `${fmt(sc.points)} / ${fmt(caseMax)} punts`;
+      if (!badge) return;
+      if (ans.claude && typeof ans.claude.scoreFraction === 'number'){
+        badge.textContent = `${fmt(ans.claude.scoreFraction*caseMax)} / ${fmt(caseMax)} (Claude)`;
+      } else {
+        const sc = scoreFromChecks(c.criteria||[], ans.checks, caseMax);
+        badge.textContent = `${fmt(sc.points)} / ${fmt(caseMax)} punts`;
+      }
     });
   }
+  // Si Claude ja ha corregit (correcció automàtica), mostra la seva correcció
+  // de manera destacada abans de la rúbrica.
+  caseResults.forEach(({ans},i)=>{
+    if (!ans.claude) return;
+    const cardEl = wrap.querySelector(`[data-caseidx="${i}"]`);
+    if (!cardEl) return;
+    const holder = document.createElement('div');
+    holder.innerHTML = renderClaude(ans.claude, caseMax);
+    const anchor = cardEl.querySelector('h4');
+    cardEl.insertBefore(holder.firstElementChild, anchor);
+  });
   wrap.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener('change',()=>{
     const ci=+cb.dataset.case, cr=cb.dataset.crit;
     caseResults[ci].ans.checks[cr]=cb.checked;
@@ -1667,6 +1786,7 @@ function setupSync(){
     btnAct.hidden = on; btnNow.hidden = !on; btnOff.hidden = !on;
     if (on){
       tokenEl.value = store.settings().ghToken;
+      pinEl.value = store.settings().ghPin || '';
       const last = store.settings().syncLast;
       gistStatus(on ? ('Activada ✓' + (last?(' · última sincronització a les '+new Date(last).toLocaleTimeString('ca-ES',{hour:'2-digit',minute:'2-digit'})):'')) : '', 'ok');
     }
