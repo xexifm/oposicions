@@ -3590,207 +3590,199 @@
    ]
   },
   "89": {
-   "intro": "La prevenció de riscos laborals té per objecte protegir la seguretat i la salut dels treballadors. La Llei 31/1995 de prevenció de riscos laborals (LPRL) i el seu reglament (RD 39/1997) estableixen els conceptes bàsics, els principis de l'acció preventiva i les mesures de protecció.",
+   "intro": "La prevenció de riscos laborals es regeix per la LPRL (Llei 31/1995) i el RD 39/1997: dret dels treballadors a una protecció EFICAÇ i deure correlatiu de l'empresari (art. 14), PRINCIPIS de l'acció preventiva (art. 15: evitar riscos, avaluar els inevitables, combatre'ls a l'origen, anteposar la protecció COL·LECTIVA a la INDIVIDUAL), organització de la prevenció (4 especialitats; delegats i comitè), EPI (RD 773/1997: últim recurs, marcatge CE, gratuïts) i els riscos del lloc concret (oficina + visites d'obra).",
    "sections": [
     {
-     "h": "Conceptes bàsics",
-     "p": "La LPRL defineix els conceptes fonamentals de la prevenció:",
-     "table": {
-      "headers": [
-       "Concepte",
-       "Definició"
-      ],
-      "rows": [
-       [
-        "Risc laboral",
-        "Possibilitat que un treballador pateixi un dany derivat del treball"
-       ],
-       [
-        "Dany derivat del treball",
-        "Malalties, patologies o lesions per o durant el treball"
-       ],
-       [
-        "Prevenció",
-        "Conjunt d'activitats o mesures per evitar o disminuir els riscos"
-       ],
-       [
-        "Condicions de treball",
-        "Característiques del treball que poden influir en la seguretat i la salut"
-       ],
-       [
-        "Equip de treball",
-        "Qualsevol màquina, aparell, instrument o instal·lació utilitzat"
-       ]
-      ],
-      "cap": "Conceptes de la LPRL"
-     }
-    },
-    {
-     "h": "Principis de l'acció preventiva",
-     "p": "L'art. 15 de la LPRL estableix l'ordre de prioritat de les mesures preventives:",
+     "h": "1. Conceptes i obligacions bàsiques",
      "list": [
-      "Evitar els riscos i avaluar els que no es poden evitar.",
-      "Combatre els riscos en el seu origen.",
-      "Adaptar el treball a la persona (llocs, equips, mètodes).",
-      "Substituir allò perillós per allò que comporti poc o cap perill.",
-      "Anteposar la protecció col·lectiva a la individual.",
-      "Donar les degudes instruccions i formació als treballadors."
+      "RISC LABORAL: possibilitat que un treballador pateixi un dany derivat del treball; PERILL: font potencial del dany; PREVENCIÓ: mesures per evitar o disminuir els riscos.",
+      "Obligacions de l'EMPRESARI (arts. 14-29 LPRL): PLA DE PREVENCIÓ, AVALUACIÓ DE RISCOS i PLANIFICACIÓ preventiva; INFORMACIÓ i FORMACIÓ; equips de treball i EPI; mesures d'EMERGÈNCIA; VIGILÀNCIA DE LA SALUT (voluntària com a regla); protecció d'especialment sensibles, maternitat i menors.",
+      "Obligacions dels TREBALLADORS (art. 29): usar correctament equips i EPI, informar dels riscos, cooperar.",
+      "L'administració pública és empresari a aquests efectes (personal funcionari i laboral)."
      ]
     },
     {
-     "h": "Equips de protecció i organització preventiva",
-     "p": "Les mesures de protecció es distingeixen segons a qui protegeixen:",
+     "h": "2. Principis de l'acció preventiva (art. 15)",
+     "list": [
+      "EVITAR els riscos; AVALUAR els que no es puguin evitar; COMBATRE'LS A L'ORIGEN.",
+      "ADAPTAR el treball a la persona (ergonomia); tenir en compte l'evolució de la tècnica.",
+      "Substituir el perillós pel que comporti poc o cap perill.",
+      "PLANIFICAR la prevenció integrant tècnica, organització, condicions, relacions socials i factors ambientals.",
+      "Anteposar la protecció COL·LECTIVA a la INDIVIDUAL; donar les degudes INSTRUCCIONS."
+     ]
+    },
+    {
+     "h": "3. Organització i participació",
      "table": {
       "headers": [
-       "",
-       "Protecció col·lectiva",
-       "Protecció individual (EPI)"
+       "Element",
+       "Contingut"
       ],
       "rows": [
        [
-        "Abast",
-        "Protegeix diverses persones alhora",
-        "Protegeix el treballador que el porta"
+        "Modalitats organitzatives (RD 39/1997)",
+        "Assumpció per l'empresari, treballadors designats, servei de prevenció PROPI o ALIÈ"
        ],
        [
-        "Prioritat",
-        "Preferent (art. 15)",
-        "Subsidiària, quan no n'hi ha prou amb la col·lectiva"
+        "4 ESPECIALITATS",
+        "Seguretat en el treball, higiene industrial, ergonomia i psicosociologia, medicina del treball"
        ],
        [
-        "Exemples",
-        "Baranes, xarxes de seguretat, ventilació, senyalització, resguards",
-        "Casc, guants, ulleres, calçat de seguretat, arnès, protectors auditius"
+        "DELEGATS DE PREVENCIÓ",
+        "Representants amb funcions específiques de consulta i vigilància (nombre segons plantilla)"
+       ],
+       [
+        "COMITÈ DE SEGURETAT I SALUT",
+        "Òrgan PARITARI empresa-delegats; obligatori a partir de 50 TREBALLADORS"
+       ],
+       [
+        "Risc greu i imminent (art. 21)",
+        "Informar, interrompre l'activitat i abandonar el lloc; el treballador pot aturar-se sense perjudici"
        ]
       ],
-      "cap": "Protecció col·lectiva vs individual"
-     },
-     "p2": "L'empresari ha d'avaluar els riscos, planificar l'activitat preventiva, informar i formar el personal i vigilar la salut. L'organització preventiva es fa mitjançant serveis de prevenció (propis o aliens), delegats de prevenció i el comitè de seguretat i salut. Els riscos específics depenen del lloc de treball (físics, químics, biològics, ergonòmics i psicosocials)."
+      "cap": "Organització preventiva"
+     }
+    },
+    {
+     "h": "4. Protecció col·lectiva i EPI; riscos del lloc",
+     "list": [
+      "PROTECCIÓ COL·LECTIVA (prioritària): baranes, xarxes, marquesines, ventilació general, resguards de màquines: protegeix diverses persones alhora.",
+      "EPI (RD 773/1997): ÚLTIM RECURS quan els riscos no s'han pogut evitar o limitar prou; adequats al risc i a la persona, compatibles entre si, amb MARCATGE CE; lliurats GRATUÏTAMENT amb informació i formació; el treballador els ha d'usar i mantenir (casc, calçat de seguretat, guants, protecció auditiva i ocular, arnès).",
+      "Riscos del TÈCNIC MUNICIPAL: a l'oficina: pantalles de visualització (fatiga visual, postures, TME), càrrega mental; a les VISITES D'OBRA: caigudes al mateix i a diferent nivell, cops i atrapaments, atropellament per maquinària, pols, soroll, intempèrie → EPI de visita (casc, calçat, armilla) i respecte de les instruccions del recinte.",
+      "També: riscos psicosocials (tema 80), seguretat viària (desplaçaments in itinere i en missió) i emergències (evacuació, primers auxilis)."
+     ]
     }
    ],
    "keypoints": [
     {
      "h": "Marc",
      "p": [
-      "Llei 31/1995 (LPRL) + RD 39/1997 (serveis de prevenció)"
+      "LPRL 31/1995 + RD 39/1997 (serveis de prevenció) + RD 773/1997 (EPI) + RD 488/1997 (pantalles)"
      ]
     },
     {
-     "h": "Conceptes",
+     "h": "Obligacions",
      "p": [
-      "Risc laboral, dany, prevenció, condicions de treball"
+      "Pla + avaluació + planificació; informació/formació; vigilància de la salut; emergències"
      ]
     },
     {
-     "h": "Acció preventiva (15)",
+     "h": "Principis (15)",
      "p": [
-      "Evitar → avaluar → combatre en origen → adaptar → substituir → col·lectiva abans d'individual → formar"
+      "Evitar → avaluar → combatre a l'origen; adaptar el treball a la persona; COL·LECTIVA abans que INDIVIDUAL"
      ]
     },
     {
-     "h": "EPI vs col·lectiva",
+     "h": "Participació",
      "p": [
-      "Col·lectiva (baranes, xarxes): preferent",
-      "Individual (casc, guants): subsidiària"
+      "Delegats de prevenció + comitè de seguretat i salut (paritari, ≥50 treballadors)",
+      "Risc greu i imminent (21): aturar-se sense perjudici"
      ]
     },
     {
-     "h": "Organització",
+     "h": "EPI",
      "p": [
-      "Avaluació de riscos, pla de prevenció, formació, vigilància de la salut",
-      "Serveis de prevenció, delegats, comitè de seguretat i salut"
+      "Últim recurs; marcatge CE; gratuïts amb formació; deure d'ús"
+     ]
+    },
+    {
+     "h": "Lloc de tècnic",
+     "p": [
+      "Oficina (PVD, postures) + obra (caigudes, maquinària, pols, soroll): casc, calçat, armilla"
      ]
     }
    ]
   },
   "90": {
-   "intro": "Quan en un mateix centre de treball concorren treballadors de diverses empreses, cal coordinar la prevenció de riscos per evitar que la interacció generi nous perills. Ho regulen l'art. 24 de la LPRL i el RD 171/2004.",
+   "intro": "La coordinació d'activitats empresarials (CAE) — art. 24 LPRL, desplegat pel RD 171/2004 — s'activa quan en un MATEIX CENTRE de treball concorren treballadors de dues o més empreses. Tres nivells de deures: totes les empreses COOPEREN; l'empresari TITULAR informa dels riscos del centre i dona instruccions; l'empresari PRINCIPAL (contractes de la pròpia activitat) VIGILA el compliment i respon SOLIDÀRIAMENT. En obres de construcció, el règim específic és el RD 1627/1997 (coordinador, estudi i pla de seguretat).",
    "sections": [
     {
-     "h": "Concepte i deures de coordinació",
-     "p": "La concurrència d'empreses en un mateix centre (contractes, subcontractes, treballadors autònoms) obliga a coordinar-se en matèria de prevenció. Els deures depenen de la posició de cada empresa:",
+     "h": "1. Els tres nivells de deures (art. 24 LPRL)",
      "table": {
       "headers": [
-       "Deure",
-       "Contingut",
-       "Qui l'assumeix"
+       "Subjecte",
+       "Deure"
       ],
       "rows": [
        [
-        "Cooperació",
-        "Informar-se recíprocament dels riscos i coordinar l'activitat preventiva",
-        "Totes les empreses concurrents"
+        "EMPRESES CONCURRENTS (totes)",
+        "COOPERAR: informar-se RECÍPROCAMENT dels riscos de les seves activitats (abans de l'inici i davant de canvis) i coordinar la prevenció; informar els treballadors respectius"
        ],
        [
-        "Informació i instrucció",
-        "Informar dels riscos del centre i donar instruccions",
-        "Empresari titular del centre"
+        "Empresari TITULAR del centre",
+        "INFORMAR els altres dels riscos PROPIS DEL CENTRE i de les mesures d'emergència, i donar INSTRUCCIONS per prevenir-los"
        ],
        [
-        "Vigilància",
-        "Vigilar que els contractistes compleixin la normativa de prevenció",
-        "Empresari principal (contractes de la pròpia activitat)"
+        "Empresari PRINCIPAL",
+        "A més, VIGILAR que contractistes i subcontractistes de la SEVA PRÒPIA ACTIVITAT que treballen al seu centre compleixin la normativa (exigir acreditacions: avaluació, formació); RESPONSABILITAT SOLIDÀRIA (art. 42 LISOS)"
        ]
       ],
-      "cap": "Deures de coordinació (art. 24 LPRL)"
-     }
+      "cap": "Deures de coordinació (art. 24 LPRL i RD 171/2004)"
+     },
+     "p2": "La informació ha de ser suficient i s'ha de facilitar PER ESCRIT quan els riscos són greus o molt greus."
     },
     {
-     "h": "Subjectes i mitjans de coordinació",
-     "p": "El RD 171/2004 concreta els subjectes i els mitjans:",
+     "h": "2. Mitjans de coordinació (RD 171/2004)",
      "list": [
-      "Empresari titular del centre: qui té la capacitat de posar-lo a disposició i gestionar-lo.",
-      "Empresari principal: qui contracta o subcontracta obres o serveis de la seva pròpia activitat.",
-      "Mitjans de coordinació (art. 11): intercanvi d'informació i comunicacions, reunions de coordinació, impartició d'instruccions, mesures específiques, presència de recursos preventius.",
-      "El mitjà de coordinació més complet és la designació d'una persona o equip de coordinació d'activitats preventives."
+      "Intercanvi d'INFORMACIÓ i comunicacions.",
+      "REUNIONS periòdiques i reunions conjuntes dels comitès de seguretat i salut.",
+      "Impartició d'INSTRUCCIONS i establiment conjunt de mesures.",
+      "Presència de RECURSOS PREVENTIUS (art. 32 bis LPRL: obligatoris en activitats perilloses — alçada, espais confinats, maquinària sense marcatge — o quan la concurrència agreuja els riscos; vigilen el compliment de les mesures).",
+      "Designació de PERSONES ENCARREGADES DE LA COORDINACIÓ: el mitjà PREFERENT en activitats perilloses o de coordinació complexa.",
+      "L'elecció del mitjà es fa segons el grau de perillositat, la durada i el nombre d'empreses."
      ]
     },
     {
-     "h": "Finalitat i responsabilitats",
-     "p": "La coordinació d'activitats empresarials té per finalitat garantir que la concurrència de diverses empreses no incrementi els riscos, aplicant coherentment els principis de l'acció preventiva entre totes. L'incompliment dels deures de coordinació genera responsabilitats administratives (sancions per infraccions en matèria de prevenció) i, si escau, responsabilitat solidària entre l'empresari principal i els contractistes pels danys derivats de la manca de coordinació."
+     "h": "3. Obres de construcció: RD 1627/1997",
+     "list": [
+      "El PROMOTOR (també l'ajuntament) designa el COORDINADOR de seguretat i salut en fase de PROJECTE i en fase d'EXECUCIÓ quan hi intervé més d'una empresa.",
+      "ESTUDI de seguretat i salut (o estudi bàsic) al projecte; cada contractista elabora el PLA de seguretat i salut, que APROVA el coordinador (a l'obra pública, l'administració amb informe del coordinador).",
+      "Llibre d'incidències, avís previ i obligacions específiques de contractistes, subcontractistes i autònoms.",
+      "La CAE del RD 171/2004 s'hi aplica supletòriament: el RD 1627/1997 és el règim específic de coordinació en obres.",
+      "La Llei 32/2006 regula la SUBCONTRACTACIÓ en la construcció (límits de cadena i registre REA)."
+     ]
+    },
+    {
+     "h": "4. La CAE a l'administració local",
+     "list": [
+      "S'aplica a TOT centre de treball, no només a les obres: edificis administratius amb neteja, vigilància o manteniment externs; escoles i pavellons amb empreses concessionàries; brigades amb contractistes.",
+      "L'ajuntament sol ser TITULAR (informa dels riscos del centre i de les emergències, dona instruccions) i, en serveis de la seva pròpia activitat, PRINCIPAL (vigilància i solidaritat).",
+      "En contractes: incorporar la CAE als plecs (acreditacions preventives, plans, reunions de coordinació) i canalitzar-la pel servei de prevenció.",
+      "L'incompliment de la CAE és infracció GREU (o MOLT GREU en activitats perilloses) segons la LISOS."
+     ]
     }
    ],
    "keypoints": [
     {
      "h": "Marc",
      "p": [
-      "Art. 24 LPRL + RD 171/2004"
+      "Art. 24 LPRL + RD 171/2004 + RD 1627/1997 (obres) + art. 42 LISOS"
      ]
     },
     {
-     "h": "Deures",
+     "h": "Tres nivells",
      "p": [
-      {
-       "t": "Cooperació: totes les empreses (informació recíproca)",
-       "sub": []
-      },
-      {
-       "t": "Informació i instrucció: empresari titular del centre",
-       "sub": []
-      },
-      {
-       "t": "Vigilància: empresari principal (pròpia activitat)",
-       "sub": []
-      }
+      "Concurrents: cooperació i informació recíproca",
+      "Titular: riscos del centre + instruccions",
+      "Principal (pròpia activitat): vigilància + responsabilitat SOLIDÀRIA"
      ]
     },
     {
-     "h": "Subjectes",
+     "h": "Mitjans",
      "p": [
-      "Empresari titular del centre; empresari principal; empreses concurrents i autònoms"
+      "Informació, reunions, instruccions, recursos preventius, encarregat de coordinació (preferent en risc alt)"
      ]
     },
     {
-     "h": "Mitjans (11)",
+     "h": "Obres (1627)",
      "p": [
-      "Intercanvi d'informació, reunions, instruccions, recursos preventius",
-      "Coordinador d'activitats preventives (el més complet)"
+      "Promotor designa coordinador; estudi de seguretat + pla del contractista aprovat pel coordinador"
      ]
     },
     {
-     "h": "Responsabilitat",
+     "h": "Àmbit local",
      "p": [
-      "Sancions per incompliment; responsabilitat solidària principal-contractista"
+      "CAE a tot centre (neteja, manteniment, escoles); ajuntament titular i sovint principal; plecs amb clàusules CAE"
      ]
     }
    ]
@@ -11398,119 +11390,120 @@
    ]
   },
   "81": {
-   "intro": "El lideratge d'equips és la capacitat d'influir en un grup per assolir objectius comuns. Requereix motivar, delegar, gestionar conflictes i comunicar-se de manera assertiva.",
+   "intro": "El lideratge d'equips combina tres blocs: MOTIVACIÓ (Maslow, Herzberg, McGregor; motivació intrínseca), DELEGACIÓ i gestió de CONFLICTES (Thomas-Kilmann, mètode Harvard), i HABILITATS DE COMUNICACIÓ: escolta activa, assertivitat (estils passiu/agressiu/assertiu, tècniques com el missatge jo o el disc ratllat) i feedback regular. Per a un comandament tècnic, són tan determinants com el coneixement jurídic.",
    "sections": [
     {
-     "h": "Estils de lideratge i motivació",
-     "p": "No hi ha un únic estil vàlid: el lideratge situacional adapta l'estil (dirigir, orientar, donar suport, delegar) al grau de maduresa de l'equip. La motivació es fonamenta en teories clàssiques:",
-     "table": {
-      "headers": [
-       "Teoria",
-       "Idea clau"
-      ],
-      "rows": [
-       [
-        "Maslow",
-        "Jerarquia de necessitats (de les bàsiques a l'autorealització)"
-       ],
-       [
-        "Herzberg",
-        "Factors d'higiene (eviten la insatisfacció) i motivadors (generen satisfacció)"
-       ],
-       [
-        "McGregor",
-        "Teoria X (control) vs teoria Y (confiança i autonomia)"
-       ]
-      ],
-      "cap": "Teories de la motivació"
-     }
-    },
-    {
-     "h": "Delegació i resolució de conflictes",
-     "p": "Dues competències directives essencials:",
+     "h": "1. Lideratge i motivació",
      "list": [
-      "Delegació: assignar tasques i autoritat a col·laboradors, amb objectius clars i seguiment, sense caure en el control excessiu ni l'abandó.",
-      "Gestió de conflictes: segons el model de Thomas-Kilmann, hi ha cinc estils (competir, col·laborar, transigir, evitar i cedir); l'estil col·laboratiu busca solucions de benefici mutu.",
-      "La negociació permet arribar a acords quan hi ha interessos contraposats."
+      "LIDERATGE SITUACIONAL (Hersey-Blanchard): adaptar l'estil — DIRIGIR, ORIENTAR (persuadir), DONAR SUPORT (participar), DELEGAR — al grau de maduresa (competència + compromís) de cada persona i tasca.",
+      "MASLOW: jerarquia de necessitats (fisiològiques → seguretat → socials → estima → autorealització); les cobertes deixen de motivar.",
+      "HERZBERG: factors d'HIGIENE (salari, condicions, normes: si fallen, insatisfan; si hi són, no motiven) vs factors MOTIVADORS (reconeixement, responsabilitat, creixement, contingut del treball).",
+      "McGREGOR: teoria X (la persona evita la feina: control) vs teoria Y (la persona vol contribuir: confiança i autonomia).",
+      "En el sector públic pesen la motivació INTRÍNSECA i de servei públic: sentit de la feina, autonomia, mestratge, reconeixement (les eines retributives són limitades)."
      ]
     },
     {
-     "h": "Habilitats de comunicació: assertivitat",
-     "p": "La comunicació és l'eina bàsica del lideratge. L'assertivitat és l'estil que expressa opinions i necessitats de manera clara i respectuosa:",
+     "h": "2. Delegació i conflictes",
+     "list": [
+      "DELEGAR = transferir tasca + AUTORITAT + recursos, definint el resultat esperat i els PUNTS DE CONTROL; la responsabilitat última resta al comandament; desenvolupa l'equip i allibera temps per a l'important; errors típics: microgestió o abandó.",
+      "ESTILS DE CONFLICTE (Thomas-Kilmann): competir, COL·LABORAR (guanyar-guanyar: alta assertivitat i alta cooperació), comprometre's, evitar, cedir; triar segons la importància del resultat i de la relació.",
+      "Mètode HARVARD: separar les PERSONES del problema; centrar-se en INTERESSOS, no en posicions; generar OPCIONS de benefici mutu; usar CRITERIS objectius.",
+      "Actuar AVIAT (el conflicte latent escala) i fer seguiment dels acords."
+     ]
+    },
+    {
+     "h": "3. Comunicació assertiva",
      "table": {
       "headers": [
        "Estil",
-       "Característica"
+       "Tret",
+       "Efecte"
       ],
       "rows": [
        [
-        "Passiu",
-        "No expressa les pròpies necessitats; cedeix sempre"
+        "PASSIU",
+        "No expressa necessitats ni límits",
+        "Frustració acumulada, pèrdua de respecte propi"
        ],
        [
-        "Agressiu",
-        "Imposa; vulnera els drets dels altres"
+        "AGRESSIU",
+        "Imposa, desqualifica, no escolta",
+        "Por, deteriorament de les relacions"
        ],
        [
-        "Assertiu",
-        "Expressa amb claredat i respecte; equilibri entre els propis drets i els dels altres"
+        "ASSERTIU",
+        "Expressa opinions i límits amb claredat i respecte",
+        "Confiança: equilibra drets propis i aliens"
        ]
       ],
       "cap": "Estils de comunicació"
      },
-     "p2": "Complementen l'assertivitat l'escolta activa, el feedback constructiu i l'atenció a la comunicació no verbal."
+     "p2": "Tècniques assertives: MISSATGE JO ('quan passa X, l'efecte és Y, et demano Z': fets, no etiquetes), tècnica del SANDVITX per a la crítica constructiva (en privat), DISC RATLLAT (repetir el missatge sense entrar en provocacions), BANC DE BOIRA (reconèixer part de la crítica sense cedir el fons) i ajornament assertiu."
+    },
+    {
+     "h": "4. Recursos de comunicació del comandament",
+     "list": [
+      "ESCOLTA ACTIVA: atenció plena, sense interrompre ni jutjar; parafraseig ('si t'he entès bé...'), reflex emocional, preguntes obertes.",
+      "FEEDBACK regular: reconèixer la feina ben feta (reforç) i corregir aviat les desviacions (concret, sobre conductes, amb propostes); evita sorpreses a l'avaluació.",
+      "Comunicació NO VERBAL coherent (to, postura, contacte visual): pesa més que les paraules quan es contradiuen.",
+      "Reunions eficaces (ordre del dia, acords amb responsable i termini) i comunicació transparent dels canvis (evita el rumor).",
+      "Adaptar el canal al missatge: les converses difícils, sempre en persona i en privat."
+     ]
     }
    ],
    "keypoints": [
     {
      "h": "Lideratge",
      "p": [
-      "Situacional: adaptar l'estil a la maduresa de l'equip"
+      "Situacional: dirigir, orientar, donar suport o delegar segons la maduresa de la persona"
      ]
     },
     {
      "h": "Motivació",
      "p": [
-      "Maslow (necessitats), Herzberg (higiene/motivadors), McGregor (X/Y)"
+      "Maslow (jerarquia), Herzberg (higiene vs motivadors), McGregor (X/Y)",
+      "Sector públic: motivació intrínseca i de servei; el reconeixement, motor clau"
      ]
     },
     {
      "h": "Delegació",
      "p": [
-      "Assignar tasques i autoritat amb objectius i seguiment"
+      "Tasca + autoritat + recursos + punts de control; la responsabilitat última no es delega"
      ]
     },
     {
      "h": "Conflictes",
      "p": [
-      "Thomas-Kilmann: competir, col·laborar, transigir, evitar, cedir",
-      "Col·laborar = benefici mutu"
+      "Thomas-Kilmann (col·laborar = guanyar-guanyar); Harvard: interessos, no posicions"
      ]
     },
     {
-     "h": "Comunicació",
+     "h": "Assertivitat",
      "p": [
-      "Assertiva (vs passiva/agressiva) + escolta activa + feedback"
+      "Passiu/agressiu/assertiu; missatge jo, sandvitx, disc ratllat, banc de boira"
+     ]
+    },
+    {
+     "h": "Recursos",
+     "p": [
+      "Escolta activa (parafraseig), feedback regular, no verbal coherent, converses difícils en privat"
      ]
     }
    ]
   },
   "82": {
-   "intro": "La transparència, l'accés a la informació pública i el bon govern són pilars de la qualitat democràtica. A Catalunya els regula la Llei 19/2014, de transparència, accés a la informació pública i bon govern, complementària de la Llei estatal 19/2013.",
+   "intro": "La transparència es regeix per la Llei estatal 19/2013 (bàsica) i la catalana LLEI 19/2014, de transparència, accés a la informació pública i bon govern: PUBLICITAT ACTIVA (portal de transparència), DRET D'ACCÉS (qualsevol persona, sense motivar; un mes; silenci positiu; reclamació gratuïta a la GAIP), BON GOVERN (codis de conducta, registre de grups d'interès) i règim sancionador propi. Fonament: art. 105.b CE i bona administració (art. 30 EAC).",
    "sections": [
     {
-     "h": "Transparència: publicitat activa",
-     "p": "La transparència obliga les administracions a fer pública proactivament la informació rellevant, sense necessitat que ningú la demani (publicitat activa), a través del portal de transparència:",
+     "h": "1. Publicitat activa (títol II Llei 19/2014)",
      "list": [
-      "Informació institucional i organitzativa (organigrama, funcions, personal).",
-      "Informació econòmica: pressupostos, comptes, retribucions dels càrrecs.",
-      "Contractes, convenis i subvencions.",
-      "Informació de rellevància jurídica (normativa, plans)."
+      "Obligació de publicar PROACTIVAMENT (sense sol·licitud) al PORTAL DE TRANSPARÈNCIA: organització (organigrama, alts càrrecs, retribucions), decisions rellevants, contractació (perfil de contractant), convenis i SUBVENCIONS, gestió econòmica (pressupostos, comptes, auditories), plantilla i relacions de llocs, plans i programes, i PLANEJAMENT urbanístic.",
+      "La informació ha de ser clara, estructurada, actualitzada i REUTILITZABLE (dades obertes).",
+      "Subjectes obligats: administracions públiques, ens dependents i també (parcialment) perceptors de fons públics i entitats privades amb activitat pública rellevant."
      ]
     },
     {
-     "h": "El dret d'accés a la informació pública",
-     "p": "Complementa la publicitat activa amb el dret de qualsevol persona a sol·licitar informació:",
+     "h": "2. Dret d'accés a la informació pública",
      "table": {
       "headers": [
        "Element",
@@ -11518,37 +11511,54 @@
       ],
       "rows": [
        [
-        "Titular",
-        "Qualsevol persona, a partir dels 16 anys, sense necessitat de motivar la sol·licitud"
+        "Titulars",
+        "QUALSEVOL persona (des dels 16 anys), sense haver de MOTIVAR ni acreditar interès"
        ],
        [
         "Objecte",
-        "La informació elaborada o en poder de l'Administració"
-       ],
-       [
-        "Límits",
-        "Protecció de dades, seguretat, investigació, secrets legalment establerts (aplicats de manera proporcionada)"
+        "Informació elaborada per l'administració o que té com a conseqüència de la seva activitat"
        ],
        [
         "Termini",
-        "Resolució en 1 mes (prorrogable); el silenci és, en general, estimatori a Catalunya"
+        "UN MES (prorrogable la meitat); SILENCI POSITIU (amb els límits legals)"
        ],
        [
-        "Garantia",
-        "Reclamació davant la GAIP (Comissió de Garantia del Dret d'Accés a la Informació Pública)"
+        "Límits (arts. 20-25)",
+        "Seguretat, investigacions, secret professional, interessos econòmics, DADES PERSONALS (ponderació); aplicació RESTRICTIVA, proporcionada i amb accés PARCIAL possible"
+       ],
+       [
+        "Garanties",
+        "Recurs de reposició i RECLAMACIÓ GRATUÏTA davant la GAIP (Comissió de Garantia del Dret d'Accés a la Informació Pública), amb mediació possible"
        ]
       ],
       "cap": "Dret d'accés (Llei 19/2014)"
      }
     },
     {
-     "h": "Bon govern i govern obert",
-     "p": "La llei estableix també els principis de bon govern i els instruments de participació:",
+     "h": "3. Bon govern i grups d'interès",
      "list": [
-      "Codi de conducta dels alts càrrecs i principis d'actuació (integritat, objectivitat, retiment de comptes).",
-      "Registre de grups d'interès (lobbies) i regulació dels conflictes d'interès.",
-      "Govern obert: participació ciutadana, dades obertes i col·laboració.",
-      "Règim sancionador per a les infraccions en matèria de transparència i bon govern."
+      "BON GOVERN: principis d'actuació i CODIS DE CONDUCTA dels alts càrrecs (conflictes d'interès, regals, agenda pública); cartes de serveis i avaluació.",
+      "REGISTRE DE GRUPS D'INTERÈS: inscripció obligatòria de qui fa activitats d'influència (lobby); codi de conducta i publicitat dels contactes.",
+      "Govern obert: participació i col·laboració ciutadanes, dades obertes.",
+      "Control extern: GAIP (accés), Síndic de Greuges (avaluació del compliment), Oficina Antifrau i Sindicatura de Comptes."
+     ]
+    },
+    {
+     "h": "4. Règim sancionador (títol VII)",
+     "list": [
+      "Infraccions MOLT GREUS, GREUS i LLEUS en matèria de publicitat activa, dret d'accés i bon govern.",
+      "Sancions per a ALTS CÀRRECS: multes, cessament i inhabilitació (fins a 5 anys en supòsits molt greus); per al PERSONAL: règim disciplinari.",
+      "Responsabilitat també per incompliment reiterat de resolucions de la GAIP.",
+      "L'incompliment de publicitat activa és sancionable i pot generar requeriments del Síndic."
+     ]
+    },
+    {
+     "h": "5. Transparència a l'ajuntament, en la pràctica",
+     "list": [
+      "Portal de transparència actualitzat (l'AOC ofereix el servei comú als ens locals) amb els ítems dels indicadors ITA/Infoparticipa.",
+      "Circuit intern de les sol·licituds d'accés: registre, unitat responsable, informes de les àrees afectades, audiència a tercers si hi ha dades personals, resolució i notificació dins del mes.",
+      "Publicació proactiva del planejament urbanístic i dels acords dels òrgans de govern (amb dissociació de dades personals).",
+      "Coordinació amb el delegat de protecció de dades: transparència i RGPD es ponderen, no s'exclouen."
      ]
     }
    ],
@@ -11556,173 +11566,236 @@
     {
      "h": "Marc",
      "p": [
-      "Llei 19/2014 (Catalunya) + Llei 19/2013 (estatal)"
+      "Llei 19/2013 (bàsica) + LLEI 19/2014 catalana; art. 105.b CE; art. 30 EAC"
      ]
     },
     {
      "h": "Publicitat activa",
      "p": [
-      "Publicar proactivament: organització, economia, contractes, subvencions, normativa",
-      "Portal de transparència"
+      "Portal de transparència: organització, retribucions, contractes, subvencions, pressupostos, planejament; dades reutilitzables"
      ]
     },
     {
      "h": "Dret d'accés",
      "p": [
-      "Qualsevol persona, sense motivar",
-      "Límits proporcionats; resol 1 mes; silenci estimatori (Catalunya)",
-      "Reclamació davant la GAIP"
+      "Qualsevol persona, sense motivar; 1 mes; SILENCI POSITIU",
+      "Límits taxats i restrictius (dades personals: ponderació); accés parcial"
+     ]
+    },
+    {
+     "h": "GAIP",
+     "p": [
+      "Reclamació gratuïta i específica contra les denegacions (amb mediació)"
      ]
     },
     {
      "h": "Bon govern",
      "p": [
-      "Codi de conducta d'alts càrrecs, registre de grups d'interès, govern obert, dades obertes"
+      "Codis de conducta d'alts càrrecs + REGISTRE DE GRUPS D'INTERÈS"
+     ]
+    },
+    {
+     "h": "Sancions",
+     "p": [
+      "Règim propi (títol VII): multes, cessament, inhabilitació; disciplinari per al personal"
+     ]
+    },
+    {
+     "h": "Pràctica local",
+     "p": [
+      "Portal AOC, circuit intern de sol·licituds (1 mes), dissociació de dades, coordinació amb el DPD"
      ]
     }
    ]
   },
   "83": {
-   "intro": "La gestió per objectius (o direcció per objectius, DPO) és un model de direcció que orienta l'organització cap a resultats mesurables, fixats de manera consensuada. Integra la planificació estratègica i operativa amb indicadors i avaluació.",
+   "intro": "La gestió per objectius (DPO, Drucker) orienta l'organització a RESULTATS: de la PLANIFICACIÓ ESTRATÈGICA (missió, visió, valors, DAFO, eixos) es baixa a la PLANIFICACIÓ OPERATIVA (plans d'acció anuals), es fixen INDICADORS de qualitat i s'AVALUA l'acompliment (art. 20 TREBEP) tancant el cicle. El desplegament en cascada alinea els objectius individuals amb els de l'àrea i el pla de mandat.",
    "sections": [
     {
-     "h": "Planificació estratègica i operativa",
-     "p": "La gestió per objectius es desplega en dos nivells de planificació:",
-     "table": {
-      "headers": [
-       "",
-       "Planificació estratègica",
-       "Planificació operativa"
-      ],
-      "rows": [
-       [
-        "Horitzó",
-        "Llarg termini",
-        "Curt termini (anual)"
-       ],
-       [
-        "Contingut",
-        "Missió, visió, valors i objectius estratègics",
-        "Plans d'acció, tasques i recursos"
-       ],
-       [
-        "Eina d'anàlisi",
-        "DAFO (debilitats, amenaces, fortaleses, oportunitats)",
-        "Programació d'activitats"
-       ],
-       [
-        "Responsable",
-        "Direcció",
-        "Comandaments i equips"
-       ]
-      ],
-      "cap": "Estratègica vs operativa"
-     }
-    },
-    {
-     "h": "Fixació d'objectius i indicadors",
-     "p": "Els objectius han de ser clars i mesurables. Un criteri de referència és el model SMART:",
+     "h": "1. Planificació estratègica",
      "list": [
-      "Specific (específic): concret i ben definit.",
-      "Measurable (mesurable): amb indicadors quantificables.",
-      "Achievable (assolible): realista amb els recursos disponibles.",
-      "Relevant (rellevant): alineat amb l'estratègia.",
-      "Time-bound (temporal): amb un termini definit."
+      "MISSIÓ (raó de ser), VISIÓ (on volem arribar) i VALORS (principis que guien les conductes).",
+      "ANÀLISI: DAFO (debilitats, amenaces, fortaleses, oportunitats) intern/extern; anàlisi de grups d'interès (stakeholders).",
+      "EIXOS I OBJECTIUS ESTRATÈGICS a mitjà-llarg termini (mandat), amb prioritats; en l'àmbit local, el PLA DE MANDAT o pla d'actuació municipal (PAM).",
+      "L'estratègia es comunica i es revisa: no és un document de calaix sinó una guia de decisions."
      ]
     },
     {
-     "h": "Avaluació del desenvolupament",
-     "p": "El cicle es tanca amb el seguiment i l'avaluació de l'acompliment:",
+     "h": "2. Planificació operativa i plans d'acció",
      "list": [
-      "Els indicadors permeten mesurar el grau d'assoliment dels objectius.",
-      "L'avaluació de l'acompliment valora la contribució de les persones i els equips als resultats.",
-      "Els resultats de l'avaluació retroalimenten la planificació següent i poden vincular-se al reconeixement (carrera, productivitat).",
-      "Avantatges: alineació, motivació i retiment de comptes; riscos: rigidesa o objectius mal definits."
+      "Tradueix l'estratègia al CURT TERMINI (anual), lligada al PRESSUPOST.",
+      "PLA D'ACCIÓ per objectiu: ACCIONS concretes, RESPONSABLE, TERMINI, RECURSOS i INDICADORS amb valor esperat.",
+      "DESPLEGAMENT EN CASCADA: pla de mandat → objectius d'ÀREA → objectius de SERVEI → objectius INDIVIDUALS, tots alineats (cada nivell contribueix al superior).",
+      "Els objectius han de ser SMART: eSpecífics, Mesurables, Assolibles, Rellevants i acotats en el Temps."
+     ]
+    },
+    {
+     "h": "3. Indicadors",
+     "table": {
+      "headers": [
+       "Qualitat",
+       "Contingut"
+      ],
+      "rows": [
+       [
+        "RELLEVANT",
+        "Mesura allò que importa de l'objectiu (no només el que és fàcil de comptar)"
+       ],
+       [
+        "FIABLE",
+        "Dades disponibles, font i fórmula estables, responsable de la dada"
+       ],
+       [
+        "COMPRENSIBLE",
+        "Interpretable per qui l'ha d'usar"
+       ],
+       [
+        "COMPARABLE",
+        "Sèrie temporal i comparació amb altres (benchmarking)"
+       ],
+       [
+        "ECONÒMIC",
+        "Cost d'obtenció raonable; pocs i bons (quadre de comandament)"
+       ]
+      ],
+      "cap": "Qualitats d'un bon indicador"
+     },
+     "p2": "Tipus: d'entrada (recursos), de procés (activitat), de RESULTAT i d'IMPACTE; eficàcia (objectius assolits) vs eficiència (resultats/recursos)."
+    },
+    {
+     "h": "4. Avaluació del desenvolupament",
+     "list": [
+      "SEGUIMENT periòdic (quadre de comandament, informes, reunions) i correcció de desviacions (tema 79).",
+      "AVALUACIÓ DE L'ACOMPLIMENT (art. 20 TREBEP): mesura la conducta professional i el RENDIMENT o assoliment de resultats, amb transparència, objectivitat, imparcialitat i no-discriminació; efectes en la CARRERA horitzontal, la FORMACIÓ, la provisió de llocs i les RETRIBUCIONS complementàries (productivitat).",
+      "El cicle es tanca amb el RETIMENT DE COMPTES (memòries, indicadors públics) i la retroalimentació de la planificació següent.",
+      "Riscos a evitar: objectius només d'activitat (no de resultat), indicadors manipulables, avaluació sense conseqüències."
+     ]
+    },
+    {
+     "h": "5. El cicle DPO aplicat a una àrea municipal",
+     "list": [
+      "Del PAM a l'àrea: p. ex. eix 'espai públic de qualitat' → objectiu d'àrea 'reduir el temps de resposta de manteniment' → objectiu de servei 'resoldre el 90% d'incidències en 10 dies' → objectiu individual del tècnic.",
+      "Cada objectiu amb indicador (percentatge d'incidències resoltes en termini), font (gestor d'incidències), responsable i revisió trimestral.",
+      "La DPO participativa (objectius acordats, no imposats) millora el compromís; els objectius irreals o imposats generen frustració i trampes amb l'indicador.",
+      "Vincular la DPO amb l'avaluació de l'acompliment i la productivitat exigeix transparència prèvia dels criteris i traçabilitat de les dades."
      ]
     }
    ],
    "keypoints": [
     {
-     "h": "Concepte",
+     "h": "DPO",
      "p": [
-      "Direcció per objectius (Drucker): resultats mesurables i consensuats"
+      "Direcció per objectius (Drucker): resultats mesurables, consensuats, avaluats"
      ]
     },
     {
-     "h": "Planificació",
+     "h": "Estratègica",
      "p": [
-      "Estratègica (llarg termini, missió/visió, DAFO)",
-      "Operativa (curt termini, plans d'acció)"
+      "Missió-visió-valors + DAFO → eixos i objectius de mandat (PAM)"
      ]
     },
     {
-     "h": "Objectius SMART",
+     "h": "Operativa",
      "p": [
-      "Específics, Mesurables, Assolibles, Rellevants, Temporals"
+      "Plans d'acció anuals lligats al pressupost: accions, responsables, terminis, recursos, indicadors",
+      "Desplegament en cascada fins als objectius individuals; criteris SMART"
      ]
     },
     {
-     "h": "Avaluació",
+     "h": "Indicadors",
      "p": [
-      "Indicadors + avaluació de l'acompliment → retroalimenta la planificació"
+      "Rellevants, fiables, comprensibles, comparables, econòmics; resultat i impacte, no només activitat"
+     ]
+    },
+    {
+     "h": "Avaluació (20 TREBEP)",
+     "p": [
+      "Conducta + rendiment; efectes en carrera, formació i retribucions; transparent i objectiva"
+     ]
+    },
+    {
+     "h": "Aplicació",
+     "p": [
+      "Cascada PAM → àrea → servei → individu amb indicadors i revisió trimestral; objectius acordats"
      ]
     }
    ]
   },
   "84": {
-   "intro": "La presa de decisions és una funció central de la direcció, especialment davant problemes complexos i processos de canvi en entorns públics. Requereix mètode, anàlisi i gestió de les persones afectades.",
+   "intro": "La presa de decisions en entorns públics combina el PROCÉS RACIONAL (definir el problema, generar i avaluar alternatives, decidir, implantar, avaluar), les EINES d'anàlisi (Ishikawa, 5 perquès, Pareto, cost-benefici, matrius multicriteri, arbres de decisió), la consciència dels BIAIXOS cognitius i la GESTIÓ DEL CANVI (Lewin, Kotter, resistències). Els problemes públics són sovint COMPLEXOS: múltiples actors, marc jurídic, recursos limitats i escrutini ciutadà.",
    "sections": [
     {
-     "h": "Anàlisi de problemes complexos",
-     "p": "Decidir bé comença per entendre bé el problema. Un procés racional de decisió inclou:",
-     "table": {
-      "headers": [
-       "Pas",
-       "Contingut"
-      ],
-      "rows": [
-       [
-        "Definir el problema",
-        "Delimitar-lo amb precisió, separant símptomes de causes"
-       ],
-       [
-        "Analitzar causes",
-        "Tècniques com el diagrama d'Ishikawa (causa-efecte) o els 5 per què"
-       ],
-       [
-        "Generar alternatives",
-        "Identificar diverses opcions de solució"
-       ],
-       [
-        "Avaluar i decidir",
-        "Comparar alternatives (cost-benefici, arbres de decisió) i escollir"
-       ],
-       [
-        "Implantar i revisar",
-        "Executar la decisió i avaluar-ne els resultats"
-       ]
-      ],
-      "cap": "Procés de decisió"
-     }
-    },
-    {
-     "h": "Tipus de decisions i tècniques",
-     "p": "Les decisions varien segons el seu abast i grau d'estructuració:",
+     "h": "1. El procés racional de decisió",
      "list": [
-      "Programades (rutinàries, amb procediment establert) vs no programades (noves, complexes).",
-      "Estratègiques, tàctiques i operatives, segons el nivell.",
-      "Tècniques de suport: anàlisi cost-benefici, DAFO, matrius de decisió, arbres de decisió.",
-      "Cal tenir presents la incertesa, la informació disponible i els biaixos cognitius."
+      "1) DEFINIR EL PROBLEMA: delimitar-lo amb precisió, separar SÍMPTOMES de CAUSES (la definició errònia condemna la decisió).",
+      "2) Fixar CRITERIS i objectius de la decisió (cost, termini, risc, legalitat, impacte).",
+      "3) GENERAR ALTERNATIVES (incloent-hi no fer res); creativitat: pluja d'idees.",
+      "4) AVALUAR-LES contra els criteris (anàlisi cost-benefici, riscos, viabilitat jurídica i pressupostària).",
+      "5) DECIDIR i documentar la motivació; 6) IMPLANTAR (pla, responsables, comunicació); 7) AVALUAR resultats i aprendre.",
+      "Límits: racionalitat LIMITADA (Simon: informació i temps finits: decisions satisfactòries més que òptimes)."
      ]
     },
     {
-     "h": "Gestió del canvi en entorns públics",
-     "p": "Moltes decisions impliquen canvis organitzatius que cal gestionar:",
+     "h": "2. Eines d'anàlisi de problemes complexos",
+     "table": {
+      "headers": [
+       "Eina",
+       "Ús"
+      ],
+      "rows": [
+       [
+        "Diagrama d'ISHIKAWA (espina de peix)",
+        "Ordenar les possibles causes d'un problema per famílies (persones, mètodes, mitjans, entorn)"
+       ],
+       [
+        "5 PERQUÈS",
+        "Preguntar successivament per arribar a la CAUSA ARREL"
+       ],
+       [
+        "PARETO (80/20)",
+        "Concentrar l'esforç en el 20% de causes que generen el 80% del problema"
+       ],
+       [
+        "Anàlisi COST-BENEFICI",
+        "Comparar costos i beneficis (també socials) de cada alternativa"
+       ],
+       [
+        "MATRIU MULTICRITERI",
+        "Puntuar alternatives contra criteris ponderats: decisió estructurada i transparent"
+       ],
+       [
+        "ARBRE DE DECISIÓ",
+        "Seqüències de decisions i esdeveniments amb probabilitats"
+       ]
+      ],
+      "cap": "Eines de suport a la decisió"
+     }
+    },
+    {
+     "h": "3. Biaixos cognitius",
      "list": [
-      "Models de referència: el de Lewin (descongelar, canviar, recongelar) i el de Kotter (crear urgència, coalició, visió, comunicar, actuar, consolidar).",
-      "Les resistències al canvi (por, hàbits, interessos) s'han de preveure i gestionar amb comunicació i participació.",
-      "En el sector públic, el canvi topa amb rigideses normatives i culturals: cal lideratge, transparència i implicació dels equips.",
-      "La gestió del canvi busca que les decisions es tradueixin en millores reals i sostenibles."
+      "CONFIRMACIÓ: buscar només allò que confirma la idea prèvia; ANCORATGE: pes excessiu de la primera xifra o dada.",
+      "STATU QUO (inèrcia), aversió a la pèrdua, EXCÉS DE CONFIANÇA, efecte grup (groupthink: ningú no discrepa).",
+      "Mitigació: DADES i criteris explícits abans de deliberar, advocat del diable, opinions independents abans de la posada en comú, revisió posterior de les decisions (aprenentatge).",
+      "En el sector públic: motivar les decisions (interdicció de l'arbitrarietat, art. 9.3 CE) és també un antídot contra el biaix."
+     ]
+    },
+    {
+     "h": "4. Gestió del canvi",
+     "list": [
+      "LEWIN: descongelar (qüestionar l'statu quo) → CANVIAR (transició) → recongelar (consolidar els nous hàbits).",
+      "KOTTER (8 passos): urgència → coalició rectora → visió i estratègia → COMUNICAR la visió → facilitar l'acció (eliminar obstacles) → ÈXITS A CURT TERMINI → consolidar → ANCORAR a la cultura.",
+      "RESISTÈNCIES (por, hàbits, pèrdua d'estatus, desconfiança): es gestionen amb COMUNICACIÓ transparent i primerenca, PARTICIPACIÓ dels afectats, formació i suport, i lideratge coherent.",
+      "Per què fracassa el canvi: manca de lideratge i d'urgència real, comunicació pobra (rumors), victòria declarada massa aviat, no consolidar els nous processos."
+     ]
+    },
+    {
+     "h": "5. Decisions en entorn públic: condicionants propis",
+     "list": [
+      "MARC JURÍDIC: la millor alternativa tècnica pot no ser viable legalment (competències, procediment, contractació): el criteri de legalitat és previ i excloent.",
+      "MÚLTIPLES ACTORS: govern, oposició, veïnat, altres administracions: cal anàlisi d'actors i estratègia de comunicació.",
+      "TRANSPARÈNCIA I MOTIVACIÓ: les decisions públiques s'han de poder explicar i defensar (interdicció de l'arbitrarietat); documentar l'anàlisi protegeix el decisor.",
+      "TEMPS POLÍTIC vs temps tècnic: mandats de 4 anys i pressupostos anuals condicionen l'horitzó de les decisions i reforcen el valor dels èxits a curt termini en els processos de canvi."
      ]
     }
    ],
@@ -11730,349 +11803,399 @@
     {
      "h": "Procés",
      "p": [
-      "Definir problema → analitzar causes (Ishikawa, 5 per què) → alternatives → decidir → implantar/revisar"
+      "Definir el problema (causes, no símptomes) → criteris → alternatives → avaluar → decidir → implantar → avaluar",
+      "Racionalitat limitada (Simon)"
      ]
     },
     {
-     "h": "Tipus",
+     "h": "Eines",
      "p": [
-      "Programades vs no programades; estratègiques/tàctiques/operatives",
-      "Tècniques: cost-benefici, DAFO, arbres de decisió"
+      "Ishikawa i 5 perquès (causa arrel), Pareto (80/20), cost-benefici, matrius multicriteri, arbres de decisió"
      ]
     },
     {
-     "h": "Gestió del canvi",
+     "h": "Biaixos",
      "p": [
-      "Lewin (descongelar-canviar-recongelar), Kotter (8 passos)",
-      "Gestionar resistències amb comunicació i participació"
+      "Confirmació, ancoratge, statu quo, excés de confiança, groupthink → dades, advocat del diable, motivació"
+     ]
+    },
+    {
+     "h": "Canvi",
+     "p": [
+      "Lewin (descongelar-canviar-recongelar); Kotter (8 passos: urgència → ... → ancorar)",
+      "Resistències: comunicació, participació, formació, èxits a curt termini"
+     ]
+    },
+    {
+     "h": "Entorn públic",
+     "p": [
+      "Legalitat prèvia i excloent; anàlisi d'actors; motivar i documentar; temps polític condiciona l'horitzó"
      ]
     }
    ]
   },
   "85": {
-   "intro": "L'ètica pública és el conjunt de principis i valors que han de guiar l'actuació dels servidors públics per garantir la integritat i el servei a la ciutadania. Es concreta en codis ètics i de conducta i s'aplica en la direcció diària.",
+   "intro": "L'ètica pública va més enllà de la legalitat: és el compromís amb la INTEGRITAT i el servei a l'interès general. Peces: el CODI DE CONDUCTA del TREBEP (art. 52: deures; art. 53: principis ÈTICS; art. 54: principis de CONDUCTA), la gestió dels CONFLICTES D'INTERESSOS (abstenció i recusació, arts. 23-24 Llei 40/2015), els SISTEMES D'INTEGRITAT (codis, riscos, canals d'alerta: Llei 2/2023) i els òrgans de control (Oficina Antifrau de Catalunya).",
    "sections": [
     {
-     "h": "Concepte i valors del servei públic",
-     "p": "L'ètica pública va més enllà del compliment de la legalitat: exigeix una actuació íntegra i orientada a l'interès general. Valors fonamentals:",
+     "h": "1. El codi de conducta del TREBEP (arts. 52-54)",
      "list": [
-      "Integritat i honradesa en la gestió dels recursos públics.",
-      "Objectivitat i imparcialitat en les decisions.",
-      "Servei a la ciutadania i vocació de servei públic.",
-      "Transparència, responsabilitat i retiment de comptes.",
-      "Eficàcia i eficiència en l'ús dels mitjans."
+      "Art. 52: els empleats públics han d'exercir amb DILIGÈNCIA les tasques i vetllar pels interessos generals amb subjecció a la CE i l'ordenament; el codi (principis ètics + de conducta) INFORMA la interpretació del règim disciplinari.",
+      "Art. 53 (principis ÈTICS): interès general per sobre del particular; OBJECTIVITAT, INTEGRITAT, NEUTRALITAT, IMPARCIALITAT; confidencialitat; dedicació al servei; transparència; EXEMPLARITAT; austeritat; no acceptar tractes de favor; abstenir-se en conflictes d'interès.",
+      "Art. 54 (principis de CONDUCTA): tracte atent i respectuós; diligència i compliment de la jornada; obediència (llevat d'ordres manifestament il·legals); informar els ciutadans; administrar els recursos amb austeritat; rebutjar REGALS que superin els usos socials; garantir la constància documental; formació permanent."
      ]
     },
     {
-     "h": "El codi ètic i de conducta",
-     "p": "Els valors es formalitzen en codis que orienten el comportament:",
+     "h": "2. Conflictes d'interessos",
+     "list": [
+      "CONCEPTE: col·lisió entre l'interès públic del càrrec i els interessos PRIVATS (propis, familiars, econòmics) que poden comprometre la imparcialitat.",
+      "PREVENCIÓ: declaracions d'activitats i d'interessos, règim d'incompatibilitats (tema 86), normes sobre regals i portes giratòries.",
+      "ABSTENCIÓ (art. 23 Llei 40/2015): interès personal, parentiu (4t grau consanguinitat / 2n afinitat), amistat íntima o enemistat manifesta, haver intervingut com a perit o testimoni, relació de servei.",
+      "RECUSACIÓ (art. 24): els interessats poden promoure-la en qualsevol moment; l'actuació amb causa d'abstenció no invalida necessàriament l'acte però genera responsabilitat."
+     ]
+    },
+    {
+     "h": "3. Sistemes d'integritat institucional",
      "table": {
       "headers": [
-       "Instrument",
+       "Peça",
        "Contingut"
       ],
       "rows": [
        [
-        "Codi de conducta del TREBEP (arts. 52-54)",
-        "Principis ètics i de conducta dels empleats públics"
+        "Codi ètic propi",
+        "Valors i normes de conducta de l'ens, amb òrgan o comitè de seguiment"
        ],
        [
-        "Codis de bon govern",
-        "Compromisos dels alts càrrecs (Llei 19/2014)"
+        "Mapa de RISCOS",
+        "Identificació d'àrees exposades (contractació, subvencions, urbanisme, personal) i mesures"
        ],
        [
-        "Codis ètics institucionals",
-        "Valors i pautes propis de cada organització"
+        "CANALS D'ALERTA (Llei 2/2023)",
+        "Canal intern obligatori (ens locals >10.000 hab.); confidencialitat; PROHIBICIÓ DE REPRESÀLIES contra l'informant"
+       ],
+       [
+        "Formació i cultura",
+        "Formació en integritat; exemplaritat dels comandaments"
+       ],
+       [
+        "Plans antifrau",
+        "Obligatoris per gestionar fons europeus (prevenir, detectar, corregir, perseguir)"
        ]
       ],
-      "cap": "Codis ètics i de conducta"
-     }
+      "cap": "Sistema d'integritat"
+     },
+     "p2": "A Catalunya, l'OFICINA ANTIFRAU (Llei 14/2008) preveu i investiga la corrupció al sector públic català i actua com a autoritat de protecció de les persones alertadores."
     },
     {
-     "h": "Integritat i aplicació en la direcció diària",
-     "p": "La integritat institucional es construeix amb una infraestructura ètica i s'aplica en el dia a dia:",
+     "h": "4. La integritat en la direcció diària",
      "list": [
-      "Prevenció de la corrupció: gestió dels conflictes d'interès, incompatibilitats i regals.",
-      "Infraestructura ètica: codis, formació, canals de denúncia (bústies) i òrgans de control com l'Oficina Antiffrau de Catalunya.",
-      "En la direcció diària: predicar amb l'exemple, decidir amb transparència i motivació, tractar les persones amb equitat i defensar l'interès general per damunt dels interessos particulars.",
-      "L'ètica pública reforça la confiança de la ciutadania en les institucions."
+      "EXEMPLARITAT: el comandament lidera amb la conducta (horaris, recursos, tracte); la incoherència deslegitima qualsevol codi.",
+      "Decisions MOTIVADES i transparents (constància documental); mateixos CRITERIS per a tothom (equitat).",
+      "Ús responsable dels recursos i de la INFORMACIÓ (confidencialitat, protecció de dades).",
+      "Rebuig actiu de regals i tractes de favor; atenció a les zones grises (invitacions, hospitalitat).",
+      "REACCIONAR davant les males pràctiques (no mirar cap a una altra banda): del retorn correctiu a l'alerta formal."
      ]
     }
    ],
    "keypoints": [
     {
-     "h": "Concepte",
+     "h": "Marc",
      "p": [
-      "Principis i valors que guien el servidor públic, més enllà de la legalitat"
+      "TREBEP arts. 52-54 + Llei 40/2015 arts. 23-24 + Llei 2/2023 + Oficina Antifrau (Llei 14/2008)"
      ]
     },
     {
-     "h": "Valors",
+     "h": "Codi TREBEP",
      "p": [
-      "Integritat, objectivitat, servei a la ciutadania, transparència, responsabilitat, eficàcia"
+      "Principis ètics (53): objectivitat, integritat, neutralitat, imparcialitat, exemplaritat",
+      "Conducta (54): tracte, diligència, austeritat, rebuig de regals, documentar"
      ]
     },
     {
-     "h": "Codis",
+     "h": "Conflicte d'interessos",
      "p": [
-      "TREBEP arts. 52-54 (empleats), codis de bon govern (Llei 19/2014), codis institucionals"
+      "Abstenció (23) i recusació (24): interès personal, parentiu, amistat/enemistat, perit, servei"
      ]
     },
     {
      "h": "Integritat",
      "p": [
-      "Conflictes d'interès, incompatibilitats, canals de denúncia, Oficina Antiffrau",
-      "Direcció diària: exemple, transparència, equitat, interès general"
+      "Codi + mapa de riscos + canals d'alerta (Llei 2/2023: sense represàlies) + formació + plans antifrau"
+     ]
+    },
+    {
+     "h": "Direcció diària",
+     "p": [
+      "Exemplaritat, motivació i transparència, equitat, ús responsable, reacció davant males pràctiques"
      ]
     }
    ]
   },
   "86": {
-   "intro": "El TREBEP (RDL 5/2015) classifica el personal al servei de les administracions públiques i n'estableix el règim. Aquest tema hi afegeix el règim d'incompatibilitats, regulat per la Llei 53/1984, que garanteix la dedicació i la imparcialitat dels empleats públics.",
+   "intro": "El TREBEP (arts. 8-13) classifica el personal en FUNCIONARIS DE CARRERA, FUNCIONARIS INTERINS, PERSONAL LABORAL, PERSONAL EVENTUAL i regula el PERSONAL DIRECTIU professional. Les funcions amb exercici de potestats públiques es reserven als funcionaris (art. 9.2). El règim d'INCOMPATIBILITATS (Llei 53/1984) imposa la dedicació a un sol lloc públic, amb excepcions taxades i control de les activitats privades.",
    "sections": [
     {
-     "h": "Classes de personal",
-     "p": "L'art. 8 del TREBEP distingeix quatre classes d'empleats públics:",
+     "h": "1. Classes de personal (art. 8 TREBEP)",
      "table": {
       "headers": [
        "Classe",
        "Vincle",
-       "Nota"
+       "Notes"
       ],
       "rows": [
        [
-        "Funcionari (carrera / interí)",
-        "Estatutari",
-        "El de carrera és permanent; l'interí, temporal (art. 10)"
+        "FUNCIONARI DE CARRERA",
+        "Estatutari permanent (nomenament)",
+        "Reserva de funcions: potestats públiques i salvaguarda dels interessos generals (art. 9.2)"
        ],
        [
-        "Personal laboral (fix / indefinit / temporal)",
+        "FUNCIONARI INTERÍ",
+        "Estatutari transitori",
+        "Supòsits: plaça vacant (màx. 3 anys), substitució, programes (màx. 3+1), acumulació de tasques (9 mesos en 18)"
+       ],
+       [
+        "PERSONAL LABORAL",
         "Contracte de treball",
-        "Regit pel dret laboral amb especialitats"
+        "Fix, indefinit no fix o temporal; conveni col·lectiu"
        ],
        [
-        "Personal directiu professional",
-        "Segons designació",
-        "Funcions directives; avaluació per resultats (art. 13)"
+        "PERSONAL EVENTUAL",
+        "Nomenament lliure",
+        "Només CONFIANÇA o ASSESSORAMENT ESPECIAL; cessa amb l'autoritat; no és mèrit d'accés"
        ],
        [
-        "Personal eventual",
-        "Nomenament de confiança",
-        "Assessorament especial; cessa lliurement (art. 12)"
+        "PERSONAL DIRECTIU (art. 13)",
+        "Professional",
+        "Designació per mèrit, capacitat i IDONEÏTAT; subjecte a avaluació; condicions no negociades col·lectivament"
        ]
       ],
-      "cap": "Classes de personal (art. 8 TREBEP)"
-     },
-     "p2": "Les funcions que impliquen exercici de potestats públiques o salvaguarda dels interessos generals estan reservades als funcionaris (art. 9.2)."
+      "cap": "Classes de personal (arts. 8-13 TREBEP)"
+     }
     },
     {
-     "h": "El règim d'incompatibilitats",
-     "p": "La Llei 53/1984 estableix el principi general de dedicació a un sol lloc públic:",
+     "h": "2. Règim d'incompatibilitats: principis (Llei 53/1984)",
      "list": [
-      "Regla general: no es pot ocupar més d'un lloc de treball al sector públic, tret dels casos excepcionals autoritzats.",
-      "El personal no pot percebre més d'una remuneració amb càrrec als pressupostos públics, llevat d'excepcions.",
-      "L'exercici d'un segon lloc o activitat pública requereix autorització expressa de compatibilitat.",
-      "El complement específic incorpora el factor d'incompatibilitat (retribueix la dedicació)."
+      "PRINCIPI GENERAL: dedicació a UN SOL LLOC de treball al sector públic; no es pot percebre més d'una remuneració pública (amb les excepcions legals).",
+      "SEGONA ACTIVITAT PÚBLICA: només en supòsits taxats (professor universitari ASSOCIAT a temps parcial, activitats sanitàries determinades, recerca) amb AUTORITZACIÓ expressa i límits retributius.",
+      "Els membres electes i alts càrrecs tenen règims específics (dedicació exclusiva o parcial).",
+      "La percepció de PENSIONS de jubilació és incompatible amb l'activitat pública (regles pròpies)."
      ]
     },
     {
-     "h": "Compatibilitat amb activitats privades",
-     "p": "L'exercici d'activitats privades també està limitat:",
-     "table": {
-      "headers": [
-       "Situació",
-       "Règim"
-      ],
-      "rows": [
-       [
-        "Activitats privades relacionades amb l'assumpte que gestiona",
-        "Incompatibles (risc de conflicte d'interès)"
-       ],
-       [
-        "Altres activitats privades",
-        "Requereixen reconeixement previ de compatibilitat"
-       ],
-       [
-        "Administració del patrimoni personal o familiar",
-        "Exceptuada (compatible)"
-       ],
-       [
-        "Docència o participació ocasional en seminaris",
-        "Exceptuada dins els límits"
-       ]
-      ],
-      "cap": "Compatibilitat amb el sector privat"
-     },
-     "p2": "La finalitat del règim d'incompatibilitats és garantir la dedicació, l'objectivitat i la imparcialitat, evitant conflictes d'interès entre la funció pública i altres activitats."
+     "h": "3. Activitats privades",
+     "list": [
+      "PROHIBIDES en tot cas: les activitats privades relacionades amb els ASSUMPTES en què la persona intervingui, hagi intervingut ELS DARRERS 2 ANYS o hagi d'intervenir per raó del lloc; les que puguin comprometre la IMPARCIALITAT o l'interès públic.",
+      "La resta d'activitats privades exigeixen el RECONEIXEMENT PREVI de compatibilitat (òrgan competent: el ple a l'àmbit local), condicionat a la jornada, l'horari i el complement específic segons la normativa.",
+      "EXEMPTES de reconeixement (art. 19): administració del PATRIMONI personal o familiar, producció i creació LITERÀRIA, artística, científica i tècnica ocasionals, participació en seminaris o cursos, participació en tribunals de selecció, activitats no remunerades...",
+      "L'incompliment del règim d'incompatibilitats és falta MOLT GREU (art. 95 TREBEP)."
+     ]
+    },
+    {
+     "h": "4. Estructura i ordenació bàsiques",
+     "list": [
+      "Grups de classificació (art. 76 TREBEP): A (A1-A2: titulació universitària), B (tècnic superior FP), C (C1: batxillerat/tècnic; C2: graduat ESO).",
+      "Instruments d'ordenació: PLANTILLA (pressupostària), RELACIÓ DE LLOCS DE TREBALL (RLT: funcions, requisits, retribucions complementàries), oferta pública d'ocupació i registres de personal.",
+      "Accés: principis d'IGUALTAT, MÈRIT I CAPACITAT (arts. 23.2 i 103.3 CE), publicitat i transparència; sistemes: oposició, concurs oposició i, excepcionalment, concurs."
+     ]
     }
    ],
    "keypoints": [
     {
      "h": "Marc",
      "p": [
-      "TREBEP (RDL 5/2015) + Llei 53/1984 d'incompatibilitats"
+      "TREBEP arts. 8-13 i 76 + Llei 53/1984 (incompatibilitats)"
      ]
     },
     {
-     "h": "Classes (art. 8)",
+     "h": "Classes (8)",
      "p": [
-      "Funcionari (carrera/interí), laboral (fix/indefinit/temporal), directiu, eventual",
-      "Potestats públiques → funcionaris (9.2)"
+      "Carrera, interí (vacant/substitució/programes/acumulació), laboral, eventual (confiança, cessa amb l'autoritat)",
+      "Directiu professional (13): mèrit i idoneïtat, avaluació per resultats"
+     ]
+    },
+    {
+     "h": "Reserva (9.2)",
+     "p": [
+      "Potestats públiques i salvaguarda d'interessos generals: NOMÉS funcionaris"
      ]
     },
     {
      "h": "Incompatibilitats",
      "p": [
-      "Un sol lloc públic (regla general); una sola remuneració",
-      "Segon lloc públic → autorització de compatibilitat",
-      "Factor d'incompatibilitat al complement específic"
+      "Un sol lloc públic; segona activitat pública: supòsits taxats amb autorització",
+      "Privades: prohibides si relacionades amb assumptes propis (2 anys); resta: reconeixement previ; exemptes: patrimoni, creació literària/científica"
      ]
     },
     {
-     "h": "Privades",
+     "h": "Ordenació",
      "p": [
-      "Relacionades amb l'assumpte: incompatibles",
-      "Altres: requereixen compatibilitat",
-      "Exceptuades: patrimoni propi, docència ocasional"
+      "Grups A1-C2; plantilla + RLT; accés per igualtat, mèrit i capacitat"
      ]
     }
    ]
   },
   "87": {
-   "intro": "L'atenció al personal és una funció del comandament orientada a mantenir un bon clima laboral, planificar les tasques i resoldre els conflictes i incidències que sorgeixen en el treball. Complementa el lideratge d'equips amb una mirada de cura i de gestió quotidiana de les persones.",
+   "intro": "L'atenció al personal com a funció del comandament: mantenir un BON CLIMA LABORAL (mesurar-lo i actuar), PLANIFICAR les tasques amb equitat i claredat de rols (prevenció primària dels conflictes), gestionar les INCIDÈNCIES quotidianes aviat i amb els mateixos criteris, i canalitzar els CONFLICTES (tipologia, abordatge constructiu, mediació) inclosos els protocols d'assetjament.",
    "sections": [
     {
-     "h": "Gestió de conflictes",
-     "p": "El conflicte és inevitable en tota organització; ben gestionat pot ser font de millora. Tipus i abordatge:",
+     "h": "1. Clima laboral",
+     "list": [
+      "CONCEPTE: percepció compartida de l'entorn de treball: lideratge, comunicació, reconeixement, desenvolupament, càrrega, condicions i relacions.",
+      "MESURA: enquestes de clima (anònimes, periòdiques) i senyals indirectes: ABSENTISME, rotació, conflictivitat, queixes, participació.",
+      "Els resultats exigeixen RETORN a l'equip i PLA D'ACCIÓ (si es pregunta i no es fa res, el clima empitjora).",
+      "Palanques del bon clima: comunicació oberta, reconeixement, participació en les decisions, equitat, desenvolupament professional i tracte respectuós; el comandament n'és el primer responsable."
+     ]
+    },
+    {
+     "h": "2. Planificació de tasques com a prevenció",
+     "list": [
+      "Distribució amb CRITERIS CLARS I EQUITATIUS (càrrega, competències, desenvolupament) i ROLS DEFINITS (funcions i responsabilitats de cadascú): la indefinició i el greuge comparatiu són fonts principals de conflicte.",
+      "Objectius i prioritats compartits; previsió de puntes de feina i suplències.",
+      "Flexibilitat i conciliació dins del marc normatiu; escolta de les preferències quan és possible.",
+      "Revisió periòdica de càrregues (les descompensacions cròniques cremen l'equip)."
+     ]
+    },
+    {
+     "h": "3. Conflictes: tipologia i abordatge",
      "table": {
       "headers": [
-       "Tipus de conflicte",
+       "Tipus",
        "Origen"
       ],
       "rows": [
        [
-        "De tasca",
-        "Discrepàncies sobre com fer la feina o els objectius"
+        "De TASCA",
+        "Discrepància sobre el què o el com de la feina (pot ser productiu si es gestiona)"
        ],
        [
-        "De relació (interpersonal)",
-        "Tensions personals, incompatibilitats de caràcter"
+        "De RELACIÓ",
+        "Xocs personals, estils, greuges (el més corrosiu)"
        ],
        [
-        "De rol",
-        "Ambigüitat o solapament de funcions i responsabilitats"
+        "De ROL",
+        "Funcions mal definides o solapades"
        ],
        [
-        "De recursos",
-        "Competència per mitjans, temps o reconeixement"
+        "De RECURSOS",
+        "Competència per mitjans, espais o temps escassos"
        ]
       ],
       "cap": "Tipus de conflicte"
      },
-     "p2": "L'abordatge passa per detectar-lo aviat, escoltar les parts, separar les persones del problema, buscar interessos comuns i acordar solucions; quan cal, s'hi pot incorporar la mediació."
+     "p2": "Abordatge constructiu: detectar AVIAT, escoltar les parts (per separat i juntes), separar PERSONES de PROBLEMES, buscar interessos comuns i solucions de benefici mutu, acordar compromisos concrets i fer-ne SEGUIMENT. La MEDIACIÓ (tercer imparcial, voluntària i confidencial) és útil quan el conflicte s'enquista."
     },
     {
-     "h": "Planificació de tasques i clima laboral",
-     "p": "Una bona organització del treball prevé molts conflictes:",
+     "h": "4. Incidències i situacions greus",
      "list": [
-      "Distribuir les tasques amb criteris clars i equitatius, equilibrant les càrregues de treball.",
-      "Definir amb precisió les funcions i responsabilitats de cada persona.",
-      "Fomentar un bon clima laboral: comunicació oberta, reconeixement, participació i tracte respectuós.",
-      "Cuidar les condicions de treball i la conciliació."
+      "INCIDÈNCIES quotidianes (absències, retards, baix rendiment, queixes): tractar-les AVIAT i EN PRIVAT, sobre fets, amb equitat; documentar les rellevants; escalar (RRHH, disciplinari) només les reiterades o greus.",
+      "ASSETJAMENT (moral, sexual, per raó de sexe o discriminatori): activar el PROTOCOL: mesures cautelars que no perjudiquin la víctima, investigació confidencial i ràpida amb garanties, i mesures disciplinàries (falta MOLT GREU, art. 95 TREBEP) i de reparació si es confirma; és també risc psicosocial (LPRL).",
+      "Persones amb dificultats (salut, situacions personals): derivar als recursos adequats (vigilància de la salut, serveis socials d'empresa) amb confidencialitat i suport.",
+      "Resoldre buscant SOLUCIONS més que culpables, però exigint els compliments deguts."
      ]
     },
     {
-     "h": "Resolució d'incidències i conflictes",
-     "p": "La gestió quotidiana requereix respondre a incidències i conflictes de manera àgil i justa:",
+     "h": "5. Eines pràctiques del dia a dia",
      "list": [
-      "Establir canals perquè el personal pugui plantejar problemes i suggeriments.",
-      "Actuar amb rapidesa i imparcialitat davant les incidències, buscant solucions i no culpables.",
-      "Documentar i fer seguiment dels acords per evitar que els conflictes es reprodueixin.",
-      "Prevenir situacions de risc psicosocial (assetjament, estrès) i derivar-les als canals adequats."
+      "Reunions individuals periòdiques (one-to-one) breus: seguiment de la feina, escolta de dificultats i expectatives, feedback bidireccional.",
+      "Acollida dels nouvinguts: pla d'incorporació (funcions, referents, formació inicial): el primer mes marca la integració.",
+      "Reconeixement concret i oportú (públic per als èxits, privat per a les correccions).",
+      "Registre d'acords i seguiment: allò que no s'apunta ni es revisa, es dilueix."
      ]
     }
    ],
    "keypoints": [
     {
-     "h": "Gestió de conflictes",
+     "h": "Clima",
      "p": [
-      "Tipus: de tasca, de relació, de rol, de recursos",
-      "Escoltar, separar persona del problema, buscar interessos comuns, mediar"
+      "Percepció compartida; mesurar (enquestes, absentisme) + retorn + pla d'acció",
+      "Palanques: comunicació, reconeixement, participació, equitat"
      ]
     },
     {
      "h": "Planificació",
      "p": [
-      "Distribució equitativa de tasques i càrregues; funcions clares"
+      "Criteris clars i equitatius + rols definits = prevenció primària del conflicte"
      ]
     },
     {
-     "h": "Clima laboral",
+     "h": "Conflictes",
      "p": [
-      "Comunicació, reconeixement, participació, conciliació"
+      "Tasca, relació, rol, recursos; aviat, persones ≠ problema, acords amb seguiment; mediació si s'enquista"
      ]
     },
     {
      "h": "Incidències",
      "p": [
-      "Canals de comunicació, actuació ràpida i imparcial, seguiment dels acords",
-      "Prevenció de riscos psicosocials"
+      "Aviat, en privat, amb equitat; documentar; escalar només el reiterat o greu"
+     ]
+    },
+    {
+     "h": "Assetjament",
+     "p": [
+      "Protocol: cautelars + investigació confidencial + disciplinari (falta molt greu) i reparació"
+     ]
+    },
+    {
+     "h": "Eines",
+     "p": [
+      "One-to-ones periòdics, pla d'acollida, reconeixement oportú, registre i seguiment d'acords"
      ]
     }
    ]
   },
   "88": {
-   "intro": "El règim disciplinari permet a l'Administració sancionar el personal pel incompliment dels seus deures. El TREBEP (arts. 93-98) en fixa l'aplicació, les faltes, les sancions i les garanties, amb els principis propis de la potestat sancionadora.",
+   "intro": "El règim disciplinari (títol VII TREBEP, arts. 93-98) s'aplica al personal funcionari i laboral pels incompliments comesos en l'exercici de les funcions. Claus: principis (legalitat, tipicitat, proporcionalitat, culpabilitat, presumpció d'innocència), FALTES (molt greus a l'art. 95; greus i lleus per llei o reglament de desplegament), SANCIONS (art. 96: separació del servei, suspensió fins a 6 anys, trasllat, demèrit, apercebiment), PRESCRIPCIÓ (art. 97: faltes 3/2 anys/6 mesos; sancions 3/2/1) i PROCEDIMENT amb garanties (art. 98).",
    "sections": [
     {
-     "h": "Aplicació i principis",
-     "p": "El règim disciplinari s'aplica al personal funcionari i laboral pels incompliments comesos en l'exercici de les seves funcions. Es regeix pels principis (art. 94):",
+     "h": "1. Àmbit i principis (arts. 93-94)",
      "list": [
-      "Legalitat i tipicitat: les faltes i sancions han d'estar previstes en una norma.",
-      "Irretroactivitat de les disposicions desfavorables i retroactivitat de les favorables.",
-      "Proporcionalitat entre la falta i la sanció.",
-      "Culpabilitat (dol o negligència) i presumpció d'innocència.",
-      "Non bis in idem: no es pot sancionar dues vegades el mateix fet."
+      "S'aplica al personal FUNCIONARI i LABORAL (a aquest, amb el complement del conveni i l'Estatut dels Treballadors).",
+      "Principis: LEGALITAT i TIPICITAT (faltes i sancions predeterminades), IRRETROACTIVITAT (favorable sí), PROPORCIONALITAT, CULPABILITAT (dol o culpa) i PRESUMPCIÓ D'INNOCÈNCIA.",
+      "Els fets constitutius de DELICTE es comuniquen al ministeri fiscal; els FETS PROVATS per sentència penal vinculen l'administració; el non bis in idem impedeix la doble sanció amb el mateix fonament (la penal i la disciplinària poden conviure si el fonament és diferent)."
      ]
     },
     {
-     "h": "Faltes i sancions",
-     "p": "Les faltes es classifiquen per gravetat; les molt greus les tipifica directament el TREBEP (art. 95):",
+     "h": "2. Faltes (art. 95)",
+     "list": [
+      "MOLT GREUS (art. 95.2, per llei): incompliment del deure de fidelitat a la CE; discriminació; ABANDÓ DEL SERVEI; publicació o ús indegut de secrets oficials; notòria manca de rendiment; desobediència oberta; prevalença del càrrec; obstaculització de llibertats públiques; incompliment de la normativa d'INCOMPATIBILITATS; ASSETJAMENT laboral i sexual...",
+      "GREUS: per llei de desplegament, atenent el grau de vulneració de la legalitat, els danys i el descrèdit (supletòriament: desobediència, abús d'autoritat, faltes REITERADES d'assistència, negligència greu; RD 33/1986 i Decret 243/1995 a Catalunya).",
+      "LLEUS: incompliments de menor entitat (retards, descurança, incorrecció lleu)."
+     ]
+    },
+    {
+     "h": "3. Sancions i prescripció (arts. 96-97)",
      "table": {
       "headers": [
-       "Gravetat",
-       "Exemples de faltes",
-       "Sancions possibles (art. 96)"
+       "Element",
+       "Regla"
       ],
       "rows": [
        [
-        "Molt greus",
-        "Incompliment del deure de fidelitat a la Constitució, discriminació, assetjament, abandó del servei, obstaculitzar l'exercici de drets fonamentals",
-        "Separació del servei (funcionaris) / acomiadament (laborals); suspensió fins a 6 anys"
+        "Sancions (96)",
+        "SEPARACIÓ DEL SERVEI (funcionaris; revocació del nomenament als interins) o ACOMIADAMENT disciplinari (laborals) — només per faltes MOLT GREUS; SUSPENSIÓ ferma de funcions i sou fins a 6 ANYS; TRASLLAT FORÇÓS (amb o sense canvi de localitat); DEMÈRIT (penalització en carrera/provisió); APERCEBIMENT"
        ],
        [
-        "Greus",
-        "Les que fixin les lleis de funció pública i els convenis",
-        "Suspensió de funcions; trasllat forçós"
+        "Prescripció de FALTES (97)",
+        "Molt greus: 3 ANYS; greus: 2 ANYS; lleus: 6 MESOS (des de la comissió o des del cessament si és continuada)"
        ],
        [
-        "Lleus",
-        "Incompliments menors dels deures",
-        "Advertència / apercebiment; suspensió de curta durada"
+        "Prescripció de SANCIONS",
+        "Molt greus: 3 anys; greus: 2 anys; lleus: 1 any (des de la fermesa)"
        ]
       ],
-      "cap": "Faltes i sancions (arts. 95-96 TREBEP)"
+      "cap": "Sancions i terminis (TREBEP)"
      },
-     "p2": "No existeixen sancions pecuniàries (multes) pròpiament dites; la més greu és la separació del servei o l'acomiadament, que extingeix la relació."
+     "p2": "La graduació atén la intencionalitat, la pertorbació del servei, els danys, la reincidència i la participació."
     },
     {
-     "h": "Procediment i prescripció",
-     "p": "La imposició de sancions (tret de les lleus) exigeix un procediment disciplinari amb garanties:",
+     "h": "4. Procediment i mesures provisionals (art. 98)",
      "list": [
-      "Instrucció separada de l'òrgan que resol; dret d'audiència i de defensa de l'inculpat.",
-      "Possibilitat d'adoptar mesures provisionals (suspensió provisional de funcions).",
-      "Prescripció de les faltes (art. 97): molt greus als 3 anys, greus als 2 anys i lleus als 6 mesos; les sancions també prescriuen segons la gravetat.",
-      "Extinció de la responsabilitat per compliment de la sanció, prescripció, mort o indult."
+      "No es pot imposar cap sanció per faltes GREUS o MOLT GREUS sense PROCEDIMENT PREVI (expedient disciplinari); les lleus, per procediment sumari amb AUDIÈNCIA.",
+      "Garanties: SEPARACIÓ entre instructor i òrgan que resol; plec de càrrecs, al·legacions i PROVA; proposta de resolució amb vista; assistència possible de representant.",
+      "MESURES PROVISIONALS: la SUSPENSIÓ PROVISIONAL de funcions (en general màxim 6 mesos amb retribucions bàsiques; compensable amb la sanció); si el procediment acaba sense sanció, es reintegren els drets.",
+      "COMPETÈNCIA local: l'ALCALDE (art. 21.1.h LRBRL, prefectura superior de personal), delegable; la SEPARACIÓ DEL SERVEI dels funcionaris amb habilitació nacional es reserva a l'administració de l'Estat.",
+      "Anotació de les sancions al registre de personal i cancel·lació segons la normativa."
      ]
     }
    ],
@@ -12080,33 +12203,40 @@
     {
      "h": "Marc",
      "p": [
-      "TREBEP arts. 93-98; personal funcionari i laboral"
+      "TREBEP arts. 93-98; RD 33/1986 i Decret 243/1995 supletoris; art. 21.1.h LRBRL"
      ]
     },
     {
      "h": "Principis",
      "p": [
-      "Legalitat, tipicitat, proporcionalitat, culpabilitat, non bis in idem"
+      "Legalitat, tipicitat, proporcionalitat, culpabilitat, presumpció d'innocència",
+      "Fets provats penals vinculen; comunicació al fiscal"
      ]
     },
     {
      "h": "Faltes (95)",
      "p": [
-      "Molt greus (taxades: fidelitat, discriminació, assetjament, abandó), greus, lleus"
+      "Molt greus per llei: abandó de servei, assetjament, incompatibilitats, desobediència oberta...",
+      "Greus i lleus: desplegament normatiu"
      ]
     },
     {
      "h": "Sancions (96)",
      "p": [
-      "Separació/acomiadament (màxima), suspensió, trasllat forçós, apercebiment",
-      "No hi ha multes pecuniàries"
+      "Separació/acomiadament (només molt greus), suspensió fins a 6 anys, trasllat, demèrit, apercebiment"
      ]
     },
     {
      "h": "Prescripció (97)",
      "p": [
-      "Faltes: molt greus 3 anys, greus 2, lleus 6 mesos",
-      "Procediment amb instrucció separada i audiència"
+      "Faltes: 3 anys / 2 anys / 6 mesos; sancions: 3/2/1 anys"
+     ]
+    },
+    {
+     "h": "Procediment (98)",
+     "p": [
+      "Expedient amb instructor separat per a greus/molt greus; suspensió provisional màx. 6 mesos",
+      "Alcalde competent; habilitats nacionals: separació reservada a l'Estat"
      ]
     }
    ]
