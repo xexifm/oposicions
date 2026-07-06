@@ -11204,6 +11204,806 @@
    "explain": "Els arts. 92 i seg. TRLUC: els plans tenen vigència indefinida; alteració per revisió o modificació amb el mateix procediment; les modificacions de zones verdes, espais lliures i equipaments esportius tenen tramitació reforçada (informe favorable de la comissió d'urbanisme de Catalunya en determinats casos).",
    "source": "TRLUC",
    "article": "Arts. 92-100 TRLUC"
+  },
+  {
+   "id": "t51q6",
+   "theme": 51,
+   "block": 11,
+   "q": "Quina durada màxima té la suspensió de tramitacions i de llicències vinculada al planejament (arts. 73-74 TRLUC)?",
+   "options": [
+    "Un any per a la suspensió potestativa prèvia (estudis de formació o reforma) i, amb l'aprovació inicial, fins a completar un màxim conjunt de DOS anys; exhaurits els efectes, no es pot acordar cap nova suspensió amb la mateixa finalitat fins passats tres anys",
+    "Sis mesos improrrogables en tot cas, transcorreguts els quals totes les llicències suspeses s'entenen atorgades per silenci administratiu positiu amb caràcter automàtic",
+    "Quatre anys des de l'acord de formulació del pla, prorrogables per dos anys més si l'aprovació definitiva es demora per causes imputables a la comissió territorial d'urbanisme",
+    "La que lliurement fixi l'ajuntament a l'acord de suspensió, sense cap límit legal, atès que es tracta d'una mesura cautelar discrecional vinculada a la potestat de planejament"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 73-74 TRLUC: suspensió potestativa prèvia (per estudiar la formació o reforma del pla): màxim 1 ANY; la suspensió preceptiva per aprovació inicial pot durar fins a completar 2 ANYS en total; i no es pot tornar a suspendre per la mateixa finalitat fins que passin 3 ANYS.",
+   "source": "TRLUC",
+   "article": "Arts. 73-74 TRLUC"
+  },
+  {
+   "id": "t51q7",
+   "theme": 51,
+   "block": 11,
+   "q": "Quins documents integren el POUM segons l'art. 59 TRLUC?",
+   "options": [
+    "Únicament els plànols d'ordenació i les ordenances d'edificació, atès que la resta de documents corresponen al programa d'actuació urbanística municipal que és sempre obligatori",
+    "Memòria (amb programa de participació i memòria social), plànols d'informació i d'ordenació, normes urbanístiques, catàleg de béns protegits, agenda i avaluació econòmica i financera, documentació ambiental i, si escau, memòria de mobilitat",
+    "La memòria, el pressupost municipal de l'exercici, l'inventari de béns de la corporació i l'informe de sostenibilitat financera subscrit per la intervenció local",
+    "Els estatuts i les bases d'actuació de les juntes de compensació de tots els sectors de sòl urbanitzable delimitat que el pla preveu desenvolupar durant el primer sexenni"
+   ],
+   "correct": 1,
+   "explain": "L'art. 59 TRLUC: memòria descriptiva i justificativa (amb programa de participació ciutadana i MEMÒRIA SOCIAL), plànols d'informació i ordenació, normes urbanístiques, catàleg de béns protegits, agenda i avaluació econòmica i financera, documentació ambiental i memòria de mobilitat si escau.",
+   "source": "TRLUC",
+   "article": "Art. 59 TRLUC"
+  },
+  {
+   "id": "t51q8",
+   "theme": 51,
+   "block": 11,
+   "q": "Què és la memòria social del POUM?",
+   "options": [
+    "L'estudi sociològic sobre l'envelliment de la població del municipi que determina la localització dels equipaments assistencials de titularitat autonòmica al terme",
+    "El conveni subscrit amb les entitats del tercer sector per gestionar els habitatges d'emergència social inclosos al patrimoni municipal de sòl i d'habitatge",
+    "El document que defineix els objectius de producció d'habitatge protegit i les necessitats socials d'habitatge, i justifica les reserves corresponents del pla",
+    "La relació de subvencions socials municipals vinculades a l'habitatge que s'han de consignar anualment al pressupost mentre el pla sigui vigent al municipi"
+   ],
+   "correct": 2,
+   "explain": "La memòria social (art. 59.1.h TRLUC) defineix els objectius de producció d'habitatge protegit i dotacional, avalua les necessitats socials d'habitatge i justifica les reserves i determinacions del pla en la matèria.",
+   "source": "TRLUC",
+   "article": "Art. 59 TRLUC"
+  },
+  {
+   "id": "t51q9",
+   "theme": 51,
+   "block": 11,
+   "q": "Quin tràmit de participació és previ a la redacció del POUM?",
+   "options": [
+    "Un referèndum municipal vinculant sobre el model de creixement, convocat per l'alcalde amb l'autorització prèvia del Govern de l'Estat i de la Generalitat de Catalunya",
+    "La negociació col·lectiva amb els sindicats representatius del sector de la construcció sobre el volum de sostre residencial que el pla ha de preveure per al sexenni",
+    "L'aprovació per unanimitat del consell de participació ciutadana, sense la qual el ple no pot acordar la formulació del pla d'ordenació urbanística municipal",
+    "El programa de participació ciutadana i, com a bona pràctica legalment prevista, l'avanç de planejament amb consulta pública sobre objectius i alternatives"
+   ],
+   "correct": 3,
+   "explain": "L'art. 8 i 59 TRLUC: el POUM incorpora el PROGRAMA DE PARTICIPACIÓ CIUTADANA des de l'inici; l'AVANÇ (document d'objectius i alternatives) amb consulta és el vehicle habitual (i necessari per a l'avaluació ambiental estratègica).",
+   "source": "TRLUC",
+   "article": "Arts. 8 i 59 TRLUC"
+  },
+  {
+   "id": "t51q10",
+   "theme": 51,
+   "block": 11,
+   "q": "Com es tramita i qui aprova el POUM d'un municipi com Montornès del Vallès?",
+   "options": [
+    "Aprovació inicial i provisional pel PLE municipal (amb informació pública d'un mínim de 45 dies i informes sectorials) i aprovació DEFINITIVA per la comissió territorial d'urbanisme",
+    "Aprovació única pel ple per majoria absoluta i publicació al BOP, sense cap intervenció autonòmica perquè l'urbanisme és competència exclusivament municipal segons l'Estatut",
+    "Aprovació inicial per la comissió territorial d'urbanisme i definitiva pel conseller de territori, amb un informe municipal no vinculant emès pel ple de la corporació local",
+    "Aprovació pel Govern de la Generalitat mitjançant decret, amb la tramitació ambiental estratègica prèvia davant del ministeri competent en matèria de transició ecològica"
+   ],
+   "correct": 0,
+   "explain": "El POUM el formula i aprova inicialment i provisionalment l'AJUNTAMENT (ple; informació pública mínima de 45 dies, audiència i informes) i l'aprova DEFINITIVAMENT la comissió territorial d'urbanisme (art. 80 TRLUC; el conseller en municipis grans determinats).",
+   "source": "TRLUC",
+   "article": "Arts. 76-85 TRLUC"
+  },
+  {
+   "id": "t52q6",
+   "theme": 52,
+   "block": 11,
+   "q": "Quines reserves mínimes ha de contenir un pla parcial urbanístic?",
+   "options": [
+    "Únicament una franja perimetral de protecció contra incendis forestals de vint-i-cinc metres d'amplada i una parcel·la per a la deixalleria municipal obligatòria",
+    "Les de sistemes locals (espais lliures públics i equipaments) proporcionals al sostre i la densitat, més les reserves d'habitatge protegit que corresponguin al sector",
+    "El trenta per cent del sòl per a ús industrial encara que el sector sigui residencial, per garantir la diversificació econòmica del municipi durant el desenvolupament",
+    "Cap: les reserves de sistemes es fixen exclusivament al pla d'ordenació urbanística municipal i els plans parcials es limiten a detallar l'ordenació de les zones privades"
+   ],
+   "correct": 1,
+   "explain": "Els arts. 65-66 TRLUC: el pla parcial qualifica el sòl i reserva els SISTEMES LOCALS (espais lliures, equipaments, vialitat) amb els estàndards legals i reglamentaris, i concreta les reserves d'HABITATGE PROTEGIT del sector; ordena detalladament i fixa les condicions de gestió.",
+   "source": "TRLUC",
+   "article": "Arts. 65-66 TRLUC"
+  },
+  {
+   "id": "t52q7",
+   "theme": 52,
+   "block": 11,
+   "q": "Quina diferència hi ha entre un pla especial urbanístic de desenvolupament i un d'autònom?",
+   "options": [
+    "El de desenvolupament l'aprova l'ajuntament i l'autònom els particulars mitjançant escriptura pública inscrita al registre de la propietat corresponent al domicili del sector",
+    "El de desenvolupament només pot ordenar sòl urbà consolidat i l'autònom exclusivament sòl no urbanitzable de protecció especial inclòs en espais naturals protegits",
+    "El de desenvolupament desplega previsions del planejament territorial o general; l'autònom implanta directament infraestructures o dotacions d'interès general no previstes al pla general",
+    "Cap: totes dues denominacions es refereixen al mateix instrument i la llei les utilitza de manera indistinta segons el moment procedimental de la seva tramitació"
+   ],
+   "correct": 2,
+   "explain": "L'art. 67-68 TRLUC: els plans especials de DESENVOLUPAMENT despleguen el planejament superior (protecció de patrimoni, millora d'àmbits...); els AUTÒNOMS (art. 68) permeten implantar directament infraestructures o equipaments d'interès general (càmpings, serveis tècnics...) sense previsió expressa del pla general.",
+   "source": "TRLUC",
+   "article": "Arts. 67-68 TRLUC"
+  },
+  {
+   "id": "t52q8",
+   "theme": 52,
+   "block": 11,
+   "q": "Quin objecte tenen els plans de millora urbana (art. 70 TRLUC)?",
+   "options": [
+    "Ordenar el creixement dels nuclis rurals en sòl no urbanitzable mitjançant la delimitació de noves àrees residencials de baixa densitat vinculades a l'activitat agrària",
+    "Desenvolupar el sòl urbanitzable delimitat quan el pla parcial ha caducat pel transcurs del termini d'execució fixat a l'agenda del pla d'ordenació municipal vigent",
+    "Substituir el pla d'ordenació urbanística municipal en cas de suspensió o anul·lació judicial, fins que se n'aprovi un de nou amb la tramitació ordinària completa",
+    "En sòl urbà no consolidat: completar el teixit urbà o fer operacions de rehabilitació, reforma interior, remodelació, transformació d'usos o reurbanització; en sòl urbà consolidat: completar o acabar la urbanització i regular la composició volumètrica i de façanes"
+   ],
+   "correct": 3,
+   "explain": "L'art. 70 TRLUC: els PMU operen en SÒL URBÀ: en el no consolidat, per completar el teixit o per operacions de rehabilitació, reforma interior, remodelació urbana, transformació d'usos, reurbanització o millora; en el consolidat, per completar la urbanització i regular volums i façanes.",
+   "source": "TRLUC",
+   "article": "Art. 70 TRLUC"
+  },
+  {
+   "id": "t52q9",
+   "theme": 52,
+   "block": 11,
+   "q": "Com es tramita un pla parcial urbanístic d'iniciativa municipal?",
+   "options": [
+    "Aprovació inicial per l'ajuntament, informació pública d'UN MES, informes sectorials, aprovació provisional si escau i aprovació definitiva per la comissió territorial d'urbanisme (o per l'ajuntament en els supòsits legals amb informe previ de la comissió)",
+    "Aprovació única pel ple municipal amb exposició de quinze dies al tauler d'edictes, atès que els plans derivats no requereixen cap mena d'intervenció autonòmica posterior",
+    "Aprovació inicial per la comissió territorial d'urbanisme, informació pública de tres mesos i aprovació definitiva pel Govern de la Generalitat mitjançant acord publicat al DOGC",
+    "Tramitació íntegrament electrònica davant del departament competent, amb aprovació automàtica si no hi ha resolució expressa dins dels quinze dies següents a la presentació"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 85 i seg. TRLUC: aprovació INICIAL municipal, informació pública d'1 MES, informes, i aprovació DEFINITIVA per la CTU; en municipis amb POUM adaptat, l'aprovació definitiva de determinats plans derivats correspon al mateix AJUNTAMENT amb informe previ de la comissió (art. 81).",
+   "source": "TRLUC",
+   "article": "Arts. 81 i 85 TRLUC"
+  },
+  {
+   "id": "t52q10",
+   "theme": 52,
+   "block": 11,
+   "q": "Què passa si l'òrgan competent no resol sobre l'aprovació definitiva d'un pla derivat dins de termini?",
+   "options": [
+    "El pla queda automàticament denegat i cal reiniciar tota la tramitació des de l'aprovació inicial, incloent-hi una nova informació pública i tots els informes sectorials",
+    "S'entén aprovat definitivament per SILENCI ADMINISTRATIU POSITIU (amb els límits generals: mai adquirir facultats contràries a la llei o al planejament de rang superior)",
+    "El pla passa a ser aprovat pel Govern de l'Estat per subrogació, en garantia del principi constitucional de seguretat jurídica en matèria d'ordenació del territori",
+    "La tramitació queda suspesa indefinidament fins que l'òrgan resolgui, sense que el promotor pugui fer res més que esperar o desistir de l'expedient administratiu"
+   ],
+   "correct": 1,
+   "explain": "Els arts. 91-92 TRLUC preveuen el SILENCI POSITIU per a l'aprovació definitiva dels plans (transcorreguts els terminis legals des de la recepció de l'expedient complet), amb el límit general de la legalitat; el promotor pot instar la publicació per fer-lo executiu.",
+   "source": "TRLUC",
+   "article": "Arts. 91-92 TRLUC"
+  },
+  {
+   "id": "t53q6",
+   "theme": 53,
+   "block": 11,
+   "q": "Quina garantia s'exigeix al promotor d'un pla urbanístic derivat d'iniciativa privada?",
+   "options": [
+    "El 4 per cent del valor cadastral agregat de totes les finques incloses dins de l'àmbit del pla, dipositat a la caixa general de dipòsits de la Generalitat de Catalunya",
+    "Una assegurança decennal per l'import total del pressupost d'execució material de les obres d'edificació previstes en el sector durant el primer quadrienni",
+    "El 12 per cent del valor de les obres d'urbanització, per assegurar l'execució de les obligacions assumides (es constitueix abans de la publicació de l'aprovació definitiva)",
+    "El 50 per cent de l'aprofitament urbanístic del sector, que resta afectat com a garantia real inscrita al registre de la propietat fins a la recepció de la urbanització"
+   ],
+   "correct": 2,
+   "explain": "L'art. 107.3 TRLUC: la tramitació de planejament d'iniciativa privada exigeix la constitució d'una garantia del 12% del valor de les obres d'urbanització per assegurar l'execució; és requisit per a la publicació de l'aprovació definitiva (i per tant per a l'executivitat).",
+   "source": "TRLUC",
+   "article": "Art. 107 TRLUC"
+  },
+  {
+   "id": "t53q7",
+   "theme": 53,
+   "block": 11,
+   "q": "Quina documentació addicional ha de contenir un pla derivat d'iniciativa privada (art. 102 TRLUC)?",
+   "options": [
+    "Únicament l'aval bancari pels tributs municipals que meritarà el desenvolupament del sector durant tota l'execució, calculat per la intervenció municipal corresponent",
+    "El certificat del registre mercantil de la solvència del promotor i la relació dels contractes d'obra ja subscrits amb les empreses constructores adjudicatàries",
+    "El projecte executiu complet de totes les edificacions previstes, visat pel col·legi d'arquitectes, i les llicències d'obres sol·licitades simultàniament al pla",
+    "L'estructura de la propietat del sòl, la viabilitat econòmica de la promoció, els compromisos que assumeix el promotor i les garanties de compliment, i els mitjans per executar-lo"
+   ],
+   "correct": 3,
+   "explain": "L'art. 102 TRLUC: els plans d'iniciativa privada han d'incloure, a més de la documentació general, l'estructura de la propietat, la viabilitat econòmica, els compromisos del promotor (obres, terminis, conservació) amb les garanties, i els mitjans econòmics de què disposa.",
+   "source": "TRLUC",
+   "article": "Art. 102 TRLUC"
+  },
+  {
+   "id": "t53q8",
+   "theme": 53,
+   "block": 11,
+   "q": "Té l'ajuntament l'obligació de tramitar els plans derivats presentats per particulars?",
+   "options": [
+    "Sí: si la iniciativa privada és conforme al planejament general, l'ajuntament ha de tramitar-la (aprovació inicial o resolució motivada en els terminis legals); la inactivitat pot obrir el silenci o la subrogació",
+    "No: la tramitació de qualsevol instrument de planejament és una potestat plenament discrecional de l'ajuntament, que pot arxivar les propostes privades sense motivació",
+    "Només si el promotor és propietari únic de tot l'àmbit i renuncia expressament a qualsevol indemnització per la eventual denegació de l'aprovació definitiva del pla",
+    "Només quan el pla derivat es refereix a sòl urbà consolidat, atès que en sòl urbanitzable la iniciativa correspon en exclusiva a l'administració actuant competent"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 101 i seg. TRLUC reconeixen la iniciativa privada en el planejament derivat: presentada la proposta completa i conforme al pla general, l'ajuntament ha de resoldre sobre l'aprovació inicial en els terminis de l'art. 89 (amb silenci i possibilitat de subrogació de la comissió en cas d'inactivitat).",
+   "source": "TRLUC",
+   "article": "Arts. 89 i 101-102 TRLUC"
+  },
+  {
+   "id": "t53q9",
+   "theme": 53,
+   "block": 11,
+   "q": "Què és el certificat de règim urbanístic (art. 105 TRLUC)?",
+   "options": [
+    "La cèdula d'habitabilitat que acredita que un habitatge compleix les condicions mínimes per ser ocupat, expedida pel departament competent en matèria d'habitatge",
+    "El document municipal que informa del règim urbanístic aplicable a una finca (classificació, qualificació, instruments que l'afecten), amb una vigència de sis mesos pel que fa a l'aprofitament",
+    "L'informe vinculant de la comissió territorial d'urbanisme que autoritza la divisió d'una finca rústica en unitats inferiors a la unitat mínima de conreu establerta",
+    "La certificació registral acreditativa de les càrregues urbanístiques que graven una finca inclosa en un polígon d'actuació en sistema de reparcel·lació per cooperació"
+   ],
+   "correct": 1,
+   "explain": "L'art. 105 TRLUC: qualsevol persona pot demanar informes i CERTIFICATS de règim urbanístic sobre una finca; el certificat vincula pel que fa a l'aprofitament durant SIS MESOS (les llicències demanades dins d'aquest termini s'han de resoldre d'acord amb el seu contingut, llevat de suspensions).",
+   "source": "TRLUC",
+   "article": "Art. 105 TRLUC"
+  },
+  {
+   "id": "t53q10",
+   "theme": 53,
+   "block": 11,
+   "q": "Com es garanteix la participació ciutadana en els processos de planejament?",
+   "options": [
+    "Mitjançant l'elecció per sufragi d'una comissió veïnal de seguiment amb dret de vet sobre les determinacions del pla que afectin el seu barri o districte censal",
+    "Amb la incorporació obligatòria d'un representant de cada associació de veïns a la comissió territorial d'urbanisme quan aprovi definitivament el pla municipal",
+    "Programa de participació ciutadana, informació pública amb publicitat per mitjans telemàtics, dret de consulta i d'obtenir còpies, i resposta raonada a les al·legacions",
+    "Únicament amb la publicació d'un resum del pla al butlletí municipal, atès que la participació plena queda reservada als propietaris de sòl inclosos en l'àmbit"
+   ],
+   "correct": 2,
+   "explain": "Els arts. 8 i 59 TRLUC: programa de participació, INFORMACIÓ PÚBLICA (amb documentació consultable per mitjans telemàtics), dret d'accés i còpia, i obligació de donar RESPOSTA RAONADA a les al·legacions; la participació és principi general de l'actuació urbanística.",
+   "source": "TRLUC",
+   "article": "Art. 8 TRLUC"
+  },
+  {
+   "id": "t54q6",
+   "theme": 54,
+   "block": 11,
+   "q": "Quins límits tenen els convenis urbanístics (art. 104 TRLUC)?",
+   "options": [
+    "Poden fixar lliurement la classificació futura del sòl a canvi de contraprestacions econòmiques, sempre que el ple els ratifiqui per majoria absoluta dels seus membres de dret",
+    "Només poden subscriure'ls els municipis de més de cinquanta mil habitants amb l'informe previ favorable de la comissió jurídica assessora de la Generalitat de Catalunya",
+    "Són secrets fins a l'aprovació definitiva del pla corresponent, per protegir l'estratègia negociadora municipal davant dels propietaris de sòl afectats pel desenvolupament",
+    "No poden condicionar l'exercici de les potestats públiques de planejament (cap reserva de dispensació), han de ser públics (transparència i consulta) i el seu incompliment no vincula la potestat planificadora"
+   ],
+   "correct": 3,
+   "explain": "L'art. 104 TRLUC: els convenis urbanístics s'integren a la documentació del pla, són PÚBLICS (consulta garantida), i NO poden vincular la potestat de planejament: el pla pot apartar-se'n (l'incompliment genera, si escau, responsabilitat, però mai dret al manteniment de l'ordenació pactada).",
+   "source": "TRLUC",
+   "article": "Art. 104 TRLUC"
+  },
+  {
+   "id": "t54q7",
+   "theme": 54,
+   "block": 11,
+   "q": "Quan esdevé executiu un pla urbanístic?",
+   "options": [
+    "Amb la publicació al diari oficial corresponent de l'acord d'aprovació definitiva i de les normes urbanístiques completes",
+    "Amb la simple adopció de l'acord d'aprovació definitiva per l'òrgan competent, encara que no s'hagi publicat, atès que la publicació té efectes merament informatius",
+    "Al cap de tres mesos de l'aprovació provisional municipal, si la comissió territorial no hi ha formulat objeccions mitjançant resolució expressa notificada a l'ajuntament",
+    "Quan s'inscriu al registre de la propietat la totalitat de les finques afectades per les noves determinacions d'ordenació del pla aprovat definitivament"
+   ],
+   "correct": 0,
+   "explain": "L'art. 106 TRLUC: els plans són executius a partir de la PUBLICACIÓ al DOGC (o BOP segons el cas) de l'acord d'aprovació definitiva i de les NORMES URBANÍSTIQUES; sense publicació íntegra de la normativa no hi ha eficàcia (art. 70.2 LRBRL per a l'àmbit local).",
+   "source": "TRLUC",
+   "article": "Art. 106 TRLUC"
+  },
+  {
+   "id": "t54q8",
+   "theme": 54,
+   "block": 11,
+   "q": "Quins efectes té l'aprovació del planejament sobre la situació de fora d'ordenació (art. 108 TRLUC)?",
+   "options": [
+    "Totes les construccions anteriors al pla queden automàticament legalitzades amb independència de si tenien llicència, per aplicació del principi de confiança legítima",
+    "Les construccions DISCONFORMES amb el nou pla i subjectes a expropiació, cessió o enderrocament queden fora d'ordenació: només s'hi admeten reparacions de conservació i higiene, mai consolidació ni augment de valor",
+    "Les construccions disconformes s'han d'enderrocar dins de l'any següent a la publicació del pla, amb una indemnització equivalent al doble del seu valor cadastral vigent",
+    "El nou planejament no té cap efecte sobre les edificacions existents fins que els propietaris sol·licitin una nova llicència d'obres majors o de canvi d'ús"
+   ],
+   "correct": 1,
+   "explain": "L'art. 108 TRLUC: queden FORA D'ORDENACIÓ les construccions disconformes amb el pla en què estigui prevista l'expropiació, cessió o enderroc: només s'hi autoritzen les reparacions exigides per la salubritat, higiene i seguretat (mai consolidació, augment de volum o de valor expropiatori). Les simplement disconformes (volum disconforme) tenen règim menys sever.",
+   "source": "TRLUC",
+   "article": "Art. 108 TRLUC"
+  },
+  {
+   "id": "t54q9",
+   "theme": 54,
+   "block": 11,
+   "q": "Quin efecte expropiatori té l'aprovació del planejament?",
+   "options": [
+    "Transfereix automàticament a l'ajuntament la propietat de tots els terrenys reservats per a sistemes urbanístics generals i locals des de la publicació del pla al diari oficial",
+    "Obliga l'ajuntament a expropiar, dins de l'any següent, totes les finques incloses en sòl urbanitzable delimitat que els propietaris li ofereixin formalment per escrit",
+    "Comporta la declaració d'utilitat pública de les obres i la necessitat d'ocupació dels terrenys i edificis afectats, als fins d'expropiació o imposició de servituds",
+    "No en té cap: l'expropiació urbanística exigeix sempre una llei singular del Parlament de Catalunya que declari la utilitat pública de cada actuació concreta"
+   ],
+   "correct": 2,
+   "explain": "L'art. 110 TRLUC: l'aprovació de plans i polígons comporta la DECLARACIÓ D'UTILITAT PÚBLICA i la NECESSITAT D'OCUPACIÓ dels béns afectats a fins d'expropiació o servituds, pressupòsits de l'expropiació (LEF).",
+   "source": "TRLUC",
+   "article": "Art. 110 TRLUC"
+  },
+  {
+   "id": "t54q10",
+   "theme": 54,
+   "block": 11,
+   "q": "Com es garanteix la publicitat del planejament vigent?",
+   "options": [
+    "Només els propietaris de finques incloses en cada àmbit poden consultar els plans que els afecten, prèvia acreditació de la titularitat registral corresponent",
+    "La publicitat s'esgota amb la publicació inicial al diari oficial: la consulta posterior exigeix el pagament d'una taxa i la justificació d'un interès legítim directe",
+    "Els plans es custodien exclusivament a la comissió territorial d'urbanisme, on es poden consultar amb cita prèvia dins de l'horari d'atenció al públic establert",
+    "Els plans són públics: consulta presencial i telemàtica garantida (Registre de planejament urbanístic de Catalunya), i qualsevol persona pot demanar informes i certificats de règim urbanístic"
+   ],
+   "correct": 3,
+   "explain": "Els arts. 8.5 i 103 i seg. TRLUC: PUBLICITAT del planejament: consulta garantida (també telemàtica: el Registre de planejament urbanístic de Catalunya dona accés públic als instruments vigents), informes i certificats de règim urbanístic per a qualsevol persona.",
+   "source": "TRLUC",
+   "article": "Arts. 8 i 103-105 TRLUC"
+  },
+  {
+   "id": "t55q6",
+   "theme": 55,
+   "block": 11,
+   "q": "Quines modalitats té el sistema de reparcel·lació (art. 121 TRLUC)?",
+   "options": [
+    "Compensació bàsica, compensació per concertació, cooperació i sectors d'urbanització prioritària",
+    "Expropiació total, expropiació parcial i taxació conjunta, segons el grau d'acord assolit amb els propietaris majoritaris del polígon d'actuació urbanística delimitat",
+    "Gestió directa, gestió indirecta i gestió interessada, en paral·lel amb les formes de gestió dels serveis públics locals que estableix la legislació de règim local",
+    "Urbanització simultània, urbanització diferida i urbanització per fases, segons el calendari d'execució de les obres fixat a l'agenda del pla d'ordenació municipal"
+   ],
+   "correct": 0,
+   "explain": "L'art. 121 TRLUC: els sistemes són REPARCEL·LACIÓ i EXPROPIACIÓ; la reparcel·lació té les modalitats de COMPENSACIÓ BÀSICA (propietaris), COMPENSACIÓ PER CONCERTACIÓ, COOPERACIÓ (administració executa, propietaris paguen) i SECTORS D'URBANITZACIÓ PRIORITÀRIA.",
+   "source": "TRLUC",
+   "article": "Arts. 121 i seg. TRLUC"
+  },
+  {
+   "id": "t55q7",
+   "theme": 55,
+   "block": 11,
+   "q": "Qui tria el sistema i la modalitat d'actuació d'un polígon?",
+   "options": [
+    "Els propietaris que representin més de la meitat de la superfície de l'àmbit, mitjançant escriptura pública atorgada davant de notari i inscrita al registre de la propietat",
+    "El planejament urbanístic (o, si no ho fa, l'administració en delimitar el polígon o iniciar l'execució), atenent les necessitats, els mitjans i la col·laboració de la iniciativa privada; es pot modificar amb el procediment de delimitació de polígons",
+    "La comissió territorial d'urbanisme en tots els casos, mitjançant una resolució discrecional no subjecta a cap criteri legal i irrecurrible en via administrativa",
+    "El contractista adjudicatari de les obres d'urbanització, com a agent responsable de l'execució material del planejament dins dels terminis del programa"
+   ],
+   "correct": 1,
+   "explain": "L'art. 121.2-3 TRLUC: el sistema i la modalitat els determina el PLANEJAMENT o, si no, l'acord de delimitació del polígon (administració actuant), ponderant necessitats de sòl, mitjans econòmics i iniciativa privada; el canvi segueix el procediment de modificació de la delimitació (art. 119).",
+   "source": "TRLUC",
+   "article": "Art. 121 TRLUC"
+  },
+  {
+   "id": "t55q8",
+   "theme": 55,
+   "block": 11,
+   "q": "Què caracteritza la modalitat de compensació bàsica?",
+   "options": [
+    "L'administració actuant executa les obres d'urbanització amb càrrec al seu pressupost i, un cop recepcionades, les repercuteix als propietaris mitjançant contribucions especials",
+    "Un agent urbanitzador seleccionat per concurs assumeix l'execució a canvi de terrenys edificables, sense que els propietaris participin en cap decisió del procés",
+    "Els propietaris (amb la junta de compensació com a regla si no hi ha propietari únic) executen la urbanització a càrrec seu i aporten els terrenys de cessió obligatòria: gestió privada sota tutela administrativa",
+    "L'ajuntament expropia la totalitat del polígon i adjudica les parcel·les resultants per subhasta pública entre els antics propietaris amb dret de tanteig preferent"
+   ],
+   "correct": 2,
+   "explain": "En la COMPENSACIÓ BÀSICA (arts. 130 i seg. TRLUC), els propietaris s'organitzen (JUNTA DE COMPENSACIÓ, ens de naturalesa administrativa, si hi ha pluralitat) i executen la reparcel·lació i la urbanització a càrrec seu, sota el control de l'administració; la junta pot incorporar empreses urbanitzadores.",
+   "source": "TRLUC",
+   "article": "Arts. 130 i seg. TRLUC"
+  },
+  {
+   "id": "t55q9",
+   "theme": 55,
+   "block": 11,
+   "q": "Què caracteritza la modalitat de cooperació?",
+   "options": [
+    "Els propietaris urbanitzen conjuntament amb l'ajuntament a parts iguals, constituint una societat mercantil mixta que s'extingeix amb la recepció definitiva de les obres",
+    "Una cooperativa de veïns adquireix tot el sòl del polígon i l'urbanitza en règim d'autopromoció per adjudicar els habitatges resultants entre els seus socis inscrits",
+    "La Generalitat assumeix subsidiàriament l'execució dels polígons que l'ajuntament no ha desenvolupat dins del termini fixat pel programa d'actuació municipal vigent",
+    "L'ADMINISTRACIÓ executa les obres d'urbanització a càrrec dels propietaris, que aporten el sòl de cessió; les despeses es reparteixen via reparcel·lació (quotes d'urbanització)"
+   ],
+   "correct": 3,
+   "explain": "En la COOPERACIÓ (arts. 139 i seg. TRLUC), l'administració actuant executa les obres a càrrec dels propietaris: aprova el projecte de reparcel·lació, gira QUOTES D'URBANITZACIÓ (exigibles per constrenyiment) i pot crear entitats col·laboradores (associacions administratives de cooperació).",
+   "source": "TRLUC",
+   "article": "Arts. 139 i seg. TRLUC"
+  },
+  {
+   "id": "t55q10",
+   "theme": 55,
+   "block": 11,
+   "q": "Quins efectes té l'aprovació del projecte de reparcel·lació?",
+   "options": [
+    "La cessió de ple dret dels terrenys de cessió obligatòria a l'administració, la subrogació real de les finques antigues per les noves (amb trasllat de càrregues compatibles) i l'afectació de les parcel·les al pagament de les despeses d'urbanització",
+    "Únicament la fixació provisional de les quotes d'urbanització de cada propietari, que esdevindran definitives amb la recepció de les obres per l'ajuntament actuant",
+    "L'extinció de totes les hipoteques i càrregues inscrites sobre les finques aportades, que passen a gravar el patrimoni personal dels propietaris respectius",
+    "L'atribució automàtica de la condició de solar a totes les parcel·les resultants, amb el dret immediat a obtenir llicència d'edificació sense cap altre requisit material"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 127 i 148 RLUC/TRLUC: l'aprovació definitiva del projecte de reparcel·lació produeix la CESSIÓ DE PLE DRET dels sòls d'obligatòria cessió, la SUBROGACIÓ REAL (finques de reemplaçament amb trasllat de drets i càrregues compatibles) i l'AFECTACIÓ REAL de les parcel·les al pagament de les càrregues d'urbanització; és títol inscriptible al Registre.",
+   "source": "TRLUC",
+   "article": "Art. 127 TRLUC"
+  },
+  {
+   "id": "t56q6",
+   "theme": 56,
+   "block": 12,
+   "q": "Quin règim tenen les condicions imposades a una llicència urbanística?",
+   "options": [
+    "Qualsevol condició és vàlida si el sol·licitant l'accepta signant la llicència, atès que l'atorgament és un acte bilateral de naturalesa contractual entre les parts",
+    "Són admissibles les 'conditio iuris' que ajusten el projecte a la legalitat (esmenes concretes), però no les condicions arbitràries o alienes a la normativa; les il·legals es tenen per no posades sense invalidar la llicència",
+    "Les llicències no poden contenir mai cap condició: si el projecte no s'ajusta plenament a la normativa, l'única opció legal és la denegació expressa i motivada",
+    "Les condicions només poden ser econòmiques (fiances i avals) i mai tècniques, que s'han de resoldre en el tràmit d'esmena de deficiències previ a la resolució"
+   ],
+   "correct": 1,
+   "explain": "Doctrina consolidada (i RLUC): la llicència, acte reglat, pot incorporar CONDICIONS que assegurin l'ajust a l'ordenament (condicions 'iuris': completar serveis, esmenes tècniques); les condicions contràries a dret o desvinculades es tenen per NO POSADES; condicions suspensives d'eficàcia són possibles (urbanització simultània amb garantia).",
+   "source": "RLUC",
+   "article": "Règim de les llicències (TRLUC i RLUC)"
+  },
+  {
+   "id": "t56q7",
+   "theme": 56,
+   "block": 12,
+   "q": "Què és una ordre d'execució i quan es dicta?",
+   "options": [
+    "La resolució de l'alcaldia que ordena la paralització immediata de les obres que s'executen sense llicència o excedint-ne el contingut autoritzat prèviament",
+    "El requeriment del contractista al promotor perquè aboni les certificacions d'obra vençudes abans de continuar l'execució material de l'edificació projectada",
+    "L'ordre municipal que imposa al propietari les obres necessàries per complir el deure de conservació (seguretat, salubritat, ornament); incomplerta, permet l'execució subsidiària o multes coercitives",
+    "L'acte pel qual la comissió territorial d'urbanisme obliga l'ajuntament a executar les previsions del pla director urbanístic dins d'un termini determinat"
+   ],
+   "correct": 2,
+   "explain": "L'art. 197 TRLUC (deure de conservació) i concordants: davant l'incompliment, l'ajuntament dicta ORDRES D'EXECUCIÓ de les obres necessàries (amb audiència); si no es compleixen: EXECUCIÓ SUBSIDIÀRIA a càrrec de l'obligat, MULTES COERCITIVES o inclusió en registres d'immobles en mal estat, sens perjudici de la via sancionadora.",
+   "source": "TRLUC",
+   "article": "Art. 197 TRLUC"
+  },
+  {
+   "id": "t56q8",
+   "theme": 56,
+   "block": 12,
+   "q": "Quins tipus de ruïna distingeix la legislació urbanística catalana (art. 198 TRLUC)?",
+   "options": [
+    "Ruïna total i ruïna parcial, segons que l'enderroc hagi d'afectar tota l'edificació o només les parts que amenacen caure sobre la via pública o finques veïnes",
+    "Ruïna imminent, ruïna declarada i ruïna consentida, segons el grau d'urgència apreciat pels serveis tècnics municipals en la primera inspecció ocular efectuada",
+    "Ruïna física, ruïna funcional i ruïna ambiental, en funció del tipus de deficiència que presenta l'immoble d'acord amb l'informe d'avaluació de l'edifici vigent",
+    "Ruïna econòmica (reparacions superiors al 50% del valor de reposició), ruïna tècnica (estabilitat no reparable amb mitjans ordinaris) i ruïna urbanística (obres impossibles per fora d'ordenació)"
+   ],
+   "correct": 3,
+   "explain": "L'art. 198 TRLUC: hi ha situació legal de RUÏNA quan: a) el cost de les reparacions supera el 50% del valor de reposició (ruïna ECONÒMICA); b) l'estabilitat no és reparable per mitjans tècnics normals (TÈCNICA); c) cal fer obres no autoritzables per estar l'edifici fora d'ordenació (URBANÍSTICA). Procediment amb audiència; ruïna IMMINENT: mesures urgents (desallotjament, apuntalament) sense declaració prèvia.",
+   "source": "TRLUC",
+   "article": "Art. 198 TRLUC"
+  },
+  {
+   "id": "t56q9",
+   "theme": 56,
+   "block": 12,
+   "q": "Qui és competent per atorgar les llicències urbanístiques i amb quins informes?",
+   "options": [
+    "L'alcalde (delegable), amb els informes previs TÈCNIC i JURÍDIC dels serveis municipals sobre l'adequació del projecte a la legalitat i al planejament",
+    "El ple de la corporació per majoria simple, amb el dictamen previ i vinculant del consell comarcal quan les obres superin el mig milió d'euros de pressupost material",
+    "La junta de govern local en tots els municipis, amb un únic informe de l'arquitecte municipal que abasta tant els aspectes tècnics com els estrictament jurídics",
+    "La comissió territorial d'urbanisme quan es tracta d'obres majors, i l'alcalde únicament per a les obres menors subjectes al règim de comunicació prèvia ordinària"
+   ],
+   "correct": 0,
+   "explain": "L'art. 21.1.q LRBRL i el RLUC: la competència és de l'ALCALDE (delegable en JGL o regidors); la tramitació exigeix INFORME TÈCNIC i INFORME JURÍDIC previs (art. 188.3 TRLUC), amb resolució en el termini legal (silenci positiu limitat per l'art. 5.2).",
+   "source": "TRLUC",
+   "article": "Art. 188 TRLUC; art. 21 LRBRL"
+  },
+  {
+   "id": "t56q10",
+   "theme": 56,
+   "block": 12,
+   "q": "Què passa amb les obres executades a l'empara d'una llicència que després s'anul·la?",
+   "options": [
+    "Les obres queden sempre consolidades pel principi de seguretat jurídica, atès que la llicència anul·lada era un acte administratiu que gaudia de presumpció de validesa",
+    "Cal distingir: si l'obra és legalitzable amb el planejament vigent, es legalitza; si no ho és, escau la restauració (enderroc) amb possible responsabilitat patrimonial de l'Administració envers el titular de bona fe",
+    "S'enderroquen en tot cas sense cap indemnització, perquè l'anul·lació de la llicència demostra que el particular mai no va adquirir cap dret a edificar la seva finca",
+    "Es transmeten automàticament al patrimoni municipal de sòl i d'habitatge com a sanció per haver edificat a l'empara d'un títol administratiu contrari a l'ordenament"
+   ],
+   "correct": 1,
+   "explain": "L'anul·lació de la llicència (revisió d'ofici, lesivitat o sentència) obliga a valorar la LEGALITZACIÓ (si l'obra és conforme al planejament) o la RESTAURACIÓ (enderroc del que no és legalitzable); el titular de BONA FE que va confiar en la llicència pot tenir dret a responsabilitat patrimonial (art. 48.d TRLSRU), llevat de dol o culpa seva.",
+   "source": "TRLUC",
+   "article": "Arts. 205-206 TRLUC; art. 48 TRLSRU"
+  },
+  {
+   "id": "t57q6",
+   "theme": 57,
+   "block": 12,
+   "q": "Quin control tenen notaris i registradors sobre les divisions de terrenys?",
+   "options": [
+    "Cap: les divisions de finques són negocis privats entre particulars que només tributen per l'impost de transmissions patrimonials i actes jurídics documentats",
+    "Només han de comprovar que la finca matriu supera els mil metres quadrats de superfície i que la divisió no genera més de quatre finques resultants independents",
+    "No poden autoritzar ni inscriure escriptures de divisió o segregació sense la llicència de parcel·lació o la declaració municipal que és innecessària, que s'han de protocol·litzar",
+    "Únicament exigeixen la llicència quan la divisió afecta sòl urbà consolidat, atès que en sòl no urbanitzable les divisions es regeixen per la legislació agrària estatal"
+   ],
+   "correct": 2,
+   "explain": "Els arts. 192 i seg. TRLUC (i la legislació estatal del sòl i hipotecària): tota divisió o segregació exigeix LLICÈNCIA DE PARCEL·LACIÓ o DECLARACIÓ D'INNECESSARIETAT; notaris i registradors han d'exigir-la i incorporar-la (sense títol administratiu no hi ha escriptura ni inscripció).",
+   "source": "TRLUC",
+   "article": "Arts. 192-194 TRLUC"
+  },
+  {
+   "id": "t57q7",
+   "theme": 57,
+   "block": 12,
+   "q": "Quan es pot dividir una finca en sòl no urbanitzable?",
+   "options": [
+    "Lliurement, sempre que totes les finques resultants tinguin accés directe a un camí públic i una superfície mínima de cinc-cents metres quadrats cadascuna d'elles",
+    "Mai: el sòl no urbanitzable és legalment indivisible en tots els casos i qualsevol alteració de finques exigeix la seva prèvia reclassificació com a urbanitzable",
+    "Quan ho autoritzi el departament competent en matèria d'agricultura, amb l'únic requisit que el nombre de finques resultants no superi el de propietaris actuals",
+    "Només respectant les unitats mínimes de conreu o forestals i sense generar cap nucli de població ni parcel·lació urbanística; les divisions per sota dels mínims agrarios són nul·les"
+   ],
+   "correct": 3,
+   "explain": "En SNU les divisions han de respectar la legislació agrària (UNITATS MÍNIMES de conreu i forestals: divisions inferiors, nul·les) i la prohibició de PARCEL·LACIÓ URBANÍSTICA (art. 191 TRLUC): cap divisió pot facilitar un nucli de població; cal llicència o declaració d'innecessarietat en tot cas.",
+   "source": "TRLUC",
+   "article": "Arts. 191-195 TRLUC"
+  },
+  {
+   "id": "t57q8",
+   "theme": 57,
+   "block": 12,
+   "q": "Quins indicis activen la presumpció de parcel·lació urbanística il·legal (art. 191.2)?",
+   "options": [
+    "Les divisions o vendes de participacions indivises amb dret d'ús exclusiu, la constitució d'associacions o societats amb el mateix efecte, i qualsevol operació que doni lloc a la transformació urbanística encoberta del sòl",
+    "Únicament la venda simultània de més de deu finques rústiques el mateix dia davant del mateix notari autoritzant, amb compradors residents fora de la comarca afectada",
+    "La sol·licitud de subministrament elèctric per a més de tres comptadors en una mateixa finca rústica, comunicada per la companyia distribuïdora a l'ajuntament competent",
+    "L'existència de tanques perimetrals de més de dos metres d'alçada en finques de menys d'una hectàrea, detectada pels serveis d'inspecció de la comissió territorial"
+   ],
+   "correct": 0,
+   "explain": "L'art. 191.2 TRLUC presumeix parcel·lació urbanística quan, sense divisió formal, es venen PARTICIPACIONS INDIVISES amb assignació d'ús exclusiu, s'usen figures societàries o associatives amb el mateix resultat, o operacions similars que evidencien la transformació encoberta: la presumpció trasllada la càrrega de la prova i habilita la protecció de la legalitat.",
+   "source": "TRLUC",
+   "article": "Art. 191.2 TRLUC"
+  },
+  {
+   "id": "t57q9",
+   "theme": 57,
+   "block": 12,
+   "q": "Què és la declaració d'innecessarietat de la llicència de parcel·lació?",
+   "options": [
+    "La dispensa que atorga la comissió territorial d'urbanisme quan la divisió afecta sòl de protecció especial inclòs al pla d'espais d'interès natural de Catalunya",
+    "L'acte municipal que constata que una divisió concreta no és parcel·lació urbanística (per exemple, per reparcel·lació aprovada o divisions agràries conformes) i permet autoritzar l'escriptura",
+    "El silenci administratiu positiu que es produeix quan l'ajuntament no resol la sol·licitud de llicència de parcel·lació dins del termini d'un mes des de la presentació",
+    "L'informe de l'arquitecte municipal que qualifica la divisió com a obra menor exempta de taxes i de l'impost sobre construccions, instal·lacions i obres municipals"
+   ],
+   "correct": 1,
+   "explain": "Quan la divisió no constitueix parcel·lació urbanística (finques resultants de reparcel·lacions, divisions en compliment de normativa agrària, aportacions a polígons...), l'ajuntament emet la DECLARACIÓ D'INNECESSARIETAT de llicència: títol administratiu igualment exigit per notaris i registradors.",
+   "source": "TRLUC",
+   "article": "Arts. 192-194 TRLUC"
+  },
+  {
+   "id": "t57q10",
+   "theme": 57,
+   "block": 12,
+   "q": "Quines conseqüències té la indivisibilitat de parcel·les (art. 195)?",
+   "options": [
+    "La indivisibilitat només opera si l'ajuntament inscriu una nota marginal específica al registre de la propietat dins de l'any següent a l'atorgament de la llicència",
+    "Les parcel·les indivisibles poden dividir-se lliurement quan totes les finques resultants es destinen a habitatge de protecció oficial de règim general o especial",
+    "Són indivisibles les parcel·les mínimes o inferiors al mínim, les d'edificabilitat esgotada i les vinculades a edificacions segons l'índex: la divisió contravenint-ho és il·legal i la condició s'ha de fer constar en escriptures",
+    "La indivisibilitat caduca automàticament al cap de quinze anys de l'aprovació del planejament que la va establir, per prescripció del gravamen urbanístic imposat"
+   ],
+   "correct": 2,
+   "explain": "L'art. 195 TRLUC: són INDIVISIBLES les parcel·les de dimensió igual o menor a la mínima (o que no permetin resultants conformes), aquelles l'edificabilitat de les quals s'ha esgotat o materialitzat totalment, i les vinculades per l'índex d'edificabilitat: la indivisibilitat es fa constar a les llicències i escriptures; les divisions contràries són parcel·lació il·legal.",
+   "source": "TRLUC",
+   "article": "Art. 195 TRLUC"
+  },
+  {
+   "id": "t58q6",
+   "theme": 58,
+   "block": 12,
+   "q": "Dins de quin termini pot l'Administració ordenar la restauració davant obres il·legals ja acabades?",
+   "options": [
+    "Dos anys des que l'ajuntament té coneixement formal de la infracció mitjançant una acta d'inspecció aixecada pels serveis tècnics municipals competents del districte",
+    "Quinze anys en tot cas, per coherència amb el termini de responsabilitat del contractista per vicis ocults que estableix la legislació de contractes del sector públic",
+    "No hi ha cap termini: la potestat de restauració de la legalitat urbanística és imprescriptible en totes les classes de sòl per la seva naturalesa d'ordre públic",
+    "Sis anys des de l'acabament de les obres (acció de restauració); en sòl no urbanitzable protegit, zones verdes i espais lliures, l'acció NO prescriu mai"
+   ],
+   "correct": 3,
+   "explain": "L'art. 207 TRLUC: l'acció de restauració (ordre d'enderroc/reposició) s'ha d'exercir dins dels SIS ANYS següents a l'acabament de les obres il·legals; EXCEPCIÓ: no prescriu mai en SNU de protecció especial (i terrenys equivalents: zones verdes, espais lliures, domini públic), on la il·legalitat és perseguible en qualsevol temps.",
+   "source": "TRLUC",
+   "article": "Art. 207 TRLUC"
+  },
+  {
+   "id": "t58q7",
+   "theme": 58,
+   "block": 12,
+   "q": "Com es tramita la legalització d'unes obres sense llicència però conformes al planejament?",
+   "options": [
+    "Es requereix l'interessat perquè en el termini de DOS MESOS sol·liciti la llicència (legalització); mentre es tramita, les obres queden suspeses; legalitzades, s'arxiva la restauració (no la sanció, que es gradua)",
+    "No hi ha legalització possible: tota obra iniciada sense llicència s'ha d'enderrocar íntegrament encara que sigui plenament conforme al planejament urbanístic vigent",
+    "S'atorga d'ofici la llicència amb un recàrrec del cent per cent sobre la taxa ordinària, sense que l'interessat hagi de presentar cap projecte tècnic addicional",
+    "La legalització correspon a la comissió territorial d'urbanisme mitjançant una autorització excepcional amb informe previ favorable del ple de l'ajuntament afectat"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 205-206 TRLUC: incoat el procediment de protecció de la legalitat per obres LEGALITZABLES, es requereix la LEGALITZACIÓ (sol·licitud de llicència en 2 mesos), amb suspensió de les obres en curs; si es legalitza, decau l'ordre de restauració, però subsisteix la potestat SANCIONADORA (amb la legalització com a atenuant en la graduació).",
+   "source": "TRLUC",
+   "article": "Arts. 205-206 TRLUC"
+  },
+  {
+   "id": "t58q8",
+   "theme": 58,
+   "block": 12,
+   "q": "Com es classifiquen les infraccions urbanístiques i quines multes comporten (arts. 211 i 219 TRLUC)?",
+   "options": [
+    "Ordinàries i qualificades, amb multes fixes de 6.000 i 60.000 euros respectivament, actualitzables cada any segons l'índex de preus de consum de Catalunya publicat",
+    "Molt greus, greus i lleus, amb multes de fins a 1.500.000 €, 150.000 € i 3.000 € respectivament, i el principi que la sanció mai pot ser més beneficiosa que l'incompliment",
+    "Lleus i greus únicament, amb multes de fins a 30.000 i 300.000 euros, imposades sempre per la comissió territorial d'urbanisme amb independència de la seva quantia",
+    "Es classifiquen segons el valor cadastral de la finca afectada, amb una multa única equivalent al deu per cent d'aquest valor per a qualsevol tipus d'infracció comesa"
+   ],
+   "correct": 1,
+   "explain": "Els arts. 211 i 219 TRLUC: infraccions MOLT GREUS (fins a 1.500.000 €), GREUS (fins a 150.000 €) i LLEUS (fins a 3.000 €); regeix el COMÍS DEL BENEFICI: la multa no pot ser inferior al benefici obtingut (s'incrementa fins a cobrir-lo); reduccions per restauració voluntària.",
+   "source": "TRLUC",
+   "article": "Arts. 211 i 219 TRLUC"
+  },
+  {
+   "id": "t58q9",
+   "theme": 58,
+   "block": 12,
+   "q": "Quines mesures provisionals escauen davant unes obres il·legals EN CURS?",
+   "options": [
+    "Cap fins que la sanció sigui ferma en via administrativa, per respecte a la presumpció d'innocència que empara el promotor de les obres objecte de l'expedient",
+    "Únicament l'anotació preventiva de la incoació de l'expedient al registre de la propietat, que impedeix la venda de la finca mentre es tramita el procediment",
+    "La suspensió immediata de les obres (paralització), amb precinte si cal, retirada de materials i maquinària, i les ordres pertinents als subministradors de serveis",
+    "L'ocupació temporal de la finca per l'ajuntament i l'execució directa de les obres conformes al planejament a càrrec del pressupost municipal d'inversions vigent"
+   ],
+   "correct": 2,
+   "explain": "L'art. 205 TRLUC: amb la incoació, l'ajuntament ha d'ordenar la SUSPENSIÓ IMMEDIATA de les obres en curs (mesura provisional), amb PRECINTE d'obres i maquinària si cal i comunicació a les companyies de serveis perquè no contractin subministraments; l'incompliment de la suspensió agreuja la responsabilitat i permet multes coercitives.",
+   "source": "TRLUC",
+   "article": "Art. 205 TRLUC"
+  },
+  {
+   "id": "t58q10",
+   "theme": 58,
+   "block": 12,
+   "q": "Qui pot exercir accions en defensa de la legalitat urbanística a banda de l'Administració?",
+   "options": [
+    "Només els propietaris de finques confrontants amb la infracció, acreditant un perjudici directe i quantificable econòmicament mitjançant una taxació pericial",
+    "Únicament el ministeri fiscal, en el marc del procés penal per delicte contra l'ordenació del territori tipificat al codi penal vigent en el moment dels fets",
+    "Exclusivament les associacions de veïns inscrites al registre municipal d'entitats que tinguin la defensa urbanística entre els seus fins estatutaris expressos",
+    "Qualsevol persona, mitjançant l'ACCIÓ PÚBLICA urbanística: exigir davant les administracions i els tribunals el compliment de la legalitat i del planejament"
+   ],
+   "correct": 3,
+   "explain": "L'art. 12 TRLUC (i 62 TRLSRU): l'ACCIÓ PÚBLICA en matèria urbanística permet a QUALSEVOL persona, sense legitimació especial, exigir davant els òrgans administratius i la jurisdicció contenciosa l'observança de la legalitat urbanística i del planejament.",
+   "source": "TRLUC",
+   "article": "Art. 12 TRLUC"
+  },
+  {
+   "id": "t59q6",
+   "theme": 59,
+   "block": 13,
+   "q": "Quin procediment segueix la llicència ambiental (annex II de la Llei 20/2009)?",
+   "options": [
+    "Sol·licitud amb projecte i estudis, informes preceptius (i de la ponència ambiental comarcal o municipal), informació pública, proposta de resolució amb audiència i resolució municipal, amb controls posteriors periòdics",
+    "Declaració responsable davant l'oficina de gestió empresarial amb efectes immediats, sense cap informe ambiental previ ni tràmit d'informació pública veïnal",
+    "Autorització del departament competent en medi ambient amb declaració d'impacte ambiental prèvia aprovada pel Govern i publicada al diari oficial de la Generalitat",
+    "Adjudicació per concurrència competitiva entre les empreses sol·licitants, atès que el nombre de llicències ambientals disponibles per municipi està limitat per llei"
+   ],
+   "correct": 0,
+   "explain": "La LLICÈNCIA AMBIENTAL (annex II Llei 20/2009) és municipal: projecte i documentació, INFORMACIÓ PÚBLICA (30 dies), informes preceptius (ponència ambiental), proposta amb audiència i resolució de l'ajuntament; l'activitat queda subjecta a CONTROLS periòdics i a revisió.",
+   "source": "L20_2009",
+   "article": "Arts. 37 i seg. Llei 20/2009"
+  },
+  {
+   "id": "t59q7",
+   "theme": 59,
+   "block": 13,
+   "q": "Què és la ponència ambiental municipal o comarcal?",
+   "options": [
+    "La comissió de seguiment del pla d'acció per l'energia sostenible que aprova anualment l'inventari municipal d'emissions de gasos amb efecte d'hivernacle",
+    "L'òrgan tècnic col·legiat que avalua les sol·licituds de llicència ambiental i emet l'informe integrat (vectors ambientals, prevenció d'incendis, salut), previ a la proposta de resolució",
+    "L'oficina municipal d'atenció a les empreses que tramita les altes censals de les activitats econòmiques i en comunica les dades a l'agència tributària estatal",
+    "El jurat de valoració dels premis de sostenibilitat que cada consell comarcal atorga a les empreses amb millor comportament ambiental del seu àmbit territorial"
+   ],
+   "correct": 1,
+   "explain": "La PONÈNCIA AMBIENTAL (municipal o, per als municipis que no en tenen, comarcal) és l'òrgan tècnic col·legiat que emet l'avaluació ambiental integrada de les sol·licituds de llicència (vectors: emissions, sorolls, residus, aigües; salut pública; incendis), base de la proposta de resolució municipal.",
+   "source": "L20_2009",
+   "article": "Llei 20/2009 (ponències ambientals)"
+  },
+  {
+   "id": "t59q8",
+   "theme": 59,
+   "block": 13,
+   "q": "Què passa si es vol modificar una activitat sotmesa a la Llei 20/2009?",
+   "options": [
+    "Tota modificació, per mínima que sigui, obliga a tramitar novament l'autorització o llicència completa de l'activitat amb tots els tràmits inicials inclosos",
+    "Les modificacions són lliures un cop l'activitat disposa del títol inicial, sense cap comunicació, sempre que no s'ampliï la superfície construïda del local",
+    "Cal distingir: la modificació SUBSTANCIAL exigeix nova autorització o llicència (pel que fa a la part afectada); la NO substancial es comunica i l'administració la incorpora o requereix tramitació segons els efectes",
+    "Només es poden fer modificacions cada cinc anys, coincidint amb la revisió periòdica obligatòria del títol habilitant per part de l'òrgan ambiental competent"
+   ],
+   "correct": 2,
+   "explain": "La Llei 20/2009 distingeix modificacions SUBSTANCIALS (canvis rellevants en emissions, capacitat, risc: nova autorització/llicència quant a la part afectada) i NO SUBSTANCIALS (comunicació; l'òrgan valora si té efectes sobre el medi i decideix incorporar-la o exigir tramitació).",
+   "source": "L20_2009",
+   "article": "Arts. 59 i seg. Llei 20/2009"
+  },
+  {
+   "id": "t59q9",
+   "theme": 59,
+   "block": 13,
+   "q": "Quins controls es fan sobre les activitats amb títol ambiental?",
+   "options": [
+    "Únicament el control tributari de l'impost sobre activitats econòmiques i la comprovació anual del pagament de la taxa municipal per llicència d'obertura vigent",
+    "Cap: el sistema es basa en la plena confiança en el titular, i l'administració només intervé arran de denúncies veïnals reiterades presentades per escrit al registre",
+    "Una auditoria ambiental externa cada sis mesos a càrrec del pressupost municipal, amb clausura automàtica si l'informe detecta qualsevol incompliment normatiu",
+    "Control INICIAL en la posada en marxa (quan escau) i controls PERIÒDICS posteriors (amb entitats col·laboradores acreditades o serveis tècnics), més les inspeccions i la revisió del títol"
+   ],
+   "correct": 3,
+   "explain": "El sistema de la Llei 20/2009: CONTROL INICIAL (acta de posada en marxa, quan és exigible) i CONTROLS PERIÒDICS (terminis segons l'annex; poden fer-los entitats col·laboradores acreditades), a més de la INSPECCIÓ administrativa i les revisions (periòdiques o anticipades) del títol; l'incompliment activa el règim sancionador propi.",
+   "source": "L20_2009",
+   "article": "Arts. 68 i seg. Llei 20/2009"
+  },
+  {
+   "id": "t59q10",
+   "theme": 59,
+   "block": 13,
+   "q": "Com s'integren el tràmit urbanístic i l'ambiental en obrir una activitat?",
+   "options": [
+    "Amb l'informe urbanístic municipal de compatibilitat amb el planejament, preceptiu en els procediments d'autorització i llicència ambiental; la incompatibilitat urbanística impedeix el títol ambiental",
+    "No hi ha cap relació: l'activitat pot obtenir el títol ambiental encara que l'ús estigui prohibit pel planejament, perquè són ordenaments independents i separats",
+    "El títol ambiental substitueix totes les llicències urbanístiques d'obres necessàries per adequar el local, que queden legalitzades automàticament amb l'obertura",
+    "L'informe urbanístic només és exigible en sòl no urbanitzable, atès que en sòl urbà la compatibilitat es presumeix sempre per la mateixa classificació del terreny"
+   ],
+   "correct": 0,
+   "explain": "La Llei 20/2009 exigeix l'INFORME URBANÍSTIC de compatibilitat de l'activitat amb el planejament (certificat municipal) en els procediments d'autorització i llicència: si l'ús és incompatible, no es pot atorgar el títol ambiental; les obres del local necessiten, a més, el seu propi títol urbanístic.",
+   "source": "L20_2009",
+   "article": "Art. 60 Llei 20/2009"
+  },
+  {
+   "id": "t60q6",
+   "theme": 60,
+   "block": 13,
+   "q": "Quins règims d'intervenció preveu la Llei 11/2009 per als establiments oberts al públic?",
+   "options": [
+    "Únicament l'autorització autonòmica per a tots els establiments, atès que la seguretat dels espectacles és competència exclusiva del departament d'interior",
+    "Llicència municipal per als establiments i espectacles de més risc o aforament, comunicació prèvia per a la resta, i autorització de la Generalitat per a determinats espectacles (els de caràcter extraordinari, entre d'altres)",
+    "La subhasta anual de places d'establiments per zones acústiques saturades i la concessió demanial per als locals situats en edificis de titularitat municipal",
+    "Un règim únic de declaració responsable per a tota mena d'establiments i espectacles, sense excepcions, des de l'entrada en vigor de la directiva de serveis europea"
+   ],
+   "correct": 1,
+   "explain": "La Llei 11/2009 gradua: LLICÈNCIA municipal d'establiments oberts al públic (per a aforaments/riscos superiors, segons el reglament), COMUNICACIÓ PRÈVIA per als de menys risc, i AUTORITZACIÓ de la Generalitat per a espectacles de caràcter extraordinari i supòsits específics; el reglament (Decret 112/2010) en fixa els llindars.",
+   "source": "L11_2009",
+   "article": "Llei 11/2009 i Decret 112/2010"
+  },
+  {
+   "id": "t60q7",
+   "theme": 60,
+   "block": 13,
+   "q": "Qui fixa els horaris d'obertura i tancament dels establiments d'espectacles i activitats recreatives?",
+   "options": [
+    "Cada establiment lliurement, dins del respecte a la normativa laboral del seu personal i a les condicions de la seva pòlissa d'assegurança de responsabilitat civil",
+    "El ple de cada ajuntament per majoria absoluta, amb un règim únic per a tot el terme municipal que no admet excepcions ni per festes locals ni per revetlles populars",
+    "El departament competent de la Generalitat mitjançant una ordre general d'horaris, amb marges perquè els ajuntaments els avancin o retardin en casos i festes determinats",
+    "La delegació del govern de l'Estat, per raons de seguretat ciutadana, amb un horari màxim uniforme per a tot el territori espanyol fixat per reial decret anual"
+   ],
+   "correct": 2,
+   "explain": "El règim d'HORARIS el fixa la Generalitat (ordre del departament competent en espectacles), amb habilitacions perquè els AJUNTAMENTS estableixin ampliacions o reduccions en supòsits taxats (festes locals, revetlles) i per a les zones saturades; l'incompliment d'horaris és infracció tipificada.",
+   "source": "L11_2009",
+   "article": "Llei 11/2009 (règim d'horaris)"
+  },
+  {
+   "id": "t60q8",
+   "theme": 60,
+   "block": 13,
+   "q": "Quin règim té el dret d'admissió als establiments oberts al públic?",
+   "options": [
+    "És un dret absolut del titular de l'establiment, que pot denegar l'entrada a qualsevol persona sense donar cap explicació ni publicar cap condició d'accés",
+    "Està prohibit amb caràcter general: cap establiment obert al públic pot impedir l'entrada de ningú mentre no se superi l'aforament màxim autoritzat del local",
+    "Només el poden exercir els establiments amb servei de seguretat privada contractat les vint-i-quatre hores i amb sistema de videovigilància homologat pels mossos",
+    "S'ha d'exercir amb condicions objectives, publicades de manera visible, mai discriminatòries ni arbitràries, i comunicades/aprovades segons el reglament"
+   ],
+   "correct": 3,
+   "explain": "La Llei 11/2009 i el Decret 112/2010: el DRET D'ADMISSIÓ exigeix condicions OBJECTIVES, publicades en un rètol visible a l'entrada (i comunicades a l'administració), aplicades sense discriminació (mai per raó de naixement, raça, sexe, religió, opinió...); l'exercici abusiu és sancionable.",
+   "source": "L11_2009",
+   "article": "Llei 11/2009 (dret d'admissió)"
+  },
+  {
+   "id": "t60q9",
+   "theme": 60,
+   "block": 13,
+   "q": "Quines mesures pot adoptar l'administració davant un local d'oci que funciona amb greu risc per a la seguretat?",
+   "options": [
+    "Mesures provisionals immediates: suspensió de l'activitat o de l'espectacle, clausura/precinte del local, prohibició d'accés i decomís de béns, amb ratificació i procediment posterior",
+    "Únicament la imposició d'una multa un cop tramitat el procediment sancionador complet, atès que la clausura només la pot ordenar un jutjat penal competent",
+    "La revocació automàtica i definitiva de la llicència sense cap tràmit d'audiència, per aplicació del principe de precaució en matèria de seguretat ciutadana",
+    "El trasllat forçós de l'activitat a un altre local municipal adequat mentre es resol l'expedient, amb el lloguer a càrrec del pressupost de l'ajuntament actuant"
+   ],
+   "correct": 0,
+   "explain": "La Llei 11/2009 habilita MESURES PROVISIONALS immediates davant risc greu: suspensió de l'activitat, CLAUSURA i precinte de l'establiment, prohibició d'entrada, decomís; adoptables fins i tot abans del procediment (urgència), amb confirmació posterior; el règim sancionador preveu, a més, sancions de multa, clausura i inhabilitació.",
+   "source": "L11_2009",
+   "article": "Llei 11/2009 (mesures i sancions)"
+  },
+  {
+   "id": "t60q10",
+   "theme": 60,
+   "block": 13,
+   "q": "Com es reparteixen les competències entre ajuntament i Generalitat en espectacles i activitats recreatives?",
+   "options": [
+    "Tota la matèria és competència exclusiva de la Generalitat, i els ajuntaments es limiten a cobrar la taxa per la tramitació administrativa de les sol·licituds",
+    "Els ajuntaments atorguen les llicències d'establiments, reben les comunicacions i inspeccionen i sancionen en el seu àmbit; la Generalitat autoritza supòsits específics, regula horaris i exerceix competències subsidiàries o concurrents",
+    "Tota la matèria és competència exclusiva municipal sense cap intervenció autonòmica, incloent-hi la regulació general dels horaris i del dret d'admissió",
+    "Les competències es reparteixen per sorteig biennal entre les administracions concurrents, segons el conveni marc signat amb les entitats representatives del sector"
+   ],
+   "correct": 1,
+   "explain": "La Llei 11/2009 distribueix: AJUNTAMENTS: llicències i comunicacions d'establiments, inspecció i potestat sancionadora en el seu àmbit (amb possibilitat de delegació si no tenen mitjans); GENERALITAT: autoritzacions específiques (espectacles extraordinaris, àmbit supramunicipal), regulació d'horaris, registres, i inspecció/sanció en els seus supòsits.",
+   "source": "L11_2009",
+   "article": "Llei 11/2009 (competències)"
   }
  ]
 }
