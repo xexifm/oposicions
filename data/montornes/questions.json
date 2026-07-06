@@ -10404,6 +10404,806 @@
    "explain": "L'art. 193.5 TRLHL (i 191.3: la liquidació, aprovada per l'alcalde abans del 1 de març, amb informe d'intervenció i dació de compte al ple): se n'ha de trametre còpia a la CA i a l'Estat abans de finalitzar el mes de març.",
    "source": "TRLHL",
    "article": "Arts. 191-193 TRLHL"
+  },
+  {
+   "id": "t41q6",
+   "theme": 41,
+   "block": 3,
+   "q": "Què passa amb els crèdits per a despeses que a 31 de desembre no estan afectats al compliment d'obligacions reconegudes?",
+   "options": [
+    "Es traspassen automàticament al pressupost de l'exercici següent com a crèdits inicials addicionals, incrementant les previsions d'ingressos en el mateix import corresponent",
+    "Es converteixen en un fons de contingència per atendre les necessitats imprevistes del primer trimestre de l'exercici següent, prèvia declaració d'urgència de l'alcaldia",
+    "Queden anul·lats de ple dret per l'aplicació del principi d'especialitat temporal, sens perjudici dels supòsits d'incorporació de romanents que preveu la normativa",
+    "Romanen vigents durant sis mesos més per atendre les factures presentades amb retard pels proveïdors, transcorreguts els quals es destinen a amortitzar deute financer"
+   ],
+   "correct": 2,
+   "explain": "L'art. 175 TRLHL: els crèdits per a despeses que l'últim dia de l'exercici no estiguin afectats al compliment d'obligacions ja reconegudes queden anul·lats de ple dret; excepció: incorporació de romanents (182 TRLHL i 47-48 RD 500/1990).",
+   "source": "TRLHL",
+   "article": "Art. 175 TRLHL"
+  },
+  {
+   "id": "t41q7",
+   "theme": 41,
+   "block": 3,
+   "q": "Qui pot declarar la no disponibilitat d'un crèdit pressupostari i quins efectes té (art. 33 RD 500/1990)?",
+   "options": [
+    "L'interventor municipal per pròpia iniciativa, com a mesura cautelar de control intern, amb efectes limitats a la suspensió dels pagaments materials del crèdit afectat",
+    "L'alcalde mitjançant decret motivat, amb la finalitat exclusiva de finançar crèdits extraordinaris aprovats durant l'exercici pressupostari corrent en curs d'execució",
+    "La junta de govern local a proposta del regidor d'hisenda, amb la conseqüència de reduir automàticament les previsions inicials d'ingressos en el mateix import declarat",
+    "El ple de l'entitat; el crèdit declarat no disponible no pot ser objecte d'autorització de despesa ni de transferència, i la seva dotació no és incorporable"
+   ],
+   "correct": 3,
+   "explain": "L'art. 33 RD 500/1990: la declaració de no disponibilitat de crèdits (i la seva reposició a disponible) correspon al PLE; el crèdit no disponible no pot autoritzar-se ni transferir-se i no és incorporable.",
+   "source": "RD500_1990",
+   "article": "Art. 33 RD 500/1990"
+  },
+  {
+   "id": "t41q8",
+   "theme": 41,
+   "block": 3,
+   "q": "Quins nivells mínims de vinculació jurídica fixa el RD 500/1990 si les bases no en diuen res (art. 29)?",
+   "options": [
+    "Respecte de la classificació per programes, l'àrea de despesa, i respecte de la classificació econòmica, el capítol",
+    "El subprograma i el subconcepte, respectivament, com a garantia del compliment estricte del principi d'especialitat qualitativa i quantitativa dels crèdits del pressupost",
+    "El grup de programes i l'article, sense que les bases d'execució puguin establir en cap cas nivells de vinculació més amplis que aquests mínims reglamentaris estatals",
+    "La política de despesa i el concepte, llevat dels crèdits de personal, que queden vinculats sempre a nivell de cada aplicació pressupostària individualment considerada"
+   ],
+   "correct": 0,
+   "explain": "L'art. 29 RD 500/1990 (adaptat a l'estructura vigent): en defecte de regulació a les bases, la vinculació és, com a mínim, a nivell d'àrea de despesa (programes) i de capítol (econòmica). Les bases poden fixar nivells més o menys agregats.",
+   "source": "RD500_1990",
+   "article": "Art. 29 RD 500/1990"
+  },
+  {
+   "id": "t41q9",
+   "theme": 41,
+   "block": 3,
+   "q": "Quina diferència hi ha entre crèdit inicial, crèdit definitiu i crèdit disponible?",
+   "options": [
+    "Són tres denominacions equivalents del mateix concepte, que la normativa utilitza indistintament segons la fase del cicle pressupostari en què es trobi l'entitat local corresponent",
+    "L'inicial és l'aprovat amb el pressupost; el definitiu resulta d'aplicar-hi les modificacions aprovades, i el disponible és el definitiu menys les retencions, les no disponibilitats i les despeses autoritzades",
+    "L'inicial és el sol·licitat per cada regidoria, el definitiu el que aprova la intervenció en la fiscalització i el disponible el que autoritza la tresoreria segons el pla de disposició",
+    "L'inicial correspon a l'exercici corrent, el definitiu als compromisos plurianuals ja adquirits i el disponible al romanent incorporat procedent de l'exercici immediatament anterior"
+   ],
+   "correct": 1,
+   "explain": "Delimitació bàsica: crèdits inicials (pressupost aprovat), crèdits definitius (inicials ± modificacions) i saldo disponible (definitius − retinguts − no disponibles − autoritzats/compromesos segons la fase).",
+   "source": "RD500_1990",
+   "article": "Arts. 27-33 RD 500/1990"
+  },
+  {
+   "id": "t41q10",
+   "theme": 41,
+   "block": 3,
+   "q": "Què és la retenció de crèdit?",
+   "options": [
+    "La suspensió cautelar de tots els pagaments d'una aplicació pressupostària acordada per la tresoreria municipal davant d'una situació transitòria de manca de liquiditat",
+    "La minoració definitiva del crèdit acordada pel ple per finançar un crèdit extraordinari o un suplement de crèdit tramitat durant l'exercici pressupostari corrent",
+    "L'acte pel qual s'expedeix, respecte d'una aplicació, una certificació d'existència de saldo suficient per a una despesa o una transferència, per l'import que es reserva",
+    "L'operació comptable de tancament que trasllada els saldos no gastats al compte de resultats economicopatrimonial de l'entitat local al final de cada exercici"
+   ],
+   "correct": 2,
+   "explain": "L'art. 31 RD 500/1990: la retenció de crèdit és l'expedició de la certificació d'existència de saldo suficient (per a l'autorització d'una despesa o d'una transferència), amb reserva de l'import corresponent.",
+   "source": "RD500_1990",
+   "article": "Arts. 31-32 RD 500/1990"
+  },
+  {
+   "id": "t42q6",
+   "theme": 42,
+   "block": 3,
+   "q": "Quines fases segueix l'execució del pressupost d'INGRESSOS?",
+   "options": [
+    "Autorització, disposició, reconeixement de l'obligació i ordenació del pagament, en paral·lel exacte amb les quatre fases de l'execució del pressupost de despeses de l'entitat",
+    "Meritació, liquidació provisional, liquidació definitiva i devolució d'ingressos indeguts, seqüència aplicable a tots els recursos de dret públic i privat de l'entitat local",
+    "Previsió, modificació de la previsió, compromís d'ingrés i formalització, fases que exigeixen la fiscalització prèvia de la intervenció en tots els casos sense excepció",
+    "El reconeixement o liquidació del dret i la seva extinció, normalment pel cobrament (recaptació en voluntària o executiva), amb possibles compensacions i altres formes d'extinció"
+   ],
+   "correct": 3,
+   "explain": "L'execució de l'ingrés comprèn el reconeixement (liquidació) dels drets i la seva extinció: cobrament (voluntària/executiva), compensació, ajornament/fraccionament o baixa per insolvència o prescripció (ICAL i TRLHL).",
+   "source": "RD500_1990",
+   "article": "Arts. 194 i seg. TRLHL"
+  },
+  {
+   "id": "t42q7",
+   "theme": 42,
+   "block": 3,
+   "q": "En quin termini s'han de justificar els pagaments a justificar i quina limitació tenen els perceptors?",
+   "options": [
+    "Dins dels tres mesos següents a la percepció dels fons; els perceptors no poden rebre noves quantitats a justificar si no han justificat les anteriors dins de termini",
+    "Dins de l'any natural en què es van percebre, amb la possibilitat de pròrroga per sis mesos més quan la naturalesa de la despesa ho justifiqui a criteri de la intervenció municipal",
+    "Dins dels quinze dies següents al pagament material de cada factura, mitjançant la presentació del compte justificatiu davant la tresoreria de la corporació local corresponent",
+    "No hi ha termini legal: cada entitat el fixa lliurement a les bases d'execució, amb l'únic límit que la justificació es presenti abans de la liquidació del pressupost de l'exercici"
+   ],
+   "correct": 0,
+   "explain": "L'art. 190.2 TRLHL: els perceptors de pagaments a justificar han de justificar l'aplicació de les quantitats dins dels 3 MESOS; no es poden expedir noves ordres a justificar a perceptors amb ordres pendents de justificar fora de termini.",
+   "source": "TRLHL",
+   "article": "Art. 190.2 TRLHL; art. 70 RD 500/1990"
+  },
+  {
+   "id": "t42q8",
+   "theme": 42,
+   "block": 3,
+   "q": "Què caracteritza les bestretes de caixa fixa (art. 73 RD 500/1990)?",
+   "options": [
+    "Són pagaments pressupostaris anticipats per a inversions urgents del capítol sis, autoritzats per l'alcaldia amb un límit del cinc per cent del pressupost inicial de l'exercici",
+    "Són provisions de fons de caràcter NO pressupostari i permanent per a atencions corrents de caràcter periòdic o repetitiu (dietes, material no inventariable...), que es van reposant amb la justificació",
+    "Són préstecs a curt termini que la tresoreria concedeix al personal de la corporació, reintegrables mitjançant descomptes mensuals a la nòmina durant l'exercici corrent",
+    "Són fons lliurats als grups polítics municipals per al funcionament ordinari, la justificació dels quals correspon exclusivament al portaveu de cada grup davant del ple"
+   ],
+   "correct": 1,
+   "explain": "L'art. 73 RD 500/1990: les bestretes de caixa fixa són provisions de fons no pressupostàries i permanents a favor d'habilitats o caixers per a atencions periòdiques o repetitives; es reposen amb la justificació (aplicació al pressupost).",
+   "source": "RD500_1990",
+   "article": "Arts. 73-76 RD 500/1990"
+  },
+  {
+   "id": "t42q9",
+   "theme": 42,
+   "block": 3,
+   "q": "Qui ordena els pagaments a l'entitat local i amb quin instrument es planifica la seva expedició?",
+   "options": [
+    "Correspon a l'interventor municipal, que expedeix les ordres segons l'ordre cronològic estricte d'entrada de les factures al registre comptable de factures de l'entitat local",
+    "Correspon al ple de la corporació, que aprova mensualment la relació de pagaments a proposta de la comissió especial de comptes amb l'informe previ de la tresoreria municipal",
+    "L'ordenació de pagaments correspon a l'alcalde (delegable), i s'expedeix d'acord amb el PLA DE DISPOSICIÓ DE FONS de la tresoreria, que ha de prioritzar les despeses de personal i les obligacions d'exercicis anteriors",
+    "Correspon al tresorer, que decideix discrecionalment l'ordre dels pagaments atenent la rendibilitat financera dels fons i les condicions pactades amb les entitats bancàries"
+   ],
+   "correct": 2,
+   "explain": "L'art. 186 TRLHL: l'ordenació de pagaments és competència del president; l'expedició s'acomoda al pla de disposició de fons (art. 187), que prioritza interessos i capital del deute públic i, en tot cas, despeses de personal i obligacions d'exercicis tancats.",
+   "source": "TRLHL",
+   "article": "Arts. 186-187 TRLHL"
+  },
+  {
+   "id": "t42q10",
+   "theme": 42,
+   "block": 3,
+   "q": "Es poden acumular en un sol acte administratiu diverses fases de l'execució de la despesa?",
+   "options": [
+    "No: el principi de segregació de funcions exigeix que cada fase l'acordi un òrgan diferent i en un moment temporal separat, com a garantia essencial del control intern de la despesa",
+    "Només en les despeses de personal i en el pagament d'interessos del deute, per la seva naturalesa recurrent, amb l'informe previ favorable de la intervenció en cada nòmina mensual",
+    "Sí, però únicament en els expedients tramitats per emergència, en què totes les fases s'acumulen necessàriament amb la simple ordre verbal de l'alcaldia ratificada posteriorment",
+    "Sí: es poden acumular l'autorització i la disposició (AD) o l'autorització, la disposició i el reconeixement de l'obligació (ADO), quan ho permetin les bases d'execució i la naturalesa de la despesa"
+   ],
+   "correct": 3,
+   "explain": "Els arts. 67-68 RD 500/1990: un mateix acte pot abraçar més d'una fase (AD, ADO) amb els mateixos efectes que si s'acordessin separadament; les bases d'execució regulen els supòsits (despeses de tràmit reglat, subministraments, nòmines...).",
+   "source": "RD500_1990",
+   "article": "Arts. 67-68 RD 500/1990"
+  },
+  {
+   "id": "t43q6",
+   "theme": 43,
+   "block": 3,
+   "q": "Què són les contribucions especials i quin límit té la seva recaptació?",
+   "options": [
+    "Tributs pel benefici o augment de valor dels béns per obres públiques o establiment o ampliació de serveis; la base imposable és, com a màxim, el 90 per cent del cost que l'entitat suporti",
+    "Recàrrecs sobre els impostos estatals cedits que les entitats locals poden establir fins a un màxim del deu per cent de la quota líquida corresponent a cada contribuent del municipi",
+    "Prestacions patrimonials no tributàries exigides als concessionaris de serveis públics locals, amb el límit del cinc per cent de la facturació anual del servei concedit corresponent",
+    "Taxes per l'aprofitament especial del domini públic local que graven les empreses subministradores amb l'u i mig per cent dels ingressos bruts facturats al terme municipal"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 28-37 TRLHL: les contribucions especials graven el benefici o l'augment de valor per obres públiques o serveis; la base imposable no pot excedir el 90% del cost suportat per l'entitat; s'exigeixen segons acord d'imposició i ordenació per a cada obra.",
+   "source": "TRLHL",
+   "article": "Arts. 28-37 TRLHL"
+  },
+  {
+   "id": "t43q7",
+   "theme": 43,
+   "block": 3,
+   "q": "Quina diferència de règim hi ha entre les taxes i els preus públics quant a la cobertura del cost?",
+   "options": [
+    "Les taxes han de cobrir sempre exactament el cent per cent del cost del servei, mentre que els preus públics es fixen lliurement pel mercat sense cap referència al cost de prestació",
+    "L'import de les taxes no pot excedir, en conjunt, el cost del servei o activitat; els preus públics, en canvi, han de cobrir COM A MÍNIM el cost, tot i que es poden fixar per sota per raons socials amb consignació pressupostària",
+    "Els preus públics no poden superar mai el cinquanta per cent del cost del servei, mentre que les taxes es fixen per llei estatal amb quanties idèntiques per a tots els municipis",
+    "No hi ha cap diferència: tots dos ingressos exigeixen un informe tecnicoeconòmic que acrediti la cobertura íntegra i exacta del cost del servei o de l'activitat corresponent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 24.2 TRLHL: l'import de les taxes no pot excedir, en conjunt, el cost real o previsible del servei; l'art. 44: els preus públics han de cobrir com a mínim el cost, però es poden fixar per sota per raons socials, benèfiques, culturals o d'interès públic (amb dotació de la diferència).",
+   "source": "TRLHL",
+   "article": "Arts. 24 i 44 TRLHL"
+  },
+  {
+   "id": "t43q8",
+   "theme": 43,
+   "block": 3,
+   "q": "Quins impostos municipals són POTESTATIUS (d'establiment voluntari)?",
+   "options": [
+    "L'impost sobre béns immobles i l'impost sobre activitats econòmiques, que cada ajuntament decideix lliurement si estableix mitjançant l'ordenança fiscal corresponent aprovada",
+    "L'impost sobre vehicles de tracció mecànica i l'impost sobre béns immobles de característiques especials, exigibles només als municipis de més de vint mil habitants de dret",
+    "L'impost sobre construccions, instal·lacions i obres (ICIO) i l'impost sobre l'increment de valor dels terrenys de naturalesa urbana (plusvàlua)",
+    "L'impost sobre estades en establiments turístics i l'impost sobre grans establiments comercials, que la llei d'hisendes locals permet establir a tots els municipis catalans"
+   ],
+   "correct": 2,
+   "explain": "L'art. 59 TRLHL: obligatoris IBI, IAE i IVTM; potestatius (exigeixen acord d'imposició i ordenança): ICIO i IIVTNU (plusvàlua).",
+   "source": "TRLHL",
+   "article": "Art. 59 TRLHL"
+  },
+  {
+   "id": "t43q9",
+   "theme": 43,
+   "block": 3,
+   "q": "Què és la participació en els tributs de l'Estat com a recurs local?",
+   "options": [
+    "Una subvenció finalista anual destinada exclusivament al finançament dels serveis socials municipals, justificable davant del ministeri competent abans del final de cada exercici",
+    "El recàrrec del cent per cent que els municipis poden aplicar sobre les quotes estatals de l'impost sobre la renda dels veïns residents al terme municipal corresponent",
+    "Un préstec sense interessos que l'Estat concedeix als municipis amb romanent de tresoreria negatiu, reintegrable en un màxim de deu anualitats pressupostàries successives",
+    "Una transferència incondicionada de l'Estat: cessió de rendiments de tributs estatals per als grans municipis i el fons complementari, o participació per variables (població, esforç fiscal) per a la resta"
+   ],
+   "correct": 3,
+   "explain": "Els arts. 111 i seg. TRLHL: participació en tributs de l'Estat — model de cessió (IRPF, IVA, especials) + fons complementari per a municipis grans (i capitals), i model de variables (població ponderada, esforç fiscal, capacitat) per a la resta; lliurances a compte i liquidació.",
+   "source": "TRLHL",
+   "article": "Arts. 111-126 TRLHL"
+  },
+  {
+   "id": "t43q10",
+   "theme": 43,
+   "block": 3,
+   "q": "Amb quins límits poden concertar operacions de crèdit a llarg termini les entitats locals?",
+   "options": [
+    "Només per finançar inversions (o substituir operacions); calen els règims d'autorització quan l'estalvi net és negatiu o el deute viu supera el 75 per cent dels ingressos corrents liquidats (i prohibició per sobre del 110 per cent)",
+    "Poden endeutar-se lliurement per a qualsevol finalitat, inclosa la despesa corrent, amb l'únic requisit de la comunicació posterior al Ministeri d'Hisenda dins del mes següent",
+    "Únicament poden acudir al crèdit els municipis de més de cinquanta mil habitants, amb l'informe favorable previ de la diputació provincial i pel termini màxim de deu anys",
+    "El crèdit a llarg termini està prohibit des de la llei d'estabilitat pressupostària; només s'admeten operacions de tresoreria cancel·lables dins de l'exercici corrent"
+   ],
+   "correct": 0,
+   "explain": "L'art. 177.5 i el capítol VII del títol I TRLHL (art. 48 i seg.) i la DF 31a LPGE 2013: llarg termini per a inversions; autorització si estalvi net negatiu o deute viu > 75% dels ingressos corrents; vetat si > 110% (règim de prudència financera).",
+   "source": "TRLHL",
+   "article": "Arts. 48 i seg. TRLHL"
+  },
+  {
+   "id": "t44q6",
+   "theme": 44,
+   "block": 11,
+   "q": "Quan es considera sòl urbà per consolidació de l'edificació segons el TRLUC?",
+   "options": [
+    "Quan més de la meitat de les parcel·les del polígon disposen de llicència d'obres concedida, encara que les edificacions no s'hagin començat a executar materialment",
+    "Quan els terrenys estan compresos en àrees consolidades per l'edificació d'almenys DUES TERCERES PARTS de la seva superfície edificable, integrades en la malla urbana",
+    "Quan el planejament general anterior els classificava com a urbanitzables i s'ha aprovat definitivament el projecte de reparcel·lació del sector corresponent",
+    "Quan els terrenys suporten qualsevol edificació anterior a l'any 1956, amb independència del seu estat de conservació i de la seva integració en la trama urbana existent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 26 TRLUC: són sòl urbà els terrenys amb serveis urbanístics bàsics i els compresos en àrees consolidades per l'edificació d'almenys dues terceres parts de la superfície edificable, sempre que formin part de la malla urbana.",
+   "source": "TRLUC",
+   "article": "Art. 26 TRLUC"
+  },
+  {
+   "id": "t44q7",
+   "theme": 44,
+   "block": 11,
+   "q": "Com es classifica el sòl urbanitzable segons el TRLUC?",
+   "options": [
+    "En programat i no programat, segons que el programa d'actuació urbanística municipal n'hagi fixat o no el calendari d'execució per quadriennis successius vinculants",
+    "En residencial, industrial i terciari, categories que determinen directament els usos admesos sense necessitat de cap instrument de planejament derivat posterior",
+    "En DELIMITAT (àmbits amb sectors definits pel pla, transformables amb pla parcial) i NO DELIMITAT (transformable només amb pla parcial de delimitació prèvia)",
+    "En prioritari i diferit, segons la disponibilitat de recursos hídrics certificada per l'Agència Catalana de l'Aigua en el moment de l'aprovació del pla d'ordenació"
+   ],
+   "correct": 2,
+   "explain": "L'art. 33 TRLUC: el sòl urbanitzable pot ser delimitat (el POUM en delimita els sectors; es desenvolupa amb pla parcial urbanístic) o no delimitat (cal un pla parcial de delimitació per transformar-lo).",
+   "source": "TRLUC",
+   "article": "Art. 33 TRLUC"
+  },
+  {
+   "id": "t44q8",
+   "theme": 44,
+   "block": 11,
+   "q": "Quines categories pot establir el planejament dins del sòl no urbanitzable?",
+   "options": [
+    "Únicament la categoria de rústic comú, atès que qualsevol protecció addicional del territori correspon exclusivament a la legislació sectorial estatal de medi ambient",
+    "Les categories de reserva urbana, eixample i extraradi, heretades de la legislació del sòl de 1956 i encara vigents transitòriament als municipis sense pla d'ordenació",
+    "Sòl no urbanitzable ordinari i d'urbanització prioritària, segons la proximitat als nuclis existents i la demanda residencial acreditada a la memòria social del pla",
+    "Sòl de protecció especial (valors naturals, agraris, paisatgístics o sotmès a règims sectorials de protecció) i altres categories segons els valors o riscos, sempre amb el règim d'ús limitat dels arts. 47 i seg. TRLUC"
+   ],
+   "correct": 3,
+   "explain": "L'art. 32 TRLUC i la pràctica del planejament: el SNU comprèn els terrenys amb valors a protegir (protecció especial: naturals, agraris, paisatgístics, forestals, o proteccions sectorials) i els inadequats per al desenvolupament; el règim d'ús el fixen els arts. 47 i seg.",
+   "source": "TRLUC",
+   "article": "Art. 32 TRLUC"
+  },
+  {
+   "id": "t44q9",
+   "theme": 44,
+   "block": 11,
+   "q": "Qui té la potestat de classificar el sòl i amb quin instrument?",
+   "options": [
+    "El pla d'ordenació urbanística municipal (POUM), que classifica tot el territori del terme en sòl urbà, urbanitzable i no urbanitzable, com a decisió d'ordenació pròpia del municipi dins del marc legal",
+    "La Generalitat de Catalunya mitjançant decret del Govern, atès que la classificació del sòl és una competència autonòmica exclusiva no delegable en els ajuntaments del país",
+    "Els propietaris dels terrenys mitjançant declaració responsable presentada davant l'ajuntament, que només pot denegar-ne la classificació per raons de protecció ambiental",
+    "El Ministeri competent en habitatge i agenda urbana, a proposta de la comissió territorial d'urbanisme corresponent, amb l'informe previ de la diputació provincial afectada"
+   ],
+   "correct": 0,
+   "explain": "L'art. 25 TRLUC: la classificació és contingut del POUM (que ordena tot el terme); és una potestat pública municipal (amb aprovació definitiva autonòmica), no un dret del propietari; el sòl urbà és, en canvi, força reglada (caràcter reglat del sòl urbà).",
+   "source": "TRLUC",
+   "article": "Arts. 25-26 i 57 TRLUC"
+  },
+  {
+   "id": "t44q10",
+   "theme": 44,
+   "block": 11,
+   "q": "Quins deures té el propietari perquè una parcel·la de sòl urbà arribi a la condició de solar?",
+   "options": [
+    "Únicament pagar l'impost sobre construccions, instal·lacions i obres i sol·licitar la llicència de parcel·lació davant dels serveis tècnics municipals corresponents del districte",
+    "Completar la urbanització necessària (front de vial, serveis) i, si escau, cedir els terrenys per a vials i ajustar-se a les alineacions i rasants, perquè la parcel·la sigui apta per a l'edificació immediata",
+    "Inscriure la finca al registre municipal de solars sense edificar i constituir una garantia del cent per cent del cost de l'edificació futura projectada sobre la parcel·la",
+    "Obtenir la declaració d'interès públic del projecte edificatori per part de la comissió territorial d'urbanisme i la dispensa del compliment de les reserves d'aparcament"
+   ],
+   "correct": 1,
+   "explain": "L'art. 29 TRLUC defineix el solar (urbanitzat segons el planejament, apte per edificar, amb front a via pública); els arts. 42 i 44: deures d'acabar la urbanització i cessions puntuals perquè la parcel·la assoleixi la condició de solar abans (o simultàniament) a l'edificació.",
+   "source": "TRLUC",
+   "article": "Arts. 29 i 42-44 TRLUC"
+  },
+  {
+   "id": "t45q6",
+   "theme": 45,
+   "block": 11,
+   "q": "Com es valora el sòl en situació bàsica RURAL segons el TRLSRU?",
+   "options": [
+    "Pel valor cadastral vigent multiplicat per dos, com a garantia mínima del propietari expropiat davant de les fluctuacions especulatives del mercat immobiliari de la zona",
+    "Pel mètode residual dinàmic, descomptant del valor en venda del producte immobiliari acabat els costos de construcció i urbanització pendents i el benefici del promotor",
+    "Per capitalització de la renda anual real o potencial de l'explotació (la superior), amb possible correcció a l'alça per factors de localització, i MAI computant expectatives urbanístiques",
+    "Pel preu mitjà de les transaccions de sòl similar registrades a la comarca durant els tres anys anteriors, certificat pel col·legi de registradors de la propietat corresponent"
+   ],
+   "correct": 2,
+   "explain": "Els arts. 34-36 TRLSRU: el sòl rural es valora per capitalització de rendes (real o potencial, la superior), amb correccions per localització (fins al doble), i amb la prohibició expressa de considerar expectatives derivades de l'assignació d'edificabilitats pel planejament.",
+   "source": "TRLSRU",
+   "article": "Arts. 34-36 TRLSRU"
+  },
+  {
+   "id": "t45q7",
+   "theme": 45,
+   "block": 11,
+   "q": "Quins requisits exigeix el TRLSRU perquè el sòl estigui en situació bàsica de sòl URBANITZAT (art. 21.3)?",
+   "options": [
+    "Haver estat classificat com a urbà o urbanitzable per qualsevol instrument de planejament general vigent, encara que la urbanització material no s'hagi iniciat efectivament",
+    "Disposar de llicència municipal de parcel·lació i estar inclòs en el padró de l'impost sobre béns immobles de naturalesa urbana amb una antiguitat mínima de deu anys",
+    "Trobar-se a menys de dos quilòmetres d'un nucli urbà consolidat i tenir accés directe des d'una carretera de titularitat pública pavimentada i amb enllumenat públic",
+    "Estar integrat de manera legal i efectiva en la xarxa de dotacions i serveis d'un nucli de població: comptar amb accés rodat, abastament d'aigua, sanejament i subministrament elèctric, o estar ocupat per l'edificació en els termes legals"
+   ],
+   "correct": 3,
+   "explain": "L'art. 21.3 TRLSRU: sòl urbanitzat és el integrat legalment i efectivament en la xarxa de dotacions i serveis: urbanitzat segons planejament, amb els serveis (accés rodat per vies pavimentades, aigua, sanejament, electricitat) o ocupat per l'edificació en el percentatge que fixi la legislació.",
+   "source": "TRLSRU",
+   "article": "Art. 21.3 TRLSRU"
+  },
+  {
+   "id": "t45q8",
+   "theme": 45,
+   "block": 11,
+   "q": "Per a què serveix la distinció entre situacions bàsiques del sòl (rural/urbanitzat)?",
+   "options": [
+    "És la referència estatal per a les VALORACIONS (expropiació, responsabilitat, execucions) i per als deures de les actuacions de transformació, sense interferir en la classificació urbanística autonòmica",
+    "Substitueix completament la classificació urbanística en sòl urbà, urbanitzable i no urbanitzable, que va quedar derogada amb l'entrada en vigor de la legislació estatal del sòl",
+    "Determina el règim de llicències municipals aplicable a cada terreny i el sentit del silenci administratiu en els procediments d'autorització d'obres de nova planta",
+    "Fixa la quota de l'impost sobre béns immobles aplicable a cada finca, en substitució de la ponència de valors cadastrals aprovada per la gerència territorial del cadastre"
+   ],
+   "correct": 0,
+   "explain": "El TRLSRU (art. 21) defineix les situacions bàsiques 'a tots els efectes' de la llei estatal: valoracions (títol V), deures de les actuacions i estatut del propietari; la classificació (urbà/urbanitzable/no urbanitzable) és tècnica urbanística de la llei catalana.",
+   "source": "TRLSRU",
+   "article": "Art. 21 TRLSRU"
+  },
+  {
+   "id": "t45q9",
+   "theme": 45,
+   "block": 11,
+   "q": "Com es valora el sòl en situació d'urbanitzat que no està edificat (o amb edificació il·legal o en ruïna)?",
+   "options": [
+    "Per capitalització de la renda agrària potencial de la finca incrementada en un factor de proximitat urbana d'entre dos i quatre segons la població del municipi corresponent",
+    "Pel mètode RESIDUAL ESTÀTIC: valor de repercussió del sòl segons l'ús i l'edificabilitat atribuïts pel planejament, descomptant els deures i càrregues pendents",
+    "Pel valor de mercat declarat pel propietari en l'última escriptura pública de transmissió de la finca, actualitzat amb l'índex de preus de consum acumulat des d'aleshores",
+    "Pel cost històric d'adquisició acreditat documentalment més les despeses d'urbanització efectivament abonades a la junta de compensació del sector de planejament corresponent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 37 TRLSRU: en sòl urbanitzat no edificat (o amb edificació sense valor: il·legal o ruïna física), valoració pel mètode residual estàtic aplicat a l'ús i edificabilitat del planejament (o els de referència), amb descompte dels deures i càrregues pendents.",
+   "source": "TRLSRU",
+   "article": "Art. 37 TRLSRU"
+  },
+  {
+   "id": "t45q10",
+   "theme": 45,
+   "block": 11,
+   "q": "Quan passa el sòl rural en transformació a la situació de sòl urbanitzat?",
+   "options": [
+    "Amb la simple aprovació definitiva del pla parcial que ordena el sector, moment en què tots els terrenys passen automàticament a valorar-se com a sòl completament urbanitzat",
+    "Quan els propietaris han abonat la meitat de les quotes d'urbanització girades per la junta de compensació, amb independència de l'estat material real de les obres del sector",
+    "Quan acaba la corresponent actuació d'urbanització: les obres executades conforme al planejament i recepcionades converteixen el sòl en urbanitzat; mentrestant, es valora com a rural amb les especialitats de l'actuació",
+    "Amb la inscripció del projecte de reparcel·lació al registre de la propietat, que atribueix a cada finca resultant la condició registral de solar apte per a l'edificació"
+   ],
+   "correct": 2,
+   "explain": "L'art. 21.2.b TRLSRU manté en situació rural el sòl amb transformació en curs fins que ACABI l'actuació d'urbanització; l'edificabilitat prevista no es patrimonialitza fins a la conclusió (les valoracions incorporen, si escau, la indemnització de despeses i la facultat de participar).",
+   "source": "TRLSRU",
+   "article": "Art. 21.2 TRLSRU"
+  },
+  {
+   "id": "t46q6",
+   "theme": 46,
+   "block": 11,
+   "q": "Què és l'ocupació directa com a mecanisme d'obtenció de sistemes urbanístics?",
+   "options": [
+    "L'expropiació urgent dels terrenys dotacionals amb el pagament del preu just mitjançant la permuta obligatòria per parcel·les patrimonials municipals d'igual valor cadastral",
+    "L'adquisició dels terrenys per compravenda directa negociada amb els propietaris, amb el límit del valor de taxació pericial aprovat per la comissió territorial d'urbanisme",
+    "La cessió voluntària i gratuïta dels terrenys pels propietaris a canvi de l'exempció de l'impost sobre béns immobles durant els vint exercicis fiscals següents a la cessió",
+    "L'obtenció de terrenys destinats a sistemes mitjançant el reconeixement al propietari del dret a participar en un sector o polígon concret (aprofitament pendent), amb ocupació immediata del terreny"
+   ],
+   "correct": 3,
+   "explain": "Els arts. 156 i seg. TRLUC: l'ocupació directa permet ocupar terrenys de sistemes reconeixent al titular el dret a l'aprofitament en un polígon amb excés d'aprofitament (participació diferida), amb acta i certificació inscriptible; indemnització per l'ocupació temporal si escau.",
+   "source": "TRLUC",
+   "article": "Arts. 156-157 TRLUC"
+  },
+  {
+   "id": "t46q7",
+   "theme": 46,
+   "block": 11,
+   "q": "Com s'obtenen els sistemes urbanístics GENERALS quan no estan inclosos en cap sector o polígon?",
+   "options": [
+    "Per expropiació (o altres formes d'adquisició), atès que no hi ha deure de cessió gratuïta fora dels àmbits d'actuació; també es poden ADSCRIURE a sectors perquè s'obtinguin amb càrrec a aquests",
+    "Sempre per cessió gratuïta i obligatòria dels propietaris confrontants, en proporció a la superfície de les seves finques i amb independència de la classe de sòl afectada",
+    "Mitjançant el dret de tanteig i retracte municipal sobre totes les transmissions oneroses de finques incloses en la reserva de sistema general del pla d'ordenació vigent",
+    "Per usucapió administrativa de deu anys comptats des de la publicació del pla que estableix la destinació dotacional pública dels terrenys reservats com a sistema general"
+   ],
+   "correct": 0,
+   "explain": "Els sistemes generals no inclosos ni adscrits s'obtenen per expropiació (o ocupació directa); la tècnica habitual és la INCLUSIÓ o l'ADSCRIPCIÓ a sectors o polígons, de manera que la cessió vagi a càrrec de la comunitat de repartiment corresponent.",
+   "source": "TRLUC",
+   "article": "Arts. 34-35 i 156 TRLUC"
+  },
+  {
+   "id": "t46q8",
+   "theme": 46,
+   "block": 11,
+   "q": "Quins tipus de sistemes urbanístics preveu l'art. 34 TRLUC?",
+   "options": [
+    "Únicament el sistema viari i el d'espais lliures, atès que els equipaments es qualifiquen sempre com a zones amb aprofitament privat subjecte a llicència municipal d'activitat",
+    "Comunicacions (viari, ferroviari), equipaments comunitaris (docents, sanitaris, esportius, administratius...), espais lliures públics (zones verdes) i serveis tècnics (i habitatges dotacionals públics)",
+    "Sistemes primaris estatals, secundaris autonòmics i terciaris municipals, segons l'administració titular del servei públic a què es destinen els terrenys reservats pel pla",
+    "Xarxes estructurants, xarxes complementàries i xarxes de proximitat, seguint la classificació de la legislació estatal del sòl aplicable amb caràcter bàsic a tot el territori"
+   ],
+   "correct": 1,
+   "explain": "L'art. 34 TRLUC: sistemes de comunicacions, d'equipaments comunitaris, d'espais lliures públics i de serveis tècnics; el sistema d'habitatges dotacionals públics també hi té cabuda (34.3); poden ser generals o locals segons l'àmbit que serveixen.",
+   "source": "TRLUC",
+   "article": "Art. 34 TRLUC"
+  },
+  {
+   "id": "t46q9",
+   "theme": 46,
+   "block": 11,
+   "q": "Poden els sistemes urbanístics ser de titularitat privada?",
+   "options": [
+    "No: tota reserva de sistema comporta necessàriament la titularitat pública del sòl i la seva inscripció a l'inventari de béns de domini públic de l'administració actuant",
+    "Només els sistemes de comunicacions, que es poden concedir a empreses privades de peatge amb la qualificació de domini públic virtual durant el termini concessional",
+    "Sí, excepcionalment: el planejament pot preveure equipaments comunitaris de titularitat privada quan sigui compatible amb l'interès públic (i els espais lliures poden admetre usos privats compatibles en subsòl)",
+    "Sí, tots sense excepció, atès que la titularitat és irrellevant per a l'ordenació urbanística i només importa la destinació efectiva dels terrenys al servei corresponent"
+   ],
+   "correct": 2,
+   "explain": "L'art. 34.6 TRLUC (i concordants): el sistema d'equipaments pot ser de titularitat pública o PRIVADA segons el planejament (equipaments privats d'interès comunitari); el subsòl dels sistemes pot admetre aprofitament privat compatible (art. 35.2... arts. 34-40).",
+   "source": "TRLUC",
+   "article": "Art. 34 TRLUC"
+  },
+  {
+   "id": "t46q10",
+   "theme": 46,
+   "block": 11,
+   "q": "Què implica l'adscripció d'un sistema general a un sector de sòl urbanitzable?",
+   "options": [
+    "Que el sistema queda exclòs de l'ordenació del sector i s'ha d'expropiar necessàriament amb càrrec al pressupost municipal d'inversions de l'exercici en què s'aprovi el pla parcial",
+    "Que l'ajuntament assumeix el manteniment del sistema abans que s'executi la urbanització del sector, amb el finançament de la diputació provincial corresponent al territori",
+    "Que l'aprofitament del sector s'incrementa automàticament en la superfície del sistema adscrit, sense que això alteri les reserves mínimes per a espais lliures i equipaments",
+    "Que el sòl del sistema s'obté amb càrrec al sector: els propietaris del sistema participen del repartiment de beneficis i càrregues del sector i cedeixen el terreny gratuïtament"
+   ],
+   "correct": 3,
+   "explain": "L'adscripció integra els terrenys del sistema general en la comunitat de repartiment del sector: computen a l'efecte d'aprofitament (els seus propietaris hi participen) i es cedeixen gratuïtament, urbanitzats si escau, dins de l'execució del sector.",
+   "source": "TRLUC",
+   "article": "Arts. 35 i 156 TRLUC"
+  },
+  {
+   "id": "t47q6",
+   "theme": 47,
+   "block": 11,
+   "q": "Què és el principi de distribució equitativa de beneficis i càrregues i on opera?",
+   "options": [
+    "El dret dels propietaris al repartiment just de l'aprofitament i dels deures dins de cada àmbit d'actuació (polígon o sector), instrumentat a través de la reparcel·lació i els coeficients de ponderació",
+    "La regla que obliga tots els municipis a tenir la mateixa edificabilitat mitjana per habitant, controlada per la comissió d'urbanisme de Catalunya en aprovar cada pla general",
+    "El mandat de destinar la meitat de l'aprofitament de cada sector a habitatge de protecció pública, repartit per sorteig entre els veïns inscrits al registre de sol·licitants",
+    "La prohibició que el planejament assigni edificabilitats diferents a zones diferents del mateix municipi, per garantir la igualtat de tracte de tots els propietaris del terme"
+   ],
+   "correct": 0,
+   "explain": "L'art. 7 TRLUC consagra el repartiment equitatiu de beneficis i càrregues dins de cada àmbit; la reparcel·lació (arts. 124 i seg.) el materialitza, i els coeficients de ponderació homogeneïtzen usos i zones per repartir l'aprofitament.",
+   "source": "TRLUC",
+   "article": "Arts. 7 i 124 TRLUC"
+  },
+  {
+   "id": "t47q7",
+   "theme": 47,
+   "block": 11,
+   "q": "Què diferencia l'aprofitament urbanístic OBJECTIU del SUBJECTIU?",
+   "options": [
+    "L'objectiu es refereix als usos industrials i terciaris, mentre que el subjectiu correspon exclusivament als usos residencials protegits pel pla d'ordenació municipal vigent",
+    "L'objectiu és el que el planejament atribueix als terrenys (sostre, ús, densitat); el subjectiu és la part que correspon patrimonialitzar als propietaris un cop deduïdes les cessions i complerts els deures",
+    "L'objectiu el fixa la comissió territorial d'urbanisme i el subjectiu l'ajuntament, mitjançant la ponència de valors aprovada amb l'informe del cadastre immobiliari corresponent",
+    "No hi ha cap diferència tècnica: són sinònims que la legislació utilitza indistintament per referir-se a l'edificabilitat bruta de cada zona del pla d'ordenació urbanística"
+   ],
+   "correct": 1,
+   "explain": "Distinció bàsica: aprofitament objectiu (o real): el que el pla permet materialitzar; aprofitament subjectiu: el que correspon als propietaris (a Catalunya, el 100% en SUC i el resultant de deduir el 10% -o el que correspongui- de cessió en SUNC i urbanitzable), condicionat al compliment dels deures.",
+   "source": "TRLUC",
+   "article": "Arts. 37 i 43 TRLUC"
+  },
+  {
+   "id": "t47q8",
+   "theme": 47,
+   "block": 11,
+   "q": "Com funcionen els coeficients d'homogeneïtzació en la reparcel·lació?",
+   "options": [
+    "Serveixen per calcular la quota de l'impost de construccions de cada parcel·la resultant, aplicant el tipus municipal sobre el pressupost de referència fixat pel col·legi d'arquitectes",
+    "Determinen l'ordre cronològic d'edificació de les parcel·les adjudicades, prioritzant els usos residencials protegits sobre els lliures i aquests sobre els usos terciaris del sector",
+    "Tradueixen a valor homogeni els diferents usos, intensitats i localitzacions (coeficients d'ús, d'edificabilitat i de situació), de manera que l'aprofitament es reparteixi en unitats de valor comparables",
+    "Ajusten les aportacions econòmiques dels propietaris al pressupost de la junta segons la seva antiguitat en la possessió de les finques aportades al procés reparcel·latori"
+   ],
+   "correct": 2,
+   "explain": "En la reparcel·lació i en la ponderació de l'aprofitament (art. 37 TRLUC), els coeficients converteixen sostre de diferents usos/zones en unitats homogènies de valor (ús, intensitat, situació), per adjudicar a cada propietari l'aprofitament proporcional al seu dret.",
+   "source": "TRLUC",
+   "article": "Art. 37 TRLUC"
+  },
+  {
+   "id": "t47q9",
+   "theme": 47,
+   "block": 11,
+   "q": "Què és l'aprofitament urbanístic en sòl no urbanitzable?",
+   "options": [
+    "El resultant d'aplicar l'edificabilitat bàsica de 0,2 metres quadrats de sostre per metre quadrat de sòl que la llei estatal garanteix a tota propietat rústica del territori",
+    "El que fixa la ponència cadastral per a les construccions agràries, ramaderes i forestals, amb el límit del deu per cent de la superfície total de la finca corresponent",
+    "L'aprofitament mitjà del sector urbanitzable més proper, aplicable per analogia quan el propietari sol·licita llicència per a un habitatge unifamiliar aïllat a la seva finca",
+    "No n'hi ha en sentit tècnic: el SNU no atribueix aprofitament urbanístic; només s'hi admeten els usos i les construccions vinculats o autoritzables dels arts. 47 i seg. TRLUC, sense generar dret a edificabilitat"
+   ],
+   "correct": 3,
+   "explain": "El SNU queda al marge del procés d'urbanització: no genera aprofitament urbanístic; els usos admesos (agraris, actuacions d'interès públic, habitatge familiar vinculat a explotació) són limitacions/autoritzacions del règim d'ús (arts. 47-51 TRLUC), no aprofitament patrimonialitzable.",
+   "source": "TRLUC",
+   "article": "Arts. 47 i seg. TRLUC"
+  },
+  {
+   "id": "t47q10",
+   "theme": 47,
+   "block": 11,
+   "q": "Quin paper té l'agent urbanitzador o la iniciativa en la materialització de l'aprofitament?",
+   "options": [
+    "L'aprofitament es materialitza amb l'execució del planejament pels sistemes d'actuació (reparcel·lació en les modalitats de compensació o cooperació, o expropiació), que lliguen aprofitament i deures",
+    "L'aprofitament es materialitza automàticament amb la publicació del pla al diari oficial, sense cap actuació posterior dels propietaris ni de l'administració competent",
+    "Només l'administració pot materialitzar aprofitaments mitjançant la construcció directa d'habitatge públic, quedant la iniciativa privada limitada a la compra del producte acabat",
+    "La materialització requereix en tot cas una concessió administrativa d'obra pública atorgada per subhasta amb un cànon anual a favor de l'ajuntament del terme corresponent"
+   ],
+   "correct": 0,
+   "explain": "L'aprofitament subjectiu es consolida complint els deures dins del sistema d'actuació (arts. 115 i seg. TRLUC): reparcel·lació per compensació bàsica/per concertació o per cooperació, o expropiació; sense execució no hi ha patrimonialització.",
+   "source": "TRLUC",
+   "article": "Arts. 115 i seg. TRLUC"
+  },
+  {
+   "id": "t48q6",
+   "theme": 48,
+   "block": 11,
+   "q": "Quin percentatge d'aprofitament s'ha de cedir a l'administració actuant en sòl urbanitzable delimitat, i pot variar?",
+   "options": [
+    "El 5 per cent fix i invariable en tot cas, percentatge que la legislació catalana manté inalterat des de la primera llei d'urbanisme aprovada pel Parlament de Catalunya",
+    "El sòl corresponent al 10 per cent de l'aprofitament del sector; les modificacions de planejament que incrementin aprofitament poden elevar la cessió (fins al 15 per cent de l'increment)",
+    "El 20 per cent amb caràcter general, reduïble a la meitat quan el sector es destini íntegrament a habitatge de protecció oficial de règim especial en venda o lloguer social",
+    "El 25 per cent de l'edificabilitat residencial i el 15 de la terciària, percentatges negociables en el conveni urbanístic de planejament subscrit amb els propietaris majoritaris"
+   ],
+   "correct": 1,
+   "explain": "L'art. 45.1.a TRLUC: cessió del sòl corresponent al 10% de l'aprofitament urbanístic del sector (SUD); en SUNC, l'art. 43 (10%, amb el 15% en supòsits de modificació amb increment); les modificacions poden fixar cessions superiors sobre l'increment.",
+   "source": "TRLUC",
+   "article": "Arts. 43 i 45 TRLUC"
+  },
+  {
+   "id": "t48q7",
+   "theme": 48,
+   "block": 11,
+   "q": "Què estableix el TRLSRU sobre el contingut del dret de propietat del sòl (facultats)?",
+   "options": [
+    "Garanteix a tot propietari el dret a urbanitzar i edificar la seva finca amb una densitat mínima d'un habitatge per cada cinc-cents metres quadrats de superfície de terreny",
+    "Limita la propietat del sòl a l'ús agrari tradicional, i qualsevol altre aprofitament exigeix la prèvia concessió administrativa demanial atorgada per l'ajuntament competent",
+    "Comprèn les facultats d'ús, gaudi i explotació conformes a l'estat i la classificació del terreny, i la facultat d'edificar quan la legislació i l'ordenació ho permetin, prèvia patrimonialització per compliment de deures",
+    "Reconeix el dret il·limitat del propietari al subsòl fins al centre de la terra i a l'espai aeri fins on arribi el seu interès, com estableix la legislació civil comuna aplicable"
+   ],
+   "correct": 2,
+   "explain": "Els arts. 12-14 TRLSRU: facultats d'ús, gaudi i explotació segons l'estat, classificació i característiques objectives; la facultat d'edificar s'incorpora al patrimoni amb el compliment dels deures (no hi ha ius aedificandi automàtic); l'ordenació urbanística no dona dret a indemnització per si mateixa.",
+   "source": "TRLSRU",
+   "article": "Arts. 11-14 TRLSRU"
+  },
+  {
+   "id": "t48q8",
+   "theme": 48,
+   "block": 11,
+   "q": "Com pot el planejament regular l'aprofitament del subsòl?",
+   "options": [
+    "El subsòl és sempre de domini públic municipal fins a cinquanta metres de profunditat, i qualsevol ús privat exigeix concessió demanial atorgada per subhasta pública prèvia",
+    "El planejament no pot regular el subsòl, que es regeix exclusivament pel codi civil i per la legislació estatal de mines aplicable als recursos de la secció A corresponents",
+    "L'aprofitament del subsòl és lliure per al propietari de la superfície fins a la profunditat que sigui tècnicament edificable, sense limitacions urbanístiques de cap tipus",
+    "El subsòl resta sotmès a les servituds administratives per a serveis públics i el seu aprofitament es condiciona al planejament: pot desvincular-se de la superfície i qualificar-se per a usos públics o privats compatibles"
+   ],
+   "correct": 3,
+   "explain": "L'art. 39 TRLUC: l'aprofitament del subsòl es subordina a les exigències del planejament (dotacions, serveis); admet la desvinculació entre superfície i subsòl (qualificacions diferenciades: aparcament sota zona verda) i les servituds administratives necessàries.",
+   "source": "TRLUC",
+   "article": "Art. 39 TRLUC"
+  },
+  {
+   "id": "t48q9",
+   "theme": 48,
+   "block": 11,
+   "q": "Quins deures LEGALS acompanyen la promoció d'actuacions d'edificació segons el TRLSRU (art. 17)?",
+   "options": [
+    "Completar la urbanització pendent, edificar en els terminis establerts, destinar l'edificació als usos del pla i conservar-la en condicions de seguretat, salubritat i accessibilitat (deure de conservació)",
+    "Únicament abonar l'impost de construccions i la taxa de llicència, quedant els deures de conservació posterior a càrrec de l'administració municipal que va concedir la llicència",
+    "Cedir a l'ajuntament la meitat de la planta baixa de tot edifici de nova construcció per a equipaments de barri, com a càrrega general de tota actuació edificatòria en sòl urbà",
+    "Contractar una assegurança decennal pel triple del cost de l'obra i constituir un aval a favor de la comunitat de propietaris futura per a les despeses de manteniment de l'immoble"
+   ],
+   "correct": 0,
+   "explain": "Els arts. 15-17 TRLSRU: deures d'ús, conservació i rehabilitació (fins al límit del deure legal), completar urbanització, edificar en termini i destinar als usos; l'incompliment habilita execució subsidiària, multes coercitives, venda o substitució forçosa i registre de solars.",
+   "source": "TRLSRU",
+   "article": "Arts. 15-17 TRLSRU"
+  },
+  {
+   "id": "t48q10",
+   "theme": 48,
+   "block": 11,
+   "q": "Quines conseqüències té l'incompliment del deure d'edificar en els terminis fixats?",
+   "options": [
+    "Cap: el deure d'edificar és una simple recomanació del planejament sense conseqüències jurídiques per al propietari que prefereixi mantenir la seva parcel·la sense edificar",
+    "L'ajuntament pot declarar l'incompliment i acordar l'alienació o la substitució forçoses (o l'expropiació), amb la inclusió de la finca al Registre municipal de solars sense edificar",
+    "La pèrdua automàtica de la propietat a favor de l'ajuntament sense indemnització, per confiscació urbanística declarada per la comissió territorial d'urbanisme competent",
+    "Una multa fixa de sis-cents euros anuals fins que es sol·liciti la llicència d'obres, exigible per la via de constrenyiment sobre el patrimoni del propietari incomplidor"
+   ],
+   "correct": 1,
+   "explain": "Els arts. 176 i seg. TRLUC: registre municipal de solars sense edificar; la declaració d'incompliment de l'obligació d'edificar permet l'alienació forçosa per subhasta o l'expropiació; el TRLSRU (49) preveu la venda i substitució forçoses.",
+   "source": "TRLUC",
+   "article": "Arts. 176-179 TRLUC"
+  },
+  {
+   "id": "t49q6",
+   "theme": 49,
+   "block": 11,
+   "q": "Quin procediment segueix l'autorització d'usos i obres provisionals (art. 54 TRLUC)?",
+   "options": [
+    "Simple declaració responsable presentada davant de l'ajuntament, amb efectes habilitants immediats i sense cap altre tràmit d'informació pública ni informes autonòmics previs",
+    "Autorització directa de la comissió territorial d'urbanisme amb l'informe previ de l'ajuntament, publicada al DOGC i amb una vigència màxima improrrogable de cinc anys naturals",
+    "Sol·licitud amb acceptació expressa de cessar sense indemnització, INFORMACIÓ PÚBLICA de 20 dies i informe previ favorable de la comissió territorial d'urbanisme; atorga l'ajuntament",
+    "Llicència ordinària d'obres amb l'única especialitat del pagament d'una garantia equivalent al cost estimat de la demolició futura de les construccions autoritzades provisionalment"
+   ],
+   "correct": 2,
+   "explain": "L'art. 54 TRLUC: l'autorització d'usos provisionals l'atorga l'ajuntament amb informació pública de 20 dies i informe previ FAVORABLE de la comissió territorial d'urbanisme; cal l'acceptació de cessar sense dret a indemnització i fer-ho constar al Registre de la propietat.",
+   "source": "TRLUC",
+   "article": "Art. 54 TRLUC"
+  },
+  {
+   "id": "t49q7",
+   "theme": 49,
+   "block": 11,
+   "q": "Quines condicions materials han de complir les OBRES de caràcter provisional?",
+   "options": [
+    "Poden ser de qualsevol tipus constructiu, incloses les estructures de formigó armat, sempre que el propietari es comprometi a enderrocar-les quan l'ajuntament ho requereixi",
+    "Han de tenir una superfície inferior a cinquanta metres quadrats i una alçada màxima de tres metres, límits que el planejament derivat pot ampliar justificadament al doble",
+    "Només s'admeten construccions de fusta certificada amb una vida útil declarada pel fabricant inferior a deu anys i homologades pel departament competent en matèria d'habitatge",
+    "Han de ser fàcilment desmuntables i traslladables, no poden comportar obres de fonamentació permanent i han de permetre el cessament de l'ús sense costos significatius de reposició"
+   ],
+   "correct": 3,
+   "explain": "L'art. 53 TRLUC (i el RPLU): les obres provisionals han de ser fàcilment desmuntables o traslladables, sense fonamentacions o instal·lacions permanents que en dificultin el cessament; l'ús no pot desvirtuar la destinació definitiva prevista pel planejament.",
+   "source": "TRLUC",
+   "article": "Art. 53 TRLUC"
+  },
+  {
+   "id": "t49q8",
+   "theme": 49,
+   "block": 11,
+   "q": "En quins terrenys es poden autoritzar usos i obres provisionals?",
+   "options": [
+    "En els no inclosos en àmbits d'actuació urbanística amb execució immediata: terrenys en espera de desenvolupament (urbanitzables, dotacions no executades...), mentre no en dificultin l'execució futura",
+    "Únicament en sòl no urbanitzable de protecció especial, on la impossibilitat d'edificar definitivament fa que tots els usos hagin de tenir necessàriament caràcter provisional",
+    "Només en solars de sòl urbà consolidat pendents de llicència d'edificació, durant el termini màxim d'un any comptat des de la concessió de la llicència d'obres corresponent",
+    "En qualsevol terreny del terme municipal sense cap limitació, atès que la provisionalitat de l'ús exclou per definició tota afectació al règim urbanístic aplicable a la finca"
+   ],
+   "correct": 0,
+   "explain": "L'art. 53 TRLUC: usos provisionals en terrenys compresos en sectors o polígons pendents d'execució (o afectats a sistemes no executats), sempre que no dificultin l'execució del planejament ni desvirtuïn la destinació definitiva; llista d'usos admissibles (53.3).",
+   "source": "TRLUC",
+   "article": "Art. 53 TRLUC"
+  },
+  {
+   "id": "t49q9",
+   "theme": 49,
+   "block": 11,
+   "q": "Quins usos NO es poden autoritzar mai com a provisionals?",
+   "options": [
+    "Els aparcaments de vehicles en superfície, per la seva vocació de permanència i per l'impacte que generen sobre el trànsit urbà de l'entorn immediat del sector pendent",
+    "L'ús d'habitatge (residencial) i els usos que la llei exclou expressament; els admissibles són taxats: emmagatzematge, lleure, esport, aparcament, exposició i venda de vehicles i similars",
+    "Les activitats agràries transitòries, atès que la seva autorització correspon en exclusiva al departament competent en matèria d'agricultura, ramaderia i pesca de la Generalitat",
+    "Els usos culturals i les fires d'atraccions, que exigeixen en tot cas llicència ambiental ordinària tramitada d'acord amb la llei de prevenció i control ambiental d'activitats"
+   ],
+   "correct": 1,
+   "explain": "L'art. 53.3 TRLUC llista els usos provisionals admissibles (emmagatzematge, activitats de lleure i esport, aparcament, exposició i venda...); mai l'habitatge, ni usos que comprometin la destinació futura; les obres, mínimes i desmuntables.",
+   "source": "TRLUC",
+   "article": "Art. 53.3 TRLUC"
+  },
+  {
+   "id": "t49q10",
+   "theme": 49,
+   "block": 11,
+   "q": "Quina eficàcia té l'autorització provisional davant d'arrendataris o tercers ocupants?",
+   "options": [
+    "Cap: els contractes d'arrendament subscrits sobre l'ús provisional es regeixen íntegrament per la legislació d'arrendaments urbans i generen dret a indemnització en el cessament",
+    "Els tercers ocupants adquireixen el dret a la pròrroga forçosa de l'ocupació fins a un mínim de cinc anys, encara que l'ajuntament ordeni el cessament de l'ús provisional autoritzat",
+    "Les condicions de provisionalitat (cessament sense indemnització) s'han d'acceptar també pels gestors o explotadors de l'ús, i s'han de fer constar al Registre de la propietat perquè siguin oposables a tercers",
+    "L'autorització caduca automàticament si el titular cedeix l'ús a un tercer, que ha de sol·licitar una nova autorització amb tots els tràmits, inclosa la informació pública"
+   ],
+   "correct": 2,
+   "explain": "L'art. 54 TRLUC exigeix l'acceptació de les condicions per part del propietari i dels titulars de l'ús (gestors), i la constància al Registre de la propietat (nota marginal): així el cessament sense indemnització és oposable a qualsevol tercer.",
+   "source": "TRLUC",
+   "article": "Art. 54 TRLUC"
+  },
+  {
+   "id": "t50q6",
+   "theme": 50,
+   "block": 11,
+   "q": "Quin procediment de tramitació segueixen els plans directors urbanístics?",
+   "options": [
+    "Els formula cada ajuntament afectat per separat, amb aprovació inicial del ple i definitiva de la diputació provincial, prèvia informació pública de quinze dies al tauler d'edictes",
+    "Els redacta el Govern de l'Estat com a instruments de coordinació supramunicipal i els aprova el Consell de Ministres amb el dictamen del Consell d'Estat en ple corresponent",
+    "S'aproven per llei del Parlament de Catalunya en lectura única, atès el seu caràcter d'instruments d'ordenació territorial amb rang normatiu superior al planejament municipal",
+    "Els formula l'Administració de la Generalitat (o els ens que designi), amb participació dels ens locals afectats (audiència i informe), aprovació inicial i provisional de la comissió corresponent i definitiva del conseller o consellera"
+   ],
+   "correct": 3,
+   "explain": "Els arts. 76 i 83 TRLUC: els PDU els formula l'administració de la Generalitat amb la participació dels ens locals (informe/audiència); tramitació amb aprovació inicial i provisional (comissió territorial o d'urbanisme de Catalunya) i aprovació definitiva del conseller/a.",
+   "source": "TRLUC",
+   "article": "Arts. 76 i 83 TRLUC"
+  },
+  {
+   "id": "t50q7",
+   "theme": 50,
+   "block": 11,
+   "q": "Què passa amb el planejament municipal quan s'aprova un PDU que hi resulta incompatible?",
+   "options": [
+    "El planejament urbanístic municipal s'ha d'ADAPTAR al PDU en els terminis que aquest estableixi; les determinacions del PDU prevalen i poden ser d'aplicació directa segons el seu grau de precisió",
+    "El planejament municipal anterior conserva la seva vigència íntegra fins a la revisió ordinària del pla d'ordenació, sense que el PDU pugui imposar-hi cap modificació directa",
+    "El municipi pot optar entre adaptar el seu pla o abonar a la Generalitat una compensació econòmica equivalent al cost de redacció del pla director urbanístic aprovat",
+    "S'obre necessàriament un període de consultes de dos anys, transcorregut el qual sense acord el conflicte el resol el Tribunal Superior de Justícia de Catalunya en única instància"
+   ],
+   "correct": 0,
+   "explain": "L'art. 56.4 TRLUC: el planejament que resulti afectat per les determinacions d'un PDU s'hi ha d'adaptar en els terminis que aquest estableixi; els PDU poden establir determinacions directament aplicables (i fins i tot normes de planejament amb execució directa segons la seva especialitat).",
+   "source": "TRLUC",
+   "article": "Art. 56 TRLUC"
+  },
+  {
+   "id": "t50q8",
+   "theme": 50,
+   "block": 11,
+   "q": "Quines matèries pot ordenar un pla director urbanístic segons l'art. 56 TRLUC?",
+   "options": [
+    "Únicament la delimitació dels termes municipals i la creació de noves comarques, matèries que la legislació de règim local remet expressament al planejament urbanístic director",
+    "Directrius de coordinació supramunicipal, mesures de protecció del sòl no urbanitzable, concreció i delimitació de reserves per a grans infraestructures i sistemes, i programació de polítiques supramunicipals de sòl i habitatge",
+    "L'ordenació detallada del sòl urbà consolidat de tots els municipis del seu àmbit, incloses les alineacions i rasants i la catalogació dels béns protegits de cada nucli urbà",
+    "El règim retributiu del personal tècnic urbanístic dels ajuntaments inclosos en el seu àmbit territorial i la plantilla mínima dels serveis municipals d'urbanisme corresponents"
+   ],
+   "correct": 1,
+   "explain": "L'art. 56.1 TRLUC: els PDU estableixen directrius per coordinar l'ordenació urbanística supramunicipal, determinacions sobre desenvolupament sostenible, mobilitat i transport, mesures de protecció del SNU, concreció de grans infraestructures i programació de polítiques supramunicipals de sòl i habitatge.",
+   "source": "TRLUC",
+   "article": "Art. 56 TRLUC"
+  },
+  {
+   "id": "t50q9",
+   "theme": 50,
+   "block": 11,
+   "q": "Què són les normes de planejament urbanístic (figura complementària)?",
+   "options": [
+    "Les ordenances municipals d'edificació que despleguen el pla d'ordenació urbanística municipal en aspectes constructius no reservats al planejament urbanístic general",
+    "Els criteris interpretatius que publica anualment la direcció general d'urbanisme per unificar l'aplicació del text refós de la llei d'urbanisme a tot el territori de Catalunya",
+    "Instruments supletoris que la Generalitat pot aprovar en absència o per suspensió del planejament general, o per regular d'urgència situacions concretes, amb la mateixa tramitació que els PDU",
+    "Els convenis urbanístics de planejament subscrits entre els ajuntaments i els promotors per fixar les condicions de desenvolupament dels sectors de sòl urbanitzable delimitat"
+   ],
+   "correct": 2,
+   "explain": "L'art. 62 TRLUC: les normes de planejament urbanístic supleixen els POUM en casos de suspensió o pèrdua de vigència, o estableixen determinacions d'interès supramunicipal d'urgència; les aprova la Generalitat amb tramitació anàloga a la dels PDU.",
+   "source": "TRLUC",
+   "article": "Art. 62 TRLUC"
+  },
+  {
+   "id": "t50q10",
+   "theme": 50,
+   "block": 11,
+   "q": "Quina vigència tenen els plans urbanístics i com es poden alterar?",
+   "options": [
+    "Vigència de quatre anys prorrogables per quatre més, transcorreguts els quals queden derogats automàticament i s'apliquen les normes subsidiàries provincials corresponents",
+    "Vigència de vint anys improrrogables per als plans generals i de deu per als derivats, amb caducitat declarada per la comissió territorial d'urbanisme competent per territori",
+    "Vigència condicionada a l'execució de la meitat de les seves previsions dins del primer sexenni, incomplerta la qual el pla queda en suspens fins a una nova aprovació plenària",
+    "Vigència INDEFINIDA; s'alteren per REVISIÓ (reconsideració global o dels elements fonamentals del model) o per MODIFICACIÓ puntual, seguint el mateix procediment d'aprovació, amb regles reforçades per a zones verdes i equipaments"
+   ],
+   "correct": 3,
+   "explain": "Els arts. 92 i seg. TRLUC: els plans tenen vigència indefinida; alteració per revisió o modificació amb el mateix procediment; les modificacions de zones verdes, espais lliures i equipaments esportius tenen tramitació reforçada (informe favorable de la comissió d'urbanisme de Catalunya en determinats casos).",
+   "source": "TRLUC",
+   "article": "Arts. 92-100 TRLUC"
   }
  ]
 }
