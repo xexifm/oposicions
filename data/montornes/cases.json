@@ -11209,6 +11209,3988 @@
    "sources": [
     "TRLSRU"
    ]
+  },
+  {
+   "id": "c2-t46-cessio-zona-verda",
+   "theme": 46,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Ocupació d'una zona verda per ampliar un equipament",
+   "context": "L'ajuntament vol ampliar el casal de la gent gran ocupant 400 m² d'una parcel·la qualificada de zona verda (sistema d'espais lliures) obtinguda per cessió gratuïta en una reparcel·lació. L'equip de govern proposa 'fer-ho directament, perquè tot és públic i tot és sistema'. Un grup municipal s'hi oposa i pregunta pel procediment.",
+   "prompt": "Expliqueu: a) si es pot construir un equipament sobre sòl qualificat de zona verda sense tocar el planejament; b) quin procediment de modificació caldria i quines garanties reforçades té; c) què passa amb la titularitat i la destinació dels sòls cedits gratuïtament.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Zones verdes: qualificació vinculant; no s'hi pot implantar un equipament sense MODIFICAR el planejament (usos incompatibles amb el sistema d'espais lliures)",
+     "weight": 12,
+     "keywords": [
+      [
+       "zona verda"
+      ],
+      [
+       "qualificacio",
+       "planejament"
+      ],
+      [
+       "modificacio",
+       "modificar"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Modificació de zones verdes: procediment REFORÇAT (art. 98 TRLUC): manteniment de superfície i qualitat, informe favorable de la Comissió d'Urbanisme de Catalunya en els supòsits legals",
+     "weight": 13,
+     "keywords": [
+      [
+       "98",
+       "reforcat",
+       "reforcada"
+      ],
+      [
+       "superficie",
+       "equivalent",
+       "compensar"
+      ],
+      [
+       "comissio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Els sòls de cessió obligatòria queden afectats a la seva destinació; el canvi d'ús exigeix mantenir l'equilibri de sistemes i, si escau, la reversió o compensació",
+     "weight": 10,
+     "keywords": [
+      [
+       "cessio"
+      ],
+      [
+       "afectat",
+       "destinacio"
+      ],
+      [
+       "equilibri",
+       "compensacio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Conclusió operativa: tramitar modificació puntual amb avaluació de la proposta alternativa (permuta de superfícies) i informació pública; mai via de fet",
+     "weight": 10,
+     "keywords": [
+      [
+       "modificacio puntual",
+       "tramitar"
+      ],
+      [
+       "informacio publica"
+      ],
+      [
+       "via de fet"
+      ]
+     ]
+    }
+   ],
+   "model": "a) NO. La qualificació de ZONA VERDA (sistema d'espais lliures) vincula: no s'hi pot implantar un equipament (ús diferent del sistema) per simple decisió de govern: caldria una MODIFICACIÓ del planejament; actuar directament seria una via de fet urbanística i la llicència seria nul·la.\n\nb) La modificació que afecta ZONES VERDES o espais lliures té un procediment REFORÇAT (art. 98 TRLUC): cal justificar que es MANTÉ la superfície i la QUALITAT del sistema (habitualment compensant amb una peça equivalent o millor situada), i l'aprovació definitiva exigeix, en els supòsits legals, l'informe FAVORABLE previ de la Comissió d'Urbanisme de Catalunya (abans, dictamen de la Comissió Jurídica Assessora en el règim anterior); a més, informació pública i totes les garanties ordinàries de la modificació (art. 96).\n\nc) Els sòls obtinguts per CESSIÓ OBLIGATÒRIA I GRATUÏTA en la reparcel·lació queden AFECTATS a la destinació prevista pel planejament (sistema d'espais lliures). El canvi de destinació és possible mitjançant la modificació del pla, però ha de preservar l'equilibri d'estàndards (la zona verda no pot minvar en conjunt); altrament, els propietaris aportants podrien qüestionar la cessió. La solució correcta: MODIFICACIÓ PUNTUAL amb permuta de superfícies (nova zona verda equivalent), informe de la CUC i, mentrestant, cap ocupació material.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t47-aprofitament-cessio",
+   "theme": 47,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Càlcul de l'aprofitament i cessió del 10% en un sector",
+   "context": "En un sector de sòl urbanitzable delimitat de Montornès (12 ha, índex d'edificabilitat bruta 0,45 m²st/m²s, usos residencial i comercial amb valors diferents), els propietaris pregunten quin aprofitament els correspon, què s'emporta l'ajuntament i si poden pagar la cessió en diners.",
+   "prompt": "Expliqueu: a) com es calcula l'aprofitament urbanístic del sector i per què es PONDEREN els usos; b) el percentatge d'aprofitament de cessió obligatòria a l'administració i el seu destí; c) quan es pot substituir la cessió de sòl per l'equivalent econòmic.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Aprofitament = edificabilitat × valor relatiu dels usos (ponderació amb coeficients d'homogeneïtzació); es reparteix en proporció a les superfícies aportades",
+     "weight": 12,
+     "keywords": [
+      [
+       "ponderacio",
+       "coeficient"
+      ],
+      [
+       "edificabilitat"
+      ],
+      [
+       "proporcio",
+       "aportades"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Cessió obligatòria i gratuïta a l'administració actuant del sòl amb el 10% de l'aprofitament del sector (percentatge incrementable en els supòsits legals), lliure de càrregues d'urbanització",
+     "weight": 13,
+     "keywords": [
+      [
+       "10"
+      ],
+      [
+       "cessio"
+      ],
+      [
+       "lliure de carregues",
+       "urbanitzat"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Destí: patrimoni públic de sòl i habitatge (finalitats de l'art. 160.5 TRLUC)",
+     "weight": 8,
+     "keywords": [
+      [
+       "patrimoni public",
+       "patrimoni municipal"
+      ],
+      [
+       "habitatge"
+      ],
+      [
+       "160",
+       "interes social"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Substitució per equivalent econòmic: quan la cessió no es pot materialitzar en parcel·la (indivisibilitat, escala) en els supòsits legals; l'import s'integra al patrimoni públic amb la mateixa afectació",
+     "weight": 12,
+     "keywords": [
+      [
+       "equivalent economic",
+       "en diners",
+       "substitucio"
+      ],
+      [
+       "parcella",
+       "indivisible"
+      ],
+      [
+       "afectacio",
+       "patrimoni"
+      ]
+     ]
+    }
+   ],
+   "model": "a) L'APROFITAMENT URBANÍSTIC no és només edificabilitat: és l'edificabilitat PONDERADA pel VALOR RELATIU de cada ús i zona (coeficients d'homogeneïtzació que fixa el pla parcial): 54.000 m²st bruts (12 ha × 0,45) es tradueixen en unitats d'aprofitament aplicant a cada m² de sostre residencial i comercial el seu coeficient; així es poden comparar i repartir equitativament drets heterogenis. Cada propietari participa en PROPORCIÓ a la superfície aportada.\n\nb) Els propietaris han de CEDIR gratuïtament a l'administració actuant el sòl corresponent al 10% de l'aprofitament del sector (percentatge que la llei permet incrementar en determinats supòsits, com modificacions amb increment d'aprofitament), URBANITZAT i lliure de càrregues d'urbanització (l'administració no paga la urbanització d'aquest sòl). És a més de les cessions de sistemes (vials, verds, equipaments).\n\nc) El DESTÍ és el PATRIMONI PÚBLIC DE SÒL I HABITATGE (art. 160.5 TRLUC: habitatge protegit, interès públic, gestió). La cessió es pot substituir pel seu EQUIVALENT ECONÒMIC en els supòsits legals: quan no es pot adjudicar una parcel·la independent (aprofitament inferior a la parcel·la mínima, indivisibilitat) o en polígons amb inviabilitat: l'import, valorat conforme a la normativa de valoracions, s'integra al patrimoni públic amb la MATEIXA AFECTACIÓ finalista.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t48-deures-edificar",
+   "theme": 48,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Incompliment del deure d'edificar i registre de solars",
+   "context": "Un solar cèntric de Montornès, amb tots els serveis i ordenació detallada, fa 12 anys que està buit i tancat. El POUM fixa un termini d'edificació de 2 anys per als solars del nucli antic. Els veïns es queixen del deteriorament i l'ajuntament es planteja actuar.",
+   "prompt": "Expliqueu: a) el deure d'edificar en els terminis del planejament i les conseqüències del seu incompliment; b) el Registre municipal de solars sense edificar i els seus efectes; c) les mesures alternatives (ordres d'execució, execució subsidiària) mentre no s'edifica.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Deure d'EDIFICAR els solars en els terminis del planejament o del programa; l'incompliment habilita l'administració a intervenir",
+     "weight": 11,
+     "keywords": [
+      [
+       "deure d'edificar",
+       "edificar"
+      ],
+      [
+       "termini"
+      ],
+      [
+       "incompliment"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Registre municipal de solars sense edificar: inscripció del solar; efectes: alienació forçosa o expropiació, i venda en subhasta amb el deure d'edificar",
+     "weight": 13,
+     "keywords": [
+      [
+       "registre",
+       "solars"
+      ],
+      [
+       "alienacio forcosa",
+       "expropiacio"
+      ],
+      [
+       "subhasta",
+       "adjudicacio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Mentre no s'edifica: deure de conservació (tancament, neteja, seguretat) exigible amb ORDRES D'EXECUCIÓ i execució subsidiària o multes coercitives",
+     "weight": 12,
+     "keywords": [
+      [
+       "conservacio"
+      ],
+      [
+       "ordre d'execucio",
+       "ordres d'execucio"
+      ],
+      [
+       "subsidiaria",
+       "coercitives"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Ponderació: mesures de foment (ajuts, permutes) i proporcionalitat abans de l'expropiació; motivació de l'interès públic",
+     "weight": 9,
+     "keywords": [
+      [
+       "foment",
+       "ajuts"
+      ],
+      [
+       "proporcionalitat"
+      ],
+      [
+       "interes public",
+       "motivacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) El règim del sòl urbà inclou el DEURE D'EDIFICAR els solars en els TERMINIS que estableixen el planejament o el programa (aquí, 2 anys per al nucli antic). Vençut el termini sense edificar (i sense causa justificada ni pròrroga), hi ha INCOMPLIMENT DE LA FUNCIÓ SOCIAL de la propietat, que habilita mesures d'intervenció.\n\nb) L'instrument específic és el REGISTRE MUNICIPAL DE SOLARS SENSE EDIFICAR (arts. 177 i seg. TRLUC): l'ajuntament pot declarar l'incompliment i INSCRIURE el solar; la inscripció comporta la iniciació de l'expedient d'ALIENACIÓ FORÇOSA (subhasta amb el deure d'edificar en un termini per a l'adjudicatari) o l'EXPROPIACIÓ per incompliment de la funció social; el propietari pot evitar-ho edificant o alienant abans.\n\nc) Mentre el solar segueixi buit, subsisteix el DEURE DE CONSERVACIÓ (art. 197): mantenir-lo en condicions de seguretat, salubritat i ornament (tancament adequat, neteja, prevenció de plagues): l'ajuntament pot dictar ORDRES D'EXECUCIÓ i, si s'incompleixen, EXECUCIÓ SUBSIDIÀRIA a càrrec del propietari o MULTES COERCITIVES. La bona pràctica: graduar la resposta (requeriment, foment: ajuts o borsa de solars, ordres de conservació) i reservar l'alienació forçosa/expropiació, degudament motivada en l'interès públic (habitatge), per als incompliments persistents.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t49-us-provisional-caravanes",
+   "theme": 49,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Ús provisional en un solar buit: aparcament de caravanes",
+   "context": "Una empresa demana ocupar durant 4 anys un solar municipal de sòl urbanitzable delimitat (sector sense pla parcial) amb un aparcament de caravanes de lloguer, amb caseta d'atenció i tanca. Ofereix marxar 'quan calgui' però demana garanties d'estabilitat per amortitzar la inversió.",
+   "prompt": "Expliqueu: a) si l'ús és autoritzable com a ús provisional i amb quines condicions legals; b) el règim de cessament i la renúncia a indemnització; c) la compatibilitat amb la futura execució del sector i les garanties documentals que exigiríeu.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Usos i obres PROVISIONALS (arts. 53-54 TRLUC): admissibles en sòl urbanitzable delimitat sense pla parcial si no dificulten l'execució futura del planejament; usos taxats (aparcament hi encaixa) i obres fàcilment desmuntables",
+     "weight": 13,
+     "keywords": [
+      [
+       "provisional"
+      ],
+      [
+       "53",
+       "54"
+      ],
+      [
+       "desmuntable",
+       "no dificult"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Condicions: autorització amb informe previ de la comissió territorial d'urbanisme, acceptació expressa del CESSAMENT SENSE INDEMNITZACIÓ i constància al Registre de la Propietat",
+     "weight": 13,
+     "keywords": [
+      [
+       "comissio"
+      ],
+      [
+       "sense indemnitzacio",
+       "renuncia"
+      ],
+      [
+       "registre de la propietat"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "El cessament és exigible quan ho requereixi l'execució del planejament: cap dret d'estabilitat ni pròrroga oposable; la 'garantia d'amortització' no pot vincular l'administració",
+     "weight": 10,
+     "keywords": [
+      [
+       "cessament"
+      ],
+      [
+       "execucio del planejament"
+      ],
+      [
+       "no vincula",
+       "cap dret",
+       "sense dret"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Garanties documentals: conveni o condicions de la llicència amb termini, fiança de desmuntatge i reposició, i assegurança",
+     "weight": 9,
+     "keywords": [
+      [
+       "fianca",
+       "garantia"
+      ],
+      [
+       "desmuntatge",
+       "reposicio"
+      ],
+      [
+       "condicions",
+       "conveni"
+      ]
+     ]
+    }
+   ],
+   "model": "a) SÍ, com a ÚS PROVISIONAL (arts. 53-54 TRLUC): en sòl urbanitzable delimitat sense pla parcial aprovat s'hi poden autoritzar usos provisionals taxats (emmagatzematge, aparcament de vehicles, lleure...) i obres FÀCILMENT DESMUNTABLES, sempre que NO DIFICULTIN l'execució futura del planejament ni desincentivin la seva execució. L'aparcament de caravanes amb caseta desmuntable hi encaixa.\n\nb) Règim: AUTORITZACIÓ municipal amb informe previ favorable de la COMISSIÓ TERRITORIAL D'URBANISME i informació pública; el titular ha d'ACCEPTAR EXPRESSAMENT cessar l'ús i desmuntar les obres QUAN HO ACORDI l'ajuntament, SENSE DRET A INDEMNITZACIÓ, i aquesta condició es fa constar al REGISTRE DE LA PROPIETAT (perquè vinculi tercers). No es poden donar 'garanties d'estabilitat': la provisionalitat és l'essència del títol i l'amortització és risc de l'empresa.\n\nc) El cessament serà exigible quan s'aprovi el planejament derivat i s'iniciï l'execució del sector (o abans, si l'interès públic ho reclama). Documentalment: llicència o conveni amb CONDICIONS (termini màxim orientatiu, obligació de desmuntatge i REPOSICIÓ del terreny), FIANÇA suficient per garantir el desmuntatge, assegurança de responsabilitat civil i, en ser solar municipal, el títol d'ocupació del domini corresponent (concessió o autorització demanial, amb cànon).",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t50-pdu-conflicte",
+   "theme": 50,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Conflicte entre el POUM i un pla director urbanístic",
+   "context": "La Generalitat aprova un pla director urbanístic (PDU) d'infraestructures que reserva un corredor viari pel terme de Montornès, incompatible amb un sector residencial previst pel POUM vigent. L'alcaldia pregunta si el POUM 'mana' al seu terme i si l'ajuntament pot seguir tramitant el pla parcial del sector.",
+   "prompt": "Expliqueu: a) la posició del PDU en la jerarquia del planejament i els seus efectes sobre el POUM; b) què passa amb el pla parcial en tràmit; c) les vies de participació i defensa de l'ajuntament.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Jerarquia: els PDU (art. 56 TRLUC) vinculen el planejament general municipal, que s'hi ha d'ADAPTAR; el POUM no pot contradir-los",
+     "weight": 13,
+     "keywords": [
+      [
+       "pla director",
+       "pdu"
+      ],
+      [
+       "jerarquia",
+       "prevalen",
+       "vincula"
+      ],
+      [
+       "adaptar",
+       "adaptacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "El pla parcial no es pot aprovar en contradicció amb el PDU: cal suspendre o adaptar la tramitació (informes desfavorables, nul·litat si s'aprovés)",
+     "weight": 12,
+     "keywords": [
+      [
+       "pla parcial"
+      ],
+      [
+       "suspendre",
+       "adaptar"
+      ],
+      [
+       "nul",
+       "contradiccio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Participació: informe municipal i al·legacions en la tramitació del PDU, i impugnació contenciosa si escau (autonomia local)",
+     "weight": 11,
+     "keywords": [
+      [
+       "allegacions",
+       "informe"
+      ],
+      [
+       "impugna",
+       "contencios"
+      ],
+      [
+       "autonomia local"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Efectes patrimonials: possibles indemnitzacions si hi ha drets consolidats (despeses de planejament frustrades)",
+     "weight": 8,
+     "keywords": [
+      [
+       "indemnitzacio",
+       "responsabilitat"
+      ],
+      [
+       "despeses"
+      ],
+      [
+       "consolidat",
+       "frustrad"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Els PLANS DIRECTORS URBANÍSTICS (art. 56 TRLUC) són instruments SUPRAMUNICIPALS de la Generalitat que estableixen determinacions (directrius, infraestructures, reserves) que VINCULEN el planejament municipal: en la jerarquia del sistema, el POUM està per sota del planejament territorial i dels PDU, i s'hi ha d'ADAPTAR en els terminis que el PDU fixi. Per tant, el POUM no 'mana' contra el PDU: la reserva del corredor preval.\n\nb) El PLA PARCIAL del sector no es pot aprovar en contradicció amb el PDU: els informes de la comissió territorial serien desfavorables i una aprovació contrària seria NUL·LA per infracció de la jerarquia normativa. Procedent: SUSPENDRE la tramitació i replantejar el sector (reduir àmbit, reordenar) en el marc de l'ADAPTACIÓ del POUM al PDU.\n\nc) L'ajuntament NO és impotent: en la TRAMITACIÓ del PDU té garantida la PARTICIPACIÓ (consulta i informe municipal, al·legacions en la informació pública, audiència); pot negociar el traçat i mesures compensatòries; i, exhaurida la via, pot IMPUGNAR el PDU davant la jurisdicció contenciosa (legitimació per lesió de l'AUTONOMIA LOCAL, art. 63 i seg. LRBRL). Si la reserva frustra drets ja consolidats (planejament derivat aprovat, despeses), es poden generar INDEMNITZACIONS (arts. 38-39 TRLSRU i 48 TRLSRU) — que assumeix l'administració que altera l'ordenació.",
+   "sources": [
+    "TRLUC",
+    "LRBRL"
+   ]
+  },
+  {
+   "id": "c2-t51-suspensio-llicencies",
+   "theme": 51,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Suspensió de llicències durant la revisió del POUM",
+   "context": "El ple acorda iniciar la revisió del POUM i, simultàniament, suspendre l'atorgament de llicències a tot el terme municipal per 2 anys 'per estudiar el nou model'. Tres mesos després, un promotor amb una llicència en tràmit (presentada abans de l'acord) exigeix resposta, i un altre demana llicència conforme al POUM vigent en una zona on el nou pla no preveu canvis.",
+   "prompt": "Expliqueu: a) els límits materials i temporals de la suspensió potestativa prèvia; b) la situació de la llicència en tràmit i el dret a indemnització de despeses; c) si és lícita la suspensió generalitzada en zones sense canvis previstos.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Suspensió potestativa prèvia (art. 73.1): màxim UN ANY, per àmbits identificats amb plànol, per estudiar la formació o reforma del pla; 2 anys només s'assoleixen sumant la suspensió preceptiva de l'aprovació inicial",
+     "weight": 13,
+     "keywords": [
+      [
+       "73",
+       "potestativa"
+      ],
+      [
+       "un any",
+       "1 any"
+      ],
+      [
+       "planol",
+       "ambits"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Sol·licituds anteriors: la suspensió afecta les llicències en tràmit, però amb dret a la DEVOLUCIÓ de taxes i, si escau, indemnització de despeses de projectes (art. 74)",
+     "weight": 12,
+     "keywords": [
+      [
+       "devolucio",
+       "taxes"
+      ],
+      [
+       "project"
+      ],
+      [
+       "74",
+       "indemnitzacio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "No es pot suspendre on el nou planejament NO altera el règim: la suspensió exigeix que la nova ordenació comporti modificació del règim urbanístic de l'àmbit",
+     "weight": 12,
+     "keywords": [
+      [
+       "no altera",
+       "no modifica",
+       "sense canvis"
+      ],
+      [
+       "regim urbanistic"
+      ],
+      [
+       "nul",
+       "improcedent",
+       "no es pot"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Un cop exhaurida, no es pot acordar cap nova suspensió amb la mateixa finalitat fins passats 3 anys",
+     "weight": 8,
+     "keywords": [
+      [
+       "3 anys",
+       "tres anys"
+      ],
+      [
+       "mateixa finalitat"
+      ],
+      [
+       "nova suspensio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) La suspensió POTESTATIVA PRÈVIA (art. 73.1 TRLUC), acordada per estudiar la formació o reforma del pla, té un màxim d'UN ANY i exigeix identificar els ÀMBITS afectats amb un PLÀNOL detallat que s'ha de publicar amb l'acord. El límit conjunt de DOS ANYS només es pot assolir quan, després, l'aprovació inicial del nou pla comporta la suspensió preceptiva (art. 73.2): els efectes s'acumulen fins al màxim total de 2 anys per àmbit. L'acord del ple, tal com està formulat (2 anys directes), és contrari a l'art. 73.\n\nb) La suspensió afecta també les llicències EN TRÀMIT presentades abans (no hi ha dret adquirit a resoldre segons el règim anterior, llevat de certificat de règim urbanístic vigent). Ara bé, l'art. 74 reconeix als sol·licitants el dret a la DEVOLUCIÓ DE LES TAXES i, si la nova ordenació fa inviable el projecte, la possible INDEMNITZACIÓ de les despeses de projecte (redactat conforme al règim anterior) en els termes legals.\n\nc) NO: la suspensió només és lícita en els àmbits en què la NOVA ORDENACIÓ COMPORTA MODIFICACIÓ del règim urbanístic. En zones on el nou pla no preveu canvis, la llicència s'ha de tramitar i resoldre conforme al planejament vigent; una suspensió generalitzada i immotivada seria anul·lable. A més, exhaurits els efectes, no es pot acordar cap NOVA suspensió amb la mateixa finalitat fins passats 3 ANYS.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t52-pmu-nucli-antic",
+   "theme": 52,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Un pla de millora urbana per reordenar una illa del nucli antic",
+   "context": "L'ajuntament vol reordenar una illa degradada del nucli antic (sòl urbà no consolidat segons el POUM): substituir naus obsoletes per habitatge, obrir un passatge públic i aconseguir una placeta. Un regidor proposa fer-ho 'amb una simple modificació d'alineacions'; els serveis tècnics plantegen un pla de millora urbana amb un polígon d'actuació.",
+   "prompt": "Expliqueu: a) si el PMU és l'instrument adequat i què pot ordenar; b) la documentació i tramitació (inclosa la competència d'aprovació definitiva); c) com s'obtenen el passatge i la placeta (gestió i càrregues).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "PMU (art. 70 TRLUC): instrument idoni en sòl urbà no consolidat per a operacions de reforma interior, remodelació i transformació d'usos; pot completar l'ordenació detallada",
+     "weight": 12,
+     "keywords": [
+      [
+       "pla de millora urbana",
+       "pmu"
+      ],
+      [
+       "70"
+      ],
+      [
+       "reforma",
+       "remodelacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Documentació i tramitació: com el pla parcial (adequada al seu objecte); aprovació inicial municipal, informació pública 1 mes i aprovació DEFINITIVA municipal en municipis amb POUM (informe previ de la CTU, art. 81)",
+     "weight": 12,
+     "keywords": [
+      [
+       "informacio publica",
+       "1 mes"
+      ],
+      [
+       "definitiva",
+       "ajuntament",
+       "municipal"
+      ],
+      [
+       "informe",
+       "comissio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Gestió: delimitació de polígon amb sistema de reparcel·lació; cessions gratuïtes de vials i espais lliures (passatge i placeta) i urbanització a càrrec dels propietaris",
+     "weight": 13,
+     "keywords": [
+      [
+       "poligon"
+      ],
+      [
+       "reparcellacio"
+      ],
+      [
+       "cessio",
+       "cessions"
+      ],
+      [
+       "carrec dels propietaris",
+       "urbanitzacio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Reserves d'habitatge protegit si hi ha nou sostre residencial, i equidistribució entre propietaris",
+     "weight": 8,
+     "keywords": [
+      [
+       "habitatge protegit",
+       "reserves"
+      ],
+      [
+       "equidistribucio",
+       "beneficis i carregues"
+      ]
+     ]
+    }
+   ],
+   "model": "a) SÍ: el PLA DE MILLORA URBANA (art. 70 TRLUC) és l'instrument del SÒL URBÀ per a operacions de REFORMA INTERIOR, remodelació, transformació d'usos i reurbanització en sòl urbà NO CONSOLIDAT: pot reordenar volums, obrir el passatge, qualificar la placeta i fixar l'ordenació detallada. Una 'simple modificació d'alineacions' del POUM no permetria articular la gestió (cessions, repartiment de càrregues) ni transformar els usos amb garanties.\n\nb) DOCUMENTACIÓ anàloga a la del pla parcial adequada al seu objecte (memòria, plànols, normes, avaluació econòmica, informe ambiental si escau; agenda). TRAMITACIÓ: aprovació INICIAL per l'ajuntament, INFORMACIÓ PÚBLICA d'1 MES, informes; en municipis amb POUM (adaptat), l'aprovació DEFINITIVA correspon al MATEIX AJUNTAMENT amb l'informe previ de la comissió territorial d'urbanisme (art. 81 TRLUC).\n\nc) El PMU delimita un POLÍGON D'ACTUACIÓ amb sistema de REPARCEL·LACIÓ (modalitat segons la iniciativa): els propietaris CEDEIXEN gratuïtament els sòls de sistemes (el passatge i la placeta), cedeixen el percentatge d'aprofitament que correspongui (sòl urbà no consolidat), COSTEGEN la urbanització i es reparteixen beneficis i càrregues equitativament (equidistribució); si es genera nou sostre residencial, cal la RESERVA d'habitatge protegit corresponent. La placeta i el passatge esdevenen domini públic amb l'aprovació del projecte de reparcel·lació.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t53-pp-privat-tramitacio",
+   "theme": 53,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Un pla parcial d'iniciativa privada encallat",
+   "context": "Uns promotors presenten a l'ajuntament un pla parcial complet i conforme al POUM per a un sector delimitat, amb tota la documentació de l'art. 102. Passen 7 mesos sense cap resolució. El promotor amenaça amb 'donar el pla per aprovat per silenci' i reclama danys; l'alcaldia pregunta quin risc hi ha.",
+   "prompt": "Expliqueu: a) les obligacions municipals davant una iniciativa privada conforme (terminis de l'art. 89); b) els efectes reals de la inactivitat (silenci en l'aprovació inicial? subrogació?); c) recomanacions per reconduir l'expedient i les eventuals responsabilitats.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "L'ajuntament HA de tramitar les propostes conformes: 3 mesos per adoptar l'aprovació inicial des de la presentació completa (art. 89.1)",
+     "weight": 12,
+     "keywords": [
+      [
+       "3 mesos",
+       "tres mesos"
+      ],
+      [
+       "aprovacio inicial"
+      ],
+      [
+       "obligacio",
+       "ha de tramitar"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "La inactivitat no aprova el pla per silenci en fase inicial: el silenci POSITIU opera en l'aprovació definitiva (arts. 91-92); en la inicial, el promotor pot instar la SUBROGACIÓ de la comissió territorial",
+     "weight": 13,
+     "keywords": [
+      [
+       "subrogacio"
+      ],
+      [
+       "definitiva",
+       "91",
+       "92"
+      ],
+      [
+       "no",
+       "inicial"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Recondució: requerir esmenes si en calen, adoptar l'aprovació inicial amb condicions i seguir la tramitació (informació pública 1 mes amb citació personal)",
+     "weight": 10,
+     "keywords": [
+      [
+       "esmenes",
+       "requerir"
+      ],
+      [
+       "informacio publica"
+      ],
+      [
+       "citacio personal",
+       "1 mes"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Responsabilitats: la demora injustificada pot generar responsabilitat patrimonial (despeses) i control per inactivitat",
+     "weight": 9,
+     "keywords": [
+      [
+       "responsabilitat"
+      ],
+      [
+       "demora",
+       "inactivitat"
+      ],
+      [
+       "despeses",
+       "danys"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Presentada una proposta COMPLETA i CONFORME al planejament general, l'ajuntament té el DEURE de tramitar-la: l'art. 89.1 TRLUC li dona 3 MESOS per adoptar l'APROVACIÓ INICIAL (o denegar motivadament la tramitació si la proposta és contrària al pla general o defectuosa, amb requeriment d'esmena). Set mesos de silenci incompleixen aquest deure.\n\nb) Cal desactivar l'amenaça: el pla NO queda aprovat per silenci en fase inicial. El SILENCI POSITIU dels arts. 91-92 opera en l'APROVACIÓ DEFINITIVA (vençuts els terminis des de l'expedient complet), no en la inicial. El remei del promotor davant la inactivitat municipal en la inicial és instar la SUBROGACIÓ de la comissió territorial d'urbanisme perquè prossegueixi la tramitació, a més del contenciós contra la inactivitat.\n\nc) Recomanacions: verificar la COMPLETESA (art. 102: estructura de la propietat, viabilitat, compromisos, garanties) i la conformitat; si cal, REQUERIR ESMENES (interromp terminis); adoptar l'aprovació inicial (pot ser amb condicions) i seguir: INFORMACIÓ PÚBLICA d'1 MES amb CITACIÓ PERSONAL als propietaris de l'àmbit, informes, provisional i elevació. La demora injustificada pot generar RESPONSABILITAT PATRIMONIAL (despeses financeres i de projecte acreditades) i reforça la posició del promotor en la subrogació; recordeu també que l'executivitat final exigirà la garantia del 12% (art. 107.3).",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t54-conveni-urbanistic",
+   "theme": 54,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Un conveni urbanístic per requalificar uns terrenys",
+   "context": "Un propietari ofereix a l'ajuntament finançar un pavelló esportiu (2 M€) a canvi que 'el proper POUM' requalifiqui una finca rústica seva com a residencial. L'equip de govern vol signar un conveni urbanístic 'vinculant i confidencial' que asseguri l'operació abans de la revisió del pla.",
+   "prompt": "Expliqueu: a) els límits dels convenis urbanístics (art. 104 TRLUC): pot comprometre's el contingut del futur POUM?; b) el règim de publicitat i integració a l'expedient; c) les conseqüències de l'incompliment del conveni per part de l'ajuntament.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "La potestat de planejament és INDISPONIBLE: el conveni no pot vincular el contingut del futur pla ni garantir la requalificació (reserva de dispensació nul·la)",
+     "weight": 14,
+     "keywords": [
+      [
+       "indisponible",
+       "no pot vincular",
+       "no vincula"
+      ],
+      [
+       "potestat de planejament"
+      ],
+      [
+       "nul",
+       "requalificacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Publicitat OBLIGATÒRIA: el conveni s'integra a la documentació del pla, se sotmet a informació pública i és consultable; la confidencialitat pactada és contrària a la llei",
+     "weight": 12,
+     "keywords": [
+      [
+       "publicitat",
+       "public"
+      ],
+      [
+       "informacio publica"
+      ],
+      [
+       "confidencial"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Incompliment municipal: mai dret a l'ordenació pactada; només, si escau, indemnització o restitució de les prestacions (el pavelló finançat)",
+     "weight": 11,
+     "keywords": [
+      [
+       "indemnitzacio",
+       "restitucio"
+      ],
+      [
+       "no",
+       "ordenacio pactada"
+      ],
+      [
+       "responsabilitat"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Riscos afegits: aparença de venda del planejament (integritat); les contraprestacions han de ser proporcionades i justificades en l'interès públic",
+     "weight": 8,
+     "keywords": [
+      [
+       "interes public"
+      ],
+      [
+       "proporcionalitat",
+       "proporcionades"
+      ],
+      [
+       "integritat",
+       "corrupcio",
+       "venda"
+      ]
+     ]
+    }
+   ],
+   "model": "a) NO es pot comprometre el contingut del futur POUM: la potestat de PLANEJAMENT és PÚBLICA I INDISPONIBLE (art. 104 TRLUC): els convenis urbanístics no poden condicionar-ne l'exercici, i qualsevol clàusula que 'garanteixi' la requalificació és NUL·LA (equival a una reserva de dispensació). El conveni només pot recollir el compromís de l'ajuntament d'ESTUDIAR o proposar una determinada ordenació en la revisió, deixant clar que la decisió final correspon al procediment de planejament amb totes les seves garanties (informació pública, informes, aprovació definitiva autonòmica).\n\nb) El conveni 'confidencial' és il·legal: els convenis urbanístics tenen PUBLICITAT OBLIGATÒRIA: s'integren a la DOCUMENTACIÓ del pla amb el qual es relacionen, se sotmeten a INFORMACIÓ PÚBLICA i han de ser consultables (secció de convenis; portal de transparència: Llei 19/2014). L'opacitat en viciaria la validesa i exposa a responsabilitats.\n\nc) Si el futur POUM no recull l'ordenació 'pactada', el particular MAI no té dret al manteniment o l'aprovació de l'ordenació: només pot reclamar, si escau, la RESTITUCIÓ de les prestacions ja executades (el finançament del pavelló) o la INDEMNITZACIÓ dels danys en els termes generals, per evitar l'enriquiment injust de l'administració. Recomanació: no signar cap compromís de requalificació; si es vol canalitzar la col·laboració, fer-ho amb contraprestacions PROPORCIONADES, justificades en l'interès públic i transparents.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t55-quotes-urbanitzacio",
+   "theme": 55,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Quotes d'urbanització impagades en una cooperació",
+   "context": "En un polígon en modalitat de COOPERACIÓ, l'ajuntament ha executat el 60% de les obres d'urbanització i gira les quotes corresponents. Un propietari (15% de l'àmbit) no paga: al·lega que ell 'no va demanar urbanitzar', que la seva finca ja tenia accés i que les obres s'han encarit un 20% respecte de la previsió inicial.",
+   "prompt": "Expliqueu: a) el fonament de l'obligació de pagar les quotes i la via de constrenyiment; b) si l'encariment és repercutible i amb quins límits i tràmits; c) les alternatives del propietari (pagament amb terrenys, impugnació) i la garantia real sobre la finca.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "En cooperació l'administració executa a CÀRREC dels propietaris: les quotes d'urbanització són obligació legal derivada de la reparcel·lació, exigible per via de CONSTRENYIMENT",
+     "weight": 13,
+     "keywords": [
+      [
+       "cooperacio"
+      ],
+      [
+       "quotes"
+      ],
+      [
+       "constrenyiment",
+       "apremi"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "L'encariment justificat (modificacions, preus) és repercutible mitjançant la modificació del compte de liquidació provisional, amb audiència; la liquidació DEFINITIVA ajusta al cost real",
+     "weight": 12,
+     "keywords": [
+      [
+       "liquidacio provisional",
+       "compte de liquidacio"
+      ],
+      [
+       "audiencia"
+      ],
+      [
+       "liquidacio definitiva",
+       "cost real"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Les finques resultants queden AFECTADES REALMENT al pagament de les càrregues d'urbanització (garantia inscrita al Registre)",
+     "weight": 10,
+     "keywords": [
+      [
+       "afectacio real",
+       "afectades"
+      ],
+      [
+       "registre"
+      ],
+      [
+       "garantia"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Alternatives: pagament en terrenys (acord), fraccionament; impugnació de les quotes sense efecte suspensiu automàtic",
+     "weight": 9,
+     "keywords": [
+      [
+       "terrenys",
+       "especie"
+      ],
+      [
+       "fraccionament"
+      ],
+      [
+       "impugna",
+       "suspensiu"
+      ]
+     ]
+    }
+   ],
+   "model": "a) En la modalitat de COOPERACIÓ, l'administració actuant executa les obres A CÀRREC dels propietaris (arts. 139 i seg. TRLUC): l'obligació de costejar la urbanització és un DEURE LEGAL del règim del sòl (no depèn de la voluntat del propietari, que participa dels beneficis de l'actuació) concretat en el projecte de reparcel·lació i el compte de liquidació. Les QUOTES girades i no pagades en voluntària s'exigeixen per la via de CONSTRENYIMENT (executiva), amb els recàrrecs corresponents.\n\nb) L'encariment és repercutible si està JUSTIFICAT (modificacions d'obra aprovades, revisions de preus, imprevistos): es tramita la MODIFICACIÓ del compte de liquidació PROVISIONAL amb AUDIÈNCIA dels propietaris (les quotes són a compte); la LIQUIDACIÓ DEFINITIVA, en acabar l'obra, ajusta les quotes al COST REAL amb devolucions o quotes complementàries. L'al·legació que 'ja tenia accés' no l'eximeix: l'equidistribució es fa per la proporció de drets en l'àmbit, no servei a servei.\n\nc) El propietari pot: acordar el PAGAMENT EN TERRENYS (cessió de finques resultants equivalents), demanar FRACCIONAMENT o ajornament; i IMPUGNAR les quotes (reposició/contenciós), sense efecte suspensiu automàtic (caldria garantia). L'administració té, a més, la GARANTIA REAL: les finques resultants estan AFECTADES al pagament de les càrregues d'urbanització, amb constància al Registre de la Propietat: l'impagament pot acabar en execució sobre la mateixa finca.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t56-caducitat-llicencia",
+   "theme": 56,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Caducitat d'una llicència d'obres i represa dels treballs",
+   "context": "Una llicència d'obres majors (2019) fixava 1 any per començar i 3 per acabar. Les obres van començar, es van aturar el 2021 amb l'estructura feta i no s'han reprès. El 2026 el promotor comunica que reprèn els treballs 'amb la llicència que ja té'. Mentrestant, el POUM s'ha modificat i ara redueix una planta l'alçada permesa a la zona.",
+   "prompt": "Expliqueu: a) el règim de caducitat de les llicències i el procediment per declarar-la; b) si el promotor pot reprendre les obres sense més; c) el règim aplicable a la nova llicència i a l'estructura ja executada.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Les llicències fixen terminis d'inici i acabament (amb pròrroga possible per la meitat); vençuts, l'ajuntament ha de declarar la CADUCITAT amb audiència prèvia",
+     "weight": 13,
+     "keywords": [
+      [
+       "caducitat"
+      ],
+      [
+       "terminis"
+      ],
+      [
+       "audiencia"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Sense declaració de caducitat la llicència no s'extingeix automàticament, però l'ajuntament pot i ha de declarar-la abans de la represa; represa sense títol vigent = obres sense llicència",
+     "weight": 11,
+     "keywords": [
+      [
+       "declaracio"
+      ],
+      [
+       "represa",
+       "reprendre"
+      ],
+      [
+       "sense llicencia"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Nova llicència conforme al planejament VIGENT en el moment de l'atorgament (alçada reduïda): no hi ha drets adquirits al règim anterior",
+     "weight": 12,
+     "keywords": [
+      [
+       "planejament vigent",
+       "nou planejament"
+      ],
+      [
+       "drets adquirits",
+       "no"
+      ],
+      [
+       "alcada"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Estructura executada: volum disconforme (fora d'ordenació o disconformitat segons el cas); valorar adaptació del projecte o legalització parcial",
+     "weight": 9,
+     "keywords": [
+      [
+       "fora d'ordenacio",
+       "disconform"
+      ],
+      [
+       "adaptar",
+       "adaptacio"
+      ],
+      [
+       "legalitzacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Les llicències s'atorguen amb TERMINIS d'inici i d'acabament (aquí 1+3 anys), prorrogables per la MEITAT si es demana abans del venciment. Vençuts els terminis sense acabar (2023 com a màxim), l'ajuntament ha de declarar la CADUCITAT: procediment amb AUDIÈNCIA prèvia de la persona titular i resolució expressa; la caducitat extingeix la llicència i impedeix continuar les obres.\n\nb) NO pot reprendre-les sense més: encara que la caducitat no s'hagués declarat formalment, els terminis estan exhaurits amb escreix i l'ajuntament ha de declarar-la ara (la passivitat no convalida). Si reprèn els treballs, serien OBRES SENSE TÍTOL habilitant, amb suspensió immediata (art. 205 TRLUC) i protecció de la legalitat.\n\nc) La NOVA LLICÈNCIA s'ha d'ajustar al PLANEJAMENT VIGENT en el moment de l'atorgament: la modificació del POUM (una planta menys) s'aplica plenament: no hi ha DRETS ADQUIRITS a edificar segons el règim de 2019 (només protegiria un certificat de règim urbanístic vigent, 6 mesos). L'ESTRUCTURA ja executada, si excedeix l'alçada nova, queda en situació de VOLUM DISCONFORME (o fora d'ordenació, segons la previsió del pla): el projecte s'haurà d'ADAPTAR (enderroc de l'excés o reformulació); si s'ajusta al nou règim, es legalitza dins de la nova llicència. Convé també revisar les liquidacions (ICIO/taxa) i les garanties.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t57-segregacio-snu",
+   "theme": 57,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Segregació d'una finca rústica amb 'venda de parts'",
+   "context": "Al SNU de Montornès, el propietari d'una finca de 6 ha anuncia per internet la 'venda de 12 parcel·les d'hort de 5.000 m² amb caseta i aigua'. Jurídicament ven participacions indivises amb 'dret d'ús exclusiu' de cada tros. La unitat mínima de conreu a la comarca és de 2 ha. Un comprador demana al notari escripturar la seva participació.",
+   "prompt": "Expliqueu: a) per què l'operació és una parcel·lació urbanística il·legal malgrat no haver-hi divisió formal; b) el paper de notaris i registradors i els títols administratius exigibles; c) l'actuació municipal procedent (protecció de la legalitat i sanció).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Presumpció de parcel·lació (art. 191.2): venda de participacions INDIVISES amb ús exclusiu = parcel·lació urbanística encoberta; a més, lots per sota de la unitat mínima de conreu (nul·litat agrària)",
+     "weight": 14,
+     "keywords": [
+      [
+       "191",
+       "presumpcio"
+      ],
+      [
+       "indivises",
+       "us exclusiu"
+      ],
+      [
+       "unitat minima"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Notaris i registradors: no poden autoritzar ni inscriure sense LLICÈNCIA de parcel·lació o declaració d'INNECESSARIETAT; deure de comunicació",
+     "weight": 12,
+     "keywords": [
+      [
+       "notari",
+       "registrador"
+      ],
+      [
+       "llicencia de parcellacio"
+      ],
+      [
+       "innecessarietat"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Actuació municipal: suspensió i protecció de la legalitat (les parcel·lacions en SNU no són legalitzables), ordre de restauració i sanció (molt greu en SNU protegit)",
+     "weight": 12,
+     "keywords": [
+      [
+       "suspensio"
+      ],
+      [
+       "restauracio"
+      ],
+      [
+       "sancio",
+       "molt greu"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Publicitat de venda com a indici; coordinació amb el departament d'agricultura i el Registre",
+     "weight": 7,
+     "keywords": [
+      [
+       "publicitat",
+       "anunci"
+      ],
+      [
+       "indici"
+      ],
+      [
+       "coordinacio",
+       "agricultura"
+      ]
+     ]
+    }
+   ],
+   "model": "a) És PARCEL·LACIÓ URBANÍSTICA IL·LEGAL per la via de la PRESUMPCIÓ de l'art. 191.2 TRLUC: encara que no hi hagi divisió formal, la venda de PARTICIPACIONS INDIVISES amb assignació d'ÚS EXCLUSIU de porcions concretes (i la publicitat de 'parcel·les' amb caseta i serveis) evidencia la divisió material del sòl amb risc de nucli de població. A més, els lots de 5.000 m² són MOLT per sota de la UNITAT MÍNIMA DE CONREU (2 ha): les divisions que la contravenen són NUL·LES segons la legislació agrària. En SNU, l'operació no és autoritzable.\n\nb) NOTARIS I REGISTRADORS són el tancament del sistema: no poden autoritzar escriptures ni inscriure actes de divisió o d'alienació de participacions amb ús exclusiu sense acreditar la LLICÈNCIA DE PARCEL·LACIÓ o la DECLARACIÓ D'INNECESSARIETAT municipal (que aquí no es podria emetre); el títol s'ha de protocol·litzar, i han de COMUNICAR a l'ajuntament els indicis d'operacions sospitoses.\n\nc) L'ajuntament ha d'incoar PROTECCIÓ DE LA LEGALITAT: suspensió immediata de l'activitat (vendes, obres de casetes), ordre de RESTAURACIÓ (les parcel·lacions il·legals en SNU no són legalitzables: reagrupament, enderroc de casetes, cessament d'usos) i procediment SANCIONADOR (infracció greu o MOLT GREU si el sòl és de protecció especial, amb la imprescriptibilitat corresponent de l'acció restauradora). Convé requerir el cessament de la PUBLICITAT, comunicar-ho a la fiscalia si hi ha risc penal (art. 319 CP), al departament competent en agricultura i al Registre de la Propietat (nota marginal).",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t58-obra-acabada-legalitzable",
+   "theme": 58,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Obres acabades sense llicència: legalització o enderroc",
+   "context": "La inspecció descobreix un habitatge unifamiliar ACABAT fa 2 anys sense cap llicència, en sòl urbà consolidat, aparentment conforme al POUM excepte una tanca que envaeix 40 cm la vialitat. El propietari diu que 'com que està acabat i han passat dos anys, ja no li poden fer res'.",
+   "prompt": "Expliqueu: a) els terminis de reacció de l'administració i per què l'al·legació del propietari és errònia; b) el procediment de legalització i el tractament de la part no legalitzable (tanca); c) el procediment sancionador paral·lel i la incidència de la legalització en la sanció.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Acció de restauració: 6 ANYS des de l'acabament (art. 207): als 2 anys l'administració és plenament en termini; la prescripció no ha operat",
+     "weight": 12,
+     "keywords": [
+      [
+       "6 anys",
+       "sis anys"
+      ],
+      [
+       "207"
+      ],
+      [
+       "en termini",
+       "no ha prescrit"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Obres legalitzables: requeriment perquè sol·liciti llicència en 2 MESOS; la tanca que envaeix vial NO és legalitzable: restauració (reculada/enderroc parcial)",
+     "weight": 13,
+     "keywords": [
+      [
+       "2 mesos",
+       "dos mesos"
+      ],
+      [
+       "legalitzacio",
+       "llicencia"
+      ],
+      [
+       "no legalitzable",
+       "enderroc",
+       "reculada"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Sancionador independent i compatible: infracció (greu degradable a lleu si legalitzable); la legalització no extingeix la sanció però la redueix (art. 222: restauració voluntària)",
+     "weight": 12,
+     "keywords": [
+      [
+       "independent",
+       "compatible"
+      ],
+      [
+       "lleu",
+       "legalitzable"
+      ],
+      [
+       "222",
+       "reduccio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Liquidació d'ICIO i taxes de la legalització; inscripció i primera ocupació posteriors",
+     "weight": 7,
+     "keywords": [
+      [
+       "icio",
+       "taxa"
+      ],
+      [
+       "primera ocupacio"
+      ],
+      [
+       "liquidacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) L'al·legació és errònia: l'acció de RESTAURACIÓ prescriu als 6 ANYS des de l'acabament TOTAL de les obres (art. 207 TRLUC), i la infracció greu als 4 anys (art. 227): als 2 anys, l'administració és plenament EN TERMINI per restaurar i per sancionar. (La imprescriptibilitat ni cal: no és SNU protegit.)\n\nb) Com que l'habitatge sembla CONFORME al planejament, s'incoa protecció de la legalitat amb REQUERIMENT DE LEGALITZACIÓ: sol·licitud de llicència en el termini de 2 MESOS, amb projecte; si la llicència s'atorga, decau l'ordre de restauració sobre la part conforme. La TANCA que envaeix 40 cm el vial NO és legalitzable (ocupa sòl de sistema viari): ordre de RESTAURACIÓ parcial (reculada/enderroc del tram), amb execució subsidiària o multes coercitives si s'incompleix. La legalització comporta liquidar l'ICIO i les taxes, i obre pas a la primera ocupació.\n\nc) El procediment SANCIONADOR és INDEPENDENT i COMPATIBLE amb la restauració: es tramita per infracció urbanística (l'obra sense llicència conforme al pla es qualifica com a LLEU per legalitzabilitat, art. 215; la tanca, segons l'entitat). La LEGALITZACIÓ i la restauració voluntària de la tanca ABANS de la fermesa de la sanció redueixen substancialment la multa (art. 222, fins al 80%), però NO l'extingeixen; la multa mai no pot ser inferior al benefici obtingut.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t59-canvi-titular-activitat",
+   "theme": 59,
+   "block": 13,
+   "maxPoints": 45,
+   "title": "Canvi de titular i modificació d'una activitat amb llicència ambiental",
+   "context": "Un taller mecànic amb llicència ambiental (annex II) es ven a una nova empresa, que vol: comunicar el canvi de nom, ampliar la nau 300 m², duplicar la cabina de pintura (més emissions de COV) i instal·lar plaques solars. Pregunta si ho pot fer tot amb 'una simple comunicació'.",
+   "prompt": "Expliqueu: a) el règim del canvi de titularitat; b) la qualificació de cada actuació com a modificació substancial o no substancial i els procediments; c) els controls i títols urbanístics associats.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Canvi de titularitat: COMUNICACIÓ a l'ajuntament (subrogació en drets i deures); sense tramitar nova llicència",
+     "weight": 10,
+     "keywords": [
+      [
+       "comunicacio"
+      ],
+      [
+       "titularitat",
+       "subrogacio"
+      ],
+      [
+       "sense nova llicencia"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Duplicar cabina de pintura (més emissions): modificació SUBSTANCIAL: nova llicència ambiental quant a la part afectada, amb avaluació de la ponència; l'ampliació de nau segueix el règim segons incidència",
+     "weight": 14,
+     "keywords": [
+      [
+       "substancial"
+      ],
+      [
+       "emissions"
+      ],
+      [
+       "ponencia",
+       "nova llicencia"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Plaques solars: modificació no substancial/millora ambiental: comunicació; l'òrgan valora i incorpora al títol",
+     "weight": 9,
+     "keywords": [
+      [
+       "no substancial"
+      ],
+      [
+       "comunicacio"
+      ],
+      [
+       "incorpora",
+       "valora"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Títols urbanístics: llicència o comunicació d'obres per a l'ampliació (compatibilitat urbanística) i controls periòdics de l'activitat",
+     "weight": 10,
+     "keywords": [
+      [
+       "obres",
+       "llicencia d'obres"
+      ],
+      [
+       "compatibilitat",
+       "informe urbanistic"
+      ],
+      [
+       "controls periodics",
+       "control"
+      ]
+     ]
+    }
+   ],
+   "model": "a) El CANVI DE TITULARITAT d'una activitat amb llicència ambiental es formalitza amb una COMUNICACIÓ a l'ajuntament (subrogació del nou titular en els drets i deures del títol, inclosos controls i condicions); no cal nova llicència. Sense comunicació, ambdós titulars responen solidàriament de les obligacions.\n\nb) Cal qualificar cada actuació (Llei 20/2009, arts. 59): DUPLICAR LA CABINA DE PINTURA amb augment d'emissions de COV afecta un vector ambiental rellevant: MODIFICACIÓ SUBSTANCIAL: exigeix tramitar la llicència ambiental quant a la PART AFECTADA (projecte, avaluació de la PONÈNCIA ambiental, informació si escau, resolució amb noves condicions d'emissió i controls). L'AMPLIACIÓ de 300 m², si no altera vectors (només superfície), pot ser NO SUBSTANCIAL amb efectes: es comunica i l'òrgan decideix incorporar-la o exigir tramitació. Les PLAQUES SOLARS són una modificació no substancial (millora ambiental): COMUNICACIÓ i incorporació al títol.\n\nc) TÍTOLS ASSOCIATS: l'ampliació i la cabina exigeixen el títol URBANÍSTIC d'obres corresponent (llicència o comunicació, amb verificació de la COMPATIBILITAT amb el planejament: usos industrials, ocupació, alçada) i el compliment sectorial (incendis: intervenció de bombers si canvia el risc; residus; abocaments). L'activitat modificada queda subjecta a CONTROL INICIAL de la part nova (posada en marxa) i als CONTROLS PERIÒDICS amb entitat col·laboradora; les noves condicions s'integren en el títol ambiental únic de l'establiment.",
+   "sources": [
+    "Llei 20/2009"
+   ]
+  },
+  {
+   "id": "c2-t60-festa-major-concert",
+   "theme": 60,
+   "block": 13,
+   "maxPoints": 45,
+   "title": "Un concert de festa major en un camp municipal",
+   "context": "Per la festa major, una comissió de festes vol organitzar un concert de nit per a 3.000 persones en un camp municipal no habilitat, amb escenari, barres de bar, generadors i servei d'ambulàncies encara per contractar. Demanen a l'ajuntament 'el permís' una setmana abans.",
+   "prompt": "Expliqueu: a) el règim d'intervenció aplicable a un espectacle en un espai obert no habilitat (Llei 11/2009 i Decret 112/2010); b) els requisits essencials de seguretat (aforament, pla d'autoprotecció, assegurança, serveis sanitaris, horaris); c) el paper i les responsabilitats de l'ajuntament com a organitzador indirecte i titular del terreny.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Espectacles en espais oberts o establiments no habilitats: LLICÈNCIA/AUTORITZACIÓ específica (municipal o de la Generalitat segons el cas), no una simple comunicació; termini suficient",
+     "weight": 12,
+     "keywords": [
+      [
+       "autoritzacio",
+       "llicencia"
+      ],
+      [
+       "espai obert",
+       "no habilitat"
+      ],
+      [
+       "termini"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Seguretat: aforament màxim controlat, pla d'autoprotecció (Decret 30/2015 si escau), assegurança de RC obligatòria, serveis sanitaris i de vigilància segons aforament, sortides i il·luminació d'emergència",
+     "weight": 14,
+     "keywords": [
+      [
+       "aforament"
+      ],
+      [
+       "autoproteccio"
+      ],
+      [
+       "asseguranca",
+       "responsabilitat civil"
+      ],
+      [
+       "sanitari",
+       "ambulancia"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Condicions d'horari i soroll (ordenances i règim d'horaris de la Generalitat); mesures de protecció de menors i venda d'alcohol",
+     "weight": 9,
+     "keywords": [
+      [
+       "horari"
+      ],
+      [
+       "soroll"
+      ],
+      [
+       "menors",
+       "alcohol"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Ajuntament: pot organitzar o autoritzar; responsabilitats concurrents (títol, control, suspensió si hi ha risc greu)",
+     "weight": 9,
+     "keywords": [
+      [
+       "responsabilitat"
+      ],
+      [
+       "control",
+       "inspeccio"
+      ],
+      [
+       "suspensio",
+       "risc"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Un concert per a 3.000 persones en un ESPAI OBERT no habilitat NO es despatxa amb una comunicació: la Llei 11/2009 i el Decret 112/2010 exigeixen LLICÈNCIA o AUTORITZACIÓ específica per als espectacles en establiments no permanents o espais oberts: la competència és MUNICIPAL amb caràcter general (autorització de la GENERALITAT en els supòsits reservats, com determinats espectacles de caràcter extraordinari); cal sol·licitud amb PROJECTE/memòria amb antelació suficient (una setmana és del tot insuficient per informes i mesures).\n\nb) REQUISITS essencials: AFORAMENT màxim justificat i control d'accessos; muntatge d'escenari i instal·lacions elèctriques amb certificats tècnics; PLA D'AUTOPROTECCIÓ homologat si entra al Decret 30/2015 (espectacles a l'aire lliure amb aforament rellevant) amb serveis de VIGILÀNCIA i SANITARIS dimensionats (ambulàncies contractades ABANS de l'autorització); ASSEGURANÇA de responsabilitat civil obligatòria amb els capitals reglamentaris; sortides, senyalització i enllumenat d'emergència; HORARIS de l'ordre de la Generalitat (ampliables per festa major dins dels marges) i límits de SOROLL; prohibicions de venda d'alcohol a menors.\n\nc) L'AJUNTAMENT hi juga doble paper: TITULAR del terreny (autorització d'ús) i autoritat que AUTORITZA i CONTROLA (inspecció, i SUSPENSIÓ immediata si es detecta risc greu: excés d'aforament, incompliments). Si l'activitat és organitzada per la comissió amb suport municipal, convé formalitzar el conveni (obligacions, assegurança de la comissió); la responsabilitat civil i administrativa pot ser CONCURRENT si l'ajuntament autoritza sense exigir els requisits.",
+   "sources": [
+    "Llei 11/2009",
+    "Decret 112/2010"
+   ]
+  },
+  {
+   "id": "c2-t61-modificat-projecte",
+   "theme": 61,
+   "block": 14,
+   "maxPoints": 45,
+   "title": "Errors del projecte i encariment durant la licitació",
+   "context": "El projecte d'urbanització d'un carrer, redactat per un equip extern i aprovat, surt a licitació. Durant les obres apareixen serveis soterrats no reflectits al projecte i un gruix de ferm insuficient: el contractista demana un modificat del 28% i més termini. L'alcaldia pregunta com es va poder aprovar així i qui en respon.",
+   "prompt": "Expliqueu: a) els controls previs que haurien d'haver detectat els errors (supervisió, replanteig previ, geotècnic); b) el règim del modificat proposat (límits LCSP); c) la responsabilitat del projectista extern per errors i omissions.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Controls previs: estudi GEOTÈCNIC i informació de serveis al projecte (art. 233), SUPERVISIÓ preceptiva (≥500.000 € o afectació estructural) i REPLANTEIG PREVI (realitat geomètrica i disponibilitat)",
+     "weight": 13,
+     "keywords": [
+      [
+       "geotecnic"
+      ],
+      [
+       "supervisio"
+      ],
+      [
+       "replanteig"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Modificacions: només pels supòsits dels arts. 203-207 LCSP; circumstàncies imprevisibles amb límit (50% en conjunt) i sense alterar la naturalesa global; tramitació amb audiència i reajustament de garantia",
+     "weight": 13,
+     "keywords": [
+      [
+       "203",
+       "205",
+       "modificacio"
+      ],
+      [
+       "imprevisible"
+      ],
+      [
+       "50",
+       "limit"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Responsabilitat del projectista (art. 315 LCSP): indemnització per danys derivats d'errors o omissions del projecte (retencions, penalitats segons contracte)",
+     "weight": 11,
+     "keywords": [
+      [
+       "315",
+       "projectista"
+      ],
+      [
+       "errors",
+       "omissions"
+      ],
+      [
+       "indemnitzacio",
+       "responsabilitat"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Alternativa si el modificat no és admissible: resolució i nova licitació de l'obra restant",
+     "weight": 8,
+     "keywords": [
+      [
+       "resolucio"
+      ],
+      [
+       "nova licitacio"
+      ],
+      [
+       "obra restant",
+       "pendent"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Tres controls haurien d'haver aflorat els defectes: el projecte havia d'incloure ESTUDI GEOTÈCNIC (art. 233.3 LCSP, llevat d'incompatibilitat) i la informació dels SERVEIS existents (companyies); l'oficina de SUPERVISIÓ havia de verificar el projecte (preceptiu si PBL ≥ 500.000 € o si afecta l'estabilitat); i el REPLANTEIG PREVI (art. 236) havia de comprovar la realitat geomètrica i la disponibilitat dels terrenys abans d'aprovar l'expedient. La fallada d'aquests filtres explica l'aprovació defectuosa.\n\nb) El MODIFICAT del 28% només és possible en els supòsits taxats dels arts. 203-207 LCSP: aquí, MODIFICACIÓ NO PREVISTA per circumstàncies que una administració diligent NO podia preveure (art. 205.2.b): els serveis soterrats no documentats hi poden encaixar; el gruix de ferm mal calculat és ERROR DE PROJECTE (també subsumible en el 205 amb límits). Límits: les modificacions no previstes no poden alterar la naturalesa global del contracte i, si superen el 50% aïlladament o conjuntament, escau la RESOLUCIÓ; tramitació: justificació tècnica, audiència del contractista, informe jurídic (i intervenció), aprovació per l'òrgan de contractació, reajustament de garantia i formalització; el contractista té dret al reequilibri del termini.\n\nc) El PROJECTISTA EXTERN respon dels danys derivats d'ERRORS I OMISSIONS del projecte (art. 315 LCSP): indemnització (sobrecostos imputables), exigible amb el procediment contradictori corresponent; el plec del contracte de serveis pot preveure penalitats i la subsanació a càrrec seu. Si el modificat no fos admissible legalment: resoldre el contracte d'obres i licitar de nou l'obra pendent.",
+   "sources": [
+    "LCSP"
+   ]
+  },
+  {
+   "id": "c2-t62-patologies-decennal",
+   "theme": 62,
+   "block": 14,
+   "maxPoints": 45,
+   "title": "Esquerdes en un edifici de 6 anys: responsabilitats LOE",
+   "context": "Un bloc d'habitatges acabat fa 6 anys presenta esquerdes estructurals en pilars (mal formigonat) i humitats generalitzades de façana. La comunitat pregunta a l'OMIC municipal contra qui pot reclamar, si les garanties són vigents i què passa amb la promotora, que s'ha dissolt.",
+   "prompt": "Expliqueu: a) els terminis de responsabilitat i garantia de la LOE aplicables a cada dany; b) els agents responsables de cadascun i el joc de la solidaritat; c) el paper de l'assegurança decennal davant la dissolució de la promotora.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Danys ESTRUCTURALS (pilars): responsabilitat de 10 anys: vigent als 6 anys; humitats (habitabilitat): 3 anys: ja vençuda l'acció per danys nous (matís: prescripció de 2 anys des del dany)",
+     "weight": 13,
+     "keywords": [
+      [
+       "10 anys",
+       "decennal"
+      ],
+      [
+       "3 anys"
+      ],
+      [
+       "habitabilitat"
+      ],
+      [
+       "estructural"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Responsables: cada agent per la seva actuació (constructor pel mal formigonat: execució; direcció d'execució pel control); SOLIDARITAT si no es pot individualitzar; el promotor respon EN TOT CAS solidàriament",
+     "weight": 13,
+     "keywords": [
+      [
+       "constructor"
+      ],
+      [
+       "solidari"
+      ],
+      [
+       "promotor"
+      ],
+      [
+       "individualitzar"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Assegurança DECENNAL obligatòria en habitatges: acció directa contra l'asseguradora encara que la promotora s'hagi dissolt",
+     "weight": 11,
+     "keywords": [
+      [
+       "asseguranca",
+       "decennal"
+      ],
+      [
+       "accio directa"
+      ],
+      [
+       "asseguradora"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Via processal: reclamació prèvia, perit, i termini de prescripció de 2 anys des que es manifesten els danys",
+     "weight": 8,
+     "keywords": [
+      [
+       "2 anys",
+       "prescripcio"
+      ],
+      [
+       "perit",
+       "pericial"
+      ],
+      [
+       "reclamacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Cal separar els danys (art. 17 LOE): les ESQUERDES ESTRUCTURALS en pilars (fonaments, suports, bigues: compromet la resistència) tenen termini de garantia de 10 ANYS: als 6 anys, l'acció és VIGENT (amb prescripció de 2 anys des que es coneix el dany). Les HUMITATS de façana afecten l'HABITABILITAT: termini de 3 ANYS des de la recepció: si es manifesten ara (any 6), ja està VENÇUT el termini de garantia (una altra cosa seria que s'haguessin manifestat dins dels 3 anys i s'estigués dins dels 2 de prescripció). Quedaria la via contractual contra el venedor (compravenda) si escau.\n\nb) La responsabilitat LOE és PERSONAL I INDIVIDUALITZADA per la pròpia actuació: el mal formigonat apunta al CONSTRUCTOR (execució) i al DIRECTOR DE L'EXECUCIÓ (control qualitatiu: recepció del formigó, provetes); el projecte i la direcció d'obra, si l'origen fos de disseny. Si NO es pot individualitzar la causa, la responsabilitat és SOLIDÀRIA entre els agents implicats; i el PROMOTOR respon SEMPRE solidàriament amb els altres davant els adquirents.\n\nc) L'ASSEGURANÇA DECENNAL de danys estructurals és OBLIGATÒRIA en edificis d'habitatges (art. 19 LOE: sense ella no s'inscriu l'obra nova): la comunitat té ACCIÓ DIRECTA contra l'ASSEGURADORA pels danys estructurals, amb independència que la promotora s'hagi dissolt (i, dissolta, respondrien també els administradors/liquidadors en els termes societaris). Passos pràctics: dictamen PERICIAL, comunicació del sinistre a l'asseguradora, reclamació als agents i demanda dins de la PRESCRIPCIÓ de 2 anys.",
+   "sources": [
+    "LOE"
+   ]
+  },
+  {
+   "id": "c2-t63-recepcio-defectes",
+   "theme": 63,
+   "block": 14,
+   "maxPoints": 45,
+   "title": "Recepció d'una obra amb defectes i liquidació",
+   "context": "Acabada la reurbanització d'una plaça, l'acta de recepció es convoca amb la intervenció municipal. La direcció facultativa informa de defectes: paviment mal anivellat en una zona (bassals) i escocells sense acabar. El contractista demana recepcionar igualment 'i ja ho arreglarà', i cobra pressa per la certificació final.",
+   "prompt": "Expliqueu: a) les opcions legals davant els defectes en l'acte de recepció (art. 243 LCSP); b) els efectes de la recepció sobre terminis de garantia, amidament i liquidació; c) què passa si els defectes reapareixen durant el termini de garantia i com es protegeix l'ajuntament (garantia definitiva).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Recepció amb defectes: NO recepcionar allò defectuós: acta amb defectes assenyalats i TERMINI per esmenar-los; si no s'esmenen, nou termini o resolució; recepció parcial possible de parts acabades",
+     "weight": 13,
+     "keywords": [
+      [
+       "defectes"
+      ],
+      [
+       "termini per esmenar",
+       "esmena"
+      ],
+      [
+       "no recepcionar",
+       "acta"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Efectes de la recepció: inici del TERMINI DE GARANTIA (mínim 1 any); amidament general en 3 mesos i certificació final; liquidació en vèncer la garantia",
+     "weight": 12,
+     "keywords": [
+      [
+       "garantia",
+       "1 any"
+      ],
+      [
+       "amidament general",
+       "3 mesos"
+      ],
+      [
+       "liquidacio",
+       "certificacio final"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Durant la garantia: el contractista respon de la conservació i dels defectes; requeriments d'esmena amb càrrec a la GARANTIA DEFINITIVA si no compleix",
+     "weight": 12,
+     "keywords": [
+      [
+       "conservacio"
+      ],
+      [
+       "garantia definitiva"
+      ],
+      [
+       "requeriment",
+       "carrec"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Vicis ocults estructurals: responsabilitat de 15 anys després de la garantia",
+     "weight": 8,
+     "keywords": [
+      [
+       "vicis ocults"
+      ],
+      [
+       "15 anys"
+      ],
+      [
+       "estructural"
+      ]
+     ]
+    }
+   ],
+   "model": "a) La RECEPCIÓ és un acte FORMAL I POSITIU de conformitat (art. 243 LCSP): si l'obra NO està en estat de ser rebuda (bassals per anivellament defectuós, escocells inacabats), NO s'ha de recepcionar sense reserves: es fa constar en ACTA els DEFECTES observats, amb instruccions precises de la direcció i un TERMINI per esmenar-los; vençut sense esmena, es pot concedir un nou termini improrrogable o declarar resolt el contracte. És possible la recepció PARCIAL de les parts susceptibles d'ús independent correctament executades. Recepcionar 'i ja ho arreglarà' desactiva els mecanismes de pressió (certificació final, garantia) i és mala praxi.\n\nb) La recepció obre: el TERMINI DE GARANTIA (mínim 1 ANY, el del plec); l'AMIDAMENT GENERAL dins dels 3 MESOS següents amb la certificació final (que es paga a compte de la liquidació); i, vençuda la garantia sense objeccions, la LIQUIDACIÓ del contracte i la devolució de la GARANTIA definitiva. La intervenció assisteix a la recepció en la comprovació material de la inversió.\n\nc) Durant la GARANTIA el contractista respon de la CONSERVACIÓ i ha d'esmenar els defectes que es manifestin: l'ajuntament el requereix i, si no compleix, executa les reparacions amb càrrec a la GARANTIA DEFINITIVA (i pot suspendre la devolució). Acabada la garantia, només subsisteix la responsabilitat per VICIS OCULTS per danys ESTRUCTURALS derivats d'incompliment contractual: 15 ANYS (art. 244.3).",
+   "sources": [
+    "LCSP"
+   ]
+  },
+  {
+   "id": "c2-t64-obres-simultanies",
+   "theme": 64,
+   "block": 14,
+   "maxPoints": 45,
+   "title": "Tres obres simultànies al centre i queixes del comerç",
+   "context": "Coincideixen al centre de Montornès: la renovació d'una canonada (companyia d'aigües), una obra municipal de reurbanització i una promoció privada amb ocupació de vorera. Comerciants es queixen: carrers tallats sense avís, sorolls a primera hora i itineraris de vianants insegurs. El regidor us demana ordenar-ho.",
+   "prompt": "Expliqueu: a) els instruments per coordinar obres de diversos promotors a la via pública (planificació, llicències i condicions, calendari conjunt); b) les mesures de mitigació per a veïns i comerç (informació, itineraris, horaris, senyalització); c) el règim de l'ocupació de via pública de la promoció privada i la reposició dels paviments.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Coordinació: calendari conjunt d'obres a via pública (comissió/finestreta d'obres), condicions coordinades a llicències i autoritzacions de les companyies, i fases per mantenir itineraris",
+     "weight": 13,
+     "keywords": [
+      [
+       "calendari",
+       "coordinacio"
+      ],
+      [
+       "condicions",
+       "llicencies"
+      ],
+      [
+       "fases",
+       "itineraris"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Mitigació: informació prèvia a veïns i comerços, senyalització i passos de vianants protegits i accessibles, horaris de treball i límits de soroll (ordenança)",
+     "weight": 12,
+     "keywords": [
+      [
+       "informacio previa",
+       "avis"
+      ],
+      [
+       "senyalitzacio",
+       "passos"
+      ],
+      [
+       "horaris",
+       "soroll"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Ocupació de via pública privada: llicència/autorització amb taxa, tanca i protecció reglamentàries, responsabilitat i assegurança; garantia de REPOSICIÓ de paviments i serveis",
+     "weight": 13,
+     "keywords": [
+      [
+       "ocupacio",
+       "taxa"
+      ],
+      [
+       "tanca",
+       "proteccio"
+      ],
+      [
+       "reposicio",
+       "fianca",
+       "garantia"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Seguiment: inspecció, requeriments i suspensió de les ocupacions incomplidores",
+     "weight": 7,
+     "keywords": [
+      [
+       "inspeccio"
+      ],
+      [
+       "requeriment"
+      ],
+      [
+       "suspensio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) COORDINACIÓ: establir (si no existeix) un CALENDARI CONJUNT de les obres a via pública, amb una taula o finestreta d'obres que integri serveis tècnics, via pública/mobilitat, policia local, companyies i promotors: seqüenciar (evitar tres talls simultanis a la mateixa trama), aprofitar rases comunes i imposar CONDICIONS COORDINADES en cada títol: a l'obra municipal, via plecs; a la companyia, en l'autorització d'obres a via pública (conveni marc de serveis); a la privada, en la llicència i l'autorització d'ocupació. Definir FASES que garanteixin sempre itineraris de vianants i accés als comerços.\n\nb) MITIGACIÓ: INFORMACIÓ PRÈVIA i continuada (cartes, web, cartells d'obra amb terminis i responsable), SENYALITZACIÓ d'obres i desviaments conforme a la norma, PASSOS de vianants protegits, il·luminats i ACCESSIBLES (amplada, rampes), manteniment de guals i càrrega/descàrrega per al comerç, HORARIS de treball i límits de SOROLL de l'ordenança (evitar treballs sorollosos a primera hora residencial), neteja i reg contra la pols; canal de queixes amb resposta ràpida.\n\nc) L'OCUPACIÓ de vorera de la promoció privada exigeix LLICÈNCIA/AUTORITZACIÓ amb TAXA (ordenança fiscal), tancament d'obra reglamentari, marquesina o pas protegit si cal, ASSEGURANÇA de responsabilitat civil i FIANÇA que garanteixi la REPOSICIÓ dels paviments i serveis afectats al seu estat original (comprovació abans de retornar-la). Incompliments: INSPECCIÓ, requeriments, execució subsidiària amb càrrec a la fiança i, si escau, SUSPENSIÓ de l'ocupació i sanció per ordenança.",
+   "sources": [
+    "ROAS",
+    "Ordenances municipals"
+   ]
+  },
+  {
+   "id": "c2-t65-pmsh-venda",
+   "theme": 65,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Venda d'una parcel·la del patrimoni municipal de sòl per quadrar el pressupost",
+   "context": "Per tancar el pressupost, l'equip de govern proposa vendre per subhasta al millor postor una parcel·la residencial obtinguda per cessió del 10% d'aprofitament, i destinar els diners a pagar la despesa corrent (subministraments i nòmines). Secretaria demana informe previ.",
+   "prompt": "Expliqueu: a) si la parcel·la es pot alienar i per quin procediment (concurs vs subhasta); b) si els ingressos poden finançar despesa corrent; c) les condicions i garanties que hauria de contenir l'alienació (destinació, terminis, reversió).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Bé integrant del PMSH (cessió d'aprofitament): alienació possible però pel règim especial: CONCURS com a regla (amb destinació fixada), no subhasta al millor postor pura",
+     "weight": 13,
+     "keywords": [
+      [
+       "concurs"
+      ],
+      [
+       "patrimoni municipal",
+       "pmsh"
+      ],
+      [
+       "subhasta"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Els ingressos queden AFECTATS: reinversió en el mateix patrimoni (finalitats art. 160.5); NO poden finançar despesa corrent",
+     "weight": 14,
+     "keywords": [
+      [
+       "afectat",
+       "reinversio"
+      ],
+      [
+       "despesa corrent",
+       "no"
+      ],
+      [
+       "160"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Plec amb destinació (habitatge protegit o finalitat d'interès social), terminis d'edificació, preu no inferior al valor de l'aprofitament i clàusula de REVERSIÓ per incompliment",
+     "weight": 11,
+     "keywords": [
+      [
+       "destinacio"
+      ],
+      [
+       "terminis"
+      ],
+      [
+       "reversio"
+      ],
+      [
+       "valor"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Advertiment de legalitat: vendre per quadrar despesa corrent vulnera l'afectació i pot generar responsabilitats (informe desfavorable)",
+     "weight": 7,
+     "keywords": [
+      [
+       "informe",
+       "advertiment"
+      ],
+      [
+       "responsabilitat"
+      ],
+      [
+       "il·legal",
+       "vulnera",
+       "illegal"
+      ]
+     ]
+    }
+   ],
+   "model": "a) La parcel·la prové de la CESSIÓ del 10% d'aprofitament: integra el PATRIMONI MUNICIPAL DE SÒL I HABITATGE (art. 162 TRLUC), patrimoni SEPARAT i AFECTAT. Es pot alienar, però NO com un bé patrimonial ordinari: el règim especial (arts. 164-167) imposa el CONCURS com a regla general — amb plecs que fixen la DESTINACIÓ i les condicions — (o permuta; cessió directa o gratuïta només en supòsits taxats: habitatge protegit, administracions, entitats socials). La subhasta pura al millor postor sense condicions de destinació no s'ajusta al règim del PMSH.\n\nb) NO: els INGRESSOS de l'alienació resten AFECTATS al mateix patrimoni: s'han de REINVERTIR en la conservació i ampliació del PMSH o en les finalitats de l'art. 160.5 (habitatge protegit, actuacions d'interès públic o social). Destinar-los a despesa CORRENT (nòmines, subministraments) vulnera l'afectació legal: l'informe de secretaria/intervenció ha de ser DESFAVORABLE amb advertiment exprés (possibles responsabilitats i objecció).\n\nc) Si l'alienació procedeix (per a habitatge protegit, per exemple): PLEC amb DESTINACIÓ vinculant, TERMINIS d'edificació, PREU no inferior al valor urbanístic de l'aprofitament, criteris d'adjudicació (proposta d'habitatge, preus màxims), i CLÀUSULA DE REVERSIÓ (o condició resolutòria inscrita) per a l'incompliment de destinació o terminis; comptabilitat separada de l'ingrés (registre del PMSH) i aplicació a inversió afectada.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t66-urbanitzacio-recepcio",
+   "theme": 66,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Una urbanització dels anys 70 demana que l'ajuntament l'assumeixi",
+   "context": "L'associació d'una urbanització implantada el 1974 (80 parcel·les, molts habitatges habituals) demana que l'ajuntament 'recepcioni' els carrers i hi presti tots els serveis: tenen aigua per una xarxa privada precària, sense sanejament a la meitat de l'àmbit ni enllumenat normalitzat, i la reparcel·lació mai no es va tramitar.",
+   "prompt": "Expliqueu: a) per què no es pot recepcionar sense regularitzar (dèficits i gestió pendent); b) el full de ruta amb la Llei 3/2009 (instruments, finançament, reduccions d'àmbit); c) què pot i què no pot exigir mentre tant el veïnat (serveis mínims, deures dels propietaris).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "No es pot recepcionar una urbanització sense completar: serveis bàsics + cessions + reparcel·lació (gestió inacabada); recepcionar seria assumir càrregues dels propietaris",
+     "weight": 12,
+     "keywords": [
+      [
+       "recepcionar",
+       "recepcio"
+      ],
+      [
+       "serveis",
+       "cessions"
+      ],
+      [
+       "reparcellacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Full de ruta Llei 3/2009: pla especial/PMU de regularització (pot reduir àmbit), projectes de reparcel·lació i urbanització, quotes als propietaris i ajuts del fons",
+     "weight": 14,
+     "keywords": [
+      [
+       "3/2009",
+       "regularitzacio"
+      ],
+      [
+       "pla especial",
+       "pmu"
+      ],
+      [
+       "quotes"
+      ],
+      [
+       "fons",
+       "ajuts"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Mentrestant: deure de conservació dels propietaris (xarxes privades), serveis municipals obligatoris prestables (recollida, seguretat) segons condicions; ordres d'execució si hi ha risc",
+     "weight": 10,
+     "keywords": [
+      [
+       "conservacio"
+      ],
+      [
+       "serveis"
+      ],
+      [
+       "ordres",
+       "risc"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Participació i comunicació amb el veïnat: cens, jornades informatives i escenaris de costos",
+     "weight": 8,
+     "keywords": [
+      [
+       "informacio",
+       "participacio"
+      ],
+      [
+       "costos"
+      ],
+      [
+       "cens",
+       "veins"
+      ]
+     ]
+    }
+   ],
+   "model": "a) La 'recepció' dels carrers pressuposa una urbanització ACABADA conforme a projecte i una gestió urbanística COMPLETA (cessions formalitzades, càrregues repartides). Aquí falten els SERVEIS BÀSICS (sanejament parcial, enllumenat, xarxa d'aigua precària) i la REPARCEL·LACIÓ mai tramitada: si l'ajuntament assumís els vials i serveis ara, traslladaria al pressupost públic uns costos que la llei imposa als PROPIETARIS (equidistribució) i consolidaria la irregularitat.\n\nb) FULL DE RUTA (Llei 3/2009, aplicable: implantació de 1974): 1) diagnosi i CENS (dèficits, edificacions, propietats); 2) PLA ESPECIAL o PMU de REGULARITZACIÓ que ordeni l'àmbit — pot REDUIR el perímetre o desclassificar parts no consolidades per abaratir càrregues —; 3) PROJECTE DE REPARCEL·LACIÓ (cessions, distribució de càrregues; habitualment cooperació) i PROJECTE D'URBANITZACIÓ per completar sanejament, aigua i enllumenat; 4) FINANÇAMENT: QUOTES d'urbanització dels propietaris + AJUTS del fons de la Llei 3/2009 (redacció d'instruments i obres) + possibles convenis amb companyies; 5) executades les obres i les cessions: RECEPCIÓ formal i prestació plena de serveis.\n\nc) MENTRESTANT: els propietaris mantenen el DEURE DE CONSERVACIÓ de les xarxes i vials privats (l'associació o una entitat de conservació); l'ajuntament pot dictar ORDRES D'EXECUCIÓ si hi ha riscos (sanejament insalubre) i ha de prestar els serveis municipals que no depenen de la condició dels vials (recollida en punts accessibles, seguretat, salubritat pública), modulats per les condicions materials; el veïnat NO pot exigir la recepció ni serveis 'com al nucli' sense regularització. Claus d'èxit: INFORMACIÓ transparent de costos i escenaris i participació de l'associació en tot el procés.",
+   "sources": [
+    "Llei 3/2009",
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t67-ocupacio-directa-viafet",
+   "theme": 67,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Ocupació d'una finca per obres sense expedient: via de fet",
+   "context": "Per executar un col·lector urgent, la brigada municipal entra en una finca privada, obre una rasa de 60 m i hi deixa una servitud de pas de fet, tot sense cap expedient ni acord. El propietari reclama: exigeix la retirada o una indemnització, i amenaça amb un interdicte.",
+   "prompt": "Expliqueu: a) la qualificació de l'actuació (via de fet) i els riscos processals per a l'ajuntament; b) les vies per regularitzar-la (expropiació de servitud, ocupació temporal, mutu acord); c) la indemnització procedent i les responsabilitats internes.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Ocupació sense procediment ni títol = VIA DE FET: no empara ni la urgència; accions possessòries (interdictes) i contenciós procedents contra l'administració; el jutge pot ordenar la restitució",
+     "weight": 14,
+     "keywords": [
+      [
+       "via de fet"
+      ],
+      [
+       "interdicte",
+       "possessor"
+      ],
+      [
+       "sense procediment",
+       "sense titol"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Regularització: expropiació de la SERVITUD (declaració d'utilitat pública del projecte, necessitat d'ocupació, preu just) o, si és transitòria, OCUPACIÓ TEMPORAL indemnitzada; sempre és preferible el MUTU ACORD",
+     "weight": 13,
+     "keywords": [
+      [
+       "servitud"
+      ],
+      [
+       "expropiacio"
+      ],
+      [
+       "ocupacio temporal"
+      ],
+      [
+       "mutu acord"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Indemnització: valor de la servitud + danys (rasa, collita, demèrit) + interessos; el preu just no exclou la responsabilitat pel període de via de fet",
+     "weight": 10,
+     "keywords": [
+      [
+       "indemnitzacio",
+       "preu just"
+      ],
+      [
+       "danys"
+      ],
+      [
+       "interessos"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Internament: instruccions perquè cap obra no s'iniciï sense disponibilitat de terrenys (art. 236 LCSP) i depuració de com es va ordenar",
+     "weight": 8,
+     "keywords": [
+      [
+       "disponibilitat"
+      ],
+      [
+       "instruccions",
+       "protocol"
+      ],
+      [
+       "responsabilitat"
+      ]
+     ]
+    }
+   ],
+   "model": "a) És una VIA DE FET: actuació material sense procediment NI títol habilitant (ni declaració d'utilitat pública, ni necessitat d'ocupació, ni acta d'ocupació): la urgència del col·lector NO eximeix del procediment (existeix precisament la tramitació d'urgència de l'art. 52 LEF). Contra la via de fet el propietari disposa de les ACCIONS POSSESSÒRIES davant la jurisdicció civil (excepció al principi que no s'admeten interdictes contra l'administració: aquí no actua com a tal) i del CONTENCIÓS (art. 30 LJCA, inactivitat/via de fet): el jutge pot ordenar la RESTITUCIÓ de la finca i el cessament, a més d'indemnitzacions. Riscos alts per a l'ajuntament.\n\nb) REGULARITZACIÓ: com que el col·lector ha de romandre, cal constituir el títol: EXPROPIACIÓ DE SERVITUD d'aqüeducte/pas (aprovació del projecte d'obres amb la relació de béns: declaració implícita d'utilitat pública i necessitat d'ocupació — art. 40 ROAS —, preu just, acta); l'obertura de la rasa en fase d'obres s'hauria d'haver canalitzat com a OCUPACIÓ TEMPORAL indemnitzada (arts. 108 i seg. LEF). La via preferent i ràpida: MUTU ACORD amb el propietari (conveni expropiatori: servitud + indemnització global), que tanca el conflicte.\n\nc) INDEMNITZACIÓ: valor de la SERVITUD perpètua (demèrit de la finca: franja afectada i limitacions), DANYS de l'execució (collites, tanques, reposicions) i INTERESSOS; pel període de via de fet, responsabilitat patrimonial afegida si hi ha danys addicionals. INTERNAMENT: recordar que cap obra no pot iniciar-se sense la DISPONIBILITAT DELS TERRENYS (art. 236 LCSP) i establir el protocol (informe jurídic previ, expedient expropiatori o autorització del propietari); esbrinar qui va ordenar l'entrada i valorar responsabilitats.",
+   "sources": [
+    "LEF",
+    "LCSP"
+   ]
+  },
+  {
+   "id": "c2-t68-valoracio-local-activitat",
+   "theme": 68,
+   "block": 11,
+   "maxPoints": 45,
+   "title": "Expropiar un local amb activitat: valoració completa",
+   "context": "Per obrir un nou vial cal expropiar un local en planta baixa (sòl urbanitzat, edificació legal de 25 anys) on funciona una ferreteria amb 2 treballadors, en règim de lloguer (contracte amb 6 anys pendents). Cal valorar els drets del propietari i de l'arrendatari.",
+   "prompt": "Expliqueu: a) la valoració del local per al propietari (mètode i correccions); b) la indemnització de l'arrendatari (extinció del lloguer i trasllat de l'activitat); c) el premi d'afecció i altres conceptes accessoris.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Propietari: sòl urbanitzat EDIFICAT legalment: el SUPERIOR entre taxació conjunta per comparació i residual del sòl; construcció pel cost de reposició depreciat quan escau",
+     "weight": 13,
+     "keywords": [
+      [
+       "comparacio",
+       "conjunta"
+      ],
+      [
+       "residual"
+      ],
+      [
+       "superior"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Arrendatari: part de l'expedient; indemnització per EXTINCIÓ de l'arrendament (anys pendents, renda de mercat) i pel TRASLLAT de l'activitat: despeses, pèrdua de beneficis temporal, clientela",
+     "weight": 14,
+     "keywords": [
+      [
+       "arrendatari"
+      ],
+      [
+       "trasllat"
+      ],
+      [
+       "extincio"
+      ],
+      [
+       "clientela",
+       "beneficis"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Treballadors i activitat: la indemnització cobreix el restabliment de l'activitat (no els salaris directament); possible cessament amb indemnitzacions laborals com a dany si el trasllat és inviable",
+     "weight": 9,
+     "keywords": [
+      [
+       "restabliment",
+       "reobertura"
+      ],
+      [
+       "cessament"
+      ],
+      [
+       "laborals",
+       "treballadors"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Premi d'afecció del 5% sobre els drets dels TITULARS ocupants; interessos de demora si escau",
+     "weight": 9,
+     "keywords": [
+      [
+       "premi d'afeccio",
+       "5"
+      ],
+      [
+       "interessos"
+      ],
+      [
+       "ocupant",
+       "titulars"
+      ]
+     ]
+    }
+   ],
+   "model": "a) PROPIETARI: sòl URBANITZAT i EDIFICACIÓ LEGAL i conforme: la valoració (art. 37.2 TRLSRU) és el VALOR SUPERIOR entre: 1) la TAXACIÓ CONJUNTA sòl+construcció pel mètode de COMPARACIÓ amb testimonis de mercat de locals anàlegs; i 2) el valor RESIDUAL del sòl sense edificar (edificabilitat i ús del planejament). La construcció, quan es valora separadament (p. ex. per al repartiment), va a COST DE REPOSICIÓ menys DEPRECIACIÓ (25 anys, estat).\n\nb) ARRENDATARI: és INTERESSAT en l'expedient (art. 4 LEF) amb dret a indemnització PRÒPIA per: EXTINCIÓ DEL DRET ARRENDATICI (valor dels 6 anys pendents: diferència entre renda contractual i de mercat, si n'hi ha), DESPESES DE TRASLLAT de la ferreteria (mudança, adequació del nou local, llicències i comunicacions), PÈRDUA temporal DE BENEFICIS durant el trasllat i el demèrit per pèrdua de CLIENTELA vinculada a l'emplaçament; tot acreditat (comptabilitat, informes). Si el trasllat fos inviable i l'activitat cessés, s'indemnitza el valor del negoci extingit, incloent-hi com a dany els costos laborals del cessament.\n\nc) ACCESSORIS: PREMI D'AFECCIÓ del 5% sobre el valor dels béns i drets dels titulars que en són OCUPANTS (propietari si l'ocupa; aquí, també l'arrendatari sobre el seu dret); INTERESSOS de demora per retard en la fixació (6 mesos) o el pagament del preu just; i les despeses necessàries de desallotjament. La valoració es refereix a la data d'inici de l'expedient de preu just.",
+   "sources": [
+    "TRLSRU",
+    "LEF"
+   ]
+  },
+  {
+   "id": "c2-t69-sancionador-terrassa",
+   "theme": 69,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Expedient sancionador a una terrassa reincident",
+   "context": "Un bar reincident (dues sancions fermes l'últim any) torna a ocupar la vorera amb el doble de taules de les autoritzades i incompleix l'horari. La policia local aixeca acta. L'alcalde vol 'multar fort i tancar la terrassa demà mateix'. L'ordenança tipifica la conducta com a greu (fins a 1.500 €) i preveu la revocació de l'autorització.",
+   "prompt": "Expliqueu: a) el procediment sancionador exigible i les garanties (pot 'multar-se demà'?); b) la graduació de la sanció (reincidència) i la compatibilitat de multa + revocació de l'autorització; c) les mesures provisionals possibles (retirada de taules) i el seu règim.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Cap sanció sense PROCEDIMENT: incoació, instructor separat, al·legacions i prova, proposta i resolució; l'acta policial té presumpció de veracitat però no substitueix el procediment; executivitat en fermesa administrativa",
+     "weight": 13,
+     "keywords": [
+      [
+       "procediment"
+      ],
+      [
+       "instructor"
+      ],
+      [
+       "presumpcio de veracitat"
+      ],
+      [
+       "executiv"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Graduació: REINCIDÈNCIA (sancions fermes en un any) com a agreujant dins del límit de l'ordenança (art. 140-141 LRBRL); multa que no deixi benefici",
+     "weight": 11,
+     "keywords": [
+      [
+       "reincidencia"
+      ],
+      [
+       "graduacio",
+       "agreujant"
+      ],
+      [
+       "140",
+       "141",
+       "limit"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Multa + REVOCACIÓ de l'autorització: compatibles: la revocació per incompliment de condicions no és sanció (o és sanció accessòria si així es tipifica), amb audiència",
+     "weight": 12,
+     "keywords": [
+      [
+       "revocacio"
+      ],
+      [
+       "compatible"
+      ],
+      [
+       "audiencia"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Mesures provisionals: retirada de taules excedents/precinte amb acord motivat (proporcionalitat), fins i tot abans de la incoació en cas d'urgència, amb confirmació posterior",
+     "weight": 9,
+     "keywords": [
+      [
+       "mesures provisionals"
+      ],
+      [
+       "proporcionalitat",
+       "motivat"
+      ],
+      [
+       "urgencia",
+       "confirmacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) NO es pot 'multar demà': la potestat sancionadora exigeix PROCEDIMENT amb garanties (Llei 39/2015): INCOACIÓ amb contingut mínim, INSTRUCTOR separat de qui resol, al·legacions i PROVA (l'acta de la policia local gaudeix de PRESUMPCIÓ DE VERACITAT, però admet prova en contra i no substitueix el procediment), PROPOSTA notificada i RESOLUCIÓ motivada; la sanció només és EXECUTIVA en fermesa administrativa (art. 90.3), i amb reduccions per reconeixement/pagament (art. 85).\n\nb) GRADUACIÓ: la REINCIDÈNCIA (dues sancions fermes de la mateixa naturalesa en un any: art. 29.3.d Llei 40/2015) agreuja la multa dins del sostre de l'ordenança (greu: fins a 1.500 €, límits de l'art. 141 LRBRL) juntament amb la intencionalitat i el benefici (taules dobles = ingressos): la sanció no pot ser més beneficiosa que l'incompliment. Si l'ordenança tipifica la reiteració com a MOLT GREU, valorar la requalificació (fins a 3.000 €).\n\nc) MULTA I REVOCACIÓ són COMPATIBLES: la REVOCACIÓ de l'autorització d'ocupació per incompliment reiterat de les seves condicions és una conseqüència del règim de l'autorització (o sanció accessòria si l'ordenança la tipifica): es tramita amb AUDIÈNCIA. Com a MESURES PROVISIONALS: ordre de retirada immediata de les taules EXCEDENTS (i precinte/retirada subsidiària amb dipòsit), motivada i PROPORCIONAL, adoptable amb la incoació (o abans, per urgència, amb confirmació posterior): protegeix l'interès públic (pas de vianants) mentre es tramita l'expedient.",
+   "sources": [
+    "Llei 39/2015",
+    "Llei 40/2015",
+    "LRBRL"
+   ]
+  },
+  {
+   "id": "c2-t70-responsables-infraccio",
+   "theme": 70,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Qui respon d'una obra il·legal amb molts intervinents?",
+   "context": "En un àtic s'ha construït una planta sencera de més (80 m²) contra la llicència: el propietari diu que 'ho va fer l'anterior amo'; el constructor, que 'seguia plànols de l'arquitecte'; l'arquitecte, que 'el promotor el va pressionar'; i apareix un informe favorable del tècnic municipal que va validar el final d'obra sense advertir l'excés.",
+   "prompt": "Expliqueu: a) el cercle de responsables de la infracció (art. 216 TRLUC) i el criteri d'imputació de cadascun; b) la posició del propietari actual no promotor (sanció vs restauració); c) l'eventual responsabilitat del tècnic municipal i de l'ajuntament.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Responsables: promotor (qui va encarregar), constructor (executa el que és manifestament il·legal), tècnic director (dirigeix contra llicència): responsabilitat per la pròpia conducta, amb dol o culpa",
+     "weight": 13,
+     "keywords": [
+      [
+       "promotor"
+      ],
+      [
+       "constructor"
+      ],
+      [
+       "tecnic director",
+       "arquitecte"
+      ],
+      [
+       "dol",
+       "culpa"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Propietari actual no promotor: sense culpabilitat NO és sancionable, però l'ordre de RESTAURACIÓ (enderroc de la planta) el vincula com a càrrega real de la finca (subrogació)",
+     "weight": 13,
+     "keywords": [
+      [
+       "no",
+       "sancionable"
+      ],
+      [
+       "restauracio",
+       "enderroc"
+      ],
+      [
+       "carrega real",
+       "subrogacio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Tècnic municipal: l'informe favorable manifestament contrari a l'ordenament pot generar responsabilitat (art. 216: autoritats i personal; disciplinària i fins i tot penal, art. 320 CP)",
+     "weight": 10,
+     "keywords": [
+      [
+       "tecnic municipal",
+       "funcionari"
+      ],
+      [
+       "216"
+      ],
+      [
+       "320",
+       "prevaricacio",
+       "disciplinaria"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Accions civils entre particulars (evicció, vicis) al marge; la responsabilitat administrativa no s'exclou entre si (cadascú per la seva part; solidaritat en supòsits legals)",
+     "weight": 9,
+     "keywords": [
+      [
+       "civil",
+       "eviccio"
+      ],
+      [
+       "solidaritat",
+       "solidaria"
+      ],
+      [
+       "cadascu",
+       "propia"
+      ]
+     ]
+    }
+   ],
+   "model": "a) L'art. 216 TRLUC imputa la infracció a QUI HI INTERVÉ per la seva pròpia conducta, amb DOL O CULPA: el PROMOTOR de l'excés (l'anterior propietari que el va encarregar i se'n va beneficiar); el CONSTRUCTOR que executa una planta sencera contra la llicència (la il·legalitat era manifesta: no l'excusa 'seguir plànols'); i el TÈCNIC DIRECTOR que projecta o dirigeix l'obra contrària al títol (la 'pressió' del promotor no és causa d'exempció: havia de negar-s'hi i renunciar). Les responsabilitats són concurrents, cadascú per la seva participació (amb solidaritat en els supòsits legals).\n\nb) El PROPIETARI ACTUAL no promotor: sense participació ni coneixement imputable en l'execució, NO pot ser SANCIONAT (principi de culpabilitat, art. 28 Llei 40/2015). Ara bé, l'ordre de RESTAURACIÓ (enderroc de la planta il·legal, si no és legalitzable) NO és una sanció: segueix la FINCA com a càrrega real i vincula el propietari actual per subrogació; li quedarà l'acció CIVIL contra el venedor (sanejament, vicis ocults, dol) pel perjudici.\n\nc) El TÈCNIC MUNICIPAL que va informar favorablement el final d'obra sense advertir un excés de 80 m²: si l'informe és manifestament contrari a l'ordenament, l'art. 216 estén la responsabilitat a les autoritats i el personal (procediment DISCIPLINARI; responsabilitat PENAL de l'art. 320 CP si hi ha coneixement de la injustícia; responsabilitat patrimonial de l'ajuntament amb acció de regrés si l'informe genera danys a tercers de bona fe). Convé incoar la informació reservada corresponent i revisar el certificat/acte que es va emetre.",
+   "sources": [
+    "TRLUC",
+    "Llei 40/2015"
+   ]
+  },
+  {
+   "id": "c2-t71-calcul-multa",
+   "theme": 71,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Quantificar la multa d'una piscina il·legal en SNU",
+   "context": "En sòl no urbanitzable ordinari s'ha construït sense llicència una piscina i una pèrgola (valor de l'obra: 60.000 €; estalvi de no demanar llicència i taxes: 2.500 €). El propietari, en rebre la incoació, ofereix enderrocar-ho tot immediatament si 'li perdonen la multa'. No és reincident.",
+   "prompt": "Expliqueu: a) la qualificació de la infracció i la forquilla de multa aplicable; b) la graduació concreta (criteris i el paper del benefici); c) l'efecte de la restauració voluntària sobre la multa: es pot 'perdonar' del tot?",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Qualificació: obra no legalitzable en SNU: infracció GREU (fins a 150.000 €); seria MOLT GREU en SNU de protecció especial",
+     "weight": 12,
+     "keywords": [
+      [
+       "greu"
+      ],
+      [
+       "150.000",
+       "150000"
+      ],
+      [
+       "proteccio especial",
+       "molt greu"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Graduació: entitat de l'obra (60.000 €), culpabilitat, absència de reincidència; la multa mai no pot ser inferior al BENEFICI (mínim els 2.500 € més el que correspongui)",
+     "weight": 12,
+     "keywords": [
+      [
+       "graduacio",
+       "criteris"
+      ],
+      [
+       "benefici"
+      ],
+      [
+       "reincidencia"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Restauració voluntària abans de la fermesa: reducció legal de la multa (fins al 80%, art. 222), però NO condonació total: la potestat sancionadora és irrenunciable",
+     "weight": 13,
+     "keywords": [
+      [
+       "222",
+       "80"
+      ],
+      [
+       "reduccio"
+      ],
+      [
+       "no",
+       "condonacio",
+       "irrenunciable"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "La restauració (enderroc) és deguda en tot cas (mesura no sancionadora); documentar-la i comprovar-la abans d'aplicar la reducció",
+     "weight": 8,
+     "keywords": [
+      [
+       "enderroc",
+       "restauracio"
+      ],
+      [
+       "comprovacio",
+       "comprovar"
+      ],
+      [
+       "deguda",
+       "en tot cas"
+      ]
+     ]
+    }
+   ],
+   "model": "a) QUALIFICACIÓ: piscina i pèrgola sense llicència en SNU ordinari, no legalitzables (els usos residencials-recreatius no s'emparen en el règim del SNU): infracció GREU (art. 214 TRLUC: actes en sòl no urbanitzable contraris al règim, sense arribar als supòsits qualificats), amb multa de FINS A 150.000 € (art. 219). Si fos SNU de PROTECCIÓ ESPECIAL: MOLT GREU (fins a 1.500.000 €) i acció restauradora imprescriptible.\n\nb) GRADUACIÓ dins de la forquilla: entitat i valor de l'obra (60.000 €), grau de CULPABILITAT (obra conscientment sense títol), danys al medi, ABSÈNCIA de reincidència (a favor), i el principi de COMÍS DEL BENEFICI: la multa no pot ser inferior al benefici obtingut (com a mínim, els 2.500 € d'estalvi més el valor d'ús obtingut); les ordenances de graduació i la proporcionalitat (art. 29 Llei 40/2015) guien la quantia concreta (p. ex., un percentatge del valor de l'obra).\n\nc) La RESTAURACIÓ VOLUNTÀRIA (enderroc complet i reposició del terreny) ABANS que la sanció sigui ferma dona dret a la REDUCCIÓ legal de la multa (art. 222 TRLUC: substancial, fins al 80%), acumulable amb les reduccions generals per reconeixement i pagament voluntari (art. 85 Llei 39/2015) si són compatibles. Però NO es pot 'perdonar' del tot: la potestat sancionadora és IRRENUNCIABLE i la multa mínima ha de subsistir (i mai per sota del benefici). Operativa: acta de comprovació de l'enderroc i la reposició ABANS de resoldre, aplicant llavors la reducció a la proposta; l'enderroc, en tot cas, és DEGUT (mesura de restabliment, no moneda de canvi).",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t72-edifici-perillos",
+   "theme": 72,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Balcons amb despreniments: ordre d'execució urgent",
+   "context": "Cauen fragments de formigó dels balcons d'un edifici plurifamiliar de 50 anys al carrer Major. La propietat (comunitat amb pocs recursos) no actua malgrat un requeriment verbal. Hi ha risc per als vianants. L'edifici no té la ITE feta tot i estar-hi obligat.",
+   "prompt": "Expliqueu: a) les mesures urgents immediates i l'ordre d'execució subsegüent (contingut i garanties); b) els mitjans d'execució forçosa si la comunitat no compleix i el paper dels ajuts; c) la situació de la ITE no feta i les seves conseqüències.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Urgència: mesures immediates sense audiència prèvia (perill imminent): acordonament, xarxes/sanejat d'urgència via execució subsidiària, a càrrec de la propietat",
+     "weight": 13,
+     "keywords": [
+      [
+       "urgent",
+       "imminent"
+      ],
+      [
+       "acordonament",
+       "xarxes",
+       "sanejat"
+      ],
+      [
+       "subsidiaria"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Ordre d'execució formal: informe tècnic + audiència + obres concretes i termini + advertiment (subsidiària, multes coercitives); límit del deure de conservació",
+     "weight": 12,
+     "keywords": [
+      [
+       "ordre d'execucio"
+      ],
+      [
+       "audiencia",
+       "informe"
+      ],
+      [
+       "termini"
+      ],
+      [
+       "coercitives"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Incompliment: execució subsidiària amb liquidació a càrrec (constrenyiment) o multes coercitives reiterades; ajuts a la rehabilitació per a comunitats vulnerables",
+     "weight": 11,
+     "keywords": [
+      [
+       "subsidiaria"
+      ],
+      [
+       "constrenyiment",
+       "liquidacio"
+      ],
+      [
+       "ajuts"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "ITE obligatòria (edifici >45 anys): requeriment de presentar-la; l'incompliment és sancionable (Llei 18/2007) i condiciona els ajuts",
+     "weight": 9,
+     "keywords": [
+      [
+       "ite"
+      ],
+      [
+       "45"
+      ],
+      [
+       "sancionable",
+       "18/2007"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Amb PERILL IMMINENT per a la via pública, l'ajuntament actua IMMEDIATAMENT sense esperar tràmits: ACORDONAMENT i desviament de vianants, i ordre verbal/urgent de SANEJAT dels elements amb risc de caure (o xarxes de protecció); si la propietat no ho fa en hores/dies, EXECUCIÓ SUBSIDIÀRIA urgent per la brigada o empresa, A CÀRREC de la comunitat (la urgència legitima prescindir de l'audiència prèvia, que es fa a posteriori). Tot documentat amb informe tècnic municipal.\n\nb) Seguidament, ORDRE D'EXECUCIÓ formal (art. 197 TRLUC): informe tècnic, AUDIÈNCIA, relació d'OBRES concretes (reparació estructural dels balcons), TERMINIS d'inici i acabament i ADVERTIMENT de les conseqüències. Si la comunitat no compleix: EXECUCIÓ SUBSIDIÀRIA (l'ajuntament contracta les obres i en liquida el cost, exigible per CONSTRENYIMENT, amb possible afecció registral) o MULTES COERCITIVES reiterades. Per a una comunitat amb pocs recursos: canalitzar AJUTS a la rehabilitació (Agència de l'Habitatge, línies per a elements comuns; bestretes municipals repercutibles), que sovint desbloquegen el compliment voluntari; el deure de conservació té el seu LÍMIT legal, però la seguretat és el contingut mínim inexcusable.\n\nc) L'edifici (50 anys) està OBLIGAT a la ITE (Decret 67/2015: habitatges plurifamiliars >45 anys): cal REQUERIR la presentació de l'informe ITE i del certificat d'aptitud; no fer la ITE és INFRACCIÓ sancionable (Llei 18/2007) i és requisit per accedir als ajuts. La ITE hauria detectat les deficiències (qualificades ara previsiblement de greus o molt greus amb mesures cautelars): incorporar-la a l'expedient com a element de seguiment (programa de rehabilitació de l'edifici).",
+   "sources": [
+    "TRLUC",
+    "Decret 67/2015"
+   ]
+  },
+  {
+   "id": "c2-t73-prescripcio-prova",
+   "theme": 73,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Al·legació de prescripció d'una nau il·legal: qui ho prova?",
+   "context": "La inspecció detecta una nau agrícola convertida en habitatge en SNU ordinari. El propietari al·lega que 'les obres van acabar fa més de 6 anys' i aporta: una foto satèl·lit de fa 7 anys on s'aprecia la coberta, i un contracte de subministrament elèctric de fa 5. L'ús d'habitatge continua actiu.",
+   "prompt": "Expliqueu: a) qui suporta la càrrega de provar la prescripció i com es valoren les proves aportades; b) la incidència de l'ÚS continuat (habitatge) sobre la prescripció; c) la situació resultant si es considera prescrita l'acció sobre les OBRES (fora d'ordenació i límits).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Càrrega de la prova: correspon a QUI AL·LEGA la prescripció acreditar la data d'acabament TOTAL; la foto de coberta prova estructura, no acabament ni ús; valoració conjunta",
+     "weight": 13,
+     "keywords": [
+      [
+       "carrega de la prova",
+       "qui allega"
+      ],
+      [
+       "acabament total"
+      ],
+      [
+       "valoracio",
+       "indicis"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "L'ÚS il·legal CONTINUAT no prescriu mentre persisteix (infracció contínua): l'acció contra l'ús d'habitatge en SNU segueix viva encara que les obres hagin prescrit",
+     "weight": 13,
+     "keywords": [
+      [
+       "us continuat",
+       "continua"
+      ],
+      [
+       "no prescriu",
+       "persisteix"
+      ],
+      [
+       "habitatge"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Si les obres han prescrit: fora d'ordenació/situació assimilada: només reparacions de salubritat i seguretat; cap consolidació, ampliació ni legalització automàtica",
+     "weight": 11,
+     "keywords": [
+      [
+       "fora d'ordenacio"
+      ],
+      [
+       "salubritat",
+       "seguretat"
+      ],
+      [
+       "consolidacio",
+       "cap dret"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "En SNU ordinari el termini és 6 anys (imprescriptible només el protegit); comprovar la classificació abans de resoldre",
+     "weight": 8,
+     "keywords": [
+      [
+       "6 anys"
+      ],
+      [
+       "ordinari"
+      ],
+      [
+       "proteccio especial",
+       "classificacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) La CÀRREGA DE LA PROVA de la prescripció recau sobre QUI L'AL·LEGA (jurisprudència constant): ha d'acreditar la data d'ACABAMENT TOTAL de les obres amb prova plena o indicis concloents. Valoració: la FOTO SATÈL·LIT de fa 7 anys només acredita l'existència de la COBERTA (estructura), no l'acabament total de la transformació en habitatge (interiors, instal·lacions); el CONTRACTE ELÈCTRIC de fa 5 anys situa l'ús dins del termini de 6 anys. Amb aquests elements, la prescripció de la TRANSFORMACIÓ EN HABITATGE no queda provada (l'acabament acreditable és, com a molt, fa 5 anys): l'acció de restauració és viva.\n\nb) A més, l'ÚS d'habitatge en SNU és una INFRACCIÓ CONTÍNUA: mentre l'ús PERSISTEIX, el termini no corre (compta des del CESSAMENT): l'administració pot ordenar el cessament de l'ús il·legal encara que la prescripció de les obres s'hagués consumat. Ús i obres tenen vida prescriptiva pròpia.\n\nc) Si (amb millor prova) es considerés prescrita l'acció sobre les OBRES: la nau-habitatge NO queda legalitzada: entra en FORA D'ORDENACIÓ o situació assimilada: només s'hi admeten reparacions de SALUBRITAT, higiene i SEGURETAT; prohibides les obres de consolidació, ampliació o millora que n'augmentin el valor; i l'ús continuaria sent perseguible (lletra b). En SNU ORDINARI el termini és el general de 6 ANYS; si fos de PROTECCIÓ ESPECIAL, l'acció seria IMPRESCRIPTIBLE: cal verificar la classificació i qualificació al POUM abans de resoldre.",
+   "sources": [
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t74-revisio-primera-ocupacio",
+   "theme": 74,
+   "block": 12,
+   "maxPoints": 45,
+   "title": "Revisar una llicència amb l'edifici acabat i venut",
+   "context": "Es descobreix que una llicència d'un edifici de 12 habitatges es va atorgar amb una alçada i una planta més del que permet el POUM (informe tècnic erroni). L'edifici està ACABAT, amb primera ocupació comunicada i 8 habitatges ja venuts a compradors de bona fe. El nou govern vol 'anul·lar-ho tot i enderrocar la planta'.",
+   "prompt": "Expliqueu: a) la via de revisió procedent i els seus tràmits essencials; b) la ponderació d'interessos: enderroc parcial vs manteniment, i la posició dels compradors de bona fe; c) les responsabilitats patrimonials i internes que se'n deriven.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Via: revisió d'OFICI per nul·litat (art. 47.1.f: facultats contràries a l'ordenament sense requisits essencials) amb audiència i dictamen FAVORABLE de la Comissió Jurídica Assessora; possible suspensió (art. 108)",
+     "weight": 13,
+     "keywords": [
+      [
+       "revisio d'ofici",
+       "106"
+      ],
+      [
+       "comissio juridica assessora",
+       "dictamen"
+      ],
+      [
+       "audiencia"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Anul·lada la llicència: legalització impossible (excés de pla): restauració (enderroc de la planta) com a regla, ponderant proporcionalitat i tercers; l'enderroc afecta els habitatges de l'última planta",
+     "weight": 12,
+     "keywords": [
+      [
+       "enderroc"
+      ],
+      [
+       "proporcionalitat",
+       "ponderacio"
+      ],
+      [
+       "no legalitzable"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Compradors de bona fe: responsabilitat PATRIMONIAL de l'ajuntament (art. 48 TRLSRU): valor dels habitatges enderrocats i danys, llevat de dol o culpa seva",
+     "weight": 13,
+     "keywords": [
+      [
+       "bona fe"
+      ],
+      [
+       "responsabilitat patrimonial",
+       "48"
+      ],
+      [
+       "indemnitzacio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Internes: depurar l'informe tècnic erroni (disciplinari; regrés si escau) i revisar el procediment d'informes",
+     "weight": 7,
+     "keywords": [
+      [
+       "disciplinari",
+       "regres"
+      ],
+      [
+       "informe tecnic"
+      ],
+      [
+       "depurar",
+       "responsabilitat"
+      ]
+     ]
+    }
+   ],
+   "model": "a) La llicència que atorga UNA PLANTA MÉS del que permet el pla concedeix facultats contràries a l'ordenament mancant els requisits essencials: NUL·LITAT de ple dret (art. 47.1.f Llei 39/2015): via de REVISIÓ D'OFICI (art. 106): incoació, AUDIÈNCIA de tots els interessats (promotor i compradors), i dictamen PRECEPTIU I FAVORABLE de la COMISSIÓ JURÍDICA ASSESSORA; resolució en 6 mesos (caducitat). Es pot SUSPENDRE l'eficàcia residual del títol (art. 108) i anotar la revisió al Registre de la Propietat per protegir tercers futurs.\n\nb) Anul·lada la llicència, l'excés (la planta de més) NO és legalitzable amb el POUM vigent: la conseqüència ordinària és la RESTAURACIÓ (enderroc de la planta), executada amb PROPORCIONALITAT (estudiar si és tècnicament separable sense afectar l'estructura restant). Alternatives excepcionals: modificació del planejament que empari l'alçada (només si respon a l'interès general i no a la mera convalidació: risc de desviació de poder) o la impossibilitat material d'execució amb indemnització substitutòria. Els COMPRADORS DE BONA FE no paren l'enderroc (la nul·litat és objectiva), però la seva posició es tradueix en indemnitzacions.\n\nc) RESPONSABILITATS: PATRIMONIAL de l'ajuntament envers els titulars de BONA FE (art. 48 TRLSRU): valor dels habitatges afectats, reallotjament i perjudicis, llevat que hi hagi dol o negligència greu del promotor (que suportaria la seva part: acció de regrés o distribució de responsabilitat); INTERNA: informació reservada i eventual DISCIPLINARI sobre l'informe tècnic erroni (i regrés de l'art. 36 Llei 40/2015 si hi ha dol o culpa greu); i revisió del circuit d'informes (doble validació d'alçades i edificabilitats).",
+   "sources": [
+    "Llei 39/2015",
+    "TRLSRU"
+   ]
+  },
+  {
+   "id": "c2-t75-pla-local-habitatge",
+   "theme": 75,
+   "block": 15,
+   "maxPoints": 45,
+   "title": "Elaborar el pla local d'habitatge i mobilitzar pisos buits",
+   "context": "Montornès vol elaborar el seu pla local d'habitatge: hi ha llista d'espera d'habitatge social, 60 pisos buits detectats (12 de grans tenidors bancaris), pocs solars municipals i un parc envellit. El ple demana un guió del pla i mesures immediates sobre els pisos buits.",
+   "prompt": "Expliqueu: a) el contingut i la tramitació del pla local d'habitatge (Llei 18/2007); b) les mesures escalonades sobre els habitatges buits (detecció, foment, coerció); c) com s'articula el pla amb el patrimoni municipal de sòl i la solidaritat urbana.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "PLH: anàlisi i diagnosi (necessitats, parc, demanda), objectius i programa d'actuacions (sòl, promoció, rehabilitació, ajuts) amb calendari i finançament; aprovació municipal i concertació amb la Generalitat",
+     "weight": 13,
+     "keywords": [
+      [
+       "diagnosi",
+       "analisi"
+      ],
+      [
+       "programa",
+       "actuacions"
+      ],
+      [
+       "financament",
+       "calendari"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Pisos buits: detecció (padró, consums), declaració d'utilització anòmala (desocupació >2 anys) amb requeriment; foment: mediació, borsa de lloguer, ajuts; coerció: multes coercitives, sanció i, en supòsits legals, expropiació/cessió obligatòria de grans tenidors",
+     "weight": 14,
+     "keywords": [
+      [
+       "desocupacio",
+       "2 anys",
+       "anomala"
+      ],
+      [
+       "borsa",
+       "mediacio",
+       "foment"
+      ],
+      [
+       "coercitives",
+       "sancio"
+      ],
+      [
+       "grans tenidors"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Vincle amb el PMSH: reserves i solars per a habitatge protegit, tanteig i retracte, i ingressos afectats",
+     "weight": 9,
+     "keywords": [
+      [
+       "patrimoni municipal",
+       "pmsh"
+      ],
+      [
+       "tanteig"
+      ],
+      [
+       "reserves",
+       "solars"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Solidaritat urbana (art. 73): objectiu del 15% d'habitatge per a polítiques socials en 20 anys (municipi >5.000 hab.)",
+     "weight": 8,
+     "keywords": [
+      [
+       "solidaritat urbana",
+       "73"
+      ],
+      [
+       "15"
+      ],
+      [
+       "20 anys"
+      ]
+     ]
+    }
+   ],
+   "model": "a) El PLA LOCAL D'HABITATGE (art. 14 Llei 18/2007): instrument que determina les propostes i compromisos municipals en política d'habitatge: 1) ANÀLISI I DIAGNOSI: població i demanda (llista d'espera), parc existent (edat, ITE, buits), sòl disponible, recursos; 2) OBJECTIUS i estratègies; 3) PROGRAMA D'ACTUACIONS quantificat i calendaritzat: generació d'habitatge protegit (solars, promoció pròpia o concertada), rehabilitació del parc envellit, mobilització de buits, ajuts i serveis (borsa, oficina local); 4) FINANÇAMENT i seguiment (indicadors). L'aprova el ple (participació pública) i és la base per CONCERTAR recursos amb la Generalitat (conveni amb l'Agència de l'Habitatge).\n\nb) HABITATGES BUITS, resposta ESCALONADA (Llei 18/2007, art. 41 i seg.): 1) DETECCIÓ i cens (consums, padró, inspecció); 2) declaració d'UTILITZACIÓ ANÒMALA per desocupació permanent injustificada (>2 anys) amb audiència; 3) FOMENT: mediació amb propietaris, BORSA de lloguer (garanties municipals), ajuts a la rehabilitació a canvi de destinar-los a lloguer assequible; 4) COERCIÓ: requeriments, MULTES COERCITIVES, procediment SANCIONADOR (la desocupació injustificada de grans tenidors és infracció) i, en els supòsits legals reforçats per a GRANS TENIDORS, lloguer social obligatori o expropiació de l'ús. Els 12 pisos bancaris són la prioritat operativa.\n\nc) ARTICULACIÓ: el PMSH aporta els SOLARS (cessions d'aprofitament) i pot créixer amb TANTEIG I RETRACTE en àrees delimitades; els INGRESSOS del patrimoni queden afectats a les actuacions del pla; les reserves del planejament (30%) alimenten l'oferta futura; i tot s'orienta a l'objectiu de SOLIDARITAT URBANA (art. 73: 15% d'habitatge per a polítiques socials en 20 anys, aplicable a Montornès com a municipi de més de 5.000 habitants), amb memòria social coherent al planejament.",
+   "sources": [
+    "Llei 18/2007"
+   ]
+  },
+  {
+   "id": "c2-t76-ordenanca-ambiental",
+   "theme": 76,
+   "block": 15,
+   "maxPoints": 45,
+   "title": "Una ordenança municipal més estricta que la norma autonòmica",
+   "context": "Arran de queixes per soroll i llum, el ple vol aprovar una ordenança ambiental que fixi límits acústics nocturns més estrictes que la normativa catalana, apagada de rètols lluminosos a partir de les 23 h i l'obligació de plaques solars en naus noves. Un grup qüestiona si el municipi 'pot legislar' medi ambient.",
+   "prompt": "Expliqueu: a) el fonament competencial dels municipis per dictar ordenances ambientals i el seu límit (norma addicional de protecció); b) l'encaix de cada mesura proposada; c) la tramitació de l'ordenança i el règim sancionador associat.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Competència: art. 25 LRBRL (medi ambient urbà) + potestat normativa local; poden establir nivells MÉS exigents (normes addicionals) sense contradir ni rebaixar la legislació estatal/autonòmica",
+     "weight": 13,
+     "keywords": [
+      [
+       "25",
+       "lrbrl"
+      ],
+      [
+       "mes exigents",
+       "addicional"
+      ],
+      [
+       "no contradir",
+       "rebaixar"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Mesures: límits acústics més estrictes (ordenança de soroll: mapes i zonificació, Llei 16/2002); enllumenat de rètols (Llei 6/2001); plaques solars en edificació nova: via ordenança d'edificació/ecoeficiència (complement del CTE i Decret 21/2006)",
+     "weight": 13,
+     "keywords": [
+      [
+       "soroll",
+       "acustic"
+      ],
+      [
+       "6/2001",
+       "lluminosa",
+       "retols"
+      ],
+      [
+       "solars",
+       "ecoeficiencia"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Tramitació: consulta pública prèvia (art. 133 Llei 39/2015), aprovació inicial pel ple, informació pública 30 dies i aprovació definitiva amb publicació íntegra al BOP",
+     "weight": 12,
+     "keywords": [
+      [
+       "consulta previa",
+       "133"
+      ],
+      [
+       "ple"
+      ],
+      [
+       "30 dies",
+       "informacio publica"
+      ],
+      [
+       "bop",
+       "publicacio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Sancions: tipificació per la llei sectorial o, si no, límits dels arts. 139-141 LRBRL",
+     "weight": 7,
+     "keywords": [
+      [
+       "139",
+       "141"
+      ],
+      [
+       "tipificacio"
+      ],
+      [
+       "sectorial"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Els municipis SÍ que poden normar en matèria ambiental: tenen competències pròpies en MEDI AMBIENT URBÀ (art. 25.2.b LRBRL: contaminació acústica, lumínica i atmosfèrica en zones urbanes, parcs, residus) i POTESTAT NORMATIVA (ordenances). El límit: respectar la legislació estatal i catalana: poden ser MÉS EXIGENTS (funció de norma addicional de protecció, coherent amb l'art. 144 EAC), mai rebaixar estàndards ni envair reserves de llei.\n\nb) ENCAIX: els LÍMITS ACÚSTICS nocturns més estrictes s'articulen amb l'ordenança de soroll i el mapa/zonificació acústica (marc: Llei 16/2002 i el seu desplegament: els municipis poden fixar objectius de qualitat més ambiciosos per zones); l'APAGADA DE RÈTOLS s'empara en la normativa de prevenció de la CONTAMINACIÓ LLUMINOSA (Llei 6/2001) i en la d'estalvi energètic (amb respecte al reglament estatal d'eficiència en enllumenat exterior); les PLAQUES SOLARS en naus noves: mesura d'ecoeficiència complementària del CTE (DB-HE) i el Decret 21/2006: exigible per ordenança municipal (com fan les ordenances solars), millor amb estudi d'impacte econòmic i excepcions tècniques justificades.\n\nc) TRAMITACIÓ: CONSULTA PÚBLICA PRÈVIA (art. 133 Llei 39/2015), aprovació INICIAL pel PLE, INFORMACIÓ PÚBLICA de 30 dies (audiència a entitats), resolució d'al·legacions i aprovació DEFINITIVA (automàtica si no n'hi ha), amb PUBLICACIÓ ÍNTEGRA al BOP per a l'eficàcia (art. 70.2 LRBRL). SANCIONS: aplicar la tipificació de les lleis sectorials (soroll, llum) i, per a les previsions pròpies sense llei sectorial, el marc dels arts. 139-141 LRBRL (fins a 3.000 €).",
+   "sources": [
+    "LRBRL",
+    "Llei 16/2002",
+    "Llei 6/2001"
+   ]
+  },
+  {
+   "id": "c2-t77-notificacio-defectuosa",
+   "theme": 77,
+   "block": 16,
+   "maxPoints": 45,
+   "title": "Una notificació electrònica fallida tomba una sanció?",
+   "context": "L'ajuntament notifica una sanció a una SL només amb un correu electrònic ordinari amb el PDF adjunt. Ningú no hi accedeix; passats dos mesos, es declara ferma i s'embarga el compte. L'empresa recorre: diu que mai no va rebre 'cap notificació vàlida'. El servei jurídic revisa el cas.",
+   "prompt": "Expliqueu: a) com s'ha de notificar vàlidament una persona jurídica (art. 14.2 i 41-43 Llei 39/2015); b) el valor del correu ordinari i quan s'entén rebutjada una notificació ben feta; c) les conseqüències del defecte sobre la fermesa i l'embargament, i com refer el procediment.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Persones jurídiques: OBLIGADES a la via electrònica: notificació per COMPAREIXENÇA A LA SEU o adreça electrònica habilitada, amb posada a disposició acreditada; el correu ordinari NO és notificació vàlida (només avís)",
+     "weight": 14,
+     "keywords": [
+      [
+       "obligades",
+       "14"
+      ],
+      [
+       "seu electronica",
+       "compareixenca",
+       "habilitada"
+      ],
+      [
+       "avis",
+       "no es notificacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Notificació ben practicada: s'entén REBUTJADA als 10 DIES NATURALS de la posada a disposició sense accés, i el tràmit es té per efectuat",
+     "weight": 11,
+     "keywords": [
+      [
+       "10 dies"
+      ],
+      [
+       "rebutjada"
+      ],
+      [
+       "posada a disposicio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Defecte de notificació: l'acte no guanya fermesa ni és executiu: l'embargament és nul (falta de títol executiu); estimar el recurs, retrotraure i notificar bé",
+     "weight": 13,
+     "keywords": [
+      [
+       "fermesa",
+       "no ferma"
+      ],
+      [
+       "embargament",
+       "nul"
+      ],
+      [
+       "retrotraure",
+       "retroaccio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Vigilar la prescripció de la infracció/sanció durant la retroacció i documentar la posada a disposició (evidències del sistema)",
+     "weight": 7,
+     "keywords": [
+      [
+       "prescripcio"
+      ],
+      [
+       "evidencia",
+       "certificacio"
+      ],
+      [
+       "caducitat"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Una SL està OBLIGADA a relacionar-se electrònicament (art. 14.2 Llei 39/2015): les notificacions s'han de practicar per MITJANS ELECTRÒNICS: posada a disposició a la SEU ELECTRÒNICA (compareixença) o a l'adreça electrònica habilitada única, amb constància FEFAENT de la posada a disposició, l'accés i la identitat (evidències del sistema, e-NOTUM). El CORREU ELECTRÒNIC ORDINARI amb PDF no és un canal de notificació vàlid: només pot ser l'AVÍS complementari (art. 41.6), la falta o defecte del qual no invalida, però l'avís NO substitueix mai la notificació.\n\nb) Si la notificació s'hagués practicat BÉ (posada a disposició a la seu amb avís), transcorreguts 10 DIES NATURALS sense accedir-hi s'entendria REBUTJADA (art. 43.2) i el tràmit per efectuat, continuant el procediment. Però aquest efecte només opera sobre una posada a disposició CORRECTA i acreditada.\n\nc) Aquí NO hi ha hagut notificació vàlida: la resolució no ha guanyat FERMESA ni era EXECUTIVA (art. 98: cal notificació); el CONSTRENYIMENT i l'EMBARGAMENT manquen de títol: NUL·LITAT de les actuacions executives. Procedent: ESTIMAR el recurs (o revisar d'ofici), aixecar l'embargament amb devolució i interessos, RETROTRAURE el procediment al moment de la notificació i practicar-la correctament (seu electrònica + avís). Alerta: comprovar la PRESCRIPCIÓ de la infracció i de la sanció (el temps transcorregut sense notificació vàlida corre en contra de l'administració) i la CADUCITAT del procediment sancionador; reforçar el protocol de notificacions als obligats electrònics.",
+   "sources": [
+    "Llei 39/2015"
+   ]
+  },
+  {
+   "id": "c2-t78-simplificar-llicencies",
+   "theme": 78,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Redissenyar el circuit de llicències d'obres: de 6 mesos a 1",
+   "context": "Les llicències d'obres majors triguen de mitjana 6 mesos: els expedients passen per 7 passos seqüencials, es demanen documents que ja té l'ajuntament, hi ha 2 colls d'ampolla (informe tècnic únic i signatura) i un 30% de requeriments d'esmena per errors formals. L'alcaldia vol baixar a 1-2 mesos sense perdre rigor.",
+   "prompt": "Expliqueu: a) com diagnosticaríeu el procés (eines); b) cinc millores concretes de simplificació amb el seu fonament; c) com mesuraríeu l'èxit i consolidaríeu el canvi (indicadors, carta de serveis, PDCA).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Diagnosi: mapa i DIAGRAMA DE FLUX del procés, dades de temps per fase (colls d'ampolla), Pareto de causes d'esmena, veu de l'usuari (queixes)",
+     "weight": 12,
+     "keywords": [
+      [
+       "diagrama de flux",
+       "mapa"
+      ],
+      [
+       "colls d'ampolla",
+       "temps per fase"
+      ],
+      [
+       "pareto"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Millores: paral·lelitzar informes; NO demanar documents en poder de l'administració (art. 28); checklist i validació a l'entrada (menys esmenes); delegació de signatura; comunicació prèvia per a supòsits de menor entitat (187 bis)",
+     "weight": 14,
+     "keywords": [
+      [
+       "parallel"
+      ],
+      [
+       "28",
+       "no aportar",
+       "interoperabilitat"
+      ],
+      [
+       "comunicacio previa",
+       "187"
+      ],
+      [
+       "delegacio",
+       "checklist"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Mesura: indicadors (temps mitjà, % en termini, % esmenes) amb quadre de comandament; compromís en carta de serveis; cicle PDCA de revisió",
+     "weight": 12,
+     "keywords": [
+      [
+       "indicadors",
+       "temps mitja"
+      ],
+      [
+       "carta de serveis"
+      ],
+      [
+       "pdca"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Gestió del canvi amb l'equip: participació dels tècnics, prova pilot i formació",
+     "weight": 7,
+     "keywords": [
+      [
+       "participacio"
+      ],
+      [
+       "pilot"
+      ],
+      [
+       "formacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) DIAGNOSI amb dades: aixecar el MAPA i el DIAGRAMA DE FLUX del procés real (qui fa què, temps d'espera entre passos), mesurar TEMPS PER FASE per localitzar els colls d'ampolla (informe únic i signatura), fer un PARETO de les causes dels requeriments d'esmena (si el 30% són errors formals, poques causes concentren la majoria) i escoltar usuaris i tècnics (queixes, entrevistes).\n\nb) CINC MILLORES: 1) PARAL·LELITZAR: informes tècnic i jurídic simultanis, no seqüencials; 2) NO DEMANAR el que l'administració ja té o pot consultar (art. 28 Llei 39/2015: interoperabilitat: cadastre, padró, registres) i formularis amb CHECKLIST i validació a l'entrada (OAC/tramitador electrònic): menys esmenes; 3) derivar supòsits de menor entitat a COMUNICACIÓ PRÈVIA (art. 187 bis TRLUC) amb control posterior per mostreig: allibera hores tècniques per a les majors; 4) DELEGACIÓ de signatura/competència (decret d'alcaldia a regidor o tinença) i tramitació electrònica íntegra amb avisos automàtics; 5) reforçar el coll d'ampolla: segon tècnic informant o suport extern puntual, amb criteris interpretatius escrits (menys dubtes, més homogeneïtat).\n\nc) MESURA I CONSOLIDACIÓ: indicadors al quadre de comandament: TEMPS MITJÀ de resolució, % resoltes DINS DE TERMINI, % d'expedients amb ESMENA, satisfacció; objectiu explícit (p. ex. mediana ≤ 45 dies) publicat com a COMPROMÍS a la CARTA DE SERVEIS; revisió trimestral amb el cicle PDCA (ajustar el que no funcioni). El canvi es fa AMB l'equip: participació dels tècnics en el redisseny, PROVA PILOT (un tipus d'expedient), formació i comunicació dels resultats (èxits a curt termini per ancorar el canvi).",
+   "sources": [
+    "Llei 39/2015",
+    "TRLUC"
+   ]
+  },
+  {
+   "id": "c2-t79-quadre-comandament-area",
+   "theme": 79,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Muntar el quadre de comandament de l'Àrea de Territori",
+   "context": "La nova cap de l'Àrea de Territori i Sostenibilitat troba: objectius genèrics ('millorar el manteniment'), sense indicadors ni dades sistematitzades, seguiment inexistent i una memòria anual purament descriptiva. Té 4 serveis (obres, llicències, medi ambient, brigada) i vol un sistema de seguiment en 3 mesos.",
+   "prompt": "Expliqueu: a) com transformaríeu els objectius genèrics en objectius SMART amb indicadors per servei; b) el disseny del quadre de comandament (selecció d'indicadors, llindars, periodicitat, responsables); c) la rutina de seguiment i la gestió de les desviacions.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Objectius SMART per servei amb el desplegament en cascada des del pla de mandat; cada objectiu amb indicador, línia de base, valor esperat i termini",
+     "weight": 13,
+     "keywords": [
+      [
+       "smart"
+      ],
+      [
+       "cascada",
+       "mandat"
+      ],
+      [
+       "linia de base",
+       "valor"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Quadre de comandament: pocs indicadors clau per servei (resultat, no només activitat), llindars/semàfors, font i responsable de cada dada, periodicitat mensual o trimestral",
+     "weight": 13,
+     "keywords": [
+      [
+       "quadre de comandament"
+      ],
+      [
+       "llindars",
+       "semafors"
+      ],
+      [
+       "responsable",
+       "font"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Rutina: informe periòdic + reunió de seguiment amb actes i compromisos; anàlisi de causes de les desviacions i mesures correctores amb responsable i termini",
+     "weight": 12,
+     "keywords": [
+      [
+       "reunio",
+       "informe"
+      ],
+      [
+       "causes"
+      ],
+      [
+       "correctores"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Implantació realista en 3 mesos: pilot amb dades disponibles, millora progressiva de la qualitat de la dada",
+     "weight": 7,
+     "keywords": [
+      [
+       "pilot"
+      ],
+      [
+       "dades disponibles"
+      ],
+      [
+       "progressiv"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Primer, DESPLEGAMENT EN CASCADA: dels eixos del pla de mandat als objectius d'ÀREA i de cada SERVEI. 'Millorar el manteniment' esdevé SMART: 'resoldre el 85% de les incidències de via pública en menys de 10 dies hàbils durant el 2026' (brigada); llicències: 'resoldre el 90% de les comunicacions en 15 dies i les llicències majors en una mediana de 60 dies'; obres: 'executar el 80% del pla d'inversions amb desviació de termini < 15%'; medi ambient: 'inspeccionar el 100% de les activitats amb control periòdic vençut'. Cada objectiu: INDICADOR definit (fórmula i font), LÍNIA DE BASE (mesura inicial: encara que sigui estimada), VALOR ESPERAT i TERMINI.\n\nb) QUADRE DE COMANDAMENT: pocs i bons (4-6 indicadors CLAU per servei: prioritzar RESULTAT sobre activitat), amb LLINDARS i semàfors (verd/groc/vermell), FONT de dades i RESPONSABLE de cada dada, i PERIODICITAT (mensual per a operatius, trimestral per a estratègics); una pàgina per servei i una de resum d'àrea. Eines senzilles al principi (full de càlcul compartit o BI bàsic): la clau és la disciplina de la dada, no l'eina.\n\nc) RUTINA: INFORME mensual breu per servei + REUNIÓ de seguiment (mensual amb caps de servei; trimestral amb regidoria) amb acta i COMPROMISOS. Desviació en vermell: anàlisi de CAUSA ARREL (5 perquès), MESURA CORRECTORA amb responsable i termini, i verificació a la reunió següent; desviacions per causes externes: documentar i replanificar amb transparència. IMPLANTACIÓ en 3 mesos: mes 1: objectius i indicadors amb dades JA disponibles (pilot); mes 2: quadre i primera mesura; mes 3: primera reunió de cicle complet; qualitat de la dada i indicadors nous, progressivament; la memòria anual passa de descriptiva a AVALUATIVA (resultats vs objectius).",
+   "sources": [
+    "Gestió per resultats"
+   ]
+  },
+  {
+   "id": "c2-t80-reorganitzar-servei",
+   "theme": 80,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Un servei desbordat: prioritzar i protegir l'equip",
+   "context": "El servei tècnic (3 arquitectes, 2 administratius) acumula: 40 llicències en tràmit, 15 expedients de disciplina aturats, el plec d'un contracte urgent, consultes presencials constants sense cita i correus a totes hores. Una arquitecta està de baixa per estrès i l'ambient s'ha degradat. Us nomenen cap del servei.",
+   "prompt": "Expliqueu: a) com prioritzaríeu la feina acumulada (criteris i matriu urgent/important); b) tres mesures organitzatives per protegir el temps de l'equip; c) com abordaríeu la situació d'estrès (obligacions preventives i gestió del clima).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Priorització: matriu urgent/important + criteris objectius (terminis legals amb silenci o prescripció, risc, impacte): disciplina amb prescripció en risc i contracte amb termini primer; planificar la resta",
+     "weight": 13,
+     "keywords": [
+      [
+       "urgent",
+       "important",
+       "eisenhower"
+      ],
+      [
+       "terminis",
+       "prescripcio",
+       "silenci"
+      ],
+      [
+       "criteris"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Organització: cita prèvia i franges d'atenció, blocs de concentració sense interrupcions, franges de correu, delegació i repartiment per criteris, plantilles i criteris escrits",
+     "weight": 13,
+     "keywords": [
+      [
+       "cita previa",
+       "franges"
+      ],
+      [
+       "blocs",
+       "interrupcions"
+      ],
+      [
+       "delegacio",
+       "plantilles"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Estrès: risc psicosocial: comunicar al servei de prevenció (avaluació psicosocial), ajustar càrregues, seguiment de la reincorporació; obligació legal (LPRL), no només bona voluntat",
+     "weight": 12,
+     "keywords": [
+      [
+       "psicosocial"
+      ],
+      [
+       "prevencio",
+       "avaluacio"
+      ],
+      [
+       "lprl",
+       "carregues"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Clima i lideratge: reunió d'equip, escolta, objectius realistes, reconeixement i petició de reforços amb dades",
+     "weight": 7,
+     "keywords": [
+      [
+       "reunio",
+       "escolta"
+      ],
+      [
+       "reconeixement"
+      ],
+      [
+       "reforcos",
+       "dades"
+      ]
+     ]
+    }
+   ],
+   "model": "a) PRIORITZAR amb criteris objectius i la matriu URGENT/IMPORTANT: 1) allò IMPORTANT I URGENT amb conseqüències jurídiques irreversibles: expedients de DISCIPLINA amb PRESCRIPCIÓ en risc (accions que caduquen) i el PLEC del contracte amb termini; 2) llicències ordenades per antiguitat i risc de SILENCI (positiu: risc de consolidar il·legalitats); 3) IMPORTANT NO URGENT (planificar-ho: criteris escrits, millores del circuit); 4) el que no aporta valor: eliminar-ho o agrupar-ho. Fer visible la cua (llista única amb dates i responsable) i comunicar terminis realistes.\n\nb) TRES MESURES ORGANITZATIVES: 1) CITA PRÈVIA i FRANGES d'atenció al públic (matins concrets), amb l'OAC filtrant consultes generals: fora interrupcions constants; 2) BLOCS DE CONCENTRACIÓ protegits per informar expedients (time blocking; telèfon desviat per torns) i FRANGES DE CORREU (2-3 al dia) amb expectatives de resposta comunicades (el correu de les 22 h es respon l'endemà: desconnexió digital); 3) REPARTIMENT amb criteris (tipus d'expedient, càrrega equilibrada), PLANTILLES i informes tipus, i delegació als administratius de tot el tràmit no tècnic (requeriments formals, notificacions).\n\nc) L'ESTRÈS és un RISC PSICOSOCIAL (LPRL): obligació legal, no cortesia: comunicar la situació al SERVEI DE PREVENCIÓ i demanar l'AVALUACIÓ psicosocial del servei (CoPsoQ), aplicar les mesures (càrrega, rol, suport), planificar la REINCORPORACIÓ progressiva de l'arquitecta (adaptació temporal del lloc, acompanyament) i vigilar la resta de l'equip. CLIMA: reunió d'equip inicial (escoltar, reconèixer l'esforç, explicar el pla), objectius REALISTES amb la dotació actual, reconeixement de la feina, i sol·licitud raonada de REFORÇOS amb dades (volums, temps, comparativa): el pla de xoc sense recursos té data de caducitat.",
+   "sources": [
+    "LPRL",
+    "Habilitats directives"
+   ]
+  },
+  {
+   "id": "c2-t81-conflicte-equip",
+   "theme": 81,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Dos tècnics enfrontats que es reparteixen el mateix territori",
+   "context": "Dos tècnics del mateix servei fa mesos que no es parlen: es culpen d'errors creuats en expedients compartits, s'envien correus tallants amb còpia a mig ajuntament i el repartiment de zones ha quedat difús. La feina se'n ressent i la resta de l'equip pren partit. El cap ha d'intervenir.",
+   "prompt": "Expliqueu: a) el diagnòstic del conflicte (tipus, escalada) i els errors d'haver esperat; b) el procés d'intervenció pas a pas (converses, regles, acords); c) les mesures organitzatives i de seguiment per evitar la recaiguda.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Diagnòstic: conflicte de ROL (zones difuses) degenerat en conflicte de RELACIÓ, en escalada (correus públics, bàndols); la passivitat del comandament l'ha agreujat",
+     "weight": 12,
+     "keywords": [
+      [
+       "rol"
+      ],
+      [
+       "relacio"
+      ],
+      [
+       "escalada",
+       "bandols"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Intervenció: converses individuals (escolta activa), reunió conjunta amb regles (fets, no atacs), mètode Harvard (interessos), acords concrets per escrit i seguiment; mediació si s'encalla",
+     "weight": 14,
+     "keywords": [
+      [
+       "individuals",
+       "escolta"
+      ],
+      [
+       "conjunta",
+       "harvard",
+       "interessos"
+      ],
+      [
+       "acords"
+      ],
+      [
+       "mediacio"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Mesures organitzatives: redefinir per escrit el repartiment de zones i funcions (elimina la font del conflicte de rol) i norma de comunicació (fora còpies massives)",
+     "weight": 11,
+     "keywords": [
+      [
+       "repartiment",
+       "zones",
+       "funcions"
+      ],
+      [
+       "per escrit"
+      ],
+      [
+       "comunicacio",
+       "copies"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Seguiment i límits: revisió als 30-60 dies; si persisteixen conductes lesives, mesures formals (advertiment, disciplinari si escau)",
+     "weight": 8,
+     "keywords": [
+      [
+       "seguiment",
+       "revisio"
+      ],
+      [
+       "limits",
+       "advertiment"
+      ],
+      [
+       "disciplinari"
+      ]
+     ]
+    }
+   ],
+   "model": "a) DIAGNÒSTIC: origen en un conflicte de ROL (repartiment de zones difús: solapaments i buits que generen 'errors creuats'), DEGENERAT en conflicte de RELACIÓ personal en plena ESCALADA: atacs públics (correus amb còpia), bàndols a l'equip i afectació del servei. Error del comandament: ESPERAR: el conflicte latent no es resol sol, escala; intervenir aviat és part de la funció directiva.\n\nb) INTERVENCIÓ: 1) CONVERSES INDIVIDUALS amb cadascun (escolta activa, sense jutjar: entendre interessos i emocions; anunciar que la situació no pot continuar); 2) REUNIÓ CONJUNTA amb REGLES pactades (parlar de FETS i de futur, no d'etiquetes ni retrets; no interrompre): aplicar Harvard: separar persones de problema, buscar INTERESSOS comuns (tots dos volen treballar tranquils i quedar bé professionalment); 3) ACORDS CONCRETS PER ESCRIT: repartiment, protocol de comunicació, com es tractaran els desacords futurs; 4) SEGUIMENT programat; 5) si s'encalla: MEDIACIÓ formal (tercer imparcial: RRHH o extern).\n\nc) ORGANITZATIVES: REDEFINIR PER ESCRIT zones, funcions i responsabilitats (mata la font del conflicte de rol: cada expedient amb un responsable únic i criteris de suplència), NORMA DE COMUNICACIÓ d'equip (els desacords es parlen directament o amb el cap: prohibides les còpies massives com a arma), i reequilibrar càrregues si el repartiment era injust. SEGUIMENT: revisió als 30-60 dies amb tots dos; RECONÈIXER els avenços. LÍMITS: si un persisteix en conductes lesives (menyspreu, boicot), passar del pla relacional al FORMAL: advertiment exprés i, si cal, mesures disciplinàries: el dret de tothom a un entorn respectuós preval sobre la 'pau aparent'.",
+   "sources": [
+    "Gestió de conflictes"
+   ]
+  },
+  {
+   "id": "c2-t82-acces-expedient-urbanistic",
+   "theme": 82,
+   "block": 16,
+   "maxPoints": 45,
+   "title": "Un veí demana l'expedient sencer d'una llicència del seu costat",
+   "context": "Un ciutadà sol·licita per transparència 'tot l'expedient' de la llicència d'obres del solar veí: projecte tècnic complet, informes, DNI i telèfon del promotor, i les al·legacions d'un altre veí. El promotor s'oposa: diu que el projecte té drets d'autor i que 'les seves dades són privades'. Han passat 20 dies i l'expedient és a mig tramitar.",
+   "prompt": "Expliqueu: a) el dret d'accés aplicable i la condició d'interessat vs sol·licitant genèric; b) què es lliura, què es dissocia i què es pot denegar (dades personals, propietat intel·lectual, expedient en tràmit); c) el procediment (audiència a tercers, termini, silenci) i les vies de reclamació.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Doble via: interessat en el procediment (accés a l'expedient, art. 53 Llei 39/2015) vs dret d'accés general (Llei 19/2014): qualsevol persona, sense motivar; l'expedient en tràmit no és causa automàtica de denegació",
+     "weight": 12,
+     "keywords": [
+      [
+       "interessat",
+       "53"
+      ],
+      [
+       "19/2014",
+       "qualsevol persona"
+      ],
+      [
+       "tramit"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Contingut: accés al projecte i informes amb DISSOCIACIÓ de dades personals (DNI, telèfon); la propietat intel·lectual limita la REUTILITZACIÓ/còpia del projecte, no necessàriament la consulta; ponderació cas a cas",
+     "weight": 14,
+     "keywords": [
+      [
+       "dissociacio",
+       "anonimitzacio"
+      ],
+      [
+       "propietat intellectual"
+      ],
+      [
+       "ponderacio"
+      ],
+      [
+       "consulta"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Procediment: TRASLLAT a les persones afectades (promotor, veí al·legant) perquè al·leguin; resolució en 1 MES (prorrogable); silenci positiu amb límits; accés parcial motivat",
+     "weight": 12,
+     "keywords": [
+      [
+       "trasllat",
+       "audiencia"
+      ],
+      [
+       "1 mes"
+      ],
+      [
+       "silenci positiu",
+       "parcial"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Garanties: reclamació gratuïta davant la GAIP (i mediació); publicitat activa del planejament no substitueix l'accés a l'expedient",
+     "weight": 7,
+     "keywords": [
+      [
+       "gaip"
+      ],
+      [
+       "reclamacio"
+      ],
+      [
+       "mediacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Cal identificar el règim: si el veí té la condició d'INTERESSAT en el procediment (afectat directe: confrontant que pot veure's perjudicat), l'accés es canalitza per l'art. 53 Llei 39/2015 (accés a l'expedient en qualsevol moment, també EN TRÀMIT). Si actua com a ciutadà genèric, opera el DRET D'ACCÉS de la Llei 19/2014: QUALSEVOL persona, SENSE motivar. Que l'expedient estigui a mig tramitar no és causa automàtica de denegació en cap de les dues vies (només ho justificaria l'afectació a la igualtat o a la investigació, excepcionalment).\n\nb) CONTINGUT: es lliura l'expedient amb DISSOCIACIÓ de les dades personals no necessàries (DNI, telèfon, signatures del promotor i del veí al·legant: s'anonimitzen; la identitat del promotor com a titular de la llicència és, en canvi, informació urbanística pública); el PROJECTE TÈCNIC: la propietat intel·lectual (art. 21.1.b Llei 19/2014) limita sobretot la CÒPIA/reutilització, no la CONSULTA: solució ponderada habitual: vista de l'expedient i còpia de la part necessària per a la defensa dels drets, amb advertiment sobre usos; les AL·LEGACIONS de l'altre veí: accessibles dissociades. Tot amb PONDERACIÓ motivada i ACCÉS PARCIAL si escau (art. 25).\n\nc) PROCEDIMENT: TRASLLAT de la sol·licitud a les persones AFECTADES (promotor i veí) perquè al·leguin (suspèn el termini); RESOLUCIÓ en 1 MES (prorrogable la meitat); el SILENCI és POSITIU (amb els límits legals: les dades personals no s'entreguen mai per silenci). Denegació total o parcial: sempre MOTIVADA. GARANTIES del sol·licitant: recurs de reposició i RECLAMACIÓ GRATUÏTA davant la GAIP (amb mediació voluntària), i contenciós posterior.",
+   "sources": [
+    "Llei 19/2014",
+    "Llei 39/2015"
+   ]
+  },
+  {
+   "id": "c2-t83-objectius-productivitat",
+   "theme": 83,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Lligar objectius i productivitat sense cremar l'equip",
+   "context": "L'ajuntament vol implantar l'avaluació de l'acompliment i repartir el complement de productivitat, fins ara lineal, segons objectius. Els sindicats temen 'arbitrarietat i competició'; alguns caps volen 'objectius durs' unilaterals; RRHH demana una proposta tècnica per a l'Àrea de Territori.",
+   "prompt": "Expliqueu: a) el marc legal de l'avaluació de l'acompliment i de la productivitat; b) el disseny tècnic (objectius, indicadors, pesos, escala d'avaluació) amb garanties d'objectivitat; c) la implantació (negociació, comunicació, pilotatge) per obtenir acceptació.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Marc: art. 20 TREBEP (avaluació: transparència, objectivitat, imparcialitat, no-discriminació; efectes en retribucions) i complement de PRODUCTIVITAT (rendiment i resultats, mai lineal ni consolidable)",
+     "weight": 13,
+     "keywords": [
+      [
+       "20",
+       "trebep"
+      ],
+      [
+       "productivitat"
+      ],
+      [
+       "objectivitat",
+       "transparencia"
+      ],
+      [
+       "lineal"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Disseny: objectius SMART en cascada, mixt d'objectius col·lectius i individuals + factors de conducta professional; indicadors verificables amb evidències; escala i pesos coneguts PRÈVIAMENT",
+     "weight": 13,
+     "keywords": [
+      [
+       "smart",
+       "cascada"
+      ],
+      [
+       "collectius",
+       "individuals"
+      ],
+      [
+       "previament",
+       "coneguts"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Garanties: criteris pactats i publicats, avaluador format, entrevista amb retorn, possibilitat de discrepància/revisió (comissió de seguiment)",
+     "weight": 11,
+     "keywords": [
+      [
+       "revisio",
+       "discrepancia",
+       "comissio"
+      ],
+      [
+       "entrevista",
+       "retorn"
+      ],
+      [
+       "pactats",
+       "publicats"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Implantació: NEGOCIACIÓ col·lectiva dels criteris generals (art. 37 TREBEP), pilot sense efectes el primer any, comunicació i avaluació del sistema",
+     "weight": 8,
+     "keywords": [
+      [
+       "negociacio",
+       "37"
+      ],
+      [
+       "pilot"
+      ],
+      [
+       "comunicacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) MARC: l'art. 20 TREBEP mana implantar l'AVALUACIÓ DE L'ACOMPLIMENT (conducta professional + rendiment/resultats) amb criteris de TRANSPARÈNCIA, OBJECTIVITAT, IMPARCIALITAT i NO-DISCRIMINACIÓ, i en vincula els efectes (carrera, formació, retribucions complementàries). El complement de PRODUCTIVITAT retribueix l'especial rendiment i l'assoliment de resultats: el repartiment LINEAL desnaturalitza el concepte (jurisprudència), però la individualització exigeix un sistema objectiu previ; els criteris generals es NEGOCIEN (art. 37.1 TREBEP), l'assignació individual és decisió gestora motivada.\n\nb) DISSENY: objectius SMART en CASCADA (àrea → servei → individuals), MIX equilibrat: objectius COL·LECTIUS de servei (cooperació, no competició) + individuals + factors de CONDUCTA professional (qualitat, iniciativa, treball en equip) amb definicions conductuals; INDICADORS verificables amb EVIDÈNCIES (no percepcions); PESOS i ESCALA (p. ex. 1-5 amb ancoratges) coneguts A L'INICI del període: mai regles a posteriori. Modular la dificultat amb la dotació real (objectius assolibles).\n\nc) GARANTIES I IMPLANTACIÓ: criteris PACTATS a la mesa i PUBLICATS; FORMACIÓ dels avaluadors (biaixos: halo, recència, tendència central); ENTREVISTA d'avaluació amb retorn i pla de millora; via de DISCREPÀNCIA (revisió per comissió de seguiment paritària). Desplegament: PILOT el primer any SENSE efectes econòmics (rodar el sistema, ajustar indicadors), comunicació honesta (què es mesura i per què), i avaluació anual del mateix sistema. Així es respon als temors: l'objectivitat es construeix amb regles prèvies, evidències i garanties de revisió: no amb 'objectius durs' unilaterals.",
+   "sources": [
+    "TREBEP"
+   ]
+  },
+  {
+   "id": "c2-t84-implantar-administracio-electronica",
+   "theme": 84,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Gestionar el canvi: expedient electrònic amb resistències",
+   "context": "L'àrea implanta l'expedient electrònic integral: fora paper en 6 mesos. Resistències: tècnics sèniors que 'sempre ho han fet així', por de perdre control, una aplicació poc madura i experiències prèvies fallides. El primer intent (una circular imposant-ho) ha generat rebuig frontal.",
+   "prompt": "Expliqueu: a) el diagnòstic de per què la circular ha fracassat (models de gestió del canvi); b) un pla de canvi realista (Kotter/Lewin aplicats al cas); c) el tractament específic de cada resistència i el paper dels èxits a curt termini.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Diagnòstic: canvi imposat sense urgència compartida, sense coalició ni participació: la circular ataca conductes sense tocar creences; experiències fallides = desconfiança acumulada",
+     "weight": 12,
+     "keywords": [
+      [
+       "imposat",
+       "circular"
+      ],
+      [
+       "urgencia"
+      ],
+      [
+       "desconfianca",
+       "participacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Pla: crear urgència amb dades i sentit, coalició (tècnics referents inclosos els escèptics), visió clara del benefici, comunicació bidireccional, formació i suport al lloc, quick wins, consolidar i ancorar",
+     "weight": 14,
+     "keywords": [
+      [
+       "kotter",
+       "coalicio"
+      ],
+      [
+       "visio"
+      ],
+      [
+       "formacio",
+       "suport"
+      ],
+      [
+       "quick wins",
+       "exits"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Resistències: por de perdre control → participació en el disseny; hàbit → formació pràctica i acompanyament; eina immadura → millorar-la ABANS del desplegament massiu (pilot)",
+     "weight": 12,
+     "keywords": [
+      [
+       "pilot"
+      ],
+      [
+       "participacio",
+       "disseny"
+      ],
+      [
+       "acompanyament",
+       "formacio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Ancoratge: procediments actualitzats, indicadors d'ús, reconeixement i data de tancament del paper quan el sistema funciona",
+     "weight": 7,
+     "keywords": [
+      [
+       "ancorar",
+       "consolidar"
+      ],
+      [
+       "indicadors"
+      ],
+      [
+       "reconeixement"
+      ]
+     ]
+    }
+   ],
+   "model": "a) DIAGNÒSTIC: la circular fracassa perquè intenta el pas 'CANVIAR' de Lewin sense haver 'DESCONGELAT': no hi ha URGÈNCIA compartida (per què ara?), ni COALICIÓ (cap tècnic referent implicat), ni participació: el canvi s'ha viscut com a imposició sobre persones amb hàbits consolidats i DESCONFIANÇA acumulada (experiències fallides + eina immadura = por racional, no simple tossuderia). Kotter: s'han saltat els passos 1-4 i s'ha començat pel 5.\n\nb) PLA (Kotter aplicat): 1) URGÈNCIA: dades pròpies (temps perduts, expedients extraviats, obligacions legals dels arts. 70 Llei 39/2015: l'expedient ÉS electrònic per llei) explicades amb sentit de servei; 2) COALICIÓ: grup motor amb tècnics REFERENTS: incloure-hi un escèptic respectat; 3) VISIÓ: 'menys paperassa i menys desplaçaments, mateixa seguretat jurídica', amb un full de ruta realista (6 mesos era voluntarista: fases); 4) COMUNICAR bidireccionalment (sessions amb preguntes, no circulars); 5) FACILITAR: arreglar l'eina ABANS (pilot amb un tipus d'expedient, millores amb el proveïdor), FORMACIÓ pràctica per perfils i SUPORT al lloc les primeres setmanes (padrins digitals); 6) QUICK WINS: publicar aviat un èxit mesurable (primer expedient íntegre electrònic, temps estalviat); 7) CONSOLIDAR: estendre per fases; 8) ANCORAR: procediments i plantilles actualitzats, indicadors d'ús al quadre de comandament, reconeixement.\n\nc) RESISTÈNCIES una a una: 'sempre s'ha fet així' (hàbit) → formació PRÀCTICA sobre expedients reals i acompanyament, no manuals; POR DE PERDRE CONTROL → participació en el disseny dels circuits (ells saben on són els riscos) i garanties (traçabilitat superior del sistema); EINA POC MADURA → resoldre-ho al pilot abans del desplegament (desplegar una eina que falla mata el canvi); EXPERIÈNCIES FALLIDES → reconèixer-les honestament i explicar què es fa diferent. El paper es tanca amb DATA quan el sistema demostra que funciona: seqüència, no ultimàtum.",
+   "sources": [
+    "Gestió del canvi",
+    "Llei 39/2015"
+   ]
+  },
+  {
+   "id": "c2-t85-regal-conflicte-interes",
+   "theme": 85,
+   "block": 17,
+   "maxPoints": 45,
+   "title": "Un regal, un dinar i una germana arquitecta: integritat aplicada",
+   "context": "En una setmana, al cap d'urbanisme li passa: 1) un promotor amb llicència en tràmit li envia una cistella de Nadal valorada en 150 €; 2) una enginyeria que vol licitar el convida a un dinar 'per explicar-li la seva experiència'; 3) descobreix que el projecte d'una llicència que ha d'informar el signa la seva germana arquitecta.",
+   "prompt": "Expliqueu: a) el tractament de cada situació segons els principis del TREBEP i la normativa; b) les obligacions formals (retorn, abstenció, comunicació); c) com deixar-ne constància i quins riscos personals i institucionals s'eviten.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Cistella: rebutjar/retornar: regal que supera els usos socials de cortesia (art. 54.6 TREBEP), agreujat per la llicència EN TRÀMIT (aparença de captació)",
+     "weight": 13,
+     "keywords": [
+      [
+       "rebutjar",
+       "retornar"
+      ],
+      [
+       "54",
+       "usos socials"
+      ],
+      [
+       "tramit"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Dinar de la licitadora: declinar durant la concurrència (igualtat de tracte); canal correcte: reunió formal amb constància o consulta pública",
+     "weight": 12,
+     "keywords": [
+      [
+       "declinar",
+       "no acceptar"
+      ],
+      [
+       "igualtat"
+      ],
+      [
+       "reunio formal",
+       "constancia"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Germana: causa d'ABSTENCIÓ (parentiu 2n grau, art. 23 Llei 40/2015): comunicar al superior i apartar-se de l'informe; la recusació seria possible si no ho fa",
+     "weight": 13,
+     "keywords": [
+      [
+       "abstencio",
+       "23"
+      ],
+      [
+       "parentiu",
+       "germana"
+      ],
+      [
+       "superior",
+       "comunicar"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Constància: comunicacions escrites (retorn del regal, abstenció) i registre; s'eviten sancions disciplinàries, nul·litats i risc penal/reputacional",
+     "weight": 7,
+     "keywords": [
+      [
+       "escrit",
+       "constancia",
+       "registre"
+      ],
+      [
+       "disciplinari"
+      ],
+      [
+       "nullitat",
+       "penal"
+      ]
+     ]
+    }
+   ],
+   "model": "a) SITUACIÓ 1 (cistella de 150 € d'un promotor amb llicència EN TRÀMIT): l'art. 54.6 TREBEP obliga a REBUTJAR qualsevol regal, favor o servei en condicions avantatjoses que vagi més enllà dels USOS HABITUALS, socials i de cortesia: 150 € els supera clarament, i la pendència de la llicència afegeix l'aparença (i el risc) de captació de voluntat: RETORNAR-LA amb comunicació escrita cortesa i deixar-ne constància. SITUACIÓ 2 (dinar d'una futura licitadora): declinar la invitació mentre hi hagi concurrència (real o imminent): la IGUALTAT de tracte entre licitadors ho exigeix; el canal correcte és la REUNIÓ FORMAL a les dependències, amb objecte i constància (agenda), o les consultes preliminars del mercat de la LCSP, obertes i transparents. SITUACIÓ 3 (germana projectista): CONFLICTE D'INTERESSOS directe: parentiu de SEGON GRAU de consanguinitat amb interessada: causa legal d'ABSTENCIÓ (art. 23.2.b Llei 40/2015).\n\nb) OBLIGACIONS FORMALS: retorn del regal amb escrit; declinació documentada de la invitació; i per a la llicència de la germana: COMUNICACIÓ IMMEDIATA al superior jeràrquic de la causa d'abstenció i APARTAR-SE de tota intervenció (informe, propostes, signatura): el superior designa un altre tècnic informant. Si no s'abstingués, qualsevol interessat podria RECUSAR-LO (art. 24) i l'actuació generaria responsabilitat (la intervenció amb causa d'abstenció no invalida automàticament l'acte, però hi aboca si va ser determinant).\n\nc) CONSTÀNCIA: escrits de retorn i d'abstenció a l'expedient i al registre corresponent; transparència amb l'equip (exemplaritat). RISCOS EVITATS: personals: disciplinaris (incompliment dels deures), penals en l'extrem (suborn, negociacions prohibides), reputacionals; institucionals: NUL·LITAT o anul·labilitat d'actes, pèrdua de confiança i contaminació de la licitació futura. La integritat del comandament es demostra en aquests moments quotidians: criteris clars, resposta immediata i paper de tot.",
+   "sources": [
+    "TREBEP",
+    "Llei 40/2015"
+   ]
+  },
+  {
+   "id": "c2-t86-compatibilitat-tecnic",
+   "theme": 86,
+   "block": 7,
+   "maxPoints": 45,
+   "title": "Un arquitecte municipal que vol fer projectes privats",
+   "context": "Un arquitecte funcionari de l'ajuntament (jornada completa, complement específic alt) demana compatibilitat per: 1) redactar projectes privats en municipis veïns; 2) fer un projecte per a un promotor QUE TÉ EXPEDIENTS a Montornès; 3) fer classes a la universitat com a associat; 4) administrar els pisos heretats de la família.",
+   "prompt": "Expliqueu: a) el règim de cada activitat (prohibida, autoritzable amb reconeixement, o exempta); b) els límits derivats del complement específic i de la jornada; c) el procediment (òrgan competent, efectes de treballar sense compatibilitat).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Projectes privats fora del municipi: activitat privada AUTORITZABLE amb reconeixement previ si no es relaciona amb els assumptes del seu servei; projectes per a promotors AMB EXPEDIENTS a Montornès: PROHIBIT (art. 11: relació directa, imparcialitat)",
+     "weight": 14,
+     "keywords": [
+      [
+       "reconeixement"
+      ],
+      [
+       "prohibit",
+       "prohibida"
+      ],
+      [
+       "imparcialitat",
+       "relacionada"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Professor universitari ASSOCIAT a temps parcial: segona activitat pública exceptuada amb AUTORITZACIÓ (art. 4 Llei 53/1984); límits horaris i retributius",
+     "weight": 11,
+     "keywords": [
+      [
+       "associat"
+      ],
+      [
+       "autoritzacio"
+      ],
+      [
+       "4",
+       "temps parcial"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Administració del patrimoni personal/familiar: EXEMPTA de reconeixement (art. 19)",
+     "weight": 9,
+     "keywords": [
+      [
+       "exempta",
+       "19"
+      ],
+      [
+       "patrimoni"
+      ],
+      [
+       "familiar"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Límits: el complement específic elevat (factor incompatibilitat) pot impedir el reconeixement d'activitats privades; jornada i no interferència; competència: PLE; exercir sense compatibilitat = falta MOLT GREU",
+     "weight": 11,
+     "keywords": [
+      [
+       "complement especific"
+      ],
+      [
+       "ple"
+      ],
+      [
+       "molt greu"
+      ]
+     ]
+    }
+   ],
+   "model": "a) Activitat per activitat: 1) PROJECTES PRIVATS EN ALTRES MUNICIPIS: activitat privada professional AUTORITZABLE mitjançant RECONEIXEMENT DE COMPATIBILITAT previ, sempre que no es relacioni amb els assumptes del seu lloc ni interfereixi la jornada; 2) PROJECTE PER A UN PROMOTOR AMB EXPEDIENTS A MONTORNÈS: PROHIBIT en tot cas (arts. 11-12 Llei 53/1984): activitat relacionada amb assumptes en què intervé o pot intervenir el seu servei: compromet la IMPARCIALITAT (i genera causa d'abstenció permanent): no és autoritzable; 3) PROFESSOR UNIVERSITARI ASSOCIAT a temps parcial: segona activitat PÚBLICA excepcionalment compatible (art. 4), amb AUTORITZACIÓ expressa i límits; 4) ADMINISTRAR EL PATRIMONI FAMILIAR: activitat EXEMPTA (art. 19): no cal cap reconeixement.\n\nb) LÍMITS TRANSVERSALS: el COMPLEMENT ESPECÍFIC elevat, si retribueix el factor d'incompatibilitat o supera els llindars normatius, IMPEDEIX el reconeixement de compatibilitat per a activitats privades (llevat de renúncia al complement, on la normativa ho admeti); les activitats mai no poden requerir presència ni interferir l'HORARI del lloc públic, ni superar els límits retributius conjunts en la segona activitat pública; i queda sempre fora tot el que toqui, directament o indirectament, assumptes municipals propis.\n\nc) PROCEDIMENT: sol·licitud prèvia i resolució del PLE de la corporació (competència local en matèria de compatibilitats del seu personal), amb informe previ; la resolució es pot condicionar i revocar si canvien les circumstàncies. EFECTES de treballar sense compatibilitat: falta MOLT GREU (art. 95.2.n TREBEP: incompliment de les normes sobre incompatibilitats), amb el règim disciplinari corresponent, a més del deure de cessar en l'activitat.",
+   "sources": [
+    "Llei 53/1984",
+    "TREBEP"
+   ]
+  },
+  {
+   "id": "c2-t87-teletreball-equitat",
+   "theme": 87,
+   "block": 7,
+   "maxPoints": 45,
+   "title": "Teletreball demanat per uns i denegat 'de paraula' a altres",
+   "context": "Al servei tècnic, dos administratius teletreballen 2 dies per setmana des de la pandèmia 'per costum', sense cap resolució. Una delineant ho demana formalment i el cap l'hi denega verbalment 'perquè la feina és presencial', tot i que fa tasques de CAD similars. Malestar creixent i greuge comparatiu.",
+   "prompt": "Expliqueu: a) els problemes de la situació actual (informalitat, desigualtat) i el marc del teletreball públic; b) com regularitzar-ho (criteris objectius per lloc, resolucions formals); c) la gestió del cas concret i del clima (motivació, equitat, comunicació).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Marc: teletreball a l'administració: art. 47 bis TREBEP: voluntari, reversible, per necessitats del servei, amb regulació prèvia (acord/reglament) i mitjans; no és dret absolut ni concessió informal",
+     "weight": 13,
+     "keywords": [
+      [
+       "47 bis"
+      ],
+      [
+       "voluntari",
+       "reversible"
+      ],
+      [
+       "regulacio",
+       "acord"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Problemes actuals: situacions de fet sense títol (inseguretat, desigualtat), denegació verbal immotivada (indefensió); el greuge erosiona el clima",
+     "weight": 11,
+     "keywords": [
+      [
+       "sense resolucio",
+       "de fet",
+       "informal"
+      ],
+      [
+       "verbal",
+       "immotivada"
+      ],
+      [
+       "greuge",
+       "clima"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Regularització: anàlisi de teletreballabilitat PER LLOC (tasques, no persones), criteris objectius i públics, resolucions formals amb pla de treball i avaluació per objectius",
+     "weight": 13,
+     "keywords": [
+      [
+       "per lloc",
+       "tasques"
+      ],
+      [
+       "criteris objectius"
+      ],
+      [
+       "resolucio",
+       "pla de treball"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Cas concret: revisar la denegació amb criteris (CAD és teletreballable si el lloc ho permet), motivació escrita; comunicació transparent al servei",
+     "weight": 8,
+     "keywords": [
+      [
+       "motivacio",
+       "escrita"
+      ],
+      [
+       "revisar"
+      ],
+      [
+       "transparencia",
+       "comunicacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) MARC: el teletreball públic (art. 47 bis TREBEP) és VOLUNTARI i REVERSIBLE, subordinat a les NECESSITATS DEL SERVEI, exigeix REGULACIÓ prèvia (reglament o acord negociat: percentatges, requisits, mitjans) i el compliment dels objectius; l'administració aporta els mitjans i la prevenció s'estén al lloc a distància. PROBLEMES actuals: dos empleats teletreballen SENSE CAP TÍTOL (situació de fet: insegura, revocable de cop, font de desigualtat) i una denegació VERBAL i immotivada (indefensió: no es pot recórrer allò que no s'ha resolt): la combinació genera GREUGE COMPARATIU objectiu (tasques similars, tracte diferent) i degrada el clima.\n\nb) REGULARITZACIÓ: 1) marc general (si el municipi no el té: acord de condicions negociat); 2) ANÀLISI DE TELETREBALLABILITAT PER LLOC DE TREBALL (les TASQUES són teletreballables o no: el CAD ho és; l'atenció presencial no): mai per persones ni simpaties; 3) CRITERIS objectius i PÚBLICS (percentatge màxim, rotacions per garantir presència mínima, requisits de desempenyorament autònom); 4) RESOLUCIONS FORMALS per a tothom (també els dos administratius: regularitzar la seva situació o ajustar-la al marc) amb PLA DE TREBALL i seguiment per OBJECTIUS.\n\nc) CAS CONCRET: revisar la sol·licitud de la delineant amb els criteris del marc: si les seves tasques són equiparables a les dels administratius, la coherència exigeix el mateix tracte (o motivar per escrit la diferència real: necessitats de presència del lloc); resposta sempre ESCRITA i MOTIVADA. CLIMA: reunió de servei explicant el nou marc i els criteris (transparència desactiva el greuge), escolta del malestar, i aplicació EQUITATIVA sostinguda: l'equitat percebuda és un dels majors motivadors (i la seva absència, el desmotivador més ràpid).",
+   "sources": [
+    "TREBEP"
+   ]
+  },
+  {
+   "id": "c2-t88-expedient-disciplinari",
+   "theme": 88,
+   "block": 7,
+   "maxPoints": 45,
+   "title": "Absències reiterades i una feina privada sospitosa",
+   "context": "Un tècnic acumula en 3 mesos: 12 absències injustificades de mitja jornada, incompliments de terminis amb 2 queixes ciutadanes, i indicis que treballa per a una empresa privada en horari laboral (se l'ha vist a obres alienes). El cap ho ha anat tolerant 'per no embolicar-se'. RRHH pregunta com actuar correctament.",
+   "prompt": "Expliqueu: a) els passos previs (informació reservada, requeriments, prova) i la tipificació provisional dels fets; b) la incoació de l'expedient disciplinari: òrgan, instructor, mesures provisionals i terminis de prescripció a vigilar; c) els drets del tècnic i els errors a evitar (tolerància prèvia, judicis paral·lels).",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Passos previs: INFORMACIÓ RESERVADA per aclarir fets (registres horaris, expedients, testimonis), requeriments previs documentats; la tolerància del cap no converteix la falta en dret adquirit però modula la culpabilitat",
+     "weight": 12,
+     "keywords": [
+      [
+       "informacio reservada"
+      ],
+      [
+       "prova",
+       "registres"
+      ],
+      [
+       "tolerancia"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Tipificació provisional: absències reiterades (falta greu), incompliment d'incompatibilitats treballant per a tercers (MOLT GREU, art. 95.2.n), abandó de servei si escau; prescripció: 3 anys molt greus, 2 greus, 6 mesos lleus",
+     "weight": 13,
+     "keywords": [
+      [
+       "95",
+       "molt greu"
+      ],
+      [
+       "incompatibilitats"
+      ],
+      [
+       "prescripcio",
+       "3 anys"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Expedient: incoació per l'alcalde (delegable), INSTRUCTOR separat (i secretari), plec de càrrecs, al·legacions i prova, proposta i resolució; mesures provisionals possibles (suspensió provisional, canvi de tasques)",
+     "weight": 13,
+     "keywords": [
+      [
+       "alcalde"
+      ],
+      [
+       "instructor"
+      ],
+      [
+       "plec de carrecs"
+      ],
+      [
+       "suspensio provisional"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Drets: presumpció d'innocència, assistència, audiència, recursos; evitar sancions de pla, filtracions i judicis públics",
+     "weight": 7,
+     "keywords": [
+      [
+       "presumpcio"
+      ],
+      [
+       "audiencia"
+      ],
+      [
+       "recursos",
+       "defensa"
+      ]
+     ]
+    }
+   ],
+   "model": "a) PASSOS PREVIS: obrir una INFORMACIÓ RESERVADA (actuacions prèvies, art. 55 Llei 39/2015) per fixar els FETS amb prova sòlida: registres horaris i de presència, expedients amb terminis vençuts i queixes, comprovacions sobre l'activitat privada (declaracions, informes d'inspecció; amb respecte a la intimitat: res d'espionatge privat); REQUERIMENTS formals previs si encara no s'han fet (documenten la persistència). La TOLERÀNCIA prèvia del cap no legalitza les conductes (no hi ha dret adquirit a incomplir), però pot modular la culpabilitat i aconsella ordenar primer el marc (instruccions clares) — i interpel·la també la responsabilitat del comandament que ha mirat cap a una altra banda.\n\nb) TIPIFICACIÓ PROVISIONAL: les ABSÈNCIES injustificades reiterades: falta GREU (reglament disciplinari); treballar per a una empresa privada — més encara en horari laboral — vulnera el règim d'INCOMPATIBILITATS: falta MOLT GREU (art. 95.2.n TREBEP); l'incompliment de terminis amb perjudici, segons l'entitat. EXPEDIENT: INCOACIÓ per l'ALCALDE (delegable), nomenament d'INSTRUCTOR (i secretari) SEPARAT de l'òrgan que resoldrà, notificació, possible MESURA PROVISIONAL proporcionada (des de la reassignació de tasques fins a la suspensió provisional amb bàsiques, art. 98), PLEC DE CÀRRECS, al·legacions i PROVA, proposta de resolució amb vista, i resolució motivada. VIGILAR la PRESCRIPCIÓ: molt greus 3 anys, greus 2, lleus 6 mesos (les conductes continuades compten des del cessament): la lentitud 'per no embolicar-se' pot regalar la impunitat.\n\nc) DRETS del tècnic: PRESUMPCIÓ D'INNOCÈNCIA (la prova és de l'administració), ASSISTÈNCIA (representant o advocat), audiència en tots els tràmits, recursos contra la sanció; proporcionalitat en la sanció final. ERRORS A EVITAR: sancionar DE PLA sense expedient (nul·litat), barrejar la via disciplinària amb comentaris públics o filtracions (vulneren la presumpció i contaminen el clima), i dissenyar l'expedient 'per fer mal' en lloc de per esclarir: si els fets són certs, el procediment ben fet ja és prou contundent.",
+   "sources": [
+    "TREBEP",
+    "Llei 39/2015"
+   ]
+  },
+  {
+   "id": "c2-t89-accident-visita-obra",
+   "theme": 89,
+   "block": 18,
+   "maxPoints": 45,
+   "title": "Accident lleu d'una tècnica en una visita d'obra",
+   "context": "Una arquitecta tècnica municipal rellisca en una visita d'inspecció a una obra privada: esquinç de turmell. Es constata que anava amb calçat de carrer (mai se li han lliurat EPI), que ningú de l'obra la va rebre ni informar, i que el servei no té avaluació de riscos del lloc 'visites d'obra'. El comitè de seguretat i salut en demana explicacions.",
+   "prompt": "Expliqueu: a) les mancances preventives de l'ajuntament com a ocupador (avaluació, EPI, formació); b) la qualificació de l'accident i les actuacions immediates (assistència, investigació, notificació); c) les mesures correctores i el paper del comitè i la coordinació amb les obres visitades.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Mancances: sense avaluació del risc del lloc (visites d'obra), sense EPI lliurats (calçat, casc, armilla: gratuïts i obligatoris) ni formació específica: incompliment dels arts. 15-19 LPRL i RD 773/1997",
+     "weight": 14,
+     "keywords": [
+      [
+       "avaluacio"
+      ],
+      [
+       "epi",
+       "calcat",
+       "casc"
+      ],
+      [
+       "formacio"
+      ],
+      [
+       "gratuit"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Accident DE TREBALL en missió: assistència (mútua), investigació interna de causes i notificació (Delt@/sistema) segons gravetat; registre",
+     "weight": 12,
+     "keywords": [
+      [
+       "accident de treball",
+       "missio"
+      ],
+      [
+       "investigacio"
+      ],
+      [
+       "notificacio",
+       "delta"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Correctores: avaluar el lloc, lliurar EPI amb registre i formació, procediment de visites (avís previ, recepció per contractista, zones), i revisió pel servei de prevenció",
+     "weight": 12,
+     "keywords": [
+      [
+       "procediment de visites",
+       "protocol"
+      ],
+      [
+       "lliurament",
+       "registre"
+      ],
+      [
+       "servei de prevencio"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Comitè i CAE: informar el comitè (participació); en obres alienes, coordinació d'activitats: informació recíproca de riscos amb el contractista",
+     "weight": 7,
+     "keywords": [
+      [
+       "comite"
+      ],
+      [
+       "coordinacio",
+       "cae"
+      ],
+      [
+       "informacio reciproca"
+      ]
+     ]
+    }
+   ],
+   "model": "a) MANCANCES de l'ajuntament (ocupador de la tècnica): 1) NO hi ha AVALUACIÓ DE RISCOS del lloc en la seva vessant de TREBALL DE CAMP ('visites d'obra': caigudes, cops, atropellament: risc conegut i avaluable): incompleix els arts. 15-16 LPRL; 2) NO s'han lliurat els EPI necessaris (calçat de seguretat, casc, armilla d'alta visibilitat): l'empresari els ha de proporcionar GRATUÏTAMENT amb formació d'ús (art. 17 LPRL; RD 773/1997); 3) sense FORMACIÓ específica del risc (art. 19). La responsabilitat preventiva és de l'ajuntament respecte del seu personal, sens perjudici dels deures de l'obra visitada.\n\nb) És ACCIDENT DE TREBALL (en missió: desplaçament i actuació per raó del servei): ASSISTÈNCIA immediata (mútua o sistema corresponent al règim de la treballadora), COMUNICACIÓ interna al servei de prevenció, INVESTIGACIÓ DE CAUSES (obligatòria: art. 16.3 LPRL: per què no hi havia EPI? per què ningú la va rebre?) amb informe i mesures, NOTIFICACIÓ oficial de l'accident amb baixa pel sistema corresponent en termini, i registre d'accidents. Davant el comitè: transparència amb els fets i el pla de mesures.\n\nc) CORRECTORES: AVALUACIÓ del lloc (oficina + visites) amb planificació; LLIURAMENT D'EPI amb acusament de recepció i reposició; FORMACIÓ pràctica; PROCEDIMENT DE VISITES D'OBRA: programació i avís previ, recepció obligatòria per una persona del contractista, informació dels riscos de l'obra i zones d'accés (coordinació d'activitats: intercanvi d'informació amb l'empresa: art. 24 LPRL i RD 171/2004: l'ajuntament també ha d'exigir-ho a les obres que inspecciona), EPI obligatoris sense excepció i facultat de no entrar si les condicions no són segures. El COMITÈ DE SEGURETAT I SALUT: informat de la investigació i les mesures (participació, art. 39 LPRL); seguiment del compliment al proper comitè.",
+   "sources": [
+    "LPRL",
+    "RD 773/1997",
+    "RD 171/2004"
+   ]
+  },
+  {
+   "id": "c2-t90-cae-mercat-municipal",
+   "theme": 90,
+   "block": 18,
+   "maxPoints": 45,
+   "title": "Obres al mercat municipal amb parades obertes",
+   "context": "L'ajuntament reforma la coberta del mercat municipal (contractista principal + subcontracta de bastides) MENTRE les parades segueixen obrint al públic i hi conflueixen la neteja externa i el manteniment municipal. La primera setmana: una eina cau prop d'una parada i la brigada municipal desconnecta per error un quadre del contractista.",
+   "prompt": "Expliqueu: a) el mapa d'empresaris concurrents i els deures de cadascú (titular, principal, concurrents); b) els mitjans de coordinació que caldria haver establert (i si cal coordinador i recurs preventiu); c) les mesures immediates després dels dos incidents.",
+   "criteria": [
+    {
+     "id": "c1",
+     "label": "Mapa: ajuntament TITULAR del centre (i promotor de l'obra); contractista i subcontractista; neteja i manteniment concurrents: TOTS amb deure de cooperació i informació recíproca; l'ajuntament: informació del centre + instruccions",
+     "weight": 13,
+     "keywords": [
+      [
+       "titular"
+      ],
+      [
+       "concurrents",
+       "cooperacio"
+      ],
+      [
+       "instruccions",
+       "informacio"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "label": "Obra amb 2 empreses: coordinador de seguretat i salut en execució (RD 1627/1997) i pla de seguretat aprovat; presència de RECURS PREVENTIU (treballs en alçada); mitjans: reunions, instruccions escrites, delimitació de zones",
+     "weight": 14,
+     "keywords": [
+      [
+       "coordinador"
+      ],
+      [
+       "recurs preventiu"
+      ],
+      [
+       "pla de seguretat"
+      ],
+      [
+       "zones",
+       "reunions"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "label": "Compatibilitzar obra i públic: sectorització física (tancaments, proteccions contra caiguda d'objectes, itineraris), horaris de feines de risc fora d'obertura",
+     "weight": 11,
+     "keywords": [
+      [
+       "sectoritzacio",
+       "tancament"
+      ],
+      [
+       "caiguda d'objectes",
+       "proteccions"
+      ],
+      [
+       "horaris"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "label": "Incidents: investigació, reunió de coordinació urgent, bloqueig/senyalització d'instal·lacions (LOTO) i reforç d'instruccions; valorar paralització si el risc persisteix",
+     "weight": 7,
+     "keywords": [
+      [
+       "investigacio"
+      ],
+      [
+       "bloqueig",
+       "senyalitzacio"
+      ],
+      [
+       "paralitzacio"
+      ]
+     ]
+    }
+   ],
+   "model": "a) MAPA: l'AJUNTAMENT és TITULAR del centre de treball (mercat) i PROMOTOR de l'obra; hi CONCORREN: contractista principal i la seva SUBCONTRACTA (bastides), l'empresa de NETEJA, el MANTENIMENT municipal (brigada) i els paradistes (amb els seus treballadors). Deures (art. 24 LPRL i RD 171/2004): TOTS: cooperar i INFORMAR-SE RECÍPROCAMENT dels riscos (per escrit si són greus); l'AJUNTAMENT TITULAR: informar tothom dels riscos del CENTRE i de les mesures d'emergència i donar INSTRUCCIONS; en la relació d'obra, el CONTRACTISTA respon de la seva subcontracta (i l'ajuntament promotor, dels deures del RD 1627/1997).\n\nb) MITJANS QUE CALIA TENIR: en l'OBRA (contractista + subcontracta): COORDINADOR de seguretat i salut en fase d'execució designat pel promotor, PLA de seguretat i salut aprovat abans de començar, llibre d'incidències; RECURS PREVENTIU present (treballs en ALÇADA amb bastides: activitat perillosa de l'art. 32 bis LPRL); i per a la concurrència global: REUNIÓ inicial de coordinació amb totes les empreses, INSTRUCCIONS ESCRITES (accessos, zones, instal·lacions que no es poden manipular), DELIMITACIÓ física de zones i designació d'una persona ENCARREGADA de la coordinació (mitjà preferent amb risc i complexitat).\n\nc) DESPRÉS DELS INCIDENTS: 1) INVESTIGAR tots dos (caiguda d'eina: falta de proteccions contra CAIGUDA D'OBJECTES sobre zona de públic: xarxes, marquesines, sectorització; desconnexió errònia: falta d'informació i de bloqueig d'instal·lacions); 2) REUNIÓ URGENT de coordinació: SECTORITZACIÓ estricta (tancaments plens, itineraris de públic protegits), FEINES DE RISC (hissat, treballs sobre parades) FORA D'HORARI d'obertura, senyalització i BLOQUEIG dels quadres (candaus/etiquetes: només el contractista manipula els seus), i actualització de les instruccions escrites a totes les empreses; 3) si la convivència obra-públic no es pot assegurar: PARALITZAR les feines incompatibles o tancar sectors del mercat: la continuïtat comercial mai per davant de la seguretat.",
+   "sources": [
+    "LPRL",
+    "RD 171/2004",
+    "RD 1627/1997"
+   ]
   }
  ]
 }
