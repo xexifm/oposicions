@@ -938,3 +938,436 @@ La LCSP s'aplica a tot el SECTOR PÚBLIC en tres nivells: administracions públi
   - DA 2a: alcalde fins al 10% recursos ordinaris i 6 M€
 
 ---
+
+## Tema 13. L'activitat de foment. Convenis i subvencions.
+*Bloc 4 · Contractació, foment, serveis i béns*
+
+Normes: **L38_2003** (Llei 38/2003 general de subvencions), **L40_2015** (Llei 40/2015 de règim jurídic del sector públic).
+
+L'activitat de FOMENT és la que estimula l'activitat dels particulars cap a fins d'interès general sense usar la coacció ni crear serveis públics (al costat de les activitats de policia o limitació i de servei públic). Els seus instruments principals són les SUBVENCIONS (Llei 38/2003, LGS, i RD 887/2006) i els CONVENIS (arts. 47-53 Llei 40/2015). A l'examen cauen els procediments de concessió (concurrència competitiva vs directa), el reintegrament i la durada màxima dels convenis (4 + 4 anys).
+
+### 1. L'activitat de foment i les seves tècniques
+
+- Mitjans HONORÍFICS: distincions, premis i mencions.
+- Mitjans ECONÒMICS: subvencions i ajuts, beques, premis en metàl·lic, exempcions i bonificacions fiscals, crèdits bonificats.
+- Mitjans JURÍDICS: atorgament de posicions o privilegis jurídics (per exemple, la declaració d'utilitat pública d'una associació).
+- El foment respecta la LLIBERTAT del particular: no imposa conductes, les incentiva.
+
+### 2. La subvenció: concepte i principis (LGS)
+És tota DISPOSICIÓ DINERÀRIA feta per una administració a favor de persones públiques o privades, SENSE CONTRAPRESTACIÓ DIRECTA, subjecta al compliment d'un objectiu, projecte o activitat d'utilitat pública o interès social (art. 2 LGS). La LGS és en gran part bàsica i s'aplica de ple a les entitats locals.
+
+- Principis de gestió (art. 8.3): PUBLICITAT, TRANSPARÈNCIA, CONCURRÈNCIA, OBJECTIVITAT, IGUALTAT I NO-DISCRIMINACIÓ; EFICÀCIA en els objectius i EFICIÈNCIA en l'assignació de recursos.
+- Requisit previ: PLA ESTRATÈGIC DE SUBVENCIONS (art. 8.1) que concreti objectius, terminis, costos i finançament.
+- Les BASES REGULADORES s'aproven per ORDENANÇA GENERAL o específica en l'àmbit local (art. 17.2) i tota convocatòria es publica a la BASE DE DADES NACIONAL DE SUBVENCIONS (BDNS), que dona trasllat al diari oficial.
+
+### 3. Procediments de concessió
+
+| Procediment | Quan | Com |
+|---|---|---|
+| CONCURRÈNCIA COMPETITIVA (regla general) | Pluralitat de sol·licituds comparades entre si | Convocatòria + comparació segons criteris de valoració de les bases + prelació; òrgan col·legiat que informa; resolució en el termini de la convocatòria (màxim 6 MESOS des de la publicació; silenci DESESTIMATORI) |
+| CONCESSIÓ DIRECTA (art. 22.2) | a) subvencions NOMINATIVES previstes al pressupost; b) imposades per una NORMA AMB RANG DE LLEI; c) EXCEPCIONALMENT, per raons acreditades d'interès públic, social, econòmic o humanitari que dificultin la convocatòria | Habitualment mitjançant CONVENI que fixa condicions i compromisos |
+*Obligacions del beneficiari (art. 14): executar l'activitat, JUSTIFICAR (compte justificatiu, factures), sotmetre's a comprovació, comunicar altres ajuts, estar al corrent d'obligacions tributàries i amb la Seguretat Social.*
+
+### 4. Reintegrament, infraccions i control
+
+- REINTEGRAMENT (art. 37): escau, entre d'altres, per obtenir la subvenció falsejant condicions, incompliment total o parcial de l'objectiu, incompliment de justificar o de les mesures de difusió; comporta la devolució amb INTERÈS DE DEMORA des del pagament.
+- PRESCRIPCIÓ del dret a reconèixer o liquidar el reintegrament: 4 ANYS.
+- El procediment de reintegrament s'ha de resoldre en 12 MESOS; la competència correspon a l'òrgan concedent.
+- INFRACCIONS I SANCIONS (títol IV LGS): lleus, greus i molt greus; multes proporcionals a l'import i sancions accessòries (pèrdua d'obtenir subvencions).
+- Control: INTERVENCIÓ local (control financer de subvencions), IGAE, sindicatures i Tribunal de Comptes.
+
+### 5. Els convenis (arts. 47-53 Llei 40/2015)
+Són ACORDS AMB EFECTES JURÍDICS adoptats per les administracions, els organismes i entitats públics o les universitats entre si, o amb subjectes de dret privat, per a una finalitat comuna. NO poden tenir per objecte prestacions pròpies dels CONTRACTES (si en tenen, s'apliquen la LCSP i la seva naturalesa) i no són convenis els protocols generals d'actuació sense obligacions concretes.
+
+- TIPUS (art. 47.2): interadministratius, intraadministratius, amb subjectes de dret privat, i no normatius internacionals.
+- REQUISITS (art. 48): millorar l'eficiència, finançament amb compromisos coberts pressupostàriament; els que incloguin aportacions financeres han de ser sostenibles.
+- CONTINGUT MÍNIM (art. 49): parts, objecte, obligacions econòmiques, conseqüències de l'incompliment, mecanismes de seguiment (COMISSIÓ DE SEGUIMENT), règim de modificació i vigència.
+- DURADA: determinada, NO SUPERIOR A 4 ANYS, prorrogable per acord unànime fins a 4 ANYS ADDICIONALS més (llevat que una norma prevegi un termini superior).
+- Tramitació: MEMÒRIA JUSTIFICATIVA prèvia (necessitat, impacte econòmic, caràcter no contractual); extinció per compliment o per causes de resolució (incompliment amb requeriment previ, acord, decisió judicial), i LIQUIDACIÓ de compromisos econòmics.
+- Els convenis amb compromisos econòmics superiors a 600.000 € es trameten al TRIBUNAL DE COMPTES en el termini de 3 mesos des de la subscripció.
+
+### 🧠 Repàs ràpid · esquema clau
+- **Foment**
+  - Tècniques: honorífiques, econòmiques, jurídiques
+  - No coacció: estimula conductes d'interès general
+- **Subvencions (LGS)**
+  - Art. 2: disposició dinerària sense contraprestació directa
+  - Pla estratègic + bases (ordenança) + BDNS
+  - Concurrència competitiva (regla; 6 mesos, silenci negatiu)
+  - Directa: nominatives, per llei, o excepcionals motivades
+- **Reintegrament**
+  - Art. 37 + interès de demora; prescripció 4 anys
+  - Procediment: resoldre en 12 mesos
+- **Convenis (L40/2015)**
+  - Sense objecte contractual (si no, LCSP)
+  - Contingut art. 49; memòria justificativa prèvia
+  - Durada màx 4 anys + pròrroga unànime 4 més
+  - >600.000 €: tramesa al Tribunal de Comptes
+
+---
+
+## Tema 14. El servei públic local. Formes de prestació dels serveis públics. La gestió directa i la indirecta.
+*Bloc 4 · Contractació, foment, serveis i béns*
+
+Normes: **LRBRL** (Llei 7/1985 reguladora de les bases del règim local), **ROAS** (Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)), **LCSP** (Llei 9/2017 de contractes del sector públic).
+
+Els SERVEIS PÚBLICS LOCALS són els que presten les entitats locals en l'àmbit de les seves competències (art. 85.1 LRBRL). El tema n'exigeix les formes de prestació de l'art. 85.2 —GESTIÓ DIRECTA (per la mateixa entitat, organisme autònom, entitat pública empresarial o societat mercantil pública) i GESTIÓ INDIRECTA (avui, essencialment la concessió de serveis de la LCSP)—, la reserva de serveis essencials de l'art. 86.2 i els principis clàssics de continuïtat, igualtat i mutabilitat.
+
+### 1. Concepte i marc normatiu
+
+- Art. 85.1 LRBRL: són serveis públics locals els que presten les entitats locals en l'àmbit de les seves COMPETÈNCIES.
+- Marc: LRBRL (arts. 85, 85 bis, 85 ter i 86), TRRL, i a Catalunya el DL 2/2003 (arts. 243 i seg.) i el ROAS (Decret 179/1995, arts. 158 i seg.); per a la gestió indirecta, la LCSP.
+- Relació amb els SERVEIS MÍNIMS de l'art. 26 LRBRL (obligatoris per trams de població) i amb les activitats econòmiques de l'art. 86.
+- PRINCIPIS de tot servei públic: CONTINUÏTAT I REGULARITAT, IGUALTAT d'accés dels usuaris, MUTABILITAT (adaptació a l'interès general) i, actualment, qualitat, universalitat i assequibilitat.
+
+### 2. Iniciativa econòmica i reserva de serveis (art. 86)
+
+- Les entitats locals poden exercir la INICIATIVA PÚBLICA ECONÒMICA (art. 128.2 CE) amb un EXPEDIENT ACREDITATIU de la conveniència i oportunitat que analitzi el mercat i la sostenibilitat financera (art. 86.1 LRBRL).
+- Es declara la RESERVA a favor de les entitats locals de les activitats o serveis ESSENCIALS següents (art. 86.2): ABASTAMENT DOMICILIARI I DEPURACIÓ D'AIGÜES, RECOLLIDA, TRACTAMENT I APROFITAMENT DE RESIDUS i TRANSPORT PÚBLIC DE VIATGERS; l'execució efectiva en règim de monopoli exigeix expedient amb aprovació pel PLE (majoria absoluta) i aprovació de l'òrgan competent de la comunitat autònoma.
+- La MUNICIPALITZACIÓ segueix el procediment del ROAS: memòria, projecte, informació pública i acord plenari.
+
+### 3. Gestió directa (art. 85.2.A LRBRL)
+
+| Forma | Personalitat | Trets |
+|---|---|---|
+| Per la MATEIXA ENTITAT LOCAL | Sense personalitat diferenciada | Gestió indiferenciada o amb òrgan especial d'administració; règim administratiu ple |
+| ORGANISME AUTÒNOM LOCAL | Personalitat jurídica pública | Dret administratiu; funcions de foment o gestió de serveis |
+| ENTITAT PÚBLICA EMPRESARIAL LOCAL (EPEL) | Personalitat jurídica pública | Dret privat en general; activitats prestacionals o econòmiques |
+| SOCIETAT MERCANTIL LOCAL de capital íntegrament públic | Personalitat jurídica privada | Dret mercantil; responsabilitat limitada |
+*Només es pot recórrer a l'EPEL o a la societat mercantil si s'acredita amb MEMÒRIA JUSTIFICATIVA que són més SOSTENIBLES I EFICIENTS que la gestió per la mateixa entitat o per organisme autònom (art. 85.2, incís final, redactat per la LRSAL).*
+
+### 4. Gestió indirecta
+L'art. 85.2.B LRBRL remet a les formes previstes per al contracte de gestió de serveis públics que, després de la LCSP de 2017, es tradueixen en el contracte de CONCESSIÓ DE SERVEIS (quan es transfereix el RISC OPERACIONAL al contractista) o en el contracte de SERVEIS (sense transferència de risc); els serveis que comporten PRESTACIONS DIRECTES A FAVOR DE LA CIUTADANIA exigeixen haver-ne establert prèviament el règim jurídic (art. 312 LCSP).
+
+- Formes tradicionals del ROAS (encara vigents com a modalitats): CONCESSIÓ, GESTIÓ INTERESSADA, CONCERT amb entitats que prestin serveis anàlegs, ARRENDAMENT d'instal·lacions i SOCIETAT D'ECONOMIA MIXTA (capital públic i privat).
+- MAI no es poden prestar per gestió indirecta els serveis que impliquin EXERCICI D'AUTORITAT (art. 85.3 LRBRL: seguretat, policia, potestats de fe pública).
+- El servei es pot encarregar també a un MITJÀ PROPI PERSONIFICAT (art. 32 LCSP): control anàleg i més del 80% de l'activitat per a l'ens que encarrega.
+- Contraprestacions dels usuaris: TAXES (gestió directa de recepció obligatòria) o PRESTACIONS PATRIMONIALS DE CARÀCTER PÚBLIC NO TRIBUTARI (tarifes en gestió indirecta o per societats/EPE, art. 20.6 TRLHL, introduït per la LCSP).
+
+### 5. Formes associatives i supramunicipals
+
+- MANCOMUNITATS de municipis: personalitat pròpia per executar obres i serveis en comú.
+- CONSORCIS (arts. 118 i seg. Llei 40/2015): amb altres administracions o entitats privades sense ànim de lucre; adscripció a l'administració dominant.
+- COMARQUES (a Catalunya) i ÀREES METROPOLITANES: cooperació i prestació supramunicipal (a l'entorn de Cornellà, l'ÀREA METROPOLITANA DE BARCELONA presta el cicle de l'aigua, residus i transport metropolità - Llei 31/2010).
+- DIPUTACIONS: assistència i cooperació als municipis, especialment els de menys de 20.000 habitants (art. 26.2 i 36 LRBRL: coordinació de serveis mínims).
+
+### 🧠 Repàs ràpid · esquema clau
+- **Concepte**
+  - Art. 85.1: serveis en l'àmbit de competències locals
+  - Principis: continuïtat, igualtat, mutabilitat
+  - Sense gestió indirecta si hi ha exercici d'autoritat (85.3)
+- **Reserva (86.2)**
+  - Aigua, residus i transport públic de viatgers
+  - Monopoli: ple (majoria absoluta) + aprovació autonòmica
+- **Gestió directa**
+  - Entitat, OA local, EPEL, societat 100% pública
+  - EPEL/societat: memòria de sostenibilitat (LRSAL)
+- **Gestió indirecta**
+  - LCSP: concessió de serveis (risc operacional) o serveis
+  - ROAS: concessió, gestió interessada, concert, mixta
+  - Tarifes: prestació patrimonial no tributària (art. 20.6 TRLHL)
+- **Associatives**
+  - Mancomunitats, consorcis (L40/2015), comarques, AMB (Llei 31/2010)
+
+---
+
+## Tema 15. Els béns de les Entitats locals. El domini públic. Els béns patrimonials de les Entitats locals.
+*Bloc 4 · Contractació, foment, serveis i béns*
+
+Normes: **L33_2003** (Llei 33/2003 del patrimoni de les administracions públiques), **RD1372_1986** (RD 1372/1986 (Reglament de béns de les entitats locals)), **D336_1988** (Decret 336/1988 (Reglament patrimoni ens locals de Catalunya)), **DL2_2003** (DL 2/2003 (TR Llei municipal i de règim local de Catalunya)).
+
+Els béns de les entitats locals es classifiquen en DEMANIALS (de domini públic: d'ús públic o de servei públic), COMUNALS i PATRIMONIALS. El règim el fixen l'art. 132 CE, la Llei 33/2003 (LPAP, en els preceptes bàsics), els arts. 79-83 LRBRL i el Reglament de béns (RD 1372/1986); a Catalunya, els arts. 199 i seg. del DL 2/2003 i el Decret 336/1988 (RPEL). Cal dominar la tríada INALIENABLE-IMPRESCRIPTIBLE-INEMBARGABLE, les quatre prerrogatives i els límits d'alienació.
+
+### 1. Classificació dels béns (arts. 79 LRBRL i 2-8 RBEL)
+
+| Classe | Definició | Exemples |
+|---|---|---|
+| DEMANIALS d'ÚS PÚBLIC | Destinats a l'ús general dels ciutadans | Carrers, places, parcs, camins, fonts |
+| DEMANIALS de SERVEI PÚBLIC | Afectats a un servei públic local | Casa consistorial, mercats, escoles, cementiri, piscines municipals |
+| COMUNALS | El seu APROFITAMENT correspon al COMÚ DELS VEÏNS | Pastures, boscos veïnals (tenen naturalesa demanial) |
+| PATRIMONIALS o de propis | Els altres: no afectats a ús o servei públic | Solars sense destinació, accions, herències; poden produir ingressos |
+*Regeix una PRESUMPCIÓ patrimonial: els béns són patrimonials si no consta l'afectació (però els immobles es presumeixen demanials si estan destinats a ús o servei públic).*
+
+### 2. Règim del domini públic
+
+- Art. 132 CE i art. 80 LRBRL: els béns demanials i comunals són INALIENABLES, IMPRESCRIPTIBLES I INEMBARGABLES i no estan subjectes a cap tribut.
+- AFECTACIÓ I DESAFECTACIÓ: l'alteració de la QUALIFICACIÓ JURÍDICA dels béns exigeix EXPEDIENT amb INFORMACIÓ PÚBLICA D'UN MES i acord del PLE per MAJORIA ABSOLUTA (arts. 81 LRBRL, 8 RBEL i 47.2.n LRBRL); hi ha alteració AUTOMÀTICA en aprovar el planejament urbanístic o en supòsits com la cessió obligatòria.
+- ÚS del domini públic: ús COMÚ GENERAL (lliure), COMÚ ESPECIAL (subjecte a LLICÈNCIA: intensitat, perillositat: per exemple, guals i terrasses) i ús PRIVATIU (que limita o exclou altres usos: requereix CONCESSIÓ DEMANIAL, amb durada màxima de 75 ANYS segons l'art. 93 LPAP, atorgada amb licitació).
+- Els COMUNALS s'aprofiten preferentment en règim d'explotació col·lectiva o comunal.
+
+### 3. Prerrogatives de les entitats locals sobre els seus béns (art. 82 LRBRL i 44 i seg. RBEL)
+
+| Potestat | Contingut | Límit |
+|---|---|---|
+| INVESTIGACIÓ | Esbrinar la situació de béns que es presumeixen locals | Prèvia a les altres |
+| DELIMITACIÓ (atermenament) | Fixar els límits amb finques veïnes | Contradiccions de propietat: als tribunals civils |
+| RECUPERACIÓ D'OFICI (interdictum proprium) | Recobrar per si mateixa la possessió indegudament perduda | DEMANIALS I COMUNALS: EN QUALSEVOL MOMENT; PATRIMONIALS: només dins de L'ANY següent a la usurpació (després, accions civils) |
+| DESNONAMENT ADMINISTRATIU | Extingir drets d'ocupació sobre béns demanials | Amb indemnització si escau |
+*No s'admeten INTERDICTES (accions possessòries) contra les actuacions de la corporació en matèria de la seva competència i seguint el procediment.*
+
+### 4. Béns patrimonials: adquisició i alienació
+
+- ADQUISICIÓ: a títol onerós (compravenda, expropiació), gratuït (herència, llegat, donació: sempre A BENEFICI D'INVENTARI), per atribució de llei (cessions urbanístiques), prescripció o ocupació.
+- ALIENACIÓ: només poden alienar-se els béns PATRIMONIALS (els demanials exigeixen desafectació prèvia); la regla general és la SUBHASTA PÚBLICA; la PERMUTA exigeix expedient que n'acrediti la necessitat i que la diferència de valor entre els béns no sigui superior al 40% DEL QUE EL TINGUI MÉS ALT (art. 112.2 RBEL).
+- CONTROL AUTONÒMIC (art. 209 DL 2/2003): l'alienació, gravamen o permuta s'ha de COMUNICAR al departament competent de la Generalitat; si el valor excedeix el 25% DELS RECURSOS ORDINARIS del pressupost, cal AUTORITZACIÓ prèvia.
+- No es poden alienar béns per finançar despesa corrent (els ingressos patrimonials per alienació són d'INVERSIÓ).
+- CESSIONS GRATUÏTES: només a entitats o institucions públiques o sense ànim de lucre, per a fins d'interès públic; si el bé cedit no es destina a l'ús previst en el termini de 5 ANYS o deixa de ser-hi destinat dins dels 30 ANYS següents, REVERSIÓ AUTOMÀTICA al patrimoni local (art. 111 RBEL).
+
+### 5. Inventari i inscripció
+
+- Les corporacions han de portar un INVENTARI VALORAT de tots els seus béns i drets, aprovat pel PLE, amb RECTIFICACIÓ ANUAL i comprovació a cada renovació de la corporació (arts. 86 TRRL i 17 i seg. RBEL); se'n tramet còpia a l'Estat i a la comunitat autònoma.
+- Els béns immobles i drets reals S'HAN D'INSCRIURE al REGISTRE DE LA PROPIETAT (arts. 85 TRRL i 36 RBEL), INCLOSOS ELS DEMANIALS: l'art. 36 LPAP (bàsic) imposa la inscripció obligatòria.
+- La certificació de l'inventari és títol suficient per a la immatriculació.
+
+### 🧠 Repàs ràpid · esquema clau
+- **Classes**
+  - Demanials: ús públic / servei públic
+  - Comunals: aprofitament veïnal (naturalesa demanial)
+  - Patrimonials: la resta; presumpció si no consta afectació
+- **Domini públic**
+  - Inalienable, imprescriptible, inembargable (art. 132 CE)
+  - Alteració qualificació: expedient + 1 mes + ple majoria ABSOLUTA
+  - Ús: comú general, especial (llicència), privatiu (concessió ≤75 anys)
+- **Prerrogatives**
+  - Investigació, delimitació, recuperació d'ofici, desnonament
+  - Recuperació patrimonials: només 1 any; demanials: sempre
+- **Patrimonials**
+  - Alienació: subhasta (regla general a Catalunya)
+  - >25% recursos ordinaris: autorització de la Generalitat
+  - Donacions: a benefici d'inventari; cessions amb reversió
+- **Inventari**
+  - Aprova el ple; rectificació anual
+  - Immobles: inscripció obligatòria al Registre
+
+---
+
+## Tema 16. La potestat sancionadora administrativa.
+*Bloc 5 · Sanció, responsabilitat i funció pública*
+
+Normes: **L40_2015** (Llei 40/2015 de règim jurídic del sector públic), **L39_2015** (Llei 39/2015 del procediment administratiu comú), **LRBRL** (Llei 7/1985 reguladora de les bases del règim local).
+
+La potestat sancionadora permet a l'Administració castigar les conductes tipificades com a infracció, com a manifestació —al costat del dret penal— de l'ius puniendi de l'Estat (art. 25 CE). Els PRINCIPIS MATERIALS són als arts. 25-31 de la Llei 40/2015 i les ESPECIALITATS DE PROCEDIMENT a la Llei 39/2015. Cal memoritzar els terminis de PRESCRIPCIÓ (3 anys/2 anys/6 mesos per a infraccions; 3/2/1 anys per a sancions) i els límits de multa dels arts. 139-141 LRBRL (3.000/1.500/750 €).
+
+### 1. Principis de la potestat sancionadora (arts. 25-31 Llei 40/2015)
+
+| Principi | Contingut |
+|---|---|
+| LEGALITAT (art. 25) | Només per llei (rang legal) es pot atribuir la potestat i tipificar infraccions i sancions |
+| IRRETROACTIVITAT (art. 26) | Regeixen les disposicions vigents en el moment dels fets; les FAVORABLES sí que són retroactives, fins i tot respecte de sancions no executades |
+| TIPICITAT (art. 27) | Predeterminació normativa d'infraccions (lleus, greus, molt greus) i sancions; el reglament només pot ESPECIFICAR O GRADUAR; prohibida l'analogia |
+| RESPONSABILITAT (art. 28) | A títol de DOL O CULPA; persones físiques i jurídiques; multa NO substituïble; compatible amb la reposició i la indemnització |
+| PROPORCIONALITAT (art. 29) | Idoneïtat i necessitat; graduació: culpabilitat, continuïtat, naturalesa dels perjudicis, reincidència (1 ANY des de sanció ferma per infracció de la mateixa naturalesa); la sanció no pot ser més beneficiosa que l'incompliment |
+| NON BIS IN IDEM (art. 31) | No es poden sancionar dues vegades els mateixos fets amb identitat de subjecte, fet i fonament; preferència de l'ordre PENAL i vinculació als fets provats |
+*La potestat s'exerceix sempre mitjançant el PROCEDIMENT legalment establert: la sanció «de pla» és nul·la.*
+
+### 2. Prescripció (art. 30 Llei 40/2015)
+
+| Tipus | Infraccions | Sancions |
+|---|---|---|
+| MOLT GREUS | 3 ANYS | 3 ANYS |
+| GREUS | 2 ANYS | 2 ANYS |
+| LLEUS | 6 MESOS | 1 ANY |
+*Còmput: infraccions, des de la comissió (contínues: des del final de la conducta); sancions, des de l'endemà de la fermesa en via administrativa. La iniciació del procediment amb coneixement de l'interessat interromp la prescripció; es reprèn si el procediment sancionador està paralitzat MÉS D'UN MES per causa no imputable al presumpte responsable.*
+
+### 3. Especialitats del procediment sancionador (Llei 39/2015)
+
+- SEPARACIÓ entre fase instructora i sancionadora, encomanades a òrgans diferents (art. 63.1).
+- Inici SEMPRE D'OFICI (art. 63): per iniciativa pròpia, ordre superior, petició raonada o DENÚNCIA (el denunciant no és per això interessat; possible reducció per col·laboració en infraccions de competència); possibilitat d'ACTUACIONS PRÈVIES i de MESURES PROVISIONALS.
+- Contingut mínim de l'acord d'iniciació (art. 64): responsables presumptes, fets, possible qualificació i sancions, instructor (amb recusació), òrgan competent i dret a al·legar en el termini establert.
+- PRESUMPCIÓ D'INNOCÈNCIA: la càrrega de la prova és de l'Administració; valor probatori dels fets constatats per FUNCIONARIS amb condició d'AUTORITAT formalitzats en document públic (art. 77.5).
+- PAGAMENT VOLUNTARI I RECONEIXEMENT de responsabilitat (art. 85): si la sanció és només pecuniària, REDUCCIONS acumulables d'ALMENYS EL 20% cadascuna, condicionades al desistiment d'accions administratives.
+- PROPOSTA DE RESOLUCIÓ notificada amb audiència; la RESOLUCIÓ no pot acceptar fets diferents dels determinats en el procediment (art. 90.2).
+- EXECUTIVITAT (art. 90.3): la resolució sancionadora només és executiva quan NO ESCAIGUI CAP RECURS ORDINARI en via administrativa; si l'interessat manifesta la intenció d'interposar contenciós, l'executivitat se suspèn fins al termini d'interposició o fins que el jutge decideixi sobre les mesures cautelars.
+- La manca de resolució en termini en procediments sancionadors produeix la CADUCITAT (art. 25.1.b Llei 39/2015).
+
+### 4. Potestat sancionadora local (arts. 139-141 LRBRL)
+Per a l'adequada ordenació de les RELACIONS DE CONVIVÈNCIA d'interès local i de l'ús dels seus serveis, equipaments, infraestructures, instal·lacions i espais públics, els ens locals poden, EN DEFECTE DE NORMATIVA SECTORIAL ESPECÍFICA, tipificar infraccions i sancions a les ORDENANCES (títol XI LRBRL, introduït l'any 2003).
+
+| Classe d'infracció | Multa màxima (art. 141) |
+|---|---|
+| MOLT GREU | 3.000 € |
+| GREU | 1.500 € |
+| LLEU | 750 € |
+*L'art. 140 fixa els criteris de classificació: pertorbació rellevant de la convivència, impediment de l'ús d'un servei o espai públic, deteriorament greu d'equipaments, etc.*
+La competència sancionadora local correspon a l'ALCALDE (art. 21.1.n LRBRL), llevat d'atribució expressa a un altre òrgan; és delegable. En matèries sectorials (urbanisme, medi ambient, activitats), regeixen els règims sancionadors de cada llei.
+
+### 5. Concurrència amb l'ordre penal
+
+- Si els fets poden ser constitutius de DELICTE, l'Administració ho comunica al Ministeri Fiscal i SUSPÈN el procediment sancionador fins que recaigui resolució judicial.
+- La sanció penal EXCLOU la sanció administrativa amb identitat de subjecte, fet i fonament.
+- Els FETS DECLARATS PROVATS per resolucions judicials penals fermes VINCULEN l'Administració en els procediments que tramiti.
+
+### 🧠 Repàs ràpid · esquema clau
+- **Principis (L40/2015)**
+  - Legalitat i tipicitat: reserva de llei; reglament només gradua
+  - Responsabilitat: dol o culpa; també persones jurídiques
+  - Retroactivitat només de la norma favorable
+  - Non bis in idem; preferència penal
+- **Prescripció (art. 30)**
+  - Infraccions: 3 anys / 2 anys / 6 mesos
+  - Sancions: 3 anys / 2 anys / 1 any
+  - Paralització >1 mes: es reprèn el còmput
+- **Procediment**
+  - Separació instructor/òrgan que resol; inici sempre d'ofici
+  - Reduccions de mínim 20% per pagament i reconeixement
+  - Executiva només sense recurs ordinari pendent (art. 90.3)
+  - Sense resolució en termini: CADUCITAT
+- **Local**
+  - Ordenances: convivència i espais públics sense llei sectorial
+  - Multes: 3.000 / 1.500 / 750 € (art. 141 LRBRL)
+  - Sanciona l'alcalde (art. 21.1.n)
+
+---
+
+## Tema 17. La responsabilitat de les administracions públiques.
+*Bloc 5 · Sanció, responsabilitat i funció pública*
+
+Normes: **L40_2015** (Llei 40/2015 de règim jurídic del sector públic), **L39_2015** (Llei 39/2015 del procediment administratiu comú), **CE1978** (Constitució espanyola de 1978).
+
+Els particulars tenen dret a ser indemnitzats per tota LESIÓ que pateixin en els seus béns i drets a conseqüència del FUNCIONAMENT NORMAL O ANORMAL dels serveis públics, llevat de força major (art. 106.2 CE). És una responsabilitat DIRECTA I OBJECTIVA regulada als arts. 32-37 de la Llei 40/2015 (requisits) i al procediment de la Llei 39/2015. Dades imprescindibles: prescripció d'1 ANY, resolució en 6 MESOS amb silenci negatiu, dictamen consultiu a partir de 50.000 € i acció de regrés per dol o culpa greu.
+
+### 1. Fonament i requisits de la lesió
+
+- Fonament: arts. 9.3 (responsabilitat dels poders públics) i 106.2 CE; regulació bàsica: arts. 32-37 Llei 40/2015.
+- DANY efectiu, AVALUABLE econòmicament i INDIVIDUALITZAT en una persona o grup.
+- IMPUTABLE al funcionament NORMAL O ANORMAL dels serveis públics (responsabilitat OBJECTIVA: no cal culpa de l'Administració).
+- NEXE CAUSAL entre el funcionament del servei i el dany (es modula per la conducta de la víctima o de tercers).
+- ANTIJURIDICITAT: que el particular NO TINGUI EL DEURE JURÍDIC DE SUPORTAR el dany.
+- EXCLUSIONS: FORÇA MAJOR (fet extern, imprevisible i inevitable) i els danys derivats de fets o circumstàncies que no s'haguessin pogut preveure o evitar segons L'ESTAT DELS CONEIXEMENTS de la ciència o de la tècnica (riscos del desenvolupament).
+
+### 2. La indemnització
+
+- Es calcula segons els criteris de la legislació d'expropiació forçosa, fiscal i altres aplicables, ponderant si escau les valoracions de mercat (art. 34.2).
+- Es computa des del dia que la lesió es va produir efectivament, amb actualització a data de finalització del procediment i INTERESSOS DE DEMORA.
+- Pot substituir-se per una COMPENSACIÓ EN ESPÈCIE o pagaments PERIÒDICS si és més adequat i hi ha acord amb l'interessat.
+- La mera ANUL·LACIÓ d'un acte administratiu NO PRESSUPOSA per si sola dret a indemnització (art. 32.1, segon paràgraf).
+
+### 3. El procediment de responsabilitat (Llei 39/2015)
+
+| Element | Regla |
+|---|---|
+| Inici | D'ofici o per RECLAMACIÓ de l'interessat; la sol·licitud especifica lesions, relació de causalitat, avaluació econòmica i moment del dany (art. 67.2) |
+| Prescripció | 1 ANY des del fet o de la manifestació de l'efecte lesiu; danys FÍSICS O PSÍQUICS: des de la CURACIÓ o la determinació de l'abast de les SEQÜELES; per actes anul·lats: 1 any des de la sentència definitiva |
+| Instrucció | INFORME DEL SERVEI presumptament causant (10 dies); prova; audiència |
+| Dictamen consultiu | PRECEPTIU si la reclamació és de 50.000 € O MÉS (o el que fixi la llei autonòmica): Consell d'Estat o COMISSIÓ JURÍDICA ASSESSORA a Catalunya, que s'ha d'emetre en 2 mesos (art. 81.2) |
+| Termini per resoldre | 6 MESOS; transcorreguts, silenci NEGATIU (art. 91.3) |
+| Procediment simplificat | Quan la relació de causalitat és INEQUÍVOCA: tramitació simplificada (art. 96.4), amb resolució en 30 DIES |
+*En l'àmbit local resol l'ALCALDE (o el ple segons la quantia i el ROM); la jurisdicció competent és sempre la CONTENCIOSA ADMINISTRATIVA, fins i tot si el dany es produeix en relacions de dret privat (art. 35 Llei 40/2015).*
+
+### 4. Supòsits especials (arts. 32-33 Llei 40/2015)
+
+- ESTAT LEGISLADOR (art. 32.3-32.6): actes legislatius no expropiatoris quan la llei ho prevegi; lleis declarades INCONSTITUCIONALS o contràries al DRET DE LA UE: cal haver obtingut sentència ferma desestimatòria contra l'actuació que va causar el dany i haver al·legat la inconstitucionalitat o la infracció; els danys indemnitzables són els produïts en els 5 ANYS anteriors a la publicació de la sentència.
+- RESPONSABILITAT CONCURRENT de diverses administracions (art. 33): gestió dimanant de fórmules conjuntes: responsabilitat SOLIDÀRIA segons l'instrument; si no, es fixa per competència, interès públic tutelat i intensitat de la intervenció; si no es pot determinar, SOLIDÀRIA.
+- Dret privat (art. 35): l'Administració respon igualment per les lesions causades quan actua en relacions de dret privat, exigible davant el contenciós.
+- CONTRACTISTES: en l'execució de contractes, respon el CONTRACTISTA dels danys derivats de l'execució, llevat que siguin conseqüència d'una ordre de l'Administració o de vicis del projecte (art. 196 LCSP).
+
+### 5. Responsabilitat de les autoritats i del personal (art. 36)
+
+- Els particulars exigeixen la responsabilitat DIRECTAMENT A L'ADMINISTRACIÓ (mai al funcionari directament per danys en l'exercici del càrrec).
+- ACCIÓ DE REGRÉS: si l'Administració ha indemnitzat, exigeix D'OFICI en via administrativa la responsabilitat a les autoritats i personal per DOL, O CULPA O NEGLIGÈNCIA GREUS, ponderant: el resultat danyós, el grau de culpabilitat, la responsabilitat professional i la relació amb el resultat.
+- El mateix règim s'aplica als danys que autoritats i personal causin en els BÉNS DE LA MATEIXA ADMINISTRACIÓ.
+- Procediment de regrés: instrucció amb audiència; la resolució posa fi a la via administrativa.
+- RESPONSABILITAT PENAL (art. 37): la del personal i la civil derivada de delicte s'exigeix segons la legislació penal; no suspèn els procediments de responsabilitat patrimonial llevat de determinació de fets essencial.
+
+### 🧠 Repàs ràpid · esquema clau
+- **Requisits**
+  - Art. 106.2 CE; objectiva i directa
+  - Dany efectiu, avaluable, individualitzat + nexe + antijuridicitat
+  - Excloses: força major i riscos del desenvolupament
+  - Anul·lació d'acte ≠ indemnització automàtica
+- **Procediment**
+  - Prescripció: 1 any (seqüeles: des de la determinació)
+  - Informe del servei; dictamen CJA/Consell d'Estat ≥50.000 €
+  - Resolució: 6 mesos; silenci negatiu
+  - Simplificat 30 dies si el nexe és inequívoc
+- **Especials**
+  - Lleis inconstitucionals/anti-UE: sentència prèvia + 5 anys
+  - Concurrent: solidària si no es pot determinar
+  - Contractista respon (llevat d'ordre o vici de projecte)
+- **Regrés**
+  - Exigència directa a l'Administració
+  - Regrés d'ofici per dol o culpa/negligència GREUS
+
+---
+
+## Tema 18. Règim jurídic del personal al servei de les Administracions Públiques. L'Estatut Bàsic de l'Empleat Públic.
+*Bloc 5 · Sanció, responsabilitat i funció pública*
+
+Normes: **TREBEP** (RDL 5/2015 (TR Estatut bàsic de l'empleat públic)), **CE1978** (Constitució espanyola de 1978).
+
+El règim jurídic de l'ocupació pública el fixa el TREBEP (RDL 5/2015), dictat a l'empara dels arts. 103.3 i 149.1.18 CE, aplicable a l'administració LOCAL; a Catalunya el complementa el DLeg 1/1997. El tema demana les CLASSES de personal (art. 8), l'accés amb els principis d'IGUALTAT, MÈRIT I CAPACITAT, els GRUPS de classificació (A1-AP), drets i retribucions, les SITUACIONS ADMINISTRATIVES i el règim disciplinari amb els seus terminis de prescripció.
+
+### 1. Classes de personal (arts. 8-13 TREBEP)
+
+| Classe | Vincle | Notes |
+|---|---|---|
+| FUNCIONARI DE CARRERA | Estatutari, nomenament legal | RESERVAT: exercici de potestats públiques i salvaguarda d'interessos generals (art. 9.2) |
+| FUNCIONARI INTERÍ | Estatutari temporal (art. 10) | Per vacant (màxim 3 ANYS), substitució, programes temporals (màx. 3 anys) o acumulació de tasques (màx. 9 MESOS dins de 18) |
+| PERSONAL LABORAL | Contracte de treball | Fix, indefinit o temporal; conveni col·lectiu |
+| PERSONAL EVENTUAL | Nomenament de confiança | Només CONFIANÇA O ASSESSORAMENT ESPECIAL; cessa quan cessa l'autoritat (art. 12) |
+| DIRECTIU PROFESSIONAL | Art. 13 | Funcions directives; designació per idoneïtat, mèrit i capacitat; avaluació per resultats |
+*L'OFERTA D'OCUPACIÓ PÚBLICA (art. 70) s'ha d'executar en el termini improrrogable de 3 ANYS.*
+
+### 2. Accés i pèrdua de la condició
+
+- Principis constitucionals: IGUALTAT (art. 23.2 CE), MÈRIT I CAPACITAT (art. 103.3 CE), més publicitat, transparència i imparcialitat (art. 55 TREBEP); els ÒRGANS DE SELECCIÓ (art. 60) són col·legiats i de composició paritària; NO en poden formar part el personal d'ELECCIÓ O DESIGNACIÓ POLÍTICA, els funcionaris INTERINS ni el personal EVENTUAL, i la pertinença és sempre A TÍTOL INDIVIDUAL (no per representació).
+- Requisits (art. 56): nacionalitat espanyola (o UE per a llocs sense exercici de potestats), capacitat funcional, 16 ANYS i no excedir l'edat de jubilació, no separació per expedient disciplinari ni inhabilitació, titulació.
+- SISTEMES SELECTIUS (art. 61): OPOSICIÓ i CONCURS OPOSICIÓ (regla general); el CONCURS de valoració de mèrits, NOMÉS amb caràcter EXCEPCIONAL i per llei.
+- Adquisició: superació del procés + nomenament + acatament de la CE i l'Estatut + PRESA DE POSSESSIÓ en termini.
+- PÈRDUA (art. 63): renúncia escrita, pèrdua de la nacionalitat, sanció disciplinària de SEPARACIÓ DEL SERVEI, pena principal o accessòria d'INHABILITACIÓ absoluta o especial, i JUBILACIÓ total (forçosa als 65 anys amb possibilitat de prolongar fins als 70).
+
+### 3. Grups de classificació (art. 76 i DT 3a) i estructura
+
+| Grup | Titulació exigida |
+|---|---|
+| A1 / A2 | Títol universitari de GRAU (la subdivisió depèn del nivell de responsabilitat i les proves) |
+| B | Títol de TÈCNIC SUPERIOR (formació professional de grau superior) |
+| C1 | BATXILLER o tècnic |
+| C2 | Graduat en ESO |
+| AP (agrupacions professionals, DA 6a) | SENSE requisit de titulació |
+*L'ordenació es fa mitjançant les RELACIONS DE LLOCS DE TREBALL (RLT, art. 74) i la PLANTILLA pressupostària; els cossos i escales locals: habilitació nacional, administració general i administració especial.*
+
+### 4. Drets, jornada i retribucions
+
+- Drets INDIVIDUALS (art. 14): inamovibilitat de la condició, exercici efectiu de les funcions, progressió en la CARRERA PROFESSIONAL, retribucions, formació, negociació col·lectiva (exercits col·lectivament: art. 15, inclou vaga i sindicació).
+- VACANCES: 22 DIES HÀBILS per any complet de servei (art. 50); PERMISOS de l'art. 48: entre d'altres, trasllat de domicili, deures inexcusables, exàmens finals, i 6 DIES l'any per ASSUMPTES PARTICULARS (art. 48.k); permisos per conciliació de l'art. 49 (naixement, adopció, lactància, violència de gènere).
+- RETRIBUCIONS (arts. 21-24): BÀSIQUES: SOU (per subgrup), TRIENNIS (antiguitat: 3 anys) i PAGUES EXTRAORDINÀRIES (DUES l'any, juny i desembre); COMPLEMENTÀRIES: per nivell/carrera, per característiques del lloc (especial dificultat, dedicació, responsabilitat), per RENDIMENT (productivitat, avaluació de l'acompliment) i gratificacions per serveis extraordinaris.
+- AVALUACIÓ DE L'ACOMPLIMENT (art. 20): criteris de transparència, objectivitat, imparcialitat i no-discriminació; condiciona la carrera horitzontal i part de les retribucions.
+
+### 5. Situacions administratives (arts. 85-91)
+
+- SERVEI ACTIU: exercici normal de funcions.
+- SERVEIS ESPECIALS: càrrecs electes, alts càrrecs, etc.; es computa el temps a tots els efectes i hi ha RESERVA de lloc i destinació.
+- SERVEI EN ALTRES ADMINISTRACIONS: per transferència o per processos de mobilitat.
+- EXCEDÈNCIES (art. 89): VOLUNTÀRIA PER INTERÈS PARTICULAR (cal haver prestat serveis efectius durant els 5 ANYS immediatament anteriors; sense reserva de lloc ni còmput de temps), voluntària per AGRUPACIÓ FAMILIAR, PER CURA DE FILLS O FAMILIARS (màxim 3 ANYS, amb RESERVA DEL MATEIX LLOC DURANT 2 ANYS i còmput a efectes de triennis, carrera i Seguretat Social), i per raó de VIOLÈNCIA DE GÈNERE o terrorista (amb reserva i retribucions els primers mesos).
+- SUSPENSIÓ DE FUNCIONS: ferma (per sanció o pena: priva de l'exercici i, si excedeix 6 MESOS, de la reserva del lloc) o provisional.
+
+### 6. Deures i règim disciplinari (títols III i VII)
+
+- DEURES I CODI DE CONDUCTA (arts. 52-54): principis ètics (servei a l'interès general, imparcialitat, abstenció en conflicte d'interessos) i de conducta (tracte, diligència, no acceptar regals); INCOMPATIBILITATS: Llei 53/1984 (segona activitat només amb autorització excepcional).
+- FALTES: MOLT GREUS (art. 95.2: incompliment del deure de fidelitat a la CE, discriminació, abandonament del servei, publicació indeguda de secrets oficials, notòria manca de rendiment, assetjament); les greus i lleus les fixen les lleis de desplegament (a l'àmbit local, també el TRRL).
+- SANCIONS (art. 96): SEPARACIÓ DEL SERVEI (només per faltes MOLT GREUS; per a interins, revocació del nomenament), suspensió de funcions FINS A 6 ANYS, trasllat forçós, DEMÈRIT i apercebiment.
+- PRESCRIPCIÓ (art. 97): faltes: molt greus 3 ANYS, greus 2 ANYS, lleus 6 MESOS; sancions: molt greus 3 ANYS, greus 2 ANYS, lleus 1 ANY.
+- Procediment amb separació instructor/resolutor, mesures provisionals (suspensió provisional màxima de 6 MESOS llevat de paralització imputable) i presumpció d'innocència.
+
+### 🧠 Repàs ràpid · esquema clau
+- **Classes (art. 8)**
+  - Carrera, interí (vacant 3 anys; acumulació 9/18 mesos)
+  - Laboral, eventual (confiança), directiu (art. 13)
+  - Potestats públiques: només funcionaris (art. 9.2)
+  - OOP: executar en 3 anys (art. 70)
+- **Accés**
+  - Igualtat, mèrit, capacitat + publicitat
+  - Oposició o concurs oposició; concurs només per llei
+  - Pèrdua: renúncia, nacionalitat, separació, inhabilitació, jubilació
+- **Grups i retribucions**
+  - A1/A2 grau · B tècnic sup. · C1 batxiller · C2 ESO · AP
+  - Bàsiques: sou, triennis, 2 pagues extres
+  - Complementàries: lloc, carrera, rendiment
+  - Vacances 22 dies hàbils (art. 50)
+- **Disciplinari**
+  - Faltes: 3 anys / 2 anys / 6 mesos · sancions: 3/2/1
+  - Separació del servei: només molt greus
+  - Suspensió de funcions: fins a 6 anys
+
+---
