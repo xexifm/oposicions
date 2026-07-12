@@ -2402,6 +2402,486 @@
    "explain": "L'art. 29.4 LCSP limita els contractes de SUBMINISTRAMENT i de SERVEIS de prestació successiva a 5 ANYS incloses les PRÒRROGUES (acordades per l'òrgan de contractació i obligatòries per al contractista amb preavís de 2 mesos, sense que calgui el seu consentiment). Recordeu: el contracte MENOR no admet cap pròrroga.",
    "source": "LCSP",
    "article": "Art. 29.4 LCSP"
+  },
+  {
+   "id": "t13q6",
+   "theme": 13,
+   "block": 4,
+   "q": "En el procediment de concessió de subvencions en concurrència competitiva, el venciment del termini màxim (6 mesos) sense resolució notificada comporta:",
+   "options": [
+    "L'estimació de la sol·licitud pel silenci positiu general de la Llei 39/2015",
+    "La caducitat de la convocatòria i la devolució del crèdit pressupostari",
+    "La desestimació presumpta de la sol·licitud per silenci administratiu",
+    "La pròrroga automàtica del termini per tres mesos addicionals"
+   ],
+   "correct": 2,
+   "explain": "L'art. 25.5 LGS legitima els interessats a entendre DESESTIMADA per SILENCI la sol·licitud si passa el termini màxim (6 MESOS des de la publicació de la convocatòria, llevat que aquesta ho ajorni) sense notificació: és una de les excepcions legals al silenci positiu.",
+   "source": "L38_2003",
+   "article": "Art. 25.5 LGS"
+  },
+  {
+   "id": "t13q7",
+   "theme": 13,
+   "block": 4,
+   "q": "Els protocols generals d'actuació entre administracions públiques:",
+   "options": [
+    "Són convenis interadministratius de durada indefinida i eficàcia plena",
+    "Requereixen dictamen previ del Consell d'Estat per la seva generalitat",
+    "Només poden subscriure'ls administracions del mateix nivell territorial",
+    "No tenen la consideració de convenis perquè no imposen obligacions jurídiques concretes i exigibles"
+   ],
+   "correct": 3,
+   "explain": "L'art. 47.1 Llei 40/2015 exclou del concepte de conveni els PROTOCOLS GENERALS D'ACTUACIÓ: mers pronunciaments d'intencions o declaracions de voluntat de col·laborar SENSE OBLIGACIONS JURÍDIQUES CONCRETES NI EXIGIBLES. Si hi ha compromisos concrets, cal formalitzar un veritable CONVENI amb el contingut de l'art. 49.",
+   "source": "L40_2015",
+   "article": "Art. 47.1 Llei 40/2015"
+  },
+  {
+   "id": "t13q8",
+   "theme": 13,
+   "block": 4,
+   "q": "Abans de subscriure un conveni, la Llei 40/2015 exigeix que l'acompanyi:",
+   "options": [
+    "Una memòria justificativa de la necessitat, l'impacte econòmic i el caràcter no contractual",
+    "Un dictamen vinculant de la intervenció general sobre la seva legalitat",
+    "Una auditoria externa sobre la solvència de totes les parts signants",
+    "L'informe favorable previ del Tribunal de Comptes o òrgan equivalent"
+   ],
+   "correct": 0,
+   "explain": "L'art. 50.1 Llei 40/2015 exigeix la MEMÒRIA JUSTIFICATIVA prèvia que analitzi la NECESSITAT I OPORTUNITAT, l'IMPACTE ECONÒMIC, el CARÀCTER NO CONTRACTUAL de l'activitat i el compliment de la llei. Recordeu també el contingut mínim de l'art. 49 i el límit de 4 + 4 ANYS de vigència.",
+   "source": "L40_2015",
+   "article": "Art. 50 Llei 40/2015"
+  },
+  {
+   "id": "t13q9",
+   "theme": 13,
+   "block": 4,
+   "q": "En l'àmbit de les entitats locals, les bases reguladores de les subvencions s'aproven:",
+   "options": [
+    "Per decret de l'alcaldia amb el vistiplau de la comissió de comptes",
+    "En el marc de les bases d'execució del pressupost o mitjançant ordenança general o específica",
+    "Per resolució de la intervenció municipal prèvia fiscalització plena",
+    "Mitjançant conveni marc amb la comunitat autònoma corresponent"
+   ],
+   "correct": 1,
+   "explain": "L'art. 17.2 LGS preveu que les bases reguladores de les subvencions locals s'aprovin en el marc de les BASES D'EXECUCIÓ DEL PRESSUPOST, a través d'una ORDENANÇA GENERAL de subvencions o mitjançant ordenança ESPECÍFICA per a cada modalitat. La convocatòria posterior es publica via BDNS.",
+   "source": "L38_2003",
+   "article": "Art. 17.2 LGS"
+  },
+  {
+   "id": "t13q10",
+   "theme": 13,
+   "block": 4,
+   "q": "Quina d'aquestes és una obligació del beneficiari d'una subvenció (art. 14 LGS)?",
+   "options": [
+    "Dipositar una garantia definitiva del 5% de l'import concedit",
+    "Executar l'activitat subvencionada exclusivament amb mitjans propis",
+    "Acreditar que està al corrent de les obligacions tributàries i amb la Seguretat Social",
+    "Renunciar a qualsevol altre ajut públic o privat per al mateix projecte"
+   ],
+   "correct": 2,
+   "explain": "L'art. 14 LGS obliga el beneficiari a: complir l'objectiu, JUSTIFICAR el compliment, sotmetre's a les COMPROVACIONS, COMUNICAR altres subvencions obtingudes (que són compatibles llevat de sobrefinançament), acreditar estar AL CORRENT d'obligacions tributàries i de Seguretat Social, conservar documents i fer la difusió pública del finançament.",
+   "source": "L38_2003",
+   "article": "Art. 14 LGS"
+  },
+  {
+   "id": "t14q6",
+   "theme": 14,
+   "block": 4,
+   "q": "Per exercir la iniciativa pública econòmica de l'art. 86.1 LRBRL, l'entitat local ha de tramitar:",
+   "options": [
+    "Una sol·licitud d'autorització al Consell de Ministres per unanimitat",
+    "Un referèndum local vinculant entre els veïns del terme municipal",
+    "Una modificació prèvia del pla d'ordenació urbanística municipal",
+    "Un expedient acreditatiu de la conveniència i oportunitat amb anàlisi del mercat"
+   ],
+   "correct": 3,
+   "explain": "L'art. 86.1 LRBRL (i 128.2 CE) permet a les entitats locals l'EXERCICI D'ACTIVITATS ECONÒMIQUES amb un EXPEDIENT ACREDITATIU DE LA CONVENIÈNCIA I OPORTUNITAT que garanteixi el compliment de l'objectiu d'estabilitat pressupostària i analitzi el mercat (oferta i demanda existent). L'aprova el PLE.",
+   "source": "LRBRL",
+   "article": "Art. 86.1 LRBRL"
+  },
+  {
+   "id": "t14q7",
+   "theme": 14,
+   "block": 4,
+   "q": "Perquè una entitat tingui la condició de mitjà propi personificat (art. 32 LCSP) cal, entre altres requisits, que:",
+   "options": [
+    "Més del 80% de la seva activitat es faci per a l'ens que la controla i que el control sigui anàleg al dels serveis propis",
+    "Més del 50% del seu capital sigui públic i la resta d'accionistes locals",
+    "Tota la seva activitat es limiti al terme municipal de l'ens matriu",
+    "El seu personal tingui íntegrament la condició de funcionari de carrera"
+   ],
+   "correct": 0,
+   "explain": "L'ENCÀRREC A MITJÀ PROPI exigeix (art. 32 LCSP): CONTROL ANÀLEG al dels serveis propis, MÉS DEL 80% de l'activitat per a l'ens d'encàrrec (o els seus controlats), capital íntegrament públic si és societat, i declaració expressa de la condició als estatuts amb verificació prèvia. No és un contracte: no hi ha licitació.",
+   "source": "LCSP",
+   "article": "Art. 32 LCSP"
+  },
+  {
+   "id": "t14q8",
+   "theme": 14,
+   "block": 4,
+   "q": "L'execució efectiva en règim de monopoli d'una activitat reservada de l'art. 86.2 LRBRL exigeix:",
+   "options": [
+    "Una llei estatal específica que declari el monopoli per a cada municipi",
+    "L'aprovació pel ple de la corporació i per l'òrgan competent de la comunitat autònoma",
+    "L'informe favorable de l'autoritat de la competència i del Senat",
+    "L'acord de la diputació provincial amb ratificació ministerial posterior"
+   ],
+   "correct": 1,
+   "explain": "La RESERVA (aigua, residus, transport públic de viatgers) permet la prestació preferent; però l'execució EN RÈGIM DE MONOPOLI (exclusió de la iniciativa privada) exigeix, a més de l'expedient amb majoria ABSOLUTA del ple, l'APROVACIÓ DE L'ÒRGAN DE GOVERN DE LA COMUNITAT AUTÒNOMA (art. 86.2 in fine i ROAS).",
+   "source": "LRBRL",
+   "article": "Art. 86.2 LRBRL"
+  },
+  {
+   "id": "t14q9",
+   "theme": 14,
+   "block": 4,
+   "q": "Les contraprestacions que paguen els usuaris d'un servei públic local prestat en gestió indirecta (tarifes del concessionari) tenen la naturalesa de:",
+   "options": [
+    "Taxes per la prestació de serveis de recepció obligatòria",
+    "Preus privats lliurement pactats entre usuari i concessionari",
+    "Prestacions patrimonials de caràcter públic no tributari",
+    "Contribucions especials per l'establiment del servei públic"
+   ],
+   "correct": 2,
+   "explain": "La DF 12a de la LCSP va afegir l'apartat 6 a l'art. 20 TRLHL: les contraprestacions per serveis prestats en GESTIÓ INDIRECTA (concessió, societat mixta) o per entitats públiques empresarials i societats públiques són PRESTACIONS PATRIMONIALS DE CARÀCTER PÚBLIC NO TRIBUTARI, regulades per ordenança. Si el servei el presta directament l'entitat, TAXA.",
+   "source": "TRLHL",
+   "article": "Art. 20.6 TRLHL"
+  },
+  {
+   "id": "t14q10",
+   "theme": 14,
+   "block": 4,
+   "q": "A l'entorn metropolità de Barcelona, els serveis del cicle de l'aigua, el tractament de residus i el transport públic metropolità corresponen a:",
+   "options": [
+    "El Consell Comarcal del Baix Llobregat, per delegació estatal",
+    "La Diputació de Barcelona, com a ens de cooperació provincial",
+    "La Generalitat de Catalunya, mitjançant consorcis sectorials",
+    "L'Àrea Metropolitana de Barcelona, creada per la Llei 31/2010"
+   ],
+   "correct": 3,
+   "explain": "La LLEI 31/2010 va crear l'ÀREA METROPOLITANA DE BARCELONA (36 municipis, entre ells CORNELLÀ DE LLOBREGAT), ens local supramunicipal amb competències en aigua, residus, transport i mobilitat, urbanisme metropolità i cohesió social. És exemple d'ÀREA METROPOLITANA de l'art. 3.2 LRBRL.",
+   "source": "DL2_2003",
+   "article": "Llei 31/2010 (AMB)"
+  },
+  {
+   "id": "t15q6",
+   "theme": 15,
+   "block": 4,
+   "q": "Els béns comunals es caracteritzen perquè:",
+   "options": [
+    "El seu aprofitament correspon al comú dels veïns",
+    "Pertanyen en copropietat a l'entitat local i a la comarca",
+    "Són béns patrimonials cedits temporalment als veïns",
+    "Poden alienar-se per subhasta amb autorització del ple"
+   ],
+   "correct": 0,
+   "explain": "Els COMUNALS (arts. 79.3 LRBRL i 2.4 RBEL) són els béns l'APROFITAMENT dels quals correspon al COMÚ DELS VEÏNS; comparteixen règim amb els demanials: INALIENABLES, IMPRESCRIPTIBLES I INEMBARGABLES. L'aprofitament és preferentment col·lectiu i, si no és possible, per costum o ordenança.",
+   "source": "RD1372_1986",
+   "article": "Art. 2.4 RBEL"
+  },
+  {
+   "id": "t15q7",
+   "theme": 15,
+   "block": 4,
+   "q": "L'inventari de béns i drets de l'entitat local:",
+   "options": [
+    "L'aprova l'alcalde i es revisa cada cinc anys per la secretaria",
+    "L'aprova el ple i és objecte de rectificació anual i de comprovació a cada renovació de la corporació",
+    "L'aprova la junta de govern i el custodia el registre de la propietat",
+    "El formen els serveis tècnics i no requereix aprovació formal"
+   ],
+   "correct": 1,
+   "explain": "Els arts. 17 i seg. RBEL i 86 TRRL exigeixen INVENTARI VALORAT de tots els béns i drets: l'APROVA EL PLE, es RECTIFICA ANUALMENT i es COMPROVA sempre que es renova la corporació; se'n tramet còpia a l'Estat i a la comunitat autònoma. La certificació de l'inventari, amb el vistiplau de l'alcalde, serveix per a la INSCRIPCIÓ registral.",
+   "source": "RD1372_1986",
+   "article": "Arts. 17-36 RBEL"
+  },
+  {
+   "id": "t15q8",
+   "theme": 15,
+   "block": 4,
+   "q": "La permuta de béns patrimonials de les entitats locals exigeix que la diferència de valor entre els béns permutats:",
+   "options": [
+    "No sigui superior al 50% del valor del bé municipal ofert",
+    "No sigui superior al 25% dels recursos ordinaris del pressupost",
+    "No sigui superior al 40% del que el tingui més alt",
+    "Sigui compensada íntegrament en metàl·lic per l'altra part"
+   ],
+   "correct": 2,
+   "explain": "L'art. 112.2 RBEL admet la PERMUTA, prèvia acreditació a l'expedient de la seva necessitat, sempre que la diferència de valor entre els béns NO SUPERI EL 40% DEL QUE EL TINGUI MÉS ALT. És excepció a la regla general d'alienació per SUBHASTA PÚBLICA.",
+   "source": "RD1372_1986",
+   "article": "Art. 112.2 RBEL"
+  },
+  {
+   "id": "t15q9",
+   "theme": 15,
+   "block": 4,
+   "q": "Si un bé cedit gratuïtament per un ajuntament no es destina a l'ús previst en el termini fixat pel Reglament de béns:",
+   "options": [
+    "S'ha de tramitar un expedient d'expropiació per recuperar-lo",
+    "El cessionari pot consolidar la propietat pagant-ne el preu just",
+    "Cal una sentència civil que declari la resolució de la cessió",
+    "Reverteix automàticament de ple dret al patrimoni de l'entitat cedent"
+   ],
+   "correct": 3,
+   "explain": "L'art. 111 RBEL: si el bé cedit no es destina a l'ús previst dins de 5 ANYS, o deixa de ser-hi destinat dins dels 30 ANYS següents, la cessió es considera resolta i el bé REVERTEIX AUTOMÀTICAMENT amb tots els seus components i accessions. Les cessions gratuïtes només poden fer-se a entitats públiques o institucions privades sense ànim de lucre.",
+   "source": "RD1372_1986",
+   "article": "Art. 111 RBEL"
+  },
+  {
+   "id": "t15q10",
+   "theme": 15,
+   "block": 4,
+   "q": "L'ús comú especial del domini públic local (per exemple, un gual d'accés de vehicles) se subjecta a:",
+   "options": [
+    "Llicència, per la intensitat o perillositat singular de l'ús",
+    "Concessió administrativa atorgada per licitació pública",
+    "Comunicació prèvia sense cap títol habilitant posterior",
+    "Contracte d'arrendament demanial de durada limitada"
+   ],
+   "correct": 0,
+   "explain": "Classificació dels usos: COMÚ GENERAL (lliure i gratuït), COMÚ ESPECIAL (concurrència de circumstàncies singulars d'intensitat, perillositat o rendibilitat: subjecte a LLICÈNCIA, com guals i terrasses) i PRIVATIU (ocupació que exclou els altres: CONCESSIÓ demanial, màxim 75 anys). El desnonament administratiu permet extingir ocupacions sense títol.",
+   "source": "D336_1988",
+   "article": "Arts. 53 i seg. RPEL"
+  },
+  {
+   "id": "t16q6",
+   "theme": 16,
+   "block": 5,
+   "q": "Als efectes de graduar les sancions, hi ha reincidència quan es comet en el termini d'un any:",
+   "options": [
+    "Qualsevol infracció administrativa, encara que sigui d'una altra matèria",
+    "Més d'una infracció de la mateixa naturalesa declarada per resolució ferma en via administrativa",
+    "Una segona infracció greu mentre la primera està pendent de recurs",
+    "Més d'una infracció lleu sancionada amb simple apercebiment verbal"
+   ],
+   "correct": 1,
+   "explain": "L'art. 29.3.d Llei 40/2015 defineix la REINCIDÈNCIA com la comissió, EN EL TERMINI D'UN ANY, de MÉS D'UNA INFRACCIÓ DE LA MATEIXA NATURALESA quan així hagi estat declarat per RESOLUCIÓ FERMA en via administrativa. És criteri de graduació dins del principi de PROPORCIONALITAT.",
+   "source": "L40_2015",
+   "article": "Art. 29.3.d Llei 40/2015"
+  },
+  {
+   "id": "t16q7",
+   "theme": 16,
+   "block": 5,
+   "q": "Si uns mateixos fets són objecte d'un procés penal en curs, l'òrgan administratiu sancionador ha de:",
+   "options": [
+    "Continuar el procediment i executar la sanció si es dicta primer",
+    "Arxivar definitivament les actuacions administratives incoades",
+    "Suspendre el procediment fins que recaigui resolució judicial ferma",
+    "Acumular ambdós procediments davant el jutjat d'instrucció"
+   ],
+   "correct": 2,
+   "explain": "Per la PREFERÈNCIA DE L'ORDRE PENAL (art. 31 Llei 40/2015 i doctrina del TC), l'Administració comunica els fets al Ministeri Fiscal i SUSPÈN el procediment; si la sentència condemna amb identitat de subjecte, fet i fonament, NO es pot sancionar administrativament (non bis in idem), i els FETS PROVATS penals la vinculen.",
+   "source": "L40_2015",
+   "article": "Art. 31 Llei 40/2015"
+  },
+  {
+   "id": "t16q8",
+   "theme": 16,
+   "block": 5,
+   "q": "Les sancions per infraccions LLEUS prescriuen al cap de:",
+   "options": [
+    "6 mesos",
+    "2 anys",
+    "3 anys",
+    "1 any"
+   ],
+   "correct": 3,
+   "explain": "Art. 30 Llei 40/2015: les SANCIONS prescriuen als 3 anys (molt greus), 2 anys (greus) i 1 ANY (lleus), comptats des de l'endemà de la FERMESA en via administrativa. Compte amb el parany: les INFRACCIONS lleus prescriuen als 6 MESOS, però les seves SANCIONS a l'ANY.",
+   "source": "L40_2015",
+   "article": "Art. 30.1 Llei 40/2015"
+  },
+  {
+   "id": "t16q9",
+   "theme": 16,
+   "block": 5,
+   "q": "En el procediment sancionador és una garantia essencial que:",
+   "options": [
+    "La fase instructora i la sancionadora s'encomanin a òrgans diferents",
+    "La resolució l'adopti sempre un òrgan col·legiat de tres membres",
+    "L'expedient el tramiti un funcionari aliè a la corporació actuant",
+    "El presumpte infractor designi l'instructor d'una terna proposada"
+   ],
+   "correct": 0,
+   "explain": "L'art. 63.1 Llei 39/2015 exigeix la DEGUDA SEPARACIÓ entre la FASE INSTRUCTORA i la SANCIONADORA, encomanades a ÒRGANS DIFERENTS. A més: el procediment s'inicia SEMPRE D'OFICI, l'acord d'iniciació té el contingut de l'art. 64 (amb dret de recusació de l'instructor) i regeix la PRESUMPCIÓ D'INNOCÈNCIA.",
+   "source": "L39_2015",
+   "article": "Art. 63.1 Llei 39/2015"
+  },
+  {
+   "id": "t16q10",
+   "theme": 16,
+   "block": 5,
+   "q": "La prescripció de la infracció, interrompuda per la iniciació del procediment sancionador, es reprèn si el procediment resta paralitzat:",
+   "options": [
+    "Més de tres mesos per qualsevol causa, fins i tot imputable a ell",
+    "Més d'un mes per causa no imputable al presumpte responsable",
+    "Més de sis mesos per causa imputable a l'Administració actuant",
+    "Més de quinze dies des de la proposta de resolució notificada"
+   ],
+   "correct": 1,
+   "explain": "L'art. 30.2 Llei 40/2015: la iniciació del procediment, AMB CONEIXEMENT DE L'INTERESSAT, interromp la prescripció de la infracció; el termini ES REPRÈN si l'expedient està PARALITZAT MÉS D'UN MES per causa NO IMPUTABLE al presumpte responsable. Regla anàloga per a la prescripció de les sancions amb el procediment d'execució.",
+   "source": "L40_2015",
+   "article": "Art. 30.2 Llei 40/2015"
+  },
+  {
+   "id": "t17q6",
+   "theme": 17,
+   "block": 5,
+   "q": "Els danys derivats de fets que no es podien preveure o evitar segons l'estat dels coneixements de la ciència o de la tècnica (riscos del desenvolupament):",
+   "options": [
+    "Són indemnitzables per aplicació del principi de responsabilitat objectiva",
+    "Són indemnitzables al 50% en concepte de repartiment equitatiu del risc",
+    "No són indemnitzables, sens perjudici de les prestacions assistencials que la llei estableixi",
+    "Només són indemnitzables si deriven del funcionament anormal del servei"
+   ],
+   "correct": 2,
+   "explain": "L'art. 34.1 Llei 40/2015 exclou de la indemnització els RISCOS DEL DESENVOLUPAMENT: danys que no s'haguessin pogut preveure o evitar segons L'ESTAT DELS CONEIXEMENTS de la ciència o de la tècnica en el moment de la producció, sens perjudici de les prestacions assistencials o econòmiques que les lleis estableixin.",
+   "source": "L40_2015",
+   "article": "Art. 34.1 Llei 40/2015"
+  },
+  {
+   "id": "t17q7",
+   "theme": 17,
+   "block": 5,
+   "q": "En la gestió dimanant de fórmules conjuntes d'actuació entre diverses administracions, si l'instrument regulador no determina la distribució de la responsabilitat:",
+   "options": [
+    "La responsabilitat és mancomunada a parts iguals entre totes",
+    "Respon exclusivament l'administració de més àmbit territorial",
+    "Respon la que tenia la competència material predominant",
+    "La responsabilitat és solidària"
+   ],
+   "correct": 3,
+   "explain": "L'art. 33 Llei 40/2015: en fórmules CONJUNTES, la responsabilitat es fixa a l'instrument regulador i, si no, és SOLIDÀRIA. En altres supòsits de concurrència, es distribueix segons COMPETÈNCIA, INTERÈS PÚBLIC TUTELAT i INTENSITAT DE LA INTERVENCIÓ; si no es pot determinar, també SOLIDÀRIA.",
+   "source": "L40_2015",
+   "article": "Art. 33 Llei 40/2015"
+  },
+  {
+   "id": "t17q8",
+   "theme": 17,
+   "block": 5,
+   "q": "En la responsabilitat de l'Estat legislador per una llei declarada inconstitucional, són indemnitzables els danys produïts:",
+   "options": [
+    "En els 5 anys anteriors a la publicació de la sentència que declara la inconstitucionalitat",
+    "En els 4 anys anteriors a la presentació de la reclamació patrimonial",
+    "Des de l'entrada en vigor de la llei fins a la seva derogació expressa",
+    "En l'any immediatament anterior a la fermesa de la sentència del TC"
+   ],
+   "correct": 0,
+   "explain": "L'art. 32.4 i 34.1 Llei 40/2015 exigeixen sentència FERMA desestimatòria prèvia contra l'actuació danyosa en què s'hagués AL·LEGAT la inconstitucionalitat (o la infracció del dret de la UE), i limiten la indemnització als danys dels 5 ANYS ANTERIORS a la publicació de la sentència del TC (o del TJUE).",
+   "source": "L40_2015",
+   "article": "Arts. 32.4 i 34.1 Llei 40/2015"
+  },
+  {
+   "id": "t17q9",
+   "theme": 17,
+   "block": 5,
+   "q": "Dels danys causats a tercers durant l'execució d'un contracte administratiu en respon, com a regla general:",
+   "options": [
+    "L'Administració contractant en tot cas, pel caràcter objectiu de la seva responsabilitat",
+    "El contractista, llevat que derivin d'una ordre de l'Administració o de vicis del projecte",
+    "L'asseguradora del contracte, fins al límit de la garantia definitiva dipositada",
+    "Solidàriament el contractista i el director facultatiu de la prestació"
+   ],
+   "correct": 1,
+   "explain": "L'art. 196 LCSP imposa al CONTRACTISTA la indemnització dels danys a tercers en execució del contracte, LLEVAT que siguin conseqüència IMMEDIATA I DIRECTA d'una ORDRE de l'Administració o dels VICIS DEL PROJECTE elaborat per ella (en obres i subministrament de fabricació): llavors respon l'Administració.",
+   "source": "LCSP",
+   "article": "Art. 196 LCSP"
+  },
+  {
+   "id": "t17q10",
+   "theme": 17,
+   "block": 5,
+   "q": "La simple anul·lació en via administrativa o contenciosa d'un acte administratiu:",
+   "options": [
+    "Genera automàticament el dret a ser indemnitzat pels perjudicis",
+    "Obliga a incoar d'ofici un procediment de responsabilitat patrimonial",
+    "No pressuposa, per si mateixa, dret a indemnització",
+    "Comporta una indemnització taxada equivalent a l'interès legal"
+   ],
+   "correct": 2,
+   "explain": "L'art. 32.1, segon paràgraf, Llei 40/2015 ho diu expressament: l'ANUL·LACIÓ d'actes o disposicions NO PRESSUPOSA, per si mateixa, dret a indemnització. Caldrà acreditar igualment tots els requisits de la lesió: dany efectiu, antijuridicitat, nexe causal amb el funcionament del servei.",
+   "source": "L40_2015",
+   "article": "Art. 32.1 Llei 40/2015"
+  },
+  {
+   "id": "t18q6",
+   "theme": 18,
+   "block": 5,
+   "q": "El personal eventual (art. 12 TREBEP):",
+   "options": [
+    "Ocupa llocs de treball estructurals mentre no es proveeixin per concurs",
+    "Exerceix potestats públiques per delegació expressa de l'òrgan competent",
+    "Es nomena per concurs de mèrits entre funcionaris de carrera del grup A1",
+    "Només fa funcions de confiança o assessorament especial i cessa quan cessa l'autoritat que el va nomenar"
+   ],
+   "correct": 3,
+   "explain": "El personal EVENTUAL es nomena i cessa LLIUREMENT per a funcions expressament qualificades de CONFIANÇA O ASSESSORAMENT ESPECIAL, amb retribucions públiques; el seu CESSAMENT és automàtic quan cessa l'autoritat a la qual serveix, i la seva condició no pot ser MÈRIT per a l'accés o la promoció.",
+   "source": "TREBEP",
+   "article": "Art. 12 TREBEP"
+  },
+  {
+   "id": "t18q7",
+   "theme": 18,
+   "block": 5,
+   "q": "L'oferta d'ocupació pública s'ha d'executar (convocatòria dels processos selectius) dins del termini improrrogable de:",
+   "options": [
+    "3 anys",
+    "2 anys",
+    "4 anys",
+    "5 anys"
+   ],
+   "correct": 0,
+   "explain": "L'art. 70.1 TREBEP obliga a convocar els processos selectius de les places compromeses a l'OFERTA D'OCUPACIÓ PÚBLICA dins del termini IMPRORROGABLE DE 3 ANYS. L'oferta s'ha d'aprovar anualment i publicar al diari oficial corresponent.",
+   "source": "TREBEP",
+   "article": "Art. 70.1 TREBEP"
+  },
+  {
+   "id": "t18q8",
+   "theme": 18,
+   "block": 5,
+   "q": "Són retribucions bàsiques dels funcionaris:",
+   "options": [
+    "El sou, el complement de destinació i el complement específic",
+    "El sou i els triennis, més les pagues extraordinàries que els incorporen",
+    "El sou, els triennis i el complement de productivitat individual",
+    "El sou base i les gratificacions per serveis extraordinaris prestats"
+   ],
+   "correct": 1,
+   "explain": "Segons els arts. 22 i 23 TREBEP, les BÀSIQUES (fixades per la Llei de pressupostos de l'Estat) són el SOU del subgrup i els TRIENNIS; les PAGUES EXTRAORDINÀRIES (DUES l'any) incorporen bàsiques i complementàries. Destinació, específic i productivitat són COMPLEMENTÀRIES (retribueixen carrera, lloc i rendiment).",
+   "source": "TREBEP",
+   "article": "Arts. 22-23 TREBEP"
+  },
+  {
+   "id": "t18q9",
+   "theme": 18,
+   "block": 5,
+   "q": "Dels òrgans de selecció dels processos d'accés a l'ocupació pública NO en poden formar part:",
+   "options": [
+    "Els funcionaris de carrera d'una administració diferent de la convocant",
+    "Els empleats públics amb menys de deu anys de serveis efectius",
+    "El personal d'elecció o de designació política, els funcionaris interins i el personal eventual",
+    "Els representants sindicals que hagin exercit càrrec en els últims 4 anys"
+   ],
+   "correct": 2,
+   "explain": "L'art. 60 TREBEP exigeix òrgans COL·LEGIATS, amb composició ajustada a la PARITAT entre dona i home, i n'exclou el personal D'ELECCIÓ O DESIGNACIÓ POLÍTICA, els FUNCIONARIS INTERINS i el PERSONAL EVENTUAL; la pertinença és sempre A TÍTOL INDIVIDUAL, sense representació de ningú.",
+   "source": "TREBEP",
+   "article": "Art. 60 TREBEP"
+  },
+  {
+   "id": "t18q10",
+   "theme": 18,
+   "block": 5,
+   "q": "El sistema selectiu de CONCURS, consistent únicament en la valoració de mèrits:",
+   "options": [
+    "És el sistema ordinari per a l'accés a la condició de personal laboral fix",
+    "Es pot utilitzar sempre que ho justifiqui la naturalesa de les places",
+    "Està prohibit en tot cas per als processos de nova ocupació pública",
+    "Només es pot aplicar amb caràcter excepcional i en virtut de llei"
+   ],
+   "correct": 3,
+   "explain": "L'art. 61.6 i 61.7 TREBEP fixa com a sistemes ordinaris l'OPOSICIÓ i el CONCURS OPOSICIÓ; el CONCURS de valoració de mèrits és EXCEPCIONAL i només SI HO PREVEU UNA LLEI (com la Llei 20/2021 per a l'estabilització de places de llarga temporalitat). Les proves han de guardar RELACIÓ amb les funcions dels llocs.",
+   "source": "TREBEP",
+   "article": "Art. 61 TREBEP"
   }
  ]
 }
