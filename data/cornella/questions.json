@@ -1,1 +1,487 @@
-{"_meta": {"info": "Temari en preparació"}, "questions": []}
+{
+ "_meta": {
+  "info": "Preguntes tipus test del temari general A1 (part comuna) de Cornellà de Llobregat. Material no oficial generat amb IA; contrasta sempre amb la normativa consolidada."
+ },
+ "questions": [
+  {
+   "id": "t01q1",
+   "theme": 1,
+   "block": 1,
+   "q": "Quants articles té la Constitució espanyola de 1978?",
+   "options": [
+    "169 articles",
+    "168 articles",
+    "179 articles",
+    "165 articles"
+   ],
+   "correct": 0,
+   "explain": "La CE consta d'un preàmbul, un títol preliminar, 10 títols amb un TOTAL DE 169 ARTICLES, 4 disposicions addicionals, 9 transitòries, 1 derogatòria i 1 final. És la xifra més preguntada del tema.",
+   "source": "CE1978",
+   "article": "Estructura CE 1978"
+  },
+  {
+   "id": "t01q2",
+   "theme": 1,
+   "block": 1,
+   "q": "Segons l'art. 1.1 CE, quins són els valors superiors de l'ordenament jurídic?",
+   "options": [
+    "La llibertat, la dignitat, la igualtat i la solidaritat",
+    "La llibertat, la justícia, la igualtat i el pluralisme polític",
+    "La legalitat, la justícia, la igualtat i la democràcia",
+    "La llibertat, la justícia, la seguretat jurídica i el pluralisme"
+   ],
+   "correct": 1,
+   "explain": "L'art. 1.1 CE proclama Espanya com a ESTAT SOCIAL I DEMOCRÀTIC DE DRET i enumera QUATRE valors superiors: LLIBERTAT, JUSTÍCIA, IGUALTAT i PLURALISME POLÍTIC. La dignitat (art. 10) i la seguretat jurídica (art. 9.3) no en formen part.",
+   "source": "CE1978",
+   "article": "Art. 1.1 CE"
+  },
+  {
+   "id": "t01q3",
+   "theme": 1,
+   "block": 1,
+   "q": "Quin d'aquests principis NO està garantit per l'art. 9.3 CE?",
+   "options": [
+    "La publicitat de les normes",
+    "La interdicció de l'arbitrarietat dels poders públics",
+    "La presumpció d'innocència",
+    "La irretroactivitat de les disposicions sancionadores no favorables"
+   ],
+   "correct": 2,
+   "explain": "L'art. 9.3 garanteix 7 principis: legalitat, jerarquia normativa, publicitat de les normes, irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets, seguretat jurídica, responsabilitat i interdicció de l'arbitrarietat. La PRESUMPCIÓ D'INNOCÈNCIA és un dret fonamental de l'art. 24.2 CE.",
+   "source": "CE1978",
+   "article": "Art. 9.3 CE"
+  },
+  {
+   "id": "t01q4",
+   "theme": 1,
+   "block": 1,
+   "q": "La reforma constitucional pel procediment agreujat de l'art. 168 CE s'aplica a:",
+   "options": [
+    "Tot el títol I i el títol II de la Constitució",
+    "El títol preliminar, tot el títol I i el títol X",
+    "Només el títol II (la Corona) i el títol X (reforma)",
+    "El títol preliminar, la secció 1a del capítol II del títol I i el títol II"
+   ],
+   "correct": 3,
+   "explain": "L'art. 168 (revisió agreujada: 2/3 de cada cambra, DISSOLUCIÓ de les Corts, ratificació per les noves Corts i REFERÈNDUM OBLIGATORI) protegeix el TÍTOL PRELIMINAR, la SECCIÓ 1a DEL CAPÍTOL II DEL TÍTOL I (drets fonamentals i llibertats públiques, arts. 15-29) i el TÍTOL II (la Corona).",
+   "source": "CE1978",
+   "article": "Art. 168 CE"
+  },
+  {
+   "id": "t01q5",
+   "theme": 1,
+   "block": 1,
+   "q": "En la reforma constitucional ordinària (art. 167 CE), el referèndum de ratificació és:",
+   "options": [
+    "Facultatiu: només si ho demana 1/10 de qualsevol cambra dins dels 15 dies següents",
+    "Obligatori en tot cas un cop aprovada la reforma per les Corts",
+    "Facultatiu: només si ho acorda el Govern mitjançant reial decret",
+    "Obligatori només quan la reforma afecta drets del títol I"
+   ],
+   "correct": 0,
+   "explain": "A la via de l'art. 167 (majoria de 3/5 de cada cambra), el referèndum NO és automàtic: cal que el sol·liciti UNA DESENA PART dels membres de qualsevol de les cambres dins dels 15 DIES següents a l'aprovació. A la via agreujada de l'art. 168, en canvi, el referèndum és sempre OBLIGATORI.",
+   "source": "CE1978",
+   "article": "Art. 167.3 CE"
+  },
+  {
+   "id": "t02q1",
+   "theme": 2,
+   "block": 1,
+   "q": "Segons l'art. 68 CE, el Congrés dels Diputats es compon de:",
+   "options": [
+    "350 diputats fixats directament per la Constitució",
+    "Un mínim de 300 i un màxim de 400 diputats",
+    "Un mínim de 300 i un màxim de 450 diputats",
+    "Un mínim de 250 i un màxim de 400 diputats"
+   ],
+   "correct": 1,
+   "explain": "La CE fixa una FORQUILLA de 300 A 400 DIPUTATS (art. 68.1); és la LOREG (LO 5/1985) la que concreta la xifra de 350. Pregunta clàssica de test: la Constitució NO fixa 350.",
+   "source": "CE1978",
+   "article": "Art. 68 CE"
+  },
+  {
+   "id": "t02q2",
+   "theme": 2,
+   "block": 1,
+   "q": "La moció de censura de l'art. 113 CE exigeix per ser aprovada:",
+   "options": [
+    "La majoria simple del Congrés en una única votació",
+    "La majoria de 3/5 del Congrés i la dissolució posterior del Senat",
+    "La majoria absoluta del Congrés i incloure un candidat a la presidència",
+    "La majoria absoluta de Congrés i Senat en sessió conjunta"
+   ],
+   "correct": 2,
+   "explain": "És una moció CONSTRUCTIVA: l'ha de proposar almenys 1/10 DELS DIPUTATS, ha d'incloure un CANDIDAT alternatiu a la presidència i només prospera per MAJORIA ABSOLUTA del Congrés; no es pot votar fins passats 5 dies. El Senat no hi intervé.",
+   "source": "CE1978",
+   "article": "Art. 113 CE"
+  },
+  {
+   "id": "t02q3",
+   "theme": 2,
+   "block": 1,
+   "q": "El decret llei (art. 86 CE) ha de ser sotmès a debat i votació del Congrés per convalidar-lo o derogar-lo en el termini de:",
+   "options": [
+    "20 dies des de la seva publicació al BOE",
+    "2 mesos des de la seva promulgació",
+    "15 dies des de la seva entrada en vigor",
+    "30 dies des de la seva promulgació"
+   ],
+   "correct": 3,
+   "explain": "El decret llei és una norma PROVISIONAL que el Govern dicta en cas d'EXTRAORDINÀRIA I URGENT NECESSITAT; el Congrés (no el Senat) l'ha de convalidar o derogar dins dels 30 DIES següents a la promulgació, i pot tramitar-lo com a projecte de llei pel procediment d'urgència.",
+   "source": "CE1978",
+   "article": "Art. 86 CE"
+  },
+  {
+   "id": "t02q4",
+   "theme": 2,
+   "block": 1,
+   "q": "El Consell General del Poder Judicial està integrat per (art. 122.3 CE):",
+   "options": [
+    "El president del Tribunal Suprem i 20 vocals nomenats per 5 anys",
+    "El president del Tribunal Constitucional i 20 vocals per 9 anys",
+    "El president del Tribunal Suprem i 12 vocals nomenats per 4 anys",
+    "El ministre de Justícia i 20 vocals elegits per 5 anys"
+   ],
+   "correct": 0,
+   "explain": "El CGPJ el formen el PRESIDENT DEL TS (que el presideix) i VINT VOCALS nomenats pel Rei per un període de CINC ANYS: 12 entre jutges i magistrats i 8 entre advocats i altres juristes de reconeguda competència amb més de 15 anys d'exercici, elegits per majoria de 3/5 de cada cambra.",
+   "source": "CE1978",
+   "article": "Art. 122.3 CE"
+  },
+  {
+   "id": "t02q5",
+   "theme": 2,
+   "block": 1,
+   "q": "En les eleccions al Senat, a cada província s'elegeixen:",
+   "options": [
+    "3 senadors",
+    "4 senadors",
+    "5 senadors",
+    "6 senadors"
+   ],
+   "correct": 1,
+   "explain": "L'art. 69 CE assigna QUATRE senadors per província; a més: 3 per Gran Canària, Mallorca i Tenerife; 1 per la resta d'illes; 2 per Ceuta i 2 per Melilla, i cada comunitat autònoma en designa 1 MÉS 1 PER MILIÓ d'habitants. El Senat és la cambra de REPRESENTACIÓ TERRITORIAL.",
+   "source": "CE1978",
+   "article": "Art. 69 CE"
+  },
+  {
+   "id": "t03q1",
+   "theme": 3,
+   "block": 1,
+   "q": "Segons la Llei 40/2015, són òrgans SUPERIORS de l'Administració General de l'Estat:",
+   "options": [
+    "Els ministres i els subsecretaris",
+    "Els secretaris d'Estat i els directors generals",
+    "Els ministres i els secretaris d'Estat",
+    "Els ministres, els subsecretaris i els directors generals"
+   ],
+   "correct": 2,
+   "explain": "L'art. 55 Llei 40/2015 distingeix òrgans SUPERIORS (MINISTRES i SECRETARIS D'ESTAT, que estableixen els plans d'actuació) i òrgans DIRECTIUS (subsecretaris, secretaris generals, secretaris generals tècnics, directors generals i subdirectors generals).",
+   "source": "L40_2015",
+   "article": "Art. 55 Llei 40/2015"
+  },
+  {
+   "id": "t03q2",
+   "theme": 3,
+   "block": 1,
+   "q": "Perquè el Govern adopti les mesures de coerció de l'art. 155 CE contra una comunitat autònoma cal:",
+   "options": [
+    "Dictamen favorable del Consell d'Estat i majoria absoluta del Congrés",
+    "Autorització prèvia del Tribunal Constitucional per majoria simple",
+    "Acord del Consell de Ministres ratificat per 2/3 del Senat",
+    "Requeriment previ al president de la CA i aprovació per majoria absoluta del Senat"
+   ],
+   "correct": 3,
+   "explain": "L'art. 155 exigeix: 1) que la CA incompleixi obligacions constitucionals o legals o atempti greument contra l'interès general d'Espanya; 2) REQUERIMENT previ del Govern al PRESIDENT de la comunitat; i 3) si no és atès, aprovació de les mesures per MAJORIA ABSOLUTA DEL SENAT.",
+   "source": "CE1978",
+   "article": "Art. 155 CE"
+  },
+  {
+   "id": "t03q3",
+   "theme": 3,
+   "block": 1,
+   "q": "Segons l'art. 152 CE, el president d'una comunitat autònoma és:",
+   "options": [
+    "Elegit per l'assemblea d'entre els seus membres i nomenat pel Rei",
+    "Elegit per sufragi universal directe dels ciutadans de la comunitat",
+    "Designat pel Govern de l'Estat a proposta de l'assemblea legislativa",
+    "Elegit pel consell de govern d'entre els consellers autonòmics"
+   ],
+   "correct": 0,
+   "explain": "L'organització institucional de l'art. 152 preveu: assemblea legislativa elegida per sufragi universal amb representació proporcional, consell de govern, i un PRESIDENT ELEGIT PER L'ASSEMBLEA D'ENTRE ELS SEUS MEMBRES I NOMENAT PEL REI, que dirigeix el consell de govern i té la suprema representació de la comunitat.",
+   "source": "CE1978",
+   "article": "Art. 152 CE"
+  },
+  {
+   "id": "t03q4",
+   "theme": 3,
+   "block": 1,
+   "q": "D'acord amb l'art. 154 CE, la direcció de l'Administració de l'Estat al territori d'una comunitat autònoma correspon a:",
+   "options": [
+    "El president de la comunitat autònoma",
+    "Un delegat nomenat pel Govern",
+    "El subdelegat del Govern a la província capital",
+    "El secretari d'Estat d'administracions territorials"
+   ],
+   "correct": 1,
+   "explain": "El DELEGAT DEL GOVERN dirigeix l'Administració de l'Estat al territori de la comunitat autònoma i la COORDINA, quan escaigui, amb l'administració pròpia de la comunitat (art. 154 CE). Els SUBDELEGATS actuen a nivell provincial sota la seva dependència (Llei 40/2015).",
+   "source": "CE1978",
+   "article": "Art. 154 CE"
+  },
+  {
+   "id": "t03q5",
+   "theme": 3,
+   "block": 1,
+   "q": "Segons la clàusula de tancament de l'art. 149.3 CE, el dret estatal és, respecte del dret de les comunitats autònomes:",
+   "options": [
+    "Preferent en tot cas",
+    "Subsidiari només si ho preveu l'estatut",
+    "Supletori en tot cas",
+    "Aplicable només a les comunitats de l'art. 143"
+   ],
+   "correct": 2,
+   "explain": "L'art. 149.3 conté tres regles: les matèries no atribuïdes a l'Estat poden ser assumides pels estatuts; les no assumides corresponen a l'Estat, les normes del qual PREVALEN en cas de conflicte sobre allò no exclusiu de les CCAA; i el dret estatal és, EN TOT CAS, SUPLETORI del dret autonòmic.",
+   "source": "CE1978",
+   "article": "Art. 149.3 CE"
+  },
+  {
+   "id": "t04q1",
+   "theme": 4,
+   "block": 1,
+   "q": "L'Estatut d'autonomia de Catalunya vigent va ser aprovat com a:",
+   "options": [
+    "Llei orgànica 4/1979, de 18 de desembre",
+    "Llei orgànica 2/2006, de 3 de maig",
+    "Llei orgànica 6/2007, de 19 de juny",
+    "Llei orgànica 6/2006, de 19 de juliol"
+   ],
+   "correct": 3,
+   "explain": "El vigent EAC és la LO 6/2006, DE 19 DE JULIOL, ratificada en REFERÈNDUM pel poble de Catalunya el 18 DE JUNY DE 2006. Va substituir l'Estatut de 1979 (LO 4/1979) i va ser parcialment anul·lat i reinterpretat per la STC 31/2010.",
+   "source": "EAC2006",
+   "article": "LO 6/2006 (EAC)"
+  },
+  {
+   "id": "t04q2",
+   "theme": 4,
+   "block": 1,
+   "q": "Quina és l'estructura de l'Estatut d'autonomia de Catalunya de 2006?",
+   "options": [
+    "Preàmbul, títol preliminar i 7 títols, amb 223 articles",
+    "Preàmbul, títol preliminar i 10 títols, amb 223 articles",
+    "Preàmbul, títol preliminar i 7 títols, amb 169 articles",
+    "Preàmbul i 9 títols, amb 240 articles"
+   ],
+   "correct": 0,
+   "explain": "L'EAC 2006 té PREÀMBUL, TÍTOL PRELIMINAR (arts. 1-14) i SET TÍTOLS: I drets i deures, II institucions, III poder judicial, IV competències, V relacions institucionals, VI finançament i VII reforma; en total 223 ARTICLES més les disposicions. No s'ha de confondre amb els 169 articles de la CE.",
+   "source": "EAC2006",
+   "article": "Estructura EAC 2006"
+  },
+  {
+   "id": "t04q3",
+   "theme": 4,
+   "block": 1,
+   "q": "Segons l'art. 6 EAC, la llengua occitana (aranès) és:",
+   "options": [
+    "Llengua oficial únicament al territori de l'Aran",
+    "Llengua oficial a Catalunya",
+    "Llengua protegida però sense estatus d'oficialitat",
+    "Llengua pròpia de tot Catalunya juntament amb el català"
+   ],
+   "correct": 1,
+   "explain": "L'art. 6.5 EAC declara que l'occità, denominat ARANÈS a l'Aran, és la llengua PRÒPIA d'aquest territori i és OFICIAL A CATALUNYA (no només a l'Aran). El català és la llengua pròpia de Catalunya, i són oficials el català i el castellà.",
+   "source": "EAC2006",
+   "article": "Art. 6.5 EAC"
+  },
+  {
+   "id": "t04q4",
+   "theme": 4,
+   "block": 1,
+   "q": "L'art. 56 EAC estableix que el Parlament de Catalunya es compon de:",
+   "options": [
+    "135 diputats fixats directament per l'Estatut",
+    "Un mínim de 85 i un màxim de 135 diputats",
+    "Un mínim de 100 i un màxim de 150 diputats",
+    "Un mínim de 120 i un màxim de 160 diputats"
+   ],
+   "correct": 2,
+   "explain": "L'Estatut fixa una FORQUILLA de 100 A 150 DIPUTATS elegits per a 4 anys; la xifra actual de 135 prové del règim electoral transitori (mentre Catalunya no aprovi llei electoral pròpia). Paral·lelisme amb el Congrés: la norma superior fixa forquilla, no xifra.",
+   "source": "EAC2006",
+   "article": "Art. 56 EAC"
+  },
+  {
+   "id": "t04q5",
+   "theme": 4,
+   "block": 1,
+   "q": "En les competències COMPARTIDES de l'art. 111 EAC, la Generalitat exerceix:",
+   "options": [
+    "Únicament la potestat reglamentària i la funció executiva",
+    "Totes les potestats de manera íntegra i excloent",
+    "Només la gestió dels serveis transferits per conveni",
+    "La potestat legislativa i executiva en el marc de les bases fixades per l'Estat"
+   ],
+   "correct": 3,
+   "explain": "L'art. 111 defineix les competències COMPARTIDES: la Generalitat legisla, desplega i executa EN EL MARC DE LES BASES estatals (principis o mínim comú normatiu). Les EXCLUSIVES (art. 110) comporten totes les potestats; les EXECUTIVES (art. 112), reglament organitzatiu i execució de la legislació estatal.",
+   "source": "EAC2006",
+   "article": "Art. 111 EAC"
+  },
+  {
+   "id": "t05q1",
+   "theme": 5,
+   "block": 1,
+   "q": "La declaració Schuman, considerada l'origen de la construcció europea, es va fer pública el:",
+   "options": [
+    "9 de maig de 1950",
+    "25 de març de 1957",
+    "18 d'abril de 1951",
+    "1 de gener de 1958"
+   ],
+   "correct": 0,
+   "explain": "El 9 DE MAIG DE 1950 (avui DIA D'EUROPA) el ministre francès Robert Schuman va proposar sotmetre la producció francoalemanya de carbó i acer a una autoritat comuna: en va sortir la CECA (Tractat de París, 18-4-1951). Els Tractats de Roma (CEE i EURATOM) es van signar el 25-3-1957.",
+   "source": "TUE",
+   "article": "Declaració Schuman 1950"
+  },
+  {
+   "id": "t05q2",
+   "theme": 5,
+   "block": 1,
+   "q": "Els Tractats de Roma de 25 de març de 1957 van crear:",
+   "options": [
+    "La CECA i la CEE",
+    "La CEE i l'EURATOM",
+    "La Unió Europea i la unió duanera",
+    "La CECA, la CEE i l'EURATOM"
+   ],
+   "correct": 1,
+   "explain": "A Roma es van signar DOS tractats: el de la COMUNITAT ECONÒMICA EUROPEA (mercat comú) i el de la COMUNITAT EUROPEA DE L'ENERGIA ATÒMICA (EURATOM), en vigor l'1-1-1958. La CECA ja s'havia creat pel Tractat de París de 1951 (vigent 50 anys, extingida el 2002).",
+   "source": "TFUE",
+   "article": "Tractats de Roma 1957"
+  },
+  {
+   "id": "t05q3",
+   "theme": 5,
+   "block": 1,
+   "q": "El Tractat de Maastricht, que va crear la Unió Europea i la ciutadania europea, va entrar en vigor:",
+   "options": [
+    "L'1 de juliol de 1987",
+    "L'1 de maig de 1999",
+    "L'1 de novembre de 1993",
+    "L'1 de desembre de 2009"
+   ],
+   "correct": 2,
+   "explain": "El TUE es va signar a Maastricht el 7-2-1992 i va entrar en vigor l'1-11-1993: va crear la UE amb els TRES PILARS, la CIUTADANIA de la Unió i el camí cap a la unió econòmica i monetària. L'1-7-1987 és l'Acta Única; l'1-5-1999, Amsterdam; l'1-12-2009, Lisboa.",
+   "source": "TUE",
+   "article": "Tractat de Maastricht"
+  },
+  {
+   "id": "t05q4",
+   "theme": 5,
+   "block": 1,
+   "q": "Quina d'aquestes aportacions correspon al Tractat de Lisboa (2007)?",
+   "options": [
+    "Crear la ciutadania de la Unió i el sistema de tres pilars",
+    "Fixar l'objectiu del mercat interior per al 31 de desembre de 1992",
+    "Incorporar l'acervo de Schengen al marc de la Unió",
+    "Atribuir a la UE personalitat jurídica única i suprimir l'estructura de pilars"
+   ],
+   "correct": 3,
+   "explain": "LISBOA (signat el 13-12-2007, vigor l'1-12-2009) dota la UE de PERSONALITAT JURÍDICA ÚNICA, suprimeix els pilars, dona a la CARTA DE DRETS FONAMENTALS el mateix valor que els tractats, crea el president estable del Consell Europeu i l'Alt Representant, i regula la retirada (art. 50). La ciutadania i els pilars són de Maastricht; el mercat interior, de l'Acta Única; Schengen, d'Amsterdam.",
+   "source": "TUE",
+   "article": "Tractat de Lisboa"
+  },
+  {
+   "id": "t05q5",
+   "theme": 5,
+   "block": 1,
+   "q": "La iniciativa ciutadana europea introduïda pel Tractat de Lisboa exigeix el suport de:",
+   "options": [
+    "Un milió de ciutadans d'un nombre significatiu d'estats membres",
+    "Cinc-cents mil ciutadans de com a mínim la meitat dels estats",
+    "Dos milions de ciutadans de tots els estats membres",
+    "Un milió de ciutadans d'un únic estat membre com a mínim"
+   ],
+   "correct": 0,
+   "explain": "L'art. 11.4 TUE permet que UN MILIÓ de ciutadans de la Unió, nacionals d'un NOMBRE SIGNIFICATIU d'estats membres, convidin la COMISSIÓ a presentar una proposta d'acte jurídic. No s'ha de confondre amb la iniciativa legislativa popular espanyola (500.000 signatures).",
+   "source": "TUE",
+   "article": "Art. 11.4 TUE"
+  },
+  {
+   "id": "t06q1",
+   "theme": 6,
+   "block": 2,
+   "q": "Segons l'art. 141.1 CE, qualsevol alteració dels límits provincials ha de ser aprovada per:",
+   "options": [
+    "El Govern mitjançant reial decret acordat en Consell de Ministres",
+    "Les Corts Generals mitjançant llei orgànica",
+    "La comunitat autònoma afectada mitjançant llei del seu parlament",
+    "Les diputacions provincials afectades amb referèndum posterior"
+   ],
+   "correct": 1,
+   "explain": "La província és entitat local amb personalitat jurídica pròpia i DIVISIÓ TERRITORIAL per al compliment de les activitats de l'Estat; qualsevol ALTERACIÓ DELS SEUS LÍMITS exigeix LLEI ORGÀNICA (art. 141.1 CE). En canvi, l'alteració de termes municipals es regula per la legislació autonòmica.",
+   "source": "CE1978",
+   "article": "Art. 141.1 CE"
+  },
+  {
+   "id": "t06q2",
+   "theme": 6,
+   "block": 2,
+   "q": "La Carta europea de l'autonomia local va ser adoptada a:",
+   "options": [
+    "Brussel·les, el 15 d'octubre de 1988",
+    "Maastricht, el 7 de febrer de 1985",
+    "Estrasburg, el 15 d'octubre de 1985",
+    "Roma, el 25 de març de 1986"
+   ],
+   "correct": 2,
+   "explain": "La CEAL es va fer a ESTRASBURG el 15-10-1985 en el si del CONSELL D'EUROPA (no de la UE) i Espanya la va ratificar el 1988. El seu art. 3 defineix l'autonomia local com el DRET I LA CAPACITAT EFECTIVA de les entitats locals d'ordenar i gestionar una part important dels afers públics.",
+   "source": "CEAL",
+   "article": "CEAL 1985"
+  },
+  {
+   "id": "t06q3",
+   "theme": 6,
+   "block": 2,
+   "q": "Quan l'Estat o una comunitat autònoma consideren que un acte local infringeix l'ordenament jurídic (art. 65 LRBRL), poden requerir l'entitat local perquè l'anul·li en el termini de:",
+   "options": [
+    "10 dies naturals des de la publicació de l'acord al butlletí",
+    "1 mes des de l'adopció de l'acord pel ple de la corporació",
+    "2 mesos des de la recepció de la comunicació de l'acord",
+    "15 dies hàbils des de la recepció de la comunicació de l'acord"
+   ],
+   "correct": 3,
+   "explain": "L'art. 65 LRBRL permet REQUERIR l'anul·lació de l'acte en el termini de 15 DIES HÀBILS des que reben la comunicació (l'entitat local té 1 MES per atendre'l), o bé impugnar-lo DIRECTAMENT davant el contenciós en el termini de 2 MESOS. El requeriment és potestatiu, no obligatori.",
+   "source": "LRBRL",
+   "article": "Art. 65 LRBRL"
+  },
+  {
+   "id": "t06q4",
+   "theme": 6,
+   "block": 2,
+   "q": "La dissolució dels òrgans d'una corporació local per gestió greument danyosa per als interessos generals (art. 61 LRBRL) l'acorda:",
+   "options": [
+    "El Consell de Ministres, amb acord favorable del Senat",
+    "El Congrés dels Diputats, a proposta del Govern de l'Estat",
+    "El Tribunal Suprem, a instància del delegat del Govern",
+    "El parlament autonòmic, amb informe del Consell d'Estat"
+   ],
+   "correct": 0,
+   "explain": "L'art. 61 LRBRL preveu aquesta mesura excepcional: l'acorda el CONSELL DE MINISTRES, a iniciativa pròpia i amb coneixement del consell de govern autonòmic o a sol·licitud d'aquest, i amb ACORD FAVORABLE DEL SENAT. Es va aplicar per primera vegada a Marbella l'any 2006.",
+   "source": "LRBRL",
+   "article": "Art. 61 LRBRL"
+  },
+  {
+   "id": "t06q5",
+   "theme": 6,
+   "block": 2,
+   "q": "Per plantejar un conflicte en defensa de l'autonomia local davant el TC contra una llei d'àmbit general estan legitimats:",
+   "options": [
+    "1/5 dels municipis de l'àmbit d'aplicació que representin 1/4 de la població",
+    "1/7 dels municipis de l'àmbit d'aplicació que representin 1/6 de la població",
+    "Qualsevol municipi afectat individualment per la norma amb rang de llei",
+    "La meitat dels municipis de la província amb informe de la diputació"
+   ],
+   "correct": 1,
+   "explain": "Segons l'art. 75 ter LOTC (introduït per la LO 7/1999), estan legitimats el municipi o província DESTINATARI ÚNIC de la llei, o un nombre de municipis que suposin almenys UNA SETENA PART dels de l'àmbit d'aplicació i UNA SISENA PART de la seva població oficial (per a províncies: la meitat i la meitat).",
+   "source": "CEAL",
+   "article": "Art. 75 ter LOTC"
+  }
+ ]
+}
