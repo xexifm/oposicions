@@ -962,6 +962,486 @@
    "explain": "La DA 2a LCSP atribueix a l'ALCALDE les competències com a òrgan de contractació quan el valor estimat NO SUPERA EL 10% DELS RECURSOS ORDINARIS del pressupost NI els 6.000.000 €, incloses les pluriennals de fins a 4 anys; en la resta de casos, la competència és del PLE.",
    "source": "LCSP",
    "article": "DA 2a LCSP"
+  },
+  {
+   "id": "t13q1",
+   "theme": 13,
+   "block": 4,
+   "q": "Segons l'art. 49 de la Llei 40/2015, els convenis han de tenir una durada determinada que no pot ser superior a:",
+   "options": [
+    "4 anys, prorrogables per acord unànime fins a 4 anys addicionals",
+    "4 anys, prorrogables tàcitament per períodes anuals successius",
+    "5 anys, prorrogables per acord exprés fins a 5 anys addicionals",
+    "2 anys, prorrogables per acord unànime fins a 2 anys addicionals"
+   ],
+   "correct": 0,
+   "explain": "L'art. 49.h Llei 40/2015 limita la vigència dels CONVENIS a 4 ANYS (llevat que una norma prevegi un termini superior) amb PRÒRROGA per acord UNÀNIME de fins a 4 ANYS ADDICIONALS. La pròrroga mai no és tàcita. Recordeu que els convenis no poden tenir objecte contractual (si en tenen, LCSP).",
+   "source": "L40_2015",
+   "article": "Art. 49.h Llei 40/2015"
+  },
+  {
+   "id": "t13q2",
+   "theme": 13,
+   "block": 4,
+   "q": "Quin d'aquests supòsits NO permet la concessió directa d'una subvenció (art. 22.2 LGS)?",
+   "options": [
+    "Que la subvenció estigui prevista nominativament al pressupost",
+    "Que la convocatòria hagi quedat deserta en un exercici anterior",
+    "Que una norma amb rang de llei n'imposi l'atorgament",
+    "Raons acreditades d'interès públic, social, econòmic o humanitari"
+   ],
+   "correct": 1,
+   "explain": "L'art. 22.2 LGS només admet la CONCESSIÓ DIRECTA en tres casos: subvencions NOMINATIVES als pressupostos, subvencions imposades per NORMA AMB RANG DE LLEI i, excepcionalment, per raons acreditades d'INTERÈS PÚBLIC, SOCIAL, ECONÒMIC O HUMANITARI que dificultin la convocatòria pública. Una convocatòria deserta no habilita a prescindir de la concurrència.",
+   "source": "L38_2003",
+   "article": "Art. 22.2 LGS"
+  },
+  {
+   "id": "t13q3",
+   "theme": 13,
+   "block": 4,
+   "q": "El dret de l'Administració a reconèixer o liquidar el reintegrament d'una subvenció prescriu al cap de:",
+   "options": [
+    "5 anys",
+    "2 anys",
+    "4 anys",
+    "1 any"
+   ],
+   "correct": 2,
+   "explain": "L'art. 39 LGS fixa la PRESCRIPCIÓ en 4 ANYS. El reintegrament (art. 37) comporta la devolució de les quantitats percebudes amb l'INTERÈS DE DEMORA des del pagament, i escau per falsejar condicions, incomplir l'objectiu o l'obligació de justificació, entre d'altres causes.",
+   "source": "L38_2003",
+   "article": "Art. 39 LGS"
+  },
+  {
+   "id": "t13q4",
+   "theme": 13,
+   "block": 4,
+   "q": "Els convenis amb compromisos econòmics assumits superiors a 600.000 € s'han de trametre a:",
+   "options": [
+    "La Intervenció General de l'Estat, abans de la seva signatura",
+    "El Consell de Comptes autonòmic, dins del mes següent a la firma",
+    "La Sindicatura de Greuges, dins dels 6 mesos següents a la subscripció",
+    "El Tribunal de Comptes, dins dels 3 mesos següents a la subscripció"
+   ],
+   "correct": 3,
+   "explain": "L'art. 53 Llei 40/2015 obliga a trametre ELECTRÒNICAMENT al TRIBUNAL DE COMPTES (o òrgan extern de fiscalització autonòmic) els convenis amb compromisos econòmics SUPERIORS A 600.000 €, dins dels 3 MESOS següents a la subscripció, i a comunicar-ne modificacions, pròrrogues i extinció.",
+   "source": "L40_2015",
+   "article": "Art. 53 Llei 40/2015"
+  },
+  {
+   "id": "t13q5",
+   "theme": 13,
+   "block": 4,
+   "q": "Abans d'establir subvencions, les administracions han d'aprovar:",
+   "options": [
+    "Un pla estratègic de subvencions amb objectius, terminis, costos i finançament",
+    "Una ordenança fiscal reguladora de cada línia de subvenció",
+    "Un informe favorable de la Base de Dades Nacional de Subvencions",
+    "Un conveni marc amb la comunitat autònoma corresponent"
+   ],
+   "correct": 0,
+   "explain": "L'art. 8.1 LGS exigeix, amb caràcter previ, el PLA ESTRATÈGIC DE SUBVENCIONS que concreti objectius i efectes, terminis, costos previsibles i fonts de finançament. La gestió es regeix per PUBLICITAT, TRANSPARÈNCIA, CONCURRÈNCIA, OBJECTIVITAT, IGUALTAT I NO-DISCRIMINACIÓ, i tota convocatòria es publica mitjançant la BDNS.",
+   "source": "L38_2003",
+   "article": "Art. 8.1 LGS"
+  },
+  {
+   "id": "t14q1",
+   "theme": 14,
+   "block": 4,
+   "q": "L'art. 86.2 LRBRL declara la reserva a favor de les entitats locals de les activitats o serveis essencials següents:",
+   "options": [
+    "Abastament d'aigües, enllumenat públic, mercats i transport públic de viatgers",
+    "Abastament i depuració d'aigües; recollida, tractament i aprofitament de residus, i transport públic de viatgers",
+    "Cicle de l'aigua, residus, cementiris i serveis funeraris, i escorxadors",
+    "Aigua, residus, transport públic de viatgers i subministrament elèctric de proximitat"
+   ],
+   "correct": 1,
+   "explain": "Després de la LRSAL, la RESERVA de l'art. 86.2 comprèn: ABASTAMENT DOMICILIARI I DEPURACIÓ D'AIGÜES; RECOLLIDA, TRACTAMENT I APROFITAMENT DE RESIDUS, i TRANSPORT PÚBLIC DE VIATGERS. L'execució en règim de MONOPOLI exigeix, a més, aprovació de l'òrgan competent de la comunitat autònoma.",
+   "source": "LRBRL",
+   "article": "Art. 86.2 LRBRL"
+  },
+  {
+   "id": "t14q2",
+   "theme": 14,
+   "block": 4,
+   "q": "Quina d'aquestes NO és una forma de gestió directa dels serveis públics locals (art. 85.2.A LRBRL)?",
+   "options": [
+    "La gestió per la mateixa entitat local",
+    "L'entitat pública empresarial local",
+    "La societat d'economia mixta amb participació privada minoritària",
+    "La societat mercantil local de capital social íntegrament públic"
+   ],
+   "correct": 2,
+   "explain": "La gestió DIRECTA admet 4 formes: la MATEIXA ENTITAT, l'ORGANISME AUTÒNOM local, l'ENTITAT PÚBLICA EMPRESARIAL local i la SOCIETAT MERCANTIL de capital ÍNTEGRAMENT públic. La societat d'ECONOMIA MIXTA (capital públic i privat) és una forma de gestió INDIRECTA, com la concessió.",
+   "source": "LRBRL",
+   "article": "Art. 85.2 LRBRL"
+  },
+  {
+   "id": "t14q3",
+   "theme": 14,
+   "block": 4,
+   "q": "En cap cas no es poden prestar per gestió indirecta els serveis que:",
+   "options": [
+    "Superin el 25% del pressupost ordinari municipal",
+    "Tinguin caràcter essencial per a la comunitat veïnal",
+    "Hagin estat declarats serveis mínims obligatoris",
+    "Impliquin exercici d'autoritat"
+   ],
+   "correct": 3,
+   "explain": "L'art. 85.3 LRBRL prohibeix prestar per GESTIÓ INDIRECTA, i també mitjançant SOCIETAT MERCANTIL de capital social exclusivament local, els serveis públics que impliquin EXERCICI D'AUTORITAT (policia, potestats de fe pública): aquests només admeten la gestió per la mateixa entitat o per organisme autònom.",
+   "source": "LRBRL",
+   "article": "Art. 85.3 LRBRL"
+  },
+  {
+   "id": "t14q4",
+   "theme": 14,
+   "block": 4,
+   "q": "Per gestionar un servei mitjançant una entitat pública empresarial local o una societat mercantil pública cal acreditar:",
+   "options": [
+    "Amb una memòria justificativa, que són més sostenibles i eficients que les altres formes directes",
+    "L'autorització prèvia del departament de la Generalitat competent en règim local",
+    "Un informe favorable del consell sectorial de participació ciutadana corresponent",
+    "La impossibilitat tècnica de licitar una concessió de serveis ordinària"
+   ],
+   "correct": 0,
+   "explain": "L'incís final de l'art. 85.2 LRBRL (redactat per la LRSAL) només permet optar per l'EPEL o la SOCIETAT MERCANTIL local quan una MEMÒRIA JUSTIFICATIVA acrediti que resulten MÉS SOSTENIBLES I EFICIENTS que la gestió per la mateixa entitat o per organisme autònom, amb criteris de rendibilitat econòmica i recuperació de la inversió.",
+   "source": "LRBRL",
+   "article": "Art. 85.2 LRBRL in fine"
+  },
+  {
+   "id": "t14q5",
+   "theme": 14,
+   "block": 4,
+   "q": "El tret que distingeix el contracte de concessió de serveis del contracte de serveis és:",
+   "options": [
+    "La durada superior a quatre anys de la prestació contractada",
+    "La transferència del risc operacional al concessionari",
+    "El pagament del preu directament pels usuaris del servei",
+    "La naturalesa essencial del servei públic que es presta"
+   ],
+   "correct": 1,
+   "explain": "Després de la LCSP 2017, la frontera és el RISC OPERACIONAL: si s'ha transferit al contractista (exposició real a les incerteses del mercat), hi ha CONCESSIÓ DE SERVEIS; si no, contracte de SERVEIS, encara que hi hagi prestacions directes a favor de la ciutadania (art. 312 LCSP).",
+   "source": "LCSP",
+   "article": "Arts. 15 i 17 LCSP"
+  },
+  {
+   "id": "t15q1",
+   "theme": 15,
+   "block": 4,
+   "q": "Els béns de domini públic i els comunals de les entitats locals són:",
+   "options": [
+    "Inalienables, prescriptibles al cap de trenta anys i inembargables",
+    "Alienables amb autorització autonòmica, imprescriptibles i embargables",
+    "Inalienables, imprescriptibles i inembargables",
+    "Inalienables i inembargables, però subjectes als tributs de l'Estat"
+   ],
+   "correct": 2,
+   "explain": "L'art. 132.1 CE i l'art. 80 LRBRL els declaren INALIENABLES, IMPRESCRIPTIBLES I INEMBARGABLES i no subjectes a cap tribut. Per alienar-los cal la DESAFECTACIÓ prèvia, que els converteix en patrimonials.",
+   "source": "CE1978",
+   "article": "Art. 132 CE i 80 LRBRL"
+  },
+  {
+   "id": "t15q2",
+   "theme": 15,
+   "block": 4,
+   "q": "L'acord del ple sobre l'alteració de la qualificació jurídica dels béns demanials o comunals exigeix:",
+   "options": [
+    "Majoria simple dels membres presents, amb informació pública de quinze dies",
+    "Majoria de dos terços del nombre de fet, amb dictamen autonòmic previ",
+    "Unanimitat del ple, amb informe favorable de la comissió de comptes",
+    "Majoria absoluta del nombre legal de membres, amb informació pública prèvia d'un mes"
+   ],
+   "correct": 3,
+   "explain": "L'alteració de la qualificació jurídica (afectació/desafectació) exigeix EXPEDIENT amb INFORMACIÓ PÚBLICA D'UN MES (art. 8 RBEL) i acord del PLE amb el vot favorable de la MAJORIA ABSOLUTA del nombre legal de membres (art. 47.2.n LRBRL).",
+   "source": "RD1372_1986",
+   "article": "Art. 8 RBEL i 47.2.n LRBRL"
+  },
+  {
+   "id": "t15q3",
+   "theme": 15,
+   "block": 4,
+   "q": "L'entitat local pot recuperar per si mateixa la possessió dels seus béns PATRIMONIALS usurpats:",
+   "options": [
+    "Només dins de l'any següent a la usurpació; després, davant els tribunals",
+    "En qualsevol moment, com passa amb els béns de domini públic",
+    "Dins dels quatre anys següents a l'ocupació indeguda del bé",
+    "Mai: la recuperació possessòria exigeix sempre sentència civil"
+   ],
+   "correct": 0,
+   "explain": "La RECUPERACIÓ D'OFICI (art. 82.a LRBRL i 70-71 RBEL) és possible EN QUALSEVOL MOMENT per a béns DEMANIALS I COMUNALS, però per als PATRIMONIALS només dins de L'ANY següent a la usurpació; passat l'any, cal exercitar les accions davant la jurisdicció CIVIL.",
+   "source": "LRBRL",
+   "article": "Art. 82 LRBRL"
+  },
+  {
+   "id": "t15q4",
+   "theme": 15,
+   "block": 4,
+   "q": "L'ús privatiu del domini públic local requereix concessió demanial, amb una durada màxima, incloses les pròrrogues, de:",
+   "options": [
+    "99 anys",
+    "75 anys",
+    "50 anys",
+    "30 anys"
+   ],
+   "correct": 1,
+   "explain": "L'art. 93.3 LPAP (Llei 33/2003, precepte bàsic) limita les CONCESSIONS DEMANIALS a 75 ANYS incloses les pròrrogues, llevat que normes especials n'estableixin un altre de menor. L'ús comú ESPECIAL se subjecta a LLICÈNCIA; el comú GENERAL és lliure.",
+   "source": "L33_2003",
+   "article": "Art. 93.3 LPAP"
+  },
+  {
+   "id": "t15q5",
+   "theme": 15,
+   "block": 4,
+   "q": "A Catalunya, l'alienació d'un bé patrimonial local el valor del qual excedeixi el 25% dels recursos ordinaris del pressupost exigeix:",
+   "options": [
+    "Comunicació posterior al departament competent de la Generalitat",
+    "Referèndum consultiu entre els veïns del municipi afectat",
+    "Autorització prèvia del departament competent de la Generalitat",
+    "Informe previ vinculant de la diputació provincial de Barcelona"
+   ],
+   "correct": 2,
+   "explain": "Segons l'art. 209 del DL 2/2003 (TRLMRLC), tota alienació, gravamen o permuta s'ha de COMUNICAR al departament competent; si el valor EXCEDEIX EL 25% DELS RECURSOS ORDINARIS del pressupost consolidat, cal AUTORITZACIÓ PRÈVIA de la Generalitat. La regla general d'alienació és la SUBHASTA pública.",
+   "source": "DL2_2003",
+   "article": "Art. 209 DL 2/2003"
+  },
+  {
+   "id": "t16q1",
+   "theme": 16,
+   "block": 5,
+   "q": "Segons l'art. 30 de la Llei 40/2015, les infraccions GREUS prescriuen al cap de:",
+   "options": [
+    "3 anys",
+    "1 any",
+    "6 mesos",
+    "2 anys"
+   ],
+   "correct": 3,
+   "explain": "Terminis de PRESCRIPCIÓ supletoris de l'art. 30: infraccions MOLT GREUS 3 anys, GREUS 2 ANYS, LLEUS 6 mesos; sancions: molt greus 3 anys, greus 2 anys, lleus 1 ANY. El còmput de les infraccions comença el dia de la comissió (o del cessament en les contínues).",
+   "source": "L40_2015",
+   "article": "Art. 30 Llei 40/2015"
+  },
+  {
+   "id": "t16q2",
+   "theme": 16,
+   "block": 5,
+   "q": "Llevat de previsió legal diferent, les multes per infracció d'ordenances locals en matèria de convivència (art. 141 LRBRL) tenen aquests límits màxims:",
+   "options": [
+    "3.000 € les molt greus, 1.500 € les greus i 750 € les lleus",
+    "6.000 € les molt greus, 3.000 € les greus i 1.500 € les lleus",
+    "3.000 € les molt greus, 1.000 € les greus i 500 € les lleus",
+    "1.500 € les molt greus, 750 € les greus i 300 € les lleus"
+   ],
+   "correct": 0,
+   "explain": "El títol XI LRBRL (arts. 139-141, afegit el 2003) permet a les ordenances tipificar infraccions en matèria de CONVIVÈNCIA i ús de serveis, equipaments i espais públics EN DEFECTE de normativa sectorial, amb multes màximes de 3.000 / 1.500 / 750 €. Els criteris de classificació són a l'art. 140.",
+   "source": "LRBRL",
+   "article": "Art. 141 LRBRL"
+  },
+  {
+   "id": "t16q3",
+   "theme": 16,
+   "block": 5,
+   "q": "En un procediment sancionador amb sanció únicament pecuniària, el pagament voluntari abans de la resolució comporta:",
+   "options": [
+    "Una reducció fixa del 50% de l'import de la sanció proposada",
+    "Una reducció d'almenys el 20%, acumulable a la del reconeixement de responsabilitat",
+    "L'arxivament de l'expedient sense declaració de responsabilitat",
+    "Una reducció del 25% no acumulable a cap altra bonificació"
+   ],
+   "correct": 1,
+   "explain": "L'art. 85 Llei 39/2015 preveu DUES reduccions acumulables, cadascuna d'ALMENYS EL 20% (les normes sectorials poden incrementar-les): per RECONEIXEMENT de la responsabilitat i per PAGAMENT VOLUNTARI previ a la resolució; queden condicionades al DESISTIMENT de tota acció o recurs en via administrativa contra la sanció.",
+   "source": "L39_2015",
+   "article": "Art. 85 Llei 39/2015"
+  },
+  {
+   "id": "t16q4",
+   "theme": 16,
+   "block": 5,
+   "q": "La resolució d'un procediment sancionador és executiva quan:",
+   "options": [
+    "Es dicta i notifica, com qualsevol altre acte administratiu",
+    "Ho declara expressament el jutjat contenciós administratiu",
+    "No escau contra ella cap recurs ordinari en via administrativa",
+    "Passen 15 dies des de la notificació sense pagament voluntari"
+   ],
+   "correct": 2,
+   "explain": "Per excepció a l'executivitat general dels actes, l'art. 90.3 Llei 39/2015 (i l'art. 98.1.b) només fa EXECUTIVA la resolució sancionadora quan NO ESCAIGUI CAP RECURS ORDINARI en via administrativa; si l'interessat manifesta que interposarà contenciós, l'executivitat queda suspesa fins al termini d'interposició o la decisió cautelar del jutge.",
+   "source": "L39_2015",
+   "article": "Art. 90.3 Llei 39/2015"
+  },
+  {
+   "id": "t16q5",
+   "theme": 16,
+   "block": 5,
+   "q": "Si un procediment sancionador iniciat d'ofici no es resol i notifica dins del termini màxim establert, es produeix:",
+   "options": [
+    "El silenci desestimatori de les al·legacions del presumpte infractor",
+    "La prescripció automàtica i definitiva de la infracció comesa",
+    "L'estimació presumpta de la proposta de resolució de l'instructor",
+    "La caducitat del procediment, amb arxivament de les actuacions"
+   ],
+   "correct": 3,
+   "explain": "En els procediments iniciats D'OFICI susceptibles de produir efectes DESFAVORABLES (com el sancionador), el venciment del termini sense resolució notificada produeix la CADUCITAT (art. 25.1.b Llei 39/2015), amb arxivament. La caducitat NO fa prescriure la infracció: si no ha prescrit, es pot incoar un procediment nou.",
+   "source": "L39_2015",
+   "article": "Art. 25.1.b Llei 39/2015"
+  },
+  {
+   "id": "t17q1",
+   "theme": 17,
+   "block": 5,
+   "q": "El dret a reclamar responsabilitat patrimonial a l'Administració prescriu:",
+   "options": [
+    "A l'any de produït el fet o de manifestar-se el seu efecte lesiu",
+    "Als 4 anys de produït el fet que motiva la indemnització",
+    "Als 6 mesos de produït el fet o acte que causa el dany",
+    "Als 2 anys des que el perjudicat coneix l'abast del dany"
+   ],
+   "correct": 0,
+   "explain": "L'art. 67.1 Llei 39/2015 fixa la prescripció en 1 ANY des del fet o des de la manifestació de l'efecte lesiu; en danys FÍSICS O PSÍQUICS, des de la CURACIÓ o la determinació de l'abast de les SEQÜELES; si deriva de l'anul·lació d'un acte, 1 any des de la sentència definitiva.",
+   "source": "L39_2015",
+   "article": "Art. 67.1 Llei 39/2015"
+  },
+  {
+   "id": "t17q2",
+   "theme": 17,
+   "block": 5,
+   "q": "En els procediments de responsabilitat patrimonial, el dictamen de l'òrgan consultiu (a Catalunya, la Comissió Jurídica Assessora) és preceptiu quan la reclamació és:",
+   "options": [
+    "De 30.000 € o més",
+    "De 50.000 € o més",
+    "De 100.000 € o més",
+    "De 6.000 € o més"
+   ],
+   "correct": 1,
+   "explain": "L'art. 81.2 Llei 39/2015 exigeix el dictamen del Consell d'Estat o de l'òrgan consultiu autonòmic quan la indemnització reclamada sigui igual o superior a 50.000 € (o la quantia que fixi la llei autonòmica), a emetre en 2 MESOS. També cal sempre l'INFORME del servei presumptament causant del dany.",
+   "source": "L39_2015",
+   "article": "Art. 81.2 Llei 39/2015"
+  },
+  {
+   "id": "t17q3",
+   "theme": 17,
+   "block": 5,
+   "q": "El termini per resoldre un procediment de responsabilitat patrimonial és de 6 mesos; transcorregut sense resolució, la reclamació s'entén:",
+   "options": [
+    "Estimada per silenci administratiu positiu",
+    "Caducada, amb arxivament de les actuacions",
+    "Desestimada per silenci administratiu",
+    "Traslladada automàticament a la via contenciosa"
+   ],
+   "correct": 2,
+   "explain": "La responsabilitat patrimonial és una de les EXCEPCIONS al silenci positiu: passats 6 MESOS (art. 91.3 Llei 39/2015), el silenci és NEGATIU i obre la via del contenciós. Si la relació de causalitat és INEQUÍVOCA, es pot seguir la tramitació SIMPLIFICADA amb resolució en 30 dies (art. 96.4).",
+   "source": "L39_2015",
+   "article": "Art. 91.3 Llei 39/2015"
+  },
+  {
+   "id": "t17q4",
+   "theme": 17,
+   "block": 5,
+   "q": "L'acció de regrés contra les autoritats i el personal al servei de l'Administració (art. 36 Llei 40/2015) exigeix que hagin incorregut en:",
+   "options": [
+    "Qualsevol grau de culpa o simple error professional",
+    "Dol exclusivament, declarat en sentència penal ferma",
+    "Infracció disciplinària molt greu prèviament sancionada",
+    "Dol, o culpa o negligència greus"
+   ],
+   "correct": 3,
+   "explain": "Els particulars reclamen sempre DIRECTAMENT a l'Administració; si aquesta indemnitza, ha d'exigir D'OFICI en via administrativa la responsabilitat al personal quan hi hagi hagut DOL, O CULPA O NEGLIGÈNCIA GREUS, ponderant el resultat danyós, el grau de culpabilitat, la responsabilitat professional i la relació amb el resultat.",
+   "source": "L40_2015",
+   "article": "Art. 36 Llei 40/2015"
+  },
+  {
+   "id": "t17q5",
+   "theme": 17,
+   "block": 5,
+   "q": "Quina d'aquestes circumstàncies EXCLOU la responsabilitat patrimonial de l'Administració?",
+   "options": [
+    "La força major",
+    "El funcionament anormal del servei públic causant del dany",
+    "El cas fortuït intern al funcionament del servei públic",
+    "La concurrència de culpa lleu de la víctima en el resultat"
+   ],
+   "correct": 0,
+   "explain": "L'art. 32.1 Llei 40/2015 (i l'art. 106.2 CE) exclou només la FORÇA MAJOR (fet extern, imprevisible i inevitable) i els danys que el particular tingui el DEURE JURÍDIC de suportar; tampoc no s'indemnitzen els RISCOS DEL DESENVOLUPAMENT. El cas fortuït (intern) NO exclou la responsabilitat, que és OBJECTIVA (funcionament normal o anormal).",
+   "source": "L40_2015",
+   "article": "Art. 32.1 Llei 40/2015"
+  },
+  {
+   "id": "t18q1",
+   "theme": 18,
+   "block": 5,
+   "q": "Per accedir als cossos del grup B de classificació professional (art. 76 TREBEP) cal estar en possessió del títol de:",
+   "options": [
+    "Batxiller o tècnic de formació professional de grau mitjà",
+    "Tècnic superior (formació professional de grau superior)",
+    "Grau universitari o equivalent a l'antiga diplomatura",
+    "Graduat en educació secundària obligatòria"
+   ],
+   "correct": 1,
+   "explain": "Classificació de l'art. 76: A1 i A2 exigeixen títol universitari de GRAU; el grup B, títol de TÈCNIC SUPERIOR; C1, BATXILLER O TÈCNIC; C2, graduat en ESO; i les AGRUPACIONS PROFESSIONALS (DA 6a), cap titulació. Aquesta plaça de Cornellà és del grup A1.",
+   "source": "TREBEP",
+   "article": "Art. 76 TREBEP"
+  },
+  {
+   "id": "t18q2",
+   "theme": 18,
+   "block": 5,
+   "q": "Els funcionaris públics tenen dret, per any complet de servei, a unes vacances retribuïdes de:",
+   "options": [
+    "30 dies naturals",
+    "23 dies hàbils",
+    "22 dies hàbils",
+    "20 dies laborables"
+   ],
+   "correct": 2,
+   "explain": "L'art. 50 TREBEP fixa les VACANCES en 22 DIES HÀBILS per any complet de servei (o els dies que corresponguin proporcionalment); els dissabtes no es consideren hàbils a aquest efecte. A més, l'art. 48.k reconeix 6 DIES l'any per ASSUMPTES PARTICULARS.",
+   "source": "TREBEP",
+   "article": "Art. 50 TREBEP"
+  },
+  {
+   "id": "t18q3",
+   "theme": 18,
+   "block": 5,
+   "q": "La sanció de separació del servei només es pot imposar per la comissió de faltes:",
+   "options": [
+    "Greus i molt greus",
+    "Greus, si hi ha reincidència acreditada",
+    "De qualsevol classe, si hi concorre dol",
+    "Molt greus"
+   ],
+   "correct": 3,
+   "explain": "L'art. 96.1.a TREBEP reserva la SEPARACIÓ DEL SERVEI (que comporta la PÈRDUA de la condició de funcionari, art. 63) a les faltes MOLT GREUS; per al personal interí, la sanció equivalent és la revocació del nomenament. La suspensió ferma de funcions pot arribar a 6 ANYS.",
+   "source": "TREBEP",
+   "article": "Art. 96 TREBEP"
+  },
+  {
+   "id": "t18q4",
+   "theme": 18,
+   "block": 5,
+   "q": "El nomenament de funcionari interí per excés o acumulació de tasques té una durada màxima de:",
+   "options": [
+    "9 mesos dins d'un període de 18 mesos",
+    "6 mesos dins d'un període de 12 mesos",
+    "12 mesos dins d'un període de 24 mesos",
+    "3 mesos prorrogables per 3 mesos més"
+   ],
+   "correct": 0,
+   "explain": "L'art. 10.1.d TREBEP limita l'interinatge per EXCÉS O ACUMULACIÓ DE TASQUES a un màxim de 9 MESOS dins d'un període de 18 MESOS. Els altres supòsits: vacant (màxim 3 anys), substitució transitòria del titular i programes de caràcter temporal (màxim 3 anys, ampliables 12 mesos per llei autonòmica).",
+   "source": "TREBEP",
+   "article": "Art. 10.1.d TREBEP"
+  },
+  {
+   "id": "t18q5",
+   "theme": 18,
+   "block": 5,
+   "q": "Per obtenir l'excedència voluntària per interès particular cal:",
+   "options": [
+    "Haver prestat serveis efectius en la mateixa administració durant els 3 anys anteriors",
+    "Haver prestat serveis efectius en qualsevol administració durant els 5 anys immediatament anteriors",
+    "Tenir una antiguitat mínima de 10 anys com a funcionari de carrera",
+    "Acreditar 2 anys de serveis i el vistiplau de l'òrgan competent en personal"
+   ],
+   "correct": 1,
+   "explain": "L'art. 89.2 TREBEP exigeix serveis efectius en qualsevol de les administracions públiques durant els 5 ANYS immediatament anteriors. Aquesta excedència NO comporta reserva de lloc ni còmput de temps; en canvi, la de CURA DE FILLS O FAMILIARS (màxim 3 anys) reserva el mateix lloc durant 2 ANYS i computa a triennis i carrera.",
+   "source": "TREBEP",
+   "article": "Art. 89.2 TREBEP"
   }
  ]
 }
