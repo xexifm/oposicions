@@ -1442,6 +1442,486 @@
    "explain": "L'art. 89.2 TREBEP exigeix serveis efectius en qualsevol de les administracions públiques durant els 5 ANYS immediatament anteriors. Aquesta excedència NO comporta reserva de lloc ni còmput de temps; en canvi, la de CURA DE FILLS O FAMILIARS (màxim 3 anys) reserva el mateix lloc durant 2 ANYS i computa a triennis i carrera.",
    "source": "TREBEP",
    "article": "Art. 89.2 TREBEP"
+  },
+  {
+   "id": "t01q6",
+   "theme": 1,
+   "block": 1,
+   "q": "La Constitució espanyola de 1978 va entrar en vigor:",
+   "options": [
+    "L'endemà de la seva publicació al BOE, el 30 de desembre de 1978",
+    "El dia del referèndum de ratificació, el 6 de desembre de 1978",
+    "El mateix dia de la seva publicació al BOE, el 29 de desembre de 1978",
+    "Als vint dies de la seva publicació, el 18 de gener de 1979"
+   ],
+   "correct": 2,
+   "explain": "Seqüència: aprovada per les Corts el 31-10-1978, RATIFICADA en referèndum el 6-12-1978, SANCIONADA pel Rei el 27-12-1978 i PUBLICADA al BOE el 29-12-1978, data en què va entrar en vigor EL MATEIX DIA (disposició final).",
+   "source": "CE1978",
+   "article": "Disposició final CE"
+  },
+  {
+   "id": "t01q7",
+   "theme": 1,
+   "block": 1,
+   "q": "El recurs d'empara davant el Tribunal Constitucional protegeix:",
+   "options": [
+    "Tots els drets i deures reconeguts al títol I de la Constitució",
+    "Únicament els drets de la secció 1a del capítol II del títol I",
+    "Els drets del capítol II i els principis rectors del capítol III",
+    "L'art. 14, els drets de la secció 1a del capítol II del títol I i l'objecció de consciència"
+   ],
+   "correct": 3,
+   "explain": "Segons l'art. 53.2 CE, la tutela reforçada (procediment PREFERENT I SUMARI davant els tribunals ordinaris i recurs d'EMPARA al TC) abasta la IGUALTAT de l'art. 14, els drets dels ARTS. 15 A 29 (secció 1a) i l'OBJECCIÓ DE CONSCIÈNCIA de l'art. 30.2. La resta del títol I no té empara.",
+   "source": "CE1978",
+   "article": "Art. 53.2 CE"
+  },
+  {
+   "id": "t01q8",
+   "theme": 1,
+   "block": 1,
+   "q": "El Defensor del Poble (art. 54 CE) es defineix com a:",
+   "options": [
+    "Alt comissionat de les Corts Generals per a la defensa dels drets del títol I",
+    "Òrgan independent del Govern per supervisar els serveis públics estatals",
+    "Alt comissionat del Govern per a la protecció dels drets fonamentals",
+    "Òrgan consultiu del Tribunal Constitucional en matèria de drets humans"
+   ],
+   "correct": 0,
+   "explain": "L'art. 54 CE el configura com a ALT COMISSIONAT DE LES CORTS GENERALS, designat per aquestes per a la defensa dels drets del TÍTOL I; a aquest efecte pot SUPERVISAR l'activitat de l'Administració i donar-ne compte a les Corts. Està legitimat per interposar recursos d'inconstitucionalitat i d'empara.",
+   "source": "CE1978",
+   "article": "Art. 54 CE"
+  },
+  {
+   "id": "t01q9",
+   "theme": 1,
+   "block": 1,
+   "q": "Pel que fa a la iniciativa de la reforma constitucional:",
+   "options": [
+    "S'admet la iniciativa popular amb 500.000 signatures acreditades",
+    "No hi cap la iniciativa legislativa popular",
+    "Correspon en exclusiva al Govern i al Congrés dels Diputats",
+    "Les assemblees autonòmiques només poden proposar-la via Senat"
+   ],
+   "correct": 1,
+   "explain": "L'art. 166 CE remet la iniciativa de reforma a l'art. 87.1 i 87.2: GOVERN, CONGRÉS, SENAT i ASSEMBLEES DE LES CCAA; queda EXCLOSA la iniciativa legislativa popular (l'art. 87.3 no hi és citat). A més, la reforma no es pot iniciar en TEMPS DE GUERRA ni durant els estats de l'art. 116.",
+   "source": "CE1978",
+   "article": "Art. 166 CE"
+  },
+  {
+   "id": "t01q10",
+   "theme": 1,
+   "block": 1,
+   "q": "Els principis rectors de la política social i econòmica (capítol III del títol I CE):",
+   "options": [
+    "Són directament exigibles davant qualsevol jurisdicció ordinària",
+    "Gaudeixen de recurs d'empara davant el Tribunal Constitucional",
+    "Només poden ser al·legats davant la jurisdicció d'acord amb les lleis que els despleguin",
+    "Vinculen els particulars però no els poders públics de l'Estat"
+   ],
+   "correct": 2,
+   "explain": "Segons l'art. 53.3 CE, els principis del capítol III (arts. 39-52: família, salut, habitatge, medi ambient, pensions...) INFORMEN la legislació positiva, la pràctica judicial i l'actuació dels poders públics, però només són AL·LEGABLES davant la jurisdicció ordinària D'ACORD AMB LES LLEIS que els despleguin.",
+   "source": "CE1978",
+   "article": "Art. 53.3 CE"
+  },
+  {
+   "id": "t02q6",
+   "theme": 2,
+   "block": 1,
+   "q": "Quina d'aquestes matèries NO està reservada a llei orgànica per l'art. 81.1 CE?",
+   "options": [
+    "El desenvolupament dels drets fonamentals i de les llibertats públiques",
+    "L'aprovació dels estatuts d'autonomia",
+    "El règim electoral general",
+    "El règim jurídic de les administracions públiques"
+   ],
+   "correct": 3,
+   "explain": "L'art. 81.1 reserva a LLEI ORGÀNICA: drets fonamentals i llibertats públiques, ESTATUTS d'autonomia, RÈGIM ELECTORAL GENERAL i les altres previstes a la CE. El règim jurídic de les administracions és matèria de llei ORDINÀRIA dictada a l'empara de l'art. 149.1.18 (avui, Lleis 39 i 40/2015).",
+   "source": "CE1978",
+   "article": "Art. 81.1 CE"
+  },
+  {
+   "id": "t02q7",
+   "theme": 2,
+   "block": 1,
+   "q": "La iniciativa legislativa popular exigeix, segons l'art. 87.3 CE:",
+   "options": [
+    "No menys de 500.000 signatures acreditades",
+    "No menys de 100.000 signatures acreditades",
+    "Un milió de signatures verificades notarialment",
+    "No menys de 250.000 signatures de ciutadans censats"
+   ],
+   "correct": 0,
+   "explain": "La ILP (art. 87.3 CE i LO 3/1984) requereix 500.000 SIGNATURES acreditades i NO escau en matèries pròpies de LLEI ORGÀNICA, TRIBUTÀRIES, de caràcter INTERNACIONAL ni en la PRERROGATIVA DE GRÀCIA. No confondre amb el milió de la iniciativa ciutadana europea.",
+   "source": "CE1978",
+   "article": "Art. 87.3 CE"
+  },
+  {
+   "id": "t02q8",
+   "theme": 2,
+   "block": 1,
+   "q": "Si transcorren dos mesos des de la primera votació d'investidura sense que cap candidat obtingui la confiança del Congrés:",
+   "options": [
+    "El Rei designa president el candidat de la llista més votada a les eleccions",
+    "El Rei dissol les dues cambres i convoca eleccions, amb el referendament del president del Congrés",
+    "El president del Congrés assumeix interinament la presidència del Govern",
+    "Es repeteix la ronda de consultes i es proposa un nou candidat per tercera vegada"
+   ],
+   "correct": 1,
+   "explain": "L'art. 99.5 CE preveu que, passats 2 MESOS des de la PRIMERA votació d'investidura sense confiança atorgada, el Rei DISSOL ambdues cambres i convoca ELECCIONS amb el referendament del PRESIDENT DEL CONGRÉS (única excepció al referendament governamental).",
+   "source": "CE1978",
+   "article": "Art. 99.5 CE"
+  },
+  {
+   "id": "t02q9",
+   "theme": 2,
+   "block": 1,
+   "q": "La Diputació Permanent de cada cambra està composta per un mínim de:",
+   "options": [
+    "25 membres, elegits per majoria absoluta de la cambra",
+    "15 membres, designats per la mesa de la cambra",
+    "21 membres, en proporció als grups parlamentaris",
+    "30 membres, la meitat de cada cambra en sessió conjunta"
+   ],
+   "correct": 2,
+   "explain": "Segons l'art. 78 CE, a cada cambra hi ha una DIPUTACIÓ PERMANENT amb un MÍNIM DE 21 MEMBRES en proporció als grups, presidida pel president de la cambra: vetlla pels poders de la cambra quan no està reunida, ha expirat el mandat o s'ha dissolt (i pot convalidar decrets llei en aquest cas).",
+   "source": "CE1978",
+   "article": "Art. 78 CE"
+  },
+  {
+   "id": "t02q10",
+   "theme": 2,
+   "block": 1,
+   "q": "El Ministeri Fiscal exerceix les seves funcions d'acord amb els principis de:",
+   "options": [
+    "Independència judicial i inamovibilitat dels seus membres de carrera",
+    "Autonomia orgànica plena i oportunitat en l'exercici de les accions",
+    "Jerarquia respecte del Govern i discrecionalitat en la persecució penal",
+    "Unitat d'actuació i dependència jeràrquica, amb subjecció a la legalitat i la imparcialitat"
+   ],
+   "correct": 3,
+   "explain": "L'art. 124.2 CE: el MF actua per mitjà d'òrgans propis conforme als principis d'UNITAT D'ACTUACIÓ I DEPENDÈNCIA JERÀRQUICA i amb subjecció, EN TOT CAS, als de LEGALITAT I IMPARCIALITAT. El Fiscal General de l'Estat el nomena el Rei a proposta del GOVERN, escoltat el CGPJ.",
+   "source": "CE1978",
+   "article": "Art. 124 CE"
+  },
+  {
+   "id": "t03q6",
+   "theme": 3,
+   "block": 1,
+   "q": "Les comunitats autònomes que van accedir a l'autonomia per la via de l'art. 151 CE (com Catalunya):",
+   "options": [
+    "Van poder assumir des de l'inici competències més enllà de l'art. 148",
+    "Van haver d'esperar cinc anys per ampliar les seves competències",
+    "Van quedar limitades a les competències de l'art. 148.1",
+    "Van necessitar una llei orgànica de transferència per constituir-se"
+   ],
+   "correct": 0,
+   "explain": "La VIA RÀPIDA de l'art. 151 (Catalunya, País Basc, Galícia i Andalusia) va permetre assumir des del primer moment el SOSTRE COMPETENCIAL PLE (tot el que no reserva a l'Estat l'art. 149). Les de la VIA LENTA (art. 143) van començar amb l'art. 148 i van poder ampliar competències PASSATS 5 ANYS reformant l'estatut.",
+   "source": "CE1978",
+   "article": "Arts. 143 i 151 CE"
+  },
+  {
+   "id": "t03q7",
+   "theme": 3,
+   "block": 1,
+   "q": "Les lleis d'harmonització de l'art. 150.3 CE exigeixen:",
+   "options": [
+    "L'aprovació per majoria de 3/5 del Congrés i del Senat",
+    "L'apreciació de la necessitat per majoria absoluta de cada cambra",
+    "El dictamen previ vinculant del Tribunal Constitucional",
+    "L'acord previ de la conferència de presidents autonòmics"
+   ],
+   "correct": 1,
+   "explain": "L'Estat pot dictar lleis que HARMONITZIN les disposicions normatives de les CCAA, fins i tot en matèries de competència autonòmica, quan ho exigeixi l'INTERÈS GENERAL: correspon a les CORTS, per MAJORIA ABSOLUTA DE CADA CAMBRA, apreciar aquesta necessitat (art. 150.3). L'única aprovada, la LOAPA, va ser retallada per la STC 76/1983.",
+   "source": "CE1978",
+   "article": "Art. 150.3 CE"
+  },
+  {
+   "id": "t03q8",
+   "theme": 3,
+   "block": 1,
+   "q": "El subdelegat del Govern a la província és nomenat:",
+   "options": [
+    "Pel Consell de Ministres, a proposta del ministre de Política Territorial",
+    "Pel president del Govern, entre persones de reconegut prestigi professional",
+    "Pel delegat del Govern, per lliure designació entre funcionaris de carrera del subgrup A1",
+    "Pel ministre d'Hisenda, entre els funcionaris destinats a la província"
+   ],
+   "correct": 2,
+   "explain": "Segons l'art. 74 Llei 40/2015, a cada província hi ha un SUBDELEGAT DEL GOVERN, amb nivell de SUBDIRECTOR GENERAL, nomenat pel DELEGAT DEL GOVERN pel procediment de LLIURE DESIGNACIÓ entre FUNCIONARIS DE CARRERA del subgrup A1. A les comunitats uniprovincials, el delegat assumeix les seves funcions.",
+   "source": "L40_2015",
+   "article": "Art. 74 Llei 40/2015"
+  },
+  {
+   "id": "t03q9",
+   "theme": 3,
+   "block": 1,
+   "q": "Segons l'art. 147.2 CE, els estatuts d'autonomia han de contenir necessàriament:",
+   "options": [
+    "La denominació, la capital, la llengua pròpia i el règim de finançament",
+    "El territori, la bandera, les competències exclusives i el nombre de parlamentaris",
+    "Les institucions, el règim electoral, els símbols i les relacions amb l'Estat",
+    "La denominació, la delimitació territorial, les institucions pròpies i les competències assumides"
+   ],
+   "correct": 3,
+   "explain": "Contingut MÍNIM dels estatuts (art. 147.2): a) DENOMINACIÓ que millor correspongui a la seva identitat històrica; b) DELIMITACIÓ DEL TERRITORI; c) denominació, organització i seu de les INSTITUCIONS pròpies; d) COMPETÈNCIES assumides i bases per al traspàs de serveis. Són la NORMA INSTITUCIONAL BÀSICA de cada comunitat.",
+   "source": "CE1978",
+   "article": "Art. 147.2 CE"
+  },
+  {
+   "id": "t03q10",
+   "theme": 3,
+   "block": 1,
+   "q": "D'acord amb l'art. 153 CE, el control de l'administració autonòmica i de les seves normes reglamentàries correspon a:",
+   "options": [
+    "La jurisdicció contenciosa administrativa",
+    "El Tribunal Constitucional en tot cas",
+    "El Govern, amb dictamen previ del Consell d'Estat",
+    "El Tribunal de Comptes de l'Estat"
+   ],
+   "correct": 0,
+   "explain": "L'art. 153 reparteix el control: TC (constitucionalitat de normes amb rang de llei), GOVERN amb dictamen del Consell d'Estat (funcions delegades de l'art. 150.2), JURISDICCIÓ CONTENCIOSA (administració autonòmica i reglaments) i TRIBUNAL DE COMPTES (economia i pressupost).",
+   "source": "CE1978",
+   "article": "Art. 153 CE"
+  },
+  {
+   "id": "t04q6",
+   "theme": 4,
+   "block": 1,
+   "q": "Segons l'art. 2 EAC, la Generalitat és:",
+   "options": [
+    "El conjunt de departaments en què s'organitza el govern català",
+    "El sistema institucional en què s'organitza políticament l'autogovern de Catalunya",
+    "La institució que exerceix la potestat legislativa a Catalunya",
+    "L'administració pública pròpia de la comunitat autònoma catalana"
+   ],
+   "correct": 1,
+   "explain": "L'art. 2 EAC defineix la GENERALITAT com el SISTEMA INSTITUCIONAL en què s'organitza políticament l'autogovern: la integren el PARLAMENT, la PRESIDÈNCIA, el GOVERN i les altres institucions del capítol V del títol II (Consell de Garanties Estatutàries, Síndic de Greuges, Sindicatura de Comptes i CAC). Els seus poders emanen del POBLE DE CATALUNYA.",
+   "source": "EAC2006",
+   "article": "Art. 2 EAC"
+  },
+  {
+   "id": "t04q7",
+   "theme": 4,
+   "block": 1,
+   "q": "Quins són els símbols nacionals de Catalunya segons l'art. 8 EAC?",
+   "options": [
+    "La bandera, l'escut de les quatre barres i la sardana",
+    "La senyera, la diada de Sant Jordi i l'himne Els segadors",
+    "La bandera, la festa de l'Onze de Setembre i l'himne Els segadors",
+    "La bandera, la festa de l'Onze de Setembre i el escut oficial"
+   ],
+   "correct": 2,
+   "explain": "L'art. 8 EAC (que la STC 31/2010 va validar interpretant «nacionals» com a referits a la nacionalitat) fixa tres símbols: la BANDERA (quatre barres roges sobre fons groc), la FESTA (l'ONZE DE SETEMBRE) i l'HIMNE (ELS SEGADORS).",
+   "source": "EAC2006",
+   "article": "Art. 8 EAC"
+  },
+  {
+   "id": "t04q8",
+   "theme": 4,
+   "block": 1,
+   "q": "La reforma dels títols I i II de l'EAC (art. 222) exigeix:",
+   "options": [
+    "Aprovació del Parlament per majoria absoluta i ratificació del Senat",
+    "Aprovació de les Corts per 3/5 i dictamen del Consell de Garanties",
+    "Aprovació del Parlament per 2/3 i referèndum, sense intervenció de les Corts",
+    "Aprovació del Parlament per 2/3, aprovació de les Corts com a llei orgànica i referèndum"
+   ],
+   "correct": 3,
+   "explain": "Tota reforma de l'EAC exigeix la tríada: PARLAMENT per majoria de DUES TERCERES PARTS, tramitació a les CORTS GENERALS (com a llei orgànica) i REFERÈNDUM POSITIU del poble de Catalunya. L'art. 222 regula la reforma dels títols I i II (amb possible ratificació de les Corts) i l'art. 223, la de la resta de l'Estatut.",
+   "source": "EAC2006",
+   "article": "Art. 222 EAC"
+  },
+  {
+   "id": "t04q9",
+   "theme": 4,
+   "block": 1,
+   "q": "Sobre la referència a Catalunya com a «nació» al preàmbul de l'EAC, la STC 31/2010 va declarar que:",
+   "options": [
+    "No té eficàcia jurídica interpretativa",
+    "És inconstitucional i queda suprimida del text del preàmbul",
+    "És plenament constitucional com a concepte jurídic autònom",
+    "Només és vàlida en l'àmbit de les relacions internacionals culturals"
+   ],
+   "correct": 0,
+   "explain": "La STC 31/2010, de 28 de juny, no va anul·lar el preàmbul (els preàmbuls no tenen valor normatiu), però va declarar que les referències a «Catalunya com a nació» i a la «realitat nacional de Catalunya» MANQUEN D'EFICÀCIA JURÍDICA INTERPRETATIVA; la CE només reconeix la NACIÓ espanyola (art. 2).",
+   "source": "EAC2006",
+   "article": "STC 31/2010"
+  },
+  {
+   "id": "t04q10",
+   "theme": 4,
+   "block": 1,
+   "q": "L'òrgan de la Generalitat que dictamina sobre l'adequació a l'Estatut i a la Constitució dels projectes i proposicions de llei del Parlament és:",
+   "options": [
+    "La Comissió Jurídica Assessora",
+    "El Consell de Garanties Estatutàries",
+    "El Síndic de Greuges",
+    "La Sindicatura de Comptes"
+   ],
+   "correct": 1,
+   "explain": "El CONSELL DE GARANTIES ESTATUTÀRIES (arts. 76-77 EAC) vetlla per l'adequació a l'Estatut i a la CE de les disposicions de la Generalitat; la STC 31/2010 va anul·lar el CARÀCTER VINCULANT dels seus dictàmens sobre projectes que afectin drets estatutaris. No confondre amb la COMISSIÓ JURÍDICA ASSESSORA (òrgan consultiu del Govern en matèria administrativa: revisions d'ofici, responsabilitat patrimonial).",
+   "source": "EAC2006",
+   "article": "Arts. 76-77 EAC"
+  },
+  {
+   "id": "t05q6",
+   "theme": 5,
+   "block": 1,
+   "q": "El Tractat CECA presenta una particularitat única entre els tractats comunitaris:",
+   "options": [
+    "Va ser l'únic ratificat per referèndum en tots els estats fundadors",
+    "Va crear directament la ciutadania europea per als seus nacionals",
+    "Es va signar per un termini de 50 anys i es va extingir l'any 2002",
+    "Es va signar per temps indefinit però es va derogar el 1993"
+   ],
+   "correct": 2,
+   "explain": "El Tractat de PARÍS (18-4-1951, vigor 1952) va crear la CECA per un termini de 50 ANYS: es va EXTINGIR el 23-7-2002 i les seves funcions van passar a la Comunitat Europea. Els Tractats de Roma, en canvi, es van concloure per TEMPS IL·LIMITAT.",
+   "source": "TUE",
+   "article": "Tractat CECA 1951"
+  },
+  {
+   "id": "t05q7",
+   "theme": 5,
+   "block": 1,
+   "q": "L'Acta Única Europea (1986) va fixar com a gran objectiu:",
+   "options": [
+    "La creació de la moneda única europea abans de l'any 1999",
+    "L'adhesió dels països de l'Europa central i oriental",
+    "La supressió de l'estructura de pilars de la Unió",
+    "La realització del mercat interior abans del 31 de desembre de 1992"
+   ],
+   "correct": 3,
+   "explain": "L'ACTA ÚNICA (signada el 1986, vigor l'1-7-1987) va ser la primera gran reforma dels tractats: objectiu del MERCAT INTERIOR (espai sense fronteres interiors amb lliure circulació de mercaderies, persones, serveis i capitals) per al 31-12-1992, més votació per majoria qualificada i cooperació política.",
+   "source": "TUE",
+   "article": "Acta Única Europea"
+  },
+  {
+   "id": "t05q8",
+   "theme": 5,
+   "block": 1,
+   "q": "L'adhesió d'Espanya a les Comunitats Europees va tenir efectes des de:",
+   "options": [
+    "L'1 de gener de 1986",
+    "El 12 de juny de 1985",
+    "L'1 de gener de 1985",
+    "L'1 de juliol de 1987"
+   ],
+   "correct": 0,
+   "explain": "El TRACTAT D'ADHESIÓ d'Espanya i Portugal es va signar a Madrid i Lisboa el 12-6-1985, però l'adhesió va tenir EFECTES l'1-1-1986 (tercera ampliació, l'Europa dels 12). Compte amb el parany entre la data de SIGNATURA i la d'EFECTES.",
+   "source": "TUE",
+   "article": "Adhesió d'Espanya 1986"
+  },
+  {
+   "id": "t05q9",
+   "theme": 5,
+   "block": 1,
+   "q": "Segons l'art. 288 TFUE, el reglament de la Unió Europea:",
+   "options": [
+    "Obliga quant al resultat i deixa als estats l'elecció de forma i mitjans",
+    "Té abast general i és obligatori i directament aplicable a cada estat membre",
+    "És obligatori únicament per als destinataris que designi expressament",
+    "No té caràcter vinculant i es limita a fixar recomanacions comunes"
+   ],
+   "correct": 1,
+   "explain": "El REGLAMENT té ABAST GENERAL, és OBLIGATORI en tots els seus elements i DIRECTAMENT APLICABLE (no cal transposició). La DIRECTIVA obliga quant al RESULTAT i exigeix transposició; la DECISIÓ obliga els seus destinataris; RECOMANACIONS I DICTÀMENS no vinculen.",
+   "source": "TFUE",
+   "article": "Art. 288 TFUE"
+  },
+  {
+   "id": "t05q10",
+   "theme": 5,
+   "block": 1,
+   "q": "Quin d'aquests NO figura entre els valors de la Unió de l'art. 2 TUE?",
+   "options": [
+    "L'estat de dret",
+    "La dignitat humana",
+    "La cohesió territorial",
+    "La igualtat"
+   ],
+   "correct": 2,
+   "explain": "L'art. 2 TUE enumera els VALORS: dignitat humana, llibertat, democràcia, igualtat, ESTAT DE DRET i respecte dels drets humans, incloses les minories. La COHESIÓ econòmica, social i TERRITORIAL és un OBJECTIU de l'art. 3 TUE, no un valor de l'art. 2 (distinció habitual de test).",
+   "source": "TUE",
+   "article": "Art. 2 TUE"
+  },
+  {
+   "id": "t06q6",
+   "theme": 6,
+   "block": 2,
+   "q": "Segons l'art. 140 CE, l'alcalde pot ser elegit:",
+   "options": [
+    "Únicament pels regidors de la corporació municipal",
+    "Únicament pels veïns mitjançant sufragi directe",
+    "Pel ple de la diputació provincial corresponent",
+    "Pels regidors o pels veïns"
+   ],
+   "correct": 3,
+   "explain": "L'art. 140 CE preveu les DUES possibilitats: «Els alcaldes seran elegits PELS REGIDORS O PELS VEÏNS». El sistema vigent (art. 196 LOREG) és l'elecció pels REGIDORS entre els caps de llista, amb majoria absoluta o, si no, proclamació del cap de la llista més votada; l'elecció veïnal directa opera al consell obert.",
+   "source": "CE1978",
+   "article": "Art. 140 CE"
+  },
+  {
+   "id": "t06q7",
+   "theme": 6,
+   "block": 2,
+   "q": "Les entitats locals han de trametre a l'Estat i a la comunitat autònoma còpia dels seus actes i acords (art. 56 LRBRL) en el termini de:",
+   "options": [
+    "6 dies següents a la seva adopció",
+    "10 dies següents a la seva adopció",
+    "15 dies següents a la seva publicació",
+    "1 mes següent a la seva aprovació definitiva"
+   ],
+   "correct": 0,
+   "explain": "El DEURE D'INFORMACIÓ MÚTUA de l'art. 56 LRBRL (desplegat per l'art. 196 ROF) obliga a trametre còpia o extracte dels actes i acords en el termini de 6 DIES: és el punt de partida del control de legalitat dels arts. 65 a 67, els terminis dels quals compten des de la recepció d'aquesta comunicació.",
+   "source": "LRBRL",
+   "article": "Art. 56 LRBRL"
+  },
+  {
+   "id": "t06q8",
+   "theme": 6,
+   "block": 2,
+   "q": "Si una entitat local adopta actes que atempten greument contra l'interès general d'Espanya (art. 67 LRBRL), el delegat del Govern pot:",
+   "options": [
+    "Anul·lar-los directament i ordenar la reposició de la situació anterior",
+    "Suspendre'ls, previ requeriment a l'alcalde, i impugnar-los davant el contenciós en 10 dies",
+    "Suspendre'ls per un màxim de 6 mesos amb autorització del Senat",
+    "Requerir l'entitat i, si no rectifica, dissoldre la corporació local"
+   ],
+   "correct": 1,
+   "explain": "L'art. 67 LRBRL habilita el DELEGAT DEL GOVERN a SUSPENDRE, si el requeriment no és atès, els actes que atemptin greument contra l'interès general d'Espanya: el REQUERIMENT a l'alcalde s'ha de fer dins dels 10 DIES següents a la recepció de l'acte, i la IMPUGNACIÓ davant el contenciós, dins dels 10 DIES següents a la suspensió. Mai no pot anul·lar-los ell mateix.",
+   "source": "LRBRL",
+   "article": "Art. 67 LRBRL"
+  },
+  {
+   "id": "t06q9",
+   "theme": 6,
+   "block": 2,
+   "q": "L'art. 3 de la Carta europea de l'autonomia local defineix l'autonomia local com:",
+   "options": [
+    "La potestat de les entitats locals de dictar lleis en l'àmbit de les seves competències territorials",
+    "La independència financera i organitzativa absoluta dels municipis respecte de l'Estat",
+    "El dret i la capacitat efectiva de les entitats locals d'ordenar i gestionar una part important dels afers públics",
+    "El dret dels veïns de participar directament en la gestió dels serveis públics locals"
+   ],
+   "correct": 2,
+   "explain": "Definició literal de l'art. 3.1 CEAL: DRET I CAPACITAT EFECTIVA de les entitats locals d'ORDENAR I GESTIONAR una part important dels afers públics, en el marc de la llei, SOTA LA SEVA PRÒPIA RESPONSABILITAT i en benefici dels seus habitants. L'autonomia local és administrativa: NO inclou potestat legislativa.",
+   "source": "CEAL",
+   "article": "Art. 3 CEAL"
+  },
+  {
+   "id": "t06q10",
+   "theme": 6,
+   "block": 2,
+   "q": "L'execució substitutòria de l'art. 60 LRBRL escau quan una entitat local incompleix obligacions imposades directament per la llei i requereix:",
+   "options": [
+    "Sentència ferma prèvia de la jurisdicció contenciosa administrativa",
+    "Acord del Consell de Ministres amb l'informe favorable del Senat",
+    "Resolució prèvia del Tribunal de Comptes sobre el perjudici causat",
+    "Recordatori previ del compliment amb concessió d'un termini mai inferior a un mes"
+   ],
+   "correct": 3,
+   "explain": "L'art. 60 LRBRL permet a l'Estat o a la CA SUBSTITUIR l'entitat local quan incompleixi obligacions LEGALS amb cobertura econòmica garantida i l'incompliment afecti competències alienes: cal RECORDATORI previ i un termini MAI INFERIOR A UN MES; si persisteix, l'administració requirent adopta les mesures A COSTA de l'entitat local.",
+   "source": "LRBRL",
+   "article": "Art. 60 LRBRL"
   }
  ]
 }
