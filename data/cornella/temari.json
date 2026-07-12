@@ -1,5 +1,287 @@
 {
-  "blocks": {},
-  "temari": [],
-  "norms": {}
+ "_meta": {
+  "info": "Temari general per a les convocatòries de places del grup A1 (part comuna, 18 temes), Annex III aprovat pel Ple de l'Ajuntament de Cornellà de Llobregat el 31-01-2024. Material d'estudi no oficial generat amb IA."
+ },
+ "norms": {
+  "CE1978": {
+   "name": "Constitució espanyola de 1978",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+  },
+  "LOPJ": {
+   "name": "LO 6/1985 del poder judicial",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666"
+  },
+  "EAC2006": {
+   "name": "Estatut d'autonomia de Catalunya (LO 6/2006)",
+   "url": "https://portaljuridic.gencat.cat/eli/es-ct/lo/2006/07/19/6"
+  },
+  "TUE": {
+   "name": "Tractat de la Unió Europea (versió consolidada)",
+   "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016M/TXT"
+  },
+  "TFUE": {
+   "name": "Tractat de funcionament de la UE (versió consolidada)",
+   "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12016E/TXT"
+  },
+  "LRBRL": {
+   "name": "Llei 7/1985 reguladora de les bases del règim local",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+  },
+  "TRRL": {
+   "name": "RDL 781/1986 (TR disposicions règim local)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-9865"
+  },
+  "DL2_2003": {
+   "name": "DL 2/2003 (TR Llei municipal i de règim local de Catalunya)",
+   "url": "https://portaljuridic.gencat.cat/eli/es-ct/dlegis/2003/04/28/2"
+  },
+  "CEAL": {
+   "name": "Carta europea de l'autonomia local (1985)",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1989-4370"
+  },
+  "TRLHL": {
+   "name": "RDL 2/2004 (TR Llei reguladora de les hisendes locals)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+  },
+  "L39_2015": {
+   "name": "Llei 39/2015 del procediment administratiu comú",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  },
+  "L40_2015": {
+   "name": "Llei 40/2015 de règim jurídic del sector públic",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+  },
+  "LJCA": {
+   "name": "Llei 29/1998 de la jurisdicció contenciosa administrativa",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718"
+  },
+  "LCSP": {
+   "name": "Llei 9/2017 de contractes del sector públic",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+  },
+  "L38_2003": {
+   "name": "Llei 38/2003 general de subvencions",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20977"
+  },
+  "ROAS": {
+   "name": "Decret 179/1995 (Reglament d'obres, activitats i serveis ens locals)",
+   "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1995/06/13/179"
+  },
+  "L33_2003": {
+   "name": "Llei 33/2003 del patrimoni de les administracions públiques",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-20254"
+  },
+  "RD1372_1986": {
+   "name": "RD 1372/1986 (Reglament de béns de les entitats locals)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-17958"
+  },
+  "D336_1988": {
+   "name": "Decret 336/1988 (Reglament patrimoni ens locals de Catalunya)",
+   "url": "https://portaljuridic.gencat.cat/eli/es-ct/d/1988/10/17/336"
+  },
+  "TREBEP": {
+   "name": "RDL 5/2015 (TR Estatut bàsic de l'empleat públic)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+  },
+  "CORN": {
+   "name": "Ajuntament de Cornellà de Llobregat",
+   "url": "https://www.cornella.cat"
+  }
+ },
+ "blocks": {
+  "1": "Dret constitucional, Estatut i Unió Europea",
+  "2": "Règim local i hisendes locals",
+  "3": "Fonts, acte i procediment administratiu",
+  "4": "Contractació, foment, serveis i béns",
+  "5": "Sanció, responsabilitat i funció pública"
+ },
+ "temari": [
+  {
+   "num": 1,
+   "title": "La Constitució espanyola de 1978: estructura i principis generals.",
+   "block": 1,
+   "blockName": "Dret constitucional, Estatut i Unió Europea",
+   "sources": [
+    "CE1978"
+   ]
+  },
+  {
+   "num": 2,
+   "title": "El poder legislatiu, el poder executiu i el poder judicial: estructura a l'Estat espanyol.",
+   "block": 1,
+   "blockName": "Dret constitucional, Estatut i Unió Europea",
+   "sources": [
+    "CE1978",
+    "LOPJ"
+   ]
+  },
+  {
+   "num": 3,
+   "title": "Organització territorial de l'Estat: l'Administració central, autonòmica i local.",
+   "block": 1,
+   "blockName": "Dret constitucional, Estatut i Unió Europea",
+   "sources": [
+    "CE1978",
+    "L40_2015",
+    "LRBRL"
+   ]
+  },
+  {
+   "num": 4,
+   "title": "L'Estatut d'Autonomia de Catalunya: estructura, contingut essencial i principis fonamentals.",
+   "block": 1,
+   "blockName": "Dret constitucional, Estatut i Unió Europea",
+   "sources": [
+    "EAC2006",
+    "CE1978"
+   ]
+  },
+  {
+   "num": 5,
+   "title": "La Unió Europea: antecedents i objectius. Els tractats originaris i de modificació.",
+   "block": 1,
+   "blockName": "Dret constitucional, Estatut i Unió Europea",
+   "sources": [
+    "TUE",
+    "TFUE"
+   ]
+  },
+  {
+   "num": 6,
+   "title": "El règim local espanyol: principis constitucionals i regulació jurídica. Relacions entre ens territorials. L'autonomia local.",
+   "block": 2,
+   "blockName": "Règim local i hisendes locals",
+   "sources": [
+    "CE1978",
+    "LRBRL",
+    "CEAL",
+    "DL2_2003"
+   ]
+  },
+  {
+   "num": 7,
+   "title": "El municipi. Organització municipal. Òrgans necessaris. Òrgans complementaris. Competències.",
+   "block": 2,
+   "blockName": "Règim local i hisendes locals",
+   "sources": [
+    "LRBRL",
+    "DL2_2003",
+    "TRRL"
+   ]
+  },
+  {
+   "num": 8,
+   "title": "Les hisendes locals.",
+   "block": 2,
+   "blockName": "Règim local i hisendes locals",
+   "sources": [
+    "TRLHL",
+    "CE1978"
+   ]
+  },
+  {
+   "num": 9,
+   "title": "Submissió de l'Administració a la llei. Fonts del dret públic. La llei: classes. El reglament: classes. Potestat reglamentària a l'àmbit local.",
+   "block": 3,
+   "blockName": "Fonts, acte i procediment administratiu",
+   "sources": [
+    "CE1978",
+    "L39_2015",
+    "LRBRL"
+   ]
+  },
+  {
+   "num": 10,
+   "title": "L'acte administratiu. Concepte. Elements. Actes nuls i anul·lables. Procediment administratiu. Fases. Notificació.",
+   "block": 3,
+   "blockName": "Fonts, acte i procediment administratiu",
+   "sources": [
+    "L39_2015"
+   ]
+  },
+  {
+   "num": 11,
+   "title": "Revisió dels actes administratius: d'ofici i en via de recurs administratiu. El recurs contenciós-administratiu.",
+   "block": 3,
+   "blockName": "Fonts, acte i procediment administratiu",
+   "sources": [
+    "L39_2015",
+    "LJCA"
+   ]
+  },
+  {
+   "num": 12,
+   "title": "La contractació administrativa. Classes de contractes. La selecció del contractista. Drets i deures del contractista i de l'Administració.",
+   "block": 4,
+   "blockName": "Contractació, foment, serveis i béns",
+   "sources": [
+    "LCSP"
+   ]
+  },
+  {
+   "num": 13,
+   "title": "L'activitat de foment. Convenis i subvencions.",
+   "block": 4,
+   "blockName": "Contractació, foment, serveis i béns",
+   "sources": [
+    "L38_2003",
+    "L40_2015"
+   ]
+  },
+  {
+   "num": 14,
+   "title": "El servei públic local. Formes de prestació dels serveis públics. La gestió directa i la indirecta.",
+   "block": 4,
+   "blockName": "Contractació, foment, serveis i béns",
+   "sources": [
+    "LRBRL",
+    "ROAS",
+    "LCSP"
+   ]
+  },
+  {
+   "num": 15,
+   "title": "Els béns de les Entitats locals. El domini públic. Els béns patrimonials de les Entitats locals.",
+   "block": 4,
+   "blockName": "Contractació, foment, serveis i béns",
+   "sources": [
+    "L33_2003",
+    "RD1372_1986",
+    "D336_1988",
+    "DL2_2003"
+   ]
+  },
+  {
+   "num": 16,
+   "title": "La potestat sancionadora administrativa.",
+   "block": 5,
+   "blockName": "Sanció, responsabilitat i funció pública",
+   "sources": [
+    "L40_2015",
+    "L39_2015",
+    "LRBRL"
+   ]
+  },
+  {
+   "num": 17,
+   "title": "La responsabilitat de les administracions públiques.",
+   "block": 5,
+   "blockName": "Sanció, responsabilitat i funció pública",
+   "sources": [
+    "L40_2015",
+    "L39_2015",
+    "CE1978"
+   ]
+  },
+  {
+   "num": 18,
+   "title": "Règim jurídic del personal al servei de les Administracions Públiques. L'Estatut Bàsic de l'Empleat Públic.",
+   "block": 5,
+   "blockName": "Sanció, responsabilitat i funció pública",
+   "sources": [
+    "TREBEP",
+    "CE1978"
+   ]
+  }
+ ]
 }

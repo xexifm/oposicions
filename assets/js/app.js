@@ -21,7 +21,7 @@ const MUNIS = {
   cornella: {
     id:'cornella', dir:'cornella',
     name:'Cornellà de Llobregat', short:'Cornellà',
-    role:'Oposició · temari en preparació',
+    role:'Temari general A1 · part comuna (18 temes)',
     crest:'C', color:'#a61a2f', shield:'assets/icons/cornella-escut.svg',
     web:'https://www.cornella.cat',
   },
