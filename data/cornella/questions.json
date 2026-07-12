@@ -482,6 +482,486 @@
    "explain": "Segons l'art. 75 ter LOTC (introduït per la LO 7/1999), estan legitimats el municipi o província DESTINATARI ÚNIC de la llei, o un nombre de municipis que suposin almenys UNA SETENA PART dels de l'àmbit d'aplicació i UNA SISENA PART de la seva població oficial (per a províncies: la meitat i la meitat).",
    "source": "CEAL",
    "article": "Art. 75 ter LOTC"
+  },
+  {
+   "id": "t07q1",
+   "theme": 7,
+   "block": 2,
+   "q": "La junta de govern local existeix necessàriament en els municipis amb població superior a:",
+   "options": [
+    "20.000 habitants",
+    "10.000 habitants",
+    "5.000 habitants",
+    "50.000 habitants"
+   ],
+   "correct": 2,
+   "explain": "Segons l'art. 20.1.b LRBRL, la JUNTA DE GOVERN LOCAL existeix en tots els municipis de MÉS DE 5.000 HABITANTS i, en els de menys, quan ho acordi el ple o ho estableixi el reglament orgànic. La integren l'alcalde i un nombre de regidors NO SUPERIOR AL TERÇ del nombre legal.",
+   "source": "LRBRL",
+   "article": "Art. 20.1.b LRBRL"
+  },
+  {
+   "id": "t07q2",
+   "theme": 7,
+   "block": 2,
+   "q": "Segons l'art. 26.1 LRBRL, la prevenció i extinció d'incendis és servei obligatori en els municipis de població superior a:",
+   "options": [
+    "5.000 habitants",
+    "50.000 habitants",
+    "75.000 habitants",
+    "20.000 habitants"
+   ],
+   "correct": 3,
+   "explain": "El tram de MÉS DE 20.000 HABITANTS afegeix: PROTECCIÓ CIVIL, avaluació i informació de situacions de necessitat social i atenció immediata a persones en risc d'exclusió, PREVENCIÓ I EXTINCIÓ D'INCENDIS i instal·lacions esportives d'ús públic. El transport col·lectiu urbà i el medi ambient urbà són del tram de més de 50.000.",
+   "source": "LRBRL",
+   "article": "Art. 26.1.c LRBRL"
+  },
+  {
+   "id": "t07q3",
+   "theme": 7,
+   "block": 2,
+   "q": "En un municipi de més de 20.000 habitants com Cornellà, el ple ha de fer sessió ordinària com a mínim:",
+   "options": [
+    "Cada mes",
+    "Cada dos mesos",
+    "Cada tres mesos",
+    "Cada quinze dies"
+   ],
+   "correct": 0,
+   "explain": "L'art. 46.2.a LRBRL fixa la periodicitat MÍNIMA de les sessions ordinàries del ple: MENSUAL en municipis de més de 20.000 habitants (i diputacions), cada DOS MESOS entre 5.001 i 20.000, i cada TRES MESOS fins a 5.000 habitants.",
+   "source": "LRBRL",
+   "article": "Art. 46.2 LRBRL"
+  },
+  {
+   "id": "t07q4",
+   "theme": 7,
+   "block": 2,
+   "q": "El règim de consell obert (alcalde i assemblea veïnal) s'aplica als municipis que:",
+   "options": [
+    "Tenen menys de 500 habitants en zones de muntanya",
+    "Tenen menys de 100 habitants o el tenen per tradició",
+    "Tenen menys de 250 habitants i ho acorda la diputació",
+    "Tenen menys de 1.000 habitants i ho aprova la comunitat autònoma"
+   ],
+   "correct": 1,
+   "explain": "L'art. 29 LRBRL (reformat el 2011) reserva el CONSELL OBERT als municipis de MENYS DE 100 HABITANTS i als que el mantenen per tradició o ho acorden per les seves circumstàncies: hi governen l'ALCALDE i una ASSEMBLEA VEÏNAL de la qual formen part tots els electors.",
+   "source": "LRBRL",
+   "article": "Art. 29 LRBRL"
+  },
+  {
+   "id": "t07q5",
+   "theme": 7,
+   "block": 2,
+   "q": "Els tinents d'alcalde són nomenats i cessats:",
+   "options": [
+    "Pel ple d'entre els regidors, a proposta dels grups municipals",
+    "Per la junta de govern local d'entre els seus propis membres",
+    "Lliurement per l'alcalde d'entre els membres de la junta de govern local",
+    "Pel ple per majoria absoluta a proposta de l'alcalde"
+   ],
+   "correct": 2,
+   "explain": "Segons l'art. 21.2 LRBRL, l'ALCALDE nomena i cessa LLIUREMENT els tinents d'alcalde d'entre els membres de la JUNTA DE GOVERN LOCAL i, on no n'hi hagi, d'entre els regidors. El substitueixen per ordre de nomenament en casos de vacant, absència o malaltia.",
+   "source": "LRBRL",
+   "article": "Art. 21.2 LRBRL"
+  },
+  {
+   "id": "t08q1",
+   "theme": 8,
+   "block": 2,
+   "q": "Quins són els impostos municipals d'exacció OBLIGATÒRIA segons el TRLHL?",
+   "options": [
+    "IBI, ICIO i impost sobre vehicles de tracció mecànica",
+    "IBI, IAE i impost sobre l'increment de valor dels terrenys",
+    "IAE, ICIO i impost sobre l'increment de valor dels terrenys",
+    "IBI, IAE i impost sobre vehicles de tracció mecànica"
+   ],
+   "correct": 3,
+   "explain": "L'art. 59.1 TRLHL imposa a tots els ajuntaments l'IBI, l'IAE i l'IVTM; en canvi, l'ICIO i l'IIVTNU (plusvàlua) són POTESTATIUS (art. 59.2): exigeixen acord d'imposició i ordenança fiscal pròpia.",
+   "source": "TRLHL",
+   "article": "Art. 59 TRLHL"
+  },
+  {
+   "id": "t08q2",
+   "theme": 8,
+   "block": 2,
+   "q": "El tipus de gravamen de l'impost sobre construccions, instal·lacions i obres (ICIO) no pot excedir del:",
+   "options": [
+    "4% del cost real i efectiu de l'obra",
+    "5% del cost real i efectiu de l'obra",
+    "3% del pressupost de licitació de l'obra",
+    "6% del pressupost d'execució material"
+   ],
+   "correct": 0,
+   "explain": "L'art. 102.3 TRLHL fixa el tipus MÀXIM de l'ICIO en el 4%. La base imposable és el COST REAL I EFECTIU de la construcció, instal·lació o obra, de la qual s'exclouen l'IVA, les taxes i els honoraris professionals.",
+   "source": "TRLHL",
+   "article": "Art. 102 TRLHL"
+  },
+  {
+   "id": "t08q3",
+   "theme": 8,
+   "block": 2,
+   "q": "En les contribucions especials, la base imposable no pot superar el:",
+   "options": [
+    "100% del cost total de l'obra o del servei ampliat",
+    "90% del cost que l'entitat local suporti per l'obra o servei",
+    "75% del cost que l'entitat local suporti per l'obra o servei",
+    "50% del cost total incloent-hi les subvencions rebudes"
+   ],
+   "correct": 1,
+   "explain": "Segons l'art. 31 TRLHL, la base imposable de les CONTRIBUCIONS ESPECIALS és, com a màxim, el 90% DEL COST que l'entitat SUPORTA (descomptades subvencions). El fet imposable és el BENEFICI ESPECIAL que obté el subjecte per obres públiques o per l'establiment o ampliació de serveis.",
+   "source": "TRLHL",
+   "article": "Art. 31 TRLHL"
+  },
+  {
+   "id": "t08q4",
+   "theme": 8,
+   "block": 2,
+   "q": "L'acord provisional d'una ordenança fiscal s'ha d'exposar al públic durant un mínim de:",
+   "options": [
+    "15 dies hàbils comptats des de la publicació al BOP",
+    "20 dies naturals des de l'anunci al tauler d'edictes",
+    "30 dies, dins dels quals els interessats poden presentar reclamacions",
+    "2 mesos comptats des de l'aprovació inicial pel ple"
+   ],
+   "correct": 2,
+   "explain": "L'art. 17 TRLHL exigeix exposició pública de l'acord provisional durant 30 DIES COM A MÍNIM (tauler, BOP i, en municipis de més de 10.000 habitants, un diari); resoltes les reclamacions s'aprova definitivament i cal publicar el TEXT ÍNTEGRE al BOP. Contra les ordenances fiscals només escau recurs CONTENCIÓS ADMINISTRATIU.",
+   "source": "TRLHL",
+   "article": "Art. 17 TRLHL"
+  },
+  {
+   "id": "t08q5",
+   "theme": 8,
+   "block": 2,
+   "q": "Si l'1 de gener el pressupost municipal no ha estat aprovat definitivament, què passa?",
+   "options": [
+    "L'entitat no pot fer cap despesa fins a l'aprovació definitiva",
+    "El ple ha d'aprovar un pressupost provisional en el termini d'un mes",
+    "La comunitat autònoma aprova el pressupost per subrogació",
+    "Es considera automàticament prorrogat el pressupost de l'exercici anterior"
+   ],
+   "correct": 3,
+   "explain": "L'art. 169.6 TRLHL preveu la PRÒRROGA AUTOMÀTICA del pressupost anterior fins a l'aprovació i publicació del nou, amb els ajustos que preveu el RD 500/1990. Recordeu la tramitació: aprovació inicial pel ple, exposició de 15 DIES i aprovació definitiva abans del 31 de desembre.",
+   "source": "TRLHL",
+   "article": "Art. 169.6 TRLHL"
+  },
+  {
+   "id": "t09q1",
+   "theme": 9,
+   "block": 3,
+   "q": "L'art. 103.1 CE estableix que l'Administració pública actua:",
+   "options": [
+    "Amb submissió plena a la llei i al dret",
+    "Amb subjecció exclusiva a la llei formal aprovada per les Corts",
+    "Amb autonomia funcional respecte del poder legislatiu",
+    "Amb submissió al dret només en la seva activitat de limitació"
+   ],
+   "correct": 0,
+   "explain": "L'art. 103.1 CE consagra el principi de LEGALITAT administrativa: l'Administració serveix amb OBJECTIVITAT els interessos generals i actua amb SUBMISSIÓ PLENA A LA LLEI I AL DRET (vinculació positiva). El control d'aquesta submissió correspon als tribunals (art. 106.1 CE).",
+   "source": "CE1978",
+   "article": "Art. 103.1 CE"
+  },
+  {
+   "id": "t09q2",
+   "theme": 9,
+   "block": 3,
+   "q": "El principi d'inderogabilitat singular dels reglaments (art. 37 Llei 39/2015) significa que:",
+   "options": [
+    "Els reglaments només poden derogar-se per una norma amb rang de llei",
+    "Cap resolució singular no pot vulnerar un reglament, ni que vingui d'un òrgan superior",
+    "Un reglament posterior no pot derogar singularment un reglament anterior",
+    "Els reglaments locals no poden ser derogats per l'Estat ni per la Generalitat"
+   ],
+   "correct": 1,
+   "explain": "La INDEROGABILITAT SINGULAR impedeix que les resolucions administratives de caràcter particular vulnerin allò establert en una disposició general, ENCARA QUE l'òrgan que dicta la resolució sigui de RANG SUPERIOR al que va aprovar el reglament. És garantia d'igualtat i de jerarquia normativa.",
+   "source": "L39_2015",
+   "article": "Art. 37 Llei 39/2015"
+  },
+  {
+   "id": "t09q3",
+   "theme": 9,
+   "block": 3,
+   "q": "En el procediment d'aprovació de les ordenances locals (art. 49 LRBRL), la informació pública i audiència als interessats ha de durar com a mínim:",
+   "options": [
+    "15 dies hàbils per a la presentació d'al·legacions",
+    "20 dies naturals des de l'aprovació inicial pel ple",
+    "30 dies per a la presentació de reclamacions i suggeriments",
+    "45 dies quan l'ordenança tingui contingut econòmic"
+   ],
+   "correct": 2,
+   "explain": "L'art. 49 LRBRL fixa: aprovació INICIAL pel ple, INFORMACIÓ PÚBLICA I AUDIÈNCIA per un MÍNIM DE 30 DIES, resolució de reclamacions i aprovació DEFINITIVA. Si no es presenta cap reclamació, l'acord inicial esdevé DEFINITIU automàticament. La vigència exigeix publicar el text íntegre al BOP.",
+   "source": "LRBRL",
+   "article": "Art. 49 LRBRL"
+  },
+  {
+   "id": "t09q4",
+   "theme": 9,
+   "block": 3,
+   "q": "Els bans de l'alcalde es caracteritzen perquè:",
+   "options": [
+    "Tenen rang superior a les ordenances municipals",
+    "Només poden aprovar-se amb autorització prèvia del ple",
+    "Substitueixen les ordenances en cas d'urgència",
+    "No poden innovar l'ordenament jurídic"
+   ],
+   "correct": 3,
+   "explain": "Els BANS són crides o recordatoris de l'alcalde per al compliment de normes ja existents: NO SÓN VERITABLES REGLAMENTS i no poden crear obligacions noves. La potestat normativa local s'exerceix mitjançant ORDENANCES (eficàcia externa) i REGLAMENTS (organització interna, com el ROM).",
+   "source": "LRBRL",
+   "article": "Art. 21.1.e LRBRL"
+  },
+  {
+   "id": "t09q5",
+   "theme": 9,
+   "block": 3,
+   "q": "Contra una disposició administrativa de caràcter general (reglament):",
+   "options": [
+    "No es pot interposar cap recurs en via administrativa",
+    "Es pot interposar recurs d'alçada davant l'òrgan superior",
+    "Es pot interposar recurs potestatiu de reposició en el termini d'un mes",
+    "Només es pot interposar el recurs extraordinari de revisió"
+   ],
+   "correct": 0,
+   "explain": "L'art. 112.3 Llei 39/2015 exclou el recurs administratiu contra les DISPOSICIONS GENERALS: el control és JUDICIAL, mitjançant recurs contenciós DIRECTE (2 mesos des de la publicació) o INDIRECTE (contra els actes d'aplicació, fonamentat en la il·legalitat del reglament), a més de la qüestió d'il·legalitat.",
+   "source": "L39_2015",
+   "article": "Art. 112.3 Llei 39/2015"
+  },
+  {
+   "id": "t10q1",
+   "theme": 10,
+   "block": 3,
+   "q": "Segons l'art. 47.1.b Llei 39/2015, són nuls de ple dret els actes dictats per òrgan manifestament incompetent per raó de:",
+   "options": [
+    "La matèria o la jerarquia",
+    "La matèria o el territori",
+    "La jerarquia o el territori",
+    "La matèria, la jerarquia o el territori"
+   ],
+   "correct": 1,
+   "explain": "Només la incompetència MATERIAL o TERRITORIAL manifesta causa NUL·LITAT de ple dret. La incompetència JERÀRQUICA és mera anul·labilitat i es pot CONVALIDAR per l'òrgan superior competent (art. 52.3). És un dels paranys més repetits de test.",
+   "source": "L39_2015",
+   "article": "Art. 47.1.b Llei 39/2015"
+  },
+  {
+   "id": "t10q2",
+   "theme": 10,
+   "block": 3,
+   "q": "Tota notificació ha de ser cursada dins del termini de:",
+   "options": [
+    "15 dies a partir de la data en què l'acte hagi estat dictat",
+    "5 dies hàbils des de la signatura de la resolució",
+    "10 dies a partir de la data en què l'acte hagi estat dictat",
+    "1 mes des de la data de registre de la resolució"
+   ],
+   "correct": 2,
+   "explain": "L'art. 40.2 Llei 39/2015 obliga a CURSAR la notificació dins dels 10 DIES següents al dictat de l'acte, amb el TEXT ÍNTEGRE, la indicació de si posa fi o no a la via administrativa i els RECURSOS procedents. A efectes del termini per resoldre, n'hi ha prou amb l'INTENT acreditat (art. 40.4).",
+   "source": "L39_2015",
+   "article": "Art. 40.2 Llei 39/2015"
+  },
+  {
+   "id": "t10q3",
+   "theme": 10,
+   "block": 3,
+   "q": "Si la norma reguladora d'un procediment no fixa el termini màxim per resoldre i notificar, aquest és de:",
+   "options": [
+    "6 mesos",
+    "1 mes",
+    "45 dies",
+    "3 mesos"
+   ],
+   "correct": 3,
+   "explain": "L'art. 21.3 Llei 39/2015 estableix el termini SUPLETORI de 3 MESOS. Quan la norma el fixa, no pot excedir de 6 MESOS llevat que ho estableixi una norma amb RANG DE LLEI o el dret de la UE. El còmput: en els iniciats d'ofici, des de l'acord d'iniciació; a sol·licitud, des de l'entrada al registre de l'administració competent.",
+   "source": "L39_2015",
+   "article": "Art. 21.3 Llei 39/2015"
+  },
+  {
+   "id": "t10q4",
+   "theme": 10,
+   "block": 3,
+   "q": "La notificació electrònica s'entén REBUTJADA quan:",
+   "options": [
+    "Passen 10 dies naturals des de la posada a disposició sense accedir al contingut",
+    "Passen 5 dies hàbils des de l'enviament de l'avís al correu electrònic",
+    "Passen 15 dies naturals des de la publicació a la seu electrònica",
+    "L'interessat no confirma la recepció en el termini de 3 dies"
+   ],
+   "correct": 0,
+   "explain": "Segons l'art. 43.2 Llei 39/2015, la notificació electrònica s'entén practicada amb l'ACCÉS al contingut i REBUTJADA quan transcorren 10 DIES NATURALS des de la posada a disposició sense accedir-hi: el tràmit es té per efectuat i el procediment continua. L'avís al dispositiu és facultatiu i la seva manca no invalida la notificació.",
+   "source": "L39_2015",
+   "article": "Art. 43.2 Llei 39/2015"
+  },
+  {
+   "id": "t10q5",
+   "theme": 10,
+   "block": 3,
+   "q": "El tràmit d'audiència a l'interessat, un cop instruït el procediment, té una durada de:",
+   "options": [
+    "No inferior a 15 dies ni superior a 30",
+    "No inferior a 10 dies ni superior a 15",
+    "20 dies improrrogables en tot cas",
+    "No inferior a 5 dies ni superior a 10"
+   ],
+   "correct": 1,
+   "explain": "L'art. 82 Llei 39/2015 situa l'AUDIÈNCIA immediatament abans de la proposta de resolució, per un termini d'ENTRE 10 I 15 DIES; només es pot ometre quan no figurin al procediment ni hagin de ser tinguts en compte altres fets ni al·legacions. No confondre amb la INFORMACIÓ PÚBLICA (mínim 20 dies, art. 83) ni amb el període de PROVA (10 a 30 dies, art. 77).",
+   "source": "L39_2015",
+   "article": "Art. 82 Llei 39/2015"
+  },
+  {
+   "id": "t11q1",
+   "theme": 11,
+   "block": 3,
+   "q": "La revisió d'ofici d'un acte nul de ple dret (art. 106 Llei 39/2015) exigeix:",
+   "options": [
+    "Autorització prèvia del jutjat contenciós administratiu competent",
+    "Informe previ no vinculant de la secretaria general de la corporació",
+    "Dictamen previ favorable del Consell d'Estat o de l'òrgan consultiu autonòmic",
+    "Declaració prèvia de lesivitat aprovada pel ple de la corporació"
+   ],
+   "correct": 2,
+   "explain": "La revisió d'ofici es pot fer EN QUALSEVOL MOMENT, però requereix DICTAMEN PREVI FAVORABLE (preceptiu i habilitant) del Consell d'Estat o de l'òrgan consultiu de la comunitat autònoma: a Catalunya, la COMISSIÓ JURÍDICA ASSESSORA. Si el procediment s'inicia d'ofici, CADUCA als 6 mesos.",
+   "source": "L39_2015",
+   "article": "Art. 106 Llei 39/2015"
+  },
+  {
+   "id": "t11q2",
+   "theme": 11,
+   "block": 3,
+   "q": "La declaració de lesivitat d'un acte anul·lable favorable als interessats (art. 107) no es pot adoptar un cop transcorreguts:",
+   "options": [
+    "2 anys des que es va dictar l'acte",
+    "6 mesos des que es va notificar l'acte",
+    "5 anys des de la fermesa de l'acte en via administrativa",
+    "4 anys des que es va dictar l'acte"
+   ],
+   "correct": 3,
+   "explain": "L'Administració NO pot anul·lar per si mateixa els actes ANUL·LABLES declaratius de drets: ha de DECLARAR-LOS LESIUS per a l'interès públic dins dels 4 ANYS des que es van dictar i impugnar-los davant el CONTENCIÓS (2 mesos). En l'àmbit local, la declaració correspon al PLE.",
+   "source": "L39_2015",
+   "article": "Art. 107 Llei 39/2015"
+  },
+  {
+   "id": "t11q3",
+   "theme": 11,
+   "block": 3,
+   "q": "El recurs d'alçada contra un acte exprés s'ha d'interposar en el termini de:",
+   "options": [
+    "1 mes, davant l'òrgan que el va dictar o davant el seu superior",
+    "2 mesos, sempre davant l'òrgan superior jeràrquic competent",
+    "15 dies, davant l'òrgan que va dictar l'acte impugnat",
+    "3 mesos, davant qualsevol òrgan de la mateixa administració"
+   ],
+   "correct": 0,
+   "explain": "L'ALÇADA escau contra actes que NO posen fi a la via administrativa: 1 MES si l'acte és exprés (si és presumpte, en qualsevol moment des de l'endemà del silenci); es pot presentar davant l'autor o davant el superior, i el termini per RESOLDRE és de 3 MESOS amb silenci desestimatori — llevat del DOBLE SILENCI, que és estimatori.",
+   "source": "L39_2015",
+   "article": "Art. 122 Llei 39/2015"
+  },
+  {
+   "id": "t11q4",
+   "theme": 11,
+   "block": 3,
+   "q": "El termini màxim per dictar i notificar la resolució del recurs potestatiu de reposició és de:",
+   "options": [
+    "3 mesos",
+    "1 mes",
+    "2 mesos",
+    "45 dies"
+   ],
+   "correct": 1,
+   "explain": "La REPOSICIÓ (arts. 123-124 Llei 39/2015) s'interposa en 1 MES contra actes que posen fi a la via administrativa, davant el MATEIX òrgan que els va dictar, i s'ha de resoldre en 1 MES (silenci desestimatori). No es pot acudir al contenciós fins que es resolgui expressament o es produeixi el silenci.",
+   "source": "L39_2015",
+   "article": "Art. 124.2 Llei 39/2015"
+  },
+  {
+   "id": "t11q5",
+   "theme": 11,
+   "block": 3,
+   "q": "El termini per interposar recurs contenciós administratiu contra un acte exprés és de:",
+   "options": [
+    "6 mesos des de l'endemà de la notificació o publicació",
+    "1 mes des de la fermesa de l'acte en via administrativa",
+    "2 mesos des de l'endemà de la notificació o publicació",
+    "3 mesos des de l'endemà de la recepció de l'expedient"
+   ],
+   "correct": 2,
+   "explain": "L'art. 46.1 LJCA fixa 2 MESOS per als actes expressos i les disposicions generals; per als presumptes en preveu 6, tot i que la jurisprudència constitucional considera que el silenci NEGATIU no fa precloure el termini mentre no hi hagi resolució expressa. Els actes de les ENTITATS LOCALS s'impugnen davant els JUTJATS CONTENCIOSOS.",
+   "source": "LJCA",
+   "article": "Art. 46.1 LJCA"
+  },
+  {
+   "id": "t12q1",
+   "theme": 12,
+   "block": 4,
+   "q": "Es consideren contractes MENORS (art. 118 LCSP) els de valor estimat inferior a:",
+   "options": [
+    "50.000 € en obres i 18.000 € en subministraments i serveis",
+    "40.000 € en obres i 20.000 € en subministraments i serveis",
+    "30.000 € en obres i 15.000 € en subministraments i serveis",
+    "40.000 € en obres i 15.000 € en subministraments i serveis"
+   ],
+   "correct": 3,
+   "explain": "Els MENORS (adjudicació directa amb informe de necessitat) són els d'import inferior a 40.000 € (OBRES) i 15.000 € (SERVEIS I SUBMINISTRAMENTS); no poden durar més d'1 ANY ni tenir PRÒRROGA ni revisió de preus, i es publiquen trimestralment al perfil de contractant.",
+   "source": "LCSP",
+   "article": "Art. 118 LCSP"
+  },
+  {
+   "id": "t12q2",
+   "theme": 12,
+   "block": 4,
+   "q": "La garantia definitiva que ha de constituir l'adjudicatari és, amb caràcter general, del:",
+   "options": [
+    "5% del preu final ofert, exclòs l'IVA",
+    "5% del pressupost base de licitació, IVA inclòs",
+    "3% del preu final ofert, exclòs l'IVA",
+    "10% del valor estimat del contracte"
+   ],
+   "correct": 0,
+   "explain": "L'art. 107 LCSP fixa la garantia DEFINITIVA en el 5% DEL PREU FINAL OFERT (IVA exclòs); en ofertes inicialment anormals es pot exigir una COMPLEMENTÀRIA de fins a un 5% addicional (màxim total 10%). La PROVISIONAL és excepcional i no pot superar el 3% del pressupost base.",
+   "source": "LCSP",
+   "article": "Art. 107 LCSP"
+  },
+  {
+   "id": "t12q3",
+   "theme": 12,
+   "block": 4,
+   "q": "Els contractes que subscriuen les administracions públiques es perfeccionen amb:",
+   "options": [
+    "La notificació de l'adjudicació al licitador seleccionat",
+    "La seva formalització",
+    "L'acord d'adjudicació de l'òrgan de contractació",
+    "L'aprovació de l'expedient de contractació"
+   ],
+   "correct": 1,
+   "explain": "Segons l'art. 36.1 LCSP, els contractes es PERFECCIONEN AMB LA FORMALITZACIÓ (no amb l'adjudicació, com passava històricament). En contractes susceptibles de RECURS ESPECIAL, la formalització no pot fer-se abans de 15 DIES HÀBILS des de la notificació de l'adjudicació.",
+   "source": "LCSP",
+   "article": "Art. 36.1 LCSP"
+  },
+  {
+   "id": "t12q4",
+   "theme": 12,
+   "block": 4,
+   "q": "El procediment obert simplificat ABREUJAT o sumari (art. 159.6 LCSP) es pot utilitzar en contractes:",
+   "options": [
+    "D'obres de menys de 100.000 € i de serveis i subministraments de menys de 80.000 €",
+    "D'obres de menys de 60.000 € i de serveis i subministraments de menys de 40.000 €",
+    "D'obres de menys de 80.000 € i de serveis i subministraments de menys de 60.000 €",
+    "De qualsevol tipus amb valor estimat inferior a 35.000 €"
+   ],
+   "correct": 2,
+   "explain": "El SUMARI de l'art. 159.6 escau en OBRES de valor estimat inferior a 80.000 € i SERVEIS I SUBMINISTRAMENTS de menys de 60.000 € (excepte prestacions intel·lectuals): sense garantia definitiva, només criteris AUTOMÀTICS i terminis reduïts. L'obert simplificat ordinari arriba fins a 2.000.000 € en obres.",
+   "source": "LCSP",
+   "article": "Art. 159.6 LCSP"
+  },
+  {
+   "id": "t12q5",
+   "theme": 12,
+   "block": 4,
+   "q": "En les entitats locals, l'alcalde és l'òrgan de contractació quan el valor estimat del contracte:",
+   "options": [
+    "No supera el 20% dels recursos ordinaris del pressupost ni els 10.000.000 €",
+    "No supera el 5% dels recursos ordinaris ni els 3.000.000 €",
+    "No supera els 500.000 € sigui quin sigui el pressupost municipal",
+    "No supera el 10% dels recursos ordinaris del pressupost ni els 6.000.000 €"
+   ],
+   "correct": 3,
+   "explain": "La DA 2a LCSP atribueix a l'ALCALDE les competències com a òrgan de contractació quan el valor estimat NO SUPERA EL 10% DELS RECURSOS ORDINARIS del pressupost NI els 6.000.000 €, incloses les pluriennals de fins a 4 anys; en la resta de casos, la competència és del PLE.",
+   "source": "LCSP",
+   "article": "DA 2a LCSP"
   }
  ]
 }
