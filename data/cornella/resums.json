@@ -942,6 +942,827 @@
      ]
     }
    ]
+  },
+  "7": {
+   "intro": "El municipi és l'ENTITAT LOCAL BÀSICA de l'organització territorial de l'Estat (art. 1 LRBRL) i el canal immediat de participació ciutadana en els afers públics. El tema exigeix dominar els elements del municipi, els ÒRGANS NECESSARIS I COMPLEMENTARIS (arts. 20-24 LRBRL), les competències dels arts. 25-27 i els SERVEIS MÍNIMS de l'art. 26 per trams de població, que són pregunta segura de test.",
+   "sections": [
+    {
+     "h": "1. Elements del municipi",
+     "list": [
+      "TERRITORI: el TERME MUNICIPAL és l'àmbit on l'ajuntament exerceix les competències; l'alteració de termes es regula per la legislació autonòmica (a Catalunya, DL 2/2003 i Decret 244/2007) i mai no pot alterar límits provincials.",
+      "POBLACIÓ: el conjunt de persones inscrites al PADRÓ MUNICIPAL, registre administratiu que gestiona l'ajuntament; tota persona que viu a Espanya s'ha d'empadronar al municipi on resideix habitualment; les dades del padró són PROVA de la residència.",
+      "VEÍ: qui viu al municipi i hi consta empadronat. Drets i deures a l'art. 18 LRBRL: ser elector i elegible, usar els serveis públics, exigir la prestació dels serveis obligatoris, participar en la gestió municipal, la INICIATIVA POPULAR (art. 70 bis: signatures del 20%, 15% o 10% dels veïns segons població fins a 5.000, fins a 20.000 o més de 20.000 habitants) i la consulta popular.",
+      "ORGANITZACIÓ: el govern i l'administració municipal corresponen a l'AJUNTAMENT, integrat per l'alcalde i els regidors (art. 140 CE), llevat del règim de CONSELL OBERT (municipis de menys de 100 habitants: alcalde + assemblea veïnal)."
+     ]
+    },
+    {
+     "h": "2. Òrgans necessaris (art. 20 LRBRL)",
+     "table": {
+      "headers": [
+       "Òrgan",
+       "Existència",
+       "Notes"
+      ],
+      "rows": [
+       [
+        "ALCALDE",
+        "En tots els municipis",
+        "Presideix la corporació; elegit pels regidors (art. 196 LOREG) entre els caps de llista; és qui pot ser destituït per MOCIÓ DE CENSURA (majoria absoluta, candidat alternatiu) o perdre una QÜESTIÓ DE CONFIANÇA"
+       ],
+       [
+        "TINENTS D'ALCALDE",
+        "En tots",
+        "Nomenats i cessats LLIUREMENT per l'alcalde d'entre els membres de la junta de govern (o, si no n'hi ha, d'entre els regidors); el substitueixen per ordre de nomenament"
+       ],
+       [
+        "PLE",
+        "En tots",
+        "Tots els regidors, presidits per l'alcalde"
+       ],
+       [
+        "JUNTA DE GOVERN LOCAL",
+        "Municipis de MÉS DE 5.000 habitants (i als altres si ho acorda el ple o ho preveu el reglament orgànic)",
+        "Alcalde + regidors nomenats lliurement per ell, en nombre NO SUPERIOR AL TERÇ del nombre legal"
+       ],
+       [
+        "Comissió especial de COMPTES",
+        "En tots (art. 116)",
+        "Informa els comptes anuals abans de l'aprovació pel ple"
+       ],
+       [
+        "Comissions d'estudi, informe o consulta",
+        "Municipis de més de 5.000 habitants",
+        "Comissions informatives: tots els grups hi tenen dret a participar proporcionalment"
+       ]
+      ],
+      "cap": "El ple fa sessió ordinària com a mínim cada MES (>20.000 hab.), cada 2 MESOS (5.001-20.000) o cada 3 MESOS (fins a 5.000) — art. 46.2 LRBRL; quòrum de constitució: 1/3 del nombre legal, mai inferior a 3."
+     }
+    },
+    {
+     "h": "3. Competències de l'alcalde i del ple",
+     "list": [
+      "ALCALDE (art. 21): dirigir el govern i l'administració municipal; representar l'ajuntament; convocar i presidir les sessions; dictar BANS; desenvolupament de la gestió econòmica segons pressupost; aprovar l'oferta d'ocupació i les bases de selecció; sancions; APROVACIONS D'INSTRUMENTS de desenvolupament del planejament no atribuïdes al ple i atorgament de LLICÈNCIES; pot DELEGAR en la junta, els tinents i els regidors la majoria d'atribucions.",
+      "PLE (art. 22): control i fiscalització dels òrgans de govern; acords sobre alteració del terme; aprovació inicial del PLANEJAMENT GENERAL; REGLAMENT ORGÀNIC i ORDENANCES; PRESSUPOSTOS; plantilla; alteració de la qualificació jurídica dels béns; moció de censura; les seves atribucions dels apartats indelegables (per exemple pressupostos i ordenances NO es poden delegar).",
+      "JUNTA DE GOVERN (art. 23): assistència a l'alcalde i les atribucions que l'alcalde o el ple li deleguin."
+     ]
+    },
+    {
+     "h": "4. Òrgans complementaris i règims especials",
+     "list": [
+      "Òrgans COMPLEMENTARIS (legislació autonòmica i reglament orgànic municipal): regidors delegats, comissions informatives, CONSELLS SECTORIALS de participació, juntes de districte, defensor o SÍNDIC municipal de greuges (arts. 48 i seg. DL 2/2003), gerència.",
+      "MUNICIPIS DE GRAN POBLACIÓ (títol X LRBRL, arts. 121 i seg.): s'aplica als de més de 250.000 habitants, capitals de província de més de 175.000, capitals de província, autonòmiques o seus d'institucions autonòmiques i, si ho decideix l'assemblea legislativa autonòmica, als de MÉS DE 75.000 habitants amb circumstàncies especials; comporta ple amb comissions, junta de govern reforçada (hi poden ser nomenats no regidors fins a 1/3), districtes, òrgan de gestió tributària, assessoria jurídica i CONSELL SOCIAL DE LA CIUTAT.",
+      "Règims especials: consell obert (<100 hab.), Barcelona (Llei 22/1998, Carta municipal) i Madrid."
+     ]
+    },
+    {
+     "h": "5. Competències municipals (arts. 25-27 LRBRL)",
+     "p": "El municipi exerceix COMPETÈNCIES PRÒPIES (determinades per llei, en règim d'autonomia i sota la pròpia responsabilitat) en les matèries de l'art. 25.2: urbanisme, medi ambient urbà, aigua i residus, infraestructura viària, atenció a situacions de necessitat social (avaluació i informació), policia local, trànsit, protecció de la salubritat pública, cementiris, esport, cultura, promoció turística, fires, i participar en la vigilància del compliment de l'escolaritat obligatòria, entre d'altres. Les COMPETÈNCIES DELEGADES (art. 27) exigeixen delegació per 5 anys mínim, amb finançament garantit al 100% i control de l'administració delegant.",
+     "table": {
+      "headers": [
+       "Tram de població",
+       "Serveis MÍNIMS obligatoris (art. 26)"
+      ],
+      "rows": [
+       [
+        "Tots els municipis",
+        "Enllumenat públic, cementiri, recollida de residus, neteja viària, abastament domiciliari d'aigua potable, clavegueram, accés als nuclis de població i pavimentació de les vies públiques"
+       ],
+       [
+        "Més de 5.000 hab.",
+        "A més: parc públic, biblioteca pública i tractament de residus"
+       ],
+       [
+        "Més de 20.000 hab.",
+        "A més: protecció civil, avaluació i informació de situacions de necessitat social i atenció immediata a persones en risc d'exclusió, prevenció i extinció d'incendis i instal·lacions esportives d'ús públic"
+       ],
+       [
+        "Més de 50.000 hab.",
+        "A més: transport col·lectiu urbà de viatgers i medi ambient urbà"
+       ]
+      ],
+      "cap": "Els veïns poden EXIGIR la prestació dels serveis mínims (art. 18.1.g LRBRL). Cornellà de Llobregat (Baix Llobregat, prop de 90.000 habitants) està obligat a tots els trams."
+     }
+    }
+   ],
+   "keypoints": [
+    {
+     "h": "Elements",
+     "p": [
+      "Territori (terme), població (padró) i organització",
+      "Veí: art. 18; iniciativa popular 20/15/10% (art. 70 bis)"
+     ]
+    },
+    {
+     "h": "Òrgans necessaris",
+     "p": [
+      "Alcalde, tinents i ple: sempre",
+      "Junta de govern: >5.000 hab.; màx 1/3 regidors",
+      "Comissió especial de comptes: sempre (art. 116)",
+      "Plens ordinaris: mensual >20.000; 2 mesos 5.001-20.000; 3 mesos resta"
+     ]
+    },
+    {
+     "h": "Competències",
+     "p": [
+      "Alcalde art. 21 (llicències, bans, gestió) · ple art. 22 (ordenances, pressupost, planejament general)",
+      "Pròpies art. 25 · delegades art. 27 (100% finançades)"
+     ]
+    },
+    {
+     "h": "Serveis mínims (art. 26)",
+     "p": [
+      "Tots: llum, cementiri, residus, neteja, aigua, clavegueram, accés, pavimentació",
+      ">5.000: parc, biblioteca, tractament de residus",
+      ">20.000: protecció civil, serveis socials, bombers, esport",
+      ">50.000: transport urbà i medi ambient urbà"
+     ]
+    },
+    {
+     "h": "Gran població",
+     "p": [
+      "Títol X: >250.000; capitals >175.000; >75.000 si ho aprova el parlament autonòmic"
+     ]
+    }
+   ]
+  },
+  "8": {
+   "intro": "Les hisendes locals es fonamenten en la SUFICIÈNCIA FINANCERA de l'art. 142 CE: es nodreixen de TRIBUTS PROPIS i de PARTICIPACIONS en els tributs de l'Estat i de les comunitats autònomes. La norma de capçalera és el text refós de la Llei reguladora de les hisendes locals (RDL 2/2004, TRLHL). A l'examen cauen la llista de recursos, els CINC IMPOSTOS municipals (tres obligatoris i dos potestatius), la distinció taxa/preu públic i el procediment de les ordenances fiscals i del pressupost.",
+   "sections": [
+    {
+     "h": "1. Recursos de les hisendes locals (art. 2 TRLHL)",
+     "list": [
+      "Ingressos de DRET PRIVAT (rendiments del patrimoni).",
+      "TRIBUTS PROPIS: taxes, contribucions especials i impostos, i recàrrecs sobre impostos d'altres administracions.",
+      "PARTICIPACIONS en els tributs de l'Estat i de les comunitats autònomes.",
+      "SUBVENCIONS.",
+      "PREUS PÚBLICS.",
+      "Producte de les OPERACIONS DE CRÈDIT.",
+      "Producte de MULTES I SANCIONS.",
+      "Les altres prestacions de dret públic."
+     ]
+    },
+    {
+     "h": "2. Els impostos municipals (arts. 59 i seg. TRLHL)",
+     "table": {
+      "headers": [
+       "Impost",
+       "Caràcter",
+       "Fet imposable"
+      ],
+      "rows": [
+       [
+        "IBI (béns immobles)",
+        "OBLIGATORI",
+        "Titularitat de drets sobre immobles rústics, urbans i de característiques especials; base: VALOR CADASTRAL"
+       ],
+       [
+        "IAE (activitats econòmiques)",
+        "OBLIGATORI",
+        "Exercici d'activitats empresarials, professionals o artístiques; EXEMPTS les persones físiques i els subjectes amb xifra de negocis inferior a 1.000.000 €"
+       ],
+       [
+        "IVTM (vehicles)",
+        "OBLIGATORI",
+        "Titularitat de vehicles de tracció mecànica aptes per circular (matriculats)"
+       ],
+       [
+        "ICIO (construccions, instal·lacions i obres)",
+        "POTESTATIU",
+        "Realització d'obres amb llicència o declaració responsable; base: COST REAL I EFECTIU (sense IVA ni honoraris); tipus MÀXIM del 4%"
+       ],
+       [
+        "IIVTNU (plusvàlua)",
+        "POTESTATIU",
+        "Increment de valor dels terrenys urbans en transmetre'ls; el RDL 26/2021 (arran de la STC 182/2021) permet triar entre càlcul objectiu i plusvàlua real; NO SUBJECCIÓ si no hi ha increment"
+       ]
+      ],
+      "cap": "Els impostos potestatius requereixen ACORD D'IMPOSICIÓ i ordenança fiscal."
+     }
+    },
+    {
+     "h": "3. Taxes, contribucions especials i preus públics",
+     "table": {
+      "headers": [
+       "Figura",
+       "Pressupòsit",
+       "Límit econòmic"
+      ],
+      "rows": [
+       [
+        "TAXA (tribut)",
+        "Utilització privativa del domini públic o serveis de SOL·LICITUD O RECEPCIÓ OBLIGATÒRIA, o que no presti el sector privat",
+        "El conjunt no pot EXCEDIR EL COST del servei (informe tècnic i econòmic previ)"
+       ],
+       [
+        "CONTRIBUCIÓ ESPECIAL (tribut)",
+        "BENEFICI ESPECIAL per obres públiques o establiment o ampliació de serveis",
+        "Màxim el 90% DEL COST suportat per l'entitat"
+       ],
+       [
+        "PREU PÚBLIC (no tribut)",
+        "Serveis o activitats de sol·licitud VOLUNTÀRIA prestats també pel sector privat",
+        "Com a MÍNIM ha de COBRIR EL COST (excepcionalment per sota, per raons socials, amb consignació de la diferència)"
+       ]
+      ],
+      "cap": "Regla ràpida de test: obligatori o sense alternativa privada = TAXA; voluntari i amb mercat = PREU PÚBLIC."
+     }
+    },
+    {
+     "h": "4. Ordenances fiscals (arts. 15-19 TRLHL)",
+     "list": [
+      "La imposició i l'ordenació dels tributs propis exigeix ORDENANÇA FISCAL aprovada pel PLE (majoria simple des de la reforma de 2003).",
+      "Procediment (art. 17): aprovació PROVISIONAL, exposició pública al tauler, BOP (i un diari si el municipi supera els 10.000 habitants) durant 30 DIES mínim, resolució de reclamacions i aprovació DEFINITIVA (si no n'hi ha, l'acord provisional esdevé definitiu automàticament), i publicació del TEXT ÍNTEGRE al BOP abans d'entrar en vigor.",
+      "Contra les ordenances fiscals només es pot interposar recurs CONTENCIÓS ADMINISTRATIU (no reposició).",
+      "La gestió tributària local admet delegació en la diputació o altres ens (a la província de Barcelona, l'ORGT de la Diputació)."
+     ]
+    },
+    {
+     "h": "5. El pressupost general (arts. 162 i seg. TRLHL i RD 500/1990)",
+     "p": "Expressió xifrada, conjunta i sistemàtica de les obligacions que, com a màxim, pot reconèixer l'entitat i dels drets que preveu liquidar durant l'exercici (any natural). Conté el pressupost de l'entitat, els dels organismes autònoms i els estats de previsió de les societats mercantils.",
+     "list": [
+      "Principis: unitat, universalitat, ANIVELLAMENT efectiu (sense dèficit inicial), especialitat, anualitat, i ESTABILITAT PRESSUPOSTÀRIA I SOSTENIBILITAT financera (LO 2/2012).",
+      "Tramitació (arts. 168-169): projecte de l'ALCALDE (amb memòria, liquidació anterior, annex de personal i d'inversions, informe d'intervenció); aprovació INICIAL pel ple; exposició pública 15 DIES hàbils; aprovació DEFINITIVA abans del 31 de desembre; si l'1 de gener no està aprovat, PRÒRROGA AUTOMÀTICA de l'anterior.",
+      "Modificacions de crèdit: crèdits extraordinaris i suplements (tràmit com el pressupost), ampliacions, transferències, generacions i incorporacions de romanents.",
+      "Execució: fases A-D-O-P (autorització, disposició, reconeixement de l'obligació i pagament); liquidació abans del 31 de març; ROMANENT DE TRESORERIA com a indicador de solvència.",
+      "Control: funció interventora (INTERVENCIÓ), control financer, i control extern de la SINDICATURA DE COMPTES i el Tribunal de Comptes."
+     ]
+    }
+   ],
+   "keypoints": [
+    {
+     "h": "Marc",
+     "p": [
+      "Art. 142 CE: suficiència financera",
+      "TRLHL: RDL 2/2004 + RD 500/1990 (pressupostos)"
+     ]
+    },
+    {
+     "h": "Impostos",
+     "p": [
+      "Obligatoris: IBI, IAE, IVTM",
+      "Potestatius: ICIO (màx 4%) i IIVTNU",
+      "IAE: exempts persones físiques i <1 M€ de negoci",
+      "Plusvàlua: RDL 26/2021, doble mètode de càlcul"
+     ]
+    },
+    {
+     "h": "Taxa vs preu públic",
+     "p": [
+      "Taxa: obligatori/sense mercat; límit = cost",
+      "Preu públic: voluntari/amb mercat; mínim = cost",
+      "Contribucions especials: màx 90% del cost"
+     ]
+    },
+    {
+     "h": "Ordenances fiscals",
+     "p": [
+      "Ple → provisional → 30 dies → definitiva + text íntegre al BOP",
+      "Només recurs contenciós"
+     ]
+    },
+    {
+     "h": "Pressupost",
+     "p": [
+      "Inicial pel ple → 15 dies → definitiva abans del 31-12",
+      "Sense aprovació l'1 de gener: pròrroga automàtica",
+      "Fases A-D-O-P; liquidació abans del 31-3"
+     ]
+    }
+   ]
+  },
+  "9": {
+   "intro": "L'Administració està PLENAMENT SOTMESA A LA LLEI I AL DRET (arts. 9.1, 9.3 i 103.1 CE): és el principi de legalitat, amb VINCULACIÓ POSITIVA (només pot fer allò que l'ordenament li permet). El tema repassa el sistema de fonts del dret públic, les classes de lleis i de reglaments i, amb especial atenció per a l'àmbit local, la POTESTAT REGLAMENTÀRIA municipal: ordenances, reglaments i bans, i el procediment d'aprovació de l'art. 49 LRBRL (30 dies d'informació pública).",
+   "sections": [
+    {
+     "h": "1. Submissió de l'Administració a la llei",
+     "list": [
+      "Art. 9.1 CE: els ciutadans I ELS PODERS PÚBLICS resten subjectes a la Constitució i a la resta de l'ordenament jurídic.",
+      "Art. 103.1 CE: l'Administració serveix amb OBJECTIVITAT els interessos generals i actua amb SUBMISSIÓ PLENA A LA LLEI I AL DRET.",
+      "Art. 106.1 CE: els TRIBUNALS controlen la potestat reglamentària i la legalitat de l'actuació administrativa, i la submissió d'aquesta als fins que la justifiquen.",
+      "Conseqüències: les potestats administratives són ATRIBUÏDES per l'ordenament (vinculació positiva); la seva actuació fora de la legalitat és invàlida (nul·la o anul·lable) i genera responsabilitat."
+     ]
+    },
+    {
+     "h": "2. Fonts del dret públic: jerarquia",
+     "table": {
+      "headers": [
+       "Graó",
+       "Normes"
+      ],
+      "rows": [
+       [
+        "1. Constitució",
+        "Norma suprema; paràmetre de validesa de totes les altres"
+       ],
+       [
+        "2. Tractats internacionals",
+        "Arts. 93-96 CE; formen part de l'ordenament un cop publicats; el DRET DE LA UE gaudeix de primacia aplicativa"
+       ],
+       [
+        "3. Normes amb rang de llei",
+        "Lleis orgàniques i ordinàries (estatals i autonòmiques), decrets llei i decrets legislatius"
+       ],
+       [
+        "4. Reglaments",
+        "Normes del poder executiu subordinades a la llei, ordenades jeràrquicament entre elles (reial decret > ordre ministerial)"
+       ],
+       [
+        "5. Altres fonts",
+        "Principis generals del dret (informen l'ordenament), costum i jurisprudència (complementa)"
+       ]
+      ],
+      "cap": "Entre llei estatal i autonòmica no regeix la jerarquia sinó la COMPETÈNCIA."
+     }
+    },
+    {
+     "h": "3. La llei: classes",
+     "list": [
+      "LLEI ORGÀNICA (art. 81 CE): drets fonamentals i llibertats públiques, estatuts d'autonomia i règim electoral general, entre d'altres; MAJORIA ABSOLUTA del Congrés en votació final de conjunt; relació amb la llei ordinària per raó de matèria (reserva material), no de jerarquia.",
+      "LLEI ORDINÀRIA: estatal o autonòmica; majoria simple.",
+      "Lleis de l'art. 150 CE: lleis MARC, lleis orgàniques de TRANSFERÈNCIA O DELEGACIÓ i lleis d'HARMONITZACIÓ.",
+      "Normes del Govern amb RANG DE LLEI: decret llei (art. 86: extraordinària i urgent necessitat; convalidació pel Congrés en 30 dies) i decret legislatiu (arts. 82-85: textos articulats a partir de llei de bases i textos refosos).",
+      "Reserves de llei rellevants en l'àmbit local: tributs (art. 133 CE, principi de legalitat tributària), sancions (art. 25 CE) i limitacions de drets."
+     ]
+    },
+    {
+     "h": "4. El reglament: concepte i classes",
+     "p": "El reglament és tota norma escrita amb rang INFERIOR A LA LLEI dictada per una administració pública (fonament: art. 97 CE per al Govern; art. 4.1.a LRBRL per als ens locals). Es distingeix de l'acte administratiu perquè INNOVA l'ordenament (no s'esgota amb una aplicació) i el seu destinatari és general.",
+     "list": [
+      "Per la relació amb la llei: EXECUTIUS (desenvolupen una llei, «secundum legem»), INDEPENDENTS (àmbits no reservats a la llei, típicament organitzatius, «praeter legem») i DE NECESSITAT (situacions d'emergència, transitoris).",
+      "Per l'origen: estatals (reials decrets del Consell de Ministres o del president, ordres ministerials), autonòmics (decrets, ordres), locals (ordenances i reglaments) i d'ens institucionals.",
+      "LÍMITS: jerarquia normativa (no poden contradir la CE ni les lleis), matèries reservades a la llei, IRRETROACTIVITAT de disposicions sancionadores no favorables, principis de bona regulació (art. 129 Llei 39/2015: necessitat, eficàcia, PROPORCIONALITAT, seguretat jurídica, transparència i eficiència) i INDEROGABILITAT SINGULAR (art. 37: cap resolució singular no pot vulnerar un reglament, encara que provingui d'un òrgan superior).",
+      "CONTROL: inaplicació pels tribunals dels reglaments il·legals (art. 6 LOPJ), recurs contenciós DIRECTE (2 mesos) o INDIRECTE (contra actes d'aplicació) i QÜESTIÓ D'IL·LEGALITAT; contra els reglaments no s'admet recurs administratiu (art. 112.3 Llei 39/2015)."
+     ]
+    },
+    {
+     "h": "5. Potestat reglamentària local",
+     "p": "En virtut de l'autonomia local, municipis, províncies i altres ens locals tenen potestat REGLAMENTÀRIA I D'AUTOORGANITZACIÓ (art. 4 LRBRL; art. 8 DL 2/2003). Els seus productes:",
+     "list": [
+      "ORDENANCES: normes d'eficàcia externa que regulen la convivència, els serveis, l'ús del domini públic o els tributs (ordenances fiscals, amb procediment propi del TRLHL).",
+      "REGLAMENTS: normes internes o organitzatives; el REGLAMENT ORGÀNIC MUNICIPAL (ROM) expressa la potestat d'autoorganització.",
+      "BANS de l'alcalde: recordatoris i crides al compliment; NO poden innovar l'ordenament (no són veritables reglaments).",
+      "Planejament urbanístic: els plans tenen naturalesa REGLAMENTÀRIA segons la jurisprudència."
+     ],
+     "p2": "PROCEDIMENT D'APROVACIÓ (art. 49 LRBRL): 1) aprovació INICIAL pel PLE; 2) INFORMACIÓ PÚBLICA I AUDIÈNCIA als interessats per un MÍNIM DE 30 DIES per a reclamacions i suggeriments; 3) resolució de les reclamacions i aprovació DEFINITIVA pel ple; si no se'n presenten, l'acord inicial esdevé DEFINITIU sense necessitat de nou acord. L'entrada en vigor exigeix la PUBLICACIÓ DEL TEXT ÍNTEGRE al BOP i el transcurs del termini de 15 DIES de l'art. 65.2 (arts. 70.2 LRBRL). Abans de la redacció, l'art. 133 Llei 39/2015 imposa la CONSULTA PÚBLICA PRÈVIA al web municipal."
+    }
+   ],
+   "keypoints": [
+    {
+     "h": "Legalitat",
+     "p": [
+      "Arts. 9.1, 9.3, 103.1 CE: submissió plena a la llei i al dret",
+      "Vinculació positiva; control judicial art. 106.1"
+     ]
+    },
+    {
+     "h": "Lleis",
+     "p": [
+      "Orgànica art. 81: majoria absoluta; reserva material",
+      "Decret llei: 30 dies convalidació · decret legislatiu: bases/refosa",
+      "Art. 150: marc, transferència, harmonització"
+     ]
+    },
+    {
+     "h": "Reglaments",
+     "p": [
+      "Executius, independents, de necessitat",
+      "Inderogabilitat singular (art. 37 L39/2015)",
+      "Control: directe, indirecte, qüestió d'il·legalitat; sense recurs administratiu"
+     ]
+    },
+    {
+     "h": "Àmbit local",
+     "p": [
+      "Ordenances (externes), reglaments/ROM, bans (no innoven)",
+      "Art. 49 LRBRL: inicial pel ple + 30 dies + definitiva",
+      "Sense al·legacions: definitiva automàtica",
+      "Vigor: text íntegre al BOP + 15 dies (arts. 70.2 i 65.2)",
+      "Consulta pública prèvia: art. 133 L39/2015"
+     ]
+    }
+   ]
+  },
+  "10": {
+   "intro": "L'acte administratiu és tota DECLARACIÓ DE VOLUNTAT, judici, coneixement o desig d'una administració pública en exercici d'una potestat administrativa. La Llei 39/2015 (LPAC) en regula els requisits (arts. 34-36), l'eficàcia i la NOTIFICACIÓ (arts. 38-46), la invalidesa (arts. 47-52) i el PROCEDIMENT administratiu comú amb les seves fases. Els terminis (10 dies per notificar, 3 mesos de termini supletori per resoldre, dos intents de notificació) i les llistes dels arts. 47 i 35 són preguntes segures.",
+   "sections": [
+    {
+     "h": "1. Concepte i característiques",
+     "list": [
+      "Requisits (arts. 34-36): els actes els dicta l'ÒRGAN COMPETENT seguint el procediment establert; el contingut s'ha d'ajustar a l'ordenament i ser DETERMINAT i adequat als fins; forma ESCRITA a través de mitjans electrònics, llevat que la naturalesa exigeixi una altra forma.",
+      "PRESUMPCIÓ DE VALIDESA (art. 39.1): els actes es presumeixen vàlids i produeixen efectes des que es dicten, llevat que s'hi disposi una altra cosa.",
+      "EXECUTIVITAT I EXECUTORIETAT (arts. 38 i 98-105): els actes són immediatament executius (excepcions: suspensió, necessitat d'aprovació superior, resolucions sancionadores no fermes en via administrativa) i l'Administració pot executar-los FORÇOSAMENT per: constrenyiment sobre el patrimoni, EXECUCIÓ SUBSIDIÀRIA, MULTA COERCITIVA i compulsió sobre les persones, amb apercebiment previ i pel mitjà menys restrictiu.",
+      "MOTIVACIÓ (art. 35): obligatòria, amb referència succinta de fets i fonaments, en els actes que limitin drets, resolguin recursos, se separin del criteri seguit o del dictamen d'òrgans consultius, acords de suspensió, mesures provisionals, actes discrecionals, etc."
+     ]
+    },
+    {
+     "h": "2. Classes d'actes",
+     "list": [
+      "DEFINITIUS (resolen el procediment) i DE TRÀMIT: aquests només són impugnables separadament si decideixen el fons, impedeixen continuar, o produeixen INDEFENSIÓ o perjudici irreparable (tràmit qualificat, art. 112).",
+      "FAVORABLES (declaratius de drets) i DE GRAVAMEN (limitatius): el règim de revisió és oposat (lesivitat vs revocació).",
+      "EXPRESSOS i PRESUMPTES (silenci administratiu, art. 24: en procediments iniciats a sol·licitud, regla general POSITIU; negatiu en dret de petició, facultats sobre domini públic i servei públic, activitats amb dany al medi ambient, responsabilitat patrimonial i impugnacions —llevat del DOBLE SILENCI en alçada—; en iniciats d'ofici: caducitat si són de gravamen, desestimació si són favorables).",
+      "Que POSEN FI O NO a la via administrativa (art. 114): en l'àmbit local, els actes del ple, de l'alcalde i de la junta de govern posen fi a la via administrativa (art. 52 LRBRL)."
+     ]
+    },
+    {
+     "h": "3. Nul·litat de ple dret (art. 47.1) — llista tancada",
+     "list": [
+      "a) Actes que lesionen DRETS FONAMENTALS susceptibles d'empara constitucional.",
+      "b) Dictats per òrgan MANIFESTAMENT INCOMPETENT per raó de MATÈRIA O TERRITORI (mai per jerarquia: aquesta és convalidable).",
+      "c) Actes de CONTINGUT IMPOSSIBLE.",
+      "d) Constitutius d'INFRACCIÓ PENAL o dictats com a conseqüència d'aquesta.",
+      "e) Dictats PRESCINDINT TOTALMENT I ABSOLUTAMENT del procediment o de les normes essencials per formar la voluntat dels òrgans col·legiats.",
+      "f) Actes contraris a l'ordenament pels quals s'ADQUIREIXEN FACULTATS O DRETS sense els requisits ESSENCIALS.",
+      "g) Qualsevol altre que estableixi expressament una llei.",
+      "També són nul·les de ple dret les DISPOSICIONS REGLAMENTÀRIES que vulnerin la CE, les lleis o altres normes de rang superior, regulin matèries reservades a la llei o estableixin retroactivitat de sancions desfavorables (art. 47.2)."
+     ]
+    },
+    {
+     "h": "4. Anul·labilitat (art. 48) i tècniques de conservació",
+     "list": [
+      "Són ANUL·LABLES els actes amb QUALSEVOL ALTRA infracció de l'ordenament, INCLOSA LA DESVIACIÓ DE PODER (exercici de potestats per a fins diferents dels previstos).",
+      "El DEFECTE DE FORMA només anul·la si l'acte manca de requisits indispensables per assolir el fi o causa INDEFENSIÓ; les actuacions FORA DE TERMINI només si ho imposa la naturalesa del termini.",
+      "Tècniques de conservació: TRANSMISSIBILITAT (la invalidesa d'un acte no s'estén als següents independents, art. 49), CONVERSIÓ (art. 50), CONSERVACIÓ d'actes i tràmits (art. 51) i CONVALIDACIÓ dels anul·lables esmenant-ne els vicis (art. 52; la incompetència jeràrquica es convalida per l'òrgan superior)."
+     ]
+    },
+    {
+     "h": "5. El procediment administratiu: fases",
+     "table": {
+      "headers": [
+       "Fase",
+       "Contingut i terminis clau"
+      ],
+      "rows": [
+       [
+        "INICIACIÓ (54-69)",
+        "D'OFICI (pròpia iniciativa, ordre superior, petició raonada d'altres òrgans o DENÚNCIA) o A SOL·LICITUD de l'interessat (contingut mínim art. 66; ESMENA en 10 DIES sota advertiment de desistiment); mesures provisionals (art. 56)"
+       ],
+       [
+        "ORDENACIÓ (70-74)",
+        "Impuls D'OFICI; principi de celeritat; despatx per ordre rigorós d'incoació; expedient administratiu electrònic"
+       ],
+       [
+        "INSTRUCCIÓ (75-83)",
+        "AL·LEGACIONS en qualsevol moment abans de l'audiència; PROVA (període de 10 A 30 DIES); INFORMES (10 DIES per emetre'ls; en general facultatius i NO vinculants); TRÀMIT D'AUDIÈNCIA de 10 A 15 DIES (omissible només si no figuren altres fets ni al·legacions); INFORMACIÓ PÚBLICA de mínim 20 DIES"
+       ],
+       [
+        "FINALITZACIÓ (84-95)",
+        "RESOLUCIÓ (congruent; en procediments d'ofici sancionadors no pot agreujar la situació inicial en via de recurs — prohibició de la REFORMATIO IN PEIUS), DESISTIMENT, RENÚNCIA, CADUCITAT (paralització imputable a l'interessat: advertiment + 3 MESOS) i TERMINACIÓ CONVENCIONAL (art. 86)"
+       ]
+      ],
+      "cap": "Tramitació simplificada (art. 96): 30 dies. Obligació de resoldre (art. 21): el termini el fixa la norma (màxim 6 MESOS llevat de llei o dret UE); si no en fixa, 3 MESOS supletoris."
+     }
+    },
+    {
+     "h": "6. La notificació (arts. 40-46)",
+     "list": [
+      "S'ha de cursar dins dels 10 DIES següents a la data en què l'acte s'hagi dictat; conté el TEXT ÍNTEGRE, si posa fi o no a la via administrativa, els RECURSOS procedents, l'òrgan i el termini (la notificació DEFECTUOSA només fa efecte quan l'interessat actua o interposa recurs).",
+      "A l'efecte del termini per resoldre, n'hi ha prou amb l'INTENT DE NOTIFICACIÓ degudament acreditat (art. 40.4).",
+      "MITJANS: les notificacions es practiquen PREFERENTMENT PER MITJANS ELECTRÒNICS (obligatòriament per als subjectes de l'art. 14.2: persones jurídiques, entitats sense personalitat, professionals col·legiats, empleats públics i els seus representants); s'entenen practicades amb l'accés al contingut i REBUTJADES si passen 10 DIES NATURALS des de la posada a disposició sense accedir-hi.",
+      "En PAPER: si ningú no es fa càrrec de la notificació al domicili, SEGON INTENT dins dels 3 DIES següents, en una hora diferent (si el primer va ser abans de les 15 h, el segon després, o a la inversa, amb marge de 3 hores).",
+      "NOTIFICACIÓ EDICTAL (art. 44): quan els interessats són desconeguts o la notificació és infructuosa: anunci al BOE (a Catalunya també e-tauler segons normativa pròpia).",
+      "PUBLICACIÓ (art. 45): substitueix la notificació en procediments de concurrència competitiva i quan hi ha pluralitat indeterminada de destinataris."
+     ]
+    }
+   ],
+   "keypoints": [
+    {
+     "h": "Validesa i eficàcia",
+     "p": [
+      "Presumpció de validesa (art. 39); executivitat (art. 38)",
+      "Execució forçosa: constrenyiment, subsidiària, multa coercitiva, compulsió",
+      "Motivació: art. 35 (llista); sancions no fermes no executives"
+     ]
+    },
+    {
+     "h": "Invalidesa",
+     "p": [
+      "Nul·litat 47.1: lletres a)-g), llista tancada",
+      "Incompetència: matèria/territori = nul; jerarquia = anul·lable i convalidable",
+      "Anul·labilitat 48: qualsevol infracció + desviació de poder",
+      "Convalidació art. 52; conservació art. 51"
+     ]
+    },
+    {
+     "h": "Procediment",
+     "p": [
+      "Esmena sol·licitud: 10 dies · prova: 10-30 dies",
+      "Audiència: 10-15 dies · informació pública: mín. 20 dies",
+      "Resoldre: 3 mesos supletori; màx 6 llevat de llei",
+      "Caducitat per inactivitat de l'interessat: 3 mesos"
+     ]
+    },
+    {
+     "h": "Notificació",
+     "p": [
+      "Cursar en 10 dies; text íntegre + recursos",
+      "Electrònica: rebuig als 10 dies naturals",
+      "Paper: 2n intent en 3 dies, hora diferent",
+      "Edictal: BOE (art. 44); publicació: art. 45"
+     ]
+    }
+   ]
+  },
+  "11": {
+   "intro": "Els actes administratius es poden revisar per la MATEIXA ADMINISTRACIÓ (revisió d'ofici, declaració de lesivitat, revocació i rectificació d'errors, arts. 106-111 Llei 39/2015), pels ciutadans mitjançant els RECURSOS ADMINISTRATIUS (alçada, reposició i extraordinari de revisió, arts. 112-126) i, finalment, pels tribunals del CONTENCIÓS ADMINISTRATIU (Llei 29/1998). Els terminis són la clau del tema: 4 anys de la lesivitat, 1 mes d'alçada i reposició, 2 mesos del contenciós.",
+   "sections": [
+    {
+     "h": "1. Revisió d'ofici (art. 106)",
+     "list": [
+      "Objecte: actes NULS DE PLE DRET (art. 47.1) que hagin exhaurit la via administrativa o no recorreguts en termini, i disposicions reglamentàries nul·les.",
+      "EN QUALSEVOL MOMENT, d'ofici o a sol·licitud de l'interessat (acció de nul·litat).",
+      "Requisit essencial: DICTAMEN PREVI FAVORABLE del Consell d'Estat o de l'òrgan consultiu autonòmic (a Catalunya, la COMISSIÓ JURÍDICA ASSESSORA): és preceptiu i HABILITANT.",
+      "En declarar la nul·litat es poden fixar INDEMNITZACIONS; el procediment iniciat d'ofici CADUCA als 6 MESOS; les sol·licituds es poden INADMETRE motivadament si no es basen en causes de nul·litat o manifestament no tenen fonament (art. 106.3).",
+      "LÍMITS (art. 110): la revisió no es pot exercir quan, per prescripció, pel temps transcorregut o per altres circumstàncies, resulti contrària a l'EQUITAT, la BONA FE, els drets dels particulars o les lleis."
+     ]
+    },
+    {
+     "h": "2. Lesivitat, revocació i rectificació",
+     "table": {
+      "headers": [
+       "Via",
+       "Objecte",
+       "Règim"
+      ],
+      "rows": [
+       [
+        "DECLARACIÓ DE LESIVITAT (art. 107)",
+        "Actes ANUL·LABLES favorables o declaratius de drets",
+        "L'Administració NO els pot anul·lar per si mateixa: els declara lesius (màxim 4 ANYS des que es van dictar, amb audiència; caducitat del procediment als 6 MESOS) i els impugna davant el CONTENCIÓS (2 mesos); en l'àmbit local la declara el PLE"
+       ],
+       [
+        "REVOCACIÓ (art. 109.1)",
+        "Actes de GRAVAMEN o desfavorables",
+        "En qualsevol moment mentre no hagi transcorregut el termini de prescripció; límit: que no sigui dispensa o exempció no permesa ni contrària a la igualtat, l'interès públic o l'ordenament"
+       ],
+       [
+        "RECTIFICACIÓ D'ERRORS (art. 109.2)",
+        "Errors MATERIALS, de fet o aritmètics",
+        "En qualsevol moment, d'ofici o a instància de part; no pot encobrir una revisió del contingut jurídic"
+       ]
+      ],
+      "cap": "Regla de test: acte favorable nul → revisió d'ofici; favorable anul·lable → lesivitat + contenciós; desfavorable → revocació."
+     }
+    },
+    {
+     "h": "3. Recursos administratius: alçada i reposició",
+     "table": {
+      "headers": [
+       "Element",
+       "ALÇADA (arts. 121-122)",
+       "REPOSICIÓ (arts. 123-124)"
+      ],
+      "rows": [
+       [
+        "Contra",
+        "Actes que NO posen fi a la via administrativa",
+        "Actes que SÍ que hi posen fi"
+       ],
+       [
+        "Caràcter",
+        "Obligatori abans del contenciós",
+        "POTESTATIU (o directament contenciós)"
+       ],
+       [
+        "Davant de",
+        "L'òrgan SUPERIOR JERÀRQUIC (es pot presentar davant l'autor)",
+        "El MATEIX òrgan que va dictar l'acte"
+       ],
+       [
+        "Termini d'interposició",
+        "1 MES (acte exprés); si és presumpte, en qualsevol moment des de l'endemà del silenci",
+        "1 MES (exprés); presumpte, en qualsevol moment"
+       ],
+       [
+        "Termini de resolució",
+        "3 MESOS; silenci DESESTIMATORI, llevat del DOBLE SILENCI (alçada contra desestimació presumpta: ESTIMATORI)",
+        "1 MES; silenci desestimatori"
+       ],
+       [
+        "Després",
+        "Cap altre recurs administratiu ordinari",
+        "No es pot tornar a interposar reposició; resta el contenciós"
+       ]
+      ],
+      "cap": "La interposició NO SUSPÈN l'execució (art. 117), llevat de ponderació o quan la impugnació es fonamenta en nul·litat de ple dret; suspensió automàtica si en 1 mes no es resol la sol·licitud de suspensió."
+     },
+     "p2": "En l'àmbit local, els actes del PLE, de l'ALCALDE i de la JUNTA DE GOVERN posen fi a la via administrativa (art. 52.2 LRBRL): el recurs procedent és la REPOSICIÓ potestativa. El RECURS EXTRAORDINARI DE REVISIÓ (arts. 125-126) escau contra actes FERMS per 4 causes taxades: error de fet que resulti de l'expedient (termini de 4 ANYS), documents de valor essencial posteriors, documents o testimonis declarats falsos, i acte dictat amb prevaricació, suborn o violència (aquestes tres: 3 MESOS des del coneixement); resolució en 3 mesos, silenci desestimatori."
+    },
+    {
+     "h": "4. El recurs contenciós administratiu: àmbit i òrgans",
+     "list": [
+      "Regulació: Llei 29/1998 (LJCA); els jutjats i tribunals del contenciós controlen la legalitat de l'ACTIVITAT ADMINISTRATIVA, la potestat reglamentària i la seva submissió als fins (art. 106 CE).",
+      "Activitat impugnable: actes exprés i presumptes que posin fi a la via administrativa, DISPOSICIONS GENERALS (recurs directe i INDIRECTE), INACTIVITAT de l'Administració (art. 29: reclamació prèvia i 3 mesos) i actuacions materials en VIA DE FET (art. 30: requeriment previ de 10 dies).",
+      "Òrgans: JUTJATS CONTENCIOSOS (coneixen en única o primera instància dels actes de les ENTITATS LOCALS, llevat d'impugnacions de plans), sales dels TSJ (actes de les CCAA i recursos contra jutjats), Audiència Nacional (ministres, alguns organismes estatals) i Tribunal Suprem (Consell de Ministres, cassació).",
+      "Parts: capacitat, LEGITIMACIÓ (dret o interès legítim; les administracions poden impugnar-se mútuament els actes; ACCIÓ PÚBLICA en urbanisme), postulació."
+     ]
+    },
+    {
+     "h": "5. Terminis i procediment contenciós",
+     "table": {
+      "headers": [
+       "Supòsit",
+       "Termini del recurs (art. 46 LJCA)"
+      ],
+      "rows": [
+       [
+        "Acte exprés o reglament",
+        "2 MESOS des de la publicació o notificació"
+       ],
+       [
+        "Acte presumpte (silenci)",
+        "6 MESOS des de l'endemà del silenci (però segons la jurisprudència constitucional, mentre no hi hagi resolució expressa el termini NO PRECLOU per al silenci negatiu)"
+       ],
+       [
+        "Inactivitat (art. 29)",
+        "2 mesos després dels 3 mesos de la reclamació"
+       ],
+       [
+        "Via de fet (art. 30)",
+        "10 dies des del requeriment desatès (o 20 sense requeriment)"
+       ],
+       [
+        "Lesivitat",
+        "2 mesos des de la declaració"
+       ]
+      ],
+      "cap": "Procediments: ORDINARI (demanda després de rebre l'expedient) i ABREUJAT (art. 78: personal, estrangeria i quanties fins a 30.000 €: judici oral)."
+     },
+     "p2": "Completen el sistema les MESURES CAUTELARS (arts. 129 i seg.: ponderació d'interessos, «periculum in mora»), els recursos d'APEL·LACIÓ (contra sentències dels jutjats) i de CASSACIÓ (interès cassacional objectiu, davant el TS), l'execució de sentències (arts. 103 i seg.) i la QÜESTIÓ D'IL·LEGALITAT contra reglaments (arts. 123-126 LJCA)."
+    }
+   ],
+   "keypoints": [
+    {
+     "h": "Revisió per l'Administració",
+     "p": [
+      "Nuls: revisió d'ofici en qualsevol moment + dictamen FAVORABLE (CJA a Catalunya); caducitat 6 mesos",
+      "Anul·lables favorables: lesivitat 4 anys + contenciós",
+      "Desfavorables: revocació · errors materials: sempre",
+      "Límits art. 110: equitat i bona fe"
+     ]
+    },
+    {
+     "h": "Recursos administratius",
+     "p": [
+      "Alçada: no fi de via; 1 mes; resol superior en 3 mesos; doble silenci = estimatori",
+      "Reposició: potestatiu; 1 mes; resol el mateix òrgan en 1 mes",
+      "Local: ple, alcalde i junta posen fi a la via (art. 52 LRBRL)",
+      "Revisió extraordinària: actes ferms; 4 causes; 4 anys / 3 mesos"
+     ]
+    },
+    {
+     "h": "Contenciós",
+     "p": [
+      "Jutjats contenciosos: actes de les entitats locals",
+      "2 mesos exprés · 6 mesos presumpte (no preclou el negatiu)",
+      "Inactivitat art. 29 · via de fet art. 30",
+      "Abreujat: personal i fins a 30.000 €"
+     ]
+    }
+   ]
+  },
+  "12": {
+   "intro": "La contractació del sector públic es regeix per la Llei 9/2017 (LCSP), que transposa les directives europees de 2014 sobre la base dels principis de LLIBERTAT D'ACCÉS, PUBLICITAT, TRANSPARÈNCIA, IGUALTAT i INTEGRITAT (art. 1). El tema demana la TIPOLOGIA de contractes, els llindars (menors, SARA), els PROCEDIMENTS de selecció del contractista i el règim de drets, deures i PRERROGATIVES de l'Administració (art. 190).",
+   "sections": [
+    {
+     "h": "1. Classes de contractes (arts. 12-18 i 24-26)",
+     "table": {
+      "headers": [
+       "Tipus",
+       "Objecte",
+       "Tret clau"
+      ],
+      "rows": [
+       [
+        "OBRES",
+        "Execució d'una obra o treballs sobre béns immobles (annex I)",
+        "Requereix PROJECTE aprovat i replanteig previ"
+       ],
+       [
+        "CONCESSIÓ D'OBRES",
+        "Construcció + explotació de l'obra",
+        "El concessionari assumeix el RISC OPERACIONAL"
+       ],
+       [
+        "CONCESSIÓ DE SERVEIS",
+        "Gestió d'un servei amb transferència del risc operacional",
+        "Substitueix l'antiga «gestió de serveis públics» per a serveis a risc"
+       ],
+       [
+        "SUBMINISTRAMENT",
+        "Adquisició, arrendament o lísing de productes o béns mobles",
+        "Inclou l'adquisició d'equips i sistemes"
+       ],
+       [
+        "SERVEIS",
+        "Prestacions de fer (desenvolupament d'activitats o resultats)",
+        "Si el ciutadà el paga i no hi ha risc: servei; amb risc: concessió"
+       ]
+      ],
+      "cap": "També: contractes MIXTOS (règim de la prestació principal), ADMINISTRATIUS vs PRIVATS (art. 25-26), i harmonitzats o no (SARA)."
+     }
+    },
+    {
+     "h": "2. Contractes menors i llindars SARA",
+     "list": [
+      "CONTRACTE MENOR (art. 118): OBRES de valor estimat INFERIOR A 40.000 € i SUBMINISTRAMENTS I SERVEIS INFERIORS A 15.000 €; adjudicació directa amb informe de necessitat i factura; DURADA MÀXIMA 1 ANY, SENSE PRÒRROGA ni revisió de preus; publicitat trimestral al perfil.",
+      "Contractes SUBJECTES A REGULACIÓ HARMONITZADA (SARA, arts. 19-23): superen els llindars europeus i exigeixen publicitat al DOUE. Llindars vigents des de l'1-1-2024: OBRES I CONCESSIONS 5.538.000 €; SUBMINISTRAMENTS I SERVEIS 143.000 € (AGE) o 221.000 € (resta de poders adjudicadors, incloses les ENTITATS LOCALS); serveis socials i específics de l'annex IV: 750.000 €.",
+      "El VALOR ESTIMAT (art. 101) es calcula sense IVA, incloent pròrrogues i modificacions previstes."
+     ]
+    },
+    {
+     "h": "3. La selecció del contractista: procediments (arts. 131 i seg.)",
+     "table": {
+      "headers": [
+       "Procediment",
+       "Quan escau"
+      ],
+      "rows": [
+       [
+        "OBERT",
+        "Ordinari; qualsevol empresari pot presentar proposició; prohibida tota negociació"
+       ],
+       [
+        "OBERT SIMPLIFICAT (art. 159)",
+        "Obres fins a 2.000.000 € i subministraments i serveis fins als llindars SARA; tramitació àgil (declaració responsable, terminis curts)"
+       ],
+       [
+        "Simplificat ABREUJAT o sumari (art. 159.6)",
+        "Obres de menys de 80.000 € i subministraments i serveis de menys de 60.000 €; sense garantia definitiva; criteris només automàtics"
+       ],
+       [
+        "RESTRINGIT",
+        "Amb selecció prèvia de candidats (MÍNIM 5); habitual en serveis intel·lectuals"
+       ],
+       [
+        "NEGOCIAT (amb o sense publicitat)",
+        "Casos taxats; SENSE publicitat: exclusivitat tècnica o artística, URGÈNCIA IMPERIOSA, absència d'ofertes en obert previ"
+       ],
+       [
+        "DIÀLEG COMPETITIU i ASSOCIACIÓ PER A LA INNOVACIÓ",
+        "Contractes complexos o desenvolupament de solucions innovadores"
+       ]
+      ],
+      "cap": "Adjudicació segons la MILLOR RELACIÓ QUALITAT-PREU (pluralitat de criteris; els avaluables per judici de valor, amb comitè d'experts si superen els automàtics); tractament de les OFERTES ANORMALMENT BAIXES amb audiència prèvia (art. 149)."
+     }
+    },
+    {
+     "h": "4. Garanties, perfeccionament i formalització",
+     "list": [
+      "GARANTIA PROVISIONAL: excepcional i motivada, MÀXIM el 3% del pressupost base de licitació (sense IVA).",
+      "GARANTIA DEFINITIVA (art. 107): amb caràcter general, el 5% DEL PREU FINAL ofert (sense IVA); complementària fins a un 5% addicional en ofertes anormals: total màxim 10%.",
+      "Els contractes es PERFECCIONEN AMB LA FORMALITZACIÓ (art. 36); la formalització no pot ser anterior als 15 DIES HÀBILS des de la notificació de l'adjudicació en contractes susceptibles de RECURS ESPECIAL (art. 153.3).",
+      "RECURS ESPECIAL en matèria de contractació (arts. 44 i seg.): contra actes de preparació i adjudicació d'obres de més de 3.000.000 € i serveis i subministraments de més de 100.000 €, entre d'altres; POTESTATIU I GRATUÏT, davant el tribunal administratiu de recursos contractuals; la interposició contra l'adjudicació SUSPÈN la formalització."
+     ]
+    },
+    {
+     "h": "5. Drets i deures del contractista i de l'Administració",
+     "list": [
+      "PRERROGATIVES de l'Administració (art. 190): INTERPRETAR els contractes, resoldre els dubtes, MODIFICAR-LOS per raons d'interès públic (ius variandi, dins dels límits dels arts. 203-207), SUSPENDRE'N l'execució, acordar-ne la RESOLUCIÓ i determinar-ne els efectes, amb audiència del contractista i, en els casos greus, dictamen del Consell d'Estat o òrgan consultiu autonòmic.",
+      "Drets del CONTRACTISTA: percebre el PREU (l'Administració ha d'abonar-lo dins dels 30 DIES següents a l'aprovació de les certificacions d'obra o dels documents que acreditin la conformitat, i incorre en INTERESSOS DE DEMORA automàticament); revisió de preus limitada (només contractes de llarga durada amb fórmules); indemnització en supòsits de força major en obres; dret a la devolució de la garantia en acabar el TERMINI DE GARANTIA.",
+      "Deures: executar el contracte a RISC I VENTURA (art. 197); complir terminis; PENALITATS per demora o compliment defectuós (art. 192-193); obligacions en matèria mediambiental, social i laboral (art. 201); SUBCONTRACTACIÓ amb comunicació prèvia i límits de pagament a subcontractistes.",
+      "EXTINCIÓ: per compliment (recepció i liquidació) o per RESOLUCIÓ (arts. 211 i seg.): mort o incapacitat, declaració de concurs, mutu acord, demora del contractista, impagament de l'Administració superior a 6 MESOS, modificacions no obligatòries superiors al 20%, etc."
+     ]
+    },
+    {
+     "h": "6. Àmbit subjectiu i òrgans locals",
+     "p": "La LCSP s'aplica a tot el SECTOR PÚBLIC en tres nivells: administracions públiques (règim complet), poders adjudicadors no administració pública i resta d'entitats. En les entitats locals (DA 2a LCSP), la competència com a ÒRGAN DE CONTRACTACIÓ correspon a l'ALCALDE quan el valor estimat no supera el 10% DELS RECURSOS ORDINARIS del pressupost ni els 6.000.000 €, incloses les pluriennals de fins a 4 anys; a la resta, al PLE. Cada entitat publica els anuncis al PERFIL DE CONTRACTANT allotjat a la Plataforma de Contractació del Sector Públic."
+    }
+   ],
+   "keypoints": [
+    {
+     "h": "Tipus i llindars",
+     "p": [
+      "Obres, concessions (risc operacional), subministrament, serveis",
+      "Menors: <40.000 obres / <15.000 serveis; 1 any sense pròrroga",
+      "SARA 2024: 5.538.000 obres; 221.000 serveis/subm. locals"
+     ]
+    },
+    {
+     "h": "Procediments",
+     "p": [
+      "Obert ordinari; simplificat: ≤2 M obres / fins SARA serveis",
+      "Sumari 159.6: <80.000 obres, <60.000 serveis",
+      "Restringit: mínim 5 candidats · negociat: casos taxats"
+     ]
+    },
+    {
+     "h": "Garanties i recurs",
+     "p": [
+      "Provisional ≤3% · definitiva 5% del preu (màx +5%)",
+      "Perfeccionament amb la FORMALITZACIÓ",
+      "Recurs especial: obres >3 M, serveis >100.000; suspèn adjudicació"
+     ]
+    },
+    {
+     "h": "Execució",
+     "p": [
+      "Prerrogatives art. 190: interpretar, modificar, resoldre",
+      "Pagament en 30 dies; interessos automàtics",
+      "Risc i ventura (art. 197); penalitats art. 192",
+      "DA 2a: alcalde fins al 10% recursos ordinaris i 6 M€"
+     ]
+    }
+   ]
   }
  },
  "_meta": {
