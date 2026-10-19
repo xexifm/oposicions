@@ -15,6 +15,9 @@ complet per **afegir una nova oposició** sense haver de redescobrir res.
 1. **Registrar el municipi** a `assets/js/app.js`, constant `MUNIS` (id, dir, name,
    short, role, crest/color o escut SVG a `assets/icons/`, web). Les rutes ja són
    `#/<muni>/<vista>/<param>`: no cal tocar res més del router.
+   Si el contingut ha de ser **privat**, en lloc de `dir` es posa
+   `private: { repo, path }` i les dades van a aquell repositori (vegeu la secció
+   «UOC MBA (dades privades)»); opcionalment `labels` per canviar "Bloc"/"Tema".
 2. **Crear `data/<muni>/`** amb els 4 fitxers (esquemes a la secció 1):
    `temari.json`, `resums.json`, `questions.json`, `cases.json`.
    Es pot copiar l'esquelet de `data/cornella/` (buit) o el de Montornès com a referència.
@@ -231,6 +234,60 @@ Per a cada **lot de 10 temes** (preguntes+resums) o **15 casos**:
   si el PIN no coincideix, no se sobreescriu res.
 - Enllaços a fonts oficials que funcionin al mòbil.
 
+## 6 bis. Format d'examen configurable (`temari.json`)
+
+Sense cap `format`, l'app aplica la **Base 7.7 de Montornès** (és el cas de Montornès i
+Cornellà): test sobre **25 punts**, **−25 %** del valor d'una pregunta per errada, **1 min
+per pregunta**, mínim **12,5**; casos sobre **45**, mínim **22,5**, 10 min per cas.
+
+Es pot redefinir amb un `format` **general** (arrel de `temari.json`) i un `format` **per
+bloc** (els blocs passen a ser objectes `{ "name": …, "format": {…} }`; també s'accepta
+el format antic `"1": "Nom"`). El del bloc hereta el general i s'aplica quan l'examen és
+d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.questions`).
+
+| Clau | Significat |
+|---|---|
+| `label` | Text per a "La puntuació segueix …" |
+| `maxPoints` | Punts màxims del test (la nota s'escala al nombre de preguntes) |
+| `penalty` | Fracció del valor d'una pregunta que resta cada errada (`0.25` = −25 %, `0` = no resta) |
+| `minutes` / `minutesPerQuestion` | Minuts **totals** del simulacre o minuts **per pregunta** (amb `minutes`, en pràctica: `minutes/questions` per pregunta) |
+| `questions` | Nombre de preguntes del simulacre oficial |
+| `minScore` | Nota mínima per aprovar (sobre `maxPoints`) |
+| `cases` | Opcional: `{ maxPoints, minScore, minutesPerCase, count }` |
+
+---
+
+## 6 ter. UOC MBA (dades privades)
+
+- **On són les dades:** NO a `data/` (aquest repositori és públic), sinó al repositori
+  **privat** `xexifm/uoc-mba-dades`, a `data/uoc-mba/{temari,resums,questions,cases}.json`,
+  amb el mateix esquema que `data/cornella/` i `_meta` a cada fitxer. Mai copiar-les aquí
+  ni posar-les a `ASSETS` de `sw.js`.
+- **Com les llegeix l'app:** `MUNIS['uoc-mba'].private = { repo, path }` →
+  `GET https://api.github.com/repos/{repo}/contents/{path}{fitxer}` amb
+  `Accept: application/vnd.github.raw` i el token. Prova primer el **Token de dades
+  privades** (⚙️ Configuració: *fine-grained*, només aquest repositori, *Contents: Read-only*)
+  i després el de sincronització. Cap dels dos tokens no viatja amb la sincronització.
+  Es desa una **còpia a IndexedDB** (`assets/js/privdata.js`) per estudiar sense connexió,
+  i s'actualitza cada vegada que s'obre l'oposició amb connexió. Sense token ni còpia,
+  surt amb un 🔒 al selector.
+- **Numeració:** blocs = **assignatures** (1 Direcció Estratègica, 2 Fonaments de Finances,
+  3 Innovació i emprenedoria, 4 Lideratge i gestió d'equips, 5 Gestió del canvi). Cada tema
+  és un **mòdul o un repte**, amb `num = bloc*100 + n` (p. ex. `401` = Lideratge, repte 1;
+  `203` = Finances, mòdul 3). `blockName` es pot ometre (s'agafa del bloc).
+- **Ids de pregunta:** `tNNNqM` (p. ex. `t401q1`), únics; `theme` = `num`, `block` = assignatura.
+- **`source` i `article`:** a UOC MBA, `source` és el **recurs** (material, lectura, vídeo,
+  enunciat del repte…) i `article` la **pàgina o el minut** ("p. 23", "min 12:30"). No hi ha
+  `norms`: queda buit (`{}`), i per això l'app amaga les fonts i el glossari.
+- **Resums:** mateix esquema de `resums.json` (secció 2): `{ "_meta": …, "resums": { "401": {RESUM} } }`.
+- **Etiquetes:** l'app hi diu "Assignatura" en lloc de "Bloc" i "Mòdul / repte" en lloc de
+  "Tema" (`MUNIS[…].labels`). "Casos" i "Fonts" s'amaguen mentre no tinguin contingut.
+- **Format d'examen** (secció 6 bis): general sobre 10, sense penalització, 2 min per pregunta,
+  mínim 5. Fonaments de Finances: 10 preguntes, 60 min en total, nota sobre 10, mínim 4,5.
+  Direcció Estratègica: 30 preguntes, 60 min, sobre 30, mínim 15. Cap de les dues penalitza.
+
+---
+
 ## 7. Procés de treball amb en Sergi
 
 - **Mostrar un parell d'exemples abans de canviar-ho tot** en canvis massius de
@@ -241,5 +298,6 @@ Per a cada **lot de 10 temes** (preguntes+resums) o **15 casos**:
 
 ---
 
-*Última actualització: 2026-07-06 (procés complet de Montornès: 90 resums profunds,
-900 preguntes, 180 casos; helpers a `tools/`).*
+*Última actualització: 2026-10-19 (UOC MBA amb dades privades i format d'examen configurable).
+Anterior: 2026-07-06 (procés complet de Montornès: 90 resums profunds, 900 preguntes, 180 casos;
+helpers a `tools/`).*

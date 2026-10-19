@@ -5,8 +5,11 @@
      es recorre a la còpia de la memòria cau.
    - Dades (/data/): network-first amb còpia per a offline.
    - Icones/manifest: cache-first.
-   El progrés es desa a localStorage (al dispositiu). */
-const CACHE = 'montornes-oposicio-v86';
+   El progrés es desa a localStorage (al dispositiu).
+   Les dades d'oposicions PRIVADES (p. ex. UOC MBA) NO van a ASSETS: es llegeixen
+   d'api.github.com (un altre origen, no interceptat) i la còpia offline la desa
+   l'app a IndexedDB (assets/js/privdata.js). */
+const CACHE = 'montornes-oposicio-v87';
 const ASSETS = [
   './',
   './index.html',
@@ -16,6 +19,7 @@ const ASSETS = [
   './assets/js/grader.js',
   './assets/js/sync.js',
   './assets/js/gist.js',
+  './assets/js/privdata.js',
   './data/montornes/temari.json',
   './data/montornes/resums.json',
   './data/montornes/questions.json',
