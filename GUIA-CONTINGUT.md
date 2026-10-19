@@ -282,9 +282,35 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
 - **Resums:** mateix esquema de `resums.json` (secció 2): `{ "_meta": …, "resums": { "401": {RESUM} } }`.
 - **Etiquetes:** l'app hi diu "Assignatura" en lloc de "Bloc" i "Mòdul / repte" en lloc de
   "Tema" (`MUNIS[…].labels`). "Casos" i "Fonts" s'amaguen mentre no tinguin contingut.
-- **Format d'examen** (secció 6 bis): general sobre 10, sense penalització, 2 min per pregunta,
-  mínim 5. Fonaments de Finances: 10 preguntes, 60 min en total, nota sobre 10, mínim 4,5.
-  Direcció Estratègica: 30 preguntes, 60 min, sobre 30, mínim 15. Cap de les dues penalitza.
+- **Format d'examen** (secció 6 bis): **cada assignatura té el seu format** a `blocks[n].format`.
+  Només les assignatures amb prova tipus test real tenen `questions` (i, per tant, botó de
+  🎓 Simulacre oficial):
+  - **2 Fonaments de Finances**: 10 preguntes, 60 min en total, sense penalització, nota sobre 10,
+    mínim 4,5 (C−). Un sol intent a l'aula.
+  - **1 Direcció Estratègica**: 30 preguntes, 60 min, sense penalització, sobre 30, mínim 15 (C+).
+    Dos intents a l'aula.
+  - **3 Innovació, 4 Lideratge, 5 Gestió del canvi**: no tenen prova tipus test (s'avaluen amb
+    reptes), així que el format és de **pràctica**: sense `questions`, sense penalització, nota
+    sobre 10, mínim 5, 1,5 min per pregunta, i `label` que ho digui.
+  - El `format` **general** de l'arrel només s'aplica als exàmens de pràctica que barregen
+    assignatures (mateixos valors que el de pràctica).
+
+  ```json
+  "format": { "label": "pràctica mixta (no és cap prova oficial)", "maxPoints": 10, "penalty": 0,
+              "minutesPerQuestion": 1.5, "minScore": 5 },
+  "blocks": {
+    "1": { "name": "Direcció Estratègica", "format": { "label": "el qüestionari de Direcció Estratègica (30 preguntes, 1 h, mínim 15/30)",
+           "questions": 30, "minutes": 60, "maxPoints": 30, "penalty": 0, "minScore": 15 } },
+    "2": { "name": "Fonaments de Finances", "format": { "label": "la PAC de Fonaments de Finances (10 preguntes, 1 h, mínim 4,5)",
+           "questions": 10, "minutes": 60, "maxPoints": 10, "penalty": 0, "minScore": 4.5 } },
+    "3": { "name": "Innovació i emprenedoria", "format": { "label": "pràctica (l'assignatura s'avalua amb reptes)",
+           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
+    "4": { "name": "Lideratge i gestió d'equips", "format": { "label": "pràctica (l'assignatura s'avalua amb reptes)",
+           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
+    "5": { "name": "Gestió del canvi", "format": { "label": "pràctica (l'assignatura s'avalua amb reptes)",
+           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } }
+  }
+  ```
 
 ---
 
