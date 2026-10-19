@@ -5,6 +5,7 @@ import { store } from './storage.js';
 import { autoMatch, scoreFromChecks, gradeWithClaude } from './grader.js';
 import { encryptBundle, decryptBundle } from './sync.js';
 import { findGist, createGist, readGist, writeGist } from './gist.js';
+import { cacheGet, cachePut, cacheDelete, fetchPrivateAny } from './privdata.js';
 
 const view = document.getElementById('view');
 const DATA = { temari:null, resums:null, questions:null, cases:null, _muni:null };
@@ -25,11 +26,91 @@ const MUNIS = {
     crest:'C', color:'#a61a2f', shield:'assets/icons/cornella-escut.svg',
     web:'https://www.cornella.cat',
   },
+  // Oposició amb dades PRIVADES: el contingut no és a data/ (repositori públic)
+  // sinó al repositori privat indicat, i es llegeix amb un token (vegeu loadData).
+  'uoc-mba': {
+    id:'uoc-mba',
+    name:'UOC MBA', short:'UOC MBA', title:'UOC MBA',
+    role:'Màster en Direcció i Administració d\'Empreses',
+    crest:'U', color:'#0B2E7A', shield:null,
+    web:'https://www.uoc.edu',
+    private:{ repo:'xexifm/uoc-mba-dades', path:'data/uoc-mba/' },
+    labels:{ kind:'Màster', block:'Assignatura', blocks:'assignatures', theme:'Mòdul / repte', themes:'mòduls / reptes',
+             aTheme:'un mòdul / repte', thisTheme:'aquest mòdul / repte', several:'diverses assignatures o mòduls / reptes',
+             pass:'Aprovat/da', passShort:'Aprovat', fail:'Suspès' },
+  },
 };
 const DEFAULT_MUNI = 'montornes';
 function activeMuni(){ return MUNIS[store.muni()] || null; }
 function muniConf(){ return activeMuni() || MUNIS[DEFAULT_MUNI]; }
 function contentReady(){ return !!(DATA.temari && DATA.temari.temari && DATA.temari.temari.length); }
+
+/* Etiquetes per oposició ("Bloc"/"Tema" per defecte; a UOC MBA, "Assignatura"/"Mòdul / repte"). */
+const DEFAULT_LABELS = { kind:'Oposició', block:'Bloc', blocks:'blocs', theme:'Tema', themes:'temes',
+  aTheme:'un tema', thisTheme:'aquest tema', several:'diversos blocs o temes', pass:'Apte/a', passShort:'Apte', fail:'No apte' };
+function L(){ return { ...DEFAULT_LABELS, ...(muniConf().labels||{}) }; }
+const lc = s => s.charAt(0).toLowerCase() + s.slice(1);
+/* Seccions que només es mostren si tenen contingut. */
+function hasCases(){ return !!(DATA.cases && DATA.cases.length); }
+function hasNorms(){ return !!(DATA.temari && DATA.temari.norms && Object.keys(DATA.temari.norms).length); }
+
+/* ---------- format d'examen ----------
+   Per defecte, la Base 7.7 de Montornès (també s'aplica a Cornellà, que no en
+   defineix cap). Es pot redefinir a temari.json amb "format" (general) i
+   "format" dins de cada bloc: { label, maxPoints, penalty, minutes |
+   minutesPerQuestion, questions, minScore, cases:{maxPoints,minScore,minutesPerCase,count} }. */
+const DEFAULT_FORMAT = {
+  label:'la Base 7.7 de la convocatòria',
+  maxPoints:25, penalty:0.25, minutesPerQuestion:1, minScore:12.5,
+  cases:{ maxPoints:45, minScore:22.5, minutesPerCase:10 },
+};
+function mergeFormat(base, over){
+  if (!over) return base;
+  const f = { ...base, ...over };
+  // Si es fixen minuts totals, no s'hereten els minuts per pregunta (i a l'inrevés).
+  if ('minutes' in over && !('minutesPerQuestion' in over)) delete f.minutesPerQuestion;
+  if ('minutesPerQuestion' in over && !('minutes' in over)) delete f.minutes;
+  if ('cases' in over) f.cases = over.cases ? { ...(base.cases||DEFAULT_FORMAT.cases), ...over.cases } : null;
+  // Un format general propi sense "cases": els casos valen el mateix que el test.
+  else if (base === DEFAULT_FORMAT) f.cases = { ...DEFAULT_FORMAT.cases, maxPoints:f.maxPoints, minScore:f.minScore };
+  return f;
+}
+function generalFormat(){ return mergeFormat(DEFAULT_FORMAT, DATA.temari && DATA.temari.format); }
+function blockFormat(b){
+  const bf = DATA.temari && DATA.temari.blockFormats && DATA.temari.blockFormats[b];
+  return bf ? mergeFormat(generalFormat(), bf) : null;
+}
+/* Format que s'aplica a una selecció de temes: el del bloc si tots són d'un sol
+   bloc amb format propi; si no, el general. */
+function formatFor(themes){
+  const temari = (DATA.temari && DATA.temari.temari) || [];
+  const set = themes ? new Set([...themes].map(Number)) : null;
+  const blocks = new Set(temari.filter(t=>!set || set.has(t.num)).map(t=>String(t.block)));
+  if (blocks.size === 1){ const bf = blockFormat([...blocks][0]); if (bf) return bf; }
+  return generalFormat();
+}
+/* Minuts per pregunta de test (per a examens de pràctica de qualsevol mida). */
+function minutesPerQ(f){
+  if (f.minutes && f.questions) return f.minutes / f.questions;
+  return f.minutesPerQuestion != null ? f.minutesPerQuestion : 1;
+}
+function minutesPerCase(f){ return (f.cases && f.cases.minutesPerCase != null) ? f.cases.minutesPerCase : 10; }
+function casesMax(f){ return f.cases ? f.cases.maxPoints : DEFAULT_FORMAT.cases.maxPoints; }
+function casesMin(f){ return f.cases ? f.cases.minScore : DEFAULT_FORMAT.cases.minScore; }
+/* Oposició amb format propi a temari.json (si no, es mantenen els textos de la Base 7.7). */
+function customFormat(){ return !!(DATA.temari && DATA.temari.format); }
+const fmtMin = m => m===1 ? '1 minut' : fmt(m) + ' minuts';
+/* Descripció curta d'un format per al simulacre oficial. */
+function formatDesc(f, nCases){
+  const parts = [];
+  if (f.questions) parts.push(`${f.questions} preguntes`);
+  if (nCases) parts.push(`${nCases} cas(os)`);
+  parts.push(f.minutes ? `${fmt(f.minutes)} min` : `${fmt(minutesPerQ(f))} min per pregunta`);
+  parts.push(f.penalty ? `−${fmt(f.penalty*100)} % per errada` : 'sense penalització');
+  parts.push(`nota sobre ${fmt(f.maxPoints)}`);
+  parts.push(`mínim ${fmt(f.minScore)}`);
+  return parts.join(' · ');
+}
 
 /* Actualitza la marca (escut + títol) de la barra superior segons el municipi. */
 function paintBrand(){
@@ -41,7 +122,7 @@ function paintBrand(){
     return; }
   crestEl.style.setProperty('--crest-color', m.color);
   crestEl.innerHTML = m.shield ? `<img src="${m.shield}" alt="${esc(m.short)}">` : esc(m.crest);
-  if (titEl) titEl.textContent = 'Oposició ' + m.short;
+  if (titEl) titEl.textContent = m.title || ('Oposició ' + m.short);
   if (subEl) subEl.textContent = m.role;
   document.documentElement.style.setProperty('--brand', m.color);
 }
@@ -65,22 +146,88 @@ const byId = id => document.getElementById(id);
 const $$ = sel => Array.from(view.querySelectorAll(sel));
 function scrollTop(){ window.scrollTo({top:0,behavior:'instant'}); }
 
+/* Normalitza temari.json: els blocs poden ser text ("1": "Nom") o objecte
+   ("1": {"name": "Nom", "format": {...}}). Les vistes fan servir blocks com a
+   noms; els formats per bloc queden a blockFormats. */
+function normTemari(t){
+  if (!t || !Array.isArray(t.temari)) return {blocks:{},blockFormats:{},temari:[],norms:{}};
+  const blocks = {}, blockFormats = {};
+  for (const [k, v] of Object.entries(t.blocks||{})){
+    if (v && typeof v === 'object'){ blocks[k] = v.name || ''; if (v.format) blockFormats[k] = v.format; }
+    else blocks[k] = v;
+  }
+  const temari = t.temari.map(x=>({ ...x, sources: x.sources||[], blockName: x.blockName || blocks[x.block] || '' }));
+  return { ...t, norms: t.norms||{}, blocks, blockFormats, temari };
+}
+
 async function loadData(){
   const muni = muniConf();
   if (DATA.temari && DATA._muni === muni.id) return;
-  const base = location.pathname.replace(/index\.html$/,'');
-  const dir = 'data/' + muni.dir + '/';
-  const get = f => fetch(base + dir + f, {cache:'no-cache'}).then(r=>r.json());
-  const [temari, resums, questions, cases] = await Promise.all([
-    get('temari.json').catch(()=>({blocks:{},temari:[],norms:{}})),
-    get('resums.json').catch(()=>({})),
-    get('questions.json').catch(()=>[]), get('cases.json').catch(()=>[]),
-  ]);
-  DATA.temari = temari && temari.temari ? temari : {blocks:{},temari:[],norms:{}};
-  DATA.resums = resums.resums || resums || {};
-  DATA.questions = questions.questions || questions || [];
-  DATA.cases = cases.cases || cases || [];
+  let temari, resums, questions, cases;
+  DATA._priv = null;
+  if (muni.private){
+    const r = await loadPrivateData(muni);
+    ({ temari, resums, questions, cases } = r.data || {});
+    DATA._priv = r;
+  } else {
+    const base = location.pathname.replace(/index\.html$/,'');
+    const dir = 'data/' + muni.dir + '/';
+    const get = f => fetch(base + dir + f, {cache:'no-cache'}).then(r=>r.json());
+    [temari, resums, questions, cases] = await Promise.all([
+      get('temari.json').catch(()=>({blocks:{},temari:[],norms:{}})),
+      get('resums.json').catch(()=>({})),
+      get('questions.json').catch(()=>[]), get('cases.json').catch(()=>[]),
+    ]);
+  }
+  DATA.temari = normTemari(temari);
+  DATA.resums = (resums && (resums.resums || resums)) || {};
+  DATA.questions = (questions && (questions.questions || questions)) || [];
+  DATA.cases = (cases && (cases.cases || cases)) || [];
+  if (!Array.isArray(DATA.questions)) DATA.questions = [];
+  if (!Array.isArray(DATA.cases)) DATA.cases = [];
   DATA._muni = muni.id;
+}
+
+/* ---------- dades privades (repositori privat de GitHub) ----------
+   Tokens per ordre: el "Token de dades privades" (si n'hi ha) i el de
+   sincronització (si té accés al repositori, no cal res més). */
+function privateTokens(){
+  const s = store.settings(), out = [];
+  if (s.dataToken) out.push({ src:'dades', token:s.dataToken });
+  if (s.ghToken && s.ghToken !== s.dataToken) out.push({ src:'sync', token:s.ghToken });
+  return out;
+}
+function privState(id){ return (store.settings().priv || {})[id] || {}; }
+function setPrivState(id, patch){
+  const all = { ...(store.settings().priv || {}) };
+  all[id] = { ...(all[id]||{}), ...patch };
+  store.setSetting('priv', all);
+}
+/* Sense token ni còpia local, l'oposició privada surt bloquejada al selector. */
+function privLocked(m){ return !!(m.private && !privateTokens().length && !privState(m.id).cached); }
+/* Amb connexió: baixa les dades i en desa la còpia local. Sense connexió (o si
+   falla): fa servir la còpia local, si n'hi ha. */
+async function loadPrivateData(muni){
+  const cacheId = 'muni:' + muni.id;
+  const cached = await cacheGet(cacheId);
+  const tokens = privateTokens();
+  if (tokens.length && navigator.onLine !== false){
+    try {
+      const { data, tokenSrc } = await fetchPrivateAny(muni.private, tokens);
+      const date = Date.now();
+      const saved = await cachePut(cacheId, { data, date, repo: muni.private.repo });
+      setPrivState(muni.id, { cached: saved ? date : 0, tokenSrc, error:'', code:'' });
+      return { data, source:'xarxa', date };
+    } catch(e){
+      setPrivState(muni.id, { error: e.message, code: e.code || '' });
+      if (cached) return { data: cached.data, source:'copia', date: cached.date, error: e.message, code: e.code };
+      return { data:null, error: e.message, code: e.code };
+    }
+  }
+  if (cached) return { data: cached.data, source:'copia', date: cached.date };
+  return tokens.length
+    ? { data:null, code:'net', error:'Sense connexió i encara no hi ha cap còpia local de les dades.' }
+    : { data:null, code:'notoken', error:'Cal un token amb accés de lectura al repositori ' + muni.private.repo + '.' };
 }
 
 function normRef(key){
@@ -374,6 +521,8 @@ async function initGistSync(){
 /* Vista "en preparació" per a un municipi encara sense temari. */
 function prepView(){
   const m = muniConf();
+  const pv = DATA._priv;
+  if (m.private && pv && !pv.data){ privLockView(m, pv); return; }
   view.innerHTML = `
     <a class="backlink" href="#/">← Inici</a>
     <section class="hero">
@@ -387,6 +536,29 @@ function prepView(){
     </section>`;
 }
 
+/* Oposició privada sense dades: explica per què i com obtenir-les. */
+function privLockView(m, pv){
+  const why = {
+    notoken: `Aquesta oposició fa servir <b>dades privades</b> (repositori <code>${esc(m.private.repo)}</code>).
+      Per veure-les cal un token de GitHub amb permís de lectura sobre aquest repositori.`,
+    noaccess: `El token desat no té accés al repositori privat <code>${esc(m.private.repo)}</code>.
+      Afegeix un <b>Token de dades privades</b> amb accés a aquest repositori.`,
+    auth: 'El token desat no és vàlid o ha caducat. Renova\'l a la configuració.',
+    net: 'No hi ha connexió i aquest dispositiu encara no té cap còpia local de les dades. Torna-ho a provar amb connexió.',
+  }[pv.code] || esc(pv.error || 'No s\'han pogut carregar les dades.');
+  view.innerHTML = `
+    <a class="backlink" href="#/">← Inici</a>
+    <section class="hero">
+      <div class="eyebrow">🔒 ${esc(m.short)} · dades privades</div>
+      <h1>Contingut no disponible</h1>
+      <p class="lead">${why}</p>
+      <div class="row" style="margin-top:14px">
+        <a class="btn primary lg" href="#/config?priv">⚙️ Configura el token</a>
+        <a class="btn ghost lg" href="#/">Canvia d'oposició</a>
+      </div>
+    </section>`;
+}
+
 /* ===========================================================================
    VISTA: TRIA D'OPOSICIÓ (selector de municipi)
    =========================================================================== */
@@ -394,6 +566,13 @@ function triaView(){
   const cur = store.muni();
   const card = m => {
     const crest = m.shield ? `<img src="${m.shield}" alt="${esc(m.short)}">` : esc(m.crest);
+    if (privLocked(m)) return `<button class="triacard locked" data-locked="${m.id}" style="--crest-color:${m.color}">
+        <span class="triacrest">${crest}</span>
+        <span class="triatxt"><b>🔒 ${esc(m.name)}</b><small>${esc(m.role)}</small>
+          <small class="lockwhy">Dades privades: cal un token de GitHub amb accés de lectura a
+          <code>${esc(m.private.repo)}</code>. Toca per configurar-lo.</small></span>
+        <span class="tgo">⚙️</span>
+      </button>`;
     return `<button class="triacard" data-muni="${m.id}" style="--crest-color:${m.color}">
         <span class="triacrest">${crest}</span>
         <span class="triatxt"><b>${esc(m.name)}</b><small>${esc(m.role)}</small></span>
@@ -408,8 +587,7 @@ function triaView(){
       repassats i exàmens) es desa per separat per a cada oposició, però la sincronització entre dispositius ho puja tot.</p>
     </section>
     <div class="trialist">
-      ${card(MUNIS.montornes)}
-      ${card(MUNIS.cornella)}
+      ${Object.values(MUNIS).map(card).join('')}
     </div>
     <div class="row" style="justify-content:center;margin-top:18px">
       <a class="btn ghost" href="#/config">⚙️ Configuració (sincronització i clau API)</a>
@@ -419,6 +597,7 @@ function triaView(){
     if (store.muni() !== id){ store.setMuni(id); DATA.temari = null; DATA._muni = null; }
     location.hash = '#/' + id + '/estudi';
   }));
+  $$('[data-locked]').forEach(b=>b.addEventListener('click', ()=>{ location.hash = '#/config?priv'; }));
 }
 
 /* ===========================================================================
@@ -451,11 +630,14 @@ function configView(){
     </div>
 
     ${syncCardHtml()}
+    ${privCardHtml()}
     <div class="card" style="margin-top:18px">
       <p class="muted" style="margin:0;font-size:.85rem">⚠️ Les preguntes, els resums i els casos són material
       d'estudi generat amb IA. Contrasta sempre amb la normativa consolidada abans de l'examen.</p>
     </div>`;
   setupSync();
+  setupPriv();
+  if (/\?priv\b/.test(location.hash)){ const pc = byId('privcard'); if (pc) setTimeout(()=>pc.scrollIntoView({block:'start'}), 0); }
 
   const keyEl = byId('cfgApiKey');
   const st = (msg, cls)=>{ const el=byId('apistatus'); el.textContent=msg; el.className='muted '+(cls||''); };
@@ -490,6 +672,92 @@ function configView(){
   });
 }
 
+/* Targeta "Dades privades": token de lectura del repositori privat, desat
+   NOMÉS en aquest dispositiu (no va al bundle de sincronització). */
+const PRIV_MUNIS = () => Object.values(MUNIS).filter(m=>m.private);
+function privCardHtml(){
+  const ms = PRIV_MUNIS();
+  if (!ms.length) return '';
+  const repos = ms.map(m=>`<code>${esc(m.private.repo)}</code>`).join(', ');
+  const owner = ms[0].private.repo.split('/')[0];
+  const tokUrl = 'https://github.com/settings/personal-access-tokens/new?name=' +
+    encodeURIComponent('Dades privades oposicions') + '&target_name=' + encodeURIComponent(owner) + '&contents=read';
+  return `
+    <div class="card" id="privcard" style="margin-top:18px">
+      <h2 style="margin:0 0 4px">🔒 Dades privades</h2>
+      <p class="muted" style="margin:0 0 10px">${ms.map(m=>`<b>${esc(m.short)}</b>`).join(', ')} llegeix el contingut del
+      repositori privat ${repos}. Si el <b>token de sincronització</b> hi té accés, no cal res més. Si no, crea un token
+      <a href="${esc(tokUrl)}" target="_blank" rel="noopener noreferrer"><i>fine-grained</i> ↗</a> amb accés
+      <b>només</b> a aquest repositori i el permís <b>Contents: Read-only</b>. Es desa <b>només en aquest dispositiu</b>
+      (no viatja amb la sincronització). Les dades se'n guarden en una còpia local per estudiar sense connexió.</p>
+      <div id="privinfo"></div>
+      <label class="field"><span>Token de dades privades (github_pat_…)</span>
+        <input id="dataToken" type="password" autocomplete="off" placeholder="Opcional si el token de sincronització ja hi té accés"></label>
+      <div class="row" style="gap:8px">
+        <button class="btn primary" id="privSave">Desa i comprova l'accés</button>
+        <button class="btn ghost" id="privClear">Esborra el token</button>
+        <button class="btn ghost" id="privWipe">Esborra la còpia local</button>
+      </div>
+      <p id="privstatus" class="muted" style="margin:.7em 0 0"></p>
+    </div>`;
+}
+function setupPriv(){
+  const el = byId('dataToken');
+  if (!el) return;
+  const st = (msg, cls)=>{ const e=byId('privstatus'); e.textContent=msg; e.className='muted '+(cls||''); };
+  const paint = ()=>{
+    el.value = store.settings().dataToken || '';
+    byId('privinfo').innerHTML = PRIV_MUNIS().map(m=>{
+      const ps = privState(m.id);
+      const when = ps.cached ? new Date(ps.cached).toLocaleString('ca-ES',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'}) : null;
+      const via = ps.tokenSrc==='sync' ? 'token de sincronització' : ps.tokenSrc==='dades' ? 'token de dades privades' : '';
+      return `<p class="muted" style="margin:0 0 8px;font-size:.88rem"><b>${esc(m.short)}:</b>
+        ${when ? `còpia local del ${esc(when)}${via?` · accés amb el ${via}`:''}` : 'sense còpia local'}
+        ${ps.error ? `<br><span style="color:var(--red)">Última comprovació: ${esc(ps.error)}</span>` : ''}</p>`;
+    }).join('');
+  };
+  byId('privSave').addEventListener('click', async ()=>{
+    const tk = el.value.trim();
+    if (tk && tk.length < 20){ st('Enganxa un token de GitHub vàlid.', 'err'); return; }
+    store.setSetting('dataToken', tk);
+    if (!privateTokens().length){ st('Cal un token: el de dades privades o el de sincronització.', 'err'); paint(); return; }
+    st('Comprovant l\'accés…');
+    const ok = [], ko = [];
+    for (const m of PRIV_MUNIS()){
+      try {
+        const { data, tokenSrc } = await fetchPrivateAny(m.private, privateTokens());
+        const date = Date.now();
+        const saved = await cachePut('muni:' + m.id, { data, date, repo: m.private.repo });
+        setPrivState(m.id, { cached: saved ? date : 0, tokenSrc, error:'', code:'' });
+        ok.push(m.short + (tokenSrc==='sync' ? ' (amb el token de sincronització)' : ''));
+        if (DATA._muni === m.id) DATA.temari = null;   // que es recarregui en obrir-la
+      } catch(e){
+        setPrivState(m.id, { error: e.message, code: e.code||'' });
+        ko.push(m.short + ': ' + e.message);
+      }
+    }
+    paint();
+    if (ko.length) st('No hi ha accés · ' + ko.join(' · '), 'err');
+    else st('Accés correcte ✓ ' + ok.join(', ') + '. Dades desades en aquest dispositiu.', 'ok');
+  });
+  byId('privClear').addEventListener('click', ()=>{
+    store.setSetting('dataToken', '');
+    st('Token de dades privades esborrat d\'aquest dispositiu.', '');
+    paint();
+  });
+  byId('privWipe').addEventListener('click', async ()=>{
+    if (!confirm('Vols esborrar la còpia local de les dades privades d\'aquest dispositiu?')) return;
+    for (const m of PRIV_MUNIS()){
+      await cacheDelete('muni:' + m.id);
+      setPrivState(m.id, { cached:0 });
+      if (DATA._muni === m.id) DATA.temari = null;
+    }
+    st('Còpia local esborrada.', '');
+    paint();
+  });
+  paint();
+}
+
 /* ===========================================================================
    VISTA: INICI
    =========================================================================== */
@@ -521,6 +789,10 @@ function estudi(){
   const m = muniConf();
   const nMist = store.mistakeCount();
   const tOf = n => temari.find(x=>x.num===n);
+  const lb = L(), cases = hasCases();
+  const pv = DATA._priv;
+  const copyNote = pv && pv.source==='copia'
+    ? `<span class="muted" style="font-size:.8rem" title="${esc(pv.error||'Sense connexió')}">📦 còpia local del ${esc(new Date(pv.date).toLocaleDateString('ca-ES'))}</span>` : '';
 
   const mistCard = nMist ? `
     <div class="card mistcard compact">
@@ -532,7 +804,7 @@ function estudi(){
   const due = dueThemes();
   const dueCard = due.length ? `
     <div class="card duecard compact">
-      <div class="between"><b>📅 Et toca repassar</b><span class="pill amber">${due.length} tema(es)</span></div>
+      <div class="between"><b>📅 Et toca repassar</b><span class="pill amber">${due.length} ${lb.theme==='Tema'?'tema(es)':esc(lb.themes)}</span></div>
       ${due.slice(0,5).map(d=>{
         const t = tOf(d.num);
         return `<a class="duelink" href="#/tema/${d.num}"><b>${d.num}.</b> ${esc(t?t.title:'')}
@@ -543,16 +815,16 @@ function estudi(){
 
   view.innerHTML = `
     <div class="munibar">
-      <span class="munilabel">Oposició: <b>${esc(m.name)}</b></span>
+      <span class="munilabel">${esc(lb.kind)}: <b>${esc(m.name)}</b>${copyNote?' '+copyNote:''}</span>
       <a class="btn ghost sm" href="#/">Canvia d'oposició</a>
     </div>
     ${dueCard}${mistCard}
     <h1>Estudi del temari</h1>
-    <p class="lead">Els ${temari.length} temes, agrupats en blocs. Toca un tema per estudiar-ne el resum, o
-    practica'l directament amb el quiz (test) i el cas pràctic. Toca els percentatges per veure en què falles.</p>
+    <p class="lead">Els ${temari.length} ${esc(lb.themes)}, agrupats en ${esc(lb.blocks)}. Toca ${esc(lb.aTheme)} per estudiar-ne el resum, o
+    practica'l directament amb el quiz (test)${cases?' i el cas pràctic':''}. Toca els percentatges per veure en què falles.</p>
     <div class="search" style="margin:14px 0 6px">
       <span class="mag">🔎</span>
-      <input id="q" type="text" placeholder="Cerca un tema, una llei, un concepte…" autocomplete="off">
+      <input id="q" type="text" placeholder="${hasNorms()?`Cerca ${esc(lb.aTheme)}, una llei, un concepte…`:`Cerca ${esc(lb.aTheme)}, un concepte…`}" autocomplete="off">
     </div>
     <p class="muted" id="studycount" style="font-size:.85rem"></p>
     <div id="temalist"></div>`;
@@ -574,7 +846,7 @@ function estudi(){
     const f = (filter||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
     const match = t => {
       if (!f) return true;
-      const hay = (t.num+' '+t.title+' '+t.blockName+' '+t.sources.map(s=>normRef(s).name).join(' '))
+      const hay = (t.num+' '+t.title+' '+t.blockName+' '+(t.sources||[]).map(s=>normRef(s).name).join(' '))
         .toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
       return hay.includes(f);
     };
@@ -597,16 +869,16 @@ function estudi(){
             <span class="tstats">${doneBadge}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
           </span>
           <span class="tactions">
-            <a class="pill practbtn" href="#/quiz/${t.num}" title="Quiz de 5 preguntes d'aquest tema">⚡ Quiz</a>
-            <a class="pill practbtn" href="#/casquiz/${t.num}" title="Cas pràctic d'aquest tema">⚖️ Cas</a>
+            <a class="pill practbtn" href="#/quiz/${t.num}" title="Quiz de 5 preguntes d'${esc(lb.thisTheme)}">⚡ Quiz</a>
+            ${cases?`<a class="pill practbtn" href="#/casquiz/${t.num}" title="Cas pràctic d'${esc(lb.thisTheme)}">⚖️ Cas</a>`:''}
           </span>
         </div>`;
       });
     });
-    listEl.innerHTML = html || '<p class="muted">Cap tema coincideix amb la cerca.</p>';
+    listEl.innerHTML = html || `<p class="muted">${lb.theme==='Tema'?'Cap tema coincideix':'Cap '+esc(lc(lb.theme))+' no coincideix'} amb la cerca.</p>`;
   }
   const total = temari.length, done = Object.keys(studied).length;
-  byId('studycount').textContent = `${done} de ${total} temes marcats com a repassats.`;
+  byId('studycount').textContent = `${done} de ${total} ${lb.themes} marcats com a repassats.`;
   byId('q').addEventListener('input', e=>draw(e.target.value));
   draw('');
 }
@@ -620,32 +892,41 @@ function themeConcept(t){
   if (s.length>36) s = s.slice(0,36).trim()+'…';
   return s;
 }
+/* Tema anterior i següent segons l'ordre del temari (els números no són
+   necessàriament consecutius: p. ex. 101, 102, 201…). */
+function themeNeighbors(num){
+  const nums = DATA.temari.temari.map(t=>t.num).sort((a,b)=>a-b);
+  const i = nums.indexOf(num);
+  return { prev: i>0 ? nums[i-1] : null, next: i>=0 && i<nums.length-1 ? nums[i+1] : null };
+}
 /* Barra de navegació entre temes: fletxes + desplegable de tots els temes per blocs. */
 function themeNavHtml(num){
   const temari = DATA.temari.temari, blocks = DATA.temari.blocks;
+  const lb = L(), { prev, next } = themeNeighbors(num);
   const groups = {};
   temari.forEach(t=>{ (groups[t.block] ||= []).push(t); });
   let opts = '';
   Object.keys(groups).sort((a,b)=>a-b).forEach(b=>{
-    opts += `<optgroup label="Bloc ${b} · ${esc(blocks[b])}">`;
+    opts += `<optgroup label="${esc(lb.block)} ${b} · ${esc(blocks[b])}">`;
     groups[b].forEach(t=>{ opts += `<option value="${t.num}" ${t.num===num?'selected':''}>${t.num} · ${esc(themeConcept(t))}</option>`; });
     opts += `</optgroup>`;
   });
   return `<div class="temanav">
-    ${num>1?`<a class="tnav-arrow" href="#/tema/${num-1}" title="Tema anterior">‹</a>`:`<span class="tnav-arrow disabled">‹</span>`}
-    <select id="temajump" class="tnav-select" aria-label="Salta a un tema">${opts}</select>
-    ${num<90?`<a class="tnav-arrow" href="#/tema/${num+1}" title="Tema següent">›</a>`:`<span class="tnav-arrow disabled">›</span>`}
+    ${prev!=null?`<a class="tnav-arrow" href="#/tema/${prev}" title="${esc(lb.theme)} anterior">‹</a>`:`<span class="tnav-arrow disabled">‹</span>`}
+    <select id="temajump" class="tnav-select" aria-label="Salta a ${esc(lb.aTheme)}">${opts}</select>
+    ${next!=null?`<a class="tnav-arrow" href="#/tema/${next}" title="${esc(lb.theme)} següent">›</a>`:`<span class="tnav-arrow disabled">›</span>`}
   </div>`;
 }
 
 function temaView(num){
   num = parseInt(num,10);
   const tema = DATA.temari.temari.find(t=>t.num===num);
-  if (!tema){ view.innerHTML = '<p>Tema no trobat.</p>'; return; }
+  const lb = L(), cases = hasCases(), { prev, next } = themeNeighbors(num);
+  if (!tema){ view.innerHTML = `<p>${esc(lb.theme)} no trobat.</p>`; return; }
   const resum = DATA.resums[num];
   const studied = !!store.studied()[num];
   const dueInfo = studied ? studiedDueInfo(num) : null;
-  const srcChips = tema.sources.map(k=>{
+  const srcChips = (tema.sources||[]).map(k=>{
     const n = normRef(k);
     return `<a class="srcchip" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">${esc(n.name)} ↗</a>`;
   }).join('');
@@ -654,32 +935,34 @@ function temaView(num){
   if (resum){
     body = renderResum(resum, tema);
   } else {
-    body = `<div class="notice">El resum detallat d'aquest tema encara s'està preparant
+    body = hasNorms() ? `<div class="notice">El resum detallat d'aquest tema encara s'està preparant
       (s'aniran afegint per fases). Mentrestant, consulta les fonts oficials de sota i practica
-      amb les preguntes d'aquest bloc.</div>`;
+      amb les preguntes d'aquest bloc.</div>`
+      : `<div class="notice">El resum d'${esc(lb.thisTheme)} encara s'està preparant. Mentrestant, practica
+      amb les preguntes de l'${esc(lc(lb.block))}.</div>`;
   }
 
   view.innerHTML = `
     ${themeNavHtml(num)}
     <a class="backlink" href="#/estudi">← Tornar al temari</a>
     <article class="summary card">
-      <div class="eyebrow">Bloc ${tema.block} · ${esc(tema.blockName)}</div>
-      <h1>Tema ${tema.num}</h1>
+      <div class="eyebrow">${esc(lb.block)} ${tema.block} · ${esc(tema.blockName)}</div>
+      <h1>${esc(lb.theme)} ${tema.num}</h1>
       <p class="lead">${esc(tema.title)}</p>
-      <div class="srclist">${srcChips || '<span class="muted">Sense norma específica.</span>'}</div>
+      ${hasNorms() ? `<div class="srclist">${srcChips || '<span class="muted">Sense norma específica.</span>'}</div>` : ''}
       <div class="divider"></div>
       ${body}
       <div class="divider"></div>
       <div class="row">
         <button class="btn ${studied?'primary':''}" id="markbtn">${studied?'✓ Repassat':'Marcar com a repassat'}</button>
         ${dueInfo && dueInfo.due ? `<button class="btn" id="touchbtn" title="Actualitza la data de l'últim repàs">🔁 Repassat avui (fa ${dueInfo.days} dies)</button>` : ''}
-        <a class="btn primary" href="#/quiz/${tema.num}">⚡ Quiz d'aquest tema (5 preguntes)</a>
-        <a class="btn primary" href="#/casquiz/${tema.num}">⚖️ Cas d'aquest tema</a>
+        <a class="btn primary" href="#/quiz/${tema.num}">⚡ Quiz d'${esc(lb.thisTheme)} (5 preguntes)</a>
+        ${cases?`<a class="btn primary" href="#/casquiz/${tema.num}">⚖️ Cas d'${esc(lb.thisTheme)}</a>`:''}
       </div>
     </article>
     <div class="row" style="margin-top:14px;justify-content:space-between">
-      ${num>1?`<a class="btn ghost" href="#/tema/${num-1}">← Tema ${num-1}</a>`:'<span></span>'}
-      ${num<90?`<a class="btn ghost" href="#/tema/${num+1}">Tema ${num+1} →</a>`:'<span></span>'}
+      ${prev!=null?`<a class="btn ghost" href="#/tema/${prev}">← ${esc(lb.theme)} ${prev}</a>`:'<span></span>'}
+      ${next!=null?`<a class="btn ghost" href="#/tema/${next}">${esc(lb.theme)} ${next} →</a>`:'<span></span>'}
     </div>`;
 
   byId('markbtn').addEventListener('click', e=>{
@@ -750,6 +1033,7 @@ function examenConfig(){
   const blocks = DATA.temari.blocks;
   const temari = DATA.temari.temari;
   const s = store.settings();
+  const lb = L(), cases = hasCases(), custom = customFormat();
   const allThemes = temari.map(t=>t.num);
   const themesOfBlock = b => temari.filter(t=>String(t.block)===String(b)).map(t=>t.num);
   const pending = store.pendingExam();
@@ -785,58 +1069,83 @@ function examenConfig(){
         <span>${n}</span></label>`;
     }).join('');
     return `<div class="blockpick">
-      <label class="blocktoggle"><input type="checkbox" data-block="${b}"> <b>Bloc ${b}</b> · ${esc(blocks[b])}</label>
+      <label class="blocktoggle"><input type="checkbox" data-block="${b}"> <b>${esc(lb.block)} ${b}</b> · ${esc(blocks[b])}</label>
       <div class="themes">${chips}</div></div>`;
   }).join('');
 
+  // Simulacre oficial: un per cada bloc amb format propi que fixi el nombre de preguntes.
+  const sims = Object.keys(blocks).sort((a,b)=>a-b)
+    .map(b=>({ b, f:blockFormat(b) }))
+    .filter(x=>x.f && x.f.questions)
+    .map(x=>({ ...x, nCases: cases && x.f.cases && x.f.cases.count || 0,
+      avail: poolQuestions(themesOfBlock(x.b)).length }));
+  const simCard = sims.length ? `
+    <div class="card offcard">
+      <b>🎓 Simulacre oficial</b>
+      <p class="muted" style="margin:.3em 0 .2em">Examen amb el format oficial de cada ${esc(lc(lb.block))}: nombre de
+      preguntes, temps, puntuació i nota mínima.</p>
+      <div class="simlist">${sims.map(x=>`
+        <button class="btn block" data-sim="${x.b}" ${x.avail?'':'disabled'} style="text-align:left;flex-direction:column;align-items:flex-start">
+          <b>${esc(lb.block)} ${x.b} · ${esc(blocks[x.b])}</b>
+          <span class="muted" style="font-size:.85rem;font-weight:400">${esc(formatDesc(x.f, x.nCases))}${
+            x.avail < x.f.questions ? ` · ara només hi ha ${x.avail} pregunta(es)` : ''}</span>
+        </button>`).join('')}</div>
+    </div>` : '';
+
   view.innerHTML = `
     <h1>Configura l'examen</h1>
-    <p class="lead">Tria com vols practicar. La puntuació segueix la Base 7.7 de la convocatòria.</p>
+    <p class="lead">Tria com vols practicar. La puntuació segueix ${esc(generalFormat().label)}.</p>
     ${pendingBanner}
     ${mistCard}
+    ${simCard}
     <div class="card">
-      <div class="field"><span>Àmbit · pots triar diversos blocs o temes</span>
+      <div class="field"><span>Àmbit · pots triar ${esc(lb.several)}</span>
         <div class="row" style="gap:6px;flex-wrap:wrap;margin-bottom:8px">
           <button type="button" class="chip" id="selAll">Tot el temari</button>
           <button type="button" class="chip" id="selNone">Buidar selecció</button>
         </div>
         <details class="themepick" id="themepick">
-          <summary>Triar blocs i temes concrets · <span id="selcount"></span></summary>
+          <summary>Triar ${esc(lb.blocks)} i ${esc(lb.themes)} concrets · <span id="selcount"></span></summary>
           ${blockPick}
         </details>
       </div>
 
-      <div class="field"><span>Preguntes tipus test (Prova 1)</span>
+      <div class="field"><span>Preguntes tipus test${custom?'':' (Prova 1)'}</span>
         <div class="seg" id="cfgN">
           ${[0,10,20,40,50,60].map(n=>`<button data-v="${n}" class="${(s.n??20)===n?'on':''}">${n===0?'Cap':n}</button>`).join('')}
         </div></div>
 
-      <div class="field"><span>Casos teòrico-pràctics (Prova 2)</span>
+      ${cases ? `<div class="field"><span>Casos teòrico-pràctics${custom?'':' (Prova 2)'}</span>
         <div class="seg" id="cfgCases">
           ${[0,1,2,3].map(n=>`<button data-v="${n}" class="${(s.cases??1)===n?'on':''}">${n===0?'Cap':n}</button>`).join('')}
-        </div></div>
+        </div></div>` : ''}
 
       <label class="field weakfield">
         <input type="checkbox" id="cfgWeak" ${s.weak?'checked':''}>
-        <span><b>Prioritza els temes febles</b> — més preguntes dels temes on falles més
+        <span><b>Prioritza ${lb.theme==='Tema'?'els temes febles':'els '+esc(lb.themes)+' febles'}</b> — més preguntes ${lb.theme==='Tema'?'dels temes':'dels '+esc(lb.themes)} on falles més
         (segons els teus resultats) i del banc d'errades.</span>
       </label>
 
       <label class="field weakfield">
         <input type="checkbox" id="cfgNoTimer" ${s.noTimer?'checked':''}>
         <span><b>Sense límit de temps</b> — si no el marques, el cronòmetre es calcula sol:
-        1 minut per pregunta de test i 10 minuts per cas pràctic (<span id="timerCalc"></span>).</span>
+        <span id="timerRule"></span> (<span id="timerCalc"></span>).</span>
       </label>
 
       <button class="btn primary block lg" id="startBtn" style="margin-top:8px">Començar examen →</button>
       <p class="muted" id="avail" style="margin:.7em 0 0;font-size:.85rem"></p>
     </div>`;
 
-  let cfg = { n:(s.n??20), cases:(s.cases??1), noTimer: !!s.noTimer, weak: !!s.weak };
-  function autoMinutes(){ return cfg.n*1 + cfg.cases*10; }
+  let cfg = { n:(s.n??20), cases: cases ? (s.cases??1) : 0, noTimer: !!s.noTimer, weak: !!s.weak };
+  // El format (puntuació i temps) depèn de la selecció: el del bloc si és d'un sol bloc.
+  const selFormat = ()=>formatFor(sel);
+  function autoMinutes(){ const f = selFormat(); return cfg.n*minutesPerQ(f) + cfg.cases*minutesPerCase(f); }
   function updateTimerCalc(){
     const el = byId('timerCalc'); if (!el) return;
-    el.textContent = `ara: ${autoMinutes()} minuts`;
+    const f = selFormat();
+    byId('timerRule').textContent = `${fmtMin(minutesPerQ(f))} per pregunta de test`
+      + (cases ? ` i ${fmtMin(minutesPerCase(f))} per cas pràctic` : '');
+    el.textContent = `ara: ${fmt(autoMinutes())} minuts`;
   }
   const themeCbs = ()=>$$('input[data-theme]');
   const blockCbs = ()=>$$('input[data-block]');
@@ -850,15 +1159,15 @@ function examenConfig(){
     });
     const allOn = sel.size===allThemes.length;
     byId('selAll').classList.toggle('on', allOn);
-    byId('selcount').textContent = allOn ? 'tot el temari' : `${sel.size} tema(es)`;
+    byId('selcount').textContent = allOn ? 'tot el temari' : `${sel.size} ${lb.theme==='Tema'?'tema(es)':lb.themes}`;
   }
   function updateAvail(){
     const qs = poolQuestions(sel).length, cs = poolCases(sel).length;
     byId('avail').textContent = sel.size
-      ? `Disponibles en aquesta selecció: ${qs} preguntes test · ${cs} casos pràctics.`
-      : 'Selecciona com a mínim un tema o un bloc.';
+      ? `Disponibles en aquesta selecció: ${qs} preguntes test${cases?` · ${cs} casos pràctics`:''}.`
+      : `Selecciona com a mínim ${lb.aTheme} o ${lb.theme==='Tema'?'un bloc':'una '+lc(lb.block)}.`;
   }
-  function refresh(){ syncBlockToggles(); updateAvail(); }
+  function refresh(){ syncBlockToggles(); updateAvail(); updateTimerCalc(); }
 
   themeCbs().forEach(cb=>cb.addEventListener('change', ()=>{
     const n=+cb.dataset.theme; cb.checked?sel.add(n):sel.delete(n); refresh();
@@ -877,16 +1186,26 @@ function examenConfig(){
   if (preBlock) byId('themepick').open = true;
 
   segHandler('cfgN', v=>{cfg.n=+v; store.setSetting('n',+v); updateTimerCalc();});
-  segHandler('cfgCases', v=>{cfg.cases=+v; store.setSetting('cases',+v); updateTimerCalc();});
+  if (cases) segHandler('cfgCases', v=>{cfg.cases=+v; store.setSetting('cases',+v); updateTimerCalc();});
   byId('cfgNoTimer').addEventListener('change', e=>{ cfg.noTimer = e.target.checked; store.setSetting('noTimer', e.target.checked); });
   byId('cfgWeak').addEventListener('change', e=>{ cfg.weak = e.target.checked; store.setSetting('weak', e.target.checked); });
   byId('startBtn').addEventListener('click', ()=>{
-    if (!sel.size){ alert('Selecciona com a mínim un tema o un bloc.'); return; }
+    if (!sel.size){ alert(`Selecciona com a mínim ${lb.aTheme} o ${lb.theme==='Tema'?'un bloc':'una '+lc(lb.block)}.`); return; }
     if (!cfg.n && !cfg.cases){ alert('Tria com a mínim preguntes de test o un cas pràctic.'); return; }
     if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si en comences un de nou. Vols continuar?')) return;
     store.clearPendingExam();
-    startExam({ ...cfg, timer: cfg.noTimer ? 0 : autoMinutes(), themes:[...sel] });
+    startExam({ ...cfg, timer: cfg.noTimer ? 0 : autoMinutes(), themes:[...sel], format: selFormat() });
   });
+  $$('[data-sim]').forEach(btn=>btn.addEventListener('click', ()=>{
+    const x = sims.find(y=>y.b===btn.dataset.sim); if (!x) return;
+    const f = x.f, n = Math.min(f.questions, x.avail);
+    if (x.avail < f.questions && !confirm(`El simulacre oficial té ${f.questions} preguntes, però ara només n'hi ha ${x.avail} disponibles. Vols fer-lo igualment?`)) return;
+    if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si en comences un de nou. Vols continuar?')) return;
+    store.clearPendingExam();
+    const timer = f.minutes || (n*minutesPerQ(f) + x.nCases*minutesPerCase(f));
+    startExam({ themes: themesOfBlock(x.b), n, cases: x.nCases, timer, weak:false,
+      official:true, simBlock:x.b, simName: blocks[x.b], format: f });
+  }));
   if (pending){
     byId('resumeBtn').addEventListener('click', resumeExam);
     byId('discardBtn').addEventListener('click', ()=>{
@@ -959,6 +1278,7 @@ function weakWeightedPick(pool, n){
 }
 
 function startExam(cfg){
+  if (!cfg.format) cfg = { ...cfg, format: formatFor(cfg.themes) };
   const set = cfg.themes ? new Set(cfg.themes) : null;
   let pool = poolQuestions(set);
   if (cfg.mistakesOnly){
@@ -993,7 +1313,7 @@ function quizRoute(num){
     location.hash = '#/' + store.muni() + '/tema/' + num; return;
   }
   store.clearPendingExam();
-  startExam({ themes:[num], n:5, cases:0, timer:5, quick:true });
+  startExam({ themes:[num], n:5, cases:0, timer:5*minutesPerQ(formatFor([num])), quick:true });
 }
 
 /* Ruta #/casquiz/N: pràctica d'un cas pràctic d'un sol tema (sense test). */
@@ -1001,14 +1321,14 @@ function casquizRoute(num){
   num = Number(num);
   if (!num){ location.hash = '#/' + store.muni() + '/estudi'; return; }
   if (!poolCases(new Set([num])).length){
-    alert('Aquest tema encara no té cas pràctic disponible.');
+    alert(`${L().thisTheme.charAt(0).toUpperCase()+L().thisTheme.slice(1)} encara no té cas pràctic disponible.`);
     location.hash = '#/' + store.muni() + '/tema/' + num; return;
   }
   if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si comences aquest cas. Vols continuar?')){
     location.hash = '#/' + store.muni() + '/tema/' + num; return;
   }
   store.clearPendingExam();
-  startExam({ themes:[num], n:0, cases:1, timer:10, quick:true });
+  startExam({ themes:[num], n:0, cases:1, timer:minutesPerCase(formatFor([num])), quick:true });
 }
 
 /* Ruta #/errades: examen només amb les preguntes del banc d'errades. */
@@ -1047,17 +1367,23 @@ let _persistT = null;
 function persistExamSoon(){ clearTimeout(_persistT); _persistT = setTimeout(persistExam, 500); }
 
 function themeLabel(n){
+  const lb = L();
   const t = DATA.temari.temari.find(x=>x.num===Number(n));
-  if(!t) return `<span class="pill">Tema ${n||'—'}</span>`;
+  if(!t) return `<span class="pill">${esc(lb.theme)} ${n||'—'}</span>`;
   const short = t.title.length>64 ? t.title.slice(0,64).trim()+'…' : t.title;
-  return `<span class="pill">Tema ${n}: ${esc(short)}</span>`
-    + `<a class="pill resumlink" href="#/tema/${n}" target="_blank" rel="noopener" title="Consulta el resum d'aquest tema">📖 resum</a>`;
+  return `<span class="pill">${esc(lb.theme)} ${n}: ${esc(short)}</span>`
+    + `<a class="pill resumlink" href="#/tema/${n}" target="_blank" rel="noopener" title="Consulta el resum d'${esc(lb.thisTheme)}">📖 resum</a>`;
 }
+
+/* Format de l'examen en curs (els exàmens desats abans d'aquest canvi no el porten). */
+function examFormat(){ return (examState && examState.cfg && examState.cfg.format) || formatFor(examState && examState.cfg && examState.cfg.themes); }
 
 function examRunning(){
   const { qs, cs } = examState;
-  const caseMax = cs.length ? +(45/cs.length).toFixed(2) : 0;
-  let html = `<h1 style="margin:0 0 6px">Examen en curs</h1>
+  const f = examFormat(), custom = customFormat();
+  const caseMax = cs.length ? +(casesMax(f)/cs.length).toFixed(2) : 0;
+  const title = examState.cfg.official ? `🎓 Simulacre oficial · ${esc(examState.cfg.simName||'')}` : 'Examen en curs';
+  let html = `<h1 style="margin:0 0 6px">${title}</h1>
     <div class="exambar" id="exambar">
       <div class="exambar-row">
         <div class="progress" style="flex:1;margin:0"><i id="prog" style="width:0%"></i></div>
@@ -1068,7 +1394,7 @@ function examRunning(){
     </div>`;
 
   if (qs.length){
-    html += `<h2 style="margin-top:18px">Prova 1 · Tipus test <span class="pill">${qs.length} preguntes · 25 punts</span></h2>`;
+    html += `<h2 style="margin-top:18px">${custom?'Tipus test':'Prova 1 · Tipus test'} <span class="pill">${qs.length} preguntes · ${fmt(f.maxPoints)} punts</span></h2>`;
     qs.forEach((q,i)=>{
       html += `<div class="card" data-q="${i}">
         <div class="qmeta"><span class="qnum">Pregunta ${i+1}</span>
@@ -1081,7 +1407,7 @@ function examRunning(){
     });
   }
   if (cs.length){
-    html += `<h2 style="margin-top:22px">Prova 2 · Teòric-pràctica <span class="pill">${cs.length} cas(os) · 45 punts</span></h2>`;
+    html += `<h2 style="margin-top:22px">${custom?'Casos pràctics':'Prova 2 · Teòric-pràctica'} <span class="pill">${cs.length} cas(os) · ${fmt(casesMax(f))} punts</span></h2>`;
     cs.forEach((c,i)=>{
       html += `<div class="card">
         <div class="qmeta"><span class="qnum">Cas ${i+1}</span>${themeLabel(c.theme)}
@@ -1122,7 +1448,7 @@ function examRunning(){
   }));
   byId('submitBtn').addEventListener('click', ()=>{
     const unanswered = examState.answers.filter(a=>a===null).length;
-    if (unanswered>0 && !confirm(`Tens ${unanswered} pregunta(es) test sense contestar (no resten punts). Vols corregir igualment?`)) return;
+    if (unanswered>0 && !confirm(`Tens ${unanswered} pregunta(es) test sense contestar${examFormat().penalty?' (no resten punts)':''}. Vols corregir igualment?`)) return;
     finishExam();
   });
   const pauseBtn = byId('pauseBtn');
@@ -1196,8 +1522,9 @@ function finishExam(){
     else if (answers[i]===q.correct) correct++;
     else wrong++;
   });
-  const perQ = n ? 25/n : 0;
-  const scoreA = n ? Math.max(0, correct*perQ - wrong*perQ*0.25) : null;
+  const f = examFormat();
+  const perQ = n ? f.maxPoints/n : 0;
+  const scoreA = n ? Math.max(0, correct*perQ - wrong*perQ*(f.penalty||0)) : null;
 
   // Banc d'errades: registra el resultat de les contestades (les errades hi
   // entren; 2 encerts seguits en treuen la pregunta).
@@ -1214,9 +1541,9 @@ function finishExam(){
     ans.checks = checks; ans.auto = auto;
     return { c, ans };
   });
-  const caseMax = cs.length ? 45/cs.length : 0;
+  const caseMax = cs.length ? casesMax(f)/cs.length : 0;
 
-  const R = { correct, wrong, blank, scoreA, perQ, caseResults, caseMax };
+  const R = { correct, wrong, blank, scoreA, perQ, caseResults, caseMax, f };
   renderResults(R);
   autoGradeWithClaude(R);   // corregeix amb Claude si hi ha clau; si falla, queda la correcció local
 }
@@ -1277,37 +1604,46 @@ function partBTotal(caseResults, caseMax){
 
 function renderResults(R){
   const { correct, wrong, blank, scoreA, perQ, caseResults, caseMax } = R;
+  const f = R.f || examFormat(), custom = customFormat(), lb = L();
+  const maxA = f.maxPoints, minA = f.minScore, maxB = casesMax(f), minB = casesMin(f);
   const scoreB = partBTotal(caseResults, caseMax);
   const total = (scoreA||0) + (scoreB||0);
-  const aOk = scoreA===null || scoreA>=12.5;
-  const bOk = scoreB===null || scoreB>=22.5;
+  const aOk = scoreA===null || scoreA>=minA;
+  const bOk = scoreB===null || scoreB>=minB;
   const apte = aOk && bOk && (scoreA!==null || scoreB!==null);
+  // Màxim total: les dues proves (Base 7.7) o només les parts fetes (format propi).
+  const maxTotal = custom ? (scoreA!==null?maxA:0) + (scoreB!==null?maxB:0) : maxA + maxB;
 
   let html = `<a class="backlink" href="#/examen">← Nou examen</a>
-    <h1>Resultats</h1>
+    <h1>Resultats${examState.cfg.official?` <span class="pill amber" style="vertical-align:middle">🎓 Simulacre oficial · ${esc(examState.cfg.simName||'')}</span>`:''}</h1>
     <div class="score">`;
   if (scoreA!==null){
-    html += `<div class="scorebox ${scoreA>=12.5?'ok':'ko'}">
-      <span class="pill crimson">Prova 1 · Test</span>
-      <div class="big">${fmt(scoreA)} <span style="font-size:1rem;color:var(--ink-faint)">/ 25</span></div>
+    html += `<div class="scorebox ${scoreA>=minA?'ok':'ko'}">
+      <span class="pill crimson">${custom?'Test':'Prova 1 · Test'}</span>
+      <div class="big">${fmt(scoreA)} <span style="font-size:1rem;color:var(--ink-faint)">/ ${fmt(maxA)}</span></div>
       <p style="margin:.3em 0 0">${correct} encerts · ${wrong} errades · ${blank} en blanc<br>
-      <span class="muted">Cada encert ${fmt(perQ)} · cada errada −${fmt(perQ*0.25)} · mínim 12,5</span></p>
+      <span class="muted">Cada encert ${fmt(perQ)} · ${f.penalty?`cada errada −${fmt(perQ*f.penalty)}`:'les errades no resten'} · mínim ${fmt(minA)}</span></p>
     </div>`;
   }
   if (scoreB!==null){
-    html += `<div class="scorebox ${scoreB>=22.5?'ok':'ko'}">
-      <span class="pill crimson">Prova 2 · Pràctica</span>
-      <div class="big">${fmt(scoreB)} <span style="font-size:1rem;color:var(--ink-faint)">/ 45</span></div>
-      <p style="margin:.3em 0 0"><span class="muted">Mínim 22,5 · puntuació provisional segons rúbrica</span></p>
+    html += `<div class="scorebox ${scoreB>=minB?'ok':'ko'}">
+      <span class="pill crimson">${custom?'Casos pràctics':'Prova 2 · Pràctica'}</span>
+      <div class="big">${fmt(scoreB)} <span style="font-size:1rem;color:var(--ink-faint)">/ ${fmt(maxB)}</span></div>
+      <p style="margin:.3em 0 0"><span class="muted">Mínim ${fmt(minB)} · puntuació provisional segons rúbrica</span></p>
     </div>`;
   }
+  const totalLine = custom
+    ? `${scoreB===null?'Nota':'Puntuació total (test + casos)'}: <b>${fmt(total)} / ${fmt(maxTotal)}</b>.
+      ${scoreA!==null&&scoreA<minA?`<br>⚠️ El test no arriba al mínim de ${fmt(minA)}.`:''}
+      ${scoreB!==null&&scoreB<minB?`<br>⚠️ Els casos no arriben al mínim de ${fmt(minB)}.`:''}`
+    : `Puntuació total de l'oposició (proves 1+2): <b>${fmt(total)} / ${fmt(maxTotal)}</b>.
+      ${scoreA!==null&&scoreA<minA?`<br>⚠️ La prova 1 no arriba a ${fmt(minA)} (eliminatòria).`:''}
+      ${scoreB!==null&&scoreB<minB?`<br>⚠️ La prova 2 no arriba a ${fmt(minB)} (eliminatòria).`:''}`;
   html += `</div>
     <div class="card" style="margin-top:14px;text-align:center;background:${apte?'var(--green-bg)':'var(--red-bg)'};border-color:${apte?'#bcd6c1':'#e6c2bd'}">
       <div style="font-size:2.4rem">${apte?'✅':'📌'}</div>
-      <h2 style="margin:.2em 0">${apte?'Apte/a':'Cal seguir practicant'}</h2>
-      <p style="margin:0">Puntuació total de l'oposició (proves 1+2): <b>${fmt(total)} / 70</b>.
-      ${scoreA!==null&&scoreA<12.5?'<br>⚠️ La prova 1 no arriba a 12,5 (eliminatòria).':''}
-      ${scoreB!==null&&scoreB<22.5?'<br>⚠️ La prova 2 no arriba a 22,5 (eliminatòria).':''}</p>
+      <h2 style="margin:.2em 0">${apte?esc(lb.pass):'Cal seguir practicant'}</h2>
+      <p style="margin:0">${totalLine}</p>
     </div>`;
 
   html += themeBreakdownHtml();
@@ -1350,10 +1686,11 @@ function renderResults(R){
     const nThemes = (examState.cfg.themes||[]).length;
     const totalThemes = DATA.temari.temari.length;
     let label;
-    if (examState.cfg.mistakesOnly) label = 'errades';
-    else if (nThemes===1) label = 'tema ' + examState.cfg.themes[0];
+    if (examState.cfg.official) label = 'simulacre · ' + (examState.cfg.simName||'');
+    else if (examState.cfg.mistakesOnly) label = 'errades';
+    else if (nThemes===1) label = lc(lb.theme) + ' ' + examState.cfg.themes[0];
     else if (!nThemes || nThemes===totalThemes) label = 'all';
-    else label = `${nThemes} temes`;
+    else label = `${nThemes} ${lb.themes}`;
     // estadístiques per tema: encerts test (sobre les contestades) i punts de casos
     const qPerf = {};
     examState.qs.forEach((q,i)=>{
@@ -1381,7 +1718,8 @@ function renderResults(R){
       block: label, quiz: !!examState.cfg.quick, n: examState.qs.length, cases: caseResults.length,
       correct, wrong, blank,
       scoreA: scoreA, scoreB: scoreB2, total: total2,
-      apte: (scoreA===null||scoreA>=12.5) && (scoreB2===null||scoreB2>=22.5) && (scoreA!==null||scoreB2!==null),
+      maxA, maxB, maxTotal, official: !!examState.cfg.official,
+      apte: (scoreA===null||scoreA>=minA) && (scoreB2===null||scoreB2>=minB) && (scoreA!==null||scoreB2!==null),
       themePerf: { q:qPerf, c:casePerf },        // per recalcular estadístiques per tema (i fusionar entre dispositius)
     });
     e.target.textContent = '✓ Desat'; e.target.disabled = true;
@@ -1405,10 +1743,11 @@ function themeBreakdownHtml(){
     .map(th=>({ th:+th, ...per[th], rate: per[th].tot ? per[th].ok/per[th].tot : 0 }))
     .sort((a,b)=>a.rate-b.rate || b.tot-a.tot);
   const tOf = n => DATA.temari.temari.find(x=>x.num===n);
-  return `<h2 style="margin-top:22px">Rendiment per tema</h2>
-    <p class="muted" style="margin:.2em 0 .6em;font-size:.88rem">De pitjor a millor. Toca un tema per repassar-ne el resum, o fes-ne un quiz ràpid.</p>
+  const lb = L();
+  return `<h2 style="margin-top:22px">Rendiment per ${esc(lc(lb.theme))}</h2>
+    <p class="muted" style="margin:.2em 0 .6em;font-size:.88rem">De pitjor a millor. Toca ${esc(lb.aTheme)} per repassar-ne el resum, o fes-ne un quiz ràpid.</p>
     <div class="tablewrap"><table class="rtable">
-      <thead><tr><th>Tema</th><th>Encerts</th><th>%</th><th></th></tr></thead><tbody>
+      <thead><tr><th>${esc(lb.theme)}</th><th>Encerts</th><th>%</th><th></th></tr></thead><tbody>
       ${rows.map(r=>{
         const ti = tOf(r.th);
         const pct = r.tot ? Math.round(100*r.ok/r.tot) : null;
@@ -1450,7 +1789,7 @@ function renderReviewB(caseResults, caseMax){
   const wrap = byId('reviewB');
   wrap.innerHTML = caseResults.map(({c,ans},i)=>`
     <div class="card" data-caseidx="${i}">
-      <div class="qmeta"><span class="qnum">Cas ${i+1}</span><span class="pill">Tema ${c.theme}</span>
+      <div class="qmeta"><span class="qnum">Cas ${i+1}</span><span class="pill">${esc(L().theme)} ${c.theme}</span>
         <span class="pill amber" data-pts="${i}">—</span></div>
       <h3>${esc(c.title)}</h3>
       <details><summary style="cursor:pointer;font-weight:600">Veure l'enunciat i la teva resposta</summary>
@@ -1550,7 +1889,8 @@ function renderClaude(res, caseMax){
 function temahistView(num){
   num = parseInt(num,10);
   const t = DATA.temari.temari.find(x=>x.num===num);
-  if (!t){ view.innerHTML='<p>Tema no trobat.</p>'; return; }
+  const lb = L(), cases = hasCases();
+  if (!t){ view.innerHTML=`<p>${esc(lb.theme)} no trobat.</p>`; return; }
   const stats = store.themeStats()[num];
   const pctQ = stats && stats.qTot ? Math.round(stats.qOk/stats.qTot*100) : null;
   const pctC = stats && stats.cMax ? Math.round(stats.cPts/stats.cMax*100) : null;
@@ -1574,7 +1914,7 @@ function temahistView(num){
   // Intents de casos amb els criteris fallats.
   const attempts = (store.caseAttempts()[num] || []).slice().reverse();
 
-  const evoHtml = evo.length ? `<div class="card"><h2 style="margin:0 0 6px">📈 Evolució en aquest tema</h2>
+  const evoHtml = evo.length ? `<div class="card"><h2 style="margin:0 0 6px">📈 Evolució en ${esc(lb.thisTheme)}</h2>
     ${evo.map(x=>{
       const d = new Date(x.date);
       const ds = d.toLocaleDateString('ca-ES',{day:'2-digit',month:'short',year:'numeric'});
@@ -1612,18 +1952,18 @@ function temahistView(num){
 
   view.innerHTML = `
     <a class="backlink" href="#/estudi">← Tornar al temari</a>
-    <div class="eyebrow">Tema ${num} · ${esc(t.blockName||'')}</div>
+    <div class="eyebrow">${esc(lb.theme)} ${num} · ${esc(t.blockName||'')}</div>
     <h1 style="font-size:1.5rem">${esc(t.title)}</h1>
     <div class="row" style="margin:10px 0 16px;gap:8px;flex-wrap:wrap">
       ${pctQ!==null?`<span class="tstat ${cls(pctQ)}">test ${pctQ}% (${stats.qOk}/${stats.qTot})</span>`:'<span class="tstat none">test: sense dades</span>'}
-      ${pctC!==null?`<span class="tstat ${cls(pctC)}">casos ${pctC}%</span>`:'<span class="tstat none">casos: sense dades</span>'}
+      ${pctC!==null?`<span class="tstat ${cls(pctC)}">casos ${pctC}%</span>`:(cases?'<span class="tstat none">casos: sense dades</span>':'')}
       <a class="pill practbtn" href="#/quiz/${num}">⚡ Quiz</a>
-      <a class="pill practbtn" href="#/casquiz/${num}">⚖️ Cas</a>
+      ${cases?`<a class="pill practbtn" href="#/casquiz/${num}">⚖️ Cas</a>`:''}
       <a class="pill" href="#/tema/${num}">📖 Resum</a>
     </div>
     ${evoHtml}${failedHtml}${attemptsHtml}
     ${!evo.length && !failed.length && !attempts.length
-      ? '<div class="card center"><p class="muted">Encara no has practicat aquest tema. Fes-ne un quiz o un cas!</p></div>' : ''}`;
+      ? `<div class="card center"><p class="muted">Encara no has practicat ${esc(lb.thisTheme)}. Fes-ne un quiz${cases?' o un cas':''}!</p></div>` : ''}`;
 }
 
 /* ===========================================================================
@@ -1637,7 +1977,7 @@ function trendChartHtml(exams){
   const list = exams.slice(0, 20).slice().reverse();
   if (list.length < 2) return '';
   const pct = e => {
-    const max = (e.n?25:0) + (e.cases?45:0);
+    const max = (e.n?(e.maxA??25):0) + (e.cases?(e.maxB??45):0);
     return max ? Math.max(0, Math.min(100, (e.total||0)/max*100)) : 0;
   };
   const W=340, H=130, PX=12, PY=14;
@@ -1672,9 +2012,10 @@ function weakThemesHtml(){
     .slice(0,5);
   if (!rows.length) return '';
   const tOf = n => (DATA.temari.temari||[]).find(x=>x.num===n);
+  const lb = L(), th = lb.themes;
   return `<div class="card">
-    <h2 style="margin:0 0 4px">🎯 Temes a reforçar</h2>
-    <p class="muted" style="margin:0 0 8px;font-size:.85rem">Els temes on falles més al test (mínim 3 preguntes contestades).</p>
+    <h2 style="margin:0 0 4px">🎯 ${esc(th.charAt(0).toUpperCase()+th.slice(1))} a reforçar</h2>
+    <p class="muted" style="margin:0 0 8px;font-size:.85rem">Els ${esc(th)} on falles més al test (mínim 3 preguntes contestades).</p>
     ${rows.map(r=>{
       const t = tOf(r.num);
       const cls = r.pct>=75?'good':r.pct>=50?'mid':'bad';
@@ -1691,10 +2032,11 @@ function historial(){
   const exams = store.exams();
   const studied = store.studied();
   const sd = Object.keys(studied).length;
+  const nT = DATA.temari.temari.length || 1, lb = L();
   let html = `<h1>Historial i progrés</h1>`;
   html += `<div class="card"><div class="between">
-      <div><b>${sd} / 90</b> temes repassats</div>
-      <div class="progress" style="flex:1;max-width:240px"><i style="width:${Math.round(sd/90*100)}%"></i></div>
+      <div><b>${sd} / ${DATA.temari.temari.length}</b> ${esc(lb.themes)} repassats</div>
+      <div class="progress" style="flex:1;max-width:240px"><i style="width:${Math.min(100,Math.round(sd/nT*100))}%"></i></div>
     </div></div>`;
   html += trendChartHtml(exams);
   html += weakThemesHtml();
@@ -1722,14 +2064,15 @@ function historial(){
       const ds = d.toLocaleDateString('ca-ES',{day:'2-digit',month:'short',year:'numeric'})+' '+d.toLocaleTimeString('ca-ES',{hour:'2-digit',minute:'2-digit'});
       return `<div class="hist-item">
         <div class="between">
-          <div><b>${fmt(e.total)} / 70</b> ${e.apte?'<span class="pill green">Apte</span>':'<span class="pill amber">No apte</span>'}
+          <div><b>${fmt(e.total)} / ${fmt(e.maxTotal??70)}</b> ${e.apte?`<span class="pill green">${esc(lb.passShort)}</span>`:`<span class="pill amber">${esc(lb.fail)}</span>`}
             <div class="muted" style="font-size:.85rem">${ds}</div></div>
           <button class="btn ghost" data-del="${esc(e.id)}">Esborrar</button>
         </div>
         <div class="row" style="margin-top:8px;font-size:.88rem">
-          ${e.n?`<span class="pill">Test: ${fmt(e.scoreA)}/25 · ${e.correct}✓ ${e.wrong}✗ ${e.blank}○</span>`:''}
-          ${e.cases?`<span class="pill">Pràctica: ${fmt(e.scoreB)}/45 · ${e.cases} cas(os)</span>`:''}
+          ${e.n?`<span class="pill">Test: ${fmt(e.scoreA)}/${fmt(e.maxA??25)} · ${e.correct}✓ ${e.wrong}✗ ${e.blank}○</span>`:''}
+          ${e.cases?`<span class="pill">Pràctica: ${fmt(e.scoreB)}/${fmt(e.maxB??45)} · ${e.cases} cas(os)</span>`:''}
           ${e.quiz?'<span class="pill">⚡ quiz</span>':''}
+          ${e.official?'<span class="pill">🎓 simulacre oficial</span>':''}
           ${e.block&&e.block!=='all'?`<span class="pill">${esc(e.block)}</span>`:''}
         </div></div>`;
     }).join('');
@@ -1821,6 +2164,7 @@ function setupSync(){
    VISTA: FONTS OFICIALS
    =========================================================================== */
 function fonts(){
+  if (!hasNorms()){ location.replace('#/' + store.muni() + '/estudi'); return; }
   const norms = DATA.temari.norms;
   const items = Object.keys(norms).map(k=>{
     const n=norms[k];

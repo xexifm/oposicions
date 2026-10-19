@@ -75,6 +75,11 @@ img{max-width:100%}
 .triatxt b{font-family:var(--serif);font-size:1.15rem;font-weight:600}
 .triatxt small{color:var(--ink-soft);font-size:.88rem}
 .triacard .tgo{font-size:1.3rem;color:var(--ink-faint)}
+.triacard.locked{border-style:dashed}
+.triacard.locked .triacrest{opacity:.55}
+.triatxt small.lockwhy{font-size:.8rem;color:var(--ink-faint);margin-top:4px;overflow-wrap:anywhere}
+.offcard{margin:0 0 12px}
+.simlist{display:grid;gap:8px;margin-top:8px}
 .brand b{font-family:var(--serif);font-weight:600;font-size:1rem;line-height:1.1}
 .brand small{display:block;color:var(--ink-faint);font-size:.72rem;font-weight:500}
 .spacer{flex:1}
