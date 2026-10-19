@@ -247,7 +247,7 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
 
 | Clau | Significat |
 |---|---|
-| `label` | Text per a "La puntuació segueix …" |
+| `label` | Text que completa "La puntuació segueix …" (p. ex. "la Base 7.7 de la convocatòria", "el format de pràctica …") |
 | `maxPoints` | Punts màxims del test (la nota s'escala al nombre de preguntes) |
 | `penalty` | Fracció del valor d'una pregunta que resta cada errada (`0.25` = −25 %, `0` = no resta) |
 | `minutes` / `minutesPerQuestion` | Minuts **totals** del simulacre o minuts **per pregunta** (amb `minutes`, en pràctica: `minutes/questions` per pregunta) |
@@ -296,18 +296,18 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
     assignatures (mateixos valors que el de pràctica).
 
   ```json
-  "format": { "label": "pràctica mixta (no és cap prova oficial)", "maxPoints": 10, "penalty": 0,
+  "format": { "label": "el format de pràctica mixta (no és cap prova oficial)", "maxPoints": 10, "penalty": 0,
               "minutesPerQuestion": 1.5, "minScore": 5 },
   "blocks": {
     "1": { "name": "Direcció Estratègica", "format": { "label": "el qüestionari de Direcció Estratègica (30 preguntes, 1 h, mínim 15/30)",
            "questions": 30, "minutes": 60, "maxPoints": 30, "penalty": 0, "minScore": 15 } },
     "2": { "name": "Fonaments de Finances", "format": { "label": "la PAC de Fonaments de Finances (10 preguntes, 1 h, mínim 4,5)",
            "questions": 10, "minutes": 60, "maxPoints": 10, "penalty": 0, "minScore": 4.5 } },
-    "3": { "name": "Innovació i emprenedoria", "format": { "label": "pràctica (l'assignatura s'avalua amb reptes)",
+    "3": { "name": "Innovació i emprenedoria", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
            "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
-    "4": { "name": "Lideratge i gestió d'equips", "format": { "label": "pràctica (l'assignatura s'avalua amb reptes)",
+    "4": { "name": "Lideratge i gestió d'equips", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
            "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
-    "5": { "name": "Gestió del canvi", "format": { "label": "pràctica (l'assignatura s'avalua amb reptes)",
+    "5": { "name": "Gestió del canvi", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
            "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } }
   }
   ```
