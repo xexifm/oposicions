@@ -4,6 +4,7 @@
    - settings és GLOBAL (token/PIN de sincronització, clau d'API, municipi actiu).
    - el progrés (exams, temes repassats, examen en procés) es desa PER MUNICIPI.
    - la sincronització puja/baixa el progrés de TOTS els municipis alhora. */
+// Nom històric: NO canviar-lo (es perdria el progrés desat als dispositius).
 const KEY = 'montornes_oposicio_v1';
 const DEFAULT_MUNI = 'montornes';
 

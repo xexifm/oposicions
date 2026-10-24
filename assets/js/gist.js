@@ -5,6 +5,7 @@
    L'API de GitHub (api.github.com) permet peticions des del navegador (CORS). */
 
 const API = 'https://api.github.com';
+// Nom històric: NO canviar-lo (findGist cerca el Gist existent per aquest nom).
 const FILE = 'montornes-oposicio-progres.json';
 
 function headers(token){
@@ -37,7 +38,7 @@ export async function findGist(token){
 /* Crea el Gist privat de progrés i en retorna l'id. */
 export async function createGist(token, content){
   const body = JSON.stringify({
-    description: 'Progrés oposició Montornès (sincronització — no esborrar)',
+    description: 'Progrés de l\'app d\'estudi (sincronització — no esborrar)',
     public: false,
     files: { [FILE]: { content } },
   });

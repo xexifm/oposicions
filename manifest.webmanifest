@@ -1,13 +1,13 @@
 {
-  "name": "Simulador d'oposicions",
-  "short_name": "Oposicions",
-  "description": "Simulador d'examen, casos pràctics i resums del temari per a oposicions municipals (Montornès del Vallès i Cornellà de Llobregat), amb sincronització entre dispositius.",
+  "name": "Estudi · oposicions i cursos",
+  "short_name": "Estudi",
+  "description": "App d'estudi per a oposicions i cursos: resums, tests, simulacres d'examen, casos pràctics i repàs espaiat, amb sincronització entre dispositius i ús sense connexió.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f3efe6",
-  "theme_color": "#9e1632",
+  "theme_color": "#1d5c63",
   "lang": "ca",
   "icons": [
     { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },

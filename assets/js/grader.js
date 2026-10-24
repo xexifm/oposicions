@@ -54,12 +54,14 @@ export function scoreFromChecks(criteria, checked, maxPoints){
 }
 
 /* --- Mode API de Claude (opcional) --- */
-export async function gradeWithClaude({ apiKey, model, kase, answer }){
+export async function gradeWithClaude({ apiKey, model, kase, answer, evaluator }){
   if (!apiKey) throw new Error('Falta la clau API.');
   const rubric = (kase.criteria || [])
     .map((c,i) => `${i+1}. (${c.weight||1} pts) ${c.label}`).join('\n');
 
-  const sys = `Ets un membre del tribunal qualificador d'una oposició A1 (tècnic/a superior en arquitectura/enginyeria, Ajuntament de Montornès del Vallès). Corregeixes la prova teòric-pràctica (Base 7.7.b) amb rigor jurídic i criteri professional. Valores correcció de les respostes, profunditat, sistemàtica, claredat i capacitat d'anàlisi. Respon NOMÉS amb un objecte JSON vàlid, sense text addicional.`;
+  // evaluator: qui corregeix (depèn de l'oposició o curs); per defecte, el tribunal de Montornès.
+  const who = evaluator || `Ets un membre del tribunal qualificador d'una oposició A1 (tècnic/a superior en arquitectura/enginyeria, Ajuntament de Montornès del Vallès). Corregeixes la prova teòric-pràctica (Base 7.7.b) amb rigor jurídic i criteri professional.`;
+  const sys = `${who} Valores correcció de les respostes, profunditat, sistemàtica, claredat i capacitat d'anàlisi. Respon NOMÉS amb un objecte JSON vàlid, sense text addicional.`;
 
   const user = `CAS PRÀCTIC (tema ${kase.theme}): ${kase.title}
 CONTEXT: ${kase.context}
