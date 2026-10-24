@@ -80,11 +80,60 @@ function blockFormat(b){
   const bf = DATA.temari && DATA.temari.blockFormats && DATA.temari.blockFormats[b];
   return bf ? mergeFormat(generalFormat(), bf) : null;
 }
-/* Format que s'aplica a una selecció de temes: el del bloc si tots són d'un sol
-   bloc amb format propi; si no, el general. */
+/* Format propi d'un tema (p. ex. un repte o mòdul amb examen): temari[].format,
+   que hereta el del bloc (o el general). */
+function themeFormat(num){
+  const t = ((DATA.temari && DATA.temari.temari) || []).find(x=>x.num===Number(num));
+  if (!t || !t.format) return null;
+  return mergeFormat(blockFormat(t.block) || generalFormat(), t.format);
+}
+/* Un tema "té examen" si el seu format fixa el nombre de preguntes. */
+function themeHasExam(num){ const f = themeFormat(num); return !!(f && f.questions); }
+/* L'oposició fa servir formats per tema (llavors la llista d'estudi indica si cada tema té examen). */
+function usesThemeFormats(){ return ((DATA.temari && DATA.temari.temari) || []).some(t=>t.format); }
+/* Simulacres d'un tema amb examen: conjunts fixos (preguntes amb "sim": 1, 2, 3…),
+   que no repeteixen preguntes entre ells, i un d'aleatori. L'últim resultat de
+   cada simulacre surt de l'historial (camp simKey). */
+function themeSims(num){
+  num = Number(num);
+  const f = themeFormat(num); if (!f || !f.questions) return null;
+  const qs = poolQuestions([num]);
+  const exams = store.exams();
+  const last = key => exams.find(e=>e.simKey===key) || null;
+  const sets = [...new Set(qs.map(q=>q.sim).filter(Boolean))].sort((a,b)=>a-b)
+    .map(s=>({ s, key:`${num}-${s}`, n: qs.filter(q=>q.sim===s).length, last: last(`${num}-${s}`) }));
+  return { num, f, total: qs.length, sets, random: { key:`${num}-r`, last: last(`${num}-r`) } };
+}
+function simLastHtml(e){
+  if (!e) return '<span class="muted">pendent</span>';
+  return `<span class="tstat ${e.apte?'good':'bad'}">${fmt(e.scoreA||0)} / ${fmt(e.maxA||0)}</span>`;
+}
+/* Targeta amb els simulacres d'un tema amb examen (vista del tema i configuració de l'examen). */
+function simCardHtml(num, withTitle){
+  const x = themeSims(num); if (!x) return '';
+  const lb = L();
+  const t = DATA.temari.temari.find(y=>y.num===Number(num));
+  const btn = (key, title, sub, last, dis) => `
+    <a class="btn block simbtn${dis?' disabled':''}" ${dis?'':`href="#/sim/${key}"`}>
+      <span><b>${title}</b><br><span class="muted" style="font-size:.8rem;font-weight:400">${sub}</span></span>
+      ${simLastHtml(last)}</a>`;
+  const sets = x.sets.map(s=>btn(s.key, `Simulacre ${s.s}`,
+    `${s.n} preguntes${s.n < x.f.questions ? ` (en calen ${x.f.questions})` : ''} · no es repeteixen amb els altres`, s.last, !s.n)).join('');
+  return `<div class="card offcard">
+    <b>🎓 Simulacres d'examen${withTitle?` · ${esc(lb.theme)} ${num}${t?': '+esc(themeConcept(t)):''}`:''}</b>
+    <p class="muted" style="margin:.3em 0 .5em">${esc(formatDesc(x.f, 0))}. ${x.sets.length
+      ? `Fes primer els ${x.sets.length} simulacres fixos (cap pregunta no es repeteix entre ells) i després els aleatoris.`
+      : 'Encara no hi ha simulacres fixos: fes-ne un d\'aleatori.'}</p>
+    <div class="simlist">${sets}${btn(x.random.key, '🎲 Simulacre aleatori',
+      `${Math.min(x.f.questions, x.total)} preguntes a l'atzar de les ${x.total} disponibles`, x.random.last, !x.total)}</div>
+  </div>`;
+}
+/* Format que s'aplica a una selecció de temes: el del tema si és un de sol amb
+   format propi; el del bloc si tots són d'un sol bloc amb format propi; si no, el general. */
 function formatFor(themes){
   const temari = (DATA.temari && DATA.temari.temari) || [];
   const set = themes ? new Set([...themes].map(Number)) : null;
+  if (set && set.size === 1){ const tf = themeFormat([...set][0]); if (tf) return tf; }
   const blocks = new Set(temari.filter(t=>!set || set.has(t.num)).map(t=>String(t.block)));
   if (blocks.size === 1){ const bf = blockFormat([...blocks][0]); if (bf) return bf; }
   return generalFormat();
@@ -369,6 +418,7 @@ const routes = {
   'historial': historial, 'fonts': fonts,
   'quiz': quizRoute, 'errades': erradesRoute,
   'casquiz': casquizRoute, 'temahist': temahistView,
+  'sim': simRoute,
 };
 let examState = null;
 
@@ -416,7 +466,7 @@ async function render(){
   const fn = routes[route] || estudi;
   view.innerHTML = '';
   // Municipi sense temari carregat encara: les vistes de contingut mostren "en preparació".
-  const needsContent = ['','estudi','tema','examen','fonts','quiz','errades','casquiz','temahist'].includes(route);
+  const needsContent = ['','estudi','tema','examen','fonts','quiz','errades','casquiz','temahist','sim'].includes(route);
   if (needsContent && !contentReady()) prepView();
   else fn(param);
   // navegació: prefixa l'oposició als enllaços i marca l'actiu
@@ -424,7 +474,7 @@ async function render(){
   document.querySelectorAll('[data-route]').forEach(a=>{
     a.href = '#/' + muniSeg + '/' + a.dataset.route;
     a.classList.toggle('active', a.dataset.route === active ||
-      (['tema','quiz','casquiz','temahist'].includes(active) && a.dataset.route==='estudi') ||
+      (['tema','quiz','casquiz','temahist','sim'].includes(active) && a.dataset.route==='estudi') ||
       (active==='errades' && a.dataset.route==='examen'));
   });
   scrollTop();
@@ -842,6 +892,13 @@ function estudi(){
     if (!html) html='<span class="tstat none">sense dades</span>';
     return html;
   }
+  const themeFmt = usesThemeFormats();
+  function examBadge(num){
+    if (!themeFmt) return '';
+    const f = themeFormat(num);
+    if (!f || !f.questions) return '<span class="tstat none" title="S\'avalua sense examen tipus test">sense examen</span>';
+    return `<span class="tstat exam" title="${esc(formatDesc(f, 0))}">🎓 examen · ${f.questions} preg.${f.minutes?` · ${fmt(f.minutes)} min`:''}</span>`;
+  }
   function draw(filter){
     const f = (filter||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
     const match = t => {
@@ -866,10 +923,11 @@ function estudi(){
           <a class="tn" href="#/tema/${t.num}">${t.num}</a>
           <span class="tmid">
             <a class="tt" href="#/tema/${t.num}">${esc(t.title)}</a>
-            <span class="tstats">${doneBadge}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
+            <span class="tstats">${examBadge(t.num)}${doneBadge}${statBadges(t.num)}${hasResum?'':'<span class="tstat none">resum en preparació</span>'}</span>
           </span>
           <span class="tactions">
             <a class="pill practbtn" href="#/quiz/${t.num}" title="Quiz de 5 preguntes d'${esc(lb.thisTheme)}">⚡ Quiz</a>
+            ${themeHasExam(t.num)?`<a class="pill practbtn" href="#/tema/${t.num}" title="Simulacres d'examen d'${esc(lb.thisTheme)}">🎓 Simulacres</a>`:''}
             ${cases?`<a class="pill practbtn" href="#/casquiz/${t.num}" title="Cas pràctic d'${esc(lb.thisTheme)}">⚖️ Cas</a>`:''}
           </span>
         </div>`;
@@ -945,6 +1003,7 @@ function temaView(num){
   view.innerHTML = `
     ${themeNavHtml(num)}
     <a class="backlink" href="#/estudi">← Tornar al temari</a>
+    ${simCardHtml(num, false)}
     <article class="summary card">
       <div class="eyebrow">${esc(lb.block)} ${tema.block} · ${esc(tema.blockName)}</div>
       <h1>${esc(lb.theme)} ${tema.num}</h1>
@@ -1074,7 +1133,10 @@ function examenConfig(){
   }).join('');
 
   // Simulacre oficial: un per cada bloc amb format propi que fixi el nombre de preguntes.
+  const blocksWithThemeExam = new Set(temari.filter(t=>themeHasExam(t.num)).map(t=>String(t.block)));
+  const themeSimCards = temari.filter(t=>themeHasExam(t.num)).map(t=>simCardHtml(t.num, true)).join('');
   const sims = Object.keys(blocks).sort((a,b)=>a-b)
+    .filter(b=>!blocksWithThemeExam.has(String(b)))
     .map(b=>({ b, f:blockFormat(b) }))
     .filter(x=>x.f && x.f.questions)
     .map(x=>({ ...x, nCases: cases && x.f.cases && x.f.cases.count || 0,
@@ -1097,6 +1159,7 @@ function examenConfig(){
     <p class="lead">Tria com vols practicar. La puntuació segueix ${esc(generalFormat().label)}.</p>
     ${pendingBanner}
     ${mistCard}
+    ${themeSimCards}
     ${simCard}
     <div class="card">
       <div class="field"><span>Àmbit · pots triar ${esc(lb.several)}</span>
@@ -1281,6 +1344,7 @@ function startExam(cfg){
   if (!cfg.format) cfg = { ...cfg, format: formatFor(cfg.themes) };
   const set = cfg.themes ? new Set(cfg.themes) : null;
   let pool = poolQuestions(set);
+  if (cfg.simSet) pool = pool.filter(q => String(q.sim) === String(cfg.simSet));
   if (cfg.mistakesOnly){
     // Mode "banc d'errades": només preguntes fallades pendents de dominar.
     const bank = store.mistakes();
@@ -1314,6 +1378,26 @@ function quizRoute(num){
   }
   store.clearPendingExam();
   startExam({ themes:[num], n:5, cases:0, timer:5*minutesPerQ(formatFor([num])), quick:true });
+}
+
+/* Ruta #/sim/N-S: simulacre d'examen d'un tema amb el seu format oficial.
+   S = número de simulacre fix (preguntes amb "sim": S) o "r" (aleatori). */
+function simRoute(param){
+  const [numS, s] = String(param||'').split('-');
+  const num = Number(numS), lb = L();
+  const back = () => { location.hash = '#/' + store.muni() + '/tema/' + (num || ''); };
+  const f = themeFormat(num);
+  if (!f || !f.questions || !s){ back(); return; }
+  let pool = poolQuestions([num]);
+  if (s !== 'r') pool = pool.filter(q=>String(q.sim)===s);
+  if (!pool.length){ alert('Aquest simulacre encara no té preguntes.'); back(); return; }
+  const n = Math.min(f.questions, pool.length);
+  if (n < f.questions && !confirm(`L'examen té ${f.questions} preguntes, però aquest simulacre només en té ${n}. Vols fer-lo igualment?`)){ back(); return; }
+  if (store.pendingExam() && !confirm('Tens un examen en procés que es perdrà si comences aquest simulacre. Vols continuar?')){ back(); return; }
+  store.clearPendingExam();
+  startExam({ themes:[num], n, cases:0, timer: f.minutes || n*minutesPerQ(f), weak:false,
+    official:true, simSet: s==='r' ? null : s, simKey:`${num}-${s}`,
+    simName:`${lb.theme} ${num} · ${s==='r' ? 'simulacre aleatori' : 'simulacre ' + s}`, format: f });
 }
 
 /* Ruta #/casquiz/N: pràctica d'un cas pràctic d'un sol tema (sense test). */
@@ -1718,7 +1802,7 @@ function renderResults(R){
       block: label, quiz: !!examState.cfg.quick, n: examState.qs.length, cases: caseResults.length,
       correct, wrong, blank,
       scoreA: scoreA, scoreB: scoreB2, total: total2,
-      maxA, maxB, maxTotal, official: !!examState.cfg.official,
+      maxA, maxB, maxTotal, official: !!examState.cfg.official, simKey: examState.cfg.simKey || null,
       apte: (scoreA===null||scoreA>=minA) && (scoreB2===null||scoreB2>=minB) && (scoreA!==null||scoreB2!==null),
       themePerf: { q:qPerf, c:casePerf },        // per recalcular estadístiques per tema (i fusionar entre dispositius)
     });

@@ -278,6 +278,10 @@ a.tstat:hover{filter:brightness(.92);text-decoration:underline}
 .tstat.bad{background:var(--red-bg);color:var(--red);border-color:#e6c2bd}
 .tstat.none{background:transparent;color:var(--ink-faint)}
 .tstat.done{background:#eef5ef;color:var(--green);border-color:#cfe3d2}
+.tstat.exam{background:#eef2ff;color:#1f3a8a;border-color:#c7d2fe}
+/* simulacres d'un tema amb examen */
+.simbtn{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left}
+.simbtn.disabled{opacity:.5;pointer-events:none}
 
 /* glossari d'abreviacions */
 .gloss{background:#fbfaf7;border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:0 0 14px}

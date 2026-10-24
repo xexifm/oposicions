@@ -9,7 +9,7 @@
    Les dades d'oposicions PRIVADES (p. ex. UOC MBA) NO van a ASSETS: es llegeixen
    d'api.github.com (un altre origen, no interceptat) i la còpia offline la desa
    l'app a IndexedDB (assets/js/privdata.js). */
-const CACHE = 'montornes-oposicio-v87';
+const CACHE = 'montornes-oposicio-v88';
 const ASSETS = [
   './',
   './index.html',

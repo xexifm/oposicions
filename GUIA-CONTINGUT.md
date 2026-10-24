@@ -244,6 +244,9 @@ Es pot redefinir amb un `format` **general** (arrel de `temari.json`) i un `form
 bloc** (els blocs passen a ser objectes `{ "name": …, "format": {…} }`; també s'accepta
 el format antic `"1": "Nom"`). El del bloc hereta el general i s'aplica quan l'examen és
 d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.questions`).
+També es pot posar `format` a un **tema** (`temari[].format`): hereta el del bloc, s'aplica als exàmens
+d'aquell sol tema i, si té `questions`, el tema «té examen» (distintiu a la llista d'estudi i simulacres
+per tema: els fixos de les preguntes amb `sim` i un d'aleatori; el simulacre del bloc ja no surt).
 
 | Clau | Significat |
 |---|---|
@@ -271,11 +274,22 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
   Es desa una **còpia a IndexedDB** (`assets/js/privdata.js`) per estudiar sense connexió,
   i s'actualitza cada vegada que s'obre l'oposició amb connexió. Sense token ni còpia,
   surt amb un 🔒 al selector.
-- **Numeració:** blocs = **assignatures** (1 Direcció Estratègica, 2 Fonaments de Finances,
-  3 Innovació i emprenedoria, 4 Lideratge i gestió d'equips, 5 Gestió del canvi). Cada tema
-  és un **mòdul o un repte**, amb `num = bloc*100 + n` (p. ex. `401` = Lideratge, repte 1;
-  `203` = Finances, mòdul 3). `blockName` es pot ometre (s'agafa del bloc).
+- **Numeració:** blocs = **assignatures**, en l'ordre de l'aula i amb el codi davant del nom:
+  1 **B2.821** Gestió del canvi, 2 **B2.844** Lideratge i gestió d'equips, 3 **M2.425** Innovació
+  i emprenedoria, 4 **M2.440** Direcció Estratègica, 5 **M2.441** Fonaments de Finances
+  (`"name": "M2.440 · Direcció Estratègica"`). Cada tema és un **mòdul o un repte**, amb
+  `num = bloc*100 + n` (p. ex. `401` = Direcció Estratègica, repte 1; `503` = Finances, mòdul 3).
+  `blockName` es pot ometre (s'agafa del bloc).
 - **Ids de pregunta:** `tNNNqM` (p. ex. `t401q1`), únics; `theme` = `num`, `block` = assignatura.
+- **Temes amb examen** (format per tema, secció 6 bis): un repte o mòdul que s'avalua amb una
+  prova tipus test porta `format` propi a `temari[]` (`questions`, `minutes`, `maxPoints`,
+  `penalty`, `minScore`, `label`). L'app hi posa el distintiu **«🎓 examen · N preg.»** a la llista
+  d'estudi (la resta, «sense examen») i els **simulacres** a la vista del tema i a la configuració
+  de l'examen. Banc de preguntes: **3 × les preguntes de l'examen** (p. ex. 90 per a un examen de
+  30), amb `"sim": 1|2|3` per formar **3 simulacres fixos** que no es repeteixen entre ells i
+  equilibrats per recurs (repartiment en rotació dins de cada recurs); després hi ha el
+  **simulacre aleatori** (N preguntes a l'atzar de totes). Rutes: `#/<muni>/sim/<num>-<1|2|3|r>`.
+  Els temes sense examen no porten `format` ni `sim` (objectiu: 10 preguntes per repte).
 - **`source` i `article`:** a UOC MBA, `source` és el **recurs** (material, lectura, vídeo,
   enunciat del repte…) i `article` la **pàgina o el minut** ("p. 23", "min 12:30"). No hi ha
   `norms`: queda buit (`{}`), i per això l'app amaga les fonts i el glossari.
@@ -285,11 +299,12 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
 - **Format d'examen** (secció 6 bis): **cada assignatura té el seu format** a `blocks[n].format`.
   Només les assignatures amb prova tipus test real tenen `questions` (i, per tant, botó de
   🎓 Simulacre oficial):
-  - **2 Fonaments de Finances**: 10 preguntes, 60 min en total, sense penalització, nota sobre 10,
+  - **5 Fonaments de Finances**: 10 preguntes, 60 min en total, sense penalització, nota sobre 10,
     mínim 4,5 (C−). Un sol intent a l'aula.
-  - **1 Direcció Estratègica**: 30 preguntes, 60 min, sense penalització, sobre 30, mínim 15 (C+).
-    Dos intents a l'aula.
-  - **3 Innovació, 4 Lideratge, 5 Gestió del canvi**: no tenen prova tipus test (s'avaluen amb
+  - **4 Direcció Estratègica**: 30 preguntes, 60 min, sense penalització, sobre 30, mínim 15 (C+).
+    Dos intents a l'aula. Cada prova correspon a un repte: el format va també a cada tema
+    (`401` = R1) i els simulacres per tema substitueixen el de l'assignatura.
+  - **1 Gestió del canvi, 2 Lideratge, 3 Innovació**: no tenen prova tipus test (s'avaluen amb
     reptes), així que el format és de **pràctica**: sense `questions`, sense penalització, nota
     sobre 10, mínim 5, 1,5 min per pregunta, i `label` que ho digui.
   - El `format` **general** de l'arrel només s'aplica als exàmens de pràctica que barregen
@@ -299,17 +314,23 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
   "format": { "label": "el format de pràctica mixta (no és cap prova oficial)", "maxPoints": 10, "penalty": 0,
               "minutesPerQuestion": 1.5, "minScore": 5 },
   "blocks": {
-    "1": { "name": "Direcció Estratègica", "format": { "label": "el qüestionari de Direcció Estratègica (30 preguntes, 1 h, mínim 15/30)",
+    "1": { "name": "B2.821 · Gestió del canvi", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
+           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
+    "2": { "name": "B2.844 · Lideratge i gestió d'equips", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
+           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
+    "3": { "name": "M2.425 · Innovació i emprenedoria", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
+           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
+    "4": { "name": "M2.440 · Direcció Estratègica", "format": { "label": "el qüestionari de Direcció Estratègica (30 preguntes, 1 h, mínim 15/30)",
            "questions": 30, "minutes": 60, "maxPoints": 30, "penalty": 0, "minScore": 15 } },
-    "2": { "name": "Fonaments de Finances", "format": { "label": "la PAC de Fonaments de Finances (10 preguntes, 1 h, mínim 4,5)",
-           "questions": 10, "minutes": 60, "maxPoints": 10, "penalty": 0, "minScore": 4.5 } },
-    "3": { "name": "Innovació i emprenedoria", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
-           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
-    "4": { "name": "Lideratge i gestió d'equips", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
-           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } },
-    "5": { "name": "Gestió del canvi", "format": { "label": "el format de pràctica (l'assignatura s'avalua amb reptes)",
-           "maxPoints": 10, "penalty": 0, "minutesPerQuestion": 1.5, "minScore": 5 } }
+    "5": { "name": "M2.441 · Fonaments de Finances", "format": { "label": "la PAC de Fonaments de Finances (10 preguntes, 1 h, mínim 4,5)",
+           "questions": 10, "minutes": 60, "maxPoints": 10, "penalty": 0, "minScore": 4.5 } }
   }
+  ```
+  I el tema amb examen propi (a `temari[]`):
+  ```json
+  { "num": 401, "title": "Repte 1 · Liderar des del propòsit: l'ADN de l'organització", "block": 4, "sources": [],
+    "format": { "label": "el qüestionari del Repte 1 (30 preguntes, 1 h, mínim 15/30)",
+                "questions": 30, "minutes": 60, "maxPoints": 30, "penalty": 0, "minScore": 15 } }
   ```
 
 ---
@@ -324,6 +345,7 @@ d'un sol bloc i al **🎓 Simulacre oficial** (un botó per bloc amb `format.que
 
 ---
 
-*Última actualització: 2026-10-19 (UOC MBA amb dades privades i format d'examen configurable).
+*Última actualització: 2026-10-24 (UOC MBA: assignatures amb codi i ordre de l'aula, format d'examen per tema i 3 simulacres fixos + aleatori).
+Anterior: 2026-10-19 (UOC MBA amb dades privades i format d'examen configurable).
 Anterior: 2026-07-06 (procés complet de Montornès: 90 resums profunds, 900 preguntes, 180 casos;
 helpers a `tools/`).*
