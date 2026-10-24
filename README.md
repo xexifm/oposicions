@@ -1,11 +1,18 @@
-# Simulador d'oposició · Tècnic/a superior en arquitectura/enginyeria
+# Estudi · app d'estudi per a oposicions i cursos
 
-Web app per preparar el **concurs-oposició lliure** de tècnic/a superior en arquitectura/enginyeria
-de l'**Ajuntament de Montornès del Vallès** (OPO 2024 · BOPB 18-3-2026 · CVE 202610051525).
+Web app per **estudiar i preparar exàmens**: resums del temari, tests amb correcció automàtica,
+simulacres d'examen amb el format oficial, casos pràctics, banc d'errades i repàs espaiat.
+Funciona al **PC i al mòbil**, es pot instal·lar com a **app (PWA)** i s'hi pot estudiar **sense connexió**.
 
-Funciona al **PC i al mòbil**, es pot instal·lar com a **app (PWA)** i estudiar **sense connexió**.
+### Què s'hi pot estudiar
 
-👉 **App en línia:** `https://xexifm.github.io/montornes-del-valles/` *(disponible un cop activat GitHub Pages, vegeu més avall).*
+| | Contingut | On són les dades |
+|---|---|---|
+| **Montornès del Vallès** · tècnic/a superior en arquitectura/enginyeria (OPO 2024 · BOPB 18-3-2026) | 90 temes amb resum, 900 preguntes, 180 casos | [`data/montornes`](./data/montornes) |
+| **Cornellà de Llobregat** · temari general A1, part comuna | 18 temes amb resum, 180 preguntes | [`data/cornella`](./data/cornella) |
+| **UOC MBA** · Màster en Direcció i Administració d'Empreses | assignatures, mòduls i reptes | repositori **privat** `xexifm/uoc-mba-dades` (cal un token; vegeu [`GUIA-CONTINGUT.md`](./GUIA-CONTINGUT.md)) |
+
+Per afegir-ne una de nova, vegeu la checklist de [`GUIA-CONTINGUT.md`](./GUIA-CONTINGUT.md).
 
 ---
 
@@ -13,16 +20,16 @@ Funciona al **PC i al mòbil**, es pot instal·lar com a **app (PWA)** i estudia
 
 | Secció | Descripció |
 |---|---|
-| **📚 Estudi** | Resums detallats dels **90 temes** de l'Annex I amb esquemes i fonts oficials, organitzats en blocs. |
-| **📝 Examen** | **502 preguntes** tipus test amb **correcció automàtica** i puntuació segons la Base 7.7. |
-| **⚖️ Casos** | **25 casos** teòrico-pràctics amb **correcció per criteris** (offline) i opció de **correcció amb Claude**. |
-| **🕓 Historial** | Exàmens desats, notes i progrés d'estudi (tot al navegador). |
-| **🔗 Fonts** | Tota la normativa del temari amb enllaços als textos consolidats (BOE / Portal Jurídic). |
+| **📚 Estudi** | Resums dels temes amb esquemes i, si n'hi ha, fonts oficials; repàs espaiat («et toca repassar»). |
+| **📝 Examen** | Tests amb **correcció automàtica**, simulacres oficials i banc d'errades. |
+| **⚖️ Casos** | Casos pràctics amb **correcció per criteris** (offline) i opció de **correcció amb Claude** (només si l'oposició en té). |
+| **🕓 Historial** | Exàmens desats, notes i progrés d'estudi (tot al dispositiu, amb sincronització opcional). |
 
-### Format oficial reproduït (Base 7.7)
-- **Prova 1 (test):** 4 respostes, **−25%** per errada, no contestades no resten. Màx. **25 punts** (mín. 12,5).
-- **Prova 2 (teòric-pràctica):** supòsits pràctics. Màx. **45 punts** (mín. 22,5).
-- Apte/a si s'arriba als dos mínims.
+### Format d'examen
+Cada oposició o curs pot definir el seu format a `temari.json` (punts, penalització, temps, nombre de
+preguntes i nota mínima; vegeu `GUIA-CONTINGUT.md`). Si no en defineix cap, s'aplica la **Base 7.7 de
+Montornès**: test amb 4 respostes, **−25 %** per errada, màx. **25 punts** (mín. 12,5); prova pràctica
+màx. **45 punts** (mín. 22,5).
 
 ---
 
@@ -44,12 +51,12 @@ Hi ha **dos modes** (configurables a cada cas, a la pantalla de resultats):
 
 ## Afegir contingut (preguntes, casos, resums)
 
-Tot el contingut viu a fitxers JSON dins de [`/data`](./data):
+Tot el contingut viu a fitxers JSON dins de [`/data/<oposició>/`](./data):
 
 - `questions.json` — preguntes tipus test.
 - `cases.json` — casos pràctics + rúbriques.
 - `resums.json` — resums dels temes.
-- `temari.json` — els 90 temes, blocs i fonts oficials *(no cal tocar-lo normalment)*.
+- `temari.json` — els temes, els blocs, les fonts oficials i el format d'examen *(no cal tocar-lo normalment)*.
 
 ### Format d'una pregunta test
 ```json
@@ -81,8 +88,7 @@ Tot el contingut viu a fitxers JSON dins de [`/data`](./data):
 ```
 Les `keywords` són grups de sinònims: el criteri es considera cobert si la resposta menciona prou grups.
 
-> **Estat actual:** 502 preguntes test, 25 casos pràctics i els 90 resums complets. **Objectiu final:**
-> 1000 preguntes i 50 casos; el banc s'amplia **per fases** mantenint la cobertura de tots els 90 temes.
+> Les dades d'oposicions **privades** (UOC MBA) no són aquí sinó al seu repositori privat, amb el mateix esquema.
 
 ---
 
@@ -92,8 +98,7 @@ L'app és un lloc **estàtic** (sense build). La manera més senzilla de publica
 
 1. **Settings → Pages → Build and deployment → Source: _Deploy from a branch_.**
 2. Branca: **`main`** · carpeta: **`/ (root)`** · **Save**.
-3. Al cap d'1-2 minuts la URL apareix a *Settings → Pages*
-   (`https://xexifm.github.io/montornes-del-valles/`).
+3. Al cap d'1-2 minuts la URL apareix a *Settings → Pages*.
 
 El fitxer `.nojekyll` evita que GitHub processi el lloc amb Jekyll.
 

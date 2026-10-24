@@ -11,8 +11,9 @@
   --ink-soft:#4a463f;
   --ink-faint:#7a7468;
   --line:#d8cfbd;
-  --crimson:#9e1632;
-  --crimson-deep:#7a0f25;
+  /* --crimson és el color de l'oposició activa (el posa paintBrand); per defecte, el de l'app */
+  --crimson:#1d5c63;
+  --crimson-deep:#13434a;
   --green:#2f6b3f;
   --green-bg:#e7f0e8;
   --red:#b3261e;
@@ -32,14 +33,14 @@ body{
   font-family:var(--sans);
   color:var(--ink);
   background:
-    radial-gradient(circle at 12% 0%, rgba(158,22,50,.05), transparent 42%),
+    radial-gradient(circle at 12% 0%, color-mix(in srgb, var(--crimson) 5%, transparent), transparent 42%),
     var(--paper);
   min-height:100vh;
   line-height:1.55;
   -webkit-font-smoothing:antialiased;
 }
 a{color:var(--crimson)}
-a:focus-visible,button:focus-visible{outline:3px solid rgba(158,22,50,.4);outline-offset:2px}
+a:focus-visible,button:focus-visible{outline:3px solid color-mix(in srgb, var(--crimson) 40%, transparent);outline-offset:2px}
 img{max-width:100%}
 
 /* ---- Layout ---- */
@@ -54,6 +55,7 @@ img{max-width:100%}
 .brand .crest{width:34px;height:34px;border-radius:8px;background:var(--crest-color,var(--crimson));color:#fff;
   display:grid;place-items:center;font-family:var(--serif);font-weight:900;flex:0 0 auto;overflow:hidden}
 .brand .crest img{width:100%;height:100%;object-fit:contain;background:#fff}
+.brand .crest img.appicon{background:none}
 
 /* --- capçal de municipi (a la pantalla d'inici) --- */
 .munibar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;

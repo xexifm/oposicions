@@ -10,14 +10,22 @@ import { cacheGet, cachePut, cacheDelete, fetchPrivateAny } from './privdata.js'
 const view = document.getElementById('view');
 const DATA = { temari:null, resums:null, questions:null, cases:null, _muni:null };
 
-/* ---------- municipis (oposicions) ---------- */
+/* ---------- oposicions i cursos que es poden estudiar ----------
+   (l'objecte es diu MUNIS perquè les primeres eren de municipis). Camps opcionals:
+   shield (logo), colorDeep (color fosc dels botons), grader (qui corregeix els
+   casos amb Claude), portal i notice (pàgina de fonts), labels, private. */
+const APP_NAME = 'Estudi';
+const APP_COLOR = '#1d5c63', APP_COLOR_DEEP = '#13434a';   // color de l'app fora de cap oposició
 const MUNIS = {
   montornes: {
     id:'montornes', dir:'montornes',
     name:'Montornès del Vallès', short:'Montornès',
     role:'Tècnic/a superior · arquitectura/enginyeria',
-    crest:'M', color:'#9e1632', shield:null,
+    crest:'M', color:'#9e1632', colorDeep:'#7a0f25', shield:'assets/icons/montornes-logo.png',
     web:'https://www.montornes.cat',
+    grader:'Ets un membre del tribunal qualificador d\'una oposició A1 (tècnic/a superior en arquitectura/enginyeria, Ajuntament de Montornès del Vallès). Corregeixes la prova teòric-pràctica (Base 7.7.b) amb rigor jurídic i criteri professional.',
+    portal:{ name:'Ajuntament de Montornès', url:'https://www.montornes.cat' },
+    footnote:'Convocatòria BOPB 18-3-2026, CVE 202610051525.',
   },
   cornella: {
     id:'cornella', dir:'cornella',
@@ -25,6 +33,8 @@ const MUNIS = {
     role:'Temari general A1 · part comuna (18 temes)',
     crest:'C', color:'#a61a2f', shield:'assets/icons/cornella-escut.svg',
     web:'https://www.cornella.cat',
+    grader:'Ets un membre del tribunal qualificador d\'una oposició A1 de l\'Ajuntament de Cornellà de Llobregat (temari general, part comuna). Corregeixes un supòsit pràctic amb rigor jurídic i criteri professional.',
+    portal:{ name:'Ajuntament de Cornellà', url:'https://www.cornella.cat' },
   },
   // Oposició amb dades PRIVADES: el contingut no és a data/ (repositori públic)
   // sinó al repositori privat indicat, i es llegeix amb un token (vegeu loadData).
@@ -32,8 +42,9 @@ const MUNIS = {
     id:'uoc-mba',
     name:'UOC MBA', short:'UOC MBA', title:'UOC MBA',
     role:'Màster en Direcció i Administració d\'Empreses',
-    crest:'U', color:'#0B2E7A', shield:null,
+    crest:'U', color:'#0B2E7A', shield:'assets/icons/uoc-logo.png',
     web:'https://www.uoc.edu',
+    grader:'Ets professor/a col·laborador/a del Màster en Direcció i Administració d\'Empreses (MBA) de la UOC. Corregeixes un cas pràctic amb criteri acadèmic i professional, aplicant correctament els conceptes i models de l\'assignatura.',
     private:{ repo:'xexifm/uoc-mba-dades', path:'data/uoc-mba/' },
     labels:{ kind:'Màster', block:'Assignatura', blocks:'assignatures', theme:'Mòdul / repte', themes:'mòduls / reptes',
              aTheme:'un mòdul / repte', thisTheme:'aquest mòdul / repte', several:'diverses assignatures o mòduls / reptes',
@@ -162,18 +173,31 @@ function formatDesc(f, nCases){
 }
 
 /* Actualitza la marca (escut + títol) de la barra superior segons el municipi. */
-function paintBrand(){
-  const m = activeMuni();
+/* Al selector i a la configuració (m = null) es mostra la marca de l'app. */
+function paintBrand(m = activeMuni()){
   const crestEl = byId('crest'), titEl = byId('brandtitle'), subEl = byId('brandsub');
   if (!crestEl) return;
-  if (!m){ crestEl.textContent = '·'; crestEl.style.removeProperty('--crest-color');
-    if (titEl) titEl.textContent = 'Simulador d\'oposicions'; if (subEl) subEl.textContent = 'Tria l\'oposició';
+  // El color de l'oposició (o el de l'app, al selector) tenyeix botons, pestanyes i enllaços.
+  paintColor(m ? m.color : APP_COLOR, m ? (m.colorDeep || shade(m.color, 0.78)) : APP_COLOR_DEEP);
+  if (!m){ crestEl.innerHTML = '<img class="appicon" src="assets/icons/icon-192.png" alt="">'; crestEl.style.removeProperty('--crest-color');
+    if (titEl) titEl.textContent = APP_NAME; if (subEl) subEl.textContent = 'Tria què vols estudiar';
     return; }
   crestEl.style.setProperty('--crest-color', m.color);
   crestEl.innerHTML = m.shield ? `<img src="${m.shield}" alt="${esc(m.short)}">` : esc(m.crest);
   if (titEl) titEl.textContent = m.title || ('Oposició ' + m.short);
   if (subEl) subEl.textContent = m.role;
-  document.documentElement.style.setProperty('--brand', m.color);
+}
+function paintColor(c, deep){
+  const root = document.documentElement.style;
+  root.setProperty('--crimson', c); root.setProperty('--crimson-deep', deep);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', c);
+}
+/* Enfosqueix un color #rrggbb (f < 1). */
+function shade(hex, f){
+  const n = parseInt(hex.slice(1), 16);
+  const ch = k => Math.round(((n >> k) & 255) * f).toString(16).padStart(2, '0');
+  return '#' + ch(16) + ch(8) + ch(0);
 }
 
 /* ---------- utilitats ---------- */
@@ -437,7 +461,7 @@ async function render(){
   if (!muniSeg){
     // Rutes globals (sense oposició): selector i configuració.
     if (route === 'config'){
-      paintBrand();
+      paintBrand(null);
       view.innerHTML = '';
       configView();
       document.querySelectorAll('[data-route]').forEach(a=>a.classList.remove('active'));
@@ -451,7 +475,7 @@ async function render(){
       return;
     }
     // Selector d'oposició.
-    paintBrand();
+    paintBrand(null);
     view.innerHTML = '';
     triaView();
     document.querySelectorAll('[data-route]').forEach(a=>a.classList.remove('active'));
@@ -576,12 +600,12 @@ function prepView(){
   view.innerHTML = `
     <a class="backlink" href="#/">← Inici</a>
     <section class="hero">
-      <div class="eyebrow">Oposició · ${esc(m.short)}</div>
+      <div class="eyebrow">${esc(L().kind)} · ${esc(m.short)}</div>
       <h1>Temari en preparació</h1>
-      <p class="lead">El contingut de l'oposició de <b>${esc(m.name)}</b> (resums, preguntes i casos) encara
-      s'està preparant. Torna-hi ben aviat. Mentrestant pots preparar-te l'altra oposició disponible.</p>
+      <p class="lead">El contingut de <b>${esc(m.name)}</b> (resums, preguntes${hasCases()?' i casos':''}) encara
+      s'està preparant. Torna-hi ben aviat. Mentrestant pots estudiar qualsevol de les altres.</p>
       <div class="row" style="margin-top:14px">
-        <a class="btn primary lg" href="#/">Canvia d'oposició</a>
+        <a class="btn primary lg" href="#/">Tria'n una altra</a>
       </div>
     </section>`;
 }
@@ -589,7 +613,7 @@ function prepView(){
 /* Oposició privada sense dades: explica per què i com obtenir-les. */
 function privLockView(m, pv){
   const why = {
-    notoken: `Aquesta oposició fa servir <b>dades privades</b> (repositori <code>${esc(m.private.repo)}</code>).
+    notoken: `Aquest contingut fa servir <b>dades privades</b> (repositori <code>${esc(m.private.repo)}</code>).
       Per veure-les cal un token de GitHub amb permís de lectura sobre aquest repositori.`,
     noaccess: `El token desat no té accés al repositori privat <code>${esc(m.private.repo)}</code>.
       Afegeix un <b>Token de dades privades</b> amb accés a aquest repositori.`,
@@ -604,7 +628,7 @@ function privLockView(m, pv){
       <p class="lead">${why}</p>
       <div class="row" style="margin-top:14px">
         <a class="btn primary lg" href="#/config?priv">⚙️ Configura el token</a>
-        <a class="btn ghost lg" href="#/">Canvia d'oposició</a>
+        <a class="btn ghost lg" href="#/">Tria'n una altra</a>
       </div>
     </section>`;
 }
@@ -631,10 +655,11 @@ function triaView(){
   };
   view.innerHTML = `
     <section class="hero" style="text-align:center">
-      <div class="eyebrow">Simulador d'oposicions</div>
-      <h1>Tria l'oposició</h1>
-      <p class="lead" style="margin-inline:auto">Selecciona a quina oposició et vols preparar. El progrés (temes
-      repassats i exàmens) es desa per separat per a cada oposició, però la sincronització entre dispositius ho puja tot.</p>
+      <div class="eyebrow">${APP_NAME}</div>
+      <h1>Què vols estudiar?</h1>
+      <p class="lead" style="margin-inline:auto">Tria l'oposició o el curs que vols preparar: resums, tests,
+      simulacres d'examen i repàs espaiat. El progrés es desa per separat per a cadascun, però la sincronització
+      entre dispositius ho puja tot.</p>
     </section>
     <div class="trialist">
       ${Object.values(MUNIS).map(card).join('')}
@@ -656,9 +681,9 @@ function triaView(){
 function configView(){
   const s = store.settings();
   view.innerHTML = `
-    <a class="backlink" href="#/">← Tria d'oposició</a>
+    <a class="backlink" href="#/">← Inici</a>
     <h1>Configuració</h1>
-    <p class="lead">Aquests ajustos són globals: valen per a totes les oposicions i es desen en aquest dispositiu.</p>
+    <p class="lead">Aquests ajustos són globals: valen per a totes les oposicions i cursos i es desen en aquest dispositiu.</p>
 
     <div class="card" id="apicard">
       <h2 style="margin:0 0 4px">🤖 Correcció dels casos amb Claude</h2>
@@ -866,7 +891,7 @@ function estudi(){
   view.innerHTML = `
     <div class="munibar">
       <span class="munilabel">${esc(lb.kind)}: <b>${esc(m.name)}</b>${copyNote?' '+copyNote:''}</span>
-      <a class="btn ghost sm" href="#/">Canvia d'oposició</a>
+      <a class="btn ghost sm" href="#/" title="Tria una altra oposició o curs">Canvia</a>
     </div>
     ${dueCard}${mistCard}
     <h1>Estudi del temari</h1>
@@ -1647,7 +1672,7 @@ async function autoGradeWithClaude(R){
   let failed = null;
   for (const {c, ans} of answered){
     try {
-      ans.claude = await gradeWithClaude({ apiKey:key, model: s.apiModel, kase:c, answer:ans.text });
+      ans.claude = await gradeWithClaude({ apiKey:key, model: s.apiModel, kase:c, answer:ans.text, evaluator: muniConf().grader });
     } catch(e){
       failed = (e && e.message) ? e.message : 'error desconegut';
     }
@@ -1944,7 +1969,7 @@ function renderReviewB(caseResults, caseMax){
     store.setSetting('apiKey', apiKey); store.setSetting('apiModel', model);
     btn.disabled=true; out.innerHTML='<p class="muted">Corregint amb Claude…</p>';
     try{
-      const res = await gradeWithClaude({ apiKey, model, kase: caseResults[i].c, answer: caseResults[i].ans.text });
+      const res = await gradeWithClaude({ apiKey, model, kase: caseResults[i].c, answer: caseResults[i].ans.text, evaluator: muniConf().grader });
       caseResults[i].ans.claude = res;
       out.innerHTML = renderClaude(res, caseMax);
       const badge = wrap.querySelector(`[data-pts="${i}"]`);
@@ -2076,7 +2101,7 @@ function trendChartHtml(exams){
     <svg viewBox="0 0 ${W} ${H}" class="trend" role="img" aria-label="Evolució de la nota dels exàmens">
       <line x1="${PX}" y1="${ys(50).toFixed(1)}" x2="${W-PX}" y2="${ys(50).toFixed(1)}" stroke="#c9a227" stroke-dasharray="4 3" stroke-width="1"/>
       <text x="${W-PX}" y="${(ys(50)-4).toFixed(1)}" text-anchor="end" font-size="9" fill="#c9a227">50% (mínim)</text>
-      <polyline points="${pts}" fill="none" stroke="#9e1632" stroke-width="2" stroke-linejoin="round"/>
+      <polyline points="${pts}" fill="none" style="stroke:var(--crimson)" stroke-width="2" stroke-linejoin="round"/>
       ${dots}
     </svg>
     <p class="muted" style="margin:.4em 0 0;font-size:.82rem">Percentatge de la nota sobre el màxim de cada examen
@@ -2163,7 +2188,7 @@ function historial(){
   }
   view.innerHTML = html;
   const clr = byId('clearAll');
-  if (clr) clr.addEventListener('click', ()=>{ if(confirm('Esborrar tot l\'historial d\'aquesta oposició?')){ store.clearExams(); render(); }});
+  if (clr) clr.addEventListener('click', ()=>{ if(confirm('Esborrar tot l\'historial de ' + muniConf().short + '?')){ store.clearExams(); render(); }});
   $$('[data-del]').forEach(b=>b.addEventListener('click', ()=>{ store.deleteExam(b.dataset.del); render(); }));
   const hr = byId('histResume'); if (hr) hr.addEventListener('click', resumeExam);
   const hd = byId('histDiscard'); if (hd) hd.addEventListener('click', ()=>{
@@ -2177,11 +2202,11 @@ function syncCardHtml(){
   return `
     <div class="card" id="synccard" style="margin-top:18px">
       <h2 style="margin:0 0 4px">🔄 Sincronitza entre dispositius</h2>
-      <p class="muted" style="margin:0 0 10px">El progrés (temes repassats i exàmens de <b>totes</b> les oposicions)
+      <p class="muted" style="margin:0 0 10px">El progrés (temes repassats i exàmens de <b>totes</b> les oposicions i cursos)
       es desa a cada dispositiu. Amb aquesta opció es puja i es baixa <b>automàticament</b> a un Gist <b>privat</b> del teu
       compte de GitHub, xifrat amb un <b>PIN</b>. Ningú no hi té accés sense el PIN i el token es desa només
       en aquest dispositiu. Passos: 1) crea un token de GitHub
-      <a href="https://github.com/settings/tokens/new?scopes=gist&description=Simulador%20oposicions" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>;
+      <a href="https://github.com/settings/tokens/new?scopes=gist&description=App%20d%27estudi%20(sincronitzaci%C3%B3)" target="_blank" rel="noopener noreferrer">aquí (només permís «gist») ↗</a>;
       2) posa un PIN i el token i activa-ho. Al segon dispositiu, fes servir <b>el mateix PIN</b> i el seu token.</p>
       <label class="field"><span>PIN (mínim 4 caràcters · el mateix a tots els dispositius)</span>
         <input id="syncpin" type="password" inputmode="numeric" autocomplete="off" placeholder="El teu PIN"></label>
@@ -2249,7 +2274,7 @@ function setupSync(){
    =========================================================================== */
 function fonts(){
   if (!hasNorms()){ location.replace('#/' + store.muni() + '/estudi'); return; }
-  const norms = DATA.temari.norms;
+  const norms = DATA.temari.norms, m = muniConf();
   const items = Object.keys(norms).map(k=>{
     const n=norms[k];
     return `<a class="srcchip" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">${esc(n.name)} ↗</a>`;
@@ -2265,13 +2290,13 @@ function fonts(){
       <div class="srclist">
         <a class="srcchip" href="https://www.boe.es/legislacion/" target="_blank" rel="noopener noreferrer">BOE · Legislació consolidada ↗</a>
         <a class="srcchip" href="https://portaljuridic.gencat.cat" target="_blank" rel="noopener noreferrer">Portal Jurídic de Catalunya ↗</a>
-        <a class="srcchip" href="https://www.montornes.cat" target="_blank" rel="noopener noreferrer">Ajuntament de Montornès ↗</a>
+        ${m.portal?`<a class="srcchip" href="${esc(m.portal.url)}" target="_blank" rel="noopener noreferrer">${esc(m.portal.name)} ↗</a>`:''}
         <a class="srcchip" href="https://bop.diba.cat" target="_blank" rel="noopener noreferrer">BOPB (Diputació de Barcelona) ↗</a>
       </div>
     </div>
-    <div class="notice">⚠️ <b>Urbanisme:</b> el TRLUC (DL 1/2010) va ser modificat per la Llei 11/2025 i el
-    Decret llei 2/2025, vigents des del 31-12-2025. Contrasta sempre amb el text consolidat del Portal Jurídic.</div>
-    <footer class="foot">Material d'estudi no oficial · Convocatòria BOPB 18-3-2026, CVE 202610051525.
+    ${norms.TRLUC ? `<div class="notice">⚠️ <b>Urbanisme:</b> el TRLUC (DL 1/2010) va ser modificat per la Llei 11/2025 i el
+    Decret llei 2/2025, vigents des del 31-12-2025. Contrasta sempre amb el text consolidat del Portal Jurídic.</div>` : ''}
+    <footer class="foot">Material d'estudi no oficial${m.footnote ? ' · ' + esc(m.footnote) : ''}
     Verifica sempre el contingut amb la normativa vigent.</footer>`;
 }
 
