@@ -31,7 +31,7 @@ const MUNIS = {
     id:'cornella', dir:'cornella',
     name:'Cornellà de Llobregat', short:'Cornellà',
     role:'Temari general A1 · part comuna (18 temes)',
-    crest:'C', color:'#a61a2f', shield:'assets/icons/cornella-escut.svg',
+    crest:'C', color:'#a61a2f', shield:'assets/icons/cornella-escut.png',
     web:'https://www.cornella.cat',
     grader:'Ets un membre del tribunal qualificador d\'una oposició A1 de l\'Ajuntament de Cornellà de Llobregat (temari general, part comuna). Corregeixes un supòsit pràctic amb rigor jurídic i criteri professional.',
     portal:{ name:'Ajuntament de Cornellà', url:'https://www.cornella.cat' },
