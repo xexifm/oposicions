@@ -654,13 +654,7 @@ function triaView(){
       </button>`;
   };
   view.innerHTML = `
-    <section class="hero" style="text-align:center">
-      <div class="eyebrow">${APP_NAME}</div>
-      <h1>Què vols estudiar?</h1>
-      <p class="lead" style="margin-inline:auto">Tria l'oposició o el curs que vols preparar: resums, tests,
-      simulacres d'examen i repàs espaiat. El progrés es desa per separat per a cadascun, però la sincronització
-      entre dispositius ho puja tot.</p>
-    </section>
+    <h1 class="triatitle">Què vols estudiar?</h1>
     <div class="trialist">
       ${Object.values(MUNIS).map(card).join('')}
     </div>
