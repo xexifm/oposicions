@@ -21,7 +21,7 @@ const MUNIS = {
     id:'montornes', dir:'montornes',
     name:'Montornès del Vallès', short:'Montornès',
     role:'Tècnic/a superior · arquitectura/enginyeria',
-    crest:'M', color:'#9e1632', colorDeep:'#7a0f25', shield:'assets/icons/montornes-logo.png',
+    crest:'M', color:'#9e1632', colorDeep:'#7a0f25', shield:'assets/icons/montornes-escut.png',
     web:'https://www.montornes.cat',
     grader:'Ets un membre del tribunal qualificador d\'una oposició A1 (tècnic/a superior en arquitectura/enginyeria, Ajuntament de Montornès del Vallès). Corregeixes la prova teòric-pràctica (Base 7.7.b) amb rigor jurídic i criteri professional.',
     portal:{ name:'Ajuntament de Montornès', url:'https://www.montornes.cat' },
